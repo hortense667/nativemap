@@ -269,7 +269,7 @@
   const LS_KEYS=['timelineEventsV2','timelineEventsV1'];
   const GENRES=['ANI','MAN','GAM','TVP','MOV','NET','HAR','PHE','UNC'];
   const GENRE_SET=new Set(GENRES);
-  function normalizeItem(it){ if(typeof it==='string') return {label: it}; const o={ label: it.label||'' }; if(it.genre) o.genre = String(it.genre).toUpperCase(); if(it.imp!==undefined && it.imp!==null && String(it.imp)!==''){ const n = parseInt(it.imp,10); if(n>=1 && n<=5) o.imp=n; else o.imp=''; } if(it.url) o.url = it.url; return o; }
+  function normalizeItem(it){ if(typeof it==='string') return {label: it}; const o={ label: it.label||'' }; if(it.genre) o.genre = String(it.genre).toUpperCase(); if(it.imp!==undefined && it.imp!==null && String(it.imp)!==''){ const n = parseInt(it.imp,10); if(n>=1 && n<=5) o.imp=n; else o.imp=''; } if(it.url) o.url = it.url; if(it.note) o.note = it.note; return o; }
   function normalizeAll(obj){ const out={}; for(const y of Object.keys(obj)){ const arr = Array.isArray(obj[y])? obj[y] : []; out[y] = arr.map(normalizeItem).filter(it=>it.label); } return out; }
   function loadEvents(){ for(const k of LS_KEYS){ try{ const s=localStorage.getItem(k); if(s){ return normalizeAll(JSON.parse(s)); } }catch(e){} } try{ const txt=document.getElementById('events-json').textContent.trim(); return normalizeAll(JSON.parse(txt)); } catch(e){ console.error('embedded JSON parse failed', e); return {}; } }
   function saveEvents(){ try{ localStorage.setItem('timelineEventsV2', JSON.stringify(events)); }catch(e){} }
@@ -298,16 +298,16 @@
   function positionTooltip(e){const r=vp.getBoundingClientRect();tooltip.style.left=(e.clientX-r.left+14)+'px';tooltip.style.top=(e.clientY-r.top+14)+'px';}
 
   // ===== 編集UI（テキスト） =====
-  function serializeLine(it){ const label=(it.label||'').trim(); const g=(it.genre||'').trim(); const imp=(it.imp===undefined||it.imp===null||String(it.imp)==='')? '' : String(it.imp); const url=(it.url||'').trim(); if(!g && !imp && !url) return label; return [label,g,imp,url].join(';'); }
-  function parseLine(line){ const raw=line.trim(); if(!raw) return null; const parts=raw.split(';'); const label=(parts[0]||'').trim(); if(!label) return null; const genre=(parts[1]||'').trim().toUpperCase(); let imp=(parts[2]||'').trim(); imp = imp? String(Math.min(5, Math.max(1, parseInt(imp,10)))): ''; const url=(parts[3]||'').trim(); const o={label}; if(genre) o.genre=genre; if(imp) o.imp=imp; if(url) o.url=url; return o; }
+  function serializeLine(it){ const label=(it.label||'').trim(); const g=(it.genre||'').trim(); const imp=(it.imp===undefined||it.imp===null||String(it.imp)==='')? '' : String(it.imp); const url=(it.url||'').trim(); const note=(it.note||'').trim(); if(!g && !imp && !url && !note) return label; return [label,g,imp,url,note].join(';'); }
+  function parseLine(line){ const raw=line.trim(); if(!raw) return null; const parts=raw.split(';'); const label=(parts[0]||'').trim(); if(!label) return null; const genre=(parts[1]||'').trim().toUpperCase(); let imp=(parts[2]||'').trim(); imp = imp? String(Math.min(5, Math.max(1, parseInt(imp,10)))): ''; const url=(parts[3]||'').trim(); const note=(parts[4]||'').trim(); const o={label}; if(genre) o.genre=genre; if(imp) o.imp=imp; if(url) o.url=url; if(note) o.note=note; return o; }
   function validateItem(year, it){ const errs=[]; if(it.genre && !GENRE_SET.has(String(it.genre).toUpperCase())) errs.push(`不正なジャンル: ${it.genre}`); if(it.imp!==undefined && it.imp!=='' && !(parseInt(it.imp,10)>=1 && parseInt(it.imp,10)<=5)) errs.push(`不正な重要度: ${it.imp}`); if(!(Number.isInteger(year) && year>=YEAR_MIN && year<=YEAR_MAX)) errs.push(`年の範囲外: ${year}`); return errs; }
   function linesFromItems(items){ return items.map(serializeLine).join('\n'); }
 
   function showEditor(year, anchor){
     clearHighlight(); const all = events[year]||[]; const items = all.filter(passesFilter); const note = (filterGenre||filterImp) ? '（現在のフィルタに一致する項目のみ編集対象）' : '';
     editor.innerHTML = `
-      <h4><span>${year}年の項目 ${note}</span><span class="fmt">ラベル;ジャンル;重要度;URL</span></h4>
-      <textarea id="edText" placeholder="1行につき1件\n形式：ラベル;ジャンル;重要度;URL\n例）\n任天堂ファミコン;GAM;5;https://ja.wikipedia.org/wiki/ファミリーコンピュータ\nラベル;;;https://example.com\nラベル"></textarea>
+      <h4><span>${year}年の項目 ${note}</span><span class="fmt">ラベル;ジャンル;重要度;URL;注釈</span></h4>
+      <textarea id="edText" placeholder="1行につき1件\n形式：ラベル;ジャンル;重要度;URL;注釈\n例）\n任天堂ファミコン;GAM;5;https://ja.wikipedia.org/wiki/ファミリーコンピュータ;家庭用ゲーム機の革命\nラベル;;;https://example.com;補足メモ\nラベル"></textarea>
       <div class="row">
         <div class="left">保存でJSONに反映／Ctrl+Enterでも保存・Escで閉じる</div>
         <div class="right">
@@ -350,6 +350,7 @@
           if (item.genre) content += ` <span style="color:#666;">[${item.genre}]</span>`;
           if (item.imp) content += ` <span style="color:#666;">★${item.imp}</span>`;
           if (item.url) content += `<br><small><a href="${item.url}" target="_blank" style="color:#0066cc;">${item.url}</a></small>`;
+          if (item.note) content += `<br><small style="color:#666; font-style:italic;">${item.note}</small>`;
           content += '</li>';
           return content;
         }).join('');
@@ -661,12 +662,13 @@
       const raw=lines[i].trim(); if(!raw) continue;
       const cols=raw.split(delim);
       if(i===0 && /年/.test(cols[0])) continue;
-      if(cols.length<2){ errors.push(`${i+1}行目: 列数不足（年${delim}ラベル${delim}ジャンル${delim}重要度${delim}注釈）`); continue; }
+      if(cols.length<2){ errors.push(`${i+1}行目: 列数不足（年${delim}ラベル${delim}ジャンル${delim}重要度${delim}URL${delim}注釈）`); continue; }
       const yearStr=(cols[0]||'').trim();
       const label=(cols[1]||'').trim();
       const genre=(cols[2]||'').trim().toUpperCase();
       const impStr=(cols[3]||'').trim();
       const url=(cols[4]||'').trim();
+      const note=(cols[5]||'').trim();
       const year = parseInt(yearStr,10);
       if(!(yearStr.match(/^\d{4}$/) && year>=YEAR_MIN && year<=YEAR_MAX)){
         errors.push(`${i+1}行目: 年が不正または範囲外（${yearStr}）`); continue;
@@ -675,7 +677,7 @@
       if(seen.has(label)) { errors.push(`${i+1}行目: 同じ名称のラベル項目が存在しますが登録します（${label}）`); }
       if(genre && !GENRE_SET.has(genre)){ errors.push(`${i+1}行目: 不正なジャンル（${genre}）`); continue; }
       if(impStr){ const n=parseInt(impStr,10); if(!(n>=1 && n<=5)){ errors.push(`${i+1}行目: 不正な重要度（${impStr}）`); continue; } }
-      const item={ label }; if(genre) item.genre=genre; if(impStr) item.imp=parseInt(impStr,10); if(url) item.url=url;
+      const item={ label }; if(genre) item.genre=genre; if(impStr) item.imp=parseInt(impStr,10); if(url) item.url=url; if(note) item.note=note;
       if(!events[year]) events[year]=[]; events[year].push(item); seen.add(label); addedCount++;
     }
     return {addedCount, errors};
