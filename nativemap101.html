@@ -327,8 +327,7 @@
       </div>
       <div style="text-align: right; margin-top: 16px;">
         <button class="btn" onclick="addNewItem(${year})">追加</button>
-        <button class="btn" onclick="showEditor(${year}, null)" style="margin-left: 8px;">一括編集</button>
-        ${items.length === 0 ? '<button class="btn" onclick="closeModal()" style="margin-left: 8px;">閉じる</button>' : ''}
+        <button class="btn" onclick="closeModal()" style="margin-left: 8px;">閉じる</button>
       </div>
     `;
     
@@ -381,78 +380,78 @@
   }
 
   function addNewItem(year) {
-    const newItem = { label: '' };
-    if (!events[year]) {
-      events[year] = [];
-    }
-    events[year].push(newItem);
-    const index = events[year].length - 1;
     closeModal();
-    showEditModal(year, index, newItem);
+    showEditModal(year, -1, { label: '' });
   }
 
-  // 個別編集用モーダル
+  // 個別編集用ポップアップ
   function showEditModal(year, index, item) {
-    const editHtml = `
-      <div style="max-width: 500px;">
-        <div style="margin-bottom: 16px;">
-          <label style="display: block; margin-bottom: 4px; font-weight: bold;">ラベル:</label>
-          <input type="text" id="editLabel" value="${item.label || ''}" style="width: 100%; padding: 8px; border: 1px solid #ddd; border-radius: 4px;">
-        </div>
-        
-        <div style="margin-bottom: 16px;">
-          <label style="display: block; margin-bottom: 4px; font-weight: bold;">ジャンル:</label>
-          <select id="editGenre" style="width: 100%; padding: 8px; border: 1px solid #ddd; border-radius: 4px;">
-            <option value="">選択してください</option>
-            <option value="ANI" ${item.genre === 'ANI' ? 'selected' : ''}>アニメ</option>
-            <option value="MAN" ${item.genre === 'MAN' ? 'selected' : ''}>マンガ</option>
-            <option value="GAM" ${item.genre === 'GAM' ? 'selected' : ''}>ゲーム</option>
-            <option value="TVP" ${item.genre === 'TVP' ? 'selected' : ''}>テレビ番組</option>
-            <option value="MOV" ${item.genre === 'MOV' ? 'selected' : ''}>映画</option>
-            <option value="NET" ${item.genre === 'NET' ? 'selected' : ''}>インターネット</option>
-            <option value="HAR" ${item.genre === 'HAR' ? 'selected' : ''}>ハードウェア</option>
-            <option value="PHE" ${item.genre === 'PHE' ? 'selected' : ''}>現象・流行</option>
-            <option value="UNC" ${item.genre === 'UNC' ? 'selected' : ''}>その他</option>
-          </select>
-        </div>
-        
-        <div style="margin-bottom: 16px;">
-          <label style="display: block; margin-bottom: 4px; font-weight: bold;">重要度:</label>
-          <select id="editImp" style="width: 100%; padding: 8px; border: 1px solid #ddd; border-radius: 4px;">
-            <option value="">選択してください</option>
-            <option value="5" ${item.imp === 5 ? 'selected' : ''}>5 - 時代を代表する重要イベント</option>
-            <option value="4" ${item.imp === 4 ? 'selected' : ''}>4 - 大きな影響を与えたイベント</option>
-            <option value="3" ${item.imp === 3 ? 'selected' : ''}>3 - 一般的に知られているイベント</option>
-            <option value="2" ${item.imp === 2 ? 'selected' : ''}>2 - 特定分野で重要なイベント</option>
-            <option value="1" ${item.imp === 1 ? 'selected' : ''}>1 - 参考程度のイベント</option>
-          </select>
-        </div>
-        
-        <div style="margin-bottom: 16px;">
-          <label style="display: block; margin-bottom: 4px; font-weight: bold;">URL:</label>
-          <input type="url" id="editUrl" value="${item.url || ''}" style="width: 100%; padding: 8px; border: 1px solid #ddd; border-radius: 4px;" placeholder="https://example.com">
-        </div>
-        
-        <div style="margin-bottom: 16px;">
-          <label style="display: block; margin-bottom: 4px; font-weight: bold;">注釈:</label>
-          <textarea id="editNote" style="width: 100%; padding: 8px; border: 1px solid #ddd; border-radius: 4px; height: 80px;" placeholder="補足説明やメモ">${item.note || ''}</textarea>
-        </div>
-        
-        <div style="text-align: right;">
-          <button class="btn" onclick="closeModal()">キャンセル</button>
-          <button class="btn" onclick="saveEditItem(${year}, ${index})" style="margin-left: 8px;">保存</button>
-        </div>
-      </div>
-    `;
+    clearHighlight();
     
-    openModal('項目の編集', editHtml);
+    editor.innerHTML = `
+      <h4><span>項目の編集</span></h4>
+      <div style="margin-bottom: 16px;">
+        <label style="display: block; margin-bottom: 4px; font-weight: bold;">ラベル:</label>
+        <input type="text" id="editLabel" value="${item.label || ''}" style="width: 100%; padding: 8px; border: 1px solid #ddd; border-radius: 4px;">
+      </div>
+      
+      <div style="margin-bottom: 16px;">
+        <label style="display: block; margin-bottom: 4px; font-weight: bold;">ジャンル:</label>
+        <select id="editGenre" style="width: 100%; padding: 8px; border: 1px solid #ddd; border-radius: 4px;">
+          <option value="">選択してください</option>
+          <option value="ANI" ${item.genre === 'ANI' ? 'selected' : ''}>アニメ</option>
+          <option value="MAN" ${item.genre === 'MAN' ? 'selected' : ''}>マンガ</option>
+          <option value="GAM" ${item.genre === 'GAM' ? 'selected' : ''}>ゲーム</option>
+          <option value="TVP" ${item.genre === 'TVP' ? 'selected' : ''}>テレビ番組</option>
+          <option value="MOV" ${item.genre === 'MOV' ? 'selected' : ''}>映画</option>
+          <option value="NET" ${item.genre === 'NET' ? 'selected' : ''}>インターネット</option>
+          <option value="HAR" ${item.genre === 'HAR' ? 'selected' : ''}>ハードウェア</option>
+          <option value="PHE" ${item.genre === 'PHE' ? 'selected' : ''}>現象・流行</option>
+          <option value="UNC" ${item.genre === 'UNC' ? 'selected' : ''}>その他</option>
+        </select>
+      </div>
+      
+      <div style="margin-bottom: 16px;">
+        <label style="display: block; margin-bottom: 4px; font-weight: bold;">重要度:</label>
+        <select id="editImp" style="width: 100%; padding: 8px; border: 1px solid #ddd; border-radius: 4px;">
+          <option value="">選択してください</option>
+          <option value="5" ${item.imp === 5 ? 'selected' : ''}>5 - 時代を代表する重要イベント</option>
+          <option value="4" ${item.imp === 4 ? 'selected' : ''}>4 - 大きな影響を与えたイベント</option>
+          <option value="3" ${item.imp === 3 ? 'selected' : ''}>3 - 一般的に知られているイベント</option>
+          <option value="2" ${item.imp === 2 ? 'selected' : ''}>2 - 特定分野で重要なイベント</option>
+          <option value="1" ${item.imp === 1 ? 'selected' : ''}>1 - 参考程度のイベント</option>
+        </select>
+      </div>
+      
+      <div style="margin-bottom: 16px;">
+        <label style="display: block; margin-bottom: 4px; font-weight: bold;">URL:</label>
+        <input type="url" id="editUrl" value="${item.url || ''}" style="width: 100%; padding: 8px; border: 1px solid #ddd; border-radius: 4px;" placeholder="https://example.com">
+      </div>
+      
+      <div style="margin-bottom: 16px;">
+        <label style="display: block; margin-bottom: 4px; font-weight: bold;">注釈:</label>
+        <textarea id="editNote" style="width: 100%; padding: 8px; border: 1px solid #ddd; border-radius: 4px; height: 80px;" placeholder="補足説明やメモ">${item.note || ''}</textarea>
+      </div>
+      
+      <div class="row">
+        <div class="left"></div>
+        <div class="right">
+          <button id="cancel">キャンセル</button>
+          <button id="save">保存</button>
+        </div>
+      </div>`;
+    
+    const rv = vp.getBoundingClientRect();
+    editor.style.left = (rv.width / 2 - 250) + 'px';
+    editor.style.top = (rv.height / 2 - 200) + 'px';
+    editor.style.display = 'block';
+
+    function close() { editor.style.display = 'none'; }
+    editor.querySelector('#cancel').onclick = close;
+    editor.querySelector('#save').onclick = () => { saveEditItem(year, index); close(); };
   }
 
   function saveEditItem(year, index) {
-    const items = events[year] || [];
-    const item = items[index];
-    if (!item) return;
-    
     const label = document.getElementById('editLabel').value.trim();
     const genre = document.getElementById('editGenre').value.trim();
     const imp = document.getElementById('editImp').value.trim();
@@ -464,24 +463,27 @@
       return;
     }
     
-    // 項目を更新
-    item.label = label;
-    item.genre = genre || undefined;
-    item.imp = imp ? parseInt(imp, 10) : undefined;
-    item.url = url || undefined;
-    item.note = note || undefined;
+    if (!events[year]) {
+      events[year] = [];
+    }
     
-    // 空のプロパティを削除
-    Object.keys(item).forEach(key => {
-      if (item[key] === undefined || item[key] === '') {
-        delete item[key];
-      }
-    });
+    const newItem = { label };
+    if (genre) newItem.genre = genre;
+    if (imp) newItem.imp = parseInt(imp, 10);
+    if (url) newItem.url = url;
+    if (note) newItem.note = note;
+    
+    if (index === -1) {
+      // 新しい項目を追加
+      events[year].push(newItem);
+    } else {
+      // 既存の項目を更新
+      events[year][index] = newItem;
+    }
     
     saveEvents();
     renderEvents();
-    closeModal();
-    showDetailList(year, null);
+    autoSave();
   }
 
   // グローバル関数として公開
