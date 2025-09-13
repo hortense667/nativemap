@@ -461,21 +461,9 @@
     }
   }
 
-  // 同期前の確認
+  // 同期処理（確認ダイアログなし）
   function syncWithConfirmation() {
-    const lastSync = localStorage.getItem('lastSync');
-    const lastEdit = localStorage.getItem('lastEdit');
-    
-    console.log('同期確認 - lastSync:', lastSync, 'lastEdit:', lastEdit);
-    
-    if (lastEdit && lastSync && lastEdit > lastSync) {
-      const confirmed = confirm('未同期の変更があります。\n\n同期しますか？\n\n※同期すると、他のメンバーの変更も取得されます。');
-      if (confirmed) {
-        syncWithDropbox();
-      }
-    } else {
-      syncWithDropbox();
-    }
+    syncWithDropbox();
   }
 
   // 同期処理
