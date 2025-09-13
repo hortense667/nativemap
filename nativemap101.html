@@ -306,7 +306,7 @@
   function showEditor(year, anchor){
     clearHighlight(); const all = events[year]||[]; const items = all.filter(passesFilter); const note = (filterGenre||filterImp) ? '（現在のフィルタに一致する項目のみ編集対象）' : '';
     editor.innerHTML = `
-      <h4><span>${year}年の項目 ${note}</span><span class="fmt">ラベル;ジャンル;重要度;URL;注釈</span></h4>
+      <h4><span>${year}年の項目 ${note}</span><span class="fmt">ラベル;ジャンル;重要度;URL;注釈</span><span id="urlButton" style="margin-left: 10px; cursor: pointer; font-size: 18px;" title="URLを新しいタブで開く">🌐</span></h4>
       <textarea id="edText" placeholder="1行につき1件\n形式：ラベル;ジャンル;重要度;URL;注釈\n例）\n任天堂ファミコン;GAM;5;https://ja.wikipedia.org/wiki/ファミリーコンピュータ;家庭用ゲーム機の革命\nラベル;;;https://example.com;補足メモ\nラベル"></textarea>
       <div class="row">
         <div class="left">保存でJSONに反映／Ctrl+Enterでも保存・Escで閉じる</div>
@@ -322,6 +322,29 @@
     function close(){ editor.style.display='none'; }
     editor.querySelector('#cancel').onclick = close;
     editor.querySelector('#save').onclick = ()=>{ const lines = ta.value.split(/\n/).map(s=>s.trim()); const subset = lines.map(parseLine).filter(Boolean); const errs=[]; for(const it of subset){ errs.push(...validateItem(year, it)); } if(errs.length){ showError('編集エラー', errs); return; } const allItems = events[year]||[]; const others = allItems.filter(it=> !passesFilter(it)); const merged = [...others, ...subset]; if(merged.length===0) delete events[year]; else events[year]=merged; saveEvents(); renderEvents(); autoSave(); close(); };
+    editor.querySelector('#urlButton').onclick = ()=>{ 
+      const lines = ta.value.split(/\n/).map(s=>s.trim()); 
+      const urls = lines.map(line => {
+        const parts = line.split(';');
+        return parts[3] ? parts[3].trim() : null;
+      }).filter(url => url && url.startsWith('http'));
+      
+      if (urls.length === 0) {
+        showInfo('URL情報', 'URLが設定されている項目がありません。');
+        return;
+      }
+      
+      if (urls.length === 1) {
+        window.open(urls[0], '_blank');
+      } else {
+        const urlList = urls.map((url, index) => `${index + 1}. ${url}`).join('\n');
+        const choice = prompt(`複数のURLが見つかりました。開くURLの番号を入力してください：\n\n${urlList}\n\n番号を入力（1-${urls.length}）:`);
+        const index = parseInt(choice) - 1;
+        if (index >= 0 && index < urls.length) {
+          window.open(urls[index], '_blank');
+        }
+      }
+    };
     ta.addEventListener('keydown', e=>{ if((e.ctrlKey||e.metaKey) && e.key==='Enter'){ editor.querySelector('#save').click(); } if(e.key==='Escape'){ e.preventDefault(); editor.querySelector('#cancel').click(); } });
   }
 
