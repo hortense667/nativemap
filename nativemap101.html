@@ -99,7 +99,7 @@
       </label>
     </div>
     <div class="search">
-      <input id="searchBox" type="text" placeholder="ラベル検索" />
+      <input id="searchBox" type="text" placeholder="ラベルと注釈を検索" />
       <button class="btn" id="searchBtn">検索</button>
       <button class="btn" id="prevBtn">前</button>
       <button class="btn" id="nextBtn">次</button>
@@ -594,8 +594,9 @@
       const tx=textEl(text, LABEL_RIGHT_X, ypx, 'eventLabel');
       tx.setAttribute('text-anchor','end');
       tx.setAttribute('dominant-baseline','middle');
+      tx.setAttribute('data-year', y);
       if(labels.length>1) tx.classList.add('eventMulti');
-      tx.dataset.year=y; tx.style.cursor='pointer';
+      tx.style.cursor='pointer';
       eventsG.appendChild(tx);
       // ツールチップ／クリック
       tx.addEventListener('mouseenter',e=>{ 
@@ -630,8 +631,30 @@
       document.querySelectorAll('.hlText').forEach(el => el.classList.remove('hlText'));
       return; 
     } 
+    
+    // ラベルと注釈の両方を検索対象にする
+    const searchResults = [];
+    for (const year of Object.keys(events)) {
+      const items = events[year] || [];
+      for (const item of items) {
+        const labelMatch = item.label && item.label.toLowerCase().includes(q.toLowerCase());
+        const noteMatch = item.note && item.note.toLowerCase().includes(q.toLowerCase());
+        if (labelMatch || noteMatch) {
+          searchResults.push({ year: parseInt(year), item });
+        }
+      }
+    }
+    
+    // 検索結果に基づいてマッチするラベル要素を取得
     const els=[...eventsG.querySelectorAll('text.eventLabel')]; 
-    matches=els.filter(el=> el.textContent.toLowerCase().includes(q.toLowerCase())); 
+    matches=els.filter(el=> {
+      const year = parseInt(el.getAttribute('data-year'));
+      const label = el.textContent;
+      return searchResults.some(result => 
+        result.year === year && result.item.label === label
+      );
+    });
+    
     matchIndex = matches.length? 0 : -1; 
     if(matchIndex!==-1){ highlight(matches[matchIndex]); } 
   }
