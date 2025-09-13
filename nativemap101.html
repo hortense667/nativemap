@@ -278,7 +278,7 @@
   // ===== フィルタ =====
   let filterGenre = '';
   let filterImp   = '';
-  function passesFilter(it){ if(filterGenre && (String(it.genre||'')!==filterGenre)) return false; if(filterImp){ const thr = parseInt(filterImp,10); const imp = parseInt(it.imp,10); if(isNaN(imp) || imp>thr) return false; } return true; }
+  function passesFilter(it){ if(filterGenre && (String(it.genre||'')!==filterGenre)) return false; if(filterImp){ const thr = parseInt(filterImp,10); const imp = parseInt(it.imp,10); if(isNaN(imp) || imp<thr) return false; } return true; }
 
   // ===== グリッド =====
   function yFromBirthYear(by){return ORIGIN_Y+(by-YEAR_MIN)*PX_PER_YEAR;}
@@ -302,8 +302,8 @@
   function showEditor(year, anchor){
     clearHighlight(); const all = events[year]||[]; const items = all.filter(passesFilter); const note = (filterGenre||filterImp) ? '（現在のフィルタに一致する項目のみ編集対象）' : '';
     editor.innerHTML = `
-      <h4><span>${year}年の項目 ${note}</span><span class="fmt">ラベル;ジャンル;重要度;注釈</span></h4>
-      <textarea id="edText" placeholder="1行につき1件\n形式：ラベル;ジャンル;重要度;注釈\n例）\n任天堂ファミコン;GAM;5;https://example.com（注釈可）\nラベル;;;補足メモ\nラベル"></textarea>
+      <h4><span>${year}年の項目 ${note}</span><span class="fmt">ラベル;ジャンル;重要度;URL</span></h4>
+      <textarea id="edText" placeholder="1行につき1件\n形式：ラベル;ジャンル;重要度;URL\n例）\n任天堂ファミコン;GAM;5;https://ja.wikipedia.org/wiki/ファミリーコンピュータ\nラベル;;;https://example.com\nラベル"></textarea>
       <div class="row">
         <div class="left">保存でJSONに反映／Ctrl+Enterでも保存・Escで閉じる</div>
         <div class="right">
@@ -337,7 +337,21 @@
       tx.dataset.year=y; tx.style.cursor='pointer';
       eventsG.appendChild(tx);
       // ツールチップ／クリック
-      tx.addEventListener('mouseenter',e=>{ clearHighlight(); tooltip.style.display='block'; tooltip.innerHTML=`<strong>${y}年</strong><ul style="margin:4px 0 0 16px;">${labels.map(s=>`<li>${s}</li>`).join('')}</ul>`; positionTooltip(e); });
+      tx.addEventListener('mouseenter',e=>{ 
+        clearHighlight(); 
+        tooltip.style.display='block'; 
+        const items = (events[y]||[]).filter(passesFilter);
+        const tooltipContent = items.map(item => {
+          let content = `<li><strong>${item.label}</strong>`;
+          if (item.genre) content += ` <span style="color:#666;">[${item.genre}]</span>`;
+          if (item.imp) content += ` <span style="color:#666;">★${item.imp}</span>`;
+          if (item.url) content += `<br><small><a href="${item.url}" target="_blank" style="color:#0066cc;">${item.url}</a></small>`;
+          content += '</li>';
+          return content;
+        }).join('');
+        tooltip.innerHTML=`<strong>${y}年</strong><ul style="margin:4px 0 0 16px;">${tooltipContent}</ul>`; 
+        positionTooltip(e); 
+      });
       tx.addEventListener('mousemove',positionTooltip);
       tx.addEventListener('mouseleave',()=>{tooltip.style.display='none'});
       tx.addEventListener('click',(e)=>{ tooltip.style.display='none'; showEditor(y, e.target); });
@@ -449,7 +463,9 @@
     const lastSync = localStorage.getItem('lastSync');
     const lastEdit = localStorage.getItem('lastEdit');
     
-    if (lastEdit && lastEdit > lastSync) {
+    console.log('同期確認 - lastSync:', lastSync, 'lastEdit:', lastEdit);
+    
+    if (lastEdit && lastSync && lastEdit > lastSync) {
       const confirmed = confirm('未同期の変更があります。\n\n同期しますか？\n\n※同期すると、他のメンバーの変更も取得されます。');
       if (confirmed) {
         syncWithDropbox();
@@ -595,6 +611,27 @@
   // 5秒ごとに自動保存
   setInterval(autoSave, 5000);
 
+  // ページを閉じる時の確認
+  function checkUnsavedChanges() {
+    const lastSync = localStorage.getItem('lastSync');
+    const lastEdit = localStorage.getItem('lastEdit');
+    
+    if (lastEdit && lastSync && lastEdit > lastSync) {
+      return '未同期の変更があります。\n\nページを閉じる前に同期することをお勧めします。\n\n本当にページを閉じますか？';
+    }
+    return null;
+  }
+
+  // beforeunloadイベントでページを閉じる前の確認
+  window.addEventListener('beforeunload', function(e) {
+    const message = checkUnsavedChanges();
+    if (message) {
+      e.preventDefault();
+      e.returnValue = message;
+      return message;
+    }
+  });
+
   // 初期化時に同期状態を更新
   updateSyncStatus();
 
@@ -720,7 +757,7 @@
         <li><strong>スクロール：</strong>ホイール／トラックパッド／矢印キー</li>
         <li><strong>ラベル編集：</strong>左カラムの年行をクリック。未登録の年は左カラム空白クリックでエディタを開けます</li>
         <li><strong>検索：</strong>右上の検索欄 → 「検索」「前」「次」。結果は該当ラベルが反転（次の操作で解除）</li>
-        <li><strong>表示切替：</strong>「ジャンル」「重要度」フィルタ（重要度は選択値以下のみ表示）</li>
+        <li><strong>表示切替：</strong>「ジャンル」「重要度」フィルタ（重要度は選択値以上のみ表示）</li>
       </ul>
       <div class="credit">(c) 2025 Satoshi Endo CC-BY 4.0</div>
     `;
