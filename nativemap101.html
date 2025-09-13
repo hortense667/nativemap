@@ -333,7 +333,7 @@
     document.body.appendChild(fixedAgeContainer);
   }
   
-  // 年齢目盛り（0、10、20、30）の下だけを白で隠すマスクを作成
+  // 年齢目盛りエリア全体とラベル表示エリアを白で隠すマスクを作成
   function createAgeMask() {
     const maskContainer = document.createElement('div');
     maskContainer.id = 'age-mask';
@@ -347,21 +347,31 @@
       z-index: 4;
     `;
     
-    // 年齢目盛り（0、10、20、30）の下だけを白で隠す
-    for(let a=0;a<=AGE_MAX;a+=10){
-      const x = xFromAge(a);
-      const mask = document.createElement('div');
-      mask.style.cssText = `
-        position: absolute;
-        left: ${x - 15}px;
-        top: 0;
-        width: 30px;
-        height: 20px;
-        background: white;
-        pointer-events: none;
-      `;
-      maskContainer.appendChild(mask);
-    }
+    // ラベル表示エリアを白で隠す
+    const labelMask = document.createElement('div');
+    labelMask.style.cssText = `
+      position: absolute;
+      left: ${LABEL_LEFT_X}px;
+      top: 0;
+      width: ${LABEL_RIGHT_X - LABEL_LEFT_X}px;
+      height: 20px;
+      background: white;
+      pointer-events: none;
+    `;
+    maskContainer.appendChild(labelMask);
+    
+    // 年齢目盛りエリア全体（0から最大年齢まで）を白で隠す
+    const ageAreaMask = document.createElement('div');
+    ageAreaMask.style.cssText = `
+      position: absolute;
+      left: ${ORIGIN_X}px;
+      top: 0;
+      width: ${xFromAge(AGE_MAX) - ORIGIN_X}px;
+      height: 20px;
+      background: white;
+      pointer-events: none;
+    `;
+    maskContainer.appendChild(ageAreaMask);
     
     document.body.appendChild(maskContainer);
   }
