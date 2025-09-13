@@ -274,8 +274,12 @@
   let selectedGenres = new Set(); // 選択されたジャンルのセット
   function passesFilter(it){ 
     // ジャンルフィルタ（複数選択対応）
-    if (selectedGenres.size > 0 && !selectedGenres.has(String(it.genre || ''))) {
-      return false;
+    if (selectedGenres.size > 0) {
+      // ジャンルが設定されていない場合は「その他」（UNC）として扱う
+      const itemGenre = String(it.genre || 'UNC');
+      if (!selectedGenres.has(itemGenre)) {
+        return false;
+      }
     }
     // 重要度フィルタ
     if(filterImp){ 
