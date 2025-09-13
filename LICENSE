@@ -1,0 +1,66 @@
+Creative Commons Attribution-ShareAlike 4.0 International License
+
+Copyright (c) 2025 Satoshi Endoh / @hortense667
+
+This work is licensed under the Creative Commons Attribution-ShareAlike 4.0 International License. To view a copy of this license, visit http://creativecommons.org/licenses/by-sa/4.0/ or send a letter to Creative Commons, PO Box 1866, Mountain View, CA 94042, USA.
+
+---
+
+## 日本語版ライセンス要約
+
+### あなたは以下のことができます：
+
+**表示 (Attribution)**
+- この作品を自由に使用、配布、表示、実演することができます
+- 商用利用も可能です
+
+**継承 (ShareAlike)**
+- この作品を改変、組み合わせ、別の作品を作ることができます
+- ただし、新しい作品も同じライセンス（CC BY-SA 4.0）で公開する必要があります
+
+### 条件：
+
+1. **帰属表示**: 原作者のクレジットを表示する必要があります
+2. **ライセンス表示**: このライセンスへのリンクを提供する必要があります
+3. **変更の表示**: 作品を変更した場合は、その旨を明示する必要があります
+4. **同一ライセンス**: 派生作品も同じライセンスで公開する必要があります
+
+### 免責事項：
+
+- このライセンスは、原作者の著作権やその他の権利を制限するものではありません
+- このライセンスは、第三者の権利（肖像権、プライバシー権など）に影響しません
+- このライセンスは、商標権や特許権には適用されません
+
+---
+
+## 帰属表示の例
+
+```
+ネイティブマップ by hortense667 is licensed under CC BY-SA 4.0
+https://github.com/hortense667/nativemap
+```
+
+---
+
+## データの使用について
+
+このプロジェクトのtimeline.jsonデータは、以下の条件で使用できます：
+
+- **データの利用**: 研究、教育、商用利用を含むあらゆる目的で使用可能
+- **データの改変**: 自由に改変、追加、削除可能
+- **データの配布**: 改変版も含めて自由に配布可能
+- **帰属表示**: データを使用する際は、このプロジェクトへの言及を推奨
+
+---
+
+## プログラムコードについて
+
+このプロジェクトのプログラムコード（nativemap101.html等）は、MIT Licenseの下で提供されます。
+
+Copyright (c) 2025 ネイティブマップ
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
