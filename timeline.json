@@ -1,4 +1,13 @@
 {
+  "1951": [
+    {
+      "label": "UNIVAC I",
+      "genre": "HAR",
+      "imp": 5,
+      "url": "https://ja.wikipedia.org/wiki/UNIVAC_I",
+      "note": "商用電子計算機の先駆"
+    }
+  ],
   "1952": [
     {
       "label": "テレビ放送開始"
@@ -15,6 +24,15 @@
     },
     {
       "label": "FUJIC"
+    }
+  ],
+  "1959": [
+    {
+      "label": "IBM 1401",
+      "genre": "HAR",
+      "imp": 4,
+      "url": "https://ja.wikipedia.org/wiki/IBM_1401",
+      "note": "事務処理で普及した名機"
     }
   ],
   "1960": [
@@ -41,6 +59,24 @@
       "label": "鉄人28号"
     }
   ],
+  "1964": [
+    {
+      "label": "IBM System/360",
+      "genre": "HAR",
+      "imp": 5,
+      "url": "https://ja.wikipedia.org/wiki/IBM_System/360",
+      "note": "互換性時代を切り開く"
+    }
+  ],
+  "1965": [
+    {
+      "label": "PDP-8",
+      "genre": "HAR",
+      "imp": 5,
+      "url": "https://ja.wikipedia.org/wiki/PDP-8",
+      "note": "初の量産ミニコン"
+    }
+  ],
   "1966": [
     {
       "label": "ウルトラQ"
@@ -59,14 +95,78 @@
       "imp": 1
     }
   ],
+  "1970": [
+    {
+      "label": "PDP-11",
+      "genre": "HAR",
+      "imp": 4,
+      "url": "https://ja.wikipedia.org/wiki/PDP-11",
+      "note": "ミニコンの代表機種"
+    }
+  ],
   "1971": [
     {
       "label": "仮面ライダー"
     }
   ],
+  "1972": [
+    {
+      "label": "マグナボックス・オデッセイ",
+      "genre": "HAR",
+      "imp": 5,
+      "url": "https://ja.wikipedia.org/wiki/%E3%83%9E%E3%82%B0%E3%83%8A%E3%83%9C%E3%83%83%E3%82%AF%E3%82%B9%E3%83%BB%E3%82%AA%E3%83%87%E3%83%83%E3%82%BB%E3%82%A4",
+      "note": "家庭用ゲーム機の草創"
+    },
+    {
+      "label": "HP-35",
+      "genre": "HAR",
+      "imp": 4,
+      "url": "https://ja.wikipedia.org/wiki/HP-35",
+      "note": "初の関数ポケット電卓"
+    },
+    {
+      "label": "カシオミニ",
+      "genre": "HAR",
+      "imp": 4,
+      "url": "https://ja.wikipedia.org/wiki/%E3%82%AB%E3%82%B7%E3%82%AA%E3%83%9F%E3%83%8B",
+      "note": "個人向け電卓普及"
+    }
+  ],
   "1973": [
     {
       "label": "『8時だョ！全員集合』視聴率50%"
+    },
+    {
+      "label": "Xerox Alto",
+      "genre": "HAR",
+      "imp": 5,
+      "url": "https://ja.wikipedia.org/wiki/Xerox_Alto",
+      "note": "GUIとマウスの先駆け"
+    }
+  ],
+  "1975": [
+    {
+      "label": "Altair 8800",
+      "genre": "HAR",
+      "imp": 5,
+      "url": "https://ja.wikipedia.org/wiki/Altair_8800",
+      "note": "PC革命の火付け役"
+    }
+  ],
+  "1976": [
+    {
+      "label": "Cray-1",
+      "genre": "HAR",
+      "imp": 4,
+      "url": "https://ja.wikipedia.org/wiki/Cray-1",
+      "note": "初期スーパー計算機の象徴"
+    },
+    {
+      "label": "TK-80",
+      "genre": "HAR",
+      "imp": 4,
+      "url": "https://ja.wikipedia.org/wiki/TK-80",
+      "note": "日本のマイコン草創期機"
     }
   ],
   "1977": [
@@ -74,16 +174,58 @@
       "label": "Apple IIなど初期マイコン",
       "genre": "HAR",
       "imp": 5
+    },
+    {
+      "label": "VAX-11/780",
+      "genre": "HAR",
+      "imp": 4,
+      "url": "https://ja.wikipedia.org/wiki/VAX-11/780",
+      "note": "仮想記憶でVAX時代"
+    },
+    {
+      "label": "Apple II",
+      "genre": "HAR",
+      "imp": 5,
+      "url": "https://ja.wikipedia.org/wiki/Apple_II",
+      "note": "量産PC成功モデル"
+    },
+    {
+      "label": "TRS-80",
+      "genre": "HAR",
+      "imp": 4,
+      "url": "https://ja.wikipedia.org/wiki/TRS-80",
+      "note": "米国の普及PC"
+    },
+    {
+      "label": "Atari 2600",
+      "genre": "HAR",
+      "imp": 5,
+      "url": "https://ja.wikipedia.org/wiki/Atari_2600",
+      "note": "ROMカセット式で普及"
     }
   ],
   "1978": [
     {
       "label": "マイコン入り製品次々登場"
+    },
+    {
+      "label": "MZ-80K",
+      "genre": "HAR",
+      "imp": 4,
+      "url": "https://ja.wikipedia.org/wiki/MZ-80",
+      "note": "「御三家」の一角"
     }
   ],
   "1979": [
     {
       "label": "機動戦士ガンダム"
+    },
+    {
+      "label": "PC-8001",
+      "genre": "HAR",
+      "imp": 5,
+      "url": "https://ja.wikipedia.org/wiki/PC-8000%E3%82%B7%E3%83%AA%E3%83%BC%E3%82%BA",
+      "note": "国産PC普及の象徴"
     }
   ],
   "1980": [
@@ -95,6 +237,87 @@
       "note": "いやー。ビンボウするほどやりました！（アスキー遠藤）"
     }
   ],
+  "1981": [
+    {
+      "label": "Xerox Star",
+      "genre": "HAR",
+      "imp": 4,
+      "url": "https://ja.wikipedia.org/wiki/Xerox_Star",
+      "note": "商用GUIワークステーション"
+    },
+    {
+      "label": "IBM PC",
+      "genre": "HAR",
+      "imp": 5,
+      "url": "https://ja.wikipedia.org/wiki/IBM_PC",
+      "note": "PC互換機の起点"
+    },
+    {
+      "label": "Osborne 1",
+      "genre": "HAR",
+      "imp": 4,
+      "url": "https://ja.wikipedia.org/wiki/Osborne_1",
+      "note": "初期の可搬PC"
+    },
+    {
+      "label": "PC-8801",
+      "genre": "HAR",
+      "imp": 4,
+      "url": "https://ja.wikipedia.org/wiki/PC-8800%E3%82%B7%E3%83%AA%E3%83%BC%E3%82%BA",
+      "note": "ホビーと業務の主力"
+    },
+    {
+      "label": "PC-6001",
+      "genre": "HAR",
+      "imp": 3,
+      "url": "https://ja.wikipedia.org/wiki/PC-6000%E3%82%B7%E3%83%AA%E3%83%BC%E3%82%BA",
+      "note": "入門機として定番"
+    }
+  ],
+  "1982": [
+    {
+      "label": "Commodore 64",
+      "genre": "HAR",
+      "imp": 5,
+      "url": "https://ja.wikipedia.org/wiki/Commodore_64",
+      "note": "史上最多販売PC"
+    },
+    {
+      "label": "ZX Spectrum",
+      "genre": "HAR",
+      "imp": 4,
+      "url": "https://ja.wikipedia.org/wiki/ZX_Spectrum",
+      "note": "英国PC文化を牽引"
+    },
+    {
+      "label": "Grid Compass",
+      "genre": "HAR",
+      "imp": 4,
+      "url": "https://ja.wikipedia.org/wiki/Grid_Compass",
+      "note": "クラムシェル元祖"
+    },
+    {
+      "label": "PC-9801",
+      "genre": "HAR",
+      "imp": 5,
+      "url": "https://ja.wikipedia.org/wiki/PC-9800%E3%82%B7%E3%83%AA%E3%83%BC%E3%82%BA",
+      "note": "国内デファクト標準"
+    },
+    {
+      "label": "X1",
+      "genre": "HAR",
+      "imp": 4,
+      "url": "https://ja.wikipedia.org/wiki/X1_%28%E3%82%B3%E3%83%B3%E3%83%94%E3%83%A5%E3%83%BC%E3%82%BF%29",
+      "note": "高解像とTV機能で話題"
+    },
+    {
+      "label": "FM-7",
+      "genre": "HAR",
+      "imp": 4,
+      "url": "https://ja.wikipedia.org/wiki/FM-7",
+      "note": "カラーと拡張で人気"
+    }
+  ],
   "1983": [
     {
       "label": "任天堂ファミコン",
@@ -102,12 +325,49 @@
       "imp": 5,
       "url": "https://ja.wikipedia.org/wiki/%E3%83%95%E3%82%A1%E3%83%9F%E3%83%AA%E3%83%BC%E3%82%B3%E3%83%B3%E3%83%94%E3%83%A5%E3%83%BC%E3%82%BF",
       "note": "これよねこれ"
+    },
+    {
+      "label": "MSX",
+      "genre": "HAR",
+      "imp": 5,
+      "url": "https://ja.wikipedia.org/wiki/MSX",
+      "note": "8ビット統一規格"
+    },
+    {
+      "label": "ファミリーコンピュータ",
+      "genre": "HAR",
+      "imp": 5,
+      "url": "https://ja.wikipedia.org/wiki/%E3%83%95%E3%82%A1%E3%83%9F%E3%83%AA%E3%83%BC%E3%82%B3%E3%83%B3%E3%83%94%E3%83%A5%E3%83%BC%E3%82%BF",
+      "note": "家庭用ゲーム革命"
     }
   ],
   "1984": [
     {
       "label": "ドラゴンボール",
       "genre": "ANI"
+    },
+    {
+      "label": "Macintosh",
+      "genre": "HAR",
+      "imp": 5,
+      "url": "https://ja.wikipedia.org/wiki/Mac_%28%E3%82%B3%E3%83%B3%E3%83%94%E3%83%A5%E3%83%BC%E3%82%BF%29",
+      "note": "GUI普及の決定打"
+    }
+  ],
+  "1985": [
+    {
+      "label": "Amiga 1000",
+      "genre": "HAR",
+      "imp": 4,
+      "url": "https://ja.wikipedia.org/wiki/Amiga_1000",
+      "note": "マルチメディア先駆"
+    },
+    {
+      "label": "Atari ST",
+      "genre": "HAR",
+      "imp": 3,
+      "url": "https://ja.wikipedia.org/wiki/Atari_ST",
+      "note": "MIDI対応で音楽界席巻"
     }
   ],
   "1986": [
@@ -116,6 +376,95 @@
     },
     {
       "label": "ビデオレンタル・AVビデオ"
+    }
+  ],
+  "1987": [
+    {
+      "label": "X68000",
+      "genre": "HAR",
+      "imp": 4,
+      "url": "https://ja.wikipedia.org/wiki/X68000",
+      "note": "16ビットホビー象徴機"
+    },
+    {
+      "label": "PCエンジン",
+      "genre": "HAR",
+      "imp": 4,
+      "url": "https://ja.wikipedia.org/wiki/PC%E3%82%A8%E3%83%B3%E3%82%B8%E3%83%B3",
+      "note": "コンパクト高性能"
+    }
+  ],
+  "1988": [
+    {
+      "label": "NeXTcube",
+      "genre": "HAR",
+      "imp": 4,
+      "url": "https://ja.wikipedia.org/wiki/NeXTcube",
+      "note": "WWW初サーバの母艦"
+    },
+    {
+      "label": "メガドライブ",
+      "genre": "HAR",
+      "imp": 4,
+      "url": "https://ja.wikipedia.org/wiki/%E3%83%A1%E3%82%AC%E3%83%89%E3%83%A9%E3%82%A4%E3%83%96",
+      "note": "16ビットでセガ躍進"
+    }
+  ],
+  "1989": [
+    {
+      "label": "FM TOWNS",
+      "genre": "HAR",
+      "imp": 4,
+      "url": "https://ja.wikipedia.org/wiki/FM_TOWNS",
+      "note": "CD-ROM標準搭載の先駆"
+    },
+    {
+      "label": "ゲームボーイ",
+      "genre": "HAR",
+      "imp": 5,
+      "url": "https://ja.wikipedia.org/wiki/%E3%82%B2%E3%83%BC%E3%83%A0%E3%83%9C%E3%83%BC%E3%82%A4",
+      "note": "携帯ゲームの金字塔"
+    }
+  ],
+  "1990": [
+    {
+      "label": "スーパーファミコン",
+      "genre": "HAR",
+      "imp": 5,
+      "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%95%E3%82%A1%E3%83%9F%E3%82%B3%E3%83%B3",
+      "note": "16ビット時代の主役"
+    },
+    {
+      "label": "ネオジオ (ゲーム機)",
+      "genre": "HAR",
+      "imp": 4,
+      "url": "https://ja.wikipedia.org/wiki/%E3%83%8D%E3%82%AA%E3%82%B8%E3%82%AA_%28%E3%82%B2%E3%83%BC%E3%83%A0%E6%A9%9F%29",
+      "note": "業務用同等を家庭で"
+    }
+  ],
+  "1993": [
+    {
+      "label": "Newton MessagePad",
+      "genre": "HAR",
+      "imp": 3,
+      "url": "https://ja.wikipedia.org/wiki/Newton_MessagePad",
+      "note": "早すぎたPDAの嚆矢"
+    }
+  ],
+  "1994": [
+    {
+      "label": "PlayStation",
+      "genre": "HAR",
+      "imp": 5,
+      "url": "https://ja.wikipedia.org/wiki/PlayStation",
+      "note": "CD時代を牽引"
+    },
+    {
+      "label": "セガサターン",
+      "genre": "HAR",
+      "imp": 4,
+      "url": "https://ja.wikipedia.org/wiki/%E3%82%BB%E3%82%AC%E3%82%B5%E3%82%BF%E3%83%BC%E3%83%B3",
+      "note": "2D性能とCDの融合"
     }
   ],
   "1995": [
@@ -150,6 +499,29 @@
     },
     {
       "label": "ホンダP2"
+    },
+    {
+      "label": "ニンテンドー64",
+      "genre": "HAR",
+      "imp": 4,
+      "url": "https://ja.wikipedia.org/wiki/%E3%83%8B%E3%83%B3%E3%83%86%E3%83%B3%E3%83%89%E3%83%BC64",
+      "note": "3Dポリゴン時代を推進"
+    },
+    {
+      "label": "PalmPilot",
+      "genre": "HAR",
+      "imp": 4,
+      "url": "https://ja.wikipedia.org/wiki/PalmPilot",
+      "note": "PDAの代名詞的存在"
+    }
+  ],
+  "1998": [
+    {
+      "label": "ドリームキャスト",
+      "genre": "HAR",
+      "imp": 3,
+      "url": "https://ja.wikipedia.org/wiki/%E3%83%89%E3%83%AA%E3%83%BC%E3%83%A0%E3%82%AD%E3%83%A3%E3%82%B9%E3%83%88",
+      "note": "ネット接続先駆"
     }
   ],
   "1999": [
@@ -158,26 +530,114 @@
     },
     {
       "label": "iモード・写メール"
+    },
+    {
+      "label": "BlackBerry",
+      "genre": "HAR",
+      "imp": 4,
+      "url": "https://ja.wikipedia.org/wiki/BlackBerry",
+      "note": "モバイルメール普及"
+    }
+  ],
+  "2000": [
+    {
+      "label": "PlayStation 2",
+      "genre": "HAR",
+      "imp": 5,
+      "url": "https://ja.wikipedia.org/wiki/PlayStation_2",
+      "note": "史上最多販売据置機"
     }
   ],
   "2001": [
     {
       "label": "ヤフー！BB開始"
+    },
+    {
+      "label": "ニンテンドーゲームキューブ",
+      "genre": "HAR",
+      "imp": 3,
+      "url": "https://ja.wikipedia.org/wiki/%E3%83%8B%E3%83%B3%E3%83%86%E3%83%B3%E3%83%89%E3%83%BC%E3%82%B2%E3%83%BC%E3%83%A0%E3%82%AD%E3%83%A5%E3%83%BC%E3%83%96",
+      "note": "小型光ディスク採用"
+    },
+    {
+      "label": "ゲームボーイアドバンス",
+      "genre": "HAR",
+      "imp": 4,
+      "url": "https://ja.wikipedia.org/wiki/%E3%82%B2%E3%83%BC%E3%83%A0%E3%83%9C%E3%83%BC%E3%82%A4%E3%82%A2%E3%83%89%E3%83%90%E3%83%B3%E3%82%B9",
+      "note": "高性能携帯機へ進化"
+    },
+    {
+      "label": "iPod",
+      "genre": "HAR",
+      "imp": 5,
+      "url": "https://ja.wikipedia.org/wiki/IPod",
+      "note": "音楽配信時代を牽引"
+    }
+  ],
+  "2004": [
+    {
+      "label": "ニンテンドーDS",
+      "genre": "HAR",
+      "imp": 5,
+      "url": "https://ja.wikipedia.org/wiki/%E3%83%8B%E3%83%B3%E3%83%86%E3%83%B3%E3%83%89%E3%83%BCDS",
+      "note": "二画面タッチで大ヒット"
+    },
+    {
+      "label": "PlayStation Portable",
+      "genre": "HAR",
+      "imp": 4,
+      "url": "https://ja.wikipedia.org/wiki/PlayStation_Portable",
+      "note": "携帯でマルチメディア"
     }
   ],
   "2005": [
     {
       "label": "YouTube"
+    },
+    {
+      "label": "Arduino",
+      "genre": "HAR",
+      "imp": 4,
+      "url": "https://ja.wikipedia.org/wiki/Arduino",
+      "note": "DIYマイコン基板の定番"
     }
   ],
   "2006": [
     {
       "label": "『ぐぐる』が流行語大賞"
+    },
+    {
+      "label": "PlayStation 3",
+      "genre": "HAR",
+      "imp": 4,
+      "url": "https://ja.wikipedia.org/wiki/PlayStation_3",
+      "note": "Cellで次世代挑戦"
+    },
+    {
+      "label": "Wii",
+      "genre": "HAR",
+      "imp": 5,
+      "url": "https://ja.wikipedia.org/wiki/Wii",
+      "note": "体感操作で新市場創出"
     }
   ],
   "2007": [
     {
       "label": "電脳コイル"
+    },
+    {
+      "label": "iPhone",
+      "genre": "HAR",
+      "imp": 5,
+      "url": "https://ja.wikipedia.org/wiki/IPhone",
+      "note": "スマホ革命の起点"
+    },
+    {
+      "label": "Kindle",
+      "genre": "HAR",
+      "imp": 4,
+      "url": "https://ja.wikipedia.org/wiki/Kindle",
+      "note": "電子書籍普及の原動力"
     }
   ],
   "2010": [
@@ -186,11 +646,75 @@
     },
     {
       "label": "GAFAの影響力拡大"
+    },
+    {
+      "label": "iPad",
+      "genre": "HAR",
+      "imp": 5,
+      "url": "https://ja.wikipedia.org/wiki/IPad",
+      "note": "タブレット市場を確立"
+    }
+  ],
+  "2011": [
+    {
+      "label": "ニンテンドー3DS",
+      "genre": "HAR",
+      "imp": 4,
+      "url": "https://ja.wikipedia.org/wiki/%E3%83%8B%E3%83%B3%E3%83%86%E3%83%B3%E3%83%89%E3%83%BC3DS",
+      "note": "裸眼3D表示を実現"
+    },
+    {
+      "label": "PlayStation Vita",
+      "genre": "HAR",
+      "imp": 3,
+      "url": "https://ja.wikipedia.org/wiki/PlayStation_Vita",
+      "note": "高解像度携帯機"
+    }
+  ],
+  "2012": [
+    {
+      "label": "Wii U",
+      "genre": "HAR",
+      "imp": 3,
+      "url": "https://ja.wikipedia.org/wiki/Wii_U",
+      "note": "2画面据置の試み"
+    },
+    {
+      "label": "Raspberry Pi",
+      "genre": "HAR",
+      "imp": 4,
+      "url": "https://ja.wikipedia.org/wiki/Raspberry_Pi",
+      "note": "教育向け低価格PC"
+    },
+    {
+      "label": "GoPro HERO3",
+      "genre": "HAR",
+      "imp": 3,
+      "url": "https://ja.wikipedia.org/wiki/GoPro",
+      "note": "アクション撮影を普及"
+    }
+  ],
+  "2013": [
+    {
+      "label": "PlayStation 4",
+      "genre": "HAR",
+      "imp": 4,
+      "url": "https://ja.wikipedia.org/wiki/PlayStation_4",
+      "note": "x86化で開発容易化"
     }
   ],
   "2016": [
     {
       "label": "DJI Phantom 4／ドローン"
+    }
+  ],
+  "2017": [
+    {
+      "label": "ニンテンドースイッチ",
+      "genre": "HAR",
+      "imp": 5,
+      "url": "https://ja.wikipedia.org/wiki/%E3%83%8B%E3%83%B3%E3%83%86%E3%83%B3%E3%83%89%E3%83%BC%E3%82%B9%E3%82%A4%E3%83%83%E3%83%81",
+      "note": "据置と携帯の融合"
     }
   ],
   "2018": [
@@ -201,6 +725,13 @@
   "2020": [
     {
       "label": "VR／メタバース注目"
+    },
+    {
+      "label": "PlayStation 5",
+      "genre": "HAR",
+      "imp": 4,
+      "url": "https://ja.wikipedia.org/wiki/PlayStation_5",
+      "note": "高速SSDとレイトレ対応"
     }
   ],
   "2022": [
