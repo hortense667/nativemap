@@ -328,7 +328,7 @@
       <div style="text-align: right; margin-top: 16px;">
         <button class="btn" onclick="addNewItem(${year})">追加</button>
         <button class="btn" onclick="showEditor(${year}, null)" style="margin-left: 8px;">一括編集</button>
-        <button class="btn" onclick="closeModal()" style="margin-left: 8px;">閉じる</button>
+        ${items.length === 0 ? '<button class="btn" onclick="closeModal()" style="margin-left: 8px;">閉じる</button>' : ''}
       </div>
     `;
     
@@ -515,7 +515,7 @@
 
     function close(){ editor.style.display='none'; }
     editor.querySelector('#cancel').onclick = close;
-    editor.querySelector('#save').onclick = ()=>{ const lines = ta.value.split(/\n/).map(s=>s.trim()); const subset = lines.map(parseLine).filter(Boolean); const errs=[]; for(const it of subset){ errs.push(...validateItem(year, it)); } if(errs.length){ showError('編集エラー', errs); return; } const allItems = events[year]||[]; const others = allItems.filter(it=> !passesFilter(it)); const merged = [...others, ...subset]; if(merged.length===0) delete events[year]; else events[year]=merged; saveEvents(); renderEvents(); autoSave(); close(); };
+    editor.querySelector('#save').onclick = ()=>{ const lines = ta.value.split(/\n/).map(s=>s.trim()); const subset = lines.map(parseLine).filter(Boolean); const errs=[]; for(const it of subset){ errs.push(...validateItem(year, it)); } if(errs.length){ showError('編集エラー', errs); return; } const allItems = events[year]||[]; const others = allItems.filter(it=> !passesFilter(it)); const merged = [...others, ...subset]; if(merged.length===0) delete events[year]; else events[year]=merged; saveEvents(); renderEvents(); autoSave(); close(); showDetailList(year, null); };
     editor.querySelector('#urlButton').onclick = ()=>{ 
       const lines = ta.value.split(/\n/).map(s=>s.trim()); 
       const urls = lines.map(line => {
