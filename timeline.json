@@ -49,6 +49,15 @@
       "url": "https://ja.wikipedia.org/wiki/%E3%83%88%E3%83%AF%E3%82%A4%E3%83%A9%E3%82%A4%E3%83%88%E3%83%BB%E3%82%BE%E3%83%BC%E3%83%B3_(1959%E5%B9%B4)"
     }
   ],
+  "1962": [
+    {
+      "label": "Spacewar!",
+      "genre": "HAR",
+      "imp": 5,
+      "url": "https://ja.wikipedia.org/wiki/Spacewar!",
+      "note": "初期デジタルゲームの象徴"
+    }
+  ],
   "1963": [
     {
       "label": "鉄腕アトム",
@@ -130,6 +139,13 @@
       "imp": 4,
       "url": "https://ja.wikipedia.org/wiki/%E3%82%AB%E3%82%B7%E3%82%AA%E3%83%9F%E3%83%8B",
       "note": "個人向け電卓普及"
+    },
+    {
+      "label": "Pong",
+      "genre": "HAR",
+      "imp": 5,
+      "url": "https://ja.wikipedia.org/wiki/Pong",
+      "note": "ビデオゲーム商業化の端緒"
     }
   ],
   "1973": [
@@ -214,6 +230,13 @@
       "imp": 4,
       "url": "https://ja.wikipedia.org/wiki/MZ-80",
       "note": "「御三家」の一角"
+    },
+    {
+      "label": "スペースインベーダー",
+      "genre": "HAR",
+      "imp": 5,
+      "url": "https://ja.wikipedia.org/wiki/スペースインベーダー",
+      "note": "社会現象を起こしたSTG"
     }
   ],
   "1979": [
@@ -226,15 +249,22 @@
       "imp": 5,
       "url": "https://ja.wikipedia.org/wiki/PC-8000%E3%82%B7%E3%83%AA%E3%83%BC%E3%82%BA",
       "note": "国産PC普及の象徴"
+    },
+    {
+      "label": "ギャラクシアン",
+      "genre": "HAR",
+      "imp": 4,
+      "url": "https://ja.wikipedia.org/wiki/ギャラクシアン",
+      "note": "敵編隊AIで進化示す"
     }
   ],
   "1980": [
     {
       "label": "パックマン",
-      "genre": "GAM",
+      "genre": "HAR",
       "imp": 5,
-      "url": "https://ja.wikipedia.org/wiki/%E3%83%91%E3%83%83%E3%82%AF%E3%83%9E%E3%83%B3",
-      "note": "いやー。ビンボウするほどやりました！（アスキー遠藤）"
+      "url": "https://ja.wikipedia.org/wiki/パックマン",
+      "note": "世界的アイコンとなる"
     }
   ],
   "1981": [
@@ -272,6 +302,27 @@
       "imp": 3,
       "url": "https://ja.wikipedia.org/wiki/PC-6000%E3%82%B7%E3%83%AA%E3%83%BC%E3%82%BA",
       "note": "入門機として定番"
+    },
+    {
+      "label": "ドンキーコング (アーケードゲーム)",
+      "genre": "HAR",
+      "imp": 5,
+      "url": "https://ja.wikipedia.org/wiki/ドンキーコング_(アーケードゲーム)",
+      "note": "ジャンプアクション確立"
+    },
+    {
+      "label": "ウィザードリィ",
+      "genre": "HAR",
+      "imp": 4,
+      "url": "https://ja.wikipedia.org/wiki/ウィザードリィ",
+      "note": "RPGダンジョン型の祖"
+    },
+    {
+      "label": "ウルティマ",
+      "genre": "HAR",
+      "imp": 4,
+      "url": "https://ja.wikipedia.org/wiki/ウルティマ",
+      "note": "RPGオープンワールド源流"
     }
   ],
   "1982": [
@@ -339,6 +390,13 @@
       "imp": 5,
       "url": "https://ja.wikipedia.org/wiki/%E3%83%95%E3%82%A1%E3%83%9F%E3%83%AA%E3%83%BC%E3%82%B3%E3%83%B3%E3%83%94%E3%83%A5%E3%83%BC%E3%82%BF",
       "note": "家庭用ゲーム革命"
+    },
+    {
+      "label": "ゼビウス",
+      "genre": "HAR",
+      "imp": 4,
+      "url": "https://ja.wikipedia.org/wiki/ゼビウス",
+      "note": "STG表現の飛躍"
     }
   ],
   "1984": [
@@ -352,6 +410,13 @@
       "imp": 5,
       "url": "https://ja.wikipedia.org/wiki/Mac_%28%E3%82%B3%E3%83%B3%E3%83%94%E3%83%A5%E3%83%BC%E3%82%BF%29",
       "note": "GUI普及の決定打"
+    },
+    {
+      "label": "テトリス",
+      "genre": "HAR",
+      "imp": 5,
+      "url": "https://ja.wikipedia.org/wiki/テトリス",
+      "note": "落ち物パズルの原点"
     }
   ],
   "1985": [
@@ -368,6 +433,13 @@
       "imp": 3,
       "url": "https://ja.wikipedia.org/wiki/Atari_ST",
       "note": "MIDI対応で音楽界席巻"
+    },
+    {
+      "label": "スーパーマリオブラザーズ",
+      "genre": "HAR",
+      "imp": 5,
+      "url": "https://ja.wikipedia.org/wiki/スーパーマリオブラザーズ",
+      "note": "横スクACTの金字塔"
     }
   ],
   "1986": [
@@ -376,6 +448,34 @@
     },
     {
       "label": "ビデオレンタル・AVビデオ"
+    },
+    {
+      "label": "ゼルダの伝説 (1986年のコンピュータゲーム)",
+      "genre": "HAR",
+      "imp": 5,
+      "url": "https://ja.wikipedia.org/wiki/ゼルダの伝説_(1986年のコンピュータゲーム)",
+      "note": "探索型ADVの嚆矢"
+    },
+    {
+      "label": "メトロイド (1986年のコンピュータゲーム)",
+      "genre": "HAR",
+      "imp": 4,
+      "url": "https://ja.wikipedia.org/wiki/メトロイド_(1986年のコンピュータゲーム)",
+      "note": "探索×アクション定番化"
+    },
+    {
+      "label": "ドラゴンクエスト",
+      "genre": "HAR",
+      "imp": 5,
+      "url": "https://ja.wikipedia.org/wiki/ドラゴンクエスト",
+      "note": "国民的RPGの出発点"
+    },
+    {
+      "label": "アウトラン",
+      "genre": "HAR",
+      "imp": 3,
+      "url": "https://ja.wikipedia.org/wiki/アウトラン",
+      "note": "体感ゲームの代表作"
     }
   ],
   "1987": [
@@ -392,6 +492,13 @@
       "imp": 4,
       "url": "https://ja.wikipedia.org/wiki/PC%E3%82%A8%E3%83%B3%E3%82%B8%E3%83%B3",
       "note": "コンパクト高性能"
+    },
+    {
+      "label": "ファイナルファンタジー",
+      "genre": "HAR",
+      "imp": 5,
+      "url": "https://ja.wikipedia.org/wiki/ファイナルファンタジー",
+      "note": "国際的RPGブランド確立"
     }
   ],
   "1988": [
@@ -408,6 +515,13 @@
       "imp": 4,
       "url": "https://ja.wikipedia.org/wiki/%E3%83%A1%E3%82%AC%E3%83%89%E3%83%A9%E3%82%A4%E3%83%96",
       "note": "16ビットでセガ躍進"
+    },
+    {
+      "label": "ドラゴンクエストIII そして伝説へ…",
+      "genre": "HAR",
+      "imp": 5,
+      "url": "https://ja.wikipedia.org/wiki/ドラゴンクエストIII_そして伝説へ…",
+      "note": "国民的RPGの頂点級"
     }
   ],
   "1989": [
@@ -424,6 +538,20 @@
       "imp": 5,
       "url": "https://ja.wikipedia.org/wiki/%E3%82%B2%E3%83%BC%E3%83%A0%E3%83%9C%E3%83%BC%E3%82%A4",
       "note": "携帯ゲームの金字塔"
+    },
+    {
+      "label": "プリンス・オブ・ペルシャ",
+      "genre": "HAR",
+      "imp": 3,
+      "url": "https://ja.wikipedia.org/wiki/プリンス・オブ・ペルシャ",
+      "note": "滑らかアニメ表現革新"
+    },
+    {
+      "label": "シムシティ",
+      "genre": "HAR",
+      "imp": 4,
+      "url": "https://ja.wikipedia.org/wiki/シムシティ",
+      "note": "都市シムの源流"
     }
   ],
   "1990": [
@@ -442,6 +570,22 @@
       "note": "業務用同等を家庭で"
     }
   ],
+  "1991": [
+    {
+      "label": "ストリートファイターII",
+      "genre": "HAR",
+      "imp": 5,
+      "url": "https://ja.wikipedia.org/wiki/ストリートファイターII",
+      "note": "対戦格闘ブーム創出"
+    },
+    {
+      "label": "ソニック・ザ・ヘッジホッグ (1991年のゲーム)",
+      "genre": "HAR",
+      "imp": 4,
+      "url": "https://ja.wikipedia.org/wiki/ソニック・ザ・ヘッジホッグ_(1991年のゲーム)",
+      "note": "高速横スクの代名詞"
+    }
+  ],
   "1993": [
     {
       "label": "Newton MessagePad",
@@ -449,6 +593,48 @@
       "imp": 3,
       "url": "https://ja.wikipedia.org/wiki/Newton_MessagePad",
       "note": "早すぎたPDAの嚆矢"
+    },
+    {
+      "label": "バーチャファイター",
+      "genre": "HAR",
+      "imp": 4,
+      "url": "https://ja.wikipedia.org/wiki/バーチャファイター",
+      "note": "3D格闘の幕開け"
+    },
+    {
+      "label": "Doom (1993年のコンピュータゲーム)",
+      "genre": "HAR",
+      "imp": 5,
+      "url": "https://ja.wikipedia.org/wiki/Doom_(1993年のコンピュータゲーム)",
+      "note": "FPS普及の決定打"
+    },
+    {
+      "label": "Myst",
+      "genre": "HAR",
+      "imp": 4,
+      "url": "https://ja.wikipedia.org/wiki/Myst",
+      "note": "CD-ROM時代の象徴作"
+    },
+    {
+      "label": "聖剣伝説2",
+      "genre": "HAR",
+      "imp": 3,
+      "url": "https://ja.wikipedia.org/wiki/聖剣伝説2",
+      "note": "アクションRPG名作"
+    },
+    {
+      "label": "ロマンシング サ・ガ2",
+      "genre": "HAR",
+      "imp": 3,
+      "url": "https://ja.wikipedia.org/wiki/ロマンシング_サ・ガ2",
+      "note": "独創的継承システム"
+    },
+    {
+      "label": "ゼルダの伝説 夢をみる島",
+      "genre": "HAR",
+      "imp": 3,
+      "url": "https://ja.wikipedia.org/wiki/ゼルダの伝説_夢をみる島",
+      "note": "携帯機ADVの秀作"
     }
   ],
   "1994": [
@@ -465,6 +651,20 @@
       "imp": 4,
       "url": "https://ja.wikipedia.org/wiki/%E3%82%BB%E3%82%AC%E3%82%B5%E3%82%BF%E3%83%BC%E3%83%B3",
       "note": "2D性能とCDの融合"
+    },
+    {
+      "label": "MOTHER2 ギーグの逆襲",
+      "genre": "HAR",
+      "imp": 4,
+      "url": "https://ja.wikipedia.org/wiki/MOTHER2_ギーグの逆襲",
+      "note": "個性派RPGの金字塔"
+    },
+    {
+      "label": "ときめきメモリアル",
+      "genre": "HAR",
+      "imp": 3,
+      "url": "https://ja.wikipedia.org/wiki/ときめきメモリアル",
+      "note": "恋愛SLGの礎"
     }
   ],
   "1995": [
@@ -473,6 +673,13 @@
     },
     {
       "label": "GHOST IN THE SHELL 攻殻機動隊"
+    },
+    {
+      "label": "クロノ・トリガー",
+      "genre": "HAR",
+      "imp": 4,
+      "url": "https://ja.wikipedia.org/wiki/クロノ・トリガー",
+      "note": "時空RPGの名作"
     }
   ],
   "1996": [
@@ -513,6 +720,57 @@
       "imp": 4,
       "url": "https://ja.wikipedia.org/wiki/PalmPilot",
       "note": "PDAの代名詞的存在"
+    },
+    {
+      "label": "スーパーマリオ64",
+      "genre": "HAR",
+      "imp": 5,
+      "url": "https://ja.wikipedia.org/wiki/スーパーマリオ64",
+      "note": "3Dアクション設計の礎"
+    },
+    {
+      "label": "ポケットモンスター 赤・緑",
+      "genre": "HAR",
+      "imp": 5,
+      "url": "https://ja.wikipedia.org/wiki/ポケットモンスター_赤・緑",
+      "note": "収集交換文化を確立"
+    },
+    {
+      "label": "バイオハザード (1996年のコンピュータゲーム)",
+      "genre": "HAR",
+      "imp": 4,
+      "url": "https://ja.wikipedia.org/wiki/バイオハザード_(1996年のコンピュータゲーム)",
+      "note": "サバイバルホラー確立"
+    },
+    {
+      "label": "Quake",
+      "genre": "HAR",
+      "imp": 4,
+      "url": "https://ja.wikipedia.org/wiki/Quake",
+      "note": "3Dエンジン時代を牽引"
+    }
+  ],
+  "1997": [
+    {
+      "label": "グランツーリスモ (ゲーム)",
+      "genre": "HAR",
+      "imp": 4,
+      "url": "https://ja.wikipedia.org/wiki/グランツーリスモ_(ゲーム)",
+      "note": "リアル系レースの標準"
+    },
+    {
+      "label": "ファイナルファンタジーVII",
+      "genre": "HAR",
+      "imp": 5,
+      "url": "https://ja.wikipedia.org/wiki/ファイナルファンタジーVII",
+      "note": "RPGの映画的表現拡張"
+    },
+    {
+      "label": "悪魔城ドラキュラX 月下の夜想曲",
+      "genre": "HAR",
+      "imp": 4,
+      "url": "https://ja.wikipedia.org/wiki/悪魔城ドラキュラX_月下の夜想曲",
+      "note": "探索型ACTの礎"
     }
   ],
   "1998": [
@@ -522,6 +780,41 @@
       "imp": 3,
       "url": "https://ja.wikipedia.org/wiki/%E3%83%89%E3%83%AA%E3%83%BC%E3%83%A0%E3%82%AD%E3%83%A3%E3%82%B9%E3%83%88",
       "note": "ネット接続先駆"
+    },
+    {
+      "label": "ゼルダの伝説 時のオカリナ",
+      "genre": "HAR",
+      "imp": 5,
+      "url": "https://ja.wikipedia.org/wiki/ゼルダの伝説_時のオカリナ",
+      "note": "3Dゲーム設計に革新"
+    },
+    {
+      "label": "メタルギアソリッド",
+      "genre": "HAR",
+      "imp": 5,
+      "url": "https://ja.wikipedia.org/wiki/メタルギアソリッド",
+      "note": "ステルスACTの金字塔"
+    },
+    {
+      "label": "Half-Life",
+      "genre": "HAR",
+      "imp": 5,
+      "url": "https://ja.wikipedia.org/wiki/Half-Life",
+      "note": "物語主導FPSの確立"
+    },
+    {
+      "label": "スタークラフト",
+      "genre": "HAR",
+      "imp": 4,
+      "url": "https://ja.wikipedia.org/wiki/スタークラフト",
+      "note": "eスポRTSの基盤"
+    },
+    {
+      "label": "ゼノギアス",
+      "genre": "HAR",
+      "imp": 3,
+      "url": "https://ja.wikipedia.org/wiki/ゼノギアス",
+      "note": "重厚SFと戦闘融合"
     }
   ],
   "1999": [
@@ -537,6 +830,13 @@
       "imp": 4,
       "url": "https://ja.wikipedia.org/wiki/BlackBerry",
       "note": "モバイルメール普及"
+    },
+    {
+      "label": "シェンムー 一章 横須賀",
+      "genre": "HAR",
+      "imp": 3,
+      "url": "https://ja.wikipedia.org/wiki/シェンムー_一章_横須賀",
+      "note": "生活感ある世界表現"
     }
   ],
   "2000": [
@@ -546,6 +846,27 @@
       "imp": 5,
       "url": "https://ja.wikipedia.org/wiki/PlayStation_2",
       "note": "史上最多販売据置機"
+    },
+    {
+      "label": "The Sims",
+      "genre": "HAR",
+      "imp": 4,
+      "url": "https://ja.wikipedia.org/wiki/ザ・シムズ",
+      "note": "人間シムの新領域"
+    },
+    {
+      "label": "カウンターストライク",
+      "genre": "HAR",
+      "imp": 4,
+      "url": "https://ja.wikipedia.org/wiki/カウンターストライク",
+      "note": "対戦FPSの定番へ"
+    },
+    {
+      "label": "Diablo II",
+      "genre": "HAR",
+      "imp": 4,
+      "url": "https://ja.wikipedia.org/wiki/ディアブロII",
+      "note": "ハクスラ定番を確立"
     }
   ],
   "2001": [
@@ -572,6 +893,41 @@
       "imp": 5,
       "url": "https://ja.wikipedia.org/wiki/IPod",
       "note": "音楽配信時代を牽引"
+    },
+    {
+      "label": "グランド・セフト・オートIII",
+      "genre": "HAR",
+      "imp": 5,
+      "url": "https://ja.wikipedia.org/wiki/グランド・セフト・オートIII",
+      "note": "オープンワールド定義"
+    },
+    {
+      "label": "Halo: Combat Evolved",
+      "genre": "HAR",
+      "imp": 4,
+      "url": "https://ja.wikipedia.org/wiki/Halo:_Combat_Evolved",
+      "note": "家庭用FPSの標準化"
+    },
+    {
+      "label": "どうぶつの森",
+      "genre": "HAR",
+      "imp": 4,
+      "url": "https://ja.wikipedia.org/wiki/どうぶつの森",
+      "note": "緩やかな生活系の祖"
+    },
+    {
+      "label": "ICO",
+      "genre": "HAR",
+      "imp": 3,
+      "url": "https://ja.wikipedia.org/wiki/ICO",
+      "note": "ミニマル表現の到達点"
+    },
+    {
+      "label": "ファイナルファンタジーX",
+      "genre": "HAR",
+      "imp": 3,
+      "url": "https://ja.wikipedia.org/wiki/ファイナルファンタジーX",
+      "note": "ボイス導入の転機"
     }
   ],
   "2004": [
@@ -588,6 +944,20 @@
       "imp": 4,
       "url": "https://ja.wikipedia.org/wiki/PlayStation_Portable",
       "note": "携帯でマルチメディア"
+    },
+    {
+      "label": "World of Warcraft",
+      "genre": "HAR",
+      "imp": 5,
+      "url": "https://ja.wikipedia.org/wiki/World_of_Warcraft",
+      "note": "MMO最大級の成功"
+    },
+    {
+      "label": "モンスターハンター",
+      "genre": "HAR",
+      "imp": 4,
+      "url": "https://ja.wikipedia.org/wiki/モンスターハンター",
+      "note": "協力狩猟ゲームの礎"
     }
   ],
   "2005": [
@@ -619,6 +989,13 @@
       "imp": 5,
       "url": "https://ja.wikipedia.org/wiki/Wii",
       "note": "体感操作で新市場創出"
+    },
+    {
+      "label": "Wii Sports",
+      "genre": "HAR",
+      "imp": 5,
+      "url": "https://ja.wikipedia.org/wiki/Wii_Sports",
+      "note": "体感操作で新市場創出"
     }
   ],
   "2007": [
@@ -638,6 +1015,36 @@
       "imp": 4,
       "url": "https://ja.wikipedia.org/wiki/Kindle",
       "note": "電子書籍普及の原動力"
+    },
+    {
+      "label": "Portal",
+      "genre": "HAR",
+      "imp": 4,
+      "url": "https://ja.wikipedia.org/wiki/Portal_(ゲーム)",
+      "note": "物理パズルの革新"
+    },
+    {
+      "label": "コール オブ デューティ4 モダン・ウォーフェア",
+      "genre": "HAR",
+      "imp": 4,
+      "url": "https://ja.wikipedia.org/wiki/コール_オブ_デューティ4_モダン・ウォーフェア",
+      "note": "近代FPSの標準へ"
+    }
+  ],
+  "2009": [
+    {
+      "label": "Angry Birds",
+      "genre": "HAR",
+      "imp": 3,
+      "url": "https://ja.wikipedia.org/wiki/Angry_Birds",
+      "note": "スマホ黎明期の象徴"
+    },
+    {
+      "label": "League of Legends",
+      "genre": "HAR",
+      "imp": 5,
+      "url": "https://ja.wikipedia.org/wiki/League_of_Legends",
+      "note": "MOBA/eスポ王道確立"
     }
   ],
   "2010": [
@@ -669,6 +1076,20 @@
       "imp": 3,
       "url": "https://ja.wikipedia.org/wiki/PlayStation_Vita",
       "note": "高解像度携帯機"
+    },
+    {
+      "label": "Minecraft",
+      "genre": "HAR",
+      "imp": 5,
+      "url": "https://ja.wikipedia.org/wiki/Minecraft",
+      "note": "創造サンドボックスの頂点"
+    },
+    {
+      "label": "ダークソウル",
+      "genre": "HAR",
+      "imp": 5,
+      "url": "https://ja.wikipedia.org/wiki/ダークソウル",
+      "note": "高難度設計と誘導革新"
     }
   ],
   "2012": [
@@ -701,11 +1122,55 @@
       "imp": 4,
       "url": "https://ja.wikipedia.org/wiki/PlayStation_4",
       "note": "x86化で開発容易化"
+    },
+    {
+      "label": "The Last of Us",
+      "genre": "HAR",
+      "imp": 4,
+      "url": "https://ja.wikipedia.org/wiki/The_Last_of_Us",
+      "note": "物語重視TPSの到達点"
+    },
+    {
+      "label": "Dota 2",
+      "genre": "HAR",
+      "imp": 4,
+      "url": "https://ja.wikipedia.org/wiki/Dota_2",
+      "note": "MOBA競技シーン拡大"
+    },
+    {
+      "label": "グランド・セフト・オートV",
+      "genre": "HAR",
+      "imp": 5,
+      "url": "https://ja.wikipedia.org/wiki/グランド・セフト・オートV",
+      "note": "記録的販売の大作"
+    }
+  ],
+  "2015": [
+    {
+      "label": "スプラトゥーン",
+      "genre": "HAR",
+      "imp": 5,
+      "url": "https://ja.wikipedia.org/wiki/スプラトゥーン",
+      "note": "任天堂流対戦シューター"
     }
   ],
   "2016": [
     {
       "label": "DJI Phantom 4／ドローン"
+    },
+    {
+      "label": "ポケモンGO",
+      "genre": "HAR",
+      "imp": 5,
+      "url": "https://ja.wikipedia.org/wiki/ポケモンGO",
+      "note": "位置情報ゲーム普及"
+    },
+    {
+      "label": "オーバーウォッチ",
+      "genre": "HAR",
+      "imp": 4,
+      "url": "https://ja.wikipedia.org/wiki/オーバーウォッチ",
+      "note": "ヒーローFPS確立"
     }
   ],
   "2017": [
@@ -715,11 +1180,62 @@
       "imp": 5,
       "url": "https://ja.wikipedia.org/wiki/%E3%83%8B%E3%83%B3%E3%83%86%E3%83%B3%E3%83%89%E3%83%BC%E3%82%B9%E3%82%A4%E3%83%83%E3%83%81",
       "note": "据置と携帯の融合"
+    },
+    {
+      "label": "PlayerUnknown’s Battlegrounds",
+      "genre": "HAR",
+      "imp": 4,
+      "url": "https://ja.wikipedia.org/wiki/PlayerUnknown%27s_Battlegrounds",
+      "note": "バトロワブーム火付け"
+    },
+    {
+      "label": "ゼルダの伝説 ブレス オブ ザ ワイルド",
+      "genre": "HAR",
+      "imp": 5,
+      "url": "https://ja.wikipedia.org/wiki/ゼルダの伝説_ブレス_オブ_ザ_ワイルド",
+      "note": "探索設計を刷新"
+    },
+    {
+      "label": "Fortnite",
+      "genre": "HAR",
+      "imp": 5,
+      "url": "https://ja.wikipedia.org/wiki/Fortnite",
+      "note": "ライブ型運営の代表格"
+    },
+    {
+      "label": "NieR:Automata",
+      "genre": "HAR",
+      "imp": 4,
+      "url": "https://ja.wikipedia.org/wiki/NieR:Automata",
+      "note": "哲学的物語とACT融合"
     }
   ],
   "2018": [
     {
       "label": "Ready Player One"
+    },
+    {
+      "label": "モンスターハンター:ワールド",
+      "genre": "HAR",
+      "imp": 4,
+      "url": "https://ja.wikipedia.org/wiki/モンスターハンター:ワールド",
+      "note": "シリーズ世界的飛躍"
+    },
+    {
+      "label": "Among Us",
+      "genre": "HAR",
+      "imp": 3,
+      "url": "https://ja.wikipedia.org/wiki/Among_Us",
+      "note": "ソーシャル推理の定番化"
+    }
+  ],
+  "2019": [
+    {
+      "label": "Apex Legends",
+      "genre": "HAR",
+      "imp": 4,
+      "url": "https://ja.wikipedia.org/wiki/Apex_Legends",
+      "note": "高速移動系バトロワ"
     }
   ],
   "2020": [
@@ -732,16 +1248,44 @@
       "imp": 4,
       "url": "https://ja.wikipedia.org/wiki/PlayStation_5",
       "note": "高速SSDとレイトレ対応"
+    },
+    {
+      "label": "原神",
+      "genre": "HAR",
+      "imp": 4,
+      "url": "https://ja.wikipedia.org/wiki/原神",
+      "note": "F2Pオープンワールド拡大"
+    },
+    {
+      "label": "あつまれ どうぶつの森",
+      "genre": "HAR",
+      "imp": 5,
+      "url": "https://ja.wikipedia.org/wiki/あつまれ_どうぶつの森",
+      "note": "パンデミック期の拠り所"
     }
   ],
   "2022": [
     {
       "label": "ChatGPT／生成AI"
+    },
+    {
+      "label": "ELDEN RING",
+      "genre": "HAR",
+      "imp": 5,
+      "url": "https://ja.wikipedia.org/wiki/ELDEN_RING",
+      "note": "オープン×高難度の結晶"
     }
   ],
   "2023": [
     {
       "label": "Web3"
+    },
+    {
+      "label": "バルダーズ・ゲート3",
+      "genre": "HAR",
+      "imp": 5,
+      "url": "https://ja.wikipedia.org/wiki/バルダーズ・ゲート3",
+      "note": "CRPG再興の決定版"
     }
   ]
 }
