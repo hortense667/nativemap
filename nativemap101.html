@@ -299,10 +299,12 @@
 
   // ===== 詳細一覧表示 =====
   function showDetailList(year, anchor) {
+    clearHighlight();
     const items = (events[year] || []).filter(passesFilter);
 
-    const detailHtml = `
-      <div style="max-height: 400px; overflow-y: auto;">
+    editor.innerHTML = `
+      <h4><span>${year}年</span></h4>
+      <div style="max-height: 400px; overflow-y: auto; width: 500px;">
         ${items.length > 0 ? items.map((item, index) => `
           <div style="border: 1px solid #ddd; margin: 8px 0; padding: 12px; border-radius: 6px; background: #f9f9f9;">
             <div style="display: flex; justify-content: space-between; align-items: center;">
@@ -325,13 +327,28 @@
           </div>
         `).join('') : '<div style="text-align: center; color: #666; padding: 20px;">項目がありません</div>'}
       </div>
-      <div style="text-align: right; margin-top: 16px;">
-        <button class="btn" onclick="addNewItem(${year})">追加</button>
-        <button class="btn" onclick="closeModal()" style="margin-left: 8px;">閉じる</button>
-      </div>
-    `;
+      <div class="row">
+        <div class="left"></div>
+        <div class="right">
+          <button id="addBtn">追加</button>
+          <button id="closeBtn">閉じる</button>
+        </div>
+      </div>`;
     
-    openModal(`${year}年`, detailHtml);
+    const r = anchor ? anchor.getBoundingClientRect() : {right: 100, top: 100};
+    const rv = vp.getBoundingClientRect();
+    let left = r.right - rv.left + 8;
+    let top = r.top - rv.top;
+    const maxLeft = rv.width - 520;
+    if(left > maxLeft) left = Math.max(12, r.left - rv.left - 520);
+    
+    editor.style.left = left + 'px';
+    editor.style.top = top + 'px';
+    editor.style.display = 'block';
+
+    function close() { editor.style.display = 'none'; }
+    editor.querySelector('#addBtn').onclick = () => { addNewItem(year); close(); };
+    editor.querySelector('#closeBtn').onclick = close;
   }
 
   // ===== 詳細一覧の操作関数 =====
@@ -380,7 +397,6 @@
   }
 
   function addNewItem(year) {
-    closeModal();
     showEditModal(year, -1, { label: '' });
   }
 
