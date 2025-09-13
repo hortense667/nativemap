@@ -333,11 +333,11 @@
     document.body.appendChild(fixedAgeContainer);
   }
   
-  // 年齢目盛りエリア全体とラベル表示エリアを白で隠すマスクを作成
-  function createAgeMask() {
-    const maskContainer = document.createElement('div');
-    maskContainer.id = 'age-mask';
-    maskContainer.style.cssText = `
+  // 年齢目盛り数字の下に白い帯を作成
+  function createAgeBand() {
+    const bandContainer = document.createElement('div');
+    bandContainer.id = 'age-band';
+    bandContainer.style.cssText = `
       position: fixed;
       top: 78px;
       left: 0;
@@ -347,22 +347,9 @@
       z-index: 4;
     `;
     
-    // ラベル表示エリアを白で隠す
-    const labelMask = document.createElement('div');
-    labelMask.style.cssText = `
-      position: absolute;
-      left: ${LABEL_LEFT_X}px;
-      top: 0;
-      width: ${LABEL_RIGHT_X - LABEL_LEFT_X}px;
-      height: 20px;
-      background: white;
-      pointer-events: none;
-    `;
-    maskContainer.appendChild(labelMask);
-    
-    // 年齢目盛りエリア全体（0から最大年齢まで）を白で隠す
-    const ageAreaMask = document.createElement('div');
-    ageAreaMask.style.cssText = `
+    // 年齢目盛りエリア全体（0から最大年齢まで）に白い帯を作成
+    const ageBand = document.createElement('div');
+    ageBand.style.cssText = `
       position: absolute;
       left: ${ORIGIN_X}px;
       top: 0;
@@ -371,14 +358,14 @@
       background: white;
       pointer-events: none;
     `;
-    maskContainer.appendChild(ageAreaMask);
+    bandContainer.appendChild(ageBand);
     
-    document.body.appendChild(maskContainer);
+    document.body.appendChild(bandContainer);
   }
   
   drawGrid();
   createFixedAgeLabels();
-  createAgeMask();
+  createAgeBand();
   updateGenreFilterButtonText();
 
   const tooltip=document.getElementById('tooltip');
