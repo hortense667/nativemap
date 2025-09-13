@@ -297,6 +297,193 @@
   const tooltip=document.getElementById('tooltip');
   function positionTooltip(e){const r=vp.getBoundingClientRect();tooltip.style.left=(e.clientX-r.left+14)+'px';tooltip.style.top=(e.clientY-r.top+14)+'px';}
 
+  // ===== 詳細一覧表示 =====
+  function showDetailList(year, anchor) {
+    const items = (events[year] || []).filter(passesFilter);
+    if (items.length === 0) {
+      showEditor(year, anchor);
+      return;
+    }
+
+    const detailHtml = `
+      <div style="max-height: 400px; overflow-y: auto;">
+        <h4>${year}年の項目一覧</h4>
+        ${items.map((item, index) => `
+          <div style="border: 1px solid #ddd; margin: 8px 0; padding: 12px; border-radius: 6px; background: #f9f9f9;">
+            <div style="display: flex; justify-content: space-between; align-items: center;">
+              <div style="flex: 1;">
+                <div style="font-weight: bold; margin-bottom: 4px;">${item.label}</div>
+                <div style="font-size: 12px; color: #666;">
+                  ${item.genre ? `ジャンル: ${item.genre}` : ''}
+                  ${item.imp ? ` | 重要度: ${item.imp}` : ''}
+                  ${item.note ? ` | 注釈: ${item.note}` : ''}
+                </div>
+              </div>
+              <div style="display: flex; gap: 8px;">
+                <button onclick="moveItem(${year}, ${index}, -1)" style="padding: 4px 8px; font-size: 12px;" ${index === 0 ? 'disabled' : ''}>▲</button>
+                <button onclick="moveItem(${year}, ${index}, 1)" style="padding: 4px 8px; font-size: 12px;" ${index === items.length - 1 ? 'disabled' : ''}>▼</button>
+                <button onclick="openUrl('${item.url || ''}')" style="padding: 4px 8px; font-size: 12px;" ${!item.url ? 'disabled' : ''}>🌐</button>
+                <button onclick="editItem(${year}, ${index})" style="padding: 4px 8px; font-size: 12px;">✏️</button>
+                <button onclick="deleteItem(${year}, ${index})" style="padding: 4px 8px; font-size: 12px; color: #d32f2f;">🗑️</button>
+              </div>
+            </div>
+          </div>
+        `).join('')}
+      </div>
+      <div style="text-align: right; margin-top: 16px;">
+        <button class="btn" onclick="closeModal()">閉じる</button>
+        <button class="btn" onclick="showEditor(${year}, null)" style="margin-left: 8px;">一括編集</button>
+      </div>
+    `;
+    
+    openModal(`${year}年の項目一覧`, detailHtml);
+  }
+
+  // ===== 詳細一覧の操作関数 =====
+  function moveItem(year, index, direction) {
+    const items = events[year] || [];
+    const newIndex = index + direction;
+    if (newIndex < 0 || newIndex >= items.length) return;
+    
+    // 項目を移動
+    const item = items.splice(index, 1)[0];
+    items.splice(newIndex, 0, item);
+    
+    saveEvents();
+    renderEvents();
+    showDetailList(year, null);
+  }
+
+  function openUrl(url) {
+    if (url && url.startsWith('http')) {
+      window.open(url, '_blank');
+    }
+  }
+
+  function editItem(year, index) {
+    const items = events[year] || [];
+    const item = items[index];
+    if (!item) return;
+    
+    showEditModal(year, index, item);
+  }
+
+  function deleteItem(year, index) {
+    const items = events[year] || [];
+    const item = items[index];
+    if (!item) return;
+    
+    if (confirm(`「${item.label}」を削除しますか？`)) {
+      items.splice(index, 1);
+      if (items.length === 0) {
+        delete events[year];
+      }
+      saveEvents();
+      renderEvents();
+      showDetailList(year, null);
+    }
+  }
+
+  // 個別編集用モーダル
+  function showEditModal(year, index, item) {
+    const editHtml = `
+      <div style="max-width: 500px;">
+        <div style="margin-bottom: 16px;">
+          <label style="display: block; margin-bottom: 4px; font-weight: bold;">ラベル:</label>
+          <input type="text" id="editLabel" value="${item.label || ''}" style="width: 100%; padding: 8px; border: 1px solid #ddd; border-radius: 4px;">
+        </div>
+        
+        <div style="margin-bottom: 16px;">
+          <label style="display: block; margin-bottom: 4px; font-weight: bold;">ジャンル:</label>
+          <select id="editGenre" style="width: 100%; padding: 8px; border: 1px solid #ddd; border-radius: 4px;">
+            <option value="">選択してください</option>
+            <option value="ANI" ${item.genre === 'ANI' ? 'selected' : ''}>アニメ</option>
+            <option value="MAN" ${item.genre === 'MAN' ? 'selected' : ''}>マンガ</option>
+            <option value="GAM" ${item.genre === 'GAM' ? 'selected' : ''}>ゲーム</option>
+            <option value="TVP" ${item.genre === 'TVP' ? 'selected' : ''}>テレビ番組</option>
+            <option value="MOV" ${item.genre === 'MOV' ? 'selected' : ''}>映画</option>
+            <option value="NET" ${item.genre === 'NET' ? 'selected' : ''}>インターネット</option>
+            <option value="HAR" ${item.genre === 'HAR' ? 'selected' : ''}>ハードウェア</option>
+            <option value="PHE" ${item.genre === 'PHE' ? 'selected' : ''}>現象・流行</option>
+            <option value="UNC" ${item.genre === 'UNC' ? 'selected' : ''}>その他</option>
+          </select>
+        </div>
+        
+        <div style="margin-bottom: 16px;">
+          <label style="display: block; margin-bottom: 4px; font-weight: bold;">重要度:</label>
+          <select id="editImp" style="width: 100%; padding: 8px; border: 1px solid #ddd; border-radius: 4px;">
+            <option value="">選択してください</option>
+            <option value="5" ${item.imp === 5 ? 'selected' : ''}>5 - 時代を代表する重要イベント</option>
+            <option value="4" ${item.imp === 4 ? 'selected' : ''}>4 - 大きな影響を与えたイベント</option>
+            <option value="3" ${item.imp === 3 ? 'selected' : ''}>3 - 一般的に知られているイベント</option>
+            <option value="2" ${item.imp === 2 ? 'selected' : ''}>2 - 特定分野で重要なイベント</option>
+            <option value="1" ${item.imp === 1 ? 'selected' : ''}>1 - 参考程度のイベント</option>
+          </select>
+        </div>
+        
+        <div style="margin-bottom: 16px;">
+          <label style="display: block; margin-bottom: 4px; font-weight: bold;">URL:</label>
+          <input type="url" id="editUrl" value="${item.url || ''}" style="width: 100%; padding: 8px; border: 1px solid #ddd; border-radius: 4px;" placeholder="https://example.com">
+        </div>
+        
+        <div style="margin-bottom: 16px;">
+          <label style="display: block; margin-bottom: 4px; font-weight: bold;">注釈:</label>
+          <textarea id="editNote" style="width: 100%; padding: 8px; border: 1px solid #ddd; border-radius: 4px; height: 80px;" placeholder="補足説明やメモ">${item.note || ''}</textarea>
+        </div>
+        
+        <div style="text-align: right;">
+          <button class="btn" onclick="closeModal()">キャンセル</button>
+          <button class="btn" onclick="saveEditItem(${year}, ${index})" style="margin-left: 8px;">保存</button>
+        </div>
+      </div>
+    `;
+    
+    openModal('項目の編集', editHtml);
+  }
+
+  function saveEditItem(year, index) {
+    const items = events[year] || [];
+    const item = items[index];
+    if (!item) return;
+    
+    const label = document.getElementById('editLabel').value.trim();
+    const genre = document.getElementById('editGenre').value.trim();
+    const imp = document.getElementById('editImp').value.trim();
+    const url = document.getElementById('editUrl').value.trim();
+    const note = document.getElementById('editNote').value.trim();
+    
+    if (!label) {
+      showError('編集エラー', 'ラベルは必須です。');
+      return;
+    }
+    
+    // 項目を更新
+    item.label = label;
+    item.genre = genre || undefined;
+    item.imp = imp ? parseInt(imp, 10) : undefined;
+    item.url = url || undefined;
+    item.note = note || undefined;
+    
+    // 空のプロパティを削除
+    Object.keys(item).forEach(key => {
+      if (item[key] === undefined || item[key] === '') {
+        delete item[key];
+      }
+    });
+    
+    saveEvents();
+    renderEvents();
+    closeModal();
+    showDetailList(year, null);
+  }
+
+  // グローバル関数として公開
+  window.moveItem = moveItem;
+  window.openUrl = openUrl;
+  window.editItem = editItem;
+  window.deleteItem = deleteItem;
+  window.saveEditItem = saveEditItem;
+
   // ===== 編集UI（テキスト） =====
   function serializeLine(it){ const label=(it.label||'').trim(); const g=(it.genre||'').trim(); const imp=(it.imp===undefined||it.imp===null||String(it.imp)==='')? '' : String(it.imp); const url=(it.url||'').trim(); const note=(it.note||'').trim(); if(!g && !imp && !url && !note) return label; return [label,g,imp,url,note].join(';'); }
   function parseLine(line){ const raw=line.trim(); if(!raw) return null; const parts=raw.split(';'); const label=(parts[0]||'').trim(); if(!label) return null; const genre=(parts[1]||'').trim().toUpperCase(); let imp=(parts[2]||'').trim(); imp = imp? String(Math.min(5, Math.max(1, parseInt(imp,10)))): ''; const url=(parts[3]||'').trim(); const note=(parts[4]||'').trim(); const o={label}; if(genre) o.genre=genre; if(imp) o.imp=imp; if(url) o.url=url; if(note) o.note=note; return o; }
@@ -372,8 +559,6 @@
           let content = `<li><strong>${item.label}</strong>`;
           if (item.genre) content += ` <span style="color:#666;">[${item.genre}]</span>`;
           if (item.imp) content += ` <span style="color:#666;">★${item.imp}</span>`;
-          if (item.url) content += `<br><small><a href="${item.url}" target="_blank" style="color:#0066cc;">${item.url}</a></small>`;
-          if (item.note) content += `<br><small style="color:#666; font-style:italic;">${item.note}</small>`;
           content += '</li>';
           return content;
         }).join('');
@@ -382,7 +567,7 @@
       });
       tx.addEventListener('mousemove',positionTooltip);
       tx.addEventListener('mouseleave',()=>{tooltip.style.display='none'});
-      tx.addEventListener('click',(e)=>{ tooltip.style.display='none'; showEditor(y, e.target); });
+      tx.addEventListener('click',(e)=>{ tooltip.style.display='none'; showDetailList(y, e.target); });
     }
   }
   renderEvents();
