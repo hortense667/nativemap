@@ -294,11 +294,46 @@
   function yFromBirthYear(by){return ORIGIN_Y+(by-YEAR_MIN)*PX_PER_YEAR;}
   function xFromAge(age){return ORIGIN_X+age*PX_PER_AGE;}
   function drawGrid(){
-    for(let a=0;a<=AGE_MAX;a+=10){ const x=xFromAge(a); gridG.appendChild(lineEl(x,ORIGIN_Y-10,x,height-20,'gridMajor')); const t=textEl(a,x,ORIGIN_Y-16,'ageTickText'); t.setAttribute('text-anchor','middle'); gridG.appendChild(t); }
+    for(let a=0;a<=AGE_MAX;a+=10){ const x=xFromAge(a); gridG.appendChild(lineEl(x,ORIGIN_Y-10,x,height-20,'gridMajor')); }
     for(let y=YEAR_MIN;y<=YEAR_MAX;y++){ const ypx=yFromBirthYear(y); gridG.appendChild(lineEl(ORIGIN_X,ypx,width-20,ypx,(y%10===0?'gridMajor':'gridMinor'))); if(y%10===0){ const decade=String(y).slice(2,3)+"0s"; const tt=textEl(decade, 36, ypx+18, 'axisLabel'); tt.setAttribute('text-anchor','middle'); decadesG.appendChild(tt); } }
     for(let b=YEAR_MIN; b<=YEAR_MAX; b+=5){ const x0=ORIGIN_X, y0=yFromBirthYear(b); const x1=xFromAge(Math.min(AGE_MAX,YEAR_MAX-b)); const y1=yFromBirthYear(Math.min(YEAR_MAX,b+AGE_MAX)); gridG.appendChild(lineEl(x0,y0,x1,y1,'gridMinor')); }
   }
+  
+  // 固定位置の年齢軸ラベルを作成
+  function createFixedAgeLabels() {
+    const fixedAgeContainer = document.createElement('div');
+    fixedAgeContainer.id = 'fixed-age-labels';
+    fixedAgeContainer.style.cssText = `
+      position: fixed;
+      top: 58px;
+      left: 0;
+      right: 0;
+      height: 20px;
+      pointer-events: none;
+      z-index: 5;
+    `;
+    
+    for(let a=0;a<=AGE_MAX;a+=10){
+      const x = xFromAge(a);
+      const label = document.createElement('div');
+      label.textContent = a;
+      label.style.cssText = `
+        position: absolute;
+        left: ${x}px;
+        top: 0;
+        font-size: 18px;
+        font-weight: 700;
+        color: #4a4a4a;
+        transform: translateX(-50%);
+        pointer-events: none;
+      `;
+      fixedAgeContainer.appendChild(label);
+    }
+    
+    document.body.appendChild(fixedAgeContainer);
+  }
   drawGrid();
+  createFixedAgeLabels();
   updateGenreFilterButtonText();
 
   const tooltip=document.getElementById('tooltip');
@@ -1223,7 +1258,24 @@
     const diag=lineEl(0,0,0,0);                    diag.style.stroke=stroke;  diag.style.strokeWidth=3; // 左上斜め
     const eh=circleEl(HANDLE_X,0,8,'handle');      eh.setAttribute('stroke',stroke); eh.setAttribute('fill','#fff');
     const bh=circleEl(HANDLE_X,0,8,'handle');      bh.setAttribute('stroke',stroke); bh.setAttribute('fill','#fff');
-    const ageText=textEl('',0,0,'ageTickText');
+    // 年齢表示を固定位置のHTML要素として作成
+    const ageTextElement = document.createElement('div');
+    ageTextElement.style.cssText = `
+      position: fixed;
+      top: 78px;
+      left: 0;
+      font-size: 18px;
+      font-weight: 700;
+      color: ${stroke};
+      transform: translateX(-50%);
+      pointer-events: none;
+      z-index: 6;
+      display: none;
+    `;
+    ageTextElement.id = `age-text-${color}`;
+    document.body.appendChild(ageTextElement);
+    
+    const ageText=textEl('',0,0,'ageTickText'); // SVG要素は非表示にする
     const eventYearText=textEl('', ORIGIN_X+8, 0, 'ageTickText'); eventYearText.style.fontSize='14px'; eventYearText.style.fill=stroke; eventYearText.setAttribute('text-anchor','start');
     const birthYearText=textEl('', ORIGIN_X+8, 0, 'ageTickText'); birthYearText.style.fontSize='14px'; birthYearText.style.fill=stroke; birthYearText.setAttribute('text-anchor','start');
 
@@ -1240,15 +1292,13 @@
       diag.setAttribute('x1',ix);diag.setAttribute('y1',yE); diag.setAttribute('x2',ix-PX_PER_AGE*tMax);diag.setAttribute('y2',yE-PX_PER_YEAR*tMax);
       eh.setAttribute('cx',HANDLE_X);eh.setAttribute('cy',yE);
       bh.setAttribute('cx',HANDLE_X);bh.setAttribute('cy',yB);
-      ageText.textContent=`${age}歳`;ageText.setAttribute('x',ix+10);
-      // 年齢表示を画面の上下方向でスクロールアウトしないように固定位置に配置
-      const viewport = document.getElementById('viewport');
-      const viewportRect = viewport.getBoundingClientRect();
-      const stageRect = stage.getBoundingClientRect();
-      const relativeY = ORIGIN_Y + 22;
-      const absoluteY = relativeY + (stageRect.top - viewportRect.top);
-      const fixedY = Math.max(20, Math.min(viewportRect.height - 20, absoluteY));
-      ageText.setAttribute('y', fixedY);
+      // HTML要素の年齢表示を更新
+      ageTextElement.textContent = `${age}歳`;
+      ageTextElement.style.left = `${ix}px`;
+      ageTextElement.style.display = 'block';
+      
+      // SVG要素は非表示
+      ageText.textContent = '';
       eventYearText.textContent = `${state.eventYear}年`;
       eventYearText.setAttribute('x', ORIGIN_X+8);
       eventYearText.setAttribute('y', yE-6);
@@ -1268,12 +1318,6 @@
 
   const probeBlue=makeProbe('blue');
   const probeRed=makeProbe('red');
-  
-  // スクロール時に年齢表示の位置を更新
-  document.getElementById('viewport').addEventListener('scroll', () => {
-    probeBlue.redraw();
-    probeRed.redraw();
-  });
 
   // ライン表示トグル（小丸ボタン）
   const blueGroup=document.getElementById('probe-blue');
