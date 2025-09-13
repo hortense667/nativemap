@@ -71,8 +71,6 @@
   <header>
     <strong>ネイティブマップ 1.0</strong>
     <span class="hint">縦軸：誕生年、横軸：年齢／ラベルクリックで編集／誕生年の丸をドラッグ</span>
-    <button class="btn" id="githubLogin" style="display:none;">GitHubでログイン</button>
-    <button class="btn" id="githubLogout" style="display:none;">ログアウト</button>
     <div class="filters" id="filters">
       <label>ジャンル
         <select id="filterGenre">
@@ -640,69 +638,6 @@
   
   let githubUser = null;
 
-  // GitHub OAuth認証
-  async function loginWithGitHub() {
-    const clientId = 'your_github_client_id'; // 実際のクライアントIDに置き換え
-    const redirectUri = window.location.origin + window.location.pathname;
-    const scope = 'repo';
-    
-    const authUrl = `https://github.com/login/oauth/authorize?client_id=${clientId}&redirect_uri=${encodeURIComponent(redirectUri)}&scope=${scope}`;
-    window.location.href = authUrl;
-  }
-
-  // GitHub認証後のコールバック処理
-  async function handleGitHubCallback() {
-    const urlParams = new URLSearchParams(window.location.search);
-    const code = urlParams.get('code');
-    
-    if (code) {
-      try {
-        // アクセストークンを取得（実際の実装ではサーバーサイドで処理）
-        const response = await fetch('/api/github/token', {
-          method: 'POST',
-          headers: { 'Content-Type': 'application/json' },
-          body: JSON.stringify({ code })
-        });
-        
-        if (response.ok) {
-          const data = await response.json();
-          githubConfig.accessToken = data.access_token;
-          saveGitHubConfig();
-          
-          // URLからcodeパラメータを削除
-          window.history.replaceState({}, document.title, window.location.pathname);
-          
-          showInfo('ログイン成功', 'GitHubにログインしました。');
-          updateLoginStatus();
-        }
-      } catch (error) {
-        showError('ログインエラー', 'GitHubログインに失敗しました。');
-      }
-    }
-  }
-
-  // ログイン状態の更新
-  function updateLoginStatus() {
-    const loginBtn = document.getElementById('githubLogin');
-    const logoutBtn = document.getElementById('githubLogout');
-    
-    if (githubConfig.accessToken) {
-      loginBtn.style.display = 'none';
-      logoutBtn.style.display = 'inline-block';
-    } else {
-      loginBtn.style.display = 'inline-block';
-      logoutBtn.style.display = 'none';
-    }
-  }
-
-  // ログアウト
-  function logoutFromGitHub() {
-    githubConfig.accessToken = '';
-    githubUser = null;
-    saveGitHubConfig();
-    updateLoginStatus();
-    showInfo('ログアウト', 'GitHubからログアウトしました。');
-  }
 
   // 設定の保存・読み込み
   function saveGitHubConfig() {
@@ -859,6 +794,12 @@
       <p>GitHub APIを使用してデータを同期します。</p>
       <div style="margin: 16px 0;">
         <label style="display: block; margin-bottom: 8px;">
+          <strong>Personal Access Token:</strong><br>
+          <input type="password" id="accessToken" value="${githubConfig.accessToken}" 
+                 style="width: 100%; padding: 6px; margin-top: 4px;" 
+                 placeholder="GitHub Personal Access Tokenを入力" />
+        </label>
+        <label style="display: block; margin-bottom: 8px;">
           <strong>リポジトリ所有者:</strong><br>
           <input type="text" id="owner" value="${githubConfig.owner}" 
                  style="width: 100%; padding: 6px; margin-top: 4px;" 
@@ -896,11 +837,13 @@
   }
 
   function saveSettings() {
+    const tokenInput = document.getElementById('accessToken');
     const ownerInput = document.getElementById('owner');
     const repoInput = document.getElementById('repo');
     const pathInput = document.getElementById('filePath');
     
-    if (ownerInput && repoInput && pathInput) {
+    if (tokenInput && ownerInput && repoInput && pathInput) {
+      githubConfig.accessToken = tokenInput.value.trim();
       githubConfig.owner = ownerInput.value.trim();
       githubConfig.repo = repoInput.value.trim();
       githubConfig.filePath = pathInput.value.trim() || 'timeline.json';
@@ -982,16 +925,6 @@
 
   // 初期化時に設定を読み込み
   loadGitHubConfig();
-  
-  // GitHub認証ボタンのイベントリスナー
-  document.getElementById('githubLogin').addEventListener('click', loginWithGitHub);
-  document.getElementById('githubLogout').addEventListener('click', logoutFromGitHub);
-  
-  // ページ読み込み時に認証コールバックを処理
-  handleGitHubCallback();
-  
-  // ログイン状態を更新
-  updateLoginStatus();
 
   // ===== CSV/TSV ロード =====
   loadCsvBtn.addEventListener('click', ()=> fileInput.click());
