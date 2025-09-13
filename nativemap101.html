@@ -852,7 +852,15 @@
       console.log('データをBase64エンコード中...');
       const jsonString = JSON.stringify(data, null, 2);
       const bytes = new TextEncoder().encode(jsonString);
-      const binaryString = String.fromCharCode(...bytes);
+      
+      // 大きな配列の場合は分割して処理
+      let binaryString = '';
+      const chunkSize = 8192; // 8KBずつ処理
+      for (let i = 0; i < bytes.length; i += chunkSize) {
+        const chunk = bytes.slice(i, i + chunkSize);
+        binaryString += String.fromCharCode(...chunk);
+      }
+      
       const content = btoa(binaryString);
       console.log('Base64エンコード完了, サイズ:', content.length, 'bytes');
       
