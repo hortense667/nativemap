@@ -1,4 +1,4 @@
-１<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="ja">
 <head>
 <meta charset="utf-8" />
@@ -631,18 +631,25 @@
       
       // 年部分は必ず表示し、ラベル部分のみ切り取り（余裕を持たせる）
       let text;
+      let textX = LABEL_RIGHT_X; // デフォルトは右端
+      let textAnchor = 'end';
+      
       if (fullText.length > maxChars) {
         const yearSpaceLength = yearPart.length + 1; // 年 + スペース
         const buffer = 3; // 余裕を持たせる文字数
         const remainingChars = Math.max(0, maxChars - yearSpaceLength - buffer);
         const truncatedLabels = labelsPart.substring(0, remainingChars);
         text = `${yearPart} ${truncatedLabels}`;
+        
+        // 切り取られた場合は固定位置から表示
+        textX = LABEL_LEFT_X + 20; // 左端から少し余裕を持たせた位置
+        textAnchor = 'start';
       } else {
         text = fullText;
       }
       
-      const tx=textEl(text, LABEL_RIGHT_X, ypx, 'eventLabel');
-      tx.setAttribute('text-anchor','end');
+      const tx=textEl(text, textX, ypx, 'eventLabel');
+      tx.setAttribute('text-anchor', textAnchor);
       tx.setAttribute('dominant-baseline','middle');
       tx.setAttribute('data-year', y);
       if(labels.length>1) tx.classList.add('eventMulti');
