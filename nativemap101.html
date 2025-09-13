@@ -487,6 +487,28 @@
       return;
     }
     
+    // 重複チェック（ラベル・ジャンル組み合わせ）
+    const key = `${label}|${genre || ''}`;
+    const existingItems = buildLabelGenreSet();
+    
+    // 編集の場合（index !== -1）は、自分自身との重複は除外
+    if (index !== -1) {
+      const currentItem = events[year][index];
+      const currentKey = `${currentItem.label}|${currentItem.genre || ''}`;
+      if (key === currentKey) {
+        // 同じラベル・ジャンル組み合わせなので重複チェックをスキップ
+      } else if (existingItems.has(key)) {
+        showError('重複エラー', `同じラベル・ジャンル組み合わせが既に存在します（${label}${genre ? ` [${genre}]` : ''}）`);
+        return;
+      }
+    } else {
+      // 新規追加の場合
+      if (existingItems.has(key)) {
+        showError('重複エラー', `同じラベル・ジャンル組み合わせが既に存在します（${label}${genre ? ` [${genre}]` : ''}）`);
+        return;
+      }
+    }
+    
     if (!events[year]) {
       events[year] = [];
     }
@@ -699,8 +721,19 @@
   vp.addEventListener('mousemove', ()=>{ if(clearOnNextMove) { clearHighlight(); } });
   vp.addEventListener('click', ()=>{ if(clearOnNextMove) { clearHighlight(); } });
 
-  // ===== 既存ラベル集合 =====
-  function buildLabelSet(){ const s=new Set(); for(const y of Object.keys(events)){ for(const it of (events[y]||[])){ if(it && typeof it.label==='string') s.add(it.label.trim()); } } return s; }
+  // ===== 既存ラベル・ジャンル組み合わせ集合 =====
+  function buildLabelGenreSet(){ 
+    const s=new Set(); 
+    for(const y of Object.keys(events)){ 
+      for(const it of (events[y]||[])){ 
+        if(it && typeof it.label==='string') {
+          const key = `${it.label.trim()}|${it.genre || ''}`;
+          s.add(key);
+        }
+      } 
+    } 
+    return s; 
+  }
 
   // ===== GitHub同期機能 =====
   let githubConfig = {
@@ -1087,7 +1120,7 @@
     let firstNonEmpty = lines.find(l=>l.trim().length>0) || '';
     const delim = detectDelim(firstNonEmpty);
     let addedCount=0; const errors=[];
-    const seen=buildLabelSet();
+    const seen=buildLabelGenreSet();
     for(let i=0;i<lines.length;i++){
       const raw=lines[i].trim(); if(!raw) continue;
       const cols=raw.split(delim);
@@ -1104,11 +1137,12 @@
         errors.push(`${i+1}行目: 年が不正または範囲外（${yearStr}）`); continue;
       }
       if(!label){ errors.push(`${i+1}行目: ラベルが空です`); continue; }
-      if(seen.has(label)) { errors.push(`${i+1}行目: 同じ名称のラベル項目が存在しますが登録します（${label}）`); }
+      const key = `${label}|${genre || ''}`;
+      if(seen.has(key)) { errors.push(`${i+1}行目: 同じラベル・ジャンル組み合わせが存在します（${label}${genre ? ` [${genre}]` : ''}）`); continue; }
       if(genre && !GENRE_SET.has(genre)){ errors.push(`${i+1}行目: 不正なジャンル（${genre}）`); continue; }
       if(impStr){ const n=parseInt(impStr,10); if(!(n>=1 && n<=5)){ errors.push(`${i+1}行目: 不正な重要度（${impStr}）`); continue; } }
       const item={ label }; if(genre) item.genre=genre; if(impStr) item.imp=parseInt(impStr,10); if(url) item.url=url; if(note) item.note=note;
-      if(!events[year]) events[year]=[]; events[year].push(item); seen.add(label); addedCount++;
+      if(!events[year]) events[year]=[]; events[year].push(item); seen.add(key); addedCount++;
     }
     return {addedCount, errors};
   }
