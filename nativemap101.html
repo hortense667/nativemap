@@ -1222,9 +1222,6 @@
   function onFilterChange(){ filterImp=selImp.value.trim(); renderEvents(); }
   selImp.addEventListener('change', onFilterChange);
   
-  // ジャンルフィルタボタンのイベントリスナー
-  genreFilterBtn.addEventListener('click', showGenreFilterModal);
-  
   // ジャンル選択モーダル関連の関数
   function showGenreFilterModal() {
     const genreLabels = {
@@ -1309,6 +1306,12 @@
     updateGenreFilterButtonText();
   }
   
+  // グローバルスコープで利用できるようにする
+  window.toggleGenre = toggleGenre;
+  window.selectAllGenres = selectAllGenres;
+  window.deselectAllGenres = deselectAllGenres;
+  window.applyGenreFilter = applyGenreFilter;
+  
   function updateGenreFilterButtonText() {
     if (selectedGenres.size === 0) {
       genreFilterBtn.textContent = 'ジャンル選択';
@@ -1318,6 +1321,9 @@
       genreFilterBtn.textContent = `${selectedGenres.size}個のジャンル`;
     }
   }
+  
+  // ジャンルフィルタボタンのイベントリスナー
+  genreFilterBtn.addEventListener('click', showGenreFilterModal);
 
   // ヘルプ
   const helpHtml = `
