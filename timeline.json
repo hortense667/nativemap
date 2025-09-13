@@ -11,6 +11,31 @@
   "1952": [
     {
       "label": "テレビ放送開始"
+    },
+    {
+      "label": "鉄腕アトム",
+      "genre": "MAN",
+      "imp": 5,
+      "url": "https://ja.wikipedia.org/wiki/鉄腕アトム",
+      "note": "国民的SFヒーロー"
+    }
+  ],
+  "1953": [
+    {
+      "label": "リボンの騎士",
+      "genre": "MAN",
+      "imp": 4,
+      "url": "https://ja.wikipedia.org/wiki/リボンの騎士",
+      "note": "少女漫画に新地平"
+    }
+  ],
+  "1954": [
+    {
+      "label": "火の鳥",
+      "genre": "MAN",
+      "imp": 5,
+      "url": "https://ja.wikipedia.org/wiki/火の鳥",
+      "note": "生命と輪廻を描く大作"
     }
   ],
   "1956": [
@@ -21,6 +46,13 @@
       "label": "遠藤諭",
       "genre": "UNC",
       "imp": 5
+    },
+    {
+      "label": "鉄人28号",
+      "genre": "MAN",
+      "imp": 4,
+      "url": "https://ja.wikipedia.org/wiki/鉄人28号",
+      "note": "巨大ロボ表現の源流"
     }
   ],
   "1957": [
@@ -87,6 +119,13 @@
       "imp": 5,
       "url": "https://ja.wikipedia.org/wiki/BASIC",
       "note": "PC普及期の入門言語"
+    },
+    {
+      "label": "カムイ伝",
+      "genre": "MAN",
+      "imp": 4,
+      "url": "https://ja.wikipedia.org/wiki/カムイ伝",
+      "note": "劇画運動の象徴作"
     }
   ],
   "1965": [
@@ -96,6 +135,22 @@
       "imp": 5,
       "url": "https://ja.wikipedia.org/wiki/PDP-8",
       "note": "初の量産ミニコン"
+    },
+    {
+      "label": "ゲゲゲの鬼太郎",
+      "genre": "MAN",
+      "imp": 4,
+      "url": "https://ja.wikipedia.org/wiki/ゲゲゲの鬼太郎",
+      "note": "妖怪文化を定着"
+    }
+  ],
+  "1966": [
+    {
+      "label": "巨人の星",
+      "genre": "MAN",
+      "imp": 5,
+      "url": "https://ja.wikipedia.org/wiki/巨人の星",
+      "note": "スポ根の原点的存在"
     }
   ],
   "1968": [
@@ -105,6 +160,27 @@
       "imp": 4,
       "url": "https://ja.wikipedia.org/wiki/SPSS",
       "note": "統計解析の老舗ツール"
+    },
+    {
+      "label": "ねじ式",
+      "genre": "MAN",
+      "imp": 4,
+      "url": "https://ja.wikipedia.org/wiki/ねじ式",
+      "note": "前衛的表現の到達点"
+    },
+    {
+      "label": "あしたのジョー",
+      "genre": "MAN",
+      "imp": 5,
+      "url": "https://ja.wikipedia.org/wiki/あしたのジョー",
+      "note": "スポ根と時代の象徴"
+    },
+    {
+      "label": "ゴルゴ13",
+      "genre": "MAN",
+      "imp": 5,
+      "url": "https://ja.wikipedia.org/wiki/ゴルゴ13",
+      "note": "最長寿クラスの劇画"
     }
   ],
   "1969": [
@@ -114,6 +190,27 @@
       "imp": 4,
       "url": "https://ja.wikipedia.org/wiki/Multics",
       "note": "UNIX誕生へ影響したOS"
+    },
+    {
+      "label": "ARPANET",
+      "genre": "NET",
+      "imp": 5,
+      "url": "https://ja.wikipedia.org/wiki/ARPANET",
+      "note": "ネットの祖となる実験網"
+    },
+    {
+      "label": "CompuServe",
+      "genre": "NET",
+      "imp": 4,
+      "url": "https://ja.wikipedia.org/wiki/CompuServe",
+      "note": "草創期の商用オンライン"
+    },
+    {
+      "label": "ドラえもん",
+      "genre": "MAN",
+      "imp": 5,
+      "url": "https://ja.wikipedia.org/wiki/ドラえもん",
+      "note": "世代超える国民漫画"
     }
   ],
   "1970": [
@@ -139,6 +236,13 @@
       "imp": 5,
       "url": "https://ja.wikipedia.org/wiki/UNIX",
       "note": "現代OSの源流となるUNIX系"
+    },
+    {
+      "label": "ALOHAnet",
+      "genre": "NET",
+      "imp": 4,
+      "url": "https://ja.wikipedia.org/wiki/ALOHAnet",
+      "note": "無線パケット通信の嚆矢"
     }
   ],
   "1972": [
@@ -183,6 +287,20 @@
       "imp": 4,
       "url": "https://ja.wikipedia.org/wiki/Smalltalk",
       "note": "OOP概念を実用化"
+    },
+    {
+      "label": "デビルマン",
+      "genre": "MAN",
+      "imp": 4,
+      "url": "https://ja.wikipedia.org/wiki/デビルマン",
+      "note": "ダークヒーローの金字塔"
+    },
+    {
+      "label": "ベルサイユのばら",
+      "genre": "MAN",
+      "imp": 5,
+      "url": "https://ja.wikipedia.org/wiki/ベルサイユのばら",
+      "note": "少女漫画の歴史的転機"
     }
   ],
   "1973": [
@@ -192,6 +310,27 @@
       "imp": 5,
       "url": "https://ja.wikipedia.org/wiki/Xerox_Alto",
       "note": "GUIとマウスの先駆け"
+    },
+    {
+      "label": "イーサネット",
+      "genre": "NET",
+      "imp": 5,
+      "url": "https://ja.wikipedia.org/wiki/%E3%82%A4%E3%83%BC%E3%82%B5%E3%83%8D%E3%83%83%E3%83%88",
+      "note": "LANの事実上標準"
+    },
+    {
+      "label": "はだしのゲン",
+      "genre": "MAN",
+      "imp": 5,
+      "url": "https://ja.wikipedia.org/wiki/はだしのゲン",
+      "note": "被爆体験の社会派大作"
+    },
+    {
+      "label": "ブラック・ジャック",
+      "genre": "MAN",
+      "imp": 5,
+      "url": "https://ja.wikipedia.org/wiki/ブラック・ジャック",
+      "note": "医療ドラマの金字塔"
     }
   ],
   "1974": [
@@ -247,6 +386,20 @@
       "imp": 4,
       "url": "https://ja.wikipedia.org/wiki/Vi",
       "note": "軽快なUNIX系エディタ"
+    },
+    {
+      "label": "X.25",
+      "genre": "NET",
+      "imp": 4,
+      "url": "https://ja.wikipedia.org/wiki/X.25",
+      "note": "公衆網で用いられた方式"
+    },
+    {
+      "label": "ガラスの仮面",
+      "genre": "MAN",
+      "imp": 4,
+      "url": "https://ja.wikipedia.org/wiki/ガラスの仮面",
+      "note": "演劇少女漫画の頂点"
     }
   ],
   "1977": [
@@ -291,6 +444,13 @@
       "imp": 4,
       "url": "https://ja.wikipedia.org/wiki/OpenVMS",
       "note": "信頼性重視のマルチユーザーOS"
+    },
+    {
+      "label": "ARCNET",
+      "genre": "NET",
+      "imp": 3,
+      "url": "https://ja.wikipedia.org/wiki/ARCNET",
+      "note": "初期の安価なLAN規格"
     }
   ],
   "1978": [
@@ -314,6 +474,13 @@
       "imp": 5,
       "url": "https://ja.wikipedia.org/wiki/TeX",
       "note": "組版の事実上標準"
+    },
+    {
+      "label": "うる星やつら",
+      "genre": "MAN",
+      "imp": 4,
+      "url": "https://ja.wikipedia.org/wiki/うる星やつら",
+      "note": "ギャグとSFの融合"
     }
   ],
   "1979": [
@@ -353,6 +520,27 @@
       "imp": 5,
       "url": "https://ja.wikipedia.org/wiki/パックマン",
       "note": "世界的アイコンとなる"
+    },
+    {
+      "label": "パソコン通信",
+      "genre": "NET",
+      "imp": 4,
+      "url": "https://ja.wikipedia.org/wiki/%E3%83%91%E3%82%BD%E3%82%B3%E3%83%B3%E9%80%9A%E4%BF%A1",
+      "note": "モデム接続の総称"
+    },
+    {
+      "label": "ネットニュース(Usenet)",
+      "genre": "NET",
+      "imp": 4,
+      "url": "https://ja.wikipedia.org/wiki/%E3%83%8D%E3%83%83%E3%83%88%E3%83%8B%E3%83%A5%E3%83%BC%E3%82%B9",
+      "note": "分散型電子会議システム"
+    },
+    {
+      "label": "ビデオテックス",
+      "genre": "NET",
+      "imp": 3,
+      "url": "https://ja.wikipedia.org/wiki/%E3%83%93%E3%83%87%E3%82%AA%E3%83%86%E3%83%83%E3%82%AF%E3%82%B9",
+      "note": "端末と情報センター接続"
     }
   ],
   "1981": [
@@ -418,6 +606,13 @@
       "imp": 5,
       "url": "https://ja.wikipedia.org/wiki/MS-DOS",
       "note": "PC普及を支えたDOS"
+    },
+    {
+      "label": "キャプテン翼",
+      "genre": "MAN",
+      "imp": 4,
+      "url": "https://ja.wikipedia.org/wiki/キャプテン翼",
+      "note": "サッカー漫画世界へ"
     }
   ],
   "1982": [
@@ -469,6 +664,34 @@
       "imp": 5,
       "url": "https://ja.wikipedia.org/wiki/AutoCAD",
       "note": "CADの業界標準"
+    },
+    {
+      "label": "SMTP",
+      "genre": "NET",
+      "imp": 4,
+      "url": "https://ja.wikipedia.org/wiki/Simple_Mail_Transfer_Protocol",
+      "note": "メール転送の標準"
+    },
+    {
+      "label": "ミニテル",
+      "genre": "NET",
+      "imp": 4,
+      "url": "https://ja.wikipedia.org/wiki/%E3%83%9F%E3%83%8B%E3%83%86%E3%83%AB",
+      "note": "仏の大規模ビデオテックス"
+    },
+    {
+      "label": "AKIRA",
+      "genre": "MAN",
+      "imp": 5,
+      "url": "https://ja.wikipedia.org/wiki/AKIRA",
+      "note": "SF表現の世界基準化"
+    },
+    {
+      "label": "風の谷のナウシカ",
+      "genre": "MAN",
+      "imp": 5,
+      "url": "https://ja.wikipedia.org/wiki/風の谷のナウシカ_(漫画)",
+      "note": "叙事詩的エコSF大作"
     }
   ],
   "1983": [
@@ -520,6 +743,48 @@
       "imp": 4,
       "url": "https://ja.wikipedia.org/wiki/Sendmail",
       "note": "UNIX系メール送信サーバ"
+    },
+    {
+      "label": "TCP/IP",
+      "genre": "NET",
+      "imp": 5,
+      "url": "https://ja.wikipedia.org/wiki/TCP/IP",
+      "note": "インターネットの要素技術"
+    },
+    {
+      "label": "DNS",
+      "genre": "NET",
+      "imp": 5,
+      "url": "https://ja.wikipedia.org/wiki/Domain_Name_System",
+      "note": "名前解決の中核仕組み"
+    },
+    {
+      "label": "SMB",
+      "genre": "NET",
+      "imp": 3,
+      "url": "https://ja.wikipedia.org/wiki/Server_Message_Block",
+      "note": "Windows系の共有基盤"
+    },
+    {
+      "label": "NetBIOS",
+      "genre": "NET",
+      "imp": 3,
+      "url": "https://ja.wikipedia.org/wiki/NetBIOS",
+      "note": "初期LANのAPI/名前解決"
+    },
+    {
+      "label": "NAPLPS",
+      "genre": "NET",
+      "imp": 3,
+      "url": "https://ja.wikipedia.org/wiki/NAPLPS",
+      "note": "ビデオテックス表示規格"
+    },
+    {
+      "label": "北斗の拳",
+      "genre": "MAN",
+      "imp": 5,
+      "url": "https://ja.wikipedia.org/wiki/北斗の拳",
+      "note": "熱血世紀末アクション"
     }
   ],
   "1984": [
@@ -557,6 +822,48 @@
       "imp": 4,
       "url": "https://ja.wikipedia.org/wiki/X_Window_System",
       "note": "UNIX系のGUI基盤"
+    },
+    {
+      "label": "トークンリング",
+      "genre": "NET",
+      "imp": 3,
+      "url": "https://ja.wikipedia.org/wiki/%E3%83%88%E3%83%BC%E3%82%AF%E3%83%B3%E3%83%AA%E3%83%B3%E3%82%B0",
+      "note": "IBMのリング型LAN"
+    },
+    {
+      "label": "NFS",
+      "genre": "NET",
+      "imp": 3,
+      "url": "https://ja.wikipedia.org/wiki/Network_File_System",
+      "note": "UNIXの分散ファイル"
+    },
+    {
+      "label": "JUNET",
+      "genre": "NET",
+      "imp": 5,
+      "url": "https://ja.wikipedia.org/wiki/JUNET",
+      "note": "日本初の実質的起源網"
+    },
+    {
+      "label": "FidoNet",
+      "genre": "NET",
+      "imp": 3,
+      "url": "https://ja.wikipedia.org/wiki/FidoNet",
+      "note": "BBS間の配送ネット"
+    },
+    {
+      "label": "キャプテンシステム",
+      "genre": "NET",
+      "imp": 3,
+      "url": "https://ja.wikipedia.org/wiki/%E3%82%AD%E3%83%A3%E3%83%97%E3%83%86%E3%83%B3%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0",
+      "note": "日本のビデオテックス網"
+    },
+    {
+      "label": "ドラゴンボール",
+      "genre": "MAN",
+      "imp": 5,
+      "url": "https://ja.wikipedia.org/wiki/ドラゴンボール",
+      "note": "少年バトルの定型化"
     }
   ],
   "1985": [
@@ -615,6 +922,34 @@
       "imp": 5,
       "url": "https://ja.wikipedia.org/wiki/LaTeX",
       "note": "TeXマクロで論文標準"
+    },
+    {
+      "label": "AppleTalk",
+      "genre": "NET",
+      "imp": 3,
+      "url": "https://ja.wikipedia.org/wiki/AppleTalk",
+      "note": "Mac向けの簡易LAN"
+    },
+    {
+      "label": "NSFNET",
+      "genre": "NET",
+      "imp": 5,
+      "url": "https://ja.wikipedia.org/wiki/NSFNET",
+      "note": "学術バックボーン整備"
+    },
+    {
+      "label": "アスキーネット",
+      "genre": "NET",
+      "imp": 3,
+      "url": "https://ja.wikipedia.org/wiki/%E3%82%A2%E3%82%B9%E3%82%AD%E3%83%BC%E3%83%8D%E3%83%83%E3%83%88",
+      "note": "出版社運営のBBS網"
+    },
+    {
+      "label": "シティーハンター",
+      "genre": "MAN",
+      "imp": 3,
+      "url": "https://ja.wikipedia.org/wiki/シティーハンター",
+      "note": "ハードボイルドコメディ"
     }
   ],
   "1986": [
@@ -645,6 +980,20 @@
       "imp": 3,
       "url": "https://ja.wikipedia.org/wiki/アウトラン",
       "note": "体感ゲームの代表作"
+    },
+    {
+      "label": "IETF",
+      "genre": "NET",
+      "imp": 5,
+      "url": "https://ja.wikipedia.org/wiki/Internet_Engineering_Task_Force",
+      "note": "インターネット標準策定主体"
+    },
+    {
+      "label": "聖闘士星矢",
+      "genre": "MAN",
+      "imp": 4,
+      "url": "https://ja.wikipedia.org/wiki/聖闘士星矢",
+      "note": "神話系バトルの礎"
     }
   ],
   "1987": [
@@ -696,6 +1045,27 @@
       "imp": 5,
       "url": "https://ja.wikipedia.org/wiki/GNU%E3%82%B3%E3%83%B3%E3%83%91%E3%82%A4%E3%83%A9%E3%82%B3%E3%83%AC%E3%82%AF%E3%82%B7%E3%83%A7%E3%83%B3",
       "note": "OSSコンパイラ群の中心"
+    },
+    {
+      "label": "NIFTY-Serve",
+      "genre": "NET",
+      "imp": 4,
+      "url": "https://ja.wikipedia.org/wiki/NIFTY-Serve",
+      "note": "日本最大級の商用BBS"
+    },
+    {
+      "label": "草の根BBS",
+      "genre": "NET",
+      "imp": 3,
+      "url": "https://ja.wikipedia.org/wiki/%E8%8D%89%E3%81%AE%E6%A0%B9BBS",
+      "note": "個人運営の小規模BBS群"
+    },
+    {
+      "label": "ジョジョの奇妙な冒険",
+      "genre": "MAN",
+      "imp": 5,
+      "url": "https://ja.wikipedia.org/wiki/ジョジョの奇妙な冒険",
+      "note": "独創表現と長期シリーズ"
     }
   ],
   "1988": [
@@ -726,6 +1096,34 @@
       "imp": 4,
       "url": "https://ja.wikipedia.org/wiki/Mathematica",
       "note": "計算知能プラットフォーム"
+    },
+    {
+      "label": "WIDEプロジェクト",
+      "genre": "NET",
+      "imp": 4,
+      "url": "https://ja.wikipedia.org/wiki/WIDE%E3%83%97%E3%83%AD%E3%82%B8%E3%82%A7%E3%82%AF%E3%83%88",
+      "note": "技術標準と研究の拠点"
+    },
+    {
+      "label": "PC-VAN",
+      "genre": "NET",
+      "imp": 3,
+      "url": "https://ja.wikipedia.org/wiki/PC-VAN",
+      "note": "NEC系商用パソ通サービス"
+    },
+    {
+      "label": "寄生獣",
+      "genre": "MAN",
+      "imp": 4,
+      "url": "https://ja.wikipedia.org/wiki/寄生獣",
+      "note": "倫理観問うSFホラー"
+    },
+    {
+      "label": "機動警察パトレイバー",
+      "genre": "MAN",
+      "imp": 4,
+      "url": "https://ja.wikipedia.org/wiki/機動警察パトレイバー",
+      "note": "日常系ロボの先駆"
     }
   ],
   "1989": [
@@ -763,6 +1161,41 @@
       "imp": 4,
       "url": "https://ja.wikipedia.org/wiki/NeXTSTEP",
       "note": "後のmacOS基盤を形成"
+    },
+    {
+      "label": "World Wide Web",
+      "genre": "NET",
+      "imp": 5,
+      "url": "https://ja.wikipedia.org/wiki/World_Wide_Web",
+      "note": "ハイパーテキストのWeb"
+    },
+    {
+      "label": "BGP",
+      "genre": "NET",
+      "imp": 4,
+      "url": "https://ja.wikipedia.org/wiki/Border_Gateway_Protocol",
+      "note": "自律系間の経路制御"
+    },
+    {
+      "label": "PPP",
+      "genre": "NET",
+      "imp": 3,
+      "url": "https://ja.wikipedia.org/wiki/Point-to-Point_Protocol",
+      "note": "ダイヤルアップの定番"
+    },
+    {
+      "label": "AOL",
+      "genre": "NET",
+      "imp": 3,
+      "url": "https://ja.wikipedia.org/wiki/AOL",
+      "note": "米オンラインサービス巨大手"
+    },
+    {
+      "label": "ベルセルク",
+      "genre": "MAN",
+      "imp": 5,
+      "url": "https://ja.wikipedia.org/wiki/ベルセルク",
+      "note": "ダークファンタジー金字塔"
     }
   ],
   "1990": [
@@ -786,6 +1219,20 @@
       "imp": 5,
       "url": "https://ja.wikipedia.org/wiki/Adobe_Photoshop",
       "note": "デジタル画像編集の王道"
+    },
+    {
+      "label": "幽☆遊☆白書",
+      "genre": "MAN",
+      "imp": 4,
+      "url": "https://ja.wikipedia.org/wiki/幽☆遊☆白書",
+      "note": "霊界バトルで人気爆発"
+    },
+    {
+      "label": "スラムダンク",
+      "genre": "MAN",
+      "imp": 5,
+      "url": "https://ja.wikipedia.org/wiki/SLAM_DUNK",
+      "note": "バスケ熱を全国区に"
     }
   ],
   "1991": [
@@ -823,6 +1270,34 @@
       "imp": 3,
       "url": "https://ja.wikipedia.org/wiki/Vim",
       "note": "vi互換で拡張豊富"
+    },
+    {
+      "label": "HTTP",
+      "genre": "NET",
+      "imp": 5,
+      "url": "https://ja.wikipedia.org/wiki/Hypertext_Transfer_Protocol",
+      "note": "Webを支える通信規格"
+    },
+    {
+      "label": "Gopher",
+      "genre": "NET",
+      "imp": 3,
+      "url": "https://ja.wikipedia.org/wiki/Gopher",
+      "note": "前Web時代の情報公開"
+    },
+    {
+      "label": "WAIS",
+      "genre": "NET",
+      "imp": 3,
+      "url": "https://ja.wikipedia.org/wiki/WAIS",
+      "note": "全文検索の先駆け"
+    },
+    {
+      "label": "美少女戦士セーラームーン",
+      "genre": "MAN",
+      "imp": 5,
+      "url": "https://ja.wikipedia.org/wiki/美少女戦士セーラームーン",
+      "note": "少女ヒロイン像革新"
     }
   ],
   "1992": [
@@ -904,6 +1379,13 @@
       "imp": 5,
       "url": "https://ja.wikipedia.org/wiki/NCSA_Mosaic",
       "note": "初期Web普及を加速"
+    },
+    {
+      "label": "情報スーパーハイウェイ構想",
+      "genre": "NET",
+      "imp": 4,
+      "url": "https://ja.wikipedia.org/wiki/%E6%83%85%E5%A0%B1%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%8F%E3%82%A4%E3%82%A6%E3%82%A7%E3%82%A4%E6%A7%8B%E6%83%B3",
+      "note": "米国の国家情報基盤構想"
     }
   ],
   "1994": [
@@ -941,6 +1423,41 @@
       "imp": 5,
       "url": "https://ja.wikipedia.org/wiki/Netscape%E3%82%B7%E3%83%AA%E3%83%BC%E3%82%BA",
       "note": "商用Webの黎明を牽引"
+    },
+    {
+      "label": "W3C",
+      "genre": "NET",
+      "imp": 5,
+      "url": "https://ja.wikipedia.org/wiki/World_Wide_Web_Consortium",
+      "note": "Web標準化コンソーシアム"
+    },
+    {
+      "label": "Yahoo!",
+      "genre": "NET",
+      "imp": 4,
+      "url": "https://ja.wikipedia.org/wiki/Yahoo!",
+      "note": "初期Webの大型ポータル"
+    },
+    {
+      "label": "ジオシティーズ",
+      "genre": "NET",
+      "imp": 4,
+      "url": "https://ja.wikipedia.org/wiki/%E3%82%B8%E3%82%AA%E3%82%B7%E3%83%86%E3%82%A3%E3%83%BC%E3%82%BA",
+      "note": "個人ホームページの隆盛"
+    },
+    {
+      "label": "MONSTER",
+      "genre": "MAN",
+      "imp": 4,
+      "url": "https://ja.wikipedia.org/wiki/MONSTER",
+      "note": "本格サスペンスの傑作"
+    },
+    {
+      "label": "るろうに剣心",
+      "genre": "MAN",
+      "imp": 4,
+      "url": "https://ja.wikipedia.org/wiki/るろうに剣心",
+      "note": "明治剣客活劇の定番"
     }
   ],
   "1995": [
@@ -1064,6 +1581,34 @@
       "imp": 4,
       "url": "https://ja.wikipedia.org/wiki/PostgreSQL",
       "note": "拡張性重視のRDBMS"
+    },
+    {
+      "label": "Yahoo! JAPAN",
+      "genre": "NET",
+      "imp": 4,
+      "url": "https://ja.wikipedia.org/wiki/Yahoo!_JAPAN",
+      "note": "日本最大級のポータル"
+    },
+    {
+      "label": "Hotmail",
+      "genre": "NET",
+      "imp": 3,
+      "url": "https://ja.wikipedia.org/wiki/Hotmail",
+      "note": "Webメール普及の立役者"
+    },
+    {
+      "label": "遊☆戯☆王",
+      "genre": "MAN",
+      "imp": 4,
+      "url": "https://ja.wikipedia.org/wiki/遊☆戯☆王",
+      "note": "TCG文化を世界拡大"
+    },
+    {
+      "label": "カードキャプターさくら",
+      "genre": "MAN",
+      "imp": 4,
+      "url": "https://ja.wikipedia.org/wiki/カードキャプターさくら",
+      "note": "魔法少女の新定番"
     }
   ],
   "1997": [
@@ -1101,6 +1646,27 @@
       "imp": 3,
       "url": "https://ja.wikipedia.org/wiki/Postfix",
       "note": "安全性重視のMTA"
+    },
+    {
+      "label": "Wi-Fi",
+      "genre": "NET",
+      "imp": 5,
+      "url": "https://ja.wikipedia.org/wiki/Wi-Fi",
+      "note": "無線LANの事実上標準"
+    },
+    {
+      "label": "JPNIC",
+      "genre": "NET",
+      "imp": 4,
+      "url": "https://ja.wikipedia.org/wiki/%E6%97%A5%E6%9C%AC%E3%83%8D%E3%83%83%E3%83%88%E3%83%AF%E3%83%BC%E3%82%AF%E3%82%A4%E3%83%B3%E3%83%95%E3%82%A9%E3%83%A1%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3%E3%82%BB%E3%83%B3%E3%82%BF%E3%83%BC",
+      "note": "日本のIP資源管理機関"
+    },
+    {
+      "label": "ONE_PIECE",
+      "genre": "MAN",
+      "imp": 5,
+      "url": "https://ja.wikipedia.org/wiki/ONE_PIECE",
+      "note": "海洋冒険の世界的人気"
     }
   ],
   "1998": [
@@ -1159,6 +1725,27 @@
       "imp": 3,
       "url": "https://ja.wikipedia.org/wiki/GTK",
       "note": "GNOME系のGUIツールキット"
+    },
+    {
+      "label": "ICANN",
+      "genre": "NET",
+      "imp": 4,
+      "url": "https://ja.wikipedia.org/wiki/ICANN",
+      "note": "ドメイン等の調整機関"
+    },
+    {
+      "label": "Google",
+      "genre": "NET",
+      "imp": 5,
+      "url": "https://ja.wikipedia.org/wiki/Google",
+      "note": "Web検索の事実上標準"
+    },
+    {
+      "label": "HUNTER×HUNTER",
+      "genre": "MAN",
+      "imp": 4,
+      "url": "https://ja.wikipedia.org/wiki/HUNTER×HUNTER",
+      "note": "緻密設定の冒険譚"
     }
   ],
   "1999": [
@@ -1182,6 +1769,27 @@
       "imp": 4,
       "url": "https://ja.wikipedia.org/wiki/VMware",
       "note": "PC仮想化を一般化"
+    },
+    {
+      "label": "2ちゃんねる",
+      "genre": "NET",
+      "imp": 4,
+      "url": "https://ja.wikipedia.org/wiki/2%E3%81%A1%E3%82%83%E3%82%93%E3%81%AD%E3%82%8B",
+      "note": "匿名巨大掲示板文化"
+    },
+    {
+      "label": "20世紀少年",
+      "genre": "MAN",
+      "imp": 4,
+      "url": "https://ja.wikipedia.org/wiki/20世紀少年",
+      "note": "世紀末ミステリー群像"
+    },
+    {
+      "label": "NARUTO -ナルト-",
+      "genre": "MAN",
+      "imp": 5,
+      "url": "https://ja.wikipedia.org/wiki/NARUTO_-ナルト-",
+      "note": "忍者バトルの国際的成功"
     }
   ],
   "2000": [
@@ -1284,6 +1892,27 @@
       "imp": 3,
       "url": "https://ja.wikipedia.org/wiki/ファイナルファンタジーX",
       "note": "ボイス導入の転機"
+    },
+    {
+      "label": "ウィキペディア",
+      "genre": "NET",
+      "imp": 5,
+      "url": "https://ja.wikipedia.org/wiki/%E3%82%A6%E3%82%A3%E3%82%AD%E3%83%9A%E3%83%87%E3%82%A3%E3%82%A2",
+      "note": "参加型百科事典の象徴"
+    },
+    {
+      "label": "鋼の錬金術師",
+      "genre": "MAN",
+      "imp": 5,
+      "url": "https://ja.wikipedia.org/wiki/鋼の錬金術師",
+      "note": "錬成世界の王道冒険"
+    },
+    {
+      "label": "のだめカンタービレ",
+      "genre": "MAN",
+      "imp": 4,
+      "url": "https://ja.wikipedia.org/wiki/のだめカンタービレ",
+      "note": "音楽青春を一般化"
     }
   ],
   "2003": [
@@ -1307,6 +1936,20 @@
       "imp": 4,
       "url": "https://ja.wikipedia.org/wiki/QEMU",
       "note": "高速エミュ/仮想化基盤"
+    },
+    {
+      "label": "DEATH_NOTE",
+      "genre": "MAN",
+      "imp": 5,
+      "url": "https://ja.wikipedia.org/wiki/DEATH_NOTE",
+      "note": "頭脳戦サスペンス革新"
+    },
+    {
+      "label": "よつばと!",
+      "genre": "MAN",
+      "imp": 3,
+      "url": "https://ja.wikipedia.org/wiki/よつばと!",
+      "note": "日常系のスタンダード"
     }
   ],
   "2004": [
@@ -1351,6 +1994,34 @@
       "imp": 4,
       "url": "https://ja.wikipedia.org/wiki/Mozilla_Firefox",
       "note": "OSSブラウザの旗手"
+    },
+    {
+      "label": "Gmail",
+      "genre": "NET",
+      "imp": 4,
+      "url": "https://ja.wikipedia.org/wiki/Gmail",
+      "note": "大容量Webメールの定着"
+    },
+    {
+      "label": "mixi",
+      "genre": "NET",
+      "imp": 3,
+      "url": "https://ja.wikipedia.org/wiki/Mixi",
+      "note": "日本発SNSの草分け"
+    },
+    {
+      "label": "Facebook",
+      "genre": "NET",
+      "imp": 4,
+      "url": "https://ja.wikipedia.org/wiki/Facebook",
+      "note": "世界最大級のSNS"
+    },
+    {
+      "label": "銀魂",
+      "genre": "MAN",
+      "imp": 4,
+      "url": "https://ja.wikipedia.org/wiki/銀魂",
+      "note": "時代劇SFギャグの極北"
     }
   ],
   "2005": [
@@ -1367,6 +2038,13 @@
       "imp": 5,
       "url": "https://ja.wikipedia.org/wiki/Git",
       "note": "分散型VCSの標準"
+    },
+    {
+      "label": "YouTube",
+      "genre": "NET",
+      "imp": 5,
+      "url": "https://ja.wikipedia.org/wiki/YouTube",
+      "note": "動画共有のデファクト"
     }
   ],
   "2006": [
@@ -1390,6 +2068,27 @@
       "imp": 5,
       "url": "https://ja.wikipedia.org/wiki/Wii_Sports",
       "note": "体感操作で新市場創出"
+    },
+    {
+      "label": "Twitter(現X)",
+      "genre": "NET",
+      "imp": 4,
+      "url": "https://ja.wikipedia.org/wiki/Twitter",
+      "note": "短文投稿の普及サービス"
+    },
+    {
+      "label": "ニコニコ動画",
+      "genre": "NET",
+      "imp": 3,
+      "url": "https://ja.wikipedia.org/wiki/Niconico",
+      "note": "コメント重畳動画文化"
+    },
+    {
+      "label": "キングダム",
+      "genre": "MAN",
+      "imp": 4,
+      "url": "https://ja.wikipedia.org/wiki/キングダム_(漫画)",
+      "note": "中国戦記の大河ロマン"
     }
   ],
   "2007": [
@@ -1427,6 +2126,13 @@
       "imp": 3,
       "url": "https://ja.wikipedia.org/wiki/VirtualBox",
       "note": "OSS系デスクトップ仮想化"
+    },
+    {
+      "label": "この世界の片隅に",
+      "genre": "MAN",
+      "imp": 4,
+      "url": "https://ja.wikipedia.org/wiki/この世界の片隅に",
+      "note": "戦時下の生活描写"
     }
   ],
   "2008": [
@@ -1466,6 +2172,13 @@
       "imp": 4,
       "url": "https://ja.wikipedia.org/wiki/Node.js",
       "note": "JSのサーバ実行基盤"
+    },
+    {
+      "label": "進撃の巨人",
+      "genre": "MAN",
+      "imp": 5,
+      "url": "https://ja.wikipedia.org/wiki/進撃の巨人",
+      "note": "ダーク群像の世界的成功"
     }
   ],
   "2010": [
@@ -1512,6 +2225,20 @@
       "imp": 5,
       "url": "https://ja.wikipedia.org/wiki/ダークソウル",
       "note": "高難度設計と誘導革新"
+    },
+    {
+      "label": "LINE",
+      "genre": "NET",
+      "imp": 4,
+      "url": "https://ja.wikipedia.org/wiki/LINE",
+      "note": "日本で普及したメッセージ"
+    },
+    {
+      "label": "東京喰種トーキョーグール",
+      "genre": "MAN",
+      "imp": 4,
+      "url": "https://ja.wikipedia.org/wiki/東京喰種トーキョーグール",
+      "note": "現代ダークファンタジー"
     }
   ],
   "2012": [
@@ -1535,6 +2262,27 @@
       "imp": 3,
       "url": "https://ja.wikipedia.org/wiki/GoPro",
       "note": "アクション撮影を普及"
+    },
+    {
+      "label": "ワンパンマン",
+      "genre": "MAN",
+      "imp": 4,
+      "url": "https://ja.wikipedia.org/wiki/ワンパンマン",
+      "note": "Web発ヒーロー再定義"
+    },
+    {
+      "label": "ハイキュー!!",
+      "genre": "MAN",
+      "imp": 4,
+      "url": "https://ja.wikipedia.org/wiki/ハイキュー!!",
+      "note": "青春スポーツの新定番"
+    },
+    {
+      "label": "七つの大罪",
+      "genre": "MAN",
+      "imp": 3,
+      "url": "https://ja.wikipedia.org/wiki/七つの大罪_(漫画)",
+      "note": "王道ファンタジー人気作"
     }
   ],
   "2013": [
@@ -1597,6 +2345,13 @@
       "imp": 4,
       "url": "https://ja.wikipedia.org/wiki/TensorFlow",
       "note": "Google発のMLフレーム"
+    },
+    {
+      "label": "かぐや様は告らせたい",
+      "genre": "MAN",
+      "imp": 3,
+      "url": "https://ja.wikipedia.org/wiki/かぐや様は告らせたい",
+      "note": "恋愛頭脳戦コメディ"
     }
   ],
   "2016": [
@@ -1620,6 +2375,13 @@
       "imp": 4,
       "url": "https://ja.wikipedia.org/wiki/PyTorch",
       "note": "研究から実運用まで普及"
+    },
+    {
+      "label": "鬼滅の刃",
+      "genre": "MAN",
+      "imp": 5,
+      "url": "https://ja.wikipedia.org/wiki/鬼滅の刃",
+      "note": "社会現象級の大ヒット"
     }
   ],
   "2017": [
@@ -1673,6 +2435,27 @@
       "imp": 3,
       "url": "https://ja.wikipedia.org/wiki/Among_Us",
       "note": "ソーシャル推理の定番化"
+    },
+    {
+      "label": "チェンソーマン",
+      "genre": "MAN",
+      "imp": 4,
+      "url": "https://ja.wikipedia.org/wiki/チェンソーマン",
+      "note": "新世代ダークアクション"
+    },
+    {
+      "label": "呪術廻戦",
+      "genre": "MAN",
+      "imp": 4,
+      "url": "https://ja.wikipedia.org/wiki/呪術廻戦",
+      "note": "呪術×バトルの新潮流"
+    },
+    {
+      "label": "ブルーロック",
+      "genre": "MAN",
+      "imp": 3,
+      "url": "https://ja.wikipedia.org/wiki/ブルーロック",
+      "note": "戦略的サッカー漫画"
     }
   ],
   "2019": [
@@ -1682,6 +2465,13 @@
       "imp": 4,
       "url": "https://ja.wikipedia.org/wiki/Apex_Legends",
       "note": "高速移動系バトロワ"
+    },
+    {
+      "label": "SPY×FAMILY",
+      "genre": "MAN",
+      "imp": 4,
+      "url": "https://ja.wikipedia.org/wiki/SPY×FAMILY",
+      "note": "家族×スパイの新機軸"
     }
   ],
   "2020": [
