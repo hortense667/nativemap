@@ -387,6 +387,7 @@
     }
     events[year].push(newItem);
     const index = events[year].length - 1;
+    closeModal();
     showEditModal(year, index, newItem);
   }
 
@@ -498,86 +499,60 @@
   function linesFromItems(items){ return items.map(serializeLine).join('\n'); }
 
   function showEditor(year, anchor){
+    clearHighlight(); 
     const all = events[year]||[]; 
     const items = all.filter(passesFilter); 
     const note = (filterGenre||filterImp) ? '（現在のフィルタに一致する項目のみ編集対象）' : '';
     
-    const editorHtml = `
-      <div style="max-width: 600px;">
-        <h4>${year}年の項目一括編集 ${note}</h4>
-        <div style="margin-bottom: 8px; font-size: 12px; color: #666;">
-          形式：ラベル;ジャンル;重要度;URL;注釈
+    editor.innerHTML = `
+      <h4><span>${year}年の項目一括編集 ${note}</span><span class="fmt">ラベル;ジャンル;重要度;URL;注釈</span></h4>
+      <textarea id="edText" placeholder="1行につき1件\n形式：ラベル;ジャンル;重要度;URL;注釈\n例）\n任天堂ファミコン;GAM;5;https://ja.wikipedia.org/wiki/ファミリーコンピュータ;家庭用ゲーム機の革命\nラベル;;;https://example.com;補足メモ\nラベル"></textarea>
+      <div class="row">
+        <div class="left">保存でJSONに反映／Ctrl+Enterでも保存・Escで閉じる</div>
+        <div class="right">
+          <button id="cancel">キャンセル</button>
+          <button id="save">保存</button>
         </div>
-        <textarea id="edText" style="width: 100%; height: 300px; padding: 8px; border: 1px solid #ddd; border-radius: 4px; font-family: monospace;" placeholder="1行につき1件\n形式：ラベル;ジャンル;重要度;URL;注釈\n例）\n任天堂ファミコン;GAM;5;https://ja.wikipedia.org/wiki/ファミリーコンピュータ;家庭用ゲーム機の革命\nラベル;;;https://example.com;補足メモ\nラベル">${linesFromItems(items)}</textarea>
-        <div style="margin: 8px 0; font-size: 12px; color: #666;">
-          保存でJSONに反映／Ctrl+Enterでも保存・Escでキャンセル
-        </div>
-        <div style="text-align: right; margin-top: 16px;">
-          <button class="btn" onclick="cancelBulkEdit()">キャンセル</button>
-          <button class="btn" onclick="saveBulkEdit(${year})" style="margin-left: 8px;">保存</button>
-        </div>
-      </div>
-    `;
+      </div>`;
     
-    openModal(`${year}年の一括編集`, editorHtml);
+    const ta=editor.querySelector('#edText'); 
+    ta.value = linesFromItems(items);
     
-    // テキストエリアにイベントリスナーを追加
-    setTimeout(() => {
-      const ta = document.getElementById('edText');
-      if (ta) {
-        ta.addEventListener('keydown', e => {
-          if ((e.ctrlKey || e.metaKey) && e.key === 'Enter') {
-            saveBulkEdit(year);
-          }
-          if (e.key === 'Escape') {
-            cancelBulkEdit();
-          }
-        });
-      }
-    }, 100);
-  }
+    const r=anchor ? anchor.getBoundingClientRect() : {right: 100, top: 100}; 
+    const rv=vp.getBoundingClientRect(); 
+    let left = r.right - rv.left + 8; 
+    let top = r.top - rv.top; 
+    const maxLeft = rv.width - 540; 
+    if(left > maxLeft) left = Math.max(12, r.left - rv.left - 540);
+    
+    editor.style.left = left + 'px'; 
+    editor.style.top = top + 'px'; 
+    editor.style.display='block';
 
-  function saveBulkEdit(year) {
-    const ta = document.getElementById('edText');
-    if (!ta) return;
+    function close(){ editor.style.display='none'; }
+    editor.querySelector('#cancel').onclick = close;
+    editor.querySelector('#save').onclick = ()=>{ 
+      const lines = ta.value.split(/\n/).map(s=>s.trim()); 
+      const subset = lines.map(parseLine).filter(Boolean); 
+      const errs=[]; 
+      for(const it of subset){ errs.push(...validateItem(year, it)); } 
+      if(errs.length){ showError('編集エラー', errs); return; } 
+      const allItems = events[year]||[]; 
+      const others = allItems.filter(it=> !passesFilter(it)); 
+      const merged = [...others, ...subset]; 
+      if(merged.length===0) delete events[year]; 
+      else events[year]=merged; 
+      saveEvents(); 
+      renderEvents(); 
+      autoSave(); 
+      close(); 
+    };
     
-    const lines = ta.value.split(/\n/).map(s => s.trim());
-    const subset = lines.map(parseLine).filter(Boolean);
-    const errs = [];
-    
-    for (const it of subset) {
-      errs.push(...validateItem(year, it));
-    }
-    
-    if (errs.length) {
-      showError('編集エラー', errs);
-      return;
-    }
-    
-    const allItems = events[year] || [];
-    const others = allItems.filter(it => !passesFilter(it));
-    const merged = [...others, ...subset];
-    
-    if (merged.length === 0) {
-      delete events[year];
-    } else {
-      events[year] = merged;
-    }
-    
-    saveEvents();
-    renderEvents();
-    autoSave();
-    closeModal();
-    showDetailList(year, null);
+    ta.addEventListener('keydown', e=>{ 
+      if((e.ctrlKey||e.metaKey) && e.key==='Enter'){ editor.querySelector('#save').click(); } 
+      if(e.key==='Escape'){ e.preventDefault(); editor.querySelector('#cancel').click(); } 
+    });
   }
-
-  function cancelBulkEdit() {
-    closeModal();
-  }
-
-  // グローバル関数として公開
-  window.saveBulkEdit = saveBulkEdit;
-  window.cancelBulkEdit = cancelBulkEdit;
 
   // ===== レンダリング（フィルタ適用・単純クリップ） =====
   function renderEvents(){
