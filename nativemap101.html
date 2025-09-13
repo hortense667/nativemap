@@ -1364,6 +1364,60 @@
   window.deselectAllGenres = deselectAllGenres;
   window.applyGenreFilter = applyGenreFilter;
   
+  // ジャンルごとの登録件数を計算する関数
+  function getGenreCounts() {
+    const counts = {};
+    const genreLabels = {
+      'ANI': 'アニメ', 'MAN': 'マンガ', 'GAM': 'ゲーム', 'TVP': 'テレビ番組',
+      'MOV': '映画', 'NET': 'インターネット', 'HAR': 'ハードウェア', 'PHE': '現象・流行',
+      'SOF': 'ソフトウェア', 'TOY': 'おもちゃ', 'FAS': 'ファッション', 'BOO': '本',
+      'MAG': '雑誌', 'NOV': '小説', 'MUS': '音楽', 'UNC': 'その他'
+    };
+    
+    // 各ジャンルの件数を初期化
+    for (const genre of GENRES) {
+      counts[genre] = 0;
+    }
+    
+    // 実際のデータから件数を計算
+    for (const [year, items] of Object.entries(events)) {
+      for (const item of items) {
+        const genre = item.genre || 'UNC'; // ジャンル未設定は「その他」
+        if (counts.hasOwnProperty(genre)) {
+          counts[genre]++;
+        }
+      }
+    }
+    
+    return counts;
+  }
+  
+  // 総登録件数を取得する関数
+  function getTotalItemCount() {
+    let total = 0;
+    for (const [year, items] of Object.entries(events)) {
+      total += items.length;
+    }
+    return total;
+  }
+  
+  // ジャンル一覧を件数付きで生成する関数
+  function generateGenreListWithCounts() {
+    const counts = getGenreCounts();
+    const genreLabels = {
+      'ANI': 'アニメ', 'MAN': 'マンガ', 'GAM': 'ゲーム', 'TVP': 'テレビ番組',
+      'MOV': '映画', 'NET': 'インターネット', 'HAR': 'ハードウェア', 'PHE': '現象・流行',
+      'SOF': 'ソフトウェア', 'TOY': 'おもちゃ', 'FAS': 'ファッション', 'BOO': '本',
+      'MAG': '雑誌', 'NOV': '小説', 'MUS': '音楽', 'UNC': 'その他'
+    };
+    
+    return GENRES.map(genre => {
+      const count = counts[genre] || 0;
+      const label = genreLabels[genre] || genre;
+      return `<li><strong>${genre}:</strong> ${label}（${count}）</li>`;
+    }).join('');
+  }
+  
   function updateGenreFilterButtonText() {
     if (selectedGenres.size === 0) {
       genreFilterBtn.textContent = 'ジャンル選択';
@@ -1398,24 +1452,9 @@
       <p>「ロード」ボタンでCSV/TSVファイルを読み込んで一括でデータを追加できます。</p>
       <p><strong>形式：</strong> <code>年;ジャンル;ラベル;重要度;URL;注釈</code></p>
       <p><strong>例：</strong> <code>1946;HAR;ENIAC;5;https://ja.wikipedia.org/wiki/ENIAC;初の大規模電子計算機</code></p>
-      <h5>ジャンル一覧</h5>
+      <h5>ジャンル一覧（カッコ内は登録件数／総登録件数：${getTotalItemCount()}件）</h5>
       <ul>
-        <li><strong>ANI:</strong> アニメ</li>
-        <li><strong>MAN:</strong> マンガ</li>
-        <li><strong>GAM:</strong> ゲーム</li>
-        <li><strong>TVP:</strong> テレビ番組</li>
-        <li><strong>MOV:</strong> 映画</li>
-        <li><strong>NET:</strong> インターネット</li>
-        <li><strong>HAR:</strong> ハードウェア</li>
-        <li><strong>PHE:</strong> 現象・流行</li>
-        <li><strong>SOF:</strong> ソフトウェア</li>
-        <li><strong>TOY:</strong> おもちゃ</li>
-        <li><strong>FAS:</strong> ファッション</li>
-        <li><strong>BOO:</strong> 本</li>
-        <li><strong>MAG:</strong> 雑誌</li>
-        <li><strong>NOV:</strong> 小説</li>
-        <li><strong>MUS:</strong> 音楽</li>
-        <li><strong>UNC:</strong> その他</li>
+        ${generateGenreListWithCounts()}
       </ul>
       <h5>重要度</h5>
       <ul>
