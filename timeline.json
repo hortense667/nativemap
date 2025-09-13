@@ -1,4 +1,34 @@
 {
+  "1946": [
+    {
+      "label": "ビキニ",
+      "genre": "FAS",
+      "imp": 5,
+      "url": "https://ja.wikipedia.org/wiki/ビキニ",
+      "note": "戦後に登場した新水着"
+    },
+    {
+      "label": "ENIAC",
+      "genre": "HAR",
+      "imp": 5,
+      "url": "https://ja.wikipedia.org/wiki/ENIAC",
+      "note": "初の大規模電子計算機"
+    },
+    {
+      "label": "サザエさん",
+      "genre": "MAN",
+      "imp": 5,
+      "url": "https://ja.wikipedia.org/wiki/サザエさん",
+      "note": "戦後家庭漫画の代表作"
+    },
+    {
+      "label": "世界 (雑誌)",
+      "genre": "MAG",
+      "imp": 4,
+      "url": "https://ja.wikipedia.org/wiki/世界_(雑誌)",
+      "note": "戦後思想の論壇誌"
+    }
+  ],
   "1947": [
     {
       "label": "夜と霧",
@@ -6,6 +36,66 @@
       "imp": 5,
       "url": "https://ja.wikipedia.org/wiki/夜と霧",
       "note": "極限状況の人間学"
+    },
+    {
+      "label": "ニュー・ルック",
+      "genre": "FAS",
+      "imp": 5,
+      "url": "https://ja.wikipedia.org/wiki/ニュー・ルック",
+      "note": "戦後女性像を刷新した革新"
+    },
+    {
+      "label": "H&M",
+      "genre": "FAS",
+      "imp": 4,
+      "url": "https://ja.wikipedia.org/wiki/H%26M",
+      "note": "北欧発の量販ファッション"
+    },
+    {
+      "label": "新宝島",
+      "genre": "MAN",
+      "imp": 5,
+      "url": "https://ja.wikipedia.org/wiki/新宝島_(漫画)",
+      "note": "手塚革命の起点となる"
+    },
+    {
+      "label": "斜陽",
+      "genre": "NOV",
+      "imp": 4,
+      "url": "https://ja.wikipedia.org/wiki/斜陽",
+      "note": "没落貴族と女性の自立"
+    }
+  ],
+  "1948": [
+    {
+      "label": "自転車泥棒",
+      "genre": "MOV",
+      "imp": 5,
+      "url": "https://ja.wikipedia.org/wiki/自転車泥棒",
+      "note": "新リアリズムの代表"
+    },
+    {
+      "label": "人間失格",
+      "genre": "NOV",
+      "imp": 5,
+      "url": "https://ja.wikipedia.org/wiki/人間失格",
+      "note": "自己喪失の告白文学"
+    },
+    {
+      "label": "エド・サリヴァン・ショー",
+      "genre": "TVP",
+      "imp": 4,
+      "url": "https://ja.wikipedia.org/wiki/エド・サリヴァン・ショー",
+      "note": "音楽バラエティの古典"
+    }
+  ],
+  "1949": [
+    {
+      "label": "1984年 (小説)",
+      "genre": "NOV",
+      "imp": 5,
+      "url": "https://ja.wikipedia.org/wiki/一九八四年_(小説)",
+      "note": "全体主義を告発する寓話"
     }
   ],
   "1950": [
@@ -31,11 +121,20 @@
       "imp": 5,
       "url": "https://ja.wikipedia.org/wiki/UNIVAC_I",
       "note": "商用電子計算機の先駆"
+    },
+    {
+      "label": "ミュージック・ライフ",
+      "genre": "MAG",
+      "imp": 4,
+      "url": "https://ja.wikipedia.org/wiki/ミュージック・ライフ",
+      "note": "洋楽情報の老舗誌"
     }
   ],
   "1952": [
     {
-      "label": "テレビ放送開始"
+      "label": "テレビ放送開始",
+      "genre": "PHE",
+      "imp": 4
     },
     {
       "label": "鉄腕アトム",
@@ -64,6 +163,13 @@
       "imp": 4,
       "url": "https://ja.wikipedia.org/wiki/老人と海",
       "note": "老漁師の誇りの闘い"
+    },
+    {
+      "label": "NME",
+      "genre": "MAG",
+      "imp": 3,
+      "url": "https://ja.wikipedia.org/wiki/NME",
+      "note": "英国音楽誌"
     }
   ],
   "1953": [
@@ -101,6 +207,13 @@
       "imp": 4,
       "url": "https://ja.wikipedia.org/wiki/華氏451度",
       "note": "本が禁じられた近未来"
+    },
+    {
+      "label": "プレイボーイ",
+      "genre": "MAG",
+      "imp": 4,
+      "url": "https://ja.wikipedia.org/wiki/プレイボーイ",
+      "note": "米男性誌の代表格"
     }
   ],
   "1954": [
@@ -145,6 +258,13 @@
       "imp": 5,
       "url": "https://ja.wikipedia.org/wiki/指輪物語",
       "note": "中つ国叙事詩の金字塔"
+    },
+    {
+      "label": "なかよし",
+      "genre": "MAG",
+      "imp": 4,
+      "url": "https://ja.wikipedia.org/wiki/なかよし",
+      "note": "少女漫画の老舗誌"
     }
   ],
   "1955": [
@@ -154,11 +274,20 @@
       "imp": 5,
       "url": "https://ja.wikipedia.org/wiki/高度経済成長期_(日本)",
       "note": "年平均高成長の時代"
+    },
+    {
+      "label": "りぼん",
+      "genre": "MAG",
+      "imp": 4,
+      "url": "https://ja.wikipedia.org/wiki/りぼん",
+      "note": "少女漫画の定番誌"
     }
   ],
   "1956": [
     {
-      "label": "国産初コンピュータ"
+      "label": "国産初コンピュータ",
+      "genre": "HAR",
+      "imp": 5
     },
     {
       "label": "遠藤諭",
@@ -185,6 +314,13 @@
       "imp": 4,
       "url": "https://ja.wikipedia.org/wiki/エルヴィス・プレスリー",
       "note": "ロックの王の登場"
+    },
+    {
+      "label": "週刊新潮",
+      "genre": "MAG",
+      "imp": 4,
+      "url": "https://ja.wikipedia.org/wiki/週刊新潮",
+      "note": "週刊ジャーナリズム"
     }
   ],
   "1957": [
@@ -296,6 +432,34 @@
       "imp": 5,
       "url": "https://ja.wikipedia.org/wiki/カインド・オブ・ブルー",
       "note": "モード・ジャズ金字塔"
+    },
+    {
+      "label": "週刊文春",
+      "genre": "MAG",
+      "imp": 5,
+      "url": "https://ja.wikipedia.org/wiki/週刊文春",
+      "note": "調査報道の看板誌"
+    },
+    {
+      "label": "朝日ジャーナル",
+      "genre": "MAG",
+      "imp": 3,
+      "url": "https://ja.wikipedia.org/wiki/朝日ジャーナル",
+      "note": "論壇誌の象徴"
+    },
+    {
+      "label": "週刊少年マガジン",
+      "genre": "MAG",
+      "imp": 5,
+      "url": "https://ja.wikipedia.org/wiki/週刊少年マガジン",
+      "note": "講談社の少年誌"
+    },
+    {
+      "label": "週刊少年サンデー",
+      "genre": "MAG",
+      "imp": 5,
+      "url": "https://ja.wikipedia.org/wiki/週刊少年サンデー",
+      "note": "小学館の少年誌"
     }
   ],
   "1960": [
@@ -407,6 +571,13 @@
       "imp": 5,
       "url": "https://ja.wikipedia.org/wiki/沈黙の春",
       "note": "環境運動の起点となる書"
+    },
+    {
+      "label": "週刊現代",
+      "genre": "MAG",
+      "imp": 3,
+      "url": "https://ja.wikipedia.org/wiki/週刊現代",
+      "note": "総合週刊の定番"
     }
   ],
   "1963": [
@@ -437,6 +608,13 @@
       "imp": 4,
       "url": "https://ja.wikipedia.org/wiki/風に吹かれて",
       "note": "プロテストソング象徴"
+    },
+    {
+      "label": "プレジデント (雑誌)",
+      "genre": "MAG",
+      "imp": 3,
+      "url": "https://ja.wikipedia.org/wiki/プレジデント_(雑誌)",
+      "note": "経営・ビジネス誌"
     }
   ],
   "1964": [
@@ -488,6 +666,20 @@
       "imp": 5,
       "url": "https://ja.wikipedia.org/wiki/G.I.%E3%82%B8%E3%83%A7%E3%83%BC",
       "note": "アクションフィギュア源流"
+    },
+    {
+      "label": "平凡パンチ",
+      "genre": "MAG",
+      "imp": 3,
+      "url": "https://ja.wikipedia.org/wiki/平凡パンチ",
+      "note": "若者文化の発信源"
+    },
+    {
+      "label": "ガロ (雑誌)",
+      "genre": "MAG",
+      "imp": 5,
+      "url": "https://ja.wikipedia.org/wiki/ガロ_(雑誌)",
+      "note": "前衛漫画の拠点"
     }
   ],
   "1965": [
@@ -590,6 +782,13 @@
       "imp": 5,
       "url": "https://ja.wikipedia.org/wiki/ペット・サウンズ",
       "note": "ポップ制作の革新"
+    },
+    {
+      "label": "週刊プレイボーイ",
+      "genre": "MAG",
+      "imp": 3,
+      "url": "https://ja.wikipedia.org/wiki/週刊プレイボーイ",
+      "note": "日本の男性週刊誌"
     }
   ],
   "1967": [
@@ -620,6 +819,20 @@
       "imp": 5,
       "url": "https://ja.wikipedia.org/wiki/百年の孤独",
       "note": "魔術的現実主義の頂点"
+    },
+    {
+      "label": "COM (雑誌)",
+      "genre": "MAG",
+      "imp": 4,
+      "url": "https://ja.wikipedia.org/wiki/COM_(雑誌)",
+      "note": "手塚治虫の実験誌"
+    },
+    {
+      "label": "ローリング・ストーン",
+      "genre": "MAG",
+      "imp": 4,
+      "url": "https://ja.wikipedia.org/wiki/ローリング・ストーン",
+      "note": "音楽×政治文化誌"
     }
   ],
   "1968": [
@@ -713,6 +926,20 @@
       "imp": 4,
       "url": "https://ja.wikipedia.org/wiki/コンピュータプログラミングの芸術",
       "note": "アルゴリズム金字塔"
+    },
+    {
+      "label": "週刊少年ジャンプ",
+      "genre": "MAG",
+      "imp": 5,
+      "url": "https://ja.wikipedia.org/wiki/週刊少年ジャンプ",
+      "note": "少年漫画の最大手"
+    },
+    {
+      "label": "ビッグコミック",
+      "genre": "MAG",
+      "imp": 4,
+      "url": "https://ja.wikipedia.org/wiki/ビッグコミック",
+      "note": "青年漫画の先駆"
     }
   ],
   "1969": [
@@ -792,6 +1019,13 @@
       "imp": 4,
       "url": "https://ja.wikipedia.org/wiki/ウッドストック・フェスティバル",
       "note": "カウンター文化象徴"
+    },
+    {
+      "label": "週刊ポスト",
+      "genre": "MAG",
+      "imp": 3,
+      "url": "https://ja.wikipedia.org/wiki/週刊ポスト",
+      "note": "大衆週刊の定番"
     }
   ],
   "1970": [
@@ -880,6 +1114,20 @@
       "imp": 4,
       "url": "https://ja.wikipedia.org/wiki/新婚さんいらっしゃい!",
       "note": "長寿公開収録トーク"
+    },
+    {
+      "label": "日経サイエンス",
+      "genre": "MAG",
+      "imp": 4,
+      "url": "https://ja.wikipedia.org/wiki/日経サイエンス",
+      "note": "科学の一般解説誌"
+    },
+    {
+      "label": "non-no",
+      "genre": "MAG",
+      "imp": 4,
+      "url": "https://ja.wikipedia.org/wiki/Non-no",
+      "note": "女性ファッション誌"
     }
   ],
   "1972": [
@@ -927,10 +1175,10 @@
     },
     {
       "label": "デビルマン",
-      "genre": "ANI",
+      "genre": "MAN",
       "imp": 4,
-      "url": "https://ja.wikipedia.org/wiki/デビルマン_(テレビアニメ)",
-      "note": "ダークヒーロー確立"
+      "url": "https://ja.wikipedia.org/wiki/デビルマン",
+      "note": "ダークヒーローの金字塔"
     },
     {
       "label": "ベルサイユのばら",
@@ -1096,6 +1344,13 @@
       "imp": 4,
       "url": "https://ja.wikipedia.org/wiki/ミクロマン",
       "note": "可動フィギュアの先駆"
+    },
+    {
+      "label": "花とゆめ",
+      "genre": "MAG",
+      "imp": 4,
+      "url": "https://ja.wikipedia.org/wiki/花とゆめ",
+      "note": "白泉社の少女誌"
     }
   ],
   "1975": [
@@ -1254,6 +1509,20 @@
       "imp": 4,
       "url": "https://ja.wikipedia.org/wiki/スライム",
       "note": "粘質玩具の大ヒット"
+    },
+    {
+      "label": "I/O (パソコン雑誌)",
+      "genre": "MAG",
+      "imp": 4,
+      "url": "https://ja.wikipedia.org/wiki/I/O_(パソコン雑誌)",
+      "note": "自作派向けPC誌"
+    },
+    {
+      "label": "POPEYE (雑誌)",
+      "genre": "MAG",
+      "imp": 4,
+      "url": "https://ja.wikipedia.org/wiki/Popeye_(雑誌)",
+      "note": "シティボーイの教本"
     }
   ],
   "1977": [
@@ -1340,6 +1609,20 @@
       "imp": 4,
       "url": "https://ja.wikipedia.org/wiki/エクソダス_(ボブ・マーリーのアルバム)",
       "note": "レゲエ普及の名盤"
+    },
+    {
+      "label": "アスキー (雑誌)",
+      "genre": "MAG",
+      "imp": 5,
+      "url": "https://ja.wikipedia.org/wiki/アスキー_(雑誌)",
+      "note": "日本のPC文化牽引"
+    },
+    {
+      "label": "コロコロコミック",
+      "genre": "MAG",
+      "imp": 4,
+      "url": "https://ja.wikipedia.org/wiki/コロコロコミック",
+      "note": "児童向けの人気誌"
     }
   ],
   "1978": [
@@ -1484,6 +1767,20 @@
       "imp": 4,
       "url": "https://ja.wikipedia.org/wiki/シンセポップ",
       "note": "電子音とポップの融合"
+    },
+    {
+      "label": "週刊ヤングジャンプ",
+      "genre": "MAG",
+      "imp": 4,
+      "url": "https://ja.wikipedia.org/wiki/週刊ヤングジャンプ",
+      "note": "青年誌の中核"
+    },
+    {
+      "label": "ムー (雑誌)",
+      "genre": "MAG",
+      "imp": 3,
+      "url": "https://ja.wikipedia.org/wiki/ムー_(雑誌)",
+      "note": "超常×オカルト誌"
     }
   ],
   "1980": [
@@ -1549,6 +1846,20 @@
       "imp": 4,
       "url": "https://ja.wikipedia.org/wiki/チョロQ",
       "note": "プルバック式ミニカー"
+    },
+    {
+      "label": "BRUTUS (雑誌)",
+      "genre": "MAG",
+      "imp": 4,
+      "url": "https://ja.wikipedia.org/wiki/Brutus_(雑誌)",
+      "note": "カルチャー総合誌"
+    },
+    {
+      "label": "週刊ヤングマガジン",
+      "genre": "MAG",
+      "imp": 4,
+      "url": "https://ja.wikipedia.org/wiki/週刊ヤングマガジン",
+      "note": "青年誌の人気枠"
     }
   ],
   "1981": [
@@ -1663,6 +1974,13 @@
       "imp": 5,
       "url": "https://ja.wikipedia.org/wiki/A_LONG_VACATION",
       "note": "シティ・ポップ名盤"
+    },
+    {
+      "label": "Newton (雑誌)",
+      "genre": "MAG",
+      "imp": 4,
+      "url": "https://ja.wikipedia.org/wiki/Newton_(雑誌)",
+      "note": "ビジュアル科学誌"
     }
   ],
   "1982": [
@@ -1798,6 +2116,40 @@
       "imp": 3,
       "url": "https://ja.wikipedia.org/wiki/セカンド・ラブ",
       "note": "80年代歌姫の象徴"
+    },
+    {
+      "label": "LOGiN",
+      "genre": "MAG",
+      "imp": 4,
+      "url": "https://ja.wikipedia.org/wiki/LOGiN",
+      "note": "PCゲーム誌の先駆"
+    },
+    {
+      "label": "マイコンBASICマガジン",
+      "genre": "MAG",
+      "imp": 4,
+      "url": "https://ja.wikipedia.org/wiki/マイコンBASICマガジン",
+      "note": "ホビーPCの教科書"
+    },
+    {
+      "label": "オリーブ (雑誌)",
+      "genre": "MAG",
+      "imp": 4,
+      "url": "https://ja.wikipedia.org/wiki/オリーブ_(雑誌)",
+      "note": "女子カルチャー誌"
+    },
+    {
+      "label": "モーニング (雑誌)",
+      "genre": "MAG",
+      "imp": 4,
+      "url": "https://ja.wikipedia.org/wiki/モーニング_(雑誌)",
+      "note": "青年漫画の看板誌"
+    },
+    {
+      "label": "東京おとなクラブ",
+      "genre": "MAG",
+      "imp": 2,
+      "url": "https://ja.wikipedia.org/wiki/%E9%81%A0%E8%97%A4%E8%AB%AD"
     }
   ],
   "1983": [
@@ -2029,10 +2381,10 @@
     },
     {
       "label": "風の谷のナウシカ",
-      "genre": "ANI",
+      "genre": "MOV",
       "imp": 5,
       "url": "https://ja.wikipedia.org/wiki/風の谷のナウシカ_(映画)",
-      "note": "宮崎駿の出世作"
+      "note": "エコSFの傑作"
     },
     {
       "label": "バーキン",
@@ -2471,17 +2823,17 @@
     },
     {
       "label": "となりのトトロ",
-      "genre": "ANI",
+      "genre": "MOV",
       "imp": 5,
       "url": "https://ja.wikipedia.org/wiki/となりのトトロ",
-      "note": "日常系ファンタ定番"
+      "note": "日常系ファンタの名作"
     },
     {
       "label": "AKIRA",
-      "genre": "ANI",
+      "genre": "MOV",
       "imp": 5,
       "url": "https://ja.wikipedia.org/wiki/AKIRA_(アニメ映画)",
-      "note": "劇場アニメの革命作"
+      "note": "サイバーパンク映像革命"
     },
     {
       "label": "銀河英雄伝説",
@@ -2524,6 +2876,20 @@
       "imp": 4,
       "url": "https://ja.wikipedia.org/wiki/ストレイト・アウタ・コンプトン",
       "note": "ウェッサイの衝撃"
+    },
+    {
+      "label": "Hanako",
+      "genre": "MAG",
+      "imp": 3,
+      "url": "https://ja.wikipedia.org/wiki/Hanako",
+      "note": "都市情報の女性誌"
+    },
+    {
+      "label": "SPA!",
+      "genre": "MAG",
+      "imp": 3,
+      "url": "https://ja.wikipedia.org/wiki/SPA!",
+      "note": "時事×カルチャー週刊"
     }
   ],
   "1989": [
@@ -2810,6 +3176,13 @@
       "imp": 4,
       "url": "https://ja.wikipedia.org/wiki/グランジ",
       "note": "オルタナ主流化の象徴"
+    },
+    {
+      "label": "DOS/V POWER REPORT",
+      "genre": "MAG",
+      "imp": 3,
+      "url": "https://ja.wikipedia.org/wiki/DOS/V_POWER_REPORT",
+      "note": "自作PC専門誌"
     }
   ],
   "1992": [
@@ -2982,6 +3355,13 @@
       "imp": 4,
       "url": "https://ja.wikipedia.org/wiki/プリーツ_プリーズ_イッセイ_ミヤケ",
       "note": "永久プリーツの日常服"
+    },
+    {
+      "label": "WIRED",
+      "genre": "MAG",
+      "imp": 5,
+      "url": "https://ja.wikipedia.org/wiki/WIRED",
+      "note": "デジタル文化の象徴誌"
     }
   ],
   "1994": [
@@ -4655,10 +5035,10 @@
     },
     {
       "label": "君の名は。",
-      "genre": "ANI",
+      "genre": "MOV",
       "imp": 5,
-      "url": "https://ja.wikipedia.org/wiki/君の名は。",
-      "note": "新海誠の大ヒット作"
+      "url": "https://ja.wikipedia.org/wiki/君の名は。_(2016年の映画)",
+      "note": "新海誠の国民的ヒット"
     },
     {
       "label": "この世界の片隅に",
