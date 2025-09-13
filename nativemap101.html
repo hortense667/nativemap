@@ -632,6 +632,9 @@
       return; 
     } 
     
+    console.log('検索クエリ:', q);
+    console.log('events:', events);
+    
     // ラベルと注釈の両方を検索対象にする
     const searchResults = [];
     for (const year of Object.keys(events)) {
@@ -641,19 +644,30 @@
         const noteMatch = item.note && item.note.toLowerCase().includes(q.toLowerCase());
         if (labelMatch || noteMatch) {
           searchResults.push({ year: parseInt(year), item });
+          console.log('マッチした項目:', { year, item, labelMatch, noteMatch });
         }
       }
     }
     
+    console.log('検索結果:', searchResults);
+    
     // 検索結果に基づいてマッチするラベル要素を取得
     const els=[...eventsG.querySelectorAll('text.eventLabel')]; 
+    console.log('表示中のラベル要素:', els.length);
+    
     matches=els.filter(el=> {
       const year = parseInt(el.getAttribute('data-year'));
       const label = el.textContent;
-      return searchResults.some(result => 
+      const isMatch = searchResults.some(result => 
         result.year === year && result.item.label === label
       );
+      if (isMatch) {
+        console.log('マッチしたラベル要素:', { year, label, element: el });
+      }
+      return isMatch;
     });
+    
+    console.log('最終的なマッチ数:', matches.length);
     
     matchIndex = matches.length? 0 : -1; 
     if(matchIndex!==-1){ highlight(matches[matchIndex]); } 
