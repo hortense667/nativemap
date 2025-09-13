@@ -84,6 +84,8 @@
           <option>HAR</option>
           <option>PHE</option>
           <option>SOF</option>
+          <option>TOY</option>
+          <option>FAS</option>
           <option>UNC</option>
         </select>
       </label>
@@ -268,7 +270,7 @@
 
   // ===== JSONロード/セーブ =====
   const LS_KEYS=['timelineEventsV2','timelineEventsV1'];
-  const GENRES=['ANI','MAN','GAM','TVP','MOV','NET','HAR','PHE','SOF','UNC'];
+  const GENRES=['ANI','MAN','GAM','TVP','MOV','NET','HAR','PHE','SOF','TOY','FAS','UNC'];
   const GENRE_SET=new Set(GENRES);
   function normalizeItem(it){ if(typeof it==='string') return {label: it}; const o={ label: it.label||'' }; if(it.genre) o.genre = String(it.genre).toUpperCase(); if(it.imp!==undefined && it.imp!==null && String(it.imp)!==''){ const n = parseInt(it.imp,10); if(n>=1 && n<=5) o.imp=n; else o.imp=''; } if(it.url) o.url = it.url; if(it.note) o.note = it.note; return o; }
   function normalizeAll(obj){ const out={}; for(const y of Object.keys(obj)){ const arr = Array.isArray(obj[y])? obj[y] : []; out[y] = arr.map(normalizeItem).filter(it=>it.label); } return out; }
@@ -430,6 +432,8 @@
           <option value="HAR" ${item.genre === 'HAR' ? 'selected' : ''}>ハードウェア</option>
           <option value="PHE" ${item.genre === 'PHE' ? 'selected' : ''}>現象・流行</option>
           <option value="SOF" ${item.genre === 'SOF' ? 'selected' : ''}>ソフトウェア</option>
+          <option value="TOY" ${item.genre === 'TOY' ? 'selected' : ''}>おもちゃ</option>
+          <option value="FAS" ${item.genre === 'FAS' ? 'selected' : ''}>ファッション</option>
           <option value="UNC" ${item.genre === 'UNC' ? 'selected' : ''}>その他</option>
         </select>
       </div>
@@ -1245,6 +1249,8 @@
         <li><strong>HAR:</strong> ハードウェア</li>
         <li><strong>PHE:</strong> 現象・流行</li>
         <li><strong>SOF:</strong> ソフトウェア</li>
+        <li><strong>TOY:</strong> おもちゃ</li>
+        <li><strong>FAS:</strong> ファッション</li>
         <li><strong>UNC:</strong> その他</li>
       </ul>
       <h5>重要度</h5>
