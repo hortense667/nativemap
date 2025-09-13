@@ -333,18 +333,18 @@
     document.body.appendChild(fixedAgeContainer);
   }
   
-  // 年齢目盛り数字の下に白い帯を作成
+  // 年齢目盛り数字の背景に白い帯を作成
   function createAgeBand() {
     const bandContainer = document.createElement('div');
     bandContainer.id = 'age-band';
     bandContainer.style.cssText = `
       position: fixed;
-      top: 78px;
+      top: 58px;
       left: 0;
       right: 0;
       height: 20px;
       pointer-events: none;
-      z-index: 4;
+      z-index: 3;
     `;
     
     // 年齢目盛りエリア全体（0から最大年齢まで）に白い帯を作成
