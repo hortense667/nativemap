@@ -317,7 +317,7 @@
 
     function close(){ editor.style.display='none'; }
     editor.querySelector('#cancel').onclick = close;
-    editor.querySelector('#save').onclick = ()=>{ const lines = ta.value.split(/\n/).map(s=>s.trim()); const subset = lines.map(parseLine).filter(Boolean); const errs=[]; for(const it of subset){ errs.push(...validateItem(year, it)); } if(errs.length){ showError('編集エラー', errs); return; } const allItems = events[year]||[]; const others = allItems.filter(it=> !passesFilter(it)); const merged = [...others, ...subset]; if(merged.length===0) delete events[year]; else events[year]=merged; saveEvents(); renderEvents(); close(); };
+    editor.querySelector('#save').onclick = ()=>{ const lines = ta.value.split(/\n/).map(s=>s.trim()); const subset = lines.map(parseLine).filter(Boolean); const errs=[]; for(const it of subset){ errs.push(...validateItem(year, it)); } if(errs.length){ showError('編集エラー', errs); return; } const allItems = events[year]||[]; const others = allItems.filter(it=> !passesFilter(it)); const merged = [...others, ...subset]; if(merged.length===0) delete events[year]; else events[year]=merged; saveEvents(); renderEvents(); autoSave(); close(); };
     ta.addEventListener('keydown', e=>{ if((e.ctrlKey||e.metaKey) && e.key==='Enter'){ editor.querySelector('#save').click(); } if(e.key==='Escape'){ e.preventDefault(); editor.querySelector('#cancel').click(); } });
   }
 
@@ -391,11 +391,6 @@
       return null;
     }
 
-    console.log('Dropbox読み込み開始:', {
-      token: dropboxConfig.accessToken.substring(0, 10) + '...',
-      path: dropboxConfig.filePath
-    });
-
     try {
       const response = await fetch('https://content.dropboxapi.com/2/files/download', {
         method: 'POST',
@@ -405,26 +400,14 @@
         }
       });
 
-      console.log('Dropbox API レスポンス:', response.status, response.statusText);
-
       if (!response.ok) {
-        const errorText = await response.text();
-        console.error('Dropbox API エラー詳細:', errorText);
-        throw new Error(`HTTP ${response.status}: ${errorText}`);
+        throw new Error(`HTTP ${response.status}: ${response.statusText}`);
       }
 
       const text = await response.text();
-      console.log('Dropboxから取得したデータ:', text.substring(0, 100) + '...');
       return JSON.parse(text);
     } catch (error) {
-      console.error('Dropbox読み込みエラー:', error);
-      
-      // CORSエラーの場合の特別なメッセージ
-      if (error.message.includes('CORS') || error.message.includes('cross-origin')) {
-        showError('CORSエラー', `ブラウザのセキュリティ制限により、Dropbox APIにアクセスできません。<br><br>解決方法：<br>1. ローカルサーバーを使用（推奨）<br>2. Chromeをセキュリティ無効化で起動<br>3. Firefoxを使用`);
-      } else {
-        showError('読み込みエラー', `Dropboxからの読み込みに失敗しました: ${error.message}`);
-      }
+      showError('読み込みエラー', `Dropboxからの読み込みに失敗しました: ${error.message}`);
       return null;
     }
   }
@@ -461,12 +444,30 @@
     }
   }
 
+  // 同期前の確認
+  function syncWithConfirmation() {
+    const lastSync = localStorage.getItem('lastSync');
+    const lastEdit = localStorage.getItem('lastEdit');
+    
+    if (lastEdit && lastEdit > lastSync) {
+      const confirmed = confirm('未同期の変更があります。\n\n同期しますか？\n\n※同期すると、他のメンバーの変更も取得されます。');
+      if (confirmed) {
+        syncWithDropbox();
+      }
+    } else {
+      syncWithDropbox();
+    }
+  }
+
   // 同期処理
   async function syncWithDropbox() {
     try {
       // 1. Dropboxからデータを読み込み
       const remoteData = await loadFromDropbox();
       if (!remoteData) return;
+
+      console.log('同期開始 - リモートデータ:', remoteData);
+      console.log('同期開始 - ローカルデータ:', events);
 
       // 2. ローカルデータとマージ（簡単な競合解決）
       const localData = events;
@@ -478,14 +479,20 @@
           merged[year] = [];
         }
         
-        // 重複を避けてマージ
-        for (const item of items) {
-          const exists = merged[year].some(existing => existing.label === item.label);
-          if (!exists) {
-            merged[year].push(item);
+        // ローカルの項目でリモートの項目を更新
+        for (const localItem of items) {
+          const existingIndex = merged[year].findIndex(existing => existing.label === localItem.label);
+          if (existingIndex !== -1) {
+            // 既存の項目を更新
+            merged[year][existingIndex] = localItem;
+          } else {
+            // 新しい項目を追加
+            merged[year].push(localItem);
           }
         }
       }
+
+      console.log('同期完了 - マージ後データ:', merged);
 
       // 3. マージしたデータを保存
       const success = await saveToDropbox(merged);
@@ -493,6 +500,11 @@
         events = merged;
         saveEvents();
         renderEvents();
+        
+        // 同期完了時刻を記録
+        localStorage.setItem('lastSync', new Date().toISOString());
+        updateSyncStatus();
+        
         showInfo('同期完了', 'Dropboxとの同期が完了しました。');
       }
     } catch (error) {
@@ -531,10 +543,8 @@
         </ol>
       </div>
       <div style="text-align: right; margin-top: 16px;">
-        <button class="btn" id="testConnection">接続テスト</button>
-        <button class="btn" id="testFile">ファイル確認</button>
-        <button class="btn" id="cancelSettings">キャンセル</button>
-        <button class="btn" id="saveSettings" style="margin-left: 8px;">保存</button>
+        <button class="btn" onclick="closeModal()">キャンセル</button>
+        <button class="btn" onclick="saveSettings()" style="margin-left: 8px;">保存</button>
       </div>
     `;
     openModal('設定', settingsHtml);
@@ -547,101 +557,50 @@
     if (tokenInput && pathInput) {
       dropboxConfig.accessToken = tokenInput.value.trim();
       dropboxConfig.filePath = pathInput.value.trim() || '/nativemap/timeline.json';
-      
-      console.log('保存する設定:', dropboxConfig); // デバッグ用
-      
       saveDropboxConfig();
       closeModal();
-      showInfo('設定保存', `設定が保存されました。<br>アクセストークン: ${dropboxConfig.accessToken ? '設定済み' : '未設定'}<br>ファイルパス: ${dropboxConfig.filePath}`);
+      showInfo('設定保存', '設定が保存されました。');
+    }
+  }
+
+  // 同期状態の表示
+  function updateSyncStatus() {
+    const lastSync = localStorage.getItem('lastSync');
+    const lastEdit = localStorage.getItem('lastEdit');
+    
+    if (lastEdit && lastEdit > lastSync) {
+      // 未同期の変更がある
+      syncBtn.style.background = '#ffeb3b';
+      syncBtn.style.color = '#000';
+      syncBtn.title = '未同期の変更があります - クリックして同期';
     } else {
-      console.error('設定入力フィールドが見つかりません');
-      showError('設定エラー', '設定の保存に失敗しました。');
+      // 同期済み
+      syncBtn.style.background = '#4caf50';
+      syncBtn.style.color = '#fff';
+      syncBtn.title = '同期済み';
     }
   }
 
-  // グローバルスコープに公開
-  window.saveSettings = saveSettings;
-
-  // Dropbox接続テスト
-  async function testDropboxConnection() {
-    if (!dropboxConfig.accessToken) {
-      showError('設定エラー', 'アクセストークンが設定されていません。');
-      return;
-    }
-
+  // 自動保存機能
+  function autoSave() {
     try {
-      // アカウント情報を取得してテスト（空のJSONボディを送信）
-      const response = await fetch('https://api.dropboxapi.com/2/users/get_current_account', {
-        method: 'POST',
-        headers: {
-          'Authorization': `Bearer ${dropboxConfig.accessToken}`,
-          'Content-Type': 'application/json'
-        },
-        body: 'null'  // 空のJSONボディ
-      });
-
-      if (response.ok) {
-        const account = await response.json();
-        showInfo('接続テスト成功', `Dropboxアカウント: ${account.name.display_name}<br>メール: ${account.email}`);
-      } else {
-        const error = await response.text();
-        showError('接続テスト失敗', `HTTP ${response.status}: ${error}`);
-      }
-    } catch (error) {
-      showError('接続テストエラー', error.message);
+      localStorage.setItem('autoSave', JSON.stringify(events));
+      localStorage.setItem('lastEdit', new Date().toISOString());
+      updateSyncStatus();
+    } catch (e) {
+      console.error('自動保存エラー:', e);
     }
   }
 
-  // ファイル存在確認
-  async function testFileExists() {
-    if (!dropboxConfig.accessToken) {
-      showError('設定エラー', 'アクセストークンが設定されていません。');
-      return;
-    }
+  // 5秒ごとに自動保存
+  setInterval(autoSave, 5000);
 
-    if (!dropboxConfig.filePath) {
-      showError('設定エラー', 'ファイルパスが設定されていません。');
-      return;
-    }
-
-    try {
-      const response = await fetch('https://api.dropboxapi.com/2/files/get_metadata', {
-        method: 'POST',
-        headers: {
-          'Authorization': `Bearer ${dropboxConfig.accessToken}`,
-          'Content-Type': 'application/json'
-        },
-        body: JSON.stringify({ path: dropboxConfig.filePath })
-      });
-
-      if (response.ok) {
-        const metadata = await response.json();
-        showInfo('ファイル確認成功', `ファイル名: ${metadata.name}<br>サイズ: ${metadata.size} bytes<br>更新日時: ${metadata.client_modified}`);
-      } else {
-        const error = await response.text();
-        showError('ファイル確認失敗', `HTTP ${response.status}: ${error}<br><br>権限設定が必要です。<br>Dropbox App Consoleで以下の権限を有効化してください：<br>• files.metadata.read<br>• files.content.read<br>• files.content.write`);
-      }
-    } catch (error) {
-      showError('ファイル確認エラー', error.message);
-    }
-  }
+  // 初期化時に同期状態を更新
+  updateSyncStatus();
 
   // イベントリスナー
-  syncBtn.addEventListener('click', syncWithDropbox);
+  syncBtn.addEventListener('click', syncWithConfirmation);
   settingsBtn.addEventListener('click', showSettings);
-
-  // 設定画面のイベントリスナー（動的に追加）
-  document.addEventListener('click', (e) => {
-    if (e.target.id === 'saveSettings') {
-      saveSettings();
-    } else if (e.target.id === 'cancelSettings') {
-      closeModal();
-    } else if (e.target.id === 'testConnection') {
-      testDropboxConnection();
-    } else if (e.target.id === 'testFile') {
-      testFileExists();
-    }
-  });
 
   // 初期化時に設定を読み込み
   loadDropboxConfig();
