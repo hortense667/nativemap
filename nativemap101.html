@@ -187,6 +187,7 @@
   const loadCsvBtn=document.getElementById('loadCsvBtn');
   const syncBtn=document.getElementById('syncBtn');
   const settingsBtn=document.getElementById('settingsBtn');
+  console.log('settingsBtn:', settingsBtn);
   const helpBtn=document.getElementById('helpBtn');
   const fileInput=document.getElementById('fileInput');
   const eventColBg=document.getElementById('eventColBg');
@@ -522,6 +523,7 @@
 
   // 設定画面
   function showSettings() {
+    console.log('showSettings called');
     const settingsHtml = `
       <h4>Dropbox同期設定</h4>
       <p>Dropbox APIを使用してデータを同期します。</p>
@@ -638,7 +640,10 @@
 
   // イベントリスナー
   syncBtn.addEventListener('click', syncWithConfirmation);
-  settingsBtn.addEventListener('click', showSettings);
+  settingsBtn.addEventListener('click', function() {
+    console.log('Settings button clicked');
+    showSettings();
+  });
 
   // 初期化時に設定を読み込み
   loadDropboxConfig();
