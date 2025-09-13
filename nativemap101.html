@@ -333,7 +333,7 @@
     document.body.appendChild(fixedAgeContainer);
   }
   
-  // 年齢メモリ下のグリッド線を白で隠すマスクを作成
+  // 年齢目盛り（0、10、20、30）の下だけを白で隠すマスクを作成
   function createAgeMask() {
     const maskContainer = document.createElement('div');
     maskContainer.id = 'age-mask';
@@ -343,54 +343,32 @@
       left: 0;
       right: 0;
       height: 20px;
-      background: white;
       pointer-events: none;
       z-index: 4;
     `;
+    
+    // 年齢目盛り（0、10、20、30）の下だけを白で隠す
+    for(let a=0;a<=AGE_MAX;a+=10){
+      const x = xFromAge(a);
+      const mask = document.createElement('div');
+      mask.style.cssText = `
+        position: absolute;
+        left: ${x - 15}px;
+        top: 0;
+        width: 30px;
+        height: 20px;
+        background: white;
+        pointer-events: none;
+      `;
+      maskContainer.appendChild(mask);
+    }
     
     document.body.appendChild(maskContainer);
   }
   
-  // ラベル表示エリアのグリッド線を白で隠すマスクを作成
-  function createLabelMask() {
-    const maskContainer = document.createElement('div');
-    maskContainer.id = 'label-mask';
-    maskContainer.style.cssText = `
-      position: fixed;
-      top: 78px;
-      left: ${LABEL_LEFT_X}px;
-      width: ${LABEL_RIGHT_X - LABEL_LEFT_X}px;
-      height: 20px;
-      background: white;
-      pointer-events: none;
-      z-index: 4;
-    `;
-    
-    document.body.appendChild(maskContainer);
-  }
-  
-  // プローブ線エリアのグリッド線を白で隠すマスクを作成
-  function createProbeMask() {
-    const maskContainer = document.createElement('div');
-    maskContainer.id = 'probe-mask';
-    maskContainer.style.cssText = `
-      position: fixed;
-      top: 78px;
-      left: ${ORIGIN_X}px;
-      right: 0;
-      height: 20px;
-      background: white;
-      pointer-events: none;
-      z-index: 4;
-    `;
-    
-    document.body.appendChild(maskContainer);
-  }
   drawGrid();
   createFixedAgeLabels();
   createAgeMask();
-  createLabelMask();
-  createProbeMask();
   updateGenreFilterButtonText();
 
   const tooltip=document.getElementById('tooltip');
