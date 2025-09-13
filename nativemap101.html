@@ -73,25 +73,9 @@
     <span class="hint">縦軸：誕生年、横軸：年齢／ラベルクリックで編集／誕生年の丸をドラッグ</span>
     <div class="filters" id="filters">
       <label>ジャンル
-        <select id="filterGenre">
-          <option value="">すべて</option>
-          <option>ANI</option>
-          <option>MAN</option>
-          <option>GAM</option>
-          <option>TVP</option>
-          <option>MOV</option>
-          <option>NET</option>
-          <option>HAR</option>
-          <option>PHE</option>
-          <option>SOF</option>
-          <option>TOY</option>
-          <option>FAS</option>
-          <option>BOO</option>
-          <option>MAG</option>
-          <option>NOV</option>
-          <option>MUS</option>
-          <option>UNC</option>
-        </select>
+        <button id="genreFilterBtn" style="padding: 4px 8px; border: 1px solid #ccc; background: #f9f9f9; cursor: pointer; border-radius: 4px;">
+          ジャンル選択
+        </button>
       </label>
       <label>重要度
         <select id="filterImp">
@@ -185,7 +169,7 @@
   const decadesG=document.getElementById('decades');
   const eventsG=document.getElementById('events');
   const editor=document.getElementById('editor');
-  const selGenre=document.getElementById('filterGenre');
+  const genreFilterBtn=document.getElementById('genreFilterBtn');
   const selImp=document.getElementById('filterImp');
   const searchBox=document.getElementById('searchBox');
   const searchBtn=document.getElementById('searchBtn');
@@ -289,7 +273,20 @@
   // ===== フィルタ =====
   let filterGenre = '';
   let filterImp   = '';
-  function passesFilter(it){ if(filterGenre && (String(it.genre||'')!==filterGenre)) return false; if(filterImp){ const thr = parseInt(filterImp,10); const imp = parseInt(it.imp,10); if(isNaN(imp) || imp<thr) return false; } return true; }
+  let selectedGenres = new Set(); // 選択されたジャンルのセット
+  function passesFilter(it){ 
+    // ジャンルフィルタ（複数選択対応）
+    if (selectedGenres.size > 0 && !selectedGenres.has(String(it.genre || ''))) {
+      return false;
+    }
+    // 重要度フィルタ
+    if(filterImp){ 
+      const thr = parseInt(filterImp,10); 
+      const imp = parseInt(it.imp,10); 
+      if(isNaN(imp) || imp<thr) return false; 
+    } 
+    return true; 
+  }
 
   // ===== グリッド =====
   function yFromBirthYear(by){return ORIGIN_Y+(by-YEAR_MIN)*PX_PER_YEAR;}
@@ -300,6 +297,7 @@
     for(let b=YEAR_MIN; b<=YEAR_MAX; b+=5){ const x0=ORIGIN_X, y0=yFromBirthYear(b); const x1=xFromAge(Math.min(AGE_MAX,YEAR_MAX-b)); const y1=yFromBirthYear(Math.min(YEAR_MAX,b+AGE_MAX)); gridG.appendChild(lineEl(x0,y0,x1,y1,'gridMinor')); }
   }
   drawGrid();
+  updateGenreFilterButtonText();
 
   const tooltip=document.getElementById('tooltip');
   function positionTooltip(e){const r=vp.getBoundingClientRect();tooltip.style.left=(e.clientX-r.left+14)+'px';tooltip.style.top=(e.clientY-r.top+14)+'px';}
@@ -1221,9 +1219,105 @@
   toggleRedBtn.addEventListener('click',()=>{ const visible = redGroup.style.display !== 'none'; setToggle(toggleRedBtn, redGroup, !visible); });
 
   // フィルタ変更
-  function onFilterChange(){ filterGenre=selGenre.value.trim().toUpperCase(); filterImp=selImp.value.trim(); renderEvents(); }
-  selGenre.addEventListener('change', onFilterChange);
+  function onFilterChange(){ filterImp=selImp.value.trim(); renderEvents(); }
   selImp.addEventListener('change', onFilterChange);
+  
+  // ジャンルフィルタボタンのイベントリスナー
+  genreFilterBtn.addEventListener('click', showGenreFilterModal);
+  
+  // ジャンル選択モーダル関連の関数
+  function showGenreFilterModal() {
+    const genreLabels = {
+      'ANI': 'アニメ', 'MAN': 'マンガ', 'GAM': 'ゲーム', 'TVP': 'テレビ番組',
+      'MOV': '映画', 'NET': 'インターネット', 'HAR': 'ハードウェア', 'PHE': '現象・流行',
+      'SOF': 'ソフトウェア', 'TOY': 'おもちゃ', 'FAS': 'ファッション', 'BOO': '本',
+      'MAG': '雑誌', 'NOV': '小説', 'MUS': '音楽', 'UNC': 'その他'
+    };
+    
+    let genreButtonsHtml = '';
+    for (const genre of GENRES) {
+      const isSelected = selectedGenres.has(genre);
+      const label = genreLabels[genre] || genre;
+      genreButtonsHtml += `
+        <button class="genre-btn ${isSelected ? 'selected' : ''}" 
+                data-genre="${genre}" 
+                onclick="toggleGenre('${genre}')"
+                style="padding: 8px 12px; border: 1px solid #ddd; border-radius: 4px; cursor: pointer; background: ${isSelected ? '#007bff' : '#f9f9f9'}; color: ${isSelected ? 'white' : 'black'};">
+          ${label}
+        </button>
+      `;
+    }
+    
+    const modalContent = `
+      <div style="margin-bottom: 16px;">
+        <button onclick="selectAllGenres()" style="margin-right: 8px; padding: 6px 12px; background: #007bff; color: white; border: none; border-radius: 4px; cursor: pointer;">すべてを選択</button>
+        <button onclick="deselectAllGenres()" style="padding: 6px 12px; background: #6c757d; color: white; border: none; border-radius: 4px; cursor: pointer;">すべてを解除</button>
+      </div>
+      <div style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 8px; margin-bottom: 16px;">
+        ${genreButtonsHtml}
+      </div>
+      <div style="text-align: right;">
+        <button onclick="applyGenreFilter()" style="padding: 8px 16px; background: #28a745; color: white; border: none; border-radius: 4px; cursor: pointer;">適用</button>
+      </div>
+    `;
+    
+    showModal('ジャンル選択', modalContent);
+  }
+  
+  function toggleGenre(genre) {
+    if (selectedGenres.has(genre)) {
+      selectedGenres.delete(genre);
+    } else {
+      selectedGenres.add(genre);
+    }
+    // ボタンの表示を更新
+    const btn = document.querySelector(`[data-genre="${genre}"]`);
+    if (btn) {
+      const isSelected = selectedGenres.has(genre);
+      btn.classList.toggle('selected', isSelected);
+      btn.style.background = isSelected ? '#007bff' : '#f9f9f9';
+      btn.style.color = isSelected ? 'white' : 'black';
+    }
+  }
+  
+  function selectAllGenres() {
+    selectedGenres.clear();
+    for (const genre of GENRES) {
+      selectedGenres.add(genre);
+    }
+    // すべてのボタンを選択状態に更新
+    document.querySelectorAll('.genre-btn').forEach(btn => {
+      btn.classList.add('selected');
+      btn.style.background = '#007bff';
+      btn.style.color = 'white';
+    });
+  }
+  
+  function deselectAllGenres() {
+    selectedGenres.clear();
+    // すべてのボタンを非選択状態に更新
+    document.querySelectorAll('.genre-btn').forEach(btn => {
+      btn.classList.remove('selected');
+      btn.style.background = '#f9f9f9';
+      btn.style.color = 'black';
+    });
+  }
+  
+  function applyGenreFilter() {
+    closeModal();
+    renderEvents();
+    updateGenreFilterButtonText();
+  }
+  
+  function updateGenreFilterButtonText() {
+    if (selectedGenres.size === 0) {
+      genreFilterBtn.textContent = 'ジャンル選択';
+    } else if (selectedGenres.size === GENRES.length) {
+      genreFilterBtn.textContent = 'すべてのジャンル';
+    } else {
+      genreFilterBtn.textContent = `${selectedGenres.size}個のジャンル`;
+    }
+  }
 
   // ヘルプ
   const helpHtml = `
