@@ -300,15 +300,10 @@
   // ===== 詳細一覧表示 =====
   function showDetailList(year, anchor) {
     const items = (events[year] || []).filter(passesFilter);
-    if (items.length === 0) {
-      showEditor(year, anchor);
-      return;
-    }
 
     const detailHtml = `
       <div style="max-height: 400px; overflow-y: auto;">
-        <h4>${year}年の項目一覧</h4>
-        ${items.map((item, index) => `
+        ${items.length > 0 ? items.map((item, index) => `
           <div style="border: 1px solid #ddd; margin: 8px 0; padding: 12px; border-radius: 6px; background: #f9f9f9;">
             <div style="display: flex; justify-content: space-between; align-items: center;">
               <div style="flex: 1;">
@@ -328,15 +323,16 @@
               </div>
             </div>
           </div>
-        `).join('')}
+        `).join('') : '<div style="text-align: center; color: #666; padding: 20px;">項目がありません</div>'}
       </div>
       <div style="text-align: right; margin-top: 16px;">
-        <button class="btn" onclick="closeModal()">閉じる</button>
+        <button class="btn" onclick="addNewItem(${year})">追加</button>
         <button class="btn" onclick="showEditor(${year}, null)" style="margin-left: 8px;">一括編集</button>
+        <button class="btn" onclick="closeModal()" style="margin-left: 8px;">閉じる</button>
       </div>
     `;
     
-    openModal(`${year}年の項目一覧`, detailHtml);
+    openModal(`${year}年`, detailHtml);
   }
 
   // ===== 詳細一覧の操作関数 =====
@@ -382,6 +378,16 @@
       renderEvents();
       showDetailList(year, null);
     }
+  }
+
+  function addNewItem(year) {
+    const newItem = { label: '' };
+    if (!events[year]) {
+      events[year] = [];
+    }
+    events[year].push(newItem);
+    const index = events[year].length - 1;
+    showEditModal(year, index, newItem);
   }
 
   // 個別編集用モーダル
@@ -482,6 +488,7 @@
   window.openUrl = openUrl;
   window.editItem = editItem;
   window.deleteItem = deleteItem;
+  window.addNewItem = addNewItem;
   window.saveEditItem = saveEditItem;
 
   // ===== 編集UI（テキスト） =====
