@@ -581,6 +581,8 @@
   // ===== レンダリング（フィルタ適用・単純クリップ） =====
   function renderEvents(){
     eventsG.innerHTML=''; clearHighlight(true);
+    // すべてのハイライトクラスを確実にクリア
+    document.querySelectorAll('.hlText').forEach(el => el.classList.remove('hlText'));
     const years = Object.keys(events).map(Number).sort((a,b)=>a-b);
     for(const y of years){
       const ypx=yFromBirthYear(y);
@@ -616,7 +618,21 @@
   renderEvents();
 
   // ===== 検索 =====
-  function doSearch(){ clearHighlight(true); const q=searchBox.value.trim(); if(!q){ matches=[]; matchIndex=-1; return; } const els=[...eventsG.querySelectorAll('text.eventLabel')]; matches=els.filter(el=> el.textContent.toLowerCase().includes(q.toLowerCase())); matchIndex = matches.length? 0 : -1; if(matchIndex!==-1){ highlight(matches[matchIndex]); } }
+  function doSearch(){ 
+    clearHighlight(true); 
+    const q=searchBox.value.trim(); 
+    if(!q){ 
+      matches=[]; 
+      matchIndex=-1; 
+      // 検索ボックスが空の場合はすべてのハイライトをクリア
+      document.querySelectorAll('.hlText').forEach(el => el.classList.remove('hlText'));
+      return; 
+    } 
+    const els=[...eventsG.querySelectorAll('text.eventLabel')]; 
+    matches=els.filter(el=> el.textContent.toLowerCase().includes(q.toLowerCase())); 
+    matchIndex = matches.length? 0 : -1; 
+    if(matchIndex!==-1){ highlight(matches[matchIndex]); } 
+  }
   function nextMatch(dir){ if(!matches.length) return; matchIndex=(matchIndex+ (dir>0?1:-1) + matches.length)%matches.length; highlight(matches[matchIndex]); }
   searchBtn.addEventListener('click', doSearch);
   searchBox.addEventListener('keydown', e=>{ if(e.key==='Enter'){ doSearch(); }});
