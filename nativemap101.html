@@ -570,6 +570,9 @@
       showInfo('設定保存', '設定が保存されました。');
     }
   }
+  
+  // グローバルに公開
+  window.saveSettings = saveSettings;
 
   // 同期状態の表示
   function updateSyncStatus() {
