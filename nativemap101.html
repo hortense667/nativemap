@@ -1,0 +1,776 @@
+１<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>ネイティブマップ 1.0</title>
+<style>
+  :root { --bg:#fafafa; --grid:#d0d0d0; --axis:#888; --text:#222; }
+  html,body{height:100%}
+  body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,Noto Sans JP,sans-serif;color:var(--text);background:var(--bg)}
+  header{position:sticky;top:0;z-index:10;background:#fff;border-bottom:1px solid #e5e5e5;display:flex;gap:12px;align-items:center;padding:10px 12px;flex-wrap:wrap}
+  header .btn{padding:6px 10px;border:1px solid #ccc;border-radius:8px;background:#f7f7f7;cursor:pointer}
+  header .btn:active{transform:translateY(1px)}
+  header .legend{display:flex;gap:8px;align-items:center;margin-left:auto}
+  .chip{display:inline-flex;align-items:center;gap:6px;padding:4px 10px;border-radius:999px;border:1px solid #ddd;background:#fff;cursor:pointer}
+  /* 小さな丸ボタン */
+  .chipCircle{ width:28px; height:28px; padding:0; display:inline-flex; align-items:center; justify-content:center; border-radius:999px; }
+  .chipCircle .dot{ width:14px; height:14px; border-radius:999px; }
+  .chip .dot{width:12px;height:12px;border-radius:999px}
+  .chip .dot.blue{background:#4da3ff}.chip .dot.red{background:#ff3333}
+  .chip.off{opacity:.35}
+  .filters{display:flex; gap:8px; align-items:center; }
+  .filters select{padding:6px 8px; border:1px solid #ccc; border-radius:8px; background:#fff;}
+  .search{display:flex; gap:6px; align-items:center; margin-left:auto}
+  .search input{padding:6px 8px; border:1px solid #ccc; border-radius:8px; min-width:220px}
+  .viewport{width:100%;height:calc(100% - 58px);overflow:auto;background:#fff}
+  .stage{width:2400px;height:2600px;transform-origin:0 0}
+  .tooltip{position:absolute;background:#fff;border:1px solid #ccc;padding:8px 10px;border-radius:8px;box-shadow:0 4px 16px rgba(0,0,0,.08);pointer-events:none;font-size:12px;z-index:20}
+  .hint{font-size:12px;color:#666}
+  .handle{cursor:ns-resize}
+  .axisLabel{font-weight:700;fill:#9a9a9a;font-size:40px;opacity:.6}
+  .eventLabel{font-size:13px;fill:#111}
+  .eventMulti{fill:#c00}
+  .gridMinor{stroke:var(--grid);stroke-width:1}
+  .gridMajor{stroke:#b0b0b0;stroke-width:1.5}
+  .ageAxis,.birthAxis{stroke:var(--axis);stroke-width:2}
+  .ageTickText{font-size:18px;fill:#4a4a4a;font-weight:700}
+  .eventColBg{fill:#fafafa}
+  .eventColBorder{stroke:#e5e5e5;stroke-width:1}
+  .handleLane{fill:#f4f9ff}
+  .handleLaneBorder{stroke:#d7e8ff;stroke-width:1}
+  .editAreaHint{font-size:12px;fill:#888}
+  body.dragging{user-select:none;-webkit-user-select:none}
+  /* エディタ（テキスト） */
+  .editor{ position:absolute; background:#fff; border:1px solid #ccc; border-radius:10px; box-shadow:0 12px 28px rgba(0,0,0,.18); padding:10px; width:520px; z-index:30; }
+  .editor h4{ margin:0 0 6px; font-size:14px; display:flex; align-items:center; gap:8px; justify-content:space-between; }
+  .editor .fmt{ font:12px/1.2 ui-monospace,SFMono-Regular,Menlo,Consolas,monospace; color:#555; background:#f4f4f4; border:1px solid #e0e0e0; border-radius:6px; padding:2px 6px; }
+  .editor textarea{ width:100%; min-height:200px; font:12px/1.5 ui-monospace,SFMono-Regular,Menlo,Consolas,monospace; padding:8px; border:1px solid #d0d0d0; border-radius:8px; box-sizing:border-box; resize:vertical; white-space:pre; }
+  .editor .row{ display:flex; gap:8px; justify-content:space-between; align-items:center; margin-top:8px; }
+  .editor .row .left{ color:#666; font-size:12px; }
+  .editor .row button{ padding:6px 10px; border:1px solid #bbb; border-radius:8px; background:#f5f5f5; cursor:pointer; }
+  /* 検索反転 */
+  .hlText{ fill:#fff !important; }
+
+  /* モーダル */
+  .modalOverlay{ position:fixed; inset:0; background:rgba(0,0,0,.35); display:none; z-index:1000; align-items:center; justify-content:center; }
+  .modal{ background:#fff; width:min(880px, calc(100% - 32px)); max-height:84vh; overflow:auto; border-radius:12px; box-shadow:0 24px 80px rgba(0,0,0,.25); }
+  .modal header{ position:sticky; top:0; background:#fff; border-bottom:1px solid #eee; padding:12px 16px; display:flex; align-items:center; justify-content:space-between; }
+  .modal header h3{ margin:0; font-size:16px; }
+  .modal .content{ padding:16px 18px; font-size:14px; line-height:1.8; }
+  .modal .content h4{ margin:14px 0 6px; font-size:15px; }
+  .modal .content p{ margin:8px 0; }
+  .modal .content ul{ margin:6px 0 6px 22px; }
+  .modal .content code{ background:#f6f6f6; border:1px solid #e3e3e3; padding:1px 4px; border-radius:4px; font-family:ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
+  .modal footer{ padding:10px 16px 16px; display:flex; justify-content:flex-end; }
+  .modal footer .btn{ background:#f6f6f6; border:1px solid #ddd; border-radius:10px; padding:6px 10px; cursor:pointer; }
+  .credit{ font-size:12px; color:#777; margin-top:8px; }
+</style>
+</head>
+<body>
+  <header>
+    <strong>ネイティブマップ 1.0</strong>
+    <span class="hint">縦軸：誕生年、横軸：年齢／ラベルクリックで編集／誕生年の丸をドラッグ</span>
+    <div class="filters" id="filters">
+      <label>ジャンル
+        <select id="filterGenre">
+          <option value="">すべて</option>
+          <option>ANI</option>
+          <option>MAN</option>
+          <option>GAM</option>
+          <option>TVP</option>
+          <option>MOV</option>
+          <option>NET</option>
+          <option>HAR</option>
+          <option>PHE</option>
+          <option>UNC</option>
+        </select>
+      </label>
+      <label>重要度
+        <select id="filterImp">
+          <option value="">すべて</option>
+          <option>1</option>
+          <option>2</option>
+          <option>3</option>
+          <option>4</option>
+          <option>5</option>
+        </select>
+      </label>
+    </div>
+    <div class="search">
+      <input id="searchBox" type="text" placeholder="ラベル検索" />
+      <button class="btn" id="searchBtn">検索</button>
+      <button class="btn" id="prevBtn">前</button>
+      <button class="btn" id="nextBtn">次</button>
+    </div>
+    <div class="legend">
+      <button class="btn" id="loadCsvBtn" title="CSV/TSVを読み込んで追加">ロード</button>
+      <button class="btn" id="syncBtn" title="Dropboxと同期">同期</button>
+      <button class="btn" id="settingsBtn" title="設定">設定</button>
+      <button class="btn" id="helpBtn" title="ヘルプ">ヘルプ</button>
+      <input type="file" id="fileInput" accept=".csv,.tsv,text/csv,text/tab-separated-values,text/plain" style="display:none" />
+      <button class="chip chipCircle" id="toggleBlue" aria-pressed="true" title="水色ラインの表示／非表示"><span class="dot blue"></span></button>
+      <button class="chip chipCircle" id="toggleRed" aria-pressed="true" title="赤色ラインの表示／非表示"><span class="dot red"></span></button>
+    </div>
+  </header>
+  <div class="viewport" id="viewport">
+    <svg class="stage" id="stage" xmlns="http://www.w3.org/2000/svg">
+      <rect x="0" y="0" width="480" height="2600" class="eventColBg" id="eventColBg"/>
+      <line x1="480" y1="0" x2="480" y2="2600" class="eventColBorder"/>
+      <g id="grid"></g>
+      <g id="decades"></g>
+      <g id="events"></g>
+      <g id="probe-blue"></g>
+      <g id="probe-red"></g>
+      <text x="12" y="2580" class="editAreaHint">クリックで編集。1950s～2050sまで上下にスクロール可能。</text>
+    </svg>
+  </div>
+  <div id="tooltip" class="tooltip" style="display:none"></div>
+  <div id="editor" class="editor" style="display:none"></div>
+
+  <!-- モーダル（ヘルプ＆エラー） -->
+  <div id="modal" class="modalOverlay" role="dialog" aria-modal="true" aria-hidden="true">
+    <div class="modal">
+      <header>
+        <h3 id="modalTitle">ダイアログ</h3>
+      </header>
+      <div class="content" id="modalContent"></div>
+      <footer><button class="btn" id="modalClose">閉じる</button></footer>
+    </div>
+  </div>
+
+  <!-- 既定の年表JSON（初回ロード時のみ使用）。以降は localStorage を優先。-->
+  <script id="events-json" type="application/json">{
+    "1952": [{"label":"テレビ放送開始"}],
+    "1956": [{"label":"国産初コンピュータ"}],
+    "1960": [{"label":"国鉄予約システム"},{"label":"ミステリーゾーン"}],
+    "1963": [{"label":"鉄腕アトム"},{"label":"鉄人28号"}],
+    "1966": [{"label":"ウルトラQ"},{"label":"サンダーバード"}],
+    "1969": [{"label":"住友銀行キャッシュディスペンサ"},{"label":"アポロ11号・月着陸"}],
+    "1971": [{"label":"仮面ライダー"}],
+    "1973": [{"label":"『8時だョ！全員集合』視聴率50%"}],
+    "1977": [{"label":"Apple IIなど初期マイコン"}],
+    "1978": [{"label":"マイコン入り製品次々登場"}],
+    "1979": [{"label":"機動戦士ガンダム"}],
+    "1983": [{"label":"任天堂ファミコン"}],
+    "1984": [{"label":"ドラゴンボール"}],
+    "1986": [{"label":"PC-9801VM"},{"label":"ビデオレンタル・AVビデオ"}],
+    "1995": [{"label":"新世紀エヴァンゲリオン"},{"label":"GHOST IN THE SHELL 攻殻機動隊"}],
+    "1996": [{"label":"パソコン通信流行"},{"label":"女子高生にポケベルブーム"},{"label":"たまごっち"},{"label":"ホンダP2"}],
+    "1999": [{"label":"iモード・写メール"},{"label":"MATRIX"}],
+    "2001": [{"label":"ヤフー！BB開始"}],
+    "2005": [{"label":"YouTube"}],
+    "2006": [{"label":"『ぐぐる』が流行語大賞"}],
+    "2007": [{"label":"電脳コイル"}],
+    "2010": [{"label":"iPhoneブレーク"},{"label":"GAFAの影響力拡大"}],
+    "2016": [{"label":"DJI Phantom 4／ドローン"}],
+    "2018": [{"label":"Ready Player One"}],
+    "2020": [{"label":"VR／メタバース注目"}],
+    "2022": [{"label":"ChatGPT／生成AI"}],
+    "2023": [{"label":"Web3"}]
+  </script>
+
+<script>
+(function(){
+  const vp=document.getElementById('viewport');
+  const stage=document.getElementById('stage');
+  const gridG=document.getElementById('grid');
+  const decadesG=document.getElementById('decades');
+  const eventsG=document.getElementById('events');
+  const editor=document.getElementById('editor');
+  const selGenre=document.getElementById('filterGenre');
+  const selImp=document.getElementById('filterImp');
+  const searchBox=document.getElementById('searchBox');
+  const searchBtn=document.getElementById('searchBtn');
+  const prevBtn=document.getElementById('prevBtn');
+  const nextBtn=document.getElementById('nextBtn');
+  const loadCsvBtn=document.getElementById('loadCsvBtn');
+  const syncBtn=document.getElementById('syncBtn');
+  const settingsBtn=document.getElementById('settingsBtn');
+  const helpBtn=document.getElementById('helpBtn');
+  const fileInput=document.getElementById('fileInput');
+  const eventColBg=document.getElementById('eventColBg');
+  const modal=document.getElementById('modal');
+  const modalTitle=document.getElementById('modalTitle');
+  const modalContent=document.getElementById('modalContent');
+  const modalClose=document.getElementById('modalClose');
+
+  const YEAR_MIN=1950, YEAR_MAX=2059, AGE_MAX=100;
+  const PX_PER_YEAR=22, PX_PER_AGE=25;
+  const LEFT_COL_W=480, DECADE_GUTTER=72, ORIGIN_X=LEFT_COL_W, ORIGIN_Y=40;
+  const HANDLE_LANE_W=24; // 狭めたドラッグレーン
+  const HANDLE_X = ORIGIN_X - HANDLE_LANE_W/2;
+  const LABEL_LEFT_X = DECADE_GUTTER + 2;               // ラベル表示開始位置（左）
+  const LABEL_RIGHT_X = ORIGIN_X - HANDLE_LANE_W - 8;   // ラベル表示終了（右）
+  const width=ORIGIN_X+PX_PER_AGE*(AGE_MAX+2)+200;
+  const height=ORIGIN_Y+PX_PER_YEAR*((YEAR_MAX-YEAR_MIN+1)+3);
+  stage.setAttribute('width',width); stage.setAttribute('height',height);
+  // クリップパス
+  const ns='http://www.w3.org/2000/svg';
+  const defs=document.createElementNS(ns,'defs');
+  const cpEvents=document.createElementNS(ns,'clipPath'); cpEvents.setAttribute('id','clip-events');
+  const cpErect=document.createElementNS(ns,'rect'); cpErect.setAttribute('x', DECADE_GUTTER); cpErect.setAttribute('y', 0); cpErect.setAttribute('width', LEFT_COL_W - DECADE_GUTTER - HANDLE_LANE_W - 4); cpErect.setAttribute('height', height); cpEvents.appendChild(cpErect);
+  const cpDec=document.createElementNS(ns,'clipPath'); cpDec.setAttribute('id','clip-decades');
+  const cpDrect=document.createElementNS(ns,'rect'); cpDrect.setAttribute('x', 0); cpDrect.setAttribute('y', 0); cpDrect.setAttribute('width', DECADE_GUTTER - 4); cpDrect.setAttribute('height', height); cpDec.appendChild(cpDrect);
+  defs.appendChild(cpEvents); defs.appendChild(cpDec); stage.insertBefore(defs, stage.firstChild);
+  eventsG.setAttribute('clip-path','url(#clip-events)');
+  decadesG.setAttribute('clip-path','url(#clip-decades)');
+
+  // ドラッグ専用レーン（幅24px）
+  const laneRect=document.createElementNS(ns,'rect');
+  laneRect.setAttribute('x', ORIGIN_X - HANDLE_LANE_W);
+  laneRect.setAttribute('y', 0);
+  laneRect.setAttribute('width', HANDLE_LANE_W);
+  laneRect.setAttribute('height', height);
+  laneRect.setAttribute('class','handleLane');
+  stage.insertBefore(laneRect, gridG);
+  const laneBorder=document.createElementNS(ns,'line');
+  laneBorder.setAttribute('x1', ORIGIN_X - HANDLE_LANE_W);
+  laneBorder.setAttribute('x2', ORIGIN_X - HANDLE_LANE_W);
+  laneBorder.setAttribute('y1', 0);
+  laneBorder.setAttribute('y2', height);
+  laneBorder.setAttribute('class','handleLaneBorder');
+  stage.insertBefore(laneBorder, gridG);
+
+  function yFromBirthYear(by){return ORIGIN_Y+(by-YEAR_MIN)*PX_PER_YEAR;}
+  function xFromAge(age){return ORIGIN_X+age*PX_PER_AGE;}
+  function lineEl(x1,y1,x2,y2,cls){let l=document.createElementNS('http://www.w3.org/2000/svg','line');l.setAttribute('x1',x1);l.setAttribute('y1',y1);l.setAttribute('x2',x2);l.setAttribute('y2',y2);if(cls) l.setAttribute('class',cls);return l;}
+  function textEl(txt,x,y,cls){let t=document.createElementNS('http://www.w3.org/2000/svg','text');t.textContent=txt;t.setAttribute('x',x);t.setAttribute('y',y);if(cls) t.setAttribute('class',cls);return t;}
+  function circleEl(cx,cy,r,cls){let c=document.createElementNS('http://www.w3.org/2000/svg','circle');c.setAttribute('cx',cx);c.setAttribute('cy',cy);c.setAttribute('r',r);if(cls)c.setAttribute('class',cls);return c;}
+
+  // ===== モーダル（共通） =====
+  function openModal(title, html){
+    modalTitle.textContent=title; modalContent.innerHTML=html; modal.style.display='flex'; modal.setAttribute('aria-hidden','false');
+    const prevFocus=document.activeElement; modal.dataset.prevFocusId = prevFocus && prevFocus.id ? prevFocus.id : '';
+    modalClose.focus();
+  }
+  function openModalText(title, text){
+    modalTitle.textContent=title; modalContent.textContent=text; modal.style.display='flex'; modal.setAttribute('aria-hidden','false');
+    const prevFocus=document.activeElement; modal.dataset.prevFocusId = prevFocus && prevFocus.id ? prevFocus.id : '';
+    modalClose.focus();
+  }
+  function closeModal(){ modal.style.display='none'; modal.setAttribute('aria-hidden','true'); const id=modal.dataset.prevFocusId; if(id){ const el=document.getElementById(id); if(el) el.focus(); } }
+  modalClose.addEventListener('click', closeModal);
+  modal.addEventListener('click', (e)=>{ if(e.target===modal) closeModal(); });
+  window.addEventListener('keydown', (e)=>{ if(e.key==='Escape' && modal.style.display==='flex') closeModal(); });
+  function showError(title, errors){
+    const text = Array.isArray(errors) ? errors.join('\n') : String(errors||'');
+    openModalText(title, text);
+  }
+  function showInfo(title, html){ openModal(title, html); }
+
+  // ===== 検索ハイライトの状態 =====
+  let matches=[]; let matchIndex=-1; let hlRect=null; let hlTarget=null; let clearOnNextMove=false;
+  function clearHighlight(soft){ if(hlRect && hlRect.parentNode) hlRect.parentNode.removeChild(hlRect); if(hlTarget) hlTarget.classList.remove('hlText'); hlRect=null; hlTarget=null; if(!soft){ clearOnNextMove=false; } }
+  function highlight(el){ clearHighlight(true); const bbox=el.getBBox(); hlRect=document.createElementNS(ns,'rect'); const padX=6, padY=3; hlRect.setAttribute('x', bbox.x - padX); hlRect.setAttribute('y', bbox.y - padY); hlRect.setAttribute('width', bbox.width + padX*2); hlRect.setAttribute('height', bbox.height + padY*2); hlRect.setAttribute('rx', 4); hlRect.setAttribute('fill', '#000'); eventsG.insertBefore(hlRect, el); el.classList.add('hlText'); hlTarget=el; const r=el.getBoundingClientRect(); const rv=vp.getBoundingClientRect(); if(r.top < rv.top || r.bottom > rv.bottom){ vp.scrollTop += (r.top - rv.top) - 80; } clearOnNextMove=true; }
+
+  // ===== JSONロード/セーブ =====
+  const LS_KEYS=['timelineEventsV2','timelineEventsV1'];
+  const GENRES=['ANI','MAN','GAM','TVP','MOV','NET','HAR','PHE','UNC'];
+  const GENRE_SET=new Set(GENRES);
+  function normalizeItem(it){ if(typeof it==='string') return {label: it}; const o={ label: it.label||'' }; if(it.genre) o.genre = String(it.genre).toUpperCase(); if(it.imp!==undefined && it.imp!==null && String(it.imp)!==''){ const n = parseInt(it.imp,10); if(n>=1 && n<=5) o.imp=n; else o.imp=''; } if(it.url) o.url = it.url; return o; }
+  function normalizeAll(obj){ const out={}; for(const y of Object.keys(obj)){ const arr = Array.isArray(obj[y])? obj[y] : []; out[y] = arr.map(normalizeItem).filter(it=>it.label); } return out; }
+  function loadEvents(){ for(const k of LS_KEYS){ try{ const s=localStorage.getItem(k); if(s){ return normalizeAll(JSON.parse(s)); } }catch(e){} } try{ const txt=document.getElementById('events-json').textContent.trim(); return normalizeAll(JSON.parse(txt)); } catch(e){ console.error('embedded JSON parse failed', e); return {}; } }
+  function saveEvents(){ try{ localStorage.setItem('timelineEventsV2', JSON.stringify(events)); }catch(e){} }
+
+  let events = loadEvents();
+
+  // ===== フィルタ =====
+  let filterGenre = '';
+  let filterImp   = '';
+  function passesFilter(it){ if(filterGenre && (String(it.genre||'')!==filterGenre)) return false; if(filterImp){ const thr = parseInt(filterImp,10); const imp = parseInt(it.imp,10); if(isNaN(imp) || imp>thr) return false; } return true; }
+
+  // ===== グリッド =====
+  function yFromBirthYear(by){return ORIGIN_Y+(by-YEAR_MIN)*PX_PER_YEAR;}
+  function xFromAge(age){return ORIGIN_X+age*PX_PER_AGE;}
+  function drawGrid(){
+    for(let a=0;a<=AGE_MAX;a+=10){ const x=xFromAge(a); gridG.appendChild(lineEl(x,ORIGIN_Y-10,x,height-20,'gridMajor')); const t=textEl(a,x,ORIGIN_Y-16,'ageTickText'); t.setAttribute('text-anchor','middle'); gridG.appendChild(t); }
+    for(let y=YEAR_MIN;y<=YEAR_MAX;y++){ const ypx=yFromBirthYear(y); gridG.appendChild(lineEl(ORIGIN_X,ypx,width-20,ypx,(y%10===0?'gridMajor':'gridMinor'))); if(y%10===0){ const decade=String(y).slice(2,3)+"0s"; const tt=textEl(decade, 36, ypx+18, 'axisLabel'); tt.setAttribute('text-anchor','middle'); decadesG.appendChild(tt); } }
+    for(let b=YEAR_MIN; b<=YEAR_MAX; b+=5){ const x0=ORIGIN_X, y0=yFromBirthYear(b); const x1=xFromAge(Math.min(AGE_MAX,YEAR_MAX-b)); const y1=yFromBirthYear(Math.min(YEAR_MAX,b+AGE_MAX)); gridG.appendChild(lineEl(x0,y0,x1,y1,'gridMinor')); }
+  }
+  drawGrid();
+
+  const tooltip=document.getElementById('tooltip');
+  function positionTooltip(e){const r=vp.getBoundingClientRect();tooltip.style.left=(e.clientX-r.left+14)+'px';tooltip.style.top=(e.clientY-r.top+14)+'px';}
+
+  // ===== 編集UI（テキスト） =====
+  function serializeLine(it){ const label=(it.label||'').trim(); const g=(it.genre||'').trim(); const imp=(it.imp===undefined||it.imp===null||String(it.imp)==='')? '' : String(it.imp); const url=(it.url||'').trim(); if(!g && !imp && !url) return label; return [label,g,imp,url].join(';'); }
+  function parseLine(line){ const raw=line.trim(); if(!raw) return null; const parts=raw.split(';'); const label=(parts[0]||'').trim(); if(!label) return null; const genre=(parts[1]||'').trim().toUpperCase(); let imp=(parts[2]||'').trim(); imp = imp? String(Math.min(5, Math.max(1, parseInt(imp,10)))): ''; const url=(parts[3]||'').trim(); const o={label}; if(genre) o.genre=genre; if(imp) o.imp=imp; if(url) o.url=url; return o; }
+  function validateItem(year, it){ const errs=[]; if(it.genre && !GENRE_SET.has(String(it.genre).toUpperCase())) errs.push(`不正なジャンル: ${it.genre}`); if(it.imp!==undefined && it.imp!=='' && !(parseInt(it.imp,10)>=1 && parseInt(it.imp,10)<=5)) errs.push(`不正な重要度: ${it.imp}`); if(!(Number.isInteger(year) && year>=YEAR_MIN && year<=YEAR_MAX)) errs.push(`年の範囲外: ${year}`); return errs; }
+  function linesFromItems(items){ return items.map(serializeLine).join('\n'); }
+
+  function showEditor(year, anchor){
+    clearHighlight(); const all = events[year]||[]; const items = all.filter(passesFilter); const note = (filterGenre||filterImp) ? '（現在のフィルタに一致する項目のみ編集対象）' : '';
+    editor.innerHTML = `
+      <h4><span>${year}年の項目 ${note}</span><span class="fmt">ラベル;ジャンル;重要度;注釈</span></h4>
+      <textarea id="edText" placeholder="1行につき1件\n形式：ラベル;ジャンル;重要度;注釈\n例）\n任天堂ファミコン;GAM;5;https://example.com（注釈可）\nラベル;;;補足メモ\nラベル"></textarea>
+      <div class="row">
+        <div class="left">保存でJSONに反映／Ctrl+Enterでも保存・Escで閉じる</div>
+        <div class="right">
+          <button id="cancel">キャンセル</button>
+          <button id="save">保存</button>
+        </div>
+      </div>`;
+    const ta=editor.querySelector('#edText'); ta.value = linesFromItems(items);
+    const r=anchor.getBoundingClientRect(); const rv=vp.getBoundingClientRect(); let left = r.right - rv.left + 8; let top = r.top - rv.top; const maxLeft = rv.width - 540; if(left > maxLeft) left = Math.max(12, r.left - rv.left - 540);
+    editor.style.left = left + 'px'; editor.style.top = top + 'px'; editor.style.display='block';
+
+    function close(){ editor.style.display='none'; }
+    editor.querySelector('#cancel').onclick = close;
+    editor.querySelector('#save').onclick = ()=>{ const lines = ta.value.split(/\n/).map(s=>s.trim()); const subset = lines.map(parseLine).filter(Boolean); const errs=[]; for(const it of subset){ errs.push(...validateItem(year, it)); } if(errs.length){ showError('編集エラー', errs); return; } const allItems = events[year]||[]; const others = allItems.filter(it=> !passesFilter(it)); const merged = [...others, ...subset]; if(merged.length===0) delete events[year]; else events[year]=merged; saveEvents(); renderEvents(); close(); };
+    ta.addEventListener('keydown', e=>{ if((e.ctrlKey||e.metaKey) && e.key==='Enter'){ editor.querySelector('#save').click(); } if(e.key==='Escape'){ e.preventDefault(); editor.querySelector('#cancel').click(); } });
+  }
+
+  // ===== レンダリング（フィルタ適用・単純クリップ） =====
+  function renderEvents(){
+    eventsG.innerHTML=''; clearHighlight(true);
+    const years = Object.keys(events).map(Number).sort((a,b)=>a-b);
+    for(const y of years){
+      const ypx=yFromBirthYear(y);
+      const labels=(events[y]||[]).filter(passesFilter).map(it=>it.label).filter(Boolean);
+      if(labels.length===0){ continue; }
+      const text = `${String(y).slice(2)} ${labels.join('／')}`;
+      const tx=textEl(text, LABEL_RIGHT_X, ypx, 'eventLabel');
+      tx.setAttribute('text-anchor','end');
+      tx.setAttribute('dominant-baseline','middle');
+      if(labels.length>1) tx.classList.add('eventMulti');
+      tx.dataset.year=y; tx.style.cursor='pointer';
+      eventsG.appendChild(tx);
+      // ツールチップ／クリック
+      tx.addEventListener('mouseenter',e=>{ clearHighlight(); tooltip.style.display='block'; tooltip.innerHTML=`<strong>${y}年</strong><ul style="margin:4px 0 0 16px;">${labels.map(s=>`<li>${s}</li>`).join('')}</ul>`; positionTooltip(e); });
+      tx.addEventListener('mousemove',positionTooltip);
+      tx.addEventListener('mouseleave',()=>{tooltip.style.display='none'});
+      tx.addEventListener('click',(e)=>{ tooltip.style.display='none'; showEditor(y, e.target); });
+    }
+  }
+  renderEvents();
+
+  // ===== 検索 =====
+  function doSearch(){ clearHighlight(true); const q=searchBox.value.trim(); if(!q){ matches=[]; matchIndex=-1; return; } const els=[...eventsG.querySelectorAll('text.eventLabel')]; matches=els.filter(el=> el.textContent.toLowerCase().includes(q.toLowerCase())); matchIndex = matches.length? 0 : -1; if(matchIndex!==-1){ highlight(matches[matchIndex]); } }
+  function nextMatch(dir){ if(!matches.length) return; matchIndex=(matchIndex+ (dir>0?1:-1) + matches.length)%matches.length; highlight(matches[matchIndex]); }
+  searchBtn.addEventListener('click', doSearch);
+  searchBox.addEventListener('keydown', e=>{ if(e.key==='Enter'){ doSearch(); }});
+  nextBtn.addEventListener('click', ()=> nextMatch(1));
+  prevBtn.addEventListener('click', ()=> nextMatch(-1));
+  vp.addEventListener('mousemove', ()=>{ if(clearOnNextMove) { clearHighlight(); } });
+  vp.addEventListener('click', ()=>{ if(clearOnNextMove) { clearHighlight(); } });
+
+  // ===== 既存ラベル集合 =====
+  function buildLabelSet(){ const s=new Set(); for(const y of Object.keys(events)){ for(const it of (events[y]||[])){ if(it && typeof it.label==='string') s.add(it.label.trim()); } } return s; }
+
+  // ===== Dropbox同期機能 =====
+  let dropboxConfig = {
+    accessToken: '',
+    filePath: '/nativemap/timeline.json'
+  };
+
+  // 設定の保存・読み込み
+  function saveDropboxConfig() {
+    try {
+      localStorage.setItem('dropboxConfig', JSON.stringify(dropboxConfig));
+    } catch (e) {
+      console.error('設定の保存に失敗:', e);
+    }
+  }
+
+  function loadDropboxConfig() {
+    try {
+      const saved = localStorage.getItem('dropboxConfig');
+      if (saved) {
+        dropboxConfig = { ...dropboxConfig, ...JSON.parse(saved) };
+      }
+    } catch (e) {
+      console.error('設定の読み込みに失敗:', e);
+    }
+  }
+
+  // Dropboxからデータを読み込み
+  async function loadFromDropbox() {
+    if (!dropboxConfig.accessToken) {
+      showError('設定エラー', 'Dropboxアクセストークンが設定されていません。設定画面で設定してください。');
+      return null;
+    }
+
+    console.log('Dropbox読み込み開始:', {
+      token: dropboxConfig.accessToken.substring(0, 10) + '...',
+      path: dropboxConfig.filePath
+    });
+
+    try {
+      const response = await fetch('https://content.dropboxapi.com/2/files/download', {
+        method: 'POST',
+        headers: {
+          'Authorization': `Bearer ${dropboxConfig.accessToken}`,
+          'Dropbox-API-Arg': JSON.stringify({ path: dropboxConfig.filePath })
+        }
+      });
+
+      console.log('Dropbox API レスポンス:', response.status, response.statusText);
+
+      if (!response.ok) {
+        const errorText = await response.text();
+        console.error('Dropbox API エラー詳細:', errorText);
+        throw new Error(`HTTP ${response.status}: ${errorText}`);
+      }
+
+      const text = await response.text();
+      console.log('Dropboxから取得したデータ:', text.substring(0, 100) + '...');
+      return JSON.parse(text);
+    } catch (error) {
+      console.error('Dropbox読み込みエラー:', error);
+      
+      // CORSエラーの場合の特別なメッセージ
+      if (error.message.includes('CORS') || error.message.includes('cross-origin')) {
+        showError('CORSエラー', `ブラウザのセキュリティ制限により、Dropbox APIにアクセスできません。<br><br>解決方法：<br>1. ローカルサーバーを使用（推奨）<br>2. Chromeをセキュリティ無効化で起動<br>3. Firefoxを使用`);
+      } else {
+        showError('読み込みエラー', `Dropboxからの読み込みに失敗しました: ${error.message}`);
+      }
+      return null;
+    }
+  }
+
+  // Dropboxにデータを保存
+  async function saveToDropbox(data) {
+    if (!dropboxConfig.accessToken) {
+      showError('設定エラー', 'Dropboxアクセストークンが設定されていません。');
+      return false;
+    }
+
+    try {
+      const response = await fetch('https://content.dropboxapi.com/2/files/upload', {
+        method: 'POST',
+        headers: {
+          'Authorization': `Bearer ${dropboxConfig.accessToken}`,
+          'Content-Type': 'application/octet-stream',
+          'Dropbox-API-Arg': JSON.stringify({
+            path: dropboxConfig.filePath,
+            mode: 'overwrite'
+          })
+        },
+        body: JSON.stringify(data, null, 2)
+      });
+
+      if (!response.ok) {
+        throw new Error(`HTTP ${response.status}: ${response.statusText}`);
+      }
+
+      return true;
+    } catch (error) {
+      showError('保存エラー', `Dropboxへの保存に失敗しました: ${error.message}`);
+      return false;
+    }
+  }
+
+  // 同期処理
+  async function syncWithDropbox() {
+    try {
+      // 1. Dropboxからデータを読み込み
+      const remoteData = await loadFromDropbox();
+      if (!remoteData) return;
+
+      // 2. ローカルデータとマージ（簡単な競合解決）
+      const localData = events;
+      const merged = { ...remoteData };
+
+      // ローカルの変更をリモートに追加
+      for (const [year, items] of Object.entries(localData)) {
+        if (!merged[year]) {
+          merged[year] = [];
+        }
+        
+        // 重複を避けてマージ
+        for (const item of items) {
+          const exists = merged[year].some(existing => existing.label === item.label);
+          if (!exists) {
+            merged[year].push(item);
+          }
+        }
+      }
+
+      // 3. マージしたデータを保存
+      const success = await saveToDropbox(merged);
+      if (success) {
+        events = merged;
+        saveEvents();
+        renderEvents();
+        showInfo('同期完了', 'Dropboxとの同期が完了しました。');
+      }
+    } catch (error) {
+      showError('同期エラー', `同期処理でエラーが発生しました: ${error.message}`);
+    }
+  }
+
+  // 設定画面
+  function showSettings() {
+    const settingsHtml = `
+      <h4>Dropbox同期設定</h4>
+      <p>Dropbox APIを使用してデータを同期します。</p>
+      <div style="margin: 16px 0;">
+        <label style="display: block; margin-bottom: 8px;">
+          <strong>アクセストークン:</strong><br>
+          <input type="password" id="accessToken" value="${dropboxConfig.accessToken}" 
+                 style="width: 100%; padding: 6px; margin-top: 4px;" 
+                 placeholder="Dropboxアクセストークンを入力" />
+        </label>
+        <label style="display: block; margin-bottom: 8px;">
+          <strong>ファイルパス:</strong><br>
+          <input type="text" id="filePath" value="${dropboxConfig.filePath}" 
+                 style="width: 100%; padding: 6px; margin-top: 4px;" 
+                 placeholder="/nativemap/timeline.json" />
+        </label>
+      </div>
+      <div style="margin: 16px 0; padding: 12px; background: #f5f5f5; border-radius: 6px;">
+        <h5>アクセストークンの取得方法:</h5>
+        <ol style="margin: 8px 0; padding-left: 20px;">
+          <li><a href="https://www.dropbox.com/developers/apps" target="_blank">Dropbox App Console</a>にアクセス</li>
+          <li>「Create app」をクリック</li>
+          <li>「Scoped access」を選択</li>
+          <li>「Full Dropbox」を選択</li>
+          <li>アプリ名を入力して作成</li>
+          <li>「Generated access token」をコピー</li>
+        </ol>
+      </div>
+      <div style="text-align: right; margin-top: 16px;">
+        <button class="btn" id="testConnection">接続テスト</button>
+        <button class="btn" id="testFile">ファイル確認</button>
+        <button class="btn" id="cancelSettings">キャンセル</button>
+        <button class="btn" id="saveSettings" style="margin-left: 8px;">保存</button>
+      </div>
+    `;
+    openModal('設定', settingsHtml);
+  }
+
+  function saveSettings() {
+    const tokenInput = document.getElementById('accessToken');
+    const pathInput = document.getElementById('filePath');
+    
+    if (tokenInput && pathInput) {
+      dropboxConfig.accessToken = tokenInput.value.trim();
+      dropboxConfig.filePath = pathInput.value.trim() || '/nativemap/timeline.json';
+      
+      console.log('保存する設定:', dropboxConfig); // デバッグ用
+      
+      saveDropboxConfig();
+      closeModal();
+      showInfo('設定保存', `設定が保存されました。<br>アクセストークン: ${dropboxConfig.accessToken ? '設定済み' : '未設定'}<br>ファイルパス: ${dropboxConfig.filePath}`);
+    } else {
+      console.error('設定入力フィールドが見つかりません');
+      showError('設定エラー', '設定の保存に失敗しました。');
+    }
+  }
+
+  // グローバルスコープに公開
+  window.saveSettings = saveSettings;
+
+  // Dropbox接続テスト
+  async function testDropboxConnection() {
+    if (!dropboxConfig.accessToken) {
+      showError('設定エラー', 'アクセストークンが設定されていません。');
+      return;
+    }
+
+    try {
+      // アカウント情報を取得してテスト（空のJSONボディを送信）
+      const response = await fetch('https://api.dropboxapi.com/2/users/get_current_account', {
+        method: 'POST',
+        headers: {
+          'Authorization': `Bearer ${dropboxConfig.accessToken}`,
+          'Content-Type': 'application/json'
+        },
+        body: 'null'  // 空のJSONボディ
+      });
+
+      if (response.ok) {
+        const account = await response.json();
+        showInfo('接続テスト成功', `Dropboxアカウント: ${account.name.display_name}<br>メール: ${account.email}`);
+      } else {
+        const error = await response.text();
+        showError('接続テスト失敗', `HTTP ${response.status}: ${error}`);
+      }
+    } catch (error) {
+      showError('接続テストエラー', error.message);
+    }
+  }
+
+  // ファイル存在確認
+  async function testFileExists() {
+    if (!dropboxConfig.accessToken) {
+      showError('設定エラー', 'アクセストークンが設定されていません。');
+      return;
+    }
+
+    if (!dropboxConfig.filePath) {
+      showError('設定エラー', 'ファイルパスが設定されていません。');
+      return;
+    }
+
+    try {
+      const response = await fetch('https://api.dropboxapi.com/2/files/get_metadata', {
+        method: 'POST',
+        headers: {
+          'Authorization': `Bearer ${dropboxConfig.accessToken}`,
+          'Content-Type': 'application/json'
+        },
+        body: JSON.stringify({ path: dropboxConfig.filePath })
+      });
+
+      if (response.ok) {
+        const metadata = await response.json();
+        showInfo('ファイル確認成功', `ファイル名: ${metadata.name}<br>サイズ: ${metadata.size} bytes<br>更新日時: ${metadata.client_modified}`);
+      } else {
+        const error = await response.text();
+        showError('ファイル確認失敗', `HTTP ${response.status}: ${error}<br><br>権限設定が必要です。<br>Dropbox App Consoleで以下の権限を有効化してください：<br>• files.metadata.read<br>• files.content.read<br>• files.content.write`);
+      }
+    } catch (error) {
+      showError('ファイル確認エラー', error.message);
+    }
+  }
+
+  // イベントリスナー
+  syncBtn.addEventListener('click', syncWithDropbox);
+  settingsBtn.addEventListener('click', showSettings);
+
+  // 設定画面のイベントリスナー（動的に追加）
+  document.addEventListener('click', (e) => {
+    if (e.target.id === 'saveSettings') {
+      saveSettings();
+    } else if (e.target.id === 'cancelSettings') {
+      closeModal();
+    } else if (e.target.id === 'testConnection') {
+      testDropboxConnection();
+    } else if (e.target.id === 'testFile') {
+      testFileExists();
+    }
+  });
+
+  // 初期化時に設定を読み込み
+  loadDropboxConfig();
+
+  // ===== CSV/TSV ロード =====
+  loadCsvBtn.addEventListener('click', ()=> fileInput.click());
+  function detectDelim(sample){ const cntTab=(sample.match(/\t/g)||[]).length; const cntSemi=(sample.match(/;/g)||[]).length; const cntComma=(sample.match(/,/g)||[]).length; const arr=[["\t",cntTab],[";",cntSemi],[",",cntComma]].sort((a,b)=>b[1]-a[1]); return arr[0][1]>0 ? arr[0][0] : ';'; }
+  fileInput.addEventListener('change', async (e)=>{ const f=e.target.files && e.target.files[0]; if(!f) return; const text = await f.text(); const {addedCount, errors} = importSeparatedText(text); if(errors.length){ const summary = `正常に追加: ${addedCount} 件`; showError('CSV/TSV読込エラー', [summary, ...errors]); } else if(addedCount>0){ saveEvents(); renderEvents(); showInfo('読み込み完了', `${addedCount} 件を追加しました。`); } else { showInfo('結果', '追加された項目はありませんでした。'); } if(addedCount>0){ saveEvents(); renderEvents(); } fileInput.value=''; });
+
+  function importSeparatedText(text){
+    const lines = text.replace(/^\uFEFF/, '').split(/\r?\n/);
+    let firstNonEmpty = lines.find(l=>l.trim().length>0) || '';
+    const delim = detectDelim(firstNonEmpty);
+    let addedCount=0; const errors=[];
+    const seen=buildLabelSet();
+    for(let i=0;i<lines.length;i++){
+      const raw=lines[i].trim(); if(!raw) continue;
+      const cols=raw.split(delim);
+      if(i===0 && /年/.test(cols[0])) continue;
+      if(cols.length<2){ errors.push(`${i+1}行目: 列数不足（年${delim}ラベル${delim}ジャンル${delim}重要度${delim}注釈）`); continue; }
+      const yearStr=(cols[0]||'').trim();
+      const label=(cols[1]||'').trim();
+      const genre=(cols[2]||'').trim().toUpperCase();
+      const impStr=(cols[3]||'').trim();
+      const url=(cols[4]||'').trim();
+      const year = parseInt(yearStr,10);
+      if(!(yearStr.match(/^\d{4}$/) && year>=YEAR_MIN && year<=YEAR_MAX)){
+        errors.push(`${i+1}行目: 年が不正または範囲外（${yearStr}）`); continue;
+      }
+      if(!label){ errors.push(`${i+1}行目: ラベルが空です`); continue; }
+      if(seen.has(label)) { errors.push(`${i+1}行目: 同じ名称のラベル項目が存在しますが登録します（${label}）`); }
+      if(genre && !GENRE_SET.has(genre)){ errors.push(`${i+1}行目: 不正なジャンル（${genre}）`); continue; }
+      if(impStr){ const n=parseInt(impStr,10); if(!(n>=1 && n<=5)){ errors.push(`${i+1}行目: 不正な重要度（${impStr}）`); continue; } }
+      const item={ label }; if(genre) item.genre=genre; if(impStr) item.imp=parseInt(impStr,10); if(url) item.url=url;
+      if(!events[year]) events[year]=[]; events[year].push(item); seen.add(label); addedCount++;
+    }
+    return {addedCount, errors};
+  }
+
+  // ===== 空年クリックで編集を開く =====
+  function openEditorForEmptyYearAt(xCSS,yCSS){ const rect=stage.getBoundingClientRect(); const scale=1; const x=(xCSS-rect.left)/scale; const y=(yCSS-rect.top)/scale; if(x >= ORIGIN_X - HANDLE_LANE_W) return; const year = YEAR_MIN + Math.round((y-ORIGIN_Y)/PX_PER_YEAR); if(year<YEAR_MIN||year>YEAR_MAX) return; const exists = Array.isArray(events[year]) && events[year].length>0; if(exists) return; const anchor=document.createElementNS(ns,'rect'); anchor.setAttribute('x', LABEL_RIGHT_X); anchor.setAttribute('y', yFromBirthYear(year)-6); anchor.setAttribute('width', 1); anchor.setAttribute('height', 12); anchor.setAttribute('fill', 'transparent'); eventsG.appendChild(anchor); showEditor(year, anchor); setTimeout(()=>{ if(anchor.parentNode) anchor.parentNode.removeChild(anchor); }, 0); }
+  stage.addEventListener('click', (e)=>{ if(e.target && e.target.tagName && e.target.tagName.toLowerCase()==='text') return; openEditorForEmptyYearAt(e.clientX, e.clientY); });
+
+  // ===== プローブ =====
+  function makeProbe(color){
+    const g=document.getElementById('probe-'+color);
+    const state={eventYear:color==='blue'?1983:1999,birthYear:color==='blue'?1970:1964};
+    const stroke=(color==='red'?'#ff3333':'#4da3ff');
+    const eventLine=lineEl(ORIGIN_X,0,ORIGIN_X,0); eventLine.style.stroke=stroke; eventLine.style.strokeWidth=3; // 水平（交点まで）
+    const vLine=lineEl(0,0,0,ORIGIN_Y);           vLine.style.stroke=stroke; vLine.style.strokeWidth=3; vLine.setAttribute('pointer-events','stroke');
+    const diag=lineEl(0,0,0,0);                    diag.style.stroke=stroke;  diag.style.strokeWidth=3; // 左上斜め
+    const eh=circleEl(HANDLE_X,0,8,'handle');      eh.setAttribute('stroke',stroke); eh.setAttribute('fill','#fff');
+    const bh=circleEl(HANDLE_X,0,8,'handle');      bh.setAttribute('stroke',stroke); bh.setAttribute('fill','#fff');
+    const ageText=textEl('',0,0,'ageTickText');
+    const eventYearText=textEl('', ORIGIN_X+8, 0, 'ageTickText'); eventYearText.style.fontSize='14px'; eventYearText.style.fill=stroke; eventYearText.setAttribute('text-anchor','start');
+    const birthYearText=textEl('', ORIGIN_X+8, 0, 'ageTickText'); birthYearText.style.fontSize='14px'; birthYearText.style.fill=stroke; birthYearText.setAttribute('text-anchor','start');
+
+    g.append(eventLine,vLine,diag,eh,bh,ageText,eventYearText,birthYearText);
+
+    function redraw(){
+      const yE=yFromBirthYear(state.eventYear);
+      const yB=yFromBirthYear(state.birthYear);
+      const age=Math.max(0,Math.min(AGE_MAX,state.eventYear-state.birthYear));
+      const ix=xFromAge(age);
+      eventLine.setAttribute('y1',yE);eventLine.setAttribute('y2',yE); eventLine.setAttribute('x1',ORIGIN_X);eventLine.setAttribute('x2',ix);
+      vLine.setAttribute('x1',ix);vLine.setAttribute('x2',ix);vLine.setAttribute('y1',yE);vLine.setAttribute('y2',ORIGIN_Y);
+      const tMax=Math.max(0,Math.min((ix-ORIGIN_X)/PX_PER_AGE,(yE-ORIGIN_Y)/PX_PER_YEAR));
+      diag.setAttribute('x1',ix);diag.setAttribute('y1',yE); diag.setAttribute('x2',ix-PX_PER_AGE*tMax);diag.setAttribute('y2',yE-PX_PER_YEAR*tMax);
+      eh.setAttribute('cx',HANDLE_X);eh.setAttribute('cy',yE);
+      bh.setAttribute('cx',HANDLE_X);bh.setAttribute('cy',yB);
+      ageText.textContent=`${age}歳`;ageText.setAttribute('x',ix+10);ageText.setAttribute('y',ORIGIN_Y+22);
+      eventYearText.textContent = `${state.eventYear}年`;
+      eventYearText.setAttribute('x', ORIGIN_X+8);
+      eventYearText.setAttribute('y', yE-6);
+      const yAtAxis = yE - age*PX_PER_YEAR; const by = Math.round((yAtAxis - ORIGIN_Y)/PX_PER_YEAR) + YEAR_MIN;
+      birthYearText.textContent = `${by}年生`;
+      birthYearText.setAttribute('x', ORIGIN_X+8);
+      birthYearText.setAttribute('y', yAtAxis-6);
+    }
+
+    function startDrag(){ document.body.classList.add('dragging'); }
+    function endDrag(){ document.body.classList.remove('dragging'); }
+    function dragByYear(el,prop){ let dragging=false, startY=0, startVal=0; el.addEventListener('mousedown',e=>{ dragging=true; startY=e.clientY; startVal=state[prop]; startDrag(); e.preventDefault(); e.stopPropagation(); }); window.addEventListener('mousemove',e=>{ if(!dragging) return; const dy=e.clientY-startY; const dYear=Math.round(dy/PX_PER_YEAR); state[prop]=Math.max(YEAR_MIN,Math.min(YEAR_MAX,startVal+dYear)); redraw(); }); window.addEventListener('mouseup',()=>{ if(dragging){ dragging=false; endDrag(); } }); }
+    dragByYear(eh,'eventYear'); dragByYear(bh,'birthYear'); dragByYear(vLine,'birthYear');
+
+    state.redraw=redraw; redraw(); return state;
+  }
+
+  const probeBlue=makeProbe('blue');
+  const probeRed=makeProbe('red');
+
+  // ライン表示トグル（小丸ボタン）
+  const blueGroup=document.getElementById('probe-blue');
+  const redGroup =document.getElementById('probe-red');
+  const toggleBlueBtn=document.getElementById('toggleBlue');
+  const toggleRedBtn =document.getElementById('toggleRed');
+  function setToggle(btn, group, on){ group.style.display = on ? '' : 'none'; btn.setAttribute('aria-pressed', on ? 'true' : 'false'); btn.classList.toggle('off', !on); }
+  toggleBlueBtn.addEventListener('click',()=>{ const visible = blueGroup.style.display !== 'none'; setToggle(toggleBlueBtn, blueGroup, !visible); });
+  toggleRedBtn.addEventListener('click',()=>{ const visible = redGroup.style.display !== 'none'; setToggle(toggleRedBtn, redGroup, !visible); });
+
+  // フィルタ変更
+  function onFilterChange(){ filterGenre=selGenre.value.trim().toUpperCase(); filterImp=selImp.value.trim(); renderEvents(); }
+  selGenre.addEventListener('change', onFilterChange);
+  selImp.addEventListener('change', onFilterChange);
+
+  // ヘルプ
+  const helpHtml = `
+      <h4>使いかたの例（任天堂ファミコン）</h4>
+      <p>任天堂のファミコン発売時の年齢を知りたいとします。</p>
+      <ol>
+        <li><strong>イベント年を合わせる：</strong> ドラッグ専用レーンの<strong>水色の丸</strong>を上下にドラッグして、左カラムのラベル<strong>「83 任天堂ファミコン」</strong>と同じ高さに揃えます。縦軸の内側に <em>「1983年」</em> と表示されます。</li>
+        <li><strong>生年を合わせる：</strong> 水色の斜め線の左端（縦軸と交わる位置）近くの<strong>水色の丸</strong>を上下にドラッグして、生年（例：<em>1965年生</em>）に合わせます。上部には <em>「18歳」</em> と表示されます。</li>
+      </ol>
+      <p>同じ操作は赤い丸（赤色ライン）でも行えます。右上の小さな丸ボタンで各ラインの表示をオン/オフできます。</p>
+      <h4>基本操作</h4>
+      <ul>
+        <li><strong>スクロール：</strong>ホイール／トラックパッド／矢印キー</li>
+        <li><strong>ラベル編集：</strong>左カラムの年行をクリック。未登録の年は左カラム空白クリックでエディタを開けます</li>
+        <li><strong>検索：</strong>右上の検索欄 → 「検索」「前」「次」。結果は該当ラベルが反転（次の操作で解除）</li>
+        <li><strong>表示切替：</strong>「ジャンル」「重要度」フィルタ（重要度は選択値以下のみ表示）</li>
+      </ul>
+      <div class="credit">(c) 2025 Satoshi Endo CC-BY 4.0</div>
+    `;
+  document.getElementById('helpBtn').addEventListener('click', ()=>{ openModal('ヘルプ - ネイティブマップ 1.0', helpHtml); });
+
+  // ===== スモークテスト =====
+  function runSmokeTests(){ try { renderEvents(); console.debug('[TEST] renderEvents (clip no-ellipsis): OK'); } catch(e){ console.error('[TEST] renderEvents threw', e); } }
+  setTimeout(runSmokeTests, 0);
+})();
+</script>
+</body>
+</html>
