@@ -274,6 +274,9 @@
   function saveEvents(){ try{ localStorage.setItem('timelineEventsV2', JSON.stringify(events)); }catch(e){} }
 
   let events = loadEvents();
+  
+  // 自動保存の基準を初期化
+  let lastSavedEvents = JSON.stringify(events);
 
   // ===== フィルタ =====
   let filterGenre = '';
@@ -519,6 +522,7 @@
         
         // 同期完了時刻を記録
         localStorage.setItem('lastSync', new Date().toISOString());
+        lastSavedEvents = JSON.stringify(events); // 自動保存の基準を更新
         updateSyncStatus();
         
         showInfo('同期完了', 'Dropboxとの同期が完了しました。');
@@ -598,11 +602,17 @@
   }
 
   // 自動保存機能
+  let lastSavedEvents = null;
+  
   function autoSave() {
     try {
-      localStorage.setItem('autoSave', JSON.stringify(events));
-      localStorage.setItem('lastEdit', new Date().toISOString());
-      updateSyncStatus();
+      const currentEvents = JSON.stringify(events);
+      if (currentEvents !== lastSavedEvents) {
+        localStorage.setItem('autoSave', currentEvents);
+        localStorage.setItem('lastEdit', new Date().toISOString());
+        lastSavedEvents = currentEvents;
+        updateSyncStatus();
+      }
     } catch (e) {
       console.error('自動保存エラー:', e);
     }
