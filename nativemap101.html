@@ -590,7 +590,16 @@
       const ypx=yFromBirthYear(y);
       const labels=(events[y]||[]).filter(passesFilter).map(it=>it.label).filter(Boolean);
       if(labels.length===0){ continue; }
-      const text = `${String(y).slice(2)} ${labels.join('／')}`;
+      const fullText = `${String(y).slice(2)} ${labels.join('／')}`;
+      
+      // 表示範囲を計算（左端から右端まで）
+      const maxWidth = LABEL_RIGHT_X - LABEL_LEFT_X;
+      const charWidth = 8; // 概算の文字幅
+      const maxChars = Math.floor(maxWidth / charWidth);
+      
+      // テキストが長すぎる場合は切り取り
+      const text = fullText.length > maxChars ? fullText.substring(0, maxChars) : fullText;
+      
       const tx=textEl(text, LABEL_RIGHT_X, ypx, 'eventLabel');
       tx.setAttribute('text-anchor','end');
       tx.setAttribute('dominant-baseline','middle');
