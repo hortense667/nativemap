@@ -822,9 +822,13 @@
     }
 
     try {
+      console.log('saveToGitHub開始');
+      console.log('保存データサイズ:', JSON.stringify(data).length, 'bytes');
+      
       // まず現在のファイル情報を取得してSHAを取得
       let sha = null;
       try {
+        console.log('既存ファイルのSHAを取得中...');
         const getResponse = await fetch(`https://api.github.com/repos/${githubConfig.owner}/${githubConfig.repo}/contents/${githubConfig.filePath}`, {
           headers: {
             'Authorization': `Bearer ${githubConfig.accessToken}`,
@@ -835,6 +839,9 @@
         if (getResponse.ok) {
           const fileData = await getResponse.json();
           sha = fileData.sha;
+          console.log('SHA取得成功:', sha);
+        } else {
+          console.log('SHA取得失敗:', getResponse.status, getResponse.statusText);
         }
       } catch (e) {
         // ファイルが存在しない場合はshaはnullのまま
@@ -842,10 +849,13 @@
       }
 
       // UTF-8文字列を正しくBase64エンコード
+      console.log('データをBase64エンコード中...');
       const jsonString = JSON.stringify(data, null, 2);
       const bytes = new TextEncoder().encode(jsonString);
       const binaryString = String.fromCharCode(...bytes);
       const content = btoa(binaryString);
+      console.log('Base64エンコード完了, サイズ:', content.length, 'bytes');
+      
       const body = {
         message: `Update timeline data - ${new Date().toISOString()}`,
         content: content
@@ -854,8 +864,10 @@
       // SHAが取得できた場合は追加
       if (sha) {
         body.sha = sha;
+        console.log('SHAをリクエストボディに追加');
       }
 
+      console.log('GitHub APIにPUTリクエスト送信中...');
       const response = await fetch(`https://api.github.com/repos/${githubConfig.owner}/${githubConfig.repo}/contents/${githubConfig.filePath}`, {
         method: 'PUT',
         headers: {
@@ -866,29 +878,41 @@
         body: JSON.stringify(body)
       });
 
+      console.log('GitHub APIレスポンス:', response.status, response.statusText);
+
       if (!response.ok) {
         const errorData = await response.json();
+        console.error('GitHub APIエラー詳細:', errorData);
         throw new Error(`HTTP ${response.status}: ${response.statusText} - ${errorData.message || ''}`);
       }
 
+      console.log('saveToGitHub完了');
       return true;
     } catch (error) {
+      console.error('saveToGitHubエラー詳細:', error);
       showError('保存エラー', `GitHubへの保存に失敗しました: ${error.message}`);
       return false;
     }
   }
 
   // 同期処理（確認ダイアログなし）
-  function syncWithConfirmation() {
-    syncWithGitHub();
+  async function syncWithConfirmation() {
+    await syncWithGitHub();
   }
 
   // 同期処理
   async function syncWithGitHub() {
     try {
+      console.log('同期処理開始');
+      console.log('ローカルデータサイズ:', JSON.stringify(events).length, 'bytes');
+      
       // 1. GitHubからデータを読み込み
+      console.log('GitHubからデータを読み込み中...');
       const remoteData = await loadFromGitHub();
-      if (remoteData === null) return;
+      if (remoteData === null) {
+        console.log('リモートデータの読み込みに失敗');
+        return;
+      }
 
       console.log('同期開始 - リモートデータ:', remoteData);
       console.log('同期開始 - ローカルデータ:', events);
@@ -917,8 +941,10 @@
       }
 
       console.log('同期完了 - マージ後データ:', merged);
+      console.log('マージ後データサイズ:', JSON.stringify(merged).length, 'bytes');
 
       // 3. マージしたデータを保存
+      console.log('GitHubにデータを保存中...');
       const success = await saveToGitHub(merged);
       if (success) {
         events = merged;
@@ -931,8 +957,12 @@
         updateSyncStatus();
         
         showInfo('同期完了', 'GitHubとの同期が完了しました。');
+        console.log('同期処理完了');
+      } else {
+        console.log('GitHubへの保存に失敗');
       }
     } catch (error) {
+      console.error('同期エラーの詳細:', error);
       showError('同期エラー', `同期処理でエラーが発生しました: ${error.message}`);
     }
   }
@@ -1111,7 +1141,9 @@
   updateSyncStatus();
 
   // イベントリスナー
-  syncBtn.addEventListener('click', syncWithConfirmation);
+  syncBtn.addEventListener('click', async () => {
+    await syncWithConfirmation();
+  });
   settingsBtn.addEventListener('click', function() {
     console.log('Settings button clicked');
     showSettings();
