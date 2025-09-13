@@ -120,6 +120,13 @@
       "imp": 4,
       "url": "https://ja.wikipedia.org/wiki/鉄人28号",
       "note": "巨大ロボ表現の源流"
+    },
+    {
+      "label": "ケリーバッグ",
+      "genre": "FAS",
+      "imp": 4,
+      "url": "https://ja.wikipedia.org/wiki/ケリーバッグ",
+      "note": "エルメスの象徴的ハンドバッグ"
     }
   ],
   "1957": [
@@ -233,6 +240,27 @@
       "imp": 4,
       "url": "https://ja.wikipedia.org/wiki/日本の学生運動",
       "note": "全共闘など隆盛"
+    },
+    {
+      "label": "ドクターマーチン",
+      "genre": "FAS",
+      "imp": 4,
+      "url": "https://ja.wikipedia.org/wiki/ドクターマーチン",
+      "note": "反骨文化の象徴ブーツ"
+    },
+    {
+      "label": "アメリカンカジュアル",
+      "genre": "FAS",
+      "imp": 3,
+      "url": "https://ja.wikipedia.org/wiki/アメリカンカジュアル",
+      "note": "米国風の着こなし総称"
+    },
+    {
+      "label": "アイビー・ルック",
+      "genre": "FAS",
+      "imp": 3,
+      "url": "https://ja.wikipedia.org/wiki/アイビー・ルック",
+      "note": "学生風トラッドが流行"
     }
   ],
   "1962": [
@@ -360,6 +388,13 @@
       "imp": 3,
       "url": "https://ja.wikipedia.org/wiki/いざなぎ景気",
       "note": "戦後最長級の好景気"
+    },
+    {
+      "label": "ミニスカート",
+      "genre": "FAS",
+      "imp": 5,
+      "url": "https://ja.wikipedia.org/wiki/ミニスカート",
+      "note": "60年代象徴の短丈革命"
     }
   ],
   "1966": [
@@ -513,6 +548,20 @@
       "imp": 5,
       "url": "https://ja.wikipedia.org/wiki/セサミストリート",
       "note": "教育番組の世界標準"
+    },
+    {
+      "label": "コム デ ギャルソン",
+      "genre": "FAS",
+      "imp": 5,
+      "url": "https://ja.wikipedia.org/wiki/コム・デ・ギャルソン",
+      "note": "前衛性で世界に影響"
+    },
+    {
+      "label": "ゴアテックス",
+      "genre": "FAS",
+      "imp": 4,
+      "url": "https://ja.wikipedia.org/wiki/ゴアテックス",
+      "note": "防水透湿素材の標準"
     }
   ],
   "1970": [
@@ -550,6 +599,13 @@
       "imp": 3,
       "url": "https://ja.wikipedia.org/wiki/カラオケ",
       "note": "国民的娯楽として普及"
+    },
+    {
+      "label": "イッセイ ミヤケ",
+      "genre": "FAS",
+      "imp": 5,
+      "url": "https://ja.wikipedia.org/wiki/イッセイミヤケ",
+      "note": "技術と布の探究で革新"
     }
   ],
   "1971": [
@@ -673,6 +729,13 @@
       "imp": 5,
       "url": "https://ja.wikipedia.org/wiki/あさま山荘事件",
       "note": "連合赤軍の籠城"
+    },
+    {
+      "label": "ヨウジヤマモト",
+      "genre": "FAS",
+      "imp": 5,
+      "url": "https://ja.wikipedia.org/wiki/ヨウジヤマモト",
+      "note": "黒の美学で台頭"
     }
   ],
   "1973": [
@@ -740,6 +803,13 @@
       "imp": 5,
       "url": "https://ja.wikipedia.org/wiki/宇宙戦艦ヤマト_(アニメ)",
       "note": "アニメブーム火付け役"
+    },
+    {
+      "label": "ザラ",
+      "genre": "FAS",
+      "imp": 4,
+      "url": "https://ja.wikipedia.org/wiki/ザラ_(ファッションブランド)",
+      "note": "高速展開のSPAモデル"
     }
   ],
   "1975": [
@@ -928,6 +998,13 @@
       "imp": 3,
       "url": "https://ja.wikipedia.org/wiki/ディスコ",
       "note": "若者文化の発信地"
+    },
+    {
+      "label": "ラルフ・ローレンのアニー・ホール・ルック",
+      "genre": "FAS",
+      "imp": 3,
+      "url": "https://ja.wikipedia.org/wiki/アニー・ホール",
+      "note": "メンズ風ミックスが流行"
     }
   ],
   "1978": [
@@ -1044,6 +1121,13 @@
       "imp": 5,
       "url": "https://ja.wikipedia.org/wiki/エイリアン_(1979年の映画)",
       "note": "SFホラーの定番化"
+    },
+    {
+      "label": "フリース",
+      "genre": "FAS",
+      "imp": 4,
+      "url": "https://ja.wikipedia.org/wiki/フリース",
+      "note": "軽暖素材が大衆化"
     }
   ],
   "1980": [
@@ -1088,6 +1172,13 @@
       "imp": 4,
       "url": "https://ja.wikipedia.org/wiki/オタク",
       "note": "消費文化の重要概念"
+    },
+    {
+      "label": "DCブランド",
+      "genre": "FAS",
+      "imp": 4,
+      "url": "https://ja.wikipedia.org/wiki/DCブランド",
+      "note": "80年代日本のデザイナーズ潮流"
     }
   ],
   "1981": [
@@ -1402,6 +1493,13 @@
       "imp": 3,
       "url": "https://ja.wikipedia.org/wiki/東京ディズニーランド",
       "note": "レジャー消費の転機"
+    },
+    {
+      "label": "スウォッチ",
+      "genre": "FAS",
+      "imp": 4,
+      "url": "https://ja.wikipedia.org/wiki/スウォッチ",
+      "note": "低価格で時計文化を刷新"
     }
   ],
   "1984": [
@@ -1488,6 +1586,20 @@
       "imp": 5,
       "url": "https://ja.wikipedia.org/wiki/風の谷のナウシカ_(映画)",
       "note": "エコSFの傑作"
+    },
+    {
+      "label": "バーキン",
+      "genre": "FAS",
+      "imp": 4,
+      "url": "https://ja.wikipedia.org/wiki/エルメス",
+      "note": "ジェーン由来の名作鞄"
+    },
+    {
+      "label": "ユニクロ",
+      "genre": "FAS",
+      "imp": 5,
+      "url": "https://ja.wikipedia.org/wiki/ユニクロ",
+      "note": "日本発ファストファッション"
     }
   ],
   "1985": [
@@ -1609,6 +1721,13 @@
       "imp": 4,
       "url": "https://ja.wikipedia.org/wiki/国際科学技術博覧会",
       "note": "科学技術の祭典"
+    },
+    {
+      "label": "エア・ジョーダン",
+      "genre": "FAS",
+      "imp": 4,
+      "url": "https://ja.wikipedia.org/wiki/エア・ジョーダン",
+      "note": "NBA発の人気スニーカー"
     }
   ],
   "1986": [
@@ -1774,6 +1893,13 @@
       "imp": 3,
       "url": "https://ja.wikipedia.org/wiki/フリーター",
       "note": "非正規就労の一般化"
+    },
+    {
+      "label": "ナイキ エアマックス",
+      "genre": "FAS",
+      "imp": 4,
+      "url": "https://ja.wikipedia.org/wiki/ナイキ_エアマックス",
+      "note": "可視エア搭載で革新"
     }
   ],
   "1988": [
@@ -2039,6 +2165,20 @@
       "imp": 5,
       "url": "https://ja.wikipedia.org/wiki/日本の少子化",
       "note": "人口動態の最重要課題"
+    },
+    {
+      "label": "原宿ファッション",
+      "genre": "FAS",
+      "imp": 3,
+      "url": "https://ja.wikipedia.org/wiki/原宿のファッション史",
+      "note": "個性派スタイルの発信地"
+    },
+    {
+      "label": "日本のストリートファッション",
+      "genre": "FAS",
+      "imp": 4,
+      "url": "https://ja.wikipedia.org/wiki/日本のストリートファッション",
+      "note": "90年代世界的注目"
     }
   ],
   "1991": [
@@ -2276,6 +2416,13 @@
       "imp": 4,
       "url": "https://ja.wikipedia.org/wiki/就職氷河期",
       "note": "若年雇用の厳冬期"
+    },
+    {
+      "label": "プリーツ プリーズ",
+      "genre": "FAS",
+      "imp": 4,
+      "url": "https://ja.wikipedia.org/wiki/プリーツ_プリーズ_イッセイ_ミヤケ",
+      "note": "永久プリーツの日常服"
     }
   ],
   "1994": [
@@ -2483,6 +2630,20 @@
       "imp": 5,
       "url": "https://ja.wikipedia.org/wiki/地下鉄サリン事件",
       "note": "化学テロの衝撃"
+    },
+    {
+      "label": "裏原宿",
+      "genre": "FAS",
+      "imp": 4,
+      "url": "https://ja.wikipedia.org/wiki/裏原宿",
+      "note": "ストリート発信の震源地"
+    },
+    {
+      "label": "ロリータ・ファッション",
+      "genre": "FAS",
+      "imp": 4,
+      "url": "https://ja.wikipedia.org/wiki/ロリータ・ファッション",
+      "note": "少女趣味の装飾系スタイル"
     }
   ],
   "1996": [
@@ -2899,6 +3060,13 @@
       "imp": 3,
       "url": "https://ja.wikipedia.org/wiki/ガラパゴス携帯電話",
       "note": "独自進化の象徴語"
+    },
+    {
+      "label": "ゴシック・アンド・ロリータ",
+      "genre": "FAS",
+      "imp": 3,
+      "url": "https://ja.wikipedia.org/wiki/ゴシック・アンド・ロリータ",
+      "note": "黒基調の退廃的様式"
     }
   ],
   "2001": [
