@@ -917,6 +917,15 @@
           <li>生成されたトークンをコピー</li>
         </ol>
       </div>
+      <div style="margin: 16px 0; padding: 12px; background: #fff3cd; border: 1px solid #ffeaa7; border-radius: 6px;">
+        <h5>データ管理</h5>
+        <p style="margin: 8px 0; font-size: 12px; color: #856404;">
+          注意: この操作は現在表示されているすべてのデータを削除し、GitHubから最新データを読み込みます。
+        </p>
+        <button class="btn" onclick="clearAllDataAndReload()" style="background: #dc3545; color: white; border-color: #dc3545;">
+          表示中の全ラベルをクリアしてGitHubから読み込み
+        </button>
+      </div>
       <div style="text-align: right; margin-top: 16px;">
         <button class="btn" onclick="closeModal()">キャンセル</button>
         <button class="btn" onclick="saveSettings()" style="margin-left: 8px;">保存</button>
@@ -942,8 +951,42 @@
     }
   }
   
+  // 全データをクリアしてGitHubから読み込み
+  async function clearAllDataAndReload() {
+    if (!confirm('すべてのデータを削除してGitHubから最新データを読み込みますか？\nこの操作は取り消せません。')) {
+      return;
+    }
+    
+    try {
+      // 1. 現在のデータをクリア
+      events = {};
+      saveEvents();
+      renderEvents();
+      
+      // 2. GitHubから最新データを読み込み
+      const remoteData = await loadFromGitHub();
+      if (remoteData !== null) {
+        events = remoteData;
+        saveEvents();
+        renderEvents();
+        
+        // 同期完了時刻を記録
+        localStorage.setItem('lastSync', new Date().toISOString());
+        lastSavedEventsData = JSON.stringify(events);
+        updateSyncStatus();
+        
+        showInfo('データ更新完了', 'GitHubから最新データを読み込みました。');
+      } else {
+        showError('読み込みエラー', 'GitHubからのデータ読み込みに失敗しました。');
+      }
+    } catch (error) {
+      showError('エラー', `データの更新中にエラーが発生しました: ${error.message}`);
+    }
+  }
+  
   // グローバルに公開
   window.saveSettings = saveSettings;
+  window.clearAllDataAndReload = clearAllDataAndReload;
 
   // 同期状態の表示
   function updateSyncStatus() {
