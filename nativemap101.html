@@ -331,6 +331,7 @@
         <div class="left"></div>
         <div class="right">
           <button id="addBtn">追加</button>
+          <button id="closeBtn">閉じる</button>
         </div>
       </div>`;
     
@@ -345,8 +346,14 @@
     editor.style.top = top + 'px';
     editor.style.display = 'block';
 
-    function close() { editor.style.display = 'none'; }
-    editor.querySelector('#addBtn').onclick = () => { addNewItem(year); close(); };
+    function close() { 
+      saveEvents();
+      renderEvents();
+      autoSave();
+      editor.style.display = 'none'; 
+    }
+    editor.querySelector('#addBtn').onclick = () => { addNewItem(year); };
+    editor.querySelector('#closeBtn').onclick = close;
   }
 
   // ===== 詳細一覧の操作関数 =====
