@@ -64,6 +64,15 @@
       "note": "科学技術計算言語の祖"
     }
   ],
+  "1958": [
+    {
+      "label": "白蛇伝",
+      "genre": "ANI",
+      "imp": 5,
+      "url": "https://ja.wikipedia.org/wiki/白蛇伝_(1958年の映画)",
+      "note": "国産初の長編カラー"
+    }
+  ],
   "1959": [
     {
       "label": "IBM 1401",
@@ -96,6 +105,22 @@
       "imp": 5,
       "url": "https://ja.wikipedia.org/wiki/Spacewar!",
       "note": "初期デジタルゲームの象徴"
+    }
+  ],
+  "1963": [
+    {
+      "label": "鉄腕アトム",
+      "genre": "ANI",
+      "imp": 5,
+      "url": "https://ja.wikipedia.org/wiki/鉄腕アトム_(アニメ)",
+      "note": "TVアニメ量産体制確立"
+    },
+    {
+      "label": "鉄人28号",
+      "genre": "ANI",
+      "imp": 4,
+      "url": "https://ja.wikipedia.org/wiki/鉄人28号_(アニメ)",
+      "note": "国産TVロボ草創期"
     }
   ],
   "1964": [
@@ -142,6 +167,13 @@
       "imp": 4,
       "url": "https://ja.wikipedia.org/wiki/ゲゲゲの鬼太郎",
       "note": "妖怪文化を定着"
+    },
+    {
+      "label": "ジャングル大帝",
+      "genre": "ANI",
+      "imp": 4,
+      "url": "https://ja.wikipedia.org/wiki/ジャングル大帝_(テレビアニメ)",
+      "note": "国産初のカラーTV"
     }
   ],
   "1966": [
@@ -211,6 +243,20 @@
       "imp": 5,
       "url": "https://ja.wikipedia.org/wiki/ドラえもん",
       "note": "世代超える国民漫画"
+    },
+    {
+      "label": "サザエさん",
+      "genre": "ANI",
+      "imp": 5,
+      "url": "https://ja.wikipedia.org/wiki/サザエさん_(アニメ)",
+      "note": "最長寿クラスの国民作"
+    },
+    {
+      "label": "アタックNo.1",
+      "genre": "ANI",
+      "imp": 4,
+      "url": "https://ja.wikipedia.org/wiki/アタックNo.1_(テレビアニメ)",
+      "note": "スポ根アニメの金字塔"
     }
   ],
   "1970": [
@@ -243,6 +289,13 @@
       "imp": 4,
       "url": "https://ja.wikipedia.org/wiki/ALOHAnet",
       "note": "無線パケット通信の嚆矢"
+    },
+    {
+      "label": "ルパン三世(TV第1シリーズ)",
+      "genre": "ANI",
+      "imp": 5,
+      "url": "https://ja.wikipedia.org/wiki/ルパン三世_(TV第1シリーズ)",
+      "note": "大人向けTVの開拓"
     }
   ],
   "1972": [
@@ -290,10 +343,10 @@
     },
     {
       "label": "デビルマン",
-      "genre": "MAN",
+      "genre": "ANI",
       "imp": 4,
-      "url": "https://ja.wikipedia.org/wiki/デビルマン",
-      "note": "ダークヒーローの金字塔"
+      "url": "https://ja.wikipedia.org/wiki/デビルマン_(テレビアニメ)",
+      "note": "ダークヒーロー確立"
     },
     {
       "label": "ベルサイユのばら",
@@ -301,6 +354,13 @@
       "imp": 5,
       "url": "https://ja.wikipedia.org/wiki/ベルサイユのばら",
       "note": "少女漫画の歴史的転機"
+    },
+    {
+      "label": "マジンガーZ",
+      "genre": "ANI",
+      "imp": 5,
+      "url": "https://ja.wikipedia.org/wiki/マジンガーZ",
+      "note": "乗り込み型ロボの祖"
     }
   ],
   "1973": [
@@ -347,6 +407,13 @@
       "imp": 5,
       "url": "https://ja.wikipedia.org/wiki/SQL",
       "note": "RDBの標準問い合わせ言語"
+    },
+    {
+      "label": "宇宙戦艦ヤマト",
+      "genre": "ANI",
+      "imp": 5,
+      "url": "https://ja.wikipedia.org/wiki/宇宙戦艦ヤマト_(アニメ)",
+      "note": "アニメブーム火付け役"
     }
   ],
   "1975": [
@@ -481,6 +548,13 @@
       "imp": 4,
       "url": "https://ja.wikipedia.org/wiki/うる星やつら",
       "note": "ギャグとSFの融合"
+    },
+    {
+      "label": "銀河鉄道999",
+      "genre": "ANI",
+      "imp": 4,
+      "url": "https://ja.wikipedia.org/wiki/銀河鉄道999_(テレビアニメ)",
+      "note": "SF旅物の代表作"
     }
   ],
   "1979": [
@@ -511,6 +585,20 @@
       "imp": 5,
       "url": "https://ja.wikipedia.org/wiki/Oracle_Database",
       "note": "商用RDBMSの嚆矢"
+    },
+    {
+      "label": "機動戦士ガンダム",
+      "genre": "ANI",
+      "imp": 5,
+      "url": "https://ja.wikipedia.org/wiki/機動戦士ガンダム",
+      "note": "リアルロボの転換点"
+    },
+    {
+      "label": "ドラえもん(1979年版)",
+      "genre": "ANI",
+      "imp": 5,
+      "url": "https://ja.wikipedia.org/wiki/ドラえもん_(1979年のテレビアニメ)",
+      "note": "児童向け長寿シリーズ"
     }
   ],
   "1980": [
@@ -541,6 +629,13 @@
       "imp": 3,
       "url": "https://ja.wikipedia.org/wiki/%E3%83%93%E3%83%87%E3%82%AA%E3%83%86%E3%83%83%E3%82%AF%E3%82%B9",
       "note": "端末と情報センター接続"
+    },
+    {
+      "label": "伝説巨神イデオン",
+      "genre": "ANI",
+      "imp": 4,
+      "url": "https://ja.wikipedia.org/wiki/伝説巨神イデオン",
+      "note": "富野ロボの問題作"
     }
   ],
   "1981": [
@@ -613,6 +708,13 @@
       "imp": 4,
       "url": "https://ja.wikipedia.org/wiki/キャプテン翼",
       "note": "サッカー漫画世界へ"
+    },
+    {
+      "label": "うる星やつら",
+      "genre": "ANI",
+      "imp": 4,
+      "url": "https://ja.wikipedia.org/wiki/うる星やつら_(アニメ)",
+      "note": "ギャグ×SFの金字塔"
     }
   ],
   "1982": [
@@ -692,6 +794,13 @@
       "imp": 5,
       "url": "https://ja.wikipedia.org/wiki/風の谷のナウシカ_(漫画)",
       "note": "叙事詩的エコSF大作"
+    },
+    {
+      "label": "超時空要塞マクロス",
+      "genre": "ANI",
+      "imp": 5,
+      "url": "https://ja.wikipedia.org/wiki/超時空要塞マクロス",
+      "note": "歌と可変戦闘機融合"
     }
   ],
   "1983": [
@@ -864,6 +973,13 @@
       "imp": 5,
       "url": "https://ja.wikipedia.org/wiki/ドラゴンボール",
       "note": "少年バトルの定型化"
+    },
+    {
+      "label": "風の谷のナウシカ",
+      "genre": "ANI",
+      "imp": 5,
+      "url": "https://ja.wikipedia.org/wiki/風の谷のナウシカ_(映画)",
+      "note": "宮崎駿の出世作"
     }
   ],
   "1985": [
@@ -994,6 +1110,20 @@
       "imp": 4,
       "url": "https://ja.wikipedia.org/wiki/聖闘士星矢",
       "note": "神話系バトルの礎"
+    },
+    {
+      "label": "天空の城ラピュタ",
+      "genre": "ANI",
+      "imp": 5,
+      "url": "https://ja.wikipedia.org/wiki/天空の城ラピュタ",
+      "note": "冒険活劇の傑作"
+    },
+    {
+      "label": "ドラゴンボール",
+      "genre": "ANI",
+      "imp": 5,
+      "url": "https://ja.wikipedia.org/wiki/ドラゴンボール_(アニメ)",
+      "note": "少年バトル定番化"
     }
   ],
   "1987": [
@@ -1124,6 +1254,27 @@
       "imp": 4,
       "url": "https://ja.wikipedia.org/wiki/機動警察パトレイバー",
       "note": "日常系ロボの先駆"
+    },
+    {
+      "label": "となりのトトロ",
+      "genre": "ANI",
+      "imp": 5,
+      "url": "https://ja.wikipedia.org/wiki/となりのトトロ",
+      "note": "日常系ファンタ定番"
+    },
+    {
+      "label": "AKIRA",
+      "genre": "ANI",
+      "imp": 5,
+      "url": "https://ja.wikipedia.org/wiki/AKIRA_(アニメ映画)",
+      "note": "劇場アニメの革命作"
+    },
+    {
+      "label": "銀河英雄伝説",
+      "genre": "ANI",
+      "imp": 4,
+      "url": "https://ja.wikipedia.org/wiki/銀河英雄伝説_(アニメ)",
+      "note": "長大OVAの金字塔"
     }
   ],
   "1989": [
@@ -1314,6 +1465,13 @@
       "imp": 5,
       "url": "https://ja.wikipedia.org/wiki/OpenGL",
       "note": "3D描画APIの標準"
+    },
+    {
+      "label": "美少女戦士セーラームーン",
+      "genre": "ANI",
+      "imp": 5,
+      "url": "https://ja.wikipedia.org/wiki/美少女戦士セーラームーン_(アニメ)",
+      "note": "変身ヒロイン再定義"
     }
   ],
   "1993": [
@@ -1530,6 +1688,20 @@
       "imp": 4,
       "url": "https://ja.wikipedia.org/wiki/DirectX",
       "note": "Windowsマルチメディア基盤"
+    },
+    {
+      "label": "新世紀エヴァンゲリオン",
+      "genre": "ANI",
+      "imp": 5,
+      "url": "https://ja.wikipedia.org/wiki/新世紀エヴァンゲリオン",
+      "note": "オタク文化の転機"
+    },
+    {
+      "label": "攻殻機動隊",
+      "genre": "ANI",
+      "imp": 5,
+      "url": "https://ja.wikipedia.org/wiki/攻殻機動隊_(1995年の映画)",
+      "note": "サイバーパンク到達点"
     }
   ],
   "1996": [
@@ -1667,6 +1839,27 @@
       "imp": 5,
       "url": "https://ja.wikipedia.org/wiki/ONE_PIECE",
       "note": "海洋冒険の世界的人気"
+    },
+    {
+      "label": "もののけ姫",
+      "genre": "ANI",
+      "imp": 5,
+      "url": "https://ja.wikipedia.org/wiki/もののけ姫",
+      "note": "興行記録を更新"
+    },
+    {
+      "label": "少女革命ウテナ",
+      "genre": "ANI",
+      "imp": 4,
+      "url": "https://ja.wikipedia.org/wiki/少女革命ウテナ",
+      "note": "実験的少女革命譚"
+    },
+    {
+      "label": "ポケットモンスター",
+      "genre": "ANI",
+      "imp": 5,
+      "url": "https://ja.wikipedia.org/wiki/ポケットモンスター_(アニメ)",
+      "note": "メディアミックス象徴"
     }
   ],
   "1998": [
@@ -1746,6 +1939,13 @@
       "imp": 4,
       "url": "https://ja.wikipedia.org/wiki/HUNTER×HUNTER",
       "note": "緻密設定の冒険譚"
+    },
+    {
+      "label": "カウボーイビバップ",
+      "genre": "ANI",
+      "imp": 5,
+      "url": "https://ja.wikipedia.org/wiki/カウボーイビバップ",
+      "note": "世界評価のTVシリーズ"
     }
   ],
   "1999": [
@@ -1915,6 +2115,22 @@
       "note": "音楽青春を一般化"
     }
   ],
+  "2002": [
+    {
+      "label": "攻殻機動隊S.A.C.",
+      "genre": "ANI",
+      "imp": 5,
+      "url": "https://ja.wikipedia.org/wiki/攻殻機動隊_STAND_ALONE_COMPLEX",
+      "note": "近未来群像の金字塔"
+    },
+    {
+      "label": "ほしのこえ",
+      "genre": "ANI",
+      "imp": 4,
+      "url": "https://ja.wikipedia.org/wiki/ほしのこえ",
+      "note": "個人制作デジタル時代"
+    }
+  ],
   "2003": [
     {
       "label": "LLVM",
@@ -2022,6 +2238,13 @@
       "imp": 4,
       "url": "https://ja.wikipedia.org/wiki/銀魂",
       "note": "時代劇SFギャグの極北"
+    },
+    {
+      "label": "ふたりはプリキュア",
+      "genre": "ANI",
+      "imp": 4,
+      "url": "https://ja.wikipedia.org/wiki/ふたりはプリキュア",
+      "note": "女児向け長寿IP始動"
     }
   ],
   "2005": [
@@ -2089,6 +2312,20 @@
       "imp": 4,
       "url": "https://ja.wikipedia.org/wiki/キングダム_(漫画)",
       "note": "中国戦記の大河ロマン"
+    },
+    {
+      "label": "涼宮ハルヒの憂鬱",
+      "genre": "ANI",
+      "imp": 5,
+      "url": "https://ja.wikipedia.org/wiki/涼宮ハルヒの憂鬱_(アニメ)",
+      "note": "深夜アニメ隆盛象徴"
+    },
+    {
+      "label": "コードギアス 反逆のルルーシュ",
+      "genre": "ANI",
+      "imp": 5,
+      "url": "https://ja.wikipedia.org/wiki/コードギアス_反逆のルルーシュ",
+      "note": "反逆ロボの新機軸"
     }
   ],
   "2007": [
@@ -2133,6 +2370,13 @@
       "imp": 4,
       "url": "https://ja.wikipedia.org/wiki/この世界の片隅に",
       "note": "戦時下の生活描写"
+    },
+    {
+      "label": "らき☆すた",
+      "genre": "ANI",
+      "imp": 4,
+      "url": "https://ja.wikipedia.org/wiki/らき☆すた",
+      "note": "オタク日常系の確立"
     }
   ],
   "2008": [
@@ -2179,6 +2423,13 @@
       "imp": 5,
       "url": "https://ja.wikipedia.org/wiki/進撃の巨人",
       "note": "ダーク群像の世界的成功"
+    },
+    {
+      "label": "けいおん!",
+      "genre": "ANI",
+      "imp": 5,
+      "url": "https://ja.wikipedia.org/wiki/けいおん!",
+      "note": "軽音×日常の大ヒット"
     }
   ],
   "2010": [
@@ -2239,6 +2490,20 @@
       "imp": 4,
       "url": "https://ja.wikipedia.org/wiki/東京喰種トーキョーグール",
       "note": "現代ダークファンタジー"
+    },
+    {
+      "label": "魔法少女まどか☆マギカ",
+      "genre": "ANI",
+      "imp": 5,
+      "url": "https://ja.wikipedia.org/wiki/魔法少女まどか☆マギカ",
+      "note": "魔法少女を再解釈"
+    },
+    {
+      "label": "あの日見た花の名前を僕達はまだ知らない。",
+      "genre": "ANI",
+      "imp": 4,
+      "url": "https://ja.wikipedia.org/wiki/あの日見た花の名前を僕達はまだ知らない。",
+      "note": "青春ドラマの新機軸"
     }
   ],
   "2012": [
@@ -2283,6 +2548,20 @@
       "imp": 3,
       "url": "https://ja.wikipedia.org/wiki/七つの大罪_(漫画)",
       "note": "王道ファンタジー人気作"
+    },
+    {
+      "label": "ソードアート・オンライン",
+      "genre": "ANI",
+      "imp": 4,
+      "url": "https://ja.wikipedia.org/wiki/ソードアート・オンライン",
+      "note": "VRMMO系の定番化"
+    },
+    {
+      "label": "ガールズ&パンツァー",
+      "genre": "ANI",
+      "imp": 4,
+      "url": "https://ja.wikipedia.org/wiki/ガールズ&パンツァー",
+      "note": "戦車×学園の快作"
     }
   ],
   "2013": [
@@ -2320,6 +2599,20 @@
       "imp": 5,
       "url": "https://ja.wikipedia.org/wiki/Docker",
       "note": "コンテナ革命を牽引"
+    },
+    {
+      "label": "ラブライブ!",
+      "genre": "ANI",
+      "imp": 4,
+      "url": "https://ja.wikipedia.org/wiki/ラブライブ!",
+      "note": "アイドル×展開の礎"
+    },
+    {
+      "label": "進撃の巨人",
+      "genre": "ANI",
+      "imp": 5,
+      "url": "https://ja.wikipedia.org/wiki/進撃の巨人_(アニメ)",
+      "note": "世界的人気の群像"
     }
   ],
   "2014": [
@@ -2382,6 +2675,20 @@
       "imp": 5,
       "url": "https://ja.wikipedia.org/wiki/鬼滅の刃",
       "note": "社会現象級の大ヒット"
+    },
+    {
+      "label": "君の名は。",
+      "genre": "ANI",
+      "imp": 5,
+      "url": "https://ja.wikipedia.org/wiki/君の名は。",
+      "note": "新海誠の大ヒット作"
+    },
+    {
+      "label": "この世界の片隅に",
+      "genre": "ANI",
+      "imp": 5,
+      "url": "https://ja.wikipedia.org/wiki/この世界の片隅に_(アニメ映画)",
+      "note": "戦時下の日常描写"
     }
   ],
   "2017": [
@@ -2419,6 +2726,13 @@
       "imp": 4,
       "url": "https://ja.wikipedia.org/wiki/NieR:Automata",
       "note": "哲学的物語とACT融合"
+    },
+    {
+      "label": "けものフレンズ",
+      "genre": "ANI",
+      "imp": 4,
+      "url": "https://ja.wikipedia.org/wiki/けものフレンズ",
+      "note": "低予算から社会現象"
     }
   ],
   "2018": [
@@ -2456,6 +2770,13 @@
       "imp": 3,
       "url": "https://ja.wikipedia.org/wiki/ブルーロック",
       "note": "戦略的サッカー漫画"
+    },
+    {
+      "label": "ヴァイオレット・エヴァーガーデン",
+      "genre": "ANI",
+      "imp": 4,
+      "url": "https://ja.wikipedia.org/wiki/ヴァイオレット・エヴァーガーデン",
+      "note": "映像美で高評価"
     }
   ],
   "2019": [
@@ -2472,6 +2793,13 @@
       "imp": 4,
       "url": "https://ja.wikipedia.org/wiki/SPY×FAMILY",
       "note": "家族×スパイの新機軸"
+    },
+    {
+      "label": "鬼滅の刃",
+      "genre": "ANI",
+      "imp": 5,
+      "url": "https://ja.wikipedia.org/wiki/鬼滅の刃_(アニメ)",
+      "note": "社会現象級ヒット"
     }
   ],
   "2020": [
@@ -2495,6 +2823,13 @@
       "imp": 5,
       "url": "https://ja.wikipedia.org/wiki/あつまれ_どうぶつの森",
       "note": "パンデミック期の拠り所"
+    },
+    {
+      "label": "呪術廻戦",
+      "genre": "ANI",
+      "imp": 4,
+      "url": "https://ja.wikipedia.org/wiki/呪術廻戦",
+      "note": "現代バトルの新潮流"
     }
   ],
   "2022": [
@@ -2504,6 +2839,27 @@
       "imp": 5,
       "url": "https://ja.wikipedia.org/wiki/ELDEN_RING",
       "note": "オープン×高難度の結晶"
+    },
+    {
+      "label": "チェンソーマン",
+      "genre": "ANI",
+      "imp": 4,
+      "url": "https://ja.wikipedia.org/wiki/チェンソーマン_(アニメ)",
+      "note": "尖鋭的ダークアニメ"
+    },
+    {
+      "label": "SPY×FAMILY",
+      "genre": "ANI",
+      "imp": 4,
+      "url": "https://ja.wikipedia.org/wiki/SPY×FAMILY",
+      "note": "家族スパイの話題作"
+    },
+    {
+      "label": "THE FIRST SLAM DUNK",
+      "genre": "ANI",
+      "imp": 4,
+      "url": "https://ja.wikipedia.org/wiki/THE_FIRST_SLAM_DUNK",
+      "note": "3DCGで新生の傑作"
     }
   ],
   "2023": [
@@ -2513,6 +2869,13 @@
       "imp": 5,
       "url": "https://ja.wikipedia.org/wiki/バルダーズ・ゲート3",
       "note": "CRPG再興の決定版"
+    },
+    {
+      "label": "葬送のフリーレン",
+      "genre": "ANI",
+      "imp": 4,
+      "url": "https://ja.wikipedia.org/wiki/葬送のフリーレン",
+      "note": "余韻系ファンタ話題"
     }
   ]
 }
