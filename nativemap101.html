@@ -331,7 +331,6 @@
         <div class="left"></div>
         <div class="right">
           <button id="addBtn">追加</button>
-          <button id="closeBtn">閉じる</button>
         </div>
       </div>`;
     
@@ -348,7 +347,6 @@
 
     function close() { editor.style.display = 'none'; }
     editor.querySelector('#addBtn').onclick = () => { addNewItem(year); close(); };
-    editor.querySelector('#closeBtn').onclick = close;
   }
 
   // ===== 詳細一覧の操作関数 =====
@@ -461,6 +459,7 @@
     editor.style.left = (rv.width / 2 - 250) + 'px';
     editor.style.top = (rv.height / 2 - 200) + 'px';
     editor.style.display = 'block';
+    editor.style.zIndex = '1000';
 
     function close() { editor.style.display = 'none'; }
     editor.querySelector('#cancel').onclick = close;
