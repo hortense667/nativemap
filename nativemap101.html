@@ -657,12 +657,12 @@
     
     matches=els.filter(el=> {
       const year = parseInt(el.getAttribute('data-year'));
-      const label = el.textContent;
+      const displayText = el.textContent;
       const isMatch = searchResults.some(result => 
-        result.year === year && result.item.label === label
+        result.year === year && displayText.includes(result.item.label)
       );
       if (isMatch) {
-        console.log('マッチしたラベル要素:', { year, label, element: el });
+        console.log('マッチしたラベル要素:', { year, displayText, matchedLabel: searchResults.find(r => r.year === year && displayText.includes(r.item.label))?.item.label, element: el });
       }
       return isMatch;
     });
@@ -1130,8 +1130,34 @@
       <ul>
         <li><strong>スクロール：</strong>ホイール／トラックパッド／矢印キー</li>
         <li><strong>ラベル編集：</strong>左カラムの年行をクリック。未登録の年は左カラム空白クリックでエディタを開けます</li>
-        <li><strong>検索：</strong>右上の検索欄 → 「検索」「前」「次」。結果は該当ラベルが反転（次の操作で解除）</li>
+        <li><strong>検索：</strong>右上の検索欄 → 「検索」「前」「次」。ラベルと注釈の両方を検索対象とします</li>
         <li><strong>表示切替：</strong>「ジャンル」「重要度」フィルタ（重要度は選択値以上のみ表示）</li>
+        <li><strong>CSV/TSV読み込み：</strong>「ロード」ボタンで一括データを追加</li>
+      </ul>
+      <h4>CSV/TSV読み込み形式</h4>
+      <p>「ロード」ボタンでCSV/TSVファイルを読み込んで一括でデータを追加できます。</p>
+      <p><strong>形式：</strong> <code>年;ジャンル;ラベル;重要度;URL;注釈</code></p>
+      <p><strong>例：</strong> <code>1946;HAR;ENIAC;5;https://ja.wikipedia.org/wiki/ENIAC;初の大規模電子計算機</code></p>
+      <h5>ジャンル一覧</h5>
+      <ul>
+        <li><strong>ANI:</strong> アニメ</li>
+        <li><strong>MAN:</strong> マンガ</li>
+        <li><strong>GAM:</strong> ゲーム</li>
+        <li><strong>TVP:</strong> テレビ番組</li>
+        <li><strong>MOV:</strong> 映画</li>
+        <li><strong>NET:</strong> インターネット</li>
+        <li><strong>HAR:</strong> ハードウェア</li>
+        <li><strong>PHE:</strong> 現象・流行</li>
+        <li><strong>SOF:</strong> ソフトウェア</li>
+        <li><strong>UNC:</strong> その他</li>
+      </ul>
+      <h5>重要度</h5>
+      <ul>
+        <li><strong>1:</strong> 参考程度</li>
+        <li><strong>2:</strong> やや重要</li>
+        <li><strong>3:</strong> 重要</li>
+        <li><strong>4:</strong> かなり重要</li>
+        <li><strong>5:</strong> 最重要</li>
       </ul>
       <div class="credit">(c) 2025 Satoshi Endo CC-BY 4.0</div>
     `;
