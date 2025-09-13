@@ -277,7 +277,7 @@
   let events = loadEvents();
   
   // 自動保存の基準を初期化
-  let lastSavedEvents = JSON.stringify(events);
+  let lastSavedEventsData = JSON.stringify(events);
 
   // ===== フィルタ =====
   let filterGenre = '';
@@ -511,7 +511,7 @@
         
         // 同期完了時刻を記録
         localStorage.setItem('lastSync', new Date().toISOString());
-        lastSavedEvents = JSON.stringify(events); // 自動保存の基準を更新
+        lastSavedEventsData = JSON.stringify(events); // 自動保存の基準を更新
         updateSyncStatus();
         
         showInfo('同期完了', 'Dropboxとの同期が完了しました。');
@@ -598,10 +598,10 @@
   function autoSave() {
     try {
       const currentEvents = JSON.stringify(events);
-      if (currentEvents !== lastSavedEvents) {
+      if (currentEvents !== lastSavedEventsData) {
         localStorage.setItem('autoSave', currentEvents);
         localStorage.setItem('lastEdit', new Date().toISOString());
-        lastSavedEvents = currentEvents;
+        lastSavedEventsData = currentEvents;
         updateSyncStatus();
       }
     } catch (e) {
