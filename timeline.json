@@ -1,4 +1,13 @@
 {
+  "1947": [
+    {
+      "label": "夜と霧",
+      "genre": "BOO",
+      "imp": 5,
+      "url": "https://ja.wikipedia.org/wiki/夜と霧",
+      "note": "極限状況の人間学"
+    }
+  ],
   "1950": [
     {
       "label": "羅生門",
@@ -48,6 +57,13 @@
       "imp": 4,
       "url": "https://ja.wikipedia.org/wiki/雨に唄えば",
       "note": "ミュージカル映画の古典"
+    },
+    {
+      "label": "老人と海",
+      "genre": "NOV",
+      "imp": 4,
+      "url": "https://ja.wikipedia.org/wiki/老人と海",
+      "note": "老漁師の誇りの闘い"
     }
   ],
   "1953": [
@@ -78,6 +94,13 @@
       "imp": 4,
       "url": "https://ja.wikipedia.org/wiki/マッチボックス_(ミニカー)",
       "note": "英発ミニカーの老舗"
+    },
+    {
+      "label": "華氏451度",
+      "genre": "NOV",
+      "imp": 4,
+      "url": "https://ja.wikipedia.org/wiki/華氏451度",
+      "note": "本が禁じられた近未来"
     }
   ],
   "1954": [
@@ -115,6 +138,13 @@
       "imp": 5,
       "url": "https://ja.wikipedia.org/wiki/ロックンロール",
       "note": "若者文化の爆発点"
+    },
+    {
+      "label": "指輪物語",
+      "genre": "NOV",
+      "imp": 5,
+      "url": "https://ja.wikipedia.org/wiki/指輪物語",
+      "note": "中つ国叙事詩の金字塔"
     }
   ],
   "1955": [
@@ -370,6 +400,13 @@
       "imp": 5,
       "url": "https://ja.wikipedia.org/wiki/アラビアのロレンス",
       "note": "砂漠叙事詩の巨編"
+    },
+    {
+      "label": "沈黙の春",
+      "genre": "BOO",
+      "imp": 5,
+      "url": "https://ja.wikipedia.org/wiki/沈黙の春",
+      "note": "環境運動の起点となる書"
     }
   ],
   "1963": [
@@ -576,6 +613,13 @@
       "imp": 4,
       "url": "https://ja.wikipedia.org/wiki/ヴェルヴェット・アンダーグラウンド&ニコ",
       "note": "オルタナの源流"
+    },
+    {
+      "label": "百年の孤独",
+      "genre": "NOV",
+      "imp": 5,
+      "url": "https://ja.wikipedia.org/wiki/百年の孤独",
+      "note": "魔術的現実主義の頂点"
     }
   ],
   "1968": [
@@ -641,6 +685,34 @@
       "imp": 5,
       "url": "https://ja.wikipedia.org/wiki/ホットウィール",
       "note": "米発ミニカーの人気銘柄"
+    },
+    {
+      "label": "��d�点��",
+      "genre": "BOO",
+      "imp": 4,
+      "url": "https://ja.wikipedia.org/wiki/��d�点��",
+      "note": "DNA�����̓����L"
+    },
+    {
+      "label": "�R���s���[�^�v���O���~���O�̌|�p",
+      "genre": "BOO",
+      "imp": 4,
+      "url": "https://ja.wikipedia.org/wiki/�R���s���[�^�v���O���~���O�̌|�p",
+      "note": "�A���S���Y��������"
+    },
+    {
+      "label": "二重らせん",
+      "genre": "BOO",
+      "imp": 4,
+      "url": "https://ja.wikipedia.org/wiki/二重らせん",
+      "note": "DNA発見の内幕記"
+    },
+    {
+      "label": "コンピュータプログラミングの芸術",
+      "genre": "BOO",
+      "imp": 4,
+      "url": "https://ja.wikipedia.org/wiki/コンピュータプログラミングの芸術",
+      "note": "アルゴリズム金字塔"
     }
   ],
   "1969": [
@@ -901,6 +973,20 @@
       "imp": 5,
       "url": "https://ja.wikipedia.org/wiki/ヨウジヤマモト",
       "note": "黒の美学で台頭"
+    },
+    {
+      "label": "�����̌��E",
+      "genre": "BOO",
+      "imp": 4,
+      "url": "https://ja.wikipedia.org/wiki/�����̌��E",
+      "note": "�n�������̌��E���x��"
+    },
+    {
+      "label": "成長の限界",
+      "genre": "BOO",
+      "imp": 4,
+      "url": "https://ja.wikipedia.org/wiki/成長の限界",
+      "note": "地球資源の限界を警告"
     }
   ],
   "1973": [
@@ -1061,6 +1147,34 @@
       "imp": 5,
       "url": "https://ja.wikipedia.org/wiki/ボヘミアン・ラプソディ",
       "note": "複合構成の名曲"
+    },
+    {
+      "label": "�č��̒a��",
+      "genre": "BOO",
+      "imp": 4,
+      "url": "https://ja.wikipedia.org/wiki/�č��̒a��",
+      "note": "�K�����̗͂��j����"
+    },
+    {
+      "label": "�l���̐_�b",
+      "genre": "BOO",
+      "imp": 4,
+      "url": "https://ja.wikipedia.org/wiki/�l���̐_�b",
+      "note": "��K�͊J���̐^��"
+    },
+    {
+      "label": "監獄の誕生",
+      "genre": "BOO",
+      "imp": 4,
+      "url": "https://ja.wikipedia.org/wiki/監獄の誕生",
+      "note": "規律権力の歴史分析"
+    },
+    {
+      "label": "人月の神話",
+      "genre": "BOO",
+      "imp": 4,
+      "url": "https://ja.wikipedia.org/wiki/人月の神話",
+      "note": "大規模開発の真理"
     }
   ],
   "1976": [
@@ -1819,6 +1933,20 @@
       "imp": 4,
       "url": "https://ja.wikipedia.org/wiki/クリスマス・イブ_(山下達郎の曲)",
       "note": "日本の冬の定番曲"
+    },
+    {
+      "label": "�z���̋�����",
+      "genre": "BOO",
+      "imp": 4,
+      "url": "https://ja.wikipedia.org/wiki/�z���̋�����",
+      "note": "�������Ƃ̋N���_"
+    },
+    {
+      "label": "想像の共同体",
+      "genre": "BOO",
+      "imp": 4,
+      "url": "https://ja.wikipedia.org/wiki/想像の共同体",
+      "note": "国民国家の起源論"
     }
   ],
   "1984": [
@@ -1901,10 +2029,10 @@
     },
     {
       "label": "風の谷のナウシカ",
-      "genre": "MOV",
+      "genre": "ANI",
       "imp": 5,
       "url": "https://ja.wikipedia.org/wiki/風の谷のナウシカ_(映画)",
-      "note": "エコSFの傑作"
+      "note": "宮崎駿の出世作"
     },
     {
       "label": "バーキン",
@@ -2075,6 +2203,20 @@
       "imp": 4,
       "url": "https://ja.wikipedia.org/wiki/シルバニアファミリー",
       "note": "動物家族のドール玩具"
+    },
+    {
+      "label": "�v�Z�@�v���O�����̍\\���Ɖ���",
+      "genre": "BOO",
+      "imp": 4,
+      "url": "https://ja.wikipedia.org/wiki/�v�Z�@�v���O�����̍\\���Ɖ���",
+      "note": "�v�Z�Ƃ͉�������������"
+    },
+    {
+      "label": "計算機プログラムの構造と解釈",
+      "genre": "BOO",
+      "imp": 4,
+      "url": "https://ja.wikipedia.org/wiki/計算機プログラムの構造と解釈",
+      "note": "計算とは何かを示す名著"
     }
   ],
   "1986": [
@@ -2261,6 +2403,13 @@
       "imp": 4,
       "url": "https://ja.wikipedia.org/wiki/ヨシュア・トゥリー",
       "note": "アリーナロック名盤"
+    },
+    {
+      "label": "ノルウェイの森",
+      "genre": "NOV",
+      "imp": 4,
+      "url": "https://ja.wikipedia.org/wiki/ノルウェイの森",
+      "note": "喪失と成長の青春譚"
     }
   ],
   "1988": [
@@ -2322,17 +2471,17 @@
     },
     {
       "label": "となりのトトロ",
-      "genre": "MOV",
+      "genre": "ANI",
       "imp": 5,
       "url": "https://ja.wikipedia.org/wiki/となりのトトロ",
-      "note": "日常系ファンタの名作"
+      "note": "日常系ファンタ定番"
     },
     {
       "label": "AKIRA",
-      "genre": "MOV",
+      "genre": "ANI",
       "imp": 5,
       "url": "https://ja.wikipedia.org/wiki/AKIRA_(アニメ映画)",
-      "note": "サイバーパンク映像革命"
+      "note": "劇場アニメの革命作"
     },
     {
       "label": "銀河英雄伝説",
@@ -2940,6 +3089,13 @@
       "imp": 3,
       "url": "https://ja.wikipedia.org/wiki/ブリットポップ",
       "note": "英国的ポップの復権"
+    },
+    {
+      "label": "ねじまき鳥クロニクル",
+      "genre": "NOV",
+      "imp": 4,
+      "url": "https://ja.wikipedia.org/wiki/ねじまき鳥クロニクル",
+      "note": "喪失と戦争が交錯"
     }
   ],
   "1995": [
@@ -3268,6 +3424,27 @@
       "imp": 5,
       "url": "https://ja.wikipedia.org/wiki/OK_Computer",
       "note": "90年代ロックの金字塔"
+    },
+    {
+      "label": "ハリー・ポッターと賢者の石",
+      "genre": "NOV",
+      "imp": 5,
+      "url": "https://ja.wikipedia.org/wiki/ハリー・ポッターと賢者の石",
+      "note": "児童ファンタジー新時代"
+    },
+    {
+      "label": "�e�E�a���ہE�S",
+      "genre": "BOO",
+      "imp": 5,
+      "url": "https://ja.wikipedia.org/wiki/�e�E�a���ہE�S",
+      "note": "�l�ގj�̔�r�_�I���"
+    },
+    {
+      "label": "銃・病原菌・鉄",
+      "genre": "BOO",
+      "imp": 5,
+      "url": "https://ja.wikipedia.org/wiki/銃・病原菌・鉄",
+      "note": "人類史の比較論的解読"
     }
   ],
   "1998": [
@@ -4053,6 +4230,13 @@
       "imp": 4,
       "url": "https://ja.wikipedia.org/wiki/Spotify",
       "note": "ストリーミング普及の核"
+    },
+    {
+      "label": "三体 (小説)",
+      "genre": "NOV",
+      "imp": 4,
+      "url": "https://ja.wikipedia.org/wiki/三体_(小説)",
+      "note": "中国発ハードSFの金字塔"
     }
   ],
   "2009": [
@@ -4227,6 +4411,20 @@
       "imp": 4,
       "url": "https://ja.wikipedia.org/wiki/千本桜",
       "note": "ボカロ文化の代表曲"
+    },
+    {
+      "label": "�T�s�G���X�S�j",
+      "genre": "BOO",
+      "imp": 4,
+      "url": "https://ja.wikipedia.org/wiki/�T�s�G���X�S�j",
+      "note": "�l�ގj����Ղ���ʎj"
+    },
+    {
+      "label": "サピエンス全史",
+      "genre": "BOO",
+      "imp": 4,
+      "url": "https://ja.wikipedia.org/wiki/サピエンス全史",
+      "note": "人類史を俯瞰する通史"
     }
   ],
   "2012": [
@@ -4457,10 +4655,10 @@
     },
     {
       "label": "君の名は。",
-      "genre": "MOV",
+      "genre": "ANI",
       "imp": 5,
-      "url": "https://ja.wikipedia.org/wiki/君の名は。_(2016年の映画)",
-      "note": "新海誠の国民的ヒット"
+      "url": "https://ja.wikipedia.org/wiki/君の名は。",
+      "note": "新海誠の大ヒット作"
     },
     {
       "label": "この世界の片隅に",
