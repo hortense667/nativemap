@@ -626,14 +626,15 @@
       
       // 表示範囲を計算（左端から右端まで）
       const maxWidth = LABEL_RIGHT_X - LABEL_LEFT_X;
-      const charWidth = 8; // 概算の文字幅
+      const charWidth = 9; // 文字幅を少し大きく見積もり（日本語文字対応）
       const maxChars = Math.floor(maxWidth / charWidth);
       
-      // 年部分は必ず表示し、ラベル部分のみ切り取り
+      // 年部分は必ず表示し、ラベル部分のみ切り取り（余裕を持たせる）
       let text;
       if (fullText.length > maxChars) {
         const yearSpaceLength = yearPart.length + 1; // 年 + スペース
-        const remainingChars = Math.max(0, maxChars - yearSpaceLength);
+        const buffer = 3; // 余裕を持たせる文字数
+        const remainingChars = Math.max(0, maxChars - yearSpaceLength - buffer);
         const truncatedLabels = labelsPart.substring(0, remainingChars);
         text = `${yearPart} ${truncatedLabels}`;
       } else {
