@@ -718,7 +718,7 @@
         console.log('ファイルが存在しないか、SHAの取得に失敗:', e);
       }
 
-      const content = btoa(JSON.stringify(data, null, 2));
+      const content = btoa(unescape(encodeURIComponent(JSON.stringify(data, null, 2))));
       const body = {
         message: `Update timeline data - ${new Date().toISOString()}`,
         content: content
