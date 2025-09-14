@@ -206,21 +206,65 @@
   eventsG.setAttribute('clip-path','url(#clip-events)');
   decadesG.setAttribute('clip-path','url(#clip-decades)');
 
-  // ドラッグ専用レーン（幅24px）
-  const laneRect=document.createElementNS(ns,'rect');
-  laneRect.setAttribute('x', ORIGIN_X - HANDLE_LANE_W);
-  laneRect.setAttribute('y', 0);
-  laneRect.setAttribute('width', HANDLE_LANE_W);
-  laneRect.setAttribute('height', height);
-  laneRect.setAttribute('class','handleLane');
-  stage.insertBefore(laneRect, gridG);
-  const laneBorder=document.createElementNS(ns,'line');
-  laneBorder.setAttribute('x1', ORIGIN_X - HANDLE_LANE_W);
-  laneBorder.setAttribute('x2', ORIGIN_X - HANDLE_LANE_W);
-  laneBorder.setAttribute('y1', 0);
-  laneBorder.setAttribute('y2', height);
-  laneBorder.setAttribute('class','handleLaneBorder');
-  stage.insertBefore(laneBorder, gridG);
+  // ドラッグ専用レーン（幅24px）を時代で色分け
+  function createHandleLaneWithEraColors() {
+    const currentDate = new Date();
+    const currentYear = currentDate.getFullYear();
+    const currentMonth = currentDate.getMonth() + 1; // 0-11 -> 1-12
+    const currentDay = currentDate.getDate();
+    
+    // 令和の現在日付までのY座標を計算
+    const reiwaCurrentY = yFromBirthYear(currentYear) + (currentMonth - 1) * (PX_PER_YEAR / 12) + (currentDay - 1) * (PX_PER_YEAR / 365);
+    
+    // 昭和（1926-1988）
+    const showaRect = document.createElementNS(ns, 'rect');
+    showaRect.setAttribute('x', ORIGIN_X - HANDLE_LANE_W);
+    showaRect.setAttribute('y', yFromBirthYear(1926));
+    showaRect.setAttribute('width', HANDLE_LANE_W);
+    showaRect.setAttribute('height', yFromBirthYear(1989) - yFromBirthYear(1926));
+    showaRect.setAttribute('fill', '#f0f8ff'); // 昭和：淡い青
+    stage.insertBefore(showaRect, gridG);
+    
+    // 平成（1989-2018）
+    const heiseiRect = document.createElementNS(ns, 'rect');
+    heiseiRect.setAttribute('x', ORIGIN_X - HANDLE_LANE_W);
+    heiseiRect.setAttribute('y', yFromBirthYear(1989));
+    heiseiRect.setAttribute('width', HANDLE_LANE_W);
+    heiseiRect.setAttribute('height', yFromBirthYear(2019) - yFromBirthYear(1989));
+    heiseiRect.setAttribute('fill', '#f0fff0'); // 平成：淡い緑
+    stage.insertBefore(heiseiRect, gridG);
+    
+    // 令和（2019-現在）
+    const reiwaRect = document.createElementNS(ns, 'rect');
+    reiwaRect.setAttribute('x', ORIGIN_X - HANDLE_LANE_W);
+    reiwaRect.setAttribute('y', yFromBirthYear(2019));
+    reiwaRect.setAttribute('width', HANDLE_LANE_W);
+    reiwaRect.setAttribute('height', reiwaCurrentY - yFromBirthYear(2019));
+    reiwaRect.setAttribute('fill', '#fff0f0'); // 令和：淡い赤
+    stage.insertBefore(reiwaRect, gridG);
+    
+    // 令和の現在日付以降は白
+    if (currentYear < YEAR_MAX) {
+      const reiwaFutureRect = document.createElementNS(ns, 'rect');
+      reiwaFutureRect.setAttribute('x', ORIGIN_X - HANDLE_LANE_W);
+      reiwaFutureRect.setAttribute('y', reiwaCurrentY);
+      reiwaFutureRect.setAttribute('width', HANDLE_LANE_W);
+      reiwaFutureRect.setAttribute('height', yFromBirthYear(YEAR_MAX + 1) - reiwaCurrentY);
+      reiwaFutureRect.setAttribute('fill', '#ffffff'); // 未来：白
+      stage.insertBefore(reiwaFutureRect, gridG);
+    }
+    
+    // 境界線
+    const laneBorder = document.createElementNS(ns, 'line');
+    laneBorder.setAttribute('x1', ORIGIN_X - HANDLE_LANE_W);
+    laneBorder.setAttribute('x2', ORIGIN_X - HANDLE_LANE_W);
+    laneBorder.setAttribute('y1', 0);
+    laneBorder.setAttribute('y2', height);
+    laneBorder.setAttribute('class', 'handleLaneBorder');
+    stage.insertBefore(laneBorder, gridG);
+  }
+  
+  createHandleLaneWithEraColors();
 
   function yFromBirthYear(by){return ORIGIN_Y+(by-YEAR_MIN)*PX_PER_YEAR;}
   function xFromAge(age){return ORIGIN_X+age*PX_PER_AGE;}
