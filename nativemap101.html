@@ -515,7 +515,7 @@
             eraRect.setAttribute('width', width - ORIGIN_X); // グリッドエリアの幅
             eraRect.setAttribute('height', height);
             eraRect.setAttribute('fill', era.color || '#f0f8ff');
-            eraRect.setAttribute('opacity', '0.2'); // より薄くして線が見えるように
+            eraRect.setAttribute('opacity', '0.4'); // 適度な透明度で線も見えるように
             eraRect.setAttribute('class', 'era-background');
             eraRect.setAttribute('data-era-name', era.name || '');
             
@@ -655,8 +655,14 @@
         <span style="font-size: 11px; color: #666; font-weight: normal;">ドラッグで一覧の順序を変更できます</span>
       </h4>
       <div style="max-height: 400px; overflow-y: auto; width: 500px;" id="detailListContainer">
-        ${items.length > 0 ? items.map((item, index) => `
-          <div class="detail-item" data-year="${year}" data-index="${index}" style="border: 1px solid #ddd; margin: 8px 0; padding: 12px; border-radius: 6px; background: #f9f9f9; cursor: move; user-select: none;" draggable="true">
+        ${items.length > 0 ? items.map((item, index) => {
+          // 元の配列での実際のインデックスを取得
+          const allItems = events[year] || [];
+          const actualIndex = allItems.findIndex(originalItem => 
+            originalItem.label === item.label && originalItem.genre === item.genre
+          );
+          return `
+          <div class="detail-item" data-year="${year}" data-index="${actualIndex}" style="border: 1px solid #ddd; margin: 8px 0; padding: 12px; border-radius: 6px; background: #f9f9f9; cursor: move; user-select: none;" draggable="true">
             <div style="display: flex; justify-content: space-between; align-items: center;">
               <div style="flex: 1;">
                 <div style="font-weight: bold; margin-bottom: 4px;">${item.label}</div>
@@ -668,8 +674,8 @@
               </div>
               <div style="display: flex; gap: 8px;">
                 <button onclick="openUrl('${item.url || ''}')" style="padding: 4px 8px; font-size: 12px;" ${!item.url ? 'disabled' : ''}>🌐</button>
-                <button onclick="editItem(${year}, ${index})" style="padding: 4px 8px; font-size: 12px;">✏️</button>
-                <button onclick="deleteItem(${year}, ${index})" style="padding: 4px 8px; font-size: 12px; color: #d32f2f;">🗑️</button>
+                <button onclick="editItem(${year}, ${actualIndex})" style="padding: 4px 8px; font-size: 12px;">✏️</button>
+                <button onclick="deleteItem(${year}, ${actualIndex})" style="padding: 4px 8px; font-size: 12px; color: #d32f2f;">🗑️</button>
               </div>
             </div>
           </div>
