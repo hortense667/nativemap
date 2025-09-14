@@ -373,6 +373,8 @@
   
   // 時代区分設定ポップアップの表示
   function showEraSettingsModal() {
+    // 既存のモーダルを閉じる
+    closeModal();
     const colorOptions = [
       { value: '#f0f8ff', label: '薄い青' },
       { value: '#f0fff0', label: '薄い緑' },
@@ -414,7 +416,6 @@
     `).join('');
     
     const modalContent = `
-      <h3>時代区分設定</h3>
       <div style="max-height: 400px; overflow-y: auto;">
         ${eraItems}
         ${eraSettings.length < 8 ? `
@@ -499,16 +500,16 @@
           
           if (height > 0) {
             const eraRect = document.createElementNS('http://www.w3.org/2000/svg', 'rect');
-            eraRect.setAttribute('x', 0);
+            eraRect.setAttribute('x', ORIGIN_X); // グリッドの開始位置から
             eraRect.setAttribute('y', startY);
-            eraRect.setAttribute('width', width);
+            eraRect.setAttribute('width', width - ORIGIN_X); // グリッドエリアの幅
             eraRect.setAttribute('height', height);
             eraRect.setAttribute('fill', era.color || '#f0f8ff');
-            eraRect.setAttribute('opacity', '0.3'); // 薄くして線が見えるように
+            eraRect.setAttribute('opacity', '0.2'); // より薄くして線が見えるように
             eraRect.setAttribute('class', 'era-background');
             eraRect.setAttribute('data-era-name', era.name || '');
             
-            // グリッドの後に挿入（背景として）
+            // グリッドの前に挿入（背景として）
             stage.insertBefore(eraRect, gridG);
           }
         } catch (error) {
