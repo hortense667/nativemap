@@ -376,14 +376,25 @@
     // 既存のモーダルを閉じる
     closeModal();
     const colorOptions = [
-      { value: '#f0f8ff', label: '薄い青' },
-      { value: '#f0fff0', label: '薄い緑' },
-      { value: '#fff0f0', label: '薄い赤' },
-      { value: '#fff8f0', label: '薄いオレンジ' },
-      { value: '#f8f0ff', label: '薄い紫' },
-      { value: '#f0ffff', label: '薄い水色' },
-      { value: '#fffff0', label: '薄い黄' },
-      { value: '#f5f5f5', label: '薄いグレー' }
+      { value: '#4169E1', label: '青' },
+      { value: '#32CD32', label: '緑' },
+      { value: '#DC143C', label: '赤' },
+      { value: '#FF8C00', label: 'オレンジ' },
+      { value: '#8A2BE2', label: '紫' },
+      { value: '#00CED1', label: '水色' },
+      { value: '#FFD700', label: '黄' },
+      { value: '#696969', label: 'グレー' }
+    ];
+    
+    const opacityOptions = [
+      { value: '0.1', label: '10%' },
+      { value: '0.2', label: '20%' },
+      { value: '0.3', label: '30%' },
+      { value: '0.4', label: '40%' },
+      { value: '0.5', label: '50%' },
+      { value: '0.6', label: '60%' },
+      { value: '0.7', label: '70%' },
+      { value: '0.8', label: '80%' }
     ];
     
     const eraItems = eraSettings.map((era, index) => `
@@ -406,11 +417,19 @@
             <input type="number" id="eraEnd${index}" value="${era.endYear || ''}" style="width: 100%; padding: 4px; border: 1px solid #ddd; border-radius: 4px;" min="1945" max="2050">
           </div>
         </div>
-        <div>
-          <label style="display: block; margin-bottom: 4px; font-weight: bold;">塗色:</label>
-          <select id="eraColor${index}" style="width: 100%; padding: 4px; border: 1px solid #ddd; border-radius: 4px;">
-            ${colorOptions.map(color => `<option value="${color.value}" ${era.color === color.value ? 'selected' : ''}>${color.label}</option>`).join('')}
-          </select>
+        <div style="display: flex; gap: 8px; margin-bottom: 8px;">
+          <div style="flex: 1;">
+            <label style="display: block; margin-bottom: 4px; font-weight: bold;">塗色:</label>
+            <select id="eraColor${index}" style="width: 100%; padding: 4px; border: 1px solid #ddd; border-radius: 4px;">
+              ${colorOptions.map(color => `<option value="${color.value}" ${era.color === color.value ? 'selected' : ''}>${color.label}</option>`).join('')}
+            </select>
+          </div>
+          <div style="flex: 1;">
+            <label style="display: block; margin-bottom: 4px; font-weight: bold;">透明度:</label>
+            <select id="eraOpacity${index}" style="width: 100%; padding: 4px; border: 1px solid #ddd; border-radius: 4px;">
+              ${opacityOptions.map(opacity => `<option value="${opacity.value}" ${era.opacity === opacity.value ? 'selected' : ''}>${opacity.label}</option>`).join('')}
+            </select>
+          </div>
         </div>
       </div>
     `).join('');
@@ -440,7 +459,8 @@
       name: '',
       startYear: '',
       endYear: '',
-      color: '#f0f8ff',
+      color: '#4169E1',
+      opacity: '0.3',
       enabled: true
     });
     
@@ -456,7 +476,8 @@
       const name = document.getElementById(`eraName${i}`)?.value || '';
       const startYear = parseInt(document.getElementById(`eraStart${i}`)?.value) || 0;
       const endYear = parseInt(document.getElementById(`eraEnd${i}`)?.value) || 0;
-      const color = document.getElementById(`eraColor${i}`)?.value || '#f0f8ff';
+      const color = document.getElementById(`eraColor${i}`)?.value || '#4169E1';
+      const opacity = document.getElementById(`eraOpacity${i}`)?.value || '0.3';
       
       if (name && startYear && endYear) {
         newEraSettings.push({
@@ -464,6 +485,7 @@
           startYear,
           endYear,
           color,
+          opacity,
           enabled
         });
       }
@@ -514,8 +536,8 @@
             eraRect.setAttribute('y', startY);
             eraRect.setAttribute('width', width - ORIGIN_X); // グリッドエリアの幅
             eraRect.setAttribute('height', height);
-            eraRect.setAttribute('fill', era.color || '#f0f8ff');
-            eraRect.setAttribute('opacity', '1.0'); // 適度な透明度で線も見えるように
+            eraRect.setAttribute('fill', era.color || '#4169E1');
+            eraRect.setAttribute('opacity', era.opacity || '0.3'); // 設定された透明度を使用
             eraRect.setAttribute('class', 'era-background');
             eraRect.setAttribute('data-era-name', era.name || '');
             
@@ -1388,8 +1410,27 @@
         return;
       }
 
+      // リモートのeraSettingsも取得
+      const remoteEraSettings = await fetch(`https://api.github.com/repos/${githubConfig.owner}/${githubConfig.repo}/contents/${githubConfig.filePath}`, {
+        headers: {
+          'Authorization': `Bearer ${githubConfig.accessToken}`,
+          'Accept': 'application/vnd.github.v3+json'
+        }
+      }).then(response => response.json()).then(responseData => {
+        const binaryString = atob(responseData.content);
+        const bytes = new Uint8Array(binaryString.length);
+        for (let i = 0; i < binaryString.length; i++) {
+          bytes[i] = binaryString.charCodeAt(i);
+        }
+        const content = new TextDecoder('utf-8').decode(bytes);
+        const data = JSON.parse(content);
+        return data.eraSettings || [];
+      }).catch(() => []);
+
       console.log('同期開始 - リモートデータ:', remoteData);
       console.log('同期開始 - ローカルデータ:', events);
+      console.log('同期開始 - リモートeraSettings:', remoteEraSettings);
+      console.log('同期開始 - ローカルeraSettings:', eraSettings);
 
       // 2. ローカルデータとマージ（順序を保持）
       const localData = events;
@@ -1418,11 +1459,15 @@
       console.log('同期完了 - マージ後データ:', merged);
       console.log('マージ後データサイズ:', JSON.stringify(merged).length, 'bytes');
 
-      // 3. マージしたデータを保存
+      // 3. eraSettingsのマージ処理（ローカルを優先）
+      const mergedEraSettings = eraSettings.length > 0 ? eraSettings : remoteEraSettings;
+      console.log('eraSettings同期:', { local: eraSettings, remote: remoteEraSettings, merged: mergedEraSettings });
+
+      // 4. マージしたデータを保存
       console.log('GitHubにデータを保存中...');
       const dataToSave = {
         events: merged,
-        eraSettings: eraSettings
+        eraSettings: mergedEraSettings
       };
       const success = await saveToGitHub(dataToSave);
       if (success) {
