@@ -40,18 +40,18 @@
     ],
     "1947": [
       {
-        "label": "夜と霧",
-        "genre": "BOO",
-        "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/夜と霧",
-        "note": "極限状況の人間学"
-      },
-      {
         "label": "ニュー・ルック",
         "genre": "FAS",
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/ニュー・ルック",
         "note": "戦後女性像を刷新した革新"
+      },
+      {
+        "label": "夜と霧",
+        "genre": "BOO",
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/夜と霧",
+        "note": "極限状況の人間学"
       },
       {
         "label": "H&M",
