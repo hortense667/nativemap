@@ -465,31 +465,48 @@
   
   // 新しい時代区分項目を追加
   function addEraItem() {
-    if (eraSettings.length >= 8) return;
+    console.log('addEraItem開始: 現在のeraSettings', eraSettings);
     
-    eraSettings.push({
+    if (eraSettings.length >= 8) {
+      console.log('addEraItem: 8件の制限に達しているため追加をスキップ');
+      return;
+    }
+    
+    const newItem = {
       name: '',
       startYear: '',
       endYear: '',
       color: '#4169E1',
       opacity: '0.3',
       enabled: true
-    });
+    };
+    
+    eraSettings.push(newItem);
+    console.log('addEraItem: 新しい項目を追加', newItem);
+    console.log('addEraItem: 更新後のeraSettings', eraSettings);
     
     showEraSettingsModal();
   }
   
   // 時代区分設定を保存
   function saveEraSettings() {
+    console.log('saveEraSettings開始: 現在のeraSettings', eraSettings);
+    
     const newEraSettings = [];
     
-    for (let i = 0; i < eraSettings.length; i++) {
+    // 現在のeraSettingsの長さを確認
+    const currentLength = eraSettings ? eraSettings.length : 0;
+    console.log('現在のeraSettingsの長さ:', currentLength);
+    
+    for (let i = 0; i < currentLength; i++) {
       const enabled = document.getElementById(`eraEnabled${i}`)?.checked || false;
       const name = document.getElementById(`eraName${i}`)?.value || '';
       const startYear = parseInt(document.getElementById(`eraStart${i}`)?.value) || 0;
       const endYear = parseInt(document.getElementById(`eraEnd${i}`)?.value) || 0;
       const color = document.getElementById(`eraColor${i}`)?.value || '#4169E1';
       const opacity = document.getElementById(`eraOpacity${i}`)?.value || '0.3';
+      
+      console.log(`項目${i}:`, { enabled, name, startYear, endYear, color, opacity });
       
       if (name && startYear && endYear) {
         newEraSettings.push({
@@ -508,12 +525,14 @@
       newEraSettings.splice(8);
     }
     
+    console.log('saveEraSettings: 新しいeraSettings', newEraSettings);
+    
+    // グローバル変数を確実に更新
     eraSettings = newEraSettings;
-    console.log('saveEraSettings: eraSettings更新', {
-      newEraSettings: newEraSettings,
-      length: newEraSettings.length,
-      content: newEraSettings
-    });
+    
+    console.log('saveEraSettings: 更新後のeraSettings', eraSettings);
+    console.log('saveEraSettings: eraSettingsの長さ', eraSettings.length);
+    
     saveEvents(); // ローカルストレージに保存
     closeModal();
     renderEraBackgrounds();
@@ -1450,6 +1469,8 @@
   async function syncWithGitHub() {
     try {
       console.log('同期処理開始');
+      console.log('同期開始時のeraSettings:', eraSettings);
+      console.log('同期開始時のeraSettingsの長さ:', eraSettings ? eraSettings.length : 0);
       console.log('ローカルデータサイズ:', JSON.stringify(events).length, 'bytes');
       
       // 1. GitHubからデータを読み込み
