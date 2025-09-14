@@ -357,13 +357,6 @@
         "note": "特撮ヒーローの嚆矢"
       },
       {
-        "label": "レゴ",
-        "genre": "TOY",
-        "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/レゴ",
-        "note": "現代ブロック玩具の定番"
-      },
-      {
         "label": "めまい",
         "genre": "MOV",
         "imp": 5,
@@ -376,6 +369,13 @@
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/フラフープ",
         "note": "世界的な腰回し玩具"
+      },
+      {
+        "label": "レゴ",
+        "genre": "TOY",
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/レゴ",
+        "note": "現代ブロック玩具の定番"
       },
       {
         "label": "白蛇伝",
