@@ -1792,7 +1792,11 @@
         }
       } else {
         // その他のフィールドは従来通り
-        if (localValue !== remoteValue) {
+        // ただし、空文字列とundefinedの違いは競合としない
+        const localNormalized = localValue === '' ? undefined : localValue;
+        const remoteNormalized = remoteValue === '' ? undefined : remoteValue;
+        
+        if (localNormalized !== remoteNormalized) {
           console.log(`真の競合検出: ${field} フィールドが異なります`);
           console.log(`ローカル: "${localValue}"`);
           console.log(`リモート: "${remoteValue}"`);
@@ -1814,7 +1818,8 @@
   // 真の注釈競合をチェック（追記による変更は競合としない）
   function isRealNoteConflict(localNote, remoteNote) {
     if (!localNote && !remoteNote) return false;
-    if (!localNote || !remoteNote) return true;
+    if (!localNote && remoteNote) return false; // ローカルに注釈がなく、リモートにある場合は競合ではない
+    if (localNote && !remoteNote) return false; // ローカルに注釈があり、リモートにない場合は競合ではない
     if (localNote === remoteNote) return false;
     
     // リモートの注釈を解析
