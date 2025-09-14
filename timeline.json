@@ -140,16 +140,16 @@
   ],
   "1952": [
     {
-      "label": "テレビ放送開始",
-      "genre": "PHE",
-      "imp": 4
-    },
-    {
       "label": "鉄腕アトム",
       "genre": "MAN",
       "imp": 5,
       "url": "https://ja.wikipedia.org/wiki/鉄腕アトム",
       "note": "国民的SFヒーロー"
+    },
+    {
+      "label": "テレビ放送開始",
+      "genre": "PHE",
+      "imp": 4
     },
     {
       "label": "禁じられた遊び",
@@ -182,6 +182,13 @@
   ],
   "1953": [
     {
+      "label": "東京物語",
+      "genre": "MOV",
+      "imp": 5,
+      "url": "https://ja.wikipedia.org/wiki/東京物語",
+      "note": "家族映画の最高峰"
+    },
+    {
       "label": "リボンの騎士",
       "genre": "MAN",
       "imp": 4,
@@ -194,13 +201,6 @@
       "imp": 5,
       "url": "https://ja.wikipedia.org/wiki/NHK紅白歌合戦",
       "note": "年末音楽番組の国民行事"
-    },
-    {
-      "label": "東京物語",
-      "genre": "MOV",
-      "imp": 5,
-      "url": "https://ja.wikipedia.org/wiki/東京物語",
-      "note": "家族映画の最高峰"
     },
     {
       "label": "マッチボックス(ミニカー)",
@@ -226,13 +226,6 @@
   ],
   "1954": [
     {
-      "label": "火の鳥",
-      "genre": "MAN",
-      "imp": 5,
-      "url": "https://ja.wikipedia.org/wiki/火の鳥",
-      "note": "生命と輪廻を描く大作"
-    },
-    {
       "label": "ザ・トゥナイト・ショー",
       "genre": "TVP",
       "imp": 4,
@@ -245,6 +238,13 @@
       "imp": 5,
       "url": "https://ja.wikipedia.org/wiki/七人の侍",
       "note": "群像アクションの原点"
+    },
+    {
+      "label": "火の鳥",
+      "genre": "MAN",
+      "imp": 5,
+      "url": "https://ja.wikipedia.org/wiki/火の鳥",
+      "note": "生命と輪廻を描く大作"
     },
     {
       "label": "ゴジラ",
