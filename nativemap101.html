@@ -479,37 +479,50 @@
   
   // 時代区分の背景色を描画
   function renderEraBackgrounds() {
-    // 既存の時代区分背景を削除
-    const existingEras = document.querySelectorAll('.era-background');
-    existingEras.forEach(el => el.remove());
-    
-    // 有効な時代区分のみを描画
-    const enabledEras = eraSettings.filter(era => era.enabled);
-    
-    enabledEras.forEach(era => {
-      const startY = yFromBirthYear(era.startYear);
-      const endY = yFromBirthYear(era.endYear + 1); // 終了年の次の年まで
-      const height = endY - startY;
-      
-      if (height > 0) {
-        const eraRect = document.createElementNS('http://www.w3.org/2000/svg', 'rect');
-        eraRect.setAttribute('x', 0);
-        eraRect.setAttribute('y', startY);
-        eraRect.setAttribute('width', width);
-        eraRect.setAttribute('height', height);
-        eraRect.setAttribute('fill', era.color);
-        eraRect.setAttribute('opacity', '0.3'); // 薄くして線が見えるように
-        eraRect.setAttribute('class', 'era-background');
-        eraRect.setAttribute('data-era-name', era.name);
-        
-        // グリッドの後に挿入（背景として）
-        stage.insertBefore(eraRect, gridG);
+    try {
+      // 必要な要素が存在するかチェック
+      if (!stage || !gridG) {
+        console.log('stage または gridG が未定義のため、時代区分背景の描画をスキップ');
+        return;
       }
-    });
+      
+      // 既存の時代区分背景を削除
+      const existingEras = document.querySelectorAll('.era-background');
+      existingEras.forEach(el => el.remove());
+      
+      // 有効な時代区分のみを描画
+      const enabledEras = (eraSettings || []).filter(era => era && era.enabled);
+      
+      enabledEras.forEach(era => {
+        try {
+          const startY = yFromBirthYear(era.startYear);
+          const endY = yFromBirthYear(era.endYear + 1); // 終了年の次の年まで
+          const height = endY - startY;
+          
+          if (height > 0) {
+            const eraRect = document.createElementNS('http://www.w3.org/2000/svg', 'rect');
+            eraRect.setAttribute('x', 0);
+            eraRect.setAttribute('y', startY);
+            eraRect.setAttribute('width', width);
+            eraRect.setAttribute('height', height);
+            eraRect.setAttribute('fill', era.color || '#f0f8ff');
+            eraRect.setAttribute('opacity', '0.3'); // 薄くして線が見えるように
+            eraRect.setAttribute('class', 'era-background');
+            eraRect.setAttribute('data-era-name', era.name || '');
+            
+            // グリッドの後に挿入（背景として）
+            stage.insertBefore(eraRect, gridG);
+          }
+        } catch (error) {
+          console.error('時代区分の描画エラー:', error, era);
+        }
+      });
+    } catch (error) {
+      console.error('renderEraBackgrounds エラー:', error);
+    }
   }
   
-  // 初期化時に時代区分背景を描画
-  renderEraBackgrounds();
+  // 初期化時に時代区分背景を描画（後で実行）
   
   function passesFilter(it){ 
     // ジャンルフィルタ（複数選択対応）
@@ -602,10 +615,14 @@
     document.body.appendChild(bandContainer);
   }
   
-  drawGrid();
-  createFixedAgeLabels();
-  createAgeBand();
-  updateGenreFilterButtonText();
+  try {
+    drawGrid();
+    createFixedAgeLabels();
+    createAgeBand();
+    updateGenreFilterButtonText();
+  } catch (error) {
+    console.error('初期化エラー:', error);
+  }
 
   const tooltip=document.getElementById('tooltip');
   function positionTooltip(e){const r=vp.getBoundingClientRect();tooltip.style.left=(e.clientX-r.left+14)+'px';tooltip.style.top=(e.clientY-r.top+14)+'px';}
@@ -1080,7 +1097,15 @@
       tx.addEventListener('click',(e)=>{ tooltip.style.display='none'; showDetailList(y, e.target); });
     }
   }
-  renderEvents();
+  
+  try {
+    renderEvents();
+    
+    // 初期化時に時代区分背景を描画
+    renderEraBackgrounds();
+  } catch (error) {
+    console.error('レンダリングエラー:', error);
+  }
 
   // ===== 検索 =====
   function doSearch(){ 
