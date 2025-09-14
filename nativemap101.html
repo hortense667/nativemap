@@ -422,9 +422,9 @@
 
     editor.innerHTML = `
       <h4><span>${year}年</span></h4>
-      <div style="max-height: 400px; overflow-y: auto; width: 500px;">
+      <div style="max-height: 400px; overflow-y: auto; width: 500px;" id="detailListContainer">
         ${items.length > 0 ? items.map((item, index) => `
-          <div style="border: 1px solid #ddd; margin: 8px 0; padding: 12px; border-radius: 6px; background: #f9f9f9;">
+          <div class="detail-item" data-year="${year}" data-index="${index}" style="border: 1px solid #ddd; margin: 8px 0; padding: 12px; border-radius: 6px; background: #f9f9f9; cursor: move; user-select: none;" draggable="true">
             <div style="display: flex; justify-content: space-between; align-items: center;">
               <div style="flex: 1;">
                 <div style="font-weight: bold; margin-bottom: 4px;">${item.label}</div>
@@ -435,8 +435,6 @@
                 </div>
               </div>
               <div style="display: flex; gap: 8px;">
-                <button onclick="moveItem(${year}, ${index}, -1)" style="padding: 4px 8px; font-size: 12px;" ${index === 0 ? 'disabled' : ''}>▲</button>
-                <button onclick="moveItem(${year}, ${index}, 1)" style="padding: 4px 8px; font-size: 12px;" ${index === items.length - 1 ? 'disabled' : ''}>▼</button>
                 <button onclick="openUrl('${item.url || ''}')" style="padding: 4px 8px; font-size: 12px;" ${!item.url ? 'disabled' : ''}>🌐</button>
                 <button onclick="editItem(${year}, ${index})" style="padding: 4px 8px; font-size: 12px;">✏️</button>
                 <button onclick="deleteItem(${year}, ${index})" style="padding: 4px 8px; font-size: 12px; color: #d32f2f;">🗑️</button>
@@ -472,6 +470,88 @@
     }
     editor.querySelector('#addBtn').onclick = () => { addNewItem(year); };
     editor.querySelector('#closeBtn').onclick = close;
+    
+    // ドラッグ&ドロップイベントを設定
+    setupDragAndDrop(year);
+  }
+
+  // ===== ドラッグ&ドロップ機能 =====
+  function setupDragAndDrop(year) {
+    const container = document.getElementById('detailListContainer');
+    if (!container) return;
+    
+    let draggedElement = null;
+    let draggedIndex = null;
+    
+    // ドラッグ開始
+    container.addEventListener('dragstart', (e) => {
+      if (e.target.classList.contains('detail-item')) {
+        draggedElement = e.target;
+        draggedIndex = parseInt(e.target.dataset.index);
+        e.target.style.opacity = '0.5';
+        e.dataTransfer.effectAllowed = 'move';
+        e.dataTransfer.setData('text/html', e.target.outerHTML);
+      }
+    });
+    
+    // ドラッグ終了
+    container.addEventListener('dragend', (e) => {
+      if (e.target.classList.contains('detail-item')) {
+        e.target.style.opacity = '';
+        draggedElement = null;
+        draggedIndex = null;
+      }
+    });
+    
+    // ドラッグオーバー
+    container.addEventListener('dragover', (e) => {
+      e.preventDefault();
+      e.dataTransfer.dropEffect = 'move';
+      
+      const afterElement = getDragAfterElement(container, e.clientY);
+      if (afterElement == null) {
+        container.appendChild(draggedElement);
+      } else {
+        container.insertBefore(draggedElement, afterElement);
+      }
+    });
+    
+    // ドロップ
+    container.addEventListener('drop', (e) => {
+      e.preventDefault();
+      
+      if (draggedElement && draggedIndex !== null) {
+        const newIndex = Array.from(container.children).indexOf(draggedElement);
+        
+        if (newIndex !== draggedIndex) {
+          // 項目の順序を変更
+          const items = events[year] || [];
+          const item = items.splice(draggedIndex, 1)[0];
+          items.splice(newIndex, 0, item);
+          
+          // データを保存して画面を更新
+          saveEvents();
+          renderEvents();
+          showDetailList(year, null);
+        }
+      }
+    });
+  }
+  
+  // ドラッグ後の要素位置を取得
+  function getDragAfterElement(container, y) {
+    const draggableElements = [...container.querySelectorAll('.detail-item:not(.dragging)')];
+    
+    return draggableElements.reduce((closest, child) => {
+      const box = child.getBoundingClientRect();
+      const offset = y - box.top - box.height / 2;
+      
+      if (offset < 0 && offset > closest.offset) {
+        return { offset: offset, element: child };
+      } else {
+        return closest;
+      }
+    }, { offset: Number.NEGATIVE_INFINITY }).element;
   }
 
   // ===== 詳細一覧の操作関数 =====
