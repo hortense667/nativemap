@@ -3578,6 +3578,12 @@
       "note": "サイバーパンク到達点"
     },
     {
+      "label": "PHS",
+      "genre": "HAR",
+      "imp": 4,
+      "url": "https://ja.wikipedia.org/wiki/PHS"
+    },
+    {
       "label": "トイ・ストーリー",
       "genre": "MOV",
       "imp": 5,
@@ -3618,12 +3624,6 @@
       "imp": 4,
       "url": "https://ja.wikipedia.org/wiki/(What%27s_the_Story)_Morning_Glory%3F",
       "note": "ブリットポップ頂点"
-    },
-    {
-      "label": "PHS",
-      "genre": "HAR",
-      "imp": 4,
-      "url": "https://ja.wikipedia.org/wiki/PHS"
     }
   ],
   "1996": [
@@ -3956,6 +3956,13 @@
   ],
   "1999": [
     {
+      "label": "iモード",
+      "genre": "PHE",
+      "imp": 4,
+      "url": "https://ja.wikipedia.org/wiki/Iモード",
+      "note": "携帯インターネット普及"
+    },
+    {
       "label": "BlackBerry",
       "genre": "HAR",
       "imp": 4,
@@ -4019,13 +4026,6 @@
       "note": "社会参加の課題概念"
     },
     {
-      "label": "Iモード",
-      "genre": "PHE",
-      "imp": 4,
-      "url": "https://ja.wikipedia.org/wiki/Iモード",
-      "note": "携帯インターネット普及"
-    },
-    {
       "label": "2000年問題",
       "genre": "PHE",
       "imp": 3,
@@ -4052,9 +4052,22 @@
       "imp": 4,
       "url": "https://ja.wikipedia.org/wiki/LOVEマシーン",
       "note": "アイドル再ブーム象徴"
+    },
+    {
+      "label": "Iモード",
+      "genre": "PHE",
+      "imp": 4,
+      "url": "https://ja.wikipedia.org/wiki/Iモード",
+      "note": "携帯インターネット普及"
     }
   ],
   "2000": [
+    {
+      "label": "写メール",
+      "genre": "NET",
+      "imp": 2,
+      "url": "https://ja.wikipedia.org/wiki/%E5%86%99%E3%83%A1%E3%83%BC%E3%83%AB#:~:text=%E5%86%99%E3%83%A1%E3%83%BC%E3%83%AB%EF%BC%88%E3%82%B7%E3%83%A3%E3%83%A1%E3%83%BC%E3%83%AB%EF%BC%89%E3%81%AF,%E6%8C%87%E3%81%99%E8%A8%80%E8%91%89%E3%81%A8%E3%81%AA%E3%81%A3%E3%81%9F%E3%80%82"
+    },
     {
       "label": "PlayStation 2",
       "genre": "HAR",
@@ -4123,12 +4136,6 @@
       "genre": "NET",
       "imp": 4,
       "url": "https://ja.wikipedia.org/wiki/I%E3%83%A2%E3%83%BC%E3%83%89"
-    },
-    {
-      "label": "写メール",
-      "genre": "NET",
-      "imp": 2,
-      "url": "https://ja.wikipedia.org/wiki/%E5%86%99%E3%83%A1%E3%83%BC%E3%83%AB#:~:text=%E5%86%99%E3%83%A1%E3%83%BC%E3%83%AB%EF%BC%88%E3%82%B7%E3%83%A3%E3%83%A1%E3%83%BC%E3%83%AB%EF%BC%89%E3%81%AF,%E6%8C%87%E3%81%99%E8%A8%80%E8%91%89%E3%81%A8%E3%81%AA%E3%81%A3%E3%81%9F%E3%80%82"
     }
   ],
   "2001": [
