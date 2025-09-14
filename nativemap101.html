@@ -334,6 +334,279 @@
       return {}; 
     } 
   }
+  // 編集フラグを管理するオブジェクト
+  let editFlags = {};
+  
+  // データ鮮度時刻（GitHub上のjsonのタイムスタンプ）
+  let dataFreshnessTimestamp = null;
+  
+  // ラベルバックアップ（編集前のデータ）
+  let labelBackups = {};
+  
+  // 順番変更フラグ
+  let orderChanged = false;
+  
+  // 編集フラグを保存
+  function saveEditFlags() {
+    localStorage.setItem('nativemap_edit_flags', JSON.stringify(editFlags));
+  }
+  
+  // 編集フラグを読み込み
+  function loadEditFlags() {
+    const saved = localStorage.getItem('nativemap_edit_flags');
+    if (saved) {
+      editFlags = JSON.parse(saved);
+    }
+  }
+  
+  // データ鮮度時刻を保存
+  function saveDataFreshnessTimestamp() {
+    localStorage.setItem('nativemap_data_freshness', JSON.stringify(dataFreshnessTimestamp));
+  }
+  
+  // データ鮮度時刻を読み込み
+  function loadDataFreshnessTimestamp() {
+    const saved = localStorage.getItem('nativemap_data_freshness');
+    if (saved) {
+      dataFreshnessTimestamp = JSON.parse(saved);
+    }
+  }
+  
+  // ラベルバックアップを保存
+  function saveLabelBackups() {
+    localStorage.setItem('nativemap_label_backups', JSON.stringify(labelBackups));
+  }
+  
+  // ラベルバックアップを読み込み
+  function loadLabelBackups() {
+    const saved = localStorage.getItem('nativemap_label_backups');
+    if (saved) {
+      labelBackups = JSON.parse(saved);
+    }
+  }
+  
+  // 項目の編集フラグを設定
+  function setEditFlag(year, label, genre) {
+    const key = `${year}|${label}|${genre || ''}`;
+    editFlags[key] = true;
+    saveEditFlags();
+    console.log('編集フラグを設定:', key);
+  }
+  
+  // 項目の編集フラグをチェック
+  function hasEditFlag(year, label, genre) {
+    const key = `${year}|${label}|${genre || ''}`;
+    return editFlags[key] === true;
+  }
+  
+  // 編集フラグをクリア
+  function clearEditFlags() {
+    editFlags = {};
+    saveEditFlags();
+    console.log('編集フラグをクリアしました');
+  }
+  
+  // ラベルバックアップを設定
+  function setLabelBackup(year, label, genre, backupData) {
+    const key = `${year}|${label}|${genre || ''}`;
+    labelBackups[key] = backupData;
+    saveLabelBackups();
+    console.log('ラベルバックアップを設定:', key, backupData);
+  }
+  
+  // ラベルバックアップを取得
+  function getLabelBackup(year, label, genre) {
+    const key = `${year}|${label}|${genre || ''}`;
+    return labelBackups[key];
+  }
+  
+  // ラベルバックアップをクリア
+  function clearLabelBackups() {
+    labelBackups = {};
+    saveLabelBackups();
+    console.log('ラベルバックアップをクリアしました');
+  }
+  
+  // データ鮮度時刻を設定
+  function setDataFreshnessTimestamp(timestamp) {
+    dataFreshnessTimestamp = timestamp;
+    saveDataFreshnessTimestamp();
+    console.log('データ鮮度時刻を設定:', timestamp);
+  }
+  
+  // データ鮮度時刻を取得
+  function getDataFreshnessTimestamp() {
+    return dataFreshnessTimestamp;
+  }
+  
+  // 順番変更フラグを設定
+  function setOrderChanged(flag) {
+    orderChanged = flag;
+    console.log('順番変更フラグを設定:', flag);
+  }
+  
+  // 順番変更フラグを取得
+  function getOrderChanged() {
+    return orderChanged;
+  }
+  
+  // 要注意モードかどうかを判定
+  function isCautionMode(remoteTimestamp) {
+    const localTimestamp = getDataFreshnessTimestamp();
+    if (!localTimestamp || !remoteTimestamp) {
+      return false;
+    }
+    
+    const localDate = new Date(localTimestamp);
+    const remoteDate = new Date(remoteTimestamp);
+    
+    return remoteDate > localDate;
+  }
+  
+  // 通常モードでの同期処理
+  function performNormalModeSync(localData, remoteData) {
+    console.log('通常モードでの同期を実行');
+    
+    // 順番変更フラグが立っている場合は強制的にローカルの順番を反映
+    if (getOrderChanged()) {
+      console.log('順番変更が検出されたため、ローカルの順番を強制反映');
+      return { merged: localData, conflicts: [] };
+    }
+    
+    // 編集フラグが立っている項目のみローカルを保持、それ以外はリモートを採用
+    const merged = {};
+    
+    for (const [year, localItems] of Object.entries(localData)) {
+      const remoteItems = remoteData[year] || [];
+      const mergedItems = [];
+      const localItemMap = new Map();
+      const remoteItemMap = new Map();
+      
+      // ローカルアイテムをマップ化
+      localItems.forEach(item => {
+        const key = `${item.label}|${item.genre || ''}`;
+        localItemMap.set(key, item);
+      });
+      
+      // リモートアイテムをマップ化
+      remoteItems.forEach(item => {
+        const key = `${item.label}|${item.genre || ''}`;
+        remoteItemMap.set(key, item);
+      });
+      
+      const processedKeys = new Set();
+      
+      // ローカルアイテムを処理
+      for (const [key, localItem] of localItemMap) {
+        const remoteItem = remoteItemMap.get(key);
+        const hasLocalEdit = hasEditFlag(year, localItem.label, localItem.genre);
+        
+        if (hasLocalEdit) {
+          // 編集フラグが立っている場合はローカルを保持
+          mergedItems.push(localItem);
+        } else if (remoteItem) {
+          // 編集フラグが立っていない場合はリモートを採用
+          mergedItems.push(remoteItem);
+        } else {
+          // リモートにない場合はローカルを保持
+          mergedItems.push(localItem);
+        }
+        processedKeys.add(key);
+      }
+      
+      // リモートのみに存在するアイテムを追加
+      for (const [key, remoteItem] of remoteItemMap) {
+        if (!processedKeys.has(key)) {
+          mergedItems.push(remoteItem);
+        }
+      }
+      
+      merged[year] = mergedItems;
+    }
+    
+    return { merged, conflicts: [] };
+  }
+  
+  // 要注意モードでの同期処理
+  function performCautionModeSync(localData, remoteData) {
+    console.log('要注意モードでの同期を実行');
+    
+    const conflicts = [];
+    const merged = {};
+    
+    for (const [year, localItems] of Object.entries(localData)) {
+      const remoteItems = remoteData[year] || [];
+      const mergedItems = [];
+      const localItemMap = new Map();
+      const remoteItemMap = new Map();
+      
+      // ローカルアイテムをマップ化
+      localItems.forEach(item => {
+        const key = `${item.label}|${item.genre || ''}`;
+        localItemMap.set(key, item);
+      });
+      
+      // リモートアイテムをマップ化
+      remoteItems.forEach(item => {
+        const key = `${item.label}|${item.genre || ''}`;
+        remoteItemMap.set(key, item);
+      });
+      
+      const processedKeys = new Set();
+      
+      // ローカルアイテムを処理
+      for (const [key, localItem] of localItemMap) {
+        const remoteItem = remoteItemMap.get(key);
+        const hasLocalEdit = hasEditFlag(year, localItem.label, localItem.genre);
+        
+        if (hasLocalEdit) {
+          // 編集フラグが立っている場合は競合チェック
+          if (remoteItem) {
+            const backup = getLabelBackup(year, localItem.label, localItem.genre);
+            if (backup && JSON.stringify(backup) === JSON.stringify(remoteItem)) {
+              // バックアップとリモートが同じ場合はローカルの編集を採用
+              mergedItems.push(localItem);
+            } else {
+              // バックアップとリモートが異なる場合は競合エラー
+              conflicts.push({
+                year: year,
+                label: localItem.label,
+                genre: localItem.genre || '',
+                localItem: localItem,
+                remoteItem: remoteItem,
+                conflictFields: [{ field: 'content', localValue: localItem, remoteValue: remoteItem }]
+              });
+              // 競合の場合はバックアップに戻す
+              mergedItems.push(backup || remoteItem);
+            }
+          } else {
+            // リモートにない場合はローカルを保持
+            mergedItems.push(localItem);
+          }
+        } else {
+          // 編集フラグが立っていない場合はリモートを採用
+          if (remoteItem) {
+            mergedItems.push(remoteItem);
+          } else {
+            mergedItems.push(localItem);
+          }
+        }
+        processedKeys.add(key);
+      }
+      
+      // リモートのみに存在するアイテムを追加
+      for (const [key, remoteItem] of remoteItemMap) {
+        if (!processedKeys.has(key)) {
+          mergedItems.push(remoteItem);
+        }
+      }
+      
+      merged[year] = mergedItems;
+    }
+    
+    return { merged, conflicts };
+  }
+
   function saveEvents(){ 
     try{ 
       const data = {
@@ -356,6 +629,15 @@
   let eraSettings = []; // 時代区分の設定データ
 
   let events = loadEvents();
+  
+  // 編集フラグを読み込み
+  loadEditFlags();
+  
+  // データ鮮度時刻を読み込み
+  loadDataFreshnessTimestamp();
+  
+  // ラベルバックアップを読み込み
+  loadLabelBackups();
   
   // 時代区分データを読み込み（loadEventsで既に読み込まれている場合は上書きしない）
   if (!eraSettings || eraSettings.length === 0) {
@@ -935,6 +1217,9 @@
           const item = items.splice(draggedIndex, 1)[0];
           items.splice(newIndex, 0, item);
           
+          // 順番変更フラグを設定
+          setOrderChanged(true);
+          
           // データを保存して画面を更新
           saveEvents();
           renderEvents();
@@ -970,6 +1255,9 @@
     const item = items.splice(index, 1)[0];
     items.splice(newIndex, 0, item);
     
+    // 順番変更フラグを設定
+    setOrderChanged(true);
+    
     saveEvents();
     renderEvents();
     showDetailList(year, null);
@@ -992,6 +1280,9 @@
     const items = events[year] || [];
     const item = items[index];
     if (!item) return;
+    
+    // 編集前のデータをバックアップとして保存
+    setLabelBackup(year, item.label, item.genre, { ...item });
     
     showEditModal(year, index, item);
   }
@@ -1138,9 +1429,13 @@
     if (index === -1) {
       // 新しい項目を追加
       events[year].push(newItem);
+      // 新規追加の場合は編集フラグを設定
+      setEditFlag(year, newItem.label, newItem.genre);
     } else {
       // 既存の項目を更新
       events[year][index] = newItem;
+      // 既存項目の編集の場合は編集フラグを設定
+      setEditFlag(year, newItem.label, newItem.genre);
     }
     
     saveEvents();
@@ -1605,7 +1900,7 @@
     console.log('競合通知:', conflicts);
     
     let conflictHtml = '<h4>編集競合が検出されました</h4>';
-    conflictHtml += '<p>以下の項目について、他のユーザーが編集していたため、自動的に調整されました。</p>';
+    conflictHtml += '<p>以下の項目について、編集が競合したため新たに同期してからやりなおしてください。</p>';
     
     let hasNoteConflicts = false;
     let hasOtherConflicts = false;
@@ -1622,60 +1917,28 @@
       if (hasImpConflict || hasUrlConflict) hasOtherConflicts = true;
       
       conflictHtml += `
-        <div style="border: 1px solid #ffa726; margin: 12px 0; padding: 12px; border-radius: 6px; background: #fff8e1;">
-          <h5 style="margin: 0 0 8px 0; color: #f57c00;">${conflict.year}年: ${conflict.label}${conflict.genre ? ` [${conflict.genre}]` : ''}</h5>
+        <div style="border: 1px solid #f44336; margin: 12px 0; padding: 12px; border-radius: 6px; background: #ffebee;">
+          <h5 style="margin: 0 0 8px 0; color: #d32f2f;">${conflict.year}年: ${conflict.label}${conflict.genre ? ` [${conflict.genre}]` : ''}</h5>
+          <div style="margin: 8px 0; padding: 8px; background: #ffcdd2; border-radius: 4px;">
+            <strong style="color: #d32f2f;">編集が競合したため新たに同期してからやりなおしてください</strong>
+          </div>
+        </div>
       `;
-      
-      if (hasNoteConflict) {
-        conflictHtml += `
-          <div style="margin: 8px 0; padding: 8px; background: #e8f5e8; border-radius: 4px;">
-            <strong style="color: #2e7d32;">注釈が追記されました</strong><br>
-            <span style="font-size: 12px; color: #666;">内容を確認してください</span>
-          </div>
-        `;
-      }
-      
-      if (hasImpConflict || hasUrlConflict) {
-        conflictHtml += `
-          <div style="margin: 8px 0; padding: 8px; background: #ffebee; border-radius: 4px;">
-            <strong style="color: #d32f2f;">重要度とURLは反映されませんでした</strong><br>
-            <span style="font-size: 12px; color: #666;">他のユーザーの値が採用されました</span>
-          </div>
-        `;
-      }
-      
-      conflictHtml += `</div>`;
     });
     
-    // 処理完了メッセージ
+    // 注意メッセージ
     conflictHtml += `
-      <div style="margin-top: 16px; padding: 12px; background: #e8f5e8; border: 1px solid #4caf50; border-radius: 6px;">
-        <h6 style="margin: 0 0 8px 0; color: #2e7d32;">処理完了</h6>
-        <p style="margin: 0; font-size: 14px; color: #2e7d32;">
-          同期は正常に完了しました。
+      <div style="margin-top: 16px; padding: 12px; background: #fff3e0; border: 1px solid #ff9800; border-radius: 6px;">
+        <h6 style="margin: 0 0 8px 0; color: #f57c00;">注意</h6>
+        <p style="margin: 0; font-size: 14px; color: #f57c00;">
+          競合した項目は編集前の状態に戻されました。<br>
+          再度同期してから編集をやりなおしてください。
         </p>
+      </div>
     `;
     
-    if (hasNoteConflicts) {
-      conflictHtml += `
-        <p style="margin: 8px 0 0 0; font-size: 14px; color: #2e7d32;">
-          <strong>注釈が追記された項目については、内容を確認してください。</strong>
-        </p>
-      `;
-    }
-    
-    if (hasOtherConflicts) {
-      conflictHtml += `
-        <p style="margin: 8px 0 0 0; font-size: 14px; color: #d32f2f;">
-          <strong>重要度とURLは反映されませんでした。</strong>
-        </p>
-      `;
-    }
-    
-    conflictHtml += `</div>`;
-    
     // モーダルを開く（自動で閉じないようにする）
-    openModal('競合調整完了', conflictHtml);
+    openModal('競合エラー', conflictHtml);
   }
   
   // アイテムの詳細をフォーマット
@@ -1729,24 +1992,33 @@
         const remoteItem = remoteItemMap.get(key);
         
         if (remoteItem) {
-          // 両方に存在する場合：真の競合をチェック
-          const conflictInfo = checkRealConflict(localItem, remoteItem);
-          if (conflictInfo.hasConflict) {
-            conflicts.push({
-              year: year,
-              label: localItem.label,
-              genre: localItem.genre || '',
-              localItem: localItem,
-              remoteItem: remoteItem,
-              conflictFields: conflictInfo.conflictFields
-            });
-            
-            // 真の競合がある場合は自動解決を実行
-            const resolvedItem = resolveConflict(localItem, remoteItem, conflictInfo);
-            mergedItems.push(resolvedItem);
+          // 両方に存在する場合：編集フラグをチェックしてから競合を判定
+          const hasLocalEdit = hasEditFlag(year, localItem.label, localItem.genre);
+          
+          if (hasLocalEdit) {
+            // ローカルで編集されている場合のみ競合をチェック
+            const conflictInfo = checkRealConflict(localItem, remoteItem);
+            if (conflictInfo.hasConflict) {
+              conflicts.push({
+                year: year,
+                label: localItem.label,
+                genre: localItem.genre || '',
+                localItem: localItem,
+                remoteItem: remoteItem,
+                conflictFields: conflictInfo.conflictFields
+              });
+              
+              // 真の競合がある場合は自動解決を実行
+              const resolvedItem = resolveConflict(localItem, remoteItem, conflictInfo);
+              mergedItems.push(resolvedItem);
+            } else {
+              // 競合がない場合はローカルの項目を保持
+              mergedItems.push(localItem);
+            }
           } else {
-            // 競合がない場合はローカルの項目を保持
-            mergedItems.push(localItem);
+            // ローカルで編集されていない場合はリモートの項目を採用
+            console.log('ローカルで編集されていないため、リモートの項目を採用:', localItem.label);
+            mergedItems.push(remoteItem);
           }
         } else {
           // ローカルのみに存在する場合
@@ -1837,7 +2109,6 @@
       
       // ローカルの内容が元の内容と同じ場合は競合としない
       if (originalContent === localTrimmed) {
-        console.log('ローカルの内容が元の内容と同じため競合としない:', localNote);
         return false;
       }
       
@@ -1847,7 +2118,6 @@
       });
       
       if (isInAppendLines) {
-        console.log('ローカルの内容が追記内容に含まれているため競合としない:', localNote);
         return false;
       }
     } else {
@@ -1856,7 +2126,6 @@
       const remoteTrimmed = remoteNote.trim();
       
       if (localTrimmed === remoteTrimmed) {
-        console.log('内容が同じため競合としない:', localNote);
         return false;
       }
     }
@@ -1993,7 +2262,7 @@
       
       // 1. GitHubからデータを読み込み（SHAハッシュも同時に取得）
       console.log('GitHubからデータを読み込み中...');
-      const { remoteData, remoteSha, remoteEraSettings } = await loadFromGitHubWithSha();
+      const { remoteData, remoteSha, remoteEraSettings, timestamp } = await loadFromGitHubWithSha();
       if (remoteData === null) {
         console.log('リモートデータの読み込みに失敗');
         return;
@@ -2004,10 +2273,22 @@
       console.log('同期開始 - リモートeraSettings:', remoteEraSettings);
       console.log('同期開始 - ローカルeraSettings:', eraSettings);
       console.log('同期開始 - リモートSHA:', remoteSha);
+      console.log('同期開始 - リモートタイムスタンプ:', timestamp);
 
-      // 2. ローカルデータとマージ（詳細なマージ処理を使用）
+      // 2. 要注意モードかどうかを判定
+      const cautionMode = isCautionMode(timestamp);
+      console.log('同期モード:', cautionMode ? '要注意モード' : '通常モード');
+
+      // 3. モードに応じて同期処理を実行
       const localData = events;
-      const mergeResult = await performDetailedMerge(localData, remoteData);
+      let mergeResult;
+      
+      if (cautionMode) {
+        mergeResult = performCautionModeSync(localData, remoteData);
+      } else {
+        mergeResult = performNormalModeSync(localData, remoteData);
+      }
+      
       const merged = mergeResult.merged;
       const conflicts = mergeResult.conflicts;
 
@@ -2068,6 +2349,18 @@
         lastSavedEventsData = JSON.stringify(events); // 自動保存の基準を更新
         updateSyncStatus();
         
+        // データ鮮度時刻を更新
+        setDataFreshnessTimestamp(timestamp);
+        
+        // 編集フラグをクリア
+        clearEditFlags();
+        
+        // ラベルバックアップをクリア
+        clearLabelBackups();
+        
+        // 順番変更フラグをクリア
+        setOrderChanged(false);
+        
         // 競合があった場合は競合通知を表示、なければ通常の完了メッセージを表示
         if (conflicts.length > 0) {
           showConflictNotification(conflicts);
@@ -2095,7 +2388,7 @@
   async function loadFromGitHubWithSha() {
     if (!githubConfig.accessToken) {
       showError('設定エラー', 'GitHubアクセストークンが設定されていません。GitHubでログインしてください。');
-      return { remoteData: null, remoteSha: null, remoteEraSettings: [] };
+      return { remoteData: null, remoteSha: null, remoteEraSettings: [], timestamp: null };
     }
 
     try {
@@ -2126,24 +2419,29 @@
       const content = new TextDecoder('utf-8').decode(bytes);
       const data = JSON.parse(content);
       
+      // タイムスタンプを取得
+      const timestamp = responseData.last_modified || new Date().toISOString();
+      
       if (data.events) {
         // 新しい形式（events + eraSettings）
         return { 
           remoteData: data.events, 
           remoteSha: sha, 
-          remoteEraSettings: data.eraSettings || [] 
+          remoteEraSettings: data.eraSettings || [],
+          timestamp: timestamp
         };
       } else {
         // 古い形式（eventsのみ）
         return { 
           remoteData: data, 
           remoteSha: sha, 
-          remoteEraSettings: [] 
+          remoteEraSettings: [],
+          timestamp: timestamp
         };
       }
     } catch (error) {
       showError('読み込みエラー', `GitHubからの読み込みに失敗しました: ${error.message}`);
-      return { remoteData: null, remoteSha: null, remoteEraSettings: [] };
+      return { remoteData: null, remoteSha: null, remoteEraSettings: [], timestamp: null };
     }
   }
 
@@ -2247,6 +2545,9 @@
         localStorage.setItem('lastSync', new Date().toISOString());
         lastSavedEventsData = JSON.stringify(events);
         updateSyncStatus();
+        
+        // 編集フラグをクリア
+        clearEditFlags();
         
         showInfo('データ更新完了', 'GitHubから最新データを読み込みました。');
       } else {
