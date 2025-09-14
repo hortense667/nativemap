@@ -767,10 +767,39 @@
     document.body.appendChild(bandContainer);
   }
   
+  // ヘッダーの高さを取得して年齢表示の位置を調整する関数
+  function updateAgeDisplayPosition() {
+    const header = document.querySelector('header');
+    const ageLabels = document.getElementById('fixed-age-labels');
+    const ageBand = document.getElementById('age-band');
+    const ageTextBlue = document.getElementById('age-text-blue');
+    const ageTextRed = document.getElementById('age-text-red');
+    
+    if (header && ageLabels && ageBand) {
+      const headerHeight = header.offsetHeight;
+      const newTop = headerHeight + 4; // ヘッダーの下に4pxの余白
+      
+      // 年齢ラベルの位置を更新
+      ageLabels.style.top = `${newTop}px`;
+      
+      // 年齢バンドの位置を更新
+      ageBand.style.top = `${newTop - 4}px`;
+      
+      // プローブの年齢表示の位置を更新
+      if (ageTextBlue) {
+        ageTextBlue.style.top = `${newTop + 20}px`;
+      }
+      if (ageTextRed) {
+        ageTextRed.style.top = `${newTop + 20}px`;
+      }
+    }
+  }
+  
   try {
   drawGrid();
     createFixedAgeLabels();
     createAgeBand();
+    updateAgeDisplayPosition(); // 年齢表示の位置を調整
     updateGenreFilterButtonText();
   } catch (error) {
     console.error('初期化エラー:', error);
@@ -1814,6 +1843,24 @@
 
   // 初期化時に同期状態を更新
   updateSyncStatus();
+  
+  // ウィンドウリサイズ時に年齢表示の位置を再調整
+  window.addEventListener('resize', updateAgeDisplayPosition);
+  
+  // ヘッダーの内容変更を監視して年齢表示の位置を再調整
+  const header = document.querySelector('header');
+  if (header) {
+    const observer = new MutationObserver(() => {
+      // 少し遅延させてから位置を調整（レイアウトが完了してから）
+      setTimeout(updateAgeDisplayPosition, 10);
+    });
+    observer.observe(header, {
+      childList: true,
+      subtree: true,
+      attributes: true,
+      attributeFilter: ['style', 'class']
+    });
+  }
 
   // イベントリスナー
   syncBtn.addEventListener('click', async () => {
@@ -1915,6 +1962,9 @@
       ageTextElement.textContent = `${age}歳`;
       ageTextElement.style.left = `${ix + 10}px`;
       ageTextElement.style.display = 'block';
+      
+      // 年齢表示の位置をヘッダーの高さに応じて調整
+      updateAgeDisplayPosition();
       
       // SVG要素は非表示
       ageText.textContent = '';
