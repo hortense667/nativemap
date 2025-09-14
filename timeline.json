@@ -11,18 +11,18 @@
     ],
     "1946": [
       {
-        "label": "サザエさん",
-        "genre": "MAN",
-        "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/サザエさん",
-        "note": "戦後家庭漫画の代表作"
-      },
-      {
         "label": "ENIAC",
         "genre": "HAR",
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/ENIAC",
         "note": "初の大規模電子計算機\n[追記] 初の大規模電子計算機。大砲の弾道計算のために作られた。\n[追記] 初の大規模電子計算機。核物理学の計算が最初の仕事だった。\n[追記] 初の大規模電子計算機\n[追記] 初の大規模電子計算機。大砲の弾道計算のために作られた。"
+      },
+      {
+        "label": "サザエさん",
+        "genre": "MAN",
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/サザエさん",
+        "note": "戦後家庭漫画の代表作"
       },
       {
         "label": "ビキニ",
@@ -41,18 +41,18 @@
     ],
     "1947": [
       {
-        "label": "夜と霧",
-        "genre": "BOO",
-        "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/夜と霧",
-        "note": "極限状況の人間学"
-      },
-      {
         "label": "ニュー・ルック",
         "genre": "FAS",
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/ニュー・ルック",
         "note": "戦後女性像を刷新した革新"
+      },
+      {
+        "label": "夜と霧",
+        "genre": "BOO",
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/夜と霧",
+        "note": "極限状況の人間学"
       },
       {
         "label": "H&M",
@@ -365,18 +365,18 @@
         "note": "ヒッチコックの到達点"
       },
       {
-        "label": "フラフープ",
-        "genre": "TOY",
-        "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/フラフープ",
-        "note": "世界的な腰回し玩具"
-      },
-      {
         "label": "レゴ",
         "genre": "TOY",
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/レゴ",
         "note": "現代ブロック玩具の定番"
+      },
+      {
+        "label": "フラフープ",
+        "genre": "TOY",
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/フラフープ",
+        "note": "世界的な腰回し玩具"
       },
       {
         "label": "白蛇伝",
