@@ -867,13 +867,6 @@
         "note": "昭和の未解決事件"
       },
       {
-        "label": "ホットウィール",
-        "genre": "TOY",
-        "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/ホットウィール",
-        "note": "米発ミニカーの人気銘柄"
-      },
-      {
         "label": "二重らせん",
         "genre": "BOO",
         "imp": 4,
@@ -949,6 +942,13 @@
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/�R���s���[�^�v���O���~���O�̌|�p",
         "note": "�A���S���Y��������"
+      },
+      {
+        "label": "ホットウィール",
+        "genre": "TOY",
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/ホットウィール",
+        "note": "米発ミニカーの人気銘柄"
       }
     ],
     "1969": [
