@@ -1,5 +1,13 @@
 {
   "events": {
+    "1945": [
+      {
+        "label": "終戦",
+        "genre": "PHE",
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/%E7%B5%82%E6%88%A6%E3%81%AE%E6%97%A5"
+      }
+    ],
     "1946": [
       {
         "label": "ビキニ",
@@ -36,7 +44,7 @@
         "genre": "BOO",
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/夜と霧",
-        "note": "極限状況の人間学"
+        "note": "極限状況の人間学。そういう話だったのか！！"
       },
       {
         "label": "ニュー・ルック",
