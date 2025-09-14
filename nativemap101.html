@@ -582,7 +582,9 @@
   }
   
   function openYearWikipedia(year) {
+    // Wikipediaの年ページのURL形式（「年」なし）
     const wikipediaUrl = `https://ja.wikipedia.org/wiki/${year}年`;
+    console.log('Wikipedia URL:', wikipediaUrl); // デバッグ用
     window.open(wikipediaUrl, '_blank');
   }
 
@@ -749,6 +751,7 @@
   // グローバル関数として公開
   window.moveItem = moveItem;
   window.openUrl = openUrl;
+  window.openYearWikipedia = openYearWikipedia;
   window.editItem = editItem;
   window.deleteItem = deleteItem;
   window.addNewItem = addNewItem;
