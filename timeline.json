@@ -6,24 +6,10 @@
         "genre": "PHE",
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/%E7%B5%82%E6%88%A6%E3%81%AE%E6%97%A5",
-        "note": "敗戦を終戦と言い換える。日本人って変わってない。英語ではなんというのでしょう？"
+        "note": "敗戦を終戦と言い換える。日本人って変わってない。英語ではなんというのでしょう？ 諸外国どうなんだろう？"
       }
     ],
     "1946": [
-      {
-        "label": "世界 (雑誌)",
-        "genre": "MAG",
-        "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/世界_(雑誌)",
-        "note": "戦後思想の論壇誌"
-      },
-      {
-        "label": "ENIAC",
-        "genre": "HAR",
-        "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/ENIAC",
-        "note": "初の大規模電子計算機\n[追記] 初の大規模電子計算機。大砲の弾道計算のために作られた。\n[追記] 初の大規模電子計算機。核物理学の計算が最初の仕事だった。\n[追記] 初の大規模電子計算機\n[追記] 初の大規模電子計算機。大砲の弾道計算のために作られた。"
-      },
       {
         "label": "サザエさん",
         "genre": "MAN",
@@ -37,22 +23,36 @@
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/ビキニ",
         "note": "戦後に登場した新水着"
+      },
+      {
+        "label": "ENIAC",
+        "genre": "HAR",
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/ENIAC",
+        "note": "初の大規模電子計算機\n[追記] 初の大規模電子計算機。大砲の弾道計算のために作られた。\n[追記] 初の大規模電子計算機。核物理学の計算が最初の仕事だった。\n[追記] 初の大規模電子計算機\n[追記] 初の大規模電子計算機。大砲の弾道計算のために作られた。"
+      },
+      {
+        "label": "世界 (雑誌)",
+        "genre": "MAG",
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/世界_(雑誌)",
+        "note": "戦後思想の論壇誌"
       }
     ],
     "1947": [
-      {
-        "label": "ニュー・ルック",
-        "genre": "FAS",
-        "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/ニュー・ルック",
-        "note": "戦後女性像を刷新した革新"
-      },
       {
         "label": "夜と霧",
         "genre": "BOO",
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/夜と霧",
         "note": "極限状況の人間学"
+      },
+      {
+        "label": "ニュー・ルック",
+        "genre": "FAS",
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/ニュー・ルック",
+        "note": "戦後女性像を刷新した革新"
       },
       {
         "label": "H&M",
@@ -365,18 +365,18 @@
         "note": "ヒッチコックの到達点"
       },
       {
-        "label": "レゴ",
-        "genre": "TOY",
-        "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/レゴ",
-        "note": "現代ブロック玩具の定番"
-      },
-      {
         "label": "フラフープ",
         "genre": "TOY",
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/フラフープ",
         "note": "世界的な腰回し玩具"
+      },
+      {
+        "label": "レゴ",
+        "genre": "TOY",
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/レゴ",
+        "note": "現代ブロック玩具の定番"
       },
       {
         "label": "白蛇伝",
