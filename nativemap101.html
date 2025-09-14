@@ -421,7 +421,13 @@
     const items = (events[year] || []).filter(passesFilter);
 
     editor.innerHTML = `
-      <h4><span>${year}年</span></h4>
+      <h4 style="display: flex; align-items: center; justify-content: space-between; margin: 0 0 12px 0; font-size: 16px;">
+        <span style="display: flex; align-items: center; gap: 8px;">
+          <span style="cursor: pointer; font-size: 18px;" onclick="openYearWikipedia(${year})" title="${year}年のWikipediaページを開く">🌐</span>
+          <span>${year}年</span>
+        </span>
+        <span style="font-size: 11px; color: #666; font-weight: normal;">ドラッグで一覧の順序を変更できます</span>
+      </h4>
       <div style="max-height: 400px; overflow-y: auto; width: 500px;" id="detailListContainer">
         ${items.length > 0 ? items.map((item, index) => `
           <div class="detail-item" data-year="${year}" data-index="${index}" style="border: 1px solid #ddd; margin: 8px 0; padding: 12px; border-radius: 6px; background: #f9f9f9; cursor: move; user-select: none;" draggable="true">
@@ -573,6 +579,11 @@
     if (url && url.startsWith('http')) {
       window.open(url, '_blank');
     }
+  }
+  
+  function openYearWikipedia(year) {
+    const wikipediaUrl = `https://ja.wikipedia.org/wiki/${year}年`;
+    window.open(wikipediaUrl, '_blank');
   }
 
   function editItem(year, index) {
