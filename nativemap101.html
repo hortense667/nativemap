@@ -1690,14 +1690,14 @@
     return details.length > 0 ? details.join('<br>') : '<em>データなし</em>';
   }
   
-  // 詳細なマージ処理（競合検出・自動解決機能付き）
+  // 詳細なマージ処理（真の競合のみ検出）
   async function performDetailedMerge(localData, remoteData) {
     console.log('詳細マージ処理開始');
     console.log('ローカルデータ:', localData);
     console.log('リモートデータ:', remoteData);
     
     const merged = { ...remoteData };
-    const conflicts = []; // 競合した項目を記録
+    const conflicts = []; // 真の競合のみを記録
     
     // 各年のデータを詳細にマージ
     for (const [year, localItems] of Object.entries(localData)) {
@@ -1729,8 +1729,8 @@
         const remoteItem = remoteItemMap.get(key);
         
         if (remoteItem) {
-          // 両方に存在する場合：競合をチェック
-          const conflictInfo = checkConflict(localItem, remoteItem);
+          // 両方に存在する場合：真の競合をチェック
+          const conflictInfo = checkRealConflict(localItem, remoteItem);
           if (conflictInfo.hasConflict) {
             conflicts.push({
               year: year,
@@ -1741,7 +1741,7 @@
               conflictFields: conflictInfo.conflictFields
             });
             
-            // 競合がある場合は自動解決を実行
+            // 真の競合がある場合は自動解決を実行
             const resolvedItem = resolveConflict(localItem, remoteItem, conflictInfo);
             mergedItems.push(resolvedItem);
           } else {
@@ -1769,8 +1769,8 @@
     return { merged, conflicts };
   }
   
-  // 競合をチェック（詳細情報付き）
-  function checkConflict(localItem, remoteItem) {
+  // 真の競合をチェック（他のユーザーによる変更のみ）
+  function checkRealConflict(localItem, remoteItem) {
     const fields = ['label', 'genre', 'imp', 'url', 'note'];
     const conflictFields = [];
     
@@ -1780,8 +1780,8 @@
       
       // 注釈フィールドの特別処理
       if (field === 'note') {
-        if (isNoteConflict(localValue, remoteValue)) {
-          console.log(`競合検出: ${field} フィールドが異なります`);
+        if (isRealNoteConflict(localValue, remoteValue)) {
+          console.log(`真の競合検出: ${field} フィールドが異なります`);
           console.log(`ローカル: "${localValue}"`);
           console.log(`リモート: "${remoteValue}"`);
           conflictFields.push({
@@ -1793,7 +1793,7 @@
       } else {
         // その他のフィールドは従来通り
         if (localValue !== remoteValue) {
-          console.log(`競合検出: ${field} フィールドが異なります`);
+          console.log(`真の競合検出: ${field} フィールドが異なります`);
           console.log(`ローカル: "${localValue}"`);
           console.log(`リモート: "${remoteValue}"`);
           conflictFields.push({
@@ -1809,6 +1809,54 @@
       hasConflict: conflictFields.length > 0,
       conflictFields: conflictFields
     };
+  }
+  
+  // 真の注釈競合をチェック（追記による変更は競合としない）
+  function isRealNoteConflict(localNote, remoteNote) {
+    if (!localNote && !remoteNote) return false;
+    if (!localNote || !remoteNote) return true;
+    if (localNote === remoteNote) return false;
+    
+    // リモートの注釈を解析
+    const remoteLines = remoteNote.split('\n');
+    const hasAppendMarker = remoteLines.some(line => line.trim().startsWith('[追記]'));
+    
+    if (hasAppendMarker) {
+      // 追記マーカーがある場合、元の内容と追記内容を分離
+      const originalContent = remoteLines[0].trim();
+      const appendLines = remoteLines.slice(1).map(line => {
+        return line.trim().replace(/^\[追記\]\s*/, '');
+      }).filter(line => line.length > 0);
+      
+      const localTrimmed = localNote.trim();
+      
+      // ローカルの内容が元の内容と同じ場合は競合としない
+      if (originalContent === localTrimmed) {
+        console.log('ローカルの内容が元の内容と同じため競合としない:', localNote);
+        return false;
+      }
+      
+      // ローカルの内容が追記内容に含まれている場合は競合としない
+      const isInAppendLines = appendLines.some(appendLine => {
+        return appendLine === localTrimmed;
+      });
+      
+      if (isInAppendLines) {
+        console.log('ローカルの内容が追記内容に含まれているため競合としない:', localNote);
+        return false;
+      }
+    } else {
+      // 追記マーカーがない場合、単純な重複チェック
+      const localTrimmed = localNote.trim();
+      const remoteTrimmed = remoteNote.trim();
+      
+      if (localTrimmed === remoteTrimmed) {
+        console.log('内容が同じため競合としない:', localNote);
+        return false;
+      }
+    }
+    
+    return true;
   }
   
   // 注釈の競合をチェック（追記済みの場合は競合としない）
@@ -1874,21 +1922,42 @@
     if (!existingNote) return newNote;
     if (!newNote) return existingNote;
     
-    // 既存の注釈を改行で分割
+    // 既存の注釈を解析
     const existingLines = existingNote.split('\n');
+    const hasAppendMarker = existingLines.some(line => line.trim().startsWith('[追記]'));
     
     // 新しい注釈が既に存在するかチェック
     const newNoteTrimmed = newNote.trim();
-    const alreadyExists = existingLines.some(line => {
-      const lineTrimmed = line.trim();
-      // [追記] プレフィックスを除去して比較
-      const lineWithoutPrefix = lineTrimmed.replace(/^\[追記\]\s*/, '');
-      return lineWithoutPrefix === newNoteTrimmed;
-    });
     
-    if (alreadyExists) {
-      console.log('注釈が既に存在するため追記をスキップ:', newNote);
-      return existingNote;
+    if (hasAppendMarker) {
+      // 追記マーカーがある場合、元の内容と追記内容を分離してチェック
+      const originalContent = existingLines[0].trim();
+      const appendLines = existingLines.slice(1).map(line => {
+        return line.trim().replace(/^\[追記\]\s*/, '');
+      }).filter(line => line.length > 0);
+      
+      // 元の内容と同じかチェック
+      if (originalContent === newNoteTrimmed) {
+        console.log('新しい注釈が元の内容と同じため追記をスキップ:', newNote);
+        return existingNote;
+      }
+      
+      // 追記内容に含まれているかチェック
+      const alreadyInAppend = appendLines.some(appendLine => {
+        return appendLine === newNoteTrimmed;
+      });
+      
+      if (alreadyInAppend) {
+        console.log('新しい注釈が追記内容に既に存在するため追記をスキップ:', newNote);
+        return existingNote;
+      }
+    } else {
+      // 追記マーカーがない場合、単純な重複チェック
+      const existingTrimmed = existingNote.trim();
+      if (existingTrimmed === newNoteTrimmed) {
+        console.log('新しい注釈が既存の内容と同じため追記をスキップ:', newNote);
+        return existingNote;
+      }
     }
     
     // 新しい注釈を追記
