@@ -1591,7 +1591,7 @@
       
       // 競合エラーの場合は詳細な競合情報を表示
       if (error instanceof ConflictError) {
-        showConflictDetails(error.conflicts);
+        showConflictNotification(error.conflicts);
         return false;
       }
       
@@ -1600,47 +1600,67 @@
     }
   }
   
-  // 競合の詳細を表示
-  function showConflictDetails(conflicts) {
-    console.log('競合詳細:', conflicts);
+  // 競合通知を表示（自動解決後）
+  function showConflictNotification(conflicts) {
+    console.log('競合通知:', conflicts);
     
-    let conflictHtml = '<h4>編集競合が発生しました</h4>';
-    conflictHtml += '<p>以下の項目について、あなたが編集中に他のユーザーが編集したため、保存されませんでした。</p>';
+    let conflictHtml = '<h4>編集競合が検出されました</h4>';
+    conflictHtml += '<p>以下の項目について、他のユーザーが編集していたため、自動的に調整されました。</p>';
     
     conflicts.forEach((conflict, index) => {
+      const noteConflict = conflict.conflictFields.find(cf => cf.field === 'note');
+      const hasNoteConflict = noteConflict && noteConflict.localValue !== noteConflict.remoteValue;
+      
       conflictHtml += `
-        <div style="border: 1px solid #ff6b6b; margin: 12px 0; padding: 12px; border-radius: 6px; background: #fff5f5;">
-          <h5 style="margin: 0 0 8px 0; color: #d63031;">${conflict.year}年: ${conflict.label}${conflict.genre ? ` [${conflict.genre}]` : ''}</h5>
-          <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 12px;">
-            <div>
-              <h6 style="margin: 0 0 4px 0; color: #0984e3;">あなたの編集内容:</h6>
-              <div style="font-size: 12px; background: #e3f2fd; padding: 8px; border-radius: 4px;">
-                ${formatItemDetails(conflict.localItem)}
-              </div>
-            </div>
-            <div>
-              <h6 style="margin: 0 0 4px 0; color: #00b894;">他のユーザーの編集内容:</h6>
-              <div style="font-size: 12px; background: #e8f5e8; padding: 8px; border-radius: 4px;">
-                ${formatItemDetails(conflict.remoteItem)}
-              </div>
-            </div>
-          </div>
-        </div>
+        <div style="border: 1px solid #ffa726; margin: 12px 0; padding: 12px; border-radius: 6px; background: #fff8e1;">
+          <h5 style="margin: 0 0 8px 0; color: #f57c00;">${conflict.year}年: ${conflict.label}${conflict.genre ? ` [${conflict.genre}]` : ''}</h5>
       `;
+      
+      if (hasNoteConflict) {
+        conflictHtml += `
+          <div style="margin: 8px 0; padding: 8px; background: #e8f5e8; border-radius: 4px;">
+            <strong style="color: #2e7d32;">注釈が追記されました</strong><br>
+            <span style="font-size: 12px; color: #666;">内容を確認してください</span>
+          </div>
+        `;
+      }
+      
+      // 競合したフィールドを表示
+      const conflictFieldsHtml = conflict.conflictFields.map(cf => {
+        const fieldNames = {
+          'label': 'ラベル',
+          'genre': 'ジャンル', 
+          'imp': '重要度',
+          'url': 'URL',
+          'note': '注釈'
+        };
+        return `<li><strong>${fieldNames[cf.field] || cf.field}:</strong> 他のユーザーの値が採用されました</li>`;
+      }).join('');
+      
+      if (conflictFieldsHtml) {
+        conflictHtml += `
+          <div style="margin: 8px 0;">
+            <strong style="color: #d84315;">調整された項目:</strong>
+            <ul style="margin: 4px 0 0 20px; font-size: 12px; color: #666;">
+              ${conflictFieldsHtml}
+            </ul>
+          </div>
+        `;
+      }
+      
+      conflictHtml += `</div>`;
     });
     
     conflictHtml += `
-      <div style="margin-top: 16px; padding: 12px; background: #fff3cd; border: 1px solid #ffeaa7; border-radius: 6px;">
-        <h6 style="margin: 0 0 8px 0; color: #856404;">対処方法:</h6>
-        <ul style="margin: 0; padding-left: 20px; color: #856404;">
-          <li>他のユーザーの編集内容を確認してください</li>
-          <li>必要に応じて、該当項目を手動で再編集してください</li>
-          <li>編集後、再度同期を実行してください</li>
-        </ul>
+      <div style="margin-top: 16px; padding: 12px; background: #e8f5e8; border: 1px solid #4caf50; border-radius: 6px;">
+        <h6 style="margin: 0 0 8px 0; color: #2e7d32;">処理完了</h6>
+        <p style="margin: 0; font-size: 14px; color: #2e7d32;">
+          同期は正常に完了しました。注釈が追記された項目については、内容を確認してください。
+        </p>
       </div>
     `;
     
-    openModal('編集競合', conflictHtml);
+    openModal('競合調整完了', conflictHtml);
   }
   
   // アイテムの詳細をフォーマット
@@ -1655,7 +1675,7 @@
     return details.length > 0 ? details.join('<br>') : '<em>データなし</em>';
   }
   
-  // 詳細なマージ処理（競合検出機能付き）
+  // 詳細なマージ処理（競合検出・自動解決機能付き）
   async function performDetailedMerge(localData, remoteData) {
     console.log('詳細マージ処理開始');
     console.log('ローカルデータ:', localData);
@@ -1695,16 +1715,20 @@
         
         if (remoteItem) {
           // 両方に存在する場合：競合をチェック
-          if (hasConflict(localItem, remoteItem)) {
+          const conflictInfo = checkConflict(localItem, remoteItem);
+          if (conflictInfo.hasConflict) {
             conflicts.push({
               year: year,
               label: localItem.label,
               genre: localItem.genre || '',
               localItem: localItem,
-              remoteItem: remoteItem
+              remoteItem: remoteItem,
+              conflictFields: conflictInfo.conflictFields
             });
-            // 競合がある場合はリモートの項目を保持（ユーザーに通知するため）
-            mergedItems.push(remoteItem);
+            
+            // 競合がある場合は自動解決を実行
+            const resolvedItem = resolveConflict(localItem, remoteItem, conflictInfo);
+            mergedItems.push(resolvedItem);
           } else {
             // 競合がない場合はローカルの項目を保持
             mergedItems.push(localItem);
@@ -1726,19 +1750,19 @@
       merged[year] = mergedItems;
     }
     
-    // 競合がある場合はエラーを投げる
+    // 競合があった場合は通知を表示（ただし処理は続行）
     if (conflicts.length > 0) {
-      throw new ConflictError('競合が検出されました', conflicts);
+      showConflictNotification(conflicts);
     }
     
     console.log('詳細マージ処理完了:', merged);
     return merged;
   }
   
-  // 競合があるかどうかをチェック
-  function hasConflict(localItem, remoteItem) {
-    // 以下の項目で違いがある場合は競合とする
+  // 競合をチェック（詳細情報付き）
+  function checkConflict(localItem, remoteItem) {
     const fields = ['label', 'genre', 'imp', 'url', 'note'];
+    const conflictFields = [];
     
     for (const field of fields) {
       const localValue = localItem[field] || '';
@@ -1748,11 +1772,48 @@
         console.log(`競合検出: ${field} フィールドが異なります`);
         console.log(`ローカル: "${localValue}"`);
         console.log(`リモート: "${remoteValue}"`);
-        return true;
+        conflictFields.push({
+          field: field,
+          localValue: localValue,
+          remoteValue: remoteValue
+        });
       }
     }
     
-    return false;
+    return {
+      hasConflict: conflictFields.length > 0,
+      conflictFields: conflictFields
+    };
+  }
+  
+  // 競合を自動解決
+  function resolveConflict(localItem, remoteItem, conflictInfo) {
+    console.log('競合自動解決開始:', localItem.label);
+    
+    // 基本構造はリモートをベースにする
+    const resolved = { ...remoteItem };
+    
+    // 重要度とURLは変更されない（リモートの値を保持）
+    // 注釈は追記される
+    const noteConflict = conflictInfo.conflictFields.find(cf => cf.field === 'note');
+    if (noteConflict) {
+      const localNote = noteConflict.localValue;
+      const remoteNote = noteConflict.remoteValue;
+      
+      if (localNote && remoteNote && localNote !== remoteNote) {
+        // 両方に注釈がある場合は追記
+        resolved.note = `${remoteNote}\n[追記] ${localNote}`;
+        console.log('注釈を追記:', resolved.note);
+      } else if (localNote && !remoteNote) {
+        // ローカルのみに注釈がある場合は追加
+        resolved.note = localNote;
+        console.log('注釈を追加:', resolved.note);
+      }
+      // リモートのみに注釈がある場合はそのまま保持
+    }
+    
+    console.log('競合解決完了:', resolved);
+    return resolved;
   }
   
   // 競合エラークラス
@@ -1861,7 +1922,7 @@
       
       // 競合エラーの場合は詳細な競合情報を表示
       if (error instanceof ConflictError) {
-        showConflictDetails(error.conflicts);
+        showConflictNotification(error.conflicts);
         return;
       }
       
