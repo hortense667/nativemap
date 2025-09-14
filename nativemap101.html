@@ -1047,27 +1047,28 @@
       console.log('同期開始 - リモートデータ:', remoteData);
       console.log('同期開始 - ローカルデータ:', events);
 
-      // 2. ローカルデータとマージ（簡単な競合解決）
+      // 2. ローカルデータとマージ（順序を保持）
       const localData = events;
       const merged = { ...remoteData };
 
-      // ローカルの変更をリモートに追加
-      for (const [year, items] of Object.entries(localData)) {
+      // ローカルの変更をリモートに反映（順序を保持）
+      for (const [year, localItems] of Object.entries(localData)) {
         if (!merged[year]) {
           merged[year] = [];
         }
         
-        // ローカルの項目でリモートの項目を更新
-        for (const localItem of items) {
-          const existingIndex = merged[year].findIndex(existing => existing.label === localItem.label);
-          if (existingIndex !== -1) {
-            // 既存の項目を更新
-            merged[year][existingIndex] = localItem;
-          } else {
-            // 新しい項目を追加
-            merged[year].push(localItem);
-          }
-        }
+        // ローカルの項目リストでリモートを完全に置き換え（順序を保持）
+        // ただし、リモートにあってローカルにない項目は保持
+        const remoteItems = merged[year] || [];
+        const localItemKeys = new Set(localItems.map(item => `${item.label}|${item.genre || ''}`));
+        
+        // リモートにあってローカルにない項目を保持
+        const remoteOnlyItems = remoteItems.filter(remoteItem => 
+          !localItemKeys.has(`${remoteItem.label}|${remoteItem.genre || ''}`)
+        );
+        
+        // ローカルの項目（順序を保持）とリモートのみの項目を結合
+        merged[year] = [...localItems, ...remoteOnlyItems];
       }
 
       console.log('同期完了 - マージ後データ:', merged);
