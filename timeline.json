@@ -1,32 +1,4 @@
 {
-  "events": {
-    "eraSettings": [
-      {
-        "name": "ビデオとゲームの時代",
-        "startYear": 1983,
-        "endYear": 2004,
-        "color": "#4169E1",
-        "opacity": "0.3",
-        "enabled": false
-      },
-      {
-        "name": "テレビ・マンガ・週刊誌の時代",
-        "startYear": 1959,
-        "endYear": 1999,
-        "color": "#32CD32",
-        "opacity": "0.3",
-        "enabled": false
-      },
-      {
-        "name": "モバイルとネットの時代",
-        "startYear": 1995,
-        "endYear": 2025,
-        "color": "#4169E1",
-        "opacity": "0.3",
-        "enabled": false
-      }
-    ]
-  },
   "eraSettings": [
     {
       "name": "ビデオとゲームの時代",
