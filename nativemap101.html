@@ -1778,15 +1778,30 @@
       const localValue = localItem[field] || '';
       const remoteValue = remoteItem[field] || '';
       
-      if (localValue !== remoteValue) {
-        console.log(`競合検出: ${field} フィールドが異なります`);
-        console.log(`ローカル: "${localValue}"`);
-        console.log(`リモート: "${remoteValue}"`);
-        conflictFields.push({
-          field: field,
-          localValue: localValue,
-          remoteValue: remoteValue
-        });
+      // 注釈フィールドの特別処理
+      if (field === 'note') {
+        if (isNoteConflict(localValue, remoteValue)) {
+          console.log(`競合検出: ${field} フィールドが異なります`);
+          console.log(`ローカル: "${localValue}"`);
+          console.log(`リモート: "${remoteValue}"`);
+          conflictFields.push({
+            field: field,
+            localValue: localValue,
+            remoteValue: remoteValue
+          });
+        }
+      } else {
+        // その他のフィールドは従来通り
+        if (localValue !== remoteValue) {
+          console.log(`競合検出: ${field} フィールドが異なります`);
+          console.log(`ローカル: "${localValue}"`);
+          console.log(`リモート: "${remoteValue}"`);
+          conflictFields.push({
+            field: field,
+            localValue: localValue,
+            remoteValue: remoteValue
+          });
+        }
       }
     }
     
@@ -1794,6 +1809,34 @@
       hasConflict: conflictFields.length > 0,
       conflictFields: conflictFields
     };
+  }
+  
+  // 注釈の競合をチェック（追記済みの場合は競合としない）
+  function isNoteConflict(localNote, remoteNote) {
+    if (!localNote && !remoteNote) return false;
+    if (!localNote || !remoteNote) return true;
+    if (localNote === remoteNote) return false;
+    
+    // ローカルの注釈がリモートの注釈に既に含まれているかチェック
+    const localTrimmed = localNote.trim();
+    const remoteLines = remoteNote.split('\n');
+    
+    // リモートの各行から[追記]プレフィックスを除去して比較
+    const remoteContentLines = remoteLines.map(line => {
+      return line.trim().replace(/^\[追記\]\s*/, '');
+    });
+    
+    // ローカルの内容がリモートに既に含まれている場合は競合としない
+    const isAlreadyIncluded = remoteContentLines.some(remoteContent => {
+      return remoteContent === localTrimmed;
+    });
+    
+    if (isAlreadyIncluded) {
+      console.log('ローカルの注釈は既にリモートに含まれているため競合としない:', localNote);
+      return false;
+    }
+    
+    return true;
   }
   
   // 競合を自動解決
