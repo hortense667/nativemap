@@ -5408,6 +5408,14 @@
       "color": "#32CD32",
       "opacity": "0.3",
       "enabled": true
+    },
+    {
+      "name": "モバイルとネットの時代",
+      "startYear": 1995,
+      "endYear": 2025,
+      "color": "#4169E1",
+      "opacity": "0.3",
+      "enabled": true
     }
   ]
 }
