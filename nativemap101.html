@@ -344,7 +344,7 @@
 
   // ===== 時代区分 =====
   let eraSettings = []; // 時代区分の設定データ
-  
+
   let events = loadEvents();
   
   // 時代区分データを読み込み
@@ -426,7 +426,6 @@
       </div>
       <div style="margin-top: 16px; display: flex; gap: 8px; justify-content: center;">
         <button onclick="saveEraSettings()" style="padding: 8px 16px; background: #4CAF50; color: white; border: none; border-radius: 4px; cursor: pointer;">保存</button>
-        <button onclick="closeModal()" style="padding: 8px 16px; background: #666; color: white; border: none; border-radius: 4px; cursor: pointer;">閉じる</button>
       </div>
     `;
     
@@ -470,8 +469,13 @@
       }
     }
     
+    // 8件を超えた場合は古いものから削除
+    if (newEraSettings.length > 8) {
+      newEraSettings.splice(8);
+    }
+    
     eraSettings = newEraSettings;
-    saveEraSettings();
+    saveEvents(); // ローカルストレージに保存
     closeModal();
     renderEraBackgrounds();
   }
@@ -479,6 +483,8 @@
   // 時代区分の背景色を描画
   function renderEraBackgrounds() {
     try {
+      console.log('renderEraBackgrounds 開始', { stage: !!stage, gridG: !!gridG, eraSettings });
+      
       // 必要な要素が存在するかチェック
       if (!stage || !gridG) {
         console.log('stage または gridG が未定義のため、時代区分背景の描画をスキップ');
@@ -487,16 +493,20 @@
       
       // 既存の時代区分背景を削除
       const existingEras = document.querySelectorAll('.era-background');
+      console.log('既存の時代区分背景を削除:', existingEras.length);
       existingEras.forEach(el => el.remove());
       
       // 有効な時代区分のみを描画
       const enabledEras = (eraSettings || []).filter(era => era && era.enabled);
+      console.log('有効な時代区分:', enabledEras.length, enabledEras);
       
       enabledEras.forEach(era => {
         try {
           const startY = yFromBirthYear(era.startYear);
           const endY = yFromBirthYear(era.endYear + 1); // 終了年の次の年まで
           const height = endY - startY;
+          
+          console.log('時代区分描画:', era.name, { startYear: era.startYear, endYear: era.endYear, startY, endY, height });
           
           if (height > 0) {
             const eraRect = document.createElementNS('http://www.w3.org/2000/svg', 'rect');
@@ -509,8 +519,13 @@
             eraRect.setAttribute('class', 'era-background');
             eraRect.setAttribute('data-era-name', era.name || '');
             
+            console.log('時代区分矩形作成:', { x: ORIGIN_X, y: startY, width: width - ORIGIN_X, height, color: era.color });
+            
             // グリッドの前に挿入（背景として）
             stage.insertBefore(eraRect, gridG);
+            console.log('時代区分矩形をstageに挿入完了');
+          } else {
+            console.log('時代区分の高さが0以下のためスキップ:', height);
           }
         } catch (error) {
           console.error('時代区分の描画エラー:', error, era);
@@ -615,7 +630,7 @@
   }
   
   try {
-    drawGrid();
+  drawGrid();
     createFixedAgeLabels();
     createAgeBand();
     updateGenreFilterButtonText();
@@ -1098,7 +1113,7 @@
   }
   
   try {
-    renderEvents();
+  renderEvents();
     
     // 初期化時に時代区分背景を描画
     renderEraBackgrounds();
