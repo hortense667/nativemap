@@ -364,18 +364,18 @@
         "note": "ヒッチコックの到達点"
       },
       {
-        "label": "フラフープ",
-        "genre": "TOY",
-        "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/フラフープ",
-        "note": "世界的な腰回し玩具"
-      },
-      {
         "label": "レゴ",
         "genre": "TOY",
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/レゴ",
         "note": "現代ブロック玩具の定番"
+      },
+      {
+        "label": "フラフープ",
+        "genre": "TOY",
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/フラフープ",
+        "note": "世界的な腰回し玩具"
       },
       {
         "label": "白蛇伝",
