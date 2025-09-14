@@ -299,11 +299,6 @@
         "imp": 5
       },
       {
-        "label": "遠藤諭",
-        "genre": "UNC",
-        "imp": 2
-      },
-      {
         "label": "鉄人28号",
         "genre": "MAN",
         "imp": 4,
@@ -316,6 +311,11 @@
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/ケリーバッグ",
         "note": "エルメスの象徴的ハンドバッグ"
+      },
+      {
+        "label": "遠藤諭",
+        "genre": "UNC",
+        "imp": 2
       },
       {
         "label": "エルヴィス・プレスリー",
