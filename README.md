@@ -1,7 +1,6 @@
-# ネイティブマップ 1.0 
+# ネイティブマップ 1.0
 
-(c) 2025 Satoshi Endoh / @hortense667
-
+Copyright (c) 2025 Satoshi Endoh / @hortense667
 
 ## 概要
 
