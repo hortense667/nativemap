@@ -344,6 +344,11 @@
 
   let events = loadEvents();
   
+  // 時代区分データが初期化されていない場合は初期化
+  if (!eraSettings) {
+    eraSettings = [];
+  }
+  
   // 自動保存の基準を初期化
   let lastSavedEventsData = JSON.stringify(events);
 
@@ -366,8 +371,7 @@
     localStorage.setItem('eraSettings', JSON.stringify(eraSettings));
   }
   
-  // 初期化
-  eraSettings = loadEraSettings();
+  // 初期化（loadEvents内でeraSettingsが設定されるため、ここでは初期化しない）
   
   // 時代区分設定ポップアップの表示
   function showEraSettingsModal() {
@@ -503,6 +507,10 @@
       }
     });
   }
+  
+  // 初期化時に時代区分背景を描画
+  renderEraBackgrounds();
+  
   function passesFilter(it){ 
     // ジャンルフィルタ（複数選択対応）
     if (selectedGenres.size > 0) {
@@ -597,7 +605,6 @@
   drawGrid();
   createFixedAgeLabels();
   createAgeBand();
-  renderEraBackgrounds();
   updateGenreFilterButtonText();
 
   const tooltip=document.getElementById('tooltip');
@@ -1203,9 +1210,9 @@
         throw new Error(`HTTP ${response.status}: ${response.statusText}`);
       }
 
-      const data = await response.json();
+      const responseData = await response.json();
       // GitHub APIのBase64データを正しくデコード
-      const binaryString = atob(data.content);
+      const binaryString = atob(responseData.content);
       const bytes = new Uint8Array(binaryString.length);
       for (let i = 0; i < binaryString.length; i++) {
         bytes[i] = binaryString.charCodeAt(i);
