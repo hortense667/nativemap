@@ -1804,16 +1804,16 @@
     const resolved = { ...remoteItem };
     
     // 重要度とURLは変更されない（リモートの値を保持）
-    // 注釈は追記される
+    // 注釈は追記される（ただし重複を避ける）
     const noteConflict = conflictInfo.conflictFields.find(cf => cf.field === 'note');
     if (noteConflict) {
       const localNote = noteConflict.localValue;
       const remoteNote = noteConflict.remoteValue;
       
       if (localNote && remoteNote && localNote !== remoteNote) {
-        // 両方に注釈がある場合は追記
-        resolved.note = `${remoteNote}\n[追記] ${localNote}`;
-        console.log('注釈を追記:', resolved.note);
+        // 両方に注釈がある場合：重複チェックして追記
+        resolved.note = appendNoteSafely(remoteNote, localNote);
+        console.log('注釈を安全に追記:', resolved.note);
       } else if (localNote && !remoteNote) {
         // ローカルのみに注釈がある場合は追加
         resolved.note = localNote;
@@ -1824,6 +1824,32 @@
     
     console.log('競合解決完了:', resolved);
     return resolved;
+  }
+  
+  // 注釈を安全に追記（重複を避ける）
+  function appendNoteSafely(existingNote, newNote) {
+    if (!existingNote) return newNote;
+    if (!newNote) return existingNote;
+    
+    // 既存の注釈を改行で分割
+    const existingLines = existingNote.split('\n');
+    
+    // 新しい注釈が既に存在するかチェック
+    const newNoteTrimmed = newNote.trim();
+    const alreadyExists = existingLines.some(line => {
+      const lineTrimmed = line.trim();
+      // [追記] プレフィックスを除去して比較
+      const lineWithoutPrefix = lineTrimmed.replace(/^\[追記\]\s*/, '');
+      return lineWithoutPrefix === newNoteTrimmed;
+    });
+    
+    if (alreadyExists) {
+      console.log('注釈が既に存在するため追記をスキップ:', newNote);
+      return existingNote;
+    }
+    
+    // 新しい注釈を追記
+    return `${existingNote}\n[追記] ${newNote}`;
   }
   
   // 競合エラークラス
