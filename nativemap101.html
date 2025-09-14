@@ -256,12 +256,12 @@
     
     // 境界線
     const laneBorder = document.createElementNS(ns, 'line');
-    laneBorder.setAttribute('x1', ORIGIN_X - HANDLE_LANE_W);
-    laneBorder.setAttribute('x2', ORIGIN_X - HANDLE_LANE_W);
-    laneBorder.setAttribute('y1', 0);
-    laneBorder.setAttribute('y2', height);
+  laneBorder.setAttribute('x1', ORIGIN_X - HANDLE_LANE_W);
+  laneBorder.setAttribute('x2', ORIGIN_X - HANDLE_LANE_W);
+  laneBorder.setAttribute('y1', 0);
+  laneBorder.setAttribute('y2', height);
     laneBorder.setAttribute('class', 'handleLaneBorder');
-    stage.insertBefore(laneBorder, gridG);
+  stage.insertBefore(laneBorder, gridG);
   }
   
   createHandleLaneWithEraColors();
