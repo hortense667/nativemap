@@ -1594,8 +1594,18 @@
       const success = await saveToGitHub(dataToSave);
       if (success) {
         events = merged;
+        
+        // eraSettingsを確実にローカルに反映
+        eraSettings = mergedEraSettings;
+        window.eraSettings = mergedEraSettings;
+        
+        console.log('同期完了後のeraSettings:', eraSettings);
+        console.log('同期完了後のwindow.eraSettings:', window.eraSettings);
+        
         saveEvents();
+        console.log('saveEvents後のeraSettings確認:', eraSettings);
         renderEvents();
+        renderEraBackgrounds();
         
         // 同期完了時刻を記録
         localStorage.setItem('lastSync', new Date().toISOString());
