@@ -467,14 +467,8 @@
   function performNormalModeSync(localData, remoteData) {
     console.log('通常モードでの同期を実行');
     
-    // 順番変更フラグが立っている場合は強制的にローカルの順番を反映
-    if (getOrderChanged()) {
-      console.log('順番変更が検出されたため、ローカルの順番を強制反映');
-      return { merged: localData, conflicts: [] };
-    }
-    
-    // 順番変更フラグが立っていない場合は、リモートの順序を採用
-    console.log('順番変更がないため、リモートの順序を採用');
+    // 常にリモートの順序を採用
+    console.log('リモートの順序を採用');
     
     // 編集フラグが立っている項目のみローカルを保持、それ以外はリモートを採用
     const merged = {};
@@ -563,8 +557,8 @@
               remoteItem: remoteItem,
               conflictFields: [{ field: 'content', localValue: localItem, remoteValue: remoteItem }]
             });
-            // 競合の場合はバックアップに戻す
-            mergedItems.push(backup || remoteItem);
+            // 競合の場合はリモートの内容を採用
+            mergedItems.push(remoteItem);
           }
         } else {
           // 編集フラグが立っていない場合はリモートを採用
@@ -1914,7 +1908,7 @@
       <div style="margin-top: 16px; padding: 12px; background: #fff3e0; border: 1px solid #ff9800; border-radius: 6px;">
         <h6 style="margin: 0 0 8px 0; color: #f57c00;">注意</h6>
         <p style="margin: 0; font-size: 14px; color: #f57c00;">
-          競合した項目は編集前の状態に戻されました。<br>
+          競合した項目は他のユーザーの編集内容に設定されました。<br>
           再度同期してから編集をやりなおしてください。
         </p>
       </div>
@@ -2262,13 +2256,20 @@
       const cautionMode = isCautionMode(timestamp);
       console.log('同期モード:', cautionMode ? '要注意モード' : '通常モード');
 
-      // 3. モードに応じて同期処理を実行
+      // 3. 順序変更フラグをチェック
       const localData = events;
       let mergeResult;
       
-      if (cautionMode) {
+      if (getOrderChanged()) {
+        // 順序変更がある場合は、ローカルの順序を強制反映してフラグをオフ
+        console.log('順序変更が検出されたため、ローカルの順序を強制反映');
+        setOrderChanged(false); // フラグをオフ
+        mergeResult = { merged: localData, conflicts: [] };
+      } else if (cautionMode) {
+        // 要注意モードでの同期処理
         mergeResult = performCautionModeSync(localData, remoteData);
       } else {
+        // 通常モードでの同期処理
         mergeResult = performNormalModeSync(localData, remoteData);
       }
       
@@ -2340,9 +2341,6 @@
         
         // ラベルバックアップをクリア
         clearLabelBackups();
-        
-        // 順番変更フラグをクリア
-        setOrderChanged(false);
         
         // 競合があった場合は競合通知を表示、なければ通常の完了メッセージを表示
         if (conflicts.length > 0) {
