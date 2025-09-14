@@ -1607,9 +1607,19 @@
     let conflictHtml = '<h4>編集競合が検出されました</h4>';
     conflictHtml += '<p>以下の項目について、他のユーザーが編集していたため、自動的に調整されました。</p>';
     
+    let hasNoteConflicts = false;
+    let hasOtherConflicts = false;
+    
     conflicts.forEach((conflict, index) => {
       const noteConflict = conflict.conflictFields.find(cf => cf.field === 'note');
+      const impConflict = conflict.conflictFields.find(cf => cf.field === 'imp');
+      const urlConflict = conflict.conflictFields.find(cf => cf.field === 'url');
       const hasNoteConflict = noteConflict && noteConflict.localValue !== noteConflict.remoteValue;
+      const hasImpConflict = impConflict && impConflict.localValue !== impConflict.remoteValue;
+      const hasUrlConflict = urlConflict && urlConflict.localValue !== urlConflict.remoteValue;
+      
+      if (hasNoteConflict) hasNoteConflicts = true;
+      if (hasImpConflict || hasUrlConflict) hasOtherConflicts = true;
       
       conflictHtml += `
         <div style="border: 1px solid #ffa726; margin: 12px 0; padding: 12px; border-radius: 6px; background: #fff8e1;">
@@ -1625,25 +1635,11 @@
         `;
       }
       
-      // 競合したフィールドを表示
-      const conflictFieldsHtml = conflict.conflictFields.map(cf => {
-        const fieldNames = {
-          'label': 'ラベル',
-          'genre': 'ジャンル', 
-          'imp': '重要度',
-          'url': 'URL',
-          'note': '注釈'
-        };
-        return `<li><strong>${fieldNames[cf.field] || cf.field}:</strong> 他のユーザーの値が採用されました</li>`;
-      }).join('');
-      
-      if (conflictFieldsHtml) {
+      if (hasImpConflict || hasUrlConflict) {
         conflictHtml += `
-          <div style="margin: 8px 0;">
-            <strong style="color: #d84315;">調整された項目:</strong>
-            <ul style="margin: 4px 0 0 20px; font-size: 12px; color: #666;">
-              ${conflictFieldsHtml}
-            </ul>
+          <div style="margin: 8px 0; padding: 8px; background: #ffebee; border-radius: 4px;">
+            <strong style="color: #d32f2f;">重要度とURLは反映されませんでした</strong><br>
+            <span style="font-size: 12px; color: #666;">他のユーザーの値が採用されました</span>
           </div>
         `;
       }
@@ -1651,15 +1647,34 @@
       conflictHtml += `</div>`;
     });
     
+    // 処理完了メッセージ
     conflictHtml += `
       <div style="margin-top: 16px; padding: 12px; background: #e8f5e8; border: 1px solid #4caf50; border-radius: 6px;">
         <h6 style="margin: 0 0 8px 0; color: #2e7d32;">処理完了</h6>
         <p style="margin: 0; font-size: 14px; color: #2e7d32;">
-          同期は正常に完了しました。注釈が追記された項目については、内容を確認してください。
+          同期は正常に完了しました。
         </p>
-      </div>
     `;
     
+    if (hasNoteConflicts) {
+      conflictHtml += `
+        <p style="margin: 8px 0 0 0; font-size: 14px; color: #2e7d32;">
+          <strong>注釈が追記された項目については、内容を確認してください。</strong>
+        </p>
+      `;
+    }
+    
+    if (hasOtherConflicts) {
+      conflictHtml += `
+        <p style="margin: 8px 0 0 0; font-size: 14px; color: #d32f2f;">
+          <strong>重要度とURLは反映されませんでした。</strong>
+        </p>
+      `;
+    }
+    
+    conflictHtml += `</div>`;
+    
+    // モーダルを開く（自動で閉じないようにする）
     openModal('競合調整完了', conflictHtml);
   }
   
@@ -1750,13 +1765,8 @@
       merged[year] = mergedItems;
     }
     
-    // 競合があった場合は通知を表示（ただし処理は続行）
-    if (conflicts.length > 0) {
-      showConflictNotification(conflicts);
-    }
-    
     console.log('詳細マージ処理完了:', merged);
-    return merged;
+    return { merged, conflicts };
   }
   
   // 競合をチェック（詳細情報付き）
@@ -1854,9 +1864,12 @@
 
       // 2. ローカルデータとマージ（詳細なマージ処理を使用）
       const localData = events;
-      const merged = await performDetailedMerge(localData, remoteData);
+      const mergeResult = await performDetailedMerge(localData, remoteData);
+      const merged = mergeResult.merged;
+      const conflicts = mergeResult.conflicts;
 
       console.log('同期完了 - マージ後データ:', merged);
+      console.log('同期完了 - 競合情報:', conflicts);
       console.log('マージ後データサイズ:', JSON.stringify(merged).length, 'bytes');
 
       // 3. eraSettingsのマージ処理（ローカルを優先）
@@ -1912,7 +1925,12 @@
         lastSavedEventsData = JSON.stringify(events); // 自動保存の基準を更新
         updateSyncStatus();
         
-        showInfo('同期完了', 'GitHubとの同期が完了しました。');
+        // 競合があった場合は競合通知を表示、なければ通常の完了メッセージを表示
+        if (conflicts.length > 0) {
+          showConflictNotification(conflicts);
+        } else {
+          showInfo('同期完了', 'GitHubとの同期が完了しました。');
+        }
         console.log('同期処理完了');
       } else {
         console.log('GitHubへの保存に失敗');
