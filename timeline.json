@@ -5391,14 +5391,5 @@
         "note": "大阪・関西万博予定"
       }
     ]
-  },
-  "eraSettings": [
-    {
-      "name": "テレビ・マンガ・週刊誌の時代",
-      "startYear": 1959,
-      "endYear": 1999,
-      "color": "#f0f8ff",
-      "enabled": true
-    }
-  ]
+  }
 }
