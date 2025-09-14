@@ -316,9 +316,11 @@
           if (data.events) {
             // 新しい形式（events + eraSettings）
             eraSettings = data.eraSettings || [];
+            console.log('loadEvents: eraSettings読み込み:', eraSettings);
             return normalizeAll(data.events);
           } else {
             // 古い形式（eventsのみ）
+            console.log('loadEvents: 古い形式のデータ');
             return normalizeAll(data);
           }
         } 
@@ -347,8 +349,10 @@
 
   let events = loadEvents();
   
-  // 時代区分データを読み込み
-  eraSettings = loadEraSettings();
+  // 時代区分データを読み込み（loadEventsで既に読み込まれている場合は上書きしない）
+  if (!eraSettings || eraSettings.length === 0) {
+    eraSettings = loadEraSettings();
+  }
   
   // 自動保存の基準を初期化
   let lastSavedEventsData = JSON.stringify(events);
@@ -513,9 +517,9 @@
         return;
       }
       
-      // 既存の時代区分背景を削除
-      const existingEras = document.querySelectorAll('.era-background');
-      console.log('既存の時代区分背景を削除:', existingEras.length);
+      // 既存の時代区分背景とテキストを削除
+      const existingEras = document.querySelectorAll('.era-background, .era-text, .era-text-bg');
+      console.log('既存の時代区分要素を削除:', existingEras.length);
       existingEras.forEach(el => el.remove());
       
       // 有効な時代区分のみを描画
@@ -546,6 +550,39 @@
             // グリッドの前に挿入（背景として）
             stage.insertBefore(eraRect, gridG);
             console.log('時代区分矩形をstageに挿入完了');
+            
+            // 時代区分名を表示するテキストを追加
+            if (era.name) {
+              const eraText = document.createElementNS('http://www.w3.org/2000/svg', 'text');
+              const textX = ORIGIN_X + 10; // 左端から少し内側
+              const textY = startY + 20; // 上端から少し下
+              
+              eraText.setAttribute('x', textX);
+              eraText.setAttribute('y', textY);
+              eraText.setAttribute('font-size', '12');
+              eraText.setAttribute('font-weight', 'bold');
+              eraText.setAttribute('fill', '#333');
+              eraText.setAttribute('class', 'era-text');
+              eraText.setAttribute('data-era-name', era.name);
+              eraText.textContent = era.name;
+              
+              // テキストの背景を追加（読みやすくするため）
+              const textBg = document.createElementNS('http://www.w3.org/2000/svg', 'rect');
+              const textWidth = era.name.length * 8; // 概算の文字幅
+              textBg.setAttribute('x', textX - 4);
+              textBg.setAttribute('y', textY - 12);
+              textBg.setAttribute('width', textWidth + 8);
+              textBg.setAttribute('height', 16);
+              textBg.setAttribute('fill', 'rgba(255, 255, 255, 0.8)');
+              textBg.setAttribute('class', 'era-text-bg');
+              
+              // 背景を先に挿入
+              stage.insertBefore(textBg, gridG);
+              // テキストを挿入
+              stage.insertBefore(eraText, gridG);
+              
+              console.log('時代区分名テキスト追加:', era.name, { x: textX, y: textY });
+            }
           } else {
             console.log('時代区分の高さが0以下のためスキップ:', height);
           }
@@ -1465,10 +1502,12 @@
 
       // 4. マージしたデータを保存
       console.log('GitHubにデータを保存中...');
+      console.log('保存するeraSettings:', mergedEraSettings);
       const dataToSave = {
         events: merged,
         eraSettings: mergedEraSettings
       };
+      console.log('保存するデータ全体:', dataToSave);
       const success = await saveToGitHub(dataToSave);
       if (success) {
         events = merged;
