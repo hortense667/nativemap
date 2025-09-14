@@ -846,46 +846,11 @@
     ],
     "1968": [
       {
-        "label": "SPSS",
-        "genre": "SOF",
-        "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/SPSS",
-        "note": "統計解析の老舗ツール"
-      },
-      {
-        "label": "ねじ式",
-        "genre": "MAN",
-        "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/ねじ式",
-        "note": "前衛的表現の到達点"
-      },
-      {
-        "label": "あしたのジョー",
-        "genre": "MAN",
-        "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/あしたのジョー",
-        "note": "スポ根と時代の象徴"
-      },
-      {
-        "label": "ゴルゴ13",
-        "genre": "MAN",
-        "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/ゴルゴ13",
-        "note": "最長寿クラスの劇画"
-      },
-      {
         "label": "60ミニッツ",
         "genre": "TVP",
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/60ミニッツ",
         "note": "調査報道の金字塔"
-      },
-      {
-        "label": "2001年宇宙の旅",
-        "genre": "MOV",
-        "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/2001年宇宙の旅",
-        "note": "SF映像表現の革命"
       },
       {
         "label": "全共闘",
@@ -907,20 +872,6 @@
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/ホットウィール",
         "note": "米発ミニカーの人気銘柄"
-      },
-      {
-        "label": "��d�点��",
-        "genre": "BOO",
-        "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/��d�点��",
-        "note": "DNA�����̓����L"
-      },
-      {
-        "label": "�R���s���[�^�v���O���~���O�̌|�p",
-        "genre": "BOO",
-        "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/�R���s���[�^�v���O���~���O�̌|�p",
-        "note": "�A���S���Y��������"
       },
       {
         "label": "二重らせん",
@@ -949,6 +900,55 @@
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/ビッグコミック",
         "note": "青年漫画の先駆"
+      },
+      {
+        "label": "SPSS",
+        "genre": "SOF",
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/SPSS",
+        "note": "統計解析の老舗ツール"
+      },
+      {
+        "label": "ねじ式",
+        "genre": "MAN",
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/ねじ式",
+        "note": "前衛的表現の到達点"
+      },
+      {
+        "label": "あしたのジョー",
+        "genre": "MAN",
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/あしたのジョー",
+        "note": "スポ根と時代の象徴"
+      },
+      {
+        "label": "ゴルゴ13",
+        "genre": "MAN",
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/ゴルゴ13",
+        "note": "最長寿クラスの劇画"
+      },
+      {
+        "label": "2001年宇宙の旅",
+        "genre": "MOV",
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/2001年宇宙の旅",
+        "note": "SF映像表現の革命"
+      },
+      {
+        "label": "��d�点��",
+        "genre": "BOO",
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/��d�点��",
+        "note": "DNA�����̓����L"
+      },
+      {
+        "label": "�R���s���[�^�v���O���~���O�̌|�p",
+        "genre": "BOO",
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/�R���s���[�^�v���O���~���O�̌|�p",
+        "note": "�A���S���Y��������"
       }
     ],
     "1969": [
@@ -1232,18 +1232,18 @@
         "note": "黒の美学で台頭"
       },
       {
-        "label": "�����̌��E",
-        "genre": "BOO",
-        "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/�����̌��E",
-        "note": "�n�������̌��E���x��"
-      },
-      {
         "label": "成長の限界",
         "genre": "BOO",
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/成長の限界",
         "note": "地球資源の限界を警告"
+      },
+      {
+        "label": "�����̌��E",
+        "genre": "BOO",
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/�����̌��E",
+        "note": "�n�������̌��E���x��"
       }
     ],
     "1973": [
@@ -1413,20 +1413,6 @@
         "note": "複合構成の名曲"
       },
       {
-        "label": "�č��̒a��",
-        "genre": "BOO",
-        "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/�č��̒a��",
-        "note": "�K�����̗͂��j����"
-      },
-      {
-        "label": "�l���̐_�b",
-        "genre": "BOO",
-        "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/�l���̐_�b",
-        "note": "��K�͊J���̐^��"
-      },
-      {
         "label": "監獄の誕生",
         "genre": "BOO",
         "imp": 4,
@@ -1439,6 +1425,20 @@
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/人月の神話",
         "note": "大規模開発の真理"
+      },
+      {
+        "label": "�č��̒a��",
+        "genre": "BOO",
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/�č��̒a��",
+        "note": "�K�����̗͂��j����"
+      },
+      {
+        "label": "�l���̐_�b",
+        "genre": "BOO",
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/�l���̐_�b",
+        "note": "��K�͊J���̐^��"
       }
     ],
     "1976": [
