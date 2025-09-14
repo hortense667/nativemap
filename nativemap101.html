@@ -1447,21 +1447,24 @@
     }
   }
 
-  // GitHubにデータを保存
-  async function saveToGitHub(data) {
+  // GitHubにデータを保存（競合検出・解決機能付き）
+  async function saveToGitHub(data, expectedSha = null, retryCount = 0) {
     if (!githubConfig.accessToken) {
       showError('設定エラー', 'GitHubアクセストークンが設定されていません。');
       return false;
     }
 
+    const maxRetries = 3;
+    
     try {
-      console.log('saveToGitHub開始');
+      console.log(`saveToGitHub開始 (試行回数: ${retryCount + 1}/${maxRetries + 1})`);
       console.log('保存データサイズ:', JSON.stringify(data).length, 'bytes');
+      console.log('期待するSHA:', expectedSha);
       
-      // まず現在のファイル情報を取得してSHAを取得
-      let sha = null;
+      // 現在のファイル情報を取得してSHAを確認
+      let currentSha = null;
       try {
-        console.log('既存ファイルのSHAを取得中...');
+        console.log('現在のファイルのSHAを取得中...');
         const getResponse = await fetch(`https://api.github.com/repos/${githubConfig.owner}/${githubConfig.repo}/contents/${githubConfig.filePath}`, {
           headers: {
             'Authorization': `Bearer ${githubConfig.accessToken}`,
@@ -1471,13 +1474,27 @@
         
         if (getResponse.ok) {
           const fileData = await getResponse.json();
-          sha = fileData.sha;
-          console.log('SHA取得成功:', sha);
+          currentSha = fileData.sha;
+          console.log('現在のSHA取得成功:', currentSha);
+          
+          // 期待するSHAと現在のSHAが異なる場合、競合が発生
+          if (expectedSha && currentSha !== expectedSha) {
+            console.log('競合検出: 期待するSHAと現在のSHAが異なります');
+            console.log('期待するSHA:', expectedSha);
+            console.log('現在のSHA:', currentSha);
+            
+            if (retryCount < maxRetries) {
+              console.log('競合解決のため再試行します...');
+              // 最新データを再取得してマージ処理を再実行
+              return await handleConflictAndRetry(data, currentSha, retryCount);
+            } else {
+              throw new Error('最大再試行回数に達しました。手動で同期してください。');
+            }
+          }
         } else {
           console.log('SHA取得失敗:', getResponse.status, getResponse.statusText);
         }
       } catch (e) {
-        // ファイルが存在しない場合はshaはnullのまま
         console.log('ファイルが存在しないか、SHAの取得に失敗:', e);
       }
 
@@ -1502,10 +1519,10 @@
         content: content
       };
 
-      // SHAが取得できた場合は追加
-      if (sha) {
-        body.sha = sha;
-        console.log('SHAをリクエストボディに追加');
+      // 現在のSHAを追加（競合検出のため）
+      if (currentSha) {
+        body.sha = currentSha;
+        console.log('現在のSHAをリクエストボディに追加');
       }
 
       console.log('GitHub APIにPUTリクエスト送信中...');
@@ -1524,6 +1541,18 @@
       if (!response.ok) {
         const errorData = await response.json();
         console.error('GitHub APIエラー詳細:', errorData);
+        
+        // 409エラー（競合）の場合の特別処理
+        if (response.status === 409) {
+          console.log('409エラー: ファイルが他のユーザーによって更新されました');
+          if (retryCount < maxRetries) {
+            console.log('競合解決のため再試行します...');
+            return await handleConflictAndRetry(data, null, retryCount);
+          } else {
+            throw new Error('他のユーザーが同時に編集しています。しばらく待ってから再度同期してください。');
+          }
+        }
+        
         throw new Error(`HTTP ${response.status}: ${response.statusText} - ${errorData.message || ''}`);
       }
 
@@ -1531,8 +1560,207 @@
       return true;
     } catch (error) {
       console.error('saveToGitHubエラー詳細:', error);
+      if (retryCount < maxRetries && error.message.includes('競合')) {
+        console.log('競合エラーのため再試行します...');
+        return await handleConflictAndRetry(data, null, retryCount);
+      }
       showError('保存エラー', `GitHubへの保存に失敗しました: ${error.message}`);
       return false;
+    }
+  }
+  
+  // 競合発生時の再試行処理
+  async function handleConflictAndRetry(originalData, newSha, retryCount) {
+    console.log('競合解決処理開始');
+    
+    try {
+      // 最新のリモートデータを再取得
+      console.log('最新のリモートデータを再取得中...');
+      const latestRemoteData = await loadFromGitHub();
+      if (latestRemoteData === null) {
+        throw new Error('最新データの取得に失敗しました');
+      }
+      
+      // より詳細なマージ処理を実行
+      const mergedData = await performDetailedMerge(events, latestRemoteData);
+      
+      // 再試行
+      return await saveToGitHub(mergedData, newSha, retryCount + 1);
+    } catch (error) {
+      console.error('競合解決処理エラー:', error);
+      
+      // 競合エラーの場合は詳細な競合情報を表示
+      if (error instanceof ConflictError) {
+        showConflictDetails(error.conflicts);
+        return false;
+      }
+      
+      showError('競合解決エラー', `競合の解決に失敗しました: ${error.message}`);
+      return false;
+    }
+  }
+  
+  // 競合の詳細を表示
+  function showConflictDetails(conflicts) {
+    console.log('競合詳細:', conflicts);
+    
+    let conflictHtml = '<h4>編集競合が発生しました</h4>';
+    conflictHtml += '<p>以下の項目について、あなたが編集中に他のユーザーが編集したため、保存されませんでした。</p>';
+    
+    conflicts.forEach((conflict, index) => {
+      conflictHtml += `
+        <div style="border: 1px solid #ff6b6b; margin: 12px 0; padding: 12px; border-radius: 6px; background: #fff5f5;">
+          <h5 style="margin: 0 0 8px 0; color: #d63031;">${conflict.year}年: ${conflict.label}${conflict.genre ? ` [${conflict.genre}]` : ''}</h5>
+          <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 12px;">
+            <div>
+              <h6 style="margin: 0 0 4px 0; color: #0984e3;">あなたの編集内容:</h6>
+              <div style="font-size: 12px; background: #e3f2fd; padding: 8px; border-radius: 4px;">
+                ${formatItemDetails(conflict.localItem)}
+              </div>
+            </div>
+            <div>
+              <h6 style="margin: 0 0 4px 0; color: #00b894;">他のユーザーの編集内容:</h6>
+              <div style="font-size: 12px; background: #e8f5e8; padding: 8px; border-radius: 4px;">
+                ${formatItemDetails(conflict.remoteItem)}
+              </div>
+            </div>
+          </div>
+        </div>
+      `;
+    });
+    
+    conflictHtml += `
+      <div style="margin-top: 16px; padding: 12px; background: #fff3cd; border: 1px solid #ffeaa7; border-radius: 6px;">
+        <h6 style="margin: 0 0 8px 0; color: #856404;">対処方法:</h6>
+        <ul style="margin: 0; padding-left: 20px; color: #856404;">
+          <li>他のユーザーの編集内容を確認してください</li>
+          <li>必要に応じて、該当項目を手動で再編集してください</li>
+          <li>編集後、再度同期を実行してください</li>
+        </ul>
+      </div>
+    `;
+    
+    openModal('編集競合', conflictHtml);
+  }
+  
+  // アイテムの詳細をフォーマット
+  function formatItemDetails(item) {
+    let details = [];
+    if (item.label) details.push(`<strong>ラベル:</strong> ${item.label}`);
+    if (item.genre) details.push(`<strong>ジャンル:</strong> ${item.genre}`);
+    if (item.imp) details.push(`<strong>重要度:</strong> ${item.imp}`);
+    if (item.url) details.push(`<strong>URL:</strong> ${item.url}`);
+    if (item.note) details.push(`<strong>注釈:</strong> ${item.note}`);
+    
+    return details.length > 0 ? details.join('<br>') : '<em>データなし</em>';
+  }
+  
+  // 詳細なマージ処理（競合検出機能付き）
+  async function performDetailedMerge(localData, remoteData) {
+    console.log('詳細マージ処理開始');
+    console.log('ローカルデータ:', localData);
+    console.log('リモートデータ:', remoteData);
+    
+    const merged = { ...remoteData };
+    const conflicts = []; // 競合した項目を記録
+    
+    // 各年のデータを詳細にマージ
+    for (const [year, localItems] of Object.entries(localData)) {
+      if (!merged[year]) {
+        merged[year] = [];
+      }
+      
+      const remoteItems = merged[year] || [];
+      const localItemMap = new Map();
+      const remoteItemMap = new Map();
+      
+      // ローカルアイテムをマップ化
+      localItems.forEach(item => {
+        const key = `${item.label}|${item.genre || ''}`;
+        localItemMap.set(key, item);
+      });
+      
+      // リモートアイテムをマップ化
+      remoteItems.forEach(item => {
+        const key = `${item.label}|${item.genre || ''}`;
+        remoteItemMap.set(key, item);
+      });
+      
+      const mergedItems = [];
+      const processedKeys = new Set();
+      
+      // ローカルアイテムを処理
+      for (const [key, localItem] of localItemMap) {
+        const remoteItem = remoteItemMap.get(key);
+        
+        if (remoteItem) {
+          // 両方に存在する場合：競合をチェック
+          if (hasConflict(localItem, remoteItem)) {
+            conflicts.push({
+              year: year,
+              label: localItem.label,
+              genre: localItem.genre || '',
+              localItem: localItem,
+              remoteItem: remoteItem
+            });
+            // 競合がある場合はリモートの項目を保持（ユーザーに通知するため）
+            mergedItems.push(remoteItem);
+          } else {
+            // 競合がない場合はローカルの項目を保持
+            mergedItems.push(localItem);
+          }
+        } else {
+          // ローカルのみに存在する場合
+          mergedItems.push(localItem);
+        }
+        processedKeys.add(key);
+      }
+      
+      // リモートのみに存在するアイテムを追加
+      for (const [key, remoteItem] of remoteItemMap) {
+        if (!processedKeys.has(key)) {
+          mergedItems.push(remoteItem);
+        }
+      }
+      
+      merged[year] = mergedItems;
+    }
+    
+    // 競合がある場合はエラーを投げる
+    if (conflicts.length > 0) {
+      throw new ConflictError('競合が検出されました', conflicts);
+    }
+    
+    console.log('詳細マージ処理完了:', merged);
+    return merged;
+  }
+  
+  // 競合があるかどうかをチェック
+  function hasConflict(localItem, remoteItem) {
+    // 以下の項目で違いがある場合は競合とする
+    const fields = ['label', 'genre', 'imp', 'url', 'note'];
+    
+    for (const field of fields) {
+      const localValue = localItem[field] || '';
+      const remoteValue = remoteItem[field] || '';
+      
+      if (localValue !== remoteValue) {
+        console.log(`競合検出: ${field} フィールドが異なります`);
+        console.log(`ローカル: "${localValue}"`);
+        console.log(`リモート: "${remoteValue}"`);
+        return true;
+      }
+    }
+    
+    return false;
+  }
+  
+  // 競合エラークラス
+  class ConflictError extends Error {
+    constructor(message, conflicts) {
+      super(message);
+      this.name = 'ConflictError';
+      this.conflicts = conflicts;
     }
   }
 
@@ -1541,7 +1769,7 @@
     await syncWithGitHub();
   }
 
-  // 同期処理
+  // 同期処理（競合検出・解決機能付き）
   async function syncWithGitHub() {
     try {
       console.log('同期処理開始');
@@ -1549,59 +1777,23 @@
       console.log('同期開始時のeraSettingsの長さ:', eraSettings ? eraSettings.length : 0);
       console.log('ローカルデータサイズ:', JSON.stringify(events).length, 'bytes');
       
-      // 1. GitHubからデータを読み込み
+      // 1. GitHubからデータを読み込み（SHAハッシュも同時に取得）
       console.log('GitHubからデータを読み込み中...');
-      const remoteData = await loadFromGitHub();
+      const { remoteData, remoteSha, remoteEraSettings } = await loadFromGitHubWithSha();
       if (remoteData === null) {
         console.log('リモートデータの読み込みに失敗');
         return;
       }
 
-      // リモートのeraSettingsも取得
-      const remoteEraSettings = await fetch(`https://api.github.com/repos/${githubConfig.owner}/${githubConfig.repo}/contents/${githubConfig.filePath}`, {
-        headers: {
-          'Authorization': `Bearer ${githubConfig.accessToken}`,
-          'Accept': 'application/vnd.github.v3+json'
-        }
-      }).then(response => response.json()).then(responseData => {
-        const binaryString = atob(responseData.content);
-        const bytes = new Uint8Array(binaryString.length);
-        for (let i = 0; i < binaryString.length; i++) {
-          bytes[i] = binaryString.charCodeAt(i);
-        }
-        const content = new TextDecoder('utf-8').decode(bytes);
-        const data = JSON.parse(content);
-        return data.eraSettings || [];
-      }).catch(() => []);
-
       console.log('同期開始 - リモートデータ:', remoteData);
       console.log('同期開始 - ローカルデータ:', events);
       console.log('同期開始 - リモートeraSettings:', remoteEraSettings);
       console.log('同期開始 - ローカルeraSettings:', eraSettings);
+      console.log('同期開始 - リモートSHA:', remoteSha);
 
-      // 2. ローカルデータとマージ（順序を保持）
+      // 2. ローカルデータとマージ（詳細なマージ処理を使用）
       const localData = events;
-      const merged = { ...remoteData };
-
-      // ローカルの変更をリモートに反映（順序を保持）
-      for (const [year, localItems] of Object.entries(localData)) {
-        if (!merged[year]) {
-          merged[year] = [];
-        }
-        
-        // ローカルの項目リストでリモートを完全に置き換え（順序を保持）
-        // ただし、リモートにあってローカルにない項目は保持
-        const remoteItems = merged[year] || [];
-        const localItemKeys = new Set(localItems.map(item => `${item.label}|${item.genre || ''}`));
-        
-        // リモートにあってローカルにない項目を保持
-        const remoteOnlyItems = remoteItems.filter(remoteItem => 
-          !localItemKeys.has(`${remoteItem.label}|${remoteItem.genre || ''}`)
-        );
-        
-        // ローカルの項目（順序を保持）とリモートのみの項目を結合
-        merged[year] = [...localItems, ...remoteOnlyItems];
-      }
+      const merged = await performDetailedMerge(localData, remoteData);
 
       console.log('同期完了 - マージ後データ:', merged);
       console.log('マージ後データサイズ:', JSON.stringify(merged).length, 'bytes');
@@ -1625,7 +1817,7 @@
         mergedLength: mergedEraSettings.length 
       });
 
-      // 4. マージしたデータを保存
+      // 4. マージしたデータを保存（期待するSHAを指定）
       console.log('GitHubにデータを保存中...');
       const dataToSave = {
         events: merged,
@@ -1638,7 +1830,7 @@
         eraSettingsLength: dataToSave.eraSettings.length,
         eraSettingsContent: dataToSave.eraSettings
       });
-      const success = await saveToGitHub(dataToSave);
+      const success = await saveToGitHub(dataToSave, remoteSha);
       if (success) {
         events = merged;
         
@@ -1666,7 +1858,70 @@
       }
     } catch (error) {
       console.error('同期エラーの詳細:', error);
+      
+      // 競合エラーの場合は詳細な競合情報を表示
+      if (error instanceof ConflictError) {
+        showConflictDetails(error.conflicts);
+        return;
+      }
+      
       showError('同期エラー', `同期処理でエラーが発生しました: ${error.message}`);
+    }
+  }
+  
+  // GitHubからデータとSHAハッシュを同時に取得
+  async function loadFromGitHubWithSha() {
+    if (!githubConfig.accessToken) {
+      showError('設定エラー', 'GitHubアクセストークンが設定されていません。GitHubでログインしてください。');
+      return { remoteData: null, remoteSha: null, remoteEraSettings: [] };
+    }
+
+    try {
+      const response = await fetch(`https://api.github.com/repos/${githubConfig.owner}/${githubConfig.repo}/contents/${githubConfig.filePath}`, {
+        headers: {
+          'Authorization': `Bearer ${githubConfig.accessToken}`,
+          'Accept': 'application/vnd.github.v3+json'
+        }
+      });
+
+      if (!response.ok) {
+        if (response.status === 404) {
+          // ファイルが存在しない場合は空のデータを返す
+          return { remoteData: {}, remoteSha: null, remoteEraSettings: [] };
+        }
+        throw new Error(`HTTP ${response.status}: ${response.statusText}`);
+      }
+
+      const responseData = await response.json();
+      const sha = responseData.sha;
+      
+      // GitHub APIのBase64データを正しくデコード
+      const binaryString = atob(responseData.content);
+      const bytes = new Uint8Array(binaryString.length);
+      for (let i = 0; i < binaryString.length; i++) {
+        bytes[i] = binaryString.charCodeAt(i);
+      }
+      const content = new TextDecoder('utf-8').decode(bytes);
+      const data = JSON.parse(content);
+      
+      if (data.events) {
+        // 新しい形式（events + eraSettings）
+        return { 
+          remoteData: data.events, 
+          remoteSha: sha, 
+          remoteEraSettings: data.eraSettings || [] 
+        };
+      } else {
+        // 古い形式（eventsのみ）
+        return { 
+          remoteData: data, 
+          remoteSha: sha, 
+          remoteEraSettings: [] 
+        };
+      }
+    } catch (error) {
+      showError('読み込みエラー', `GitHubからの読み込みに失敗しました: ${error.message}`);
+      return { remoteData: null, remoteSha: null, remoteEraSettings: [] };
     }
   }
 
