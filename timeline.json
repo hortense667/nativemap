@@ -473,20 +473,6 @@
     ],
     "1960": [
       {
-        "label": "LISP",
-        "genre": "SOF",
-        "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/LISP",
-        "note": "AI研究で長年重用"
-      },
-      {
-        "label": "勝手にしやがれ",
-        "genre": "MOV",
-        "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/勝手にしやがれ",
-        "note": "新しい映画文法提示"
-      },
-      {
         "label": "サイコ",
         "genre": "MOV",
         "imp": 5,
@@ -499,6 +485,20 @@
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/甘い生活",
         "note": "退廃と虚無のモダン"
+      },
+      {
+        "label": "勝手にしやがれ",
+        "genre": "MOV",
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/勝手にしやがれ",
+        "note": "新しい映画文法提示"
+      },
+      {
+        "label": "LISP",
+        "genre": "SOF",
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/LISP",
+        "note": "AI研究で長年重用"
       },
       {
         "label": "安保闘争",
