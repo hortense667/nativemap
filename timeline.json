@@ -5392,5 +5392,14 @@
       }
     ]
   },
-  "eraSettings": []
+  "eraSettings": [
+    {
+      "name": "ビデオとゲームの時代",
+      "startYear": 1983,
+      "endYear": 2004,
+      "color": "#4169E1",
+      "opacity": "0.3",
+      "enabled": true
+    }
+  ]
 }
