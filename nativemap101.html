@@ -85,6 +85,9 @@
           <option>5</option>
         </select>
       </label>
+      <button id="eraBtn" style="padding: 4px 8px; border: 1px solid #ccc; background: #f9f9f9; cursor: pointer; border-radius: 4px;">
+        時代区分
+      </button>
     </div>
     <div class="search">
       <input id="searchBox" type="text" placeholder="ラベルと注釈を検索" />
@@ -304,8 +307,40 @@
   const GENRE_SET=new Set(GENRES);
   function normalizeItem(it){ if(typeof it==='string') return {label: it}; const o={ label: it.label||'' }; if(it.genre) o.genre = String(it.genre).toUpperCase(); if(it.imp!==undefined && it.imp!==null && String(it.imp)!==''){ const n = parseInt(it.imp,10); if(n>=1 && n<=5) o.imp=n; else o.imp=''; } if(it.url) o.url = it.url; if(it.note) o.note = it.note; return o; }
   function normalizeAll(obj){ const out={}; for(const y of Object.keys(obj)){ const arr = Array.isArray(obj[y])? obj[y] : []; out[y] = arr.map(normalizeItem).filter(it=>it.label); } return out; }
-  function loadEvents(){ for(const k of LS_KEYS){ try{ const s=localStorage.getItem(k); if(s){ return normalizeAll(JSON.parse(s)); } }catch(e){} } try{ const txt=document.getElementById('events-json').textContent.trim(); return normalizeAll(JSON.parse(txt)); } catch(e){ console.error('embedded JSON parse failed', e); return {}; } }
-  function saveEvents(){ try{ localStorage.setItem('timelineEventsV2', JSON.stringify(events)); }catch(e){} }
+  function loadEvents(){ 
+    for(const k of LS_KEYS){ 
+      try{ 
+        const s=localStorage.getItem(k); 
+        if(s){ 
+          const data = JSON.parse(s);
+          if (data.events) {
+            // 新しい形式（events + eraSettings）
+            eraSettings = data.eraSettings || [];
+            return normalizeAll(data.events);
+          } else {
+            // 古い形式（eventsのみ）
+            return normalizeAll(data);
+          }
+        } 
+      }catch(e){} 
+    } 
+    try{ 
+      const txt=document.getElementById('events-json').textContent.trim(); 
+      return normalizeAll(JSON.parse(txt)); 
+    } catch(e){ 
+      console.error('embedded JSON parse failed', e); 
+      return {}; 
+    } 
+  }
+  function saveEvents(){ 
+    try{ 
+      const data = {
+        events: events,
+        eraSettings: eraSettings
+      };
+      localStorage.setItem('timelineEventsV2', JSON.stringify(data)); 
+    }catch(e){} 
+  }
 
   let events = loadEvents();
   
@@ -316,6 +351,158 @@
   let filterGenre = '';
   let filterImp   = '';
   let selectedGenres = new Set(); // 選択されたジャンルのセット
+  
+  // ===== 時代区分 =====
+  let eraSettings = []; // 時代区分の設定データ
+  
+  // 時代区分データの読み込み
+  function loadEraSettings() {
+    const saved = localStorage.getItem('eraSettings');
+    return saved ? JSON.parse(saved) : [];
+  }
+  
+  // 時代区分データの保存
+  function saveEraSettings() {
+    localStorage.setItem('eraSettings', JSON.stringify(eraSettings));
+  }
+  
+  // 初期化
+  eraSettings = loadEraSettings();
+  
+  // 時代区分設定ポップアップの表示
+  function showEraSettingsModal() {
+    const colorOptions = [
+      { value: '#f0f8ff', label: '薄い青' },
+      { value: '#f0fff0', label: '薄い緑' },
+      { value: '#fff0f0', label: '薄い赤' },
+      { value: '#fff8f0', label: '薄いオレンジ' },
+      { value: '#f8f0ff', label: '薄い紫' },
+      { value: '#f0ffff', label: '薄い水色' },
+      { value: '#fffff0', label: '薄い黄' },
+      { value: '#f5f5f5', label: '薄いグレー' }
+    ];
+    
+    const eraItems = eraSettings.map((era, index) => `
+      <div style="border: 1px solid #ddd; margin: 8px 0; padding: 12px; border-radius: 6px; background: #f9f9f9;">
+        <div style="display: flex; gap: 8px; align-items: center; margin-bottom: 8px;">
+          <input type="checkbox" id="eraEnabled${index}" ${era.enabled ? 'checked' : ''} style="margin-right: 4px;">
+          <label for="eraEnabled${index}" style="font-weight: bold;">表示</label>
+        </div>
+        <div style="margin-bottom: 8px;">
+          <label style="display: block; margin-bottom: 4px; font-weight: bold;">時代区分名:</label>
+          <input type="text" id="eraName${index}" value="${era.name || ''}" style="width: 100%; padding: 4px; border: 1px solid #ddd; border-radius: 4px;" placeholder="例：テレビ・マンガ・週刊誌の時代">
+        </div>
+        <div style="display: flex; gap: 8px; margin-bottom: 8px;">
+          <div style="flex: 1;">
+            <label style="display: block; margin-bottom: 4px; font-weight: bold;">開始年:</label>
+            <input type="number" id="eraStart${index}" value="${era.startYear || ''}" style="width: 100%; padding: 4px; border: 1px solid #ddd; border-radius: 4px;" min="1945" max="2050">
+          </div>
+          <div style="flex: 1;">
+            <label style="display: block; margin-bottom: 4px; font-weight: bold;">終了年:</label>
+            <input type="number" id="eraEnd${index}" value="${era.endYear || ''}" style="width: 100%; padding: 4px; border: 1px solid #ddd; border-radius: 4px;" min="1945" max="2050">
+          </div>
+        </div>
+        <div>
+          <label style="display: block; margin-bottom: 4px; font-weight: bold;">塗色:</label>
+          <select id="eraColor${index}" style="width: 100%; padding: 4px; border: 1px solid #ddd; border-radius: 4px;">
+            ${colorOptions.map(color => `<option value="${color.value}" ${era.color === color.value ? 'selected' : ''}>${color.label}</option>`).join('')}
+          </select>
+        </div>
+      </div>
+    `).join('');
+    
+    const modalContent = `
+      <h3>時代区分設定</h3>
+      <div style="max-height: 400px; overflow-y: auto;">
+        ${eraItems}
+        ${eraSettings.length < 8 ? `
+          <div style="border: 2px dashed #ccc; margin: 8px 0; padding: 12px; border-radius: 6px; text-align: center; cursor: pointer;" onclick="addEraItem()">
+            + 新しい時代区分を追加
+          </div>
+        ` : ''}
+      </div>
+      <div style="margin-top: 16px; display: flex; gap: 8px; justify-content: center;">
+        <button onclick="saveEraSettings()" style="padding: 8px 16px; background: #4CAF50; color: white; border: none; border-radius: 4px; cursor: pointer;">保存</button>
+        <button onclick="closeModal()" style="padding: 8px 16px; background: #666; color: white; border: none; border-radius: 4px; cursor: pointer;">閉じる</button>
+      </div>
+    `;
+    
+    openModal('時代区分設定', modalContent);
+  }
+  
+  // 新しい時代区分項目を追加
+  function addEraItem() {
+    if (eraSettings.length >= 8) return;
+    
+    eraSettings.push({
+      name: '',
+      startYear: '',
+      endYear: '',
+      color: '#f0f8ff',
+      enabled: true
+    });
+    
+    showEraSettingsModal();
+  }
+  
+  // 時代区分設定を保存
+  function saveEraSettings() {
+    const newEraSettings = [];
+    
+    for (let i = 0; i < eraSettings.length; i++) {
+      const enabled = document.getElementById(`eraEnabled${i}`)?.checked || false;
+      const name = document.getElementById(`eraName${i}`)?.value || '';
+      const startYear = parseInt(document.getElementById(`eraStart${i}`)?.value) || 0;
+      const endYear = parseInt(document.getElementById(`eraEnd${i}`)?.value) || 0;
+      const color = document.getElementById(`eraColor${i}`)?.value || '#f0f8ff';
+      
+      if (name && startYear && endYear) {
+        newEraSettings.push({
+          name,
+          startYear,
+          endYear,
+          color,
+          enabled
+        });
+      }
+    }
+    
+    eraSettings = newEraSettings;
+    saveEraSettings();
+    closeModal();
+    renderEraBackgrounds();
+  }
+  
+  // 時代区分の背景色を描画
+  function renderEraBackgrounds() {
+    // 既存の時代区分背景を削除
+    const existingEras = document.querySelectorAll('.era-background');
+    existingEras.forEach(el => el.remove());
+    
+    // 有効な時代区分のみを描画
+    const enabledEras = eraSettings.filter(era => era.enabled);
+    
+    enabledEras.forEach(era => {
+      const startY = yFromBirthYear(era.startYear);
+      const endY = yFromBirthYear(era.endYear + 1); // 終了年の次の年まで
+      const height = endY - startY;
+      
+      if (height > 0) {
+        const eraRect = document.createElementNS('http://www.w3.org/2000/svg', 'rect');
+        eraRect.setAttribute('x', 0);
+        eraRect.setAttribute('y', startY);
+        eraRect.setAttribute('width', width);
+        eraRect.setAttribute('height', height);
+        eraRect.setAttribute('fill', era.color);
+        eraRect.setAttribute('opacity', '0.3'); // 薄くして線が見えるように
+        eraRect.setAttribute('class', 'era-background');
+        eraRect.setAttribute('data-era-name', era.name);
+        
+        // グリッドの後に挿入（背景として）
+        stage.insertBefore(eraRect, gridG);
+      }
+    });
+  }
   function passesFilter(it){ 
     // ジャンルフィルタ（複数選択対応）
     if (selectedGenres.size > 0) {
@@ -386,7 +573,7 @@
       top: 54px;
       left: 0;
       right: 0;
-      height: 24px;
+      height: 24Only select repositories"px;
       pointer-events: none;
       z-index: 3;
     `;
@@ -410,6 +597,7 @@
   drawGrid();
   createFixedAgeLabels();
   createAgeBand();
+  renderEraBackgrounds();
   updateGenreFilterButtonText();
 
   const tooltip=document.getElementById('tooltip');
@@ -1023,7 +1211,16 @@
         bytes[i] = binaryString.charCodeAt(i);
       }
       const content = new TextDecoder('utf-8').decode(bytes);
-      return JSON.parse(content);
+      const data = JSON.parse(content);
+      
+      if (data.events) {
+        // 新しい形式（events + eraSettings）
+        eraSettings = data.eraSettings || [];
+        return data.events;
+      } else {
+        // 古い形式（eventsのみ）
+        return data;
+      }
     } catch (error) {
       showError('読み込みエラー', `GitHubからの読み込みに失敗しました: ${error.message}`);
       return null;
@@ -1170,7 +1367,11 @@
 
       // 3. マージしたデータを保存
       console.log('GitHubにデータを保存中...');
-      const success = await saveToGitHub(merged);
+      const dataToSave = {
+        events: merged,
+        eraSettings: eraSettings
+      };
+      const success = await saveToGitHub(dataToSave);
       if (success) {
         events = merged;
         saveEvents();
@@ -1592,6 +1793,8 @@
   window.selectAllGenres = selectAllGenres;
   window.deselectAllGenres = deselectAllGenres;
   window.applyGenreFilter = applyGenreFilter;
+  window.addEraItem = addEraItem;
+  window.saveEraSettings = saveEraSettings;
   
   // ジャンルごとの登録件数を計算する関数
   function getGenreCounts() {
@@ -1659,6 +1862,10 @@
   
   // ジャンルフィルタボタンのイベントリスナー
   genreFilterBtn.addEventListener('click', showGenreFilterModal);
+  
+  // 時代区分ボタンのイベントリスナー
+  const eraBtn = document.getElementById('eraBtn');
+  eraBtn.addEventListener('click', showEraSettingsModal);
 
   // ヘルプ
   const helpHtml = `
