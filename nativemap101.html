@@ -473,6 +473,9 @@
       return { merged: localData, conflicts: [] };
     }
     
+    // 順番変更フラグが立っていない場合は、リモートの順序を採用
+    console.log('順番変更がないため、リモートの順序を採用');
+    
     // 編集フラグが立っている項目のみローカルを保持、それ以外はリモートを採用
     const merged = {};
     
@@ -480,7 +483,6 @@
       const remoteItems = remoteData[year] || [];
       const mergedItems = [];
       const localItemMap = new Map();
-      const remoteItemMap = new Map();
       
       // ローカルアイテムをマップ化
       localItems.forEach(item => {
@@ -488,36 +490,30 @@
         localItemMap.set(key, item);
       });
       
-      // リモートアイテムをマップ化
-      remoteItems.forEach(item => {
-        const key = `${item.label}|${item.genre || ''}`;
-        remoteItemMap.set(key, item);
-      });
-      
-      const processedKeys = new Set();
-      
-      // ローカルアイテムを処理
-      for (const [key, localItem] of localItemMap) {
-        const remoteItem = remoteItemMap.get(key);
-        const hasLocalEdit = hasEditFlag(year, localItem.label, localItem.genre);
+      // リモートの順序に従って処理
+      remoteItems.forEach(remoteItem => {
+        const key = `${remoteItem.label}|${remoteItem.genre || ''}`;
+        const localItem = localItemMap.get(key);
+        const hasLocalEdit = localItem ? hasEditFlag(year, localItem.label, localItem.genre) : false;
         
         if (hasLocalEdit) {
-          // 編集フラグが立っている場合はローカルを保持
+          // 編集フラグが立っている場合はローカルの内容を採用（ただしリモートの順序で配置）
           mergedItems.push(localItem);
-        } else if (remoteItem) {
+        } else {
           // 編集フラグが立っていない場合はリモートを採用
           mergedItems.push(remoteItem);
-        } else {
-          // リモートにない場合はローカルを保持
-          mergedItems.push(localItem);
         }
-        processedKeys.add(key);
-      }
+      });
       
-      // リモートのみに存在するアイテムを追加
-      for (const [key, remoteItem] of remoteItemMap) {
-        if (!processedKeys.has(key)) {
-          mergedItems.push(remoteItem);
+      // ローカルのみに存在するアイテムを追加
+      for (const [key, localItem] of localItemMap) {
+        const existsInRemote = remoteItems.some(remoteItem => {
+          const remoteKey = `${remoteItem.label}|${remoteItem.genre || ''}`;
+          return remoteKey === key;
+        });
+        
+        if (!existsInRemote) {
+          mergedItems.push(localItem);
         }
       }
       
@@ -538,7 +534,6 @@
       const remoteItems = remoteData[year] || [];
       const mergedItems = [];
       const localItemMap = new Map();
-      const remoteItemMap = new Map();
       
       // ローカルアイテムをマップ化
       localItems.forEach(item => {
@@ -546,58 +541,46 @@
         localItemMap.set(key, item);
       });
       
-      // リモートアイテムをマップ化
-      remoteItems.forEach(item => {
-        const key = `${item.label}|${item.genre || ''}`;
-        remoteItemMap.set(key, item);
-      });
-      
-      const processedKeys = new Set();
-      
-      // ローカルアイテムを処理
-      for (const [key, localItem] of localItemMap) {
-        const remoteItem = remoteItemMap.get(key);
-        const hasLocalEdit = hasEditFlag(year, localItem.label, localItem.genre);
+      // リモートの順序に従って処理
+      remoteItems.forEach(remoteItem => {
+        const key = `${remoteItem.label}|${remoteItem.genre || ''}`;
+        const localItem = localItemMap.get(key);
+        const hasLocalEdit = localItem ? hasEditFlag(year, localItem.label, localItem.genre) : false;
         
         if (hasLocalEdit) {
           // 編集フラグが立っている場合は競合チェック
-          if (remoteItem) {
-            const backup = getLabelBackup(year, localItem.label, localItem.genre);
-            if (backup && JSON.stringify(backup) === JSON.stringify(remoteItem)) {
-              // バックアップとリモートが同じ場合はローカルの編集を採用
-              mergedItems.push(localItem);
-            } else {
-              // バックアップとリモートが異なる場合は競合エラー
-              conflicts.push({
-                year: year,
-                label: localItem.label,
-                genre: localItem.genre || '',
-                localItem: localItem,
-                remoteItem: remoteItem,
-                conflictFields: [{ field: 'content', localValue: localItem, remoteValue: remoteItem }]
-              });
-              // 競合の場合はバックアップに戻す
-              mergedItems.push(backup || remoteItem);
-            }
-          } else {
-            // リモートにない場合はローカルを保持
+          const backup = getLabelBackup(year, localItem.label, localItem.genre);
+          if (backup && JSON.stringify(backup) === JSON.stringify(remoteItem)) {
+            // バックアップとリモートが同じ場合はローカルの編集を採用（リモートの順序で配置）
             mergedItems.push(localItem);
+          } else {
+            // バックアップとリモートが異なる場合は競合エラー
+            conflicts.push({
+              year: year,
+              label: localItem.label,
+              genre: localItem.genre || '',
+              localItem: localItem,
+              remoteItem: remoteItem,
+              conflictFields: [{ field: 'content', localValue: localItem, remoteValue: remoteItem }]
+            });
+            // 競合の場合はバックアップに戻す
+            mergedItems.push(backup || remoteItem);
           }
         } else {
           // 編集フラグが立っていない場合はリモートを採用
-          if (remoteItem) {
-            mergedItems.push(remoteItem);
-          } else {
-            mergedItems.push(localItem);
-          }
-        }
-        processedKeys.add(key);
-      }
-      
-      // リモートのみに存在するアイテムを追加
-      for (const [key, remoteItem] of remoteItemMap) {
-        if (!processedKeys.has(key)) {
           mergedItems.push(remoteItem);
+        }
+      });
+      
+      // ローカルのみに存在するアイテムを追加
+      for (const [key, localItem] of localItemMap) {
+        const existsInRemote = remoteItems.some(remoteItem => {
+          const remoteKey = `${remoteItem.label}|${remoteItem.genre || ''}`;
+          return remoteKey === key;
+        });
+        
+        if (!existsInRemote) {
+          mergedItems.push(localItem);
         }
       }
       
