@@ -92,7 +92,7 @@
     {
       "label": "エド・サリヴァン・ショー",
       "genre": "TVP",
-      "imp": 4,
+      "imp": 2,
       "url": "https://ja.wikipedia.org/wiki/エド・サリヴァン・ショー",
       "note": "音楽バラエティの古典"
     }
@@ -349,11 +349,11 @@
   ],
   "1958": [
     {
-      "label": "白蛇伝",
-      "genre": "ANI",
+      "label": "レゴ",
+      "genre": "TOY",
       "imp": 5,
-      "url": "https://ja.wikipedia.org/wiki/白蛇伝_(1958年の映画)",
-      "note": "国産初の長編カラー"
+      "url": "https://ja.wikipedia.org/wiki/レゴ",
+      "note": "現代ブロック玩具の定番"
     },
     {
       "label": "月光仮面",
@@ -370,18 +370,18 @@
       "note": "ヒッチコックの到達点"
     },
     {
-      "label": "レゴ",
-      "genre": "TOY",
-      "imp": 5,
-      "url": "https://ja.wikipedia.org/wiki/レゴ",
-      "note": "現代ブロック玩具の定番"
-    },
-    {
       "label": "フラフープ",
       "genre": "TOY",
       "imp": 5,
       "url": "https://ja.wikipedia.org/wiki/フラフープ",
       "note": "世界的な腰回し玩具"
+    },
+    {
+      "label": "白蛇伝",
+      "genre": "ANI",
+      "imp": 5,
+      "url": "https://ja.wikipedia.org/wiki/白蛇伝_(1958年の映画)",
+      "note": "国産初の長編カラー"
     }
   ],
   "1959": [
