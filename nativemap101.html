@@ -490,21 +490,42 @@
   
   // 時代区分設定を保存
   function saveEraSettings() {
-    console.log('saveEraSettings開始: 現在のeraSettings', eraSettings);
+    console.log('=== saveEraSettings 開始 ===');
+    console.log('現在のeraSettings:', eraSettings);
+    console.log('現在のeraSettingsの型:', typeof eraSettings);
+    console.log('現在のeraSettingsの長さ:', eraSettings ? eraSettings.length : 'undefined');
     
     const newEraSettings = [];
     
-    // 現在のeraSettingsの長さを確認
-    const currentLength = eraSettings ? eraSettings.length : 0;
-    console.log('現在のeraSettingsの長さ:', currentLength);
+    // DOM要素の存在確認
+    const container = document.getElementById('detailListContainer');
+    console.log('モーダルコンテナの存在:', !!container);
     
-    for (let i = 0; i < currentLength; i++) {
-      const enabled = document.getElementById(`eraEnabled${i}`)?.checked || false;
-      const name = document.getElementById(`eraName${i}`)?.value || '';
-      const startYear = parseInt(document.getElementById(`eraStart${i}`)?.value) || 0;
-      const endYear = parseInt(document.getElementById(`eraEnd${i}`)?.value) || 0;
-      const color = document.getElementById(`eraColor${i}`)?.value || '#4169E1';
-      const opacity = document.getElementById(`eraOpacity${i}`)?.value || '0.3';
+    // フォーム要素を直接検索
+    const enabledInputs = document.querySelectorAll('[id^="eraEnabled"]');
+    const nameInputs = document.querySelectorAll('[id^="eraName"]');
+    const startInputs = document.querySelectorAll('[id^="eraStart"]');
+    const endInputs = document.querySelectorAll('[id^="eraEnd"]');
+    const colorInputs = document.querySelectorAll('[id^="eraColor"]');
+    const opacityInputs = document.querySelectorAll('[id^="eraOpacity"]');
+    
+    console.log('フォーム要素の数:', {
+      enabled: enabledInputs.length,
+      name: nameInputs.length,
+      start: startInputs.length,
+      end: endInputs.length,
+      color: colorInputs.length,
+      opacity: opacityInputs.length
+    });
+    
+    // 実際のフォーム要素から値を取得
+    for (let i = 0; i < Math.max(enabledInputs.length, nameInputs.length); i++) {
+      const enabled = enabledInputs[i]?.checked || false;
+      const name = nameInputs[i]?.value || '';
+      const startYear = parseInt(startInputs[i]?.value) || 0;
+      const endYear = parseInt(endInputs[i]?.value) || 0;
+      const color = colorInputs[i]?.value || '#4169E1';
+      const opacity = opacityInputs[i]?.value || '0.3';
       
       console.log(`項目${i}:`, { enabled, name, startYear, endYear, color, opacity });
       
@@ -520,22 +541,30 @@
       }
     }
     
-    // 8件を超えた場合は古いものから削除
-    if (newEraSettings.length > 8) {
-      newEraSettings.splice(8);
-    }
+    console.log('新しいeraSettings:', newEraSettings);
     
-    console.log('saveEraSettings: 新しいeraSettings', newEraSettings);
-    
-    // グローバル変数を確実に更新
+    // グローバル変数を強制的に更新
+    window.eraSettings = newEraSettings;
     eraSettings = newEraSettings;
     
-    console.log('saveEraSettings: 更新後のeraSettings', eraSettings);
-    console.log('saveEraSettings: eraSettingsの長さ', eraSettings.length);
+    console.log('更新後のeraSettings:', eraSettings);
+    console.log('更新後のwindow.eraSettings:', window.eraSettings);
     
-    saveEvents(); // ローカルストレージに保存
+    // ローカルストレージに直接保存
+    try {
+      const data = {
+        events: events,
+        eraSettings: eraSettings
+      };
+      localStorage.setItem('timelineEventsV2', JSON.stringify(data));
+      console.log('ローカルストレージに保存完了');
+    } catch (e) {
+      console.error('ローカルストレージ保存エラー:', e);
+    }
+    
     closeModal();
     renderEraBackgrounds();
+    console.log('=== saveEraSettings 終了 ===');
   }
   
   // 時代区分の背景色を描画
@@ -1533,13 +1562,17 @@
       // 3. eraSettingsのマージ処理（ローカルを優先）
       console.log('eraSettings同期前:', { 
         local: eraSettings, 
-        localLength: eraSettings.length,
+        localLength: eraSettings ? eraSettings.length : 0,
+        windowEraSettings: window.eraSettings,
+        windowLength: window.eraSettings ? window.eraSettings.length : 0,
         remote: remoteEraSettings, 
         remoteLength: remoteEraSettings.length 
       });
       
       // ローカルのeraSettingsが存在する場合は必ずそれを使用
-      const mergedEraSettings = eraSettings && eraSettings.length > 0 ? eraSettings : remoteEraSettings;
+      const localEraSettings = (window.eraSettings && window.eraSettings.length > 0) ? window.eraSettings : 
+                              (eraSettings && eraSettings.length > 0) ? eraSettings : remoteEraSettings;
+      const mergedEraSettings = localEraSettings;
       console.log('eraSettings同期後:', { 
         merged: mergedEraSettings, 
         mergedLength: mergedEraSettings.length 
