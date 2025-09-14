@@ -629,7 +629,19 @@
               
               // テキストの背景を追加（読みやすくするため）
               const textBg = document.createElementNS('http://www.w3.org/2000/svg', 'rect');
-              const textWidth = era.name.length * 8; // 概算の文字幅
+              
+              // より正確な文字幅の計算（日本語文字を考慮）
+              let textWidth = 0;
+              for (let i = 0; i < era.name.length; i++) {
+                const char = era.name[i];
+                // 日本語文字（ひらがな、カタカナ、漢字）は約12px、英数字は約8px
+                if (/[\u3040-\u309F\u30A0-\u30FF\u4E00-\u9FAF]/.test(char)) {
+                  textWidth += 12;
+                } else {
+                  textWidth += 8;
+                }
+              }
+              
               textBg.setAttribute('x', textX - 4);
               textBg.setAttribute('y', textY - 12);
               textBg.setAttribute('width', textWidth + 8);
@@ -642,7 +654,13 @@
               // テキストを挿入
               stage.insertBefore(eraText, gridG);
               
-              console.log('時代区分名テキスト追加:', era.name, { x: textX, y: textY });
+              console.log('時代区分名テキスト追加:', era.name, { 
+                x: textX, 
+                y: textY, 
+                textWidth: textWidth,
+                backgroundWidth: textWidth + 8,
+                textLength: era.name.length
+              });
             }
           } else {
             console.log('時代区分の高さが0以下のためスキップ:', height);
