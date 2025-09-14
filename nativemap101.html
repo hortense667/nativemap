@@ -342,12 +342,13 @@
     }catch(e){} 
   }
 
+  // ===== 時代区分 =====
+  let eraSettings = []; // 時代区分の設定データ
+  
   let events = loadEvents();
   
-  // 時代区分データが初期化されていない場合は初期化
-  if (!eraSettings) {
-    eraSettings = [];
-  }
+  // 時代区分データを読み込み
+  eraSettings = loadEraSettings();
   
   // 自動保存の基準を初期化
   let lastSavedEventsData = JSON.stringify(events);
@@ -356,9 +357,6 @@
   let filterGenre = '';
   let filterImp   = '';
   let selectedGenres = new Set(); // 選択されたジャンルのセット
-  
-  // ===== 時代区分 =====
-  let eraSettings = []; // 時代区分の設定データ
   
   // 時代区分データの読み込み
   function loadEraSettings() {
