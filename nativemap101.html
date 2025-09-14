@@ -340,8 +340,16 @@
         events: events,
         eraSettings: eraSettings
       };
+      console.log('saveEvents: ローカルストレージに保存', {
+        hasEvents: !!data.events,
+        hasEraSettings: !!data.eraSettings,
+        eraSettingsLength: data.eraSettings.length,
+        eraSettingsContent: data.eraSettings
+      });
       localStorage.setItem('timelineEventsV2', JSON.stringify(data)); 
-    }catch(e){} 
+    }catch(e){
+      console.error('saveEvents エラー:', e);
+    } 
   }
 
   // ===== 時代区分 =====
@@ -501,6 +509,11 @@
     }
     
     eraSettings = newEraSettings;
+    console.log('saveEraSettings: eraSettings更新', {
+      newEraSettings: newEraSettings,
+      length: newEraSettings.length,
+      content: newEraSettings
+    });
     saveEvents(); // ローカルストレージに保存
     closeModal();
     renderEraBackgrounds();
@@ -1497,17 +1510,33 @@
       console.log('マージ後データサイズ:', JSON.stringify(merged).length, 'bytes');
 
       // 3. eraSettingsのマージ処理（ローカルを優先）
-      const mergedEraSettings = eraSettings.length > 0 ? eraSettings : remoteEraSettings;
-      console.log('eraSettings同期:', { local: eraSettings, remote: remoteEraSettings, merged: mergedEraSettings });
+      console.log('eraSettings同期前:', { 
+        local: eraSettings, 
+        localLength: eraSettings.length,
+        remote: remoteEraSettings, 
+        remoteLength: remoteEraSettings.length 
+      });
+      
+      // ローカルのeraSettingsが存在する場合は必ずそれを使用
+      const mergedEraSettings = eraSettings && eraSettings.length > 0 ? eraSettings : remoteEraSettings;
+      console.log('eraSettings同期後:', { 
+        merged: mergedEraSettings, 
+        mergedLength: mergedEraSettings.length 
+      });
 
       // 4. マージしたデータを保存
       console.log('GitHubにデータを保存中...');
-      console.log('保存するeraSettings:', mergedEraSettings);
       const dataToSave = {
         events: merged,
         eraSettings: mergedEraSettings
       };
-      console.log('保存するデータ全体:', dataToSave);
+      console.log('保存するデータ構造:', {
+        hasEvents: !!dataToSave.events,
+        eventsKeys: Object.keys(dataToSave.events || {}),
+        hasEraSettings: !!dataToSave.eraSettings,
+        eraSettingsLength: dataToSave.eraSettings.length,
+        eraSettingsContent: dataToSave.eraSettings
+      });
       const success = await saveToGitHub(dataToSave);
       if (success) {
         events = merged;
