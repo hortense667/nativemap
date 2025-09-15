@@ -305,7 +305,7 @@
   const LS_KEYS=['timelineEventsV2','timelineEventsV1'];
   const GENRES=['ANI','MAN','GAM','TVP','MOV','NET','HAR','PHE','SOF','TOY','FAS','BOO','MAG','NOV','MUS','IDL','RDO','EVT','FMT','SPW','RDE','FOO','UNC'];
   const GENRE_SET=new Set(GENRES);
-  function normalizeItem(it){ if(typeof it==='string') return {label: it}; const o={ label: it.label||'' }; if(it.startYear!==undefined && it.startYear!==null && String(it.startYear)!==''){ const n = parseInt(it.startYear,10); if(n>=YEAR_MIN && n<=YEAR_MAX) o.startYear=n; else o.startYear=''; } if(it.endYear!==undefined && it.endYear!==null && String(it.endYear)!==''){ const n = parseInt(it.endYear,10); if(n>=YEAR_MIN && n<=YEAR_MAX) o.endYear=n; else o.endYear=''; } if(it.genre) { if(Array.isArray(it.genre)) { o.genre = it.genre.map(g => String(g).toUpperCase()).filter(g => GENRE_SET.has(g)); } else { const genres = String(it.genre).split('・').map(g => g.trim().toUpperCase()).filter(g => GENRE_SET.has(g)); o.genre = genres.length > 0 ? genres : [String(it.genre).toUpperCase()]; } } if(it.imp!==undefined && it.imp!==null && String(it.imp)!==''){ const n = parseInt(it.imp,10); if(n>=1 && n<=5) o.imp=n; else o.imp=''; } if(it.url) o.url = it.url; if(it.note) o.note = it.note; return o; }
+  function normalizeItem(it){ if(typeof it==='string') return {label: it}; const o={ label: it.label||'' }; if(it.startYear!==undefined && it.startYear!==null && String(it.startYear)!==''){ const n = parseInt(it.startYear,10); if(n>=YEAR_MIN && n<=YEAR_MAX) o.startYear=n; else o.startYear=''; } if(it.endYear!==undefined && it.endYear!==null && String(it.endYear)!==''){ if(String(it.endYear).toLowerCase() === 'ongoing') { o.endYear = 'ongoing'; } else { const n = parseInt(it.endYear,10); if(n>=YEAR_MIN && n<=YEAR_MAX) o.endYear=n; else o.endYear=''; } } if(it.genre) { if(Array.isArray(it.genre)) { o.genre = it.genre.map(g => String(g).toUpperCase()).filter(g => GENRE_SET.has(g)); } else { const genres = String(it.genre).split('・').map(g => g.trim().toUpperCase()).filter(g => GENRE_SET.has(g)); o.genre = genres.length > 0 ? genres : [String(it.genre).toUpperCase()]; } } if(it.imp!==undefined && it.imp!==null && String(it.imp)!==''){ const n = parseInt(it.imp,10); if(n>=1 && n<=5) o.imp=n; else o.imp=''; } if(it.url) o.url = it.url; if(it.note) o.note = it.note; return o; }
   function normalizeAll(obj){ const out={}; for(const y of Object.keys(obj)){ const arr = Array.isArray(obj[y])? obj[y] : []; out[y] = arr.map(normalizeItem).filter(it=>it.label); } return out; }
   function loadEvents(){ 
     for(const k of LS_KEYS){ 
@@ -684,7 +684,13 @@
           </div>
           <div style="flex: 1;">
             <label style="display: block; margin-bottom: 6px; font-weight: bold; font-size: 13px;">終了年:</label>
-            <input type="number" id="eraEnd${index}" value="${era.endYear || ''}" style="width: 100%; padding: 6px; border: 1px solid #ddd; border-radius: 4px; font-size: 14px;" min="1945" max="2050">
+            <div style="display: flex; gap: 4px; align-items: center;">
+              <input type="number" id="eraEnd${index}" value="${era.endYear === 'ongoing' ? '' : (era.endYear || '')}" style="flex: 1; padding: 6px; border: 1px solid #ddd; border-radius: 4px; font-size: 14px;" min="1945" max="2050">
+              <label style="display: flex; align-items: center; gap: 2px; font-size: 12px;">
+                <input type="checkbox" id="eraEndOngoing${index}" ${era.endYear === 'ongoing' ? 'checked' : ''} style="margin: 0;">
+                ongoing
+              </label>
+            </div>
           </div>
         </div>
         <!-- 2行目: 表示チェックボックス 塗り色 透明度 削除ボタン -->
@@ -779,6 +785,7 @@
     const nameInputs = document.querySelectorAll('[id^="eraName"]');
     const startInputs = document.querySelectorAll('[id^="eraStart"]');
     const endInputs = document.querySelectorAll('[id^="eraEnd"]');
+    const endOngoingInputs = document.querySelectorAll('[id^="eraEndOngoing"]');
     const colorInputs = document.querySelectorAll('[id^="eraColor"]');
     const opacityInputs = document.querySelectorAll('[id^="eraOpacity"]');
     
@@ -787,6 +794,7 @@
       name: nameInputs.length,
       start: startInputs.length,
       end: endInputs.length,
+      endOngoing: endOngoingInputs.length,
       color: colorInputs.length,
       opacity: opacityInputs.length
     });
@@ -796,13 +804,15 @@
       const enabled = enabledInputs[i]?.checked || false;
       const name = nameInputs[i]?.value || '';
       const startYear = parseInt(startInputs[i]?.value) || 0;
-      const endYear = parseInt(endInputs[i]?.value) || 0;
+      const endYearInput = parseInt(endInputs[i]?.value) || 0;
+      const endYearOngoing = endOngoingInputs[i]?.checked || false;
+      const endYear = endYearOngoing ? 'ongoing' : endYearInput;
       const color = colorInputs[i]?.value || '#4169E1';
       const opacity = opacityInputs[i]?.value || '0.3';
       
       console.log(`項目${i}:`, { enabled, name, startYear, endYear, color, opacity });
       
-      if (name && startYear && endYear) {
+      if (name && startYear && (endYear || endYearOngoing)) {
         newEraSettings.push({
           name,
           startYear,
@@ -863,7 +873,9 @@
       enabledEras.forEach(era => {
         try {
           const startY = yFromBirthYear(era.startYear);
-          const endY = yFromBirthYear(era.endYear + 1); // 終了年の次の年まで
+          // 終了年が「ongoing」の場合は現在年まで塗る
+          const endYear = era.endYear === 'ongoing' ? new Date().getFullYear() : era.endYear;
+          const endY = yFromBirthYear(endYear + 1); // 終了年の次の年まで
           const height = endY - startY;
           
           console.log('時代区分描画:', era.name, { startYear: era.startYear, endYear: era.endYear, startY, endY, height });
@@ -892,7 +904,8 @@
               const textY = startY + 20; // 上端から少し下
               
               // 表示テキストに開始年・終了年を追加
-              const displayText = `${era.name} (${era.startYear}-${era.endYear})`;
+              const displayEndYear = era.endYear === 'ongoing' ? 'ongoing' : era.endYear;
+              const displayText = `${era.name} (${era.startYear}-${displayEndYear})`;
               
               eraText.setAttribute('x', textX);
               eraText.setAttribute('y', textY);
@@ -1337,7 +1350,13 @@
       
       <div style="margin-bottom: 16px;">
         <label style="display: block; margin-bottom: 4px; font-weight: bold;">終了年:</label>
-        <input type="number" id="editEndYear" value="${item.endYear || ''}" style="width: 100%; padding: 8px; border: 1px solid #ddd; border-radius: 4px;" placeholder="例: 1968" min="${YEAR_MIN}" max="${YEAR_MAX}">
+        <div style="display: flex; gap: 8px; align-items: center;">
+          <input type="number" id="editEndYear" value="${item.endYear === 'ongoing' ? '' : (item.endYear || '')}" style="flex: 1; padding: 8px; border: 1px solid #ddd; border-radius: 4px;" placeholder="例: 1968" min="${YEAR_MIN}" max="${YEAR_MAX}">
+          <label style="display: flex; align-items: center; gap: 4px; font-size: 14px;">
+            <input type="checkbox" id="editEndYearOngoing" ${item.endYear === 'ongoing' ? 'checked' : ''} style="margin: 0;">
+            継続中 (ongoing)
+          </label>
+        </div>
       </div>
       
       <div style="margin-bottom: 16px;">
@@ -1486,7 +1505,9 @@
 
   function saveEditItem(year, index) {
     const startYear = document.getElementById('editStartYear').value.trim();
-    const endYear = document.getElementById('editEndYear').value.trim();
+    const endYearInput = document.getElementById('editEndYear').value.trim();
+    const endYearOngoing = document.getElementById('editEndYearOngoing').checked;
+    const endYear = endYearOngoing ? 'ongoing' : endYearInput;
     const label = document.getElementById('editLabel').value.trim();
     const genreCheckboxes = document.querySelectorAll('input[type="checkbox"][value^="ANI"], input[type="checkbox"][value^="MAN"], input[type="checkbox"][value^="GAM"], input[type="checkbox"][value^="TVP"], input[type="checkbox"][value^="MOV"], input[type="checkbox"][value^="NET"], input[type="checkbox"][value^="HAR"], input[type="checkbox"][value^="PHE"], input[type="checkbox"][value^="SOF"], input[type="checkbox"][value^="TOY"], input[type="checkbox"][value^="FAS"], input[type="checkbox"][value^="BOO"], input[type="checkbox"][value^="MAG"], input[type="checkbox"][value^="NOV"], input[type="checkbox"][value^="MUS"], input[type="checkbox"][value^="IDL"], input[type="checkbox"][value^="RDO"], input[type="checkbox"][value^="EVT"], input[type="checkbox"][value^="FMT"], input[type="checkbox"][value^="SPW"], input[type="checkbox"][value^="RDE"], input[type="checkbox"][value^="FOO"], input[type="checkbox"][value^="UNC"]');
     const genres = Array.from(genreCheckboxes).filter(cb => cb.checked).map(cb => cb.value);
@@ -1562,7 +1583,7 @@
     }
     
     const startYear = item.startYear || year;
-    const endYear = item.endYear || year;
+    const endYear = item.endYear === 'ongoing' ? 'ongoing' : (item.endYear || year);
     const eraName = item.label + (item.genre ? ` [${Array.isArray(item.genre) ? item.genre.join('・') : item.genre}]` : '');
     
     // 既存の時代区分があるかチェック
@@ -1631,7 +1652,7 @@
 
   // ===== 編集UI（テキスト） =====
   function serializeLine(it){ const startYear=(it.startYear||'').trim(); const endYear=(it.endYear||'').trim(); const label=(it.label||'').trim(); const g = Array.isArray(it.genre) ? it.genre.join('・') : (it.genre||'').trim(); const imp=(it.imp===undefined||it.imp===null||String(it.imp)==='')? '' : String(it.imp); const url=(it.url||'').trim(); const note=(it.note||'').trim(); if(!startYear && !endYear && !g && !imp && !url && !note) return label; return [startYear,endYear,label,g,imp,url,note].join(';'); }
-  function parseLine(line){ const raw=line.trim(); if(!raw) return null; const parts=raw.split(';'); const startYear=(parts[0]||'').trim(); const endYear=(parts[1]||'').trim(); const label=(parts[2]||'').trim(); if(!label) return null; const genreStr=(parts[3]||'').trim(); let imp=(parts[4]||'').trim(); imp = imp? String(Math.min(5, Math.max(1, parseInt(imp,10)))): ''; const url=(parts[5]||'').trim(); const note=(parts[6]||'').trim(); const o={label}; if(startYear) o.startYear=startYear; if(endYear) o.endYear=endYear; if(genreStr) { const genres = genreStr.split('・').map(g => g.trim().toUpperCase()).filter(g => GENRE_SET.has(g)); o.genre = genres.length > 0 ? genres : [genreStr.toUpperCase()]; } if(imp) o.imp=imp; if(url) o.url=url; if(note) o.note=note; return o; }
+  function parseLine(line){ const raw=line.trim(); if(!raw) return null; const parts=raw.split(';'); const startYear=(parts[0]||'').trim(); const endYear=(parts[1]||'').trim(); const label=(parts[2]||'').trim(); if(!label) return null; const genreStr=(parts[3]||'').trim(); let imp=(parts[4]||'').trim(); imp = imp? String(Math.min(5, Math.max(1, parseInt(imp,10)))): ''; const url=(parts[5]||'').trim(); const note=(parts[6]||'').trim(); const o={label}; if(startYear) o.startYear=startYear; if(endYear) { if(endYear.toLowerCase() === 'ongoing') { o.endYear = 'ongoing'; } else { o.endYear = endYear; } } if(genreStr) { const genres = genreStr.split('・').map(g => g.trim().toUpperCase()).filter(g => GENRE_SET.has(g)); o.genre = genres.length > 0 ? genres : [genreStr.toUpperCase()]; } if(imp) o.imp=imp; if(url) o.url=url; if(note) o.note=note; return o; }
   function validateItem(year, it){ const errs=[]; if(it.genre) { const genres = Array.isArray(it.genre) ? it.genre : [it.genre]; for(const genre of genres) { if(!GENRE_SET.has(String(genre).toUpperCase())) errs.push(`不正なジャンル: ${genre}`); } } if(it.imp!==undefined && it.imp!=='' && !(parseInt(it.imp,10)>=1 && parseInt(it.imp,10)<=5)) errs.push(`不正な重要度: ${it.imp}`); if(!(Number.isInteger(year) && year>=YEAR_MIN && year<=YEAR_MAX)) errs.push(`年の範囲外: ${year}`); return errs; }
   function linesFromItems(items){ return items.map(serializeLine).join('\n'); }
 
@@ -1643,7 +1664,7 @@
     
     editor.innerHTML = `
       <h4><span>${year}年の項目一括編集 ${note}</span><span class="fmt">開始年;終了年;ラベル;ジャンル;重要度;URL;注釈</span></h4>
-      <textarea id="edText" placeholder="1行につき1件\n形式：開始年;終了年;ラベル;ジャンル;重要度;URL;注釈\n例）\n1952;1968;鉄腕アトム;MAN;5;https://ja.wikipedia.org/wiki/鉄腕アトム;国民的SFヒーロー\n;任天堂ファミコン;GAM;5;https://ja.wikipedia.org/wiki/ファミリーコンピュータ;家庭用ゲーム機の革命\nラベル;;;https://example.com;補足メモ\nラベル"></textarea>
+      <textarea id="edText" placeholder="1行につき1件\n形式：開始年;終了年;ラベル;ジャンル;重要度;URL;注釈\n例）\n1952;1968;鉄腕アトム;MAN;5;https://ja.wikipedia.org/wiki/鉄腕アトム;国民的SFヒーロー\n1983;ongoing;ドラゴンボール;MAN;5;https://ja.wikipedia.org/wiki/ドラゴンボール;継続中のマンガ\n;任天堂ファミコン;GAM;5;https://ja.wikipedia.org/wiki/ファミリーコンピュータ;家庭用ゲーム機の革命\nラベル;;;https://example.com;補足メモ\nラベル"></textarea>
       <div class="row">
         <div class="left">保存でJSONに反映／Ctrl+Enterでも保存・Escで閉じる</div>
         <div class="right">
@@ -2862,13 +2883,13 @@
         errors.push(`${i+1}行目: 開始年が不正または範囲外（${startYearStr}）`); continue;
       }
       
-      // 終了年の検証
-      if(endYearStr && !(endYearStr.match(/^\d{4}$/) && parseInt(endYearStr,10)>=YEAR_MIN && parseInt(endYearStr,10)<=YEAR_MAX)){
+      // 終了年の検証（「ongoing」も許可）
+      if(endYearStr && endYearStr.toLowerCase() !== 'ongoing' && !(endYearStr.match(/^\d{4}$/) && parseInt(endYearStr,10)>=YEAR_MIN && parseInt(endYearStr,10)<=YEAR_MAX)){
         errors.push(`${i+1}行目: 終了年が不正または範囲外（${endYearStr}）`); continue;
       }
       
-      // 開始年と終了年の関係性検証
-      if(startYearStr && endYearStr && parseInt(startYearStr,10) > parseInt(endYearStr,10)){
+      // 開始年と終了年の関係性検証（「ongoing」の場合はスキップ）
+      if(startYearStr && endYearStr && endYearStr.toLowerCase() !== 'ongoing' && parseInt(startYearStr,10) > parseInt(endYearStr,10)){
         errors.push(`${i+1}行目: 開始年が終了年より後になっています（${startYearStr} > ${endYearStr}）`); continue;
       }
       
@@ -2884,15 +2905,27 @@
       let itemYear;
       if(startYearStr) {
         itemYear = parseInt(startYearStr,10);
-      } else if(endYearStr) {
+      } else if(endYearStr && endYearStr.toLowerCase() !== 'ongoing') {
         itemYear = parseInt(endYearStr,10);
+      } else if(endYearStr && endYearStr.toLowerCase() === 'ongoing') {
+        // ongoingの場合は開始年が必要
+        if(!startYearStr) {
+          errors.push(`${i+1}行目: 終了年が「ongoing」の場合は開始年が必要です`); continue;
+        }
+        itemYear = parseInt(startYearStr,10);
       } else {
         errors.push(`${i+1}行目: 開始年または終了年のいずれかが必要です`); continue;
       }
       
       const item={ label }; 
       if(startYearStr) item.startYear=parseInt(startYearStr,10); 
-      if(endYearStr) item.endYear=parseInt(endYearStr,10); 
+      if(endYearStr) {
+        if(endYearStr.toLowerCase() === 'ongoing') {
+          item.endYear = 'ongoing';
+        } else {
+          item.endYear = parseInt(endYearStr,10);
+        }
+      } 
       if(genres.length > 0) item.genre=genres; 
       if(impStr) item.imp=parseInt(impStr,10); 
       if(url) item.url=url; 
