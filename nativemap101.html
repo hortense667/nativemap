@@ -646,6 +646,7 @@
         const index = nameInput.id.replace('eraName', '');
 
         const enabled = document.getElementById(`eraEnabled${index}`)?.checked ?? true;
+        const fillEnabled = document.getElementById(`eraFill${index}`)?.checked ?? true;
         const startYearStr = document.getElementById(`eraStart${index}`)?.value.trim();
         const endYearStr = document.getElementById(`eraEnd${index}`)?.value.trim();
         const endOngoing = document.getElementById(`eraEndOngoing${index}`)?.checked ?? false;
@@ -664,7 +665,8 @@
           endYear,
           color,
           opacity,
-          enabled
+          enabled,
+          fillEnabled
         });
       }
     });
@@ -783,22 +785,18 @@
   
   // 新しい時代区分項目を追加
   function addEraItem() {
-    console.log('addEraItem開始: 現在のeraSettings', eraSettings);
-    
     const newItem = {
       name: '',
       startYear: '',
       endYear: '',
       color: '#4169E1',
       opacity: '0.3',
-      enabled: true
+      enabled: true,
+      fillEnabled: true
     };
     
     // 新しい時代区分を先頭に追加（常に新しいものから並ぶように）
     eraSettings.unshift(newItem);
-    console.log('addEraItem: 新しい項目を追加', newItem);
-    console.log('addEraItem: 更新後のeraSettings', eraSettings);
-    
     showEraSettingsModal();
   }
   
@@ -823,6 +821,7 @@
         const index = nameInput.id.replace('eraName', '');
 
         const enabled = document.getElementById(`eraEnabled${index}`)?.checked ?? true;
+        const fillEnabled = document.getElementById(`eraFill${index}`)?.checked ?? true;
         const startYearStr = document.getElementById(`eraStart${index}`)?.value.trim();
         const endYearStr = document.getElementById(`eraEnd${index}`)?.value.trim();
         const endOngoing = document.getElementById(`eraEndOngoing${index}`)?.checked ?? false;
@@ -841,7 +840,8 @@
           endYear,
           color,
           opacity,
-          enabled
+          enabled,
+          fillEnabled
         });
       }
     });
