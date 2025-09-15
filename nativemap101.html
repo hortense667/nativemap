@@ -3151,7 +3151,8 @@
   eraBtn.addEventListener('click', showEraSettingsModal);
 
   // ヘルプ
-  const helpHtml = `
+  document.getElementById('helpBtn').addEventListener('click', ()=>{
+    const helpHtml = `
       <h4>使いかたの例（任天堂ファミコン）</h4>
       <p>任天堂のファミコン発売時の年齢を知りたいとします。</p>
       <ol>
@@ -3171,6 +3172,12 @@
       <p>「ロード」ボタンでCSV/TSVファイルを読み込んで一括でデータを追加できます。</p>
       <p><strong>形式：</strong> <code>年;ジャンル;ラベル;重要度;URL;注釈</code></p>
       <p><strong>例：</strong> <code>1946;HAR;ENIAC;5;https://ja.wikipedia.org/wiki/ENIAC;初の大規模電子計算機</code></p>
+      <h4>時代区分（背景の色帯）</h4>
+      <ul>
+        <li>右上の<strong>「時代区分」</strong>を開き、名称・期間・色・透明度を設定します（最大8件）。</li>
+        <li>表示チェックでON/OFFを切替。重なりは上から順に描画されます。</li>
+        <li>保存すると画面に色帯が反映されます。設定はローカルに保持されます。</li>
+      </ul>
       <h5>ジャンル一覧（カッコ内は登録件数／総登録件数：${getTotalItemCount()}件）</h5>
       <ul>
         ${generateGenreListWithCounts()}
@@ -3185,7 +3192,8 @@
       </ul>
       <div class="credit">(c) 2025 Satoshi Endo CC-BY 4.0</div>
     `;
-  document.getElementById('helpBtn').addEventListener('click', ()=>{ openModal('ヘルプ - ネイティブマップ 1.0', helpHtml); });
+    openModal('ヘルプ - ネイティブマップ 1.0', helpHtml);
+  });
 
   // ===== スモークテスト =====
   function runSmokeTests(){ try { renderEvents(); console.debug('[TEST] renderEvents (clip no-ellipsis): OK'); } catch(e){ console.error('[TEST] renderEvents threw', e); } }
