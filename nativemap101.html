@@ -90,7 +90,7 @@
       </button>
     </div>
     <div class="search">
-      <input id="searchBox" type="text" placeholder="ラベルと注釈を検索" />
+      <input id="searchBox" type="text" placeholder="ラベルを検索（選択中ジャンルのみ）" />
       <button class="btn" id="searchBtn">検索</button>
       <button class="btn" id="prevBtn">前</button>
       <button class="btn" id="nextBtn">次</button>
@@ -1777,16 +1777,23 @@
     console.log('検索クエリ:', q);
     console.log('events:', events);
     
-    // ラベルと注釈の両方を検索対象にする
+    // 検索対象は「選択中ジャンルのラベルのみ」
     const searchResults = [];
     for (const year of Object.keys(events)) {
       const items = events[year] || [];
       for (const item of items) {
+        // ジャンルフィルタ: 未選択ならヒットさせない。ジャンル未設定は 'UNC' とみなす
+        if (selectedGenres.size > 0) {
+          const itemGenre = String(item.genre || 'UNC');
+          if (!selectedGenres.has(itemGenre)) continue;
+        } else {
+          // 何も選ばれていない場合はヒットなし（UI上は「ジャンル選択」を促す想定）
+          continue;
+        }
         const labelMatch = item.label && item.label.toLowerCase().includes(q.toLowerCase());
-        const noteMatch = item.note && item.note.toLowerCase().includes(q.toLowerCase());
-        if (labelMatch || noteMatch) {
+        if (labelMatch) {
           searchResults.push({ year: parseInt(year), item });
-          console.log('マッチした項目:', { year, item, labelMatch, noteMatch });
+          console.log('マッチした項目:', { year, item, labelMatch });
         }
       }
     }
