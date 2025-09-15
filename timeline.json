@@ -8561,28 +8561,28 @@
   },
   "eraSettings": [
     {
+      "name": "ビデオとゲームの時代",
+      "startYear": 1983,
+      "endYear": 2004,
+      "color": "#4169E1",
+      "opacity": "0.3",
+      "enabled": true
+    },
+    {
       "name": "テレビ・マンガ・週刊誌の時代",
       "startYear": 1959,
       "endYear": 1999,
-      "color": "#FFD700",
+      "color": "#32CD32",
       "opacity": "0.3",
       "enabled": true
     },
     {
       "name": "モバイルとネットの時代",
       "startYear": 1995,
-      "endYear": "ongoing",
-      "color": "#DC143C",
-      "opacity": "0.3",
-      "enabled": true
-    },
-    {
-      "name": "AIの時代",
-      "startYear": 2022,
-      "endYear": "ongoing",
+      "endYear": 2025,
       "color": "#4169E1",
       "opacity": "0.3",
-      "enabled": true
+      "enabled": false
     }
   ]
 }
