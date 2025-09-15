@@ -45,7 +45,7 @@
   .editor{ position:absolute; background:#fff; border:1px solid #ccc; border-radius:10px; box-shadow:0 12px 28px rgba(0,0,0,.18); padding:10px; width:520px; z-index:30; }
   .editor h4{ margin:0 0 6px; font-size:14px; display:flex; align-items:center; gap:8px; justify-content:space-between; }
   .editor .fmt{ font:12px/1.2 ui-monospace,SFMono-Regular,Menlo,Consolas,monospace; color:#555; background:#f4f4f4; border:1px solid #e0e0e0; border-radius:6px; padding:2px 6px; }
-  .editor textarea{ width:100%; min-height:200px; font:12px/1.5 ui-monospace,SFMono-Regular,Menlo,Consolas,monospace; padding:8px; border:1px solid #d0d0d0; border-radius:8px; box-sizing:border-box; resize:vertical; white-space:pre; }
+  .editor textarea{ width:100%; min-height:200px; font:12px/1.5 ui-monospace,SFMono-Regular,Menlo,Consolas,monospace; padding:8px; border:1px solid #d0d0d0; border-radius:8px; box-sizing:border-box; resize:vertical; white-space:pre-wrap; overflow-x:hidden; overflow-y:auto; word-break:break-word; }
   .editor .row{ display:flex; gap:8px; justify-content:space-between; align-items:center; margin-top:8px; }
   .editor .row .left{ color:#666; font-size:12px; }
   .editor .row button{ padding:6px 10px; border:1px solid #bbb; border-radius:8px; background:#f5f5f5; cursor:pointer; }
@@ -1433,7 +1433,27 @@
 
     function close() { editor.style.display = 'none'; }
     editor.querySelector('#cancel').onclick = close;
-    editor.querySelector('#save').onclick = () => { saveEditItem(year, index); close(); };
+    editor.querySelector('#save').onclick = () => { saveEditItem(year, index); };
+    // 入力中の長さ制限（URL + 注釈 合計最大512文字）
+    const urlEl = document.getElementById('editUrl');
+    const noteEl = document.getElementById('editNote');
+    const limit = 512;
+    function enforceLimit(e){
+      const urlVal = urlEl.value || '';
+      const noteVal = noteEl.value || '';
+      const total = urlVal.length + noteVal.length;
+      if(total > limit){
+        // 超過分をカット
+        if(e && e.target === noteEl){
+          noteEl.value = noteVal.slice(0, Math.max(0, limit - urlVal.length));
+        } else if(e && e.target === urlEl){
+          urlEl.value = urlVal.slice(0, Math.max(0, limit - noteVal.length));
+        }
+        showError('入力制限', `URLと注釈の合計は最大 ${limit} 文字までです。`);
+      }
+    }
+    urlEl.addEventListener('input', enforceLimit);
+    noteEl.addEventListener('input', enforceLimit);
   }
 
   function saveEditItem(year, index) {
@@ -1447,6 +1467,11 @@
     const imp = document.getElementById('editImp').value.trim();
     const url = document.getElementById('editUrl').value.trim();
     const note = document.getElementById('editNote').value.trim();
+    const totalLen = (url || '').length + (note || '').length;
+    if(totalLen > 512){
+      showError('編集エラー', `URLと注釈の合計は最大 512 文字までです。現在: ${totalLen} 文字`);
+      return;
+    }
     
     if (!label) {
       showError('編集エラー', 'ラベルは必須です。');
