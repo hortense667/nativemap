@@ -1799,12 +1799,11 @@
     
     matches=els.filter(el=> {
       const year = parseInt(el.getAttribute('data-year'));
-      const displayText = el.textContent;
-      const isMatch = searchResults.some(result => 
-        result.year === year && displayText.includes(result.item.label)
-      );
+      // テキストが省略（トランケート）される場合があるため、
+      // 画面表示テキストへの含有判定は行わず、年単位で一致を判定する
+      const isMatch = searchResults.some(result => result.year === year);
       if (isMatch) {
-        console.log('マッチしたラベル要素:', { year, displayText, matchedLabel: searchResults.find(r => r.year === year && displayText.includes(r.item.label))?.item.label, element: el });
+        console.log('マッチ（年単位）:', { year, element: el });
       }
       return isMatch;
     });
