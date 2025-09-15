@@ -1,5 +1,237 @@
 {
   "events": {
+    "1843": [
+      {
+        "label": "エコノミスト (イギリスの雑誌)",
+        "startYear": 1843,
+        "endYear": "ongoing",
+        "genre": [
+          "MAG"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/エコノミスト_(イギリスの雑誌)",
+        "note": "経済週刊の老舗"
+      }
+    ],
+    "1845": [
+      {
+        "label": "サイエンティフィック・アメリカン",
+        "startYear": 1845,
+        "endYear": "ongoing",
+        "genre": [
+          "MAG"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/サイエンティフィック・アメリカン",
+        "note": "科学解説の老舗"
+      }
+    ],
+    "1850": [
+      {
+        "label": "ハーパーズ・マガジン",
+        "startYear": 1850,
+        "endYear": "ongoing",
+        "genre": [
+          "MAG"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/ハーパーズ・マガジン",
+        "note": "米最古級総合誌"
+      }
+    ],
+    "1857": [
+      {
+        "label": "ザ・アトランティック",
+        "startYear": 1857,
+        "endYear": "ongoing",
+        "genre": [
+          "MAG"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/ザ・アトランティック",
+        "note": "思想と文化の総合誌"
+      }
+    ],
+    "1867": [
+      {
+        "label": "ハーパーズ・バザー",
+        "startYear": 1867,
+        "endYear": "ongoing",
+        "genre": [
+          "MAG"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/ハーパーズ・バザー",
+        "note": "女性誌の老舗"
+      }
+    ],
+    "1869": [
+      {
+        "label": "ネイチャー",
+        "startYear": 1869,
+        "endYear": "ongoing",
+        "genre": [
+          "MAG"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/ネイチャー",
+        "note": "世界的科学誌"
+      }
+    ],
+    "1880": [
+      {
+        "label": "サイエンス (雑誌)",
+        "startYear": 1880,
+        "endYear": "ongoing",
+        "genre": [
+          "MAG"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/サイエンス_(雑誌)",
+        "note": "米科学学術誌"
+      }
+    ],
+    "1887": [
+      {
+        "label": "中央公論 (雑誌)",
+        "startYear": 1887,
+        "endYear": "ongoing",
+        "genre": [
+          "MAG"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/中央公論_(雑誌)",
+        "note": "近代言論の舞台"
+      }
+    ],
+    "1888": [
+      {
+        "label": "ナショナルジオグラフィック",
+        "startYear": 1888,
+        "endYear": "ongoing",
+        "genre": [
+          "MAG"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/ナショナルジオグラフィック",
+        "note": "探検と写真の名門誌"
+      }
+    ],
+    "1892": [
+      {
+        "label": "ヴォーグ",
+        "startYear": 1892,
+        "endYear": "ongoing",
+        "genre": [
+          "MAG"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/ヴォーグ",
+        "note": "ファッション誌の象徴"
+      }
+    ],
+    "1902": [
+      {
+        "label": "ポピュラーメカニクス",
+        "startYear": 1902,
+        "endYear": "ongoing",
+        "genre": [
+          "MAG"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/ポピュラーメカニクス",
+        "note": "技術DIYの総合誌"
+      }
+    ],
+    "1904": [
+      {
+        "label": "新潮 (雑誌)",
+        "startYear": 1904,
+        "endYear": "ongoing",
+        "genre": [
+          "MAG"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/新潮_(雑誌)",
+        "note": "文芸誌の老舗"
+      }
+    ],
+    "1922": [
+      {
+        "label": "サンデー毎日",
+        "startYear": 1922,
+        "endYear": "ongoing",
+        "genre": [
+          "MAG"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/サンデー毎日",
+        "note": "日本初の週刊誌級"
+      }
+    ],
+    "1923": [
+      {
+        "label": "文藝春秋 (雑誌)",
+        "startYear": 1923,
+        "endYear": "ongoing",
+        "genre": [
+          "MAG"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/文藝春秋_(雑誌)",
+        "note": "総合月刊の老舗"
+      },
+      {
+        "label": "タイム (雑誌)",
+        "startYear": 1923,
+        "endYear": "ongoing",
+        "genre": [
+          "MAG"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/タイム_(雑誌)",
+        "note": "米国ニュース週刊誌"
+      }
+    ],
+    "1924": [
+      {
+        "label": "子供の科学",
+        "startYear": 1924,
+        "endYear": "ongoing",
+        "genre": [
+          "MAG"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/子供の科学",
+        "note": "科学教育の長寿誌"
+      }
+    ],
+    "1925": [
+      {
+        "label": "ザ・ニューヨーカー",
+        "startYear": 1925,
+        "endYear": "ongoing",
+        "genre": [
+          "MAG"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/ザ・ニューヨーカー",
+        "note": "文学と風刺の総合誌"
+      }
+    ],
+    "1933": [
+      {
+        "label": "ニューズウィーク",
+        "startYear": 1933,
+        "endYear": "ongoing",
+        "genre": [
+          "MAG"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/ニューズウィーク",
+        "note": "米国ニュース週刊誌"
+      }
+    ],
     "1945": [
       {
         "label": "終戦",
@@ -855,6 +1087,17 @@
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/ドクター・フー",
         "note": "英SFの長寿看板番組"
+      },
+      {
+        "label": "コンパクトカセット",
+        "startYear": 1963,
+        "endYear": "ongoing",
+        "genre": [
+          "FMT"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/%E3%82%AB%E3%82%BB%E3%83%83%E3%83%88%E3%83%86%E3%83%BC%E3%83%97",
+        "note": "ポータブル音楽の普及を牽引。"
       }
     ],
     "1964": [
@@ -951,6 +1194,17 @@
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/BASIC",
         "note": "PC普及期の入門言語"
+      },
+      {
+        "label": "富士急ハイランド",
+        "startYear": 1964,
+        "endYear": "ongoing",
+        "genre": [
+          "RDE"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/%E5%AF%8C%E5%A3%AB%E6%80%A5%E3%83%8F%E3%82%A4%E3%83%A9%E3%83%B3%E3%83%89",
+        "note": "スリルライドで知られる遊園地。"
       }
     ],
     "1965": [
@@ -1111,6 +1365,17 @@
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/スター・トレック:宇宙大作戦",
         "note": "SFドラマの古典的名作"
+      },
+      {
+        "label": "ナガシマスパーランド",
+        "startYear": 1966,
+        "endYear": "ongoing",
+        "genre": [
+          "RDE"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/%E3%83%8A%E3%82%AC%E3%82%B7%E3%83%9E%E3%82%B9%E3%83%91%E3%83%BC%E3%83%A9%E3%83%B3%E3%83%89",
+        "note": "東海地方を代表する遊園地。"
       }
     ],
     "1967": [
@@ -1165,6 +1430,17 @@
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/百年の孤独",
         "note": "魔術的現実主義の頂点"
+      },
+      {
+        "label": "オールナイトニッポン",
+        "startYear": 1967,
+        "endYear": "ongoing",
+        "genre": [
+          "RDO"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/%E3%82%AA%E3%83%BC%E3%83%AB%E3%83%8A%E3%82%A4%E3%83%88%E3%83%8B%E3%83%83%E3%83%9D%E3%83%B3",
+        "note": "深夜ラジオの代名詞。"
       }
     ],
     "1968": [
@@ -1293,6 +1569,17 @@
         "url": "https://ja.wikipedia.org/wiki/60ミニッツ",
         "note": "調査報道の金字塔",
         "endYear": "ongoing"
+      },
+      {
+        "label": "日野ミッドナイトグラフィティ 走れ!歌謡曲",
+        "startYear": 1968,
+        "endYear": 2021,
+        "genre": [
+          "RDO"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/%E6%97%A5%E9%87%8E%E3%83%9F%E3%83%83%E3%83%89%E3%83%8A%E3%82%A4%E3%83%88%E3%82%B0%E3%83%A9%E3%83%95%E3%82%A3%E3%83%86%E3%82%A3_%E8%B5%B0%E3%82%8C!%E6%AD%8C%E8%AC%A1%E6%9B%B2",
+        "note": "深夜の定番歌謡番組。"
       }
     ],
     "1969": [
@@ -1579,6 +1866,28 @@
         "url": "https://ja.wikipedia.org/wiki/新婚さんいらっしゃい!",
         "note": "長寿公開収録トーク",
         "endYear": "ongoing"
+      },
+      {
+        "label": "カップヌードル",
+        "startYear": 1971,
+        "endYear": "ongoing",
+        "genre": [
+          "FOO"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/%E3%82%AB%E3%83%83%E3%83%97%E3%83%8C%E3%83%BC%E3%83%89%E3%83%AB",
+        "note": "世界初のカップ麺。"
+      },
+      {
+        "label": "日本マクドナルド",
+        "startYear": 1971,
+        "endYear": "ongoing",
+        "genre": [
+          "FOO"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/%E6%97%A5%E6%9C%AC%E3%83%9E%E3%82%AF%E3%83%89%E3%83%8A%E3%83%AB%E3%83%89",
+        "note": "銀座で1号店を開店。"
       }
     ],
     "1972": [
@@ -1731,6 +2040,28 @@
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/Smalltalk",
         "note": "OOP概念を実用化"
+      },
+      {
+        "label": "新日本プロレス",
+        "startYear": 1972,
+        "endYear": "ongoing",
+        "genre": [
+          "SPW"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/%E6%96%B0%E6%97%A5%E6%9C%AC%E3%83%97%E3%83%AD%E3%83%AC%E3%82%B9",
+        "note": "日本を代表するプロレス団体。"
+      },
+      {
+        "label": "全日本プロレス",
+        "startYear": 1972,
+        "endYear": "ongoing",
+        "genre": [
+          "SPW"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/%E5%85%A8%E6%97%A5%E6%9C%AC%E3%83%97%E3%83%AD%E3%83%AC%E3%82%B9",
+        "note": "老舗プロレス団体。"
       }
     ],
     "1973": [
@@ -1983,6 +2314,28 @@
         "url": "https://ja.wikipedia.org/wiki/サタデー・ナイト・ライブ",
         "note": "米国深夜コメディの王",
         "endYear": "ongoing"
+      },
+      {
+        "label": "コミックマーケット",
+        "startYear": 1975,
+        "endYear": "ongoing",
+        "genre": [
+          "EVT"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/%E3%82%B3%E3%83%9F%E3%83%83%E3%82%AF%E3%83%9E%E3%83%BC%E3%82%B1%E3%83%83%E3%83%88",
+        "note": "世界最大級の同人誌即売会。"
+      },
+      {
+        "label": "ペヤングソースやきそば",
+        "startYear": 1975,
+        "endYear": "ongoing",
+        "genre": [
+          "FOO"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/%E3%83%9A%E3%83%A4%E3%83%B3%E3%82%B0%E3%82%BD%E3%83%BC%E3%82%B9%E3%82%84%E3%81%8D%E3%81%9D%E3%81%B0",
+        "note": "ロングセラーの即席麺。"
       }
     ],
     "1976": [
@@ -2132,6 +2485,17 @@
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/クイズダービー",
         "note": "昭和クイズ番組の代表"
+      },
+      {
+        "label": "VHS",
+        "startYear": 1976,
+        "endYear": "ongoing",
+        "genre": [
+          "FMT"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/VHS",
+        "note": "家庭用ビデオの標準規格として普及。"
       }
     ],
     "1977": [
@@ -2361,6 +2725,17 @@
         "url": "https://ja.wikipedia.org/wiki/24時間テレビ_「愛は地球を救う」",
         "note": "チャリティ長時間特番",
         "endYear": "ongoing"
+      },
+      {
+        "label": "レーザーディスク",
+        "startYear": 1978,
+        "endYear": 2001,
+        "genre": [
+          "FMT"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/%E3%83%AC%E3%83%BC%E3%82%B6%E3%83%87%E3%82%A3%E3%82%B9%E3%82%AF",
+        "note": "家庭用光学式ビデオディスク。"
       }
     ],
     "1979": [
@@ -3015,6 +3390,17 @@
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/笑っていいとも!",
         "note": "昼の帯トークの王道"
+      },
+      {
+        "label": "コンパクトディスク",
+        "startYear": 1982,
+        "endYear": "ongoing",
+        "genre": [
+          "FMT"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/%E3%82%B3%E3%83%B3%E3%83%91%E3%82%AF%E3%83%88%E3%83%87%E3%82%A3%E3%82%B9%E3%82%AF",
+        "note": "デジタル音楽メディアの代表。"
       }
     ],
     "1983": [
@@ -3209,6 +3595,17 @@
         "url": "https://ja.wikipedia.org/wiki/おしん",
         "note": "国際的に大ヒット",
         "endYear": "ongoing"
+      },
+      {
+        "label": "東京ディズニーランド",
+        "startYear": 1983,
+        "endYear": "ongoing",
+        "genre": [
+          "RDE"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/%E6%9D%B1%E4%BA%AC%E3%83%87%E3%82%A3%E3%82%BA%E3%83%8B%E3%83%BC%E3%83%A9%E3%83%B3%E3%83%89",
+        "note": "国内テーマパークの金字塔。"
       }
     ],
     "1984": [
@@ -3384,6 +3781,17 @@
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/X_Window_System",
         "note": "UNIX系のGUI基盤"
+      },
+      {
+        "label": "ワンダーフェスティバル",
+        "startYear": 1984,
+        "endYear": "ongoing",
+        "genre": [
+          "EVT"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/%E3%83%AF%E3%83%B3%E3%83%80%E3%83%BC%E3%83%95%E3%82%A7%E3%82%B9%E3%83%86%E3%82%A3%E3%83%90%E3%83%AB",
+        "note": "ガレージキットの祭典。"
       }
     ],
     "1985": [
@@ -4083,6 +4491,17 @@
         "url": "https://ja.wikipedia.org/wiki/とんねるずのみなさんのおかげです",
         "note": "90年代バラエティ旗艦",
         "endYear": "ongoing"
+      },
+      {
+        "label": "SMAP",
+        "startYear": 1988,
+        "endYear": 2016,
+        "genre": [
+          "IDL"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/SMAP",
+        "note": "国民的男性アイドルグループ。2016年に解散。"
       }
     ],
     "1989": [
@@ -4377,6 +4796,17 @@
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/ツイン・ピークス",
         "note": "ミステリ群像の金字塔"
+      },
+      {
+        "label": "サンリオピューロランド",
+        "startYear": 1990,
+        "endYear": "ongoing",
+        "genre": [
+          "RDE"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/%E3%82%B5%E3%83%B3%E3%83%AA%E3%82%AA%E3%83%94%E3%83%A5%E3%83%BC%E3%83%AD%E3%83%A9%E3%83%B3%E3%83%89",
+        "note": "サンリオの屋内型テーマパーク。"
       }
     ],
     "1991": [
@@ -4606,6 +5036,39 @@
         "url": "https://ja.wikipedia.org/wiki/進め!電波少年",
         "note": "体当たりバラエティ",
         "endYear": "ongoing"
+      },
+      {
+        "label": "山下達郎のサンデー・ソングブック",
+        "startYear": 1992,
+        "endYear": "ongoing",
+        "genre": [
+          "RDO"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/%E5%B1%B1%E4%B8%8B%E9%81%94%E9%83%8E%E3%81%AE%E3%82%B5%E3%83%B3%E3%83%87%E3%83%BC%E3%83%BB%E3%82%BD%E3%83%B3%E3%82%B0%E3%83%96%E3%83%83%E3%82%AF",
+        "note": "音楽ファン定番の長寿番組。"
+      },
+      {
+        "label": "MiniDisc",
+        "startYear": 1992,
+        "endYear": 2013,
+        "genre": [
+          "FMT"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/MiniDisc",
+        "note": "携帯型デジタル録音メディア。"
+      },
+      {
+        "label": "ナムコ・ワンダーエッグ",
+        "startYear": 1992,
+        "endYear": 2000,
+        "genre": [
+          "RDE"
+        ],
+        "imp": 2,
+        "url": "https://ja.wikipedia.org/wiki/%E3%83%8A%E3%83%A0%E3%82%B3%E3%83%BB%E3%83%AF%E3%83%B3%E3%83%80%E3%83%BC%E3%82%A8%E3%83%83%E3%82%B0",
+        "note": "株式会社ナムコが運営していたテーマパーク。"
       }
     ],
     "1993": [
@@ -4814,6 +5277,17 @@
         "url": "https://ja.wikipedia.org/wiki/天才てれびくん",
         "note": "児童向けバラエティ枠",
         "endYear": "ongoing"
+      },
+      {
+        "label": "K-1",
+        "startYear": 1993,
+        "endYear": "ongoing",
+        "genre": [
+          "SPW"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/K-1",
+        "note": "立ち技格闘技イベントとして国民的認知。"
       }
     ],
     "1994": [
@@ -5186,6 +5660,17 @@
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/DirectX",
         "note": "Windowsマルチメディア基盤"
+      },
+      {
+        "label": "伊集院光 深夜の馬鹿力",
+        "startYear": 1995,
+        "endYear": "ongoing",
+        "genre": [
+          "RDO"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/%E4%BC%8A%E9%9B%86%E9%99%A2%E5%85%89_%E6%B7%B1%E5%A4%9C%E3%81%AE%E9%A6%AC%E9%B9%BF%E5%8A%9B",
+        "note": "TBSラジオの長寿深夜番組。"
       }
     ],
     "1996": [
@@ -5322,6 +5807,39 @@
         "url": "https://ja.wikipedia.org/wiki/めちゃ×2イケてるッ!",
         "note": "平成お笑いの象徴枠",
         "endYear": "ongoing"
+      },
+      {
+        "label": "東京ゲームショウ",
+        "startYear": 1996,
+        "endYear": "ongoing",
+        "genre": [
+          "EVT"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/%E6%9D%B1%E4%BA%AC%E3%82%B2%E3%83%BC%E3%83%A0%E3%82%B7%E3%83%A7%E3%82%A6",
+        "note": "国内最大級のゲーム見本市。"
+      },
+      {
+        "label": "DVD",
+        "startYear": 1996,
+        "endYear": "ongoing",
+        "genre": [
+          "FMT"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/DVD",
+        "note": "光ディスク映像メディアの主流に。"
+      },
+      {
+        "label": "スターバックス（日本）",
+        "startYear": 1996,
+        "endYear": "ongoing",
+        "genre": [
+          "FOO"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%82%BF%E3%83%BC%E3%83%90%E3%83%83%E3%82%AF%E3%82%B9",
+        "note": "シアトル系コーヒー文化を普及。"
       }
     ],
     "1997": [
@@ -5489,6 +6007,28 @@
         "imp": 3,
         "url": "https://ja.wikipedia.org/wiki/Postfix",
         "note": "安全性重視のMTA"
+      },
+      {
+        "label": "モーニング娘。",
+        "startYear": 1997,
+        "endYear": "ongoing",
+        "genre": [
+          "IDL"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/%E3%83%A2%E3%83%BC%E3%83%8B%E3%83%B3%E3%82%B0%E5%A8%98%E3%80%82",
+        "note": "女性アイドルの長寿グループ。"
+      },
+      {
+        "label": "PRIDE",
+        "startYear": 1997,
+        "endYear": 2007,
+        "genre": [
+          "SPW"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/PRIDE",
+        "note": "MMAブームを牽引した総合格闘技団体。"
       }
     ],
     "1998": [
@@ -5906,6 +6446,17 @@
         "url": "https://ja.wikipedia.org/wiki/プロジェクトX〜挑戦者たち〜",
         "note": "技術者群像の名作",
         "endYear": "ongoing"
+      },
+      {
+        "label": "Perfume",
+        "startYear": 2000,
+        "endYear": "ongoing",
+        "genre": [
+          "IDL"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/Perfume",
+        "note": "テクノポップ路線のダンスボーカルユニット。"
       }
     ],
     "2001": [
@@ -6060,6 +6611,39 @@
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/%E3%82%A6%E3%82%A3%E3%82%AD%E3%83%9A%E3%83%87%E3%82%A3%E3%82%A2",
         "note": "参加型百科事典の象徴"
+      },
+      {
+        "label": "東京ディズニーシー",
+        "startYear": 2001,
+        "endYear": "ongoing",
+        "genre": [
+          "RDE"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/%E6%9D%B1%E4%BA%AC%E3%83%87%E3%82%A3%E3%82%BA%E3%83%8B%E3%83%BC%E3%82%B7%E3%83%BC",
+        "note": "海をテーマにした独自コンセプト。"
+      },
+      {
+        "label": "ユニバーサル・スタジオ・ジャパン",
+        "startYear": 2001,
+        "endYear": "ongoing",
+        "genre": [
+          "RDE"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/%E3%83%A6%E3%83%8B%E3%83%90%E3%83%BC%E3%82%B5%E3%83%AB%E3%83%BB%E3%82%B9%E3%82%BF%E3%82%B8%E3%82%AA%E3%83%BB%E3%82%B8%E3%83%A3%E3%83%91%E3%83%B3",
+        "note": "大阪の大規模テーマパーク。"
+      },
+      {
+        "label": "三鷹の森ジブリ美術館",
+        "startYear": 2001,
+        "endYear": "ongoing",
+        "genre": [
+          "RDE"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/%E4%B8%89%E9%B7%B9%E3%81%AE%E6%A3%AE%E3%82%B8%E3%83%96%E3%83%AA%E7%BE%8E%E8%A1%93%E9%A4%A8",
+        "note": "スタジオジブリの世界を体験できる美術館。"
       }
     ],
     "2002": [
@@ -6409,6 +6993,28 @@
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/Git",
         "note": "分散型VCSの標準"
+      },
+      {
+        "label": "AKB48",
+        "startYear": 2005,
+        "endYear": "ongoing",
+        "genre": [
+          "IDL"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/AKB48",
+        "note": "「会いに行けるアイドル」コンセプトで48グループを牽引。"
+      },
+      {
+        "label": "SCHOOL OF LOCK!",
+        "startYear": 2005,
+        "endYear": "ongoing",
+        "genre": [
+          "RDO"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/SCHOOL_OF_LOCK%21",
+        "note": "10代〜若年層に支持される全国ネット。"
       }
     ],
     "2006": [
@@ -6525,6 +7131,17 @@
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/プラネットアース",
         "note": "BBC自然ドキュの金字塔"
+      },
+      {
+        "label": "Blu-ray Disc",
+        "startYear": 2006,
+        "endYear": "ongoing",
+        "genre": [
+          "FMT"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/Blu-ray_Disc",
+        "note": "高解像度光ディスク。"
       }
     ],
     "2007": [
@@ -6953,6 +7570,17 @@
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/ゲーム・オブ・スローンズ",
         "note": "大河群像ファンタジー"
+      },
+      {
+        "label": "乃木坂46",
+        "startYear": 2011,
+        "endYear": "ongoing",
+        "genre": [
+          "IDL"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/%E4%B9%83%E6%9C%A8%E5%9D%8246",
+        "note": "AKB48公式ライバルとして結成。"
       }
     ],
     "2012": [
@@ -7046,6 +7674,17 @@
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/アベンジャーズ_(2012年の映画)",
         "note": "MCU集結の転機"
+      },
+      {
+        "label": "ニコニコ超会議",
+        "startYear": 2012,
+        "endYear": "ongoing",
+        "genre": [
+          "EVT"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/%E3%83%8B%E3%82%B3%E3%83%8B%E3%82%B3%E8%B6%85%E4%BC%9A%E8%AD%B0",
+        "note": "ネット文化を横断する総合イベント。"
       }
     ],
     "2013": [
@@ -7180,6 +7819,17 @@
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/Kubernetes",
         "note": "コンテナ編成の標準基盤"
+      },
+      {
+        "label": "AnimeJapan",
+        "startYear": 2014,
+        "endYear": "ongoing",
+        "genre": [
+          "EVT"
+        ],
+        "imp": 4,
+        "url": "https://anime-japan.jp/",
+        "note": "業界横断のアニメ総合イベント。"
       }
     ],
     "2015": [
@@ -7233,6 +7883,17 @@
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/TensorFlow",
         "note": "Google発のMLフレーム"
+      },
+      {
+        "label": "RIZIN FIGHTING FEDERATION",
+        "startYear": 2015,
+        "endYear": "ongoing",
+        "genre": [
+          "SPW"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/RIZIN_FIGHTING_FEDERATION",
+        "note": "国内最大級の総合格闘技イベント。"
       }
     ],
     "2016": [
@@ -7480,6 +8141,17 @@
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/Lemon_(米津玄師の曲)",
         "note": "配信時代の国民曲"
+      },
+      {
+        "label": "タピオカティーブーム（第2次）",
+        "startYear": 2018,
+        "endYear": 2020,
+        "genre": [
+          "FOO"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/%E3%83%90%E3%83%96%E3%83%AB%E3%83%86%E3%82%A3%E3%83%BC",
+        "note": "若年層を中心に大流行。"
       }
     ],
     "2019": [
@@ -7765,249 +8437,9 @@
         "opacity": "0.3",
         "enabled": false
       }
-    ],
-    "1923": [
-      {
-        "label": "文藝春秋 (雑誌)",
-        "startYear": 1923,
-        "endYear": "ongoing",
-        "genre": [
-          "MAG"
-        ],
-        "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/文藝春秋_(雑誌)",
-        "note": "総合月刊の老舗"
-      },
-      {
-        "label": "タイム (雑誌)",
-        "startYear": 1923,
-        "endYear": "ongoing",
-        "genre": [
-          "MAG"
-        ],
-        "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/タイム_(雑誌)",
-        "note": "米国ニュース週刊誌"
-      }
-    ],
-    "1887": [
-      {
-        "label": "中央公論 (雑誌)",
-        "startYear": 1887,
-        "endYear": "ongoing",
-        "genre": [
-          "MAG"
-        ],
-        "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/中央公論_(雑誌)",
-        "note": "近代言論の舞台"
-      }
-    ],
-    "1904": [
-      {
-        "label": "新潮 (雑誌)",
-        "startYear": 1904,
-        "endYear": "ongoing",
-        "genre": [
-          "MAG"
-        ],
-        "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/新潮_(雑誌)",
-        "note": "文芸誌の老舗"
-      }
-    ],
-    "1922": [
-      {
-        "label": "サンデー毎日",
-        "startYear": 1922,
-        "endYear": "ongoing",
-        "genre": [
-          "MAG"
-        ],
-        "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/サンデー毎日",
-        "note": "日本初の週刊誌級"
-      }
-    ],
-    "1924": [
-      {
-        "label": "子供の科学",
-        "startYear": 1924,
-        "endYear": "ongoing",
-        "genre": [
-          "MAG"
-        ],
-        "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/子供の科学",
-        "note": "科学教育の長寿誌"
-      }
-    ],
-    "1888": [
-      {
-        "label": "ナショナルジオグラフィック",
-        "startYear": 1888,
-        "endYear": "ongoing",
-        "genre": [
-          "MAG"
-        ],
-        "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/ナショナルジオグラフィック",
-        "note": "探検と写真の名門誌"
-      }
-    ],
-    "1933": [
-      {
-        "label": "ニューズウィーク",
-        "startYear": 1933,
-        "endYear": "ongoing",
-        "genre": [
-          "MAG"
-        ],
-        "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/ニューズウィーク",
-        "note": "米国ニュース週刊誌"
-      }
-    ],
-    "1843": [
-      {
-        "label": "エコノミスト (イギリスの雑誌)",
-        "startYear": 1843,
-        "endYear": "ongoing",
-        "genre": [
-          "MAG"
-        ],
-        "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/エコノミスト_(イギリスの雑誌)",
-        "note": "経済週刊の老舗"
-      }
-    ],
-    "1925": [
-      {
-        "label": "ザ・ニューヨーカー",
-        "startYear": 1925,
-        "endYear": "ongoing",
-        "genre": [
-          "MAG"
-        ],
-        "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/ザ・ニューヨーカー",
-        "note": "文学と風刺の総合誌"
-      }
-    ],
-    "1850": [
-      {
-        "label": "ハーパーズ・マガジン",
-        "startYear": 1850,
-        "endYear": "ongoing",
-        "genre": [
-          "MAG"
-        ],
-        "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/ハーパーズ・マガジン",
-        "note": "米最古級総合誌"
-      }
-    ],
-    "1857": [
-      {
-        "label": "ザ・アトランティック",
-        "startYear": 1857,
-        "endYear": "ongoing",
-        "genre": [
-          "MAG"
-        ],
-        "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/ザ・アトランティック",
-        "note": "思想と文化の総合誌"
-      }
-    ],
-    "1845": [
-      {
-        "label": "サイエンティフィック・アメリカン",
-        "startYear": 1845,
-        "endYear": "ongoing",
-        "genre": [
-          "MAG"
-        ],
-        "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/サイエンティフィック・アメリカン",
-        "note": "科学解説の老舗"
-      }
-    ],
-    "1869": [
-      {
-        "label": "ネイチャー",
-        "startYear": 1869,
-        "endYear": "ongoing",
-        "genre": [
-          "MAG"
-        ],
-        "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/ネイチャー",
-        "note": "世界的科学誌"
-      }
-    ],
-    "1880": [
-      {
-        "label": "サイエンス (雑誌)",
-        "startYear": 1880,
-        "endYear": "ongoing",
-        "genre": [
-          "MAG"
-        ],
-        "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/サイエンス_(雑誌)",
-        "note": "米科学学術誌"
-      }
-    ],
-    "1902": [
-      {
-        "label": "ポピュラーメカニクス",
-        "startYear": 1902,
-        "endYear": "ongoing",
-        "genre": [
-          "MAG"
-        ],
-        "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/ポピュラーメカニクス",
-        "note": "技術DIYの総合誌"
-      }
-    ],
-    "1892": [
-      {
-        "label": "ヴォーグ",
-        "startYear": 1892,
-        "endYear": "ongoing",
-        "genre": [
-          "MAG"
-        ],
-        "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/ヴォーグ",
-        "note": "ファッション誌の象徴"
-      }
-    ],
-    "1867": [
-      {
-        "label": "ハーパーズ・バザー",
-        "startYear": 1867,
-        "endYear": "ongoing",
-        "genre": [
-          "MAG"
-        ],
-        "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/ハーパーズ・バザー",
-        "note": "女性誌の老舗"
-      }
     ]
   },
   "eraSettings": [
-    {
-      "name": "情熱大陸 [TVP]",
-      "startYear": 1998,
-      "endYear": 1998,
-      "color": "#32CD32",
-      "opacity": "0.3",
-      "enabled": true
-    },
     {
       "name": "ビデオとゲームの時代",
       "startYear": 1983,
