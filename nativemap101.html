@@ -1550,7 +1550,13 @@
     
     const newItem = { label };
     if (startYear) newItem.startYear = parseInt(startYear, 10);
-    if (endYear) newItem.endYear = parseInt(endYear, 10);
+    if (endYear) {
+      if (endYear === 'ongoing') {
+        newItem.endYear = 'ongoing';
+      } else {
+        newItem.endYear = parseInt(endYear, 10);
+      }
+    }
     if (genres.length > 0) newItem.genre = genres;
     if (imp) newItem.imp = parseInt(imp, 10);
     if (url) newItem.url = url;
