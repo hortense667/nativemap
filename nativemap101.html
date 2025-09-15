@@ -526,7 +526,8 @@
         const key = `${remoteItem.label}|${remoteItem.genre || ''}`;
         const localItem = localItemMap.get(key);
         const hasLocalEdit = localItem ? hasEditFlag(year, localItem.label, localItem.genre) : false;
-        const hasDeleteFlagForItem = hasDeleteFlag(year, remoteItem.label, remoteItem.genre);
+        const remoteGenreKey = Array.isArray(remoteItem.genre) ? remoteItem.genre.sort().join('・') : (remoteItem.genre || '');
+        const hasDeleteFlagForItem = hasDeleteFlag(year, remoteItem.label, remoteGenreKey);
         
         if (hasDeleteFlagForItem) {
           // 削除フラグが立っている場合はリモートの項目を除外
@@ -558,7 +559,8 @@
         const existsInLocal = localItemMap.has(key);
         
         if (!existsInLocal) {
-          const hasDeleteFlagForItem = hasDeleteFlag(year, remoteItem.label, remoteItem.genre);
+          const remoteGenreKey = Array.isArray(remoteItem.genre) ? remoteItem.genre.sort().join('・') : (remoteItem.genre || '');
+        const hasDeleteFlagForItem = hasDeleteFlag(year, remoteItem.label, remoteGenreKey);
           if (!hasDeleteFlagForItem) {
             mergedItems.push(remoteItem);
           } else {
@@ -2264,7 +2266,8 @@
         if (remoteItem) {
           // 両方に存在する場合：削除フラグと編集フラグをチェック
           const hasLocalEdit = hasEditFlag(year, localItem.label, localItem.genre);
-          const hasDeleteFlagForItem = hasDeleteFlag(year, remoteItem.label, remoteItem.genre);
+          const remoteGenreKey = Array.isArray(remoteItem.genre) ? remoteItem.genre.sort().join('・') : (remoteItem.genre || '');
+        const hasDeleteFlagForItem = hasDeleteFlag(year, remoteItem.label, remoteGenreKey);
           
           if (hasDeleteFlagForItem) {
             // 削除フラグが立っている場合はリモートの項目を除外
@@ -2304,7 +2307,8 @@
       // リモートのみに存在するアイテムを追加
       for (const [key, remoteItem] of remoteItemMap) {
         if (!processedKeys.has(key)) {
-          const hasDeleteFlagForItem = hasDeleteFlag(year, remoteItem.label, remoteItem.genre);
+          const remoteGenreKey = Array.isArray(remoteItem.genre) ? remoteItem.genre.sort().join('・') : (remoteItem.genre || '');
+        const hasDeleteFlagForItem = hasDeleteFlag(year, remoteItem.label, remoteGenreKey);
           if (!hasDeleteFlagForItem) {
             mergedItems.push(remoteItem);
           } else {
@@ -2641,7 +2645,7 @@
         // 編集フラグをクリア
         clearEditFlags();
         
-        // 削除フラグをクリア
+        // 削除フラグをクリア（GitHub保存成功時のみ）
         clearDeleteFlags();
         
         // ラベルバックアップをクリア
