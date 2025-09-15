@@ -4598,6 +4598,16 @@
         "imp": 3,
         "url": "https://ja.wikipedia.org/wiki/ファミリーコンピュータ_ROB",
         "note": "玩具とゲームの橋渡し"
+      },
+      {
+        "label": "Aldus PageMaker",
+        "startYear": 1985,
+        "genre": [
+          "SOF"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/Adobe_PageMaker",
+        "note": "DTP初期の革命"
       }
     ],
     "1986": [
@@ -4778,6 +4788,16 @@
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/ディスクシステム",
         "note": "書き換え文化を生み出す周辺機器"
+      },
+      {
+        "label": "Softimage",
+        "startYear": 1986,
+        "genre": [
+          "SOF"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/Softimage",
+        "note": "90年代CG映像の主力"
       }
     ],
     "1987": [
@@ -4974,6 +4994,36 @@
         "imp": 4,
         "url": "https://en.wikipedia.org/wiki/E-mu_SP-1200",
         "note": "黄金期ヒップホップの質感を決定"
+      },
+      {
+        "label": "Macromedia Director",
+        "startYear": 1987,
+        "genre": [
+          "SOF"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/Adobe_Director",
+        "note": "CD-ROM時代のマルチメディア制作"
+      },
+      {
+        "label": "Adobe_Illustrator",
+        "startYear": 1987,
+        "genre": [
+          "SOF"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/Adobe_Illustrator",
+        "note": "ベクターデザインの標準"
+      },
+      {
+        "label": "QuarkXPress",
+        "startYear": 1987,
+        "genre": [
+          "SOF"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/QuarkXPress",
+        "note": "DTP時代を牽引"
       }
     ],
     "1988": [
@@ -5250,6 +5300,16 @@
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/AKAI_MPC",
         "note": "サンプリング制作を民主化"
+      },
+      {
+        "label": "Finale",
+        "startYear": 1988,
+        "genre": [
+          "SOF"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/Finale",
+        "note": "デジタル譜面制作の標準"
       }
     ],
     "1989": [
@@ -5514,6 +5574,36 @@
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/ワコム",
         "note": "デジタル作画環境を変革"
+      },
+      {
+        "label": "CorelDRAW",
+        "startYear": 1989,
+        "genre": [
+          "SOF"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/CorelDRAW",
+        "note": "PCグラフィックの定番"
+      },
+      {
+        "label": "Avid Media Composer",
+        "startYear": 1989,
+        "genre": [
+          "SOF"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/Avid_Media_Composer",
+        "note": "デジタル編集の業界標準"
+      },
+      {
+        "label": "Cubase",
+        "startYear": 1989,
+        "genre": [
+          "SOF"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/Cubase",
+        "note": "MIDI制作の王道から総合DAWへ"
       }
     ],
     "1990": [
@@ -5748,6 +5838,16 @@
         "imp": 3,
         "url": "https://ja.wikipedia.org/wiki/ゲームギア",
         "note": "携帯ゲームにカラー化を導入"
+      },
+      {
+        "label": "LightWave 3D",
+        "startYear": 1990,
+        "genre": [
+          "SOF"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/LightWave_3D",
+        "note": "TV/OP映像で活躍"
       }
     ],
     "1991": [
@@ -5945,6 +6045,56 @@
         "imp": 2,
         "url": "https://ja.wikipedia.org/wiki/CD-i",
         "note": "インタラクティブCD機"
+      },
+      {
+        "label": "QuickTime",
+        "startYear": 1991,
+        "genre": [
+          "SOF"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/QuickTime",
+        "note": "デジタル動画の基盤"
+      },
+      {
+        "label": "Windows Media Player",
+        "startYear": 1991,
+        "genre": [
+          "SOF"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/Windows_Media_Player",
+        "note": "Windows標準のメディア再生"
+      },
+      {
+        "label": "WinZip",
+        "startYear": 1991,
+        "genre": [
+          "SOF"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/WinZip",
+        "note": "圧縮配布を一般化"
+      },
+      {
+        "label": "Adobe Premiere",
+        "startYear": 1991,
+        "genre": [
+          "SOF"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/Adobe_Premiere_Pro",
+        "note": "民生からプロまで定番"
+      },
+      {
+        "label": "Pro Tools",
+        "startYear": 1991,
+        "genre": [
+          "SOF"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/Pro_Tools",
+        "note": "プロ向けDAWの標準"
       }
     ],
     "1992": [
@@ -6127,6 +6277,16 @@
         "imp": 3,
         "url": "https://ja.wikipedia.org/wiki/ThinkPad",
         "note": "モバイルPCのデザインと堅牢性の象徴"
+      },
+      {
+        "label": "RPGツクール",
+        "startYear": 1992,
+        "genre": [
+          "SOF"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/RPGツクール",
+        "note": "同人RPG文化を支えたツール群"
       }
     ],
     "1993": [
@@ -6437,6 +6597,56 @@
         "imp": 2,
         "url": "https://ja.wikipedia.org/wiki/LaserActive",
         "note": "LDベースの拡張型マルチメディア"
+      },
+      {
+        "label": "After Effects",
+        "startYear": 1993,
+        "genre": [
+          "SOF"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/Adobe_After_Effects",
+        "note": "モーショングラフィックスの王道"
+      },
+      {
+        "label": "Logic Pro",
+        "startYear": 1993,
+        "genre": [
+          "SOF"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/Logic_Pro",
+        "note": "Apple傘下で主力DAWに"
+      },
+      {
+        "label": "id Tech 1 (DOOMエンジン)",
+        "startYear": 1993,
+        "genre": [
+          "SOF"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/Id_Tech_1",
+        "note": "FPS文化/Mod文化の震源"
+      },
+      {
+        "label": "Wine",
+        "startYear": 1993,
+        "genre": [
+          "SOF"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/Wine",
+        "note": "OS越境の実行環境"
+      },
+      {
+        "label": "Sibelius",
+        "startYear": 1993,
+        "genre": [
+          "SOF"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/Sibelius",
+        "note": "作編曲ツールの定番"
       }
     ],
     "1994": [
@@ -6946,6 +7156,46 @@
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/カシオ_QV-10",
         "note": "液晶付デジカメの普及に火を付ける"
+      },
+      {
+        "label": "RealPlayer",
+        "startYear": 1995,
+        "genre": [
+          "SOF"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/RealPlayer",
+        "note": "初期ストリーミングの代名詞"
+      },
+      {
+        "label": "Shockwave",
+        "startYear": 1995,
+        "genre": [
+          "SOF"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/Adobe_Shockwave",
+        "note": "ブラウザゲーム/教材の礎"
+      },
+      {
+        "label": "WinRAR",
+        "startYear": 1995,
+        "genre": [
+          "SOF"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/WinRAR",
+        "note": "圧縮と分割配布の定番"
+      },
+      {
+        "label": "mIRC",
+        "startYear": 1995,
+        "genre": [
+          "SOF"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/MIRC",
+        "note": "IRC文化の中心クライアント"
       }
     ],
     "1996": [
@@ -7220,6 +7470,66 @@
         "imp": 2,
         "url": "https://ja.wikipedia.org/wiki/Personal_Handy-phone_System",
         "note": "低料金モバイル文化を支えた端末群"
+      },
+      {
+        "label": "Adobe Flash Player",
+        "startYear": 1996,
+        "genre": [
+          "SOF"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/Adobe_Flash_Player",
+        "note": "Web表現と同人アニメを拡張"
+      },
+      {
+        "label": "GIMP",
+        "startYear": 1996,
+        "genre": [
+          "SOF"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/GIMP",
+        "note": "OSS画像編集の柱"
+      },
+      {
+        "label": "3ds Max",
+        "startYear": 1996,
+        "genre": [
+          "SOF"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/Autodesk_3ds_Max",
+        "note": "ゲーム/映像で広く使用"
+      },
+      {
+        "label": "Houdini",
+        "startYear": 1996,
+        "genre": [
+          "SOF"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/Houdini_(ソフトウェア)",
+        "note": "プロシージャルVFXの王道"
+      },
+      {
+        "label": "Quake engine",
+        "startYear": 1996,
+        "genre": [
+          "SOF"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/Quake_(ゲームエンジン)",
+        "note": "3DオンラインFPS隆盛の土台"
+      },
+      {
+        "label": "ICQ",
+        "startYear": 1996,
+        "genre": [
+          "SOF"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/ICQ",
+        "note": "インターネット即時通信の嚆矢"
       }
     ],
     "1997": [
@@ -7513,6 +7823,66 @@
         "imp": 3,
         "url": "https://ja.wikipedia.org/wiki/Mavica",
         "note": "フロッピー記録のユニーク機"
+      },
+      {
+        "label": "Winamp",
+        "startYear": 1997,
+        "genre": [
+          "SOF"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/Winamp",
+        "note": "MP3時代の象徴的プレイヤー"
+      },
+      {
+        "label": "Dreamweaver",
+        "startYear": 1997,
+        "genre": [
+          "SOF"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/Adobe_Dreamweaver",
+        "note": "WYSIWYGなWeb制作を普及"
+      },
+      {
+        "label": "AviUtl",
+        "startYear": 1997,
+        "genre": [
+          "SOF"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/AviUtl",
+        "note": "日本のMAD文化を支えた編集"
+      },
+      {
+        "label": "FL Studio",
+        "startYear": 1997,
+        "genre": [
+          "SOF"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/FL_Studio",
+        "note": "宅録×EDM文化を拡大"
+      },
+      {
+        "label": "MAME",
+        "startYear": 1997,
+        "genre": [
+          "SOF"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/MAME",
+        "note": "アーケード保存とレトロ文化の拠点"
+      },
+      {
+        "label": "AOL Instant Messenger",
+        "startYear": 1997,
+        "genre": [
+          "SOF"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/AOL_Instant_Messenger",
+        "note": "北米のIM文化を牽引"
       }
     ],
     "1998": [
@@ -7806,6 +8176,46 @@
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/Digital_Video_(DV)",
         "note": "インディー映像/スケボー動画文化を牽引"
+      },
+      {
+        "label": "Blender",
+        "startYear": 1998,
+        "genre": [
+          "SOF"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/Blender",
+        "note": "OSS 3DCGの本命"
+      },
+      {
+        "label": "Maya",
+        "startYear": 1998,
+        "genre": [
+          "SOF"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/Autodesk_Maya",
+        "note": "映画/ゲーム業界標準"
+      },
+      {
+        "label": "Unreal Engine",
+        "startYear": 1998,
+        "genre": [
+          "SOF"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/Unreal_Engine",
+        "note": "ゲーム/映像の総合基盤"
+      },
+      {
+        "label": "Snes9x",
+        "startYear": 1998,
+        "genre": [
+          "SOF"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/Snes9x",
+        "note": "スーファミ文化の再生"
       }
     ],
     "1999": [
@@ -8066,6 +8476,116 @@
         "imp": 3,
         "url": "https://ja.wikipedia.org/wiki/Iモード",
         "note": "モバイルWeb時代の入口"
+      },
+      {
+        "label": "Fraps",
+        "startYear": 1999,
+        "genre": [
+          "SOF"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/Fraps",
+        "note": "PCゲーム実況の先駆"
+      },
+      {
+        "label": "7-Zip",
+        "startYear": 1999,
+        "genre": [
+          "SOF"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/7-Zip",
+        "note": "OSS圧縮の代表格"
+      },
+      {
+        "label": "Adobe_InDesign",
+        "startYear": 1999,
+        "genre": [
+          "SOF"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/Adobe_InDesign",
+        "note": "DTPの主力に"
+      },
+      {
+        "label": "Final Cut Pro",
+        "startYear": 1999,
+        "genre": [
+          "SOF"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/Final_Cut_Pro",
+        "note": "個人映像制作の革命"
+      },
+      {
+        "label": "iMovie",
+        "startYear": 1999,
+        "genre": [
+          "SOF"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/IMovie",
+        "note": "家庭用編集を普及"
+      },
+      {
+        "label": "Vegas Pro",
+        "startYear": 1999,
+        "genre": [
+          "SOF"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/Vegas_Pro",
+        "note": "個人向けNLEの定番"
+      },
+      {
+        "label": "ZBrush",
+        "startYear": 1999,
+        "genre": [
+          "SOF"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/ZBrush",
+        "note": "スカルプト表現を一般化"
+      },
+      {
+        "label": "GameMaker",
+        "startYear": 1999,
+        "genre": [
+          "SOF"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/GameMaker",
+        "note": "2Dインディー文化の育成"
+      },
+      {
+        "label": "M.U.G.E.N",
+        "startYear": 1999,
+        "genre": [
+          "SOF"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/M.U.G.E.N",
+        "note": "2D格ゲー同人文化の柱"
+      },
+      {
+        "label": "MSN Messenger",
+        "startYear": 1999,
+        "genre": [
+          "SOF"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/Windows_Live_Messenger",
+        "note": "10年代前半まで若者文化に浸透"
+      },
+      {
+        "label": "Napster",
+        "startYear": 1999,
+        "genre": [
+          "SOF"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/Napster",
+        "note": "P2P音楽共有で業界に衝撃"
       }
     ],
     "2000": [
@@ -8230,6 +8750,76 @@
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/池袋ウエストゲートパーク",
         "note": "平成都市の群像劇"
+      },
+      {
+        "label": "FFmpeg",
+        "startYear": 2000,
+        "genre": [
+          "SOF"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/FFmpeg",
+        "note": "映像音声処理のOSS基盤"
+      },
+      {
+        "label": "DivX",
+        "startYear": 2000,
+        "genre": [
+          "SOF"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/DivX",
+        "note": "ネット動画流通を加速"
+      },
+      {
+        "label": "VirtualDub",
+        "startYear": 2000,
+        "genre": [
+          "SOF"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/VirtualDub",
+        "note": "Windows向け軽量編集"
+      },
+      {
+        "label": "Reason",
+        "startYear": 2000,
+        "genre": [
+          "SOF"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/Reason_(ソフトウェア)",
+        "note": "ラック型UIの人気DAW"
+      },
+      {
+        "label": "SketchUp",
+        "startYear": 2000,
+        "genre": [
+          "SOF"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/SketchUp",
+        "note": "直感操作で3Dを大衆化"
+      },
+      {
+        "label": "WinMX",
+        "startYear": 2000,
+        "genre": [
+          "SOF"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/WinMX",
+        "note": "日本のP2P音楽共有で人気"
+      },
+      {
+        "label": "LimeWire",
+        "startYear": 2000,
+        "genre": [
+          "SOF"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/LimeWire",
+        "note": "Gnutella系の象徴"
       }
     ],
     "2001": [
@@ -8502,6 +9092,96 @@
         "imp": 2,
         "url": "https://ja.wikipedia.org/wiki/セグウェイ",
         "note": "近未来“立ち乗り”の象徴"
+      },
+      {
+        "label": "iTunes",
+        "startYear": 2001,
+        "genre": [
+          "SOF"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/ITunes",
+        "note": "デジタル音楽配信と同期を一般化"
+      },
+      {
+        "label": "VLC_media_player",
+        "startYear": 2001,
+        "genre": [
+          "SOF"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/VLCメディアプレーヤー",
+        "note": "万能再生で動画文化を支える"
+      },
+      {
+        "label": "Xvid",
+        "startYear": 2001,
+        "genre": [
+          "SOF"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/Xvid",
+        "note": "OSS MPEG-4コーデック"
+      },
+      {
+        "label": "Movable_Type",
+        "startYear": 2001,
+        "genre": [
+          "SOF"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/Movable_Type",
+        "note": "ブログ文化の初期標準"
+      },
+      {
+        "label": "Ableton Live",
+        "startYear": 2001,
+        "genre": [
+          "SOF"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/Ableton_Live",
+        "note": "ループ主体のライブ制作を革新"
+      },
+      {
+        "label": "ScummVM",
+        "startYear": 2001,
+        "genre": [
+          "SOF"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/ScummVM",
+        "note": "アドベンチャー名作の保存"
+      },
+      {
+        "label": "BitTorrent (クライアント)",
+        "startYear": 2001,
+        "genre": [
+          "SOF"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/BitTorrent_(ソフトウェア)",
+        "note": "P2P配布の標準へ"
+      },
+      {
+        "label": "Kazaa",
+        "startYear": 2001,
+        "genre": [
+          "SOF"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/Kazaa",
+        "note": "初期P2Pの代表例"
+      },
+      {
+        "label": "Processing",
+        "startYear": 2001,
+        "genre": [
+          "SOF"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/Processing",
+        "note": "クリエイティブ・コーディングの普及"
       }
     ],
     "2002": [
@@ -8643,6 +9323,76 @@
         "imp": 3,
         "url": "https://ja.wikipedia.org/wiki/Roomba",
         "note": "家庭にロボットが入る時代を先導"
+      },
+      {
+        "label": "Camtasia",
+        "startYear": 2002,
+        "genre": [
+          "SOF"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/Camtasia",
+        "note": "チュートリアル動画制作を一般化"
+      },
+      {
+        "label": "Kdenlive",
+        "startYear": 2002,
+        "genre": [
+          "SOF"
+        ],
+        "imp": 2,
+        "url": "https://ja.wikipedia.org/wiki/Kdenlive",
+        "note": "OSS系NLE"
+      },
+      {
+        "label": "PCSX2",
+        "startYear": 2002,
+        "genre": [
+          "SOF"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/PCSX2",
+        "note": "PS2資産の保存と配信"
+      },
+      {
+        "label": "DOSBox",
+        "startYear": 2002,
+        "genre": [
+          "SOF"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/DOSBox",
+        "note": "DOSゲーム保存の定番"
+      },
+      {
+        "label": "Winny",
+        "startYear": 2002,
+        "genre": [
+          "SOF"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/Winny",
+        "note": "日本のP2P文化に大きな波紋"
+      },
+      {
+        "label": "Kodi (XBMC)",
+        "startYear": 2002,
+        "genre": [
+          "SOF"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/Kodi",
+        "note": "居間のメディア体験を拡張"
+      },
+      {
+        "label": "Tor",
+        "startYear": 2002,
+        "genre": [
+          "SOF"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/Tor",
+        "note": "匿名化ネットワークの象徴"
       }
     ],
     "2003": [
@@ -8781,6 +9531,56 @@
         "imp": 2,
         "url": "https://ja.wikipedia.org/wiki/EyeToy",
         "note": "Webカメラ連動ゲームの先駆"
+      },
+      {
+        "label": "HandBrake",
+        "startYear": 2003,
+        "genre": [
+          "SOF"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/HandBrake",
+        "note": "動画エンコード普及の立役者"
+      },
+      {
+        "label": "WordPress",
+        "startYear": 2003,
+        "genre": [
+          "SOF"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/WordPress",
+        "note": "ブログ/CMSで個人発信を爆発"
+      },
+      {
+        "label": "Dolphin",
+        "startYear": 2003,
+        "genre": [
+          "SOF"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/Dolphin_(エミュレータ)",
+        "note": "GC/Wii文化の再評価"
+      },
+      {
+        "label": "Skype",
+        "startYear": 2003,
+        "genre": [
+          "SOF"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/Skype",
+        "note": "無料通話時代の象徴"
+      },
+      {
+        "label": "Scratch",
+        "startYear": 2003,
+        "genre": [
+          "SOF"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/Scratch",
+        "note": "子ども向けプログラミング文化を拡大"
       }
     ],
     "2004": [
@@ -8983,6 +9783,66 @@
         "imp": 3,
         "url": "https://ja.wikipedia.org/wiki/逃走中",
         "note": "鬼ごっこバラエティ"
+      },
+      {
+        "label": "Paint.NET",
+        "startYear": 2004,
+        "genre": [
+          "SOF"
+        ],
+        "imp": 2,
+        "url": "https://ja.wikipedia.org/wiki/Paint.NET",
+        "note": "軽量画像編集"
+      },
+      {
+        "label": "DaVinci Resolve",
+        "startYear": 2004,
+        "genre": [
+          "SOF"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/DaVinci_Resolve",
+        "note": "カラーから総合NLEへ"
+      },
+      {
+        "label": "GarageBand",
+        "startYear": 2004,
+        "genre": [
+          "SOF"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/GarageBand",
+        "note": "音楽制作を家庭へ普及"
+      },
+      {
+        "label": "VOCALOID",
+        "startYear": 2004,
+        "genre": [
+          "SOF"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/VOCALOID",
+        "note": "歌声合成のプラットフォーム"
+      },
+      {
+        "label": "Ren'Py",
+        "startYear": 2004,
+        "genre": [
+          "SOF"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/Ren%27Py",
+        "note": "ノベルゲーム制作の定番"
+      },
+      {
+        "label": "Share",
+        "startYear": 2004,
+        "genre": [
+          "SOF"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/Share_(P2P)",
+        "note": "Winny後継の匿名P2P"
       }
     ],
     "2005": [
@@ -9113,6 +9973,46 @@
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/花より男子_(テレビドラマ)",
         "note": "学園ラブコメの金字塔"
+      },
+      {
+        "label": "Unity",
+        "startYear": 2005,
+        "genre": [
+          "SOF"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/Unity",
+        "note": "インディー/モバイル開発を民主化"
+      },
+      {
+        "label": "μTorrent",
+        "startYear": 2005,
+        "genre": [
+          "SOF"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/μTorrent",
+        "note": "軽量P2Pクライアントの定番"
+      },
+      {
+        "label": "openFrameworks",
+        "startYear": 2005,
+        "genre": [
+          "SOF"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/OpenFrameworks",
+        "note": "メディアアートの定番C++フレーム"
+      },
+      {
+        "label": "Aegisub",
+        "startYear": 2005,
+        "genre": [
+          "SOF"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/Aegisub",
+        "note": "ファンサブ文化の定番エディタ"
       }
     ],
     "2006": [
@@ -9465,6 +10365,26 @@
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/RED_ONE",
         "note": "デジタルシネマ普及の起爆剤"
+      },
+      {
+        "label": "初音ミク (VOCALOID2)",
+        "startYear": 2007,
+        "genre": [
+          "SOF"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/初音ミク",
+        "note": "ネット発アイドル文化の象徴"
+      },
+      {
+        "label": "Construct",
+        "startYear": 2007,
+        "genre": [
+          "SOF"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/Construct_(ゲームエンジン)",
+        "note": "ノーコード系2Dエンジン"
       }
     ],
     "2008": [
@@ -9624,6 +10544,56 @@
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/Canon_EOS_5D_Mark_II",
         "note": "DSLR動画革命でYouTube時代を牽引"
+      },
+      {
+        "label": "UTAU",
+        "startYear": 2008,
+        "genre": [
+          "SOF"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/UTAU",
+        "note": "個人制作の歌声合成を普及"
+      },
+      {
+        "label": "MikuMikuDance",
+        "startYear": 2008,
+        "genre": [
+          "SOF"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/MikuMikuDance",
+        "note": "ニコ動文化を牽引した3Dツール"
+      },
+      {
+        "label": "WOLF RPGエディター",
+        "startYear": 2008,
+        "genre": [
+          "SOF"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/WOLF_RPGエディター",
+        "note": "フリーゲーム文化の牽引"
+      },
+      {
+        "label": "Plex",
+        "startYear": 2008,
+        "genre": [
+          "SOF"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/Plex",
+        "note": "個人メディア配信を簡便化"
+      },
+      {
+        "label": "Tor Browser",
+        "startYear": 2008,
+        "genre": [
+          "SOF"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/Tor_Browser",
+        "note": "匿名ブラウジング普及"
       }
     ],
     "2009": [
@@ -9837,6 +10807,16 @@
         "imp": 1,
         "url": "https://ja.wikipedia.org/wiki/IK_Multimedia",
         "note": "モバイルDTMの普及"
+      },
+      {
+        "label": "XSplit",
+        "startYear": 2010,
+        "genre": [
+          "SOF"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/XSplit",
+        "note": "配信ソフトの商用先駆"
       }
     ],
     "2011": [
@@ -10045,6 +11025,16 @@
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/家政婦のミタ",
         "note": "視聴率社会現象"
+      },
+      {
+        "label": "LINE",
+        "startYear": 2011,
+        "genre": [
+          "SOF"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/LINE",
+        "note": "スタンプ文化で国民的メッセンジャー"
       }
     ],
     "2012": [
@@ -10182,6 +11172,26 @@
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/氷菓_(アニメ)",
         "note": "学園ミステリ×青春"
+      },
+      {
+        "label": "OBS_Studio",
+        "startYear": 2012,
+        "genre": [
+          "SOF"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/OBS_Studio",
+        "note": "ゲーム配信/ライブ配信の標準"
+      },
+      {
+        "label": "Zoom",
+        "startYear": 2012,
+        "genre": [
+          "SOF"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/Zoom_Video_Communications",
+        "note": "リモート文化を加速"
       }
     ],
     "2013": [
@@ -10358,6 +11368,16 @@
         "imp": 2,
         "url": "https://ja.wikipedia.org/wiki/Google_Glass",
         "note": "ウェアラブルARを話題化"
+      },
+      {
+        "label": "CeVIO Creative Studio",
+        "startYear": 2013,
+        "genre": [
+          "SOF"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/CeVIO_Creative_Studio",
+        "note": "トーク/歌唱合成の後継潮流"
       }
     ],
     "2014": [
