@@ -7600,6 +7600,14 @@
   },
   "eraSettings": [
     {
+      "name": "情熱大陸 [TVP]",
+      "startYear": 1998,
+      "endYear": 1998,
+      "color": "#32CD32",
+      "opacity": "0.3",
+      "enabled": true
+    },
+    {
       "name": "ビデオとゲームの時代",
       "startYear": 1983,
       "endYear": 2004,
