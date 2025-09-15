@@ -844,6 +844,16 @@
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/連続テレビ小説",
         "note": "通称“朝ドラ”。NHKの国民的連続ドラマ枠"
+      },
+      {
+        "label": "マーフィーの法則",
+        "startYear": 1993,
+        "genre": [
+          "BOO"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/%E3%83%9E%E3%83%BC%E3%83%95%E3%82%A3%E3%83%BC%E3%81%AE%E6%B3%95%E5%89%87",
+        "note": "失敗する可能性のあるものは失敗する"
       }
     ],
     "1962": [
@@ -12451,6 +12461,18 @@
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/2025年日本国際博覧会",
         "note": "大阪・関西万博予定"
+      }
+    ],
+    "2028": [
+      {
+        "label": "計算機屋かく戦えり",
+        "startYear": 1996,
+        "genre": [
+          "BOO"
+        ],
+        "imp": 5,
+        "url": "https://www.amazon.co.jp/s?k=%E8%A8%88%E7%AE%97%E6%A9%9F%E5%B1%8B%E3%81%8B%E3%81%8F%E6%88%A6%E3%81%88%E3%82%8A&adgrpid=53761635512",
+        "note": "日本の黎明期のコンピューターのパイオニアたちへのインタビュー。"
       }
     ]
   },
