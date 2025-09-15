@@ -770,68 +770,74 @@
   // 時代区分設定を保存
   function saveEraSettings() {
     console.log('=== saveEraSettings 開始 ===');
-    console.log('現在のeraSettings:', eraSettings);
-    console.log('現在のeraSettingsの型:', typeof eraSettings);
-    console.log('現在のeraSettingsの長さ:', eraSettings ? eraSettings.length : 'undefined');
     
     const newEraSettings = [];
     
-    // DOM要素の存在確認
-    const container = document.getElementById('detailListContainer');
-    console.log('モーダルコンテナの存在:', !!container);
-    
-    // フォーム要素を直接検索
-    const enabledInputs = document.querySelectorAll('[id^="eraEnabled"]');
-    const nameInputs = document.querySelectorAll('[id^="eraName"]');
-    const startInputs = document.querySelectorAll('[id^="eraStart"]');
-    const endInputs = document.querySelectorAll('[id^="eraEnd"]');
-    const endOngoingInputs = document.querySelectorAll('[id^="eraEndOngoing"]');
-    const colorInputs = document.querySelectorAll('[id^="eraColor"]');
-    const opacityInputs = document.querySelectorAll('[id^="eraOpacity"]');
-    
-    console.log('フォーム要素の数:', {
-      enabled: enabledInputs.length,
-      name: nameInputs.length,
-      start: startInputs.length,
-      end: endInputs.length,
-      endOngoing: endOngoingInputs.length,
-      color: colorInputs.length,
-      opacity: opacityInputs.length
-    });
-    
-    // 実際のフォーム要素から値を取得
-    for (let i = 0; i < Math.max(enabledInputs.length, nameInputs.length); i++) {
-      const enabled = enabledInputs[i]?.checked || false;
-      const name = nameInputs[i]?.value || '';
-      const startYear = parseInt(startInputs[i]?.value) || 0;
-      const endYearInput = parseInt(endInputs[i]?.value) || 0;
-      const endYearOngoing = endOngoingInputs[i]?.checked || false;
-      const endYear = endYearOngoing ? 'ongoing' : endYearInput;
-      const color = colorInputs[i]?.value || '#4169E1';
-      const opacity = opacityInputs[i]?.value || '0.3';
+    // ループの前に、現在のeraSettingsの長さをログに出力
+    console.log('ループ開始前のeraSettings.length:', eraSettings ? eraSettings.length : 'undefined');
+
+    if (!eraSettings) {
+      console.error('eraSettingsが未定義のため処理を中断します');
+      return;
+    }
+
+    for (let i = 0; i < eraSettings.length; i++) {
+      console.log(`--- ループ ${i} ---`);
+      const enabledEl = document.getElementById(`eraEnabled${i}`);
+      const nameEl = document.getElementById(`eraName${i}`);
+      const startEl = document.getElementById(`eraStart${i}`);
+      const endEl = document.getElementById(`eraEnd${i}`);
+      const endOngoingEl = document.getElementById(`eraEndOngoing${i}`);
+      const colorEl = document.getElementById(`eraColor${i}`);
+      const opacityEl = document.getElementById(`eraOpacity${i}`);
+
+      // 各要素の存在チェック
+      console.log(`要素の存在確認 (index: ${i}):`, {
+          enabled: !!enabledEl,
+          name: !!nameEl,
+          start: !!startEl,
+          end: !!endEl,
+          endOngoing: !!endOngoingEl,
+          color: !!colorEl,
+          opacity: !!opacityEl,
+      });
+
+      if (!nameEl) {
+        console.warn(`要素 eraName${i} が見つかりません。この項目の処理をスキップします。`);
+        continue;
+      }
+
+      const enabled = enabledEl.checked;
+      const name = nameEl.value.trim();
+      const startYear = startEl.value.trim();
+      const endYear = endOngoingEl.checked ? 'ongoing' : endEl.value.trim();
+      const color = colorEl.value;
+      const opacity = opacityEl.value;
       
-      console.log(`項目${i}:`, { enabled, name, startYear, endYear, color, opacity });
-      
-      if (name && startYear && (endYear || endYearOngoing)) {
-        newEraSettings.push({
-          name,
-          startYear,
-          endYear,
-          color,
-          opacity,
-          enabled
-        });
+      console.log(`読み取った値 (index: ${i}):`, { name, startYear, endYear, color, opacity, enabled });
+
+      if (name) { // 名前が入力されている場合のみ追加
+        const eraData = {
+          name: name,
+          startYear: startYear ? parseInt(startYear, 10) : '',
+          endYear: endYear,
+          color: color,
+          opacity: opacity,
+          enabled: enabled
+        };
+        newEraSettings.push(eraData);
+        console.log(`newEraSettingsにプッシュしました (index: ${i}):`, eraData);
+      } else {
+        console.log(`名前が空のためスキップしました (index: ${i})`);
       }
     }
+
+    console.log('最終的に構築されたnewEraSettings:', newEraSettings);
     
-    console.log('新しいeraSettings:', newEraSettings);
-    
-    // グローバル変数を強制的に更新
-    window.eraSettings = newEraSettings;
+    // グローバル変数を更新
     eraSettings = newEraSettings;
     
-    console.log('更新後のeraSettings:', eraSettings);
-    console.log('更新後のwindow.eraSettings:', window.eraSettings);
+    console.log('更新後のグローバル変数 eraSettings:', eraSettings);
     
     // ローカルストレージに直接保存
     try {
@@ -840,13 +846,14 @@
         eraSettings: eraSettings
       };
       localStorage.setItem('timelineEventsV2', JSON.stringify(data));
-      console.log('ローカルストレージに保存完了');
+      console.log('ローカルストレージに保存完了', data);
     } catch (e) {
       console.error('ローカルストレージ保存エラー:', e);
     }
     
-    closeModal();
+    // closeModal(); // デバッグのため一時的に無効化
     renderEraBackgrounds();
+    alert('保存処理が完了しました。開発者ツールでコンソールのログを確認してください。');
     console.log('=== saveEraSettings 終了 ===');
   }
   
