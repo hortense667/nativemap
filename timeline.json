@@ -1,4 +1,544 @@
 {
+  "events": {
+    "1958": [
+      {
+        "label": "白蛇伝",
+        "startYear": 1958,
+        "endYear": 1958,
+        "genre": "ANI",
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/白蛇伝_(1958年の映画)",
+        "note": "国産初の長編カラー"
+      }
+    ],
+    "1963": [
+      {
+        "label": "鉄腕アトム",
+        "startYear": 1963,
+        "endYear": 1966,
+        "genre": "ANI",
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/鉄腕アトム_(アニメ)",
+        "note": "TVアニメ量産体制確立"
+      },
+      {
+        "label": "鉄人28号",
+        "startYear": 1963,
+        "endYear": 1966,
+        "genre": "ANI",
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/鉄人28号_(アニメ)",
+        "note": "国産TVロボ草創期"
+      }
+    ],
+    "1965": [
+      {
+        "label": "ジャングル大帝",
+        "startYear": 1965,
+        "endYear": 1966,
+        "genre": "ANI",
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/ジャングル大帝_(テレビアニメ)",
+        "note": "国産初のカラーTV"
+      }
+    ],
+    "1969": [
+      {
+        "label": "サザエさん",
+        "startYear": 1969,
+        "genre": "ANI",
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/サザエさん_(アニメ)",
+        "note": "最長寿クラスの国民作"
+      },
+      {
+        "label": "アタックNo.1",
+        "startYear": 1969,
+        "endYear": 1971,
+        "genre": "ANI",
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/アタックNo.1_(テレビアニメ)",
+        "note": "スポ根アニメの金字塔"
+      }
+    ],
+    "1971": [
+      {
+        "label": "ルパン三世(TV第1シリーズ)",
+        "startYear": 1971,
+        "endYear": 1972,
+        "genre": "ANI",
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/ルパン三世_(TV第1シリーズ)",
+        "note": "大人向けTVの開拓"
+      }
+    ],
+    "1972": [
+      {
+        "label": "マジンガーZ",
+        "startYear": 1972,
+        "endYear": 1974,
+        "genre": "ANI",
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/マジンガーZ",
+        "note": "乗り込み型ロボの祖"
+      },
+      {
+        "label": "デビルマン",
+        "startYear": 1972,
+        "endYear": 1973,
+        "genre": "ANI",
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/デビルマン_(テレビアニメ)",
+        "note": "ダークヒーロー確立"
+      }
+    ],
+    "1974": [
+      {
+        "label": "宇宙戦艦ヤマト",
+        "startYear": 1974,
+        "endYear": 1975,
+        "genre": "ANI",
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/宇宙戦艦ヤマト_(アニメ)",
+        "note": "アニメブーム火付け役"
+      }
+    ],
+    "1978": [
+      {
+        "label": "銀河鉄道999",
+        "startYear": 1978,
+        "endYear": 1981,
+        "genre": "ANI",
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/銀河鉄道999_(テレビアニメ)",
+        "note": "SF旅物の代表作"
+      }
+    ],
+    "1979": [
+      {
+        "label": "機動戦士ガンダム",
+        "startYear": 1979,
+        "endYear": 1980,
+        "genre": "ANI",
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/機動戦士ガンダム",
+        "note": "リアルロボの転換点"
+      },
+      {
+        "label": "ドラえもん(1979年版)",
+        "startYear": 1979,
+        "genre": "ANI",
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/ドラえもん_(1979年のテレビアニメ)",
+        "note": "児童向け長寿シリーズ"
+      }
+    ],
+    "1980": [
+      {
+        "label": "伝説巨神イデオン",
+        "startYear": 1980,
+        "endYear": 1981,
+        "genre": "ANI",
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/伝説巨神イデオン",
+        "note": "富野ロボの問題作"
+      }
+    ],
+    "1981": [
+      {
+        "label": "うる星やつら",
+        "startYear": 1981,
+        "endYear": 1986,
+        "genre": "ANI",
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/うる星やつら_(アニメ)",
+        "note": "ギャグ×SFの金字塔"
+      }
+    ],
+    "1982": [
+      {
+        "label": "超時空要塞マクロス",
+        "startYear": 1982,
+        "genre": "ANI",
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/超時空要塞マクロス",
+        "note": "歌と可変戦闘機融合"
+      }
+    ],
+    "1984": [
+      {
+        "label": "風の谷のナウシカ",
+        "startYear": 1984,
+        "genre": "ANI",
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/風の谷のナウシカ_(映画)",
+        "note": "宮崎駿の出世作"
+      }
+    ],
+    "1986": [
+      {
+        "label": "天空の城ラピュタ",
+        "startYear": 1986,
+        "genre": "ANI",
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/天空の城ラピュタ",
+        "note": "冒険活劇の傑作"
+      },
+      {
+        "label": "ドラゴンボール",
+        "startYear": 1986,
+        "genre": "ANI",
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/ドラゴンボール_(アニメ)",
+        "note": "少年バトル定番化"
+      }
+    ],
+    "1988": [
+      {
+        "label": "となりのトトロ",
+        "startYear": 1988,
+        "genre": "ANI",
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/となりのトトロ",
+        "note": "日常系ファンタ定番"
+      },
+      {
+        "label": "AKIRA",
+        "startYear": 1988,
+        "genre": "ANI",
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/AKIRA_(アニメ映画)",
+        "note": "劇場アニメの革命作"
+      },
+      {
+        "label": "銀河英雄伝説",
+        "startYear": 1988,
+        "genre": "ANI",
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/銀河英雄伝説_(アニメ)",
+        "note": "長大OVAの金字塔"
+      }
+    ],
+    "1992": [
+      {
+        "label": "美少女戦士セーラームーン",
+        "startYear": 1992,
+        "genre": "ANI",
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/美少女戦士セーラームーン_(アニメ)",
+        "note": "変身ヒロイン再定義"
+      }
+    ],
+    "1995": [
+      {
+        "label": "新世紀エヴァンゲリオン",
+        "startYear": 1995,
+        "genre": "ANI",
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/新世紀エヴァンゲリオン",
+        "note": "オタク文化の転機"
+      },
+      {
+        "label": "攻殻機動隊",
+        "startYear": 1995,
+        "genre": "ANI",
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/攻殻機動隊_(1995年の映画)",
+        "note": "サイバーパンク到達点"
+      }
+    ],
+    "1997": [
+      {
+        "label": "もののけ姫",
+        "startYear": 1997,
+        "genre": "ANI",
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/もののけ姫",
+        "note": "興行記録を更新"
+      },
+      {
+        "label": "少女革命ウテナ",
+        "startYear": 1997,
+        "genre": "ANI",
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/少女革命ウテナ",
+        "note": "実験的少女革命譚"
+      },
+      {
+        "label": "ポケットモンスター",
+        "startYear": 1997,
+        "genre": "ANI",
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/ポケットモンスター_(アニメ)",
+        "note": "メディアミックス象徴"
+      }
+    ],
+    "1998": [
+      {
+        "label": "カウボーイビバップ",
+        "startYear": 1998,
+        "genre": "ANI",
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/カウボーイビバップ",
+        "note": "世界評価のTVシリーズ"
+      }
+    ],
+    "2002": [
+      {
+        "label": "攻殻機動隊S.A.C.",
+        "startYear": 2002,
+        "genre": "ANI",
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/攻殻機動隊_STAND_ALONE_COMPLEX",
+        "note": "近未来群像の金字塔"
+      },
+      {
+        "label": "ほしのこえ",
+        "startYear": 2002,
+        "genre": "ANI",
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/ほしのこえ",
+        "note": "個人制作デジタル時代"
+      }
+    ],
+    "2004": [
+      {
+        "label": "ふたりはプリキュア",
+        "startYear": 2004,
+        "genre": "ANI",
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/ふたりはプリキュア",
+        "note": "女児向け長寿IP始動"
+      }
+    ],
+    "2006": [
+      {
+        "label": "涼宮ハルヒの憂鬱",
+        "startYear": 2006,
+        "genre": "ANI",
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/涼宮ハルヒの憂鬱_(アニメ)",
+        "note": "深夜アニメ隆盛象徴"
+      },
+      {
+        "label": "コードギアス 反逆のルルーシュ",
+        "startYear": 2006,
+        "genre": "ANI",
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/コードギアス_反逆のルルーシュ",
+        "note": "反逆ロボの新機軸"
+      }
+    ],
+    "2007": [
+      {
+        "label": "らき☆すた",
+        "startYear": 2007,
+        "genre": "ANI",
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/らき☆すた",
+        "note": "オタク日常系の確立"
+      }
+    ],
+    "2009": [
+      {
+        "label": "けいおん!",
+        "startYear": 2009,
+        "genre": "ANI",
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/けいおん!",
+        "note": "軽音×日常の大ヒット"
+      }
+    ],
+    "2011": [
+      {
+        "label": "魔法少女まどか☆マギカ",
+        "startYear": 2011,
+        "genre": "ANI",
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/魔法少女まどか☆マギカ",
+        "note": "魔法少女を再解釈"
+      },
+      {
+        "label": "あの日見た花の名前を僕達はまだ知らない。",
+        "startYear": 2011,
+        "endYear": 2011,
+        "genre": "ANI",
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/あの日見た花の名前を僕達はまだ知らない。",
+        "note": "青春ドラマの新機軸"
+      }
+    ],
+    "2012": [
+      {
+        "label": "ソードアート・オンライン",
+        "startYear": 2012,
+        "endYear": 2012,
+        "genre": "ANI",
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/ソードアート・オンライン",
+        "note": "VRMMO系の定番化"
+      },
+      {
+        "label": "ガールズ&パンツァー",
+        "startYear": 2012,
+        "endYear": 2013,
+        "genre": "ANI",
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/ガールズ&パンツァー",
+        "note": "戦車×学園の快作"
+      }
+    ],
+    "2013": [
+      {
+        "label": "ラブライブ!",
+        "startYear": 2013,
+        "endYear": 2013,
+        "genre": "ANI",
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/ラブライブ!",
+        "note": "アイドル×展開の礎"
+      },
+      {
+        "label": "進撃の巨人",
+        "startYear": 2013,
+        "endYear": 2013,
+        "genre": "ANI",
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/進撃の巨人_(アニメ)",
+        "note": "世界的人気の群像"
+      }
+    ],
+    "2016": [
+      {
+        "label": "君の名は。",
+        "startYear": 2016,
+        "endYear": 2016,
+        "genre": "ANI",
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/君の名は。",
+        "note": "新海誠の大ヒット作"
+      },
+      {
+        "label": "この世界の片隅に",
+        "startYear": 2016,
+        "endYear": 2016,
+        "genre": "ANI",
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/この世界の片隅に_(アニメ映画)",
+        "note": "戦時下の日常描写"
+      }
+    ],
+    "2017": [
+      {
+        "label": "けものフレンズ",
+        "startYear": 2017,
+        "endYear": 2017,
+        "genre": "ANI",
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/けものフレンズ",
+        "note": "低予算から社会現象"
+      }
+    ],
+    "2018": [
+      {
+        "label": "ヴァイオレット・エヴァーガーデン",
+        "startYear": 2018,
+        "endYear": 2018,
+        "genre": "ANI",
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/ヴァイオレット・エヴァーガーデン",
+        "note": "映像美で高評価"
+      }
+    ],
+    "2019": [
+      {
+        "label": "鬼滅の刃",
+        "startYear": 2019,
+        "endYear": 2019,
+        "genre": "ANI",
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/鬼滅の刃_(アニメ)",
+        "note": "社会現象級ヒット"
+      }
+    ],
+    "2020": [
+      {
+        "label": "呪術廻戦",
+        "startYear": 2020,
+        "endYear": 2021,
+        "genre": "ANI",
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/呪術廻戦",
+        "note": "現代バトルの新潮流"
+      }
+    ],
+    "2022": [
+      {
+        "label": "チェンソーマン",
+        "startYear": 2022,
+        "endYear": 2022,
+        "genre": "ANI",
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/チェンソーマン_(アニメ)",
+        "note": "尖鋭的ダークアニメ"
+      },
+      {
+        "label": "SPY×FAMILY",
+        "startYear": 2022,
+        "endYear": 2022,
+        "genre": "ANI",
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/SPY×FAMILY",
+        "note": "家族スパイの話題作"
+      },
+      {
+        "label": "THE FIRST SLAM DUNK",
+        "startYear": 2022,
+        "endYear": 2022,
+        "genre": "ANI",
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/THE_FIRST_SLAM_DUNK",
+        "note": "3DCGで新生の傑作"
+      }
+    ],
+    "2023": [
+      {
+        "label": "葬送のフリーレン",
+        "startYear": 2023,
+        "endYear": 2024,
+        "genre": "ANI",
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/葬送のフリーレン",
+        "note": "余韻系ファンタ話題"
+      }
+    ],
+    "eraSettings": [
+      {
+        "name": "ビデオとゲームの時代",
+        "startYear": 1983,
+        "endYear": 2004,
+        "color": "#4169E1",
+        "opacity": "0.3",
+        "enabled": false
+      },
+      {
+        "name": "テレビ・マンガ・週刊誌の時代",
+        "startYear": 1959,
+        "endYear": 1999,
+        "color": "#32CD32",
+        "opacity": "0.3",
+        "enabled": false
+      },
+      {
+        "name": "モバイルとネットの時代",
+        "startYear": 1995,
+        "endYear": 2025,
+        "color": "#4169E1",
+        "opacity": "0.3",
+        "enabled": false
+      }
+    ]
+  },
   "eraSettings": [
     {
       "name": "ビデオとゲームの時代",
