@@ -552,6 +552,21 @@
         }
       }
       
+      // リモートのみに存在するアイテムを追加（削除フラグをチェック）
+      remoteItems.forEach(remoteItem => {
+        const key = `${remoteItem.label}|${remoteItem.genre || ''}`;
+        const existsInLocal = localItemMap.has(key);
+        
+        if (!existsInLocal) {
+          const hasDeleteFlagForItem = hasDeleteFlag(year, remoteItem.label, remoteItem.genre);
+          if (!hasDeleteFlagForItem) {
+            mergedItems.push(remoteItem);
+          } else {
+            console.log('削除フラグによりリモート項目を除外:', remoteItem.label, '年:', year);
+          }
+        }
+      });
+      
       merged[year] = mergedItems;
     }
     
