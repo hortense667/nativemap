@@ -691,81 +691,79 @@
   
   // 時代区分設定ポップアップの表示
   function showEraSettingsModal() {
-    // 既存のモーダルを閉じる
     closeModal();
     const colorOptions = [
-      { value: '#4169E1', label: '青' },
-      { value: '#32CD32', label: '緑' },
-      { value: '#DC143C', label: '赤' },
-      { value: '#FF8C00', label: 'オレンジ' },
-      { value: '#8A2BE2', label: '紫' },
-      { value: '#00CED1', label: '水色' },
-      { value: '#FFD700', label: '黄' },
-      { value: '#696969', label: 'グレー' }
+      { value: '#4169E1', label: '青' }, { value: '#32CD32', label: '緑' },
+      { value: '#DC143C', label: '赤' }, { value: '#FF8C00', label: 'オレンジ' },
+      { value: '#8A2BE2', label: '紫' }, { value: '#00CED1', label: '水色' },
+      { value: '#FFD700', label: '黄' }, { value: '#696969', label: 'グレー' }
     ];
-    
     const opacityOptions = [
-      { value: '0.1', label: '10%' },
-      { value: '0.2', label: '20%' },
-      { value: '0.3', label: '30%' },
-      { value: '0.4', label: '40%' },
-      { value: '0.5', label: '50%' },
-      { value: '0.6', label: '60%' },
-      { value: '0.7', label: '70%' },
-      { value: '0.8', label: '80%' }
+      { value: '0.1', label: '10%' }, { value: '0.2', label: '20%' },
+      { value: '0.3', label: '30%' }, { value: '0.4', label: '40%' },
+      { value: '0.5', label: '50%' }, { value: '0.6', label: '60%' },
+      { value: '0.7', label: '70%' }, { value: '0.8', label: '80%' }
     ];
-    
-    const eraItems = eraSettings.slice().reverse().map((era, originalIndex) => {
-      const index = eraSettings.length - 1 - originalIndex;
+
+    const eraItems = eraSettings.map((era, index) => {
+      const colorOptionsHtml = colorOptions.map(opt => `<option value="${opt.value}" ${era.color === opt.value ? 'selected' : ''}>${opt.label}</option>`).join('');
+      const opacityOptionsHtml = opacityOptions.map(opt => `<option value="${opt.value}" ${era.opacity === opt.value ? 'selected' : ''}>${opt.label}</option>`).join('');
+      
       return `
-      <div style="border: 1px solid #ddd; margin: 12px 0; padding: 16px; border-radius: 8px; background: #f9f9f9; position: relative;">
-        <!-- 1行目: 時代区分名 開始年 終了年 -->
-        <div style="display: flex; gap: 12px; margin-bottom: 12px; align-items: end;">
-          <div style="flex: 2;">
-            <label style="display: block; margin-bottom: 6px; font-weight: bold; font-size: 13px;">時代区分名:</label>
-            <input type="text" id="eraName${index}" value="${era.name || ''}" style="width: 100%; padding: 6px; border: 1px solid #ddd; border-radius: 4px; font-size: 14px;" placeholder="例：テレビ・マンガ・週刊誌の時代">
-          </div>
-          <div style="flex: 1;">
-            <label style="display: block; margin-bottom: 6px; font-weight: bold; font-size: 13px;">開始年:</label>
-            <input type="number" id="eraStart${index}" value="${era.startYear || ''}" style="width: 100%; padding: 6px; border: 1px solid #ddd; border-radius: 4px; font-size: 14px;" min="1945" max="2050">
-          </div>
-          <div style="flex: 1;">
-            <label style="display: block; margin-bottom: 6px; font-weight: bold; font-size: 13px;">終了年:</label>
-            <div style="display: flex; gap: 4px; align-items: center;">
-              <input type="number" id="eraEnd${index}" value="${era.endYear === 'ongoing' ? '' : (era.endYear || '')}" style="flex: 1; padding: 6px; border: 1px solid #ddd; border-radius: 4px; font-size: 14px;" min="1945" max="2050">
-              <label style="display: flex; align-items: center; gap: 2px; font-size: 12px;">
-                <input type="checkbox" id="eraEndOngoing${index}" ${era.endYear === 'ongoing' ? 'checked' : ''} style="margin: 0;">
-                ongoing
-              </label>
+        <div style="border: 1px solid #ddd; border-radius: 6px; margin: 8px 0; padding: 12px; background: #fdfdfd;">
+          <div style="display: flex; gap: 16px;">
+            <!-- Left Column -->
+            <div style="flex: 1;">
+              <!-- 1st row: Name, Start, End -->
+              <div style="display: flex; gap: 12px; margin-bottom: 8px;">
+                <div style="flex: 2;">
+                  <label style="display: block; margin-bottom: 6px; font-weight: bold; font-size: 13px;">時代区分名:</label>
+                  <input type="text" id="eraName${index}" value="${era.name}" style="width: 100%; padding: 6px; font-size: 14px; border: 1px solid #ccc; border-radius: 4px;">
+                </div>
+                <div style="flex: 1;">
+                  <label style="display: block; margin-bottom: 6px; font-weight: bold; font-size: 13px;">開始年:</label>
+                  <input type="number" id="eraStart${index}" value="${era.startYear}" style="width: 100%; padding: 6px; font-size: 14px; border: 1px solid #ccc; border-radius: 4px;">
+                </div>
+                <div style="flex: 1;">
+                  <label style="display: block; margin-bottom: 6px; font-weight: bold; font-size: 13px;">終了年:</label>
+                  <input type="number" id="eraEnd${index}" value="${era.endYear === 'ongoing' ? '' : era.endYear}" style="width: 100%; padding: 6px; font-size: 14px; border: 1px solid #ccc; border-radius: 4px;" ${era.endYear === 'ongoing' ? 'disabled' : ''}>
+                  <div style="margin-top: 4px;">
+                    <input type="checkbox" id="eraEndOngoing${index}" ${era.endYear === 'ongoing' ? 'checked' : ''} onchange="document.getElementById('eraEnd${index}').disabled = this.checked;">
+                    <label for="eraEndOngoing${index}" style="font-size: 12px;">ongoing</label>
+                  </div>
+                </div>
+              </div>
+              <!-- 2nd row: Color, Opacity -->
+              <div style="display: flex; gap: 12px;">
+                <div style="flex: 1;">
+                  <label style="display: block; margin-bottom: 6px; font-weight: bold; font-size: 13px;">塗色:</label>
+                  <select id="eraColor${index}" style="width: 100%; padding: 6px; font-size: 14px; border: 1px solid #ccc; border-radius: 4px;">${colorOptionsHtml}</select>
+                </div>
+                <div style="flex: 1;">
+                  <label style="display: block; margin-bottom: 6px; font-weight: bold; font-size: 13px;">透明度:</label>
+                  <select id="eraOpacity${index}" style="width: 100%; padding: 6px; font-size: 14px; border: 1px solid #ccc; border-radius: 4px;">${opacityOptionsHtml}</select>
+                </div>
+              </div>
+            </div>
+            <!-- Right Column -->
+            <div style="width: 100px; display: flex; flex-direction: column; justify-content: space-between; align-items: flex-start; border-left: 1px solid #eee; padding-left: 16px;">
+              <div>
+                <input type="checkbox" id="eraEnabled${index}" ${era.enabled ? 'checked' : ''} onchange="document.getElementById('eraFill${index}').disabled = !this.checked;" style="transform: scale(1.2);">
+                <label for="eraEnabled${index}" style="font-size: 13px; margin-left: 4px;">表示</label>
+              </div>
+              <div style="margin-top: 8px;">
+                <input type="checkbox" id="eraFill${index}" ${era.fillEnabled ?? true ? 'checked' : ''} ${!era.enabled ? 'disabled' : ''} style="transform: scale(1.2);">
+                <label for="eraFill${index}" style="font-size: 13px; margin-left: 4px;">塗り</label>
+              </div>
+              <div style="margin-top: auto;">
+                <button onclick="deleteEraItem(${index})" style="padding: 6px 12px; font-size: 12px; background: #ff4444; color: white; border: none; border-radius: 4px; cursor: pointer;" title="この時代区分を削除">🗑️ 削除</button>
+              </div>
             </div>
           </div>
         </div>
-        <!-- 2行目: 表示チェックボックス 塗り色 透明度 削除ボタン -->
-        <div style="display: flex; gap: 12px; align-items: center;">
-          <div style="display: flex; gap: 8px; align-items: center;">
-            <input type="checkbox" id="eraEnabled${index}" ${era.enabled ? 'checked' : ''} style="margin-right: 4px;">
-            <label for="eraEnabled${index}" style="font-weight: bold; font-size: 13px;">表示</label>
-          </div>
-          <div style="flex: 1;">
-            <label style="display: block; margin-bottom: 4px; font-weight: bold; font-size: 13px;">塗色:</label>
-            <select id="eraColor${index}" style="width: 100%; padding: 6px; border: 1px solid #ddd; border-radius: 4px; font-size: 14px;">
-              ${colorOptions.map(color => `<option value="${color.value}" ${era.color === color.value ? 'selected' : ''}>${color.label}</option>`).join('')}
-            </select>
-          </div>
-          <div style="flex: 1;">
-            <label style="display: block; margin-bottom: 4px; font-weight: bold; font-size: 13px;">透明度:</label>
-            <select id="eraOpacity${index}" style="width: 100%; padding: 6px; border: 1px solid #ddd; border-radius: 4px; font-size: 14px;">
-              ${opacityOptions.map(opacity => `<option value="${opacity.value}" ${era.opacity === opacity.value ? 'selected' : ''}>${opacity.label}</option>`).join('')}
-            </select>
-          </div>
-          <div style="margin-top: 20px;">
-            <button onclick="deleteEraItem(${index})" style="padding: 6px 12px; font-size: 12px; background: #ff4444; color: white; border: none; border-radius: 4px; cursor: pointer;" title="この時代区分を削除">🗑️ 削除</button>
-          </div>
-        </div>
-      </div>
-    `;
+      `;
     }).join('');
-    
+
     const modalContent = `
       <div style="max-height: 400px; overflow-y: auto;">
         ${eraItems}
@@ -779,7 +777,6 @@
         <button onclick="saveEraSettings()" style="padding: 8px 16px; background: #4CAF50; color: white; border: none; border-radius: 4px; cursor: pointer;">保存</button>
       </div>
     `;
-    
     openModal('時代区分設定', modalContent);
   }
   
@@ -921,6 +918,7 @@
   }
   
   // 初期化時に時代区分背景を描画（後で実行）
+  setTimeout(renderEraBackgrounds, 0);
   
   function passesFilter(it){ 
     // ジャンルフィルタ（複数選択対応）
