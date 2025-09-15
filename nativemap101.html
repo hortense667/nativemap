@@ -743,7 +743,8 @@
       enabled: true
     };
     
-    eraSettings.push(newItem);
+    // 新しい時代区分を先頭に追加（常に新しいものから並ぶように）
+    eraSettings.unshift(newItem);
     console.log('addEraItem: 新しい項目を追加', newItem);
     console.log('addEraItem: 更新後のeraSettings', eraSettings);
     
@@ -1535,6 +1536,26 @@
       return;
     }
     
+    const startYear = item.startYear || year;
+    const endYear = item.endYear || year;
+    const eraName = item.label + (item.genre ? ` [${Array.isArray(item.genre) ? item.genre.join('・') : item.genre}]` : '');
+    
+    // 既存の時代区分があるかチェック
+    const existingEraIndex = eraSettings.findIndex(era => 
+      era.name === eraName && 
+      era.startYear === startYear && 
+      era.endYear === endYear
+    );
+    
+    if (existingEraIndex !== -1) {
+      // 既存の時代区分を削除
+      eraSettings.splice(existingEraIndex, 1);
+      saveEvents();
+      renderEraBackgrounds();
+      showInfo('時代区分削除完了', `「${item.label}」の時代区分を削除しました。`);
+      return;
+    }
+    
     // 利用可能な色のリスト
     const availableColors = [
       '#4169E1', '#32CD32', '#DC143C', '#FF8C00', 
@@ -1553,19 +1574,17 @@
       selectedColor = availableColors[0];
     }
     
-    const startYear = item.startYear || year;
-    const endYear = item.endYear || year;
+    const newEra = {
+      name: eraName,
+      startYear: startYear,
+      endYear: endYear,
+      color: selectedColor,
+      opacity: '0.3',
+      enabled: true
+    };
     
-      const newEra = {
-        name: item.label + (item.genre ? ` [${Array.isArray(item.genre) ? item.genre.join('・') : item.genre}]` : ''),
-        startYear: startYear,
-        endYear: endYear,
-        color: selectedColor,
-        opacity: '0.3',
-        enabled: true
-      };
-    
-    eraSettings.push(newEra);
+    // 新しい時代区分を先頭に追加（常に新しいものから並ぶように）
+    eraSettings.unshift(newEra);
     
     // 保存
     saveEvents();
