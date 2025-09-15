@@ -382,17 +382,6 @@
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/人間失格",
         "note": "自己喪失の告白文学"
-      },
-      {
-        "label": "エド・サリヴァン・ショー",
-        "startYear": 1948,
-        "genre": [
-          "TVP"
-        ],
-        "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/エド・サリヴァン・ショー",
-        "note": "音楽バラエティの古典",
-        "endYear": "ongoing"
       }
     ],
     "1949": [
@@ -639,17 +628,6 @@
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/指輪物語",
         "note": "中つ国叙事詩の金字塔"
-      },
-      {
-        "label": "ザ・トゥナイト・ショー",
-        "startYear": 1954,
-        "genre": [
-          "TVP"
-        ],
-        "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/ザ・トゥナイト・ショー",
-        "note": "米国深夜トーク源流",
-        "endYear": "ongoing"
       }
     ],
     "1955": [
@@ -1174,17 +1152,6 @@
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/風に吹かれて",
         "note": "プロテストソング象徴"
-      },
-      {
-        "label": "ドクター・フー",
-        "startYear": 1963,
-        "endYear": 1964,
-        "genre": [
-          "TVP"
-        ],
-        "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/ドクター・フー",
-        "note": "英SFの長寿看板番組"
       },
       {
         "label": "コンパクトカセット",
@@ -1718,17 +1685,6 @@
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/SPSS",
         "note": "統計解析の老舗ツール"
-      },
-      {
-        "label": "60ミニッツ",
-        "startYear": 1968,
-        "genre": [
-          "TVP"
-        ],
-        "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/60ミニッツ",
-        "note": "調査報道の金字塔",
-        "endYear": "ongoing"
       },
       {
         "label": "日野ミッドナイトグラフィティ 走れ!歌謡曲",
@@ -4164,16 +4120,6 @@
     ],
     "1983": [
       {
-        "label": "想像の共同体",
-        "startYear": 1983,
-        "genre": [
-          "BOO"
-        ],
-        "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/想像の共同体",
-        "note": "国民国家の起源論"
-      },
-      {
         "label": "スウォッチ",
         "startYear": 1983,
         "genre": [
@@ -4192,6 +4138,16 @@
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/MSX",
         "note": "8ビット統一規格"
+      },
+      {
+        "label": "想像の共同体",
+        "startYear": 1983,
+        "genre": [
+          "BOO"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/想像の共同体",
+        "note": "国民国家の起源論"
       },
       {
         "label": "ファミリーコンピュータ",
