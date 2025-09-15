@@ -1,237 +1,5 @@
 {
   "events": {
-    "1843": [
-      {
-        "label": "エコノミスト (イギリスの雑誌)",
-        "startYear": 1843,
-        "endYear": "ongoing",
-        "genre": [
-          "MAG"
-        ],
-        "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/エコノミスト_(イギリスの雑誌)",
-        "note": "経済週刊の老舗"
-      }
-    ],
-    "1845": [
-      {
-        "label": "サイエンティフィック・アメリカン",
-        "startYear": 1845,
-        "endYear": "ongoing",
-        "genre": [
-          "MAG"
-        ],
-        "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/サイエンティフィック・アメリカン",
-        "note": "科学解説の老舗"
-      }
-    ],
-    "1850": [
-      {
-        "label": "ハーパーズ・マガジン",
-        "startYear": 1850,
-        "endYear": "ongoing",
-        "genre": [
-          "MAG"
-        ],
-        "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/ハーパーズ・マガジン",
-        "note": "米最古級総合誌"
-      }
-    ],
-    "1857": [
-      {
-        "label": "ザ・アトランティック",
-        "startYear": 1857,
-        "endYear": "ongoing",
-        "genre": [
-          "MAG"
-        ],
-        "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/ザ・アトランティック",
-        "note": "思想と文化の総合誌"
-      }
-    ],
-    "1867": [
-      {
-        "label": "ハーパーズ・バザー",
-        "startYear": 1867,
-        "endYear": "ongoing",
-        "genre": [
-          "MAG"
-        ],
-        "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/ハーパーズ・バザー",
-        "note": "女性誌の老舗"
-      }
-    ],
-    "1869": [
-      {
-        "label": "ネイチャー",
-        "startYear": 1869,
-        "endYear": "ongoing",
-        "genre": [
-          "MAG"
-        ],
-        "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/ネイチャー",
-        "note": "世界的科学誌"
-      }
-    ],
-    "1880": [
-      {
-        "label": "サイエンス (雑誌)",
-        "startYear": 1880,
-        "endYear": "ongoing",
-        "genre": [
-          "MAG"
-        ],
-        "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/サイエンス_(雑誌)",
-        "note": "米科学学術誌"
-      }
-    ],
-    "1887": [
-      {
-        "label": "中央公論 (雑誌)",
-        "startYear": 1887,
-        "endYear": "ongoing",
-        "genre": [
-          "MAG"
-        ],
-        "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/中央公論_(雑誌)",
-        "note": "近代言論の舞台"
-      }
-    ],
-    "1888": [
-      {
-        "label": "ナショナルジオグラフィック",
-        "startYear": 1888,
-        "endYear": "ongoing",
-        "genre": [
-          "MAG"
-        ],
-        "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/ナショナルジオグラフィック",
-        "note": "探検と写真の名門誌"
-      }
-    ],
-    "1892": [
-      {
-        "label": "ヴォーグ",
-        "startYear": 1892,
-        "endYear": "ongoing",
-        "genre": [
-          "MAG"
-        ],
-        "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/ヴォーグ",
-        "note": "ファッション誌の象徴"
-      }
-    ],
-    "1902": [
-      {
-        "label": "ポピュラーメカニクス",
-        "startYear": 1902,
-        "endYear": "ongoing",
-        "genre": [
-          "MAG"
-        ],
-        "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/ポピュラーメカニクス",
-        "note": "技術DIYの総合誌"
-      }
-    ],
-    "1904": [
-      {
-        "label": "新潮 (雑誌)",
-        "startYear": 1904,
-        "endYear": "ongoing",
-        "genre": [
-          "MAG"
-        ],
-        "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/新潮_(雑誌)",
-        "note": "文芸誌の老舗"
-      }
-    ],
-    "1922": [
-      {
-        "label": "サンデー毎日",
-        "startYear": 1922,
-        "endYear": "ongoing",
-        "genre": [
-          "MAG"
-        ],
-        "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/サンデー毎日",
-        "note": "日本初の週刊誌級"
-      }
-    ],
-    "1923": [
-      {
-        "label": "文藝春秋 (雑誌)",
-        "startYear": 1923,
-        "endYear": "ongoing",
-        "genre": [
-          "MAG"
-        ],
-        "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/文藝春秋_(雑誌)",
-        "note": "総合月刊の老舗"
-      },
-      {
-        "label": "タイム (雑誌)",
-        "startYear": 1923,
-        "endYear": "ongoing",
-        "genre": [
-          "MAG"
-        ],
-        "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/タイム_(雑誌)",
-        "note": "米国ニュース週刊誌"
-      }
-    ],
-    "1924": [
-      {
-        "label": "子供の科学",
-        "startYear": 1924,
-        "endYear": "ongoing",
-        "genre": [
-          "MAG"
-        ],
-        "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/子供の科学",
-        "note": "科学教育の長寿誌"
-      }
-    ],
-    "1925": [
-      {
-        "label": "ザ・ニューヨーカー",
-        "startYear": 1925,
-        "endYear": "ongoing",
-        "genre": [
-          "MAG"
-        ],
-        "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/ザ・ニューヨーカー",
-        "note": "文学と風刺の総合誌"
-      }
-    ],
-    "1933": [
-      {
-        "label": "ニューズウィーク",
-        "startYear": 1933,
-        "endYear": "ongoing",
-        "genre": [
-          "MAG"
-        ],
-        "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/ニューズウィーク",
-        "note": "米国ニュース週刊誌"
-      }
-    ],
     "1945": [
       {
         "label": "終戦",
@@ -243,6 +11,15 @@
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/%E7%B5%82%E6%88%A6%E3%81%AE%E6%97%A5",
         "note": "第二次世界大戦が終了、敗戦、戦後がはじまる。"
+      },
+      {
+        "label": "終戦",
+        "genre": [
+          "PHE"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/%E7%B5%82%E6%88%A6%E3%81%AE%E6%97%A5",
+        "note": "敗戦を終戦と言い換える。日本人って変わってない。英語ではなんというのでしょう？　マックくん。"
       }
     ],
     "1946": [
@@ -495,6 +272,13 @@
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/老人と海",
         "note": "老漁師の誇りの闘い"
+      },
+      {
+        "label": "テレビ放送開始",
+        "genre": [
+          "PHE"
+        ],
+        "imp": 4
       }
     ],
     "1953": [
@@ -550,6 +334,15 @@
         "url": "https://ja.wikipedia.org/wiki/NHK紅白歌合戦",
         "note": "年末音楽番組の国民行事",
         "endYear": "ongoing"
+      },
+      {
+        "label": "マッチボックス(ミニカー)",
+        "genre": [
+          "TOY"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/マッチボックス_(ミニカー)",
+        "note": "英発ミニカーの老舗"
       }
     ],
     "1954": [
@@ -702,6 +495,13 @@
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/エルヴィス・プレスリー",
         "note": "ロックの王の登場"
+      },
+      {
+        "label": "国産初コンピュータ",
+        "genre": [
+          "HAR"
+        ],
+        "imp": 5
       }
     ],
     "1957": [
@@ -756,6 +556,24 @@
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/月光仮面",
         "note": "特撮ヒーローの嚆矢"
+      },
+      {
+        "label": "フラフープ",
+        "genre": [
+          "TOY"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/フラフープ",
+        "note": "世界的な腰回し玩具"
+      },
+      {
+        "label": "レゴ",
+        "genre": [
+          "TOY"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/レゴ",
+        "note": "現代ブロック玩具の定番"
       }
     ],
     "1959": [
@@ -874,6 +692,24 @@
         "url": "https://ja.wikipedia.org/wiki/おかあさんといっしょ",
         "note": "幼児教育番組の定番",
         "endYear": "ongoing"
+      },
+      {
+        "label": "バービー",
+        "genre": [
+          "TOY"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/バービー",
+        "note": "世界的着せ替え人形"
+      },
+      {
+        "label": "プラレール",
+        "genre": [
+          "TOY"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/プラレール",
+        "note": "青いレールの鉄道玩具"
       }
     ],
     "1960": [
@@ -976,6 +812,15 @@
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/LISP",
         "note": "AI研究で長年重用"
+      },
+      {
+        "label": "ダッコちゃん",
+        "genre": [
+          "TOY"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/ダッコちゃん",
+        "note": "抱きつき人形の社会現象"
       }
     ],
     "1961": [
@@ -1205,6 +1050,15 @@
         "imp": 3,
         "url": "https://ja.wikipedia.org/wiki/%E5%AF%8C%E5%A3%AB%E6%80%A5%E3%83%8F%E3%82%A4%E3%83%A9%E3%83%B3%E3%83%89",
         "note": "スリルライドで知られる遊園地。"
+      },
+      {
+        "label": "G.I.ジョー",
+        "genre": [
+          "TOY"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/G.I.%E3%82%B8%E3%83%A7%E3%83%BC",
+        "note": "アクションフィギュア源流"
       }
     ],
     "1965": [
@@ -1441,6 +1295,15 @@
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/%E3%82%AA%E3%83%BC%E3%83%AB%E3%83%8A%E3%82%A4%E3%83%88%E3%83%8B%E3%83%83%E3%83%9D%E3%83%B3",
         "note": "深夜ラジオの代名詞。"
+      },
+      {
+        "label": "リカちゃん",
+        "genre": [
+          "TOY"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/リカちゃん",
+        "note": "日本の国民的着せ替え"
       }
     ],
     "1968": [
@@ -1580,6 +1443,33 @@
         "imp": 3,
         "url": "https://ja.wikipedia.org/wiki/%E6%97%A5%E9%87%8E%E3%83%9F%E3%83%83%E3%83%89%E3%83%8A%E3%82%A4%E3%83%88%E3%82%B0%E3%83%A9%E3%83%95%E3%82%A3%E3%83%86%E3%82%A3_%E8%B5%B0%E3%82%8C!%E6%AD%8C%E8%AC%A1%E6%9B%B2",
         "note": "深夜の定番歌謡番組。"
+      },
+      {
+        "label": "��d�点��",
+        "genre": [
+          "BOO"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/��d�点��",
+        "note": "DNA�����̓����L"
+      },
+      {
+        "label": "�R���s���[�^�v���O���~���O�̌|�p",
+        "genre": [
+          "BOO"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/�R���s���[�^�v���O���~���O�̌|�p",
+        "note": "�A���S���Y��������"
+      },
+      {
+        "label": "ホットウィール",
+        "genre": [
+          "TOY"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/ホットウィール",
+        "note": "米発ミニカーの人気銘柄"
       }
     ],
     "1969": [
@@ -1780,6 +1670,15 @@
         "url": "https://ja.wikipedia.org/wiki/NNNドキュメント",
         "note": "民放最長級ドキュメンタリ",
         "endYear": "ongoing"
+      },
+      {
+        "label": "トミカ",
+        "genre": [
+          "TOY"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/トミカ",
+        "note": "日本発ダイキャスト車"
       }
     ],
     "1971": [
@@ -2062,6 +1961,15 @@
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/%E5%85%A8%E6%97%A5%E6%9C%AC%E3%83%97%E3%83%AD%E3%83%AC%E3%82%B9",
         "note": "老舗プロレス団体。"
+      },
+      {
+        "label": "�����̌��E",
+        "genre": [
+          "BOO"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/�����̌��E",
+        "note": "�n�������̌��E���x��"
       }
     ],
     "1973": [
@@ -2220,6 +2128,33 @@
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/SQL",
         "note": "RDBの標準問い合わせ言語"
+      },
+      {
+        "label": "ルービックキューブ",
+        "genre": [
+          "TOY"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/ルービックキューブ",
+        "note": "回転立体パズルの金字塔"
+      },
+      {
+        "label": "超合金",
+        "genre": [
+          "TOY"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/超合金_(玩具)",
+        "note": "合金ロボ玩具ブランド"
+      },
+      {
+        "label": "ミクロマン",
+        "genre": [
+          "TOY"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/ミクロマン",
+        "note": "可動フィギュアの先駆"
       }
     ],
     "1975": [
@@ -2336,6 +2271,24 @@
         "imp": 3,
         "url": "https://ja.wikipedia.org/wiki/%E3%83%9A%E3%83%A4%E3%83%B3%E3%82%B0%E3%82%BD%E3%83%BC%E3%82%B9%E3%82%84%E3%81%8D%E3%81%9D%E3%81%B0",
         "note": "ロングセラーの即席麺。"
+      },
+      {
+        "label": "�č��̒a��",
+        "genre": [
+          "BOO"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/�č��̒a��",
+        "note": "�K�����̗͂��j����"
+      },
+      {
+        "label": "�l���̐_�b",
+        "genre": [
+          "BOO"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/�l���̐_�b",
+        "note": "��K�͊J���̐^��"
       }
     ],
     "1976": [
@@ -2496,6 +2449,15 @@
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/VHS",
         "note": "家庭用ビデオの標準規格として普及。"
+      },
+      {
+        "label": "スライム",
+        "genre": [
+          "TOY"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/スライム",
+        "note": "粘質玩具の大ヒット"
       }
     ],
     "1977": [
@@ -2984,6 +2946,24 @@
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/オタク",
         "note": "消費文化の重要概念"
+      },
+      {
+        "label": "ガンプラ",
+        "genre": [
+          "TOY"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/ガンプラ",
+        "note": "模型文化を変えた商品"
+      },
+      {
+        "label": "チョロQ",
+        "genre": [
+          "TOY"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/チョロQ",
+        "note": "プルバック式ミニカー"
       }
     ],
     "1981": [
@@ -3401,6 +3381,32 @@
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/%E3%82%B3%E3%83%B3%E3%83%91%E3%82%AF%E3%83%88%E3%83%87%E3%82%A3%E3%82%B9%E3%82%AF",
         "note": "デジタル音楽メディアの代表。"
+      },
+      {
+        "label": "ミニ四駆",
+        "genre": [
+          "TOY"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/ミニ四駆",
+        "note": "小型電動レース模型"
+      },
+      {
+        "label": "ゾイド",
+        "genre": [
+          "TOY"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/ゾイド",
+        "note": "動物型メカモデル"
+      },
+      {
+        "label": "東京おとなクラブ",
+        "genre": [
+          "MAG"
+        ],
+        "imp": 2,
+        "url": "https://ja.wikipedia.org/wiki/%E9%81%A0%E8%97%A4%E8%AB%AD"
       }
     ],
     "1983": [
@@ -3606,6 +3612,24 @@
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/%E6%9D%B1%E4%BA%AC%E3%83%87%E3%82%A3%E3%82%BA%E3%83%8B%E3%83%BC%E3%83%A9%E3%83%B3%E3%83%89",
         "note": "国内テーマパークの金字塔。"
+      },
+      {
+        "label": "マイリトルポニー",
+        "genre": [
+          "TOY"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/マイリトルポニー",
+        "note": "動物ドールの長寿ブランド"
+      },
+      {
+        "label": "�z���̋�����",
+        "genre": [
+          "BOO"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/�z���̋�����",
+        "note": "�������Ƃ̋N���_"
       }
     ],
     "1984": [
@@ -3792,6 +3816,15 @@
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/%E3%83%AF%E3%83%B3%E3%83%80%E3%83%BC%E3%83%95%E3%82%A7%E3%82%B9%E3%83%86%E3%82%A3%E3%83%90%E3%83%AB",
         "note": "ガレージキットの祭典。"
+      },
+      {
+        "label": "トランスフォーマー",
+        "genre": [
+          "TOY"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/トランスフォーマー",
+        "note": "変形ロボ玩具の代表格"
       }
     ],
     "1985": [
@@ -3988,6 +4021,24 @@
         "imp": 3,
         "url": "https://ja.wikipedia.org/wiki/ラリー・キング・ライブ",
         "note": "長寿対談番組の古典"
+      },
+      {
+        "label": "シルバニアファミリー",
+        "genre": [
+          "TOY"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/シルバニアファミリー",
+        "note": "動物家族のドール玩具"
+      },
+      {
+        "label": "�v�Z�@�v���O�����̍\\���Ɖ���",
+        "genre": [
+          "BOO"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/�v�Z�@�v���O�����̍\\���Ɖ���",
+        "note": "�v�Z�Ƃ͉�������������"
       }
     ],
     "1986": [
@@ -5288,6 +5339,14 @@
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/K-1",
         "note": "立ち技格闘技イベントとして国民的認知。"
+      },
+      {
+        "label": "ポケベルが鳴らなくて",
+        "genre": [
+          "TVP"
+        ],
+        "imp": 2,
+        "url": "https://ja.wikipedia.org/wiki/%E3%83%9D%E3%82%B1%E3%83%99%E3%83%AB%E3%81%8C%E9%B3%B4%E3%82%89%E3%81%AA%E3%81%8F%E3%81%A6"
       }
     ],
     "1994": [
@@ -5671,6 +5730,14 @@
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/%E4%BC%8A%E9%9B%86%E9%99%A2%E5%85%89_%E6%B7%B1%E5%A4%9C%E3%81%AE%E9%A6%AC%E9%B9%BF%E5%8A%9B",
         "note": "TBSラジオの長寿深夜番組。"
+      },
+      {
+        "label": "PHS",
+        "genre": [
+          "HAR"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/PHS"
       }
     ],
     "1996": [
@@ -5840,6 +5907,15 @@
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%82%BF%E3%83%BC%E3%83%90%E3%83%83%E3%82%AF%E3%82%B9",
         "note": "シアトル系コーヒー文化を普及。"
+      },
+      {
+        "label": "たまごっち",
+        "genre": [
+          "TOY"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/たまごっち",
+        "note": "電子ペット大ブーム"
       }
     ],
     "1997": [
@@ -6029,6 +6105,24 @@
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/PRIDE",
         "note": "MMAブームを牽引した総合格闘技団体。"
+      },
+      {
+        "label": "ハイパーヨーヨー",
+        "genre": [
+          "TOY"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/ハイパーヨーヨー",
+        "note": "第2次ヨーヨーブーム象徴"
+      },
+      {
+        "label": "�e�E�a���ہE�S",
+        "genre": [
+          "BOO"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/�e�E�a���ہE�S",
+        "note": "�l�ގj�̔�r�_�I���"
       }
     ],
     "1998": [
@@ -6196,6 +6290,15 @@
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/情熱大陸",
         "note": "人物密着ドキュメンタリー"
+      },
+      {
+        "label": "ファービー",
+        "genre": [
+          "TOY"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/ファービー",
+        "note": "しゃべる電子ペット玩具"
       }
     ],
     "1999": [
@@ -6353,6 +6456,24 @@
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/ザ・ソプラノズ",
         "note": "黄金期TVドラマの象徴"
+      },
+      {
+        "label": "iモード",
+        "genre": [
+          "PHE"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/Iモード",
+        "note": "携帯インターネット普及"
+      },
+      {
+        "label": "ベイブレード",
+        "genre": [
+          "TOY"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/ベイブレード",
+        "note": "現代版ベーゴマ対戦"
       }
     ],
     "2000": [
@@ -6457,6 +6578,22 @@
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/Perfume",
         "note": "テクノポップ路線のダンスボーカルユニット。"
+      },
+      {
+        "label": "写メール",
+        "genre": [
+          "NET"
+        ],
+        "imp": 2,
+        "url": "https://ja.wikipedia.org/wiki/%E5%86%99%E3%83%A1%E3%83%BC%E3%83%AB#:~:text=%E5%86%99%E3%83%A1%E3%83%BC%E3%83%AB%EF%BC%88%E3%82%B7%E3%83%A3%E3%83%A1%E3%83%BC%E3%83%AB%EF%BC%89%E3%81%AF,%E6%8C%87%E3%81%99%E8%A8%80%E8%91%89%E3%81%A8%E3%81%AA%E3%81%A3%E3%81%9F%E3%80%82"
+      },
+      {
+        "label": "iモード",
+        "genre": [
+          "NET"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/I%E3%83%A2%E3%83%BC%E3%83%89"
       }
     ],
     "2001": [
@@ -7581,6 +7718,15 @@
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/%E4%B9%83%E6%9C%A8%E5%9D%8246",
         "note": "AKB48公式ライバルとして結成。"
+      },
+      {
+        "label": "�T�s�G���X�S�j",
+        "genre": [
+          "BOO"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/�T�s�G���X�S�j",
+        "note": "�l�ގj����Ղ���ʎj"
       }
     ],
     "2012": [
@@ -8411,32 +8557,6 @@
         "url": "https://ja.wikipedia.org/wiki/2025年日本国際博覧会",
         "note": "大阪・関西万博予定"
       }
-    ],
-    "eraSettings": [
-      {
-        "name": "ビデオとゲームの時代",
-        "startYear": 1983,
-        "endYear": 2004,
-        "color": "#4169E1",
-        "opacity": "0.3",
-        "enabled": false
-      },
-      {
-        "name": "テレビ・マンガ・週刊誌の時代",
-        "startYear": 1959,
-        "endYear": 1999,
-        "color": "#32CD32",
-        "opacity": "0.3",
-        "enabled": false
-      },
-      {
-        "name": "モバイルとネットの時代",
-        "startYear": 1995,
-        "endYear": 2025,
-        "color": "#4169E1",
-        "opacity": "0.3",
-        "enabled": false
-      }
     ]
   },
   "eraSettings": [
@@ -8446,12 +8566,20 @@
       "endYear": 2004,
       "color": "#4169E1",
       "opacity": "0.3",
-      "enabled": false
+      "enabled": true
+    },
+    {
+      "name": "テレビ・マンガ・週刊誌の時代",
+      "startYear": 1959,
+      "endYear": 1999,
+      "color": "#32CD32",
+      "opacity": "0.3",
+      "enabled": true
     },
     {
       "name": "モバイルとネットの時代",
       "startYear": 1995,
-      "endYear": 1999,
+      "endYear": 2025,
       "color": "#4169E1",
       "opacity": "0.3",
       "enabled": false
