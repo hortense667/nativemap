@@ -891,6 +891,9 @@
               const textX = ORIGIN_X + 10; // 左端から少し内側
               const textY = startY + 20; // 上端から少し下
               
+              // 表示テキストに開始年・終了年を追加
+              const displayText = `${era.name} (${era.startYear}-${era.endYear})`;
+              
               eraText.setAttribute('x', textX);
               eraText.setAttribute('y', textY);
               eraText.setAttribute('font-size', '12');
@@ -898,15 +901,18 @@
               eraText.setAttribute('fill', '#333');
               eraText.setAttribute('class', 'era-text');
               eraText.setAttribute('data-era-name', era.name);
-              eraText.textContent = era.name;
+              eraText.setAttribute('data-era-start-year', era.startYear);
+              eraText.setAttribute('data-era-end-year', era.endYear);
+              eraText.setAttribute('style', 'cursor: pointer;');
+              eraText.textContent = displayText;
               
               // テキストの背景を追加（読みやすくするため）
               const textBg = document.createElementNS('http://www.w3.org/2000/svg', 'rect');
               
               // より正確な文字幅の計算（日本語文字を考慮）
               let textWidth = 0;
-              for (let i = 0; i < era.name.length; i++) {
-                const char = era.name[i];
+              for (let i = 0; i < displayText.length; i++) {
+                const char = displayText[i];
                 // 日本語文字（ひらがな、カタカナ、漢字）は約12px、英数字は約8px
                 if (/[\u3040-\u309F\u30A0-\u30FF\u4E00-\u9FAF]/.test(char)) {
                   textWidth += 12;
@@ -919,20 +925,39 @@
               textBg.setAttribute('y', textY - 12);
               textBg.setAttribute('width', textWidth + 8);
               textBg.setAttribute('height', 16);
-              textBg.setAttribute('fill', 'rgba(255, 255, 255, 0.8)');
+              textBg.setAttribute('fill', 'rgba(255, 255, 255, 0.9)');
               textBg.setAttribute('class', 'era-text-bg');
+              textBg.setAttribute('style', 'cursor: pointer;');
+              
+              // クリックイベントを追加（時代区分を削除）
+              const deleteEra = () => {
+                const eraIndex = eraSettings.findIndex(e => 
+                  e.name === era.name && 
+                  e.startYear === era.startYear && 
+                  e.endYear === era.endYear
+                );
+                if (eraIndex !== -1) {
+                  eraSettings.splice(eraIndex, 1);
+                  saveEvents();
+                  renderEraBackgrounds();
+                  showInfo('時代区分削除完了', `「${era.name}」の時代区分を削除しました。`);
+                }
+              };
+              
+              eraText.addEventListener('click', deleteEra);
+              textBg.addEventListener('click', deleteEra);
               
               // 背景を先に挿入
               stage.insertBefore(textBg, gridG);
               // テキストを挿入
               stage.insertBefore(eraText, gridG);
               
-              console.log('時代区分名テキスト追加:', era.name, { 
+              console.log('時代区分名テキスト追加:', displayText, { 
                 x: textX, 
                 y: textY, 
                 textWidth: textWidth,
                 backgroundWidth: textWidth + 8,
-                textLength: era.name.length
+                textLength: displayText.length
               });
             }
           } else {
