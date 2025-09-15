@@ -860,13 +860,13 @@
         const endYear = (era.endYear === 'ongoing') ? new Date().getFullYear() + 1 : era.endYear;
         if (!startYear || !endYear) return;
 
-        const startY = yearToY(startYear);
-        const endY = yearToY(endYear + 1);
+        const startY = yFromBirthYear(startYear);
+        const endY = yFromBirthYear(endYear + 1);
         const height = endY - startY;
         
         if (height > 0) {
           if (era.fillEnabled ?? true) {
-            const rect = document.createElementNS(ns, 'rect');
+            const rect = document.createElementNS('http://www.w3.org/2000/svg', 'rect');
             rect.setAttribute('class', 'era-background');
             rect.setAttribute('x', ORIGIN_X);
             rect.setAttribute('y', startY);
@@ -877,14 +877,14 @@
             gridG.insertBefore(rect, gridG.firstChild);
           }
 
-          const eraText = document.createElementNS(ns, 'text');
+          const eraText = document.createElementNS('http://www.w3.org/2000/svg', 'text');
           eraText.setAttribute('class', 'era-text');
           eraText.textContent = `${era.name} (${era.startYear}-${era.endYear})`;
           eraText.setAttribute('x', ORIGIN_X + 10);
           eraText.setAttribute('y', startY + 20);
           eraText.setAttribute('style', 'font-size: 14px; fill: #333; cursor: pointer; user-select: none;');
           
-          const textBg = document.createElementNS(ns, 'rect');
+          const textBg = document.createElementNS('http://www.w3.org/2000/svg', 'rect');
           textBg.setAttribute('class', 'era-text-bg');
           
           gridG.appendChild(eraText);
