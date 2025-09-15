@@ -639,18 +639,18 @@
   function saveEraSettings() {
     const newEraSettings = [];
     const nameInputs = document.querySelectorAll('[id^="eraName"]');
-    const totalItems = nameInputs.length;
-
-    for (let i = 0; i < totalItems; i++) {
-      const name = nameInputs[i].value.trim();
-
+    
+    nameInputs.forEach(nameInput => {
+      const name = nameInput.value.trim();
       if (name) {
-        const enabled = document.getElementById(`eraEnabled${i}`)?.checked ?? true;
-        const startYearStr = document.getElementById(`eraStart${i}`)?.value.trim();
-        const endYearStr = document.getElementById(`eraEnd${i}`)?.value.trim();
-        const endOngoing = document.getElementById(`eraEndOngoing${i}`)?.checked ?? false;
-        const color = document.getElementById(`eraColor${i}`)?.value || '#4169E1';
-        const opacity = document.getElementById(`eraOpacity${i}`)?.value || '0.3';
+        const index = nameInput.id.replace('eraName', '');
+
+        const enabled = document.getElementById(`eraEnabled${index}`)?.checked ?? true;
+        const startYearStr = document.getElementById(`eraStart${index}`)?.value.trim();
+        const endYearStr = document.getElementById(`eraEnd${index}`)?.value.trim();
+        const endOngoing = document.getElementById(`eraEndOngoing${index}`)?.checked ?? false;
+        const color = document.getElementById(`eraColor${index}`)?.value || '#4169E1';
+        const opacity = document.getElementById(`eraOpacity${index}`)?.value || '0.3';
         
         const startYear = startYearStr ? parseInt(startYearStr, 10) : '';
         let endYear = endYearStr ? parseInt(endYearStr, 10) : '';
@@ -667,7 +667,7 @@
           enabled
         });
       }
-    }
+    });
 
     eraSettings = newEraSettings;
     
@@ -816,18 +816,18 @@
   function saveEraSettings() {
     const newEraSettings = [];
     const nameInputs = document.querySelectorAll('[id^="eraName"]');
-    const totalItems = nameInputs.length;
-
-    for (let i = 0; i < totalItems; i++) {
-      const name = nameInputs[i].value.trim();
-
+    
+    nameInputs.forEach(nameInput => {
+      const name = nameInput.value.trim();
       if (name) {
-        const enabled = document.getElementById(`eraEnabled${i}`)?.checked ?? true;
-        const startYearStr = document.getElementById(`eraStart${i}`)?.value.trim();
-        const endYearStr = document.getElementById(`eraEnd${i}`)?.value.trim();
-        const endOngoing = document.getElementById(`eraEndOngoing${i}`)?.checked ?? false;
-        const color = document.getElementById(`eraColor${i}`)?.value || '#4169E1';
-        const opacity = document.getElementById(`eraOpacity${i}`)?.value || '0.3';
+        const index = nameInput.id.replace('eraName', '');
+
+        const enabled = document.getElementById(`eraEnabled${index}`)?.checked ?? true;
+        const startYearStr = document.getElementById(`eraStart${index}`)?.value.trim();
+        const endYearStr = document.getElementById(`eraEnd${index}`)?.value.trim();
+        const endOngoing = document.getElementById(`eraEndOngoing${index}`)?.checked ?? false;
+        const color = document.getElementById(`eraColor${index}`)?.value || '#4169E1';
+        const opacity = document.getElementById(`eraOpacity${index}`)?.value || '0.3';
         
         const startYear = startYearStr ? parseInt(startYearStr, 10) : '';
         let endYear = endYearStr ? parseInt(endYearStr, 10) : '';
@@ -844,7 +844,7 @@
           enabled
         });
       }
-    }
+    });
 
     eraSettings = newEraSettings;
     
