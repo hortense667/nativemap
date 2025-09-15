@@ -1502,10 +1502,6 @@
       }
     }
     
-    if (!events[year]) {
-      events[year] = [];
-    }
-    
     const newItem = { label };
     if (startYear) newItem.startYear = parseInt(startYear, 10);
     if (endYear) {
@@ -1522,19 +1518,48 @@
     
     if (index === -1) {
       // 新しい項目を追加
-      events[year].push(newItem);
+      const targetYear = startYear ? parseInt(startYear, 10) : year;
+      if (!events[targetYear]) {
+        events[targetYear] = [];
+      }
+      events[targetYear].push(newItem);
       // 新規追加の場合は編集フラグを設定
-      setEditFlag(year, newItem.label, genreKey);
+      setEditFlag(targetYear, newItem.label, genreKey);
     } else {
       // 既存の項目を更新
-      events[year][index] = newItem;
-      // 既存項目の編集の場合は編集フラグを設定
-      setEditFlag(year, newItem.label, genreKey);
+      const currentItem = events[year][index];
+      const originalStartYear = currentItem.startYear || year;
+      const newStartYear = startYear ? parseInt(startYear, 10) : year;
+      
+      // 開始年が変更された場合
+      if (originalStartYear !== newStartYear) {
+        // 元の年から項目を削除
+        events[year].splice(index, 1);
+        if (events[year].length === 0) {
+          delete events[year];
+        }
+        
+        // 新しい年に項目を追加
+        if (!events[newStartYear]) {
+          events[newStartYear] = [];
+        }
+        events[newStartYear].push(newItem);
+        // 編集フラグを設定
+        setEditFlag(newStartYear, newItem.label, genreKey);
+      } else {
+        // 開始年が変更されていない場合は通常の更新
+        events[year][index] = newItem;
+        // 編集フラグを設定
+        setEditFlag(year, newItem.label, genreKey);
+      }
     }
     
     saveEvents();
     renderEvents();
     autoSave();
+    
+    // 編集画面を自動で閉じる
+    editor.style.display = 'none';
   }
 
   // 個別の項目から時代区分を登録する機能
