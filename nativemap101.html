@@ -602,7 +602,7 @@
     } 
   }
 
-  // ===== 時代区分 =====
+  // ===== 時代区分 ====
   let eraSettings = []; // 時代区分の設定データ
 
   let events = loadEvents();
@@ -1321,7 +1321,7 @@
       
       <div style="margin-bottom: 16px;">
         <label style="display: block; margin-bottom: 8px; font-weight: bold;">ジャンル:</label>
-        <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; max-height: 120px; overflow-y: auto; border: 1px solid #ddd; border-radius: 4px; padding: 8px;">
+        <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; border: 1px solid #ddd; border-radius: 4px; padding: 8px;">
           <label style="display: flex; align-items: center; gap: 4px; font-size: 13px;">
             <input type="checkbox" value="ANI" ${Array.isArray(item.genre) ? (item.genre.includes('ANI') ? 'checked' : '') : (item.genre === 'ANI' ? 'checked' : '')}>
             アニメ
@@ -2808,7 +2808,7 @@
       const startYearStr=(cols[0]||'').trim();
       const endYearStr=(cols[1]||'').trim();
       const label=(cols[2]||'').trim();
-      const genre=(cols[3]||'').trim().toUpperCase();
+      const genreStr=(cols[3]||'').trim();
       const impStr=(cols[4]||'').trim();
       const url=(cols[5]||'').trim();
       const note=(cols[6]||'').trim();
@@ -2959,7 +2959,9 @@
       'ANI': 'アニメ', 'MAN': 'マンガ', 'GAM': 'ゲーム', 'TVP': 'テレビ番組',
       'MOV': '映画', 'NET': 'インターネット', 'HAR': 'ハードウェア', 'PHE': '現象・流行',
       'SOF': 'ソフトウェア', 'TOY': 'おもちゃ', 'FAS': 'ファッション', 'BOO': '本',
-      'MAG': '雑誌', 'NOV': '小説', 'MUS': '音楽', 'UNC': 'その他'
+      'MAG': '雑誌', 'NOV': '小説', 'MUS': '音楽', 'IDL': 'アイドル／タレント',
+      'RDO': 'ラジオ番組', 'EVT': 'イベント', 'FMT': 'メディア／流通様式',
+      'SPW': 'スポーツ／プロレス', 'RDE': 'テーマパーク', 'FOO': '食', 'UNC': 'その他'
     };
     
     let genreButtonsHtml = '';
@@ -3052,7 +3054,9 @@
       'ANI': 'アニメ', 'MAN': 'マンガ', 'GAM': 'ゲーム', 'TVP': 'テレビ番組',
       'MOV': '映画', 'NET': 'インターネット', 'HAR': 'ハードウェア', 'PHE': '現象・流行',
       'SOF': 'ソフトウェア', 'TOY': 'おもちゃ', 'FAS': 'ファッション', 'BOO': '本',
-      'MAG': '雑誌', 'NOV': '小説', 'MUS': '音楽', 'UNC': 'その他'
+      'MAG': '雑誌', 'NOV': '小説', 'MUS': '音楽', 'IDL': 'アイドル／タレント',
+      'RDO': 'ラジオ番組', 'EVT': 'イベント', 'FMT': 'メディア／流通様式',
+      'SPW': 'スポーツ／プロレス', 'RDE': 'テーマパーク', 'FOO': '食', 'UNC': 'その他'
     };
     
     // 各ジャンルの件数を初期化
@@ -3089,7 +3093,9 @@
       'ANI': 'アニメ', 'MAN': 'マンガ', 'GAM': 'ゲーム', 'TVP': 'テレビ番組',
       'MOV': '映画', 'NET': 'インターネット', 'HAR': 'ハードウェア', 'PHE': '現象・流行',
       'SOF': 'ソフトウェア', 'TOY': 'おもちゃ', 'FAS': 'ファッション', 'BOO': '本',
-      'MAG': '雑誌', 'NOV': '小説', 'MUS': '音楽', 'UNC': 'その他'
+      'MAG': '雑誌', 'NOV': '小説', 'MUS': '音楽', 'IDL': 'アイドル／タレント',
+      'RDO': 'ラジオ番組', 'EVT': 'イベント', 'FMT': 'メディア／流通様式',
+      'SPW': 'スポーツ／プロレス', 'RDE': 'テーマパーク', 'FOO': '食', 'UNC': 'その他'
     };
     
     return GENRES.map(genre => {
