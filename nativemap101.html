@@ -953,7 +953,6 @@
                   eraSettings.splice(eraIndex, 1);
                   saveEvents();
                   renderEraBackgrounds();
-                  showInfo('時代区分削除完了', `「${era.name}」の時代区分を削除しました。`);
                 }
               };
               
@@ -1613,7 +1612,6 @@
       eraSettings.splice(existingEraIndex, 1);
       saveEvents();
       renderEraBackgrounds();
-      showInfo('時代区分削除完了', `「${item.label}」の時代区分を削除しました。`);
       return;
     }
     
@@ -2883,7 +2881,9 @@
     let addedCount=0; const errors=[];
     const seen=buildLabelGenreSet();
     for(let i=0;i<lines.length;i++){
-      const raw=lines[i].trim(); if(!raw) continue;
+      const raw=lines[i].trim(); 
+      // 改行のみの行と「#」で始まる行を無視
+      if(!raw || raw.startsWith('#')) continue;
       const cols=raw.split(delim);
       if(i===0 && /年/.test(cols[0])) continue;
       if(cols.length<3){ errors.push(`${i+1}行目: 列数不足（開始年${delim}終了年${delim}ラベル${delim}ジャンル${delim}重要度${delim}URL${delim}注釈）`); continue; }
