@@ -692,6 +692,17 @@
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/高度経済成長期_(日本)",
         "note": "年平均高成長の時代"
+      },
+      {
+        "label": "なかよし",
+        "startYear": 1955,
+        "endYear": "ongoing",
+        "genre": [
+          "MAG"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/なかよし",
+        "note": "少女漫画の老舗誌"
       }
     ],
     "1956": [
