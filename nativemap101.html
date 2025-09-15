@@ -422,18 +422,21 @@
     console.log('編集フラグをクリアしました');
   }
   
-  // 項目の削除フラグを設定
+  // 項目の削除フラグを設定（年に依存しないキーも併せて設定）
   function setDeleteFlag(year, label, genre) {
-    const key = `${year}|${label}|${genre || ''}`;
-    deleteFlags[key] = true;
+    const yearKey = `${year}|${label}|${genre || ''}`;
+    const globalKey = `${label}|${genre || ''}`;
+    deleteFlags[yearKey] = true;
+    deleteFlags[globalKey] = true; // 年を跨いだ同一アイテムの復活防止
     saveDeleteFlags();
-    console.log('削除フラグを設定:', key);
+    console.log('削除フラグを設定:', { yearKey, globalKey });
   }
   
-  // 項目の削除フラグをチェック
+  // 項目の削除フラグをチェック（年付き・年なしの両方を許容）
   function hasDeleteFlag(year, label, genre) {
-    const key = `${year}|${label}|${genre || ''}`;
-    return deleteFlags[key] === true;
+    const yearKey = `${year}|${label}|${genre || ''}`;
+    const globalKey = `${label}|${genre || ''}`;
+    return deleteFlags[yearKey] === true || deleteFlags[globalKey] === true;
   }
   
   // 削除フラグをクリア
