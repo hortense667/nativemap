@@ -1589,8 +1589,17 @@
     }
     
     const startYear = item.startYear || year;
+    // 項目の終了年が「ongoing」の場合は時代区分も「ongoing」に設定
     const endYear = item.endYear === 'ongoing' ? 'ongoing' : (item.endYear || year);
     const eraName = item.label + (item.genre ? ` [${Array.isArray(item.genre) ? item.genre.join('・') : item.genre}]` : '');
+    
+    console.log('addEraFromItem: 項目情報', {
+      itemLabel: item.label,
+      itemStartYear: item.startYear,
+      itemEndYear: item.endYear,
+      eraStartYear: startYear,
+      eraEndYear: endYear
+    });
     
     // 既存の時代区分があるかチェック
     const existingEraIndex = eraSettings.findIndex(era => 
@@ -1634,6 +1643,8 @@
       opacity: '0.3',
       enabled: true
     };
+    
+    console.log('addEraFromItem: 作成する時代区分', newEra);
     
     // 新しい時代区分を先頭に追加（常に新しいものから並ぶように）
     eraSettings.unshift(newEra);
