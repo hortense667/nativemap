@@ -1300,6 +1300,10 @@
     if (!item) return;
     
     if (confirm(`「${item.label}」を削除しますか？`)) {
+      // 削除フラグを設定（同期時に削除を反映するため）
+      const genreKey = Array.isArray(item.genre) ? item.genre.sort().join('・') : (item.genre || '');
+      setDeleteFlag(year, item.label, genreKey);
+      
       items.splice(index, 1);
       if (items.length === 0) {
         delete events[year];
@@ -1578,6 +1582,7 @@
       // 開始年が変更された場合
       if (originalStartYear !== newStartYear) {
         // 元の年の項目に削除フラグを設定
+        const currentGenreKey = Array.isArray(currentItem.genre) ? currentItem.genre.sort().join('・') : (currentItem.genre || '');
         setDeleteFlag(year, currentItem.label, currentGenreKey);
         
         // 元の年から項目を削除
