@@ -1,5 +1,71 @@
 {
   "events": {
+    "1946": [
+      {
+        "label": "ビキニ",
+        "startYear": 1946,
+        "genre": [
+          "FAS"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/ビキニ",
+        "note": "戦後に登場した新水着"
+      }
+    ],
+    "1947": [
+      {
+        "label": "夜と霧",
+        "startYear": 1947,
+        "genre": [
+          "BOO"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/夜と霧",
+        "note": "極限状況の人間学"
+      },
+      {
+        "label": "ニュー・ルック",
+        "startYear": 1947,
+        "genre": [
+          "FAS"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/ニュー・ルック",
+        "note": "戦後女性像を刷新した革新"
+      },
+      {
+        "label": "H&M",
+        "startYear": 1947,
+        "genre": [
+          "FAS"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/H%26M",
+        "note": "北欧発の量販ファッション"
+      }
+    ],
+    "1956": [
+      {
+        "label": "遠藤諭",
+        "startYear": 1956,
+        "genre": [
+          "UNC"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/%E9%81%A0%E8%97%A4%E8%AB%AD",
+        "note": "このシステムの開発者"
+      },
+      {
+        "label": "ケリーバッグ",
+        "startYear": 1956,
+        "genre": [
+          "FAS"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/ケリーバッグ",
+        "note": "エルメスの象徴的ハンドバッグ"
+      }
+    ],
     "1958": [
       {
         "label": "白蛇伝",
@@ -11,12 +77,58 @@
         "note": "国産初の長編カラー"
       }
     ],
+    "1960": [
+      {
+        "label": "ドクターマーチン",
+        "startYear": 1960,
+        "genre": [
+          "FAS"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/ドクターマーチン",
+        "note": "反骨文化の象徴ブーツ"
+      },
+      {
+        "label": "アメリカンカジュアル",
+        "startYear": 1960,
+        "genre": [
+          "FAS"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/アメリカンカジュアル",
+        "note": "米国風の着こなし総称"
+      },
+      {
+        "label": "アイビー・ルック",
+        "startYear": 1960,
+        "genre": [
+          "FAS"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/アイビー・ルック",
+        "note": "学生風トラッドが流行"
+      }
+    ],
+    "1962": [
+      {
+        "label": "沈黙の春",
+        "startYear": 1962,
+        "genre": [
+          "BOO"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/沈黙の春",
+        "note": "環境運動の起点となる書"
+      }
+    ],
     "1963": [
       {
         "label": "鉄腕アトム",
         "startYear": 1963,
         "endYear": 1966,
-        "genre": "ANI",
+        "genre": [
+          "ANI"
+        ],
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/鉄腕アトム_(アニメ)",
         "note": "TVアニメ量産体制確立"
@@ -25,7 +137,9 @@
         "label": "鉄人28号",
         "startYear": 1963,
         "endYear": 1966,
-        "genre": "ANI",
+        "genre": [
+          "ANI"
+        ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/鉄人28号_(アニメ)",
         "note": "国産TVロボ草創期"
@@ -40,6 +154,38 @@
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/ジャングル大帝_(テレビアニメ)",
         "note": "国産初のカラーTV"
+      },
+      {
+        "label": "ミニスカート",
+        "startYear": 1965,
+        "genre": [
+          "FAS"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/ミニスカート",
+        "note": "60年代象徴の短丈革命"
+      }
+    ],
+    "1968": [
+      {
+        "label": "二重らせん",
+        "startYear": 1968,
+        "genre": [
+          "BOO"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/二重らせん",
+        "note": "DNA発見の内幕記"
+      },
+      {
+        "label": "コンピュータプログラミングの芸術",
+        "startYear": 1968,
+        "genre": [
+          "BOO"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/コンピュータプログラミングの芸術",
+        "note": "アルゴリズム金字塔"
       }
     ],
     "1969": [
@@ -59,6 +205,38 @@
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/アタックNo.1_(テレビアニメ)",
         "note": "スポ根アニメの金字塔"
+      },
+      {
+        "label": "コム デ ギャルソン",
+        "startYear": 1969,
+        "genre": [
+          "FAS"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/コム・デ・ギャルソン",
+        "note": "前衛性で世界に影響"
+      },
+      {
+        "label": "ゴアテックス",
+        "startYear": 1969,
+        "genre": [
+          "FAS"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/ゴアテックス",
+        "note": "防水透湿素材の標準"
+      }
+    ],
+    "1970": [
+      {
+        "label": "イッセイ ミヤケ",
+        "startYear": 1970,
+        "genre": [
+          "FAS"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/イッセイミヤケ",
+        "note": "技術と布の探究で革新"
       }
     ],
     "1971": [
@@ -90,6 +268,26 @@
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/デビルマン_(テレビアニメ)",
         "note": "ダークヒーロー確立"
+      },
+      {
+        "label": "成長の限界",
+        "startYear": 1972,
+        "genre": [
+          "BOO"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/成長の限界",
+        "note": "地球資源の限界を警告"
+      },
+      {
+        "label": "ヨウジヤマモト",
+        "startYear": 1972,
+        "genre": [
+          "FAS"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/ヨウジヤマモト",
+        "note": "黒の美学で台頭"
       }
     ],
     "1974": [
@@ -101,6 +299,50 @@
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/宇宙戦艦ヤマト_(アニメ)",
         "note": "アニメブーム火付け役"
+      },
+      {
+        "label": "ザラ",
+        "startYear": 1974,
+        "genre": [
+          "FAS"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/ザラ_(ファッションブランド)",
+        "note": "高速展開のSPAモデル"
+      }
+    ],
+    "1975": [
+      {
+        "label": "監獄の誕生",
+        "startYear": 1975,
+        "genre": [
+          "BOO"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/監獄の誕生",
+        "note": "規律権力の歴史分析"
+      },
+      {
+        "label": "人月の神話",
+        "startYear": 1975,
+        "genre": [
+          "BOO"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/人月の神話",
+        "note": "大規模開発の真理"
+      }
+    ],
+    "1977": [
+      {
+        "label": "ラルフ・ローレンのアニー・ホール・ルック",
+        "startYear": 1977,
+        "genre": [
+          "FAS"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/アニー・ホール",
+        "note": "メンズ風ミックスが流行"
       }
     ],
     "1978": [
@@ -131,6 +373,16 @@
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/ドラえもん_(1979年のテレビアニメ)",
         "note": "児童向け長寿シリーズ"
+      },
+      {
+        "label": "フリース",
+        "startYear": 1979,
+        "genre": [
+          "FAS"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/フリース",
+        "note": "軽暖素材が大衆化"
       }
     ],
     "1980": [
@@ -142,6 +394,16 @@
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/伝説巨神イデオン",
         "note": "富野ロボの問題作"
+      },
+      {
+        "label": "DCブランド",
+        "startYear": 1980,
+        "genre": [
+          "FAS"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/DCブランド",
+        "note": "80年代日本のデザイナーズ潮流"
       }
     ],
     "1981": [
@@ -165,6 +427,28 @@
         "note": "歌と可変戦闘機融合"
       }
     ],
+    "1983": [
+      {
+        "label": "想像の共同体",
+        "startYear": 1983,
+        "genre": [
+          "BOO"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/想像の共同体",
+        "note": "国民国家の起源論"
+      },
+      {
+        "label": "スウォッチ",
+        "startYear": 1983,
+        "genre": [
+          "FAS"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/スウォッチ",
+        "note": "低価格で時計文化を刷新"
+      }
+    ],
     "1984": [
       {
         "label": "風の谷のナウシカ",
@@ -173,6 +457,48 @@
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/風の谷のナウシカ_(映画)",
         "note": "宮崎駿の出世作"
+      },
+      {
+        "label": "バーキン",
+        "startYear": 1984,
+        "genre": [
+          "FAS"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/エルメス",
+        "note": "ジェーン由来の名作鞄"
+      },
+      {
+        "label": "ユニクロ",
+        "startYear": 1984,
+        "genre": [
+          "FAS"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/ユニクロ",
+        "note": "日本発ファストファッション"
+      }
+    ],
+    "1985": [
+      {
+        "label": "計算機プログラムの構造と解釈",
+        "startYear": 1985,
+        "genre": [
+          "BOO"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/計算機プログラムの構造と解釈",
+        "note": "計算とは何かを示す名著"
+      },
+      {
+        "label": "エア・ジョーダン",
+        "startYear": 1985,
+        "genre": [
+          "FAS"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/エア・ジョーダン",
+        "note": "NBA発の人気スニーカー"
       }
     ],
     "1986": [
@@ -191,6 +517,18 @@
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/ドラゴンボール_(アニメ)",
         "note": "少年バトル定番化"
+      }
+    ],
+    "1987": [
+      {
+        "label": "ナイキ エアマックス",
+        "startYear": 1987,
+        "genre": [
+          "FAS"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/ナイキ_エアマックス",
+        "note": "可視エア搭載で革新"
       }
     ],
     "1988": [
@@ -219,6 +557,28 @@
         "note": "長大OVAの金字塔"
       }
     ],
+    "1990": [
+      {
+        "label": "原宿ファッション",
+        "startYear": 1990,
+        "genre": [
+          "FAS"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/原宿のファッション史",
+        "note": "個性派スタイルの発信地"
+      },
+      {
+        "label": "日本のストリートファッション",
+        "startYear": 1990,
+        "genre": [
+          "FAS"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/日本のストリートファッション",
+        "note": "90年代世界的注目"
+      }
+    ],
     "1992": [
       {
         "label": "美少女戦士セーラームーン",
@@ -227,6 +587,18 @@
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/美少女戦士セーラームーン_(アニメ)",
         "note": "変身ヒロイン再定義"
+      }
+    ],
+    "1993": [
+      {
+        "label": "プリーツ プリーズ",
+        "startYear": 1993,
+        "genre": [
+          "FAS"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/プリーツ_プリーズ_イッセイ_ミヤケ",
+        "note": "永久プリーツの日常服"
       }
     ],
     "1995": [
@@ -245,6 +617,26 @@
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/攻殻機動隊_(1995年の映画)",
         "note": "サイバーパンク到達点"
+      },
+      {
+        "label": "裏原宿",
+        "startYear": 1995,
+        "genre": [
+          "FAS"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/裏原宿",
+        "note": "ストリート発信の震源地"
+      },
+      {
+        "label": "ロリータ・ファッション",
+        "startYear": 1995,
+        "genre": [
+          "FAS"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/ロリータ・ファッション",
+        "note": "少女趣味の装飾系スタイル"
       }
     ],
     "1997": [
@@ -271,6 +663,16 @@
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/ポケットモンスター_(アニメ)",
         "note": "メディアミックス象徴"
+      },
+      {
+        "label": "銃・病原菌・鉄",
+        "startYear": 1997,
+        "genre": [
+          "BOO"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/銃・病原菌・鉄",
+        "note": "人類史の比較論的解読"
       }
     ],
     "1998": [
@@ -281,6 +683,18 @@
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/カウボーイビバップ",
         "note": "世界評価のTVシリーズ"
+      }
+    ],
+    "2000": [
+      {
+        "label": "ゴシック・アンド・ロリータ",
+        "startYear": 2000,
+        "genre": [
+          "FAS"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/ゴシック・アンド・ロリータ",
+        "note": "黒基調の退廃的様式"
       }
     ],
     "2002": [
@@ -366,6 +780,16 @@
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/あの日見た花の名前を僕達はまだ知らない。",
         "note": "青春ドラマの新機軸"
+      },
+      {
+        "label": "サピエンス全史",
+        "startYear": 2011,
+        "genre": [
+          "BOO"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/サピエンス全史",
+        "note": "人類史を俯瞰する通史"
       }
     ],
     "2012": [
