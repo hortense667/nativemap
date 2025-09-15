@@ -4974,6 +4974,17 @@
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/はじめの一歩",
         "note": "ボクシング漫画の金字塔"
+      },
+      {
+        "label": "魔女の宅急便",
+        "startYear": 1989,
+        "endYear": 1989,
+        "genre": [
+          "ANI"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/魔女の宅急便_(アニメ映画)",
+        "note": "少女成長の普遍譚"
       }
     ],
     "1990": [
@@ -5155,6 +5166,17 @@
         "imp": 3,
         "url": "https://ja.wikipedia.org/wiki/CROWS",
         "note": "不良漫画の代表格"
+      },
+      {
+        "label": "ちびまる子ちゃん (1990年版)",
+        "startYear": 1990,
+        "endYear": "ongoing",
+        "genre": [
+          "ANI"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/ちびまる子ちゃん_(1990-1992年のテレビアニメ)",
+        "note": "国民的ホームコメディ"
       }
     ],
     "1991": [
@@ -5450,6 +5472,28 @@
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/花より男子",
         "note": "平成少女漫画の代表"
+      },
+      {
+        "label": "紅の豚",
+        "startYear": 1992,
+        "endYear": 1992,
+        "genre": [
+          "ANI"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/紅の豚",
+        "note": "大人のロマンと反戦"
+      },
+      {
+        "label": "クレヨンしんちゃん (アニメ)",
+        "startYear": 1992,
+        "endYear": "ongoing",
+        "genre": [
+          "ANI"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/クレヨンしんちゃん",
+        "note": "国民的ファミリーギャグ"
       }
     ],
     "1993": [
@@ -5688,6 +5732,17 @@
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/アルティメット・ファイティング・チャンピオンシップ",
         "note": "MMA世界最大。"
+      },
+      {
+        "label": "忍たま乱太郎",
+        "startYear": 1993,
+        "endYear": "ongoing",
+        "genre": [
+          "ANI"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/忍たま乱太郎",
+        "note": "教育×ギャグの長寿作"
       }
     ],
     "1994": [
@@ -6301,6 +6356,28 @@
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/ピンポン_(漫画)",
         "note": "卓球青春の金字塔"
+      },
+      {
+        "label": "天空のエスカフローネ",
+        "startYear": 1996,
+        "endYear": 1996,
+        "genre": [
+          "ANI"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/天空のエスカフローネ",
+        "note": "異世界×ロボ×恋愛"
+      },
+      {
+        "label": "名探偵コナン (アニメ)",
+        "startYear": 1996,
+        "endYear": "ongoing",
+        "genre": [
+          "ANI"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/名探偵コナン_(アニメ)",
+        "note": "国民的推理アニメ"
       }
     ],
     "1997": [
@@ -6739,6 +6816,39 @@
         "imp": 3,
         "url": "https://ja.wikipedia.org/wiki/ROOKIES",
         "note": "不良×野球で人気"
+      },
+      {
+        "label": "Serial Experiments Lain",
+        "startYear": 1998,
+        "endYear": 1998,
+        "genre": [
+          "ANI"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/serial_experiments_lain",
+        "note": "電脳と自我の実験作"
+      },
+      {
+        "label": "カードキャプターさくら",
+        "startYear": 1998,
+        "endYear": 1999,
+        "genre": [
+          "ANI"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/カードキャプターさくら_(アニメ)",
+        "note": "魔法少女の新定番"
+      },
+      {
+        "label": "おじゃる丸",
+        "startYear": 1998,
+        "endYear": "ongoing",
+        "genre": [
+          "ANI"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/おじゃる丸",
+        "note": "低学年向け長寿作"
       }
     ],
     "1999": [
@@ -7320,6 +7430,17 @@
         "imp": 3,
         "url": "https://ja.wikipedia.org/wiki/ブラックジャックによろしく",
         "note": "医療現場ルポ漫画"
+      },
+      {
+        "label": "千と千尋の神隠し",
+        "startYear": 2001,
+        "endYear": 2001,
+        "genre": [
+          "ANI"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/千と千尋の神隠し",
+        "note": "日本アニメ映画の金字塔"
       }
     ],
     "2002": [
@@ -7524,6 +7645,17 @@
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/PLUTO_(漫画)",
         "note": "手塚リメイクの傑作"
+      },
+      {
+        "label": "プラネテス",
+        "startYear": 2003,
+        "endYear": 2004,
+        "genre": [
+          "ANI"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/プラネテス",
+        "note": "宇宙ゴミ問題を描く硬派SF"
       }
     ],
     "2004": [
@@ -7682,6 +7814,28 @@
         "imp": 2,
         "url": "https://ja.wikipedia.org/wiki/新ブラックジャックによろしく",
         "note": "続編"
+      },
+      {
+        "label": "ハウルの動く城",
+        "startYear": 2004,
+        "endYear": 2004,
+        "genre": [
+          "ANI"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/ハウルの動く城_(映画)",
+        "note": "幻想建築のファンタジー"
+      },
+      {
+        "label": "サムライチャンプルー",
+        "startYear": 2004,
+        "endYear": 2005,
+        "genre": [
+          "ANI"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/SAMURAI_CHAMPLOO",
+        "note": "和×HIPHOPの異色作"
       }
     ],
     "2005": [
@@ -7768,6 +7922,39 @@
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/ヴィンランド・サガ",
         "note": "北欧叙事詩的アクション"
+      },
+      {
+        "label": "蟲師",
+        "startYear": 2005,
+        "endYear": 2006,
+        "genre": [
+          "ANI"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/蟲師",
+        "note": "民話的叙情と癒やし"
+      },
+      {
+        "label": "交響詩篇エウレカセブン",
+        "startYear": 2005,
+        "endYear": 2005,
+        "genre": [
+          "ANI"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/交響詩篇エウレカセブン",
+        "note": "青春×ロボ×音楽"
+      },
+      {
+        "label": "AIR (2005)",
+        "startYear": 2005,
+        "endYear": 2005,
+        "genre": [
+          "ANI"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/AIR_(アニメ)",
+        "note": "ビジュアルノベル発アニメ"
       }
     ],
     "2006": [
@@ -7917,6 +8104,28 @@
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/ダイヤのA",
         "note": "高校野球の定番"
+      },
+      {
+        "label": "Fate/stay night (2006)",
+        "startYear": 2006,
+        "endYear": 2006,
+        "genre": [
+          "ANI"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/Fate/stay_night_(アニメ)",
+        "note": "深夜バトルの定番化"
+      },
+      {
+        "label": "Kanon (2006)",
+        "startYear": 2006,
+        "endYear": 2007,
+        "genre": [
+          "ANI"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/Kanon_(アニメ)",
+        "note": "Key三部作の一角"
       }
     ],
     "2007": [
@@ -8023,6 +8232,17 @@
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/宇宙兄弟",
         "note": "兄弟の宇宙開発譚"
+      },
+      {
+        "label": "CLANNAD",
+        "startYear": 2007,
+        "endYear": 2008,
+        "genre": [
+          "ANI"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/CLANNAD_(アニメ)",
+        "note": "泣きの学園ドラマ"
       }
     ],
     "2008": [
@@ -8140,6 +8360,28 @@
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/黒子のバスケ",
         "note": "新世代バスケ漫画"
+      },
+      {
+        "label": "崖の上のポニョ",
+        "startYear": 2008,
+        "endYear": 2008,
+        "genre": [
+          "ANI"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/崖の上のポニョ",
+        "note": "海と生命の寓話"
+      },
+      {
+        "label": "とらドラ!",
+        "startYear": 2008,
+        "endYear": 2009,
+        "genre": [
+          "ANI"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/とらドラ!",
+        "note": "等身大の恋愛青春"
       }
     ],
     "2009": [
@@ -8225,6 +8467,28 @@
         "imp": 3,
         "url": "https://ja.wikipedia.org/wiki/ばらかもん",
         "note": "書道×島暮らし"
+      },
+      {
+        "label": "サマーウォーズ",
+        "startYear": 2009,
+        "endYear": 2009,
+        "genre": [
+          "ANI"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/サマーウォーズ",
+        "note": "家族×仮想空間の名作"
+      },
+      {
+        "label": "化物語（物語シリーズ初期）",
+        "startYear": 2009,
+        "endYear": 2010,
+        "genre": [
+          "ANI"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/〈物語〉シリーズ",
+        "note": "会話劇×怪異の新機軸"
       }
     ],
     "2010": [
@@ -8267,6 +8531,28 @@
         "imp": 3,
         "url": "https://ja.wikipedia.org/wiki/LibreOffice",
         "note": "OSSのオフィス統合環境"
+      },
+      {
+        "label": "借りぐらしのアリエッティ",
+        "startYear": 2010,
+        "endYear": 2010,
+        "genre": [
+          "ANI"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/借りぐらしのアリエッティ",
+        "note": "小人の世界を描く"
+      },
+      {
+        "label": "四畳半神話大系",
+        "startYear": 2010,
+        "endYear": 2010,
+        "genre": [
+          "ANI"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/四畳半神話大系",
+        "note": "大学生青春×時間改変"
       }
     ],
     "2011": [
@@ -8453,6 +8739,17 @@
         "imp": 1,
         "url": "https://ja.wikipedia.org/wiki/キングダム_(漫画)",
         "note": "※重複回避のため補足"
+      },
+      {
+        "label": "Fate/Zero",
+        "startYear": 2011,
+        "endYear": 2012,
+        "genre": [
+          "ANI"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/Fate/Zero#テレビアニメ",
+        "note": "重厚ダークファンタジー"
       }
     ],
     "2012": [
@@ -8557,6 +8854,39 @@
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/%E3%83%8B%E3%82%B3%E3%83%8B%E3%82%B3%E8%B6%85%E4%BC%9A%E8%AD%B0",
         "note": "ネット文化を横断する総合イベント。"
+      },
+      {
+        "label": "おおかみこどもの雨と雪",
+        "startYear": 2012,
+        "endYear": 2012,
+        "genre": [
+          "ANI"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/おおかみこどもの雨と雪",
+        "note": "母と子の成長譚"
+      },
+      {
+        "label": "PSYCHO-PASS サイコパス",
+        "startYear": 2012,
+        "endYear": 2013,
+        "genre": [
+          "ANI"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/PSYCHO-PASS",
+        "note": "管理社会SF"
+      },
+      {
+        "label": "氷菓",
+        "startYear": 2012,
+        "endYear": 2012,
+        "genre": [
+          "ANI"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/氷菓_(アニメ)",
+        "note": "学園ミステリ×青春"
       }
     ],
     "2013": [
@@ -8669,6 +8999,39 @@
         "url": "https://ja.wikipedia.org/wiki/半沢直樹",
         "note": "社会現象の企業ドラマ",
         "endYear": "ongoing"
+      },
+      {
+        "label": "風立ちぬ",
+        "startYear": 2013,
+        "endYear": 2013,
+        "genre": [
+          "ANI"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/風立ちぬ_(2013年の映画)",
+        "note": "技術者と戦争の物語"
+      },
+      {
+        "label": "言の葉の庭",
+        "startYear": 2013,
+        "endYear": 2013,
+        "genre": [
+          "ANI"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/言の葉の庭",
+        "note": "雨の東京の抒情"
+      },
+      {
+        "label": "のんのんびより",
+        "startYear": 2013,
+        "endYear": 2014,
+        "genre": [
+          "ANI"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/のんのんびより",
+        "note": "田舎日常の傑作"
       }
     ],
     "2014": [
@@ -8735,6 +9098,50 @@
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/ゴールデンカムイ",
         "note": "アイヌ文化×冒険"
+      },
+      {
+        "label": "思い出のマーニー",
+        "startYear": 2014,
+        "endYear": 2014,
+        "genre": [
+          "ANI"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/思い出のマーニー_(映画)",
+        "note": "思春期の心象風景"
+      },
+      {
+        "label": "ピンポン THE ANIMATION",
+        "startYear": 2014,
+        "endYear": 2014,
+        "genre": [
+          "ANI"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/ピンポン_THE_ANIMATION",
+        "note": "卓球青春の再解釈"
+      },
+      {
+        "label": "シドニアの騎士",
+        "startYear": 2014,
+        "endYear": 2014,
+        "genre": [
+          "ANI"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/シドニアの騎士",
+        "note": "フルCG×ハードSF"
+      },
+      {
+        "label": "SHIROBAKO",
+        "startYear": 2014,
+        "endYear": 2015,
+        "genre": [
+          "ANI"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/SHIROBAKO",
+        "note": "アニメ業界群像"
       }
     ],
     "2015": [
@@ -8799,6 +9206,28 @@
         "imp": 3,
         "url": "https://ja.wikipedia.org/wiki/RIZIN_FIGHTING_FEDERATION",
         "note": "国内最大級の総合格闘技イベント。"
+      },
+      {
+        "label": "バケモノの子",
+        "startYear": 2015,
+        "endYear": 2015,
+        "genre": [
+          "ANI"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/バケモノの子",
+        "note": "師弟の王道冒険"
+      },
+      {
+        "label": "ワンパンマン (アニメ)",
+        "startYear": 2015,
+        "endYear": 2015,
+        "genre": [
+          "ANI"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/ワンパンマン",
+        "note": "ヒーローギャグ×バトル"
       }
     ],
     "2016": [
@@ -8912,6 +9341,39 @@
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/約束のネバーランド",
         "note": "ダークファンタジー脱出劇"
+      },
+      {
+        "label": "Re:ゼロから始める異世界生活",
+        "startYear": 2016,
+        "endYear": 2016,
+        "genre": [
+          "ANI"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/Re:ゼロから始める異世界生活",
+        "note": "ループ型異世界の代表格"
+      },
+      {
+        "label": "この素晴らしい世界に祝福を!",
+        "startYear": 2016,
+        "endYear": 2017,
+        "genre": [
+          "ANI"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/この素晴らしい世界に祝福を!",
+        "note": "異世界コメディ"
+      },
+      {
+        "label": "モブサイコ100",
+        "startYear": 2016,
+        "endYear": 2016,
+        "genre": [
+          "ANI"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/モブサイコ100",
+        "note": "力と成長の物語"
       }
     ],
     "2017": [
@@ -9005,6 +9467,39 @@
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/ブルーピリオド",
         "note": "美大受験を描く"
+      },
+      {
+        "label": "メイドインアビス",
+        "startYear": 2017,
+        "endYear": 2017,
+        "genre": [
+          "ANI"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/メイドインアビス",
+        "note": "深淵探索のダーク冒険"
+      },
+      {
+        "label": "宝石の国",
+        "startYear": 2017,
+        "endYear": 2017,
+        "genre": [
+          "ANI"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/宝石の国_(テレビアニメ)",
+        "note": "フルCGの審美"
+      },
+      {
+        "label": "小林さんちのメイドラゴン",
+        "startYear": 2017,
+        "endYear": 2017,
+        "genre": [
+          "ANI"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/小林さんちのメイドラゴン",
+        "note": "ファミリー×ドラゴン"
       }
     ],
     "2018": [
@@ -9113,6 +9608,39 @@
         "imp": 3,
         "url": "https://ja.wikipedia.org/wiki/地獄楽",
         "note": "忍法×サバイバル"
+      },
+      {
+        "label": "未来のミライ",
+        "startYear": 2018,
+        "endYear": 2018,
+        "genre": [
+          "ANI"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/未来のミライ",
+        "note": "家族の時間SF"
+      },
+      {
+        "label": "ゾンビランドサガ",
+        "startYear": 2018,
+        "endYear": 2018,
+        "genre": [
+          "ANI"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/ゾンビランドサガ",
+        "note": "ご当地×アイドルの新機軸"
+      },
+      {
+        "label": "SSSS.GRIDMAN",
+        "startYear": 2018,
+        "endYear": 2018,
+        "genre": [
+          "ANI"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/SSSS.GRIDMAN",
+        "note": "特撮×リブート"
       }
     ],
     "2019": [
@@ -9185,6 +9713,17 @@
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/夜に駆ける",
         "note": "小説×音楽の新機軸"
+      },
+      {
+        "label": "天気の子",
+        "startYear": 2019,
+        "endYear": 2019,
+        "genre": [
+          "ANI"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/天気の子",
+        "note": "気象×青春"
       }
     ],
     "2020": [
@@ -9260,6 +9799,28 @@
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/2020年東京オリンピック",
         "note": "延期開催の五輪"
+      },
+      {
+        "label": "オッドタクシー",
+        "startYear": 2021,
+        "endYear": 2021,
+        "genre": [
+          "ANI"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/オッドタクシー",
+        "note": "緻密な群像サスペンス"
+      },
+      {
+        "label": "王様ランキング",
+        "startYear": 2021,
+        "endYear": 2021,
+        "genre": [
+          "ANI"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/王様ランキング",
+        "note": "やさしさの冒険記"
       }
     ],
     "2022": [
@@ -9329,6 +9890,50 @@
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/すずめの戸締まり",
         "note": "災厄と成長の旅"
+      },
+      {
+        "label": "すずめの戸締まり",
+        "startYear": 2022,
+        "endYear": 2022,
+        "genre": [
+          "ANI"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/すずめの戸締まり",
+        "note": "災禍と喪失の旅"
+      },
+      {
+        "label": "ぼっち・ざ・ろっく!",
+        "startYear": 2022,
+        "endYear": 2022,
+        "genre": [
+          "ANI"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/ぼっち・ざ・ろっく!",
+        "note": "バンド青春の新定番"
+      },
+      {
+        "label": "リコリス・リコイル",
+        "startYear": 2022,
+        "endYear": 2022,
+        "genre": [
+          "ANI"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/リコリス・リコイル",
+        "note": "ガールズガンアクション"
+      },
+      {
+        "label": "機動戦士ガンダム 水星の魔女",
+        "startYear": 2022,
+        "endYear": 2023,
+        "genre": [
+          "ANI"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/機動戦士ガンダム_水星の魔女",
+        "note": "令和のガンダム新機軸"
       }
     ],
     "2023": [
@@ -9370,6 +9975,28 @@
         "imp": 3,
         "url": "https://ja.wikipedia.org/wiki/バービー_(映画)",
         "note": "玩具IPの社会風刺"
+      },
+      {
+        "label": "【推しの子】",
+        "startYear": 2023,
+        "endYear": 2023,
+        "genre": [
+          "ANI"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/%E3%80%90%E6%8E%A8%E3%81%97%E3%81%AE%E5%AD%90%E3%80%91",
+        "note": "芸能界サスペンス"
+      },
+      {
+        "label": "薬屋のひとりごと (TVアニメ)",
+        "startYear": 2023,
+        "endYear": 2024,
+        "genre": [
+          "ANI"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/薬屋のひとりごと#テレビアニメ",
+        "note": "後宮×薬学ミステリ"
       }
     ],
     "2025": [
