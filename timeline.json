@@ -42,7 +42,8 @@
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/世界_(雑誌)",
-        "note": "戦後思想の論壇誌"
+        "note": "戦後思想の論壇誌",
+        "endYear": "ongoing"
       },
       {
         "label": "サザエさん",
@@ -118,7 +119,8 @@
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/美術手帖",
-        "note": "現代美術とカルチャー"
+        "note": "現代美術とカルチャー",
+        "endYear": "ongoing"
       },
       {
         "label": "自転車泥棒",
@@ -148,7 +150,8 @@
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/エド・サリヴァン・ショー",
-        "note": "音楽バラエティの古典"
+        "note": "音楽バラエティの古典",
+        "endYear": "ongoing"
       }
     ],
     "1949": [
@@ -313,7 +316,8 @@
         ],
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/NHK紅白歌合戦",
-        "note": "年末音楽番組の国民行事"
+        "note": "年末音楽番組の国民行事",
+        "endYear": "ongoing"
       }
     ],
     "1954": [
@@ -325,7 +329,8 @@
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/なかよし",
-        "note": "少女漫画の老舗誌"
+        "note": "少女漫画の老舗誌",
+        "endYear": "ongoing"
       },
       {
         "label": "火の鳥",
@@ -335,7 +340,8 @@
         ],
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/火の鳥",
-        "note": "生命と輪廻を描く大作"
+        "note": "生命と輪廻を描く大作",
+        "endYear": "ongoing"
       },
       {
         "label": "七人の侍",
@@ -385,7 +391,8 @@
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/ザ・トゥナイト・ショー",
-        "note": "米国深夜トーク源流"
+        "note": "米国深夜トーク源流",
+        "endYear": "ongoing"
       }
     ],
     "1955": [
@@ -397,7 +404,8 @@
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/りぼん",
-        "note": "少女漫画の定番誌"
+        "note": "少女漫画の定番誌",
+        "endYear": "ongoing"
       },
       {
         "label": "高度経済成長期（日本）",
@@ -439,7 +447,8 @@
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/週刊新潮",
-        "note": "週刊ジャーナリズム"
+        "note": "週刊ジャーナリズム",
+        "endYear": "ongoing"
       },
       {
         "label": "鉄人28号",
@@ -536,7 +545,8 @@
         ],
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/週刊文春",
-        "note": "調査報道の看板誌"
+        "note": "調査報道の看板誌",
+        "endYear": "ongoing"
       },
       {
         "label": "朝日ジャーナル",
@@ -557,7 +567,8 @@
         ],
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/週刊少年マガジン",
-        "note": "講談社の少年誌"
+        "note": "講談社の少年誌",
+        "endYear": "ongoing"
       },
       {
         "label": "週刊少年サンデー",
@@ -567,7 +578,8 @@
         ],
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/週刊少年サンデー",
-        "note": "小学館の少年誌"
+        "note": "小学館の少年誌",
+        "endYear": "ongoing"
       },
       {
         "label": "S-Fマガジン",
@@ -577,7 +589,8 @@
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/S-Fマガジン",
-        "note": "日本SFの老舗誌"
+        "note": "日本SFの老舗誌",
+        "endYear": "ongoing"
       },
       {
         "label": "大人は判ってくれない",
@@ -627,7 +640,8 @@
         ],
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/おかあさんといっしょ",
-        "note": "幼児教育番組の定番"
+        "note": "幼児教育番組の定番",
+        "endYear": "ongoing"
       }
     ],
     "1960": [
@@ -773,7 +787,8 @@
         ],
         "imp": 3,
         "url": "https://ja.wikipedia.org/wiki/週刊現代",
-        "note": "総合週刊の定番"
+        "note": "総合週刊の定番",
+        "endYear": "ongoing"
       },
       {
         "label": "アラビアのロレンス",
@@ -817,7 +832,8 @@
         ],
         "imp": 3,
         "url": "https://ja.wikipedia.org/wiki/プレジデント_(雑誌)",
-        "note": "経営・ビジネス誌"
+        "note": "経営・ビジネス誌",
+        "endYear": "ongoing"
       },
       {
         "label": "ボブ・ディラン「風に吹かれて」",
@@ -1029,7 +1045,8 @@
         ],
         "imp": 3,
         "url": "https://ja.wikipedia.org/wiki/週刊プレイボーイ",
-        "note": "日本の男性週刊誌"
+        "note": "日本の男性週刊誌",
+        "endYear": "ongoing"
       },
       {
         "label": "巨人の星",
@@ -1081,7 +1098,8 @@
         ],
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/笑点",
-        "note": "落語大喜利の長寿番組"
+        "note": "落語大喜利の長寿番組",
+        "endYear": "ongoing"
       },
       {
         "label": "スター・トレック:宇宙大作戦",
@@ -1115,7 +1133,8 @@
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/ローリング・ストーン",
-        "note": "音楽×政治文化誌"
+        "note": "音楽×政治文化誌",
+        "endYear": "ongoing"
       },
       {
         "label": "ビートルズ『サージェント・ペパーズ…』",
@@ -1177,7 +1196,8 @@
         ],
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/週刊少年ジャンプ",
-        "note": "少年漫画の最大手"
+        "note": "少年漫画の最大手",
+        "endYear": "ongoing"
       },
       {
         "label": "ビッグコミック",
@@ -1187,7 +1207,8 @@
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/ビッグコミック",
-        "note": "青年漫画の先駆"
+        "note": "青年漫画の先駆",
+        "endYear": "ongoing"
       },
       {
         "label": "ねじ式",
@@ -1219,7 +1240,8 @@
         ],
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/ゴルゴ13",
-        "note": "最長寿クラスの劇画"
+        "note": "最長寿クラスの劇画",
+        "endYear": "ongoing"
       },
       {
         "label": "2001年宇宙の旅",
@@ -1269,17 +1291,21 @@
         ],
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/60ミニッツ",
-        "note": "調査報道の金字塔"
+        "note": "調査報道の金字塔",
+        "endYear": "ongoing"
       }
     ],
     "1969": [
       {
         "label": "サザエさん",
         "startYear": 1969,
-        "genre": "ANI",
+        "genre": [
+          "ANI"
+        ],
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/サザエさん_(アニメ)",
-        "note": "最長寿クラスの国民作"
+        "note": "最長寿クラスの国民作",
+        "endYear": "ongoing"
       },
       {
         "label": "アタックNo.1",
@@ -1318,7 +1344,8 @@
         ],
         "imp": 3,
         "url": "https://ja.wikipedia.org/wiki/週刊ポスト",
-        "note": "大衆週刊の定番"
+        "note": "大衆週刊の定番",
+        "endYear": "ongoing"
       },
       {
         "label": "ユリイカ",
@@ -1328,7 +1355,8 @@
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/ユリイカ_(雑誌)",
-        "note": "詩批評×ポップ特集"
+        "note": "詩批評×ポップ特集",
+        "endYear": "ongoing"
       },
       {
         "label": "ドラえもん",
@@ -1400,7 +1428,8 @@
         ],
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/セサミストリート",
-        "note": "教育番組の世界標準"
+        "note": "教育番組の世界標準",
+        "endYear": "ongoing"
       }
     ],
     "1970": [
@@ -1462,7 +1491,8 @@
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/NNNドキュメント",
-        "note": "民放最長級ドキュメンタリ"
+        "note": "民放最長級ドキュメンタリ",
+        "endYear": "ongoing"
       }
     ],
     "1971": [
@@ -1483,7 +1513,8 @@
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/日経サイエンス",
-        "note": "科学の一般解説誌"
+        "note": "科学の一般解説誌",
+        "endYear": "ongoing"
       },
       {
         "label": "non-no",
@@ -1493,7 +1524,8 @@
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/Non-no",
-        "note": "女性ファッション誌"
+        "note": "女性ファッション誌",
+        "endYear": "ongoing"
       },
       {
         "label": "面白半分",
@@ -1545,7 +1577,8 @@
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/新婚さんいらっしゃい!",
-        "note": "長寿公開収録トーク"
+        "note": "長寿公開収録トーク",
+        "endYear": "ongoing"
       }
     ],
     "1972": [
@@ -1719,7 +1752,8 @@
         ],
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/宝島_(雑誌)",
-        "note": "サブカル誌の代名詞"
+        "note": "サブカル誌の代名詞",
+        "endYear": "ongoing"
       },
       {
         "label": "はだしのゲン",
@@ -1822,7 +1856,8 @@
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/花とゆめ",
-        "note": "白泉社の少女誌"
+        "note": "白泉社の少女誌",
+        "endYear": "ongoing"
       },
       {
         "label": "ビックリハウス",
@@ -1946,7 +1981,8 @@
         ],
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/サタデー・ナイト・ライブ",
-        "note": "米国深夜コメディの王"
+        "note": "米国深夜コメディの王",
+        "endYear": "ongoing"
       }
     ],
     "1976": [
@@ -1978,7 +2014,8 @@
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/I/O_(パソコン雑誌)",
-        "note": "自作派向けPC誌"
+        "note": "自作派向けPC誌",
+        "endYear": "ongoing"
       },
       {
         "label": "POPEYE (雑誌)",
@@ -1988,7 +2025,8 @@
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/Popeye_(雑誌)",
-        "note": "シティボーイの教本"
+        "note": "シティボーイの教本",
+        "endYear": "ongoing"
       },
       {
         "label": "別冊宝島",
@@ -1998,7 +2036,8 @@
         ],
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/別冊宝島",
-        "note": "時事とタブー深掘り"
+        "note": "時事とタブー深掘り",
+        "endYear": "ongoing"
       },
       {
         "label": "STUDIO VOICE",
@@ -2019,7 +2058,8 @@
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/ガラスの仮面",
-        "note": "演劇少女漫画の頂点"
+        "note": "演劇少女漫画の頂点",
+        "endYear": "ongoing"
       },
       {
         "label": "タクシードライバー",
@@ -2079,7 +2119,8 @@
         ],
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/徹子の部屋",
-        "note": "長寿一対一トーク"
+        "note": "長寿一対一トーク",
+        "endYear": "ongoing"
       },
       {
         "label": "クイズダービー",
@@ -2163,7 +2204,8 @@
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/コロコロコミック",
-        "note": "児童向けの人気誌"
+        "note": "児童向けの人気誌",
+        "endYear": "ongoing"
       },
       {
         "label": "スター・ウォーズ (1977年の映画)",
@@ -2317,7 +2359,8 @@
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/24時間テレビ_「愛は地球を救う」",
-        "note": "チャリティ長時間特番"
+        "note": "チャリティ長時間特番",
+        "endYear": "ongoing"
       }
     ],
     "1979": [
@@ -2333,10 +2376,13 @@
       {
         "label": "ドラえもん(1979年版)",
         "startYear": 1979,
-        "genre": "ANI",
+        "genre": [
+          "ANI"
+        ],
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/ドラえもん_(1979年のテレビアニメ)",
-        "note": "児童向け長寿シリーズ"
+        "note": "児童向け長寿シリーズ",
+        "endYear": "ongoing"
       },
       {
         "label": "フリース",
@@ -2376,7 +2422,8 @@
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/週刊ヤングジャンプ",
-        "note": "青年誌の中核"
+        "note": "青年誌の中核",
+        "endYear": "ongoing"
       },
       {
         "label": "ムー (雑誌)",
@@ -2386,7 +2433,8 @@
         ],
         "imp": 3,
         "url": "https://ja.wikipedia.org/wiki/ムー_(雑誌)",
-        "note": "超常×オカルト誌"
+        "note": "超常×オカルト誌",
+        "endYear": "ongoing"
       },
       {
         "label": "ムー",
@@ -2396,7 +2444,8 @@
         ],
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/ムー_(雑誌)",
-        "note": "超常とオカルト文化誌"
+        "note": "超常とオカルト文化誌",
+        "endYear": "ongoing"
       },
       {
         "label": "地獄の黙示録",
@@ -2507,7 +2556,8 @@
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/Brutus_(雑誌)",
-        "note": "カルチャー総合誌"
+        "note": "カルチャー総合誌",
+        "endYear": "ongoing"
       },
       {
         "label": "週刊ヤングマガジン",
@@ -2517,7 +2567,8 @@
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/週刊ヤングマガジン",
-        "note": "青年誌の人気枠"
+        "note": "青年誌の人気枠",
+        "endYear": "ongoing"
       },
       {
         "label": "パソコン通信",
@@ -2658,7 +2709,8 @@
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/Newton_(雑誌)",
-        "note": "ビジュアル科学誌"
+        "note": "ビジュアル科学誌",
+        "endYear": "ongoing"
       },
       {
         "label": "写真時代",
@@ -2741,17 +2793,21 @@
         ],
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/北の国から",
-        "note": "連ドラの名作群像劇"
+        "note": "連ドラの名作群像劇",
+        "endYear": "ongoing"
       }
     ],
     "1982": [
       {
         "label": "超時空要塞マクロス",
         "startYear": 1982,
-        "genre": "ANI",
+        "genre": [
+          "ANI"
+        ],
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/超時空要塞マクロス",
-        "note": "歌と可変戦闘機融合"
+        "note": "歌と可変戦闘機融合",
+        "endYear": "ongoing"
       },
       {
         "label": "Commodore 64",
@@ -2854,7 +2910,8 @@
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/モーニング_(雑誌)",
-        "note": "青年漫画の看板誌"
+        "note": "青年漫画の看板誌",
+        "endYear": "ongoing"
       },
       {
         "label": "AKIRA",
@@ -3150,17 +3207,21 @@
         ],
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/おしん",
-        "note": "国際的に大ヒット"
+        "note": "国際的に大ヒット",
+        "endYear": "ongoing"
       }
     ],
     "1984": [
       {
         "label": "風の谷のナウシカ",
         "startYear": 1984,
-        "genre": "ANI",
+        "genre": [
+          "ANI"
+        ],
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/風の谷のナウシカ_(映画)",
-        "note": "宮崎駿の出世作"
+        "note": "宮崎駿の出世作",
+        "endYear": "ongoing"
       },
       {
         "label": "バーキン",
@@ -3221,7 +3282,8 @@
         ],
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/風の谷のナウシカ_(映画)",
-        "note": "エコSFの傑作"
+        "note": "エコSFの傑作",
+        "endYear": "ongoing"
       },
       {
         "label": "プリンス『パープル・レイン』",
@@ -3494,7 +3556,8 @@
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/ニュースステーション",
-        "note": "民放夜の報道革新"
+        "note": "民放夜の報道革新",
+        "endYear": "ongoing"
       },
       {
         "label": "金曜ロードショー",
@@ -3504,7 +3567,8 @@
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/金曜ロードショー",
-        "note": "映画枠の国民的ブランド"
+        "note": "映画枠の国民的ブランド",
+        "endYear": "ongoing"
       },
       {
         "label": "ラリー・キング・ライブ",
@@ -3522,18 +3586,24 @@
       {
         "label": "天空の城ラピュタ",
         "startYear": 1986,
-        "genre": "ANI",
+        "genre": [
+          "ANI"
+        ],
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/天空の城ラピュタ",
-        "note": "冒険活劇の傑作"
+        "note": "冒険活劇の傑作",
+        "endYear": "ongoing"
       },
       {
         "label": "ドラゴンボール",
         "startYear": 1986,
-        "genre": "ANI",
+        "genre": [
+          "ANI"
+        ],
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/ドラゴンボール_(アニメ)",
-        "note": "少年バトル定番化"
+        "note": "少年バトル定番化",
+        "endYear": "ongoing"
       },
       {
         "label": "ゼルダの伝説 (1986年のコンピュータゲーム)",
@@ -3807,26 +3877,35 @@
       {
         "label": "となりのトトロ",
         "startYear": 1988,
-        "genre": "ANI",
+        "genre": [
+          "ANI"
+        ],
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/となりのトトロ",
-        "note": "日常系ファンタ定番"
+        "note": "日常系ファンタ定番",
+        "endYear": "ongoing"
       },
       {
         "label": "AKIRA",
         "startYear": 1988,
-        "genre": "ANI",
+        "genre": [
+          "ANI"
+        ],
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/AKIRA_(アニメ映画)",
-        "note": "劇場アニメの革命作"
+        "note": "劇場アニメの革命作",
+        "endYear": "ongoing"
       },
       {
         "label": "銀河英雄伝説",
         "startYear": 1988,
-        "genre": "ANI",
+        "genre": [
+          "ANI"
+        ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/銀河英雄伝説_(アニメ)",
-        "note": "長大OVAの金字塔"
+        "note": "長大OVAの金字塔",
+        "endYear": "ongoing"
       },
       {
         "label": "NeXTcube",
@@ -3866,7 +3945,8 @@
         ],
         "imp": 3,
         "url": "https://ja.wikipedia.org/wiki/Hanako",
-        "note": "都市情報の女性誌"
+        "note": "都市情報の女性誌",
+        "endYear": "ongoing"
       },
       {
         "label": "SPA!",
@@ -3876,7 +3956,8 @@
         ],
         "imp": 3,
         "url": "https://ja.wikipedia.org/wiki/SPA!",
-        "note": "時事×カルチャー週刊"
+        "note": "時事×カルチャー週刊",
+        "endYear": "ongoing"
       },
       {
         "label": "寄生獣",
@@ -3908,7 +3989,8 @@
         ],
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/となりのトトロ",
-        "note": "日常系ファンタの名作"
+        "note": "日常系ファンタの名作",
+        "endYear": "ongoing"
       },
       {
         "label": "AKIRA",
@@ -3918,7 +4000,8 @@
         ],
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/AKIRA_(アニメ映画)",
-        "note": "サイバーパンク映像革命"
+        "note": "サイバーパンク映像革命",
+        "endYear": "ongoing"
       },
       {
         "label": "ニュー・シネマ・パラダイス",
@@ -3998,7 +4081,8 @@
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/とんねるずのみなさんのおかげです",
-        "note": "90年代バラエティ旗艦"
+        "note": "90年代バラエティ旗艦",
+        "endYear": "ongoing"
       }
     ],
     "1989": [
@@ -4061,7 +4145,8 @@
         ],
         "imp": 3,
         "url": "https://ja.wikipedia.org/wiki/Cut_(雑誌)",
-        "note": "映画×カルチャー月刊"
+        "note": "映画×カルチャー月刊",
+        "endYear": "ongoing"
       },
       {
         "label": "ベルセルク",
@@ -4071,7 +4156,8 @@
         ],
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/ベルセルク",
-        "note": "ダークファンタジー金字塔"
+        "note": "ダークファンタジー金字塔",
+        "endYear": "ongoing"
       },
       {
         "label": "美空ひばり「川の流れのように」",
@@ -4152,7 +4238,8 @@
         ],
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/NHKスペシャル",
-        "note": "NHK大型ドキュメンタリー"
+        "note": "NHK大型ドキュメンタリー",
+        "endYear": "ongoing"
       },
       {
         "label": "筑紫哲也NEWS23",
@@ -4162,7 +4249,8 @@
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/筑紫哲也NEWS23",
-        "note": "硬派夜ニュースの象徴"
+        "note": "硬派夜ニュースの象徴",
+        "endYear": "ongoing"
       }
     ],
     "1990": [
@@ -4225,7 +4313,8 @@
         ],
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/SLAM_DUNK",
-        "note": "バスケ熱を全国区に"
+        "note": "バスケ熱を全国区に",
+        "endYear": "ongoing"
       },
       {
         "label": "国際花と緑の博覧会（大阪）",
@@ -4275,7 +4364,8 @@
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/渡る世間は鬼ばかり",
-        "note": "家族群像の長寿劇"
+        "note": "家族群像の長寿劇",
+        "endYear": "ongoing"
       },
       {
         "label": "ツイン・ピークス",
@@ -4318,7 +4408,8 @@
         ],
         "imp": 3,
         "url": "https://ja.wikipedia.org/wiki/DOS/V_POWER_REPORT",
-        "note": "自作PC専門誌"
+        "note": "自作PC専門誌",
+        "endYear": "ongoing"
       },
       {
         "label": "美少女戦士セーラームーン",
@@ -4446,10 +4537,13 @@
       {
         "label": "美少女戦士セーラームーン",
         "startYear": 1992,
-        "genre": "ANI",
+        "genre": [
+          "ANI"
+        ],
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/美少女戦士セーラームーン_(アニメ)",
-        "note": "変身ヒロイン再定義"
+        "note": "変身ヒロイン再定義",
+        "endYear": "ongoing"
       },
       {
         "label": "BARFOUT!",
@@ -4459,7 +4553,8 @@
         ],
         "imp": 3,
         "url": "https://ja.wikipedia.org/wiki/BARFOUT%21",
-        "note": "表現者を追う写真誌"
+        "note": "表現者を追う写真誌",
+        "endYear": "ongoing"
       },
       {
         "label": "ドクター・ドレー『The Chronic』",
@@ -4509,7 +4604,8 @@
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/進め!電波少年",
-        "note": "体当たりバラエティ"
+        "note": "体当たりバラエティ",
+        "endYear": "ongoing"
       }
     ],
     "1993": [
@@ -4601,7 +4697,8 @@
         ],
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/WIRED",
-        "note": "デジタル文化の象徴誌"
+        "note": "デジタル文化の象徴誌",
+        "endYear": "ongoing"
       },
       {
         "label": "Zipper",
@@ -4682,7 +4779,8 @@
         ],
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/料理の鉄人",
-        "note": "料理対決番組の金字塔"
+        "note": "料理対決番組の金字塔",
+        "endYear": "ongoing"
       },
       {
         "label": "クローズアップ現代",
@@ -4692,7 +4790,8 @@
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/クローズアップ現代",
-        "note": "現代課題の深掘り報道"
+        "note": "現代課題の深掘り報道",
+        "endYear": "ongoing"
       },
       {
         "label": "NHKニュース7",
@@ -4702,7 +4801,8 @@
         ],
         "imp": 3,
         "url": "https://ja.wikipedia.org/wiki/NHKニュース7",
-        "note": "NHKの看板ニュース"
+        "note": "NHKの看板ニュース",
+        "endYear": "ongoing"
       },
       {
         "label": "天才てれびくん",
@@ -4712,7 +4812,8 @@
         ],
         "imp": 3,
         "url": "https://ja.wikipedia.org/wiki/天才てれびくん",
-        "note": "児童向けバラエティ枠"
+        "note": "児童向けバラエティ枠",
+        "endYear": "ongoing"
       }
     ],
     "1994": [
@@ -4764,7 +4865,8 @@
         ],
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/Quick_Japan",
-        "note": "サブカル総合インタビュー"
+        "note": "サブカル総合インタビュー",
+        "endYear": "ongoing"
       },
       {
         "label": "MONSTER",
@@ -4876,7 +4978,8 @@
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/開運!なんでも鑑定団",
-        "note": "骨董鑑定の草分け"
+        "note": "骨董鑑定の草分け",
+        "endYear": "ongoing"
       },
       {
         "label": "フレンズ (1994年のテレビドラマ)",
@@ -4894,18 +4997,24 @@
       {
         "label": "新世紀エヴァンゲリオン",
         "startYear": 1995,
-        "genre": "ANI",
+        "genre": [
+          "ANI"
+        ],
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/新世紀エヴァンゲリオン",
-        "note": "オタク文化の転機"
+        "note": "オタク文化の転機",
+        "endYear": "ongoing"
       },
       {
         "label": "攻殻機動隊",
         "startYear": 1995,
-        "genre": "ANI",
+        "genre": [
+          "ANI"
+        ],
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/攻殻機動隊_(1995年の映画)",
-        "note": "サイバーパンク到達点"
+        "note": "サイバーパンク到達点",
+        "endYear": "ongoing"
       },
       {
         "label": "裏原宿",
@@ -4945,7 +5054,8 @@
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/映画秘宝",
-        "note": "カルト映画愛の拠点"
+        "note": "カルト映画愛の拠点",
+        "endYear": "ongoing"
       },
       {
         "label": "トイ・ストーリー",
@@ -5199,7 +5309,8 @@
         ],
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/水曜どうでしょう",
-        "note": "旅バラエティの金字塔"
+        "note": "旅バラエティの金字塔",
+        "endYear": "ongoing"
       },
       {
         "label": "めちゃ×2イケてるッ!",
@@ -5209,33 +5320,43 @@
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/めちゃ×2イケてるッ!",
-        "note": "平成お笑いの象徴枠"
+        "note": "平成お笑いの象徴枠",
+        "endYear": "ongoing"
       }
     ],
     "1997": [
       {
         "label": "もののけ姫",
         "startYear": 1997,
-        "genre": "ANI",
+        "genre": [
+          "ANI"
+        ],
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/もののけ姫",
-        "note": "興行記録を更新"
+        "note": "興行記録を更新",
+        "endYear": "ongoing"
       },
       {
         "label": "少女革命ウテナ",
         "startYear": 1997,
-        "genre": "ANI",
+        "genre": [
+          "ANI"
+        ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/少女革命ウテナ",
-        "note": "実験的少女革命譚"
+        "note": "実験的少女革命譚",
+        "endYear": "ongoing"
       },
       {
         "label": "ポケットモンスター",
         "startYear": 1997,
-        "genre": "ANI",
+        "genre": [
+          "ANI"
+        ],
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/ポケットモンスター_(アニメ)",
-        "note": "メディアミックス象徴"
+        "note": "メディアミックス象徴",
+        "endYear": "ongoing"
       },
       {
         "label": "銃・病原菌・鉄",
@@ -5296,7 +5417,8 @@
         ],
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/ONE_PIECE",
-        "note": "海洋冒険の世界的人気"
+        "note": "海洋冒険の世界的人気",
+        "endYear": "ongoing"
       },
       {
         "label": "タイタニック",
@@ -5373,10 +5495,13 @@
       {
         "label": "カウボーイビバップ",
         "startYear": 1998,
-        "genre": "ANI",
+        "genre": [
+          "ANI"
+        ],
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/カウボーイビバップ",
-        "note": "世界評価のTVシリーズ"
+        "note": "世界評価のTVシリーズ",
+        "endYear": "ongoing"
       },
       {
         "label": "ドリームキャスト",
@@ -5446,7 +5571,8 @@
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/アックス_(雑誌)",
-        "note": "ガロ系継承の場"
+        "note": "ガロ系継承の場",
+        "endYear": "ongoing"
       },
       {
         "label": "KERA",
@@ -5467,7 +5593,8 @@
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/HUNTER×HUNTER",
-        "note": "緻密設定の冒険譚"
+        "note": "緻密設定の冒険譚",
+        "endYear": "ongoing"
       },
       {
         "label": "ICANN",
@@ -5560,7 +5687,8 @@
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/スペクテイター_(1999年創刊の雑誌)",
-        "note": "一冊一特集の教養誌"
+        "note": "一冊一特集の教養誌",
+        "endYear": "ongoing"
       },
       {
         "label": "サイゾー",
@@ -5570,7 +5698,8 @@
         ],
         "imp": 3,
         "url": "https://ja.wikipedia.org/wiki/サイゾー",
-        "note": "メディア批評の情報誌"
+        "note": "メディア批評の情報誌",
+        "endYear": "ongoing"
       },
       {
         "label": "20世紀少年",
@@ -5775,7 +5904,8 @@
         ],
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/プロジェクトX〜挑戦者たち〜",
-        "note": "技術者群像の名作"
+        "note": "技術者群像の名作",
+        "endYear": "ongoing"
       }
     ],
     "2001": [
@@ -5936,18 +6066,24 @@
       {
         "label": "攻殻機動隊S.A.C.",
         "startYear": 2002,
-        "genre": "ANI",
+        "genre": [
+          "ANI"
+        ],
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/攻殻機動隊_STAND_ALONE_COMPLEX",
-        "note": "近未来群像の金字塔"
+        "note": "近未来群像の金字塔",
+        "endYear": "ongoing"
       },
       {
         "label": "ほしのこえ",
         "startYear": 2002,
-        "genre": "ANI",
+        "genre": [
+          "ANI"
+        ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/ほしのこえ",
-        "note": "個人制作デジタル時代"
+        "note": "個人制作デジタル時代",
+        "endYear": "ongoing"
       },
       {
         "label": "2002 FIFAワールドカップ",
@@ -6011,7 +6147,8 @@
         ],
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/DEATH_NOTE",
-        "note": "頭脳戦サスペンス革新"
+        "note": "頭脳戦サスペンス革新",
+        "endYear": "ongoing"
       },
       {
         "label": "よつばと!",
@@ -6021,7 +6158,8 @@
         ],
         "imp": 3,
         "url": "https://ja.wikipedia.org/wiki/よつばと!",
-        "note": "日常系のスタンダード"
+        "note": "日常系のスタンダード",
+        "endYear": "ongoing"
       },
       {
         "label": "SMAP「世界に一つだけの花」",
@@ -6088,10 +6226,13 @@
       {
         "label": "ふたりはプリキュア",
         "startYear": 2004,
-        "genre": "ANI",
+        "genre": [
+          "ANI"
+        ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/ふたりはプリキュア",
-        "note": "女児向け長寿IP始動"
+        "note": "女児向け長寿IP始動",
+        "endYear": "ongoing"
       },
       {
         "label": "ニンテンドーDS",
@@ -6141,7 +6282,8 @@
         ],
         "imp": 3,
         "url": "https://ja.wikipedia.org/wiki/EYE_SCREAM",
-        "note": "音楽と服の交差点"
+        "note": "音楽と服の交差点",
+        "endYear": "ongoing"
       },
       {
         "label": "銀魂",
@@ -6212,7 +6354,8 @@
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/報道ステーション",
-        "note": "夜の総合報道番組"
+        "note": "夜の総合報道番組",
+        "endYear": "ongoing"
       }
     ],
     "2005": [
@@ -6272,18 +6415,24 @@
       {
         "label": "涼宮ハルヒの憂鬱",
         "startYear": 2006,
-        "genre": "ANI",
+        "genre": [
+          "ANI"
+        ],
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/涼宮ハルヒの憂鬱_(アニメ)",
-        "note": "深夜アニメ隆盛象徴"
+        "note": "深夜アニメ隆盛象徴",
+        "endYear": "ongoing"
       },
       {
         "label": "コードギアス 反逆のルルーシュ",
         "startYear": 2006,
-        "genre": "ANI",
+        "genre": [
+          "ANI"
+        ],
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/コードギアス_反逆のルルーシュ",
-        "note": "反逆ロボの新機軸"
+        "note": "反逆ロボの新機軸",
+        "endYear": "ongoing"
       },
       {
         "label": "PlayStation 3",
@@ -6323,7 +6472,8 @@
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/キングダム_(漫画)",
-        "note": "中国戦記の大河ロマン"
+        "note": "中国戦記の大河ロマン",
+        "endYear": "ongoing"
       },
       {
         "label": "アミー・ワインハウス『バック・トゥ・ブラック』",
@@ -6381,10 +6531,13 @@
       {
         "label": "らき☆すた",
         "startYear": 2007,
-        "genre": "ANI",
+        "genre": [
+          "ANI"
+        ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/らき☆すた",
-        "note": "オタク日常系の確立"
+        "note": "オタク日常系の確立",
+        "endYear": "ongoing"
       },
       {
         "label": "iPhone",
@@ -6467,7 +6620,8 @@
         ],
         "imp": 3,
         "url": "https://ja.wikipedia.org/wiki/TRASH-UP%21%21",
-        "note": "トラッシュ文化特化"
+        "note": "トラッシュ文化特化",
+        "endYear": "ongoing"
       },
       {
         "label": "ダークナイト",
@@ -6545,10 +6699,13 @@
       {
         "label": "けいおん!",
         "startYear": 2009,
-        "genre": "ANI",
+        "genre": [
+          "ANI"
+        ],
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/けいおん!",
-        "note": "軽音×日常の大ヒット"
+        "note": "軽音×日常の大ヒット",
+        "endYear": "ongoing"
       },
       {
         "label": "Angry Birds",
@@ -6658,10 +6815,13 @@
       {
         "label": "魔法少女まどか☆マギカ",
         "startYear": 2011,
-        "genre": "ANI",
+        "genre": [
+          "ANI"
+        ],
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/魔法少女まどか☆マギカ",
-        "note": "魔法少女を再解釈"
+        "note": "魔法少女を再解釈",
+        "endYear": "ongoing"
       },
       {
         "label": "あの日見た花の名前を僕達はまだ知らない。",
@@ -6852,7 +7012,8 @@
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/ワンパンマン",
-        "note": "Web発ヒーロー再定義"
+        "note": "Web発ヒーロー再定義",
+        "endYear": "ongoing"
       },
       {
         "label": "ハイキュー!!",
@@ -6984,7 +7145,8 @@
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/あまちゃん",
-        "note": "朝ドラの再ブーム牽引"
+        "note": "朝ドラの再ブーム牽引",
+        "endYear": "ongoing"
       },
       {
         "label": "半沢直樹",
@@ -6994,7 +7156,8 @@
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/半沢直樹",
-        "note": "社会現象の企業ドラマ"
+        "note": "社会現象の企業ドラマ",
+        "endYear": "ongoing"
       }
     ],
     "2014": [
@@ -7170,7 +7333,8 @@
         ],
         "imp": 3,
         "url": "https://ja.wikipedia.org/wiki/逃げるは恥だが役に立つ_(テレビドラマ)",
-        "note": "恋ダンスで社会現象"
+        "note": "恋ダンスで社会現象",
+        "endYear": "ongoing"
       }
     ],
     "2017": [
@@ -7293,7 +7457,8 @@
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/呪術廻戦",
-        "note": "呪術×バトルの新潮流"
+        "note": "呪術×バトルの新潮流",
+        "endYear": "ongoing"
       },
       {
         "label": "ブルーロック",
@@ -7303,7 +7468,8 @@
         ],
         "imp": 3,
         "url": "https://ja.wikipedia.org/wiki/ブルーロック",
-        "note": "戦略的サッカー漫画"
+        "note": "戦略的サッカー漫画",
+        "endYear": "ongoing"
       },
       {
         "label": "米津玄師「Lemon」",
@@ -7344,7 +7510,8 @@
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/SPY×FAMILY",
-        "note": "家族×スパイの新機軸"
+        "note": "家族×スパイの新機軸",
+        "endYear": "ongoing"
       },
       {
         "label": "パラサイト 半地下の家族",
@@ -7435,7 +7602,8 @@
         ],
         "imp": 3,
         "url": "https://ja.wikipedia.org/wiki/ワンダーJAPON",
-        "note": "異空間旅の後継誌"
+        "note": "異空間旅の後継誌",
+        "endYear": "ongoing"
       }
     ],
     "2021": [
@@ -7596,6 +7764,238 @@
         "color": "#4169E1",
         "opacity": "0.3",
         "enabled": false
+      }
+    ],
+    "1923": [
+      {
+        "label": "文藝春秋 (雑誌)",
+        "startYear": 1923,
+        "endYear": "ongoing",
+        "genre": [
+          "MAG"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/文藝春秋_(雑誌)",
+        "note": "総合月刊の老舗"
+      },
+      {
+        "label": "タイム (雑誌)",
+        "startYear": 1923,
+        "endYear": "ongoing",
+        "genre": [
+          "MAG"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/タイム_(雑誌)",
+        "note": "米国ニュース週刊誌"
+      }
+    ],
+    "1887": [
+      {
+        "label": "中央公論 (雑誌)",
+        "startYear": 1887,
+        "endYear": "ongoing",
+        "genre": [
+          "MAG"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/中央公論_(雑誌)",
+        "note": "近代言論の舞台"
+      }
+    ],
+    "1904": [
+      {
+        "label": "新潮 (雑誌)",
+        "startYear": 1904,
+        "endYear": "ongoing",
+        "genre": [
+          "MAG"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/新潮_(雑誌)",
+        "note": "文芸誌の老舗"
+      }
+    ],
+    "1922": [
+      {
+        "label": "サンデー毎日",
+        "startYear": 1922,
+        "endYear": "ongoing",
+        "genre": [
+          "MAG"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/サンデー毎日",
+        "note": "日本初の週刊誌級"
+      }
+    ],
+    "1924": [
+      {
+        "label": "子供の科学",
+        "startYear": 1924,
+        "endYear": "ongoing",
+        "genre": [
+          "MAG"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/子供の科学",
+        "note": "科学教育の長寿誌"
+      }
+    ],
+    "1888": [
+      {
+        "label": "ナショナルジオグラフィック",
+        "startYear": 1888,
+        "endYear": "ongoing",
+        "genre": [
+          "MAG"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/ナショナルジオグラフィック",
+        "note": "探検と写真の名門誌"
+      }
+    ],
+    "1933": [
+      {
+        "label": "ニューズウィーク",
+        "startYear": 1933,
+        "endYear": "ongoing",
+        "genre": [
+          "MAG"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/ニューズウィーク",
+        "note": "米国ニュース週刊誌"
+      }
+    ],
+    "1843": [
+      {
+        "label": "エコノミスト (イギリスの雑誌)",
+        "startYear": 1843,
+        "endYear": "ongoing",
+        "genre": [
+          "MAG"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/エコノミスト_(イギリスの雑誌)",
+        "note": "経済週刊の老舗"
+      }
+    ],
+    "1925": [
+      {
+        "label": "ザ・ニューヨーカー",
+        "startYear": 1925,
+        "endYear": "ongoing",
+        "genre": [
+          "MAG"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/ザ・ニューヨーカー",
+        "note": "文学と風刺の総合誌"
+      }
+    ],
+    "1850": [
+      {
+        "label": "ハーパーズ・マガジン",
+        "startYear": 1850,
+        "endYear": "ongoing",
+        "genre": [
+          "MAG"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/ハーパーズ・マガジン",
+        "note": "米最古級総合誌"
+      }
+    ],
+    "1857": [
+      {
+        "label": "ザ・アトランティック",
+        "startYear": 1857,
+        "endYear": "ongoing",
+        "genre": [
+          "MAG"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/ザ・アトランティック",
+        "note": "思想と文化の総合誌"
+      }
+    ],
+    "1845": [
+      {
+        "label": "サイエンティフィック・アメリカン",
+        "startYear": 1845,
+        "endYear": "ongoing",
+        "genre": [
+          "MAG"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/サイエンティフィック・アメリカン",
+        "note": "科学解説の老舗"
+      }
+    ],
+    "1869": [
+      {
+        "label": "ネイチャー",
+        "startYear": 1869,
+        "endYear": "ongoing",
+        "genre": [
+          "MAG"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/ネイチャー",
+        "note": "世界的科学誌"
+      }
+    ],
+    "1880": [
+      {
+        "label": "サイエンス (雑誌)",
+        "startYear": 1880,
+        "endYear": "ongoing",
+        "genre": [
+          "MAG"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/サイエンス_(雑誌)",
+        "note": "米科学学術誌"
+      }
+    ],
+    "1902": [
+      {
+        "label": "ポピュラーメカニクス",
+        "startYear": 1902,
+        "endYear": "ongoing",
+        "genre": [
+          "MAG"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/ポピュラーメカニクス",
+        "note": "技術DIYの総合誌"
+      }
+    ],
+    "1892": [
+      {
+        "label": "ヴォーグ",
+        "startYear": 1892,
+        "endYear": "ongoing",
+        "genre": [
+          "MAG"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/ヴォーグ",
+        "note": "ファッション誌の象徴"
+      }
+    ],
+    "1867": [
+      {
+        "label": "ハーパーズ・バザー",
+        "startYear": 1867,
+        "endYear": "ongoing",
+        "genre": [
+          "MAG"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/ハーパーズ・バザー",
+        "note": "女性誌の老舗"
       }
     ]
   },
