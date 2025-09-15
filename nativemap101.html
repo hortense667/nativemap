@@ -2662,24 +2662,58 @@
       const raw=lines[i].trim(); if(!raw) continue;
       const cols=raw.split(delim);
       if(i===0 && /年/.test(cols[0])) continue;
-      if(cols.length<2){ errors.push(`${i+1}行目: 列数不足（年${delim}ラベル${delim}ジャンル${delim}重要度${delim}URL${delim}注釈）`); continue; }
-      const yearStr=(cols[0]||'').trim();
-      const label=(cols[1]||'').trim();
-      const genre=(cols[2]||'').trim().toUpperCase();
-      const impStr=(cols[3]||'').trim();
-      const url=(cols[4]||'').trim();
-      const note=(cols[5]||'').trim();
-      const year = parseInt(yearStr,10);
-      if(!(yearStr.match(/^\d{4}$/) && year>=YEAR_MIN && year<=YEAR_MAX)){
-        errors.push(`${i+1}行目: 年が不正または範囲外（${yearStr}）`); continue;
+      if(cols.length<3){ errors.push(`${i+1}行目: 列数不足（開始年${delim}終了年${delim}ラベル${delim}ジャンル${delim}重要度${delim}URL${delim}注釈）`); continue; }
+      const startYearStr=(cols[0]||'').trim();
+      const endYearStr=(cols[1]||'').trim();
+      const label=(cols[2]||'').trim();
+      const genre=(cols[3]||'').trim().toUpperCase();
+      const impStr=(cols[4]||'').trim();
+      const url=(cols[5]||'').trim();
+      const note=(cols[6]||'').trim();
+      
+      // 開始年の検証
+      if(startYearStr && !(startYearStr.match(/^\d{4}$/) && parseInt(startYearStr,10)>=YEAR_MIN && parseInt(startYearStr,10)<=YEAR_MAX)){
+        errors.push(`${i+1}行目: 開始年が不正または範囲外（${startYearStr}）`); continue;
       }
+      
+      // 終了年の検証
+      if(endYearStr && !(endYearStr.match(/^\d{4}$/) && parseInt(endYearStr,10)>=YEAR_MIN && parseInt(endYearStr,10)<=YEAR_MAX)){
+        errors.push(`${i+1}行目: 終了年が不正または範囲外（${endYearStr}）`); continue;
+      }
+      
+      // 開始年と終了年の関係性検証
+      if(startYearStr && endYearStr && parseInt(startYearStr,10) > parseInt(endYearStr,10)){
+        errors.push(`${i+1}行目: 開始年が終了年より後になっています（${startYearStr} > ${endYearStr}）`); continue;
+      }
+      
       if(!label){ errors.push(`${i+1}行目: ラベルが空です`); continue; }
       const key = `${label}|${genre || ''}`;
       if(seen.has(key)) { errors.push(`${i+1}行目: 同じラベル・ジャンル組み合わせが存在します（${label}${genre ? ` [${genre}]` : ''}）`); continue; }
       if(genre && !GENRE_SET.has(genre)){ errors.push(`${i+1}行目: 不正なジャンル（${genre}）`); continue; }
       if(impStr){ const n=parseInt(impStr,10); if(!(n>=1 && n<=5)){ errors.push(`${i+1}行目: 不正な重要度（${impStr}）`); continue; } }
-      const item={ label }; if(genre) item.genre=genre; if(impStr) item.imp=parseInt(impStr,10); if(url) item.url=url; if(note) item.note=note;
-      if(!events[year]) events[year]=[]; events[year].push(item); seen.add(key); addedCount++;
+      
+      // アイテムの年を決定（開始年があれば開始年、なければ終了年、どちらもなければエラー）
+      let itemYear;
+      if(startYearStr) {
+        itemYear = parseInt(startYearStr,10);
+      } else if(endYearStr) {
+        itemYear = parseInt(endYearStr,10);
+      } else {
+        errors.push(`${i+1}行目: 開始年または終了年のいずれかが必要です`); continue;
+      }
+      
+      const item={ label }; 
+      if(startYearStr) item.startYear=parseInt(startYearStr,10); 
+      if(endYearStr) item.endYear=parseInt(endYearStr,10); 
+      if(genre) item.genre=genre; 
+      if(impStr) item.imp=parseInt(impStr,10); 
+      if(url) item.url=url; 
+      if(note) item.note=note;
+      
+      if(!events[itemYear]) events[itemYear]=[]; 
+      events[itemYear].push(item); 
+      seen.add(key); 
+      addedCount++;
     }
     return {addedCount, errors};
   }
