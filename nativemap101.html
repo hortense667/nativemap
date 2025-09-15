@@ -3166,18 +3166,27 @@
         <li><strong>ラベル編集：</strong>左カラムの年行をクリック。未登録の年は左カラム空白クリックでエディタを開けます</li>
         <li><strong>検索：</strong>右上の検索欄 → 「検索」「前」「次」。ラベルと注釈の両方を検索対象とします</li>
         <li><strong>表示切替：</strong>「ジャンル」「重要度」フィルタ（重要度は選択値以上のみ表示）</li>
-        <li><strong>CSV/TSV読み込み：</strong>「ロード」ボタンで一括データを追加</li>
       </ul>
-      <h4>CSV/TSV読み込み形式</h4>
-      <p>「ロード」ボタンでCSV/TSVファイルを読み込んで一括でデータを追加できます。</p>
-      <p><strong>形式：</strong> <code>年;ジャンル;ラベル;重要度;URL;注釈</code></p>
-      <p><strong>例：</strong> <code>1946;HAR;ENIAC;5;https://ja.wikipedia.org/wiki/ENIAC;初の大規模電子計算機</code></p>
       <h4>時代区分（背景の色帯）</h4>
       <ul>
         <li>右上の<strong>「時代区分」</strong>を開き、名称・期間・色・透明度を設定します（最大8件）。</li>
         <li>表示チェックでON/OFFを切替。重なりは上から順に描画されます。</li>
         <li>保存すると画面に色帯が反映されます。設定はローカルに保持されます。</li>
       </ul>
+      <h4>詳細一覧</h4>
+      <p>左カラム（年ごとの一覧）で作品や製品名をクリックすると、その年の<strong>詳細一覧</strong>が開きます。ここから次が可能です。</p>
+      <ul>
+        <li><strong>期間のある項目の登録：</strong> テレビ番組やマンガ連載など期間のある項目は、開始/終了年を設定することで時代区分に反映できます。</li>
+        <li><strong>ウェブページを開く：</strong> 地球儀アイコンから Wikipedia など関連ページを新規タブで表示。</li>
+        <li><strong>内容の編集：</strong> ペンアイコンからラベル、ジャンル、重要度、URL、注釈を編集。</li>
+        <li><strong>その年への新規登録：</strong> 一覧上部の「追加」から、その年に新規項目を追加。</li>
+      </ul>
+      <h4>新規登録</h4>
+      <p>左カラムの作品・製品名が並ぶエリアの<strong>空白部分</strong>をクリックすると、その年の<strong>新規登録</strong>ができます。ラベル、ジャンル、重要度、URL、注釈を入力して保存してください。</p>
+      <h4>CSV/TSV読み込み形式</h4>
+      <p>「ロード」ボタンでCSV/TSVファイルを読み込んで一括でデータを追加できます。</p>
+      <p><strong>形式：</strong> <code>年;ジャンル;ラベル;重要度;URL;注釈</code></p>
+      <p><strong>例：</strong> <code>1946;HAR;ENIAC;5;https://ja.wikipedia.org/wiki/ENIAC;初の大規模電子計算機</code></p>
       <h5>ジャンル一覧（カッコ内は登録件数／総登録件数：${getTotalItemCount()}件）</h5>
       <ul>
         ${generateGenreListWithCounts()}
