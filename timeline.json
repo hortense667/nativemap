@@ -1315,6 +1315,17 @@
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/コンシューマー・エレクトロニクス・ショー",
         "note": "家電・テックの見本市。"
+      },
+      {
+        "label": "天才バカボン",
+        "startYear": 1967,
+        "endYear": 1976,
+        "genre": [
+          "MAN"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/天才バカボン",
+        "note": "不条理ギャグの祖"
       }
     ],
     "1968": [
@@ -1492,6 +1503,17 @@
         "imp": 3,
         "url": "https://ja.wikipedia.org/wiki/走れ!歌謡曲",
         "note": "深夜の定番歌謡番組。"
+      },
+      {
+        "label": "ど根性ガエル",
+        "startYear": 1968,
+        "endYear": 1972,
+        "genre": [
+          "MAN"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/ど根性ガエル",
+        "note": "昭和ギャグの代表"
       }
     ],
     "1969": [
@@ -2025,6 +2047,17 @@
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/モスバーガー",
         "note": "国産バーガーチェーン。"
+      },
+      {
+        "label": "ポーの一族",
+        "startYear": 1972,
+        "endYear": 1976,
+        "genre": [
+          "MAN"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/ポーの一族",
+        "note": "耽美派の金字塔（後年続編あり）"
       }
     ],
     "1973": [
@@ -2120,6 +2153,17 @@
         "imp": 3,
         "url": "https://ja.wikipedia.org/wiki/トイレットペーパー騒動",
         "note": "買い占めの象徴的事件"
+      },
+      {
+        "label": "エースをねらえ!",
+        "startYear": 1973,
+        "endYear": 1980,
+        "genre": [
+          "MAN"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/エースをねらえ!",
+        "note": "スポ根少女漫画の古典"
       }
     ],
     "1974": [
@@ -2524,6 +2568,17 @@
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/スライム",
         "note": "粘質玩具の大ヒット"
+      },
+      {
+        "label": "こちら葛飾区亀有公園前派出所",
+        "startYear": 1976,
+        "endYear": 2016,
+        "genre": [
+          "MAN"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/こちら葛飾区亀有公園前派出所",
+        "note": "最長連載級の国民的コメディ"
       }
     ],
     "1977": [
@@ -2775,6 +2830,17 @@
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/カレーハウスCoCo壱番屋",
         "note": "カレー専門チェーンの代表格。"
+      },
+      {
+        "label": "パタリロ!",
+        "startYear": 1978,
+        "endYear": "ongoing",
+        "genre": [
+          "MAN"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/パタリロ!",
+        "note": "長寿ギャグ（刊行形態多様）"
       }
     ],
     "1979": [
@@ -3052,6 +3118,28 @@
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/チョロQ",
         "note": "プルバック式ミニカー"
+      },
+      {
+        "label": "Dr.スランプ",
+        "startYear": 1980,
+        "endYear": 1984,
+        "genre": [
+          "MAN"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/Dr.スランプ",
+        "note": "鳥山明の出世作"
+      },
+      {
+        "label": "あさきゆめみし",
+        "startYear": 1980,
+        "endYear": 1993,
+        "genre": [
+          "MAN"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/あさきゆめみし",
+        "note": "源氏物語の漫画化"
       }
     ],
     "1981": [
@@ -3238,6 +3326,17 @@
         "url": "https://ja.wikipedia.org/wiki/北の国から",
         "note": "連ドラの名作群像劇",
         "endYear": "ongoing"
+      },
+      {
+        "label": "タッチ",
+        "startYear": 1981,
+        "endYear": 1986,
+        "genre": [
+          "MAN"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/タッチ",
+        "note": "青春スポーツの金字塔"
       }
     ],
     "1982": [
@@ -3718,6 +3817,17 @@
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/�z���̋�����",
         "note": "�������Ƃ̋N���_"
+      },
+      {
+        "label": "美味しんぼ",
+        "startYear": 1983,
+        "endYear": "ongoing",
+        "genre": [
+          "MAN"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/美味しんぼ",
+        "note": "食を通じた社会派長編（長期休載）"
       }
     ],
     "1984": [
@@ -4275,6 +4385,28 @@
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/オプラ・ウィンフリー・ショー",
         "note": "米国昼トークの女王"
+      },
+      {
+        "label": "YAWARA!",
+        "startYear": 1986,
+        "endYear": 1993,
+        "genre": [
+          "MAN"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/YAWARA!",
+        "note": "女子柔道ブームを牽引"
+      },
+      {
+        "label": "おぼっちゃまくん",
+        "startYear": 1986,
+        "endYear": 1994,
+        "genre": [
+          "MAN"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/おぼっちゃまくん",
+        "note": "社会現象級ギャグ"
       }
     ],
     "1987": [
@@ -4652,6 +4784,17 @@
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/SMAP",
         "note": "国民的男性アイドルグループ。2016年に解散。"
+      },
+      {
+        "label": "MASTERキートン",
+        "startYear": 1988,
+        "endYear": 1994,
+        "genre": [
+          "MAN"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/MASTERキートン",
+        "note": "知的冒険サスペンス"
       }
     ],
     "1989": [
@@ -4820,6 +4963,17 @@
         "url": "https://ja.wikipedia.org/wiki/筑紫哲也NEWS23",
         "note": "硬派夜ニュースの象徴",
         "endYear": "ongoing"
+      },
+      {
+        "label": "はじめの一歩",
+        "startYear": 1989,
+        "endYear": "ongoing",
+        "genre": [
+          "MAN"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/はじめの一歩",
+        "note": "ボクシング漫画の金字塔"
       }
     ],
     "1990": [
@@ -4957,6 +5111,50 @@
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/%E3%82%B5%E3%83%B3%E3%83%AA%E3%82%AA%E3%83%94%E3%83%A5%E3%83%BC%E3%83%AD%E3%83%A9%E3%83%B3%E3%83%89",
         "note": "サンリオの屋内型テーマパーク。"
+      },
+      {
+        "label": "うしおととら",
+        "startYear": 1990,
+        "endYear": 1996,
+        "genre": [
+          "MAN"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/うしおととら",
+        "note": "和製ダークファンタジーの名作"
+      },
+      {
+        "label": "帯をギュッとね!",
+        "startYear": 1990,
+        "endYear": 1995,
+        "genre": [
+          "MAN"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/帯をギュッとね!",
+        "note": "高校柔道青春もの"
+      },
+      {
+        "label": "クレヨンしんちゃん",
+        "startYear": 1990,
+        "endYear": "ongoing",
+        "genre": [
+          "MAN"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/クレヨンしんちゃん",
+        "note": "国民的ファミリーギャグ"
+      },
+      {
+        "label": "CROWS",
+        "startYear": 1990,
+        "endYear": 1998,
+        "genre": [
+          "MAN"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/CROWS",
+        "note": "不良漫画の代表格"
       }
     ],
     "1991": [
@@ -5111,6 +5309,17 @@
         "imp": 3,
         "url": "https://ja.wikipedia.org/wiki/Vim",
         "note": "vi互換で拡張豊富"
+      },
+      {
+        "label": "グラップラー刃牙",
+        "startYear": 1991,
+        "endYear": 1999,
+        "genre": [
+          "MAN"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/グラップラー刃牙",
+        "note": "格闘漫画シリーズの原点"
       }
     ],
     "1992": [
@@ -5219,6 +5428,28 @@
         "imp": 2,
         "url": "https://ja.wikipedia.org/wiki/%E3%83%8A%E3%83%A0%E3%82%B3%E3%83%BB%E3%83%AF%E3%83%B3%E3%83%80%E3%83%BC%E3%82%A8%E3%83%83%E3%82%B0",
         "note": "株式会社ナムコが運営していたテーマパーク。"
+      },
+      {
+        "label": "H2",
+        "startYear": 1992,
+        "endYear": 1999,
+        "genre": [
+          "MAN"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/H2",
+        "note": "高校野球と恋愛の二重奏"
+      },
+      {
+        "label": "花より男子",
+        "startYear": 1992,
+        "endYear": 2003,
+        "genre": [
+          "MAN"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/花より男子",
+        "note": "平成少女漫画の代表"
       }
     ],
     "1993": [
@@ -5634,6 +5865,28 @@
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/フレンズ_(1994年のテレビドラマ)",
         "note": "シットコムの代表格"
+      },
+      {
+        "label": "名探偵コナン",
+        "startYear": 1994,
+        "endYear": "ongoing",
+        "genre": [
+          "MAN"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/名探偵コナン",
+        "note": "国民的推理漫画"
+      },
+      {
+        "label": "MAJOR",
+        "startYear": 1994,
+        "endYear": 2010,
+        "genre": [
+          "MAN"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/MAJOR_(漫画)",
+        "note": "野球成長物語の決定版"
       }
     ],
     "1995": [
@@ -6037,6 +6290,17 @@
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/たまごっち",
         "note": "電子ペット大ブーム"
+      },
+      {
+        "label": "ピンポン",
+        "startYear": 1996,
+        "endYear": 1997,
+        "genre": [
+          "MAN"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/ピンポン_(漫画)",
+        "note": "卓球青春の金字塔"
       }
     ],
     "1997": [
@@ -6244,6 +6508,28 @@
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/�e�E�a���ہE�S",
         "note": "�l�ގj�̔�r�_�I���"
+      },
+      {
+        "label": "からくりサーカス",
+        "startYear": 1997,
+        "endYear": 2006,
+        "genre": [
+          "MAN"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/からくりサーカス",
+        "note": "機械仕掛けの冒険活劇"
+      },
+      {
+        "label": "DEAR BOYS",
+        "startYear": 1997,
+        "endYear": "ongoing",
+        "genre": [
+          "MAN"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/DEAR_BOYS",
+        "note": "バスケ長編"
       }
     ],
     "1998": [
@@ -6420,6 +6706,39 @@
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/ファービー",
         "note": "しゃべる電子ペット玩具"
+      },
+      {
+        "label": "ヒカルの碁",
+        "startYear": 1998,
+        "endYear": 2003,
+        "genre": [
+          "MAN"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/ヒカルの碁",
+        "note": "囲碁ブームを喚起"
+      },
+      {
+        "label": "フルーツバスケット",
+        "startYear": 1998,
+        "endYear": 2006,
+        "genre": [
+          "MAN"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/フルーツバスケット",
+        "note": "少女漫画の名作"
+      },
+      {
+        "label": "ROOKIES",
+        "startYear": 1998,
+        "endYear": 2003,
+        "genre": [
+          "MAN"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/ROOKIES",
+        "note": "不良×野球で人気"
       }
     ],
     "1999": [
@@ -6606,6 +6925,39 @@
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/嵐_(グループ)",
         "note": "国民的男性アイドルグループ。2020年に活動休止。"
+      },
+      {
+        "label": "テニスの王子様",
+        "startYear": 1999,
+        "endYear": 2008,
+        "genre": [
+          "MAN"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/テニスの王子様",
+        "note": "テニス漫画の新機軸"
+      },
+      {
+        "label": "GANTZ",
+        "startYear": 1999,
+        "endYear": 2013,
+        "genre": [
+          "MAN"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/GANTZ",
+        "note": "SFサバイバル・アクション"
+      },
+      {
+        "label": "BECK",
+        "startYear": 1999,
+        "endYear": 2008,
+        "genre": [
+          "MAN"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/BECK",
+        "note": "バンド青春譚"
       }
     ],
     "2000": [
@@ -6726,6 +7078,28 @@
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/I%E3%83%A2%E3%83%BC%E3%83%89"
+      },
+      {
+        "label": "ハチミツとクローバー",
+        "startYear": 2000,
+        "endYear": 2006,
+        "genre": [
+          "MAN"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/ハチミツとクローバー",
+        "note": "美大生群像劇"
+      },
+      {
+        "label": "NANA",
+        "startYear": 2000,
+        "endYear": "ongoing",
+        "genre": [
+          "MAN"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/NANA",
+        "note": "ガールズカルチャーの象徴（長期休載）"
       }
     ],
     "2001": [
@@ -6913,6 +7287,39 @@
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/%E4%B8%89%E9%B7%B9%E3%81%AE%E6%A3%AE%E3%82%B8%E3%83%96%E3%83%AA%E7%BE%8E%E8%A1%93%E9%A4%A8",
         "note": "スタジオジブリの世界を体験できる美術館。"
+      },
+      {
+        "label": "BLEACH",
+        "startYear": 2001,
+        "endYear": 2016,
+        "genre": [
+          "MAN"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/BLEACH",
+        "note": "死神バトルの世界的ヒット"
+      },
+      {
+        "label": "WORST",
+        "startYear": 2001,
+        "endYear": 2013,
+        "genre": [
+          "MAN"
+        ],
+        "imp": 2,
+        "url": "https://ja.wikipedia.org/wiki/WORST",
+        "note": "CROWSの続編的作品"
+      },
+      {
+        "label": "ブラックジャックによろしく",
+        "startYear": 2001,
+        "endYear": 2003,
+        "genre": [
+          "MAN"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/ブラックジャックによろしく",
+        "note": "医療現場ルポ漫画"
       }
     ],
     "2002": [
@@ -6989,6 +7396,39 @@
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/トップ・ギア_(BBC)",
         "note": "自動車娯楽番組の頂点"
+      },
+      {
+        "label": "ブラック・ラグーン",
+        "startYear": 2002,
+        "endYear": "ongoing",
+        "genre": [
+          "MAN"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/BLACK_LAGOON",
+        "note": "ガンアクションの定番"
+      },
+      {
+        "label": "彼岸島",
+        "startYear": 2002,
+        "endYear": "ongoing",
+        "genre": [
+          "MAN"
+        ],
+        "imp": 2,
+        "url": "https://ja.wikipedia.org/wiki/彼岸島",
+        "note": "サバイバルホラー"
+      },
+      {
+        "label": "アイシールド21",
+        "startYear": 2002,
+        "endYear": 2009,
+        "genre": [
+          "MAN"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/アイシールド21",
+        "note": "アメフト漫画の決定版"
       }
     ],
     "2003": [
@@ -7073,6 +7513,17 @@
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/QEMU",
         "note": "高速エミュ/仮想化基盤"
+      },
+      {
+        "label": "PLUTO",
+        "startYear": 2003,
+        "endYear": 2009,
+        "genre": [
+          "MAN"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/PLUTO_(漫画)",
+        "note": "手塚リメイクの傑作"
       }
     ],
     "2004": [
@@ -7220,6 +7671,17 @@
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/ポッドキャスト",
         "note": "音声配信の標準フォーマット。"
+      },
+      {
+        "label": "新ブラックジャックによろしく",
+        "startYear": 2004,
+        "endYear": 2010,
+        "genre": [
+          "MAN"
+        ],
+        "imp": 2,
+        "url": "https://ja.wikipedia.org/wiki/新ブラックジャックによろしく",
+        "note": "続編"
       }
     ],
     "2005": [
@@ -7295,6 +7757,17 @@
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/SCHOOL_OF_LOCK%21",
         "note": "10代〜若年層に支持される全国ネット。"
+      },
+      {
+        "label": "ヴィンランド・サガ",
+        "startYear": 2005,
+        "endYear": "ongoing",
+        "genre": [
+          "MAN"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/ヴィンランド・サガ",
+        "note": "北欧叙事詩的アクション"
       }
     ],
     "2006": [
@@ -7422,6 +7895,28 @@
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/Blu-ray_Disc",
         "note": "高解像度光ディスク。"
+      },
+      {
+        "label": "FAIRY TAIL",
+        "startYear": 2006,
+        "endYear": 2017,
+        "genre": [
+          "MAN"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/FAIRY_TAIL",
+        "note": "王道ファンタジー冒険"
+      },
+      {
+        "label": "ダイヤのA",
+        "startYear": 2006,
+        "endYear": 2022,
+        "genre": [
+          "MAN"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/ダイヤのA",
+        "note": "高校野球の定番"
       }
     ],
     "2007": [
@@ -7517,6 +8012,17 @@
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/動画配信",
         "note": "配信時代の基盤。"
+      },
+      {
+        "label": "宇宙兄弟",
+        "startYear": 2007,
+        "endYear": "ongoing",
+        "genre": [
+          "MAN"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/宇宙兄弟",
+        "note": "兄弟の宇宙開発譚"
       }
     ],
     "2008": [
@@ -7601,6 +8107,39 @@
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/ブレイキング・バッド",
         "note": "クライム劇の到達点"
+      },
+      {
+        "label": "バクマン。",
+        "startYear": 2008,
+        "endYear": 2012,
+        "genre": [
+          "MAN"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/バクマン。",
+        "note": "漫画制作を題材にした青春"
+      },
+      {
+        "label": "乙嫁語り",
+        "startYear": 2008,
+        "endYear": "ongoing",
+        "genre": [
+          "MAN"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/乙嫁語り",
+        "note": "中央アジアの生活誌"
+      },
+      {
+        "label": "黒子のバスケ",
+        "startYear": 2008,
+        "endYear": 2014,
+        "genre": [
+          "MAN"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/黒子のバスケ",
+        "note": "新世代バスケ漫画"
       }
     ],
     "2009": [
@@ -7675,6 +8214,17 @@
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/Node.js",
         "note": "JSのサーバ実行基盤"
+      },
+      {
+        "label": "ばらかもん",
+        "startYear": 2009,
+        "endYear": 2019,
+        "genre": [
+          "MAN"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/ばらかもん",
+        "note": "書道×島暮らし"
       }
     ],
     "2010": [
@@ -7881,6 +8431,28 @@
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/�T�s�G���X�S�j",
         "note": "�l�ގj����Ղ���ʎj"
+      },
+      {
+        "label": "テラフォーマーズ",
+        "startYear": 2011,
+        "endYear": "ongoing",
+        "genre": [
+          "MAN"
+        ],
+        "imp": 2,
+        "url": "https://ja.wikipedia.org/wiki/テラフォーマーズ",
+        "note": "SFサバイバル（休載挟む）"
+      },
+      {
+        "label": "キングダム外伝・本編は別途",
+        "startYear": 2011,
+        "endYear": "ongoing",
+        "genre": [
+          "MAN"
+        ],
+        "imp": 1,
+        "url": "https://ja.wikipedia.org/wiki/キングダム_(漫画)",
+        "note": "※重複回避のため補足"
       }
     ],
     "2012": [
@@ -8130,6 +8702,39 @@
         "imp": 4,
         "url": "https://anime-japan.jp/",
         "note": "業界横断のアニメ総合イベント。"
+      },
+      {
+        "label": "僕のヒーローアカデミア",
+        "startYear": 2014,
+        "endYear": "ongoing",
+        "genre": [
+          "MAN"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/僕のヒーローアカデミア",
+        "note": "現代ヒーロー像の再定義"
+      },
+      {
+        "label": "七つの大罪 外伝・関連除く本編完結",
+        "startYear": 2014,
+        "endYear": "ongoing",
+        "genre": [
+          "MAN"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/七つの大罪_(漫画)",
+        "note": "王道ファンタジー"
+      },
+      {
+        "label": "ゴールデンカムイ",
+        "startYear": 2014,
+        "endYear": 2022,
+        "genre": [
+          "MAN"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/ゴールデンカムイ",
+        "note": "アイヌ文化×冒険"
       }
     ],
     "2015": [
@@ -8296,6 +8901,17 @@
         "url": "https://ja.wikipedia.org/wiki/逃げるは恥だが役に立つ_(テレビドラマ)",
         "note": "恋ダンスで社会現象",
         "endYear": "ongoing"
+      },
+      {
+        "label": "約束のネバーランド",
+        "startYear": 2016,
+        "endYear": 2020,
+        "genre": [
+          "MAN"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/約束のネバーランド",
+        "note": "ダークファンタジー脱出劇"
       }
     ],
     "2017": [
@@ -8367,6 +8983,28 @@
         "imp": 3,
         "url": "https://ja.wikipedia.org/wiki/プレミアムフライデー",
         "note": "消費喚起と働き方提案"
+      },
+      {
+        "label": "Dr.STONE",
+        "startYear": 2017,
+        "endYear": 2022,
+        "genre": [
+          "MAN"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/Dr.STONE",
+        "note": "科学×サバイバル"
+      },
+      {
+        "label": "ブルーピリオド",
+        "startYear": 2017,
+        "endYear": "ongoing",
+        "genre": [
+          "MAN"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/ブルーピリオド",
+        "note": "美大受験を描く"
       }
     ],
     "2018": [
@@ -8464,6 +9102,17 @@
         "imp": 3,
         "url": "https://ja.wikipedia.org/wiki/バブルティー",
         "note": "若年層を中心に大流行。"
+      },
+      {
+        "label": "地獄楽",
+        "startYear": 2018,
+        "endYear": 2021,
+        "genre": [
+          "MAN"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/地獄楽",
+        "note": "忍法×サバイバル"
       }
     ],
     "2019": [
@@ -8588,6 +9237,17 @@
         "url": "https://ja.wikipedia.org/wiki/ワンダーJAPON",
         "note": "異空間旅の後継誌",
         "endYear": "ongoing"
+      },
+      {
+        "label": "怪獣8号",
+        "startYear": 2020,
+        "endYear": "ongoing",
+        "genre": [
+          "MAN"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/怪獣8号",
+        "note": "怪獣×ヒーローの再解釈"
       }
     ],
     "2021": [
