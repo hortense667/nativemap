@@ -1771,6 +1771,17 @@
         "imp": 3,
         "url": "https://ja.wikipedia.org/wiki/ど根性ガエル",
         "note": "昭和ギャグの代表"
+      },
+      {
+        "label": "ラブホテル文化",
+        "startYear": 1968,
+        "endYear": "ongoing",
+        "genre": [
+          "PHE"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/ラブホテル",
+        "note": "日本独自の宿泊文化"
       }
     ],
     "1969": [
@@ -2141,6 +2152,17 @@
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/ミスタードーナツ",
         "note": "国内ドーナツ文化を形成。"
+      },
+      {
+        "label": "日活ロマンポルノ",
+        "startYear": 1971,
+        "endYear": 1988,
+        "genre": [
+          "MOV"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/日活ロマンポルノ",
+        "note": "メジャー会社による成人映画レーベル"
       }
     ],
     "1972": [
@@ -2553,6 +2575,28 @@
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/ミクロマン",
         "note": "可動フィギュアの先駆"
+      },
+      {
+        "label": "エマニエル夫人",
+        "startYear": 1974,
+        "endYear": 1974,
+        "genre": [
+          "MOV"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/エマニエル夫人",
+        "note": "欧州発の官能映画ブーム"
+      },
+      {
+        "label": "GORO",
+        "startYear": 1974,
+        "endYear": 1992,
+        "genre": [
+          "MAG"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/GORO",
+        "note": "男子学生文化とグラビア"
       }
     ],
     "1975": [
@@ -2882,6 +2926,28 @@
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/報道特集",
         "note": "日曜夕方の硬派報道"
+      },
+      {
+        "label": "愛のコリーダ",
+        "startYear": 1976,
+        "endYear": 1976,
+        "genre": [
+          "MOV"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/愛のコリーダ",
+        "note": "表現と猥褻の境界を問う問題作"
+      },
+      {
+        "label": "フィーバー機（SANKYO）",
+        "startYear": 1976,
+        "endYear": "ongoing",
+        "genre": [
+          "UNC"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/フィーバー機",
+        "note": "デジパチ普及の転機"
       }
     ],
     "1977": [
@@ -3185,6 +3251,17 @@
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/Prophet-5",
         "note": "世界初のプログラマブル・ポリフォニック"
+      },
+      {
+        "label": "ビニ本ブーム",
+        "startYear": 1978,
+        "endYear": 1985,
+        "genre": [
+          "PHE"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/ビニ本",
+        "note": "包装された成人向け写真集の流行"
       }
     ],
     "1979": [
@@ -3794,6 +3871,28 @@
         "imp": 4,
         "url": "https://en.wikipedia.org/wiki/Quantel_Paintbox",
         "note": "テレビ局のCGテロップ革命"
+      },
+      {
+        "label": "FOCUS",
+        "startYear": 1981,
+        "endYear": 2001,
+        "genre": [
+          "MAG"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/FOCUS",
+        "note": "写真週刊誌ブームの火付け役"
+      },
+      {
+        "label": "アダルトビデオ市場の勃興",
+        "startYear": 1981,
+        "endYear": "ongoing",
+        "genre": [
+          "PHE"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/アダルトビデオ",
+        "note": "家庭用AVの普及と産業化"
       }
     ],
     "1982": [
@@ -4326,6 +4425,17 @@
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/Apple_Lisa",
         "note": "商用GUIの先駆け"
+      },
+      {
+        "label": "オールナイトフジ",
+        "startYear": 1983,
+        "endYear": 1990,
+        "genre": [
+          "TVP"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/オールナイトフジ",
+        "note": "深夜番組×女子大生ブーム"
       }
     ],
     "1984": [
@@ -4541,6 +4651,50 @@
         "imp": 3,
         "url": "https://ja.wikipedia.org/wiki/任天堂光線銃シリーズ",
         "note": "家庭用ガンシューティングの嚆矢"
+      },
+      {
+        "label": "毎度おさわがせします",
+        "startYear": 1984,
+        "endYear": 1988,
+        "genre": [
+          "TVP"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/毎度おさわがせします",
+        "note": "性をめぐる青春群像で話題"
+      },
+      {
+        "label": "くりぃむレモン",
+        "startYear": 1984,
+        "endYear": 1987,
+        "genre": [
+          "ANI"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/くりいむレモン",
+        "note": "成年向けOVAの嚆矢"
+      },
+      {
+        "label": "FRIDAY",
+        "startYear": 1984,
+        "endYear": "ongoing",
+        "genre": [
+          "MAG"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/FRIDAY",
+        "note": "写真週刊誌の代表格"
+      },
+      {
+        "label": "ビデオ倫理協会（ビデ倫）",
+        "startYear": 1984,
+        "endYear": 2010,
+        "genre": [
+          "UNC"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/日本ビデオ倫理審査機構",
+        "note": "成人向けビデオ自主規制の時代"
       }
     ],
     "1985": [
@@ -4787,6 +4941,28 @@
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/Adobe_PageMaker",
         "note": "DTP初期の革命"
+      },
+      {
+        "label": "テレクラ（テレホンセックス/出会い電話）",
+        "startYear": 1985,
+        "endYear": 1995,
+        "genre": [
+          "PHE"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/テレクラ",
+        "note": "80〜90年代の出会い文化"
+      },
+      {
+        "label": "風営法改正（1985年改正）",
+        "startYear": 1985,
+        "endYear": 1985,
+        "genre": [
+          "UNC"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/風俗営業等の規制及び業務の適正化等に関する法律",
+        "note": "性風俗関連営業の枠組みを規定"
       }
     ],
     "1986": [
@@ -5203,6 +5379,17 @@
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/QuarkXPress",
         "note": "DTP時代を牽引"
+      },
+      {
+        "label": "超神伝説うろつき童子",
+        "startYear": 1987,
+        "endYear": 1995,
+        "genre": [
+          "ANI"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/うろつき童子",
+        "note": "海外でもカルト的人気の成人OVA"
       }
     ],
     "1988": [
@@ -6274,6 +6461,17 @@
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/Pro_Tools",
         "note": "プロ向けDAWの標準"
+      },
+      {
+        "label": "Santa_Fe（宮沢りえ写真集）",
+        "startYear": 1991,
+        "endYear": 1991,
+        "genre": [
+          "BOO"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/Santa_Fe_(写真集)",
+        "note": "ヘアヌード写真集ブームの象徴"
       }
     ],
     "1992": [
@@ -6466,6 +6664,17 @@
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/RPGツクール",
         "note": "同人RPG文化を支えたツール群"
+      },
+      {
+        "label": "同級生",
+        "startYear": 1992,
+        "endYear": 1992,
+        "genre": [
+          "GAM"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/同級生_(エルフ)",
+        "note": "恋愛アドベンチャーの金字塔"
       }
     ],
     "1993": [
@@ -7078,6 +7287,17 @@
         "imp": 2,
         "url": "https://ja.wikipedia.org/wiki/PC-FX",
         "note": "アニメ表現重視のNEC機"
+      },
+      {
+        "label": "トゥナイト2",
+        "startYear": 1994,
+        "endYear": 2002,
+        "genre": [
+          "TVP"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/トゥナイト2",
+        "note": "夜の街/性風俗特集で人気"
       }
     ],
     "1995": [
@@ -7375,6 +7595,17 @@
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/MIRC",
         "note": "IRC文化の中心クライアント"
+      },
+      {
+        "label": "裏モノJAPAN",
+        "startYear": 1995,
+        "endYear": "ongoing",
+        "genre": [
+          "MAG"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/裏モノJAPAN",
+        "note": "裏社会/性風俗ルポの人気誌"
       }
     ],
     "1996": [
@@ -8990,6 +9221,17 @@
         "imp": 3,
         "url": "https://ja.wikipedia.org/wiki/LimeWire",
         "note": "Gnutella系の象徴"
+      },
+      {
+        "label": "月姫",
+        "startYear": 2000,
+        "endYear": 2000,
+        "genre": [
+          "GAM"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/月姫_(同人ゲーム)",
+        "note": "同人発ビジュアルノベルの象徴"
       }
     ],
     "2001": [
@@ -12211,6 +12453,17 @@
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/アンナチュラル",
         "note": "法医学ミステリの快作"
+      },
+      {
+        "label": "FANZA",
+        "startYear": 2018,
+        "endYear": "ongoing",
+        "genre": [
+          "NET"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/FANZA",
+        "note": "DMMの成人向けブランド再編"
       }
     ],
     "2019": [
@@ -12294,6 +12547,17 @@
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/天気の子",
         "note": "気象×青春"
+      },
+      {
+        "label": "コンビニ成人誌撤去",
+        "startYear": 2019,
+        "endYear": 2019,
+        "genre": [
+          "FMT"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/成人向け雑誌#コンビニエンスストアでの扱い",
+        "note": "小売の扱いが転換点に"
       }
     ],
     "2020": [
