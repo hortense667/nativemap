@@ -726,11 +726,6 @@
   function addEraItem() {
     console.log('addEraItem開始: 現在のeraSettings', eraSettings);
     
-    if (eraSettings.length >= 8) {
-      console.log('addEraItem: 8件の制限に達しているため追加をスキップ');
-      return;
-    }
-    
     const newItem = {
       name: '',
       startYear: '',
@@ -1075,6 +1070,7 @@
     editor.innerHTML = `
       <h4 style="display: flex; align-items: center; justify-content: space-between; margin: 0 0 12px 0; font-size: 16px;">
         <span style="display: flex; align-items: center; gap: 8px;">
+          <span style="cursor: pointer; font-size: 18px;" onclick="addEraFromYear(${year})" title="この年の項目から時代区分を登録">📅</span>
           <span style="cursor: pointer; font-size: 18px;" onclick="openYearWikipedia(${year})" title="${year}年のWikipediaページを開く">🌐</span>
           <span>${year}年</span>
         </span>
@@ -1434,6 +1430,56 @@
     autoSave();
   }
 
+  // 年から時代区分を登録する機能
+  function addEraFromYear(year) {
+    const items = (events[year] || []).filter(passesFilter);
+    if (items.length === 0) {
+      showError('エラー', 'この年には項目がありません。');
+      return;
+    }
+    
+    // 利用可能な色のリスト
+    const availableColors = [
+      '#4169E1', '#32CD32', '#DC143C', '#FF8C00', 
+      '#8A2BE2', '#00CED1', '#FFD700', '#696969',
+      '#FF69B4', '#00FF7F', '#FF4500', '#9370DB',
+      '#20B2AA', '#FFA500', '#FF1493', '#32CD32'
+    ];
+    
+    // 既に使用されている色を取得
+    const usedColors = eraSettings.map(era => era.color);
+    
+    // 未使用の色を選択
+    let selectedColor = availableColors.find(color => !usedColors.includes(color));
+    if (!selectedColor) {
+      // 全ての色が使用されている場合は最初の色を使用
+      selectedColor = availableColors[0];
+    }
+    
+    // 各項目に対して時代区分を作成
+    items.forEach((item, index) => {
+      const startYear = item.startYear || year;
+      const endYear = item.endYear || year;
+      
+      const newEra = {
+        name: item.label + (item.genre ? ` [${item.genre}]` : ''),
+        startYear: startYear,
+        endYear: endYear,
+        color: selectedColor,
+        opacity: '0.3',
+        enabled: true
+      };
+      
+      eraSettings.push(newEra);
+    });
+    
+    // 保存
+    saveEvents();
+    renderEraBackgrounds();
+    
+    showInfo('時代区分登録完了', `${items.length}件の時代区分を登録しました。`);
+  }
+
   // グローバル関数として公開
   window.moveItem = moveItem;
   window.openUrl = openUrl;
@@ -1442,6 +1488,7 @@
   window.deleteItem = deleteItem;
   window.addNewItem = addNewItem;
   window.saveEditItem = saveEditItem;
+  window.addEraFromYear = addEraFromYear;
 
   // ===== 編集UI（テキスト） =====
   function serializeLine(it){ const startYear=(it.startYear||'').trim(); const endYear=(it.endYear||'').trim(); const label=(it.label||'').trim(); const g=(it.genre||'').trim(); const imp=(it.imp===undefined||it.imp===null||String(it.imp)==='')? '' : String(it.imp); const url=(it.url||'').trim(); const note=(it.note||'').trim(); if(!startYear && !endYear && !g && !imp && !url && !note) return label; return [startYear,endYear,label,g,imp,url,note].join(';'); }
