@@ -416,6 +416,16 @@
         "imp": 3,
         "url": "https://ja.wikipedia.org/wiki/リズム・アンド・ブルース",
         "note": "R&B隆盛の起点"
+      },
+      {
+        "label": "UNIVAC I",
+        "startYear": 1950,
+        "genre": [
+          "HAR"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/UNIVAC_I",
+        "note": "商用電子計算機の先駆"
       }
     ],
     "1951": [
