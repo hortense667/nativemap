@@ -1304,6 +1304,17 @@
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/リカちゃん",
         "note": "日本の国民的着せ替え"
+      },
+      {
+        "label": "CES",
+        "startYear": 1967,
+        "endYear": "ongoing",
+        "genre": [
+          "EVT"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/コンシューマー・エレクトロニクス・ショー",
+        "note": "家電・テックの見本市。"
       }
     ],
     "1968": [
@@ -1470,6 +1481,17 @@
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/ホットウィール",
         "note": "米発ミニカーの人気銘柄"
+      },
+      {
+        "label": "走れ!歌謡曲",
+        "startYear": 1968,
+        "endYear": 2021,
+        "genre": [
+          "RDO"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/走れ!歌謡曲",
+        "note": "深夜の定番歌謡番組。"
       }
     ],
     "1969": [
@@ -1679,6 +1701,17 @@
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/トミカ",
         "note": "日本発ダイキャスト車"
+      },
+      {
+        "label": "San Diego Comic-Con",
+        "startYear": 1970,
+        "endYear": "ongoing",
+        "genre": [
+          "EVT"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/Comic-Con_International",
+        "note": "北米最大級のポップカルチャーイベント。"
       }
     ],
     "1971": [
@@ -1787,6 +1820,17 @@
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/%E6%97%A5%E6%9C%AC%E3%83%9E%E3%82%AF%E3%83%89%E3%83%8A%E3%83%AB%E3%83%89",
         "note": "銀座で1号店を開店。"
+      },
+      {
+        "label": "ミスタードーナツ（日本）",
+        "startYear": 1971,
+        "endYear": "ongoing",
+        "genre": [
+          "FOO"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/ミスタードーナツ",
+        "note": "国内ドーナツ文化を形成。"
       }
     ],
     "1972": [
@@ -1970,6 +2014,17 @@
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/�����̌��E",
         "note": "�n�������̌��E���x��"
+      },
+      {
+        "label": "モスバーガー",
+        "startYear": 1972,
+        "endYear": "ongoing",
+        "genre": [
+          "FOO"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/モスバーガー",
+        "note": "国産バーガーチェーン。"
       }
     ],
     "1973": [
@@ -2289,6 +2344,17 @@
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/�l���̐_�b",
         "note": "��K�͊J���̐^��"
+      },
+      {
+        "label": "ペヤング ソースやきそば",
+        "startYear": 1975,
+        "endYear": "ongoing",
+        "genre": [
+          "FOO"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/ペヤング",
+        "note": "ロングセラーの即席麺。"
       }
     ],
     "1976": [
@@ -2698,6 +2764,17 @@
         "imp": 3,
         "url": "https://ja.wikipedia.org/wiki/%E3%83%AC%E3%83%BC%E3%82%B6%E3%83%87%E3%82%A3%E3%82%B9%E3%82%AF",
         "note": "家庭用光学式ビデオディスク。"
+      },
+      {
+        "label": "カレーハウスCoCo壱番屋",
+        "startYear": 1978,
+        "endYear": "ongoing",
+        "genre": [
+          "FOO"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/カレーハウスCoCo壱番屋",
+        "note": "カレー専門チェーンの代表格。"
       }
     ],
     "1979": [
@@ -2853,6 +2930,17 @@
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/Oracle_Database",
         "note": "商用RDBMSの嚆矢"
+      },
+      {
+        "label": "CD-DA",
+        "startYear": 1979,
+        "endYear": "ongoing",
+        "genre": [
+          "FMT"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/コンパクトディスク",
+        "note": "デジタル音楽メディアの標準。"
       }
     ],
     "1980": [
@@ -4039,6 +4127,17 @@
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/�v�Z�@�v���O�����̍\\���Ɖ���",
         "note": "�v�Z�Ƃ͉�������������"
+      },
+      {
+        "label": "WrestleMania",
+        "startYear": 1985,
+        "endYear": "ongoing",
+        "genre": [
+          "SPW"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/レッスルマニア",
+        "note": "世界最大級PPVイベント。"
       }
     ],
     "1986": [
@@ -5347,6 +5446,17 @@
         ],
         "imp": 2,
         "url": "https://ja.wikipedia.org/wiki/%E3%83%9D%E3%82%B1%E3%83%99%E3%83%AB%E3%81%8C%E9%B3%B4%E3%82%89%E3%81%AA%E3%81%8F%E3%81%A6"
+      },
+      {
+        "label": "UFC",
+        "startYear": 1993,
+        "endYear": "ongoing",
+        "genre": [
+          "SPW"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/アルティメット・ファイティング・チャンピオンシップ",
+        "note": "MMA世界最大。"
       }
     ],
     "1994": [
@@ -5738,6 +5848,17 @@
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/PHS"
+      },
+      {
+        "label": "E3",
+        "startYear": 1995,
+        "endYear": 2023,
+        "genre": [
+          "EVT"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/E3",
+        "note": "国際的ゲーム見本市（2023年終了）。"
       }
     ],
     "1996": [
@@ -6474,6 +6595,17 @@
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/ベイブレード",
         "note": "現代版ベーゴマ対戦"
+      },
+      {
+        "label": "嵐",
+        "startYear": 1999,
+        "endYear": 2020,
+        "genre": [
+          "IDL"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/嵐_(グループ)",
+        "note": "国民的男性アイドルグループ。2020年に活動休止。"
       }
     ],
     "2000": [
@@ -7077,6 +7209,17 @@
         "url": "https://ja.wikipedia.org/wiki/報道ステーション",
         "note": "夜の総合報道番組",
         "endYear": "ongoing"
+      },
+      {
+        "label": "Podcast",
+        "startYear": 2004,
+        "endYear": "ongoing",
+        "genre": [
+          "FMT"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/ポッドキャスト",
+        "note": "音声配信の標準フォーマット。"
       }
     ],
     "2005": [
@@ -7363,6 +7506,17 @@
         "imp": 3,
         "url": "https://ja.wikipedia.org/wiki/VirtualBox",
         "note": "OSS系デスクトップ仮想化"
+      },
+      {
+        "label": "Streaming（動画配信）",
+        "startYear": 2007,
+        "endYear": "ongoing",
+        "genre": [
+          "FMT"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/動画配信",
+        "note": "配信時代の基盤。"
       }
     ],
     "2008": [
@@ -8298,6 +8452,18 @@
         "imp": 3,
         "url": "https://ja.wikipedia.org/wiki/%E3%83%90%E3%83%96%E3%83%AB%E3%83%86%E3%82%A3%E3%83%BC",
         "note": "若年層を中心に大流行。"
+      },
+      {
+        "label": "タピオカティーブーム（第2次）",
+        "startYear": 2018,
+        "endYear": 2020,
+        "genre": [
+          "FOO",
+          "PHE"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/バブルティー",
+        "note": "若年層を中心に大流行。"
       }
     ],
     "2019": [
@@ -8561,12 +8727,22 @@
   },
   "eraSettings": [
     {
+      "name": "AIの時代",
+      "startYear": 2022,
+      "endYear": "ongoing",
+      "color": "#32CD32",
+      "opacity": "0.3",
+      "enabled": true,
+      "fillEnabled": false
+    },
+    {
       "name": "ビデオとゲームの時代",
       "startYear": 1983,
       "endYear": 2004,
       "color": "#4169E1",
       "opacity": "0.3",
-      "enabled": true
+      "enabled": true,
+      "fillEnabled": false
     },
     {
       "name": "テレビ・マンガ・週刊誌の時代",
@@ -8574,7 +8750,8 @@
       "endYear": 1999,
       "color": "#32CD32",
       "opacity": "0.3",
-      "enabled": true
+      "enabled": true,
+      "fillEnabled": false
     },
     {
       "name": "モバイルとネットの時代",
@@ -8582,7 +8759,8 @@
       "endYear": 2025,
       "color": "#4169E1",
       "opacity": "0.3",
-      "enabled": false
+      "enabled": true,
+      "fillEnabled": false
     }
   ]
 }
