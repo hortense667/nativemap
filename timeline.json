@@ -1,5 +1,18 @@
 {
   "events": {
+    "1945": [
+      {
+        "label": "終戦",
+        "startYear": 1945,
+        "genre": [
+          "PHE",
+          "UNC"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/%E7%B5%82%E6%88%A6%E3%81%AE%E6%97%A5",
+        "note": "第二次世界大戦が終了、敗戦、戦後がはじまる。"
+      }
+    ],
     "1946": [
       {
         "label": "ビキニ",
@@ -10,6 +23,37 @@
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/ビキニ",
         "note": "戦後に登場した新水着"
+      },
+      {
+        "label": "ENIAC",
+        "startYear": 1946,
+        "genre": [
+          "HAR"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/ENIAC",
+        "note": "初の大規模電子計算機"
+      },
+      {
+        "label": "世界 (雑誌)",
+        "startYear": 1946,
+        "genre": [
+          "MAG"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/世界_(雑誌)",
+        "note": "戦後思想の論壇誌"
+      },
+      {
+        "label": "サザエさん",
+        "startYear": 1946,
+        "endYear": 1974,
+        "genre": [
+          "MAN"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/サザエさん",
+        "note": "戦後家庭漫画の代表作"
       }
     ],
     "1947": [
@@ -42,6 +86,328 @@
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/H%26M",
         "note": "北欧発の量販ファッション"
+      },
+      {
+        "label": "新宝島",
+        "startYear": 1947,
+        "endYear": 1947,
+        "genre": [
+          "MAN"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/新宝島_(漫画)",
+        "note": "手塚革命の起点となる"
+      },
+      {
+        "label": "斜陽",
+        "startYear": 1947,
+        "genre": [
+          "NOV"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/斜陽",
+        "note": "没落貴族と女性の自立"
+      }
+    ],
+    "1948": [
+      {
+        "label": "美術手帖",
+        "startYear": 1948,
+        "genre": [
+          "MAG"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/美術手帖",
+        "note": "現代美術とカルチャー"
+      },
+      {
+        "label": "自転車泥棒",
+        "startYear": 1948,
+        "genre": [
+          "MOV"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/自転車泥棒",
+        "note": "新リアリズムの代表"
+      },
+      {
+        "label": "人間失格",
+        "startYear": 1948,
+        "genre": [
+          "NOV"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/人間失格",
+        "note": "自己喪失の告白文学"
+      },
+      {
+        "label": "エド・サリヴァン・ショー",
+        "startYear": 1948,
+        "genre": [
+          "TVP"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/エド・サリヴァン・ショー",
+        "note": "音楽バラエティの古典"
+      }
+    ],
+    "1949": [
+      {
+        "label": "1984年 (小説)",
+        "startYear": 1949,
+        "genre": [
+          "NOV"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/一九八四年_(小説)",
+        "note": "全体主義を告発する寓話"
+      }
+    ],
+    "1950": [
+      {
+        "label": "羅生門",
+        "startYear": 1950,
+        "genre": [
+          "MOV"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/羅生門_(映画)",
+        "note": "黒澤明世界的評価確立"
+      },
+      {
+        "label": "ニュー・オーリンズR&B",
+        "startYear": 1950,
+        "genre": [
+          "MUS"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/リズム・アンド・ブルース",
+        "note": "R&B隆盛の起点"
+      }
+    ],
+    "1951": [
+      {
+        "label": "UNIVAC I",
+        "startYear": 1951,
+        "genre": [
+          "HAR"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/UNIVAC_I",
+        "note": "商用電子計算機の先駆"
+      },
+      {
+        "label": "ミュージック・ライフ",
+        "startYear": 1951,
+        "endYear": 1998,
+        "genre": [
+          "MAG"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/ミュージック・ライフ",
+        "note": "洋楽情報の老舗誌"
+      }
+    ],
+    "1952": [
+      {
+        "label": "NME",
+        "startYear": 1952,
+        "endYear": 2018,
+        "genre": [
+          "MAG"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/NME",
+        "note": "英国音楽誌"
+      },
+      {
+        "label": "鉄腕アトム",
+        "startYear": 1952,
+        "endYear": 1968,
+        "genre": [
+          "MAN"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/鉄腕アトム",
+        "note": "国民的SFヒーロー"
+      },
+      {
+        "label": "禁じられた遊び",
+        "startYear": 1952,
+        "genre": [
+          "MOV"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/禁じられた遊び",
+        "note": "戦争と童心の対比"
+      },
+      {
+        "label": "雨に唄えば",
+        "startYear": 1952,
+        "genre": [
+          "MOV"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/雨に唄えば",
+        "note": "ミュージカル映画の古典"
+      },
+      {
+        "label": "老人と海",
+        "startYear": 1952,
+        "genre": [
+          "NOV"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/老人と海",
+        "note": "老漁師の誇りの闘い"
+      }
+    ],
+    "1953": [
+      {
+        "label": "プレイボーイ",
+        "startYear": 1953,
+        "endYear": 2020,
+        "genre": [
+          "MAG"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/プレイボーイ",
+        "note": "米男性誌の代表格"
+      },
+      {
+        "label": "リボンの騎士",
+        "startYear": 1953,
+        "endYear": 1956,
+        "genre": [
+          "MAN"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/リボンの騎士",
+        "note": "少女漫画に新地平"
+      },
+      {
+        "label": "東京物語",
+        "startYear": 1953,
+        "genre": [
+          "MOV"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/東京物語",
+        "note": "家族映画の最高峰"
+      },
+      {
+        "label": "華氏451度",
+        "startYear": 1953,
+        "genre": [
+          "NOV"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/華氏451度",
+        "note": "本が禁じられた近未来"
+      },
+      {
+        "label": "NHK紅白歌合戦",
+        "startYear": 1953,
+        "genre": [
+          "TVP"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/NHK紅白歌合戦",
+        "note": "年末音楽番組の国民行事"
+      }
+    ],
+    "1954": [
+      {
+        "label": "なかよし",
+        "startYear": 1954,
+        "genre": [
+          "MAG"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/なかよし",
+        "note": "少女漫画の老舗誌"
+      },
+      {
+        "label": "火の鳥",
+        "startYear": 1954,
+        "genre": [
+          "MAN"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/火の鳥",
+        "note": "生命と輪廻を描く大作"
+      },
+      {
+        "label": "七人の侍",
+        "startYear": 1954,
+        "genre": [
+          "MOV"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/七人の侍",
+        "note": "群像アクションの原点"
+      },
+      {
+        "label": "ゴジラ",
+        "startYear": 1954,
+        "genre": [
+          "MOV"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/ゴジラ_(1954年の映画)",
+        "note": "怪獣映画の出発点"
+      },
+      {
+        "label": "ロックンロール",
+        "startYear": 1954,
+        "genre": [
+          "MUS"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/ロックンロール",
+        "note": "若者文化の爆発点"
+      },
+      {
+        "label": "指輪物語",
+        "startYear": 1954,
+        "genre": [
+          "NOV"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/指輪物語",
+        "note": "中つ国叙事詩の金字塔"
+      },
+      {
+        "label": "ザ・トゥナイト・ショー",
+        "startYear": 1954,
+        "genre": [
+          "TVP"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/ザ・トゥナイト・ショー",
+        "note": "米国深夜トーク源流"
+      }
+    ],
+    "1955": [
+      {
+        "label": "りぼん",
+        "startYear": 1955,
+        "genre": [
+          "MAG"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/りぼん",
+        "note": "少女漫画の定番誌"
+      },
+      {
+        "label": "高度経済成長期（日本）",
+        "startYear": 1955,
+        "genre": [
+          "PHE"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/高度経済成長期_(日本)",
+        "note": "年平均高成長の時代"
       }
     ],
     "1956": [
@@ -64,6 +430,59 @@
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/ケリーバッグ",
         "note": "エルメスの象徴的ハンドバッグ"
+      },
+      {
+        "label": "週刊新潮",
+        "startYear": 1956,
+        "genre": [
+          "MAG"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/週刊新潮",
+        "note": "週刊ジャーナリズム"
+      },
+      {
+        "label": "鉄人28号",
+        "startYear": 1956,
+        "endYear": 1966,
+        "genre": [
+          "MAN"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/鉄人28号",
+        "note": "巨大ロボ表現の源流"
+      },
+      {
+        "label": "エルヴィス・プレスリー",
+        "startYear": 1956,
+        "genre": [
+          "MUS"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/エルヴィス・プレスリー",
+        "note": "ロックの王の登場"
+      }
+    ],
+    "1957": [
+      {
+        "label": "十二人の怒れる男",
+        "startYear": 1957,
+        "genre": [
+          "MOV"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/十二人の怒れる男_(1957年の映画)",
+        "note": "密室劇の緊張感"
+      },
+      {
+        "label": "Fortran",
+        "startYear": 1957,
+        "genre": [
+          "SOF"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/Fortran",
+        "note": "科学技術計算言語の祖"
       }
     ],
     "1958": [
@@ -75,6 +494,140 @@
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/白蛇伝_(1958年の映画)",
         "note": "国産初の長編カラー"
+      },
+      {
+        "label": "めまい",
+        "startYear": 1958,
+        "genre": [
+          "MOV"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/めまい_(映画)",
+        "note": "ヒッチコックの到達点"
+      },
+      {
+        "label": "月光仮面",
+        "startYear": 1958,
+        "endYear": 1959,
+        "genre": [
+          "TVP"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/月光仮面",
+        "note": "特撮ヒーローの嚆矢"
+      }
+    ],
+    "1959": [
+      {
+        "label": "IBM 1401",
+        "startYear": 1959,
+        "genre": [
+          "HAR"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/IBM_1401",
+        "note": "事務処理で普及した名機"
+      },
+      {
+        "label": "週刊文春",
+        "startYear": 1959,
+        "genre": [
+          "MAG"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/週刊文春",
+        "note": "調査報道の看板誌"
+      },
+      {
+        "label": "朝日ジャーナル",
+        "startYear": 1959,
+        "endYear": 1992,
+        "genre": [
+          "MAG"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/朝日ジャーナル",
+        "note": "論壇誌の象徴"
+      },
+      {
+        "label": "週刊少年マガジン",
+        "startYear": 1959,
+        "genre": [
+          "MAG"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/週刊少年マガジン",
+        "note": "講談社の少年誌"
+      },
+      {
+        "label": "週刊少年サンデー",
+        "startYear": 1959,
+        "genre": [
+          "MAG"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/週刊少年サンデー",
+        "note": "小学館の少年誌"
+      },
+      {
+        "label": "S-Fマガジン",
+        "startYear": 1959,
+        "genre": [
+          "MAG"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/S-Fマガジン",
+        "note": "日本SFの老舗誌"
+      },
+      {
+        "label": "大人は判ってくれない",
+        "startYear": 1959,
+        "genre": [
+          "MOV"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/大人は判ってくれない",
+        "note": "仏ニューウェーブ象徴"
+      },
+      {
+        "label": "モータウン",
+        "startYear": 1959,
+        "genre": [
+          "MUS"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/モータウン",
+        "note": "黒人音楽の大衆化"
+      },
+      {
+        "label": "マイルス・デイヴィス『カインド・オブ・ブルー』",
+        "startYear": 1959,
+        "genre": [
+          "MUS"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/カインド・オブ・ブルー",
+        "note": "モード・ジャズ金字塔"
+      },
+      {
+        "label": "COBOL",
+        "startYear": 1959,
+        "genre": [
+          "SOF"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/COBOL",
+        "note": "企業システムの基盤言語"
+      },
+      {
+        "label": "おかあさんといっしょ",
+        "startYear": 1959,
+        "genre": [
+          "TVP"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/おかあさんといっしょ",
+        "note": "幼児教育番組の定番"
       }
     ],
     "1960": [
@@ -107,6 +660,88 @@
         "imp": 3,
         "url": "https://ja.wikipedia.org/wiki/アイビー・ルック",
         "note": "学生風トラッドが流行"
+      },
+      {
+        "label": "勝手にしやがれ",
+        "startYear": 1960,
+        "genre": [
+          "MOV"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/勝手にしやがれ",
+        "note": "新しい映画文法提示"
+      },
+      {
+        "label": "サイコ",
+        "startYear": 1960,
+        "genre": [
+          "MOV"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/サイコ_(1960年の映画)",
+        "note": "スリラー革新の古典"
+      },
+      {
+        "label": "甘い生活",
+        "startYear": 1960,
+        "genre": [
+          "MOV"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/甘い生活",
+        "note": "退廃と虚無のモダン"
+      },
+      {
+        "label": "レゲエ",
+        "startYear": 1960,
+        "genre": [
+          "MUS"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/レゲエ",
+        "note": "ジャマイカ発世界化"
+      },
+      {
+        "label": "安保闘争",
+        "startYear": 1960,
+        "genre": [
+          "PHE"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/安保闘争",
+        "note": "戦後政治の大転換"
+      },
+      {
+        "label": "日本の学生運動",
+        "startYear": 1960,
+        "genre": [
+          "PHE"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/日本の学生運動",
+        "note": "全共闘など隆盛"
+      },
+      {
+        "label": "LISP",
+        "startYear": 1960,
+        "genre": [
+          "SOF"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/LISP",
+        "note": "AI研究で長年重用"
+      }
+    ],
+    "1961": [
+      {
+        "label": "坂本九「上を向いて歩こう」",
+        "startYear": 1961,
+        "genre": [
+          "MUS"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/上を向いて歩こう",
+        "note": "世界で愛された歌"
       }
     ],
     "1962": [
@@ -119,6 +754,36 @@
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/沈黙の春",
         "note": "環境運動の起点となる書"
+      },
+      {
+        "label": "Spacewar!",
+        "startYear": 1962,
+        "genre": [
+          "GAM"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/Spacewar!",
+        "note": "初期デジタルゲームの象徴"
+      },
+      {
+        "label": "週刊現代",
+        "startYear": 1962,
+        "genre": [
+          "MAG"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/週刊現代",
+        "note": "総合週刊の定番"
+      },
+      {
+        "label": "アラビアのロレンス",
+        "startYear": 1962,
+        "genre": [
+          "MOV"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/アラビアのロレンス",
+        "note": "砂漠叙事詩の巨編"
       }
     ],
     "1963": [
@@ -143,6 +808,133 @@
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/鉄人28号_(アニメ)",
         "note": "国産TVロボ草創期"
+      },
+      {
+        "label": "プレジデント (雑誌)",
+        "startYear": 1963,
+        "genre": [
+          "MAG"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/プレジデント_(雑誌)",
+        "note": "経営・ビジネス誌"
+      },
+      {
+        "label": "ボブ・ディラン「風に吹かれて」",
+        "startYear": 1963,
+        "genre": [
+          "MUS"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/風に吹かれて",
+        "note": "プロテストソング象徴"
+      },
+      {
+        "label": "ドクター・フー",
+        "startYear": 1963,
+        "endYear": 1964,
+        "genre": [
+          "TVP"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/ドクター・フー",
+        "note": "英SFの長寿看板番組"
+      }
+    ],
+    "1964": [
+      {
+        "label": "IBM System/360",
+        "startYear": 1964,
+        "genre": [
+          "HAR"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/IBM_System/360",
+        "note": "互換性時代を切り開く"
+      },
+      {
+        "label": "平凡パンチ",
+        "startYear": 1964,
+        "endYear": 1988,
+        "genre": [
+          "MAG"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/平凡パンチ",
+        "note": "若者文化の発信源"
+      },
+      {
+        "label": "ガロ (雑誌)",
+        "startYear": 1964,
+        "endYear": 2002,
+        "genre": [
+          "MAG"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/ガロ_(雑誌)",
+        "note": "前衛漫画の拠点"
+      },
+      {
+        "label": "ガロ",
+        "startYear": 1964,
+        "endYear": 2002,
+        "genre": [
+          "MAG"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/ガロ_(雑誌)",
+        "note": "オルタ漫画の金字塔"
+      },
+      {
+        "label": "カムイ伝",
+        "startYear": 1964,
+        "endYear": 1971,
+        "genre": [
+          "MAN"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/カムイ伝",
+        "note": "劇画運動の象徴作"
+      },
+      {
+        "label": "博士の異常な愛情",
+        "startYear": 1964,
+        "genre": [
+          "MOV"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/博士の異常な愛情",
+        "note": "核風刺ブラックコメディ"
+      },
+      {
+        "label": "1964年東京オリンピック",
+        "startYear": 1964,
+        "genre": [
+          "PHE"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/1964年東京オリンピック",
+        "note": "戦後復興の象徴"
+      },
+      {
+        "label": "OS/360",
+        "startYear": 1964,
+        "genre": [
+          "SOF"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/OS/360",
+        "note": "IBM大型機用OSの基礎"
+      },
+      {
+        "label": "BASIC",
+        "startYear": 1964,
+        "genre": [
+          "SOF"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/BASIC",
+        "note": "PC普及期の入門言語"
       }
     ],
     "1965": [
@@ -164,6 +956,196 @@
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/ミニスカート",
         "note": "60年代象徴の短丈革命"
+      },
+      {
+        "label": "PDP-8",
+        "startYear": 1965,
+        "genre": [
+          "HAR"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/PDP-8",
+        "note": "初の量産ミニコン"
+      },
+      {
+        "label": "ゲゲゲの鬼太郎",
+        "startYear": 1965,
+        "endYear": 1969,
+        "genre": [
+          "MAN"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/ゲゲゲの鬼太郎",
+        "note": "妖怪文化を定着"
+      },
+      {
+        "label": "サウンド・オブ・ミュージック",
+        "startYear": 1965,
+        "genre": [
+          "MOV"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/サウンド・オブ・ミュージック",
+        "note": "歌で綴る家族物語"
+      },
+      {
+        "label": "ジョン・コルトレーン『至上の愛』",
+        "startYear": 1965,
+        "genre": [
+          "MUS"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/至上の愛",
+        "note": "スピリチュアルな到達"
+      },
+      {
+        "label": "いざなぎ景気",
+        "startYear": 1965,
+        "genre": [
+          "PHE"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/いざなぎ景気",
+        "note": "戦後最長級の好景気"
+      },
+      {
+        "label": "11PM",
+        "startYear": 1965,
+        "endYear": 1990,
+        "genre": [
+          "TVP"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/11PM",
+        "note": "深夜バラエティの草分け"
+      }
+    ],
+    "1966": [
+      {
+        "label": "週刊プレイボーイ",
+        "startYear": 1966,
+        "genre": [
+          "MAG"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/週刊プレイボーイ",
+        "note": "日本の男性週刊誌"
+      },
+      {
+        "label": "巨人の星",
+        "startYear": 1966,
+        "endYear": 1971,
+        "genre": [
+          "MAN"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/巨人の星",
+        "note": "スポ根の原点的存在"
+      },
+      {
+        "label": "ビーチ・ボーイズ『ペット・サウンズ』",
+        "startYear": 1966,
+        "genre": [
+          "MUS"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/ペット・サウンズ",
+        "note": "ポップ制作の革新"
+      },
+      {
+        "label": "成田空港問題",
+        "startYear": 1966,
+        "genre": [
+          "PHE"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/成田空港問題",
+        "note": "空港建設を巡る対立"
+      },
+      {
+        "label": "ウルトラマン",
+        "startYear": 1966,
+        "endYear": 1967,
+        "genre": [
+          "TVP"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/ウルトラマン",
+        "note": "特撮SFの金字塔"
+      },
+      {
+        "label": "笑点",
+        "startYear": 1966,
+        "genre": [
+          "TVP"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/笑点",
+        "note": "落語大喜利の長寿番組"
+      },
+      {
+        "label": "スター・トレック:宇宙大作戦",
+        "startYear": 1966,
+        "endYear": 1969,
+        "genre": [
+          "TVP"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/スター・トレック:宇宙大作戦",
+        "note": "SFドラマの古典的名作"
+      }
+    ],
+    "1967": [
+      {
+        "label": "COM (雑誌)",
+        "startYear": 1967,
+        "endYear": 1972,
+        "genre": [
+          "MAG"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/COM_(雑誌)",
+        "note": "手塚治虫の実験誌"
+      },
+      {
+        "label": "ローリング・ストーン",
+        "startYear": 1967,
+        "genre": [
+          "MAG"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/ローリング・ストーン",
+        "note": "音楽×政治文化誌"
+      },
+      {
+        "label": "ビートルズ『サージェント・ペパーズ…』",
+        "startYear": 1967,
+        "genre": [
+          "MUS"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/サージェント・ペパーズ・ロンリー・ハーツ・クラブ・バンド",
+        "note": "アルバム芸術の金字塔"
+      },
+      {
+        "label": "ヴェルヴェット・アンダーグラウンド&ニコ",
+        "startYear": 1967,
+        "genre": [
+          "MUS"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/ヴェルヴェット・アンダーグラウンド&ニコ",
+        "note": "オルタナの源流"
+      },
+      {
+        "label": "百年の孤独",
+        "startYear": 1967,
+        "genre": [
+          "NOV"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/百年の孤独",
+        "note": "魔術的現実主義の頂点"
       }
     ],
     "1968": [
@@ -186,6 +1168,108 @@
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/コンピュータプログラミングの芸術",
         "note": "アルゴリズム金字塔"
+      },
+      {
+        "label": "週刊少年ジャンプ",
+        "startYear": 1968,
+        "genre": [
+          "MAG"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/週刊少年ジャンプ",
+        "note": "少年漫画の最大手"
+      },
+      {
+        "label": "ビッグコミック",
+        "startYear": 1968,
+        "genre": [
+          "MAG"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/ビッグコミック",
+        "note": "青年漫画の先駆"
+      },
+      {
+        "label": "ねじ式",
+        "startYear": 1968,
+        "endYear": 1968,
+        "genre": [
+          "MAN"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/ねじ式",
+        "note": "前衛的表現の到達点"
+      },
+      {
+        "label": "あしたのジョー",
+        "startYear": 1968,
+        "endYear": 1973,
+        "genre": [
+          "MAN"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/あしたのジョー",
+        "note": "スポ根と時代の象徴"
+      },
+      {
+        "label": "ゴルゴ13",
+        "startYear": 1968,
+        "genre": [
+          "MAN"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/ゴルゴ13",
+        "note": "最長寿クラスの劇画"
+      },
+      {
+        "label": "2001年宇宙の旅",
+        "startYear": 1968,
+        "genre": [
+          "MOV"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/2001年宇宙の旅",
+        "note": "SF映像表現の革命"
+      },
+      {
+        "label": "全共闘",
+        "startYear": 1968,
+        "genre": [
+          "PHE"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/全共闘",
+        "note": "大学闘争の主役"
+      },
+      {
+        "label": "三億円事件",
+        "startYear": 1968,
+        "genre": [
+          "PHE"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/三億円事件",
+        "note": "昭和の未解決事件"
+      },
+      {
+        "label": "SPSS",
+        "startYear": 1968,
+        "genre": [
+          "SOF"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/SPSS",
+        "note": "統計解析の老舗ツール"
+      },
+      {
+        "label": "60ミニッツ",
+        "startYear": 1968,
+        "genre": [
+          "TVP"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/60ミニッツ",
+        "note": "調査報道の金字塔"
       }
     ],
     "1969": [
@@ -225,6 +1309,98 @@
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/ゴアテックス",
         "note": "防水透湿素材の標準"
+      },
+      {
+        "label": "週刊ポスト",
+        "startYear": 1969,
+        "genre": [
+          "MAG"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/週刊ポスト",
+        "note": "大衆週刊の定番"
+      },
+      {
+        "label": "ユリイカ",
+        "startYear": 1969,
+        "genre": [
+          "MAG"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/ユリイカ_(雑誌)",
+        "note": "詩批評×ポップ特集"
+      },
+      {
+        "label": "ドラえもん",
+        "startYear": 1969,
+        "endYear": 1996,
+        "genre": [
+          "MAN"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/ドラえもん",
+        "note": "世代超える国民漫画"
+      },
+      {
+        "label": "ウッドストック・フェスティバル",
+        "startYear": 1969,
+        "genre": [
+          "MUS"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/ウッドストック・フェスティバル",
+        "note": "カウンター文化象徴"
+      },
+      {
+        "label": "ARPANET",
+        "startYear": 1969,
+        "genre": [
+          "NET"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/ARPANET",
+        "note": "ネットの祖となる実験網"
+      },
+      {
+        "label": "CompuServe",
+        "startYear": 1969,
+        "genre": [
+          "NET"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/CompuServe",
+        "note": "草創期の商用オンライン"
+      },
+      {
+        "label": "Multics",
+        "startYear": 1969,
+        "genre": [
+          "SOF"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/Multics",
+        "note": "UNIX誕生へ影響したOS"
+      },
+      {
+        "label": "8時だョ!全員集合",
+        "startYear": 1969,
+        "endYear": 1985,
+        "genre": [
+          "TVP"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/8時だョ!全員集合",
+        "note": "国民的コント番組"
+      },
+      {
+        "label": "セサミストリート",
+        "startYear": 1969,
+        "genre": [
+          "TVP"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/セサミストリート",
+        "note": "教育番組の世界標準"
       }
     ],
     "1970": [
@@ -237,6 +1413,56 @@
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/イッセイミヤケ",
         "note": "技術と布の探究で革新"
+      },
+      {
+        "label": "PDP-11",
+        "startYear": 1970,
+        "genre": [
+          "HAR"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/PDP-11",
+        "note": "ミニコンの代表機種"
+      },
+      {
+        "label": "日本万国博覧会（大阪万博）",
+        "startYear": 1970,
+        "genre": [
+          "PHE"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/日本万国博覧会",
+        "note": "高度成長の到達点"
+      },
+      {
+        "label": "カラオケ",
+        "startYear": 1970,
+        "genre": [
+          "PHE"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/カラオケ",
+        "note": "国民的娯楽として普及"
+      },
+      {
+        "label": "Pascal",
+        "startYear": 1970,
+        "genre": [
+          "SOF"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/Pascal",
+        "note": "教育と構造化の象徴"
+      },
+      {
+        "label": "NNNドキュメント",
+        "startYear": 1970,
+        "genre": [
+          "TVP"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/NNNドキュメント",
+        "note": "民放最長級ドキュメンタリ"
       }
     ],
     "1971": [
@@ -248,6 +1474,78 @@
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/ルパン三世_(TV第1シリーズ)",
         "note": "大人向けTVの開拓"
+      },
+      {
+        "label": "日経サイエンス",
+        "startYear": 1971,
+        "genre": [
+          "MAG"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/日経サイエンス",
+        "note": "科学の一般解説誌"
+      },
+      {
+        "label": "non-no",
+        "startYear": 1971,
+        "genre": [
+          "MAG"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/Non-no",
+        "note": "女性ファッション誌"
+      },
+      {
+        "label": "面白半分",
+        "startYear": 1971,
+        "endYear": 1973,
+        "genre": [
+          "MAG"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/面白半分",
+        "note": "文学と反体制の気概"
+      },
+      {
+        "label": "ALOHAnet",
+        "startYear": 1971,
+        "genre": [
+          "NET"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/ALOHAnet",
+        "note": "無線パケット通信の嚆矢"
+      },
+      {
+        "label": "UNIX",
+        "startYear": 1971,
+        "genre": [
+          "SOF"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/UNIX",
+        "note": "現代OSの源流となるUNIX系"
+      },
+      {
+        "label": "仮面ライダー (1971年のテレビドラマ)",
+        "startYear": 1971,
+        "endYear": 1973,
+        "genre": [
+          "TVP"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/仮面ライダー_(1971年のテレビドラマ)",
+        "note": "変身ヒーロー定着"
+      },
+      {
+        "label": "新婚さんいらっしゃい!",
+        "startYear": 1971,
+        "genre": [
+          "TVP"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/新婚さんいらっしゃい!",
+        "note": "長寿公開収録トーク"
       }
     ],
     "1972": [
@@ -288,6 +1586,212 @@
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/ヨウジヤマモト",
         "note": "黒の美学で台頭"
+      },
+      {
+        "label": "マグナボックス・オデッセイ",
+        "startYear": 1972,
+        "genre": [
+          "HAR"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/%E3%83%9E%E3%82%B0%E3%83%8A%E3%83%9C%E3%83%83%E3%82%AF%E3%82%B9%E3%83%BB%E3%82%AA%E3%83%87%E3%83%83%E3%82%BB%E3%82%A4",
+        "note": "家庭用ゲーム機の草創"
+      },
+      {
+        "label": "HP-35",
+        "startYear": 1972,
+        "genre": [
+          "HAR"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/HP-35",
+        "note": "初の関数ポケット電卓"
+      },
+      {
+        "label": "カシオミニ",
+        "startYear": 1972,
+        "genre": [
+          "HAR"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/%E3%82%AB%E3%82%B7%E3%82%AA%E3%83%9F%E3%83%8B",
+        "note": "個人向け電卓普及"
+      },
+      {
+        "label": "Pong",
+        "startYear": 1972,
+        "genre": [
+          "GAM"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/Pong",
+        "note": "ビデオゲーム商業化の端緒"
+      },
+      {
+        "label": "デビルマン",
+        "startYear": 1972,
+        "endYear": 1973,
+        "genre": [
+          "MAN"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/デビルマン",
+        "note": "ダークヒーローの金字塔"
+      },
+      {
+        "label": "ベルサイユのばら",
+        "startYear": 1972,
+        "endYear": 1973,
+        "genre": [
+          "MAN"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/ベルサイユのばら",
+        "note": "少女漫画の歴史的転機"
+      },
+      {
+        "label": "ゴッドファーザー",
+        "startYear": 1972,
+        "genre": [
+          "MOV"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/ゴッドファーザー",
+        "note": "ギャング映画の金字塔"
+      },
+      {
+        "label": "1972年札幌オリンピック",
+        "startYear": 1972,
+        "genre": [
+          "PHE"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/1972年札幌オリンピック",
+        "note": "アジア初の冬季五輪"
+      },
+      {
+        "label": "あさま山荘事件",
+        "startYear": 1972,
+        "genre": [
+          "PHE"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/あさま山荘事件",
+        "note": "連合赤軍の籠城"
+      },
+      {
+        "label": "C言語",
+        "startYear": 1972,
+        "genre": [
+          "SOF"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/C%E8%A8%80%E8%AA%9E",
+        "note": "UNIXと共進化した汎用言語"
+      },
+      {
+        "label": "Smalltalk",
+        "startYear": 1972,
+        "genre": [
+          "SOF"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/Smalltalk",
+        "note": "OOP概念を実用化"
+      }
+    ],
+    "1973": [
+      {
+        "label": "Xerox Alto",
+        "startYear": 1973,
+        "genre": [
+          "HAR"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/Xerox_Alto",
+        "note": "GUIとマウスの先駆け"
+      },
+      {
+        "label": "宝島",
+        "startYear": 1973,
+        "genre": [
+          "MAG"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/宝島_(雑誌)",
+        "note": "サブカル誌の代名詞"
+      },
+      {
+        "label": "はだしのゲン",
+        "startYear": 1973,
+        "endYear": 1974,
+        "genre": [
+          "MAN"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/はだしのゲン",
+        "note": "被爆体験の社会派大作"
+      },
+      {
+        "label": "ブラック・ジャック",
+        "startYear": 1973,
+        "endYear": 1983,
+        "genre": [
+          "MAN"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/ブラック・ジャック",
+        "note": "医療ドラマの金字塔"
+      },
+      {
+        "label": "ピンク・フロイド『狂気』",
+        "startYear": 1973,
+        "genre": [
+          "MUS"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/狂気_(ピンク・フロイドのアルバム)",
+        "note": "概念作の到達点"
+      },
+      {
+        "label": "ヒップホップ",
+        "startYear": 1973,
+        "genre": [
+          "MUS"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/ヒップホップ",
+        "note": "世界的文化ムーブメント"
+      },
+      {
+        "label": "イーサネット",
+        "startYear": 1973,
+        "genre": [
+          "NET"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/%E3%82%A4%E3%83%BC%E3%82%B5%E3%83%8D%E3%83%83%E3%83%88",
+        "note": "LANの事実上標準"
+      },
+      {
+        "label": "オイルショック",
+        "startYear": 1973,
+        "genre": [
+          "PHE"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/オイルショック",
+        "note": "物価高と省エネ促進"
+      },
+      {
+        "label": "トイレットペーパー騒動",
+        "startYear": 1973,
+        "genre": [
+          "PHE"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/トイレットペーパー騒動",
+        "note": "買い占めの象徴的事件"
       }
     ],
     "1974": [
@@ -309,6 +1813,47 @@
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/ザラ_(ファッションブランド)",
         "note": "高速展開のSPAモデル"
+      },
+      {
+        "label": "花とゆめ",
+        "startYear": 1974,
+        "genre": [
+          "MAG"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/花とゆめ",
+        "note": "白泉社の少女誌"
+      },
+      {
+        "label": "ビックリハウス",
+        "startYear": 1974,
+        "endYear": 1985,
+        "genre": [
+          "MAG"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/ビックリハウス",
+        "note": "投稿文化の拠点"
+      },
+      {
+        "label": "CP/M",
+        "startYear": 1974,
+        "genre": [
+          "SOF"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/CP/M",
+        "note": "8ビットPC時代の標準OS"
+      },
+      {
+        "label": "SQL",
+        "startYear": 1974,
+        "genre": [
+          "SOF"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/SQL",
+        "note": "RDBの標準問い合わせ言語"
       }
     ],
     "1975": [
@@ -331,6 +1876,221 @@
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/人月の神話",
         "note": "大規模開発の真理"
+      },
+      {
+        "label": "Altair 8800",
+        "startYear": 1975,
+        "genre": [
+          "HAR"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/Altair_8800",
+        "note": "PC革命の火付け役"
+      },
+      {
+        "label": "ジョーズ",
+        "startYear": 1975,
+        "genre": [
+          "MOV"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/ジョーズ",
+        "note": "夏興行ブロックバスター"
+      },
+      {
+        "label": "クイーン「ボヘミアン・ラプソディ」",
+        "startYear": 1975,
+        "genre": [
+          "MUS"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/ボヘミアン・ラプソディ",
+        "note": "複合構成の名曲"
+      },
+      {
+        "label": "沖縄国際海洋博覧会",
+        "startYear": 1975,
+        "genre": [
+          "PHE"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/沖縄国際海洋博覧会",
+        "note": "海洋テーマの特博"
+      },
+      {
+        "label": "コミックマーケット",
+        "startYear": 1975,
+        "genre": [
+          "PHE"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/コミックマーケット",
+        "note": "同人文化の巨大即売会"
+      },
+      {
+        "label": "秘密戦隊ゴレンジャー",
+        "startYear": 1975,
+        "endYear": 1977,
+        "genre": [
+          "TVP"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/秘密戦隊ゴレンジャー",
+        "note": "戦隊シリーズの原点"
+      },
+      {
+        "label": "サタデー・ナイト・ライブ",
+        "startYear": 1975,
+        "genre": [
+          "TVP"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/サタデー・ナイト・ライブ",
+        "note": "米国深夜コメディの王"
+      }
+    ],
+    "1976": [
+      {
+        "label": "Cray-1",
+        "startYear": 1976,
+        "genre": [
+          "HAR"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/Cray-1",
+        "note": "初期スーパー計算機の象徴"
+      },
+      {
+        "label": "TK-80",
+        "startYear": 1976,
+        "genre": [
+          "HAR"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/TK-80",
+        "note": "日本のマイコン草創期機"
+      },
+      {
+        "label": "I/O (パソコン雑誌)",
+        "startYear": 1976,
+        "genre": [
+          "MAG"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/I/O_(パソコン雑誌)",
+        "note": "自作派向けPC誌"
+      },
+      {
+        "label": "POPEYE (雑誌)",
+        "startYear": 1976,
+        "genre": [
+          "MAG"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/Popeye_(雑誌)",
+        "note": "シティボーイの教本"
+      },
+      {
+        "label": "別冊宝島",
+        "startYear": 1976,
+        "genre": [
+          "MAG"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/別冊宝島",
+        "note": "時事とタブー深掘り"
+      },
+      {
+        "label": "STUDIO VOICE",
+        "startYear": 1976,
+        "endYear": 2008,
+        "genre": [
+          "MAG"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/STUDIO_VOICE",
+        "note": "ストリート文化の聖典"
+      },
+      {
+        "label": "ガラスの仮面",
+        "startYear": 1976,
+        "genre": [
+          "MAN"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/ガラスの仮面",
+        "note": "演劇少女漫画の頂点"
+      },
+      {
+        "label": "タクシードライバー",
+        "startYear": 1976,
+        "genre": [
+          "MOV"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/タクシードライバー",
+        "note": "孤独と暴力の都市"
+      },
+      {
+        "label": "X.25",
+        "startYear": 1976,
+        "genre": [
+          "NET"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/X.25",
+        "note": "公衆網で用いられた方式"
+      },
+      {
+        "label": "ロッキード事件",
+        "startYear": 1976,
+        "genre": [
+          "PHE"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/ロッキード事件",
+        "note": "戦後最大級の汚職"
+      },
+      {
+        "label": "Emacs",
+        "startYear": 1976,
+        "genre": [
+          "SOF"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/Emacs",
+        "note": "拡張自在な高機能エディタ"
+      },
+      {
+        "label": "vi",
+        "startYear": 1976,
+        "genre": [
+          "SOF"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/Vi",
+        "note": "軽快なUNIX系エディタ"
+      },
+      {
+        "label": "徹子の部屋",
+        "startYear": 1976,
+        "genre": [
+          "TVP"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/徹子の部屋",
+        "note": "長寿一対一トーク"
+      },
+      {
+        "label": "クイズダービー",
+        "startYear": 1976,
+        "endYear": 1992,
+        "genre": [
+          "TVP"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/クイズダービー",
+        "note": "昭和クイズ番組の代表"
       }
     ],
     "1977": [
@@ -343,6 +2103,138 @@
         "imp": 3,
         "url": "https://ja.wikipedia.org/wiki/アニー・ホール",
         "note": "メンズ風ミックスが流行"
+      },
+      {
+        "label": "VAX-11/780",
+        "startYear": 1977,
+        "genre": [
+          "HAR"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/VAX-11/780",
+        "note": "仮想記憶でVAX時代"
+      },
+      {
+        "label": "Apple II",
+        "startYear": 1977,
+        "genre": [
+          "HAR"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/Apple_II",
+        "note": "量産PC成功モデル"
+      },
+      {
+        "label": "TRS-80",
+        "startYear": 1977,
+        "genre": [
+          "HAR"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/TRS-80",
+        "note": "米国の普及PC"
+      },
+      {
+        "label": "Atari 2600",
+        "startYear": 1977,
+        "genre": [
+          "HAR"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/Atari_2600",
+        "note": "ROMカセット式で普及"
+      },
+      {
+        "label": "アスキー (雑誌)",
+        "startYear": 1977,
+        "endYear": 2010,
+        "genre": [
+          "MAG"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/アスキー_(雑誌)",
+        "note": "日本のPC文化牽引"
+      },
+      {
+        "label": "コロコロコミック",
+        "startYear": 1977,
+        "genre": [
+          "MAG"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/コロコロコミック",
+        "note": "児童向けの人気誌"
+      },
+      {
+        "label": "スター・ウォーズ (1977年の映画)",
+        "startYear": 1977,
+        "genre": [
+          "MOV"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/スター・ウォーズ_(1977年の映画)",
+        "note": "VFX時代の到来象徴"
+      },
+      {
+        "label": "ボブ・マーリー『エクソダス』",
+        "startYear": 1977,
+        "genre": [
+          "MUS"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/エクソダス_(ボブ・マーリーのアルバム)",
+        "note": "レゲエ普及の名盤"
+      },
+      {
+        "label": "ARCNET",
+        "startYear": 1977,
+        "genre": [
+          "NET"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/ARCNET",
+        "note": "初期の安価なLAN規格"
+      },
+      {
+        "label": "ディスコ",
+        "startYear": 1977,
+        "genre": [
+          "PHE"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/ディスコ",
+        "note": "若者文化の発信地"
+      },
+      {
+        "label": "Berkeley Software Distribution",
+        "startYear": 1977,
+        "genre": [
+          "SOF"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/Berkeley_Software_Distribution",
+        "note": "BSD系UNIXの祖"
+      },
+      {
+        "label": "OpenVMS",
+        "startYear": 1977,
+        "genre": [
+          "SOF"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/OpenVMS",
+        "note": "信頼性重視のマルチユーザーOS"
+      },
+      {
+        "label": "ルーツ (テレビドラマ)",
+        "startYear": 1977,
+        "endYear": 1977,
+        "genre": [
+          "TVP"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/ルーツ_(テレビドラマ)",
+        "note": "人種史を描いた大作"
       }
     ],
     "1978": [
@@ -354,6 +2246,78 @@
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/銀河鉄道999_(テレビアニメ)",
         "note": "SF旅物の代表作"
+      },
+      {
+        "label": "MZ-80K",
+        "startYear": 1978,
+        "genre": [
+          "HAR"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/MZ-80",
+        "note": "「御三家」の一角"
+      },
+      {
+        "label": "スペースインベーダー",
+        "startYear": 1978,
+        "genre": [
+          "GAM"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/スペースインベーダー",
+        "note": "社会現象を起こしたSTG"
+      },
+      {
+        "label": "うる星やつら",
+        "startYear": 1978,
+        "endYear": 1987,
+        "genre": [
+          "MAN"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/うる星やつら",
+        "note": "ギャグとSFの融合"
+      },
+      {
+        "label": "インベーダーブーム",
+        "startYear": 1978,
+        "genre": [
+          "PHE"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/インベーダーブーム",
+        "note": "ゲーム喫茶が盛況"
+      },
+      {
+        "label": "TeX",
+        "startYear": 1978,
+        "genre": [
+          "SOF"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/TeX",
+        "note": "組版の事実上標準"
+      },
+      {
+        "label": "ザ・ベストテン",
+        "startYear": 1978,
+        "endYear": 1989,
+        "genre": [
+          "TVP"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/ザ・ベストテン",
+        "note": "歌番組の新機軸"
+      },
+      {
+        "label": "24時間テレビ 「愛は地球を救う」",
+        "startYear": 1978,
+        "genre": [
+          "TVP"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/24時間テレビ_「愛は地球を救う」",
+        "note": "チャリティ長時間特番"
       }
     ],
     "1979": [
@@ -383,6 +2347,126 @@
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/フリース",
         "note": "軽暖素材が大衆化"
+      },
+      {
+        "label": "PC-8001",
+        "startYear": 1979,
+        "genre": [
+          "HAR"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/PC-8000%E3%82%B7%E3%83%AA%E3%83%BC%E3%82%BA",
+        "note": "国産PC普及の象徴"
+      },
+      {
+        "label": "ギャラクシアン",
+        "startYear": 1979,
+        "genre": [
+          "GAM"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/ギャラクシアン",
+        "note": "敵編隊AIで進化示す"
+      },
+      {
+        "label": "週刊ヤングジャンプ",
+        "startYear": 1979,
+        "genre": [
+          "MAG"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/週刊ヤングジャンプ",
+        "note": "青年誌の中核"
+      },
+      {
+        "label": "ムー (雑誌)",
+        "startYear": 1979,
+        "genre": [
+          "MAG"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/ムー_(雑誌)",
+        "note": "超常×オカルト誌"
+      },
+      {
+        "label": "ムー",
+        "startYear": 1979,
+        "genre": [
+          "MAG"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/ムー_(雑誌)",
+        "note": "超常とオカルト文化誌"
+      },
+      {
+        "label": "地獄の黙示録",
+        "startYear": 1979,
+        "genre": [
+          "MOV"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/地獄の黙示録",
+        "note": "戦争の狂気を描く"
+      },
+      {
+        "label": "エイリアン",
+        "startYear": 1979,
+        "genre": [
+          "MOV"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/エイリアン_(1979年の映画)",
+        "note": "SFホラーの定番化"
+      },
+      {
+        "label": "YMO『ソリッド・ステイト・サヴァイヴァー』",
+        "startYear": 1979,
+        "genre": [
+          "MUS"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/ソリッド・ステイト・サヴァイヴァー",
+        "note": "テクノ歌謡の金字塔"
+      },
+      {
+        "label": "サザン「いとしのエリー」",
+        "startYear": 1979,
+        "genre": [
+          "MUS"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/いとしのエリー",
+        "note": "国民的バンドの名曲"
+      },
+      {
+        "label": "シンセポップ（ニュー・ウェイブ）",
+        "startYear": 1979,
+        "genre": [
+          "MUS"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/シンセポップ",
+        "note": "電子音とポップの融合"
+      },
+      {
+        "label": "VisiCalc",
+        "startYear": 1979,
+        "genre": [
+          "SOF"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/VisiCalc",
+        "note": "表計算という概念を創出"
+      },
+      {
+        "label": "Oracle Database",
+        "startYear": 1979,
+        "genre": [
+          "SOF"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/Oracle_Database",
+        "note": "商用RDBMSの嚆矢"
       }
     ],
     "1980": [
@@ -404,6 +2488,76 @@
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/DCブランド",
         "note": "80年代日本のデザイナーズ潮流"
+      },
+      {
+        "label": "パックマン",
+        "startYear": 1980,
+        "genre": [
+          "GAM"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/パックマン",
+        "note": "世界的アイコンとなる"
+      },
+      {
+        "label": "BRUTUS (雑誌)",
+        "startYear": 1980,
+        "genre": [
+          "MAG"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/Brutus_(雑誌)",
+        "note": "カルチャー総合誌"
+      },
+      {
+        "label": "週刊ヤングマガジン",
+        "startYear": 1980,
+        "genre": [
+          "MAG"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/週刊ヤングマガジン",
+        "note": "青年誌の人気枠"
+      },
+      {
+        "label": "パソコン通信",
+        "startYear": 1980,
+        "genre": [
+          "NET"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/%E3%83%91%E3%82%BD%E3%82%B3%E3%83%B3%E9%80%9A%E4%BF%A1",
+        "note": "モデム接続の総称"
+      },
+      {
+        "label": "ネットニュース(Usenet)",
+        "startYear": 1980,
+        "genre": [
+          "NET"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/%E3%83%8D%E3%83%83%E3%83%88%E3%83%8B%E3%83%A5%E3%83%BC%E3%82%B9",
+        "note": "分散型電子会議システム"
+      },
+      {
+        "label": "ビデオテックス",
+        "startYear": 1980,
+        "genre": [
+          "NET"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/%E3%83%93%E3%83%87%E3%82%AA%E3%83%86%E3%83%83%E3%82%AF%E3%82%B9",
+        "note": "端末と情報センター接続"
+      },
+      {
+        "label": "オタク",
+        "startYear": 1980,
+        "genre": [
+          "PHE"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/オタク",
+        "note": "消費文化の重要概念"
       }
     ],
     "1981": [
@@ -415,6 +2569,179 @@
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/うる星やつら_(アニメ)",
         "note": "ギャグ×SFの金字塔"
+      },
+      {
+        "label": "Xerox Star",
+        "startYear": 1981,
+        "genre": [
+          "HAR"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/Xerox_Star",
+        "note": "商用GUIワークステーション"
+      },
+      {
+        "label": "IBM PC",
+        "startYear": 1981,
+        "genre": [
+          "HAR"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/IBM_PC",
+        "note": "PC互換機の起点"
+      },
+      {
+        "label": "Osborne 1",
+        "startYear": 1981,
+        "genre": [
+          "HAR"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/Osborne_1",
+        "note": "初期の可搬PC"
+      },
+      {
+        "label": "PC-8801",
+        "startYear": 1981,
+        "genre": [
+          "HAR"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/PC-8800%E3%82%B7%E3%83%AA%E3%83%BC%E3%82%BA",
+        "note": "ホビーと業務の主力"
+      },
+      {
+        "label": "PC-6001",
+        "startYear": 1981,
+        "genre": [
+          "HAR"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/PC-6000%E3%82%B7%E3%83%AA%E3%83%BC%E3%82%BA",
+        "note": "入門機として定番"
+      },
+      {
+        "label": "ドンキーコング (アーケードゲーム)",
+        "startYear": 1981,
+        "genre": [
+          "GAM"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/ドンキーコング_(アーケードゲーム)",
+        "note": "ジャンプアクション確立"
+      },
+      {
+        "label": "ウィザードリィ",
+        "startYear": 1981,
+        "genre": [
+          "GAM"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/ウィザードリィ",
+        "note": "RPGダンジョン型の祖"
+      },
+      {
+        "label": "ウルティマ",
+        "startYear": 1981,
+        "genre": [
+          "GAM"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/ウルティマ",
+        "note": "RPGオープンワールド源流"
+      },
+      {
+        "label": "Newton (雑誌)",
+        "startYear": 1981,
+        "genre": [
+          "MAG"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/Newton_(雑誌)",
+        "note": "ビジュアル科学誌"
+      },
+      {
+        "label": "写真時代",
+        "startYear": 1981,
+        "endYear": 1988,
+        "genre": [
+          "MAG"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/写真時代",
+        "note": "80s写真とサブカル"
+      },
+      {
+        "label": "キャプテン翼",
+        "startYear": 1981,
+        "endYear": 1988,
+        "genre": [
+          "MAN"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/キャプテン翼",
+        "note": "サッカー漫画世界へ"
+      },
+      {
+        "label": "クラフトワーク『コンピューター・ワールド』",
+        "startYear": 1981,
+        "genre": [
+          "MUS"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/コンピューター・ワールド",
+        "note": "電子音楽の金字塔"
+      },
+      {
+        "label": "MTV",
+        "startYear": 1981,
+        "genre": [
+          "MUS"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/MTV_(アメリカ合衆国)",
+        "note": "映像と音楽の融合"
+      },
+      {
+        "label": "大滝詠一『A LONG VACATION』",
+        "startYear": 1981,
+        "genre": [
+          "MUS"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/A_LONG_VACATION",
+        "note": "シティ・ポップ名盤"
+      },
+      {
+        "label": "MS-DOS",
+        "startYear": 1981,
+        "genre": [
+          "SOF"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/MS-DOS",
+        "note": "PC普及を支えたDOS"
+      },
+      {
+        "label": "オレたちひょうきん族",
+        "startYear": 1981,
+        "endYear": 1989,
+        "genre": [
+          "TVP"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/オレたちひょうきん族",
+        "note": "80年代お笑い革新"
+      },
+      {
+        "label": "北の国から",
+        "startYear": 1981,
+        "genre": [
+          "TVP"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/北の国から",
+        "note": "連ドラの名作群像劇"
       }
     ],
     "1982": [
@@ -425,6 +2752,212 @@
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/超時空要塞マクロス",
         "note": "歌と可変戦闘機融合"
+      },
+      {
+        "label": "Commodore 64",
+        "startYear": 1982,
+        "genre": [
+          "HAR"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/Commodore_64",
+        "note": "史上最多販売PC"
+      },
+      {
+        "label": "ZX Spectrum",
+        "startYear": 1982,
+        "genre": [
+          "HAR"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/ZX_Spectrum",
+        "note": "英国PC文化を牽引"
+      },
+      {
+        "label": "Grid Compass",
+        "startYear": 1982,
+        "genre": [
+          "HAR"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/Grid_Compass",
+        "note": "クラムシェル元祖"
+      },
+      {
+        "label": "PC-9801",
+        "startYear": 1982,
+        "genre": [
+          "HAR"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/PC-9800%E3%82%B7%E3%83%AA%E3%83%BC%E3%82%BA",
+        "note": "国内デファクト標準"
+      },
+      {
+        "label": "X1",
+        "startYear": 1982,
+        "genre": [
+          "HAR"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/X1_%28%E3%82%B3%E3%83%B3%E3%83%94%E3%83%A5%E3%83%BC%E3%82%BF%29",
+        "note": "高解像とTV機能で話題"
+      },
+      {
+        "label": "FM-7",
+        "startYear": 1982,
+        "genre": [
+          "HAR"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/FM-7",
+        "note": "カラーと拡張で人気"
+      },
+      {
+        "label": "LOGiN",
+        "startYear": 1982,
+        "endYear": 2008,
+        "genre": [
+          "MAG"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/LOGiN",
+        "note": "PCゲーム誌の先駆"
+      },
+      {
+        "label": "マイコンBASICマガジン",
+        "startYear": 1982,
+        "endYear": 2003,
+        "genre": [
+          "MAG"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/マイコンBASICマガジン",
+        "note": "ホビーPCの教科書"
+      },
+      {
+        "label": "オリーブ (雑誌)",
+        "startYear": 1982,
+        "endYear": 2003,
+        "genre": [
+          "MAG"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/オリーブ_(雑誌)",
+        "note": "女子カルチャー誌"
+      },
+      {
+        "label": "モーニング (雑誌)",
+        "startYear": 1982,
+        "genre": [
+          "MAG"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/モーニング_(雑誌)",
+        "note": "青年漫画の看板誌"
+      },
+      {
+        "label": "AKIRA",
+        "startYear": 1982,
+        "endYear": 1990,
+        "genre": [
+          "MAN"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/AKIRA",
+        "note": "SF表現の世界基準化"
+      },
+      {
+        "label": "風の谷のナウシカ",
+        "startYear": 1982,
+        "endYear": 1994,
+        "genre": [
+          "MAN"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/風の谷のナウシカ_(漫画)",
+        "note": "叙事詩的エコSF大作"
+      },
+      {
+        "label": "ブレードランナー",
+        "startYear": 1982,
+        "genre": [
+          "MOV"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/ブレードランナー",
+        "note": "SFノワールの原点"
+      },
+      {
+        "label": "E.T.",
+        "startYear": 1982,
+        "genre": [
+          "MOV"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/E.T.",
+        "note": "少年と宇宙人の友情"
+      },
+      {
+        "label": "マイケル・ジャクソン『スリラー』",
+        "startYear": 1982,
+        "genre": [
+          "MUS"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/スリラー_(アルバム)",
+        "note": "史上最多級セールス"
+      },
+      {
+        "label": "中森明菜「セカンド・ラブ」",
+        "startYear": 1982,
+        "genre": [
+          "MUS"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/セカンド・ラブ",
+        "note": "80年代歌姫の象徴"
+      },
+      {
+        "label": "SMTP",
+        "startYear": 1982,
+        "genre": [
+          "NET"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/Simple_Mail_Transfer_Protocol",
+        "note": "メール転送の標準"
+      },
+      {
+        "label": "ミニテル",
+        "startYear": 1982,
+        "genre": [
+          "NET"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/%E3%83%9F%E3%83%8B%E3%83%86%E3%83%AB",
+        "note": "仏の大規模ビデオテックス"
+      },
+      {
+        "label": "AutoCAD",
+        "startYear": 1982,
+        "genre": [
+          "SOF"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/AutoCAD",
+        "note": "CADの業界標準"
+      },
+      {
+        "label": "笑っていいとも!",
+        "startYear": 1982,
+        "endYear": 2014,
+        "genre": [
+          "TVP"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/笑っていいとも!",
+        "note": "昼の帯トークの王道"
       }
     ],
     "1983": [
@@ -447,6 +2980,177 @@
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/スウォッチ",
         "note": "低価格で時計文化を刷新"
+      },
+      {
+        "label": "MSX",
+        "startYear": 1983,
+        "genre": [
+          "HAR"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/MSX",
+        "note": "8ビット統一規格"
+      },
+      {
+        "label": "ファミリーコンピュータ",
+        "startYear": 1983,
+        "genre": [
+          "HAR"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/%E3%83%95%E3%82%A1%E3%83%9F%E3%83%AA%E3%83%BC%E3%82%B3%E3%83%B3%E3%83%94%E3%83%A5%E3%83%BC%E3%82%BF",
+        "note": "家庭用ゲーム革命"
+      },
+      {
+        "label": "ゼビウス",
+        "startYear": 1983,
+        "genre": [
+          "GAM"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/ゼビウス",
+        "note": "STG表現の飛躍"
+      },
+      {
+        "label": "北斗の拳",
+        "startYear": 1983,
+        "endYear": 1988,
+        "genre": [
+          "MAN"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/北斗の拳",
+        "note": "熱血世紀末アクション"
+      },
+      {
+        "label": "山下達郎「クリスマス・イブ」",
+        "startYear": 1983,
+        "genre": [
+          "MUS"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/クリスマス・イブ_(山下達郎の曲)",
+        "note": "日本の冬の定番曲"
+      },
+      {
+        "label": "TCP/IP",
+        "startYear": 1983,
+        "genre": [
+          "NET"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/TCP/IP",
+        "note": "インターネットの要素技術"
+      },
+      {
+        "label": "DNS",
+        "startYear": 1983,
+        "genre": [
+          "NET"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/Domain_Name_System",
+        "note": "名前解決の中核仕組み"
+      },
+      {
+        "label": "SMB",
+        "startYear": 1983,
+        "genre": [
+          "NET"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/Server_Message_Block",
+        "note": "Windows系の共有基盤"
+      },
+      {
+        "label": "NetBIOS",
+        "startYear": 1983,
+        "genre": [
+          "NET"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/NetBIOS",
+        "note": "初期LANのAPI/名前解決"
+      },
+      {
+        "label": "NAPLPS",
+        "startYear": 1983,
+        "genre": [
+          "NET"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/NAPLPS",
+        "note": "ビデオテックス表示規格"
+      },
+      {
+        "label": "ファミコンブーム",
+        "startYear": 1983,
+        "genre": [
+          "PHE"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/ファミコンブーム",
+        "note": "家庭用ゲーム大衆化"
+      },
+      {
+        "label": "東京ディズニーランド開園",
+        "startYear": 1983,
+        "genre": [
+          "PHE"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/東京ディズニーランド",
+        "note": "レジャー消費の転機"
+      },
+      {
+        "label": "Lotus 1-2-3",
+        "startYear": 1983,
+        "genre": [
+          "SOF"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/Lotus_1-2-3",
+        "note": "DOS時代の業務標準"
+      },
+      {
+        "label": "Microsoft Word",
+        "startYear": 1983,
+        "genre": [
+          "SOF"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/Microsoft_Word",
+        "note": "ワープロの代表格"
+      },
+      {
+        "label": "BIND",
+        "startYear": 1983,
+        "genre": [
+          "SOF"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/BIND",
+        "note": "DNSサーバの事実上標準"
+      },
+      {
+        "label": "Sendmail",
+        "startYear": 1983,
+        "genre": [
+          "SOF"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/Sendmail",
+        "note": "UNIX系メール送信サーバ"
+      },
+      {
+        "label": "おしん",
+        "startYear": 1983,
+        "genre": [
+          "TVP"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/おしん",
+        "note": "国際的に大ヒット"
       }
     ],
     "1984": [
@@ -477,6 +3181,147 @@
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/ユニクロ",
         "note": "日本発ファストファッション"
+      },
+      {
+        "label": "Macintosh",
+        "startYear": 1984,
+        "genre": [
+          "HAR"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/Mac_%28%E3%82%B3%E3%83%B3%E3%83%94%E3%83%A5%E3%83%BC%E3%82%BF%29",
+        "note": "GUI普及の決定打"
+      },
+      {
+        "label": "テトリス",
+        "startYear": 1984,
+        "genre": [
+          "GAM"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/テトリス",
+        "note": "落ち物パズルの原点"
+      },
+      {
+        "label": "ドラゴンボール",
+        "startYear": 1984,
+        "endYear": 1995,
+        "genre": [
+          "MAN"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/ドラゴンボール",
+        "note": "少年バトルの定型化"
+      },
+      {
+        "label": "風の谷のナウシカ",
+        "startYear": 1984,
+        "genre": [
+          "MOV"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/風の谷のナウシカ_(映画)",
+        "note": "エコSFの傑作"
+      },
+      {
+        "label": "プリンス『パープル・レイン』",
+        "startYear": 1984,
+        "genre": [
+          "MUS"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/パープル・レイン_(アルバム)",
+        "note": "黒人ポップの革新"
+      },
+      {
+        "label": "マドンナ『ライク・ア・ヴァージン』",
+        "startYear": 1984,
+        "genre": [
+          "MUS"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/ライク・ア・ヴァージン_(アルバム)",
+        "note": "女性ポップ像更新"
+      },
+      {
+        "label": "トークンリング",
+        "startYear": 1984,
+        "genre": [
+          "NET"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/%E3%83%88%E3%83%BC%E3%82%AF%E3%83%B3%E3%83%AA%E3%83%B3%E3%82%B0",
+        "note": "IBMのリング型LAN"
+      },
+      {
+        "label": "NFS",
+        "startYear": 1984,
+        "genre": [
+          "NET"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/Network_File_System",
+        "note": "UNIXの分散ファイル"
+      },
+      {
+        "label": "JUNET",
+        "startYear": 1984,
+        "genre": [
+          "NET"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/JUNET",
+        "note": "日本初の実質的起源網"
+      },
+      {
+        "label": "FidoNet",
+        "startYear": 1984,
+        "genre": [
+          "NET"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/FidoNet",
+        "note": "BBS間の配送ネット"
+      },
+      {
+        "label": "キャプテンシステム",
+        "startYear": 1984,
+        "genre": [
+          "NET"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/%E3%82%AD%E3%83%A3%E3%83%97%E3%83%86%E3%83%B3%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0",
+        "note": "日本のビデオテックス網"
+      },
+      {
+        "label": "Classic Mac OS",
+        "startYear": 1984,
+        "genre": [
+          "SOF"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/Classic_Mac_OS",
+        "note": "直感的GUIを大衆化"
+      },
+      {
+        "label": "MATLAB",
+        "startYear": 1984,
+        "genre": [
+          "SOF"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/MATLAB",
+        "note": "数値解析・工学定番"
+      },
+      {
+        "label": "X Window System",
+        "startYear": 1984,
+        "genre": [
+          "SOF"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/X_Window_System",
+        "note": "UNIX系のGUI基盤"
       }
     ],
     "1985": [
@@ -499,6 +3344,178 @@
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/エア・ジョーダン",
         "note": "NBA発の人気スニーカー"
+      },
+      {
+        "label": "Amiga 1000",
+        "startYear": 1985,
+        "genre": [
+          "HAR"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/Amiga_1000",
+        "note": "マルチメディア先駆"
+      },
+      {
+        "label": "Atari ST",
+        "startYear": 1985,
+        "genre": [
+          "HAR"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/Atari_ST",
+        "note": "MIDI対応で音楽界席巻"
+      },
+      {
+        "label": "スーパーマリオブラザーズ",
+        "startYear": 1985,
+        "genre": [
+          "GAM"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/スーパーマリオブラザーズ",
+        "note": "横スクACTの金字塔"
+      },
+      {
+        "label": "シティーハンター",
+        "startYear": 1985,
+        "endYear": 1991,
+        "genre": [
+          "MAN"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/シティーハンター",
+        "note": "ハードボイルドコメディ"
+      },
+      {
+        "label": "バック・トゥ・ザ・フューチャー",
+        "startYear": 1985,
+        "genre": [
+          "MOV"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/バック・トゥ・ザ・フューチャー",
+        "note": "タイム旅娯楽の金字塔"
+      },
+      {
+        "label": "AppleTalk",
+        "startYear": 1985,
+        "genre": [
+          "NET"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/AppleTalk",
+        "note": "Mac向けの簡易LAN"
+      },
+      {
+        "label": "NSFNET",
+        "startYear": 1985,
+        "genre": [
+          "NET"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/NSFNET",
+        "note": "学術バックボーン整備"
+      },
+      {
+        "label": "アスキーネット",
+        "startYear": 1985,
+        "genre": [
+          "NET"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/%E3%82%A2%E3%82%B9%E3%82%AD%E3%83%BC%E3%83%8D%E3%83%83%E3%83%88",
+        "note": "出版社運営のBBS網"
+      },
+      {
+        "label": "国際科学技術博覧会（つくば）",
+        "startYear": 1985,
+        "genre": [
+          "PHE"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/国際科学技術博覧会",
+        "note": "科学技術の祭典"
+      },
+      {
+        "label": "Microsoft Windows",
+        "startYear": 1985,
+        "genre": [
+          "SOF"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/Microsoft_Windows",
+        "note": "GUI普及を決定づけたOS"
+      },
+      {
+        "label": "AmigaOS",
+        "startYear": 1985,
+        "genre": [
+          "SOF"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/AmigaOS",
+        "note": "マルチメディア先駆OS"
+      },
+      {
+        "label": "C++",
+        "startYear": 1985,
+        "genre": [
+          "SOF"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/C%2B%2B",
+        "note": "大規模開発で広く利用"
+      },
+      {
+        "label": "Microsoft Excel",
+        "startYear": 1985,
+        "genre": [
+          "SOF"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/Microsoft_Excel",
+        "note": "表計算デファクト"
+      },
+      {
+        "label": "LaTeX",
+        "startYear": 1985,
+        "genre": [
+          "SOF"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/LaTeX",
+        "note": "TeXマクロで論文標準"
+      },
+      {
+        "label": "ニュースステーション",
+        "startYear": 1985,
+        "genre": [
+          "TVP"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/ニュースステーション",
+        "note": "民放夜の報道革新"
+      },
+      {
+        "label": "金曜ロードショー",
+        "startYear": 1985,
+        "genre": [
+          "TVP"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/金曜ロードショー",
+        "note": "映画枠の国民的ブランド"
+      },
+      {
+        "label": "ラリー・キング・ライブ",
+        "startYear": 1985,
+        "endYear": 2010,
+        "genre": [
+          "TVP"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/ラリー・キング・ライブ",
+        "note": "長寿対談番組の古典"
       }
     ],
     "1986": [
@@ -517,6 +3534,119 @@
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/ドラゴンボール_(アニメ)",
         "note": "少年バトル定番化"
+      },
+      {
+        "label": "ゼルダの伝説 (1986年のコンピュータゲーム)",
+        "startYear": 1986,
+        "genre": [
+          "GAM"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/ゼルダの伝説_(1986年のコンピュータゲーム)",
+        "note": "探索型ADVの嚆矢"
+      },
+      {
+        "label": "メトロイド (1986年のコンピュータゲーム)",
+        "startYear": 1986,
+        "genre": [
+          "GAM"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/メトロイド_(1986年のコンピュータゲーム)",
+        "note": "探索×アクション定番化"
+      },
+      {
+        "label": "ドラゴンクエスト",
+        "startYear": 1986,
+        "genre": [
+          "GAM"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/ドラゴンクエスト",
+        "note": "国民的RPGの出発点"
+      },
+      {
+        "label": "アウトラン",
+        "startYear": 1986,
+        "genre": [
+          "GAM"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/アウトラン",
+        "note": "体感ゲームの代表作"
+      },
+      {
+        "label": "聖闘士星矢",
+        "startYear": 1986,
+        "endYear": 1990,
+        "genre": [
+          "MAN"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/聖闘士星矢",
+        "note": "神話系バトルの礎"
+      },
+      {
+        "label": "プラトーン",
+        "startYear": 1986,
+        "genre": [
+          "MOV"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/プラトーン",
+        "note": "ベトナム戦争の衝撃"
+      },
+      {
+        "label": "メタル文化（メタリカ等）",
+        "startYear": 1986,
+        "genre": [
+          "MUS"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/メタル",
+        "note": "過激表現の大衆化"
+      },
+      {
+        "label": "IETF",
+        "startYear": 1986,
+        "genre": [
+          "NET"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/Internet_Engineering_Task_Force",
+        "note": "インターネット標準策定主体"
+      },
+      {
+        "label": "バブル景気",
+        "startYear": 1986,
+        "genre": [
+          "PHE"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/バブル景気",
+        "note": "資産高騰と消費拡大"
+      },
+      {
+        "label": "世界ふしぎ発見!",
+        "startYear": 1986,
+        "endYear": 2024,
+        "genre": [
+          "TVP"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/世界ふしぎ発見!",
+        "note": "教養×クイズの定番"
+      },
+      {
+        "label": "オプラ・ウィンフリー・ショー",
+        "startYear": 1986,
+        "endYear": 2011,
+        "genre": [
+          "TVP"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/オプラ・ウィンフリー・ショー",
+        "note": "米国昼トークの女王"
       }
     ],
     "1987": [
@@ -529,6 +3659,148 @@
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/ナイキ_エアマックス",
         "note": "可視エア搭載で革新"
+      },
+      {
+        "label": "X68000",
+        "startYear": 1987,
+        "genre": [
+          "HAR"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/X68000",
+        "note": "16ビットホビー象徴機"
+      },
+      {
+        "label": "PCエンジン",
+        "startYear": 1987,
+        "genre": [
+          "HAR"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/PC%E3%82%A8%E3%83%B3%E3%82%B8%E3%83%B3",
+        "note": "コンパクト高性能"
+      },
+      {
+        "label": "ファイナルファンタジー",
+        "startYear": 1987,
+        "genre": [
+          "GAM"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/ファイナルファンタジー",
+        "note": "国際的RPGブランド確立"
+      },
+      {
+        "label": "テレビブロス",
+        "startYear": 1987,
+        "endYear": 2020,
+        "genre": [
+          "MAG"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/テレビブロス",
+        "note": "TV×サブカル異色誌"
+      },
+      {
+        "label": "ジョジョの奇妙な冒険",
+        "startYear": 1987,
+        "endYear": 1987,
+        "genre": [
+          "MAN"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/ジョジョの奇妙な冒険",
+        "note": "独創表現と長期シリーズ"
+      },
+      {
+        "label": "U2『ヨシュア・トゥリー』",
+        "startYear": 1987,
+        "genre": [
+          "MUS"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/ヨシュア・トゥリー",
+        "note": "アリーナロック名盤"
+      },
+      {
+        "label": "NIFTY-Serve",
+        "startYear": 1987,
+        "genre": [
+          "NET"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/NIFTY-Serve",
+        "note": "日本最大級の商用BBS"
+      },
+      {
+        "label": "草の根BBS",
+        "startYear": 1987,
+        "genre": [
+          "NET"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/%E8%8D%89%E3%81%AE%E6%A0%B9BBS",
+        "note": "個人運営の小規模BBS群"
+      },
+      {
+        "label": "ノルウェイの森",
+        "startYear": 1987,
+        "genre": [
+          "NOV"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/ノルウェイの森",
+        "note": "喪失と成長の青春譚"
+      },
+      {
+        "label": "フリーター",
+        "startYear": 1987,
+        "genre": [
+          "PHE"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/フリーター",
+        "note": "非正規就労の一般化"
+      },
+      {
+        "label": "OS/2",
+        "startYear": 1987,
+        "genre": [
+          "SOF"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/OS/2",
+        "note": "IBMとMSの協業OS"
+      },
+      {
+        "label": "Perl",
+        "startYear": 1987,
+        "genre": [
+          "SOF"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/Perl",
+        "note": "テキスト処理で隆盛"
+      },
+      {
+        "label": "Microsoft PowerPoint",
+        "startYear": 1987,
+        "genre": [
+          "SOF"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/Microsoft_PowerPoint",
+        "note": "プレゼン文化を定着"
+      },
+      {
+        "label": "GNU Compiler Collection",
+        "startYear": 1987,
+        "genre": [
+          "SOF"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/GNU%E3%82%B3%E3%83%B3%E3%83%91%E3%82%A4%E3%83%A9%E3%82%B3%E3%83%AC%E3%82%AF%E3%82%B7%E3%83%A7%E3%83%B3",
+        "note": "OSSコンパイラ群の中心"
       }
     ],
     "1988": [
@@ -555,6 +3827,342 @@
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/銀河英雄伝説_(アニメ)",
         "note": "長大OVAの金字塔"
+      },
+      {
+        "label": "NeXTcube",
+        "startYear": 1988,
+        "genre": [
+          "HAR"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/NeXTcube",
+        "note": "WWW初サーバの母艦"
+      },
+      {
+        "label": "メガドライブ",
+        "startYear": 1988,
+        "genre": [
+          "HAR"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/%E3%83%A1%E3%82%AC%E3%83%89%E3%83%A9%E3%82%A4%E3%83%96",
+        "note": "16ビットでセガ躍進"
+      },
+      {
+        "label": "ドラゴンクエストIII そして伝説へ…",
+        "startYear": 1988,
+        "genre": [
+          "GAM"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/ドラゴンクエストIII_そして伝説へ…",
+        "note": "国民的RPGの頂点級"
+      },
+      {
+        "label": "Hanako",
+        "startYear": 1988,
+        "genre": [
+          "MAG"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/Hanako",
+        "note": "都市情報の女性誌"
+      },
+      {
+        "label": "SPA!",
+        "startYear": 1988,
+        "genre": [
+          "MAG"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/SPA!",
+        "note": "時事×カルチャー週刊"
+      },
+      {
+        "label": "寄生獣",
+        "startYear": 1988,
+        "endYear": 1995,
+        "genre": [
+          "MAN"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/寄生獣",
+        "note": "倫理観問うSFホラー"
+      },
+      {
+        "label": "機動警察パトレイバー",
+        "startYear": 1988,
+        "endYear": 1994,
+        "genre": [
+          "MAN"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/機動警察パトレイバー",
+        "note": "日常系ロボの先駆"
+      },
+      {
+        "label": "となりのトトロ",
+        "startYear": 1988,
+        "genre": [
+          "MOV"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/となりのトトロ",
+        "note": "日常系ファンタの名作"
+      },
+      {
+        "label": "AKIRA",
+        "startYear": 1988,
+        "genre": [
+          "MOV"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/AKIRA_(アニメ映画)",
+        "note": "サイバーパンク映像革命"
+      },
+      {
+        "label": "ニュー・シネマ・パラダイス",
+        "startYear": 1988,
+        "genre": [
+          "MOV"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/ニュー・シネマ・パラダイス",
+        "note": "映画愛を描く名作"
+      },
+      {
+        "label": "パブリック・エナミー『…ミリオンズ』",
+        "startYear": 1988,
+        "genre": [
+          "MUS"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/イット・テイクス・ア・ネイション・オブ・ミリオンズ・トゥ・ホールド・アス・バック",
+        "note": "政治性と音響革新"
+      },
+      {
+        "label": "N.W.A『ストレイト・アウタ…』",
+        "startYear": 1988,
+        "genre": [
+          "MUS"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/ストレイト・アウタ・コンプトン",
+        "note": "ウェッサイの衝撃"
+      },
+      {
+        "label": "WIDEプロジェクト",
+        "startYear": 1988,
+        "genre": [
+          "NET"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/WIDE%E3%83%97%E3%83%AD%E3%82%B8%E3%82%A7%E3%82%AF%E3%83%88",
+        "note": "技術標準と研究の拠点"
+      },
+      {
+        "label": "PC-VAN",
+        "startYear": 1988,
+        "genre": [
+          "NET"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/PC-VAN",
+        "note": "NEC系商用パソ通サービス"
+      },
+      {
+        "label": "リクルート事件",
+        "startYear": 1988,
+        "genre": [
+          "PHE"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/リクルート事件",
+        "note": "政財界揺るがす疑獄"
+      },
+      {
+        "label": "Mathematica",
+        "startYear": 1988,
+        "genre": [
+          "SOF"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/Mathematica",
+        "note": "計算知能プラットフォーム"
+      },
+      {
+        "label": "とんねるずのみなさんのおかげです",
+        "startYear": 1988,
+        "genre": [
+          "TVP"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/とんねるずのみなさんのおかげです",
+        "note": "90年代バラエティ旗艦"
+      }
+    ],
+    "1989": [
+      {
+        "label": "FM TOWNS",
+        "startYear": 1989,
+        "genre": [
+          "HAR"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/FM_TOWNS",
+        "note": "CD-ROM標準搭載の先駆"
+      },
+      {
+        "label": "ゲームボーイ",
+        "startYear": 1989,
+        "genre": [
+          "HAR"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/%E3%82%B2%E3%83%BC%E3%83%A0%E3%83%9C%E3%83%BC%E3%82%A4",
+        "note": "携帯ゲームの金字塔"
+      },
+      {
+        "label": "プリンス・オブ・ペルシャ",
+        "startYear": 1989,
+        "genre": [
+          "GAM"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/プリンス・オブ・ペルシャ",
+        "note": "滑らかアニメ表現革新"
+      },
+      {
+        "label": "シムシティ",
+        "startYear": 1989,
+        "genre": [
+          "GAM"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/シムシティ",
+        "note": "都市シムの源流"
+      },
+      {
+        "label": "CUTiE",
+        "startYear": 1989,
+        "endYear": 2015,
+        "genre": [
+          "MAG"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/CUTiE",
+        "note": "ガーリー路線の草分け"
+      },
+      {
+        "label": "Cut",
+        "startYear": 1989,
+        "genre": [
+          "MAG"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/Cut_(雑誌)",
+        "note": "映画×カルチャー月刊"
+      },
+      {
+        "label": "ベルセルク",
+        "startYear": 1989,
+        "genre": [
+          "MAN"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/ベルセルク",
+        "note": "ダークファンタジー金字塔"
+      },
+      {
+        "label": "美空ひばり「川の流れのように」",
+        "startYear": 1989,
+        "genre": [
+          "MUS"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/川の流れのように",
+        "note": "国民的歌手の代表曲"
+      },
+      {
+        "label": "World Wide Web",
+        "startYear": 1989,
+        "genre": [
+          "NET"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/World_Wide_Web",
+        "note": "ハイパーテキストのWeb"
+      },
+      {
+        "label": "BGP",
+        "startYear": 1989,
+        "genre": [
+          "NET"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/Border_Gateway_Protocol",
+        "note": "自律系間の経路制御"
+      },
+      {
+        "label": "PPP",
+        "startYear": 1989,
+        "genre": [
+          "NET"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/Point-to-Point_Protocol",
+        "note": "ダイヤルアップの定番"
+      },
+      {
+        "label": "AOL",
+        "startYear": 1989,
+        "genre": [
+          "NET"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/AOL",
+        "note": "米オンラインサービス巨大手"
+      },
+      {
+        "label": "NeXTSTEP",
+        "startYear": 1989,
+        "genre": [
+          "SOF"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/NeXTSTEP",
+        "note": "後のmacOS基盤を形成"
+      },
+      {
+        "label": "カノッサの屈辱",
+        "startYear": 1989,
+        "endYear": 1990,
+        "genre": [
+          "TVP"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/カノッサの屈辱",
+        "note": "知的パロディ紀行"
+      },
+      {
+        "label": "NHKスペシャル",
+        "startYear": 1989,
+        "genre": [
+          "TVP"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/NHKスペシャル",
+        "note": "NHK大型ドキュメンタリー"
+      },
+      {
+        "label": "筑紫哲也NEWS23",
+        "startYear": 1989,
+        "genre": [
+          "TVP"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/筑紫哲也NEWS23",
+        "note": "硬派夜ニュースの象徴"
       }
     ],
     "1990": [
@@ -577,6 +4185,261 @@
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/日本のストリートファッション",
         "note": "90年代世界的注目"
+      },
+      {
+        "label": "スーパーファミコン",
+        "startYear": 1990,
+        "genre": [
+          "HAR"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%95%E3%82%A1%E3%83%9F%E3%82%B3%E3%83%B3",
+        "note": "16ビット時代の主役"
+      },
+      {
+        "label": "ネオジオ (ゲーム機)",
+        "startYear": 1990,
+        "genre": [
+          "HAR"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/%E3%83%8D%E3%82%AA%E3%82%B8%E3%82%AA_%28%E3%82%B2%E3%83%BC%E3%83%A0%E6%A9%9F%29",
+        "note": "業務用同等を家庭で"
+      },
+      {
+        "label": "幽☆遊☆白書",
+        "startYear": 1990,
+        "endYear": 1994,
+        "genre": [
+          "MAN"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/幽☆遊☆白書",
+        "note": "霊界バトルで人気爆発"
+      },
+      {
+        "label": "スラムダンク",
+        "startYear": 1990,
+        "genre": [
+          "MAN"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/SLAM_DUNK",
+        "note": "バスケ熱を全国区に"
+      },
+      {
+        "label": "国際花と緑の博覧会（大阪）",
+        "startYear": 1990,
+        "genre": [
+          "PHE"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/国際花と緑の博覧会",
+        "note": "花と緑の国際博"
+      },
+      {
+        "label": "コギャル",
+        "startYear": 1990,
+        "genre": [
+          "PHE"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/コギャル",
+        "note": "渋谷発の女子文化"
+      },
+      {
+        "label": "日本の少子化",
+        "startYear": 1990,
+        "genre": [
+          "PHE"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/日本の少子化",
+        "note": "人口動態の最重要課題"
+      },
+      {
+        "label": "Adobe Photoshop",
+        "startYear": 1990,
+        "genre": [
+          "SOF"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/Adobe_Photoshop",
+        "note": "デジタル画像編集の王道"
+      },
+      {
+        "label": "渡る世間は鬼ばかり",
+        "startYear": 1990,
+        "genre": [
+          "TVP"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/渡る世間は鬼ばかり",
+        "note": "家族群像の長寿劇"
+      },
+      {
+        "label": "ツイン・ピークス",
+        "startYear": 1990,
+        "endYear": 1991,
+        "genre": [
+          "TVP"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/ツイン・ピークス",
+        "note": "ミステリ群像の金字塔"
+      }
+    ],
+    "1991": [
+      {
+        "label": "ストリートファイターII",
+        "startYear": 1991,
+        "genre": [
+          "GAM"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/ストリートファイターII",
+        "note": "対戦格闘ブーム創出"
+      },
+      {
+        "label": "ソニック・ザ・ヘッジホッグ (1991年のゲーム)",
+        "startYear": 1991,
+        "genre": [
+          "GAM"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/ソニック・ザ・ヘッジホッグ_(1991年のゲーム)",
+        "note": "高速横スクの代名詞"
+      },
+      {
+        "label": "DOS/V POWER REPORT",
+        "startYear": 1991,
+        "genre": [
+          "MAG"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/DOS/V_POWER_REPORT",
+        "note": "自作PC専門誌"
+      },
+      {
+        "label": "美少女戦士セーラームーン",
+        "startYear": 1991,
+        "endYear": 1997,
+        "genre": [
+          "MAN"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/美少女戦士セーラームーン",
+        "note": "少女ヒロイン像革新"
+      },
+      {
+        "label": "羊たちの沈黙",
+        "startYear": 1991,
+        "genre": [
+          "MOV"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/羊たちの沈黙",
+        "note": "心理スリラーの頂点"
+      },
+      {
+        "label": "ニルヴァーナ『ネヴァーマインド』",
+        "startYear": 1991,
+        "genre": [
+          "MUS"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/ネヴァーマインド",
+        "note": "グランジが世界席巻"
+      },
+      {
+        "label": "グランジ",
+        "startYear": 1991,
+        "genre": [
+          "MUS"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/グランジ",
+        "note": "オルタナ主流化の象徴"
+      },
+      {
+        "label": "HTTP",
+        "startYear": 1991,
+        "genre": [
+          "NET"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/Hypertext_Transfer_Protocol",
+        "note": "Webを支える通信規格"
+      },
+      {
+        "label": "Gopher",
+        "startYear": 1991,
+        "genre": [
+          "NET"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/Gopher",
+        "note": "前Web時代の情報公開"
+      },
+      {
+        "label": "WAIS",
+        "startYear": 1991,
+        "genre": [
+          "NET"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/WAIS",
+        "note": "全文検索の先駆け"
+      },
+      {
+        "label": "バブル崩壊",
+        "startYear": 1991,
+        "genre": [
+          "PHE"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/バブル崩壊",
+        "note": "長期不況の起点"
+      },
+      {
+        "label": "失われた30年",
+        "startYear": 1991,
+        "genre": [
+          "PHE"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/失われた30年",
+        "note": "低成長長期化の比喩"
+      },
+      {
+        "label": "Linux",
+        "startYear": 1991,
+        "genre": [
+          "SOF"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/Linux",
+        "note": "OSSカーネルとその潮流"
+      },
+      {
+        "label": "Python",
+        "startYear": 1991,
+        "genre": [
+          "SOF"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/Python",
+        "note": "汎用・AIで事実上標準"
+      },
+      {
+        "label": "Vim",
+        "startYear": 1991,
+        "genre": [
+          "SOF"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/Vim",
+        "note": "vi互換で拡張豊富"
       }
     ],
     "1992": [
@@ -587,6 +4450,66 @@
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/美少女戦士セーラームーン_(アニメ)",
         "note": "変身ヒロイン再定義"
+      },
+      {
+        "label": "BARFOUT!",
+        "startYear": 1992,
+        "genre": [
+          "MAG"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/BARFOUT%21",
+        "note": "表現者を追う写真誌"
+      },
+      {
+        "label": "ドクター・ドレー『The Chronic』",
+        "startYear": 1992,
+        "genre": [
+          "MUS"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/The_Chronic",
+        "note": "Gファンク定義作"
+      },
+      {
+        "label": "エレクトロニカ/IDM",
+        "startYear": 1992,
+        "genre": [
+          "MUS"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/エレクトロニカ",
+        "note": "実験電子音楽の潮流"
+      },
+      {
+        "label": "Solaris",
+        "startYear": 1992,
+        "genre": [
+          "SOF"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/Solaris",
+        "note": "UNIX系商用OSの代表"
+      },
+      {
+        "label": "OpenGL",
+        "startYear": 1992,
+        "genre": [
+          "SOF"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/OpenGL",
+        "note": "3D描画APIの標準"
+      },
+      {
+        "label": "進め!電波少年",
+        "startYear": 1992,
+        "genre": [
+          "TVP"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/進め!電波少年",
+        "note": "体当たりバラエティ"
       }
     ],
     "1993": [
@@ -599,6 +4522,372 @@
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/プリーツ_プリーズ_イッセイ_ミヤケ",
         "note": "永久プリーツの日常服"
+      },
+      {
+        "label": "Newton MessagePad",
+        "startYear": 1993,
+        "genre": [
+          "HAR"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/Newton_MessagePad",
+        "note": "早すぎたPDAの嚆矢"
+      },
+      {
+        "label": "バーチャファイター",
+        "startYear": 1993,
+        "genre": [
+          "GAM"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/バーチャファイター",
+        "note": "3D格闘の幕開け"
+      },
+      {
+        "label": "Doom (1993年のコンピュータゲーム)",
+        "startYear": 1993,
+        "genre": [
+          "GAM"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/Doom_(1993年のコンピュータゲーム)",
+        "note": "FPS普及の決定打"
+      },
+      {
+        "label": "Myst",
+        "startYear": 1993,
+        "genre": [
+          "GAM"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/Myst",
+        "note": "CD-ROM時代の象徴作"
+      },
+      {
+        "label": "聖剣伝説2",
+        "startYear": 1993,
+        "genre": [
+          "GAM"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/聖剣伝説2",
+        "note": "アクションRPG名作"
+      },
+      {
+        "label": "ロマンシング サ・ガ2",
+        "startYear": 1993,
+        "genre": [
+          "GAM"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/ロマンシング_サ・ガ2",
+        "note": "独創的継承システム"
+      },
+      {
+        "label": "ゼルダの伝説 夢をみる島",
+        "startYear": 1993,
+        "genre": [
+          "GAM"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/ゼルダの伝説_夢をみる島",
+        "note": "携帯機ADVの秀作"
+      },
+      {
+        "label": "WIRED",
+        "startYear": 1993,
+        "genre": [
+          "MAG"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/WIRED",
+        "note": "デジタル文化の象徴誌"
+      },
+      {
+        "label": "Zipper",
+        "startYear": 1993,
+        "endYear": 2017,
+        "genre": [
+          "MAG"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/Zipper",
+        "note": "原宿女子カルチャー"
+      },
+      {
+        "label": "ジュラシック・パーク",
+        "startYear": 1993,
+        "genre": [
+          "MOV"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/ジュラシック・パーク",
+        "note": "CG恐竜で新時代"
+      },
+      {
+        "label": "シンドラーのリスト",
+        "startYear": 1993,
+        "genre": [
+          "MOV"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/シンドラーのリスト",
+        "note": "ホロコースト悲劇描写"
+      },
+      {
+        "label": "情報スーパーハイウェイ構想",
+        "startYear": 1993,
+        "genre": [
+          "NET"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/%E6%83%85%E5%A0%B1%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%8F%E3%82%A4%E3%82%A6%E3%82%A7%E3%82%A4%E6%A7%8B%E6%83%B3",
+        "note": "米国の国家情報基盤構想"
+      },
+      {
+        "label": "就職氷河期",
+        "startYear": 1993,
+        "genre": [
+          "PHE"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/就職氷河期",
+        "note": "若年雇用の厳冬期"
+      },
+      {
+        "label": "Adobe Acrobat",
+        "startYear": 1993,
+        "genre": [
+          "SOF"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/Adobe_Acrobat",
+        "note": "PDF普及の牽引役"
+      },
+      {
+        "label": "NCSA Mosaic",
+        "startYear": 1993,
+        "genre": [
+          "SOF"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/NCSA_Mosaic",
+        "note": "初期Web普及を加速"
+      },
+      {
+        "label": "料理の鉄人",
+        "startYear": 1993,
+        "genre": [
+          "TVP"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/料理の鉄人",
+        "note": "料理対決番組の金字塔"
+      },
+      {
+        "label": "クローズアップ現代",
+        "startYear": 1993,
+        "genre": [
+          "TVP"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/クローズアップ現代",
+        "note": "現代課題の深掘り報道"
+      },
+      {
+        "label": "NHKニュース7",
+        "startYear": 1993,
+        "genre": [
+          "TVP"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/NHKニュース7",
+        "note": "NHKの看板ニュース"
+      },
+      {
+        "label": "天才てれびくん",
+        "startYear": 1993,
+        "genre": [
+          "TVP"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/天才てれびくん",
+        "note": "児童向けバラエティ枠"
+      }
+    ],
+    "1994": [
+      {
+        "label": "PlayStation",
+        "startYear": 1994,
+        "genre": [
+          "HAR"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/PlayStation",
+        "note": "CD時代を牽引"
+      },
+      {
+        "label": "セガサターン",
+        "startYear": 1994,
+        "genre": [
+          "HAR"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/%E3%82%BB%E3%82%AC%E3%82%B5%E3%82%BF%E3%83%BC%E3%83%B3",
+        "note": "2D性能とCDの融合"
+      },
+      {
+        "label": "MOTHER2 ギーグの逆襲",
+        "startYear": 1994,
+        "genre": [
+          "GAM"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/MOTHER2_ギーグの逆襲",
+        "note": "個性派RPGの金字塔"
+      },
+      {
+        "label": "ときめきメモリアル",
+        "startYear": 1994,
+        "genre": [
+          "GAM"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/ときめきメモリアル",
+        "note": "恋愛SLGの礎"
+      },
+      {
+        "label": "Quick Japan",
+        "startYear": 1994,
+        "genre": [
+          "MAG"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/Quick_Japan",
+        "note": "サブカル総合インタビュー"
+      },
+      {
+        "label": "MONSTER",
+        "startYear": 1994,
+        "endYear": 2001,
+        "genre": [
+          "MAN"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/MONSTER",
+        "note": "本格サスペンスの傑作"
+      },
+      {
+        "label": "るろうに剣心",
+        "startYear": 1994,
+        "endYear": 1999,
+        "genre": [
+          "MAN"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/るろうに剣心",
+        "note": "明治剣客活劇の定番"
+      },
+      {
+        "label": "パルプ・フィクション",
+        "startYear": 1994,
+        "genre": [
+          "MOV"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/パルプ・フィクション",
+        "note": "ポップで斬新な構成"
+      },
+      {
+        "label": "ショーシャンクの空に",
+        "startYear": 1994,
+        "genre": [
+          "MOV"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/ショーシャンクの空に",
+        "note": "希望と友情の物語"
+      },
+      {
+        "label": "ブリットポップ",
+        "startYear": 1994,
+        "genre": [
+          "MUS"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/ブリットポップ",
+        "note": "英国的ポップの復権"
+      },
+      {
+        "label": "W3C",
+        "startYear": 1994,
+        "genre": [
+          "NET"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/World_Wide_Web_Consortium",
+        "note": "Web標準化コンソーシアム"
+      },
+      {
+        "label": "Yahoo!",
+        "startYear": 1994,
+        "genre": [
+          "NET"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/Yahoo!",
+        "note": "初期Webの大型ポータル"
+      },
+      {
+        "label": "ジオシティーズ",
+        "startYear": 1994,
+        "genre": [
+          "NET"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/%E3%82%B8%E3%82%AA%E3%82%B7%E3%83%86%E3%82%A3%E3%83%BC%E3%82%BA",
+        "note": "個人ホームページの隆盛"
+      },
+      {
+        "label": "ねじまき鳥クロニクル",
+        "startYear": 1994,
+        "genre": [
+          "NOV"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/ねじまき鳥クロニクル",
+        "note": "喪失と戦争が交錯"
+      },
+      {
+        "label": "Netscape Navigator",
+        "startYear": 1994,
+        "genre": [
+          "SOF"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/Netscape%E3%82%B7%E3%83%AA%E3%83%BC%E3%82%BA",
+        "note": "商用Webの黎明を牽引"
+      },
+      {
+        "label": "開運!なんでも鑑定団",
+        "startYear": 1994,
+        "genre": [
+          "TVP"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/開運!なんでも鑑定団",
+        "note": "骨董鑑定の草分け"
+      },
+      {
+        "label": "フレンズ (1994年のテレビドラマ)",
+        "startYear": 1994,
+        "endYear": 2004,
+        "genre": [
+          "TVP"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/フレンズ_(1994年のテレビドラマ)",
+        "note": "シットコムの代表格"
       }
     ],
     "1995": [
@@ -637,6 +4926,290 @@
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/ロリータ・ファッション",
         "note": "少女趣味の装飾系スタイル"
+      },
+      {
+        "label": "クロノ・トリガー",
+        "startYear": 1995,
+        "genre": [
+          "GAM"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/クロノ・トリガー",
+        "note": "時空RPGの名作"
+      },
+      {
+        "label": "映画秘宝",
+        "startYear": 1995,
+        "genre": [
+          "MAG"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/映画秘宝",
+        "note": "カルト映画愛の拠点"
+      },
+      {
+        "label": "トイ・ストーリー",
+        "startYear": 1995,
+        "genre": [
+          "MOV"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/トイ・ストーリー",
+        "note": "長編CGアニメの嚆矢"
+      },
+      {
+        "label": "オアシス『モーニング・グローリー』",
+        "startYear": 1995,
+        "genre": [
+          "MUS"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/(What%27s_the_Story)_Morning_Glory%3F",
+        "note": "ブリットポップ頂点"
+      },
+      {
+        "label": "阪神・淡路大震災",
+        "startYear": 1995,
+        "genre": [
+          "PHE"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/阪神・淡路大震災",
+        "note": "都市直下型の被害"
+      },
+      {
+        "label": "地下鉄サリン事件",
+        "startYear": 1995,
+        "genre": [
+          "PHE"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/地下鉄サリン事件",
+        "note": "化学テロの衝撃"
+      },
+      {
+        "label": "Java",
+        "startYear": 1995,
+        "genre": [
+          "SOF"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/Java",
+        "note": "WORA理念で企業利用拡大"
+      },
+      {
+        "label": "JavaScript",
+        "startYear": 1995,
+        "genre": [
+          "SOF"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/JavaScript",
+        "note": "Webの標準スクリプト"
+      },
+      {
+        "label": "Ruby",
+        "startYear": 1995,
+        "genre": [
+          "SOF"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/Ruby",
+        "note": "日本発の動的言語"
+      },
+      {
+        "label": "MySQL",
+        "startYear": 1995,
+        "genre": [
+          "SOF"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/MySQL",
+        "note": "Web時代の定番RDBMS"
+      },
+      {
+        "label": "Apache HTTP Server",
+        "startYear": 1995,
+        "genre": [
+          "SOF"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/Apache_HTTP_Server",
+        "note": "Webサーバ界の古参主力"
+      },
+      {
+        "label": "Secure Shell",
+        "startYear": 1995,
+        "genre": [
+          "SOF"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/Secure_Shell",
+        "note": "安全なリモート接続基盤"
+      },
+      {
+        "label": "Internet Explorer",
+        "startYear": 1995,
+        "genre": [
+          "SOF"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/Internet_Explorer",
+        "note": "ブラウザ戦争の主役"
+      },
+      {
+        "label": "Qt",
+        "startYear": 1995,
+        "genre": [
+          "SOF"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/Qt",
+        "note": "クロスプラットフォームGUI"
+      },
+      {
+        "label": "DirectX",
+        "startYear": 1995,
+        "genre": [
+          "SOF"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/DirectX",
+        "note": "Windowsマルチメディア基盤"
+      }
+    ],
+    "1996": [
+      {
+        "label": "ニンテンドー64",
+        "startYear": 1996,
+        "genre": [
+          "HAR"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/%E3%83%8B%E3%83%B3%E3%83%86%E3%83%B3%E3%83%89%E3%83%BC64",
+        "note": "3Dポリゴン時代を推進"
+      },
+      {
+        "label": "PalmPilot",
+        "startYear": 1996,
+        "genre": [
+          "HAR"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/PalmPilot",
+        "note": "PDAの代名詞的存在"
+      },
+      {
+        "label": "スーパーマリオ64",
+        "startYear": 1996,
+        "genre": [
+          "GAM"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/スーパーマリオ64",
+        "note": "3Dアクション設計の礎"
+      },
+      {
+        "label": "ポケットモンスター 赤・緑",
+        "startYear": 1996,
+        "genre": [
+          "GAM"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/ポケットモンスター_赤・緑",
+        "note": "収集交換文化を確立"
+      },
+      {
+        "label": "バイオハザード (1996年のコンピュータゲーム)",
+        "startYear": 1996,
+        "genre": [
+          "GAM"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/バイオハザード_(1996年のコンピュータゲーム)",
+        "note": "サバイバルホラー確立"
+      },
+      {
+        "label": "Quake",
+        "startYear": 1996,
+        "genre": [
+          "GAM"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/Quake",
+        "note": "3Dエンジン時代を牽引"
+      },
+      {
+        "label": "遊☆戯☆王",
+        "startYear": 1996,
+        "endYear": 2004,
+        "genre": [
+          "MAN"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/遊☆戯☆王",
+        "note": "TCG文化を世界拡大"
+      },
+      {
+        "label": "カードキャプターさくら",
+        "startYear": 1996,
+        "endYear": 2000,
+        "genre": [
+          "MAN"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/カードキャプターさくら",
+        "note": "魔法少女の新定番"
+      },
+      {
+        "label": "Yahoo! JAPAN",
+        "startYear": 1996,
+        "genre": [
+          "NET"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/Yahoo!_JAPAN",
+        "note": "日本最大級のポータル"
+      },
+      {
+        "label": "Hotmail",
+        "startYear": 1996,
+        "genre": [
+          "NET"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/Hotmail",
+        "note": "Webメール普及の立役者"
+      },
+      {
+        "label": "PostgreSQL",
+        "startYear": 1996,
+        "genre": [
+          "SOF"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/PostgreSQL",
+        "note": "拡張性重視のRDBMS"
+      },
+      {
+        "label": "水曜どうでしょう",
+        "startYear": 1996,
+        "genre": [
+          "TVP"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/水曜どうでしょう",
+        "note": "旅バラエティの金字塔"
+      },
+      {
+        "label": "めちゃ×2イケてるッ!",
+        "startYear": 1996,
+        "genre": [
+          "TVP"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/めちゃ×2イケてるッ!",
+        "note": "平成お笑いの象徴枠"
       }
     ],
     "1997": [
@@ -673,6 +5246,127 @@
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/銃・病原菌・鉄",
         "note": "人類史の比較論的解読"
+      },
+      {
+        "label": "グランツーリスモ (ゲーム)",
+        "startYear": 1997,
+        "genre": [
+          "GAM"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/グランツーリスモ_(ゲーム)",
+        "note": "リアル系レースの標準"
+      },
+      {
+        "label": "ファイナルファンタジーVII",
+        "startYear": 1997,
+        "genre": [
+          "GAM"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/ファイナルファンタジーVII",
+        "note": "RPGの映画的表現拡張"
+      },
+      {
+        "label": "悪魔城ドラキュラX 月下の夜想曲",
+        "startYear": 1997,
+        "genre": [
+          "GAM"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/悪魔城ドラキュラX_月下の夜想曲",
+        "note": "探索型ACTの礎"
+      },
+      {
+        "label": "FRUiTS",
+        "startYear": 1997,
+        "endYear": 2017,
+        "genre": [
+          "MAG"
+        ],
+        "imp": 5,
+        "url": "https://en.wikipedia.org/wiki/Fruits_(magazine)",
+        "note": "原宿ストリートの記録"
+      },
+      {
+        "label": "ONE_PIECE",
+        "startYear": 1997,
+        "genre": [
+          "MAN"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/ONE_PIECE",
+        "note": "海洋冒険の世界的人気"
+      },
+      {
+        "label": "タイタニック",
+        "startYear": 1997,
+        "genre": [
+          "MOV"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/タイタニック_(1997年の映画)",
+        "note": "海難ロマンス超大作"
+      },
+      {
+        "label": "レディオヘッド『OK Computer』",
+        "startYear": 1997,
+        "genre": [
+          "MUS"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/OK_Computer",
+        "note": "90年代ロックの金字塔"
+      },
+      {
+        "label": "Wi-Fi",
+        "startYear": 1997,
+        "genre": [
+          "NET"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/Wi-Fi",
+        "note": "無線LANの事実上標準"
+      },
+      {
+        "label": "JPNIC",
+        "startYear": 1997,
+        "genre": [
+          "NET"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/%E6%97%A5%E6%9C%AC%E3%83%8D%E3%83%83%E3%83%88%E3%83%AF%E3%83%BC%E3%82%AF%E3%82%A4%E3%83%B3%E3%83%95%E3%82%A9%E3%83%A1%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3%E3%82%BB%E3%83%B3%E3%82%BF%E3%83%BC",
+        "note": "日本のIP資源管理機関"
+      },
+      {
+        "label": "ハリー・ポッターと賢者の石",
+        "startYear": 1997,
+        "genre": [
+          "NOV"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/ハリー・ポッターと賢者の石",
+        "note": "児童ファンタジー新時代"
+      },
+      {
+        "label": "Microsoft Visual Studio",
+        "startYear": 1997,
+        "genre": [
+          "SOF"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/Microsoft_Visual_Studio",
+        "note": "商用IDEの代表格"
+      },
+      {
+        "label": "Postfix",
+        "startYear": 1997,
+        "genre": [
+          "SOF"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/Postfix",
+        "note": "安全性重視のMTA"
       }
     ],
     "1998": [
@@ -683,6 +5377,312 @@
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/カウボーイビバップ",
         "note": "世界評価のTVシリーズ"
+      },
+      {
+        "label": "ドリームキャスト",
+        "startYear": 1998,
+        "genre": [
+          "HAR"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/%E3%83%89%E3%83%AA%E3%83%BC%E3%83%A0%E3%82%AD%E3%83%A3%E3%82%B9%E3%83%88",
+        "note": "ネット接続先駆"
+      },
+      {
+        "label": "ゼルダの伝説 時のオカリナ",
+        "startYear": 1998,
+        "genre": [
+          "GAM"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/ゼルダの伝説_時のオカリナ",
+        "note": "3Dゲーム設計に革新"
+      },
+      {
+        "label": "メタルギアソリッド",
+        "startYear": 1998,
+        "genre": [
+          "GAM"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/メタルギアソリッド",
+        "note": "ステルスACTの金字塔"
+      },
+      {
+        "label": "Half-Life",
+        "startYear": 1998,
+        "genre": [
+          "GAM"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/Half-Life",
+        "note": "物語主導FPSの確立"
+      },
+      {
+        "label": "スタークラフト",
+        "startYear": 1998,
+        "genre": [
+          "GAM"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/スタークラフト",
+        "note": "eスポRTSの基盤"
+      },
+      {
+        "label": "ゼノギアス",
+        "startYear": 1998,
+        "genre": [
+          "GAM"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/ゼノギアス",
+        "note": "重厚SFと戦闘融合"
+      },
+      {
+        "label": "アックス",
+        "startYear": 1998,
+        "genre": [
+          "MAG"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/アックス_(雑誌)",
+        "note": "ガロ系継承の場"
+      },
+      {
+        "label": "KERA",
+        "startYear": 1998,
+        "endYear": 2017,
+        "genre": [
+          "MAG"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/KERA",
+        "note": "ゴスロリ文化の核"
+      },
+      {
+        "label": "HUNTER×HUNTER",
+        "startYear": 1998,
+        "genre": [
+          "MAN"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/HUNTER×HUNTER",
+        "note": "緻密設定の冒険譚"
+      },
+      {
+        "label": "ICANN",
+        "startYear": 1998,
+        "genre": [
+          "NET"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/ICANN",
+        "note": "ドメイン等の調整機関"
+      },
+      {
+        "label": "Google",
+        "startYear": 1998,
+        "genre": [
+          "NET"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/Google",
+        "note": "Web検索の事実上標準"
+      },
+      {
+        "label": "1998年長野オリンピック",
+        "startYear": 1998,
+        "genre": [
+          "PHE"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/1998年長野オリンピック",
+        "note": "長野で開催の冬季"
+      },
+      {
+        "label": "OpenSSL",
+        "startYear": 1998,
+        "genre": [
+          "SOF"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/OpenSSL",
+        "note": "SSL/TLS実装の事実上標準"
+      },
+      {
+        "label": "GTK",
+        "startYear": 1998,
+        "genre": [
+          "SOF"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/GTK",
+        "note": "GNOME系のGUIツールキット"
+      },
+      {
+        "label": "情熱大陸",
+        "startYear": 1998,
+        "genre": [
+          "TVP"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/情熱大陸",
+        "note": "人物密着ドキュメンタリー"
+      }
+    ],
+    "1999": [
+      {
+        "label": "BlackBerry",
+        "startYear": 1999,
+        "genre": [
+          "HAR"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/BlackBerry",
+        "note": "モバイルメール普及"
+      },
+      {
+        "label": "シェンムー 一章 横須賀",
+        "startYear": 1999,
+        "genre": [
+          "GAM"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/シェンムー_一章_横須賀",
+        "note": "生活感ある世界表現"
+      },
+      {
+        "label": "スペクテイター",
+        "startYear": 1999,
+        "genre": [
+          "MAG"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/スペクテイター_(1999年創刊の雑誌)",
+        "note": "一冊一特集の教養誌"
+      },
+      {
+        "label": "サイゾー",
+        "startYear": 1999,
+        "genre": [
+          "MAG"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/サイゾー",
+        "note": "メディア批評の情報誌"
+      },
+      {
+        "label": "20世紀少年",
+        "startYear": 1999,
+        "endYear": 2006,
+        "genre": [
+          "MAN"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/20世紀少年",
+        "note": "世紀末ミステリー群像"
+      },
+      {
+        "label": "NARUTO -ナルト-",
+        "startYear": 1999,
+        "endYear": 2014,
+        "genre": [
+          "MAN"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/NARUTO_-ナルト-",
+        "note": "忍者バトルの国際的成功"
+      },
+      {
+        "label": "マトリックス",
+        "startYear": 1999,
+        "genre": [
+          "MOV"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/マトリックス",
+        "note": "SFアクションの革新"
+      },
+      {
+        "label": "宇多田ヒカル『First Love』",
+        "startYear": 1999,
+        "genre": [
+          "MUS"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/First_Love_(宇多田ヒカルのアルバム)",
+        "note": "国内史上級セールス"
+      },
+      {
+        "label": "モーニング娘。「LOVEマシーン」",
+        "startYear": 1999,
+        "genre": [
+          "MUS"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/LOVEマシーン",
+        "note": "アイドル再ブーム象徴"
+      },
+      {
+        "label": "2ちゃんねる",
+        "startYear": 1999,
+        "genre": [
+          "NET"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/2%E3%81%A1%E3%82%83%E3%82%93%E3%81%AD%E3%82%8B",
+        "note": "匿名巨大掲示板文化"
+      },
+      {
+        "label": "ニート",
+        "startYear": 1999,
+        "genre": [
+          "PHE"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/ニート",
+        "note": "社会参加の課題概念"
+      },
+      {
+        "label": "Iモード",
+        "startYear": 1999,
+        "genre": [
+          "PHE"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/Iモード",
+        "note": "携帯インターネット普及"
+      },
+      {
+        "label": "2000年問題",
+        "startYear": 1999,
+        "genre": [
+          "PHE"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/2000年問題",
+        "note": "Y2K対応の社会的課題"
+      },
+      {
+        "label": "VMware",
+        "startYear": 1999,
+        "genre": [
+          "SOF"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/VMware",
+        "note": "PC仮想化を一般化"
+      },
+      {
+        "label": "ザ・ソプラノズ",
+        "startYear": 1999,
+        "endYear": 2007,
+        "genre": [
+          "TVP"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/ザ・ソプラノズ",
+        "note": "黄金期TVドラマの象徴"
       }
     ],
     "2000": [
@@ -695,6 +5695,240 @@
         "imp": 3,
         "url": "https://ja.wikipedia.org/wiki/ゴシック・アンド・ロリータ",
         "note": "黒基調の退廃的様式"
+      },
+      {
+        "label": "PlayStation 2",
+        "startYear": 2000,
+        "genre": [
+          "HAR"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/PlayStation_2",
+        "note": "史上最多販売据置機"
+      },
+      {
+        "label": "The Sims",
+        "startYear": 2000,
+        "genre": [
+          "GAM"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/ザ・シムズ",
+        "note": "人間シムの新領域"
+      },
+      {
+        "label": "カウンターストライク",
+        "startYear": 2000,
+        "genre": [
+          "GAM"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/カウンターストライク",
+        "note": "対戦FPSの定番へ"
+      },
+      {
+        "label": "Diablo II",
+        "startYear": 2000,
+        "genre": [
+          "GAM"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/ディアブロII",
+        "note": "ハクスラ定番を確立"
+      },
+      {
+        "label": "ガラパゴス携帯電話",
+        "startYear": 2000,
+        "genre": [
+          "PHE"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/ガラパゴス携帯電話",
+        "note": "独自進化の象徴語"
+      },
+      {
+        "label": "SQLite",
+        "startYear": 2000,
+        "genre": [
+          "SOF"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/SQLite",
+        "note": "組込みで広く採用"
+      },
+      {
+        "label": "OpenCV",
+        "startYear": 2000,
+        "genre": [
+          "SOF"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/OpenCV",
+        "note": "画像処理の標準ライブラリ"
+      },
+      {
+        "label": "プロジェクトX〜挑戦者たち〜",
+        "startYear": 2000,
+        "genre": [
+          "TVP"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/プロジェクトX〜挑戦者たち〜",
+        "note": "技術者群像の名作"
+      }
+    ],
+    "2001": [
+      {
+        "label": "ニンテンドーゲームキューブ",
+        "startYear": 2001,
+        "genre": [
+          "HAR"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/%E3%83%8B%E3%83%B3%E3%83%86%E3%83%B3%E3%83%89%E3%83%BC%E3%82%B2%E3%83%BC%E3%83%A0%E3%82%AD%E3%83%A5%E3%83%BC%E3%83%96",
+        "note": "小型光ディスク採用"
+      },
+      {
+        "label": "ゲームボーイアドバンス",
+        "startYear": 2001,
+        "genre": [
+          "HAR"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/%E3%82%B2%E3%83%BC%E3%83%A0%E3%83%9C%E3%83%BC%E3%82%A4%E3%82%A2%E3%83%89%E3%83%90%E3%83%B3%E3%82%B9",
+        "note": "高性能携帯機へ進化"
+      },
+      {
+        "label": "iPod",
+        "startYear": 2001,
+        "genre": [
+          "HAR"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/IPod",
+        "note": "音楽配信時代を牽引"
+      },
+      {
+        "label": "グランド・セフト・オートIII",
+        "startYear": 2001,
+        "genre": [
+          "GAM"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/グランド・セフト・オートIII",
+        "note": "オープンワールド定義"
+      },
+      {
+        "label": "Halo: Combat Evolved",
+        "startYear": 2001,
+        "genre": [
+          "GAM"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/Halo:_Combat_Evolved",
+        "note": "家庭用FPSの標準化"
+      },
+      {
+        "label": "どうぶつの森",
+        "startYear": 2001,
+        "genre": [
+          "GAM"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/どうぶつの森",
+        "note": "緩やかな生活系の祖"
+      },
+      {
+        "label": "ICO",
+        "startYear": 2001,
+        "genre": [
+          "GAM"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/ICO",
+        "note": "ミニマル表現の到達点"
+      },
+      {
+        "label": "ファイナルファンタジーX",
+        "startYear": 2001,
+        "genre": [
+          "GAM"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/ファイナルファンタジーX",
+        "note": "ボイス導入の転機"
+      },
+      {
+        "label": "鋼の錬金術師",
+        "startYear": 2001,
+        "endYear": 2010,
+        "genre": [
+          "MAN"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/鋼の錬金術師",
+        "note": "錬成世界の王道冒険"
+      },
+      {
+        "label": "のだめカンタービレ",
+        "startYear": 2001,
+        "endYear": 2010,
+        "genre": [
+          "MAN"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/のだめカンタービレ",
+        "note": "音楽青春を一般化"
+      },
+      {
+        "label": "千と千尋の神隠し",
+        "startYear": 2001,
+        "genre": [
+          "MOV"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/千と千尋の神隠し",
+        "note": "アニメ史的金字塔"
+      },
+      {
+        "label": "ロード・オブ・ザ・リング",
+        "startYear": 2001,
+        "genre": [
+          "MOV"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/ロード・オブ・ザ・リング",
+        "note": "壮大ファンタジー三部作"
+      },
+      {
+        "label": "アメリ",
+        "startYear": 2001,
+        "genre": [
+          "MOV"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/アメリ",
+        "note": "仏発の洒脱な恋物語"
+      },
+      {
+        "label": "ダフト・パンク『ディスカバリー』",
+        "startYear": 2001,
+        "genre": [
+          "MUS"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/ディスカバリー_(ダフト・パンクのアルバム)",
+        "note": "フレンチハウス普及"
+      },
+      {
+        "label": "ウィキペディア",
+        "startYear": 2001,
+        "genre": [
+          "NET"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/%E3%82%A6%E3%82%A3%E3%82%AD%E3%83%9A%E3%83%87%E3%82%A3%E3%82%A2",
+        "note": "参加型百科事典の象徴"
       }
     ],
     "2002": [
@@ -713,6 +5947,140 @@
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/ほしのこえ",
         "note": "個人制作デジタル時代"
+      },
+      {
+        "label": "2002 FIFAワールドカップ",
+        "startYear": 2002,
+        "genre": [
+          "PHE"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/2002_FIFAワールドカップ",
+        "note": "日韓共同開催の祭典"
+      },
+      {
+        "label": "クールジャパン",
+        "startYear": 2002,
+        "genre": [
+          "PHE"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/クールジャパン",
+        "note": "文化輸出の政策概念"
+      },
+      {
+        "label": "ゆとり教育",
+        "startYear": 2002,
+        "genre": [
+          "PHE"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/ゆとり教育",
+        "note": "学習指導要領の転換"
+      },
+      {
+        "label": "ザ・ワイヤー",
+        "startYear": 2002,
+        "endYear": 2008,
+        "genre": [
+          "TVP"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/ザ・ワイヤー",
+        "note": "社会派群像の傑作"
+      },
+      {
+        "label": "トップ・ギア (BBC)",
+        "startYear": 2002,
+        "endYear": 2002,
+        "genre": [
+          "TVP"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/トップ・ギア_(BBC)",
+        "note": "自動車娯楽番組の頂点"
+      }
+    ],
+    "2003": [
+      {
+        "label": "DEATH_NOTE",
+        "startYear": 2003,
+        "genre": [
+          "MAN"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/DEATH_NOTE",
+        "note": "頭脳戦サスペンス革新"
+      },
+      {
+        "label": "よつばと!",
+        "startYear": 2003,
+        "genre": [
+          "MAN"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/よつばと!",
+        "note": "日常系のスタンダード"
+      },
+      {
+        "label": "SMAP「世界に一つだけの花」",
+        "startYear": 2003,
+        "genre": [
+          "MUS"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/世界に一つだけの花",
+        "note": "平成の国民的楽曲"
+      },
+      {
+        "label": "iTunes Store",
+        "startYear": 2003,
+        "genre": [
+          "MUS"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/ITunes_Store",
+        "note": "音楽流通のデジタル化"
+      },
+      {
+        "label": "韓流",
+        "startYear": 2003,
+        "genre": [
+          "PHE"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/韓流",
+        "note": "韓国大衆文化の波"
+      },
+      {
+        "label": "LLVM",
+        "startYear": 2003,
+        "genre": [
+          "SOF"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/LLVM",
+        "note": "次世代コンパイラ基盤"
+      },
+      {
+        "label": "Safari",
+        "startYear": 2003,
+        "genre": [
+          "SOF"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/Safari",
+        "note": "Apple純正ブラウザ"
+      },
+      {
+        "label": "QEMU",
+        "startYear": 2003,
+        "genre": [
+          "SOF"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/QEMU",
+        "note": "高速エミュ/仮想化基盤"
       }
     ],
     "2004": [
@@ -723,6 +6091,180 @@
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/ふたりはプリキュア",
         "note": "女児向け長寿IP始動"
+      },
+      {
+        "label": "ニンテンドーDS",
+        "startYear": 2004,
+        "genre": [
+          "HAR"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/%E3%83%8B%E3%83%B3%E3%83%86%E3%83%B3%E3%83%89%E3%83%BCDS",
+        "note": "二画面タッチで大ヒット"
+      },
+      {
+        "label": "PlayStation Portable",
+        "startYear": 2004,
+        "genre": [
+          "HAR"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/PlayStation_Portable",
+        "note": "携帯でマルチメディア"
+      },
+      {
+        "label": "World of Warcraft",
+        "startYear": 2004,
+        "genre": [
+          "GAM"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/World_of_Warcraft",
+        "note": "MMO最大級の成功"
+      },
+      {
+        "label": "モンスターハンター",
+        "startYear": 2004,
+        "genre": [
+          "GAM"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/モンスターハンター",
+        "note": "協力狩猟ゲームの礎"
+      },
+      {
+        "label": "EYESCREAM",
+        "startYear": 2004,
+        "genre": [
+          "MAG"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/EYE_SCREAM",
+        "note": "音楽と服の交差点"
+      },
+      {
+        "label": "銀魂",
+        "startYear": 2004,
+        "endYear": 2019,
+        "genre": [
+          "MAN"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/銀魂",
+        "note": "時代劇SFギャグの極北"
+      },
+      {
+        "label": "Gmail",
+        "startYear": 2004,
+        "genre": [
+          "NET"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/Gmail",
+        "note": "大容量Webメールの定着"
+      },
+      {
+        "label": "mixi",
+        "startYear": 2004,
+        "genre": [
+          "NET"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/Mixi",
+        "note": "日本発SNSの草分け"
+      },
+      {
+        "label": "Facebook",
+        "startYear": 2004,
+        "genre": [
+          "NET"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/Facebook",
+        "note": "世界最大級のSNS"
+      },
+      {
+        "label": "Nginx",
+        "startYear": 2004,
+        "genre": [
+          "SOF"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/Nginx",
+        "note": "高性能・軽量Webサーバ"
+      },
+      {
+        "label": "Mozilla Firefox",
+        "startYear": 2004,
+        "genre": [
+          "SOF"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/Mozilla_Firefox",
+        "note": "OSSブラウザの旗手"
+      },
+      {
+        "label": "報道ステーション",
+        "startYear": 2004,
+        "genre": [
+          "TVP"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/報道ステーション",
+        "note": "夜の総合報道番組"
+      }
+    ],
+    "2005": [
+      {
+        "label": "Arduino",
+        "startYear": 2005,
+        "genre": [
+          "HAR"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/Arduino",
+        "note": "DIYマイコン基板の定番"
+      },
+      {
+        "label": "ワンダーJAPAN",
+        "startYear": 2005,
+        "endYear": 2014,
+        "genre": [
+          "MAG"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/ワンダーJAPAN",
+        "note": "珍スポ・廃墟探訪誌"
+      },
+      {
+        "label": "YouTube",
+        "startYear": 2005,
+        "genre": [
+          "NET"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/YouTube",
+        "note": "動画共有のデファクト"
+      },
+      {
+        "label": "2005年日本国際博覧会（愛知）",
+        "startYear": 2005,
+        "genre": [
+          "PHE"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/2005年日本国際博覧会",
+        "note": "愛・地球博として開催"
+      },
+      {
+        "label": "Git",
+        "startYear": 2005,
+        "genre": [
+          "SOF"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/Git",
+        "note": "分散型VCSの標準"
       }
     ],
     "2006": [
@@ -741,6 +6283,97 @@
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/コードギアス_反逆のルルーシュ",
         "note": "反逆ロボの新機軸"
+      },
+      {
+        "label": "PlayStation 3",
+        "startYear": 2006,
+        "genre": [
+          "HAR"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/PlayStation_3",
+        "note": "Cellで次世代挑戦"
+      },
+      {
+        "label": "Wii",
+        "startYear": 2006,
+        "genre": [
+          "HAR"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/Wii",
+        "note": "体感操作で新市場創出"
+      },
+      {
+        "label": "Wii Sports",
+        "startYear": 2006,
+        "genre": [
+          "GAM"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/Wii_Sports",
+        "note": "体感操作で新市場創出"
+      },
+      {
+        "label": "キングダム",
+        "startYear": 2006,
+        "genre": [
+          "MAN"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/キングダム_(漫画)",
+        "note": "中国戦記の大河ロマン"
+      },
+      {
+        "label": "アミー・ワインハウス『バック・トゥ・ブラック』",
+        "startYear": 2006,
+        "genre": [
+          "MUS"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/バック・トゥ・ブラック",
+        "note": "ソウル再評価の契機"
+      },
+      {
+        "label": "Twitter(現X)",
+        "startYear": 2006,
+        "genre": [
+          "NET"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/Twitter",
+        "note": "短文投稿の普及サービス"
+      },
+      {
+        "label": "ニコニコ動画",
+        "startYear": 2006,
+        "genre": [
+          "NET"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/Niconico",
+        "note": "コメント重畳動画文化"
+      },
+      {
+        "label": "ライブドア事件",
+        "startYear": 2006,
+        "genre": [
+          "PHE"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/ライブドア事件",
+        "note": "IT企業巡る事件"
+      },
+      {
+        "label": "プラネットアース",
+        "startYear": 2006,
+        "endYear": 2006,
+        "genre": [
+          "TVP"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/プラネットアース",
+        "note": "BBC自然ドキュの金字塔"
       }
     ],
     "2007": [
@@ -751,6 +6384,160 @@
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/らき☆すた",
         "note": "オタク日常系の確立"
+      },
+      {
+        "label": "iPhone",
+        "startYear": 2007,
+        "genre": [
+          "HAR"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/IPhone",
+        "note": "スマホ革命の起点"
+      },
+      {
+        "label": "Kindle",
+        "startYear": 2007,
+        "genre": [
+          "HAR"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/Kindle",
+        "note": "電子書籍普及の原動力"
+      },
+      {
+        "label": "Portal",
+        "startYear": 2007,
+        "genre": [
+          "GAM"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/Portal_(ゲーム)",
+        "note": "物理パズルの革新"
+      },
+      {
+        "label": "コール オブ デューティ4 モダン・ウォーフェア",
+        "startYear": 2007,
+        "genre": [
+          "GAM"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/コール_オブ_デューティ4_モダン・ウォーフェア",
+        "note": "近代FPSの標準へ"
+      },
+      {
+        "label": "この世界の片隅に",
+        "startYear": 2007,
+        "endYear": 2009,
+        "genre": [
+          "MAN"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/この世界の片隅に",
+        "note": "戦時下の生活描写"
+      },
+      {
+        "label": "初音ミク",
+        "startYear": 2007,
+        "genre": [
+          "PHE"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/初音ミク",
+        "note": "ボカロ文化の象徴"
+      },
+      {
+        "label": "VirtualBox",
+        "startYear": 2007,
+        "genre": [
+          "SOF"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/VirtualBox",
+        "note": "OSS系デスクトップ仮想化"
+      }
+    ],
+    "2008": [
+      {
+        "label": "TRASH-UP!!",
+        "startYear": 2008,
+        "genre": [
+          "MAG"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/TRASH-UP%21%21",
+        "note": "トラッシュ文化特化"
+      },
+      {
+        "label": "ダークナイト",
+        "startYear": 2008,
+        "genre": [
+          "MOV"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/ダークナイト",
+        "note": "ヒーロー映画を深化"
+      },
+      {
+        "label": "Spotify",
+        "startYear": 2008,
+        "genre": [
+          "MUS"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/Spotify",
+        "note": "ストリーミング普及の核"
+      },
+      {
+        "label": "三体 (小説)",
+        "startYear": 2008,
+        "genre": [
+          "NOV"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/三体_(小説)",
+        "note": "中国発ハードSFの金字塔"
+      },
+      {
+        "label": "スマートフォン",
+        "startYear": 2008,
+        "genre": [
+          "PHE"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/スマートフォン",
+        "note": "生活インフラへ定着"
+      },
+      {
+        "label": "秋葉原通り魔事件",
+        "startYear": 2008,
+        "genre": [
+          "PHE"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/秋葉原通り魔事件",
+        "note": "都市型無差別事件"
+      },
+      {
+        "label": "Google Chrome",
+        "startYear": 2008,
+        "genre": [
+          "SOF"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/Google_Chrome",
+        "note": "現代Web実装を主導"
+      },
+      {
+        "label": "ブレイキング・バッド",
+        "startYear": 2008,
+        "endYear": 2013,
+        "genre": [
+          "TVP"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/ブレイキング・バッド",
+        "note": "クライム劇の到達点"
       }
     ],
     "2009": [
@@ -761,6 +6548,109 @@
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/けいおん!",
         "note": "軽音×日常の大ヒット"
+      },
+      {
+        "label": "Angry Birds",
+        "startYear": 2009,
+        "genre": [
+          "GAM"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/Angry_Birds",
+        "note": "スマホ黎明期の象徴"
+      },
+      {
+        "label": "League of Legends",
+        "startYear": 2009,
+        "genre": [
+          "GAM"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/League_of_Legends",
+        "note": "MOBA/eスポ王道確立"
+      },
+      {
+        "label": "進撃の巨人",
+        "startYear": 2009,
+        "endYear": 2021,
+        "genre": [
+          "MAN"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/進撃の巨人",
+        "note": "ダーク群像の世界的成功"
+      },
+      {
+        "label": "アバター",
+        "startYear": 2009,
+        "genre": [
+          "MOV"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/アバター_(2009年の映画)",
+        "note": "3D映画技術を刷新"
+      },
+      {
+        "label": "Go",
+        "startYear": 2009,
+        "genre": [
+          "SOF"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/Go_%28%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%9F%E3%83%B3%E3%82%B0%E8%A8%80%E8%AA%9E%29",
+        "note": "並行処理と実用性重視"
+      },
+      {
+        "label": "Node.js",
+        "startYear": 2009,
+        "genre": [
+          "SOF"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/Node.js",
+        "note": "JSのサーバ実行基盤"
+      }
+    ],
+    "2010": [
+      {
+        "label": "iPad",
+        "startYear": 2010,
+        "genre": [
+          "HAR"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/IPad",
+        "note": "タブレット市場を確立"
+      },
+      {
+        "label": "インセプション",
+        "startYear": 2010,
+        "genre": [
+          "MOV"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/インセプション",
+        "note": "夢と現実の多層劇"
+      },
+      {
+        "label": "AKB48「ヘビーローテーション」",
+        "startYear": 2010,
+        "genre": [
+          "MUS"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/ヘビーローテーション",
+        "note": "国民的アイドル定番"
+      },
+      {
+        "label": "LibreOffice",
+        "startYear": 2010,
+        "genre": [
+          "SOF"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/LibreOffice",
+        "note": "OSSのオフィス統合環境"
       }
     ],
     "2011": [
@@ -790,6 +6680,118 @@
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/サピエンス全史",
         "note": "人類史を俯瞰する通史"
+      },
+      {
+        "label": "ニンテンドー3DS",
+        "startYear": 2011,
+        "genre": [
+          "HAR"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/%E3%83%8B%E3%83%B3%E3%83%86%E3%83%B3%E3%83%89%E3%83%BC3DS",
+        "note": "裸眼3D表示を実現"
+      },
+      {
+        "label": "PlayStation Vita",
+        "startYear": 2011,
+        "genre": [
+          "HAR"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/PlayStation_Vita",
+        "note": "高解像度携帯機"
+      },
+      {
+        "label": "Minecraft",
+        "startYear": 2011,
+        "genre": [
+          "GAM"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/Minecraft",
+        "note": "創造サンドボックスの頂点"
+      },
+      {
+        "label": "ダークソウル",
+        "startYear": 2011,
+        "genre": [
+          "GAM"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/ダークソウル",
+        "note": "高難度設計と誘導革新"
+      },
+      {
+        "label": "東京喰種トーキョーグール",
+        "startYear": 2011,
+        "endYear": 2014,
+        "genre": [
+          "MAN"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/東京喰種トーキョーグール",
+        "note": "現代ダークファンタジー"
+      },
+      {
+        "label": "アデル『21』",
+        "startYear": 2011,
+        "genre": [
+          "MUS"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/21_(アデルのアルバム)",
+        "note": "現代ポップの金字塔"
+      },
+      {
+        "label": "初音ミク「千本桜」",
+        "startYear": 2011,
+        "genre": [
+          "MUS"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/千本桜",
+        "note": "ボカロ文化の代表曲"
+      },
+      {
+        "label": "LINE",
+        "startYear": 2011,
+        "genre": [
+          "NET"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/LINE",
+        "note": "日本で普及したメッセージ"
+      },
+      {
+        "label": "東日本大震災",
+        "startYear": 2011,
+        "genre": [
+          "PHE"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/東日本大震災",
+        "note": "広域複合災害の未曾有"
+      },
+      {
+        "label": "福島第一原子力発電所事故",
+        "startYear": 2011,
+        "genre": [
+          "PHE"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/福島第一原子力発電所事故",
+        "note": "原発事故と社会影響"
+      },
+      {
+        "label": "ゲーム・オブ・スローンズ",
+        "startYear": 2011,
+        "endYear": 2019,
+        "genre": [
+          "TVP"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/ゲーム・オブ・スローンズ",
+        "note": "大河群像ファンタジー"
       }
     ],
     "2012": [
@@ -810,6 +6812,78 @@
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/ガールズ&パンツァー",
         "note": "戦車×学園の快作"
+      },
+      {
+        "label": "Wii U",
+        "startYear": 2012,
+        "genre": [
+          "HAR"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/Wii_U",
+        "note": "2画面据置の試み"
+      },
+      {
+        "label": "Raspberry Pi",
+        "startYear": 2012,
+        "genre": [
+          "HAR"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/Raspberry_Pi",
+        "note": "教育向け低価格PC"
+      },
+      {
+        "label": "GoPro HERO3",
+        "startYear": 2012,
+        "genre": [
+          "HAR"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/GoPro",
+        "note": "アクション撮影を普及"
+      },
+      {
+        "label": "ワンパンマン",
+        "startYear": 2012,
+        "genre": [
+          "MAN"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/ワンパンマン",
+        "note": "Web発ヒーロー再定義"
+      },
+      {
+        "label": "ハイキュー!!",
+        "startYear": 2012,
+        "endYear": 2020,
+        "genre": [
+          "MAN"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/ハイキュー!!",
+        "note": "青春スポーツの新定番"
+      },
+      {
+        "label": "七つの大罪",
+        "startYear": 2012,
+        "endYear": 2020,
+        "genre": [
+          "MAN"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/七つの大罪_(漫画)",
+        "note": "王道ファンタジー人気作"
+      },
+      {
+        "label": "アベンジャーズ",
+        "startYear": 2012,
+        "genre": [
+          "MOV"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/アベンジャーズ_(2012年の映画)",
+        "note": "MCU集結の転機"
       }
     ],
     "2013": [
@@ -830,6 +6904,171 @@
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/進撃の巨人_(アニメ)",
         "note": "世界的人気の群像"
+      },
+      {
+        "label": "PlayStation 4",
+        "startYear": 2013,
+        "genre": [
+          "HAR"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/PlayStation_4",
+        "note": "x86化で開発容易化"
+      },
+      {
+        "label": "The Last of Us",
+        "startYear": 2013,
+        "genre": [
+          "GAM"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/The_Last_of_Us",
+        "note": "物語重視TPSの到達点"
+      },
+      {
+        "label": "Dota 2",
+        "startYear": 2013,
+        "genre": [
+          "GAM"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/Dota_2",
+        "note": "MOBA競技シーン拡大"
+      },
+      {
+        "label": "グランド・セフト・オートV",
+        "startYear": 2013,
+        "genre": [
+          "GAM"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/グランド・セフト・オートV",
+        "note": "記録的販売の大作"
+      },
+      {
+        "label": "ゼロ・グラビティ",
+        "startYear": 2013,
+        "genre": [
+          "MOV"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/ゼロ・グラビティ",
+        "note": "宇宙体験の臨場感"
+      },
+      {
+        "label": "アナと雪の女王",
+        "startYear": 2013,
+        "genre": [
+          "MOV"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/アナと雪の女王",
+        "note": "歌が世界的大旋風"
+      },
+      {
+        "label": "Docker",
+        "startYear": 2013,
+        "genre": [
+          "SOF"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/Docker",
+        "note": "コンテナ革命を牽引"
+      },
+      {
+        "label": "あまちゃん",
+        "startYear": 2013,
+        "genre": [
+          "TVP"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/あまちゃん",
+        "note": "朝ドラの再ブーム牽引"
+      },
+      {
+        "label": "半沢直樹",
+        "startYear": 2013,
+        "genre": [
+          "TVP"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/半沢直樹",
+        "note": "社会現象の企業ドラマ"
+      }
+    ],
+    "2014": [
+      {
+        "label": "テイラー・スウィフト『1989』",
+        "startYear": 2014,
+        "genre": [
+          "MUS"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/1989_(テイラー・スウィフトのアルバム)",
+        "note": "現代ポップ転身作"
+      },
+      {
+        "label": "Kubernetes",
+        "startYear": 2014,
+        "genre": [
+          "SOF"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/Kubernetes",
+        "note": "コンテナ編成の標準基盤"
+      }
+    ],
+    "2015": [
+      {
+        "label": "スプラトゥーン",
+        "startYear": 2015,
+        "genre": [
+          "GAM"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/スプラトゥーン",
+        "note": "任天堂流対戦シューター"
+      },
+      {
+        "label": "かぐや様は告らせたい",
+        "startYear": 2015,
+        "endYear": 2022,
+        "genre": [
+          "MAN"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/かぐや様は告らせたい",
+        "note": "恋愛頭脳戦コメディ"
+      },
+      {
+        "label": "マッドマックス 怒りのデス・ロード",
+        "startYear": 2015,
+        "genre": [
+          "MOV"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/マッドマックス_怒りのデス・ロード",
+        "note": "アクション演出の極致"
+      },
+      {
+        "label": "ケンドリック・ラマー『トゥ・ピンプ…』",
+        "startYear": 2015,
+        "genre": [
+          "MUS"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/トゥ・ピンプ・ア・バタフライ",
+        "note": "社会派ヒップホップ頂点"
+      },
+      {
+        "label": "TensorFlow",
+        "startYear": 2015,
+        "genre": [
+          "SOF"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/TensorFlow",
+        "note": "Google発のMLフレーム"
       }
     ],
     "2016": [
@@ -850,6 +7089,87 @@
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/この世界の片隅に_(アニメ映画)",
         "note": "戦時下の日常描写"
+      },
+      {
+        "label": "ポケモンGO",
+        "startYear": 2016,
+        "genre": [
+          "GAM"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/ポケモンGO",
+        "note": "位置情報ゲーム普及"
+      },
+      {
+        "label": "オーバーウォッチ",
+        "startYear": 2016,
+        "genre": [
+          "GAM"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/オーバーウォッチ",
+        "note": "ヒーローFPS確立"
+      },
+      {
+        "label": "鬼滅の刃",
+        "startYear": 2016,
+        "endYear": 2020,
+        "genre": [
+          "MAN"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/鬼滅の刃",
+        "note": "社会現象級の大ヒット"
+      },
+      {
+        "label": "ラ・ラ・ランド",
+        "startYear": 2016,
+        "genre": [
+          "MOV"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/ラ・ラ・ランド",
+        "note": "現代ミュージカル復権"
+      },
+      {
+        "label": "君の名は。",
+        "startYear": 2016,
+        "genre": [
+          "MOV"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/君の名は。_(2016年の映画)",
+        "note": "新海誠の国民的ヒット"
+      },
+      {
+        "label": "RADWIMPS「前前前世」",
+        "startYear": 2016,
+        "genre": [
+          "MUS"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/前前前世",
+        "note": "映画と共鳴し大ヒット"
+      },
+      {
+        "label": "PyTorch",
+        "startYear": 2016,
+        "genre": [
+          "SOF"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/PyTorch",
+        "note": "研究から実運用まで普及"
+      },
+      {
+        "label": "逃げるは恥だが役に立つ (テレビドラマ)",
+        "startYear": 2016,
+        "genre": [
+          "TVP"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/逃げるは恥だが役に立つ_(テレビドラマ)",
+        "note": "恋ダンスで社会現象"
       }
     ],
     "2017": [
@@ -861,6 +7181,66 @@
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/けものフレンズ",
         "note": "低予算から社会現象"
+      },
+      {
+        "label": "ニンテンドースイッチ",
+        "startYear": 2017,
+        "genre": [
+          "HAR"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/%E3%83%8B%E3%83%B3%E3%83%86%E3%83%B3%E3%83%89%E3%83%BC%E3%82%B9%E3%82%A4%E3%83%83%E3%83%81",
+        "note": "据置と携帯の融合"
+      },
+      {
+        "label": "PlayerUnknown’s Battlegrounds",
+        "startYear": 2017,
+        "genre": [
+          "GAM"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/PlayerUnknown%27s_Battlegrounds",
+        "note": "バトロワブーム火付け"
+      },
+      {
+        "label": "ゼルダの伝説 ブレス オブ ザ ワイルド",
+        "startYear": 2017,
+        "genre": [
+          "GAM"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/ゼルダの伝説_ブレス_オブ_ザ_ワイルド",
+        "note": "探索設計を刷新"
+      },
+      {
+        "label": "Fortnite",
+        "startYear": 2017,
+        "genre": [
+          "GAM"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/Fortnite",
+        "note": "ライブ型運営の代表格"
+      },
+      {
+        "label": "NieR:Automata",
+        "startYear": 2017,
+        "genre": [
+          "GAM"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/NieR:Automata",
+        "note": "哲学的物語とACT融合"
+      },
+      {
+        "label": "プレミアムフライデー",
+        "startYear": 2017,
+        "genre": [
+          "PHE"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/プレミアムフライデー",
+        "note": "消費喚起と働き方提案"
       }
     ],
     "2018": [
@@ -872,6 +7252,67 @@
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/ヴァイオレット・エヴァーガーデン",
         "note": "映像美で高評価"
+      },
+      {
+        "label": "モンスターハンター:ワールド",
+        "startYear": 2018,
+        "genre": [
+          "GAM"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/モンスターハンター:ワールド",
+        "note": "シリーズ世界的飛躍"
+      },
+      {
+        "label": "Among Us",
+        "startYear": 2018,
+        "genre": [
+          "GAM"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/Among_Us",
+        "note": "ソーシャル推理の定番化"
+      },
+      {
+        "label": "チェンソーマン",
+        "startYear": 2018,
+        "endYear": 2020,
+        "genre": [
+          "MAN"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/チェンソーマン",
+        "note": "新世代ダークアクション"
+      },
+      {
+        "label": "呪術廻戦",
+        "startYear": 2018,
+        "genre": [
+          "MAN"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/呪術廻戦",
+        "note": "呪術×バトルの新潮流"
+      },
+      {
+        "label": "ブルーロック",
+        "startYear": 2018,
+        "genre": [
+          "MAN"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/ブルーロック",
+        "note": "戦略的サッカー漫画"
+      },
+      {
+        "label": "米津玄師「Lemon」",
+        "startYear": 2018,
+        "genre": [
+          "MUS"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/Lemon_(米津玄師の曲)",
+        "note": "配信時代の国民曲"
       }
     ],
     "2019": [
@@ -883,6 +7324,66 @@
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/鬼滅の刃_(アニメ)",
         "note": "社会現象級ヒット"
+      },
+      {
+        "label": "Apex Legends",
+        "startYear": 2019,
+        "genre": [
+          "GAM"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/Apex_Legends",
+        "note": "高速移動系バトロワ"
+      },
+      {
+        "label": "SPY×FAMILY",
+        "startYear": 2019,
+        "genre": [
+          "MAN"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/SPY×FAMILY",
+        "note": "家族×スパイの新機軸"
+      },
+      {
+        "label": "パラサイト 半地下の家族",
+        "startYear": 2019,
+        "genre": [
+          "MOV"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/パラサイト_半地下の家族",
+        "note": "韓国映画の世界制覇"
+      },
+      {
+        "label": "ビリー・アイリッシュ『WHEN WE ALL…』",
+        "startYear": 2019,
+        "genre": [
+          "MUS"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/WHEN_WE_ALL_FALL_ASLEEP,_WHERE_DO_WE_GO%3F",
+        "note": "ベッドルーム発世界制覇"
+      },
+      {
+        "label": "Official髭男dism「Pretender」",
+        "startYear": 2019,
+        "genre": [
+          "MUS"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/Pretender_(Official髭男dismの曲)",
+        "note": "令和ポップの象徴"
+      },
+      {
+        "label": "YOASOBI「夜に駆ける」",
+        "startYear": 2019,
+        "genre": [
+          "MUS"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/夜に駆ける",
+        "note": "小説×音楽の新機軸"
       }
     ],
     "2020": [
@@ -894,6 +7395,58 @@
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/呪術廻戦",
         "note": "現代バトルの新潮流"
+      },
+      {
+        "label": "PlayStation 5",
+        "startYear": 2020,
+        "genre": [
+          "HAR"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/PlayStation_5",
+        "note": "高速SSDとレイトレ対応"
+      },
+      {
+        "label": "原神",
+        "startYear": 2020,
+        "genre": [
+          "GAM"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/原神",
+        "note": "F2Pオープンワールド拡大"
+      },
+      {
+        "label": "あつまれ どうぶつの森",
+        "startYear": 2020,
+        "genre": [
+          "GAM"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/あつまれ_どうぶつの森",
+        "note": "パンデミック期の拠り所"
+      },
+      {
+        "label": "ワンダーJAPON",
+        "startYear": 2020,
+        "genre": [
+          "MAG"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/ワンダーJAPON",
+        "note": "異空間旅の後継誌"
+      }
+    ],
+    "2021": [
+      {
+        "label": "2020年東京オリンピック",
+        "startYear": 2021,
+        "genre": [
+          "PHE"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/2020年東京オリンピック",
+        "note": "延期開催の五輪"
       }
     ],
     "2022": [
@@ -923,6 +7476,46 @@
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/THE_FIRST_SLAM_DUNK",
         "note": "3DCGで新生の傑作"
+      },
+      {
+        "label": "ELDEN RING",
+        "startYear": 2022,
+        "genre": [
+          "GAM"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/ELDEN_RING",
+        "note": "オープン×高難度の結晶"
+      },
+      {
+        "label": "トップガン マーヴェリック",
+        "startYear": 2022,
+        "genre": [
+          "MOV"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/トップガン_マーヴェリック",
+        "note": "続編成功の代表格"
+      },
+      {
+        "label": "エブリシング・エブリウェア・オール・アット・ワンス",
+        "startYear": 2022,
+        "genre": [
+          "MOV"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/エブリシング・エブリウェア・オール・アット・ワンス",
+        "note": "多元世界の家族劇"
+      },
+      {
+        "label": "すずめの戸締まり",
+        "startYear": 2022,
+        "genre": [
+          "MOV"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/すずめの戸締まり",
+        "note": "災厄と成長の旅"
       }
     ],
     "2023": [
@@ -934,6 +7527,48 @@
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/葬送のフリーレン",
         "note": "余韻系ファンタ話題"
+      },
+      {
+        "label": "バルダーズ・ゲート3",
+        "startYear": 2023,
+        "genre": [
+          "GAM"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/バルダーズ・ゲート3",
+        "note": "CRPG再興の決定版"
+      },
+      {
+        "label": "オッペンハイマー",
+        "startYear": 2023,
+        "genre": [
+          "MOV"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/オッペンハイマー_(映画)",
+        "note": "科学者の光と影"
+      },
+      {
+        "label": "バービー",
+        "startYear": 2023,
+        "genre": [
+          "MOV"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/バービー_(映画)",
+        "note": "玩具IPの社会風刺"
+      }
+    ],
+    "2025": [
+      {
+        "label": "2025年日本国際博覧会",
+        "startYear": 2025,
+        "genre": [
+          "PHE"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/2025年日本国際博覧会",
+        "note": "大阪・関西万博予定"
       }
     ],
     "eraSettings": [
