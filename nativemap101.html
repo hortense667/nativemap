@@ -669,26 +669,29 @@
     ];
     
     const eraItems = eraSettings.map((era, index) => `
-      <div style="border: 1px solid #ddd; margin: 8px 0; padding: 12px; border-radius: 6px; background: #f9f9f9;">
-        <div style="display: flex; gap: 8px; align-items: center; margin-bottom: 8px;">
-          <input type="checkbox" id="eraEnabled${index}" ${era.enabled ? 'checked' : ''} style="margin-right: 4px;">
-          <label for="eraEnabled${index}" style="font-weight: bold;">表示</label>
+      <div style="border: 1px solid #ddd; margin: 12px 0; padding: 16px; border-radius: 8px; background: #f9f9f9; position: relative;">
+        <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 12px;">
+          <div style="display: flex; gap: 8px; align-items: center;">
+            <input type="checkbox" id="eraEnabled${index}" ${era.enabled ? 'checked' : ''} style="margin-right: 4px;">
+            <label for="eraEnabled${index}" style="font-weight: bold; font-size: 14px;">表示</label>
+          </div>
+          <button onclick="deleteEraItem(${index})" style="padding: 4px 8px; font-size: 12px; background: #ff4444; color: white; border: none; border-radius: 4px; cursor: pointer;" title="この時代区分を削除">🗑️ 削除</button>
         </div>
-        <div style="margin-bottom: 8px;">
-          <label style="display: block; margin-bottom: 4px; font-weight: bold;">時代区分名:</label>
-          <input type="text" id="eraName${index}" value="${era.name || ''}" style="width: 100%; padding: 4px; border: 1px solid #ddd; border-radius: 4px;" placeholder="例：テレビ・マンガ・週刊誌の時代">
+        <div style="margin-bottom: 12px;">
+          <label style="display: block; margin-bottom: 6px; font-weight: bold; font-size: 13px;">時代区分名:</label>
+          <input type="text" id="eraName${index}" value="${era.name || ''}" style="width: 100%; padding: 6px; border: 1px solid #ddd; border-radius: 4px; font-size: 14px;" placeholder="例：テレビ・マンガ・週刊誌の時代">
         </div>
-        <div style="display: flex; gap: 8px; margin-bottom: 8px;">
+        <div style="display: flex; gap: 12px; margin-bottom: 12px;">
           <div style="flex: 1;">
-            <label style="display: block; margin-bottom: 4px; font-weight: bold;">開始年:</label>
-            <input type="number" id="eraStart${index}" value="${era.startYear || ''}" style="width: 100%; padding: 4px; border: 1px solid #ddd; border-radius: 4px;" min="1945" max="2050">
+            <label style="display: block; margin-bottom: 6px; font-weight: bold; font-size: 13px;">開始年:</label>
+            <input type="number" id="eraStart${index}" value="${era.startYear || ''}" style="width: 100%; padding: 6px; border: 1px solid #ddd; border-radius: 4px; font-size: 14px;" min="1945" max="2050">
           </div>
           <div style="flex: 1;">
-            <label style="display: block; margin-bottom: 4px; font-weight: bold;">終了年:</label>
-            <input type="number" id="eraEnd${index}" value="${era.endYear || ''}" style="width: 100%; padding: 4px; border: 1px solid #ddd; border-radius: 4px;" min="1945" max="2050">
+            <label style="display: block; margin-bottom: 6px; font-weight: bold; font-size: 13px;">終了年:</label>
+            <input type="number" id="eraEnd${index}" value="${era.endYear || ''}" style="width: 100%; padding: 6px; border: 1px solid #ddd; border-radius: 4px; font-size: 14px;" min="1945" max="2050">
           </div>
         </div>
-        <div style="display: flex; gap: 8px; margin-bottom: 8px;">
+        <div style="display: flex; gap: 12px; margin-bottom: 8px;">
           <div style="flex: 1;">
             <label style="display: block; margin-bottom: 4px; font-weight: bold;">塗色:</label>
             <select id="eraColor${index}" style="width: 100%; padding: 4px; border: 1px solid #ddd; border-radius: 4px;">
@@ -740,6 +743,16 @@
     console.log('addEraItem: 更新後のeraSettings', eraSettings);
     
     showEraSettingsModal();
+  }
+  
+  // 時代区分項目を削除
+  function deleteEraItem(index) {
+    if (confirm('この時代区分を削除しますか？')) {
+      eraSettings.splice(index, 1);
+      saveEvents();
+      renderEraBackgrounds();
+      showEraSettingsModal();
+    }
   }
   
   // 時代区分設定を保存
@@ -1070,7 +1083,6 @@
     editor.innerHTML = `
       <h4 style="display: flex; align-items: center; justify-content: space-between; margin: 0 0 12px 0; font-size: 16px;">
         <span style="display: flex; align-items: center; gap: 8px;">
-          <span style="cursor: pointer; font-size: 18px;" onclick="addEraFromYear(${year})" title="この年の項目から時代区分を登録">📅</span>
           <span style="cursor: pointer; font-size: 18px;" onclick="openYearWikipedia(${year})" title="${year}年のWikipediaページを開く">🌐</span>
           <span>${year}年</span>
         </span>
@@ -1095,6 +1107,7 @@
                 </div>
               </div>
               <div style="display: flex; gap: 8px;">
+                <button onclick="addEraFromItem(${year}, ${actualIndex})" style="padding: 4px 8px; font-size: 12px;" title="この項目から時代区分を登録">📅</button>
                 <button onclick="openUrl('${item.url || ''}')" style="padding: 4px 8px; font-size: 12px;" ${!item.url ? 'disabled' : ''}>🌐</button>
                 <button onclick="editItem(${year}, ${actualIndex})" style="padding: 4px 8px; font-size: 12px;">✏️</button>
                 <button onclick="deleteItem(${year}, ${actualIndex})" style="padding: 4px 8px; font-size: 12px; color: #d32f2f;">🗑️</button>
@@ -1430,11 +1443,12 @@
     autoSave();
   }
 
-  // 年から時代区分を登録する機能
-  function addEraFromYear(year) {
-    const items = (events[year] || []).filter(passesFilter);
-    if (items.length === 0) {
-      showError('エラー', 'この年には項目がありません。');
+  // 個別の項目から時代区分を登録する機能
+  function addEraFromItem(year, index) {
+    const items = events[year] || [];
+    const item = items[index];
+    if (!item) {
+      showError('エラー', '項目が見つかりません。');
       return;
     }
     
@@ -1456,28 +1470,25 @@
       selectedColor = availableColors[0];
     }
     
-    // 各項目に対して時代区分を作成
-    items.forEach((item, index) => {
-      const startYear = item.startYear || year;
-      const endYear = item.endYear || year;
-      
-      const newEra = {
-        name: item.label + (item.genre ? ` [${item.genre}]` : ''),
-        startYear: startYear,
-        endYear: endYear,
-        color: selectedColor,
-        opacity: '0.3',
-        enabled: true
-      };
-      
-      eraSettings.push(newEra);
-    });
+    const startYear = item.startYear || year;
+    const endYear = item.endYear || year;
+    
+    const newEra = {
+      name: item.label + (item.genre ? ` [${item.genre}]` : ''),
+      startYear: startYear,
+      endYear: endYear,
+      color: selectedColor,
+      opacity: '0.3',
+      enabled: true
+    };
+    
+    eraSettings.push(newEra);
     
     // 保存
     saveEvents();
     renderEraBackgrounds();
     
-    showInfo('時代区分登録完了', `${items.length}件の時代区分を登録しました。`);
+    showInfo('時代区分登録完了', `「${item.label}」の時代区分を登録しました。`);
   }
 
   // グローバル関数として公開
@@ -1488,7 +1499,8 @@
   window.deleteItem = deleteItem;
   window.addNewItem = addNewItem;
   window.saveEditItem = saveEditItem;
-  window.addEraFromYear = addEraFromYear;
+  window.addEraFromItem = addEraFromItem;
+  window.deleteEraItem = deleteEraItem;
 
   // ===== 編集UI（テキスト） =====
   function serializeLine(it){ const startYear=(it.startYear||'').trim(); const endYear=(it.endYear||'').trim(); const label=(it.label||'').trim(); const g=(it.genre||'').trim(); const imp=(it.imp===undefined||it.imp===null||String(it.imp)==='')? '' : String(it.imp); const url=(it.url||'').trim(); const note=(it.note||'').trim(); if(!startYear && !endYear && !g && !imp && !url && !note) return label; return [startYear,endYear,label,g,imp,url,note].join(';'); }
