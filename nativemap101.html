@@ -792,10 +792,8 @@
       color: '#4169E1',
       opacity: '0.3',
       enabled: true,
-      fillEnabled: true
+      fillEnabled: true,
     };
-    
-    // 新しい時代区分を先頭に追加（常に新しいものから並ぶように）
     eraSettings.unshift(newItem);
     showEraSettingsModal();
   }
@@ -819,7 +817,6 @@
       const name = nameInput.value.trim();
       if (name) {
         const index = nameInput.id.replace('eraName', '');
-
         const enabled = document.getElementById(`eraEnabled${index}`)?.checked ?? true;
         const fillEnabled = document.getElementById(`eraFill${index}`)?.checked ?? true;
         const startYearStr = document.getElementById(`eraStart${index}`)?.value.trim();
@@ -830,19 +827,9 @@
         
         const startYear = startYearStr ? parseInt(startYearStr, 10) : '';
         let endYear = endYearStr ? parseInt(endYearStr, 10) : '';
-        if (endOngoing) {
-          endYear = 'ongoing';
-        }
+        if (endOngoing) endYear = 'ongoing';
 
-        newEraSettings.push({
-          name,
-          startYear,
-          endYear,
-          color,
-          opacity,
-          enabled,
-          fillEnabled
-        });
+        newEraSettings.push({ name, startYear, endYear, color, opacity, enabled, fillEnabled });
       }
     });
 
@@ -865,131 +852,71 @@
   // 時代区分の背景色を描画
   function renderEraBackgrounds() {
     try {
-      console.log('renderEraBackgrounds 開始', { stage: !!stage, gridG: !!gridG, eraSettings });
+      if (!stage || !gridG) return;
       
-      // 必要な要素が存在するかチェック
-      if (!stage || !gridG) {
-        console.log('stage または gridG が未定義のため、時代区分背景の描画をスキップ');
-        return;
-      }
+      document.querySelectorAll('.era-background, .era-text, .era-text-bg').forEach(el => el.remove());
       
-      // 既存の時代区分背景とテキストを削除
-      const existingEras = document.querySelectorAll('.era-background, .era-text, .era-text-bg');
-      console.log('既存の時代区分要素を削除:', existingEras.length);
-      existingEras.forEach(el => el.remove());
-      
-      // 有効な時代区分のみを描画
       const enabledEras = (eraSettings || []).filter(era => era && era.enabled);
-      console.log('有効な時代区分:', enabledEras.length, enabledEras);
       
       enabledEras.forEach(era => {
-        try {
-          const startY = yFromBirthYear(era.startYear);
-          // 終了年が「ongoing」の場合は現在年まで塗る
-          const endYear = era.endYear === 'ongoing' ? new Date().getFullYear() : era.endYear;
-          const endY = yFromBirthYear(endYear + 1); // 終了年の次の年まで
-          const height = endY - startY;
-          
-          console.log('時代区分描画:', era.name, { startYear: era.startYear, endYear: era.endYear, startY, endY, height });
-          
-          if (height > 0) {
-            const eraRect = document.createElementNS('http://www.w3.org/2000/svg', 'rect');
-            eraRect.setAttribute('x', ORIGIN_X); // グリッドの開始位置から
-            eraRect.setAttribute('y', startY);
-            eraRect.setAttribute('width', width - ORIGIN_X); // グリッドエリアの幅
-            eraRect.setAttribute('height', height);
-            eraRect.setAttribute('fill', era.color || '#4169E1');
-            eraRect.setAttribute('opacity', era.opacity || '0.3'); // 設定された透明度を使用
-            eraRect.setAttribute('class', 'era-background');
-            eraRect.setAttribute('data-era-name', era.name || '');
-            
-            console.log('時代区分矩形作成:', { x: ORIGIN_X, y: startY, width: width - ORIGIN_X, height, color: era.color });
-            
-            // グリッドの前に挿入（背景として）
-            stage.insertBefore(eraRect, gridG);
-            console.log('時代区分矩形をstageに挿入完了');
-            
-            // 時代区分名を表示するテキストを追加
-            if (era.name) {
-              const eraText = document.createElementNS('http://www.w3.org/2000/svg', 'text');
-              const textX = ORIGIN_X + 10; // 左端から少し内側
-              const textY = startY + 20; // 上端から少し下
-              
-              // 表示テキストに開始年・終了年を追加
-              const displayEndYear = era.endYear === 'ongoing' ? 'ongoing' : era.endYear;
-              const displayText = `${era.name} (${era.startYear}-${displayEndYear})`;
-              
-              eraText.setAttribute('x', textX);
-              eraText.setAttribute('y', textY);
-              eraText.setAttribute('font-size', '12');
-              eraText.setAttribute('font-weight', 'bold');
-              eraText.setAttribute('fill', '#333');
-              eraText.setAttribute('class', 'era-text');
-              eraText.setAttribute('data-era-name', era.name);
-              eraText.setAttribute('data-era-start-year', era.startYear);
-              eraText.setAttribute('data-era-end-year', era.endYear);
-              eraText.setAttribute('style', 'cursor: pointer;');
-              eraText.textContent = displayText;
-              
-              // テキストの背景を追加（読みやすくするため）
-              const textBg = document.createElementNS('http://www.w3.org/2000/svg', 'rect');
-              
-              // より正確な文字幅の計算（日本語文字を考慮）
-              let textWidth = 0;
-              for (let i = 0; i < displayText.length; i++) {
-                const char = displayText[i];
-                // 日本語文字（ひらがな、カタカナ、漢字）は約12px、英数字は約8px
-                if (/[\u3040-\u309F\u30A0-\u30FF\u4E00-\u9FAF]/.test(char)) {
-                  textWidth += 12;
-                } else {
-                  textWidth += 8;
-                }
-              }
-              
-              textBg.setAttribute('x', textX - 4);
-              textBg.setAttribute('y', textY - 12);
-              textBg.setAttribute('width', textWidth + 8);
-              textBg.setAttribute('height', 16);
-              textBg.setAttribute('fill', 'rgba(255, 255, 255, 0.9)');
-              textBg.setAttribute('class', 'era-text-bg');
-              textBg.setAttribute('style', 'cursor: pointer;');
-              
-              // クリックイベントを追加（時代区分の表示オンオフ）
-              eraText.addEventListener('click', () => {
-                // eraSettingsから該当の時代区分を探す
-                const originalIndex = eraSettings.findIndex(e => e.name === era.name && e.startYear === era.startYear && e.endYear === era.endYear);
-                if (originalIndex > -1) {
-                  // enabledプロパティを反転させる
-                  eraSettings[originalIndex].enabled = !eraSettings[originalIndex].enabled;
-                  // 変更を保存
-                  saveEvents(); 
-                  // 背景を再描画
-                  renderEraBackgrounds();
-                }
-              });
-              
-              // 背景を先に挿入
-              stage.insertBefore(textBg, gridG);
-              // テキストを挿入
-              stage.insertBefore(eraText, gridG);
-              
-              console.log('時代区分名テキスト追加:', displayText, { 
-                x: textX, 
-                y: textY, 
-                textWidth: textWidth,
-                backgroundWidth: textWidth + 8,
-                textLength: displayText.length
-              });
-            }
-          } else {
-            console.log('時代区分の高さが0以下のためスキップ:', height);
+        const startYear = era.startYear;
+        const endYear = (era.endYear === 'ongoing') ? new Date().getFullYear() + 1 : era.endYear;
+        if (!startYear || !endYear) return;
+
+        const startY = yearToY(startYear);
+        const endY = yearToY(endYear + 1);
+        const height = endY - startY;
+        
+        if (height > 0) {
+          if (era.fillEnabled ?? true) {
+            const rect = document.createElementNS(ns, 'rect');
+            rect.setAttribute('class', 'era-background');
+            rect.setAttribute('x', ORIGIN_X);
+            rect.setAttribute('y', startY);
+            rect.setAttribute('width', width - ORIGIN_X);
+            rect.setAttribute('height', height);
+            rect.setAttribute('fill', era.color);
+            rect.setAttribute('opacity', era.opacity);
+            gridG.insertBefore(rect, gridG.firstChild);
           }
-        } catch (error) {
-          console.error('時代区分の描画エラー:', error, era);
+
+          const eraText = document.createElementNS(ns, 'text');
+          eraText.setAttribute('class', 'era-text');
+          eraText.textContent = `${era.name} (${era.startYear}-${era.endYear})`;
+          eraText.setAttribute('x', ORIGIN_X + 10);
+          eraText.setAttribute('y', startY + 20);
+          eraText.setAttribute('style', 'font-size: 14px; fill: #333; cursor: pointer; user-select: none;');
+          
+          const textBg = document.createElementNS(ns, 'rect');
+          textBg.setAttribute('class', 'era-text-bg');
+          
+          gridG.appendChild(eraText);
+          const bbox = eraText.getBBox();
+          
+          textBg.setAttribute('x', bbox.x - 4);
+          textBg.setAttribute('y', bbox.y - 2);
+          textBg.setAttribute('width', bbox.width + 8);
+          textBg.setAttribute('height', bbox.height + 4);
+          textBg.setAttribute('fill', 'rgba(255,255,255,0.01)');
+          textBg.setAttribute('style', 'cursor: pointer;');
+          
+          const toggleFill = () => {
+            const originalIndex = eraSettings.findIndex(e => e.name === era.name && e.startYear === era.startYear && e.endYear === era.endYear);
+            if (originalIndex > -1) {
+              eraSettings[originalIndex].fillEnabled = !(eraSettings[originalIndex].fillEnabled ?? true);
+              saveEvents(); 
+              renderEraBackgrounds();
+            }
+          };
+          
+          eraText.addEventListener('click', toggleFill);
+          textBg.addEventListener('click', toggleFill);
+          
+          gridG.insertBefore(textBg, eraText);
         }
       });
     } catch (error) {
-      console.error('renderEraBackgrounds エラー:', error);
+      console.error('時代区分の描画エラー:', error);
     }
   }
   
