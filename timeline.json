@@ -833,6 +833,17 @@
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/上を向いて歩こう",
         "note": "世界で愛された歌"
+      },
+      {
+        "label": "連続テレビ小説",
+        "startYear": 1961,
+        "endYear": "ongoing",
+        "genre": [
+          "TVP"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/連続テレビ小説",
+        "note": "通称“朝ドラ”。NHKの国民的連続ドラマ枠"
       }
     ],
     "1962": [
@@ -943,6 +954,17 @@
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/%E3%82%AB%E3%82%BB%E3%83%83%E3%83%88%E3%83%86%E3%83%BC%E3%83%97",
         "note": "ポータブル音楽の普及を牽引。"
+      },
+      {
+        "label": "大河ドラマ",
+        "startYear": 1963,
+        "endYear": "ongoing",
+        "genre": [
+          "TVP"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/大河ドラマ",
+        "note": "歴史大作の看板枠"
       }
     ],
     "1964": [
@@ -1059,6 +1081,17 @@
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/G.I.%E3%82%B8%E3%83%A7%E3%83%BC",
         "note": "アクションフィギュア源流"
+      },
+      {
+        "label": "題名のない音楽会",
+        "startYear": 1964,
+        "endYear": "ongoing",
+        "genre": [
+          "TVP"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/題名のない音楽会",
+        "note": "クラシック音楽番組の長寿枠"
       }
     ],
     "1965": [
@@ -1651,6 +1684,17 @@
         "url": "https://ja.wikipedia.org/wiki/セサミストリート",
         "note": "教育番組の世界標準",
         "endYear": "ongoing"
+      },
+      {
+        "label": "クイズタイムショック（初代）",
+        "startYear": 1969,
+        "endYear": 1986,
+        "genre": [
+          "TVP"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/クイズタイムショック",
+        "note": "ハイスピード早押しの古典"
       }
     ],
     "1970": [
@@ -2399,6 +2443,17 @@
         "imp": 3,
         "url": "https://ja.wikipedia.org/wiki/ペヤング",
         "note": "ロングセラーの即席麺。"
+      },
+      {
+        "label": "パネルクイズ アタック25",
+        "startYear": 1975,
+        "endYear": 2021,
+        "genre": [
+          "TVP"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/パネルクイズ_アタック25",
+        "note": "長寿視聴者参加クイズ"
       }
     ],
     "1976": [
@@ -2579,6 +2634,17 @@
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/こちら葛飾区亀有公園前派出所",
         "note": "最長連載級の国民的コメディ"
+      },
+      {
+        "label": "報道特集",
+        "startYear": 1976,
+        "endYear": "ongoing",
+        "genre": [
+          "TVP"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/報道特集",
+        "note": "日曜夕方の硬派報道"
       }
     ],
     "1977": [
@@ -2724,6 +2790,17 @@
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/ルーツ_(テレビドラマ)",
         "note": "人種史を描いた大作"
+      },
+      {
+        "label": "アメリカ横断ウルトラクイズ",
+        "startYear": 1977,
+        "endYear": 1998,
+        "genre": [
+          "TVP"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/アメリカ横断ウルトラクイズ",
+        "note": "昭和の超大型クイズ特番"
       }
     ],
     "1978": [
@@ -3007,6 +3084,28 @@
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/コンパクトディスク",
         "note": "デジタル音楽メディアの標準。"
+      },
+      {
+        "label": "クイズ100人に聞きました",
+        "startYear": 1979,
+        "endYear": 1992,
+        "genre": [
+          "TVP"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/クイズ100人に聞きました",
+        "note": "家族向けクイズの古典"
+      },
+      {
+        "label": "ズームイン!!朝!",
+        "startYear": 1979,
+        "endYear": 2001,
+        "genre": [
+          "TVP"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/ズームイン!!朝!",
+        "note": "朝の情報番組の先駆"
       }
     ],
     "1980": [
@@ -3337,6 +3436,17 @@
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/タッチ",
         "note": "青春スポーツの金字塔"
+      },
+      {
+        "label": "なるほど!ザ・ワールド",
+        "startYear": 1981,
+        "endYear": 1996,
+        "genre": [
+          "TVP"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/なるほど!ザ・ワールド",
+        "note": "世界紹介バラエティの先駆"
       }
     ],
     "1982": [
@@ -4407,6 +4517,17 @@
         "imp": 3,
         "url": "https://ja.wikipedia.org/wiki/おぼっちゃまくん",
         "note": "社会現象級ギャグ"
+      },
+      {
+        "label": "ミュージックステーション",
+        "startYear": 1986,
+        "endYear": "ongoing",
+        "genre": [
+          "TVP"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/ミュージックステーション",
+        "note": "生放送音楽番組の代表格"
       }
     ],
     "1987": [
@@ -4561,6 +4682,28 @@
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/GNU%E3%82%B3%E3%83%B3%E3%83%91%E3%82%A4%E3%83%A9%E3%82%B3%E3%83%AC%E3%82%AF%E3%82%B7%E3%83%A7%E3%83%B3",
         "note": "OSSコンパイラ群の中心"
+      },
+      {
+        "label": "世界の車窓から",
+        "startYear": 1987,
+        "endYear": "ongoing",
+        "genre": [
+          "TVP"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/世界の車窓から",
+        "note": "鉄道旅ミニ番組の古典"
+      },
+      {
+        "label": "サンデーモーニング",
+        "startYear": 1987,
+        "endYear": "ongoing",
+        "genre": [
+          "TVP"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/サンデーモーニング",
+        "note": "日曜朝の時事討論"
       }
     ],
     "1988": [
@@ -4795,6 +4938,28 @@
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/MASTERキートン",
         "note": "知的冒険サスペンス"
+      },
+      {
+        "label": "探偵!ナイトスクープ",
+        "startYear": 1988,
+        "endYear": "ongoing",
+        "genre": [
+          "TVP"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/探偵!ナイトスクープ",
+        "note": "視聴者参加型探偵バラエティ"
+      },
+      {
+        "label": "クイズ世界はSHOW_by_ショーバイ!!",
+        "startYear": 1988,
+        "endYear": 1996,
+        "genre": [
+          "TVP"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/クイズ世界はSHOW_by_ショーバイ!!",
+        "note": "商売ネタの人気クイズ"
       }
     ],
     "1989": [
@@ -4985,6 +5150,50 @@
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/魔女の宅急便_(アニメ映画)",
         "note": "少女成長の普遍譚"
+      },
+      {
+        "label": "所さんの目がテン!",
+        "startYear": 1989,
+        "endYear": "ongoing",
+        "genre": [
+          "TVP"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/所さんの目がテン!",
+        "note": "科学実験バラエティ"
+      },
+      {
+        "label": "ダウンタウンのガキの使いやあらへんで!",
+        "startYear": 1989,
+        "endYear": "ongoing",
+        "genre": [
+          "TVP"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/ダウンタウンのガキの使いやあらへんで!",
+        "note": "深夜バラエティの金字塔"
+      },
+      {
+        "label": "The Simpsons",
+        "startYear": 1989,
+        "endYear": "ongoing",
+        "genre": [
+          "TVP"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/ザ・シンプソンズ",
+        "note": "米アニメ・シットコムの金字塔"
+      },
+      {
+        "label": "Seinfeld",
+        "startYear": 1989,
+        "endYear": 1998,
+        "genre": [
+          "TVP"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/となりのサインフェルド",
+        "note": "90年代シットコム代表"
       }
     ],
     "1990": [
@@ -5177,6 +5386,28 @@
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/ちびまる子ちゃん_(1990-1992年のテレビアニメ)",
         "note": "国民的ホームコメディ"
+      },
+      {
+        "label": "世界まる見え!テレビ特捜部",
+        "startYear": 1990,
+        "endYear": "ongoing",
+        "genre": [
+          "TVP"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/世界まる見え!テレビ特捜部",
+        "note": "海外映像バラエティ"
+      },
+      {
+        "label": "マジカル頭脳パワー!!",
+        "startYear": 1990,
+        "endYear": 1999,
+        "genre": [
+          "TVP"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/マジカル頭脳パワー!!",
+        "note": "知的ゲーム系クイズ"
       }
     ],
     "1991": [
@@ -5342,6 +5573,28 @@
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/グラップラー刃牙",
         "note": "格闘漫画シリーズの原点"
+      },
+      {
+        "label": "ダウンタウンのごっつええ感じ",
+        "startYear": 1991,
+        "endYear": 1997,
+        "genre": [
+          "TVP"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/ダウンタウンのごっつええ感じ",
+        "note": "90年代コントの象徴"
+      },
+      {
+        "label": "東京ラブストーリー (1991年のテレビドラマ)",
+        "startYear": 1991,
+        "endYear": 1991,
+        "genre": [
+          "TVP"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/東京ラブストーリー_(1991年のテレビドラマ)",
+        "note": "トレンディドラマの代表"
       }
     ],
     "1992": [
@@ -5743,6 +5996,17 @@
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/忍たま乱太郎",
         "note": "教育×ギャグの長寿作"
+      },
+      {
+        "label": "COUNT_DOWN_TV",
+        "startYear": 1993,
+        "endYear": "ongoing",
+        "genre": [
+          "TVP"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/COUNT_DOWN_TV",
+        "note": "深夜音楽カウントダウン"
       }
     ],
     "1994": [
@@ -5942,6 +6206,39 @@
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/MAJOR_(漫画)",
         "note": "野球成長物語の決定版"
+      },
+      {
+        "label": "HEY!HEY!HEY! MUSIC CHAMP",
+        "startYear": 1994,
+        "endYear": 2012,
+        "genre": [
+          "TVP"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/HEY!HEY!HEY!_MUSIC_CHAMP",
+        "note": "ダウンタウンの音楽トーク"
+      },
+      {
+        "label": "めざましテレビ",
+        "startYear": 1994,
+        "endYear": "ongoing",
+        "genre": [
+          "TVP"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/めざましテレビ",
+        "note": "民放朝の情報番組の代表"
+      },
+      {
+        "label": "古畑任三郎",
+        "startYear": 1994,
+        "endYear": 1999,
+        "genre": [
+          "TVP"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/古畑任三郎",
+        "note": "倒叙ミステリの金字塔"
       }
     ],
     "1995": [
@@ -6167,6 +6464,28 @@
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/E3",
         "note": "国際的ゲーム見本市（2023年終了）。"
+      },
+      {
+        "label": "ザ!鉄腕!DASH!!",
+        "startYear": 1995,
+        "endYear": "ongoing",
+        "genre": [
+          "TVP"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/ザ!鉄腕!DASH!!",
+        "note": "体当たり系実験・農業企画"
+      },
+      {
+        "label": "金田一少年の事件簿 (1995年版)",
+        "startYear": 1995,
+        "endYear": 1995,
+        "genre": [
+          "TVP"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/金田一少年の事件簿_(堂本剛)",
+        "note": "本格ミステリの復権"
       }
     ],
     "1996": [
@@ -6378,6 +6697,39 @@
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/名探偵コナン_(アニメ)",
         "note": "国民的推理アニメ"
+      },
+      {
+        "label": "うたばん",
+        "startYear": 1996,
+        "endYear": 2010,
+        "genre": [
+          "TVP"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/うたばん",
+        "note": "中居正広×石橋貴明の音楽バラエティ"
+      },
+      {
+        "label": "ロングバケーション",
+        "startYear": 1996,
+        "endYear": 1996,
+        "genre": [
+          "TVP"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/ロングバケーション",
+        "note": "月9ブームを確立"
+      },
+      {
+        "label": "The Daily Show",
+        "startYear": 1996,
+        "endYear": "ongoing",
+        "genre": [
+          "TVP"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/デイリー・ショー",
+        "note": "風刺ニュースショー"
       }
     ],
     "1997": [
@@ -6607,6 +6959,50 @@
         "imp": 3,
         "url": "https://ja.wikipedia.org/wiki/DEAR_BOYS",
         "note": "バスケ長編"
+      },
+      {
+        "label": "SASUKE",
+        "startYear": 1997,
+        "endYear": "ongoing",
+        "genre": [
+          "TVP"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/SASUKE",
+        "note": "究極の障害物競走"
+      },
+      {
+        "label": "学校へ行こう!",
+        "startYear": 1997,
+        "endYear": 2005,
+        "genre": [
+          "TVP"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/学校へ行こう!",
+        "note": "学園系バラエティのヒット"
+      },
+      {
+        "label": "ビーチボーイズ",
+        "startYear": 1997,
+        "endYear": 1997,
+        "genre": [
+          "TVP"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/ビーチボーイズ",
+        "note": "夏ドラマの金字塔"
+      },
+      {
+        "label": "South Park",
+        "startYear": 1997,
+        "endYear": "ongoing",
+        "genre": [
+          "TVP"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/サウスパーク",
+        "note": "過激風刺アニメ"
       }
     ],
     "1998": [
@@ -6849,6 +7245,17 @@
         "imp": 3,
         "url": "https://ja.wikipedia.org/wiki/おじゃる丸",
         "note": "低学年向け長寿作"
+      },
+      {
+        "label": "GTO (1998年のテレビドラマ)",
+        "startYear": 1998,
+        "endYear": 1998,
+        "genre": [
+          "TVP"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/GTO_(1998年のテレビドラマ)",
+        "note": "学園更生ドラマ"
       }
     ],
     "1999": [
@@ -7068,6 +7475,17 @@
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/BECK",
         "note": "バンド青春譚"
+      },
+      {
+        "label": "あいのり",
+        "startYear": 1999,
+        "endYear": 2009,
+        "genre": [
+          "TVP"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/あいのり",
+        "note": "恋愛×旅の先駆け"
       }
     ],
     "2000": [
@@ -7210,6 +7628,28 @@
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/NANA",
         "note": "ガールズカルチャーの象徴（長期休載）"
+      },
+      {
+        "label": "TRICK（第1シリーズ）",
+        "startYear": 2000,
+        "endYear": 2000,
+        "genre": [
+          "TVP"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/TRICK",
+        "note": "超常×トリックの痛快作"
+      },
+      {
+        "label": "池袋ウエストゲートパーク",
+        "startYear": 2000,
+        "endYear": 2000,
+        "genre": [
+          "TVP"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/池袋ウエストゲートパーク",
+        "note": "平成都市の群像劇"
       }
     ],
     "2001": [
@@ -7441,6 +7881,17 @@
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/千と千尋の神隠し",
         "note": "日本アニメ映画の金字塔"
+      },
+      {
+        "label": "HERO (2001年のテレビドラマ)",
+        "startYear": 2001,
+        "endYear": 2001,
+        "genre": [
+          "TVP"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/HERO_(テレビドラマ)",
+        "note": "木村拓哉主演の大ヒット"
       }
     ],
     "2002": [
@@ -7550,6 +8001,28 @@
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/アイシールド21",
         "note": "アメフト漫画の決定版"
+      },
+      {
+        "label": "ガイアの夜明け",
+        "startYear": 2002,
+        "endYear": "ongoing",
+        "genre": [
+          "TVP"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/ガイアの夜明け",
+        "note": "経済ドキュメンタリー"
+      },
+      {
+        "label": "相棒",
+        "startYear": 2002,
+        "endYear": "ongoing",
+        "genre": [
+          "TVP"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/相棒",
+        "note": "長寿刑事ドラマ"
       }
     ],
     "2003": [
@@ -7656,6 +8129,28 @@
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/プラネテス",
         "note": "宇宙ゴミ問題を描く硬派SF"
+      },
+      {
+        "label": "アメトーーク!",
+        "startYear": 2003,
+        "endYear": "ongoing",
+        "genre": [
+          "TVP"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/アメトーーク!",
+        "note": "“○○芸人”企画で定番化"
+      },
+      {
+        "label": "白い巨塔 (2003年のテレビドラマ)",
+        "startYear": 2003,
+        "endYear": 2004,
+        "genre": [
+          "TVP"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/白い巨塔_(2003年のテレビドラマ)",
+        "note": "医療群像の名作"
       }
     ],
     "2004": [
@@ -7836,6 +8331,28 @@
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/SAMURAI_CHAMPLOO",
         "note": "和×HIPHOPの異色作"
+      },
+      {
+        "label": "人志松本のすべらない話",
+        "startYear": 2004,
+        "endYear": "ongoing",
+        "genre": [
+          "TVP"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/人志松本のすべらない話",
+        "note": "年末特番の定番化"
+      },
+      {
+        "label": "逃走中",
+        "startYear": 2004,
+        "endYear": "ongoing",
+        "genre": [
+          "TVP"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/逃走中",
+        "note": "鬼ごっこバラエティ"
       }
     ],
     "2005": [
@@ -7955,6 +8472,17 @@
         "imp": 3,
         "url": "https://ja.wikipedia.org/wiki/AIR_(アニメ)",
         "note": "ビジュアルノベル発アニメ"
+      },
+      {
+        "label": "花より男子 (テレビドラマ)",
+        "startYear": 2005,
+        "endYear": 2005,
+        "genre": [
+          "TVP"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/花より男子_(テレビドラマ)",
+        "note": "学園ラブコメの金字塔"
       }
     ],
     "2006": [
@@ -8126,6 +8654,28 @@
         "imp": 3,
         "url": "https://ja.wikipedia.org/wiki/Kanon_(アニメ)",
         "note": "Key三部作の一角"
+      },
+      {
+        "label": "プロフェッショナル 仕事の流儀",
+        "startYear": 2006,
+        "endYear": "ongoing",
+        "genre": [
+          "TVP"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/プロフェッショナル_仕事の流儀",
+        "note": "職業ドキュメンタリー"
+      },
+      {
+        "label": "カンブリア宮殿",
+        "startYear": 2006,
+        "endYear": "ongoing",
+        "genre": [
+          "TVP"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/カンブリア宮殿",
+        "note": "経営者インタビュー"
       }
     ],
     "2007": [
@@ -8243,6 +8793,28 @@
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/CLANNAD_(アニメ)",
         "note": "泣きの学園ドラマ"
+      },
+      {
+        "label": "世界の果てまでイッテQ!",
+        "startYear": 2007,
+        "endYear": "ongoing",
+        "genre": [
+          "TVP"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/世界の果てまでイッテQ!",
+        "note": "海外ロケ体当たり企画"
+      },
+      {
+        "label": "ガリレオ（第1シリーズ）",
+        "startYear": 2007,
+        "endYear": 2007,
+        "genre": [
+          "TVP"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/ガリレオ_(テレビドラマ)",
+        "note": "理系ミステリ人気作"
       }
     ],
     "2008": [
@@ -8489,6 +9061,28 @@
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/〈物語〉シリーズ",
         "note": "会話劇×怪異の新機軸"
+      },
+      {
+        "label": "ブラタモリ",
+        "startYear": 2009,
+        "endYear": "ongoing",
+        "genre": [
+          "TVP"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/ブラタモリ",
+        "note": "地形・街歩き教養バラエティ"
+      },
+      {
+        "label": "JIN-仁-（第1期）",
+        "startYear": 2009,
+        "endYear": 2009,
+        "genre": [
+          "TVP"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/JIN-仁-",
+        "note": "医療×時代劇の傑作"
       }
     ],
     "2010": [
@@ -8750,6 +9344,17 @@
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/Fate/Zero#テレビアニメ",
         "note": "重厚ダークファンタジー"
+      },
+      {
+        "label": "家政婦のミタ",
+        "startYear": 2011,
+        "endYear": 2011,
+        "genre": [
+          "TVP"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/家政婦のミタ",
+        "note": "視聴率社会現象"
       }
     ],
     "2012": [
@@ -9032,6 +9637,17 @@
         "imp": 3,
         "url": "https://ja.wikipedia.org/wiki/のんのんびより",
         "note": "田舎日常の傑作"
+      },
+      {
+        "label": "ドキュメント72時間",
+        "startYear": 2013,
+        "endYear": "ongoing",
+        "genre": [
+          "TVP"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/ドキュメント72時間",
+        "note": "街角定点ドキュメント"
       }
     ],
     "2014": [
@@ -9142,6 +9758,17 @@
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/SHIROBAKO",
         "note": "アニメ業界群像"
+      },
+      {
+        "label": "水曜日のダウンタウン",
+        "startYear": 2014,
+        "endYear": "ongoing",
+        "genre": [
+          "TVP"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/水曜日のダウンタウン",
+        "note": "検証系企画の人気番組"
       }
     ],
     "2015": [
@@ -9500,6 +10127,17 @@
         "imp": 3,
         "url": "https://ja.wikipedia.org/wiki/小林さんちのメイドラゴン",
         "note": "ファミリー×ドラゴン"
+      },
+      {
+        "label": "カルテット (テレビドラマ)",
+        "startYear": 2017,
+        "endYear": 2017,
+        "genre": [
+          "TVP"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/カルテット_(テレビドラマ)",
+        "note": "大人の会話劇"
       }
     ],
     "2018": [
@@ -9641,6 +10279,17 @@
         "imp": 3,
         "url": "https://ja.wikipedia.org/wiki/SSSS.GRIDMAN",
         "note": "特撮×リブート"
+      },
+      {
+        "label": "アンナチュラル",
+        "startYear": 2018,
+        "endYear": 2018,
+        "genre": [
+          "TVP"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/アンナチュラル",
+        "note": "法医学ミステリの快作"
       }
     ],
     "2019": [
@@ -9997,6 +10646,17 @@
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/薬屋のひとりごと#テレビアニメ",
         "note": "後宮×薬学ミステリ"
+      },
+      {
+        "label": "VIVANT",
+        "startYear": 2023,
+        "endYear": 2023,
+        "genre": [
+          "TVP"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/VIVANT",
+        "note": "超大規模エンタメ"
       }
     ],
     "2025": [
