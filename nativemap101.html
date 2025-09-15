@@ -668,20 +668,16 @@
       { value: '0.8', label: '80%' }
     ];
     
-    const eraItems = eraSettings.map((era, index) => `
+    const eraItems = eraSettings.slice().reverse().map((era, originalIndex) => {
+      const index = eraSettings.length - 1 - originalIndex;
+      return `
       <div style="border: 1px solid #ddd; margin: 12px 0; padding: 16px; border-radius: 8px; background: #f9f9f9; position: relative;">
-        <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 12px;">
-          <div style="display: flex; gap: 8px; align-items: center;">
-            <input type="checkbox" id="eraEnabled${index}" ${era.enabled ? 'checked' : ''} style="margin-right: 4px;">
-            <label for="eraEnabled${index}" style="font-weight: bold; font-size: 14px;">表示</label>
+        <!-- 1行目: 時代区分名 開始年 終了年 -->
+        <div style="display: flex; gap: 12px; margin-bottom: 12px; align-items: end;">
+          <div style="flex: 2;">
+            <label style="display: block; margin-bottom: 6px; font-weight: bold; font-size: 13px;">時代区分名:</label>
+            <input type="text" id="eraName${index}" value="${era.name || ''}" style="width: 100%; padding: 6px; border: 1px solid #ddd; border-radius: 4px; font-size: 14px;" placeholder="例：テレビ・マンガ・週刊誌の時代">
           </div>
-          <button onclick="deleteEraItem(${index})" style="padding: 4px 8px; font-size: 12px; background: #ff4444; color: white; border: none; border-radius: 4px; cursor: pointer;" title="この時代区分を削除">🗑️ 削除</button>
-        </div>
-        <div style="margin-bottom: 12px;">
-          <label style="display: block; margin-bottom: 6px; font-weight: bold; font-size: 13px;">時代区分名:</label>
-          <input type="text" id="eraName${index}" value="${era.name || ''}" style="width: 100%; padding: 6px; border: 1px solid #ddd; border-radius: 4px; font-size: 14px;" placeholder="例：テレビ・マンガ・週刊誌の時代">
-        </div>
-        <div style="display: flex; gap: 12px; margin-bottom: 12px;">
           <div style="flex: 1;">
             <label style="display: block; margin-bottom: 6px; font-weight: bold; font-size: 13px;">開始年:</label>
             <input type="number" id="eraStart${index}" value="${era.startYear || ''}" style="width: 100%; padding: 6px; border: 1px solid #ddd; border-radius: 4px; font-size: 14px;" min="1945" max="2050">
@@ -691,22 +687,31 @@
             <input type="number" id="eraEnd${index}" value="${era.endYear || ''}" style="width: 100%; padding: 6px; border: 1px solid #ddd; border-radius: 4px; font-size: 14px;" min="1945" max="2050">
           </div>
         </div>
-        <div style="display: flex; gap: 12px; margin-bottom: 8px;">
+        <!-- 2行目: 表示チェックボックス 塗り色 透明度 削除ボタン -->
+        <div style="display: flex; gap: 12px; align-items: center;">
+          <div style="display: flex; gap: 8px; align-items: center;">
+            <input type="checkbox" id="eraEnabled${index}" ${era.enabled ? 'checked' : ''} style="margin-right: 4px;">
+            <label for="eraEnabled${index}" style="font-weight: bold; font-size: 13px;">表示</label>
+          </div>
           <div style="flex: 1;">
-            <label style="display: block; margin-bottom: 4px; font-weight: bold;">塗色:</label>
-            <select id="eraColor${index}" style="width: 100%; padding: 4px; border: 1px solid #ddd; border-radius: 4px;">
+            <label style="display: block; margin-bottom: 4px; font-weight: bold; font-size: 13px;">塗色:</label>
+            <select id="eraColor${index}" style="width: 100%; padding: 6px; border: 1px solid #ddd; border-radius: 4px; font-size: 14px;">
               ${colorOptions.map(color => `<option value="${color.value}" ${era.color === color.value ? 'selected' : ''}>${color.label}</option>`).join('')}
             </select>
           </div>
           <div style="flex: 1;">
-            <label style="display: block; margin-bottom: 4px; font-weight: bold;">透明度:</label>
-            <select id="eraOpacity${index}" style="width: 100%; padding: 4px; border: 1px solid #ddd; border-radius: 4px;">
+            <label style="display: block; margin-bottom: 4px; font-weight: bold; font-size: 13px;">透明度:</label>
+            <select id="eraOpacity${index}" style="width: 100%; padding: 6px; border: 1px solid #ddd; border-radius: 4px; font-size: 14px;">
               ${opacityOptions.map(opacity => `<option value="${opacity.value}" ${era.opacity === opacity.value ? 'selected' : ''}>${opacity.label}</option>`).join('')}
             </select>
           </div>
+          <div style="margin-top: 20px;">
+            <button onclick="deleteEraItem(${index})" style="padding: 6px 12px; font-size: 12px; background: #ff4444; color: white; border: none; border-radius: 4px; cursor: pointer;" title="この時代区分を削除">🗑️ 削除</button>
+          </div>
         </div>
       </div>
-    `).join('');
+    `;
+    }).join('');
     
     const modalContent = `
       <div style="max-height: 400px; overflow-y: auto;">
@@ -2778,7 +2783,7 @@
   }
 
   // ===== 空年クリックで編集を開く =====
-  function openEditorForEmptyYearAt(xCSS,yCSS){ const rect=stage.getBoundingClientRect(); const scale=1; const x=(xCSS-rect.left)/scale; const y=(yCSS-rect.top)/scale; if(x >= ORIGIN_X - HANDLE_LANE_W) return; const year = YEAR_MIN + Math.round((y-ORIGIN_Y)/PX_PER_YEAR); if(year<YEAR_MIN||year>YEAR_MAX) return; const exists = Array.isArray(events[year]) && events[year].length>0; if(exists) return; const anchor=document.createElementNS(ns,'rect'); anchor.setAttribute('x', LABEL_RIGHT_X); anchor.setAttribute('y', yFromBirthYear(year)-6); anchor.setAttribute('width', 1); anchor.setAttribute('height', 12); anchor.setAttribute('fill', 'transparent'); eventsG.appendChild(anchor); showEditor(year, anchor); setTimeout(()=>{ if(anchor.parentNode) anchor.parentNode.removeChild(anchor); }, 0); }
+  function openEditorForEmptyYearAt(xCSS,yCSS){ const rect=stage.getBoundingClientRect(); const scale=1; const x=(xCSS-rect.left)/scale; const y=(yCSS-rect.top)/scale; if(x >= ORIGIN_X - HANDLE_LANE_W) return; const year = YEAR_MIN + Math.round((y-ORIGIN_Y)/PX_PER_YEAR); if(year<YEAR_MIN||year>YEAR_MAX) return; const exists = Array.isArray(events[year]) && events[year].length>0; if(exists) return; showEditModal(year, -1, { label: '', startYear: year, endYear: '' }); }
   stage.addEventListener('click', (e)=>{ if(e.target && e.target.tagName && e.target.tagName.toLowerCase()==='text') return; openEditorForEmptyYearAt(e.clientX, e.clientY); });
 
   // ===== プローブ =====
