@@ -954,22 +954,19 @@
               textBg.setAttribute('class', 'era-text-bg');
               textBg.setAttribute('style', 'cursor: pointer;');
               
-              // クリックイベントを追加（時代区分を削除）
-              const deleteEra = () => {
-                const eraIndex = eraSettings.findIndex(e => 
-                  e.name === era.name && 
-                  e.startYear === era.startYear && 
-                  e.endYear === era.endYear
-                );
-                if (eraIndex !== -1) {
-                  eraSettings.splice(eraIndex, 1);
-                  saveEvents();
+              // クリックイベントを追加（時代区分の表示オンオフ）
+              eraText.addEventListener('click', () => {
+                // eraSettingsから該当の時代区分を探す
+                const originalIndex = eraSettings.findIndex(e => e.name === era.name && e.startYear === era.startYear && e.endYear === era.endYear);
+                if (originalIndex > -1) {
+                  // enabledプロパティを反転させる
+                  eraSettings[originalIndex].enabled = !eraSettings[originalIndex].enabled;
+                  // 変更を保存
+                  saveEvents(); 
+                  // 背景を再描画
                   renderEraBackgrounds();
                 }
-              };
-              
-              eraText.addEventListener('click', deleteEra);
-              textBg.addEventListener('click', deleteEra);
+              });
               
               // 背景を先に挿入
               stage.insertBefore(textBg, gridG);
