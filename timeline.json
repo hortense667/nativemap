@@ -1695,6 +1695,16 @@
         "imp": 3,
         "url": "https://ja.wikipedia.org/wiki/クイズタイムショック",
         "note": "ハイスピード早押しの古典"
+      },
+      {
+        "label": "Scanimate",
+        "startYear": 1969,
+        "genre": [
+          "HAR"
+        ],
+        "imp": 3,
+        "url": "https://en.wikipedia.org/wiki/Scanimate",
+        "note": "アナログ映像アニメーションの名機"
       }
     ],
     "1970": [
@@ -1778,6 +1788,16 @@
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/Comic-Con_International",
         "note": "北米最大級のポップカルチャーイベント。"
+      },
+      {
+        "label": "Minimoog Model D",
+        "startYear": 1970,
+        "genre": [
+          "HAR"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/Minimoog",
+        "note": "可搬型シンセの原点。ポップ/電子音楽を刷新"
       }
     ],
     "1971": [
@@ -2102,6 +2122,26 @@
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/ポーの一族",
         "note": "耽美派の金字塔（後年続編あり）"
+      },
+      {
+        "label": "Technics SL-1200",
+        "startYear": 1972,
+        "genre": [
+          "HAR"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/テクニクス・SL-1200",
+        "note": "DJカルチャーの中核ターンテーブル"
+      },
+      {
+        "label": "ポラロイド・SX-70",
+        "startYear": 1972,
+        "genre": [
+          "HAR"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/ポラロイド・SX-70",
+        "note": "“その場で写真”文化を象徴"
       }
     ],
     "1973": [
@@ -2801,6 +2841,26 @@
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/アメリカ横断ウルトラクイズ",
         "note": "昭和の超大型クイズ特番"
+      },
+      {
+        "label": "Yamaha CS-80",
+        "startYear": 1977,
+        "genre": [
+          "HAR"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/ヤマハ・CS-80",
+        "note": "表現力の高い名機。映画音楽/シティポップで影響"
+      },
+      {
+        "label": "Synclavier",
+        "startYear": 1977,
+        "genre": [
+          "HAR"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/シンクラヴィア",
+        "note": "プロ向け統合音源/サンプラーの金字塔"
       }
     ],
     "1978": [
@@ -2918,6 +2978,16 @@
         "imp": 3,
         "url": "https://ja.wikipedia.org/wiki/パタリロ!",
         "note": "長寿ギャグ（刊行形態多様）"
+      },
+      {
+        "label": "Sequential Circuits Prophet-5",
+        "startYear": 1978,
+        "genre": [
+          "HAR"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/Prophet-5",
+        "note": "世界初のプログラマブル・ポリフォニック"
       }
     ],
     "1979": [
@@ -3106,6 +3176,36 @@
         "imp": 3,
         "url": "https://ja.wikipedia.org/wiki/ズームイン!!朝!",
         "note": "朝の情報番組の先駆"
+      },
+      {
+        "label": "Fairlight CMI",
+        "startYear": 1979,
+        "genre": [
+          "HAR"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/Fairlight_CMI",
+        "note": "高価な初期サンプラー/DAWの源流"
+      },
+      {
+        "label": "Walkman（カセット）",
+        "startYear": 1979,
+        "genre": [
+          "HAR"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/ウォークマン",
+        "note": "可搬音楽の象徴。ライフスタイルを一変"
+      },
+      {
+        "label": "Intellivision",
+        "startYear": 1979,
+        "genre": [
+          "HAR"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/インテレビジョン",
+        "note": "Atari対抗の高性能機"
       }
     ],
     "1980": [
@@ -3239,6 +3339,26 @@
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/あさきゆめみし",
         "note": "源氏物語の漫画化"
+      },
+      {
+        "label": "Roland TR-808",
+        "startYear": 1980,
+        "genre": [
+          "HAR"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/TR-808",
+        "note": "ヒップホップ/エレクトロを形作ったリズムマシン"
+      },
+      {
+        "label": "ゲーム&ウオッチ",
+        "startYear": 1980,
+        "genre": [
+          "HAR"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/ゲーム%26ウオッチ",
+        "note": "携帯ゲーム文化の原点"
       }
     ],
     "1981": [
@@ -3447,6 +3567,36 @@
         "imp": 3,
         "url": "https://ja.wikipedia.org/wiki/なるほど!ザ・ワールド",
         "note": "世界紹介バラエティの先駆"
+      },
+      {
+        "label": "Roland TB-303",
+        "startYear": 1981,
+        "genre": [
+          "HAR"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/TB-303",
+        "note": "アシッドハウスの“うねり”を生んだ名機"
+      },
+      {
+        "label": "BBC Micro",
+        "startYear": 1981,
+        "genre": [
+          "HAR"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/BBC_Micro",
+        "note": "英国コンピュータ教育とゲーム産業の礎"
+      },
+      {
+        "label": "Quantel Paintbox",
+        "startYear": 1981,
+        "genre": [
+          "HAR"
+        ],
+        "imp": 4,
+        "url": "https://en.wikipedia.org/wiki/Quantel_Paintbox",
+        "note": "テレビ局のCGテロップ革命"
       }
     ],
     "1982": [
@@ -3704,6 +3854,16 @@
         ],
         "imp": 2,
         "url": "https://ja.wikipedia.org/wiki/%E9%81%A0%E8%97%A4%E8%AB%AD"
+      },
+      {
+        "label": "ColecoVision",
+        "startYear": 1982,
+        "genre": [
+          "HAR"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/ColecoVision",
+        "note": "80年代前半の高性能機"
       }
     ],
     "1983": [
@@ -3938,6 +4098,46 @@
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/美味しんぼ",
         "note": "食を通じた社会派長編（長期休載）"
+      },
+      {
+        "label": "Yamaha DX7",
+        "startYear": 1983,
+        "genre": [
+          "HAR"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/Yamaha_DX7",
+        "note": "FM音源で80sサウンドを席巻"
+      },
+      {
+        "label": "Roland TR-909",
+        "startYear": 1983,
+        "genre": [
+          "HAR"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/TR-909",
+        "note": "ハウス/テクノの鼓動を定義"
+      },
+      {
+        "label": "Yamaha QX1",
+        "startYear": 1983,
+        "genre": [
+          "HAR"
+        ],
+        "imp": 2,
+        "url": "https://ja.wikipedia.org/wiki/QX1",
+        "note": "初期ハードMIDIシーケンサーの象徴"
+      },
+      {
+        "label": "Apple Lisa",
+        "startYear": 1983,
+        "genre": [
+          "HAR"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/Apple_Lisa",
+        "note": "商用GUIの先駆け"
       }
     ],
     "1984": [
@@ -4133,6 +4333,26 @@
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/トランスフォーマー",
         "note": "変形ロボ玩具の代表格"
+      },
+      {
+        "label": "Discman（CDウォークマン）",
+        "startYear": 1984,
+        "genre": [
+          "HAR"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/ディスクマン",
+        "note": "CD携帯再生を普及"
+      },
+      {
+        "label": "ファミコン光線銃",
+        "startYear": 1984,
+        "genre": [
+          "HAR"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/任天堂光線銃シリーズ",
+        "note": "家庭用ガンシューティングの嚆矢"
       }
     ],
     "1985": [
@@ -4358,6 +4578,26 @@
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/レッスルマニア",
         "note": "世界最大級PPVイベント。"
+      },
+      {
+        "label": "Sony Handycam（初代）",
+        "startYear": 1985,
+        "genre": [
+          "HAR"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/ハンディカム",
+        "note": "家庭用ビデオ撮影を一般化"
+      },
+      {
+        "label": "ファミリーコンピュータ ロボット（R.O.B.）",
+        "startYear": 1985,
+        "genre": [
+          "HAR"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/ファミリーコンピュータ_ROB",
+        "note": "玩具とゲームの橋渡し"
       }
     ],
     "1986": [
@@ -4528,6 +4768,16 @@
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/ミュージックステーション",
         "note": "生放送音楽番組の代表格"
+      },
+      {
+        "label": "ファミリーコンピュータ ディスクシステム",
+        "startYear": 1986,
+        "genre": [
+          "HAR"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/ディスクシステム",
+        "note": "書き換え文化を生み出す周辺機器"
       }
     ],
     "1987": [
@@ -4704,6 +4954,26 @@
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/サンデーモーニング",
         "note": "日曜朝の時事討論"
+      },
+      {
+        "label": "Roland D-50",
+        "startYear": 1987,
+        "genre": [
+          "HAR"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/Roland_D-50",
+        "note": "LA音源でデジタル時代を象徴"
+      },
+      {
+        "label": "E-mu SP-1200",
+        "startYear": 1987,
+        "genre": [
+          "HAR"
+        ],
+        "imp": 4,
+        "url": "https://en.wikipedia.org/wiki/E-mu_SP-1200",
+        "note": "黄金期ヒップホップの質感を決定"
       }
     ],
     "1988": [
@@ -4960,6 +5230,26 @@
         "imp": 3,
         "url": "https://ja.wikipedia.org/wiki/クイズ世界はSHOW_by_ショーバイ!!",
         "note": "商売ネタの人気クイズ"
+      },
+      {
+        "label": "Korg M1",
+        "startYear": 1988,
+        "genre": [
+          "HAR"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/Korg_M1",
+        "note": "ワークステーションの大定番"
+      },
+      {
+        "label": "Akai MPC60",
+        "startYear": 1988,
+        "genre": [
+          "HAR"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/AKAI_MPC",
+        "note": "サンプリング制作を民主化"
       }
     ],
     "1989": [
@@ -5194,6 +5484,36 @@
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/となりのサインフェルド",
         "note": "90年代シットコム代表"
+      },
+      {
+        "label": "Atari Lynx",
+        "startYear": 1989,
+        "genre": [
+          "HAR"
+        ],
+        "imp": 2,
+        "url": "https://ja.wikipedia.org/wiki/Atari_Lynx",
+        "note": "カラー携帯機の先駆け"
+      },
+      {
+        "label": "パワーグローブ",
+        "startYear": 1989,
+        "genre": [
+          "HAR"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/パワーグローブ",
+        "note": "体感入力の象徴的周辺機器"
+      },
+      {
+        "label": "WACOM タブレット（Intuos系の源流）",
+        "startYear": 1989,
+        "genre": [
+          "HAR"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/ワコム",
+        "note": "デジタル作画環境を変革"
       }
     ],
     "1990": [
@@ -5408,6 +5728,26 @@
         "imp": 3,
         "url": "https://ja.wikipedia.org/wiki/マジカル頭脳パワー!!",
         "note": "知的ゲーム系クイズ"
+      },
+      {
+        "label": "NewTek Video Toaster（for Amiga）",
+        "startYear": 1990,
+        "genre": [
+          "HAR"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/ビデオ・トースター",
+        "note": "低価格で本格放送用CG/合成を実現"
+      },
+      {
+        "label": "ゲームギア",
+        "startYear": 1990,
+        "genre": [
+          "HAR"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/ゲームギア",
+        "note": "携帯ゲームにカラー化を導入"
       }
     ],
     "1991": [
@@ -5595,6 +5935,16 @@
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/東京ラブストーリー_(1991年のテレビドラマ)",
         "note": "トレンディドラマの代表"
+      },
+      {
+        "label": "Philips CD-i",
+        "startYear": 1991,
+        "genre": [
+          "HAR"
+        ],
+        "imp": 2,
+        "url": "https://ja.wikipedia.org/wiki/CD-i",
+        "note": "インタラクティブCD機"
       }
     ],
     "1992": [
@@ -5747,6 +6097,36 @@
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/クレヨンしんちゃん",
         "note": "国民的ファミリーギャグ"
+      },
+      {
+        "label": "MDウォークマン",
+        "startYear": 1992,
+        "genre": [
+          "HAR"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/ミニディスク",
+        "note": "録再/編集で学生文化に浸透"
+      },
+      {
+        "label": "Amiga 4000",
+        "startYear": 1992,
+        "genre": [
+          "HAR"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/Amiga",
+        "note": "番組CG制作の定番機（『ウゴウゴルーガ』期）"
+      },
+      {
+        "label": "ThinkPad 700C",
+        "startYear": 1992,
+        "genre": [
+          "HAR"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/ThinkPad",
+        "note": "モバイルPCのデザインと堅牢性の象徴"
       }
     ],
     "1993": [
@@ -6007,6 +6387,56 @@
         "imp": 3,
         "url": "https://ja.wikipedia.org/wiki/COUNT_DOWN_TV",
         "note": "深夜音楽カウントダウン"
+      },
+      {
+        "label": "Sharp Zaurus（MIシリーズ）",
+        "startYear": 1993,
+        "genre": [
+          "HAR"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/シャープ・ザウルス",
+        "note": "日本でPDA文化を根付かせる"
+      },
+      {
+        "label": "3DO Interactive Multiplayer",
+        "startYear": 1993,
+        "genre": [
+          "HAR"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/3DO",
+        "note": "CD時代の挑戦的プラットフォーム"
+      },
+      {
+        "label": "Atari Jaguar",
+        "startYear": 1993,
+        "genre": [
+          "HAR"
+        ],
+        "imp": 2,
+        "url": "https://ja.wikipedia.org/wiki/Atari_Jaguar",
+        "note": "“64bit”を掲げた意欲機"
+      },
+      {
+        "label": "FM TOWNS MARTY",
+        "startYear": 1993,
+        "genre": [
+          "HAR"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/FM_TOWNS_MARTY",
+        "note": "世界初の32bit家庭用機を標榜"
+      },
+      {
+        "label": "LaserActive",
+        "startYear": 1993,
+        "genre": [
+          "HAR"
+        ],
+        "imp": 2,
+        "url": "https://ja.wikipedia.org/wiki/LaserActive",
+        "note": "LDベースの拡張型マルチメディア"
       }
     ],
     "1994": [
@@ -6239,6 +6669,26 @@
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/古畑任三郎",
         "note": "倒叙ミステリの金字塔"
+      },
+      {
+        "label": "Apple QuickTake 100",
+        "startYear": 1994,
+        "genre": [
+          "HAR"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/Apple_QuickTake",
+        "note": "一般向け初期デジカメ"
+      },
+      {
+        "label": "PC-FX",
+        "startYear": 1994,
+        "genre": [
+          "HAR"
+        ],
+        "imp": 2,
+        "url": "https://ja.wikipedia.org/wiki/PC-FX",
+        "note": "アニメ表現重視のNEC機"
       }
     ],
     "1995": [
@@ -6486,6 +6936,16 @@
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/金田一少年の事件簿_(堂本剛)",
         "note": "本格ミステリの復権"
+      },
+      {
+        "label": "カシオ QV-10",
+        "startYear": 1995,
+        "genre": [
+          "HAR"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/カシオ_QV-10",
+        "note": "液晶付デジカメの普及に火を付ける"
       }
     ],
     "1996": [
@@ -6730,6 +7190,36 @@
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/デイリー・ショー",
         "note": "風刺ニュースショー"
+      },
+      {
+        "label": "VAIO（初代505など）",
+        "startYear": 1996,
+        "genre": [
+          "HAR"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/VAIO",
+        "note": "AV編集とデザインで若者文化に浸透"
+      },
+      {
+        "label": "Pippin Atmark",
+        "startYear": 1996,
+        "genre": [
+          "HAR"
+        ],
+        "imp": 2,
+        "url": "https://ja.wikipedia.org/wiki/Pippin_atmark",
+        "note": "Apple×バンダイの異色機"
+      },
+      {
+        "label": "PHS（日本・AirHなど）",
+        "startYear": 1996,
+        "genre": [
+          "HAR"
+        ],
+        "imp": 2,
+        "url": "https://ja.wikipedia.org/wiki/Personal_Handy-phone_System",
+        "note": "低料金モバイル文化を支えた端末群"
       }
     ],
     "1997": [
@@ -7003,6 +7493,26 @@
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/サウスパーク",
         "note": "過激風刺アニメ"
+      },
+      {
+        "label": "Akai MPC2000",
+        "startYear": 1997,
+        "genre": [
+          "HAR"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/AKAI_MPC",
+        "note": "“ビートメイク”を一般化した代表機"
+      },
+      {
+        "label": "Sony Digital Mavica",
+        "startYear": 1997,
+        "genre": [
+          "HAR"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/Mavica",
+        "note": "フロッピー記録のユニーク機"
       }
     ],
     "1998": [
@@ -7256,6 +7766,46 @@
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/GTO_(1998年のテレビドラマ)",
         "note": "学園更生ドラマ"
+      },
+      {
+        "label": "iMac (初代)",
+        "startYear": 1998,
+        "genre": [
+          "HAR"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/IMac",
+        "note": "ポップなiMacがPCデザインを刷新"
+      },
+      {
+        "label": "ネオジオポケット",
+        "startYear": 1998,
+        "genre": [
+          "HAR"
+        ],
+        "imp": 2,
+        "url": "https://ja.wikipedia.org/wiki/ネオジオポケット",
+        "note": "SNK携帯機の挑戦"
+      },
+      {
+        "label": "ゲームボーイカメラ",
+        "startYear": 1998,
+        "genre": [
+          "HAR"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/ゲームボーイカメラ",
+        "note": "“自撮り×ゲーム”の先駆"
+      },
+      {
+        "label": "DVカメラ（Sony DCR-VX1000 等）",
+        "startYear": 1998,
+        "genre": [
+          "HAR"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/Digital_Video_(DV)",
+        "note": "インディー映像/スケボー動画文化を牽引"
       }
     ],
     "1999": [
@@ -7486,6 +8036,36 @@
         "imp": 3,
         "url": "https://ja.wikipedia.org/wiki/あいのり",
         "note": "恋愛×旅の先駆け"
+      },
+      {
+        "label": "KORG KAOSS PAD",
+        "startYear": 1999,
+        "genre": [
+          "HAR"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/KAOSS_PAD",
+        "note": "指先の直感操作でライブ演出を革新"
+      },
+      {
+        "label": "ワンダースワン",
+        "startYear": 1999,
+        "genre": [
+          "HAR"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/ワンダースワン",
+        "note": "国産携帯機の選択肢を拡大"
+      },
+      {
+        "label": "iモード対応携帯（初期機）",
+        "startYear": 1999,
+        "genre": [
+          "HAR"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/Iモード",
+        "note": "モバイルWeb時代の入口"
       }
     ],
     "2000": [
@@ -7892,6 +8472,36 @@
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/HERO_(テレビドラマ)",
         "note": "木村拓哉主演の大ヒット"
+      },
+      {
+        "label": "Pioneer CDJ-1000",
+        "startYear": 2001,
+        "genre": [
+          "HAR"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/CDJ",
+        "note": "デジタルDJ時代の幕開け"
+      },
+      {
+        "label": "AIBO（初代ERS-110）",
+        "startYear": 2001,
+        "genre": [
+          "HAR"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/AIBO",
+        "note": "家庭用ロボットのポップアイコン"
+      },
+      {
+        "label": "Segway PT",
+        "startYear": 2001,
+        "genre": [
+          "HAR"
+        ],
+        "imp": 2,
+        "url": "https://ja.wikipedia.org/wiki/セグウェイ",
+        "note": "近未来“立ち乗り”の象徴"
       }
     ],
     "2002": [
@@ -8023,6 +8633,16 @@
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/相棒",
         "note": "長寿刑事ドラマ"
+      },
+      {
+        "label": "Roomba（初代）",
+        "startYear": 2002,
+        "genre": [
+          "HAR"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/Roomba",
+        "note": "家庭にロボットが入る時代を先導"
       }
     ],
     "2003": [
@@ -8151,6 +8771,16 @@
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/白い巨塔_(2003年のテレビドラマ)",
         "note": "医療群像の名作"
+      },
+      {
+        "label": "EyeToy",
+        "startYear": 2003,
+        "genre": [
+          "HAR"
+        ],
+        "imp": 2,
+        "url": "https://ja.wikipedia.org/wiki/EyeToy",
+        "note": "Webカメラ連動ゲームの先駆"
       }
     ],
     "2004": [
@@ -8815,6 +9445,26 @@
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/ガリレオ_(テレビドラマ)",
         "note": "理系ミステリ人気作"
+      },
+      {
+        "label": "ASUS Eee PC 701",
+        "startYear": 2007,
+        "genre": [
+          "HAR"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/Eee_PC",
+        "note": "ネットブック旋風を生む"
+      },
+      {
+        "label": "RED One",
+        "startYear": 2007,
+        "genre": [
+          "HAR"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/RED_ONE",
+        "note": "デジタルシネマ普及の起爆剤"
       }
     ],
     "2008": [
@@ -8954,6 +9604,26 @@
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/とらドラ!",
         "note": "等身大の恋愛青春"
+      },
+      {
+        "label": "MacBook Air (初代)",
+        "startYear": 2008,
+        "genre": [
+          "HAR"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/MacBook_Air",
+        "note": "薄型ノートの代名詞"
+      },
+      {
+        "label": "Canon EOS 5D Mark II",
+        "startYear": 2008,
+        "genre": [
+          "HAR"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/Canon_EOS_5D_Mark_II",
+        "note": "DSLR動画革命でYouTube時代を牽引"
       }
     ],
     "2009": [
@@ -9147,6 +9817,26 @@
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/四畳半神話大系",
         "note": "大学生青春×時間改変"
+      },
+      {
+        "label": "Kinect",
+        "startYear": 2010,
+        "genre": [
+          "HAR"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/Kinect",
+        "note": "ジェスチャ操作ブームを牵引"
+      },
+      {
+        "label": "iRig（スマホ用ギターI/F）",
+        "startYear": 2010,
+        "genre": [
+          "HAR"
+        ],
+        "imp": 1,
+        "url": "https://ja.wikipedia.org/wiki/IK_Multimedia",
+        "note": "モバイルDTMの普及"
       }
     ],
     "2011": [
@@ -9648,6 +10338,26 @@
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/ドキュメント72時間",
         "note": "街角定点ドキュメント"
+      },
+      {
+        "label": "DJI Phantom",
+        "startYear": 2013,
+        "genre": [
+          "HAR"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/DJI",
+        "note": "空撮ドローン文化の一般化"
+      },
+      {
+        "label": "Google Glass",
+        "startYear": 2013,
+        "genre": [
+          "HAR"
+        ],
+        "imp": 2,
+        "url": "https://ja.wikipedia.org/wiki/Google_Glass",
+        "note": "ウェアラブルARを話題化"
       }
     ],
     "2014": [
@@ -9769,6 +10479,16 @@
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/水曜日のダウンタウン",
         "note": "検証系企画の人気番組"
+      },
+      {
+        "label": "Google Cardboard",
+        "startYear": 2014,
+        "genre": [
+          "HAR"
+        ],
+        "imp": 2,
+        "url": "https://ja.wikipedia.org/wiki/Google_Cardboard",
+        "note": "手軽なVR体験を普及"
       }
     ],
     "2015": [
@@ -10001,6 +10721,26 @@
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/モブサイコ100",
         "note": "力と成長の物語"
+      },
+      {
+        "label": "HTC Vive",
+        "startYear": 2016,
+        "genre": [
+          "HAR"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/HTC_Vive",
+        "note": "PC向けVRの本格普及"
+      },
+      {
+        "label": "PlayStation VR",
+        "startYear": 2016,
+        "genre": [
+          "HAR"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/PlayStation_VR",
+        "note": "家庭用VRを大衆化"
       }
     ],
     "2017": [
@@ -10436,6 +11176,16 @@
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/怪獣8号",
         "note": "怪獣×ヒーローの再解釈"
+      },
+      {
+        "label": "Meta Quest 2",
+        "startYear": 2020,
+        "genre": [
+          "HAR"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/Meta_Quest_2",
+        "note": "スタンドアロンVRの決定版"
       }
     ],
     "2021": [
@@ -10657,6 +11407,18 @@
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/VIVANT",
         "note": "超大規模エンタメ"
+      }
+    ],
+    "2024": [
+      {
+        "label": "Apple Vision Pro",
+        "startYear": 2024,
+        "genre": [
+          "HAR"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/Apple_Vision_Pro",
+        "note": "空間コンピューティングの象徴"
       }
     ],
     "2025": [
