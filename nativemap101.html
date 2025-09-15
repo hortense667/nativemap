@@ -303,9 +303,9 @@
 
   // ===== JSONロード/セーブ =====
   const LS_KEYS=['timelineEventsV2','timelineEventsV1'];
-  const GENRES=['ANI','MAN','GAM','TVP','MOV','NET','HAR','PHE','SOF','TOY','FAS','BOO','MAG','NOV','MUS','UNC'];
+  const GENRES=['ANI','MAN','GAM','TVP','MOV','NET','HAR','PHE','SOF','TOY','FAS','BOO','MAG','NOV','MUS','IDL','RDO','EVT','FMT','SPW','RDE','FOO','UNC'];
   const GENRE_SET=new Set(GENRES);
-  function normalizeItem(it){ if(typeof it==='string') return {label: it}; const o={ label: it.label||'' }; if(it.startYear!==undefined && it.startYear!==null && String(it.startYear)!==''){ const n = parseInt(it.startYear,10); if(n>=YEAR_MIN && n<=YEAR_MAX) o.startYear=n; else o.startYear=''; } if(it.endYear!==undefined && it.endYear!==null && String(it.endYear)!==''){ const n = parseInt(it.endYear,10); if(n>=YEAR_MIN && n<=YEAR_MAX) o.endYear=n; else o.endYear=''; } if(it.genre) o.genre = String(it.genre).toUpperCase(); if(it.imp!==undefined && it.imp!==null && String(it.imp)!==''){ const n = parseInt(it.imp,10); if(n>=1 && n<=5) o.imp=n; else o.imp=''; } if(it.url) o.url = it.url; if(it.note) o.note = it.note; return o; }
+  function normalizeItem(it){ if(typeof it==='string') return {label: it}; const o={ label: it.label||'' }; if(it.startYear!==undefined && it.startYear!==null && String(it.startYear)!==''){ const n = parseInt(it.startYear,10); if(n>=YEAR_MIN && n<=YEAR_MAX) o.startYear=n; else o.startYear=''; } if(it.endYear!==undefined && it.endYear!==null && String(it.endYear)!==''){ const n = parseInt(it.endYear,10); if(n>=YEAR_MIN && n<=YEAR_MAX) o.endYear=n; else o.endYear=''; } if(it.genre) { if(Array.isArray(it.genre)) { o.genre = it.genre.map(g => String(g).toUpperCase()).filter(g => GENRE_SET.has(g)); } else { const genres = String(it.genre).split('・').map(g => g.trim().toUpperCase()).filter(g => GENRE_SET.has(g)); o.genre = genres.length > 0 ? genres : [String(it.genre).toUpperCase()]; } } if(it.imp!==undefined && it.imp!==null && String(it.imp)!==''){ const n = parseInt(it.imp,10); if(n>=1 && n<=5) o.imp=n; else o.imp=''; } if(it.url) o.url = it.url; if(it.note) o.note = it.note; return o; }
   function normalizeAll(obj){ const out={}; for(const y of Object.keys(obj)){ const arr = Array.isArray(obj[y])? obj[y] : []; out[y] = arr.map(normalizeItem).filter(it=>it.label); } return out; }
   function loadEvents(){ 
     for(const k of LS_KEYS){ 
@@ -1106,7 +1106,7 @@
               <div style="flex: 1;">
                 <div style="font-weight: bold; margin-bottom: 4px;">${item.label}</div>
                 <div style="font-size: 12px; color: #666;">
-                  ${item.genre ? `ジャンル: ${item.genre}` : ''}
+                  ${item.genre ? `ジャンル: ${Array.isArray(item.genre) ? item.genre.join('・') : item.genre}` : ''}
                   ${item.imp ? ` | 重要度: ${item.imp}` : ''}
                   ${item.note ? ` | 注釈: ${item.note}` : ''}
                 </div>
@@ -1320,26 +1320,101 @@
       </div>
       
       <div style="margin-bottom: 16px;">
-        <label style="display: block; margin-bottom: 4px; font-weight: bold;">ジャンル:</label>
-        <select id="editGenre" style="width: 100%; padding: 8px; border: 1px solid #ddd; border-radius: 4px;">
-          <option value="">選択してください</option>
-          <option value="ANI" ${item.genre === 'ANI' ? 'selected' : ''}>アニメ</option>
-          <option value="MAN" ${item.genre === 'MAN' ? 'selected' : ''}>マンガ</option>
-          <option value="GAM" ${item.genre === 'GAM' ? 'selected' : ''}>ゲーム</option>
-          <option value="TVP" ${item.genre === 'TVP' ? 'selected' : ''}>テレビ番組</option>
-          <option value="MOV" ${item.genre === 'MOV' ? 'selected' : ''}>映画</option>
-          <option value="NET" ${item.genre === 'NET' ? 'selected' : ''}>インターネット</option>
-          <option value="HAR" ${item.genre === 'HAR' ? 'selected' : ''}>ハードウェア</option>
-          <option value="PHE" ${item.genre === 'PHE' ? 'selected' : ''}>現象・流行</option>
-          <option value="SOF" ${item.genre === 'SOF' ? 'selected' : ''}>ソフトウェア</option>
-          <option value="TOY" ${item.genre === 'TOY' ? 'selected' : ''}>おもちゃ</option>
-          <option value="FAS" ${item.genre === 'FAS' ? 'selected' : ''}>ファッション</option>
-          <option value="BOO" ${item.genre === 'BOO' ? 'selected' : ''}>本</option>
-          <option value="MAG" ${item.genre === 'MAG' ? 'selected' : ''}>雑誌</option>
-          <option value="NOV" ${item.genre === 'NOV' ? 'selected' : ''}>小説</option>
-          <option value="MUS" ${item.genre === 'MUS' ? 'selected' : ''}>音楽</option>
-          <option value="UNC" ${item.genre === 'UNC' ? 'selected' : ''}>その他</option>
-        </select>
+        <label style="display: block; margin-bottom: 8px; font-weight: bold;">ジャンル:</label>
+        <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; max-height: 120px; overflow-y: auto; border: 1px solid #ddd; border-radius: 4px; padding: 8px;">
+          <label style="display: flex; align-items: center; gap: 4px; font-size: 13px;">
+            <input type="checkbox" value="ANI" ${Array.isArray(item.genre) ? (item.genre.includes('ANI') ? 'checked' : '') : (item.genre === 'ANI' ? 'checked' : '')}>
+            アニメ
+          </label>
+          <label style="display: flex; align-items: center; gap: 4px; font-size: 13px;">
+            <input type="checkbox" value="MAN" ${Array.isArray(item.genre) ? (item.genre.includes('MAN') ? 'checked' : '') : (item.genre === 'MAN' ? 'checked' : '')}>
+            マンガ
+          </label>
+          <label style="display: flex; align-items: center; gap: 4px; font-size: 13px;">
+            <input type="checkbox" value="GAM" ${Array.isArray(item.genre) ? (item.genre.includes('GAM') ? 'checked' : '') : (item.genre === 'GAM' ? 'checked' : '')}>
+            ゲーム
+          </label>
+          <label style="display: flex; align-items: center; gap: 4px; font-size: 13px;">
+            <input type="checkbox" value="TVP" ${Array.isArray(item.genre) ? (item.genre.includes('TVP') ? 'checked' : '') : (item.genre === 'TVP' ? 'checked' : '')}>
+            テレビ番組
+          </label>
+          <label style="display: flex; align-items: center; gap: 4px; font-size: 13px;">
+            <input type="checkbox" value="MOV" ${Array.isArray(item.genre) ? (item.genre.includes('MOV') ? 'checked' : '') : (item.genre === 'MOV' ? 'checked' : '')}>
+            映画
+          </label>
+          <label style="display: flex; align-items: center; gap: 4px; font-size: 13px;">
+            <input type="checkbox" value="NET" ${Array.isArray(item.genre) ? (item.genre.includes('NET') ? 'checked' : '') : (item.genre === 'NET' ? 'checked' : '')}>
+            インターネット
+          </label>
+          <label style="display: flex; align-items: center; gap: 4px; font-size: 13px;">
+            <input type="checkbox" value="HAR" ${Array.isArray(item.genre) ? (item.genre.includes('HAR') ? 'checked' : '') : (item.genre === 'HAR' ? 'checked' : '')}>
+            ハードウェア
+          </label>
+          <label style="display: flex; align-items: center; gap: 4px; font-size: 13px;">
+            <input type="checkbox" value="PHE" ${Array.isArray(item.genre) ? (item.genre.includes('PHE') ? 'checked' : '') : (item.genre === 'PHE' ? 'checked' : '')}>
+            現象・流行
+          </label>
+          <label style="display: flex; align-items: center; gap: 4px; font-size: 13px;">
+            <input type="checkbox" value="SOF" ${Array.isArray(item.genre) ? (item.genre.includes('SOF') ? 'checked' : '') : (item.genre === 'SOF' ? 'checked' : '')}>
+            ソフトウェア
+          </label>
+          <label style="display: flex; align-items: center; gap: 4px; font-size: 13px;">
+            <input type="checkbox" value="TOY" ${Array.isArray(item.genre) ? (item.genre.includes('TOY') ? 'checked' : '') : (item.genre === 'TOY' ? 'checked' : '')}>
+            おもちゃ
+          </label>
+          <label style="display: flex; align-items: center; gap: 4px; font-size: 13px;">
+            <input type="checkbox" value="FAS" ${Array.isArray(item.genre) ? (item.genre.includes('FAS') ? 'checked' : '') : (item.genre === 'FAS' ? 'checked' : '')}>
+            ファッション
+          </label>
+          <label style="display: flex; align-items: center; gap: 4px; font-size: 13px;">
+            <input type="checkbox" value="BOO" ${Array.isArray(item.genre) ? (item.genre.includes('BOO') ? 'checked' : '') : (item.genre === 'BOO' ? 'checked' : '')}>
+            本
+          </label>
+          <label style="display: flex; align-items: center; gap: 4px; font-size: 13px;">
+            <input type="checkbox" value="MAG" ${Array.isArray(item.genre) ? (item.genre.includes('MAG') ? 'checked' : '') : (item.genre === 'MAG' ? 'checked' : '')}>
+            雑誌
+          </label>
+          <label style="display: flex; align-items: center; gap: 4px; font-size: 13px;">
+            <input type="checkbox" value="NOV" ${Array.isArray(item.genre) ? (item.genre.includes('NOV') ? 'checked' : '') : (item.genre === 'NOV' ? 'checked' : '')}>
+            小説
+          </label>
+          <label style="display: flex; align-items: center; gap: 4px; font-size: 13px;">
+            <input type="checkbox" value="MUS" ${Array.isArray(item.genre) ? (item.genre.includes('MUS') ? 'checked' : '') : (item.genre === 'MUS' ? 'checked' : '')}>
+            音楽
+          </label>
+          <label style="display: flex; align-items: center; gap: 4px; font-size: 13px;">
+            <input type="checkbox" value="IDL" ${Array.isArray(item.genre) ? (item.genre.includes('IDL') ? 'checked' : '') : (item.genre === 'IDL' ? 'checked' : '')}>
+            アイドル／タレント文化
+          </label>
+          <label style="display: flex; align-items: center; gap: 4px; font-size: 13px;">
+            <input type="checkbox" value="RDO" ${Array.isArray(item.genre) ? (item.genre.includes('RDO') ? 'checked' : '') : (item.genre === 'RDO' ? 'checked' : '')}>
+            ラジオ番組
+          </label>
+          <label style="display: flex; align-items: center; gap: 4px; font-size: 13px;">
+            <input type="checkbox" value="EVT" ${Array.isArray(item.genre) ? (item.genre.includes('EVT') ? 'checked' : '') : (item.genre === 'EVT' ? 'checked' : '')}>
+            イベント／コンベンション
+          </label>
+          <label style="display: flex; align-items: center; gap: 4px; font-size: 13px;">
+            <input type="checkbox" value="FMT" ${Array.isArray(item.genre) ? (item.genre.includes('FMT') ? 'checked' : '') : (item.genre === 'FMT' ? 'checked' : '')}>
+            メディアフォーマット／流通様式
+          </label>
+          <label style="display: flex; align-items: center; gap: 4px; font-size: 13px;">
+            <input type="checkbox" value="SPW" ${Array.isArray(item.genre) ? (item.genre.includes('SPW') ? 'checked' : '') : (item.genre === 'SPW' ? 'checked' : '')}>
+            スポーツ／プロレスリング
+          </label>
+          <label style="display: flex; align-items: center; gap: 4px; font-size: 13px;">
+            <input type="checkbox" value="RDE" ${Array.isArray(item.genre) ? (item.genre.includes('RDE') ? 'checked' : '') : (item.genre === 'RDE' ? 'checked' : '')}>
+            テーマパーク／アトラクション
+          </label>
+          <label style="display: flex; align-items: center; gap: 4px; font-size: 13px;">
+            <input type="checkbox" value="FOO" ${Array.isArray(item.genre) ? (item.genre.includes('FOO') ? 'checked' : '') : (item.genre === 'FOO' ? 'checked' : '')}>
+            食
+          </label>
+          <label style="display: flex; align-items: center; gap: 4px; font-size: 13px;">
+            <input type="checkbox" value="UNC" ${Array.isArray(item.genre) ? (item.genre.includes('UNC') ? 'checked' : '') : (item.genre === 'UNC' ? 'checked' : '')}>
+            その他
+          </label>
+        </div>
       </div>
       
       <div style="margin-bottom: 16px;">
@@ -1387,7 +1462,8 @@
     const startYear = document.getElementById('editStartYear').value.trim();
     const endYear = document.getElementById('editEndYear').value.trim();
     const label = document.getElementById('editLabel').value.trim();
-    const genre = document.getElementById('editGenre').value.trim();
+    const genreCheckboxes = document.querySelectorAll('input[type="checkbox"][value^="ANI"], input[type="checkbox"][value^="MAN"], input[type="checkbox"][value^="GAM"], input[type="checkbox"][value^="TVP"], input[type="checkbox"][value^="MOV"], input[type="checkbox"][value^="NET"], input[type="checkbox"][value^="HAR"], input[type="checkbox"][value^="PHE"], input[type="checkbox"][value^="SOF"], input[type="checkbox"][value^="TOY"], input[type="checkbox"][value^="FAS"], input[type="checkbox"][value^="BOO"], input[type="checkbox"][value^="MAG"], input[type="checkbox"][value^="NOV"], input[type="checkbox"][value^="MUS"], input[type="checkbox"][value^="IDL"], input[type="checkbox"][value^="RDO"], input[type="checkbox"][value^="EVT"], input[type="checkbox"][value^="FMT"], input[type="checkbox"][value^="SPW"], input[type="checkbox"][value^="RDE"], input[type="checkbox"][value^="FOO"], input[type="checkbox"][value^="UNC"]');
+    const genres = Array.from(genreCheckboxes).filter(cb => cb.checked).map(cb => cb.value);
     const imp = document.getElementById('editImp').value.trim();
     const url = document.getElementById('editUrl').value.trim();
     const note = document.getElementById('editNote').value.trim();
@@ -1398,23 +1474,25 @@
     }
     
     // 重複チェック（ラベル・ジャンル組み合わせ）
-    const key = `${label}|${genre || ''}`;
+    const genreKey = genres.length > 0 ? genres.sort().join('・') : '';
+    const key = `${label}|${genreKey}`;
     const existingItems = buildLabelGenreSet();
     
     // 編集の場合（index !== -1）は、自分自身との重複は除外
     if (index !== -1) {
       const currentItem = events[year][index];
-      const currentKey = `${currentItem.label}|${currentItem.genre || ''}`;
+      const currentGenreKey = Array.isArray(currentItem.genre) ? currentItem.genre.sort().join('・') : (currentItem.genre || '');
+      const currentKey = `${currentItem.label}|${currentGenreKey}`;
       if (key === currentKey) {
         // 同じラベル・ジャンル組み合わせなので重複チェックをスキップ
       } else if (existingItems.has(key)) {
-        showError('重複エラー', `同じラベル・ジャンル組み合わせが既に存在します（${label}${genre ? ` [${genre}]` : ''}）`);
+        showError('重複エラー', `同じラベル・ジャンル組み合わせが既に存在します（${label}${genreKey ? ` [${genreKey}]` : ''}）`);
         return;
       }
     } else {
       // 新規追加の場合
       if (existingItems.has(key)) {
-        showError('重複エラー', `同じラベル・ジャンル組み合わせが既に存在します（${label}${genre ? ` [${genre}]` : ''}）`);
+        showError('重複エラー', `同じラベル・ジャンル組み合わせが既に存在します（${label}${genreKey ? ` [${genreKey}]` : ''}）`);
         return;
       }
     }
@@ -1426,7 +1504,7 @@
     const newItem = { label };
     if (startYear) newItem.startYear = parseInt(startYear, 10);
     if (endYear) newItem.endYear = parseInt(endYear, 10);
-    if (genre) newItem.genre = genre;
+    if (genres.length > 0) newItem.genre = genres;
     if (imp) newItem.imp = parseInt(imp, 10);
     if (url) newItem.url = url;
     if (note) newItem.note = note;
@@ -1435,12 +1513,12 @@
       // 新しい項目を追加
       events[year].push(newItem);
       // 新規追加の場合は編集フラグを設定
-      setEditFlag(year, newItem.label, newItem.genre);
+      setEditFlag(year, newItem.label, genreKey);
     } else {
       // 既存の項目を更新
       events[year][index] = newItem;
       // 既存項目の編集の場合は編集フラグを設定
-      setEditFlag(year, newItem.label, newItem.genre);
+      setEditFlag(year, newItem.label, genreKey);
     }
     
     saveEvents();
@@ -1478,14 +1556,14 @@
     const startYear = item.startYear || year;
     const endYear = item.endYear || year;
     
-    const newEra = {
-      name: item.label + (item.genre ? ` [${item.genre}]` : ''),
-      startYear: startYear,
-      endYear: endYear,
-      color: selectedColor,
-      opacity: '0.3',
-      enabled: true
-    };
+      const newEra = {
+        name: item.label + (item.genre ? ` [${Array.isArray(item.genre) ? item.genre.join('・') : item.genre}]` : ''),
+        startYear: startYear,
+        endYear: endYear,
+        color: selectedColor,
+        opacity: '0.3',
+        enabled: true
+      };
     
     eraSettings.push(newEra);
     
@@ -1508,9 +1586,9 @@
   window.deleteEraItem = deleteEraItem;
 
   // ===== 編集UI（テキスト） =====
-  function serializeLine(it){ const startYear=(it.startYear||'').trim(); const endYear=(it.endYear||'').trim(); const label=(it.label||'').trim(); const g=(it.genre||'').trim(); const imp=(it.imp===undefined||it.imp===null||String(it.imp)==='')? '' : String(it.imp); const url=(it.url||'').trim(); const note=(it.note||'').trim(); if(!startYear && !endYear && !g && !imp && !url && !note) return label; return [startYear,endYear,label,g,imp,url,note].join(';'); }
-  function parseLine(line){ const raw=line.trim(); if(!raw) return null; const parts=raw.split(';'); const startYear=(parts[0]||'').trim(); const endYear=(parts[1]||'').trim(); const label=(parts[2]||'').trim(); if(!label) return null; const genre=(parts[3]||'').trim().toUpperCase(); let imp=(parts[4]||'').trim(); imp = imp? String(Math.min(5, Math.max(1, parseInt(imp,10)))): ''; const url=(parts[5]||'').trim(); const note=(parts[6]||'').trim(); const o={label}; if(startYear) o.startYear=startYear; if(endYear) o.endYear=endYear; if(genre) o.genre=genre; if(imp) o.imp=imp; if(url) o.url=url; if(note) o.note=note; return o; }
-  function validateItem(year, it){ const errs=[]; if(it.genre && !GENRE_SET.has(String(it.genre).toUpperCase())) errs.push(`不正なジャンル: ${it.genre}`); if(it.imp!==undefined && it.imp!=='' && !(parseInt(it.imp,10)>=1 && parseInt(it.imp,10)<=5)) errs.push(`不正な重要度: ${it.imp}`); if(!(Number.isInteger(year) && year>=YEAR_MIN && year<=YEAR_MAX)) errs.push(`年の範囲外: ${year}`); return errs; }
+  function serializeLine(it){ const startYear=(it.startYear||'').trim(); const endYear=(it.endYear||'').trim(); const label=(it.label||'').trim(); const g = Array.isArray(it.genre) ? it.genre.join('・') : (it.genre||'').trim(); const imp=(it.imp===undefined||it.imp===null||String(it.imp)==='')? '' : String(it.imp); const url=(it.url||'').trim(); const note=(it.note||'').trim(); if(!startYear && !endYear && !g && !imp && !url && !note) return label; return [startYear,endYear,label,g,imp,url,note].join(';'); }
+  function parseLine(line){ const raw=line.trim(); if(!raw) return null; const parts=raw.split(';'); const startYear=(parts[0]||'').trim(); const endYear=(parts[1]||'').trim(); const label=(parts[2]||'').trim(); if(!label) return null; const genreStr=(parts[3]||'').trim(); let imp=(parts[4]||'').trim(); imp = imp? String(Math.min(5, Math.max(1, parseInt(imp,10)))): ''; const url=(parts[5]||'').trim(); const note=(parts[6]||'').trim(); const o={label}; if(startYear) o.startYear=startYear; if(endYear) o.endYear=endYear; if(genreStr) { const genres = genreStr.split('・').map(g => g.trim().toUpperCase()).filter(g => GENRE_SET.has(g)); o.genre = genres.length > 0 ? genres : [genreStr.toUpperCase()]; } if(imp) o.imp=imp; if(url) o.url=url; if(note) o.note=note; return o; }
+  function validateItem(year, it){ const errs=[]; if(it.genre) { const genres = Array.isArray(it.genre) ? it.genre : [it.genre]; for(const genre of genres) { if(!GENRE_SET.has(String(genre).toUpperCase())) errs.push(`不正なジャンル: ${genre}`); } } if(it.imp!==undefined && it.imp!=='' && !(parseInt(it.imp,10)>=1 && parseInt(it.imp,10)<=5)) errs.push(`不正な重要度: ${it.imp}`); if(!(Number.isInteger(year) && year>=YEAR_MIN && year<=YEAR_MAX)) errs.push(`年の範囲外: ${year}`); return errs; }
   function linesFromItems(items){ return items.map(serializeLine).join('\n'); }
 
   function showEditor(year, anchor){
@@ -1622,7 +1700,7 @@
         const items = (events[y]||[]).filter(passesFilter);
         const tooltipContent = items.map(item => {
           let content = `<li><strong>${item.label}</strong>`;
-          if (item.genre) content += ` <span style="color:#666;">[${item.genre}]</span>`;
+          if (item.genre) content += ` <span style="color:#666;">[${Array.isArray(item.genre) ? item.genre.join('・') : item.genre}]</span>`;
           if (item.imp) content += ` <span style="color:#666;">★${item.imp}</span>`;
           content += '</li>';
           return content;
@@ -2751,9 +2829,11 @@
       }
       
       if(!label){ errors.push(`${i+1}行目: ラベルが空です`); continue; }
-      const key = `${label}|${genre || ''}`;
-      if(seen.has(key)) { errors.push(`${i+1}行目: 同じラベル・ジャンル組み合わせが存在します（${label}${genre ? ` [${genre}]` : ''}）`); continue; }
-      if(genre && !GENRE_SET.has(genre)){ errors.push(`${i+1}行目: 不正なジャンル（${genre}）`); continue; }
+      const genres = genreStr ? genreStr.split('・').map(g => g.trim().toUpperCase()).filter(g => GENRE_SET.has(g)) : [];
+      const genreKey = genres.length > 0 ? genres.sort().join('・') : '';
+      const key = `${label}|${genreKey}`;
+      if(seen.has(key)) { errors.push(`${i+1}行目: 同じラベル・ジャンル組み合わせが存在します（${label}${genreKey ? ` [${genreKey}]` : ''}）`); continue; }
+      if(genreStr) { const invalidGenres = genreStr.split('・').map(g => g.trim().toUpperCase()).filter(g => !GENRE_SET.has(g)); if(invalidGenres.length > 0) { errors.push(`${i+1}行目: 不正なジャンル（${invalidGenres.join(', ')}）`); continue; } }
       if(impStr){ const n=parseInt(impStr,10); if(!(n>=1 && n<=5)){ errors.push(`${i+1}行目: 不正な重要度（${impStr}）`); continue; } }
       
       // アイテムの年を決定（開始年があれば開始年、なければ終了年、どちらもなければエラー）
@@ -2769,7 +2849,7 @@
       const item={ label }; 
       if(startYearStr) item.startYear=parseInt(startYearStr,10); 
       if(endYearStr) item.endYear=parseInt(endYearStr,10); 
-      if(genre) item.genre=genre; 
+      if(genres.length > 0) item.genre=genres; 
       if(impStr) item.imp=parseInt(impStr,10); 
       if(url) item.url=url; 
       if(note) item.note=note;
