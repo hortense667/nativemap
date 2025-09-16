@@ -12945,7 +12945,7 @@
       "name": "モバイルとネットの時代",
       "startYear": 1995,
       "endYear": "ongoing",
-      "color": "#4169E1",
+      "color": "#DC143C",
       "opacity": "0.3",
       "enabled": true,
       "fillEnabled": true
@@ -12954,7 +12954,7 @@
       "name": "テレビ・マンガ・週刊誌の時代",
       "startYear": 1959,
       "endYear": 1999,
-      "color": "#4169E1",
+      "color": "#32CD32",
       "opacity": "0.3",
       "enabled": true,
       "fillEnabled": true
@@ -12963,7 +12963,7 @@
       "name": "AIの時代",
       "startYear": 2022,
       "endYear": "ongoing",
-      "color": "#4169E1",
+      "color": "#696969",
       "opacity": "0.3",
       "enabled": true,
       "fillEnabled": true
