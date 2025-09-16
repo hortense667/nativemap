@@ -935,6 +935,11 @@
   setTimeout(renderEraBackgrounds, 0);
   
   function passesFilter(it){ 
+    // 削除フラグがオンの項目は除外
+    if (it.deleted === true) {
+      return false;
+    }
+    
     // ジャンルフィルタ（複数選択対応）
     if (selectedGenres.size > 0) {
       // ジャンルが設定されていない場合は「その他」（UNC）として扱う
@@ -1273,11 +1278,9 @@
       // 項目に削除フラグを設定（JSONデータに直接保存）
       item.deleted = true;
       
-      // 画面からは削除（表示されなくなる）
-      items.splice(index, 1);
-      if (items.length === 0) {
-        delete events[year];
-      }
+      // 削除フラグを設定した項目は配列に残す（JSONに保存されるため）
+      // 画面表示は renderEvents() で削除フラグがオンの項目は除外される
+      
       saveEvents();
       renderEvents();
       showDetailList(year, null);
@@ -1536,7 +1539,6 @@
     
     if (index === -1) {
       // 新しい項目を追加
-      newItem.deleted = false; // 削除フラグをオフに
       const targetYear = startYear ? parseInt(startYear, 10) : year;
       if (!events[targetYear]) {
         events[targetYear] = [];
@@ -1561,8 +1563,7 @@
           delete events[year];
         }
         
-        // 新しい年に項目を追加（削除フラグはオフ）
-        newItem.deleted = false;
+        // 新しい年に項目を追加
         if (!events[newStartYear]) {
           events[newStartYear] = [];
         }
@@ -1572,7 +1573,6 @@
         setEditFlag(newStartYear, newItem.label, genreKey);
       } else {
         // 開始年が変更されていない場合は通常の更新
-        newItem.deleted = false; // 削除フラグをオフに
         events[year][index] = newItem;
         // 編集フラグを設定
         setEditFlag(year, newItem.label, genreKey);
