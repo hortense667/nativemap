@@ -1477,6 +1477,23 @@
       return;
     }
     
+    // 年の範囲チェック（1945～2059）
+    const RANGE_MIN = 1945;
+    const RANGE_MAX = 2059;
+    const isYearInRange = (v) => v === '' || (String(v).toLowerCase()==='ongoing') || (/^\d{4}$/.test(v) && parseInt(v,10)>=RANGE_MIN && parseInt(v,10)<=RANGE_MAX);
+    if (!isYearInRange(startYear)) {
+      showError('編集エラー', `開始年は${RANGE_MIN}～${RANGE_MAX}の範囲で入力してください。`);
+      const se = document.getElementById('editStartYear');
+      if (se) se.value = '';
+      return;
+    }
+    if (!isYearInRange(endYear)) {
+      showError('編集エラー', `終了年は${RANGE_MIN}～${RANGE_MAX}の範囲で入力してください（または「ongoing」）。`);
+      const ee = document.getElementById('editEndYear');
+      if (ee) ee.value = '';
+      return;
+    }
+
     if (!label) {
       showError('編集エラー', 'ラベルは必須です。');
       return;
