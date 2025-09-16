@@ -447,7 +447,8 @@
         ],
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/UNIVAC_I",
-        "note": "商用電子計算機の先駆"
+        "note": "商用電子計算機の先駆",
+        "deleted": true
       }
     ],
     "1951": [
@@ -776,7 +777,8 @@
         ],
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/ゴジラ_(1954年の映画)",
-        "note": "怪獣映画の出発点"
+        "note": "怪獣映画の出発点",
+        "deleted": true
       },
       {
         "label": "七人の侍",
@@ -797,7 +799,8 @@
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/りぼん",
-        "note": "少女漫画の定番誌"
+        "note": "少女漫画の定番誌",
+        "deleted": true
       }
     ],
     "1957": [
