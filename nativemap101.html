@@ -2568,13 +2568,14 @@
       
       // 仕様:
       // ・ローカルにある時代区分名がリモートにあれば、リモートのその時代区分をローカルで上書き
-      // ・ローカルにあるがリモートにない時代区分は何もしない（ローカル保持）
+      // ・ローカルにあるがリモートにない時代区分は何もしない（ローカル保持、リモートに保存しない）
       // ・ローカルにない時代区分でリモートにあるものはローカルへ取り込み
       const localBase = (window.eraSettings && window.eraSettings.length > 0) ? window.eraSettings : (eraSettings || []);
       const remoteBase = remoteEraSettings || [];
       const nameToRemote = new Map(remoteBase.map(e => [String(e.name||''), e]));
       const nameToLocal  = new Map(localBase.map(e => [String(e.name||''), e]));
       const mergedEraSettings = [];
+      const toSaveEraSettings = []; // リモートに保存する時代区分（ローカルにないリモート分のみ）
       const seen = new Set();
       // ローカル基準に反映（上書き or そのまま）
       for (const loc of localBase){
@@ -2585,9 +2586,11 @@
           const remoteEra = nameToRemote.get(key);
           const mergedEra = { ...remoteEra, ...loc };
           mergedEraSettings.push(mergedEra);
+          toSaveEraSettings.push(mergedEra); // リモートに保存
         } else {
           // リモートに無い時代区分はそのまま保持
           mergedEraSettings.push(loc);
+          // リモートに保存しない（ローカルのみ保持）
         }
         seen.add(key);
       }
@@ -2596,6 +2599,7 @@
         const key = String(rem.name||'');
         if (!key || seen.has(key)) continue;
         mergedEraSettings.push(rem);
+        toSaveEraSettings.push(rem); // リモートに保存
       }
       console.log('eraSettings同期後:', { 
         merged: mergedEraSettings, 
@@ -2606,7 +2610,7 @@
       console.log('GitHubにデータを保存中...');
       const dataToSave = {
         events: merged,
-        eraSettings: mergedEraSettings,
+        eraSettings: toSaveEraSettings, // リモートに保存するのは同名上書き分と新規取り込み分のみ
         genres: GENRES.map(code=>({code, label: (GENRE_LABELS && GENRE_LABELS[code]) ? GENRE_LABELS[code] : code}))
       };
       console.log('保存するデータ構造:', {
@@ -3322,6 +3326,7 @@
         <li><strong>「時代区分」</strong>ボタンを開き、名称・期間・色・透明度を設定します。</li>
         <li>表示チェックでON/OFFを切替。表示時に当該期間を塗ることもON/OFFできます。重なりは上から順に描画されます。</li>
         <li>保存すると画面に色帯が反映されます。</li>
+        <li>時代区分は同期してもリモートには保存されません。基本時代区分（テレビやゲームなどのメディアごとの時代区分）のみ編集・保存可能です。</li>
       </ul>
       <h4>詳細一覧</h4>
       <p>左カラム（年ごとの一覧）で作品や製品名をクリックすると、その年の<strong>詳細一覧</strong>が開きます。ここから次が可能です。</p>
