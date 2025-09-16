@@ -2551,7 +2551,7 @@
       console.log('同期完了 - 競合情報:', conflicts);
       console.log('マージ後データサイズ:', JSON.stringify(merged).length, 'bytes');
 
-      // 3. eraSettingsのマージ処理（ローカルを優先）
+      // 3. eraSettingsのマージ処理（要件準拠）
       console.log('eraSettings同期前:', { 
         local: eraSettings, 
         localLength: eraSettings ? eraSettings.length : 0,
@@ -2561,10 +2561,35 @@
         remoteLength: remoteEraSettings.length 
       });
       
-      // ローカルのeraSettingsが存在する場合は必ずそれを使用
-      const localEraSettings = (window.eraSettings && window.eraSettings.length > 0) ? window.eraSettings : 
-                              (eraSettings && eraSettings.length > 0) ? eraSettings : remoteEraSettings;
-      const mergedEraSettings = localEraSettings;
+      // 仕様:
+      // ・ローカルにある時代区分名がリモートにあれば、リモートのその時代区分をローカルで上書き
+      // ・ローカルにあるがリモートにない時代区分は何もしない（ローカル保持）
+      // ・ローカルにない時代区分でリモートにあるものはローカルへ取り込み
+      const localBase = (window.eraSettings && window.eraSettings.length > 0) ? window.eraSettings : (eraSettings || []);
+      const remoteBase = remoteEraSettings || [];
+      const nameToRemote = new Map(remoteBase.map(e => [String(e.name||'').trim(), e]));
+      const nameToLocal  = new Map(localBase.map(e => [String(e.name||'').trim(), e]));
+      const mergedEraSettings = [];
+      const seen = new Set();
+      // ローカル基準に反映（上書き or そのまま）
+      for (const loc of localBase){
+        const key = String(loc.name||'').trim();
+        if (!key){ continue; }
+        if (nameToRemote.has(key)){
+          // リモートを優先して上書き
+          mergedEraSettings.push(nameToRemote.get(key));
+        } else {
+          // そのまま保持
+          mergedEraSettings.push(loc);
+        }
+        seen.add(key);
+      }
+      // ローカルにないがリモートにある分を追加
+      for (const rem of remoteBase){
+        const key = String(rem.name||'').trim();
+        if (!key || seen.has(key)) continue;
+        mergedEraSettings.push(rem);
+      }
       console.log('eraSettings同期後:', { 
         merged: mergedEraSettings, 
         mergedLength: mergedEraSettings.length 
