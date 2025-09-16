@@ -12933,18 +12933,18 @@
   },
   "eraSettings": [
     {
-      "name": "",
-      "startYear": "",
-      "endYear": "",
+      "name": "テレビ・マンガ・週刊誌の時代",
+      "startYear": "1959",
+      "endYear": "1999",
       "color": "#4169E1",
       "opacity": "0.3",
       "enabled": true,
       "fillEnabled": true
     },
     {
-      "name": "",
-      "startYear": "",
-      "endYear": "",
+      "name": "AIの時代",
+      "startYear": "2022",
+      "endYear": "ongoing",
       "color": "#4169E1",
       "opacity": "0.3",
       "enabled": true,
@@ -12956,15 +12956,17 @@
       "endYear": 2004,
       "color": "#4169E1",
       "opacity": "0.3",
-      "enabled": false
+      "enabled": true
+      "fillEnabled": true
     },
     {
       "name": "モバイルとネットの時代",
       "startYear": 1995,
-      "endYear": 1999,
+      "endYear": "ongoing",
       "color": "#4169E1",
       "opacity": "0.3",
-      "enabled": false
+      "enabled": true
+      "fillEnabled": true
     }
   ],
   "genres": [
