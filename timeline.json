@@ -307,7 +307,8 @@
         ],
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/夜と霧",
-        "note": "極限状況の人間学"
+        "note": "極限状況の人間学",
+        "deleted": true
       },
       {
         "label": "ニュー・ルック",
@@ -482,7 +483,8 @@
         ],
         "imp": 3,
         "url": "https://ja.wikipedia.org/wiki/NME",
-        "note": "英国音楽誌"
+        "note": "英国音楽誌",
+        "deleted": true
       },
       {
         "label": "鉄腕アトム",
