@@ -12934,14 +12934,6 @@
   },
   "eraSettings": [
     {
-      "name": "鉄腕アトム [MAN]",
-      "startYear": 1952,
-      "endYear": 1968,
-      "color": "#FF8C00",
-      "opacity": "0.3",
-      "enabled": true
-    },
-    {
       "name": "ビデオとゲームの時代",
       "startYear": 1983,
       "endYear": 2004,
@@ -12976,6 +12968,14 @@
       "opacity": "0.3",
       "enabled": true,
       "fillEnabled": false
+    },
+    {
+      "name": "鉄腕アトム [MAN]",
+      "startYear": 1952,
+      "endYear": 1968,
+      "color": "#FF8C00",
+      "opacity": "0.3",
+      "enabled": true
     }
   ],
   "genres": [
