@@ -775,6 +775,16 @@
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/ゴジラ_(1954年の映画)",
         "note": "怪獣映画の出発点"
+      },
+      {
+        "label": "七人の侍",
+        "startYear": 1956,
+        "genre": [
+          "MOV"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/七人の侍",
+        "note": "群像アクションの原点"
       }
     ],
     "1957": [
