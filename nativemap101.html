@@ -1006,9 +1006,11 @@
     }
     
     // ジャンルフィルタ（複数選択対応）
-    if (selectedGenres.size > 0) {
-      if (!itemHasSelectedGenre(it)) return false;
+    if (selectedGenres.size === 0) {
+      // 未選択なら何も表示しない
+      return false;
     }
+    if (!itemHasSelectedGenre(it)) return false;
     // 重要度フィルタ
     if(filterImp){ 
       const thr = parseInt(filterImp,10); 
@@ -1791,7 +1793,10 @@
   }
   
   try {
-  renderEvents();
+    // 起動時は全ジャンルを自動選択
+    selectedGenres = new Set(GENRES);
+    updateGenreFilterButtonText && updateGenreFilterButtonText();
+    renderEvents();
     
     // 初期化時に時代区分背景を描画
     renderEraBackgrounds();
