@@ -12939,7 +12939,7 @@
       "color": "#4169E1",
       "opacity": "0.3",
       "enabled": true,
-      "fillEnabled": true
+      "fillEnabled": false
     },
     {
       "name": "モバイルとネットの時代",
@@ -12948,7 +12948,7 @@
       "color": "#DC143C",
       "opacity": "0.3",
       "enabled": true,
-      "fillEnabled": true
+      "fillEnabled": false
     },
     {
       "name": "テレビ・マンガ・週刊誌の時代",
@@ -12957,7 +12957,7 @@
       "color": "#32CD32",
       "opacity": "0.3",
       "enabled": true,
-      "fillEnabled": true
+      "fillEnabled": false
     },
     {
       "name": "AIの時代",
@@ -12966,7 +12966,7 @@
       "color": "#696969",
       "opacity": "0.3",
       "enabled": true,
-      "fillEnabled": true
+      "fillEnabled": false
     }
   ],
   "genres": [
