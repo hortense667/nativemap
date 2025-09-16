@@ -1581,14 +1581,20 @@
       
       // 開始年が変更された場合
       if (originalStartYear !== newStartYear) {
-        // 元の年の項目に削除フラグを設定
+        // 元の年の項目に削除フラグを設定（JSONデータに直接保存）
         currentItem.deleted = true;
         
-        // 元の年から項目を削除（画面表示から）
-        events[year].splice(index, 1);
-        if (events[year].length === 0) {
-          delete events[year];
-        }
+        console.log('開始年変更による削除フラグ設定:', {
+          year: year,
+          index: index,
+          label: currentItem.label,
+          originalStartYear: originalStartYear,
+          newStartYear: newStartYear,
+          deleted: currentItem.deleted
+        });
+        
+        // 削除フラグを設定した項目は配列に残す（JSONに保存されるため）
+        // 画面表示は renderEvents() で削除フラグがオンの項目は除外される
         
         // 新しい年に項目を追加
         if (!events[newStartYear]) {
