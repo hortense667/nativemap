@@ -96,7 +96,6 @@
       <button class="btn" id="nextBtn">次</button>
     </div>
     <div class="legend">
-      <button class="btn" id="loadCsvBtn" title="CSV/TSVを読み込んで追加">ロード</button>
       <button class="btn" id="syncBtn" title="GitHubと同期">同期</button>
       <button class="btn" id="settingsBtn" title="設定">設定</button>
       <button class="btn" id="helpBtn" title="ヘルプ">ヘルプ</button>
@@ -176,7 +175,7 @@
   const searchBtn=document.getElementById('searchBtn');
   const prevBtn=document.getElementById('prevBtn');
   const nextBtn=document.getElementById('nextBtn');
-  const loadCsvBtn=document.getElementById('loadCsvBtn');
+  const loadCsvBtn=null;
   const syncBtn=document.getElementById('syncBtn');
   const settingsBtn=document.getElementById('settingsBtn');
   console.log('settingsBtn:', settingsBtn);
@@ -2793,6 +2792,12 @@
       </div>
       <div style="margin: 16px 0; padding: 12px; background: #fff3cd; border: 1px solid #ffeaa7; border-radius: 6px;">
         <h5>データ管理</h5>
+        <div style="display: flex; align-items: center; gap: 8px; flex-wrap: wrap; margin-bottom: 8px;">
+          <button class="btn" id="settingsLoadCsvBtn" title="CSV/TSVを読み込んで追加" onclick="settingsLoadCsv()">ロード</button>
+          <p style="margin: 0; font-size: 12px; color: #856404;">
+            ロードはデータを一括登録する機能です。詳しい使い方はユーザーガイドをご覧ください。文字コードは必ず「UTF-8」にしてください。また、通常、timeline.jsonとなっている「ファイルパス」をtimeline-test.jsonに変更して正しくロードされるか確認してからtimeline.jsonにロードするようにしてください。
+          </p>
+        </div>
         <p style="margin: 8px 0; font-size: 12px; color: #856404;">
           注意: この操作は現在表示されているすべてのデータを削除し、GitHubから最新データを読み込みます。
         </p>
@@ -2808,21 +2813,42 @@
     openModal('設定', settingsHtml);
   }
 
-  function saveSettings() {
+  async function saveSettings() {
     const tokenInput = document.getElementById('accessToken');
     const ownerInput = document.getElementById('owner');
     const repoInput = document.getElementById('repo');
     const pathInput = document.getElementById('filePath');
     
     if (tokenInput && ownerInput && repoInput && pathInput) {
+      const prevFilePath = githubConfig.filePath || 'timeline.json';
       githubConfig.accessToken = tokenInput.value.trim();
       githubConfig.owner = ownerInput.value.trim();
       githubConfig.repo = repoInput.value.trim();
-      githubConfig.filePath = pathInput.value.trim() || 'timeline.json';
+      githubConfig.filePath = (pathInput.value.trim() || 'timeline.json');
       saveGitHubConfig();
+      const filePathChanged = prevFilePath !== githubConfig.filePath;
       closeModal();
       showInfo('設定保存', '設定が保存されました。');
+      if (filePathChanged) {
+        try { await clearAllDataAndReload(); } catch (e) { console.error(e); }
+      }
     }
+  }
+
+  // 設定画面内のロード処理
+  async function settingsLoadCsv() {
+    const pathInput = document.getElementById('filePath');
+    const newPath = (pathInput && pathInput.value ? pathInput.value.trim() : '') || 'timeline.json';
+    const prevFilePath = githubConfig.filePath || 'timeline.json';
+    const filePathChanged = newPath !== prevFilePath;
+    if (filePathChanged) {
+      githubConfig.filePath = newPath;
+      saveGitHubConfig();
+      try { await clearAllDataAndReload(); } catch (e) { console.error(e); }
+    }
+    // 既存のロード処理（CSV/TSV選択）
+    const fileInputEl = document.getElementById('fileInput');
+    if (fileInputEl) fileInputEl.click();
   }
   
   // 全データをクリアしてGitHubから読み込み
@@ -2863,6 +2889,7 @@
   
   // グローバルに公開
   window.saveSettings = saveSettings;
+  window.settingsLoadCsv = settingsLoadCsv;
   window.clearAllDataAndReload = clearAllDataAndReload;
 
   // 同期状態の表示
@@ -2956,7 +2983,6 @@
   loadGitHubConfig();
 
   // ===== CSV/TSV ロード =====
-  loadCsvBtn.addEventListener('click', ()=> fileInput.click());
   function detectDelim(sample){ const cntTab=(sample.match(/\t/g)||[]).length; const cntSemi=(sample.match(/;/g)||[]).length; const cntComma=(sample.match(/,/g)||[]).length; const arr=[["\t",cntTab],[";",cntSemi],[",",cntComma]].sort((a,b)=>b[1]-a[1]); return arr[0][1]>0 ? arr[0][0] : ';'; }
   fileInput.addEventListener('change', async (e)=>{ const f=e.target.files && e.target.files[0]; if(!f) return; const text = await f.text(); const {addedCount, errors} = importSeparatedText(text); if(errors.length){ const summary = `正常に追加: ${addedCount} 件`; showError('CSV/TSV読込エラー', [summary, ...errors]); } else if(addedCount>0){ saveEvents(); renderEvents(); showInfo('読み込み完了', `${addedCount} 件を追加しました。`); } else { showInfo('結果', '追加された項目はありませんでした。'); } if(addedCount>0){ saveEvents(); renderEvents(); } fileInput.value=''; });
 
