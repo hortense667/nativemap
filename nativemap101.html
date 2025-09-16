@@ -2815,12 +2815,15 @@
       saveEvents();
       renderEvents();
       
-      // 2. GitHubから最新データを読み込み
+      // 2. GitHubから最新データを読み込み（genres も内部で適用）
       const remoteData = await loadFromGitHub();
       if (remoteData !== null) {
         events = remoteData;
         saveEvents();
         renderEvents();
+        // ジャンルが更新された可能性があるためフィルタ選択をリセット
+        if (window.selectedGenres) { selectedGenres.clear(); }
+        if (typeof updateGenreFilterButtonText === 'function') { updateGenreFilterButtonText(); }
         
         // 同期完了時刻を記録
         localStorage.setItem('lastSync', new Date().toISOString());
