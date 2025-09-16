@@ -13032,6 +13032,10 @@
       "label": "食"
     },
     {
+      "code": "ZZZ",
+      "label": "保留"
+    },
+    {
       "code": "UNC",
       "label": "その他"
     }
