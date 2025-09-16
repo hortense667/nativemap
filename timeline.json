@@ -12956,7 +12956,7 @@
       "endYear": 2004,
       "color": "#4169E1",
       "opacity": "0.3",
-      "enabled": true
+      "enabled": true,
       "fillEnabled": true
     },
     {
@@ -12965,7 +12965,7 @@
       "endYear": "ongoing",
       "color": "#4169E1",
       "opacity": "0.3",
-      "enabled": true
+      "enabled": true,
       "fillEnabled": true
     }
   ],
