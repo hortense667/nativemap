@@ -652,7 +652,8 @@
     try{ 
       const data = {
         events: events,
-        eraSettings: eraSettings
+        eraSettings: eraSettings,
+        genres: GENRES.map(code=>({code, label: (GENRE_LABELS && GENRE_LABELS[code]) ? GENRE_LABELS[code] : code}))
       };
       
       // 削除フラグ付きの項目をチェック
@@ -3203,16 +3204,22 @@
     const genreLabels = GENRE_LABELS;
     
     // 各ジャンルの件数を初期化
-    for (const genre of GENRES) {
-      counts[genre] = 0;
-    }
+    for (const code of GENRES) counts[code] = 0;
     
-    // 実際のデータから件数を計算
-    for (const [year, items] of Object.entries(events)) {
-      for (const item of items) {
-        const genre = item.genre || 'UNC'; // ジャンル未設定は「その他」
-        if (counts.hasOwnProperty(genre)) {
-          counts[genre]++;
+    // 実際のデータから件数を計算（配列ジャンル対応）
+    for (const items of Object.values(events)) {
+      for (const item of (items || [])) {
+        const g = item.genre;
+        if (Array.isArray(g)) {
+          for (const codeRaw of g) {
+            const code = String(codeRaw || 'UNC').toUpperCase();
+            if (!(code in counts)) counts[code] = 0; // 未知ジャンルも計上
+            counts[code]++;
+          }
+        } else {
+          const code = String(g || 'UNC').toUpperCase();
+          if (!(code in counts)) counts[code] = 0;
+          counts[code]++;
         }
       }
     }
