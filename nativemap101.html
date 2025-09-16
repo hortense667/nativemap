@@ -603,11 +603,24 @@
         events: events,
         eraSettings: eraSettings
       };
+      
+      // 削除フラグ付きの項目をチェック
+      let deletedItems = [];
+      for (const year of Object.keys(events)) {
+        const items = events[year] || [];
+        for (const item of items) {
+          if (item.deleted === true) {
+            deletedItems.push({ year, label: item.label, deleted: item.deleted });
+          }
+        }
+      }
+      
       console.log('saveEvents: ローカルストレージに保存', {
         hasEvents: !!data.events,
         hasEraSettings: !!data.eraSettings,
         eraSettingsLength: data.eraSettings.length,
-        eraSettingsContent: data.eraSettings
+        deletedItemsCount: deletedItems.length,
+        deletedItems: deletedItems
       });
       localStorage.setItem('timelineEventsV2', JSON.stringify(data)); 
     }catch(e){
@@ -1277,6 +1290,13 @@
     if (confirm(`「${item.label}」を削除しますか？`)) {
       // 項目に削除フラグを設定（JSONデータに直接保存）
       item.deleted = true;
+      
+      console.log('削除フラグを設定:', {
+        year: year,
+        index: index,
+        label: item.label,
+        deleted: item.deleted
+      });
       
       // 削除フラグを設定した項目は配列に残す（JSONに保存されるため）
       // 画面表示は renderEvents() で削除フラグがオンの項目は除外される
@@ -2496,8 +2516,20 @@
         return;
       }
 
+      // ローカルデータの削除フラグ付き項目をチェック
+      let localDeletedItems = [];
+      for (const year of Object.keys(events)) {
+        const items = events[year] || [];
+        for (const item of items) {
+          if (item.deleted === true) {
+            localDeletedItems.push({ year, label: item.label, deleted: item.deleted });
+          }
+        }
+      }
+      
       console.log('同期開始 - リモートデータ:', remoteData);
       console.log('同期開始 - ローカルデータ:', events);
+      console.log('同期開始 - ローカル削除フラグ付き項目:', localDeletedItems);
       console.log('同期開始 - リモートeraSettings:', remoteEraSettings);
       console.log('同期開始 - ローカルeraSettings:', eraSettings);
       console.log('同期開始 - リモートSHA:', remoteSha);
@@ -2527,7 +2559,19 @@
       const merged = mergeResult.merged;
       const conflicts = mergeResult.conflicts;
 
+      // マージ後データの削除フラグ付き項目をチェック
+      let mergedDeletedItems = [];
+      for (const year of Object.keys(merged)) {
+        const items = merged[year] || [];
+        for (const item of items) {
+          if (item.deleted === true) {
+            mergedDeletedItems.push({ year, label: item.label, deleted: item.deleted });
+          }
+        }
+      }
+      
       console.log('同期完了 - マージ後データ:', merged);
+      console.log('同期完了 - マージ後削除フラグ付き項目:', mergedDeletedItems);
       console.log('同期完了 - 競合情報:', conflicts);
       console.log('マージ後データサイズ:', JSON.stringify(merged).length, 'bytes');
 
