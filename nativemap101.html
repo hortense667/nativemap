@@ -306,7 +306,7 @@
   const GENRES=['ANI','MAN','GAM','TVP','MOV','NET','HAR','PHE','SOF','TOY','FAS','BOO','MAG','NOV','MUS','IDL','RDO','EVT','FMT','SPW','RDE','FOO','UNC'];
   const GENRE_SET=new Set(GENRES);
   function normalizeItem(it){ if(typeof it==='string') return {label: it}; const o={ label: it.label||'' }; if(it.startYear!==undefined && it.startYear!==null && String(it.startYear)!==''){ const n = parseInt(it.startYear,10); if(n>=YEAR_MIN && n<=YEAR_MAX) o.startYear=n; else o.startYear=''; } if(it.endYear!==undefined && it.endYear!==null && String(it.endYear)!==''){ if(String(it.endYear).toLowerCase() === 'ongoing') { o.endYear = 'ongoing'; } else { const n = parseInt(it.endYear,10); if(n>=YEAR_MIN && n<=YEAR_MAX) o.endYear=n; else o.endYear=''; } } if(it.genre) { if(Array.isArray(it.genre)) { o.genre = it.genre.map(g => String(g).toUpperCase()).filter(g => GENRE_SET.has(g)); } else { const genres = String(it.genre).split('・').map(g => g.trim().toUpperCase()).filter(g => GENRE_SET.has(g)); o.genre = genres.length > 0 ? genres : [String(it.genre).toUpperCase()]; } } if(it.imp!==undefined && it.imp!==null && String(it.imp)!==''){ const n = parseInt(it.imp,10); if(n>=1 && n<=5) o.imp=n; else o.imp=''; } if(it.url) o.url = it.url; if(it.note) o.note = it.note; return o; }
-  function normalizeAll(obj){ const out={}; for(const y of Object.keys(obj)){ const arr = Array.isArray(obj[y])? obj[y] : []; out[y] = arr.map(normalizeItem).filter(it=>it.label); } return out; }
+  function normalizeAll(obj){ const out={}; for(const y of Object.keys(obj)){ const arr = Array.isArray(obj[y])? obj[y] : []; out[y] = arr.map(normalizeItem).filter(it=>it.label && it.deleted !== true); } return out; }
   function loadEvents(){ 
     for(const k of LS_KEYS){ 
       try{ 
@@ -337,8 +337,6 @@
   // 編集フラグを管理するオブジェクト
   let editFlags = {};
   
-  // 削除フラグを管理するオブジェクト（開始年変更時の元の年の削除用）
-  let deleteFlags = {};
   
   // データ鮮度時刻（GitHub上のjsonのタイムスタンプ）
   let dataFreshnessTimestamp = null;
@@ -362,18 +360,6 @@
     }
   }
   
-  // 削除フラグを保存
-  function saveDeleteFlags() {
-    localStorage.setItem('nativemap_delete_flags', JSON.stringify(deleteFlags));
-  }
-  
-  // 削除フラグを読み込み
-  function loadDeleteFlags() {
-    const saved = localStorage.getItem('nativemap_delete_flags');
-    if (saved) {
-      deleteFlags = JSON.parse(saved);
-    }
-  }
   
   // データ鮮度時刻を保存
   function saveDataFreshnessTimestamp() {
@@ -410,7 +396,7 @@
   }
   
   // 項目の編集フラグをチェック
-  function hasEditFlag(year, label, Array.isArray(genre) ? genre.slice().sort().join('・') : (genre || '')) {
+  function hasEditFlag(year, label, genre) {
     const key = `${year}|${label}|${genre || ''}`;
     return editFlags[key] === true;
   }
@@ -422,26 +408,6 @@
     console.log('編集フラグをクリアしました');
   }
   
-  // 項目の削除フラグを設定
-  function setDeleteFlag(year, label, genre) {
-    const key = `${year}|${label}|${genre || ''}`;
-    deleteFlags[key] = true;
-    saveDeleteFlags();
-    console.log('削除フラグを設定:', key);
-  }
-  
-  // 項目の削除フラグをチェック
-  function hasDeleteFlag(year, label, genre) {
-    const key = `${year}|${label}|${genre || ''}`;
-    return deleteFlags[key] === true;
-  }
-  
-  // 削除フラグをクリア
-  function clearDeleteFlags() {
-    deleteFlags = {};
-    saveDeleteFlags();
-    console.log('削除フラグをクリアしました');
-  }
   
   // ラベルバックアップを設定
   function setLabelBackup(year, label, genre, backupData) {
@@ -517,23 +483,17 @@
       
       // ローカルアイテムをマップ化
       localItems.forEach(item => {
-        const _g = Array.isArray(item.genre) ? item.genre.slice().sort().join('・') : (item.genre || '');
-        const key = `${item.label}|${_g}`;
+        const key = `${item.label}|${item.genre || ''}`;
         localItemMap.set(key, item);
       });
       
       // リモートの順序に従って処理
       remoteItems.forEach(remoteItem => {
-        const remoteGenreKey = Array.isArray(remoteItem.genre) ? remoteItem.genre.slice().sort().join('・') : (remoteItem.genre || '');
-        const key = `${remoteItem.label}|${remoteGenreKey}`;
+        const key = `${remoteItem.label}|${remoteItem.genre || ''}`;
         const localItem = localItemMap.get(key);
-        const hasLocalEdit = localItem ? hasEditFlag(year, localItem.label, Array.isArray(localItem.genre) ? localItem.genre.slice().sort().join('・') : (localItem.genre || '')) : false;
-        const hasDeleteFlagForItem = hasDeleteFlag(year, remoteItem.label, remoteGenreKey);
+        const hasLocalEdit = localItem ? hasEditFlag(year, localItem.label, localItem.genre) : false;
         
-        if (hasDeleteFlagForItem) {
-          // 削除フラグが立っている場合はリモートの項目を除外
-          console.log('削除フラグにより項目を除外:', remoteItem.label, '年:', year);
-        } else if (hasLocalEdit) {
+        if (hasLocalEdit) {
           // 編集フラグが立っている場合はローカルの内容を採用（ただしリモートの順序で配置）
           mergedItems.push(localItem);
         } else {
@@ -545,7 +505,7 @@
       // ローカルのみに存在するアイテムを追加
       for (const [key, localItem] of localItemMap) {
         const existsInRemote = remoteItems.some(remoteItem => {
-          const remoteKey = `${remoteItem.label}|${Array.isArray(remoteItem.genre) ? remoteItem.genre.slice().sort().join('・') : (remoteItem.genre || '')}`;
+          const remoteKey = `${remoteItem.label}|${remoteItem.genre || ''}`;
           return remoteKey === key;
         });
         
@@ -554,19 +514,13 @@
         }
       }
       
-      // リモートのみに存在するアイテムを追加（削除フラグをチェック）
+      // リモートのみに存在するアイテムを追加
       remoteItems.forEach(remoteItem => {
         const key = `${remoteItem.label}|${remoteItem.genre || ''}`;
         const existsInLocal = localItemMap.has(key);
         
         if (!existsInLocal) {
-          const remoteGenreKey = Array.isArray(remoteItem.genre) ? remoteItem.genre.sort().join('・') : (remoteItem.genre || '');
-        const hasDeleteFlagForItem = hasDeleteFlag(year, remoteItem.label, remoteGenreKey);
-          if (!hasDeleteFlagForItem) {
-            mergedItems.push(remoteItem);
-          } else {
-            console.log('削除フラグによりリモート項目を除外:', remoteItem.label, '年:', year);
-          }
+          mergedItems.push(remoteItem);
         }
       });
       
@@ -590,8 +544,7 @@
       
       // ローカルアイテムをマップ化
       localItems.forEach(item => {
-        const _g = Array.isArray(item.genre) ? item.genre.slice().sort().join('・') : (item.genre || '');
-        const key = `${item.label}|${_g}`;
+        const key = `${item.label}|${item.genre || ''}`;
         localItemMap.set(key, item);
       });
       
@@ -599,7 +552,7 @@
       remoteItems.forEach(remoteItem => {
         const key = `${remoteItem.label}|${remoteItem.genre || ''}`;
         const localItem = localItemMap.get(key);
-        const hasLocalEdit = localItem ? hasEditFlag(year, localItem.label, Array.isArray(localItem.genre) ? localItem.genre.slice().sort().join('・') : (localItem.genre || '')) : false;
+        const hasLocalEdit = localItem ? hasEditFlag(year, localItem.label, localItem.genre) : false;
         
         if (hasLocalEdit) {
           // 編集フラグが立っている場合は競合チェック
@@ -629,7 +582,7 @@
       // ローカルのみに存在するアイテムを追加
       for (const [key, localItem] of localItemMap) {
         const existsInRemote = remoteItems.some(remoteItem => {
-          const remoteKey = `${remoteItem.label}|${Array.isArray(remoteItem.genre) ? remoteItem.genre.slice().sort().join('・') : (remoteItem.genre || '')}`;
+          const remoteKey = `${remoteItem.label}|${remoteItem.genre || ''}`;
           return remoteKey === key;
         });
         
@@ -670,8 +623,6 @@
   // 編集フラグを読み込み
   loadEditFlags();
   
-  // 削除フラグを読み込み
-  loadDeleteFlags();
   
   // データ鮮度時刻を読み込み
   loadDataFreshnessTimestamp();
@@ -984,6 +935,11 @@
   setTimeout(renderEraBackgrounds, 0);
   
   function passesFilter(it){ 
+    // 削除フラグがオンの項目は除外
+    if (it.deleted === true) {
+      return false;
+    }
+    
     // ジャンルフィルタ（複数選択対応）
     if (selectedGenres.size > 0) {
       // ジャンルが設定されていない場合は「その他」（UNC）として扱う
@@ -1319,14 +1275,12 @@
     if (!item) return;
     
     if (confirm(`「${item.label}」を削除しますか？`)) {
-      // 削除フラグを設定（同期時に削除を反映するため）
-      const genreKey = Array.isArray(item.genre) ? item.genre.sort().join('・') : (item.genre || '');
-      setDeleteFlag(year, item.label, genreKey);
+      // 項目に削除フラグを設定（JSONデータに直接保存）
+      item.deleted = true;
       
-      items.splice(index, 1);
-      if (items.length === 0) {
-        delete events[year];
-      }
+      // 削除フラグを設定した項目は配列に残す（JSONに保存されるため）
+      // 画面表示は renderEvents() で削除フラグがオンの項目は除外される
+      
       saveEvents();
       renderEvents();
       showDetailList(year, null);
@@ -1601,10 +1555,9 @@
       // 開始年が変更された場合
       if (originalStartYear !== newStartYear) {
         // 元の年の項目に削除フラグを設定
-        const currentGenreKey = Array.isArray(currentItem.genre) ? currentItem.genre.sort().join('・') : (currentItem.genre || '');
-        setDeleteFlag(year, currentItem.label, currentGenreKey);
+        currentItem.deleted = true;
         
-        // 元の年から項目を削除
+        // 元の年から項目を削除（画面表示から）
         events[year].splice(index, 1);
         if (events[year].length === 0) {
           delete events[year];
@@ -1615,6 +1568,7 @@
           events[newStartYear] = [];
         }
         events[newStartYear].push(newItem);
+        
         // 編集フラグを設定
         setEditFlag(newStartYear, newItem.label, genreKey);
       } else {
@@ -2248,8 +2202,7 @@
       
       // ローカルアイテムをマップ化
       localItems.forEach(item => {
-        const _g = Array.isArray(item.genre) ? item.genre.slice().sort().join('・') : (item.genre || '');
-        const key = `${item.label}|${_g}`;
+        const key = `${item.label}|${item.genre || ''}`;
         localItemMap.set(key, item);
       });
       
@@ -2267,15 +2220,10 @@
         const remoteItem = remoteItemMap.get(key);
         
         if (remoteItem) {
-          // 両方に存在する場合：削除フラグと編集フラグをチェック
-          const hasLocalEdit = hasEditFlag(year, localItem.label, Array.isArray(localItem.genre) ? localItem.genre.slice().sort().join('・') : (localItem.genre || ''));
-          const remoteGenreKey = Array.isArray(remoteItem.genre) ? remoteItem.genre.sort().join('・') : (remoteItem.genre || '');
-        const hasDeleteFlagForItem = hasDeleteFlag(year, remoteItem.label, remoteGenreKey);
+          // 両方に存在する場合：編集フラグをチェック
+          const hasLocalEdit = hasEditFlag(year, localItem.label, localItem.genre);
           
-          if (hasDeleteFlagForItem) {
-            // 削除フラグが立っている場合はリモートの項目を除外
-            console.log('削除フラグにより項目を除外:', remoteItem.label, '年:', year);
-          } else if (hasLocalEdit) {
+          if (hasLocalEdit) {
             // ローカルで編集されている場合のみ競合をチェック
             const conflictInfo = checkRealConflict(localItem, remoteItem);
             if (conflictInfo.hasConflict) {
@@ -2310,13 +2258,7 @@
       // リモートのみに存在するアイテムを追加
       for (const [key, remoteItem] of remoteItemMap) {
         if (!processedKeys.has(key)) {
-          const remoteGenreKey = Array.isArray(remoteItem.genre) ? remoteItem.genre.sort().join('・') : (remoteItem.genre || '');
-        const hasDeleteFlagForItem = hasDeleteFlag(year, remoteItem.label, remoteGenreKey);
-          if (!hasDeleteFlagForItem) {
-            mergedItems.push(remoteItem);
-          } else {
-            console.log('削除フラグによりリモート項目を除外:', remoteItem.label, '年:', year);
-          }
+          mergedItems.push(remoteItem);
         }
       }
       
@@ -2648,8 +2590,6 @@
         // 編集フラグをクリア
         clearEditFlags();
         
-        // 削除フラグをクリア（GitHub保存成功時のみ）
-        clearDeleteFlags();
         
         // ラベルバックアップをクリア
         clearLabelBackups();
