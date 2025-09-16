@@ -2567,26 +2567,28 @@
       // ・ローカルにない時代区分でリモートにあるものはローカルへ取り込み
       const localBase = (window.eraSettings && window.eraSettings.length > 0) ? window.eraSettings : (eraSettings || []);
       const remoteBase = remoteEraSettings || [];
-      const nameToRemote = new Map(remoteBase.map(e => [String(e.name||'').trim(), e]));
-      const nameToLocal  = new Map(localBase.map(e => [String(e.name||'').trim(), e]));
+      const nameToRemote = new Map(remoteBase.map(e => [String(e.name||''), e]));
+      const nameToLocal  = new Map(localBase.map(e => [String(e.name||''), e]));
       const mergedEraSettings = [];
       const seen = new Set();
       // ローカル基準に反映（上書き or そのまま）
       for (const loc of localBase){
-        const key = String(loc.name||'').trim();
+        const key = String(loc.name||'');
         if (!key){ continue; }
         if (nameToRemote.has(key)){
-          // リモートを優先して上書き
-          mergedEraSettings.push(nameToRemote.get(key));
+          // 同名があれば、リモートの項目をローカルの値で上書き（ローカル優先）
+          const remoteEra = nameToRemote.get(key);
+          const mergedEra = { ...remoteEra, ...loc };
+          mergedEraSettings.push(mergedEra);
         } else {
-          // そのまま保持
+          // リモートに無い時代区分はそのまま保持
           mergedEraSettings.push(loc);
         }
         seen.add(key);
       }
       // ローカルにないがリモートにある分を追加
       for (const rem of remoteBase){
-        const key = String(rem.name||'').trim();
+        const key = String(rem.name||'');
         if (!key || seen.has(key)) continue;
         mergedEraSettings.push(rem);
       }
