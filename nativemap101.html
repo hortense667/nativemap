@@ -492,12 +492,13 @@
         const key = `${remoteItem.label}|${remoteItem.genre || ''}`;
         const localItem = localItemMap.get(key);
         const hasLocalEdit = localItem ? hasEditFlag(year, localItem.label, localItem.genre) : false;
+        const hasLocalDelete = localItem ? localItem.deleted === true : false;
         
-        if (hasLocalEdit) {
-          // 編集フラグが立っている場合はローカルの内容を採用（ただしリモートの順序で配置）
+        if (hasLocalEdit || hasLocalDelete) {
+          // 編集フラグが立っているか、削除フラグが立っている場合はローカルの内容を採用（ただしリモートの順序で配置）
           mergedItems.push(localItem);
         } else {
-          // 編集フラグが立っていない場合はリモートを採用
+          // 編集フラグも削除フラグも立っていない場合はリモートを採用
           mergedItems.push(remoteItem);
         }
       });
@@ -553,28 +554,34 @@
         const key = `${remoteItem.label}|${remoteItem.genre || ''}`;
         const localItem = localItemMap.get(key);
         const hasLocalEdit = localItem ? hasEditFlag(year, localItem.label, localItem.genre) : false;
+        const hasLocalDelete = localItem ? localItem.deleted === true : false;
         
-        if (hasLocalEdit) {
-          // 編集フラグが立っている場合は競合チェック
-          const backup = getLabelBackup(year, localItem.label, localItem.genre);
-          if (backup && JSON.stringify(backup) === JSON.stringify(remoteItem)) {
-            // バックアップとリモートが同じ場合はローカルの編集を採用（リモートの順序で配置）
+        if (hasLocalEdit || hasLocalDelete) {
+          if (hasLocalDelete) {
+            // 削除フラグが立っている場合はローカルの内容を採用（削除フラグを保持）
             mergedItems.push(localItem);
-          } else {
-            // バックアップとリモートが異なる場合は競合エラー
-            conflicts.push({
-              year: year,
-              label: localItem.label,
-              genre: localItem.genre || '',
-              localItem: localItem,
-              remoteItem: remoteItem,
-              conflictFields: [{ field: 'content', localValue: localItem, remoteValue: remoteItem }]
-            });
-            // 競合の場合はリモートの内容を採用
-            mergedItems.push(remoteItem);
+          } else if (hasLocalEdit) {
+            // 編集フラグが立っている場合は競合チェック
+            const backup = getLabelBackup(year, localItem.label, localItem.genre);
+            if (backup && JSON.stringify(backup) === JSON.stringify(remoteItem)) {
+              // バックアップとリモートが同じ場合はローカルの編集を採用（リモートの順序で配置）
+              mergedItems.push(localItem);
+            } else {
+              // バックアップとリモートが異なる場合は競合エラー
+              conflicts.push({
+                year: year,
+                label: localItem.label,
+                genre: localItem.genre || '',
+                localItem: localItem,
+                remoteItem: remoteItem,
+                conflictFields: [{ field: 'content', localValue: localItem, remoteValue: remoteItem }]
+              });
+              // 競合の場合はリモートの内容を採用
+              mergedItems.push(remoteItem);
+            }
           }
         } else {
-          // 編集フラグが立っていない場合はリモートを採用
+          // 編集フラグも削除フラグも立っていない場合はリモートを採用
           mergedItems.push(remoteItem);
         }
       });
@@ -2044,6 +2051,19 @@
       // UTF-8文字列を正しくBase64エンコード
       console.log('データをBase64エンコード中...');
       const jsonString = JSON.stringify(data, null, 2);
+      
+      // 保存されるデータの削除フラグ付き項目をチェック
+      let savedDeletedItems = [];
+      for (const year of Object.keys(data.events || {})) {
+        const items = data.events[year] || [];
+        for (const item of items) {
+          if (item.deleted === true) {
+            savedDeletedItems.push({ year, label: item.label, deleted: item.deleted });
+          }
+        }
+      }
+      console.log('保存されるデータの削除フラグ付き項目:', savedDeletedItems);
+      
       const bytes = new TextEncoder().encode(jsonString);
       
       // 大きな配列の場合は分割して処理
