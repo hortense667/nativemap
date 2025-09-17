@@ -3386,29 +3386,41 @@
 </script>
 
 <script>
-// === Viewer-friendly loader for GitHub Pages (same-origin first) + fallbacks (Appended by ChatGPT) ===
+// === GitHub Pages viewer + Admin token guard (Appended by ChatGPT) ===
 (function(){
+  // ---- helpers ----
+  function norm(v){ return (v || '').toString().trim(); }
+  function isAscii(s){ return /^[\x00-\x7F]+$/.test(s); }
+  function token(){ try { return norm(window.githubConfig && window.githubConfig.accessToken); } catch(e){ return ''; } }
+  function hasUsableToken(){ const t = token(); return !!t && isAscii(t); }
+
+  function showAdminTokenRequired(){
+    const title = '同期の条件';
+    const msg = 'このプロジェクトの「サーバー同期（編集の保存）」は、管理者から提供される編集トークンを設定した場合にのみ有効です。トークン未設定の方は閲覧のみご利用いただけます。';
+    if (typeof openModalText === 'function') openModalText(title, msg);
+    else alert(msg);
+  }
+
+  // ---- public loader (same-origin first, then fallbacks) ----
   function candidateUrls(){
     const urls = [];
     try {
       const cfg = window.githubConfig || {};
-      const filePath = (cfg.filePath && cfg.filePath.trim()) || 'timeline.json';
-      const rel = new URL(filePath, window.location.href).href;
-      urls.push(rel);
-      // If filePath wasn't set explicitly, also try a common alt name
-      if (!(cfg.filePath && cfg.filePath.trim()) && filePath !== 'timeline-test.json') {
+      const filePath = norm(cfg.filePath) || 'timeline.json';
+      // same-origin relative
+      urls.push(new URL(filePath, window.location.href).href);
+      // common alt file
+      if (!norm(cfg.filePath) && filePath !== 'timeline-test.json') {
         urls.push(new URL('timeline-test.json', window.location.href).href);
       }
-      if (cfg.publicRawUrl && cfg.publicRawUrl.trim()) {
-        urls.push(cfg.publicRawUrl.trim());
-      }
-      const owner = (cfg.owner || '').trim();
-      const repo  = (cfg.repo  || '').trim();
-      const branch = (cfg.branch || 'main').trim();
-      if (owner && repo) {
-        urls.push(`https://raw.githubusercontent.com/${owner}/${repo}/${branch}/${filePath}`);
-      }
-    } catch (e) {}
+      // explicit publicRawUrl
+      if (norm(cfg.publicRawUrl)) urls.push(norm(cfg.publicRawUrl));
+      // raw.githubusercontent.com fallback
+      const owner = norm(cfg.owner);
+      const repo  = norm(cfg.repo);
+      const branch = norm(cfg.branch) || 'main';
+      if (owner && repo) urls.push(`https://raw.githubusercontent.com/${owner}/${repo}/${branch}/${filePath}`);
+    } catch(e) {}
     return urls;
   }
 
@@ -3425,123 +3437,66 @@
 
   async function loadPublic(){
     const urls = candidateUrls();
-    for (let i = 0; i < urls.length; i++){
-      try {
-        return await fetchJsonOnce(urls[i]);
-      } catch (e) {
-        // try next
-      }
+    for (let i=0;i<urls.length;i++){
+      try { return await fetchJsonOnce(urls[i]); } catch(e){ /* try next */ }
     }
-    if (typeof showError === 'function') {
-      showError('読み込みエラー', '公開データの取得に失敗しました。配置場所やURLを確認してください。');
-    }
+    if (typeof showError === 'function') showError('読み込みエラー', '公開データの取得に失敗しました。配置場所やURLを確認してください。');
     return { remoteData: null, remoteSha: null, remoteEraSettings: [], timestamp: null };
   }
 
-  const originalLoadFromGitHub = window.loadFromGitHub;
-  const originalLoadFromGitHubWithSha = window.loadFromGitHubWithSha;
-
-  if (typeof originalLoadFromGitHub === 'function') {
-    window.loadFromGitHub = async function(){
-      if (window.githubConfig && window.githubConfig.accessToken && window.githubConfig.accessToken.trim()) {
-        return await originalLoadFromGitHub.apply(this, arguments);
-      }
-      const { remoteData } = await loadPublic();
-      return remoteData;
-    };
-  }
-
-  if (typeof originalLoadFromGitHubWithSha === 'function') {
-    window.loadFromGitHubWithSha = async function(){
-      if (window.githubConfig && window.githubConfig.accessToken && window.githubConfig.accessToken.trim()) {
-        return await originalLoadFromGitHubWithSha.apply(this, arguments);
-      }
-      return await loadPublic();
-    };
-  }
-
-  // viewer-mode UX guard (no token)
-  function inViewer(){
-    return !(window.githubConfig && window.githubConfig.accessToken && window.githubConfig.accessToken.trim());
-  }
-  if (inViewer()) {
-    window.syncWithConfirmation = async () => {
-      if (typeof openModalText === 'function') {
-        openModalText('閲覧モード', '編集や同期にはPersonal Access Tokenが必要です。「設定」からトークンを保存してください。');
-      }
-    };
-    if (typeof window.openEditorForEmptyYearAt === 'function') {
-      window.openEditorForEmptyYearAt = function(){
-        if (typeof openModalText === 'function') {
-          openModalText('閲覧モード', '編集するにはPersonal Access Tokenが必要です。');
-        }
-      };
-    }
-  }
-})();
-// === End of viewer fallbacks ===
-</script>
-<script>
-  /* === Admin token message guard (friendly) === */
-  (function(){
-    // 表示文言（好きに変えられます）
-    const ADMIN_MSG_TITLE = '同期の条件';
-    const ADMIN_MSG = 'このプロジェクトの「サーバー同期（編集の保存）」は、管理者から提供される編集トークンを設定した場合にのみ有効です。トークン未設定の方は閲覧のみご利用いただけます。';
-  
-    function tokenOrNull(){
-      try {
-        const t = (window.githubConfig && (window.githubConfig.accessToken || '')).trim();
-        return t || null;
-      } catch(e){ return null; }
-    }
-    // 非ASCIIが混じるとブラウザがAuthorizationヘッダで落ちるため、事前に防止
-    function isAscii(s){ return /^[\x00-\x7F]+$/.test(s); }
-    function hasUsableToken(){
-      const t = tokenOrNull();
-      if (!t) return false;
-      if (!isAscii(t)) return false;
-      return true; // 形式の良し悪しには踏み込まず、丁寧メッセージで案内
-    }
-    function showAdminTokenRequired(){
-      if (typeof openModalText === 'function') openModalText(ADMIN_MSG_TITLE, ADMIN_MSG);
-      else alert(ADMIN_MSG);
-    }
-  
-    // 同期ボタン（confirm経由）をフレンドリー文言でガード
-    const _sync = window.syncWithConfirmation || (async function(){});
+  // ---- hard guards for sync/write/read paths ----
+  const origSyncWithConfirmation = window.syncWithConfirmation;
+  if (typeof origSyncWithConfirmation === 'function'){
     window.syncWithConfirmation = async function(){
-      if (!hasUsableToken()) { showAdminTokenRequired(); return; }
-      return await _sync.apply(this, arguments);
+      if (!hasUsableToken()){ showAdminTokenRequired(); return; }
+      return await origSyncWithConfirmation.apply(this, arguments);
     };
-  
-    // 直接GitHub書き込みを呼ぶ箇所がある場合にも二重ガード
-    if (typeof window.updateGitHubFile === 'function'){
-      const _update = window.updateGitHubFile;
-      window.updateGitHubFile = async function(){
-        if (!hasUsableToken()) { showAdminTokenRequired(); return; }
-        try {
-          const res = await _update.apply(this, arguments);
-          // 実トークンが無効（401など）のときも同じメッセージを見せる
-          if (res && (res.status === 401 || res.status === 403)) showAdminTokenRequired();
-          return res;
-        } catch (e) {
-          // ブラウザやネットワーク側で弾かれた場合も同様に案内
-          showAdminTokenRequired();
-          throw e;
-        }
-      };
-    }
-  
-    // 編集入口（空年クリックなど）も未設定なら案内だけ出す
-    if (typeof window.openEditorForEmptyYearAt === 'function'){
-      const _open = window.openEditorForEmptyYearAt;
-      window.openEditorForEmptyYearAt = function(){
-        if (!hasUsableToken()) { showAdminTokenRequired(); return; }
-        return _open.apply(this, arguments);
-      };
-    }
-  })();
-  </script>
-  
+  }
+
+  const origSyncWithGitHub = window.syncWithGitHub;
+  if (typeof origSyncWithGitHub === 'function'){
+    window.syncWithGitHub = async function(){
+      if (!hasUsableToken()){ showAdminTokenRequired(); return; }
+      return await origSyncWithGitHub.apply(this, arguments);
+    };
+  }
+
+  const origSaveToGitHub = window.saveToGitHub;
+  if (typeof origSaveToGitHub === 'function'){
+    window.saveToGitHub = async function(){
+      if (!hasUsableToken()){ showAdminTokenRequired(); return false; }
+      return await origSaveToGitHub.apply(this, arguments);
+    };
+  }
+
+  const origLoadFromGitHubWithSha = window.loadFromGitHubWithSha;
+  if (typeof origLoadFromGitHubWithSha === 'function'){
+    window.loadFromGitHubWithSha = async function(){
+      // if token unusable, avoid hitting fetch with bad Authorization header
+      if (!hasUsableToken()){
+        showAdminTokenRequired();
+        return await loadPublic();
+      }
+      return await origLoadFromGitHubWithSha.apply(this, arguments);
+    };
+  }
+
+  // also guard direct "open editor" entry points
+  if (typeof window.openEditorForEmptyYearAt === 'function'){
+    const _open = window.openEditorForEmptyYearAt;
+    window.openEditorForEmptyYearAt = function(){
+      if (!hasUsableToken()){ showAdminTokenRequired(); return; }
+      return _open.apply(this, arguments);
+    };
+  }
+
+  // make sure config key exists
+  window.githubConfig = window.githubConfig || {};
+  if (!('publicRawUrl' in window.githubConfig)) window.githubConfig.publicRawUrl = '';
+
+})();
+// === End patch ===
+</script>
+
 </body>
 </html>
