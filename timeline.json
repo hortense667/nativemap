@@ -163,6 +163,17 @@
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/一九八四年_(小説)",
         "note": "全体主義を告発する寓話"
+      },
+      {
+        "label": "エド・サリヴァン・ショー",
+        "startYear": 1948,
+        "endYear": "ongoing",
+        "genre": [
+          "TVP"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/エド・サリヴァン・ショー",
+        "note": "音楽バラエティの古典"
       }
     ],
     "1949": [
@@ -442,6 +453,17 @@
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/プレイボーイ",
         "note": "米男性誌の代表格"
+      },
+      {
+        "label": "ザ・トゥナイト・ショー",
+        "startYear": 1954,
+        "endYear": "ongoing",
+        "genre": [
+          "TVP"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/ザ・トゥナイト・ショー",
+        "note": "米国深夜トーク源流"
       }
     ],
     "1955": [
@@ -1051,6 +1073,17 @@
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/大河ドラマ",
         "note": "歴史大作の看板枠"
+      },
+      {
+        "label": "ドクター・フー",
+        "startYear": 1963,
+        "endYear": 1964,
+        "genre": [
+          "TVP"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/ドクター・フー",
+        "note": "英SFの長寿看板番組"
       }
     ],
     "1964": [
@@ -1615,6 +1648,35 @@
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/ラブホテル",
         "note": "日本独自の宿泊文化"
+      },
+      {
+        "label": "60ミニッツ",
+        "startYear": 1968,
+        "endYear": "ongoing",
+        "genre": [
+          "TVP"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/60ミニッツ",
+        "note": "調査報道の金字塔"
+      },
+      {
+        "label": "��d�点��",
+        "genre": [
+          "BOO"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/��d�点��",
+        "note": "DNA�����̓����L"
+      },
+      {
+        "label": "�R���s���[�^�v���O���~���O�̌|�p",
+        "genre": [
+          "BOO"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/�R���s���[�^�v���O���~���O�̌|�p",
+        "note": "�A���S���Y��������"
       }
     ],
     "1969": [
@@ -2212,6 +2274,15 @@
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/ポラロイド・SX-70",
         "note": "“その場で写真”文化を象徴"
+      },
+      {
+        "label": "�����̌��E",
+        "genre": [
+          "BOO"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/�����̌��E",
+        "note": "�n�������̌��E���x��"
       }
     ],
     "1973": [
@@ -2568,6 +2639,24 @@
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/パネルクイズ_アタック25",
         "note": "長寿視聴者参加クイズ"
+      },
+      {
+        "label": "�č��̒a��",
+        "genre": [
+          "BOO"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/�č��̒a��",
+        "note": "�K�����̗͂��j����"
+      },
+      {
+        "label": "�l���̐_�b",
+        "genre": [
+          "BOO"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/�l���̐_�b",
+        "note": "��K�͊J���̐^��"
       }
     ],
     "1976": [
@@ -4269,6 +4358,15 @@
         "imp": 3,
         "url": "https://ja.wikipedia.org/wiki/オールナイトフジ",
         "note": "深夜番組×女子大生ブーム"
+      },
+      {
+        "label": "�z���̋�����",
+        "genre": [
+          "BOO"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/�z���̋�����",
+        "note": "�������Ƃ̋N���_"
       }
     ],
     "1984": [
@@ -4796,6 +4894,15 @@
         "imp": 3,
         "url": "https://ja.wikipedia.org/wiki/風俗営業等の規制及び業務の適正化等に関する法律",
         "note": "性風俗関連営業の枠組みを規定"
+      },
+      {
+        "label": "�v�Z�@�v���O�����̍\\���Ɖ���",
+        "genre": [
+          "BOO"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/�v�Z�@�v���O�����̍\\���Ɖ���",
+        "note": "�v�Z�Ƃ͉�������������"
       }
     ],
     "1986": [
@@ -8117,6 +8224,15 @@
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/AOL_Instant_Messenger",
         "note": "北米のIM文化を牽引"
+      },
+      {
+        "label": "�e�E�a���ہE�S",
+        "genre": [
+          "BOO"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/�e�E�a���ہE�S",
+        "note": "�l�ގj�̔�r�_�I���"
       }
     ],
     "1998": [
@@ -11271,6 +11387,15 @@
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/LINE",
         "note": "スタンプ文化で国民的メッセンジャー"
+      },
+      {
+        "label": "�T�s�G���X�S�j",
+        "genre": [
+          "BOO"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/�T�s�G���X�S�j",
+        "note": "�l�ގj����Ղ���ʎj"
       }
     ],
     "2012": [
@@ -12698,15 +12823,23 @@
         "url": "https://ja.wikipedia.org/wiki/2025年日本国際博覧会",
         "note": "大阪・関西万博予定"
       }
-    ],
-    "eraSettings": []
+    ]
   },
   "eraSettings": [
     {
       "name": "ビデオとゲームの時代",
       "startYear": 1983,
-      "endYear": 2004,
+      "endYear": 2005,
       "color": "#4169E1",
+      "opacity": "0.3",
+      "enabled": true,
+      "fillEnabled": false
+    },
+    {
+      "name": "テレビ・マンガ・週刊誌の時代",
+      "startYear": 1959,
+      "endYear": 1999,
+      "color": "#FFD700",
       "opacity": "0.3",
       "enabled": true,
       "fillEnabled": false
@@ -12721,120 +12854,13 @@
       "fillEnabled": false
     },
     {
-      "name": "テレビ・マンガ・週刊誌の時代",
-      "startYear": 1959,
-      "endYear": 1999,
-      "color": "#32CD32",
-      "opacity": "0.3",
-      "enabled": true,
-      "fillEnabled": false
-    },
-    {
       "name": "AIの時代",
       "startYear": 2022,
       "endYear": "ongoing",
-      "color": "#696969",
+      "color": "#4169E1",
       "opacity": "0.3",
       "enabled": true,
       "fillEnabled": false
-    }
-  ],
-  "genres": [
-    {
-      "code": "ANI",
-      "label": "アニメ"
-    },
-    {
-      "code": "MAN",
-      "label": "マンガ"
-    },
-    {
-      "code": "GAM",
-      "label": "ゲーム"
-    },
-    {
-      "code": "TVP",
-      "label": "テレビ番組"
-    },
-    {
-      "code": "MOV",
-      "label": "映画"
-    },
-    {
-      "code": "NET",
-      "label": "インターネット"
-    },
-    {
-      "code": "HAR",
-      "label": "ハードウェア"
-    },
-    {
-      "code": "PHE",
-      "label": "現象・流行"
-    },
-    {
-      "code": "SOF",
-      "label": "ソフトウェア"
-    },
-    {
-      "code": "TOY",
-      "label": "おもちゃ"
-    },
-    {
-      "code": "FAS",
-      "label": "ファッション"
-    },
-    {
-      "code": "BOO",
-      "label": "書籍"
-    },
-    {
-      "code": "MAG",
-      "label": "雑誌"
-    },
-    {
-      "code": "NOV",
-      "label": "小説"
-    },
-    {
-      "code": "MUS",
-      "label": "音楽"
-    },
-    {
-      "code": "IDL",
-      "label": "アイドル"
-    },
-    {
-      "code": "RDO",
-      "label": "ラジオ"
-    },
-    {
-      "code": "EVT",
-      "label": "イベント"
-    },
-    {
-      "code": "FMT",
-      "label": "フォーマット"
-    },
-    {
-      "code": "SPW",
-      "label": "スポーツ"
-    },
-    {
-      "code": "RDE",
-      "label": "乗り物"
-    },
-    {
-      "code": "FOO",
-      "label": "食"
-    },
-    {
-      "code": "UNC",
-      "label": "その他"
-    },
-    {
-      "code": "PDG",
-      "label": "保留"
     }
   ]
 }
