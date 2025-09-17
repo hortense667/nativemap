@@ -3481,6 +3481,67 @@
 })();
 // === End of viewer fallbacks ===
 </script>
-
+<script>
+  /* === Admin token message guard (friendly) === */
+  (function(){
+    // 表示文言（好きに変えられます）
+    const ADMIN_MSG_TITLE = '同期の条件';
+    const ADMIN_MSG = 'このプロジェクトの「サーバー同期（編集の保存）」は、管理者から提供される編集トークンを設定した場合にのみ有効です。トークン未設定の方は閲覧のみご利用いただけます。';
+  
+    function tokenOrNull(){
+      try {
+        const t = (window.githubConfig && (window.githubConfig.accessToken || '')).trim();
+        return t || null;
+      } catch(e){ return null; }
+    }
+    // 非ASCIIが混じるとブラウザがAuthorizationヘッダで落ちるため、事前に防止
+    function isAscii(s){ return /^[\x00-\x7F]+$/.test(s); }
+    function hasUsableToken(){
+      const t = tokenOrNull();
+      if (!t) return false;
+      if (!isAscii(t)) return false;
+      return true; // 形式の良し悪しには踏み込まず、丁寧メッセージで案内
+    }
+    function showAdminTokenRequired(){
+      if (typeof openModalText === 'function') openModalText(ADMIN_MSG_TITLE, ADMIN_MSG);
+      else alert(ADMIN_MSG);
+    }
+  
+    // 同期ボタン（confirm経由）をフレンドリー文言でガード
+    const _sync = window.syncWithConfirmation || (async function(){});
+    window.syncWithConfirmation = async function(){
+      if (!hasUsableToken()) { showAdminTokenRequired(); return; }
+      return await _sync.apply(this, arguments);
+    };
+  
+    // 直接GitHub書き込みを呼ぶ箇所がある場合にも二重ガード
+    if (typeof window.updateGitHubFile === 'function'){
+      const _update = window.updateGitHubFile;
+      window.updateGitHubFile = async function(){
+        if (!hasUsableToken()) { showAdminTokenRequired(); return; }
+        try {
+          const res = await _update.apply(this, arguments);
+          // 実トークンが無効（401など）のときも同じメッセージを見せる
+          if (res && (res.status === 401 || res.status === 403)) showAdminTokenRequired();
+          return res;
+        } catch (e) {
+          // ブラウザやネットワーク側で弾かれた場合も同様に案内
+          showAdminTokenRequired();
+          throw e;
+        }
+      };
+    }
+  
+    // 編集入口（空年クリックなど）も未設定なら案内だけ出す
+    if (typeof window.openEditorForEmptyYearAt === 'function'){
+      const _open = window.openEditorForEmptyYearAt;
+      window.openEditorForEmptyYearAt = function(){
+        if (!hasUsableToken()) { showAdminTokenRequired(); return; }
+        return _open.apply(this, arguments);
+      };
+    }
+  })();
+  </script>
+  
 </body>
 </html>
