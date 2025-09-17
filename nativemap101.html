@@ -1975,6 +1975,32 @@
     }
   }
 
+  // GitHubからデータを読み込み（トークンなし）
+  async function loadFromGitHubWithoutToken() {
+    try {
+      // トークンなしでGitHubのrawファイルに直接アクセス
+      const rawUrl = `https://raw.githubusercontent.com/${githubConfig.owner}/${githubConfig.repo}/main/${githubConfig.filePath}`;
+      console.log('GitHub raw URL:', rawUrl);
+      
+      const response = await fetch(rawUrl);
+      
+      if (!response.ok) {
+        throw new Error(`GitHub raw file error: ${response.status} ${response.statusText}`);
+      }
+
+      const content = await response.text();
+      const jsonData = JSON.parse(content);
+      
+      // ジャンルが更新された可能性があるためフィルタ選択をリセット
+      if (jsonData.genres) { setGenresFromRemote(jsonData.genres); }
+      
+      return jsonData.events ? jsonData.events : jsonData;
+    } catch (error) {
+      console.error('GitHub raw fileからのデータ読み込みエラー:', error);
+      throw error; // エラーを再スローして上位のcatchで処理
+    }
+  }
+
   // GitHubにデータを保存（競合検出・解決機能付き）
   async function saveToGitHub(data, expectedSha = null, retryCount = 0) {
     if (!githubConfig.accessToken) {
@@ -2871,13 +2897,17 @@
       // 2. GitHubから最新データを読み込み（トークンがなくても読み込み）
       let remoteData = null;
       
-      if (githubConfig.accessToken) {
-        // トークンが設定されている場合はGitHubから読み込み
-        console.log('トークン設定済み、GitHubから読み込み');
-        remoteData = await loadFromGitHub();
-      } else {
-        // トークンが設定されていない場合は埋め込みJSONから読み込み
-        console.log('トークン未設定、埋め込みJSONから読み込み開始');
+      // トークンが設定されていなくてもGitHubから読み込みを試行
+      console.log('GitHubから読み込み開始（トークン:', githubConfig.accessToken ? '設定済み' : '未設定', '）');
+      
+      try {
+        // まずGitHubから読み込みを試行
+        remoteData = await loadFromGitHubWithoutToken();
+        console.log('GitHubからの読み込み成功');
+      } catch (e) {
+        console.log('GitHubからの読み込み失敗、埋め込みJSONから読み込み:', e.message);
+        
+        // GitHubからの読み込みに失敗した場合は埋め込みJSONから読み込み
         try {
           const eventsJsonElement = document.getElementById('events-json');
           if (!eventsJsonElement) {
@@ -2889,6 +2919,16 @@
           console.log('埋め込みJSONテキスト長:', txt.length);
           console.log('埋め込みJSONテキスト（最後の50文字）:', txt.slice(-50));
           
+          // 文字コードを確認
+          const lastChars = txt.slice(-10);
+          console.log('最後の10文字の文字コード:', Array.from(lastChars).map(c => c.charCodeAt(0)));
+          
+          // 問題のある文字を特定
+          const problematicChars = txt.match(/[^\x20-\x7E\u3040-\u309F\u30A0-\u30FF\u4E00-\u9FAF]/g);
+          if (problematicChars) {
+            console.log('問題のある文字:', problematicChars);
+          }
+          
           const embedded = JSON.parse(txt);
           console.log('埋め込みJSON解析成功:', Object.keys(embedded).length, '個の年');
           
@@ -2897,10 +2937,10 @@
           
           remoteData = normalizeAll(rawData);
           console.log('データ正規化完了:', Object.keys(remoteData).length, '個の年');
-        } catch (e) {
-          console.error('埋め込みJSON読み込みエラー:', e);
-          console.error('エラーの詳細:', e.message);
-          console.error('スタックトレース:', e.stack);
+        } catch (e2) {
+          console.error('埋め込みJSON読み込みエラー:', e2);
+          console.error('エラーの詳細:', e2.message);
+          console.error('スタックトレース:', e2.stack);
           
           // フォールバック: 直接オブジェクトを使用
           console.log('フォールバック: 直接オブジェクトを使用');
@@ -2957,7 +2997,7 @@
         // 編集フラグをクリア
         clearEditFlags();
         
-        const source = githubConfig.accessToken ? 'GitHub' : '埋め込みデータ';
+        const source = githubConfig.accessToken ? 'GitHub API' : 'GitHub raw file';
         showInfo('データ更新完了', `${source}から最新データを読み込みました。`);
       } else {
         console.error('remoteDataがnullまたはundefinedです');
