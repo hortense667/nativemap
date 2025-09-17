@@ -936,7 +936,7 @@
       
       enabledEras.forEach(era => {
         const startYear = era.startYear;
-        const endYear = (era.endYear === 'ongoing') ? new Date().getFullYear() + 1 : era.endYear;
+        const endYear = (era.endYear === 'ongoing') ? new Date().getFullYear() : era.endYear;
         if (!startYear || !endYear) return;
 
         const startY = yFromBirthYear(startYear);
