@@ -2879,7 +2879,8 @@
         try {
           const txt = document.getElementById('events-json').textContent.trim();
           const embedded = JSON.parse(txt);
-          remoteData = embedded.events ? embedded.events : embedded;
+          const rawData = embedded.events ? embedded.events : embedded;
+          remoteData = normalizeAll(rawData);
           console.log('トークン未設定のため埋め込みJSONから読み込み');
         } catch (e) {
           console.error('埋め込みJSON読み込みエラー:', e);
