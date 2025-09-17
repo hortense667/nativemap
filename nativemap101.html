@@ -683,7 +683,8 @@
   // ===== 時代区分 ====
   let eraSettings = []; // 時代区分の設定データ
 
-  let events = loadEvents();
+  // 初期化時にリモートからデータを読み込み
+  let events = {};
   
   // 編集フラグを読み込み
   loadEditFlags();
@@ -699,6 +700,32 @@
   if (!eraSettings || eraSettings.length === 0) {
     eraSettings = loadEraSettings();
   }
+  
+  // 初期化時にリモートからデータを読み込み
+  async function initializeWithRemoteData() {
+    console.log('初期化: リモートからデータを読み込み開始');
+    
+    try {
+      // GitHubから読み込みを試行
+      const remoteData = await loadFromGitHubWithoutToken();
+      if (remoteData !== null && remoteData !== undefined) {
+        events = remoteData;
+        saveEvents();
+        renderEvents();
+        console.log('初期化: GitHubからデータ読み込み成功');
+        return;
+      } else {
+        throw new Error('GitHubからデータを取得できませんでした');
+      }
+    } catch (e) {
+      console.error('初期化: GitHubからの読み込み失敗:', e.message);
+      showError('初期化エラー', `GitHubからのデータ読み込みに失敗しました: ${e.message}`);
+      return;
+    }
+  }
+  
+  // 初期化実行
+  initializeWithRemoteData();
   
   // 自動保存の基準を初期化
   let lastSavedEventsData = JSON.stringify(events);
