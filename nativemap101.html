@@ -3384,5 +3384,103 @@
   setTimeout(runSmokeTests, 0);
 })();
 </script>
+
+<script>
+// === Viewer-friendly loader for GitHub Pages (same-origin first) + fallbacks (Appended by ChatGPT) ===
+(function(){
+  function candidateUrls(){
+    const urls = [];
+    try {
+      const cfg = window.githubConfig || {};
+      const filePath = (cfg.filePath && cfg.filePath.trim()) || 'timeline.json';
+      const rel = new URL(filePath, window.location.href).href;
+      urls.push(rel);
+      // If filePath wasn't set explicitly, also try a common alt name
+      if (!(cfg.filePath && cfg.filePath.trim()) && filePath !== 'timeline-test.json') {
+        urls.push(new URL('timeline-test.json', window.location.href).href);
+      }
+      if (cfg.publicRawUrl && cfg.publicRawUrl.trim()) {
+        urls.push(cfg.publicRawUrl.trim());
+      }
+      const owner = (cfg.owner || '').trim();
+      const repo  = (cfg.repo  || '').trim();
+      const branch = (cfg.branch || 'main').trim();
+      if (owner && repo) {
+        urls.push(`https://raw.githubusercontent.com/${owner}/${repo}/${branch}/${filePath}`);
+      }
+    } catch (e) {}
+    return urls;
+  }
+
+  async function fetchJsonOnce(url){
+    const res = await fetch(url, { cache: 'no-cache' });
+    if (!res.ok) throw new Error(`HTTP ${res.status}`);
+    const data = await res.json();
+    const ts = res.headers.get('last-modified') || new Date().toISOString();
+    if (data && typeof data === 'object' && data.events) {
+      return { remoteData: data.events, remoteSha: null, remoteEraSettings: data.eraSettings || [], timestamp: ts };
+    }
+    return { remoteData: data, remoteSha: null, remoteEraSettings: [], timestamp: ts };
+  }
+
+  async function loadPublic(){
+    const urls = candidateUrls();
+    for (let i = 0; i < urls.length; i++){
+      try {
+        return await fetchJsonOnce(urls[i]);
+      } catch (e) {
+        // try next
+      }
+    }
+    if (typeof showError === 'function') {
+      showError('読み込みエラー', '公開データの取得に失敗しました。配置場所やURLを確認してください。');
+    }
+    return { remoteData: null, remoteSha: null, remoteEraSettings: [], timestamp: null };
+  }
+
+  const originalLoadFromGitHub = window.loadFromGitHub;
+  const originalLoadFromGitHubWithSha = window.loadFromGitHubWithSha;
+
+  if (typeof originalLoadFromGitHub === 'function') {
+    window.loadFromGitHub = async function(){
+      if (window.githubConfig && window.githubConfig.accessToken && window.githubConfig.accessToken.trim()) {
+        return await originalLoadFromGitHub.apply(this, arguments);
+      }
+      const { remoteData } = await loadPublic();
+      return remoteData;
+    };
+  }
+
+  if (typeof originalLoadFromGitHubWithSha === 'function') {
+    window.loadFromGitHubWithSha = async function(){
+      if (window.githubConfig && window.githubConfig.accessToken && window.githubConfig.accessToken.trim()) {
+        return await originalLoadFromGitHubWithSha.apply(this, arguments);
+      }
+      return await loadPublic();
+    };
+  }
+
+  // viewer-mode UX guard (no token)
+  function inViewer(){
+    return !(window.githubConfig && window.githubConfig.accessToken && window.githubConfig.accessToken.trim());
+  }
+  if (inViewer()) {
+    window.syncWithConfirmation = async () => {
+      if (typeof openModalText === 'function') {
+        openModalText('閲覧モード', '編集や同期にはPersonal Access Tokenが必要です。「設定」からトークンを保存してください。');
+      }
+    };
+    if (typeof window.openEditorForEmptyYearAt === 'function') {
+      window.openEditorForEmptyYearAt = function(){
+        if (typeof openModalText === 'function') {
+          openModalText('閲覧モード', '編集するにはPersonal Access Tokenが必要です。');
+        }
+      };
+    }
+  }
+})();
+// === End of viewer fallbacks ===
+</script>
+
 </body>
 </html>
