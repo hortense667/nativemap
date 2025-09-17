@@ -2873,21 +2873,39 @@
       
       if (githubConfig.accessToken) {
         // トークンが設定されている場合はGitHubから読み込み
+        console.log('トークン設定済み、GitHubから読み込み');
         remoteData = await loadFromGitHub();
       } else {
         // トークンが設定されていない場合は埋め込みJSONから読み込み
+        console.log('トークン未設定、埋め込みJSONから読み込み開始');
         try {
-          const txt = document.getElementById('events-json').textContent.trim();
+          const eventsJsonElement = document.getElementById('events-json');
+          if (!eventsJsonElement) {
+            throw new Error('events-json要素が見つかりません');
+          }
+          
+          const txt = eventsJsonElement.textContent.trim();
+          console.log('埋め込みJSONテキスト長:', txt.length);
+          
           const embedded = JSON.parse(txt);
+          console.log('埋め込みJSON解析成功:', Object.keys(embedded).length, '個の年');
+          
           const rawData = embedded.events ? embedded.events : embedded;
+          console.log('生データ取得:', Object.keys(rawData).length, '個の年');
+          
           remoteData = normalizeAll(rawData);
-          console.log('トークン未設定のため埋め込みJSONから読み込み');
+          console.log('データ正規化完了:', Object.keys(remoteData).length, '個の年');
         } catch (e) {
           console.error('埋め込みJSON読み込みエラー:', e);
+          console.error('エラーの詳細:', e.message);
+          console.error('スタックトレース:', e.stack);
         }
       }
       
-      if (remoteData !== null) {
+      console.log('remoteDataの状態:', remoteData);
+      
+      if (remoteData !== null && remoteData !== undefined) {
+        console.log('データ読み込み成功、イベント数:', Object.keys(remoteData).length);
         events = remoteData;
         saveEvents();
         renderEvents();
@@ -2906,6 +2924,7 @@
         const source = githubConfig.accessToken ? 'GitHub' : '埋め込みデータ';
         showInfo('データ更新完了', `${source}から最新データを読み込みました。`);
       } else {
+        console.error('remoteDataがnullまたはundefinedです');
         showError('読み込みエラー', 'データの読み込みに失敗しました。');
       }
     } catch (error) {
