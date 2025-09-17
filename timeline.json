@@ -529,7 +529,8 @@
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/エルヴィス・プレスリー",
-        "note": "ロックの王の登場"
+        "note": "ロックの王の登場",
+        "deleted": true
       },
       {
         "label": "国産初コンピュータ",
