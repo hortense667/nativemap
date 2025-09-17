@@ -683,6 +683,14 @@
   // ===== 時代区分 ====
   let eraSettings = []; // 時代区分の設定データ
 
+  // ===== GitHub同期機能 =====
+  let githubConfig = {
+    accessToken: '',
+    owner: 'hortense667',
+    repo: 'nativemap',
+    filePath: 'timeline.json'
+  };
+
   // 初期化時にリモートからデータを読み込み
   let events = {};
   
@@ -1927,13 +1935,6 @@
   }
 
   // ===== GitHub同期機能 =====
-  let githubConfig = {
-    accessToken: '',
-    owner: 'hortense667',
-    repo: 'nativemap',
-    filePath: 'timeline.json'
-  };
-  
   let githubUser = null;
 
 
