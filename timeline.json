@@ -207,7 +207,7 @@
         ],
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/羅生門_(映画)",
-        "note": "黒澤明世界的評価確立"
+        "note": "黒澤明世界的評価確立。"
       },
       {
         "label": "ニュー・オーリンズR&B",
@@ -12861,100 +12861,6 @@
       "opacity": "0.3",
       "enabled": true,
       "fillEnabled": false
-    }
-  ],
-  "genres": [
-    {
-      "code": "ANI",
-      "label": "アニメ"
-    },
-    {
-      "code": "MAN",
-      "label": "マンガ"
-    },
-    {
-      "code": "GAM",
-      "label": "ゲーム"
-    },
-    {
-      "code": "TVP",
-      "label": "テレビ番組"
-    },
-    {
-      "code": "MOV",
-      "label": "映画"
-    },
-    {
-      "code": "NET",
-      "label": "インターネット"
-    },
-    {
-      "code": "HAR",
-      "label": "ハードウェア"
-    },
-    {
-      "code": "PHE",
-      "label": "現象・流行"
-    },
-    {
-      "code": "SOF",
-      "label": "ソフトウェア"
-    },
-    {
-      "code": "TOY",
-      "label": "おもちゃ"
-    },
-    {
-      "code": "FAS",
-      "label": "ファッション"
-    },
-    {
-      "code": "BOO",
-      "label": "書籍"
-    },
-    {
-      "code": "MAG",
-      "label": "雑誌"
-    },
-    {
-      "code": "NOV",
-      "label": "小説"
-    },
-    {
-      "code": "MUS",
-      "label": "音楽"
-    },
-    {
-      "code": "IDL",
-      "label": "アイドル"
-    },
-    {
-      "code": "RDO",
-      "label": "ラジオ"
-    },
-    {
-      "code": "EVT",
-      "label": "イベント"
-    },
-    {
-      "code": "FMT",
-      "label": "フォーマット"
-    },
-    {
-      "code": "SPW",
-      "label": "スポーツ"
-    },
-    {
-      "code": "RDE",
-      "label": "乗り物"
-    },
-    {
-      "code": "FOO",
-      "label": "食"
-    },
-    {
-      "code": "UNC",
-      "label": "その他"
     }
   ]
 }
