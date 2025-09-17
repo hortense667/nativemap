@@ -701,6 +701,9 @@
     eraSettings = loadEraSettings();
   }
   
+  // GitHub設定を読み込み（initializeWithRemoteDataの前に実行）
+  loadGitHubConfig();
+  
   // 初期化時にリモートからデータを読み込み
   async function initializeWithRemoteData() {
     console.log('初期化: リモートからデータを読み込み開始');
@@ -3127,8 +3130,7 @@
     showSettings();
   });
 
-  // 初期化時に設定を読み込み
-  loadGitHubConfig();
+  // 初期化時に設定を読み込み（既に上で実行済み）
 
   // ===== CSV/TSV ロード =====
   function detectDelim(sample){ const cntTab=(sample.match(/\t/g)||[]).length; const cntSemi=(sample.match(/;/g)||[]).length; const cntComma=(sample.match(/,/g)||[]).length; const arr=[["\t",cntTab],[";",cntSemi],[",",cntComma]].sort((a,b)=>b[1]-a[1]); return arr[0][1]>0 ? arr[0][0] : ';'; }
