@@ -1667,7 +1667,8 @@
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/��d�点��",
-        "note": "DNA�����̓����L"
+        "note": "DNA�����̓����L",
+        "deleted": true
       },
       {
         "label": "�R���s���[�^�v���O���~���O�̌|�p",
@@ -1676,7 +1677,8 @@
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/�R���s���[�^�v���O���~���O�̌|�p",
-        "note": "�A���S���Y��������"
+        "note": "�A���S���Y��������",
+        "deleted": true
       }
     ],
     "1969": [
@@ -2282,7 +2284,8 @@
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/�����̌��E",
-        "note": "�n�������̌��E���x��"
+        "note": "�n�������̌��E���x��",
+        "deleted": true
       }
     ],
     "1973": [
@@ -2647,7 +2650,8 @@
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/�č��̒a��",
-        "note": "�K�����̗͂��j����"
+        "note": "�K�����̗͂��j����",
+        "deleted": true
       },
       {
         "label": "�l���̐_�b",
@@ -2656,7 +2660,8 @@
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/�l���̐_�b",
-        "note": "��K�͊J���̐^��"
+        "note": "��K�͊J���̐^��",
+        "deleted": true
       }
     ],
     "1976": [
@@ -4366,7 +4371,8 @@
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/�z���̋�����",
-        "note": "�������Ƃ̋N���_"
+        "note": "�������Ƃ̋N���_",
+        "deleted": true
       }
     ],
     "1984": [
@@ -4902,7 +4908,8 @@
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/�v�Z�@�v���O�����̍\\���Ɖ���",
-        "note": "�v�Z�Ƃ͉�������������"
+        "note": "�v�Z�Ƃ͉�������������",
+        "deleted": true
       }
     ],
     "1986": [
@@ -7884,6 +7891,16 @@
     ],
     "1997": [
       {
+        "label": "銃・病原菌・鉄",
+        "startYear": 1997,
+        "genre": [
+          "BOO"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/銃・病原菌・鉄",
+        "note": "人類史の比較論的解読"
+      },
+      {
         "label": "もののけ姫",
         "startYear": 1997,
         "genre": [
@@ -7915,16 +7932,6 @@
         "url": "https://ja.wikipedia.org/wiki/ポケットモンスター_(アニメ)",
         "note": "メディアミックス象徴",
         "endYear": "ongoing"
-      },
-      {
-        "label": "銃・病原菌・鉄",
-        "startYear": 1997,
-        "genre": [
-          "BOO"
-        ],
-        "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/銃・病原菌・鉄",
-        "note": "人類史の比較論的解読"
       },
       {
         "label": "グランツーリスモ (ゲーム)",
@@ -8232,7 +8239,8 @@
         ],
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/�e�E�a���ہE�S",
-        "note": "�l�ގj�̔�r�_�I���"
+        "note": "�l�ގj�̔�r�_�I���",
+        "deleted": true
       }
     ],
     "1998": [
@@ -11395,7 +11403,8 @@
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/�T�s�G���X�S�j",
-        "note": "�l�ގj����Ղ���ʎj"
+        "note": "�l�ގj����Ղ���ʎj",
+        "deleted": true
       }
     ],
     "2012": [
