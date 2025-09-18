@@ -6790,13 +6790,13 @@
       {
         "label": "料理の鉄人",
         "startYear": 1993,
+        "endYear": "ongoing",
         "genre": [
           "TVP"
         ],
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/料理の鉄人",
-        "note": "料理対決番組の金字塔",
-        "endYear": "ongoing"
+        "note": "料理対決番組の金字塔。海外でも「アイアンシェフ」として輸出されました。"
       },
       {
         "label": "クローズアップ現代",
