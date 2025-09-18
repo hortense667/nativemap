@@ -2025,6 +2025,16 @@
       // ジャンルが更新された可能性があるためフィルタ選択をリセット
       if (jsonData.genres) { setGenresFromRemote(jsonData.genres); }
       
+      // 時代区分データを読み込み
+      if (jsonData.eraSettings) {
+        eraSettings = jsonData.eraSettings;
+        console.log('時代区分データを読み込み:', eraSettings.length, '個');
+        // 時代区分背景を再描画
+        if (typeof drawEraBackgrounds === 'function') {
+          drawEraBackgrounds();
+        }
+      }
+      
       return jsonData.events ? jsonData.events : jsonData;
     } catch (error) {
       console.error('GitHub raw fileからのデータ読み込みエラー:', error);
@@ -2922,6 +2932,7 @@
     try {
       // 1. 現在のデータをクリア
       events = {};
+      eraSettings = []; // 時代区分もクリア
       saveEvents();
       renderEvents();
       
@@ -2962,6 +2973,16 @@
           
           const embedded = JSON.parse(txt);
           console.log('埋め込みJSON解析成功:', Object.keys(embedded).length, '個の年');
+          
+          // 時代区分データを読み込み
+          if (embedded.eraSettings) {
+            eraSettings = embedded.eraSettings;
+            console.log('埋め込みJSONから時代区分データを読み込み:', eraSettings.length, '個');
+            // 時代区分背景を再描画
+            if (typeof drawEraBackgrounds === 'function') {
+              drawEraBackgrounds();
+            }
+          }
           
           const rawData = embedded.events ? embedded.events : embedded;
           console.log('生データ取得:', Object.keys(rawData).length, '個の年');
@@ -3019,6 +3040,10 @@
         // ジャンルが更新された可能性があるためフィルタ選択をリセット
         if (window.selectedGenres) { selectedGenres.clear(); }
         if (typeof updateGenreFilterButtonText === 'function') { updateGenreFilterButtonText(); }
+        // 時代区分背景を再描画
+        if (typeof drawEraBackgrounds === 'function') {
+          drawEraBackgrounds();
+        }
         
         // 同期完了時刻を記録
         localStorage.setItem('lastSync', new Date().toISOString());
