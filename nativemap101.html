@@ -2023,23 +2023,36 @@
     }
   }
 
-  // CSVエクスポート機能
+  // CSVエクスポート機能（変更があった項目のみ）
   function exportToCSV() {
     const csvData = [];
     csvData.push('開始年;終了年;ラベル;ジャンル;重要度;URL;注釈');
     
+    let exportCount = 0;
+    
     for (const [year, items] of Object.entries(events)) {
       for (const item of items) {
-        const startYear = item.startYear || '';
-        const endYear = item.endYear || '';
-        const label = item.label || '';
-        const genre = Array.isArray(item.genre) ? item.genre.join('・') : (item.genre || '');
-        const imp = item.imp || '';
-        const url = item.url || '';
-        const note = item.note || '';
+        // 編集フラグをチェック
+        const hasEdit = hasEditFlag(year, item.label, item.genre);
         
-        csvData.push(`${startYear};${endYear};${label};${genre};${imp};${url};${note}`);
+        if (hasEdit) {
+          const startYear = item.startYear || '';
+          const endYear = item.endYear || '';
+          const label = item.label || '';
+          const genre = Array.isArray(item.genre) ? item.genre.join('・') : (item.genre || '');
+          const imp = item.imp || '';
+          const url = item.url || '';
+          const note = item.note || '';
+          
+          csvData.push(`${startYear};${endYear};${label};${genre};${imp};${url};${note}`);
+          exportCount++;
+        }
       }
+    }
+    
+    if (exportCount === 0) {
+      showInfo('エクスポート結果', '変更された項目がありません。');
+      return;
     }
     
     const csvContent = csvData.join('\n');
@@ -2047,13 +2060,13 @@
     const link = document.createElement('a');
     const url = URL.createObjectURL(blob);
     link.setAttribute('href', url);
-    link.setAttribute('download', `nativemap_export_${new Date().toISOString().split('T')[0]}.csv`);
+    link.setAttribute('download', `nativemap_changes_${new Date().toISOString().split('T')[0]}.csv`);
     link.style.visibility = 'hidden';
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
     
-    showInfo('エクスポート完了', 'CSVファイルをダウンロードしました。このファイルを管理者に送信してください。');
+    showInfo('エクスポート完了', `${exportCount}件の変更された項目をCSVファイルでダウンロードしました。このファイルを管理者に送信してください。`);
   }
 
   // GitHubからデータを読み込み
@@ -2062,7 +2075,7 @@
       // トークンがない場合はCSVエクスポートのオプションを提供
       const hasData = Object.keys(events).length > 0;
       if (hasData) {
-        const result = confirm('GitHubアクセストークンが設定されていません。\n\nデータをCSVファイルとしてエクスポートして、管理者に送信しますか？\n\n「OK」: CSVファイルをダウンロード\n「キャンセル」: 何もしない');
+        const result = confirm('GitHubアクセストークンが設定されていません。\n\n変更された項目のみをCSVファイルとしてエクスポートして、管理者に送信しますか？\n\n「OK」: CSVファイルをダウンロード\n「キャンセル」: 何もしない');
         if (result) {
           exportToCSV();
         }
@@ -2155,7 +2168,7 @@
       // トークンがない場合はCSVエクスポートのオプションを提供
       const hasData = Object.keys(events).length > 0;
       if (hasData) {
-        const result = confirm('GitHubアクセストークンが設定されていません。\n\nデータをCSVファイルとしてエクスポートして、管理者に送信しますか？\n\n「OK」: CSVファイルをダウンロード\n「キャンセル」: 何もしない');
+        const result = confirm('GitHubアクセストークンが設定されていません。\n\n変更された項目のみをCSVファイルとしてエクスポートして、管理者に送信しますか？\n\n「OK」: CSVファイルをダウンロード\n「キャンセル」: 何もしない');
         if (result) {
           exportToCSV();
         }
@@ -2880,7 +2893,7 @@
       // トークンがない場合はCSVエクスポートのオプションを提供
       const hasData = Object.keys(events).length > 0;
       if (hasData) {
-        const result = confirm('GitHubアクセストークンが設定されていません。\n\nデータをCSVファイルとしてエクスポートして、管理者に送信しますか？\n\n「OK」: CSVファイルをダウンロード\n「キャンセル」: 何もしない');
+        const result = confirm('GitHubアクセストークンが設定されていません。\n\n変更された項目のみをCSVファイルとしてエクスポートして、管理者に送信しますか？\n\n「OK」: CSVファイルをダウンロード\n「キャンセル」: 何もしない');
         if (result) {
           exportToCSV();
         }
@@ -3656,7 +3669,7 @@
       <p>左カラムの作品・製品名が並ぶエリアの<strong>空白部分</strong>をクリックすると、<strong>新規登録</strong>ができます。ラベル、ジャンル、重要度、URL、注釈を入力して保存してください。</p>
       <h4>データの同期</h4>
       <p><strong>重要：</strong>編集を開始する前に必ず<strong>「同期」</strong>で最新データを取得し、編集作業が終わったら必ず<strong>「同期」</strong>でGitHubへ保存・反映してください（並び替え・追加・削除・修正のすべてが対象）。</p>
-      <p><strong>GitHubアクセストークンが設定されていない場合：</strong>「同期」ボタンをクリックすると、データをCSVファイルとしてエクスポートするオプションが表示されます。このファイルを管理者に送信することで、データを統合できます。</p>
+      <p><strong>GitHubアクセストークンが設定されていない場合：</strong>「同期」ボタンをクリックすると、変更された項目のみをCSVファイルとしてエクスポートするオプションが表示されます。このファイルを管理者に送信することで、データを統合できます。</p>
       <h4>CSV/TSV読み込み形式</h4>
       <p>「ロード」ボタンでCSV/TSVファイルを読み込んで一括でデータを追加できます。</p>
       <p><strong>形式：</strong> <code>開始年;終了年;ラベル;ジャンル;重要度;URL;注釈</code></p>
