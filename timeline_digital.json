@@ -1,0 +1,41 @@
+{
+  "genres": [
+    { "code": "HIS",      "label": "歴史/出来事" },
+    { "code": "THE",      "label": "理論/モデル" },
+    { "code": "POL",      "label": "政策/戦略" },
+
+    { "code": "ORG",      "label": "人物/組織" },
+    { "code": "MED",      "label": "メディア（雑誌/出版）" },
+
+    { "code": "HAR-PC",   "label": "パソコン本体" },
+    { "code": "HAR-MOB",  "label": "モバイル端末（PDA/スマホ/タブレット）" },
+    { "code": "HAR-PHN",  "label": "携帯電話端末" },
+    { "code": "HAR-SBC",  "label": "シングルボード/マイコンボード" },
+    { "code": "HAR-CPU",  "label": "マイクロプロセッサ" },
+    { "code": "HAR-STO",  "label": "ストレージ/メディア" },
+    { "code": "HAR-PER",  "label": "周辺機器（プリンタ/スキャナ等）" },
+    { "code": "HAR-IMG",  "label": "画像/音響機器（カメラ/オーディオ）" },
+    { "code": "HAR-WEA",  "label": "ウェアラブル" },
+    { "code": "HAR-GAM",  "label": "ゲームハード" },
+    { "code": "ROB",      "label": "ロボティクス/コンシューマロボ" },
+
+    { "code": "SOF-OS",   "label": "OS" },
+    { "code": "SOF-DEV",  "label": "ソフトウェア（言語/開発ツール/プラットフォーム）" },
+    { "code": "SOF-CRE",  "label": "クリエイティブ/3D/メディア系ソフト" },
+    { "code": "DB",       "label": "データベース/データモデル" },
+    { "code": "SEC",      "label": "セキュリティ/プライバシー" },
+    { "code": "AI",       "label": "AI/機械学習" },
+
+    { "code": "NET-PRO",  "label": "ネットワーク/規格・プロトコル" },
+    { "code": "NET-WIR",  "label": "ネットワーク（Wi-Fi/無線LAN）" },
+    { "code": "NET-SAT",  "label": "測位/GPS" },
+
+    { "code": "WEB-SVC",  "label": "インターネット/サービス（Web/検索/メール等）" },
+    { "code": "CLD",      "label": "クラウド/インフラサービス" },
+    { "code": "COM",      "label": "コミュニティ/イベント" },
+    { "code": "FMT",      "label": "データ形式/ファイルフォーマット" },
+
+    { "code": "PAY",      "label": "決済/交通IC・モバイル決済" },
+    { "code": "ENT",      "label": "エンタープライズIT" }
+  ]
+}
