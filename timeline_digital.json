@@ -68,6 +68,18 @@
         "note": "真空管から半導体時代へ大転換"
       }
     ],
+    "1950": [
+      {
+        "label": "アシモフ『われはロボット』",
+        "startYear": 1950,
+        "genre": [
+          "MED-CNT"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/われはロボット",
+        "note": "短編集で三原則を体系化しAI倫理を普及"
+      }
+    ],
     "1951": [
       {
         "label": "UNIVAC I",
@@ -88,6 +100,19 @@
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/UNIVAC_I",
         "note": "商用汎用コンピュータの嚆矢"
+      }
+    ],
+    "1952": [
+      {
+        "label": "『鉄腕アトム』（漫画連載）",
+        "startYear": 1952,
+        "endYear": 1968,
+        "genre": [
+          "MED-CNT"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/鉄腕アトム",
+        "note": "国産ロボット像を形成、科学観へ影響（便宜）"
       }
     ],
     "1953": [
@@ -198,6 +223,16 @@
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/IBM_305_RAMAC",
         "note": "世界初の商用HDD搭載機"
+      },
+      {
+        "label": "『禁断の惑星』",
+        "startYear": 1956,
+        "genre": [
+          "MED-CNT"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/禁断の惑星",
+        "note": "古代文明の巨大計算機と無意識の暴走を寓話化"
       }
     ],
     "1957": [
@@ -264,6 +299,29 @@
         "note": "半導体集積化で高性能化へ"
       }
     ],
+    "1960": [
+      {
+        "label": "PDP-1",
+        "startYear": 1960,
+        "genre": [
+          "HAR-PC"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/PDP-1",
+        "note": "DEC初期作・対話型/Spacewar!で象徴的"
+      },
+      {
+        "label": "MARS-1（国鉄座席予約 初代）",
+        "startYear": 1960,
+        "endYear": "ongoing",
+        "genre": [
+          "WEB-SVC"
+        ],
+        "imp": 5,
+        "url": "https://www.jrs.co.jp/guideline/mars/",
+        "note": "世界初級の座席予約で駅業務のオンライン化嚆矢"
+      }
+    ],
     "1961": [
       {
         "label": "CTSS",
@@ -309,6 +367,29 @@
         "note": "超高速論理素子の物理的基礎"
       }
     ],
+    "1963": [
+      {
+        "label": "PDP-6",
+        "startYear": 1963,
+        "genre": [
+          "HAR-PC"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/PDP-6",
+        "note": "PDP-10の原型・大型時分割の礎"
+      },
+      {
+        "label": "『鉄腕アトム』（TVアニメ第1作）",
+        "startYear": 1963,
+        "endYear": 1966,
+        "genre": [
+          "MED-CNT"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/鉄腕アトム_(アニメ)",
+        "note": "国産TVアニメの嚆矢、技術観を子どもに浸透"
+      }
+    ],
     "1964": [
       {
         "label": "BASIC",
@@ -349,6 +430,27 @@
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/IBM_System/360",
         "note": "互換性を軸に大型機を統一"
+      },
+      {
+        "label": "東京オリンピック競技速報オンライン",
+        "startYear": 1964,
+        "genre": [
+          "WEB-SVC",
+          "HIS"
+        ],
+        "imp": 5,
+        "url": "https://museum.ipsj.or.jp/heritage/olympic.html",
+        "note": "本邦初の本格オンライン情報処理を実現"
+      },
+      {
+        "label": "MARS-101 稼働",
+        "startYear": 1964,
+        "genre": [
+          "WEB-SVC"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/マルス_(システム)",
+        "note": "在来線向け座席予約の電算化を開始"
       }
     ],
     "1965": [
@@ -392,6 +494,37 @@
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/PDP-8",
         "note": "ミニコンの代表格で小型化牽引"
+      },
+      {
+        "label": "MARS-102（みどりの窓口開始）",
+        "startYear": 1965,
+        "genre": [
+          "WEB-SVC"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/マルス_(システム)",
+        "note": "新幹線対応で全国的な発券オンラインへ"
+      },
+      {
+        "label": "三井銀行 普通預金オンライン",
+        "startYear": 1965,
+        "genre": [
+          "ENT"
+        ],
+        "imp": 5,
+        "url": "https://museum.ipsj.or.jp/computer/main/0107.html",
+        "note": "我が国初の銀行オンライン、IBM1410系で稼働"
+      },
+      {
+        "label": "第一次 銀行オンライン",
+        "startYear": 1965,
+        "endYear": 1975,
+        "genre": [
+          "ENT"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/銀行のオンラインシステム",
+        "note": "単科目中心の勘定系オンライン化（便宜）"
       }
     ],
     "1966": [
@@ -415,6 +548,26 @@
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/ELIZA",
         "note": "対話型プログラムの嚆矢"
+      },
+      {
+        "label": "PDP-10",
+        "startYear": 1966,
+        "genre": [
+          "HAR-PC"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/PDP-10",
+        "note": "タイムシェア/ハッカー文化の中心機"
+      },
+      {
+        "label": "HP 2116A/2100系",
+        "startYear": 1966,
+        "genre": [
+          "HAR-PC"
+        ],
+        "imp": 4,
+        "url": "https://en.wikipedia.org/wiki/HP_2100",
+        "note": "計測/制御で定番化・21MXへ継承"
       }
     ],
     "1968": [
@@ -463,6 +616,36 @@
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/ポケットベル",
         "note": "呼出し通信の象徴・平成文化の記号"
+      },
+      {
+        "label": "霞が関ビルの耐震設計と計算機利用",
+        "startYear": 1968,
+        "genre": [
+          "HIS"
+        ],
+        "imp": 3,
+        "url": "https://www.ipsj.or.jp/release/heritage2013.html",
+        "note": "SERAC等の解析で超高層時代の象徴に"
+      },
+      {
+        "label": "『2001年宇宙の旅』（映画）",
+        "startYear": 1968,
+        "genre": [
+          "MED-CNT"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/2001年宇宙の旅",
+        "note": "HAL9000像を通じ計算機観を刷新"
+      },
+      {
+        "label": "『2001年宇宙の旅』（小説）",
+        "startYear": 1968,
+        "genre": [
+          "MED-CNT"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/2001年宇宙の旅_(小説)",
+        "note": "映画と相互補完、知性進化を描く"
       }
     ],
     "1969": [
@@ -507,6 +690,26 @@
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/UNIX",
         "note": "移植性とツール哲学で後世に影響"
+      },
+      {
+        "label": "Data General Nova",
+        "startYear": 1969,
+        "genre": [
+          "HAR-PC"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/データゼネラルNova",
+        "note": "廉価/堅牢で70年代を席巻"
+      },
+      {
+        "label": "HITAC 10（日立）",
+        "startYear": 1969,
+        "genre": [
+          "HAR-PC"
+        ],
+        "imp": 4,
+        "url": "https://museum.ipsj.or.jp/computer/mini/0001.html",
+        "note": "国産初のミニコン（1969発表・資料準拠）"
       }
     ],
     "1970": [
@@ -531,6 +734,37 @@
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/関係モデル",
         "note": "RDBの理論基盤（コッド）"
+      },
+      {
+        "label": "PDP-11",
+        "startYear": 1970,
+        "genre": [
+          "HAR-PC"
+        ],
+        "imp": 5,
+        "url": "https://en.wikipedia.org/wiki/PDP-11",
+        "note": "16bitミニコンの代表格・長期に普及"
+      },
+      {
+        "label": "POSシステム普及（米発→日本）",
+        "startYear": 1970,
+        "endYear": "ongoing",
+        "genre": [
+          "ENT"
+        ],
+        "imp": 4,
+        "url": "https://www.onamae.com/business/article/40580/",
+        "note": "1970年代誕生、70–80年代に日本小売へ浸透"
+      },
+      {
+        "label": "『地球爆破作戦（コロッサス）』",
+        "startYear": 1970,
+        "genre": [
+          "MED-CNT"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/地球爆破作戦",
+        "note": "軍事超計算機が統治するAIディストピア"
       }
     ],
     "1971": [
@@ -658,6 +892,46 @@
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/TCP/IP",
         "note": "後のインターネット基盤プロトコル"
+      },
+      {
+        "label": "HP 3000",
+        "startYear": 1973,
+        "genre": [
+          "HAR-PC"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/HP_3000",
+        "note": "MPE搭載業務ミニ、長命な系列に"
+      },
+      {
+        "label": "Interdata 7/32・8/32",
+        "startYear": 1973,
+        "genre": [
+          "HAR-PC"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/Interdata_7/32と8/32",
+        "note": "32bitミニの先駆・マイクロコード可変"
+      },
+      {
+        "label": "Norsk Data Nord-10",
+        "startYear": 1973,
+        "genre": [
+          "HAR-PC"
+        ],
+        "imp": 3,
+        "url": "https://en.wikipedia.org/wiki/Nord-10",
+        "note": "北欧発16bitミニ・SINTRAN III採用"
+      },
+      {
+        "label": "『ウエストワールド』（映画）",
+        "startYear": 1973,
+        "genre": [
+          "MED-CNT"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/ウエストワールド",
+        "note": "自律ロボの反乱とテーマパーク自動化"
       }
     ],
     "1974": [
@@ -672,6 +946,17 @@
         "imp": 3,
         "url": "https://ja.wikipedia.org/wiki/ジョセフソン効果",
         "note": "超伝導論理の計算機応用を模索（便宜）"
+      },
+      {
+        "label": "Data General Eclipse",
+        "startYear": 1974,
+        "endYear": 1988,
+        "genre": [
+          "HAR-PC"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/Eclipse_%28コンピュータ%29",
+        "note": "仮想記憶/マルチタスクで事務用途拡大"
       }
     ],
     "1975": [
@@ -714,6 +999,29 @@
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/マイクロソフト",
         "note": "PCソフトウェア産業を牽引"
+      },
+      {
+        "label": "第二次 銀行オンライン",
+        "startYear": 1975,
+        "endYear": 1985,
+        "genre": [
+          "ENT"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/銀行のオンラインシステム",
+        "note": "科目間連携と機能拡充の時代（便宜）"
+      },
+      {
+        "label": "企業間EDIの普及（日本）",
+        "startYear": 1975,
+        "endYear": "ongoing",
+        "genre": [
+          "ENT",
+          "NET-PRO"
+        ],
+        "imp": 4,
+        "url": "https://www.dal.co.jp/download/ediblog/Rep_09_199921RyutsyKagaku.pdf",
+        "note": "大型機直結から標準化へ、流通で拡大"
       }
     ],
     "1976": [
@@ -756,6 +1064,17 @@
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/TK-80",
         "note": "日本のマイコン普及を牽引"
+      },
+      {
+        "label": "IBM Series/1",
+        "startYear": 1976,
+        "endYear": 1988,
+        "genre": [
+          "HAR-PC"
+        ],
+        "imp": 3,
+        "url": "https://en.wikipedia.org/wiki/IBM_Series/1",
+        "note": "16bit制御向けミニ・産業現場で活用"
       }
     ],
     "1977": [
@@ -778,6 +1097,26 @@
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/Apple_II",
         "note": "ホームコンピュータ普及の象徴"
+      },
+      {
+        "label": "VAX-11/780（VAX-11系）",
+        "startYear": 1977,
+        "genre": [
+          "HAR-PC"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/VAX",
+        "note": "32bit“スーパーミニ”でDEC最盛期象徴"
+      },
+      {
+        "label": "『デモン・シード』",
+        "startYear": 1977,
+        "genre": [
+          "MED-CNT"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/デモン・シード",
+        "note": "館内AIの支配と身体侵襲をサスペンス化"
       }
     ],
     "1978": [
@@ -841,6 +1180,17 @@
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/ベーシックマスター",
         "note": "国産8bit普及の嚆矢・教育に浸透"
+      },
+      {
+        "label": "POS/レジ・流通での本格展開",
+        "startYear": 1978,
+        "endYear": "ongoing",
+        "genre": [
+          "ENT"
+        ],
+        "imp": 3,
+        "url": "https://ec-orange.jp/ec-media/?p=3426",
+        "note": "百貨店～コンビニでの普及加速（便宜年）"
       }
     ],
     "1979": [
@@ -883,6 +1233,16 @@
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/VisiCalc",
         "note": "表計算がPC必然性を証明"
+      },
+      {
+        "label": "Norsk Data Nord-100（ND-100）",
+        "startYear": 1979,
+        "genre": [
+          "HAR-PC"
+        ],
+        "imp": 3,
+        "url": "https://en.wikipedia.org/wiki/Nord-100",
+        "note": "Nord-10後継・リアルタイム用途強化"
       }
     ],
     "1980": [
@@ -1091,6 +1451,36 @@
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/X1_(コンピュータ)",
         "note": "高画質志向のホビー機"
+      },
+      {
+        "label": "IBM産業スパイ事件",
+        "startYear": 1982,
+        "genre": [
+          "HIS"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/IBM産業スパイ事件",
+        "note": "IBM機密流出で日立等関係者逮捕・翌年和解。 :contentReference[oaicite:8]{index=8}"
+      },
+      {
+        "label": "『トロン』",
+        "startYear": 1982,
+        "genre": [
+          "MED-CNT"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/トロン_(映画)",
+        "note": "CGと仮想空間の表象を一般化"
+      },
+      {
+        "label": "『ブレードランナー』",
+        "startYear": 1982,
+        "genre": [
+          "MED-CNT"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/ブレードランナー",
+        "note": "人工生命と記憶改変が投げかける倫理"
       }
     ],
     "1983": [
@@ -1341,6 +1731,16 @@
         "imp": 3,
         "url": "https://en.wikipedia.org/wiki/Osborne_Executive",
         "note": "CP/M可搬機の上位機"
+      },
+      {
+        "label": "『ウォー・ゲーム』",
+        "startYear": 1983,
+        "genre": [
+          "MED-CNT"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/ウォー・ゲーム",
+        "note": "ハッキング/核抑止と計算機の関係を描写"
       }
     ],
     "1984": [
@@ -1477,6 +1877,26 @@
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/量子鍵配送",
         "note": "量子暗号の事実上の基本方式"
+      },
+      {
+        "label": "『ニューロマンサー』",
+        "startYear": 1984,
+        "genre": [
+          "MED-CNT"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/ニューロマンサー",
+        "note": "サイバースペース概念を大衆化した金字塔"
+      },
+      {
+        "label": "『ターミネーター』",
+        "startYear": 1984,
+        "genre": [
+          "MED-CNT"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/ターミネーター",
+        "note": "軍事AIスカイネットの反乱イメージを固定"
       }
     ],
     "1985": [
@@ -1663,6 +2083,27 @@
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/アスキーネット",
         "note": "日本の商用パソコン通信の先駆（便宜）"
+      },
+      {
+        "label": "第三次 銀行オンライン",
+        "startYear": 1985,
+        "endYear": 1995,
+        "genre": [
+          "ENT"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/銀行のオンラインシステム",
+        "note": "全面更改・大規模集中処理へ（便宜）"
+      },
+      {
+        "label": "『未来世紀ブラジル』",
+        "startYear": 1985,
+        "genre": [
+          "MED-CNT"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/未来世紀ブラジル",
+        "note": "官僚的情報システムの滑稽と悪夢"
       }
     ],
     "1986": [
@@ -1813,6 +2254,51 @@
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/Simultaneous_Localization_and_Mapping",
         "note": "移動体の自己位置推定/地図生成の基盤"
+      },
+      {
+        "label": "付加価値通信網（VAN）",
+        "startYear": 1986,
+        "endYear": "ongoing",
+        "genre": [
+          "ENT",
+          "NET-PRO"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/付加価値通信網",
+        "note": "通信＋処理の中継網、EDI基盤に発展"
+      },
+      {
+        "label": "第一次 日米半導体協定",
+        "startYear": 1986,
+        "endYear": 1991,
+        "genre": [
+          "POL",
+          "HIS"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/日米半導体協定",
+        "note": "半導体摩擦の是正合意・91年に改訂（期間は便宜）。 :contentReference[oaicite:0]{index=0}"
+      },
+      {
+        "label": "MOSS電気通信合意（端末開放・新規参入）",
+        "startYear": 1986,
+        "genre": [
+          "POL",
+          "HIS"
+        ],
+        "imp": 3,
+        "url": "https://project.iss.u-tokyo.ac.jp/crep/pdf/rj/r2.pdf",
+        "note": "86–94年の通信摩擦の起点、事業者参入へ道。 :contentReference[oaicite:4]{index=4}"
+      },
+      {
+        "label": "『ショート・サーキット』",
+        "startYear": 1986,
+        "genre": [
+          "MED-CNT"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/ショート・サーキット",
+        "note": "軍用ロボの自我獲得を大衆的コメディで"
       }
     ],
     "1987": [
@@ -1921,6 +2407,27 @@
         "imp": 4,
         "url": "https://en.wikipedia.org/wiki/Toshiba_T1200",
         "note": "バッテリ駆動/休止復帰で実用ノート前進"
+      },
+      {
+        "label": "東芝機械ココム違反事件",
+        "startYear": 1987,
+        "genre": [
+          "HIS",
+          "POL"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/東芝機械ココム違反事件",
+        "note": "対共産圏輸出問題で対米関係が緊張。 :contentReference[oaicite:9]{index=9}"
+      },
+      {
+        "label": "『ロボコップ』",
+        "startYear": 1987,
+        "genre": [
+          "MED-CNT"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/ロボコップ",
+        "note": "都市監視/企業統治とサイボーグ倫理"
       }
     ],
     "1988": [
@@ -1943,6 +2450,16 @@
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/NeXTSTEP",
         "note": "後のmacOS/iOS技術基盤に継承"
+      },
+      {
+        "label": "『AKIRA』（劇場アニメ）",
+        "startYear": 1988,
+        "genre": [
+          "MED-CNT"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/AKIRA",
+        "note": "サイバーパンク映像表現の到達点"
       }
     ],
     "1989": [
@@ -2027,6 +2544,40 @@
         "imp": 3,
         "url": "https://ja.wikipedia.org/wiki/%E3%83%A2%E3%83%88%E3%83%AD%E3%83%BC%E3%83%A9",
         "note": "折りたたみ先駆け、携帯小型化の潮流"
+      },
+      {
+        "label": "日米スパコン貿易摩擦",
+        "startYear": 1989,
+        "endYear": 1990,
+        "genre": [
+          "POL",
+          "HIS"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/日米スパコン貿易摩擦",
+        "note": "日本製スパコンの米調達巡り通商摩擦が顕在化。 :contentReference[oaicite:2]{index=2}"
+      },
+      {
+        "label": "日米電気通信交渉（携帯市場開放）",
+        "startYear": 1989,
+        "genre": [
+          "POL",
+          "HIS"
+        ],
+        "imp": 4,
+        "url": "https://k-ris.keio.ac.jp/html/100013057_ronbn_ja.html",
+        "note": "モトローラ参入要求など“携帯摩擦”象徴案件。 :contentReference[oaicite:5]{index=5}"
+      },
+      {
+        "label": "『攻殻機動隊』（漫画）",
+        "startYear": 1989,
+        "endYear": 1997,
+        "genre": [
+          "MED-CNT"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/攻殻機動隊",
+        "note": "電脳/ネットと国家を横断する思想的基盤"
       }
     ],
     "1990": [
@@ -2081,6 +2632,17 @@
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/フィールドプログラマブルゲートアレイ",
         "note": "再構成可能ロジックが普及段階へ"
+      },
+      {
+        "label": "スパコン政府調達是正の合意",
+        "startYear": 1990,
+        "genre": [
+          "POL",
+          "HIS"
+        ],
+        "imp": 3,
+        "url": "https://www.mofa.go.jp/mofaj/area/usa/keizai/nenpyo.html",
+        "note": "スーパー301条指定案件の一つとして決着。 :contentReference[oaicite:3]{index=3}"
       }
     ],
     "1991": [
@@ -2145,6 +2707,30 @@
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/Python",
         "note": "高水準で教育/実務ともに普及"
+      },
+      {
+        "label": "第二次 日米半導体協定",
+        "startYear": 1991,
+        "endYear": 1996,
+        "genre": [
+          "POL",
+          "HIS"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/日米半導体協定",
+        "note": "外資シェア目標などを追加・1996年失効。 :contentReference[oaicite:1]{index=1}"
+      },
+      {
+        "label": "新半導体取極の正式文書",
+        "startYear": 1991,
+        "endYear": 1996,
+        "genre": [
+          "POL",
+          "HIS"
+        ],
+        "imp": 3,
+        "url": "https://www.mofa.go.jp/mofaj/gaiko/treaty/pdfs/A-H3-2583.pdf",
+        "note": "91年取極の原文。5年期間や枠組みを明記。 :contentReference[oaicite:10]{index=10}"
       }
     ],
     "1992": [
@@ -2209,6 +2795,26 @@
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/アスキー",
         "note": "日本IT文化/出版とネットの橋渡し"
+      },
+      {
+        "label": "『スノウ・クラッシュ』",
+        "startYear": 1992,
+        "genre": [
+          "MED-CNT"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/スノウ・クラッシュ",
+        "note": "メタバース/アバタ文化の原典的作品"
+      },
+      {
+        "label": "『スニーカーズ』",
+        "startYear": 1992,
+        "genre": [
+          "MED-CNT"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/スニーカーズ",
+        "note": "暗号・侵入・ソーシャルエンジニアリング群像"
       }
     ],
     "1993": [
@@ -2342,6 +2948,17 @@
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/ショアのアルゴリズム",
         "note": "整数因数分解を多項式時間で解く量子算法"
+      },
+      {
+        "label": "携帯市場開放違反の米側認定",
+        "startYear": 1994,
+        "genre": [
+          "POL",
+          "HIS"
+        ],
+        "imp": 3,
+        "url": "https://waseda.repo.nii.ac.jp/record/20391/files/Honbun-4867.pdf",
+        "note": "89年合意違反を米政権が認定し再交渉に。 :contentReference[oaicite:6]{index=6}"
       }
     ],
     "1995": [
@@ -2450,6 +3067,26 @@
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/イオントラップ量子計算機",
         "note": "多体系量子ゲートの実装法を提示"
+      },
+      {
+        "label": "『GHOST IN THE SHELL / 攻殻機動隊』（映画）",
+        "startYear": 1995,
+        "genre": [
+          "MED-CNT"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/GHOST_IN_THE_SHELL/攻殻機動隊",
+        "note": "情報化社会の身体観を決定づける"
+      },
+      {
+        "label": "『ハッカーズ』",
+        "startYear": 1995,
+        "genre": [
+          "MED-CNT"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/ハッカーズ",
+        "note": "90年代サイバー文化とクラッキング像"
       }
     ],
     "1996": [
@@ -2609,6 +3246,28 @@
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/たまごっち",
         "note": "電子ペット大流行、携帯型デジタルトイの象徴"
+      },
+      {
+        "label": "半導体協定の終結・新合意",
+        "startYear": 1996,
+        "genre": [
+          "POL",
+          "HIS"
+        ],
+        "imp": 3,
+        "url": "https://www.shmj.or.jp/museum2010/exhibi069.htm",
+        "note": "96年の見直し交渉でWTO整合へ移行。 :contentReference[oaicite:11]{index=11}"
+      },
+      {
+        "label": "Dell Direct Model（Web直販/BTO）",
+        "startYear": 1996,
+        "genre": [
+          "ENT",
+          "WEB-SVC"
+        ],
+        "imp": 4,
+        "url": "https://www.strategyzer.com/library/dell-business-model",
+        "note": "96年に直販をWeb化、受注生産を自動化。 :contentReference[oaicite:12]{index=12}"
       }
     ],
     "1997": [
@@ -2698,6 +3357,16 @@
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/デジタルモンスター",
         "note": "対戦/育成要素で電子ペットを拡張"
+      },
+      {
+        "label": "デル直販のケーススタディ普及",
+        "startYear": 1997,
+        "genre": [
+          "ENT"
+        ],
+        "imp": 2,
+        "url": "https://www.gsb.stanford.edu/faculty-research/case-studies/dell-direct",
+        "note": "他社もBTO化を志向、経営教材の定番に。 :contentReference[oaicite:14]{index=14}"
       }
     ],
     "1998": [
@@ -2816,6 +3485,36 @@
         "imp": 3,
         "url": "https://ja.wikipedia.org/wiki/ビジュアルメモリ",
         "note": "メモリ＋液晶ミニゲームの周辺機器"
+      },
+      {
+        "label": "デル直販躍進（在庫8日運用の象徴）",
+        "startYear": 1998,
+        "genre": [
+          "ENT"
+        ],
+        "imp": 3,
+        "url": "https://www.wired.com/1998/05/dells-magic-formula",
+        "note": "直販×高速在庫回転でPC業界を攪拌。 :contentReference[oaicite:13]{index=13}"
+      },
+      {
+        "label": "『serial experiments lain』",
+        "startYear": 1998,
+        "genre": [
+          "MED-CNT"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/serial_experiments_lain",
+        "note": "ネットと自我/現実の境界を実験的に提示"
+      },
+      {
+        "label": "『π』",
+        "startYear": 1998,
+        "genre": [
+          "MED-CNT"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/π_(映画)",
+        "note": "数理と市場・暗号が交差する極限思考"
       }
     ],
     "1999": [
@@ -2940,6 +3639,26 @@
         "imp": 3,
         "url": "https://ja.wikipedia.org/wiki/ポケットステーション",
         "note": "PS用外部メモリ兼ミニゲーム端末"
+      },
+      {
+        "label": "『マトリックス』",
+        "startYear": 1999,
+        "genre": [
+          "MED-CNT"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/マトリックス",
+        "note": "仮想現実とAI支配の大衆的アイコン"
+      },
+      {
+        "label": "『イグジステンズ』",
+        "startYear": 1999,
+        "genre": [
+          "MED-CNT"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/イグジステンズ",
+        "note": "仮想現実と現実の境界を肉体的に攪乱"
       }
     ],
     "2000": [
@@ -2964,6 +3683,17 @@
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/選択的能動不可",
         "note": "民生測位の精度向上を実現"
+      },
+      {
+        "label": "NTT接続料問題に関する日米協議",
+        "startYear": 2000,
+        "genre": [
+          "POL",
+          "HIS"
+        ],
+        "imp": 3,
+        "url": "https://www.glocom.ac.jp/wp-content/uploads/2020/10/gr200003.pdf",
+        "note": "アクセスチャージ巡る協議で通信摩擦が続く。 :contentReference[oaicite:7]{index=7}"
       }
     ],
     "2001": [
@@ -3068,6 +3798,16 @@
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/量子誤り訂正",
         "note": "2次元格子でスケールするQECの主流"
+      },
+      {
+        "label": "『A.I.』",
+        "startYear": 2001,
+        "genre": [
+          "MED-CNT"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/A.I.",
+        "note": "人工児童と感情/存在の問いを正面から描く"
       }
     ],
     "2002": [
@@ -3115,6 +3855,37 @@
         "imp": 4,
         "url": "https://en.wikipedia.org/wiki/Toshiba_Portege",
         "note": "極薄軽量の象徴でモバイル設計を刷新"
+      },
+      {
+        "label": "『攻殻機動隊 STAND ALONE COMPLEX』",
+        "startYear": 2002,
+        "endYear": 2005,
+        "genre": [
+          "MED-CNT"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/攻殻機動隊_STAND_ALONE_COMPLEX",
+        "note": "分散AI/情報戦の現代的解像度"
+      },
+      {
+        "label": "『マイノリティ・リポート』",
+        "startYear": 2002,
+        "genre": [
+          "MED-CNT"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/マイノリティ・リポート",
+        "note": "監視/予測社会とUIを先取り"
+      },
+      {
+        "label": "『.hack//SIGN』",
+        "startYear": 2002,
+        "genre": [
+          "MED-CNT"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/.hack//SIGN",
+        "note": "常時接続型VRMMOと自我を多角的に描写"
       }
     ],
     "2003": [
@@ -3485,6 +4256,16 @@
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/Robot_Operating_System",
         "note": "ロボット用ミドルウェアの事実上標準"
+      },
+      {
+        "label": "『電脳コイル』",
+        "startYear": 2007,
+        "genre": [
+          "MED-CNT"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/電脳コイル",
+        "note": "AR/仮想レイヤの生活実装を寓話化"
       }
     ],
     "2008": [
@@ -3535,6 +4316,16 @@
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/GitHub",
         "note": "ソフト開発の協働基盤へ"
+      },
+      {
+        "label": "『ウォーリー』",
+        "startYear": 2008,
+        "genre": [
+          "MED-CNT"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/ウォーリー",
+        "note": "過剰自動化と地球環境/人間性の関係"
       }
     ],
     "2009": [
@@ -3557,6 +4348,26 @@
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/ビットコイン",
         "note": "分散台帳の概念を普及"
+      },
+      {
+        "label": "『サマーウォーズ』",
+        "startYear": 2009,
+        "genre": [
+          "MED-CNT"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/サマーウォーズ",
+        "note": "仮想基盤障害と社会連鎖を描く国民的作品"
+      },
+      {
+        "label": "『Steins Gate』（ゲーム）",
+        "startYear": 2009,
+        "genre": [
+          "MED-CNT"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/Steins",
+        "note": "Gate"
       }
     ],
     "2010": [
@@ -3599,6 +4410,16 @@
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/MikuMikuDance",
         "note": "UGC 3D制作文化を形成"
+      },
+      {
+        "label": "『トロン: レガシー』",
+        "startYear": 2010,
+        "genre": [
+          "MED-CNT"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/トロン:_レガシー",
+        "note": "情報世界の美学を現代的VFXで更新"
       }
     ],
     "2011": [
@@ -3633,6 +4454,27 @@
         "imp": 3,
         "url": "https://ja.wikipedia.org/wiki/トポロジカル量子計算",
         "note": "準粒子基盤の実装探索が活発化"
+      },
+      {
+        "label": "『ブラック・ミラー』",
+        "startYear": 2011,
+        "endYear": "ongoing",
+        "genre": [
+          "MED-CNT"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/ブラック・ミラー",
+        "note": "テック社会の倫理課題を連作で検証"
+      },
+      {
+        "label": "『レディ・プレイヤー1』（小説）",
+        "startYear": 2011,
+        "genre": [
+          "MED-CNT"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/レディ・プレイヤー1",
+        "note": "VRメタバースと文化記憶の交差点"
       }
     ],
     "2012": [
@@ -3699,6 +4541,17 @@
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/AlexNet",
         "note": "ImageNetで大差の躍進を示した転機"
+      },
+      {
+        "label": "『PSYCHO-PASS サイコパス』",
+        "startYear": 2012,
+        "endYear": "ongoing",
+        "genre": [
+          "MED-CNT"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/PSYCHO-PASS",
+        "note": "全社会スコアリングと監視AIの統治"
       }
     ],
     "2013": [
@@ -3742,6 +4595,16 @@
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/Word2vec",
         "note": "分散表現が自然言語処理を刷新"
+      },
+      {
+        "label": "『her/世界でひとつの彼女』",
+        "startYear": 2013,
+        "genre": [
+          "MED-CNT"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/Her/世界でひとつの彼女",
+        "note": "対話AIと関係性の未来像を主題化"
       }
     ],
     "2014": [
@@ -3843,6 +4706,16 @@
         "imp": 3,
         "url": "https://ja.wikipedia.org/wiki/ニューロモーフィック・コンピューティング",
         "note": "超低電力の脳型チップの象徴"
+      },
+      {
+        "label": "『エクス・マキナ』",
+        "startYear": 2014,
+        "genre": [
+          "MED-CNT"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/エクス・マキナ",
+        "note": "汎用AIと意識/操作のスリラー"
       }
     ],
     "2015": [
@@ -3905,6 +4778,17 @@
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/Windows_10",
         "note": "“Windows as a Service”へ転換"
+      },
+      {
+        "label": "『MR. ROBOT/ミスター・ロボット』",
+        "startYear": 2015,
+        "endYear": 2019,
+        "genre": [
+          "MED-CNT"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/Mr._Robot",
+        "note": "現実的ハッキングと資本/監視社会批評"
       }
     ],
     "2016": [
@@ -3983,6 +4867,17 @@
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/Tensor_Processing_Unit",
         "note": "行列演算専用アクセラレータでDLを加速"
+      },
+      {
+        "label": "『ウエストワールド』（TV）",
+        "startYear": 2016,
+        "endYear": "ongoing",
+        "genre": [
+          "MED-CNT"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/ウエストワールド_(テレビドラマ)",
+        "note": "意識/記憶/自由意志をAIから再検討"
       }
     ],
     "2017": [
@@ -4104,6 +4999,16 @@
         "imp": 4,
         "url": "https://en.wikipedia.org/wiki/Noisy_intermediate-scale_quantum_era",
         "note": "誤り訂正前提でない量子時代の定義"
+      },
+      {
+        "label": "『アップグレード』",
+        "startYear": 2018,
+        "genre": [
+          "MED-CNT"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/アップグレード_(映画)",
+        "note": "身体拡張とAIの主従が反転するスリラー"
       }
     ],
     "2019": [
@@ -4287,6 +5192,18 @@
         "imp": 3,
         "url": "https://ja.wikipedia.org/wiki/量子誤り訂正",
         "note": "論理ビット保持時間の延長報告が相次ぐ"
+      }
+    ],
+    "2025": [
+      {
+        "label": "MARS-1 IEEEマイルストーン選定",
+        "startYear": 2025,
+        "genre": [
+          "HIS"
+        ],
+        "imp": 3,
+        "url": "https://www.hitachi.co.jp/New/cnews/month/2025/08/0829.html",
+        "note": "座席予約の歴史的意義が国際顕彰"
       }
     ],
     "genres": [
