@@ -2059,7 +2059,16 @@
   // GitHubからデータを読み込み
   async function loadFromGitHub() {
     if (!githubConfig.accessToken) {
-      showError('設定エラー', 'GitHubアクセストークンが設定されていません。GitHubでログインしてください。');
+      // トークンがない場合はCSVエクスポートのオプションを提供
+      const hasData = Object.keys(events).length > 0;
+      if (hasData) {
+        const result = confirm('GitHubアクセストークンが設定されていません。\n\nデータをCSVファイルとしてエクスポートして、管理者に送信しますか？\n\n「OK」: CSVファイルをダウンロード\n「キャンセル」: 何もしない');
+        if (result) {
+          exportToCSV();
+        }
+      } else {
+        showError('設定エラー', 'GitHubアクセストークンが設定されていません。GitHubでログインしてください。');
+      }
       return null;
     }
 
@@ -2868,7 +2877,16 @@
   // GitHubからデータとSHAハッシュを同時に取得
   async function loadFromGitHubWithSha() {
     if (!githubConfig.accessToken) {
-      showError('設定エラー', 'GitHubアクセストークンが設定されていません。GitHubでログインしてください。');
+      // トークンがない場合はCSVエクスポートのオプションを提供
+      const hasData = Object.keys(events).length > 0;
+      if (hasData) {
+        const result = confirm('GitHubアクセストークンが設定されていません。\n\nデータをCSVファイルとしてエクスポートして、管理者に送信しますか？\n\n「OK」: CSVファイルをダウンロード\n「キャンセル」: 何もしない');
+        if (result) {
+          exportToCSV();
+        }
+      } else {
+        showError('設定エラー', 'GitHubアクセストークンが設定されていません。GitHubでログインしてください。');
+      }
       return { remoteData: null, remoteSha: null, remoteEraSettings: [], timestamp: null };
     }
 
