@@ -2431,6 +2431,10 @@
     const conflicts = []; // 真の競合のみを記録
     
     // 各年のデータを詳細にマージ
+    const getGenreKey = (g)=> Array.isArray(g) ? g.slice().sort().join('・') : (g || '');
+    const getYearVal = (it, fallbackYear) => (it && typeof it.startYear === 'number') ? it.startYear : fallbackYear;
+    const makeKey = (it, fallbackYear) => `${it.label}|${getGenreKey(it.genre)}|${getYearVal(it, fallbackYear)}`;
+
     for (const [year, localItems] of Object.entries(localData)) {
       if (!merged[year]) {
         merged[year] = [];
@@ -2440,15 +2444,15 @@
       const localItemMap = new Map();
       const remoteItemMap = new Map();
       
-      // ローカルアイテムをマップ化
+      // ローカルアイテムをマップ化（年もキーに含め、ジャンルは正規化）
       localItems.forEach(item => {
-        const key = `${item.label}|${item.genre || ''}`;
+        const key = makeKey(item, parseInt(year,10));
         localItemMap.set(key, item);
       });
       
       // リモートアイテムをマップ化
       remoteItems.forEach(item => {
-        const key = `${item.label}|${item.genre || ''}`;
+        const key = makeKey(item, parseInt(year,10));
         remoteItemMap.set(key, item);
       });
       
@@ -2461,7 +2465,7 @@
         
         if (remoteItem) {
           // 両方に存在する場合：編集フラグをチェック
-          const hasLocalEdit = hasEditFlag(year, localItem.label, localItem.genre);
+          const hasLocalEdit = hasEditFlag(getYearVal(localItem, parseInt(year,10)), localItem.label, getGenreKey(localItem.genre));
           
           if (hasLocalEdit) {
             // ローカルで編集されている場合のみ競合をチェック
@@ -2489,7 +2493,7 @@
             mergedItems.push(remoteItem);
           }
         } else {
-          // ローカルのみに存在する場合
+          // ローカルのみに存在する場合（新規 or 旧レコードのdeleted）
           mergedItems.push(localItem);
         }
         processedKeys.add(key);
@@ -2511,7 +2515,7 @@
   
   // 真の競合をチェック（他のユーザーによる変更のみ）
   function checkRealConflict(localItem, remoteItem) {
-    const fields = ['label', 'genre', 'imp', 'url', 'note'];
+    const fields = ['label', 'genre', 'imp', 'url', 'note', 'startYear', 'endYear'];
     const conflictFields = [];
     
     for (const field of fields) {
@@ -2533,8 +2537,12 @@
       } else {
         // その他のフィールドは従来通り
         // ただし、空文字列とundefinedの違いは競合としない
-        const localNormalized = localValue === '' ? undefined : localValue;
-        const remoteNormalized = remoteValue === '' ? undefined : remoteValue;
+        let localNormalized = localValue === '' ? undefined : localValue;
+        let remoteNormalized = remoteValue === '' ? undefined : remoteValue;
+        if (field === 'genre') {
+          localNormalized = Array.isArray(localValue) ? localValue.slice().sort().join('・') : (localValue || undefined);
+          remoteNormalized = Array.isArray(remoteValue) ? remoteValue.slice().sort().join('・') : (remoteValue || undefined);
+        }
         
         if (localNormalized !== remoteNormalized) {
           console.log(`真の競合検出: ${field} フィールドが異なります`);
