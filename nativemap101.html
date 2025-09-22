@@ -2023,35 +2023,37 @@
     }
   }
 
-  // CSVエクスポート機能（変更があった項目のみ）
+  // CSVエクスポート機能（変更・追加・削除のみ）
   function exportToCSV() {
     const csvData = [];
-    csvData.push('開始年;終了年;ラベル;ジャンル;重要度;URL;注釈');
+    // 末尾に削除フラグ列（deleted）を追加。ローダーは列7までを見るため追加列は無視されます。
+    csvData.push('開始年;終了年;ラベル;ジャンル;重要度;URL;注釈;deleted');
     
     let exportCount = 0;
     
     for (const [year, items] of Object.entries(events)) {
       for (const item of items) {
-        // 編集フラグをチェック
-        const hasEdit = hasEditFlag(year, item.label, item.genre);
+        const startYear = item.startYear || '';
+        const endYear = item.endYear || '';
+        const label = item.label || '';
+        const genre = Array.isArray(item.genre) ? item.genre.join('・') : (item.genre || '');
+        const imp = item.imp || '';
+        const url = item.url || '';
+        const note = item.note || '';
+        const isDeleted = item.deleted === true;
         
-        if (hasEdit) {
-          const startYear = item.startYear || '';
-          const endYear = item.endYear || '';
-          const label = item.label || '';
-          const genre = Array.isArray(item.genre) ? item.genre.join('・') : (item.genre || '');
-          const imp = item.imp || '';
-          const url = item.url || '';
-          const note = item.note || '';
-          
-          csvData.push(`${startYear};${endYear};${label};${genre};${imp};${url};${note}`);
+        // 1) 通常編集 or 追加: 編集フラグが立っているもの
+        const hasEdit = hasEditFlag(year, item.label, item.genre);
+        // 2) 削除: deletedフラグが立っているもの
+        if (hasEdit || isDeleted) {
+          csvData.push(`${startYear};${endYear};${label};${genre};${imp};${url};${note};${isDeleted ? 'true' : ''}`);
           exportCount++;
         }
       }
     }
     
     if (exportCount === 0) {
-      showInfo('エクスポート結果', '変更された項目がありません。');
+      showInfo('エクスポート結果', '変更・追加・削除された項目がありません。');
       return;
     }
     
@@ -2066,7 +2068,7 @@
     link.click();
     document.body.removeChild(link);
     
-    showInfo('エクスポート完了', `${exportCount}件の変更された項目をCSVファイルでダウンロードしました。このファイルを管理者に送信してください。`);
+    showInfo('エクスポート完了', `${exportCount}件の変更・追加・削除をCSVで出力しました。管理者に送信してください。`);
   }
 
   // GitHubからデータを読み込み
