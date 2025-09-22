@@ -2047,7 +2047,8 @@
         const isDeleted = item.deleted === true;
         
         // 1) 通常編集 or 追加: 編集フラグが立っているもの
-        const hasEdit = hasEditFlag(year, item.label, item.genre);
+        const genreKeyForFlag = Array.isArray(item.genre) ? item.genre.slice().sort().join('・') : (item.genre || '');
+        const hasEdit = hasEditFlag(year, item.label, genreKeyForFlag);
         // 2) 削除: deletedフラグが立っているもの
         if (hasEdit || isDeleted) {
           csvData.push(`${startYear};${endYear};${label};${genre};${imp};${url};${note};${isDeleted ? 'true' : ''}`);
