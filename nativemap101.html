@@ -390,6 +390,9 @@
   // ラベルバックアップ（編集前のデータ）
   let labelBackups = {};
   
+  // 物理削除用の削除記録（CSV出力のために保持）
+  let deletionRecords = [];
+  
   // 順番変更フラグ
   let orderChanged = false;
   
@@ -474,6 +477,36 @@
     labelBackups = {};
     saveLabelBackups();
     console.log('ラベルバックアップをクリアしました');
+  }
+
+  // 削除記録の保存/読込/追加/クリア
+  function saveDeletionRecords(){
+    localStorage.setItem('nativemap_deletions', JSON.stringify(deletionRecords));
+  }
+  function loadDeletionRecords(){
+    try{
+      const s = localStorage.getItem('nativemap_deletions');
+      deletionRecords = s ? JSON.parse(s) : [];
+    }catch(e){ deletionRecords = []; }
+  }
+  function addDeletionRecord(year, item){
+    if(!item) return;
+    const genreKey = Array.isArray(item.genre) ? item.genre.slice().sort().join('・') : (item.genre || '');
+    const rec = {
+      startYear: item.startYear || year || '',
+      endYear: item.endYear || '',
+      label: item.label || '',
+      genre: genreKey,
+      imp: item.imp || '',
+      url: item.url || '',
+      note: item.note || ''
+    };
+    deletionRecords.push(rec);
+    saveDeletionRecords();
+  }
+  function clearDeletionRecords(){
+    deletionRecords = [];
+    saveDeletionRecords();
   }
   
   // データ鮮度時刻を設定
@@ -1441,19 +1474,12 @@
     if (!item) return;
     
     if (confirm(`「${item.label}」を削除しますか？`)) {
-      // 項目に削除フラグを設定（JSONデータに直接保存）
-      item.deleted = true;
-      
-      console.log('削除フラグを設定:', {
-        year: year,
-        index: index,
-        label: item.label,
-        deleted: item.deleted
-      });
-      
-      // 削除フラグを設定した項目は配列に残す（JSONに保存されるため）
-      // 画面表示は renderEvents() で削除フラグがオンの項目は除外される
-      
+      // CSVエクスポート用に削除前の内容を記録
+      addDeletionRecord(year, item);
+      // 物理削除
+      items.splice(index, 1);
+      if (items.length === 0) delete events[year];
+      console.log('項目を物理削除:', { year, index, label: item.label });
       saveEvents();
       renderEvents();
       showDetailList(year, null);
@@ -1661,44 +1687,18 @@
       
       // 開始年・ラベル・ジャンルのいずれかが変更された場合は、元データをdeleted=trueとして残し、新規レコードを追加
       if (originalStartYear !== newStartYear || changedLabel || changedGenre) {
-        // 元の項目に削除フラグを設定（JSONデータに直接保存）
-        currentItem.deleted = true;
-        
-        console.log('識別子変更に伴う削除フラグ設定:', {
-          year: year,
-          index: index,
-          originalLabel: originalLabel,
-          newLabel: label,
-          originalGenreKey: originalGenreKey,
-          newGenreKey: genreKey,
-          originalStartYear: originalStartYear,
-          newStartYear: newStartYear,
-          deleted: currentItem.deleted
-        });
-        
+        // 旧項目を削除記録に追加して物理削除
+        addDeletionRecord(year, currentItem);
+        events[year].splice(index, 1);
+        if (events[year].length === 0) delete events[year];
+        console.log('識別子変更に伴い旧項目を物理削除:', { year, index, originalLabel, originalGenreKey, originalStartYear });
+
         // 新しい年に項目を追加
         const targetYearForNew = newStartYear;
         if (!events[targetYearForNew]) {
           events[targetYearForNew] = [];
         }
-        // 既にdeleted=trueで同一キー（開始年/ラベル/ジャンル）の項目がある場合は復活（deletedをオフにして内容を更新）
-        const newGenreKeyForCompare = Array.isArray(newItem.genre) ? newItem.genre.slice().sort().join('・') : (newItem.genre || '');
-        const candidates = events[targetYearForNew];
-        let restored = false;
-        for (let i = 0; i < candidates.length; i++) {
-          const cand = candidates[i];
-          const candGenreKey = Array.isArray(cand.genre) ? cand.genre.slice().sort().join('・') : (cand.genre || '');
-          const candYear = cand.startYear || targetYearForNew;
-          const newYearVal = newItem.startYear || targetYearForNew;
-          if (cand.deleted === true && cand.label === newItem.label && candGenreKey === newGenreKeyForCompare && candYear === newYearVal) {
-            candidates[i] = { ...newItem, deleted: false };
-            restored = true;
-            break;
-          }
-        }
-        if (!restored) {
-          events[targetYearForNew].push(newItem);
-        }
+        events[targetYearForNew].push(newItem);
         
         // 編集フラグを設定（新しいレコードに対して）
         setEditFlag(targetYearForNew, newItem.label, genreKey);
@@ -2049,7 +2049,7 @@
   // CSVエクスポート機能（変更・追加・削除のみ）
   function exportToCSV() {
     const csvData = [];
-    // 末尾に削除フラグ列（deleted）を追加。ローダーは列7までを見るため追加列は無視されます。
+    // 旧項目や削除項目を明示するため deleted 列を付与
     csvData.push('開始年;終了年;ラベル;ジャンル;重要度;URL;注釈;deleted');
     
     let exportCount = 0;
@@ -2063,17 +2063,29 @@
         const imp = item.imp || '';
         const url = item.url || '';
         const note = item.note || '';
-        const isDeleted = item.deleted === true;
         
         // 1) 通常編集 or 追加: 編集フラグが立っているもの
         const genreKeyForFlag = Array.isArray(item.genre) ? item.genre.slice().sort().join('・') : (item.genre || '');
         const hasEdit = hasEditFlag(year, item.label, genreKeyForFlag);
-        // 2) 削除: deletedフラグが立っているもの
-        if (hasEdit || isDeleted) {
-          csvData.push(`${startYear};${endYear};${label};${genre};${imp};${url};${note};${isDeleted ? 'true' : ''}`);
+        if (hasEdit) {
+          // 現行（新/編集）データは deleted 空欄
+          csvData.push(`${startYear};${endYear};${label};${genre};${imp};${url};${note};`);
           exportCount++;
         }
       }
+    }
+    // 2) 削除・旧識別子の出力（deleted=trueは付けず、旧内容を行として出力）
+    for (const rec of (deletionRecords || [])) {
+      const startYear = rec.startYear || '';
+      const endYear = rec.endYear || '';
+      const label = rec.label || '';
+      const genre = rec.genre || '';
+      const imp = rec.imp || '';
+      const url = rec.url || '';
+      const note = rec.note || '';
+      // 旧/削除データは deleted=true を付ける
+      csvData.push(`${startYear};${endYear};${label};${genre};${imp};${url};${note};true`);
+      exportCount++;
     }
     
     if (exportCount === 0) {
@@ -2901,11 +2913,9 @@
         // データ鮮度時刻を更新
         setDataFreshnessTimestamp(timestamp);
         
-        // 編集フラグをクリア
+        // 編集フラグ・削除記録・バックアップをクリア
         clearEditFlags();
-        
-        
-        // ラベルバックアップをクリア
+        clearDeletionRecords();
         clearLabelBackups();
         
         // 競合があった場合は競合通知を表示、なければ通常の完了メッセージを表示
