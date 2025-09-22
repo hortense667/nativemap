@@ -10,6 +10,19 @@
         ],
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/ノイマン型コンピュータ",
+        "note": "格納プログラム方式の基本モデル",
+        "deleted": true
+      },
+      {
+        "label": "ノイマン型アーキテクチャ",
+        "startYear": 1945,
+        "genre": [
+          "HIS",
+          "POL",
+          "THE"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/ノイマン型コンピュータ",
         "note": "格納プログラム方式の基本モデル"
       }
     ],
@@ -22,7 +35,8 @@
         ],
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/ENIAC",
-        "note": "初期汎用電子計算機の象徴。"
+        "note": "初期汎用電子計算機の象徴。",
+        "deleted": true
       }
     ],
     "1947": [
@@ -34,7 +48,37 @@
         ],
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/トランジスタ",
+        "note": "真空管から半導体時代へ大転換",
+        "deleted": true
+      },
+      {
+        "label": "ENIAC",
+        "startYear": 1947,
+        "genre": [
+          "HAR-PC"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/ENIAC",
+        "note": "初期汎用電子計算機の象徴。"
+      },
+      {
+        "label": "トランジスタの発明",
+        "startYear": 1947,
+        "genre": [
+          "HIS"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/トランジスタ",
         "note": "真空管から半導体時代へ大転換"
+      }
+    ],
+    "1949": [
+      {
+        "label": "遠藤諭",
+        "startYear": 1949,
+        "genre": [
+          "HIS"
+        ]
       }
     ],
     "1950": [
@@ -46,7 +90,8 @@
         ],
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/われはロボット",
-        "note": "短編集で三原則を体系化しAI倫理を普及"
+        "note": "短編集で三原則を体系化しAI倫理を普及",
+        "deleted": true
       }
     ],
     "1951": [
