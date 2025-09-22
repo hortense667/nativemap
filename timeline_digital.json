@@ -23,7 +23,8 @@
         ],
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/ノイマン型コンピュータ",
-        "note": "格納プログラム方式の基本モデル"
+        "note": "格納プログラム方式の基本モデル",
+        "deleted": true
       }
     ],
     "1946": [
@@ -59,7 +60,8 @@
         ],
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/ENIAC",
-        "note": "初期汎用電子計算機の象徴。"
+        "note": "初期汎用電子計算機の象徴。",
+        "deleted": true
       },
       {
         "label": "トランジスタの発明",
@@ -78,7 +80,8 @@
         "startYear": 1949,
         "genre": [
           "HIS"
-        ]
+        ],
+        "deleted": true
       }
     ],
     "1950": [
