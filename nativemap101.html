@@ -1681,7 +1681,24 @@
         if (!events[targetYearForNew]) {
           events[targetYearForNew] = [];
         }
-        events[targetYearForNew].push(newItem);
+        // 既にdeleted=trueで同一キー（開始年/ラベル/ジャンル）の項目がある場合は復活（deletedをオフにして内容を更新）
+        const newGenreKeyForCompare = Array.isArray(newItem.genre) ? newItem.genre.slice().sort().join('・') : (newItem.genre || '');
+        const candidates = events[targetYearForNew];
+        let restored = false;
+        for (let i = 0; i < candidates.length; i++) {
+          const cand = candidates[i];
+          const candGenreKey = Array.isArray(cand.genre) ? cand.genre.slice().sort().join('・') : (cand.genre || '');
+          const candYear = cand.startYear || targetYearForNew;
+          const newYearVal = newItem.startYear || targetYearForNew;
+          if (cand.deleted === true && cand.label === newItem.label && candGenreKey === newGenreKeyForCompare && candYear === newYearVal) {
+            candidates[i] = { ...newItem, deleted: false };
+            restored = true;
+            break;
+          }
+        }
+        if (!restored) {
+          events[targetYearForNew].push(newItem);
+        }
         
         // 編集フラグを設定（新しいレコードに対して）
         setEditFlag(targetYearForNew, newItem.label, genreKey);
