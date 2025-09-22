@@ -6,18 +6,6 @@
         "startYear": 1945,
         "genre": [
           "HIS",
-          "THE"
-        ],
-        "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/ノイマン型コンピュータ",
-        "note": "格納プログラム方式の基本モデル",
-        "deleted": true
-      },
-      {
-        "label": "ノイマン型アーキテクチャ",
-        "startYear": 1945,
-        "genre": [
-          "HIS",
           "POL",
           "THE"
         ],
@@ -71,8 +59,7 @@
         ],
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/トランジスタ",
-        "note": "真空管から半導体時代へ大転換",
-        "deleted": true
+        "note": "真空管から半導体時代へ大転換"
       }
     ],
     "1948": [
