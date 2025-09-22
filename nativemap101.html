@@ -2011,10 +2011,12 @@
     const s=new Set(); 
     for(const y of Object.keys(events)){ 
       for(const it of (events[y]||[])){ 
-        if(it && typeof it.label==='string') {
-          const key = `${it.label.trim()}|${it.genre || ''}`;
-          s.add(key);
-        }
+        if(!it || typeof it.label!=='string') continue;
+        // 削除フラグの項目は重複判定から除外
+        if (it.deleted === true) continue;
+        const genreKey = Array.isArray(it.genre) ? it.genre.slice().sort().join('・') : (it.genre || '');
+        const key = `${it.label.trim()}|${genreKey}`;
+        s.add(key);
       } 
     } 
     return s; 
