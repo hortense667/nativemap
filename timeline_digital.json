@@ -255,7 +255,8 @@
         ],
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/AIの冬",
-        "note": "探索・推論中心の黎明期（期間は便宜）"
+        "note": "探索・推論中心の黎明期（期間は便宜）",
+        "deleted": true
       }
     ],
     "1957": [
@@ -288,7 +289,8 @@
         ],
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/ダートマス会議",
-        "note": "AI研究の出発点とされる会議"
+        "note": "AI研究の出発点とされる会議",
+        "deleted": true
       }
     ],
     "1958": [
