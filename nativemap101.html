@@ -1654,36 +1654,40 @@
       const currentItem = events[year][index];
       const originalStartYear = currentItem.startYear || year;
       const newStartYear = startYear ? parseInt(startYear, 10) : year;
+      const originalLabel = currentItem.label || '';
+      const originalGenreKey = Array.isArray(currentItem.genre) ? currentItem.genre.slice().sort().join('・') : (currentItem.genre || '');
+      const changedLabel = originalLabel !== label;
+      const changedGenre = originalGenreKey !== genreKey;
       
-      // 開始年が変更された場合
-      if (originalStartYear !== newStartYear) {
-        // 元の年の項目に削除フラグを設定（JSONデータに直接保存）
+      // 開始年・ラベル・ジャンルのいずれかが変更された場合は、元データをdeleted=trueとして残し、新規レコードを追加
+      if (originalStartYear !== newStartYear || changedLabel || changedGenre) {
+        // 元の項目に削除フラグを設定（JSONデータに直接保存）
         currentItem.deleted = true;
         
-        console.log('開始年変更による削除フラグ設定:', {
+        console.log('識別子変更に伴う削除フラグ設定:', {
           year: year,
           index: index,
-          label: currentItem.label,
+          originalLabel: originalLabel,
+          newLabel: label,
+          originalGenreKey: originalGenreKey,
+          newGenreKey: genreKey,
           originalStartYear: originalStartYear,
           newStartYear: newStartYear,
           deleted: currentItem.deleted
         });
         
-        // 削除フラグを設定した項目は配列に残す（JSONに保存されるため）
-        // 画面表示は renderEvents() で削除フラグがオンの項目は除外される
-        
         // 新しい年に項目を追加
-        if (!events[newStartYear]) {
-          events[newStartYear] = [];
+        const targetYearForNew = newStartYear;
+        if (!events[targetYearForNew]) {
+          events[targetYearForNew] = [];
         }
-        events[newStartYear].push(newItem);
+        events[targetYearForNew].push(newItem);
         
-        // 編集フラグを設定
-        setEditFlag(newStartYear, newItem.label, genreKey);
+        // 編集フラグを設定（新しいレコードに対して）
+        setEditFlag(targetYearForNew, newItem.label, genreKey);
       } else {
-        // 開始年が変更されていない場合は通常の更新
+        // 識別子に変更がなければ通常の上書き更新
         events[year][index] = newItem;
-        // 編集フラグを設定
         setEditFlag(year, newItem.label, genreKey);
       }
     }
