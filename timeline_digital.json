@@ -258,7 +258,8 @@
         ],
         "imp": 5,
         "url": "https://en.wikipedia.org/wiki/FUJIC",
-        "note": "日本初の電子式デジタル計算機・1956完成"
+        "note": "日本初の電子式デジタル計算機・1956完成",
+        "deleted": false
       },
       {
         "label": "第一次AIブームだ",
@@ -304,6 +305,17 @@
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/ダートマス会議",
         "note": "AI研究の出発点とされる会議",
+        "deleted": true
+      },
+      {
+        "label": "FUJIC",
+        "startYear": 1957,
+        "genre": [
+          "HAR-PC"
+        ],
+        "imp": 5,
+        "url": "https://en.wikipedia.org/wiki/FUJIC",
+        "note": "日本初の電子式デジタル計算機・1956完成",
         "deleted": true
       }
     ],
