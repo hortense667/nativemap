@@ -201,7 +201,8 @@
         ],
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/ダートマス会議",
-        "note": "AI研究の出発点とされる会議"
+        "note": "AI研究の出発点とされる会議",
+        "deleted": true
       },
       {
         "label": "第一次AIブーム",
@@ -212,7 +213,8 @@
         ],
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/AIの冬",
-        "note": "探索・推論中心の黎明期（期間は便宜）"
+        "note": "探索・推論中心の黎明期（期間は便宜）",
+        "deleted": true
       },
       {
         "label": "IBM 305 RAMAC（HDD）",
@@ -243,6 +245,17 @@
         "imp": 5,
         "url": "https://en.wikipedia.org/wiki/FUJIC",
         "note": "日本初の電子式デジタル計算機・1956完成"
+      },
+      {
+        "label": "第一次AIブームだ",
+        "startYear": 1956,
+        "endYear": 1974,
+        "genre": [
+          "AI"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/AIの冬",
+        "note": "探索・推論中心の黎明期（期間は便宜）"
       }
     ],
     "1957": [
@@ -265,6 +278,17 @@
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/MUSASINO-1",
         "note": "NTT前身・電通研の初期パラメトロン計算機"
+      },
+      {
+        "label": "ダートマス会議",
+        "startYear": 1957,
+        "genre": [
+          "AI",
+          "HIS"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/ダートマス会議",
+        "note": "AI研究の出発点とされる会議"
       }
     ],
     "1958": [
