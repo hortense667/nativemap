@@ -2345,10 +2345,20 @@
       }
       
       // より詳細なマージ処理を実行
-      const mergedData = await performDetailedMerge(events, latestRemoteData);
+      const { merged: mergedAfterResolve, conflicts } = await performDetailedMerge(events, latestRemoteData);
       
-      // 再試行
-      return await saveToGitHub(mergedData, newSha, retryCount + 1);
+      // 再試行（マージ済みデータのみ保存）
+      const ok = await saveToGitHub(mergedAfterResolve, newSha, retryCount + 1);
+      if (!ok) return false;
+      
+      // 保存成功時はローカル状態にも反映して、競合通知を表示
+      events = mergedAfterResolve;
+      saveEvents();
+      renderEvents();
+      if (conflicts && conflicts.length) {
+        showConflictNotification(conflicts);
+      }
+      return true;
     } catch (error) {
       console.error('競合解決処理エラー:', error);
       
