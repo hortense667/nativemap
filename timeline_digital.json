@@ -84,7 +84,8 @@
         ],
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/トランジスタ",
-        "note": "真空管から半導体時代へ大転換"
+        "note": "真空管から半導体時代へ大転換",
+        "deleted": true
       }
     ],
     "1949": [
