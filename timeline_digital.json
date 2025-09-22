@@ -202,7 +202,8 @@
         ],
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/Fortran",
-        "note": "高級言語実用化で科学計算を加速"
+        "note": "高級言語実用化で科学計算を加速",
+        "deleted": true
       }
     ],
     "1956": [
