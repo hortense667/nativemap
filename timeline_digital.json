@@ -11,18 +11,8 @@
         ],
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/ノイマン型コンピュータ",
-        "note": "格納プログラム方式の基本モデル",
-        "deleted": true
+        "note": "格納プログラム方式の基本モデル"
       },
-      {
-        "label": "ノイマン型アーキテクチャ",
-        "startYear": 1945,
-        "genre": [
-          "HIS",
-          "THE"
-        ]
-      }
-    ],
     "1946": [
       {
         "label": "ENIAC",
@@ -32,8 +22,7 @@
         ],
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/ENIAC",
-        "note": "初期汎用電子計算機の象徴。",
-        "deleted": true
+        "note": "初期汎用電子計算機の象徴。"
       }
     ],
     "1947": [
@@ -45,8 +34,7 @@
         ],
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/トランジスタ",
-        "note": "真空管から半導体時代へ大転換",
-        "deleted": true
+        "note": "真空管から半導体時代へ大転換"
       },
       {
         "label": "ENIAC",
@@ -56,42 +44,7 @@
         ],
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/ENIAC",
-        "note": "初期汎用電子計算機の象徴。",
-        "deleted": true
-      },
-      {
-        "label": "トランジスタの発明",
-        "startYear": 1947,
-        "genre": [
-          "HIS"
-        ],
-        "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/トランジスタ",
-        "note": "真空管から半導体時代へ大転換",
-        "deleted": true
-      }
-    ],
-    "1948": [
-      {
-        "label": "トランジスタの発明",
-        "startYear": 1948,
-        "genre": [
-          "HIS"
-        ],
-        "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/トランジスタ",
-        "note": "真空管から半導体時代へ大転換",
-        "deleted": true
-      }
-    ],
-    "1949": [
-      {
-        "label": "遠藤諭",
-        "startYear": 1949,
-        "genre": [
-          "HIS"
-        ],
-        "deleted": true
+        "note": "初期汎用電子計算機の象徴。"
       }
     ],
     "1950": [
@@ -103,8 +56,7 @@
         ],
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/われはロボット",
-        "note": "短編集で三原則を体系化しAI倫理を普及",
-        "deleted": true
+        "note": "短編集で三原則を体系化しAI倫理を普及"
       }
     ],
     "1951": [
