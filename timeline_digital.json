@@ -71,6 +71,19 @@
         ],
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/トランジスタ",
+        "note": "真空管から半導体時代へ大転換",
+        "deleted": true
+      }
+    ],
+    "1948": [
+      {
+        "label": "トランジスタの発明",
+        "startYear": 1948,
+        "genre": [
+          "HIS"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/トランジスタ",
         "note": "真空管から半導体時代へ大転換"
       }
     ],
@@ -106,6 +119,17 @@
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/UNIVAC_I",
+        "note": "商用汎用コンピュータの嚆矢",
+        "deleted": true
+      },
+      {
+        "label": "UNIVAC II",
+        "startYear": 1951,
+        "genre": [
+          "HAR-PC"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/UNIVAC_I",
         "note": "商用汎用コンピュータの嚆矢"
       }
     ],
@@ -119,7 +143,8 @@
         ],
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/鉄腕アトム",
-        "note": "国産ロボット像を形成、科学観へ影響（便宜）"
+        "note": "国産ロボット像を形成、科学観へ影響（便宜）",
+        "deleted": true
       },
       {
         "label": "ETL Mark I（リレー式自動計算機）",
@@ -130,6 +155,18 @@
         "imp": 5,
         "url": "https://museum.ipsj.or.jp/en/computer/dawn/0005.html",
         "note": "日本初の自動デジタル計算機の試作稼働"
+      },
+      {
+        "label": "『鉄腕アトム』（漫画連載）",
+        "startYear": 1952,
+        "endYear": 1968,
+        "genre": [
+          "MED-CNT",
+          "POL"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/鉄腕アトム",
+        "note": "国産ロボット像を形成、科学観へ影響（便宜）"
       }
     ],
     "1953": [
@@ -141,7 +178,8 @@
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/IBM_700/7000シリーズ",
-        "note": "IBM初期の量産科学技術計算機"
+        "note": "IBM初期の量産科学技術計算機",
+        "deleted": true
       }
     ],
     "1954": [
