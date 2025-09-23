@@ -148,16 +148,6 @@
     ],
     "1951": [
       {
-        "label": "UNIVAC I",
-        "startYear": 1951,
-        "genre": [
-          "HAR"
-        ],
-        "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/UNIVAC_I",
-        "note": "商用電子計算機の先駆"
-      },
-      {
         "label": "ミュージック・ライフ",
         "startYear": 1951,
         "endYear": 1998,
@@ -167,6 +157,16 @@
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/ミュージック・ライフ",
         "note": "洋楽情報の老舗誌。こんなに古い雑誌だったのか。"
+      },
+      {
+        "label": "UNIVAC I",
+        "startYear": 1951,
+        "genre": [
+          "HAR"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/UNIVAC_I",
+        "note": "商用電子計算機の先駆"
       }
     ],
     "1952": [
