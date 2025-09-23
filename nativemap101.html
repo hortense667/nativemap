@@ -3247,8 +3247,8 @@
         events = remoteData;
         saveEvents();
         renderEvents();
-        // ジャンルが更新された可能性があるためフィルタ選択をリセット
-        if (window.selectedGenres) { selectedGenres.clear(); }
+        // ジャンルが更新された可能性があるためフィルタ選択を全選択にリセット
+        if (window.selectedGenres) { selectedGenres = new Set(GENRES); }
         if (typeof updateGenreFilterButtonText === 'function') { updateGenreFilterButtonText(); }
         // 時代区分背景を再描画
         if (typeof drawEraBackgrounds === 'function') {
