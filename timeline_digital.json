@@ -13,6 +13,18 @@
         "note": "格納プログラム方式の基本モデル"
       }
     ],
+    "1946": [
+      {
+        "label": "ENIAC",
+        "startYear": 1946,
+        "genre": [
+          "HAR-PC"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/ENIAC",
+        "note": "初期汎用電子計算機の象徴"
+      }
+    ],
     "1947": [
       {
         "label": "トランジスタ発明",
@@ -27,18 +39,6 @@
       {
         "label": "ENIAC",
         "startYear": 1947,
-        "genre": [
-          "HAR-PC"
-        ],
-        "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/ENIAC",
-        "note": "初期汎用電子計算機の象徴"
-      }
-    ],
-    "1948": [
-      {
-        "label": "ENIAC",
-        "startYear": 1948,
         "genre": [
           "HAR-PC"
         ],
