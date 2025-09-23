@@ -3516,6 +3516,8 @@
       if(isDeleted){
         // (2) deleted=true の場合は該当項目を削除
         if(idx!==-1){ arr.splice(idx,1); }
+        // リモートからも除去されるよう tombstone を記録
+        try{ addDeletionRecord(itemYear, { startYear: itemYear, label, genre: (genres.length>0? genres : genreKey) }); }catch(_e){}
       } else {
         // (1) 同一キーがあれば上書き、なければ追加
         if(idx!==-1){ arr[idx] = item; } else { arr.push(item); }
