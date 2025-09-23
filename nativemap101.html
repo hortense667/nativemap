@@ -1538,7 +1538,7 @@
   }
 
   function addNewItem(year) {
-    showEditModal(year, -1, { label: '' });
+    showEditModal(year, -1, { label: '', startYear: year, endYear: '' });
   }
 
   // 個別編集用ポップアップ
@@ -3557,7 +3557,7 @@
   }
 
   // ===== 空年クリックで編集を開く =====
-  function openEditorForEmptyYearAt(xCSS,yCSS){ const rect=stage.getBoundingClientRect(); const scale=1; const x=(xCSS-rect.left)/scale; const y=(yCSS-rect.top)/scale; if(x >= ORIGIN_X - HANDLE_LANE_W) return; const year = YEAR_MIN + Math.round((y-ORIGIN_Y)/PX_PER_YEAR); if(year<YEAR_MIN||year>YEAR_MAX) return; const exists = Array.isArray(events[year]) && events[year].length>0; if(exists) return; showEditModal(year, -1, { label: '', startYear: year, endYear: '' }); }
+  function openEditorForEmptyYearAt(xCSS,yCSS){ const rect=stage.getBoundingClientRect(); const scale=1; const x=(xCSS-rect.left)/scale; const y=(yCSS-rect.top)/scale; if(x >= ORIGIN_X - HANDLE_LANE_W) return; const year = YEAR_MIN + Math.round((y-ORIGIN_Y)/PX_PER_YEAR); if(year<YEAR_MIN||year>YEAR_MAX) return; showEditModal(year, -1, { label: '', startYear: year, endYear: '' }); }
   stage.addEventListener('click', (e)=>{ if(e.target && e.target.tagName && e.target.tagName.toLowerCase()==='text') return; openEditorForEmptyYearAt(e.clientX, e.clientY); });
 
   // ===== プローブ =====
