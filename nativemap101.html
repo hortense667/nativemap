@@ -390,9 +390,6 @@
   // ラベルバックアップ（編集前のデータ）
   let labelBackups = {};
   
-  // 物理削除用の削除記録（CSV出力のために保持）
-  let deletionRecords = [];
-  
   // 順番変更フラグ
   let orderChanged = false;
   
@@ -477,36 +474,6 @@
     labelBackups = {};
     saveLabelBackups();
     console.log('ラベルバックアップをクリアしました');
-  }
-
-  // 削除記録の保存/読込/追加/クリア
-  function saveDeletionRecords(){
-    localStorage.setItem('nativemap_deletions', JSON.stringify(deletionRecords));
-  }
-  function loadDeletionRecords(){
-    try{
-      const s = localStorage.getItem('nativemap_deletions');
-      deletionRecords = s ? JSON.parse(s) : [];
-    }catch(e){ deletionRecords = []; }
-  }
-  function addDeletionRecord(year, item){
-    if(!item) return;
-    const genreKey = Array.isArray(item.genre) ? item.genre.slice().sort().join('・') : (item.genre || '');
-    const rec = {
-      startYear: item.startYear || year || '',
-      endYear: item.endYear || '',
-      label: item.label || '',
-      genre: genreKey,
-      imp: item.imp || '',
-      url: item.url || '',
-      note: item.note || ''
-    };
-    deletionRecords.push(rec);
-    saveDeletionRecords();
-  }
-  function clearDeletionRecords(){
-    deletionRecords = [];
-    saveDeletionRecords();
   }
   
   // データ鮮度時刻を設定
@@ -1474,12 +1441,19 @@
     if (!item) return;
     
     if (confirm(`「${item.label}」を削除しますか？`)) {
-      // CSVエクスポート用に削除前の内容を記録
-      addDeletionRecord(year, item);
-      // 物理削除
-      items.splice(index, 1);
-      if (items.length === 0) delete events[year];
-      console.log('項目を物理削除:', { year, index, label: item.label });
+      // 項目に削除フラグを設定（JSONデータに直接保存）
+      item.deleted = true;
+      
+      console.log('削除フラグを設定:', {
+        year: year,
+        index: index,
+        label: item.label,
+        deleted: item.deleted
+      });
+      
+      // 削除フラグを設定した項目は配列に残す（JSONに保存されるため）
+      // 画面表示は renderEvents() で削除フラグがオンの項目は除外される
+      
       saveEvents();
       renderEvents();
       showDetailList(year, null);
@@ -1680,31 +1654,36 @@
       const currentItem = events[year][index];
       const originalStartYear = currentItem.startYear || year;
       const newStartYear = startYear ? parseInt(startYear, 10) : year;
-      const originalLabel = currentItem.label || '';
-      const originalGenreKey = Array.isArray(currentItem.genre) ? currentItem.genre.slice().sort().join('・') : (currentItem.genre || '');
-      const changedLabel = originalLabel !== label;
-      const changedGenre = originalGenreKey !== genreKey;
       
-      // 開始年・ラベル・ジャンルのいずれかが変更された場合は、元データをdeleted=trueとして残し、新規レコードを追加
-      if (originalStartYear !== newStartYear || changedLabel || changedGenre) {
-        // 旧項目を削除記録に追加して物理削除
-        addDeletionRecord(year, currentItem);
-        events[year].splice(index, 1);
-        if (events[year].length === 0) delete events[year];
-        console.log('識別子変更に伴い旧項目を物理削除:', { year, index, originalLabel, originalGenreKey, originalStartYear });
-
-        // 新しい年に項目を追加
-        const targetYearForNew = newStartYear;
-        if (!events[targetYearForNew]) {
-          events[targetYearForNew] = [];
-        }
-        events[targetYearForNew].push(newItem);
+      // 開始年が変更された場合
+      if (originalStartYear !== newStartYear) {
+        // 元の年の項目に削除フラグを設定（JSONデータに直接保存）
+        currentItem.deleted = true;
         
-        // 編集フラグを設定（新しいレコードに対して）
-        setEditFlag(targetYearForNew, newItem.label, genreKey);
+        console.log('開始年変更による削除フラグ設定:', {
+          year: year,
+          index: index,
+          label: currentItem.label,
+          originalStartYear: originalStartYear,
+          newStartYear: newStartYear,
+          deleted: currentItem.deleted
+        });
+        
+        // 削除フラグを設定した項目は配列に残す（JSONに保存されるため）
+        // 画面表示は renderEvents() で削除フラグがオンの項目は除外される
+        
+        // 新しい年に項目を追加
+        if (!events[newStartYear]) {
+          events[newStartYear] = [];
+        }
+        events[newStartYear].push(newItem);
+        
+        // 編集フラグを設定
+        setEditFlag(newStartYear, newItem.label, genreKey);
       } else {
-        // 識別子に変更がなければ通常の上書き更新
+        // 開始年が変更されていない場合は通常の更新
         events[year][index] = newItem;
+        // 編集フラグを設定
         setEditFlag(year, newItem.label, genreKey);
       }
     }
@@ -2011,12 +1990,10 @@
     const s=new Set(); 
     for(const y of Object.keys(events)){ 
       for(const it of (events[y]||[])){ 
-        if(!it || typeof it.label!=='string') continue;
-        // 削除フラグの項目は重複判定から除外
-        if (it.deleted === true) continue;
-        const genreKey = Array.isArray(it.genre) ? it.genre.slice().sort().join('・') : (it.genre || '');
-        const key = `${it.label.trim()}|${genreKey}`;
-        s.add(key);
+        if(it && typeof it.label==='string') {
+          const key = `${it.label.trim()}|${it.genre || ''}`;
+          s.add(key);
+        }
       } 
     } 
     return s; 
@@ -2046,80 +2023,10 @@
     }
   }
 
-  // CSVエクスポート機能（変更・追加・削除のみ）
-  function exportToCSV() {
-    const csvData = [];
-    // 旧項目や削除項目を明示するため deleted 列を付与
-    csvData.push('開始年;終了年;ラベル;ジャンル;重要度;URL;注釈;deleted');
-    
-    let exportCount = 0;
-    
-    for (const [year, items] of Object.entries(events)) {
-      for (const item of items) {
-        const startYear = item.startYear || '';
-        const endYear = item.endYear || '';
-        const label = item.label || '';
-        const genre = Array.isArray(item.genre) ? item.genre.join('・') : (item.genre || '');
-        const imp = item.imp || '';
-        const url = item.url || '';
-        const note = item.note || '';
-        
-        // 1) 通常編集 or 追加: 編集フラグが立っているもの
-        const genreKeyForFlag = Array.isArray(item.genre) ? item.genre.slice().sort().join('・') : (item.genre || '');
-        const hasEdit = hasEditFlag(year, item.label, genreKeyForFlag);
-        if (hasEdit) {
-          // 現行（新/編集）データは deleted 空欄
-          csvData.push(`${startYear};${endYear};${label};${genre};${imp};${url};${note};`);
-          exportCount++;
-        }
-      }
-    }
-    // 2) 削除・旧識別子の出力（deleted=trueは付けず、旧内容を行として出力）
-    for (const rec of (deletionRecords || [])) {
-      const startYear = rec.startYear || '';
-      const endYear = rec.endYear || '';
-      const label = rec.label || '';
-      const genre = rec.genre || '';
-      const imp = rec.imp || '';
-      const url = rec.url || '';
-      const note = rec.note || '';
-      // 旧/削除データは deleted=true を付ける
-      csvData.push(`${startYear};${endYear};${label};${genre};${imp};${url};${note};true`);
-      exportCount++;
-    }
-    
-    if (exportCount === 0) {
-      showInfo('エクスポート結果', '変更・追加・削除された項目がありません。');
-      return;
-    }
-    
-    const csvContent = csvData.join('\n');
-    const blob = new Blob([csvContent], { type: 'text/csv;charset=utf-8;' });
-    const link = document.createElement('a');
-    const url = URL.createObjectURL(blob);
-    link.setAttribute('href', url);
-    link.setAttribute('download', `nativemap_changes_${new Date().toISOString().split('T')[0]}.csv`);
-    link.style.visibility = 'hidden';
-    document.body.appendChild(link);
-    link.click();
-    document.body.removeChild(link);
-    
-    showInfo('エクスポート完了', `${exportCount}件の変更・追加・削除をCSVで出力しました。管理者に送信してください。`);
-  }
-
   // GitHubからデータを読み込み
   async function loadFromGitHub() {
     if (!githubConfig.accessToken) {
-      // トークンがない場合はCSVエクスポートのオプションを提供
-      const hasData = Object.keys(events).length > 0;
-      if (hasData) {
-        const result = confirm('GitHubアクセストークンが設定されていません。\n\n変更された項目のみをCSVファイルとしてエクスポートして、管理者に送信しますか？\n\n「OK」: CSVファイルをダウンロード\n「キャンセル」: 何もしない');
-        if (result) {
-          exportToCSV();
-        }
-      } else {
-        showError('設定エラー', 'GitHubアクセストークンが設定されていません。GitHubでログインしてください。');
-      }
+      showError('設定エラー', 'GitHubアクセストークンが設定されていません。GitHubでログインしてください。');
       return null;
     }
 
@@ -2203,16 +2110,7 @@
   // GitHubにデータを保存（競合検出・解決機能付き）
   async function saveToGitHub(data, expectedSha = null, retryCount = 0) {
     if (!githubConfig.accessToken) {
-      // トークンがない場合はCSVエクスポートのオプションを提供
-      const hasData = Object.keys(events).length > 0;
-      if (hasData) {
-        const result = confirm('GitHubアクセストークンが設定されていません。\n\n変更された項目のみをCSVファイルとしてエクスポートして、管理者に送信しますか？\n\n「OK」: CSVファイルをダウンロード\n「キャンセル」: 何もしない');
-        if (result) {
-          exportToCSV();
-        }
-      } else {
-        showError('設定エラー', 'GitHubアクセストークンが設定されていません。');
-      }
+      showError('設定エラー', 'GitHubアクセストークンが設定されていません。');
       return false;
     }
 
@@ -2357,20 +2255,10 @@
       }
       
       // より詳細なマージ処理を実行
-      const { merged: mergedAfterResolve, conflicts } = await performDetailedMerge(events, latestRemoteData);
+      const mergedData = await performDetailedMerge(events, latestRemoteData);
       
-      // 再試行（マージ済みデータのみ保存）
-      const ok = await saveToGitHub(mergedAfterResolve, newSha, retryCount + 1);
-      if (!ok) return false;
-      
-      // 保存成功時はローカル状態にも反映して、競合通知を表示
-      events = mergedAfterResolve;
-      saveEvents();
-      renderEvents();
-      if (conflicts && conflicts.length) {
-        showConflictNotification(conflicts);
-      }
-      return true;
+      // 再試行
+      return await saveToGitHub(mergedData, newSha, retryCount + 1);
     } catch (error) {
       console.error('競合解決処理エラー:', error);
       
@@ -2453,10 +2341,6 @@
     const conflicts = []; // 真の競合のみを記録
     
     // 各年のデータを詳細にマージ
-    const getGenreKey = (g)=> Array.isArray(g) ? g.slice().sort().join('・') : (g || '');
-    const getYearVal = (it, fallbackYear) => (it && typeof it.startYear === 'number') ? it.startYear : fallbackYear;
-    const makeKey = (it, fallbackYear) => `${it.label}|${getGenreKey(it.genre)}|${getYearVal(it, fallbackYear)}`;
-
     for (const [year, localItems] of Object.entries(localData)) {
       if (!merged[year]) {
         merged[year] = [];
@@ -2466,15 +2350,15 @@
       const localItemMap = new Map();
       const remoteItemMap = new Map();
       
-      // ローカルアイテムをマップ化（年もキーに含め、ジャンルは正規化）
+      // ローカルアイテムをマップ化
       localItems.forEach(item => {
-        const key = makeKey(item, parseInt(year,10));
+        const key = `${item.label}|${item.genre || ''}`;
         localItemMap.set(key, item);
       });
       
       // リモートアイテムをマップ化
       remoteItems.forEach(item => {
-        const key = makeKey(item, parseInt(year,10));
+        const key = `${item.label}|${item.genre || ''}`;
         remoteItemMap.set(key, item);
       });
       
@@ -2487,7 +2371,7 @@
         
         if (remoteItem) {
           // 両方に存在する場合：編集フラグをチェック
-          const hasLocalEdit = hasEditFlag(getYearVal(localItem, parseInt(year,10)), localItem.label, getGenreKey(localItem.genre));
+          const hasLocalEdit = hasEditFlag(year, localItem.label, localItem.genre);
           
           if (hasLocalEdit) {
             // ローカルで編集されている場合のみ競合をチェック
@@ -2515,7 +2399,7 @@
             mergedItems.push(remoteItem);
           }
         } else {
-          // ローカルのみに存在する場合（新規 or 旧レコードのdeleted）
+          // ローカルのみに存在する場合
           mergedItems.push(localItem);
         }
         processedKeys.add(key);
@@ -2537,7 +2421,7 @@
   
   // 真の競合をチェック（他のユーザーによる変更のみ）
   function checkRealConflict(localItem, remoteItem) {
-    const fields = ['label', 'genre', 'imp', 'url', 'note', 'startYear', 'endYear'];
+    const fields = ['label', 'genre', 'imp', 'url', 'note'];
     const conflictFields = [];
     
     for (const field of fields) {
@@ -2559,12 +2443,8 @@
       } else {
         // その他のフィールドは従来通り
         // ただし、空文字列とundefinedの違いは競合としない
-        let localNormalized = localValue === '' ? undefined : localValue;
-        let remoteNormalized = remoteValue === '' ? undefined : remoteValue;
-        if (field === 'genre') {
-          localNormalized = Array.isArray(localValue) ? localValue.slice().sort().join('・') : (localValue || undefined);
-          remoteNormalized = Array.isArray(remoteValue) ? remoteValue.slice().sort().join('・') : (remoteValue || undefined);
-        }
+        const localNormalized = localValue === '' ? undefined : localValue;
+        const remoteNormalized = remoteValue === '' ? undefined : remoteValue;
         
         if (localNormalized !== remoteNormalized) {
           console.log(`真の競合検出: ${field} フィールドが異なります`);
@@ -2913,9 +2793,11 @@
         // データ鮮度時刻を更新
         setDataFreshnessTimestamp(timestamp);
         
-        // 編集フラグ・削除記録・バックアップをクリア
+        // 編集フラグをクリア
         clearEditFlags();
-        clearDeletionRecords();
+        
+        
+        // ラベルバックアップをクリア
         clearLabelBackups();
         
         // 競合があった場合は競合通知を表示、なければ通常の完了メッセージを表示
@@ -2944,16 +2826,7 @@
   // GitHubからデータとSHAハッシュを同時に取得
   async function loadFromGitHubWithSha() {
     if (!githubConfig.accessToken) {
-      // トークンがない場合はCSVエクスポートのオプションを提供
-      const hasData = Object.keys(events).length > 0;
-      if (hasData) {
-        const result = confirm('GitHubアクセストークンが設定されていません。\n\n変更された項目のみをCSVファイルとしてエクスポートして、管理者に送信しますか？\n\n「OK」: CSVファイルをダウンロード\n「キャンセル」: 何もしない');
-        if (result) {
-          exportToCSV();
-        }
-      } else {
-        showError('設定エラー', 'GitHubアクセストークンが設定されていません。GitHubでログインしてください。');
-      }
+      showError('設定エラー', 'GitHubアクセストークンが設定されていません。GitHubでログインしてください。');
       return { remoteData: null, remoteSha: null, remoteEraSettings: [], timestamp: null };
     }
 
@@ -3723,11 +3596,10 @@
       <p>左カラムの作品・製品名が並ぶエリアの<strong>空白部分</strong>をクリックすると、<strong>新規登録</strong>ができます。ラベル、ジャンル、重要度、URL、注釈を入力して保存してください。</p>
       <h4>データの同期</h4>
       <p><strong>重要：</strong>編集を開始する前に必ず<strong>「同期」</strong>で最新データを取得し、編集作業が終わったら必ず<strong>「同期」</strong>でGitHubへ保存・反映してください（並び替え・追加・削除・修正のすべてが対象）。</p>
-      <p><strong>GitHubアクセストークンが設定されていない場合：</strong>「同期」ボタンをクリックすると、変更された項目のみをCSVファイルとしてエクスポートするオプションが表示されます。このファイルを管理者に送信することで、データを統合できます。</p>
       <h4>CSV/TSV読み込み形式</h4>
       <p>「ロード」ボタンでCSV/TSVファイルを読み込んで一括でデータを追加できます。</p>
-      <p><strong>形式：</strong> <code>開始年;終了年;ラベル;ジャンル;重要度;URL;注釈</code></p>
-      <p><strong>例：</strong> <code>1946;;ENIAC;HAR;5;https://ja.wikipedia.org/wiki/ENIAC;初の大規模電子計算機</code></p>
+      <p><strong>形式：</strong> <code>年;ジャンル;ラベル;重要度;URL;注釈</code></p>
+      <p><strong>例：</strong> <code>1946;HAR;ENIAC;5;https://ja.wikipedia.org/wiki/ENIAC;初の大規模電子計算機</code></p>
       <h5>ジャンル一覧（カッコ内は登録件数／総登録件数：${getTotalItemCount()}件）</h5>
       <ul>
         ${generateGenreListWithCounts()}
