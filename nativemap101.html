@@ -70,9 +70,7 @@
 <body>
   <header>
     <strong style="font-size: 1.5em;">ネイティブマップ 1.0</strong>
-    <div id="repoInfo" style="font-size: 12px; color: #666; margin-left: 12px; display: none;">
-      <span id="repoInfoText"></span>
-    </div>
+    <span class="hint">縦軸：誕生年、横軸：年齢／ラベルクリックで編集／誕生年の丸をドラッグ</span>
     <div class="filters" id="filters">
       <button id="genreFilterBtn" style="padding: 4px 8px; border: 1px solid #ccc; background: #f9f9f9; cursor: pointer; border-radius: 4px;">
         ジャンル選択
@@ -711,71 +709,8 @@
     eraSettings = loadEraSettings();
   }
   
-  // URLパラメータからリポジトリ情報を取得する関数
-  function getUrlParams() {
-    const urlParams = new URLSearchParams(window.location.search);
-    return {
-      owner: urlParams.get('owner'),
-      repo: urlParams.get('repo'),
-      filePath: urlParams.get('filePath') || urlParams.get('path')
-    };
-  }
-
-  // URLパラメータでGitHub設定を更新
-  function updateGitHubConfigFromUrl() {
-    const urlParams = getUrlParams();
-    let configUpdated = false;
-
-    if (urlParams.owner) {
-      githubConfig.owner = urlParams.owner;
-      configUpdated = true;
-    }
-    if (urlParams.repo) {
-      githubConfig.repo = urlParams.repo;
-      configUpdated = true;
-    }
-    if (urlParams.filePath) {
-      githubConfig.filePath = urlParams.filePath;
-      configUpdated = true;
-    }
-
-    if (configUpdated) {
-      saveGitHubConfig();
-      console.log('URLパラメータからGitHub設定を更新:', githubConfig);
-    }
-  }
-
-  // リポジトリ情報をヘッダーに表示
-  function updateRepoInfoDisplay() {
-    const repoInfoDiv = document.getElementById('repoInfo');
-    const repoInfoText = document.getElementById('repoInfoText');
-    
-    if (repoInfoDiv && repoInfoText) {
-      const urlParams = getUrlParams();
-      
-      // URLパラメータが指定されている場合は表示
-      if (urlParams.owner || urlParams.repo || urlParams.filePath) {
-        const parts = [];
-        if (urlParams.owner) parts.push(`所有者: ${urlParams.owner}`);
-        if (urlParams.repo) parts.push(`リポジトリ: ${urlParams.repo}`);
-        if (urlParams.filePath) parts.push(`ファイル: ${urlParams.filePath}`);
-        
-        repoInfoText.textContent = `[${parts.join(', ')}]`;
-        repoInfoDiv.style.display = 'block';
-      } else {
-        repoInfoDiv.style.display = 'none';
-      }
-    }
-  }
-
   // GitHub設定を読み込み（initializeWithRemoteDataの前に実行）
   loadGitHubConfig();
-  
-  // URLパラメータでGitHub設定を更新
-  updateGitHubConfigFromUrl();
-  
-  // リポジトリ情報の表示を更新
-  updateRepoInfoDisplay();
   
   // 初期化時にリモートからデータを読み込み
   async function initializeWithRemoteData() {
@@ -2090,16 +2025,6 @@
       // ジャンルが更新された可能性があるためフィルタ選択をリセット
       if (jsonData.genres) { setGenresFromRemote(jsonData.genres); }
       
-      // 時代区分データを読み込み
-      if (jsonData.eraSettings) {
-        eraSettings = jsonData.eraSettings;
-        console.log('時代区分データを読み込み:', eraSettings.length, '個');
-        // 時代区分背景を再描画
-        if (typeof drawEraBackgrounds === 'function') {
-          drawEraBackgrounds();
-        }
-      }
-      
       return jsonData.events ? jsonData.events : jsonData;
     } catch (error) {
       console.error('GitHub raw fileからのデータ読み込みエラー:', error);
@@ -2919,11 +2844,6 @@
                  style="width: 100%; padding: 6px; margin-top: 4px;" 
                  placeholder="timeline.json" />
         </label>
-        <div style="margin: 12px 0; padding: 8px; background: #f0f8ff; border: 1px solid #b3d9ff; border-radius: 6px; font-size: 12px;">
-          <strong>URLパラメータでの指定:</strong><br>
-          <code>?owner=ユーザー名&repo=リポジトリ名&filePath=ファイルパス</code><br>
-          <small style="color: #666;">例: ?owner=hortense667&repo=nativemap&filePath=timeline.json</small>
-        </div>
       </div>
       <div style="margin: 16px 0; padding: 12px; background: #e3f2fd; border: 1px solid #2196f3; border-radius: 6px;">
         <h5>設定情報について:</h5>
@@ -3002,7 +2922,6 @@
     try {
       // 1. 現在のデータをクリア
       events = {};
-      eraSettings = []; // 時代区分もクリア
       saveEvents();
       renderEvents();
       
@@ -3043,16 +2962,6 @@
           
           const embedded = JSON.parse(txt);
           console.log('埋め込みJSON解析成功:', Object.keys(embedded).length, '個の年');
-          
-          // 時代区分データを読み込み
-          if (embedded.eraSettings) {
-            eraSettings = embedded.eraSettings;
-            console.log('埋め込みJSONから時代区分データを読み込み:', eraSettings.length, '個');
-            // 時代区分背景を再描画
-            if (typeof drawEraBackgrounds === 'function') {
-              drawEraBackgrounds();
-            }
-          }
           
           const rawData = embedded.events ? embedded.events : embedded;
           console.log('生データ取得:', Object.keys(rawData).length, '個の年');
@@ -3110,10 +3019,6 @@
         // ジャンルが更新された可能性があるためフィルタ選択をリセット
         if (window.selectedGenres) { selectedGenres.clear(); }
         if (typeof updateGenreFilterButtonText === 'function') { updateGenreFilterButtonText(); }
-        // 時代区分背景を再描画
-        if (typeof drawEraBackgrounds === 'function') {
-          drawEraBackgrounds();
-        }
         
         // 同期完了時刻を記録
         localStorage.setItem('lastSync', new Date().toISOString());
