@@ -182,16 +182,6 @@
         "note": "国民的SFヒーロー。物理的には無理のある描写が多かった。実は、当時もそういう指摘があったと手塚治虫から聞いたと菊池誠氏が書いている。"
       },
       {
-        "label": "禁じられた遊び",
-        "startYear": 1952,
-        "genre": [
-          "MOV"
-        ],
-        "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/禁じられた遊び",
-        "note": "戦争と童心の対比"
-      },
-      {
         "label": "雨に唄えば",
         "startYear": 1952,
         "genre": [
@@ -217,6 +207,16 @@
           "PHE"
         ],
         "imp": 4
+      },
+      {
+        "label": "禁じられた遊び",
+        "startYear": 1952,
+        "genre": [
+          "MOV"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/禁じられた遊び",
+        "note": "戦争と童心の対比"
       }
     ],
     "1953": [
