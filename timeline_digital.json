@@ -69,6 +69,16 @@
         "imp": 5,
         "url": "https://museum.ipsj.or.jp/en/computer/dawn/0005.html",
         "note": "日本初の自動デジタル計算機の試作稼働"
+      },
+      {
+        "label": "ETL Mark I",
+        "startYear": 1952,
+        "genre": [
+          "HAR-PC"
+        ],
+        "imp": 5,
+        "url": "https://museum.ipsj.or.jp/en/computer/dawn/0005.html",
+        "note": "日本初の自動デジタル計算機の試作稼働"
       }
     ],
     "1953": [
