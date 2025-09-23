@@ -102,6 +102,16 @@
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/IBM_700/7000シリーズ",
         "note": "IBM初期の量産科学技術計算機"
+      },
+      {
+        "label": "IBM 701（科学技術用？）",
+        "startYear": 1953,
+        "genre": [
+          "HAR-PC"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/IBM_700/7000シリーズ",
+        "note": "IBM初期の量産科学技術計算機"
       }
     ],
     "1954": [
