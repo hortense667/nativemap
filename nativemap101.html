@@ -3468,7 +3468,6 @@
       const genres = genreStr ? genreStr.split('・').map(g => g.trim().toUpperCase()) : [];
       const genreKey = genres.length > 0 ? genres.map(g=>String(g).toUpperCase()).sort().join('・') : '';
       const key = `${label}|${genreKey}`;
-      if(seen.has(key)) { errors.push(`${i+1}行目: 同じラベル・ジャンル組み合わせが存在します（${label}${genreKey ? ` [${genreKey}]` : ''}）`); continue; }
       // 動的ジャンル: 不正チェックは行わず、そのまま受け入れ
       if(impStr){ const n=parseInt(impStr,10); if(!(n>=1 && n<=5)){ errors.push(`${i+1}行目: 不正な重要度（${impStr}）`); continue; } }
       
@@ -3519,8 +3518,8 @@
         if(idx!==-1){ arr.splice(idx,1); }
       } else {
         // (1) 同一キーがあれば上書き、なければ追加
-        if(idx!==-1){ arr[idx] = item; }
-        else { arr.push(item); }
+        if(idx!==-1){ arr[idx] = item; } else { arr.push(item); }
+        // seen は重複検出用。ここでは上書き対象も既存扱いにする
         seen.add(key);
         addedCount++;
       }
