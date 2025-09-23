@@ -1,41 +1,267 @@
 {
+  "events": {
+    "1952": [
+      {
+        "label": "テレビ放送開始"
+      }
+    ],
+    "1956": [
+      {
+        "label": "国産初コンピュータ"
+      }
+    ],
+    "1960": [
+      {
+        "label": "国鉄予約システム"
+      },
+      {
+        "label": "ミステリーゾーン"
+      }
+    ],
+    "1963": [
+      {
+        "label": "鉄腕アトム"
+      },
+      {
+        "label": "鉄人28号"
+      }
+    ],
+    "1966": [
+      {
+        "label": "ウルトラQ"
+      },
+      {
+        "label": "サンダーバード"
+      }
+    ],
+    "1969": [
+      {
+        "label": "住友銀行キャッシュディスペンサ"
+      },
+      {
+        "label": "アポロ11号・月着陸"
+      }
+    ],
+    "1971": [
+      {
+        "label": "仮面ライダー"
+      }
+    ],
+    "1973": [
+      {
+        "label": "『8時だョ！全員集合』視聴率50%"
+      }
+    ],
+    "1977": [
+      {
+        "label": "Apple IIなど初期マイコン"
+      }
+    ],
+    "1978": [
+      {
+        "label": "マイコン入り製品次々登場"
+      }
+    ],
+    "1979": [
+      {
+        "label": "機動戦士ガンダム"
+      }
+    ],
+    "1983": [
+      {
+        "label": "任天堂ファミコン"
+      }
+    ],
+    "1984": [
+      {
+        "label": "ドラゴンボール"
+      }
+    ],
+    "1986": [
+      {
+        "label": "PC-9801VM"
+      },
+      {
+        "label": "ビデオレンタル・AVビデオ"
+      }
+    ],
+    "1995": [
+      {
+        "label": "新世紀エヴァンゲリオン"
+      },
+      {
+        "label": "GHOST IN THE SHELL 攻殻機動隊"
+      }
+    ],
+    "1996": [
+      {
+        "label": "パソコン通信流行"
+      },
+      {
+        "label": "女子高生にポケベルブーム"
+      },
+      {
+        "label": "たまごっち"
+      },
+      {
+        "label": "ホンダP2"
+      }
+    ],
+    "1999": [
+      {
+        "label": "iモード・写メール"
+      },
+      {
+        "label": "MATRIX"
+      }
+    ],
+    "2001": [
+      {
+        "label": "ヤフー！BB開始"
+      }
+    ],
+    "2005": [
+      {
+        "label": "YouTube"
+      }
+    ],
+    "2006": [
+      {
+        "label": "『ぐぐる』が流行語大賞"
+      }
+    ],
+    "2007": [
+      {
+        "label": "電脳コイル"
+      }
+    ],
+    "2010": [
+      {
+        "label": "iPhoneブレーク"
+      },
+      {
+        "label": "GAFAの影響力拡大"
+      }
+    ],
+    "2016": [
+      {
+        "label": "DJI Phantom 4／ドローン"
+      }
+    ],
+    "2018": [
+      {
+        "label": "Ready Player One"
+      }
+    ],
+    "2020": [
+      {
+        "label": "VR／メタバース注目"
+      }
+    ],
+    "2022": [
+      {
+        "label": "ChatGPT／生成AI"
+      }
+    ],
+    "2023": [
+      {
+        "label": "Web3"
+      }
+    ]
+  },
+  "eraSettings": [],
   "genres": [
-    { "code": "HIS",      "label": "歴史/出来事" },
-    { "code": "THE",      "label": "理論/モデル" },
-    { "code": "POL",      "label": "政策/戦略" },
-
-    { "code": "ORG",      "label": "人物/組織" },
-    { "code": "MED",      "label": "メディア（雑誌/出版）" },
-
-    { "code": "HAR-PC",   "label": "パソコン本体" },
-    { "code": "HAR-MOB",  "label": "モバイル端末（PDA/スマホ/タブレット）" },
-    { "code": "HAR-PHN",  "label": "携帯電話端末" },
-    { "code": "HAR-SBC",  "label": "シングルボード/マイコンボード" },
-    { "code": "HAR-CPU",  "label": "マイクロプロセッサ" },
-    { "code": "HAR-STO",  "label": "ストレージ/メディア" },
-    { "code": "HAR-PER",  "label": "周辺機器（プリンタ/スキャナ等）" },
-    { "code": "HAR-IMG",  "label": "画像/音響機器（カメラ/オーディオ）" },
-    { "code": "HAR-WEA",  "label": "ウェアラブル" },
-    { "code": "HAR-GAM",  "label": "ゲームハード" },
-    { "code": "ROB",      "label": "ロボティクス/コンシューマロボ" },
-
-    { "code": "SOF-OS",   "label": "OS" },
-    { "code": "SOF-DEV",  "label": "ソフトウェア（言語/開発ツール/プラットフォーム）" },
-    { "code": "SOF-CRE",  "label": "クリエイティブ/3D/メディア系ソフト" },
-    { "code": "DB",       "label": "データベース/データモデル" },
-    { "code": "SEC",      "label": "セキュリティ/プライバシー" },
-    { "code": "AI",       "label": "AI/機械学習" },
-
-    { "code": "NET-PRO",  "label": "ネットワーク/規格・プロトコル" },
-    { "code": "NET-WIR",  "label": "ネットワーク（Wi-Fi/無線LAN）" },
-    { "code": "NET-SAT",  "label": "測位/GPS" },
-
-    { "code": "WEB-SVC",  "label": "インターネット/サービス（Web/検索/メール等）" },
-    { "code": "CLD",      "label": "クラウド/インフラサービス" },
-    { "code": "COM",      "label": "コミュニティ/イベント" },
-    { "code": "FMT",      "label": "データ形式/ファイルフォーマット" },
-
-    { "code": "PAY",      "label": "決済/交通IC・モバイル決済" },
-    { "code": "ENT",      "label": "エンタープライズIT" }
+    {
+      "code": "ANI",
+      "label": "アニメ"
+    },
+    {
+      "code": "MAN",
+      "label": "マンガ"
+    },
+    {
+      "code": "GAM",
+      "label": "ゲーム"
+    },
+    {
+      "code": "TVP",
+      "label": "テレビ番組"
+    },
+    {
+      "code": "MOV",
+      "label": "映画"
+    },
+    {
+      "code": "NET",
+      "label": "インターネット"
+    },
+    {
+      "code": "HAR",
+      "label": "ハードウェア"
+    },
+    {
+      "code": "PHE",
+      "label": "現象・流行"
+    },
+    {
+      "code": "SOF",
+      "label": "ソフトウェア"
+    },
+    {
+      "code": "TOY",
+      "label": "おもちゃ"
+    },
+    {
+      "code": "FAS",
+      "label": "ファッション"
+    },
+    {
+      "code": "BOO",
+      "label": "書籍"
+    },
+    {
+      "code": "MAG",
+      "label": "雑誌"
+    },
+    {
+      "code": "NOV",
+      "label": "小説"
+    },
+    {
+      "code": "MUS",
+      "label": "音楽"
+    },
+    {
+      "code": "IDL",
+      "label": "アイドル"
+    },
+    {
+      "code": "RDO",
+      "label": "ラジオ"
+    },
+    {
+      "code": "EVT",
+      "label": "イベント"
+    },
+    {
+      "code": "FMT",
+      "label": "フォーマット"
+    },
+    {
+      "code": "SPW",
+      "label": "スポーツ"
+    },
+    {
+      "code": "RDE",
+      "label": "乗り物"
+    },
+    {
+      "code": "FOO",
+      "label": "食"
+    },
+    {
+      "code": "UNC",
+      "label": "その他"
+    }
   ]
 }
