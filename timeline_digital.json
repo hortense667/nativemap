@@ -278,6 +278,16 @@
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/集積回路",
         "note": "半導体集積化で高性能化へ"
+      },
+      {
+        "label": "LISP言語。",
+        "startYear": 1958,
+        "genre": [
+          "SOF-DEV"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/Lisp",
+        "note": "AI研究を支えた関数型言語"
       }
     ],
     "1960": [
