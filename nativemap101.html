@@ -506,10 +506,12 @@
     if(!item) return;
     const genreKey = Array.isArray(item.genre) ? item.genre.slice().sort().join('・') : (item.genre || '');
     const rec = {
+      year: Number(item.startYear || year || ''),
       startYear: item.startYear || year || '',
       endYear: item.endYear || '',
       label: item.label || '',
       genre: genreKey,
+      deleted: true,
       imp: item.imp || '',
       url: item.url || '',
       note: item.note || ''
@@ -520,6 +522,20 @@
   function clearDeletionRecords(){
     deletionRecords = [];
     saveDeletionRecords();
+  }
+
+  // tombstone（削除記録）チェック
+  function _genreKey(genre){
+    if(Array.isArray(genre)) return genre.slice().map(g=>String(g).toUpperCase()).sort().join('・');
+    return String(genre||'').toUpperCase();
+  }
+  function isLocallyDeleted(year, label, genre){
+    const key = `${String(label||'')}|${_genreKey(genre)}`;
+    for(const rec of (deletionRecords||[])){
+      const rKey = `${String(rec.label||'')}|${_genreKey(rec.genre)}`;
+      if(Number(rec.year)===Number(year) && rKey===key) return true;
+    }
+    return false;
   }
   
   // データ鮮度時刻を設定
@@ -585,8 +601,11 @@
         const localItem = localItemMap.get(key);
         const hasLocalEdit = localItem ? hasEditFlag(year, localItem.label, localItem.genre) : false;
         const hasLocalDelete = localItem ? localItem.deleted === true : false;
+        const deletedByTombstone = isLocallyDeleted(year, remoteItem.label, remoteItem.genre);
         
-        if (hasLocalEdit || hasLocalDelete) {
+        if (deletedByTombstone) {
+          return; // tombstoneがあるので採用しない
+        } else if (hasLocalEdit || hasLocalDelete) {
           // 削除フラグが立っている場合は結果に含めない（リモート項目を削除扱い）
           if (hasLocalDelete) {
             return; // skip
@@ -607,7 +626,7 @@
         });
         
         if (!existsInRemote) {
-          if (localItem && localItem.deleted === true) continue;
+          if (localItem && (localItem.deleted === true || isLocallyDeleted(year, localItem.label, localItem.genre))) continue;
           mergedItems.push(localItem);
         }
       }
