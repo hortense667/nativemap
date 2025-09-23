@@ -171,16 +171,6 @@
         "note": "古代文明の巨大計算機と無意識の暴走を寓話化"
       },
       {
-        "label": "FUJIC",
-        "startYear": 1956,
-        "genre": [
-          "HAR-PC"
-        ],
-        "imp": 5,
-        "url": "https://en.wikipedia.org/wiki/FUJIC",
-        "note": "日本初の電子式デジタル計算機・1956完成"
-      },
-      {
         "label": "ダートマス会議",
         "startYear": 1956,
         "genre": [
@@ -214,6 +204,17 @@
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/IBM_305_RAMAC",
         "note": "世界初の商用HDD搭載機"
+      },
+      {
+        "label": "FUJIC",
+        "startYear": 1956,
+        "genre": [
+          "HAR-PC",
+          "HIS"
+        ],
+        "imp": 5,
+        "url": "https://en.wikipedia.org/wiki/FUJIC",
+        "note": "日本初の電子式デジタル計算機・1956完成"
       }
     ],
     "1957": [
