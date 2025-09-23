@@ -587,7 +587,11 @@
         const hasLocalDelete = localItem ? localItem.deleted === true : false;
         
         if (hasLocalEdit || hasLocalDelete) {
-          // 編集フラグが立っているか、削除フラグが立っている場合はローカルの内容を採用（ただしリモートの順序で配置）
+          // 削除フラグが立っている場合は結果に含めない（リモート項目を削除扱い）
+          if (hasLocalDelete) {
+            return; // skip
+          }
+          // 編集フラグが立っている場合はローカルを採用
           mergedItems.push(localItem);
         } else {
           // 編集フラグも削除フラグも立っていない場合はリモートを採用
@@ -595,7 +599,7 @@
         }
       });
       
-      // ローカルのみに存在するアイテムを追加
+      // ローカルのみに存在するアイテムを追加（tombstoneは除外）
       for (const [key, localItem] of localItemMap) {
         const existsInRemote = remoteItems.some(remoteItem => {
           const remoteKey = `${remoteItem.label}|${remoteItem.genre || ''}`;
@@ -603,6 +607,7 @@
         });
         
         if (!existsInRemote) {
+          if (localItem && localItem.deleted === true) continue;
           mergedItems.push(localItem);
         }
       }
@@ -617,7 +622,8 @@
         }
       });
       
-      merged[year] = mergedItems;
+      // 念のため削除フラグのものを除去
+      merged[year] = mergedItems.filter(it => it && it.deleted !== true);
     }
     
     return { merged, conflicts: [] };
