@@ -10,6 +10,16 @@
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/トランジスタ",
         "note": "真空管から半導体時代へ大転換"
+      },
+      {
+        "label": "ENIAC",
+        "startYear": 1946,
+        "genre": [
+          "HAR-PC"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/ENIAC",
+        "note": "初期汎用電子計算機の象徴"
       }
     ],
     "1947": [
