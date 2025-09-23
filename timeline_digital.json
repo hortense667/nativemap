@@ -46,17 +46,6 @@
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/UNIVAC_I",
         "note": "商用汎用コンピュータの嚆矢"
-      },
-      {
-        "label": "UNIVAC I",
-        "startYear": 1951,
-        "genre": [
-          "HAR-PC",
-          "HIS"
-        ],
-        "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/UNIVAC_I",
-        "note": "商用汎用コンピュータの嚆矢"
       }
     ],
     "1952": [
@@ -72,16 +61,6 @@
         "note": "国産ロボット像を形成、科学観へ影響（便宜）"
       },
       {
-        "label": "ETL Mark I（リレー式自動計算機）",
-        "startYear": 1952,
-        "genre": [
-          "HAR-PC"
-        ],
-        "imp": 5,
-        "url": "https://museum.ipsj.or.jp/en/computer/dawn/0005.html",
-        "note": "日本初の自動デジタル計算機の試作稼働"
-      },
-      {
         "label": "ETL Mark I",
         "startYear": 1952,
         "genre": [
@@ -95,16 +74,6 @@
     "1953": [
       {
         "label": "IBM 701",
-        "startYear": 1953,
-        "genre": [
-          "HAR-PC"
-        ],
-        "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/IBM_700/7000シリーズ",
-        "note": "IBM初期の量産科学技術計算機"
-      },
-      {
-        "label": "IBM 701（科学技術用？）",
         "startYear": 1953,
         "genre": [
           "HAR-PC"
@@ -169,19 +138,6 @@
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/禁断の惑星",
         "note": "古代文明の巨大計算機と無意識の暴走を寓話化"
-      },
-      {
-        "label": "ダートマス会議",
-        "startYear": 1956,
-        "genre": [
-          "AI",
-          "HIS",
-          "POL",
-          "THE"
-        ],
-        "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/ダートマス会議",
-        "note": "AI研究の出発点とされる会議"
       },
       {
         "label": "第一次AIブーム",
