@@ -178,6 +178,19 @@
         "imp": 5,
         "url": "https://en.wikipedia.org/wiki/FUJIC",
         "note": "日本初の電子式デジタル計算機・1956完成"
+      },
+      {
+        "label": "ダートマス会議",
+        "startYear": 1956,
+        "genre": [
+          "AI",
+          "HIS",
+          "POL",
+          "THE"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/ダートマス会議",
+        "note": "AI研究の出発点とされる会議"
       }
     ],
     "1957": [
