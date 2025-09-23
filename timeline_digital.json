@@ -161,16 +161,6 @@
         "note": "探索・推論中心の黎明期（期間は便宜）"
       },
       {
-        "label": "IBM 305 RAMAC（HDD）",
-        "startYear": 1956,
-        "genre": [
-          "HAR-STO"
-        ],
-        "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/IBM_305_RAMAC",
-        "note": "世界初の商用HDD搭載機"
-      },
-      {
         "label": "『禁断の惑星』",
         "startYear": 1956,
         "genre": [
@@ -214,6 +204,16 @@
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/AIの冬",
         "note": "探索・推論中心の黎明期（期間は便宜）"
+      },
+      {
+        "label": "IBM 305 RAMAC",
+        "startYear": 1956,
+        "genre": [
+          "HAR-STO"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/IBM_305_RAMAC",
+        "note": "世界初の商用HDD搭載機"
       }
     ],
     "1957": [
