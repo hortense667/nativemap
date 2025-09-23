@@ -672,11 +672,14 @@
         const localItem = localItemMap.get(key);
         const hasLocalEdit = localItem ? hasEditFlag(year, localItem.label, localItem.genre) : false;
         const hasLocalDelete = localItem ? localItem.deleted === true : false;
+        const deletedByTombstone = isLocallyDeleted(year, remoteItem.label, remoteItem.genre);
         
-        if (hasLocalEdit || hasLocalDelete) {
+        if (deletedByTombstone) {
+          return; // tombstoneにより削除
+        } else if (hasLocalEdit || hasLocalDelete) {
           if (hasLocalDelete) {
-            // 削除フラグが立っている場合はローカルの内容を採用（削除フラグを保持）
-            mergedItems.push(localItem);
+            // 削除は結果に含めない
+            return;
           } else if (hasLocalEdit) {
             // 編集フラグが立っている場合は競合チェック
             const backup = getLabelBackup(year, localItem.label, localItem.genre);
@@ -711,11 +714,12 @@
         });
         
         if (!existsInRemote) {
+          if (localItem && (localItem.deleted === true || isLocallyDeleted(year, localItem.label, localItem.genre))) continue;
           mergedItems.push(localItem);
         }
       }
-      
-      merged[year] = mergedItems;
+      // tombstone除外
+      merged[year] = mergedItems.filter(it => it && it.deleted !== true);
     }
     
     return { merged, conflicts };
