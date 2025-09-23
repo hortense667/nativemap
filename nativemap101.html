@@ -278,13 +278,21 @@
 
   // ===== モーダル（共通） =====
   function openModal(title, html){
-    modalTitle.textContent=title; modalContent.innerHTML=html; modal.style.display='flex'; modal.setAttribute('aria-hidden','false');
-    const prevFocus=document.activeElement; modal.dataset.prevFocusId = prevFocus && prevFocus.id ? prevFocus.id : '';
+    const prevFocus = document.activeElement;
+    modalTitle.textContent = title;
+    modalContent.innerHTML = html;
+    modal.setAttribute('aria-hidden','false');
+    modal.style.display = 'flex';
+    modal.dataset.prevFocusId = prevFocus && prevFocus.id ? prevFocus.id : '';
     modalClose.focus();
   }
   function openModalText(title, text){
-    modalTitle.textContent=title; modalContent.textContent=text; modal.style.display='flex'; modal.setAttribute('aria-hidden','false');
-    const prevFocus=document.activeElement; modal.dataset.prevFocusId = prevFocus && prevFocus.id ? prevFocus.id : '';
+    const prevFocus = document.activeElement;
+    modalTitle.textContent = title;
+    modalContent.textContent = text;
+    modal.setAttribute('aria-hidden','false');
+    modal.style.display = 'flex';
+    modal.dataset.prevFocusId = prevFocus && prevFocus.id ? prevFocus.id : '';
     modalClose.focus();
   }
   function closeModal(){
