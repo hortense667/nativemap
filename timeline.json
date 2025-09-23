@@ -11,16 +11,6 @@
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/%E7%B5%82%E6%88%A6%E3%81%AE%E6%97%A5",
         "note": "第二次世界大戦が終了、"
-      },
-      {
-        "label": "終戦",
-        "genre": [
-          "PHE"
-        ],
-        "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/%E7%B5%82%E6%88%A6%E3%81%AE%E6%97%A5",
-        "note": "敗戦を終戦と言い換える。日本人って変わってない。英語ではなんというのでしょう？　マックくん。",
-        "deleted": true
       }
     ],
     "1946": [
@@ -68,17 +58,6 @@
       }
     ],
     "1947": [
-      {
-        "label": "夜と霧",
-        "startYear": 1947,
-        "genre": [
-          "BOO"
-        ],
-        "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/夜と霧",
-        "note": "極限状況の人間学",
-        "deleted": true
-      },
       {
         "label": "ニュー・ルック",
         "startYear": 1947,
@@ -134,17 +113,6 @@
         "endYear": "ongoing"
       },
       {
-        "label": "自転車泥棒",
-        "startYear": 1948,
-        "genre": [
-          "MOV"
-        ],
-        "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/自転車泥棒",
-        "note": "新リアリズムの代表。ただ自転車を盗む話ではありません。",
-        "deleted": true
-      },
-      {
         "label": "人間失格",
         "startYear": 1948,
         "genre": [
@@ -163,17 +131,6 @@
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/一九八四年_(小説)",
         "note": "全体主義を告発する寓話"
-      },
-      {
-        "label": "エド・サリヴァン・ショー",
-        "startYear": 1948,
-        "endYear": "ongoing",
-        "genre": [
-          "TVP"
-        ],
-        "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/エド・サリヴァン・ショー",
-        "note": "音楽バラエティの古典"
       }
     ],
     "1949": [
@@ -218,17 +175,6 @@
         "imp": 3,
         "url": "https://ja.wikipedia.org/wiki/リズム・アンド・ブルース",
         "note": "R&B隆盛の起点"
-      },
-      {
-        "label": "UNIVAC I",
-        "startYear": 1950,
-        "genre": [
-          "HAR"
-        ],
-        "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/UNIVAC_I",
-        "note": "商用電子計算機の先駆",
-        "deleted": true
       }
     ],
     "1951": [
@@ -255,18 +201,6 @@
       }
     ],
     "1952": [
-      {
-        "label": "NME",
-        "startYear": 1952,
-        "endYear": 2018,
-        "genre": [
-          "MAG"
-        ],
-        "imp": 3,
-        "url": "https://ja.wikipedia.org/wiki/NME",
-        "note": "英国音楽誌",
-        "deleted": true
-      },
       {
         "label": "鉄腕アトム",
         "startYear": 1952,
@@ -544,33 +478,11 @@
         "note": "巨大ロボ表現の源流"
       },
       {
-        "label": "エルヴィス・プレスリー",
-        "startYear": 1956,
-        "genre": [
-          "MUS"
-        ],
-        "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/エルヴィス・プレスリー",
-        "note": "ロックの王の登場",
-        "deleted": true
-      },
-      {
         "label": "国産初コンピュータ",
         "genre": [
           "HAR"
         ],
         "imp": 5
-      },
-      {
-        "label": "ゴジラ",
-        "startYear": 1956,
-        "genre": [
-          "MOV"
-        ],
-        "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/ゴジラ_(1954年の映画)",
-        "note": "怪獣映画の出発点",
-        "deleted": true
       },
       {
         "label": "七人の侍",
@@ -581,18 +493,6 @@
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/七人の侍",
         "note": "群像アクションの原点"
-      },
-      {
-        "label": "りぼん",
-        "startYear": 1956,
-        "endYear": "ongoing",
-        "genre": [
-          "MAG"
-        ],
-        "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/りぼん",
-        "note": "少女漫画の定番誌",
-        "deleted": true
       },
       {
         "label": "十二人の怒れる男",
@@ -613,17 +513,6 @@
       }
     ],
     "1957": [
-      {
-        "label": "十二人の怒れる男",
-        "startYear": 1957,
-        "genre": [
-          "MOV"
-        ],
-        "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/十二人の怒れる男_(1957年の映画)",
-        "note": "密室劇の緊張感",
-        "deleted": true
-      },
       {
         "label": "Fortran",
         "startYear": 1957,
@@ -1659,26 +1548,6 @@
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/60ミニッツ",
         "note": "調査報道の金字塔"
-      },
-      {
-        "label": "��d�点��",
-        "genre": [
-          "BOO"
-        ],
-        "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/��d�点��",
-        "note": "DNA�����̓����L",
-        "deleted": true
-      },
-      {
-        "label": "�R���s���[�^�v���O���~���O�̌|�p",
-        "genre": [
-          "BOO"
-        ],
-        "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/�R���s���[�^�v���O���~���O�̌|�p",
-        "note": "�A���S���Y��������",
-        "deleted": true
       }
     ],
     "1969": [
@@ -2276,16 +2145,6 @@
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/ポラロイド・SX-70",
         "note": "“その場で写真”文化を象徴"
-      },
-      {
-        "label": "�����̌��E",
-        "genre": [
-          "BOO"
-        ],
-        "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/�����̌��E",
-        "note": "�n�������̌��E���x��",
-        "deleted": true
       }
     ],
     "1973": [
@@ -2642,26 +2501,6 @@
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/パネルクイズ_アタック25",
         "note": "長寿視聴者参加クイズ"
-      },
-      {
-        "label": "�č��̒a��",
-        "genre": [
-          "BOO"
-        ],
-        "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/�č��̒a��",
-        "note": "�K�����̗͂��j����",
-        "deleted": true
-      },
-      {
-        "label": "�l���̐_�b",
-        "genre": [
-          "BOO"
-        ],
-        "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/�l���̐_�b",
-        "note": "��K�͊J���̐^��",
-        "deleted": true
       }
     ],
     "1976": [
@@ -4363,16 +4202,6 @@
         "imp": 3,
         "url": "https://ja.wikipedia.org/wiki/オールナイトフジ",
         "note": "深夜番組×女子大生ブーム"
-      },
-      {
-        "label": "�z���̋�����",
-        "genre": [
-          "BOO"
-        ],
-        "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/�z���̋�����",
-        "note": "�������Ƃ̋N���_",
-        "deleted": true
       }
     ],
     "1984": [
@@ -4900,16 +4729,6 @@
         "imp": 3,
         "url": "https://ja.wikipedia.org/wiki/風俗営業等の規制及び業務の適正化等に関する法律",
         "note": "性風俗関連営業の枠組みを規定"
-      },
-      {
-        "label": "�v�Z�@�v���O�����̍\\���Ɖ���",
-        "genre": [
-          "BOO"
-        ],
-        "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/�v�Z�@�v���O�����̍\\���Ɖ���",
-        "note": "�v�Z�Ƃ͉�������������",
-        "deleted": true
       }
     ],
     "1986": [
@@ -8231,16 +8050,6 @@
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/AOL_Instant_Messenger",
         "note": "北米のIM文化を牽引"
-      },
-      {
-        "label": "�e�E�a���ہE�S",
-        "genre": [
-          "BOO"
-        ],
-        "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/�e�E�a���ہE�S",
-        "note": "�l�ގj�̔�r�_�I���",
-        "deleted": true
       }
     ],
     "1998": [
@@ -11395,16 +11204,6 @@
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/LINE",
         "note": "スタンプ文化で国民的メッセンジャー"
-      },
-      {
-        "label": "�T�s�G���X�S�j",
-        "genre": [
-          "BOO"
-        ],
-        "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/�T�s�G���X�S�j",
-        "note": "�l�ގj����Ղ���ʎj",
-        "deleted": true
       }
     ],
     "2012": [
