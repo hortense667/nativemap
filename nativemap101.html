@@ -3502,10 +3502,28 @@
       if(url) item.url=url; 
       if(note) item.note=note;
       
+      const deletedCol = (cols[7]||'').trim().toLowerCase();
+      const isDeleted = deletedCol === 'true';
+
       if(!events[itemYear]) events[itemYear]=[]; 
-      events[itemYear].push(item); 
-      seen.add(key); 
-      addedCount++;
+
+      // 既存の同一キー（開始年・ラベル・ジャンル一致）を検索
+      const sameKey = (it)=>{
+        const gA = Array.isArray(it.genre) ? it.genre.slice().map(g=>String(g).toUpperCase()).sort().join('・') : (it.genre||'');
+        return (it.label||'')===label && gA===genreKey && Number(it.startYear||itemYear)===Number(itemYear);
+      };
+      const arr = events[itemYear];
+      const idx = arr.findIndex(sameKey);
+      if(isDeleted){
+        // (2) deleted=true の場合は該当項目を削除
+        if(idx!==-1){ arr.splice(idx,1); }
+      } else {
+        // (1) 同一キーがあれば上書き、なければ追加
+        if(idx!==-1){ arr[idx] = item; }
+        else { arr.push(item); }
+        seen.add(key);
+        addedCount++;
+      }
     }
     return {addedCount, errors};
   }
