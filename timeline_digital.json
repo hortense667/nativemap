@@ -1,5 +1,17 @@
 {
   "events": {
+    "1946": [
+      {
+        "label": "トランジスタ発明",
+        "startYear": 1946,
+        "genre": [
+          "HIS"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/トランジスタ",
+        "note": "真空管から半導体時代へ大転換"
+      }
+    ],
     "1947": [
       {
         "label": "トランジスタ発明",
