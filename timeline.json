@@ -6761,6 +6761,14 @@
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/Sibelius",
         "note": "作編曲ツールの定番"
+      },
+      {
+        "label": "マーフィーの法則",
+        "startYear": 1993,
+        "genre": [
+          "BOO"
+        ],
+        "note": "私の作った本"
       }
     ],
     "1994": [
