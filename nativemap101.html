@@ -287,7 +287,12 @@
     const prevFocus=document.activeElement; modal.dataset.prevFocusId = prevFocus && prevFocus.id ? prevFocus.id : '';
     modalClose.focus();
   }
-  function closeModal(){ modal.style.display='none'; modal.setAttribute('aria-hidden','true'); const id=modal.dataset.prevFocusId; if(id){ const el=document.getElementById(id); if(el) el.focus(); } }
+  function closeModal(){
+    const id = modal.dataset.prevFocusId;
+    if(id){ const el = document.getElementById(id); if(el) el.focus(); }
+    modal.setAttribute('aria-hidden','true');
+    modal.style.display='none';
+  }
   modalClose.addEventListener('click', closeModal);
   modal.addEventListener('click', (e)=>{ if(e.target===modal) closeModal(); });
   window.addEventListener('keydown', (e)=>{ if(e.key==='Escape' && modal.style.display==='flex') closeModal(); });
