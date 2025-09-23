@@ -3149,11 +3149,29 @@
     }
     
     try {
-      // 1. 現在のデータをクリア
+      // 1. 現在のローカル状態と保存データを完全クリア
       events = {};
-      eraSettings = []; // 時代区分もクリア
-      saveEvents();
+      eraSettings = [];
+      deletionRecords = [];
+      labelBackups = {};
+      editFlags = {};
+      // localStorageから関連キーを削除
+      try {
+        localStorage.removeItem('timelineEventsV2');
+        localStorage.removeItem('timelineEventsV1');
+        localStorage.removeItem('autoSave');
+        localStorage.removeItem('lastEdit');
+        localStorage.removeItem('nativemap_deletions');
+        localStorage.removeItem('nativemap_label_backups');
+        localStorage.removeItem('nativemap_edit_flags');
+        localStorage.removeItem('nativemap_data_freshness');
+      } catch(e) { console.warn('ローカルデータ削除時の警告:', e); }
+      // UIを即座に空状態へ
       renderEvents();
+      if (typeof drawEraBackgrounds === 'function') { drawEraBackgrounds(); }
+      // フィルタは全選択に初期化
+      if (window.selectedGenres) { selectedGenres = new Set(GENRES); }
+      if (typeof updateGenreFilterButtonText === 'function') { updateGenreFilterButtonText(); }
       
       // 2. GitHubから最新データを読み込み（トークンがなくても読み込み）
       let remoteData = null;
