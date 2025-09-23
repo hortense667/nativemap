@@ -1,18 +1,5 @@
 {
   "events": {
-    "1945": [
-      {
-        "label": "ノイマン型アーキテクチャ",
-        "startYear": 1945,
-        "genre": [
-          "HIS",
-          "THE"
-        ],
-        "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/ノイマン型コンピュータ",
-        "note": "格納プログラム方式の基本モデル"
-      }
-    ],
     "1946": [
       {
         "label": "ENIAC",
