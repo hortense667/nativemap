@@ -55,6 +55,28 @@
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/サザエさん",
         "note": "戦後家庭漫画の代表作"
+      },
+      {
+        "label": "終戦",
+        "startYear": 1946,
+        "genre": [
+          "PHE",
+          "UNC"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/%E7%B5%82%E6%88%A6%E3%81%AE%E6%97%A5",
+        "note": "第二次世界大戦が終了、"
+      },
+      {
+        "label": "ビキニ",
+        "startYear": 1946,
+        "genre": [
+          "FAS",
+          "UNC"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/ビキニ",
+        "note": "戦後に登場した新水着"
       }
     ],
     "1947": [
@@ -98,6 +120,16 @@
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/斜陽",
         "note": "没落貴族と女性の自立"
+      },
+      {
+        "label": "ニュー・ルックって何だ？",
+        "startYear": 1947,
+        "genre": [
+          "FAS"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/ニュー・ルック",
+        "note": "戦後女性像を刷新した革新"
       }
     ],
     "1948": [
@@ -131,28 +163,6 @@
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/一九八四年_(小説)",
         "note": "全体主義を告発する寓話"
-      }
-    ],
-    "1949": [
-      {
-        "label": "1984年 (小説)",
-        "startYear": 1949,
-        "genre": [
-          "NOV"
-        ],
-        "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/一九八四年_(小説)",
-        "note": "全体主義を告発する寓話"
-      },
-      {
-        "label": "羅生門",
-        "startYear": 1949,
-        "genre": [
-          "MOV"
-        ],
-        "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/羅生門_(映画)",
-        "note": "黒澤明世界的評価確立"
       }
     ],
     "1950": [
