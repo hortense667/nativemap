@@ -1698,12 +1698,21 @@
       const changedLabel = originalLabel !== label;
       const changedGenre = originalGenreKey !== genreKey;
       
-      // 開始年・ラベル・ジャンルのいずれかが変更された場合は、元データをdeleted=trueとして残し、新規レコードを追加
+      // 開始年・ラベル・ジャンルのいずれかが変更された場合は、元データを物理削除し、新規レコードを追加
       if (originalStartYear !== newStartYear || changedLabel || changedGenre) {
         // 旧項目を削除記録に追加して物理削除
         addDeletionRecord(year, currentItem);
-        events[year].splice(index, 1);
-        if (events[year].length === 0) delete events[year];
+        // 指定インデックスの項目を削除
+        if (Array.isArray(events[year])) {
+          events[year].splice(index, 1);
+          // 同一ラベル・ジャンルの残存レコードがあれば全て除去（重複対策）
+          const sameMatcher = (it) => {
+            const gA = Array.isArray(it.genre) ? it.genre.slice().sort().join('・') : (it.genre || '');
+            return (it.label||'') === originalLabel && gA === originalGenreKey;
+          };
+          events[year] = events[year].filter(it => !sameMatcher(it));
+          if (events[year].length === 0) delete events[year];
+        }
         console.log('識別子変更に伴い旧項目を物理削除:', { year, index, originalLabel, originalGenreKey, originalStartYear });
 
         // 新しい年に項目を追加
