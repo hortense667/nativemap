@@ -1,6 +1,18 @@
 {
   "events": {
-    "1945": [],
+    "1945": [
+      {
+        "label": "終戦",
+        "startYear": 1945,
+        "genre": [
+          "PHE",
+          "UNC"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/%E7%B5%82%E6%88%A6%E3%81%AE%E6%97%A5",
+        "note": "第二次世界大戦が終了、"
+      }
+    ],
     "1946": [
       {
         "label": "ENIAC",
@@ -33,17 +45,6 @@
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/サザエさん",
         "note": "戦後家庭漫画の代表作"
-      },
-      {
-        "label": "終戦",
-        "startYear": 1946,
-        "genre": [
-          "PHE",
-          "UNC"
-        ],
-        "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/%E7%B5%82%E6%88%A6%E3%81%AE%E6%97%A5",
-        "note": "第二次世界大戦が終了、"
       },
       {
         "label": "ビキニ",
@@ -811,6 +812,16 @@
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/連続テレビ小説",
         "note": "通称“朝ドラ”。NHKの国民的連続ドラマ枠"
+      },
+      {
+        "label": "マーフィーの法則",
+        "startYear": 1993,
+        "genre": [
+          "BOO"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/%E3%83%9E%E3%83%BC%E3%83%95%E3%82%A3%E3%83%BC%E3%81%AE%E6%B3%95%E5%89%87",
+        "note": "失敗する可能性のあるものは失敗する。"
       }
     ],
     "1962": [
