@@ -192,16 +192,6 @@
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/パーセプトロン",
         "note": "初期の機械学習モデルの代表"
-      },
-      {
-        "label": "MUSASINO-1",
-        "startYear": 1957,
-        "genre": [
-          "HAR-PC"
-        ],
-        "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/MUSASINO-1",
-        "note": "NTT前身・電通研の初期パラメトロン計算機"
       }
     ],
     "1958": [
