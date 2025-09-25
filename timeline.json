@@ -406,16 +406,6 @@
     ],
     "1956": [
       {
-        "label": "遠藤諭",
-        "startYear": 1956,
-        "genre": [
-          "UNC"
-        ],
-        "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/%E9%81%A0%E8%97%A4%E8%AB%AD",
-        "note": "このシステムの開発者"
-      },
-      {
         "label": "ケリーバッグ",
         "startYear": 1956,
         "genre": [
@@ -1327,6 +1317,16 @@
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/天才バカボン",
         "note": "不条理ギャグの祖"
+      },
+      {
+        "label": "リボンの騎士",
+        "startYear": 1967,
+        "endYear": 1968,
+        "genre": [
+          "ANI"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/%E3%83%AA%E3%83%9C%E3%83%B3%E3%81%AE%E9%A8%8E%E5%A3%AB"
       }
     ],
     "1968": [
@@ -3359,6 +3359,16 @@
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/ゲーム%26ウオッチ",
         "note": "携帯ゲーム文化の原点"
+      },
+      {
+        "label": "ミレニアム世代",
+        "startYear": 1980,
+        "endYear": 1995,
+        "genre": [
+          "UNC"
+        ],
+        "url": "https://ja.wikipedia.org/wiki/Y%E4%B8%96%E4%BB%A3",
+        "note": "https://www.shanon.co.jp/blog/entry/generation_z/#Z%E4%B8%96%E4%BB%A3%E3%81%A8%E4%B8%80%E7%B7%92%E3%81%AB%E8%A6%9A%E3%81%88%E3%81%9F%E3%81%84X%E4%B8%96%E4%BB%A3%E3%80%81Y%E4%B8%96%E4%BB%A3%E3%80%81%CE%B1%E4%B8%96%E4%BB%A3%E3%81%A8%E3%81%AF%EF%BC%9F"
       }
     ],
     "1981": [
@@ -3890,6 +3900,16 @@
     ],
     "1983": [
       {
+        "label": "ファミリーコンピュータ",
+        "startYear": 1983,
+        "genre": [
+          "HAR"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/%E3%83%95%E3%82%A1%E3%83%9F%E3%83%AA%E3%83%BC%E3%82%B3%E3%83%B3%E3%83%94%E3%83%A5%E3%83%BC%E3%82%BF",
+        "note": "家庭用ゲーム革命"
+      },
+      {
         "label": "スウォッチ",
         "startYear": 1983,
         "genre": [
@@ -3918,16 +3938,6 @@
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/想像の共同体",
         "note": "国民国家の起源論"
-      },
-      {
-        "label": "ファミリーコンピュータ",
-        "startYear": 1983,
-        "genre": [
-          "HAR"
-        ],
-        "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/%E3%83%95%E3%82%A1%E3%83%9F%E3%83%AA%E3%83%BC%E3%82%B3%E3%83%B3%E3%83%94%E3%83%A5%E3%83%BC%E3%82%BF",
-        "note": "家庭用ゲーム革命"
       },
       {
         "label": "ゼビウス",
@@ -7129,6 +7139,14 @@
         "note": "都市直下型の被害"
       },
       {
+        "label": "PHS",
+        "genre": [
+          "HAR"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/PHS"
+      },
+      {
         "label": "地下鉄サリン事件",
         "startYear": 1995,
         "genre": [
@@ -7238,14 +7256,6 @@
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/%E4%BC%8A%E9%9B%86%E9%99%A2%E5%85%89_%E6%B7%B1%E5%A4%9C%E3%81%AE%E9%A6%AC%E9%B9%BF%E5%8A%9B",
         "note": "TBSラジオの長寿深夜番組。"
-      },
-      {
-        "label": "PHS",
-        "genre": [
-          "HAR"
-        ],
-        "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/PHS"
       },
       {
         "label": "E3",
@@ -8018,6 +8028,15 @@
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/AOL_Instant_Messenger",
         "note": "北米のIM文化を牽引"
+      },
+      {
+        "label": "Z世代",
+        "startYear": 1997,
+        "endYear": 2012,
+        "genre": [
+          "UNC"
+        ],
+        "url": "https://ja.wikipedia.org/wiki/Z%E4%B8%96%E4%BB%A3"
       }
     ],
     "1998": [
@@ -12609,7 +12628,7 @@
       "color": "#4169E1",
       "opacity": "0.3",
       "enabled": true,
-      "fillEnabled": false
+      "fillEnabled": true
     },
     {
       "name": "テレビ・マンガ・週刊誌の時代",
