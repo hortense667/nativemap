@@ -213,17 +213,6 @@
         "note": "高級言語実用化で科学計算を加速"
       },
       {
-        "label": "FORTRAN",
-        "startYear": 1954,
-        "genre": [
-          "POL",
-          "SOF-DEV"
-        ],
-        "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/Fortran",
-        "note": "高級言語実用化で科学計算を加速"
-      },
-      {
         "label": "SAGE（半自動防空管制）",
         "startYear": 1954,
         "genre": [
@@ -383,16 +372,6 @@
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/集積回路",
         "note": "半導体集積化で高性能化へ"
-      },
-      {
-        "label": "LISP言語。",
-        "startYear": 1958,
-        "genre": [
-          "SOF-DEV"
-        ],
-        "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/Lisp",
-        "note": "AI研究を支えた関数型言語"
       },
       {
         "label": "Tennis for Two",
