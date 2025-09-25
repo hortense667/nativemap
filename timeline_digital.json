@@ -37,6 +37,30 @@
         "note": "真空管から半導体時代へ大転換"
       }
     ],
+    "1948": [
+      {
+        "label": "マンチェスター・ベイビー（SSEM）",
+        "startYear": 1948,
+        "genre": [
+          "HAR-PC"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/マンチェスター・ベイビー",
+        "note": "世界初の格納プログラム動作を実演しRAM型計算の道筋を示した"
+      }
+    ],
+    "1949": [
+      {
+        "label": "EDSAC",
+        "startYear": 1949,
+        "genre": [
+          "HAR-PC"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/EDSAC",
+        "note": "実用研究計算を即戦力化した内蔵プログラム機。サブルーチン庫普及の礎"
+      }
+    ],
     "1950": [
       {
         "label": "アシモフ『われはロボット』",
@@ -59,6 +83,36 @@
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/UNIVAC_I",
         "note": "商用汎用コンピュータの嚆矢"
+      },
+      {
+        "label": "IASマシン",
+        "startYear": 1951,
+        "genre": [
+          "HAR-PC"
+        ],
+        "imp": 5,
+        "url": "https://en.wikipedia.org/wiki/IAS_machine",
+        "note": "ノイマン型の参照実装。MANIACやIBM系等へ設計思想が波及"
+      },
+      {
+        "label": "Whirlwind I",
+        "startYear": 1951,
+        "genre": [
+          "HAR-PC"
+        ],
+        "imp": 5,
+        "url": "https://en.wikipedia.org/wiki/Whirlwind_I",
+        "note": "リアルタイム計算とコアメモリ実用化を主導。制御/監視系の原点に"
+      },
+      {
+        "label": "Ferranti Mark 1",
+        "startYear": 1951,
+        "genre": [
+          "HAR-PC"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/Ferranti_Mark_1",
+        "note": "世界初の商用汎用機。入出力や高級言語実験のプラットフォーム"
       }
     ],
     "1952": [
@@ -127,6 +181,16 @@
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/Fortran",
         "note": "高級言語実用化で科学計算を加速"
+      },
+      {
+        "label": "SAGE（半自動防空管制）",
+        "startYear": 1954,
+        "genre": [
+          "HAR-PC"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/SAGE",
+        "note": "巨大分散計算＋ライトペン端末で“対話×ネットワーク”を実運用"
       }
     ],
     "1956": [
@@ -214,6 +278,16 @@
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/GM-NAA_I/O",
         "note": "初期バッチ処理OS。カード投入を自動化し複数作業の連続実行を可能に"
+      },
+      {
+        "label": "FUJIC",
+        "startYear": 1956,
+        "genre": [
+          "HAR-PC"
+        ],
+        "imp": 5,
+        "url": "https://en.wikipedia.org/wiki/FUJIC",
+        "note": "日本初の電子式デジタル計算機・1956完成"
       }
     ],
     "1957": [
@@ -398,6 +472,16 @@
         "imp": 4,
         "url": "https://en.wikipedia.org/wiki/Atlas_supervisor",
         "note": "仮想記憶を実装した草分け。メモリ拡張と多重プログラミングを可能に"
+      },
+      {
+        "label": "LINC",
+        "startYear": 1962,
+        "genre": [
+          "HAR-PC"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/LINC",
+        "note": "研究室内で個人運用可能な“小型計算機”。計測/実験の即時処理を実現"
       }
     ],
     "1963": [
@@ -441,6 +525,26 @@
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/ASR-33",
         "note": "ASCII/紙テープでマイコンの入出力標準に。"
+      },
+      {
+        "label": "TX-2",
+        "startYear": 1963,
+        "genre": [
+          "HAR-PC"
+        ],
+        "imp": 4,
+        "url": "https://en.wikipedia.org/wiki/TX-2",
+        "note": "大規模対話型実験機。Sketchpadの母艦として対話グラフィクスを実証"
+      },
+      {
+        "label": "Sketchpad（アイヴァン・サザランド）",
+        "startYear": 1963,
+        "genre": [
+          "SOF-DEV"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/スケッチパッド",
+        "note": "拘束/階層/直接操作の祖。CADとGUIの中核概念を提示"
       }
     ],
     "1964": [
@@ -619,6 +723,17 @@
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/TOPS-10",
         "note": "PDP-10用時分割OS。巨大タイムシェア施設を支え対話・開発文化を拡大"
+      },
+      {
+        "label": "Shakey the Robot",
+        "startYear": 1966,
+        "endYear": 1972,
+        "genre": [
+          "ROB"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/シェーキー",
+        "note": "知覚/計画/移動を統合した初期自律ロボ。AI×ロボの研究枠組を確立"
       }
     ],
     "1968": [
@@ -684,6 +799,48 @@
         "imp": 4,
         "url": "https://museum.ipsj.or.jp/en/computer/main/0016.html",
         "note": "IC全面採用/2CPU構成でオンライン強化"
+      },
+      {
+        "label": "“母なる全てのデモ”（NLS）",
+        "startYear": 1968,
+        "genre": [
+          "SOF-DEV"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/オング計画",
+        "note": "マウス/ウィンドウ/ハイパテ/共同編集を統合デモしHCIを決定づけた"
+      },
+      {
+        "label": "“ダモクレスの剣”（初期HMD）",
+        "startYear": 1968,
+        "genre": [
+          "HAR-PER"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/ヘッドマウントディスプレイ",
+        "note": "世界初のHMD試作。追従描画/視点合成のVR基本要素を提示"
+      },
+      {
+        "label": "PLATO（教育用ネットワーク）",
+        "startYear": 1968,
+        "endYear": "ongoing",
+        "genre": [
+          "WEB-SVC",
+          "SOF-DEV"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/PLATO_(教育用コンピュータシステム)",
+        "note": "掲示板/チャット/アイコン等“ソーシャル＋学習”の原型を多数実装"
+      },
+      {
+        "label": "Apollo Guidance Computer（AGC）",
+        "startYear": 1968,
+        "genre": [
+          "HAR-PC"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/アポロ誘導コンピュータ",
+        "note": "優先割込み/再入実行のRTOS設計で船外活動等の実時間制御を可能に"
       }
     ],
     "1969": [
@@ -747,6 +904,26 @@
         "imp": 4,
         "url": "https://museum.ipsj.or.jp/en/heritage/hitac10.html",
         "note": "国産初のミニコン。16ビットで産業制御普及。"
+      },
+      {
+        "label": "Data General Nova（GUI/研究道具の母艦）",
+        "startYear": 1969,
+        "genre": [
+          "HAR-PC"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/データゼネラルNova",
+        "note": "安価なミニコンが研究所の対話端末/グラフィクス装置を支えた"
+      },
+      {
+        "label": "ARPANET IMP（BBN）",
+        "startYear": 1969,
+        "genre": [
+          "HAR-PER"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/ARPANET",
+        "note": "専用端末/中継機を含む網設計がのちのネット端末像と分散GUI実験を後押し"
       }
     ],
     "1970": [
@@ -811,6 +988,16 @@
         "imp": 3,
         "url": "https://ja.wikipedia.org/wiki/RT-11",
         "note": "PDP-11用リアルタイムOS。装置制御や実験制御を小規模で安価に"
+      },
+      {
+        "label": "PDP-11（研究・制御の本流）",
+        "startYear": 1970,
+        "genre": [
+          "HAR-PC"
+        ],
+        "imp": 5,
+        "url": "https://en.wikipedia.org/wiki/PDP-11",
+        "note": "周辺機器/RT-11等とともに計測制御/対話処理の“現場OS/機”を形成"
       }
     ],
     "1971": [
@@ -947,6 +1134,26 @@
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/ウエストワールド",
         "note": "自律ロボの反乱とテーマパーク自動化"
+      },
+      {
+        "label": "Xerox Alto",
+        "startYear": 1973,
+        "genre": [
+          "HAR-PC"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/Xerox_Alto",
+        "note": "ビットマップGUI/マウス/イーサ/レーザ印刷を統合し現代デスクトップ像を確立"
+      },
+      {
+        "label": "WABOT-1",
+        "startYear": 1973,
+        "genre": [
+          "ROB"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/WABOT-1",
+        "note": "人型ロボの最初期。視覚/触覚/会話を備え“人との相互作用”を実証"
       }
     ],
     "1974": [
@@ -1524,6 +1731,16 @@
         "imp": 3,
         "url": "https://ja.wikipedia.org/wiki/FM-8",
         "note": "デュアルCPU構成で当時先進の表示系を実現。"
+      },
+      {
+        "label": "Xerox Star 8010",
+        "startYear": 1981,
+        "genre": [
+          "HAR-PC"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/Xerox_Star",
+        "note": "デスクトップメタファ/アイコン/ネットワーク文書管理を商用OS/機で具現"
       }
     ],
     "1982": [
@@ -1922,6 +2139,16 @@
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/TRS-80_Model_100",
         "note": "京セラ設計の名機。モバイル原稿執筆を定着。"
+      },
+      {
+        "label": "Apple Lisa（参考）",
+        "startYear": 1983,
+        "genre": [
+          "HAR-PC"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/Lisa_(コンピュータ)",
+        "note": "先進GUIを量産投入しWIMPモデルを現実の業務へ橋渡し（重複注意）"
       }
     ],
     "1984": [
@@ -2252,6 +2479,16 @@
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/T1100",
         "note": "“IBM互換ノート”の祖。折り畳み形状を定着。"
+      },
+      {
+        "label": "VPL DataGlove",
+        "startYear": 1985,
+        "genre": [
+          "HAR-PER"
+        ],
+        "imp": 4,
+        "url": "https://en.wikipedia.org/wiki/DataGlove",
+        "note": "手指トラッキング入力を商品化しVRの“身体性インタフェース”を定着"
       }
     ],
     "1986": [
@@ -2821,6 +3058,16 @@
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/%E3%82%B6%E3%82%A6%E3%83%AB%E3%82%B9",
         "note": "ザウルス前史の手書きPDA。高価も後のPI-3000へ道筋 ※年は便宜"
+      },
+      {
+        "label": "Virtuality 1000CS",
+        "startYear": 1991,
+        "genre": [
+          "HAR-PER"
+        ],
+        "imp": 3,
+        "url": "https://en.wikipedia.org/wiki/Virtuality_(gaming)",
+        "note": "アーケード向けHMD/操縦でVR大衆化を試み、体験設計を刷新"
       }
     ],
     "1992": [
@@ -2884,6 +3131,16 @@
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/Windows_NT",
         "note": "ハイブリッドカーネルとユーザ/カーネル分離で堅牢化。企業の標準基盤に"
+      },
+      {
+        "label": "CAVE（多面投影VR）",
+        "startYear": 1992,
+        "genre": [
+          "HAR-PER"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/CAVE_(仮想現実)",
+        "note": "没入型VRを研究・設計可視化の標準機材へ。複数人共有も可能に"
       }
     ],
     "1993": [
@@ -3180,6 +3437,16 @@
         "imp": 3,
         "url": "https://ja.wikipedia.org/wiki/BeOS",
         "note": "マルチスレッド/メディア志向で低レイテンシ。のちHaikuに継承"
+      },
+      {
+        "label": "バーチャルボーイ",
+        "startYear": 1995,
+        "genre": [
+          "HAR-PER"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/バーチャルボーイ",
+        "note": "立体視の家庭投入でVRの課題（疲労/視差）を可視化"
       }
     ],
     "1996": [
@@ -3822,6 +4089,16 @@
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/J-SH04",
         "note": "携帯＋カメラを大衆化。写真共有という新しいコミュニケーション"
+      },
+      {
+        "label": "ASIMO",
+        "startYear": 2000,
+        "genre": [
+          "ROB"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/ASIMO",
+        "note": "安定した二足歩行と自律動作でサービスロボの社会的認知を拡大"
       }
     ],
     "2001": [
@@ -4179,6 +4456,16 @@
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/一方向量子計算",
         "note": "測定駆動の計算モデルを確立"
+      },
+      {
+        "label": "BigDog",
+        "startYear": 2005,
+        "genre": [
+          "ROB"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/ビッグドッグ",
+        "note": "油圧四脚で不整地を自律踏破。屋外ロボ移動体の新しい基準を確立"
       }
     ],
     "2006": [
@@ -4603,6 +4890,16 @@
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/Her/世界でひとつの彼女",
         "note": "対話AIと関係性の未来像を主題化"
+      },
+      {
+        "label": "Oculus Rift DK1",
+        "startYear": 2013,
+        "genre": [
+          "HAR-PER"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/Oculus_Rift",
+        "note": "低遅延/高追従のHMDでVR復興。開発者エコシステムを形成"
       }
     ],
     "2014": [
