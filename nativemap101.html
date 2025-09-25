@@ -840,8 +840,8 @@
       // URLパラメータが指定されている場合は表示
       if (urlParams.owner || urlParams.repo || urlParams.filePath) {
         const parts = [];
-#        if (urlParams.owner) parts.push(`所有者: ${urlParams.owner}`);
-#        if (urlParams.repo) parts.push(`リポジトリ: ${urlParams.repo}`);
+        if (urlParams.owner) parts.push(`所有者: ${urlParams.owner}`);
+        if (urlParams.repo) parts.push(`リポジトリ: ${urlParams.repo}`);
         if (urlParams.filePath) parts.push(`ファイル: ${urlParams.filePath}`);
         
         repoInfoText.textContent = `[${parts.join(', ')}]`;
