@@ -206,16 +206,6 @@
         "note": "世界初の商用HDD搭載機"
       },
       {
-        "label": "FUJIC",
-        "startYear": 1956,
-        "genre": [
-          "HAR-PC"
-        ],
-        "imp": 5,
-        "url": "https://en.wikipedia.org/wiki/FUJIC",
-        "note": "日本初の電子式デジタル計算機・1956完成"
-      },
-      {
         "label": "GM-NAA I/O",
         "startYear": 1956,
         "genre": [
@@ -290,6 +280,18 @@
         "note": "AI研究を支えた関数型言語"
       }
     ],
+    "1959": [
+      {
+        "label": "Heathkit EC-1（教育用アナログ計算機）",
+        "startYear": 1959,
+        "genre": [
+          "HAR-PC"
+        ],
+        "imp": 4,
+        "url": "https://www.ccapitalia.net/descarga/docs/1959-ec-1-heathkit.pdf",
+        "note": "小型アナログ計算機で制御理論を実習。"
+      }
+    ],
     "1960": [
       {
         "label": "PDP-1",
@@ -353,6 +355,16 @@
         "imp": 4,
         "url": "https://en.wikipedia.org/wiki/Burroughs_MCP",
         "note": "高級言語で書かれた先駆OS。仮想メモリやファイル保護を実装し事務計算を信頼化"
+      },
+      {
+        "label": "MINIVAC 6010",
+        "startYear": 1961,
+        "genre": [
+          "HAR-PC"
+        ],
+        "imp": 4,
+        "url": "https://www.instructables.com/Minivac-601-Replica-Version-09/",
+        "note": "シャノン考案の教育用“論理計算機”概念を体感。"
       }
     ],
     "1962": [
@@ -409,6 +421,26 @@
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/鉄腕アトム_(アニメ)",
         "note": "国産TVアニメの嚆矢、技術観を子どもに浸透"
+      },
+      {
+        "label": "DIGI-COMP 1",
+        "startYear": 1963,
+        "genre": [
+          "HAR-PC"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/Digi-Comp_I",
+        "note": "機械式の“動く”計算機でフリップフロップ学習。"
+      },
+      {
+        "label": "Teletype ASR-33（端末）",
+        "startYear": 1963,
+        "genre": [
+          "HAR-PC"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/ASR-33",
+        "note": "ASCII/紙テープでマイコンの入出力標準に。"
       }
     ],
     "1964": [
@@ -705,6 +737,16 @@
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/JIS_X_0201",
         "note": "日本語情報交換の基礎規格（1969制定） :contentReference[oaicite:10]{index=10}"
+      },
+      {
+        "label": "HITAC-10（日立ミニコン）",
+        "startYear": 1969,
+        "genre": [
+          "HAR-PC"
+        ],
+        "imp": 4,
+        "url": "https://museum.ipsj.or.jp/en/heritage/hitac10.html",
+        "note": "国産初のミニコン。16ビットで産業制御普及。"
       }
     ],
     "1970": [
@@ -823,6 +865,16 @@
         "imp": 3,
         "url": "https://ja.wikipedia.org/wiki/RSTS/E",
         "note": "PDP-11の教育・事務向け時分割。多数ユーザーのBASIC利用を普及"
+      },
+      {
+        "label": "SEIKO S-500（i8008搭載デスクトップ計算機）",
+        "startYear": 1972,
+        "genre": [
+          "HAR-PC"
+        ],
+        "imp": 4,
+        "url": "https://www2u.biglobe.ne.jp/~n-fuji/seiko.pdf",
+        "note": "世界初期の8008搭載。周辺接続で小型計算機化。"
       }
     ],
     "1973": [
@@ -930,6 +982,16 @@
         "imp": 3,
         "url": "https://ja.wikipedia.org/wiki/Incompatible_Timesharing_System",
         "note": "MIT AI Lab文化の象徴。自由な開発・ハッキングを促進"
+      },
+      {
+        "label": "SORD SMP80/X",
+        "startYear": 1974,
+        "genre": [
+          "HAR-PC"
+        ],
+        "imp": 3,
+        "url": "https://museum.ipsj.or.jp/computer/personal/0086.html",
+        "note": "8080採用の国産マイクロ計算機システム。"
       }
     ],
     "1975": [
@@ -987,6 +1049,26 @@
         "imp": 3,
         "url": "https://jpn.nec.com/soft/acos4/history/index.html",
         "note": "75年誕生のOS系譜・国産メインフレーム支柱"
+      },
+      {
+        "label": "Altair 8800",
+        "startYear": 1975,
+        "genre": [
+          "HAR-PC"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/Altair_8800",
+        "note": "初の商業的成功“キットPC”。PC産業の出発点。"
+      },
+      {
+        "label": "IMSAI 8080",
+        "startYear": 1975,
+        "genre": [
+          "HAR-PC"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/IMSAI_8080",
+        "note": "Altair互換の発展形。S-100とCP/M普及に寄与。"
       }
     ],
     "1976": [
@@ -1030,6 +1112,16 @@
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/Cray-1",
         "note": "ベクトル型の基本構成を確立・76年納入開始 :contentReference[oaicite:20]{index=20}"
+      },
+      {
+        "label": "NEC TK-80",
+        "startYear": 1976,
+        "genre": [
+          "HAR-PC"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/TK-80",
+        "note": "国産伝説の学習用ワンボード。技術者育成に寄与。"
       }
     ],
     "1977": [
@@ -1092,6 +1184,26 @@
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/CP/M",
         "note": "8ビット用汎用OS。アプリ移植と周辺機器互換でマイコン市場を標準化"
+      },
+      {
+        "label": "Commodore PET 2001",
+        "startYear": 1977,
+        "genre": [
+          "HAR-PC"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/PET_2001",
+        "note": "一体型“御三家”の一角。教育とSOHOを牽引。"
+      },
+      {
+        "label": "Tandy TRS-80",
+        "startYear": 1977,
+        "genre": [
+          "HAR-PC"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/TRS-80",
+        "note": "量販網で北米に普及。教育/ホビー層を拡大。"
       }
     ],
     "1978": [
@@ -1155,6 +1267,16 @@
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/OpenVMS",
         "note": "仮想記憶・ACL等の堅牢設計。ミッションクリティカルな業務を長期支援"
+      },
+      {
+        "label": "日立 ベーシックマスターMB-6880",
+        "startYear": 1978,
+        "genre": [
+          "HAR-PC"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/ベーシックマスター",
+        "note": "国産初期8ビットPCの代表。教育と家庭普及。"
       }
     ],
     "1979": [
@@ -1217,6 +1339,26 @@
         "imp": 3,
         "url": "https://ja.wikipedia.org/wiki/ProDOS",
         "note": "Apple IIの大容量・階層FS対応で教育/業務の実用性を改善"
+      },
+      {
+        "label": "ラテカピュータ PC-2001/PC-2000（SHARP）",
+        "startYear": 1979,
+        "genre": [
+          "HAR-PC"
+        ],
+        "imp": 3,
+        "url": "https://design.sharp.co.jp/design_column/1979_pc2000",
+        "note": "ラジカセ＋TV＋PCの合体機。家庭ITの試行。"
+      },
+      {
+        "label": "Televideo端末連携例（ASR-33とPC接続）",
+        "startYear": 1979,
+        "genre": [
+          "HAR-PC"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/ASR-33",
+        "note": "紙テープI/OとBASIC転送でユーザプログラム普及。"
       }
     ],
     "1980": [
@@ -1270,6 +1412,26 @@
         "imp": 3,
         "url": "https://ja.wikipedia.org/wiki/Xenix",
         "note": "MS配布のUNIX系。中小企業にUNIX環境を広げマルチユーザー化を促進"
+      },
+      {
+        "label": "VIC-1001（VIC-20）",
+        "startYear": 1980,
+        "genre": [
+          "HAR-PC"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/VIC-1001",
+        "note": "手頃な価格で家庭普及の突破口に。"
+      },
+      {
+        "label": "Apple III",
+        "startYear": 1980,
+        "genre": [
+          "HAR-PC"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/Apple_III",
+        "note": "企業向け高級機。失敗もビジネス要件を提示。"
       }
     ],
     "1981": [
@@ -1332,6 +1494,36 @@
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/文豪",
         "note": "文豪シリーズ初号機で普及を牽引 :contentReference[oaicite:4]{index=4}"
+      },
+      {
+        "label": "NEC PC-8801",
+        "startYear": 1981,
+        "genre": [
+          "HAR-PC"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/PC-8800シリーズ",
+        "note": "高解像/日本語環境で国産ソフト市場を牽引。"
+      },
+      {
+        "label": "National JR-100",
+        "startYear": 1981,
+        "genre": [
+          "HAR-PC"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/JR_(コンピュータ)",
+        "note": "学校/入門向け国産低価格。BASIC学習普及。"
+      },
+      {
+        "label": "FM-8",
+        "startYear": 1981,
+        "genre": [
+          "HAR-PC"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/FM-8",
+        "note": "デュアルCPU構成で当時先進の表示系を実現。"
       }
     ],
     "1982": [
@@ -1444,6 +1636,66 @@
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/Shift_JIS",
         "note": "JISと互換の実装でPC日本語環境を拡大 :contentReference[oaicite:12]{index=12}"
+      },
+      {
+        "label": "FM-7",
+        "startYear": 1982,
+        "genre": [
+          "HAR-PC"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/FM-7",
+        "note": "6809＋豊富なグラフィックで学習/ゲーム強化。"
+      },
+      {
+        "label": "FM-11",
+        "startYear": 1982,
+        "genre": [
+          "HAR-PC"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/FM-11",
+        "note": "業務向け国産16ビットで中小企業導入を促進。"
+      },
+      {
+        "label": "Sony SMC-777",
+        "startYear": 1982,
+        "genre": [
+          "HAR-PC"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/SMC-777",
+        "note": "独自高解像度と拡張性。DTP/教育利用を後押し。"
+      },
+      {
+        "label": "SEIKO UC-2000（腕時計型コンピュータ）",
+        "startYear": 1982,
+        "genre": [
+          "HAR-PC"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/スマートウォッチ",
+        "note": "ウェアラブルPCの萌芽。携帯計算の未来を示す。"
+      },
+      {
+        "label": "NEC PC-9801",
+        "startYear": 1982,
+        "genre": [
+          "HAR-PC"
+        ],
+        "imp": 5,
+        "url": "https://en.wikipedia.org/wiki/PC-98",
+        "note": "日本の事実上標準。業務/日本語処理を牽引。"
+      },
+      {
+        "label": "Epson HC-20（HX-20）",
+        "startYear": 1982,
+        "genre": [
+          "HAR-PC"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/HC-20",
+        "note": "A4サイズの携帯PC。バッテリ運用とI/F確立。"
       }
     ],
     "1983": [
@@ -1630,6 +1882,46 @@
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/Novell_NetWare",
         "note": "PC LANサーバOS。ファイル/プリント共有を容易化し企業内ネットを普及"
+      },
+      {
+        "label": "Sony HiTBiT HB-01系（MSX系）",
+        "startYear": 1983,
+        "genre": [
+          "HAR-PC"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/HiTBiT",
+        "note": "MSX普及の旗振り役。家庭用統一規格を浸透。"
+      },
+      {
+        "label": "Compaq Portable",
+        "startYear": 1983,
+        "genre": [
+          "HAR-PC"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/Compaq_Portable",
+        "note": "IBM互換“可搬”の成功例。互換機時代を加速。"
+      },
+      {
+        "label": "Apple Lisa",
+        "startYear": 1983,
+        "genre": [
+          "HAR-PC"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/Lisa_(コンピュータ)",
+        "note": "先進GUIを量産投入。WIMP時代の嚆矢。"
+      },
+      {
+        "label": "TRS-80 Model 100",
+        "startYear": 1983,
+        "genre": [
+          "HAR-PC"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/TRS-80_Model_100",
+        "note": "京セラ設計の名機。モバイル原稿執筆を定着。"
       }
     ],
     "1984": [
@@ -1734,6 +2026,57 @@
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/Classic_Mac_OS",
         "note": "GUI・WYSIWYGを大衆化。DTP/クリエイティブの基盤に"
+      },
+      {
+        "label": "Psion Organiser",
+        "startYear": 1984,
+        "genre": [
+          "HAR-MOB"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/Psion_Organiser",
+        "note": "「PDA」原型の一つ。実用的PIMを携帯サイズで実現し後続に影響"
+      },
+      {
+        "label": "Motorola DynaTAC 8000X系",
+        "startYear": 1984,
+        "endYear": 1994,
+        "genre": [
+          "HAR-MOB"
+        ],
+        "imp": 5,
+        "url": "https://en.wikipedia.org/wiki/DynaTAC",
+        "note": "世界初の市販携帯。重厚高価でも携帯通話の商用時代を開く"
+      },
+      {
+        "label": "IBM PC/AT（5170）",
+        "startYear": 1984,
+        "genre": [
+          "HAR-PC"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/PC/AT",
+        "note": "AT互換機の基準を確立。PC産業の土台に。"
+      },
+      {
+        "label": "Apple IIc",
+        "startYear": 1984,
+        "genre": [
+          "HAR-PC"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/Apple_IIc",
+        "note": "省スペース化で“据置ポータブル”志向を先取り。"
+      },
+      {
+        "label": "IBM PC Convertible（IBM 5140）",
+        "startYear": 1984,
+        "genre": [
+          "HAR-PC"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/IBM_PC_Convertible",
+        "note": "IBM初のラップトップ。可搬PCの本流入り口に。"
       }
     ],
     "1985": [
@@ -1879,6 +2222,36 @@
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/Windows_1.0",
         "note": "PCでGUI環境を普及。3.0/3.1で実用化しアプリ生態系を拡大"
+      },
+      {
+        "label": "NTT ショルダーホン",
+        "startYear": 1985,
+        "genre": [
+          "HAR-MOB"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/%E8%87%AA%E5%8B%95%E8%BB%8A%E9%9B%BB%E8%A9%B1",
+        "note": "自動車電話の可搬化。携帯電話黎明の社会的象徴"
+      },
+      {
+        "label": "NEC PC-286系",
+        "startYear": 1985,
+        "genre": [
+          "HAR-PC"
+        ],
+        "imp": 3,
+        "url": "https://en.wikipedia.org/wiki/PC-98",
+        "note": "80286化でDOS/V以前の業務処理を加速。"
+      },
+      {
+        "label": "Toshiba T1100",
+        "startYear": 1985,
+        "genre": [
+          "HAR-PC"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/T1100",
+        "note": "“IBM互換ノート”の祖。折り畳み形状を定着。"
       }
     ],
     "1986": [
@@ -2011,6 +2384,26 @@
         "imp": 3,
         "url": "https://ja.wikipedia.org/wiki/ショート・サーキット",
         "note": "軍用ロボの自我獲得を大衆的コメディで"
+      },
+      {
+        "label": "Panasonic FS-A1（MSX2）",
+        "startYear": 1986,
+        "genre": [
+          "HAR-PC"
+        ],
+        "imp": 3,
+        "url": "https://www.msx.org/wiki/Panasonic_FS-A1",
+        "note": "MSX2世代の大衆機。日本語/ゲーム環境を強化。"
+      },
+      {
+        "label": "Toshiba T3100/T3200（T1100系譜）",
+        "startYear": 1986,
+        "genre": [
+          "HAR-PC"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/T3100",
+        "note": "ガスプラズマ等の高性能表示で“移動ワーク”拡張。"
       }
     ],
     "1987": [
@@ -2107,6 +2500,26 @@
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/TRON",
         "note": "組込み向けRTOS仕様。家電・携帯・自動車ECU等の日本発標準"
+      },
+      {
+        "label": "NTT 携帯電話（TZ-802型）",
+        "startYear": 1987,
+        "genre": [
+          "HAR-MOB"
+        ],
+        "imp": 5,
+        "url": "https://history-s.nttdocomo.co.jp/list_mobile.html",
+        "note": "国内初のハンディ携帯。“持って歩く電話”の幕開け"
+      },
+      {
+        "label": "SHARP X68000",
+        "startYear": 1987,
+        "genre": [
+          "HAR-PC"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/X68000",
+        "note": "68k＋高性能描画/音源でクリエイタ層熱中。"
       }
     ],
     "1988": [
@@ -2139,6 +2552,16 @@
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/OS/2",
         "note": "保護モードと安定性。企業クライアントOSの堅牢化を先導"
+      },
+      {
+        "label": "NeXTcube",
+        "startYear": 1988,
+        "genre": [
+          "HAR-PC"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/NeXTcube",
+        "note": "NeXTSTEPでOO/GUI開発を近代化。Web誕生にも影響。"
       }
     ],
     "1989": [
@@ -2226,6 +2649,26 @@
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/NeXTSTEP",
         "note": "Objective-C/Cocoa等。後のmacOS/iOSの技術基盤を形成"
+      },
+      {
+        "label": "Atari Portfolio",
+        "startYear": 1989,
+        "genre": [
+          "HAR-MOB"
+        ],
+        "imp": 4,
+        "url": "https://en.wikipedia.org/wiki/Atari_Portfolio",
+        "note": "初のIBM PC互換パームトップ。DOS互換を掌サイズに凝縮"
+      },
+      {
+        "label": "Poqet PC",
+        "startYear": 1989,
+        "genre": [
+          "HAR-MOB"
+        ],
+        "imp": 4,
+        "url": "https://en.wikipedia.org/wiki/Poqet_PC",
+        "note": "単3電池駆動と瞬時復帰で携帯PCの省電力設計を先導"
       }
     ],
     "1990": [
@@ -2348,6 +2791,36 @@
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/Linux",
         "note": "FLOSSの主力。サーバ/クラウド/スマホの基盤へ拡大し迅速な進化を可能に"
+      },
+      {
+        "label": "HP 95LX",
+        "startYear": 1991,
+        "genre": [
+          "HAR-MOB"
+        ],
+        "imp": 5,
+        "url": "https://en.wikipedia.org/wiki/HP_95LX",
+        "note": "Lotus 1-2-3内蔵のDOSパームトップ。業務PIM＋表計算を常時携行可能に"
+      },
+      {
+        "label": "Psion Series 3",
+        "startYear": 1991,
+        "genre": [
+          "HAR-MOB"
+        ],
+        "imp": 5,
+        "url": "https://en.wikipedia.org/wiki/Psion_Series_3",
+        "note": "EPOC16と長電池寿命、堅牢UIで欧州PDA文化を確立"
+      },
+      {
+        "label": "Sharp PV-F1（液晶ペンコム試作系）",
+        "startYear": 1991,
+        "genre": [
+          "HAR-MOB"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/%E3%82%B6%E3%82%A6%E3%83%AB%E3%82%B9",
+        "note": "ザウルス前史の手書きPDA。高価も後のPI-3000へ道筋 ※年は便宜"
       }
     ],
     "1992": [
@@ -2507,6 +2980,36 @@
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/Microsoft_Windows_3.x",
         "note": "日本語環境標準化。PCの日本語事務利用を本格化"
+      },
+      {
+        "label": "HP 100LX/200LX",
+        "startYear": 1993,
+        "genre": [
+          "HAR-MOB"
+        ],
+        "imp": 4,
+        "url": "https://en.wikipedia.org/wiki/HP_200LX",
+        "note": "DOS互換の完成度を高めPIM＋通信で“ポケットPC”を定着"
+      },
+      {
+        "label": "Sharp Zaurus PI-3000",
+        "startYear": 1993,
+        "genre": [
+          "HAR-MOB"
+        ],
+        "imp": 5,
+        "url": "https://en.wikipedia.org/wiki/Sharp_Zaurus",
+        "note": "手書き入力と赤外線通信で日本のPDA市場を牽引"
+      },
+      {
+        "label": "Apple Newton MessagePad",
+        "startYear": 1993,
+        "genre": [
+          "HAR-MOB"
+        ],
+        "imp": 5,
+        "url": "https://en.wikipedia.org/wiki/MessagePad",
+        "note": "ARM採用と手書き認識で“PDA”概念を世界に定着"
       }
     ],
     "1994": [
@@ -2552,6 +3055,36 @@
         "imp": 3,
         "url": "https://waseda.repo.nii.ac.jp/record/20391/files/Honbun-4867.pdf",
         "note": "89年合意違反を米政権が認定し再交渉に。 :contentReference[oaicite:6]{index=6}"
+      },
+      {
+        "label": "Sony Magic Link（Magic Cap）",
+        "startYear": 1994,
+        "genre": [
+          "HAR-MOB"
+        ],
+        "imp": 4,
+        "url": "https://en.wikipedia.org/wiki/Magic_Link",
+        "note": "General MagicのMagic Cap搭載。通信主体のPICを志向"
+      },
+      {
+        "label": "Motorola Envoy（Magic Cap）",
+        "startYear": 1994,
+        "genre": [
+          "HAR-MOB"
+        ],
+        "imp": 3,
+        "url": "https://en.wikipedia.org/wiki/General_Magic",
+        "note": "エージェント/テレスクリプト思想を端末で実証"
+      },
+      {
+        "label": "IBM Simon",
+        "startYear": 1994,
+        "genre": [
+          "HAR-MOB"
+        ],
+        "imp": 5,
+        "url": "https://en.wikipedia.org/wiki/IBM_Simon",
+        "note": "携帯電話＋PDAを統合した“最初期のスマートフォン”を実用化"
       }
     ],
     "1995": [
@@ -2774,6 +3307,76 @@
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/QNX",
         "note": "マイクロカーネルRTOS。産業・車載の高信頼分散制御を実現"
+      },
+      {
+        "label": "PalmPilot 1000/5000",
+        "startYear": 1996,
+        "genre": [
+          "HAR-MOB"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/PalmPilot",
+        "note": "軽快UIとHotSyncでPDA大衆化。サードパーティ“アプリ文化”勃興"
+      },
+      {
+        "label": "Nokia 9000 Communicator",
+        "startYear": 1996,
+        "genre": [
+          "HAR-MOB"
+        ],
+        "imp": 5,
+        "url": "https://en.wikipedia.org/wiki/Nokia_9000_Communicator",
+        "note": "折り畳みQWERTY＋GEOSで“スマホ的”業務端末を先導"
+      },
+      {
+        "label": "Motorola StarTAC",
+        "startYear": 1996,
+        "genre": [
+          "HAR-MOB"
+        ],
+        "imp": 5,
+        "url": "https://en.wikipedia.org/wiki/StarTAC",
+        "note": "本格折りたたみの金字塔。小型軽量化と“ウェアラブル”志向を普及"
+      },
+      {
+        "label": "Nokia 8110/Communicator系の流れ（要約）",
+        "startYear": 1996,
+        "genre": [
+          "HAR-MOB"
+        ],
+        "imp": 2,
+        "url": "https://en.wikipedia.org/wiki/Nokia",
+        "note": "音声端末から“通信端末”へ機能統合が進む潮流を形成"
+      },
+      {
+        "label": "Nokia 9000系⇢E61等QWERTY機",
+        "startYear": 1996,
+        "genre": [
+          "HAR-MOB"
+        ],
+        "imp": 3,
+        "url": "https://en.wikipedia.org/wiki/Nokia_9000_Communicator",
+        "note": "ビジネス向けメール/ブラウズ端末の系譜を確立"
+      },
+      {
+        "label": "IBM Simon後継の潮流（要約）",
+        "startYear": 1996,
+        "genre": [
+          "HAR-MOB"
+        ],
+        "imp": 2,
+        "url": "https://en.wikipedia.org/wiki/IBM_Simon",
+        "note": "通話＋PIM統合の発想が各社に継承されスマホ時代へ"
+      },
+      {
+        "label": "Toshiba Libretto",
+        "startYear": 1996,
+        "genre": [
+          "HAR-PC"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/Toshiba_Libretto",
+        "note": "“掌サイズのWinノート”で超小型PCの潮流を形成。"
       }
     ],
     "1997": [
@@ -2849,6 +3452,26 @@
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/Classic_Mac_OS",
         "note": "マルチタスクと外観統一・USB等で周辺機器運用を改善"
+      },
+      {
+        "label": "Psion Series 5",
+        "startYear": 1997,
+        "genre": [
+          "HAR-MOB"
+        ],
+        "imp": 4,
+        "url": "https://en.wikipedia.org/wiki/Psion_Series_5",
+        "note": "EPOC32と名機キーボードで本格モバイル文書編集を普及"
+      },
+      {
+        "label": "Cassiopeia A/Eシリーズ（Palm-size PC）",
+        "startYear": 1997,
+        "genre": [
+          "HAR-MOB"
+        ],
+        "imp": 3,
+        "url": "https://en.wikipedia.org/wiki/Windows_CE",
+        "note": "CE系PDAの量産期を牽引、カラー液晶とタッチUIを普及"
       }
     ],
     "1998": [
@@ -2985,6 +3608,36 @@
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/FreeBSD",
         "note": "高性能TCP/IPと堅牢FSでサーバ/ネット機器の土台に"
+      },
+      {
+        "label": "HP Jornada 680（Windows CE H/PC）",
+        "startYear": 1998,
+        "genre": [
+          "HAR-MOB"
+        ],
+        "imp": 3,
+        "url": "https://en.wikipedia.org/wiki/Windows_CE",
+        "note": "WinCE系H/PCの完成度を高め、企業のPIM/メール運用を後押し"
+      },
+      {
+        "label": "Psion Revo",
+        "startYear": 1998,
+        "genre": [
+          "HAR-MOB"
+        ],
+        "imp": 2,
+        "url": "https://en.wikipedia.org/wiki/Psion_Revo",
+        "note": "小型軽量EPOC端末。携帯性重視のPDAデザインを洗練"
+      },
+      {
+        "label": "iMac G3",
+        "startYear": 1998,
+        "genre": [
+          "HAR-PC"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/IMac",
+        "note": "一体型＋USB標準化でPCデザイン/周辺機器刷新。"
       }
     ],
     "1999": [
@@ -3073,6 +3726,47 @@
         "imp": 3,
         "url": "https://ja.wikipedia.org/wiki/イグジステンズ",
         "note": "仮想現実と現実の境界を肉体的に攪乱"
+      },
+      {
+        "label": "BlackBerry 850（2way Pager系）",
+        "startYear": 1999,
+        "genre": [
+          "HAR-MOB"
+        ],
+        "imp": 4,
+        "url": "https://en.wikipedia.org/wiki/BlackBerry",
+        "note": "常時プッシュメールで企業モバイルを変革、後のQWERTY機に連なる"
+      },
+      {
+        "label": "Kyocera VP-210 “ビジュアルフォン”",
+        "startYear": 1999,
+        "genre": [
+          "HAR-MOB"
+        ],
+        "imp": 5,
+        "url": "https://en.wikipedia.org/wiki/Kyocera",
+        "note": "カメラ内蔵携帯の嚆矢。映像通信と“自撮り”文化の端緒"
+      },
+      {
+        "label": "iモード",
+        "startYear": 1999,
+        "endYear": 2013,
+        "genre": [
+          "NET"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/I%E3%83%A2%E3%83%BC%E3%83%89",
+        "note": "携帯向け常時接続と課金エコシステムで“モバイルWeb”を普及"
+      },
+      {
+        "label": "Palm VII（ワイヤレスPalm.Net）",
+        "startYear": 1999,
+        "genre": [
+          "HAR-MOB"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/Palm_%28PDA%29",
+        "note": "PDA単体のワイヤレス接続を先駆け、モバイルWebの萌芽"
       }
     ],
     "2000": [
@@ -3118,6 +3812,16 @@
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/Windows_2000",
         "note": "Active Directory導入。企業の統合管理・ドメイン運用を容易化"
+      },
+      {
+        "label": "J-Phone J-SH04（写メール）",
+        "startYear": 2000,
+        "genre": [
+          "HAR-MOB"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/J-SH04",
+        "note": "携帯＋カメラを大衆化。写真共有という新しいコミュニケーション"
       }
     ],
     "2001": [
@@ -3216,6 +3920,16 @@
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/Symbian",
         "note": "スマホ前夜のモバイルOS標準。高度なPIM/通信を携帯へ"
+      },
+      {
+        "label": "NTTドコモ FOMA（商用3G開始）",
+        "startYear": 2001,
+        "genre": [
+          "NET"
+        ],
+        "imp": 5,
+        "url": "https://en.wikipedia.org/wiki/History_of_mobile_phones",
+        "note": "世界初のW-CDMA商用3Gでモバイルデータ時代を加速"
       }
     ],
     "2002": [
@@ -3291,6 +4005,27 @@
         "imp": 3,
         "url": "https://ja.wikipedia.org/wiki/Windows_CE",
         "note": "組込み・携帯向け。ARM上でのPDA/産業端末を拡大"
+      },
+      {
+        "label": "Sharp Zaurus SL-5500系（Linux）",
+        "startYear": 2002,
+        "genre": [
+          "HAR-MOB"
+        ],
+        "imp": 4,
+        "url": "https://en.wikipedia.org/wiki/Sharp_Zaurus",
+        "note": "LinuxベースPDAの先駆。コミュニティ改造文化を喚起"
+      },
+      {
+        "label": "Danger Hiptop/Sidekick",
+        "startYear": 2002,
+        "endYear": 2010,
+        "genre": [
+          "HAR-MOB"
+        ],
+        "imp": 4,
+        "url": "https://en.wikipedia.org/wiki/T-Mobile_Sidekick",
+        "note": "常時接続クラウド型と“アプリ/メッセージ中心”体験を提示"
       }
     ],
     "2003": [
@@ -3324,6 +4059,16 @@
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/Red_Hat_Enterprise_Linux",
         "note": "企業Linuxの配布/保守モデルを確立し商用導入を容易化"
+      },
+      {
+        "label": "Treo 600（Palm OSスマートフォン）",
+        "startYear": 2003,
+        "genre": [
+          "HAR-MOB"
+        ],
+        "imp": 4,
+        "url": "https://en.wikipedia.org/wiki/Treo_600",
+        "note": "QWERTY一体型でPDA-Phone統合を実用域に"
       }
     ],
     "2004": [
@@ -3556,6 +4301,26 @@
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/IOS",
         "note": "タッチUI/アプリ配布/サンドボックスでモバイル計算を再定義"
+      },
+      {
+        "label": "Nokia N95",
+        "startYear": 2007,
+        "genre": [
+          "HAR-MOB"
+        ],
+        "imp": 4,
+        "url": "https://en.wikipedia.org/wiki/Nokia_N95",
+        "note": "GPS/5MP/加速度など“ポケットのマルチメディアPC”を先取り"
+      },
+      {
+        "label": "Apple iPhone（初代）",
+        "startYear": 2007,
+        "genre": [
+          "HAR-MOB"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/IPhone_(%E7%AC%AC1%E4%B8%96%E4%BB%A3)",
+        "note": "マルチタッチUIとApp Storeでスマートフォンの標準を再定義"
       }
     ],
     "2008": [
@@ -3613,6 +4378,16 @@
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/ChromeOS",
         "note": "ブラウザ主導と管理容易性。教育/企業でTCOを低減"
+      },
+      {
+        "label": "HTC Dream / T-Mobile G1（初のAndroid）",
+        "startYear": 2008,
+        "genre": [
+          "HAR-MOB"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/HTC_Dream",
+        "note": "Android初号機。オープンOSとアプリ配布を本格展開"
       }
     ],
     "2009": [
