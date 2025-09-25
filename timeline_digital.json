@@ -23,6 +23,17 @@
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/ENIAC",
         "note": "初期汎用電子計算機の象徴"
+      },
+      {
+        "label": "MIT Tech Model Railroad Club（TMRC）",
+        "startYear": 1946,
+        "endYear": "ongoing",
+        "genre": [
+          "COM"
+        ],
+        "imp": 5,
+        "url": "https://en.wikipedia.org/wiki/Tech_Model_Railroad_Club",
+        "note": "初期ハッカー語彙/倫理の源流。配線/制御“ハック”文化の母体。"
       }
     ],
     "1947": [
@@ -841,6 +852,16 @@
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/アポロ誘導コンピュータ",
         "note": "優先割込み/再入実行のRTOS設計で船外活動等の実時間制御を可能に"
+      },
+      {
+        "label": "Whole Earth Catalog（全地球カタログ）",
+        "startYear": 1968,
+        "genre": [
+          "MED"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/全地球カタログ",
+        "note": "「Access to Tools」で自作/分散技術思想を拡散。ハッカー倫理の土壌に。"
       }
     ],
     "1969": [
@@ -1062,6 +1083,18 @@
         "imp": 4,
         "url": "https://www2u.biglobe.ne.jp/~n-fuji/seiko.pdf",
         "note": "世界初期の8008搭載。周辺接続で小型計算機化。"
+      },
+      {
+        "label": "People's Computer Company（PCC）",
+        "startYear": 1972,
+        "endYear": 1981,
+        "genre": [
+          "MED",
+          "COM"
+        ],
+        "imp": 4,
+        "url": "https://en.wikipedia.org/wiki/People%27s_Computer_Company",
+        "note": "Menlo Park発の草の根PC教育/ニュースレター。Tiny BASIC普及にも影響。"
       }
     ],
     "1973": [
@@ -1154,6 +1187,18 @@
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/WABOT-1",
         "note": "人型ロボの最初期。視覚/触覚/会話を備え“人との相互作用”を実証"
+      },
+      {
+        "label": "Community Memory（公共BBS実験）",
+        "startYear": 1973,
+        "endYear": 1975,
+        "genre": [
+          "WEB-SVC",
+          "COM"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/コミュニティメモリ",
+        "note": "一般向け電子掲示板の嚆矢。街頭端末で社会的“オンライン”を実証。"
       }
     ],
     "1974": [
@@ -1199,6 +1244,16 @@
         "imp": 3,
         "url": "https://museum.ipsj.or.jp/computer/personal/0086.html",
         "note": "8080採用の国産マイクロ計算機システム。"
+      },
+      {
+        "label": "Computer Lib / Dream Machines",
+        "startYear": 1974,
+        "genre": [
+          "MED"
+        ],
+        "imp": 5,
+        "url": "https://en.wikipedia.org/wiki/Computer_Lib/Dream_Machines",
+        "note": "テッド・ネルソンの“ハッカー聖典”。PC/ハイパーテキスト文化を宣言。"
       }
     ],
     "1975": [
@@ -1276,6 +1331,40 @@
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/IMSAI_8080",
         "note": "Altair互換の発展形。S-100とCP/M普及に寄与。"
+      },
+      {
+        "label": "Homebrew Computer Club",
+        "startYear": 1975,
+        "endYear": 1986,
+        "genre": [
+          "COM"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/ホームブリュー・コンピュータ・クラブ",
+        "note": "オープンな回路/情報交換の場。PC革命の“るつぼ”。"
+      },
+      {
+        "label": "Jargon File（ハッカー用語集）",
+        "startYear": 1975,
+        "genre": [
+          "MED",
+          "COM"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/ジャーゴンファイル",
+        "note": "AI/LISP/PDP-10系文化の語彙を継承/共有。ハッカー文化を可視化。"
+      },
+      {
+        "label": "USENIX（Unix Users→）",
+        "startYear": 1975,
+        "endYear": "ongoing",
+        "genre": [
+          "COM",
+          "EVT"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/USENIX",
+        "note": "Unix/OS研究の学会/会議母体。運用/研究者コミュニティの軸。"
       }
     ],
     "1976": [
@@ -1340,6 +1429,16 @@
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/I/O_%28%E9%9B%91%E8%AA%8C%29",
         "note": "日本初のマイコン専門誌。自作/投稿文化と付録メディアで草の根開発を牽引。"
+      },
+      {
+        "label": "NEC Bit-INN（秋葉原ラジオ会館）",
+        "startYear": 1976,
+        "genre": [
+          "COM"
+        ],
+        "imp": 4,
+        "url": "https://www.ssplusone.com/マイクロコンピュータ/tk-80の思い出/nec-bit-inn/",
+        "note": "TK-80支援の交流拠点。国産ホビイスト文化の核。"
       }
     ],
     "1977": [
@@ -1588,6 +1687,17 @@
         "imp": 3,
         "url": "https://ja.wikipedia.org/wiki/ASR-33",
         "note": "紙テープI/OとBASIC転送でユーザプログラム普及。"
+      },
+      {
+        "label": "Usenet / NetNews（ネットニュース）",
+        "startYear": 1979,
+        "endYear": "ongoing",
+        "genre": [
+          "WEB-SVC"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/ネットニュース",
+        "note": "分散型電子会議が世界規模の議論/文化形成を促進。"
       }
     ],
     "1980": [
@@ -1763,6 +1873,17 @@
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/Xerox_Star",
         "note": "デスクトップメタファ/アイコン/ネットワーク文書管理を商用OS/機で具現"
+      },
+      {
+        "label": "Chaos Computer Club（CCC）",
+        "startYear": 1981,
+        "endYear": "ongoing",
+        "genre": [
+          "COM"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/カオス・コンピュータ・クラブ",
+        "note": "欧州最大級のハッカー集団。倫理/透明性/権利擁護を推進。"
       }
     ],
     "1982": [
@@ -2359,6 +2480,27 @@
         "imp": 3,
         "url": "https://ja.wikipedia.org/wiki/IBM_PC_Convertible",
         "note": "IBM初のラップトップ。可搬PCの本流入り口に。"
+      },
+      {
+        "label": "2600: The Hacker Quarterly",
+        "startYear": 1984,
+        "endYear": "ongoing",
+        "genre": [
+          "MED"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/2600_(雑誌)",
+        "note": "フリーキング源流の技術誌。文化/自由擁護と会議主催の基盤。"
+      },
+      {
+        "label": "Hackers（Steven Levy）",
+        "startYear": 1984,
+        "genre": [
+          "MED"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/ハッカーズ_(書籍)",
+        "note": "MIT〜Homebrewの人物/倫理を記述。文化の自己像を定着。"
       }
     ],
     "1985": [
@@ -2555,6 +2697,18 @@
         "imp": 4,
         "url": "https://www.kosho.or.jp/products/detail.php?product_id=323114214",
         "note": "河出書房新社発行のカルチャー色強いPC誌。イベント報告や議論で日本のPC文化を可視化。"
+      },
+      {
+        "label": "The WELL（Whole Earth 'Lectronic Link）",
+        "startYear": 1985,
+        "endYear": "ongoing",
+        "genre": [
+          "WEB-SVC",
+          "COM"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/WELL",
+        "note": "老舗オンライン・コミュニティ。対話/協働の実験場。"
       }
     ],
     "1986": [
@@ -3344,6 +3498,17 @@
         "imp": 5,
         "url": "https://en.wikipedia.org/wiki/MessagePad",
         "note": "ARM採用と手書き認識で“PDA”概念を世界に定着"
+      },
+      {
+        "label": "DEF CON（ハッカー会議）",
+        "startYear": 1993,
+        "endYear": "ongoing",
+        "genre": [
+          "EVT"
+        ],
+        "imp": 5,
+        "url": "https://en.wikipedia.org/wiki/DEF_CON",
+        "note": "世界最大級のハッカー大会。CTF/バッジ文化等で実践知を共有。"
       }
     ],
     "1994": [
@@ -3419,6 +3584,17 @@
         "imp": 5,
         "url": "https://en.wikipedia.org/wiki/IBM_Simon",
         "note": "携帯電話＋PDAを統合した“最初期のスマートフォン”を実用化"
+      },
+      {
+        "label": "HOPE（Hackers On Planet Earth）",
+        "startYear": 1994,
+        "endYear": "ongoing",
+        "genre": [
+          "EVT"
+        ],
+        "imp": 4,
+        "url": "https://en.wikipedia.org/wiki/Hackers_on_Planet_Earth",
+        "note": "2600主催のNY会議。告発/自由/技術倫理の議論を牽引。"
       }
     ],
     "1995": [
