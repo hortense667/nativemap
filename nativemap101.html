@@ -872,6 +872,11 @@
         events = remoteData;
         saveEvents();
         renderEvents();
+        
+        // ジャンルが更新された可能性があるためフィルタ選択を全選択にリセット
+        if (window.selectedGenres) { selectedGenres = new Set(GENRES); }
+        if (typeof updateGenreFilterButtonText === 'function') { updateGenreFilterButtonText(); }
+        
         console.log('初期化: GitHubからデータ読み込み成功');
         return;
       } else {
@@ -2241,7 +2246,10 @@
       const jsonData = JSON.parse(content);
       
       // ジャンルが更新された可能性があるためフィルタ選択をリセット
-      if (jsonData.genres) { setGenresFromRemote(jsonData.genres); }
+      if (jsonData.genres) { 
+        setGenresFromRemote(jsonData.genres); 
+        console.log('ジャンルデータを更新:', GENRES, GENRE_LABELS);
+      }
       
       // 時代区分データを読み込み
       if (jsonData.eraSettings) {
@@ -2965,6 +2973,10 @@
         renderEvents();
         renderEraBackgrounds();
         
+        // ジャンルが更新された可能性があるためフィルタ選択を全選択にリセット
+        if (window.selectedGenres) { selectedGenres = new Set(GENRES); }
+        if (typeof updateGenreFilterButtonText === 'function') { updateGenreFilterButtonText(); }
+        
         // 同期完了時刻を記録
         localStorage.setItem('lastSync', new Date().toISOString());
         lastSavedEventsData = JSON.stringify(events); // 自動保存の基準を更新
@@ -3047,6 +3059,12 @@
       
       // タイムスタンプを取得
       const timestamp = responseData.last_modified || new Date().toISOString();
+      
+      // ジャンルデータを更新
+      if (data.genres) {
+        setGenresFromRemote(data.genres);
+        console.log('GitHubからジャンルデータを更新:', GENRES, GENRE_LABELS);
+      }
       
       if (data.events) {
         // 新しい形式（events + eraSettings）
@@ -3266,6 +3284,12 @@
           
           const embedded = JSON.parse(txt);
           console.log('埋め込みJSON解析成功:', Object.keys(embedded).length, '個の年');
+          
+          // ジャンルデータを読み込み
+          if (embedded.genres) {
+            setGenresFromRemote(embedded.genres);
+            console.log('埋め込みJSONからジャンルデータを読み込み:', GENRES, GENRE_LABELS);
+          }
           
           // 時代区分データを読み込み
           if (embedded.eraSettings) {
