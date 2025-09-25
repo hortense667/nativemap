@@ -3804,6 +3804,16 @@
   // ヘルプ
   document.getElementById('helpBtn').addEventListener('click', ()=>{
     const helpHtml = `
+      <h4 style="color: red;">ネイティブマップを編集いただける方へ</h4>
+      <p><strong>１）</strong>管理者からアクセストークンを提供されている方は設定して使用してください。<br>
+      　編集した内容は「同期」ボタンの押下でリモートDBに反映されます。</p>
+      <p><strong>２）</strong>アクセストークが空の状態で使うこともできます。<br>
+      　編集した内容は「同期」ボタンの押下で修正内容をローカルに保存できます。<br>
+      　★リモートDBには反映されませんのでご注意ください。<br>
+      　修正内容は管理者にお送りいただけるととくに競合する内容がない限り反映させていただく方針です。</p>
+      <p>※サービスは試験運用中です。<br>
+      ※詳しい使い方は、<a href="https://github.com/hortense667/nativemap" target="_blank">https://github.com/hortense667/nativemap</a> をご覧ください。</p>
+      <hr style="margin: 20px 0;">
       <h4>使いかたの例（任天堂ファミコン）</h4>
       <p>任天堂のファミコン発売時の年齢を知りたいとします。</p>
       <ol>
