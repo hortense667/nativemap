@@ -1645,17 +1645,6 @@
         "note": "カートリッジ式で家庭ゲーム市場を拡大、サード連携を促進。"
       },
       {
-        "label": "Apple II（ゲーム／DTPの母地）",
-        "startYear": 1977,
-        "genre": [
-          "HAR-PC",
-          "GAM"
-        ],
-        "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/Apple_II",
-        "note": "カラー/拡張性がゲーム開発や教育市場の土台に。"
-      },
-      {
         "label": "TRS-80",
         "startYear": 1977,
         "genre": [
