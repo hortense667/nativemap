@@ -1329,6 +1329,17 @@
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/TK-80",
         "note": "国産伝説の学習用ワンボード。技術者育成に寄与。"
+      },
+      {
+        "label": "I/O（工学社）",
+        "startYear": 1976,
+        "endYear": "ongoing",
+        "genre": [
+          "MED"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/I/O_%28%E9%9B%91%E8%AA%8C%29",
+        "note": "日本初のマイコン専門誌。自作/投稿文化と付録メディアで草の根開発を牽引。"
       }
     ],
     "1977": [
@@ -1411,6 +1422,17 @@
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/TRS-80",
         "note": "量販網で北米に普及。教育/ホビー層を拡大。"
+      },
+      {
+        "label": "月刊アスキー（ASCII）",
+        "startYear": 1977,
+        "endYear": 2010,
+        "genre": [
+          "MED"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/%E6%9C%88%E5%88%8A%E3%82%A2%E3%82%B9%E3%82%AD%E3%83%BC",
+        "note": "技術/産業/カルチャーを横断する総合誌。日本PCシーンの記録と議論の土台。"
       }
     ],
     "1978": [
@@ -1913,6 +1935,39 @@
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/HC-20",
         "note": "A4サイズの携帯PC。バッテリ運用とI/F確立。"
+      },
+      {
+        "label": "マイコンBASICマガジン（ベーマガ）",
+        "startYear": 1982,
+        "endYear": 2003,
+        "genre": [
+          "MED"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/%E3%83%9E%E3%82%A4%E3%82%B3%E3%83%B3BASIC%E3%83%9E%E3%82%AC%E3%82%B8%E3%83%B3",
+        "note": "投稿プログラムとゲーム企画で若年層の実装力を育成、国産PCゲーム文化の母体に。"
+      },
+      {
+        "label": "LOGiN（ログイン）",
+        "startYear": 1982,
+        "endYear": 2008,
+        "genre": [
+          "MED"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/%E3%83%AD%E3%82%B0%E3%82%A4%E3%83%B3_%28%E9%9B%91%E8%AA%8C%29",
+        "note": "パソコンゲーム特化の編集方針で若者層を開拓、ランキング/攻略文化を定着。"
+      },
+      {
+        "label": "Oh!MZ/Oh!X（シャープ系機種誌）",
+        "startYear": 1982,
+        "endYear": 1995,
+        "genre": [
+          "MED"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/Oh%21X",
+        "note": "機種別専門誌の代表格。コミュニティ密着でMZ→X1/X68000文化を体系化。"
       }
     ],
     "1983": [
@@ -2489,6 +2544,17 @@
         "imp": 4,
         "url": "https://en.wikipedia.org/wiki/DataGlove",
         "note": "手指トラッキング入力を商品化しVRの“身体性インタフェース”を定着"
+      },
+      {
+        "label": "月刊Bug News（コンピュータ文化情報誌）",
+        "startYear": 1985,
+        "endYear": 1988,
+        "genre": [
+          "MED"
+        ],
+        "imp": 4,
+        "url": "https://www.kosho.or.jp/products/detail.php?product_id=323114214",
+        "note": "河出書房新社発行のカルチャー色強いPC誌。イベント報告や議論で日本のPC文化を可視化。"
       }
     ],
     "1986": [
@@ -2757,6 +2823,17 @@
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/X68000",
         "note": "68k＋高性能描画/音源でクリエイタ層熱中。"
+      },
+      {
+        "label": "NIFTY-Serve（パソコン通信）",
+        "startYear": 1987,
+        "endYear": 2006,
+        "genre": [
+          "WEB-SVC"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/%E3%83%8B%E3%83%95%E3%83%86%E3%82%A3%E3%82%B5%E3%83%BC%E3%83%96",
+        "note": "最大手PC通信。フォーラム/電子掲示板/課金モデルでネットコミュニティ基盤を形成。"
       }
     ],
     "1988": [
@@ -4411,6 +4488,17 @@
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/Ubuntu",
         "note": "デスクトップLinuxの導入容易性を改善しコミュニティ/クラウド普及を牽引"
+      },
+      {
+        "label": "テレビゲームとデジタル科学展（国立科学博物館）",
+        "startYear": 2004,
+        "endYear": 2004,
+        "genre": [
+          "EVT"
+        ],
+        "imp": 5,
+        "url": "https://www.kahaku.go.jp/exhibitions/ueno/special/2004/game/outline.html",
+        "note": "誕生から未来までを科学技術目線で俯瞰、8ゾーン構成で文化と技術の関係を提示。"
       }
     ],
     "2005": [
@@ -5087,6 +5175,17 @@
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/ウエストワールド_(テレビドラマ)",
         "note": "意識/記憶/自由意志をAIから再検討"
+      },
+      {
+        "label": "GAME ON ～ゲームってなんでおもしろい？～（日本科学未来館）",
+        "startYear": 2016,
+        "endYear": 2016,
+        "genre": [
+          "EVT"
+        ],
+        "imp": 5,
+        "url": "https://www.miraikan.jst.go.jp/exhibitions/spexhibition/gameon.html",
+        "note": "135台超のプレイアブル展示でゲーム史を体験的に解説、VR/マインクラフト等も紹介。"
       }
     ],
     "2017": [
