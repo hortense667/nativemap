@@ -1624,17 +1624,6 @@
         "note": "カートリッジ式で家庭ゲーム市場を拡大、サード連携を促進。"
       },
       {
-        "label": "TRS-80",
-        "startYear": 1977,
-        "genre": [
-          "HAR-PC",
-          "GAM"
-        ],
-        "imp": 3,
-        "url": "https://ja.wikipedia.org/wiki/TRS-80",
-        "note": "量販網とBASICでホビーゲーム制作の裾野を拡大。"
-      },
-      {
         "label": "PET 2001",
         "startYear": 1977,
         "genre": [
@@ -1644,6 +1633,27 @@
         "imp": 3,
         "url": "https://ja.wikipedia.org/wiki/PET_2001",
         "note": "一体型で学校・SOHOへ浸透、初期ゲーム文化を支える。"
+      },
+      {
+        "label": "TRS-80",
+        "startYear": 1977,
+        "genre": [
+          "HAR-PC"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/TRS-80",
+        "note": "量販網とBASICでホビーゲーム制作の裾野を拡大。量販網とBASICでホビーゲーム制作の裾野を拡大。量販網とBASICでホビーゲーム制作の裾野を拡大。量販網とBASICでホビーゲーム制作の裾野を拡大。量販網とBASICでホビーゲーム制作の裾野を拡大。"
+      },
+      {
+        "label": "TRS-80",
+        "startYear": 1977,
+        "genre": [
+          "HAR-PC",
+          "GAM"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/TRS-80",
+        "note": "量販網とBASICでホビーゲーム制作の裾野を拡大。"
       }
     ],
     "1978": [
