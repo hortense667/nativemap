@@ -1451,7 +1451,10 @@
         close();
       }
     }
-    document.addEventListener('click', handleOutsideClick);
+    // 少し遅延させてイベントリスナーを追加（ポップアップ内のクリックイベントを優先）
+    setTimeout(() => {
+      document.addEventListener('click', handleOutsideClick);
+    }, 100);
 
     function close() { 
       document.removeEventListener('click', handleOutsideClick);
@@ -1460,11 +1463,28 @@
       autoSave();
       editor.style.display = 'none'; 
     }
-    editor.querySelector('#addBtn').onclick = () => { addNewItem(year); };
-    editor.querySelector('#closeBtn').onclick = close;
+    editor.querySelector('#addBtn').onclick = (e) => { 
+      e.stopPropagation();
+      addNewItem(year); 
+    };
+    editor.querySelector('#closeBtn').onclick = (e) => { 
+      e.stopPropagation();
+      close(); 
+    };
     
     // ドラッグ&ドロップイベントを設定
     setupDragAndDrop(year);
+    
+    // 詳細一覧内のボタンクリックイベントを設定（イベント委譲）
+    editor.addEventListener('click', (e) => {
+      e.stopPropagation();
+      if (e.target.tagName === 'BUTTON') {
+        const onclick = e.target.getAttribute('onclick');
+        if (onclick) {
+          eval(onclick);
+        }
+      }
+    });
   }
 
   // ===== ドラッグ&ドロップ機能 =====
@@ -1696,14 +1716,23 @@
         close();
       }
     }
-    document.addEventListener('click', handleOutsideClick);
+    // 少し遅延させてイベントリスナーを追加（ポップアップ内のクリックイベントを優先）
+    setTimeout(() => {
+      document.addEventListener('click', handleOutsideClick);
+    }, 100);
 
     function close() { 
       document.removeEventListener('click', handleOutsideClick);
       editor.style.display = 'none'; 
     }
-    editor.querySelector('#cancel').onclick = close;
-    editor.querySelector('#save').onclick = () => { saveEditItem(year, index); };
+    editor.querySelector('#cancel').onclick = (e) => { 
+      e.stopPropagation();
+      close(); 
+    };
+    editor.querySelector('#save').onclick = (e) => { 
+      e.stopPropagation();
+      saveEditItem(year, index); 
+    };
     // 入力中の長さ制限（URL + 注釈 合計最大512文字）
     const urlEl = document.getElementById('editUrl');
     const noteEl = document.getElementById('editNote');
