@@ -1326,6 +1326,55 @@
   const tooltip=document.getElementById('tooltip');
   function positionTooltip(e){const r=vp.getBoundingClientRect();tooltip.style.left=(e.clientX-r.left+14)+'px';tooltip.style.top=(e.clientY-r.top+14)+'px';}
 
+  // ===== ドラッグ機能 =====
+  function makeDraggable(element, headerId) {
+    const header = element.querySelector('#' + headerId);
+    if (!header) return;
+    
+    let isDragging = false;
+    let currentX;
+    let currentY;
+    let initialX;
+    let initialY;
+    let xOffset = 0;
+    let yOffset = 0;
+    
+    header.addEventListener('mousedown', dragStart);
+    document.addEventListener('mousemove', drag);
+    document.addEventListener('mouseup', dragEnd);
+    
+    function dragStart(e) {
+      initialX = e.clientX - xOffset;
+      initialY = e.clientY - yOffset;
+      
+      if (e.target === header || header.contains(e.target)) {
+        isDragging = true;
+        header.style.cursor = 'grabbing';
+      }
+    }
+    
+    function drag(e) {
+      if (isDragging) {
+        e.preventDefault();
+        currentX = e.clientX - initialX;
+        currentY = e.clientY - initialY;
+        
+        xOffset = currentX;
+        yOffset = currentY;
+        
+        element.style.left = currentX + 'px';
+        element.style.top = currentY + 'px';
+      }
+    }
+    
+    function dragEnd(e) {
+      initialX = currentX;
+      initialY = currentY;
+      isDragging = false;
+      header.style.cursor = 'move';
+    }
+  }
+
   // ===== 詳細一覧表示 =====
   function showDetailList(year, anchor) {
     clearHighlight();
@@ -1386,6 +1435,9 @@
     editor.style.left = left + 'px';
     editor.style.top = top + 'px';
     editor.style.display = 'block';
+    
+    // ドラッグ機能を追加
+    makeDraggable(editor, 'detailListHeader');
 
     function close() { 
       saveEvents();
@@ -3186,6 +3238,10 @@
         window.history.replaceState(null, '', newUrl);
       }catch(e){ console.warn('URL更新に失敗:', e); }
       const filePathChanged = prevFilePath !== githubConfig.filePath;
+      
+      // 画面上部のリポジトリ情報表示を更新
+      updateRepoInfoDisplay();
+      
       closeModal();
       showInfo('設定保存', '設定が保存されました。');
     if (filePathChanged) {
