@@ -1341,11 +1341,18 @@
     removeCurrentOutsideClickHandler();
     currentOutsideClickHandler = handler;
     if (handler) {
+      // 遅延を短縮
       setTimeout(() => {
         document.addEventListener('click', handler);
         console.log('外側クリックイベントリスナーを追加しました');
-      }, 100);
+      }, 50);
     }
+  }
+  
+  // ページ全体のクリックイベントをクリアする関数
+  function clearAllClickHandlers() {
+    removeCurrentOutsideClickHandler();
+    console.log('すべてのクリックハンドラーをクリアしました');
   }
 
   // ===== ドラッグ機能 =====
@@ -1504,10 +1511,12 @@
         e.stopPropagation();
         const onclick = e.target.getAttribute('onclick');
         if (onclick) {
-          // 少し遅延させて実行（外側クリックイベントとの競合を避ける）
-          setTimeout(() => {
+          // 直接実行（遅延を削除）
+          try {
             eval(onclick);
-          }, 10);
+          } catch (error) {
+            console.error('ボタンクリックイベント実行エラー:', error);
+          }
         }
       }
     });
@@ -2144,6 +2153,9 @@
         showDetailList(y, e.target); 
       });
     }
+    
+    // レンダリング完了後にイベントリスナーをクリア
+    clearAllClickHandlers();
   }
   
   try {
