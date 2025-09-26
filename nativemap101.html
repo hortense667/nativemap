@@ -3167,12 +3167,16 @@
     const pathInput = document.getElementById('filePath');
     
     if (tokenInput && ownerInput && repoInput && pathInput) {
+      const prevOwner = githubConfig.owner || '';
+      const prevRepo = githubConfig.repo || '';
       const prevFilePath = githubConfig.filePath || 'timeline.json';
+      
       githubConfig.accessToken = tokenInput.value.trim();
       githubConfig.owner = ownerInput.value.trim();
       githubConfig.repo = repoInput.value.trim();
       githubConfig.filePath = (pathInput.value.trim() || 'timeline.json');
       saveGitHubConfig();
+      
       // URLのfilePath等も同期
       try{
         const params = new URLSearchParams(window.location.search);
@@ -3182,20 +3186,34 @@
         const newUrl = `${window.location.pathname}?${params.toString()}`;
         window.history.replaceState(null, '', newUrl);
       }catch(e){ console.warn('URL更新に失敗:', e); }
+      
+      const ownerChanged = prevOwner !== githubConfig.owner;
+      const repoChanged = prevRepo !== githubConfig.repo;
       const filePathChanged = prevFilePath !== githubConfig.filePath;
+      
       closeModal();
       showInfo('設定保存', '設定が保存されました。');
-    if (filePathChanged) {
-      // URLのfilePath等も同期
-      try{
-        const params = new URLSearchParams(window.location.search);
-        if(githubConfig.owner) params.set('owner', githubConfig.owner); else params.delete('owner');
-        if(githubConfig.repo) params.set('repo', githubConfig.repo); else params.delete('repo');
-        if(githubConfig.filePath) params.set('filePath', githubConfig.filePath); else params.delete('filePath');
-        const newUrl = `${window.location.pathname}?${params.toString()}`;
-        window.history.replaceState(null, '', newUrl);
-      }catch(e){ console.warn('URL更新に失敗:', e); }
-        try { await clearAllDataAndReload(); } catch (e) { console.error(e); }
+      
+      // 所有者、リポジトリ、ファイルパスのいずれかが変更された場合
+      if (ownerChanged || repoChanged || filePathChanged) {
+        try {
+          // データをリモートから読み込む
+          await clearAllDataAndReload();
+          
+          // ジャンルをすべて選択した状態にする
+          if (window.selectedGenres) {
+            selectedGenres = new Set(GENRES);
+          }
+          if (typeof updateGenreFilterButtonText === 'function') {
+            updateGenreFilterButtonText();
+          }
+          
+          // ブラウザをリロードして画面上の設定を更新
+          window.location.reload();
+        } catch (e) {
+          console.error('データの読み込みに失敗:', e);
+          showError('エラー', 'データの読み込みに失敗しました。');
+        }
       }
     }
   }
