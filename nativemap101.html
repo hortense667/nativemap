@@ -1332,7 +1332,7 @@
     const items = (events[year] || []).filter(passesFilter);
 
     editor.innerHTML = `
-      <h4 style="display: flex; align-items: center; justify-content: space-between; margin: 0 0 12px 0; font-size: 16px;">
+      <h4 style="display: flex; align-items: center; justify-content: space-between; margin: 0 0 12px 0; font-size: 16px; cursor: move; user-select: none;" id="detailListHeader">
         <span style="display: flex; align-items: center; gap: 8px;">
           <span style="cursor: pointer; font-size: 18px;" onclick="openYearWikipedia(${year})" title="${year}年のWikipediaページを開く">🌐</span>
           <span>${year}年</span>
@@ -1551,7 +1551,7 @@
     clearHighlight();
     
     editor.innerHTML = `
-      <h4><span>項目の編集</span></h4>
+      <h4 style="cursor: move; user-select: none;" id="editModalHeader"><span>項目の編集</span></h4>
       <div style="margin-bottom: 16px;">
         <label style="display: block; margin-bottom: 4px; font-weight: bold;">開始年:</label>
         <input type="number" id="editStartYear" value="${item.startYear || ''}" style="width: 100%; padding: 8px; border: 1px solid #ddd; border-radius: 4px;" placeholder="例: 1952" min="${YEAR_MIN}" max="${YEAR_MAX}">
@@ -1619,6 +1619,9 @@
     editor.style.top = (rv.height / 2 - 200) + 'px';
     editor.style.display = 'block';
     editor.style.zIndex = '1000';
+    
+    // ドラッグ機能を追加
+    makeDraggable(editor, 'editModalHeader');
 
     function close() { editor.style.display = 'none'; }
     editor.querySelector('#cancel').onclick = close;
