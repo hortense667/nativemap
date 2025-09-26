@@ -1383,6 +1383,7 @@
 
   // ===== 詳細一覧表示 =====
   function showDetailList(year, anchor) {
+    console.log('showDetailList呼び出し:', year, anchor);
     clearHighlight();
     const items = (events[year] || []).filter(passesFilter);
 
@@ -1447,7 +1448,9 @@
     
     // 外側クリックで閉じる機能を追加
     function handleOutsideClick(e) {
+      console.log('詳細一覧外側クリックイベント:', e.target, editor.contains(e.target), editor.style.display);
       if (!editor.contains(e.target) && editor.style.display === 'block') {
+        console.log('詳細一覧外側クリックでポップアップを閉じます');
         close();
       }
     }
@@ -1640,6 +1643,7 @@
 
   // 個別編集用ポップアップ
   function showEditModal(year, index, item) {
+    console.log('showEditModal呼び出し:', year, index, item);
     clearHighlight();
     
     editor.innerHTML = `
@@ -1717,7 +1721,9 @@
     
     // 外側クリックで閉じる機能を追加
     function handleOutsideClick(e) {
+      console.log('編集モーダル外側クリックイベント:', e.target, editor.contains(e.target), editor.style.display);
       if (!editor.contains(e.target) && editor.style.display === 'block') {
+        console.log('編集モーダル外側クリックでポップアップを閉じます');
         close();
       }
     }
@@ -2111,7 +2117,11 @@
       });
       tx.addEventListener('mousemove',positionTooltip);
       tx.addEventListener('mouseleave',()=>{tooltip.style.display='none'});
-      tx.addEventListener('click',(e)=>{ tooltip.style.display='none'; showDetailList(y, e.target); });
+      tx.addEventListener('click',(e)=>{ 
+        console.log('ラベルクリックイベント発火:', y, e.target);
+        tooltip.style.display='none'; 
+        showDetailList(y, e.target); 
+      });
     }
   }
   
@@ -3702,8 +3712,22 @@
   }
 
   // ===== 空年クリックで編集を開く =====
-  function openEditorForEmptyYearAt(xCSS,yCSS){ const rect=stage.getBoundingClientRect(); const scale=1; const x=(xCSS-rect.left)/scale; const y=(yCSS-rect.top)/scale; if(x >= ORIGIN_X - HANDLE_LANE_W) return; const year = YEAR_MIN + Math.round((y-ORIGIN_Y)/PX_PER_YEAR); if(year<YEAR_MIN||year>YEAR_MAX) return; showEditModal(year, -1, { label: '', startYear: year, endYear: '' }); }
-  stage.addEventListener('click', (e)=>{ if(e.target && e.target.tagName && e.target.tagName.toLowerCase()==='text') return; openEditorForEmptyYearAt(e.clientX, e.clientY); });
+  function openEditorForEmptyYearAt(xCSS,yCSS){ 
+    console.log('openEditorForEmptyYearAt呼び出し:', xCSS, yCSS);
+    const rect=stage.getBoundingClientRect(); 
+    const scale=1; 
+    const x=(xCSS-rect.left)/scale; 
+    const y=(yCSS-rect.top)/scale; 
+    if(x >= ORIGIN_X - HANDLE_LANE_W) return; 
+    const year = YEAR_MIN + Math.round((y-ORIGIN_Y)/PX_PER_YEAR); 
+    if(year<YEAR_MIN||year>YEAR_MAX) return; 
+    showEditModal(year, -1, { label: '', startYear: year, endYear: '' }); 
+  }
+  stage.addEventListener('click', (e)=>{ 
+    console.log('stageクリックイベント:', e.target, e.target.tagName);
+    if(e.target && e.target.tagName && e.target.tagName.toLowerCase()==='text') return; 
+    openEditorForEmptyYearAt(e.clientX, e.clientY); 
+  });
 
   // ===== プローブ =====
   function makeProbe(color){
