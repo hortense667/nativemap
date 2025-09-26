@@ -1326,6 +1326,28 @@
   const tooltip=document.getElementById('tooltip');
   function positionTooltip(e){const r=vp.getBoundingClientRect();tooltip.style.left=(e.clientX-r.left+14)+'px';tooltip.style.top=(e.clientY-r.top+14)+'px';}
 
+  // ===== イベントリスナー管理 =====
+  let currentOutsideClickHandler = null;
+  
+  function removeCurrentOutsideClickHandler() {
+    if (currentOutsideClickHandler) {
+      document.removeEventListener('click', currentOutsideClickHandler);
+      currentOutsideClickHandler = null;
+      console.log('外側クリックイベントリスナーを削除しました');
+    }
+  }
+  
+  function setOutsideClickHandler(handler) {
+    removeCurrentOutsideClickHandler();
+    currentOutsideClickHandler = handler;
+    if (handler) {
+      setTimeout(() => {
+        document.addEventListener('click', handler);
+        console.log('外側クリックイベントリスナーを追加しました');
+      }, 100);
+    }
+  }
+
   // ===== ドラッグ機能 =====
   function makeDraggable(element, headerId) {
     const header = element.querySelector('#' + headerId);
@@ -1454,15 +1476,11 @@
         close();
       }
     }
-    // 既存のイベントリスナーを削除してから新しいものを追加
-    document.removeEventListener('click', handleOutsideClick);
-    // 少し遅延させてイベントリスナーを追加（ポップアップ内のクリックイベントを優先）
-    setTimeout(() => {
-      document.addEventListener('click', handleOutsideClick);
-    }, 100);
+    // 新しい管理システムを使用
+    setOutsideClickHandler(handleOutsideClick);
 
     function close() { 
-      document.removeEventListener('click', handleOutsideClick);
+      removeCurrentOutsideClickHandler();
       saveEvents();
       renderEvents();
       autoSave();
@@ -1633,6 +1651,10 @@
       console.log('項目を物理削除:', { year, index, label: item.label });
       saveEvents();
       renderEvents();
+      
+      // イベントリスナーをクリア
+      removeCurrentOutsideClickHandler();
+      
       showDetailList(year, null);
     }
   }
@@ -1727,15 +1749,11 @@
         close();
       }
     }
-    // 既存のイベントリスナーを削除してから新しいものを追加
-    document.removeEventListener('click', handleOutsideClick);
-    // 少し遅延させてイベントリスナーを追加（ポップアップ内のクリックイベントを優先）
-    setTimeout(() => {
-      document.addEventListener('click', handleOutsideClick);
-    }, 100);
+    // 新しい管理システムを使用
+    setOutsideClickHandler(handleOutsideClick);
 
     function close() { 
-      document.removeEventListener('click', handleOutsideClick);
+      removeCurrentOutsideClickHandler();
       editor.style.display = 'none'; 
     }
     editor.querySelector('#cancel').onclick = (e) => { 
@@ -1903,6 +1921,9 @@
     
     // 編集画面を自動で閉じる
     editor.style.display = 'none';
+    
+    // イベントリスナーをクリア
+    removeCurrentOutsideClickHandler();
   }
 
   // 個別の項目から時代区分を登録する機能
