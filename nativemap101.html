@@ -1451,6 +1451,8 @@
         close();
       }
     }
+    // 既存のイベントリスナーを削除してから新しいものを追加
+    document.removeEventListener('click', handleOutsideClick);
     // 少し遅延させてイベントリスナーを追加（ポップアップ内のクリックイベントを優先）
     setTimeout(() => {
       document.addEventListener('click', handleOutsideClick);
@@ -1477,11 +1479,14 @@
     
     // 詳細一覧内のボタンクリックイベントを設定（イベント委譲）
     editor.addEventListener('click', (e) => {
-      e.stopPropagation();
       if (e.target.tagName === 'BUTTON') {
+        e.stopPropagation();
         const onclick = e.target.getAttribute('onclick');
         if (onclick) {
-          eval(onclick);
+          // 少し遅延させて実行（外側クリックイベントとの競合を避ける）
+          setTimeout(() => {
+            eval(onclick);
+          }, 10);
         }
       }
     });
@@ -1716,6 +1721,8 @@
         close();
       }
     }
+    // 既存のイベントリスナーを削除してから新しいものを追加
+    document.removeEventListener('click', handleOutsideClick);
     // 少し遅延させてイベントリスナーを追加（ポップアップ内のクリックイベントを優先）
     setTimeout(() => {
       document.addEventListener('click', handleOutsideClick);
