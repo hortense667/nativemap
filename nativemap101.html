@@ -1332,44 +1332,50 @@
     if (!header) return;
     
     let isDragging = false;
-    let currentX;
-    let currentY;
-    let initialX;
-    let initialY;
-    let xOffset = 0;
-    let yOffset = 0;
+    let startX;
+    let startY;
+    let elementStartX;
+    let elementStartY;
     
     header.addEventListener('mousedown', dragStart);
     document.addEventListener('mousemove', drag);
     document.addEventListener('mouseup', dragEnd);
     
     function dragStart(e) {
-      initialX = e.clientX - xOffset;
-      initialY = e.clientY - yOffset;
-      
       if (e.target === header || header.contains(e.target)) {
         isDragging = true;
         header.style.cursor = 'grabbing';
+        
+        // マウスの開始位置
+        startX = e.clientX;
+        startY = e.clientY;
+        
+        // ポップアップの現在位置
+        elementStartX = parseInt(element.style.left) || 0;
+        elementStartY = parseInt(element.style.top) || 0;
+        
+        e.preventDefault();
       }
     }
     
     function drag(e) {
       if (isDragging) {
         e.preventDefault();
-        currentX = e.clientX - initialX;
-        currentY = e.clientY - initialY;
         
-        xOffset = currentX;
-        yOffset = currentY;
+        // マウスの移動距離を計算
+        const deltaX = e.clientX - startX;
+        const deltaY = e.clientY - startY;
         
-        element.style.left = currentX + 'px';
-        element.style.top = currentY + 'px';
+        // ポップアップの新しい位置を計算
+        const newX = elementStartX + deltaX;
+        const newY = elementStartY + deltaY;
+        
+        element.style.left = newX + 'px';
+        element.style.top = newY + 'px';
       }
     }
     
     function dragEnd(e) {
-      initialX = currentX;
-      initialY = currentY;
       isDragging = false;
       header.style.cursor = 'move';
     }
@@ -1438,8 +1444,17 @@
     
     // ドラッグ機能を追加
     makeDraggable(editor, 'detailListHeader');
+    
+    // 外側クリックで閉じる機能を追加
+    function handleOutsideClick(e) {
+      if (!editor.contains(e.target) && editor.style.display === 'block') {
+        close();
+      }
+    }
+    document.addEventListener('click', handleOutsideClick);
 
     function close() { 
+      document.removeEventListener('click', handleOutsideClick);
       saveEvents();
       renderEvents();
       autoSave();
@@ -1674,8 +1689,19 @@
     
     // ドラッグ機能を追加
     makeDraggable(editor, 'editModalHeader');
+    
+    // 外側クリックで閉じる機能を追加
+    function handleOutsideClick(e) {
+      if (!editor.contains(e.target) && editor.style.display === 'block') {
+        close();
+      }
+    }
+    document.addEventListener('click', handleOutsideClick);
 
-    function close() { editor.style.display = 'none'; }
+    function close() { 
+      document.removeEventListener('click', handleOutsideClick);
+      editor.style.display = 'none'; 
+    }
     editor.querySelector('#cancel').onclick = close;
     editor.querySelector('#save').onclick = () => { saveEditItem(year, index); };
     // 入力中の長さ制限（URL + 注釈 合計最大512文字）
