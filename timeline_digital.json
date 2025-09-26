@@ -936,16 +936,6 @@
         "note": "日本語情報交換の基礎規格（1969制定） :contentReference[oaicite:10]{index=10}"
       },
       {
-        "label": "HITAC-10（日立ミニコン）",
-        "startYear": 1969,
-        "genre": [
-          "HAR-PC"
-        ],
-        "imp": 4,
-        "url": "https://museum.ipsj.or.jp/en/heritage/hitac10.html",
-        "note": "国産初のミニコン。16ビットで産業制御普及。"
-      },
-      {
         "label": "Data General Nova（GUI/研究道具の母艦）",
         "startYear": 1969,
         "genre": [
