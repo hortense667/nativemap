@@ -55,6 +55,27 @@
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/ビキニ",
         "note": "戦後に登場した新水着"
+      },
+      {
+        "label": "ビキニ",
+        "startYear": 1946,
+        "genre": [
+          "FAS",
+          "UNC"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/ビキニ",
+        "note": "戦後に登場した新水着"
+      },
+      {
+        "label": "ビキニ",
+        "startYear": 1946,
+        "genre": [
+          "FAS"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/ビキニ",
+        "note": "戦後に登場した新水着"
       }
     ],
     "1947": [
