@@ -308,6 +308,16 @@
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/GM-NAA_I/O",
         "note": "初期バッチ処理OS。カード投入を自動化し複数作業の連続実行を可能に"
+      },
+      {
+        "label": "FUJIC",
+        "startYear": 1956,
+        "genre": [
+          "HAR-PC"
+        ],
+        "imp": 5,
+        "url": "https://en.wikipedia.org/wiki/FUJIC",
+        "note": "日本初の電子式デジタル計算機・1956完成"
       }
     ],
     "1957": [
