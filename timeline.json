@@ -1054,6 +1054,15 @@
     ],
     "1965": [
       {
+        "label": "X世代",
+        "startYear": 1965,
+        "endYear": 1979,
+        "genre": [
+          "UNC"
+        ],
+        "url": "https://ja.wikipedia.org/wiki/X%E4%B8%96%E4%BB%A3"
+      },
+      {
         "label": "ジャングル大帝",
         "startYear": 1965,
         "endYear": 1966,
@@ -1133,15 +1142,6 @@
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/11PM",
         "note": "深夜バラエティの草分け"
-      },
-      {
-        "label": "X世代",
-        "startYear": 1965,
-        "endYear": 1979,
-        "genre": [
-          "UNC"
-        ],
-        "url": "https://ja.wikipedia.org/wiki/X%E4%B8%96%E4%BB%A3"
       }
     ],
     "1966": [
@@ -12682,7 +12682,7 @@
       "color": "#DC143C",
       "opacity": "0.5",
       "enabled": true,
-      "fillEnabled": true
+      "fillEnabled": false
     },
     {
       "name": "テレビ・マンガ・週刊誌の時代",
