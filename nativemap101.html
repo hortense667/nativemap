@@ -1511,7 +1511,8 @@
         e.stopPropagation();
         const onclick = e.target.getAttribute('onclick');
         if (onclick) {
-          // 直接実行（遅延を削除）
+          console.log('ボタンクリック:', e.target, onclick);
+          // 直接実行
           try {
             eval(onclick);
           } catch (error) {
@@ -1649,22 +1650,47 @@
   function deleteItem(year, index) {
     const items = events[year] || [];
     const item = items[index];
-    if (!item) return;
+    if (!item) {
+      console.log('削除対象の項目が見つかりません:', { year, index });
+      return;
+    }
     
+    console.log('削除確認ダイアログを表示:', { year, index, label: item.label });
     if (confirm(`「${item.label}」を削除しますか？`)) {
+      console.log('削除を実行:', { year, index, label: item.label });
+      
       // CSVエクスポート用に削除前の内容を記録
       addDeletionRecord(year, item);
-      // 物理削除
+      
+      // 物理削除（単一項目のみ）
       items.splice(index, 1);
-      if (items.length === 0) delete events[year];
-      console.log('項目を物理削除:', { year, index, label: item.label });
-      saveEvents();
-      renderEvents();
+      if (items.length === 0) {
+        delete events[year];
+        console.log('年のデータを削除:', year);
+      }
+      
+      console.log('項目を物理削除完了:', { year, index, label: item.label });
       
       // イベントリスナーをクリア
       removeCurrentOutsideClickHandler();
       
-      showDetailList(year, null);
+      // データを保存
+      saveEvents();
+      
+      // 画面を再描画
+      renderEvents();
+      
+      // 詳細一覧を再表示（残りの項目がある場合のみ）
+      if (events[year] && events[year].length > 0) {
+        showDetailList(year, null);
+      } else {
+        // 項目がなくなった場合は詳細一覧を閉じる
+        editor.style.display = 'none';
+      }
+      
+      console.log('削除処理完了、イベントリスナーをクリアしました');
+    } else {
+      console.log('削除をキャンセル');
     }
   }
 
@@ -1933,6 +1959,8 @@
     
     // イベントリスナーをクリア
     removeCurrentOutsideClickHandler();
+    
+    console.log('編集完了、イベントリスナーをクリアしました');
   }
 
   // 個別の項目から時代区分を登録する機能
@@ -2153,9 +2181,6 @@
         showDetailList(y, e.target); 
       });
     }
-    
-    // レンダリング完了後にイベントリスナーをクリア
-    clearAllClickHandlers();
   }
   
   try {
