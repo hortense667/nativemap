@@ -12653,7 +12653,7 @@
       "startYear": 1965,
       "endYear": 1979,
       "color": "#FFD700",
-      "opacity": "0.5",
+      "opacity": "0.4",
       "enabled": true,
       "fillEnabled": false
     },
@@ -12662,7 +12662,7 @@
       "startYear": 1980,
       "endYear": 1995,
       "color": "#4169E1",
-      "opacity": "0.5",
+      "opacity": "0.4",
       "enabled": true,
       "fillEnabled": false
     },
@@ -12671,7 +12671,7 @@
       "startYear": 1996,
       "endYear": 2010,
       "color": "#DC143C",
-      "opacity": "0.5",
+      "opacity": "0.4",
       "enabled": true,
       "fillEnabled": false
     },
