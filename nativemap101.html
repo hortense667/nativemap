@@ -1326,98 +1326,13 @@
   const tooltip=document.getElementById('tooltip');
   function positionTooltip(e){const r=vp.getBoundingClientRect();tooltip.style.left=(e.clientX-r.left+14)+'px';tooltip.style.top=(e.clientY-r.top+14)+'px';}
 
-  // ===== イベントリスナー管理 =====
-  let currentOutsideClickHandler = null;
-  
-  function removeCurrentOutsideClickHandler() {
-    if (currentOutsideClickHandler) {
-      document.removeEventListener('click', currentOutsideClickHandler);
-      currentOutsideClickHandler = null;
-      console.log('外側クリックイベントリスナーを削除しました');
-    }
-  }
-  
-  function setOutsideClickHandler(handler) {
-    removeCurrentOutsideClickHandler();
-    currentOutsideClickHandler = handler;
-    if (handler) {
-      // 遅延を短縮
-      setTimeout(() => {
-        document.addEventListener('click', handler);
-        console.log('外側クリックイベントリスナーを追加しました');
-      }, 50);
-    }
-  }
-  
-  // ページ全体のクリックイベントをクリアする関数
-  function clearAllClickHandlers() {
-    removeCurrentOutsideClickHandler();
-    console.log('すべてのクリックハンドラーをクリアしました');
-  }
-
-  // ===== ドラッグ機能 =====
-  function makeDraggable(element, headerId) {
-    const header = element.querySelector('#' + headerId);
-    if (!header) return;
-    
-    let isDragging = false;
-    let startX;
-    let startY;
-    let elementStartX;
-    let elementStartY;
-    
-    header.addEventListener('mousedown', dragStart);
-    document.addEventListener('mousemove', drag);
-    document.addEventListener('mouseup', dragEnd);
-    
-    function dragStart(e) {
-      if (e.target === header || header.contains(e.target)) {
-        isDragging = true;
-        header.style.cursor = 'grabbing';
-        
-        // マウスの開始位置
-        startX = e.clientX;
-        startY = e.clientY;
-        
-        // ポップアップの現在位置
-        elementStartX = parseInt(element.style.left) || 0;
-        elementStartY = parseInt(element.style.top) || 0;
-        
-        e.preventDefault();
-      }
-    }
-    
-    function drag(e) {
-      if (isDragging) {
-        e.preventDefault();
-        
-        // マウスの移動距離を計算
-        const deltaX = e.clientX - startX;
-        const deltaY = e.clientY - startY;
-        
-        // ポップアップの新しい位置を計算
-        const newX = elementStartX + deltaX;
-        const newY = elementStartY + deltaY;
-        
-        element.style.left = newX + 'px';
-        element.style.top = newY + 'px';
-      }
-    }
-    
-    function dragEnd(e) {
-      isDragging = false;
-      header.style.cursor = 'move';
-    }
-  }
-
   // ===== 詳細一覧表示 =====
   function showDetailList(year, anchor) {
-    console.log('showDetailList呼び出し:', year, anchor);
     clearHighlight();
     const items = (events[year] || []).filter(passesFilter);
 
     editor.innerHTML = `
-      <h4 style="display: flex; align-items: center; justify-content: space-between; margin: 0 0 12px 0; font-size: 16px; cursor: move; user-select: none;" id="detailListHeader">
+      <h4 style="display: flex; align-items: center; justify-content: space-between; margin: 0 0 12px 0; font-size: 16px;">
         <span style="display: flex; align-items: center; gap: 8px;">
           <span style="cursor: pointer; font-size: 18px;" onclick="openYearWikipedia(${year})" title="${year}年のWikipediaページを開く">🌐</span>
           <span>${year}年</span>
@@ -1471,56 +1386,18 @@
     editor.style.left = left + 'px';
     editor.style.top = top + 'px';
     editor.style.display = 'block';
-    
-    // ドラッグ機能を追加
-    makeDraggable(editor, 'detailListHeader');
-    
-    // 外側クリックで閉じる機能を追加
-    function handleOutsideClick(e) {
-      console.log('詳細一覧外側クリックイベント:', e.target, editor.contains(e.target), editor.style.display);
-      if (!editor.contains(e.target) && editor.style.display === 'block') {
-        console.log('詳細一覧外側クリックでポップアップを閉じます');
-        close();
-      }
-    }
-    // 新しい管理システムを使用
-    setOutsideClickHandler(handleOutsideClick);
 
     function close() { 
-      removeCurrentOutsideClickHandler();
       saveEvents();
       renderEvents();
       autoSave();
       editor.style.display = 'none'; 
     }
-    editor.querySelector('#addBtn').onclick = (e) => { 
-      e.stopPropagation();
-      addNewItem(year); 
-    };
-    editor.querySelector('#closeBtn').onclick = (e) => { 
-      e.stopPropagation();
-      close(); 
-    };
+    editor.querySelector('#addBtn').onclick = () => { addNewItem(year); };
+    editor.querySelector('#closeBtn').onclick = close;
     
     // ドラッグ&ドロップイベントを設定
     setupDragAndDrop(year);
-    
-    // 詳細一覧内のボタンクリックイベントを設定（イベント委譲）
-    editor.addEventListener('click', (e) => {
-      if (e.target.tagName === 'BUTTON') {
-        e.stopPropagation();
-        const onclick = e.target.getAttribute('onclick');
-        if (onclick) {
-          console.log('ボタンクリック:', e.target, onclick);
-          // 直接実行
-          try {
-            eval(onclick);
-          } catch (error) {
-            console.error('ボタンクリックイベント実行エラー:', error);
-          }
-        }
-      }
-    });
   }
 
   // ===== ドラッグ&ドロップ機能 =====
@@ -1650,47 +1527,18 @@
   function deleteItem(year, index) {
     const items = events[year] || [];
     const item = items[index];
-    if (!item) {
-      console.log('削除対象の項目が見つかりません:', { year, index });
-      return;
-    }
+    if (!item) return;
     
-    console.log('削除確認ダイアログを表示:', { year, index, label: item.label });
     if (confirm(`「${item.label}」を削除しますか？`)) {
-      console.log('削除を実行:', { year, index, label: item.label });
-      
       // CSVエクスポート用に削除前の内容を記録
       addDeletionRecord(year, item);
-      
-      // 物理削除（単一項目のみ）
+      // 物理削除
       items.splice(index, 1);
-      if (items.length === 0) {
-        delete events[year];
-        console.log('年のデータを削除:', year);
-      }
-      
-      console.log('項目を物理削除完了:', { year, index, label: item.label });
-      
-      // イベントリスナーをクリア
-      removeCurrentOutsideClickHandler();
-      
-      // データを保存
+      if (items.length === 0) delete events[year];
+      console.log('項目を物理削除:', { year, index, label: item.label });
       saveEvents();
-      
-      // 画面を再描画
       renderEvents();
-      
-      // 詳細一覧を再表示（残りの項目がある場合のみ）
-      if (events[year] && events[year].length > 0) {
-        showDetailList(year, null);
-      } else {
-        // 項目がなくなった場合は詳細一覧を閉じる
-        editor.style.display = 'none';
-      }
-      
-      console.log('削除処理完了、イベントリスナーをクリアしました');
-    } else {
-      console.log('削除をキャンセル');
+      showDetailList(year, null);
     }
   }
 
@@ -1700,11 +1548,10 @@
 
   // 個別編集用ポップアップ
   function showEditModal(year, index, item) {
-    console.log('showEditModal呼び出し:', year, index, item);
     clearHighlight();
     
     editor.innerHTML = `
-      <h4 style="cursor: move; user-select: none;" id="editModalHeader"><span>項目の編集</span></h4>
+      <h4><span>項目の編集</span></h4>
       <div style="margin-bottom: 16px;">
         <label style="display: block; margin-bottom: 4px; font-weight: bold;">開始年:</label>
         <input type="number" id="editStartYear" value="${item.startYear || ''}" style="width: 100%; padding: 8px; border: 1px solid #ddd; border-radius: 4px;" placeholder="例: 1952" min="${YEAR_MIN}" max="${YEAR_MAX}">
@@ -1772,33 +1619,10 @@
     editor.style.top = (rv.height / 2 - 200) + 'px';
     editor.style.display = 'block';
     editor.style.zIndex = '1000';
-    
-    // ドラッグ機能を追加
-    makeDraggable(editor, 'editModalHeader');
-    
-    // 外側クリックで閉じる機能を追加
-    function handleOutsideClick(e) {
-      console.log('編集モーダル外側クリックイベント:', e.target, editor.contains(e.target), editor.style.display);
-      if (!editor.contains(e.target) && editor.style.display === 'block') {
-        console.log('編集モーダル外側クリックでポップアップを閉じます');
-        close();
-      }
-    }
-    // 新しい管理システムを使用
-    setOutsideClickHandler(handleOutsideClick);
 
-    function close() { 
-      removeCurrentOutsideClickHandler();
-      editor.style.display = 'none'; 
-    }
-    editor.querySelector('#cancel').onclick = (e) => { 
-      e.stopPropagation();
-      close(); 
-    };
-    editor.querySelector('#save').onclick = (e) => { 
-      e.stopPropagation();
-      saveEditItem(year, index); 
-    };
+    function close() { editor.style.display = 'none'; }
+    editor.querySelector('#cancel').onclick = close;
+    editor.querySelector('#save').onclick = () => { saveEditItem(year, index); };
     // 入力中の長さ制限（URL + 注釈 合計最大512文字）
     const urlEl = document.getElementById('editUrl');
     const noteEl = document.getElementById('editNote');
@@ -1956,11 +1780,6 @@
     
     // 編集画面を自動で閉じる
     editor.style.display = 'none';
-    
-    // イベントリスナーをクリア
-    removeCurrentOutsideClickHandler();
-    
-    console.log('編集完了、イベントリスナーをクリアしました');
   }
 
   // 個別の項目から時代区分を登録する機能
@@ -2175,11 +1994,7 @@
       });
       tx.addEventListener('mousemove',positionTooltip);
       tx.addEventListener('mouseleave',()=>{tooltip.style.display='none'});
-      tx.addEventListener('click',(e)=>{ 
-        console.log('ラベルクリックイベント発火:', y, e.target);
-        tooltip.style.display='none'; 
-        showDetailList(y, e.target); 
-      });
+      tx.addEventListener('click',(e)=>{ tooltip.style.display='none'; showDetailList(y, e.target); });
     }
   }
   
@@ -3368,10 +3183,6 @@
         window.history.replaceState(null, '', newUrl);
       }catch(e){ console.warn('URL更新に失敗:', e); }
       const filePathChanged = prevFilePath !== githubConfig.filePath;
-      
-      // 画面上部のリポジトリ情報表示を更新
-      updateRepoInfoDisplay();
-      
       closeModal();
       showInfo('設定保存', '設定が保存されました。');
     if (filePathChanged) {
@@ -3770,22 +3581,8 @@
   }
 
   // ===== 空年クリックで編集を開く =====
-  function openEditorForEmptyYearAt(xCSS,yCSS){ 
-    console.log('openEditorForEmptyYearAt呼び出し:', xCSS, yCSS);
-    const rect=stage.getBoundingClientRect(); 
-    const scale=1; 
-    const x=(xCSS-rect.left)/scale; 
-    const y=(yCSS-rect.top)/scale; 
-    if(x >= ORIGIN_X - HANDLE_LANE_W) return; 
-    const year = YEAR_MIN + Math.round((y-ORIGIN_Y)/PX_PER_YEAR); 
-    if(year<YEAR_MIN||year>YEAR_MAX) return; 
-    showEditModal(year, -1, { label: '', startYear: year, endYear: '' }); 
-  }
-  stage.addEventListener('click', (e)=>{ 
-    console.log('stageクリックイベント:', e.target, e.target.tagName);
-    if(e.target && e.target.tagName && e.target.tagName.toLowerCase()==='text') return; 
-    openEditorForEmptyYearAt(e.clientX, e.clientY); 
-  });
+  function openEditorForEmptyYearAt(xCSS,yCSS){ const rect=stage.getBoundingClientRect(); const scale=1; const x=(xCSS-rect.left)/scale; const y=(yCSS-rect.top)/scale; if(x >= ORIGIN_X - HANDLE_LANE_W) return; const year = YEAR_MIN + Math.round((y-ORIGIN_Y)/PX_PER_YEAR); if(year<YEAR_MIN||year>YEAR_MAX) return; showEditModal(year, -1, { label: '', startYear: year, endYear: '' }); }
+  stage.addEventListener('click', (e)=>{ if(e.target && e.target.tagName && e.target.tagName.toLowerCase()==='text') return; openEditorForEmptyYearAt(e.clientX, e.clientY); });
 
   // ===== プローブ =====
   function makeProbe(color){
