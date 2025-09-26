@@ -1623,38 +1623,6 @@
         "imp": 3,
         "url": "https://ja.wikipedia.org/wiki/TRS-80",
         "note": "量販網とBASICでホビーゲーム制作の裾野を拡大。"
-      },
-      {
-        "label": "Tandy TRS-80",
-        "startYear": 1977,
-        "genre": [
-          "HAR-PC"
-        ],
-        "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/TRS-80",
-        "note": "量販網で北米に普及。教育/ホビー層を拡大。"
-      },
-      {
-        "label": "Apple II",
-        "startYear": 1977,
-        "genre": [
-          "HAR-PC",
-          "GAM"
-        ],
-        "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/Apple_II",
-        "note": "カラー/拡張性がゲーム開発や教育市場の土台に。"
-      },
-      {
-        "label": "TRS-80",
-        "startYear": 1977,
-        "genre": [
-          "HAR-PC",
-          "GAM"
-        ],
-        "imp": 3,
-        "url": "https://ja.wikipedia.org/wiki/TRS-80",
-        "note": "量販網とBASICでホビーゲーム制作の裾野を拡大。"
       }
     ],
     "1978": [
