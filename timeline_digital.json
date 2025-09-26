@@ -1030,16 +1030,6 @@
         "note": "PDP-11用リアルタイムOS。装置制御や実験制御を小規模で安価に"
       },
       {
-        "label": "PDP-11（研究・制御の本流）",
-        "startYear": 1970,
-        "genre": [
-          "HAR-PC"
-        ],
-        "imp": 5,
-        "url": "https://en.wikipedia.org/wiki/PDP-11",
-        "note": "周辺機器/RT-11等とともに計測制御/対話処理の“現場OS/機”を形成"
-      },
-      {
         "label": "大阪万博・ゲーム展示（IBM館ほか）",
         "startYear": 1970,
         "genre": [
@@ -1802,11 +1792,10 @@
         "note": "分散型電子会議が世界規模の議論/文化形成を促進。"
       },
       {
-        "label": "ウォークマン（文脈展示）",
+        "label": "ウォークマン",
         "startYear": 1979,
         "genre": [
-          "HAR-PER",
-          "MED"
+          "HAR-IMG"
         ],
         "imp": 3,
         "url": "https://ja.wikipedia.org/wiki/ウォークマン",
