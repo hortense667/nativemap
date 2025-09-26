@@ -10402,6 +10402,16 @@
     ],
     "2007": [
       {
+        "label": "iPhone",
+        "startYear": 2007,
+        "genre": [
+          "HAR"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/IPhone",
+        "note": "スマホ革命の起点"
+      },
+      {
         "label": "らき☆すた",
         "startYear": 2007,
         "genre": [
@@ -10411,16 +10421,6 @@
         "url": "https://ja.wikipedia.org/wiki/らき☆すた",
         "note": "オタク日常系の確立",
         "endYear": "ongoing"
-      },
-      {
-        "label": "iPhone",
-        "startYear": 2007,
-        "genre": [
-          "HAR"
-        ],
-        "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/IPhone",
-        "note": "スマホ革命の起点"
       },
       {
         "label": "Kindle",
@@ -12449,6 +12449,15 @@
     ],
     "2022": [
       {
+        "label": "ChatGPT",
+        "startYear": 2022,
+        "genre": [
+          "NET",
+          "UNC"
+        ],
+        "url": "https://ja.wikipedia.org/wiki/ChatGPT"
+      },
+      {
         "label": "チェンソーマン",
         "startYear": 2022,
         "endYear": 2022,
@@ -12653,7 +12662,7 @@
       "startYear": 1965,
       "endYear": 1979,
       "color": "#FFD700",
-      "opacity": "0.4",
+      "opacity": "0.5",
       "enabled": true,
       "fillEnabled": false
     },
@@ -12662,7 +12671,7 @@
       "startYear": 1980,
       "endYear": 1995,
       "color": "#4169E1",
-      "opacity": "0.4",
+      "opacity": "0.5",
       "enabled": true,
       "fillEnabled": false
     },
@@ -12671,9 +12680,9 @@
       "startYear": 1996,
       "endYear": 2010,
       "color": "#DC143C",
-      "opacity": "0.4",
+      "opacity": "0.5",
       "enabled": true,
-      "fillEnabled": false
+      "fillEnabled": true
     },
     {
       "name": "テレビ・マンガ・週刊誌の時代",
