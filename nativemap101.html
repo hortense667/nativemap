@@ -327,19 +327,26 @@
     'EVT':'イベント','FMT':'フォーマット','SPW':'スポーツ','RDE':'テーマパーク',
     'FOO':'食','UNC':'その他'
   };
+  let GENRE_CONJUNCTIONS={}; // conjunction: true のジャンルを管理
   let GENRE_SET=new Set(GENRES);
   function setGenresFromRemote(genresDef){
     try{
       if(Array.isArray(genresDef) && genresDef.length){
-        // 期待フォーマット: [{code:'ANI', label:'アニメ'}, ...]
-        const codes=[]; const labels={};
+        // 期待フォーマット: [{code:'ANI', label:'アニメ', conjunction: true}, ...]
+        const codes=[]; const labels={}; const conjunctions={};
         for(const g of genresDef){
           const code=String(g.code||'').toUpperCase();
           if(!code) continue;
           codes.push(code);
           labels[code]=g.label||code;
+          if(g.conjunction === true) conjunctions[code] = true;
         }
-        if(codes.length){ GENRES=codes; GENRE_LABELS=labels; GENRE_SET=new Set(GENRES); }
+        if(codes.length){ 
+          GENRES=codes; 
+          GENRE_LABELS=labels; 
+          GENRE_CONJUNCTIONS=conjunctions;
+          GENRE_SET=new Set(GENRES); 
+        }
       } else if(genresDef && genresDef.list && Array.isArray(genresDef.list)){
         // 互換フォーマット: {list:['ANI',...], labels:{ANI:'アニメ',...}}
         const codes=genresDef.list.map(c=>String(c).toUpperCase());
@@ -355,10 +362,39 @@
   function itemHasSelectedGenre(item){
     // 選択なしは true（後段で空集合扱いの箇所は別途制御）
     if(selectedGenres.size===0) return true;
+    
     const g=item.genre;
-    if(Array.isArray(g)) return g.some(code=>selectedGenres.has(String(code).toUpperCase()));
-    const code=String(g||'UNC').toUpperCase();
-    return selectedGenres.has(code);
+    const itemGenres = Array.isArray(g) ? g.map(code => String(code).toUpperCase()) : [String(g||'UNC').toUpperCase()];
+    
+    // conjunctionジャンルと通常ジャンルを分離
+    const selectedConjunctionGenres = [];
+    const selectedNormalGenres = [];
+    
+    for (const selectedGenre of selectedGenres) {
+      if (GENRE_CONJUNCTIONS[selectedGenre] === true) {
+        selectedConjunctionGenres.push(selectedGenre);
+      } else {
+        selectedNormalGenres.push(selectedGenre);
+      }
+    }
+    
+    // conjunctionジャンルが選択されている場合、それらすべてがアイテムに含まれている必要がある（AND条件）
+    if (selectedConjunctionGenres.length > 0) {
+      const hasAllConjunctionGenres = selectedConjunctionGenres.every(conjGenre => 
+        itemGenres.includes(conjGenre)
+      );
+      if (!hasAllConjunctionGenres) return false;
+    }
+    
+    // 通常ジャンルが選択されている場合、いずれかがアイテムに含まれていればよい（OR条件）
+    if (selectedNormalGenres.length > 0) {
+      const hasAnyNormalGenre = selectedNormalGenres.some(normalGenre => 
+        itemGenres.includes(normalGenre)
+      );
+      if (!hasAnyNormalGenre) return false;
+    }
+    
+    return true;
   }
   function normalizeItem(it){ if(typeof it==='string') return {label: it}; const o={ label: it.label||'' }; if(it.startYear!==undefined && it.startYear!==null && String(it.startYear)!==''){ const n = parseInt(it.startYear,10); if(n>=YEAR_MIN && n<=YEAR_MAX) o.startYear=n; else o.startYear=''; } if(it.endYear!==undefined && it.endYear!==null && String(it.endYear)!==''){ if(String(it.endYear).toLowerCase() === 'ongoing') { o.endYear = 'ongoing'; } else { const n = parseInt(it.endYear,10); if(n>=YEAR_MIN && n<=YEAR_MAX) o.endYear=n; else o.endYear=''; } } if(it.genre) { if(Array.isArray(it.genre)) { o.genre = it.genre.map(g => String(g).toUpperCase()); } else { const genres = String(it.genre).split('・').map(g => g.trim().toUpperCase()); o.genre = genres.length > 0 ? genres : [String(it.genre).toUpperCase()]; } } if(it.imp!==undefined && it.imp!==null && String(it.imp)!==''){ const n = parseInt(it.imp,10); if(n>=1 && n<=5) o.imp=n; else o.imp=''; } if(it.url) o.url = it.url; if(it.note) o.note = it.note; if(it.deleted !== undefined) o.deleted = it.deleted; return o; }
   function normalizeAll(obj){ const out={}; for(const y of Object.keys(obj)){ const arr = Array.isArray(obj[y])? obj[y] : []; out[y] = arr.map(normalizeItem).filter(it=>it.label); } return out; }
@@ -1575,12 +1611,17 @@
       
       <div style="margin-bottom: 16px;">
         <label style="display: block; margin-bottom: 8px; font-weight: bold;">ジャンル:</label>
+        ${Object.keys(GENRE_CONJUNCTIONS).length > 0 ? '<div style="margin-bottom: 8px; font-size: 12px; color: #666;">[]のあるジャンルはAND条件で抽出されます</div>' : ''}
         <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; border: 1px solid #ddd; border-radius: 4px; padding: 8px;">
-          ${GENRES.map(code => `
-          <label style=\"display: flex; align-items: center; gap: 4px; font-size: 13px;\">
-            <input type=\"checkbox\" value=\"${code}\" ${Array.isArray(item.genre) ? (item.genre.includes(code) ? 'checked' : '') : (item.genre === code ? 'checked' : '')}>
-            ${GENRE_LABELS[code] || code}
-          </label>`).join('')}
+          ${GENRES.map(code => {
+            const isConjunction = GENRE_CONJUNCTIONS[code] === true;
+            const displayLabel = isConjunction ? `[${GENRE_LABELS[code] || code}]` : (GENRE_LABELS[code] || code);
+            return `
+            <label style=\"display: flex; align-items: center; gap: 4px; font-size: 13px; color: ${isConjunction ? '#155724' : 'inherit'};\">
+              <input type=\"checkbox\" value=\"${code}\" ${Array.isArray(item.genre) ? (item.genre.includes(code) ? 'checked' : '') : (item.genre === code ? 'checked' : '')}>
+              ${displayLabel}
+            </label>`;
+          }).join('')}
         </div>
       </div>
       
@@ -3694,15 +3735,28 @@
     const genreLabels = GENRE_LABELS;
     
     let genreButtonsHtml = '';
+    let hasConjunctionGenres = false;
+    
     for (const genre of GENRES) {
       const isSelected = selectedGenres.has(genre);
+      const isConjunction = GENRE_CONJUNCTIONS[genre] === true;
       const label = (GENRE_LABELS && GENRE_LABELS[genre]) ? GENRE_LABELS[genre] : (genreLabels[genre] || genre);
+      const displayLabel = isConjunction ? `[${label}]` : label;
+      
+      if (isConjunction) hasConjunctionGenres = true;
+      
+      // conjunctionジャンルは特別な色を使用
+      const bgColor = isSelected 
+        ? (isConjunction ? '#28a745' : '#007bff')  // 選択時: conjunctionは緑、通常は青
+        : (isConjunction ? '#e8f5e8' : '#f9f9f9'); // 非選択時: conjunctionは薄緑、通常は薄グレー
+      const textColor = isSelected ? 'white' : (isConjunction ? '#155724' : 'black');
+      
       genreButtonsHtml += `
         <button class="genre-btn ${isSelected ? 'selected' : ''}" 
                 data-genre="${genre}" 
                 onclick="toggleGenre('${genre}')"
-                style="padding: 8px 12px; border: 1px solid #ddd; border-radius: 4px; cursor: pointer; background: ${isSelected ? '#007bff' : '#f9f9f9'}; color: ${isSelected ? 'white' : 'black'};">
-          ${label}
+                style="padding: 8px 12px; border: 1px solid ${isConjunction ? '#28a745' : '#ddd'}; border-radius: 4px; cursor: pointer; background: ${bgColor}; color: ${textColor};">
+          ${displayLabel}
         </button>
       `;
     }
@@ -3712,6 +3766,7 @@
         <button onclick="selectAllGenres()" style="margin-right: 8px; padding: 6px 12px; background: #007bff; color: white; border: none; border-radius: 4px; cursor: pointer;">すべてを選択</button>
         <button onclick="deselectAllGenres()" style="padding: 6px 12px; background: #6c757d; color: white; border: none; border-radius: 4px; cursor: pointer;">すべてを解除</button>
       </div>
+      ${hasConjunctionGenres ? '<div style="margin-bottom: 8px; font-size: 12px; color: #666;">[]のあるジャンルはAND条件で抽出されます</div>' : ''}
       <div style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 8px; margin-bottom: 16px;">
         ${genreButtonsHtml}
       </div>
@@ -3733,9 +3788,19 @@
     const btn = document.querySelector(`[data-genre="${genre}"]`);
     if (btn) {
       const isSelected = selectedGenres.has(genre);
+      const isConjunction = GENRE_CONJUNCTIONS[genre] === true;
+      
       btn.classList.toggle('selected', isSelected);
-      btn.style.background = isSelected ? '#007bff' : '#f9f9f9';
-      btn.style.color = isSelected ? 'white' : 'black';
+      
+      // conjunctionジャンルは特別な色を使用
+      const bgColor = isSelected 
+        ? (isConjunction ? '#28a745' : '#007bff')  // 選択時: conjunctionは緑、通常は青
+        : (isConjunction ? '#e8f5e8' : '#f9f9f9'); // 非選択時: conjunctionは薄緑、通常は薄グレー
+      const textColor = isSelected ? 'white' : (isConjunction ? '#155724' : 'black');
+      
+      btn.style.background = bgColor;
+      btn.style.color = textColor;
+      btn.style.borderColor = isConjunction ? '#28a745' : '#ddd';
     }
   }
   
