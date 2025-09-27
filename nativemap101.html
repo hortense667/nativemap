@@ -90,6 +90,10 @@
       <button id="eraBtn" style="padding: 4px 8px; border: 1px solid #ccc; background: #f9f9f9; cursor: pointer; border-radius: 4px;">
         時代区分
       </button>
+      <label style="display: flex; align-items: center; gap: 4px; font-size: 12px; color: #666;">
+        <input type="checkbox" id="probeSyncCheckbox" style="margin: 0;" />
+        プローブ連動
+      </label>
     </div>
     <div style="display: flex; gap: 6px; align-items: center; margin-left: auto;">
       <input id="searchBox" type="text" placeholder="ラベルを検索（選択中ジャンルのみ）" style="padding: 6px 8px; border: 1px solid #ccc; border-radius: 8px; min-width: 220px;" />
@@ -180,6 +184,7 @@
   const prevBtn=document.getElementById('prevBtn');
   const nextBtn=document.getElementById('nextBtn');
   const detailSearchCheckbox=document.getElementById('detailSearchCheckbox');
+  const probeSyncCheckbox=document.getElementById('probeSyncCheckbox');
   const loadCsvBtn=null;
   const syncBtn=document.getElementById('syncBtn');
   const settingsBtn=document.getElementById('settingsBtn');
@@ -451,6 +456,17 @@
   
   // 順番変更フラグ
   let orderChanged = false;
+  
+  // プローブ連動用の位置関係記憶
+  let probeSyncData = {
+    isActive: false,
+    redBottomYear: null,
+    blueBottomYear: null,
+    redTopYear: null,
+    blueTopYear: null,
+    redAgeDiff: null,  // 赤プローブの上下の年差
+    blueAgeDiff: null  // 水色プローブの上下の年差
+  };
   
   // 編集フラグを保存
   function saveEditFlags() {
@@ -3741,7 +3757,14 @@
 
     function startDrag(){ document.body.classList.add('dragging'); }
     function endDrag(){ document.body.classList.remove('dragging'); }
-    function dragByYear(el,prop){ let dragging=false, startY=0, startVal=0; el.addEventListener('mousedown',e=>{ dragging=true; startY=e.clientY; startVal=state[prop]; startDrag(); e.preventDefault(); e.stopPropagation(); }); window.addEventListener('mousemove',e=>{ if(!dragging) return; const dy=e.clientY-startY; const dYear=Math.round(dy/PX_PER_YEAR); state[prop]=Math.max(YEAR_MIN,Math.min(YEAR_MAX,startVal+dYear)); redraw(); }); window.addEventListener('mouseup',()=>{ if(dragging){ dragging=false; endDrag(); } }); }
+    function dragByYear(el,prop){ let dragging=false, startY=0, startVal=0; el.addEventListener('mousedown',e=>{ dragging=true; startY=e.clientY; startVal=state[prop]; startDrag(); e.preventDefault(); e.stopPropagation(); }); window.addEventListener('mousemove',e=>{ if(!dragging) return; const dy=e.clientY-startY; const dYear=Math.round(dy/PX_PER_YEAR); const newVal = Math.max(YEAR_MIN,Math.min(YEAR_MAX,startVal+dYear)); state[prop] = newVal; 
+      
+      // プローブ連動処理
+      if (probeSyncData.isActive) {
+        handleProbeSync(color, prop, newVal);
+      }
+      
+      redraw(); }); window.addEventListener('mouseup',()=>{ if(dragging){ dragging=false; endDrag(); } }); }
     dragByYear(eh,'eventYear'); dragByYear(bh,'birthYear'); dragByYear(vLine,'birthYear');
 
     state.redraw=redraw; redraw(); return state;
@@ -3749,6 +3772,80 @@
 
   const probeBlue=makeProbe('blue');
   const probeRed=makeProbe('red');
+  
+  // ===== プローブ連動機能 =====
+  function saveProbeSyncData() {
+    if (!probeSyncData.isActive) return;
+    
+    // 現在のプローブ位置を記憶
+    probeSyncData.redBottomYear = probeRed.eventYear;
+    probeSyncData.blueBottomYear = probeBlue.eventYear;
+    probeSyncData.redTopYear = probeRed.birthYear;
+    probeSyncData.blueTopYear = probeBlue.birthYear;
+    
+    // 年差を計算
+    probeSyncData.redAgeDiff = probeRed.eventYear - probeRed.birthYear;
+    probeSyncData.blueAgeDiff = probeBlue.eventYear - probeBlue.birthYear;
+    
+    console.log('プローブ連動データを保存:', probeSyncData);
+  }
+  
+  function handleProbeSync(draggedColor, draggedProp, newValue) {
+    if (!probeSyncData.isActive) return;
+    
+    const otherColor = draggedColor === 'red' ? 'blue' : 'red';
+    const otherProbe = otherColor === 'red' ? probeRed : probeBlue;
+    
+    if (draggedProp === 'eventYear') {
+      // 下の丸（eventYear）をドラッグした場合
+      // 両方のプローブの下の丸を同じ年にする
+      probeRed.eventYear = newValue;
+      probeBlue.eventYear = newValue;
+      
+      // 上の丸も年差を維持して移動
+      probeRed.birthYear = newValue - probeSyncData.redAgeDiff;
+      probeBlue.birthYear = newValue - probeSyncData.blueAgeDiff;
+      
+    } else if (draggedProp === 'birthYear') {
+      // 上の丸（birthYear）をドラッグした場合
+      // 年差を維持して両方のプローブを移動
+      const ageDiff = newValue - probeSyncData[draggedColor + 'BottomYear'];
+      
+      probeRed.birthYear = probeSyncData.redTopYear + ageDiff;
+      probeBlue.birthYear = probeSyncData.blueTopYear + ageDiff;
+      
+      // 下の丸も同じ年差で移動
+      probeRed.eventYear = probeSyncData.redBottomYear + ageDiff;
+      probeBlue.eventYear = probeSyncData.blueBottomYear + ageDiff;
+    }
+    
+    // 両方のプローブを再描画
+    probeRed.redraw();
+    probeBlue.redraw();
+  }
+  
+  // プローブ連動チェックボックスのイベントリスナー
+  probeSyncCheckbox.addEventListener('change', () => {
+    probeSyncData.isActive = probeSyncCheckbox.checked;
+    
+    if (probeSyncData.isActive) {
+      // 連動開始時：現在の位置関係を記憶
+      saveProbeSyncData();
+      console.log('プローブ連動を開始');
+    } else {
+      // 連動終了時：データをクリア
+      probeSyncData = {
+        isActive: false,
+        redBottomYear: null,
+        blueBottomYear: null,
+        redTopYear: null,
+        blueTopYear: null,
+        redAgeDiff: null,
+        blueAgeDiff: null
+      };
+      console.log('プローブ連動を終了');
+    }
+  });
 
   // ライン表示トグル（小丸ボタン）
   const blueGroup=document.getElementById('probe-blue');
