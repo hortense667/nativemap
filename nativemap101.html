@@ -284,6 +284,9 @@
     modal.setAttribute('aria-hidden','false');
     modal.style.display = 'flex';
     modal.dataset.prevFocusId = prevFocus && prevFocus.id ? prevFocus.id : '';
+    // モーダルを開いたときにスクロール位置を先頭にリセット
+    modal.scrollTop = 0;
+    modalContent.scrollTop = 0;
     modalClose.focus();
   }
   function openModalText(title, text){
@@ -293,6 +296,9 @@
     modal.setAttribute('aria-hidden','false');
     modal.style.display = 'flex';
     modal.dataset.prevFocusId = prevFocus && prevFocus.id ? prevFocus.id : '';
+    // モーダルを開いたときにスクロール位置を先頭にリセット
+    modal.scrollTop = 0;
+    modalContent.scrollTop = 0;
     modalClose.focus();
   }
   function closeModal(){
