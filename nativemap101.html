@@ -3918,8 +3918,11 @@
       　編集した内容は「同期」ボタンの押下で修正内容をローカルに保存できます。<br>
       　★リモートDBには反映されませんのでご注意ください。<br>
       　修正内容は管理者にお送りいただけるととくに競合する内容がない限り反映させていただく方針です。</p>
-      <p>※サービスは試験運用中です。<br>
-      ※詳しい使い方は、<a href="https://github.com/hortense667/nativemap" target="_blank">https://github.com/hortense667/nativemap</a> をご覧ください。</p>
+      <p>※サービスは試験運用中です。</p>
+      <div style="margin: 16px 0; display: flex; gap: 8px;">
+        <button onclick="showReadmeModal()" style="padding: 8px 16px; background: #007bff; color: white; border: none; border-radius: 4px; cursor: pointer;">詳しい使いかた</button>
+        <button onclick="showMaintenanceGuideModal()" style="padding: 8px 16px; background: #28a745; color: white; border: none; border-radius: 4px; cursor: pointer;">メンテナンスガイド</button>
+      </div>
       <hr style="margin: 20px 0;">
       <h4>使いかたの例（任天堂ファミコン）</h4>
       <p>任天堂のファミコン発売時の年齢を知りたいとします。</p>
@@ -3976,6 +3979,69 @@
     `;
     openModal('ヘルプ - ネイティブマップ 1.0', helpHtml);
   });
+
+  // GitHubのREADMEを表示する関数
+  async function showReadmeModal() {
+    try {
+      const response = await fetch('https://raw.githubusercontent.com/hortense667/nativemap/main/README.md');
+      if (!response.ok) throw new Error('READMEの取得に失敗しました');
+      const markdown = await response.text();
+      const html = convertMarkdownToHtml(markdown);
+      openModal('詳しい使いかた', html);
+    } catch (error) {
+      showError('エラー', `READMEの読み込みに失敗しました: ${error.message}`);
+    }
+  }
+
+  // メンテナンスガイドを表示する関数
+  async function showMaintenanceGuideModal() {
+    try {
+      const response = await fetch('https://raw.githubusercontent.com/hortense667/nativemap/main/%E3%83%8D%E3%82%A4%E3%83%86%E3%82%A3%E3%83%96%E3%83%9E%E3%83%83%E3%83%97_%E3%83%A1%E3%83%B3%E3%83%86%E3%83%8A%E3%83%B3%E3%82%B9%E3%82%AC%E3%82%A4%E3%83%89.md');
+      if (!response.ok) throw new Error('メンテナンスガイドの取得に失敗しました');
+      const markdown = await response.text();
+      const html = convertMarkdownToHtml(markdown);
+      openModal('メンテナンスガイド', html);
+    } catch (error) {
+      showError('エラー', `メンテナンスガイドの読み込みに失敗しました: ${error.message}`);
+    }
+  }
+
+  // 簡易Markdown→HTML変換関数
+  function convertMarkdownToHtml(markdown) {
+    return markdown
+      // 見出し
+      .replace(/^### (.*$)/gim, '<h3>$1</h3>')
+      .replace(/^## (.*$)/gim, '<h2>$1</h2>')
+      .replace(/^# (.*$)/gim, '<h1>$1</h1>')
+      // コードブロック
+      .replace(/```([\s\S]*?)```/g, '<pre><code>$1</code></pre>')
+      // インラインコード
+      .replace(/`([^`]+)`/g, '<code>$1</code>')
+      // 太字
+      .replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>')
+      // 斜体
+      .replace(/\*(.*?)\*/g, '<em>$1</em>')
+      // リンク
+      .replace(/\[([^\]]+)\]\(([^)]+)\)/g, '<a href="$2" target="_blank">$1</a>')
+      // リスト
+      .replace(/^\* (.*$)/gim, '<li>$1</li>')
+      .replace(/^- (.*$)/gim, '<li>$1</li>')
+      .replace(/^(\d+)\. (.*$)/gim, '<li>$1. $2</li>')
+      // 段落
+      .replace(/\n\n/g, '</p><p>')
+      .replace(/^(?!<[h|l|p|d])/gm, '<p>')
+      .replace(/(?<!>)$/gm, '</p>')
+      // 改行
+      .replace(/\n/g, '<br>')
+      // 不要なタグをクリーンアップ
+      .replace(/<p><\/p>/g, '')
+      .replace(/<p>(<h[1-6]>)/g, '$1')
+      .replace(/(<\/h[1-6]>)<\/p>/g, '$1')
+      .replace(/<p>(<li>)/g, '<ul>$1')
+      .replace(/(<\/li>)<\/p>/g, '$1</ul>')
+      .replace(/<p>(<pre>)/g, '$1')
+      .replace(/(<\/pre>)<\/p>/g, '$1');
+  }
 
   // ===== スモークテスト =====
   function runSmokeTests(){ try { renderEvents(); console.debug('[TEST] renderEvents (clip no-ellipsis): OK'); } catch(e){ console.error('[TEST] renderEvents threw', e); } }
