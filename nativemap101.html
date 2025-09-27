@@ -765,8 +765,8 @@
     try{ 
       const data = {
         events: events,
-        eraSettings: eraSettings,
-        genres: GENRES.map(code=>({code, label: (GENRE_LABELS && GENRE_LABELS[code]) ? GENRE_LABELS[code] : code}))
+        eraSettings: eraSettings
+        // genres項目は除外（リモートから読み込むのみでローカル編集はしない）
       };
       
       // 削除フラグ付きの項目をチェック
@@ -2988,8 +2988,8 @@
       console.log('GitHubにデータを保存中...');
       const dataToSave = {
         events: merged,
-        eraSettings: toSaveEraSettings, // リモートに保存するのは同名上書き分と新規取り込み分のみ
-        genres: GENRES.map(code=>({code, label: (GENRE_LABELS && GENRE_LABELS[code]) ? GENRE_LABELS[code] : code}))
+        eraSettings: toSaveEraSettings // リモートに保存するのは同名上書き分と新規取り込み分のみ
+        // genres項目は除外（リモートから読み込むのみでローカル編集はしない）
       };
       console.log('保存するデータ構造:', {
         hasEvents: !!dataToSave.events,
