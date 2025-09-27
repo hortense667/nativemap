@@ -95,10 +95,11 @@
       <input id="searchBox" type="text" placeholder="ラベルを検索（選択中ジャンルのみ）" />
       <button class="btn" id="searchBtn">検索</button>
       <button class="btn" id="prevBtn">前</button>
-      <button class="btn" id="nextBtn">次</button><label style="display: flex; align-items: center; gap: 4px; font-size: 12px; color: #666;">
+      <div style="display: inline-flex; align-items: center; gap: 4px;">
+        <button class="btn" id="nextBtn">次</button>
         <input type="checkbox" id="detailSearchCheckbox" style="margin: 0;" />
-        詳細
-      </label>
+        <span style="font-size: 12px; color: #666;">詳細</span>
+      </div>
     </div>
     <div class="legend">
       <button class="btn" id="syncBtn" title="GitHubと同期">同期</button>
