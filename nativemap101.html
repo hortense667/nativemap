@@ -96,6 +96,10 @@
       <button class="btn" id="searchBtn">検索</button>
       <button class="btn" id="prevBtn">前</button>
       <button class="btn" id="nextBtn">次</button>
+      <label style="display: flex; align-items: center; gap: 4px; font-size: 12px; color: #666; margin-left: 8px;">
+        <input type="checkbox" id="detailSearchCheckbox" style="margin: 0;" />
+        詳細検索
+      </label>
     </div>
     <div class="legend">
       <button class="btn" id="syncBtn" title="GitHubと同期">同期</button>
@@ -177,6 +181,7 @@
   const searchBtn=document.getElementById('searchBtn');
   const prevBtn=document.getElementById('prevBtn');
   const nextBtn=document.getElementById('nextBtn');
+  const detailSearchCheckbox=document.getElementById('detailSearchCheckbox');
   const loadCsvBtn=null;
   const syncBtn=document.getElementById('syncBtn');
   const settingsBtn=document.getElementById('settingsBtn');
@@ -2056,6 +2061,13 @@
   }
 
   // ===== 検索 =====
+  function updateSearchPlaceholder() {
+    const isDetailSearch = detailSearchCheckbox.checked;
+    searchBox.placeholder = isDetailSearch ? 
+      "詳細検索（選択中ジャンルのみ）" : 
+      "ラベルを検索（選択中ジャンルのみ）";
+  }
+  
   function doSearch(){ 
     clearHighlight(true); 
     const q=searchBox.value.trim(); 
@@ -2068,20 +2080,32 @@
     } 
     
     console.log('検索クエリ:', q);
+    console.log('詳細検索モード:', detailSearchCheckbox.checked);
     console.log('events:', events);
     
-    // 検索対象は「選択中ジャンルのラベルのみ」
+    // 検索対象は「選択中ジャンルのラベルのみ」（詳細検索時は注釈も含む）
     const searchResults = [];
+    const isDetailSearch = detailSearchCheckbox.checked;
+    
     for (const year of Object.keys(events)) {
       const items = events[year] || [];
       for (const item of items) {
         // ジャンルフィルタ
         if (selectedGenres.size === 0) continue;
         if (!itemHasSelectedGenre(item)) continue;
+        
+        // ラベル検索
         const labelMatch = item.label && item.label.toLowerCase().includes(q.toLowerCase());
-        if (labelMatch) {
+        
+        // 詳細検索時は注釈も検索対象に含める
+        let noteMatch = false;
+        if (isDetailSearch && item.note) {
+          noteMatch = item.note.toLowerCase().includes(q.toLowerCase());
+        }
+        
+        if (labelMatch || noteMatch) {
           searchResults.push({ year: parseInt(year), item });
-          console.log('マッチした項目:', { year, item, labelMatch });
+          console.log('マッチした項目:', { year, item, labelMatch, noteMatch });
         }
       }
     }
@@ -2113,6 +2137,13 @@
   searchBox.addEventListener('keydown', e=>{ if(e.key==='Enter'){ doSearch(); }});
   nextBtn.addEventListener('click', ()=> nextMatch(1));
   prevBtn.addEventListener('click', ()=> nextMatch(-1));
+  detailSearchCheckbox.addEventListener('change', ()=> {
+    updateSearchPlaceholder();
+    // 検索ボックスに文字が入力されている場合は再検索を実行
+    if (searchBox.value.trim()) {
+      doSearch();
+    }
+  });
   vp.addEventListener('mousemove', ()=>{ if(clearOnNextMove) { clearHighlight(); } });
   vp.addEventListener('click', ()=>{ if(clearOnNextMove) { clearHighlight(); } });
 
