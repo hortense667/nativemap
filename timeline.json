@@ -62,17 +62,6 @@
         "note": "北欧発の量販ファッション"
       },
       {
-        "label": "新宝島",
-        "startYear": 1947,
-        "endYear": 1947,
-        "genre": [
-          "MAN"
-        ],
-        "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/新宝島_(漫画)",
-        "note": "手塚革命の起点となる"
-      },
-      {
         "label": "斜陽",
         "startYear": 1947,
         "genre": [
@@ -91,6 +80,29 @@
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/ニュー・ルック",
         "note": "戦後女性像を刷新した革新"
+      },
+      {
+        "label": "新宝島",
+        "startYear": 1947,
+        "endYear": 1947,
+        "genre": [
+          "JAPAN",
+          "MAN"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/新宝島_(漫画)",
+        "note": "手塚革命の起点となる"
+      },
+      {
+        "label": "新宝島",
+        "startYear": 1947,
+        "endYear": 1947,
+        "genre": [
+          "MAN"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/新宝島_(漫画)",
+        "note": "手塚革命の起点となる"
       }
     ],
     "1948": [
@@ -12709,105 +12721,6 @@
       "opacity": "0.3",
       "enabled": true,
       "fillEnabled": false
-    }
-  ],
-  "genres": [
-    {
-      "code": "ANI",
-      "label": "アニメ"
-    },
-    {
-      "code": "MAN",
-      "label": "マンガ"
-    },
-    {
-      "code": "GAM",
-      "label": "ゲーム"
-    },
-    {
-      "code": "TVP",
-      "label": "テレビ番組"
-    },
-    {
-      "code": "MOV",
-      "label": "映画"
-    },
-    {
-      "code": "NET",
-      "label": "インターネット"
-    },
-    {
-      "code": "HAR",
-      "label": "ハードウェア"
-    },
-    {
-      "code": "PHE",
-      "label": "現象・流行"
-    },
-    {
-      "code": "SOF",
-      "label": "ソフトウェア"
-    },
-    {
-      "code": "TOY",
-      "label": "おもちゃ"
-    },
-    {
-      "code": "FAS",
-      "label": "ファッション"
-    },
-    {
-      "code": "BOO",
-      "label": "書籍"
-    },
-    {
-      "code": "MAG",
-      "label": "雑誌"
-    },
-    {
-      "code": "NOV",
-      "label": "小説"
-    },
-    {
-      "code": "MUS",
-      "label": "音楽"
-    },
-    {
-      "code": "IDL",
-      "label": "アイドル"
-    },
-    {
-      "code": "RDO",
-      "label": "ラジオ"
-    },
-    {
-      "code": "EVT",
-      "label": "イベント"
-    },
-    {
-      "code": "FMT",
-      "label": "フォーマット"
-    },
-    {
-      "code": "SPW",
-      "label": "スポーツ"
-    },
-    {
-      "code": "RDE",
-      "label": "乗り物"
-    },
-    {
-      "code": "FOO",
-      "label": "食"
-    },
-    {
-      "code": "UNC",
-      "label": "その他"
-    },
-    {
-      "code": "JAPAN",
-      "label": "日本",
-      "conjunction": true
     }
   ]
 }
