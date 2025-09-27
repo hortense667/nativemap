@@ -12802,8 +12802,9 @@
       "label": "その他"
     },
     {
-      "code": "PND",
-      "label": "保留"
+      "code": "JAPAN",
+      "label": "[日本]",
+      "conjunction": true
     }
   ]
 }
