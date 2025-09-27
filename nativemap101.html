@@ -3978,6 +3978,13 @@
       <div class="credit">(c) 2025 Satoshi Endo CC-BY 4.0</div>
     `;
     openModal('ヘルプ - ネイティブマップ 1.0', helpHtml);
+    // モーダルを開いた後、先頭にスクロール
+    setTimeout(() => {
+      const modalContent = document.getElementById('modalContent');
+      if (modalContent) {
+        modalContent.scrollTop = 0;
+      }
+    }, 100);
   });
 
   // GitHubのREADMEを表示する関数
@@ -4005,6 +4012,10 @@
       showError('エラー', `メンテナンスガイドの読み込みに失敗しました: ${error.message}`);
     }
   }
+
+  // グローバル関数として公開
+  window.showReadmeModal = showReadmeModal;
+  window.showMaintenanceGuideModal = showMaintenanceGuideModal;
 
   // 簡易Markdown→HTML変換関数
   function convertMarkdownToHtml(markdown) {
