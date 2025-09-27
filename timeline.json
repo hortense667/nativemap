@@ -40,6 +40,18 @@
         "startYear": 1946,
         "endYear": 1974,
         "genre": [
+          "JAPAN",
+          "MAN"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/サザエさん",
+        "note": "戦後家庭漫画の代表作"
+      },
+      {
+        "label": "サザエさん",
+        "startYear": 1946,
+        "endYear": 1974,
+        "genre": [
           "MAN"
         ],
         "imp": 5,
@@ -12803,8 +12815,7 @@
     },
     {
       "code": "JAPAN",
-      "label": "日本",
-      "conjunction": true
+      "label": "日本"
     }
   ]
 }
