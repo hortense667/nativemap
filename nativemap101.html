@@ -3795,13 +3795,29 @@
     
     if (draggedProp === 'eventYear') {
       // 下の丸（eventYear）をドラッグした場合
-      // 両方のプローブの下の丸を同じ年にする
-      probeRed.eventYear = newValue;
-      probeBlue.eventYear = newValue;
+      // ドラッグされたプローブの下の丸を新しい位置に設定
+      if (draggedColor === 'red') {
+        probeRed.eventYear = newValue;
+        // 上の丸を年差を維持して移動
+        probeRed.birthYear = newValue - probeSyncData.redAgeDiff;
+      } else {
+        probeBlue.eventYear = newValue;
+        // 上の丸を年差を維持して移動
+        probeBlue.birthYear = newValue - probeSyncData.blueAgeDiff;
+      }
       
-      // 上の丸も年差を維持して移動
-      probeRed.birthYear = newValue - probeSyncData.redAgeDiff;
-      probeBlue.birthYear = newValue - probeSyncData.blueAgeDiff;
+      // もう一方のプローブも同じ年差で移動
+      const yearDiff = newValue - probeSyncData[draggedColor + 'BottomYear'];
+      
+      if (draggedColor === 'red') {
+        // 赤をドラッグした場合、水色も同じ年差で移動
+        probeBlue.eventYear = probeSyncData.blueBottomYear + yearDiff;
+        probeBlue.birthYear = probeSyncData.blueTopYear + yearDiff;
+      } else {
+        // 水色をドラッグした場合、赤も同じ年差で移動
+        probeRed.eventYear = probeSyncData.redBottomYear + yearDiff;
+        probeRed.birthYear = probeSyncData.redTopYear + yearDiff;
+      }
       
     } else if (draggedProp === 'birthYear') {
       // 上の丸（birthYear）をドラッグした場合
