@@ -26,17 +26,6 @@
         "note": "初の大規模電子計算機。実際の開発中は第二次世界大戦中に進んでいてあくまで公開日が1946年。大砲の弾道計算のために開発されたが、実際は核兵器開発に使われた。"
       },
       {
-        "label": "世界 (雑誌)",
-        "startYear": 1946,
-        "genre": [
-          "MAG"
-        ],
-        "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/世界_(雑誌)",
-        "note": "戦後思想の論壇誌",
-        "endYear": "ongoing"
-      },
-      {
         "label": "サザエさん",
         "startYear": 1946,
         "endYear": 1974,
@@ -47,6 +36,18 @@
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/サザエさん",
         "note": "戦後家庭漫画の代表作"
+      },
+      {
+        "label": "世界 (雑誌)",
+        "startYear": 1946,
+        "endYear": "ongoing",
+        "genre": [
+          "JAPAN",
+          "MAG"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/世界_(雑誌)",
+        "note": "戦後思想の論壇誌"
       }
     ],
     "1947": [
