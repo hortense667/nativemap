@@ -120,31 +120,7 @@
         "startYear": 1947,
         "endYear": 1947,
         "genre": [
-          "JAPAN",
           "MAN"
-        ],
-        "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/新宝島_(漫画)",
-        "note": "手塚革命の起点となる"
-      },
-      {
-        "label": "新宝島",
-        "startYear": 1947,
-        "endYear": 1947,
-        "genre": [
-          "MAN"
-        ],
-        "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/新宝島_(漫画)",
-        "note": "手塚革命の起点となる"
-      },
-      {
-        "label": "新宝島",
-        "startYear": 1947,
-        "endYear": 1947,
-        "genre": [
-          "MAN",
-          "JAPAN"
         ],
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/新宝島_(漫画)",
