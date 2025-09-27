@@ -54,14 +54,15 @@ Copyright (c) 2025 Satoshi Endoh / @hortense667
 
 1. **アプリケーションを開く**:
    ```
-   オンライン: https://nativemap.pages.dev/?owner=hortense667&repo=nativemap&filePath=timeline.json
+   オンライン: https://hortense667.github.io/nativemap/nativemap101.htm
+              https://nativemap.pages.dev/
    ローカル:   http://localhost:8000/nativemap101.html
    ```
 
 2. **URLパラメータでの指定**（推奨）:
    ```
+   https://hortense667.github.io/nativemap/nativemap101.htm?owner=hortense667&repo=nativemap&filePath=timeline.json
    https://nativemap.pages.dev/?owner=hortense667&repo=nativemap&filePath=timeline.json
-   https://nativemap.pages.dev/?owner=hortense667&repo=nativemap&filePath=timeline_digital.json
    ```
 
 3. **基本的な操作**:
@@ -131,6 +132,7 @@ python -m http.server 8000
 ---
 
 **ネイティブマップ** - 年代を超えたイベントの可視化ツール
+
 
 
 
