@@ -12806,7 +12806,8 @@
     },
     {
       "code": "JAPAN",
-      "label": "日本"
+      "label": "日本",
+      "conjunction": true
     }
   ]
 }
