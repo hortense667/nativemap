@@ -10,7 +10,8 @@ Copyright (c) 2025 Satoshi Endoh / @hortense667
 
 - **データ**: [CC BY-SA 4.0](LICENSE) - Creative Commons Attribution-ShareAlike 4.0 International License
 - **プログラム**: MIT License
-- **お願い**: Development in progress 2025年9月現在、本格的な受け入れ体制が整うまでプルリクエストは受け付けません。
+- **お願い**: Development in progress 2025年9～10月現在、本格的な受け入れ体制が整うまでプルリクエストは受け付けません。いましばらく静かに開発させてもらえると助かります。
+- As of September to October 2025, we will not be accepting pull requests until a comprehensive acceptance system is established. We would appreciate it if you could allow us to continue development quietly for the time being.
 
 ## 開発趣旨
 
@@ -53,13 +54,14 @@ Copyright (c) 2025 Satoshi Endoh / @hortense667
 
 1. **アプリケーションを開く**:
    ```
-   オンライン: https://hortense667.github.io/nativemap/nativemap101.html
+   オンライン: https://nativemap.pages.dev/?owner=hortense667&repo=nativemap&filePath=timeline.json
    ローカル:   http://localhost:8000/nativemap101.html
    ```
 
 2. **URLパラメータでの指定**（推奨）:
    ```
-   nativemap101.html?owner=hortense667&repo=nativemap&filePath=timeline.json
+   https://nativemap.pages.dev/?owner=hortense667&repo=nativemap&filePath=timeline.json
+   https://nativemap.pages.dev/?owner=hortense667&repo=nativemap&filePath=timeline_digital.json
    ```
 
 3. **基本的な操作**:
@@ -67,9 +69,6 @@ Copyright (c) 2025 Satoshi Endoh / @hortense667
    - 検索ボックスでラベル・注釈を検索
    - 「ジャンル選択」で表示ジャンルを絞り込み
    - 「同期」ボタンでGitHubからデータを読み込み・保存
-
-### 詳細な使用方法
-詳細な設定方法や操作方法については、[ネイティブマップ_ユーザーガイド.md](ネイティブマップ_ユーザーガイド.md)をご覧ください。
 
 ### データ形式
 - **CSV/TSV読み込み**: `開始年;終了年;ラベル;ジャンル;重要度;URL;注釈` の形式
@@ -106,8 +105,6 @@ Pythonがインストール済みの場合：
 python -m http.server 8000
 ```
 
-詳細な手順やトラブルシューティングは[ユーザーガイド](ネイティブマップ_ユーザーガイド.md)をご覧ください。
-
 ## ライセンス
 
 - **データ**: [CC BY-SA 4.0](LICENSE) - Creative Commons Attribution-ShareAlike 4.0
@@ -117,7 +114,7 @@ python -m http.server 8000
 
 - **問題報告**: [GitHub Issues](https://github.com/hortense667/nativemap/issues)
 - **機能要望**: GitHub Issuesで投稿
-- **詳細情報**: [ユーザーガイド](ネイティブマップ_ユーザーガイド.md) / [メンテナンスガイド](ネイティブマップ_メンテナンスガイド.md)
+- **詳細情報**: [メンテナンスガイド](ネイティブマップ_メンテナンスガイド.md)
 
 ## 更新履歴
 
@@ -134,5 +131,6 @@ python -m http.server 8000
 ---
 
 **ネイティブマップ** - 年代を超えたイベントの可視化ツール
+
 
 
