@@ -3793,9 +3793,6 @@
   function handleProbeSync(draggedColor, draggedProp, newValue) {
     if (!probeSyncData.isActive) return;
     
-    const otherColor = draggedColor === 'red' ? 'blue' : 'red';
-    const otherProbe = otherColor === 'red' ? probeRed : probeBlue;
-    
     if (draggedProp === 'eventYear') {
       // 下の丸（eventYear）をドラッグした場合
       // 両方のプローブの下の丸を同じ年にする
@@ -3808,15 +3805,29 @@
       
     } else if (draggedProp === 'birthYear') {
       // 上の丸（birthYear）をドラッグした場合
-      // 年差を維持して両方のプローブを移動
-      const ageDiff = newValue - probeSyncData[draggedColor + 'BottomYear'];
+      // ドラッグされたプローブの上の丸を新しい位置に設定
+      if (draggedColor === 'red') {
+        probeRed.birthYear = newValue;
+        // 下の丸を年差を維持して移動
+        probeRed.eventYear = newValue + probeSyncData.redAgeDiff;
+      } else {
+        probeBlue.birthYear = newValue;
+        // 下の丸を年差を維持して移動
+        probeBlue.eventYear = newValue + probeSyncData.blueAgeDiff;
+      }
       
-      probeRed.birthYear = probeSyncData.redTopYear + ageDiff;
-      probeBlue.birthYear = probeSyncData.blueTopYear + ageDiff;
+      // もう一方のプローブも同じ年差で移動
+      const ageDiff = newValue - probeSyncData[draggedColor + 'TopYear'];
       
-      // 下の丸も同じ年差で移動
-      probeRed.eventYear = probeSyncData.redBottomYear + ageDiff;
-      probeBlue.eventYear = probeSyncData.blueBottomYear + ageDiff;
+      if (draggedColor === 'red') {
+        // 赤をドラッグした場合、水色も同じ年差で移動
+        probeBlue.birthYear = probeSyncData.blueTopYear + ageDiff;
+        probeBlue.eventYear = probeSyncData.blueBottomYear + ageDiff;
+      } else {
+        // 水色をドラッグした場合、赤も同じ年差で移動
+        probeRed.birthYear = probeSyncData.redTopYear + ageDiff;
+        probeRed.eventYear = probeSyncData.redBottomYear + ageDiff;
+      }
     }
     
     // 両方のプローブを再描画
