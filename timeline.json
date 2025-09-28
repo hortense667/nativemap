@@ -4,14 +4,26 @@
       {
         "label": "終戦",
         "startYear": 1945,
+        "endYear": 1945,
         "genre": [
-          "JAPAN",
-          "PHE",
-          "UNC"
+          "UNC",
+          "JAPAN"
         ],
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/%E7%B5%82%E6%88%A6%E3%81%AE%E6%97%A5",
-        "note": "第二次世界大戦が終了、"
+        "note": "第二次世界大戦の敗戦"
+      },
+      {
+        "label": "全共闘世代",
+        "startYear": 1945,
+        "endYear": 1949,
+        "genre": [
+          "UNC",
+          "JAPAN"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/%E5%85%A8%E5%AD%A6%E5%85%B1%E9%97%98%E4%BC%9A%E8%AD%B0",
+        "note": "1941～1949年生とすることが多い"
       }
     ],
     "1946": [
@@ -157,6 +169,17 @@
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/夜と霧",
         "note": "極限状況の人間学"
+      },
+      {
+        "label": "団塊世代",
+        "startYear": 1947,
+        "endYear": 1949,
+        "genre": [
+          "UNC",
+          "JAPAN"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/%E5%9B%A3%E5%A1%8A%E3%81%AE%E4%B8%96%E4%BB%A3"
       }
     ],
     "1948": [
@@ -3123,6 +3146,17 @@
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/Non-no",
         "note": "女性ファッション誌"
+      },
+      {
+        "label": "団塊ジュニア世代",
+        "startYear": 1971,
+        "endYear": 1974,
+        "genre": [
+          "UNC",
+          "JAPAN"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/%E5%9B%A3%E5%A1%8A%E3%82%B8%E3%83%A5%E3%83%8B%E3%82%A2"
       }
     ],
     "1972": [
@@ -3848,6 +3882,17 @@
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/ミクロマン",
         "note": "可動フィギュアの先駆"
+      },
+      {
+        "label": "氷河期世代",
+        "startYear": 1974,
+        "endYear": 1981,
+        "genre": [
+          "UNC",
+          "JAPAN"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/%E5%B0%B1%E8%81%B7%E6%B0%B7%E6%B2%B3%E6%9C%9F#%E6%B0%B7%E6%B2%B3%E6%9C%9F%E4%B8%96%E4%BB%A3"
       }
     ],
     "1975": [
@@ -5581,6 +5626,16 @@
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/パックマン",
         "note": "世界的アイコンとなる"
+      },
+      {
+        "label": "ミレニアム世代（Y世代）",
+        "startYear": 1980,
+        "endYear": 1995,
+        "genre": [
+          "UNC"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/Y%E4%B8%96%E4%BB%A3"
       }
     ],
     "1981": [
@@ -8431,6 +8486,17 @@
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/PC%E3%82%A8%E3%83%B3%E3%82%B8%E3%83%B3",
         "note": "コンパクト高性能"
+      },
+      {
+        "label": "ゆとり世代",
+        "startYear": 1987,
+        "endYear": 2004,
+        "genre": [
+          "UNC",
+          "JAPAN"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/%E3%82%86%E3%81%A8%E3%82%8A%E4%B8%96%E4%BB%A3"
       }
     ],
     "1988": [
