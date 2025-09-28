@@ -329,6 +329,7 @@
   let currentSearchQuery = '';
   let allSearchResults = []; // 全検索結果を保持
   let currentSearchIndex = -1; // 現在の検索結果のインデックス
+  let searchResultElements = new Map(); // 年→DOM要素のキャッシュ
   function clearHighlight(soft){ if(hlRect && hlRect.parentNode) hlRect.parentNode.removeChild(hlRect); if(hlTarget) hlTarget.classList.remove('hlText'); hlRect=null; hlTarget=null; if(!soft){ clearOnNextMove=false; } }
   function highlight(el){ clearHighlight(true); const bbox=el.getBBox(); hlRect=document.createElementNS(ns,'rect'); const padX=6, padY=3; hlRect.setAttribute('x', bbox.x - padX); hlRect.setAttribute('y', bbox.y - padY); hlRect.setAttribute('width', bbox.width + padX*2); hlRect.setAttribute('height', bbox.height + padY*2); hlRect.setAttribute('rx', 4); hlRect.setAttribute('fill', '#000'); eventsG.insertBefore(hlRect, el); el.classList.add('hlText'); hlTarget=el; const r=el.getBoundingClientRect(); const rv=vp.getBoundingClientRect(); if(r.top < rv.top || r.bottom > rv.bottom){ vp.scrollTop += (r.top - rv.top) - 80; } clearOnNextMove=true; }
 
@@ -2117,6 +2118,7 @@
       currentSearchQuery = '';
       allSearchResults = [];
       currentSearchIndex = -1;
+      searchResultElements.clear(); // キャッシュをクリア
       // 検索ボックスが空の場合はすべてのハイライトをクリア
       document.querySelectorAll('.hlText').forEach(el => el.classList.remove('hlText'));
       return; 
@@ -2131,6 +2133,7 @@
       currentSearchQuery = q;
       allSearchResults = [];
       currentSearchIndex = -1;
+      searchResultElements.clear(); // キャッシュをクリア
       
       // 検索対象は「選択中ジャンルのラベルのみ」（詳細検索時は注釈も含む）
       const isDetailSearch = detailSearchCheckbox.checked;
@@ -2152,7 +2155,17 @@
           }
           
           if (labelMatch || noteMatch) {
-            allSearchResults.push({ year: parseInt(year), item });
+            const yearInt = parseInt(year);
+            allSearchResults.push({ year: yearInt, item });
+            
+            // DOM要素のキャッシュを構築
+            if (!searchResultElements.has(yearInt)) {
+              const element = eventsG.querySelector(`text.eventLabel[data-year="${yearInt}"]`);
+              if (element) {
+                searchResultElements.set(yearInt, element);
+              }
+            }
+            
             console.log('マッチした項目:', { year, item, labelMatch, noteMatch });
           }
         }
@@ -2187,7 +2200,7 @@
     highlight(matches[matchIndex]); 
   }
   
-  // 連続検索機能
+  // 連続検索機能（最適化版）
   function findNextSearchResult(direction) {
     if (!currentSearchQuery || allSearchResults.length === 0) {
       console.log('検索結果がありません');
@@ -2212,13 +2225,20 @@
     const viewportHeight = vp.clientHeight;
     const scrollTop = Math.max(0, targetY - viewportHeight / 2);
     
-    vp.scrollTop = scrollTop;
+    // スクロール位置が大きく変わらない場合はスキップ
+    const currentScrollTop = vp.scrollTop;
+    if (Math.abs(scrollTop - currentScrollTop) > 100) {
+      vp.scrollTop = scrollTop;
+    }
     
-    // 該当するラベル要素をハイライト
-    const targetElement = eventsG.querySelector(`text.eventLabel[data-year="${targetYear}"]`);
+    // 該当するラベル要素をハイライト（キャッシュされた要素を使用）
+    const targetElement = searchResultElements.get(targetYear);
     if (targetElement) {
-      clearHighlight(true);
-      highlight(targetElement);
+      // 既にハイライトされている場合はスキップ
+      if (hlTarget !== targetElement) {
+        clearHighlight(true);
+        highlight(targetElement);
+      }
     }
   }
   searchBtn.addEventListener('click', doSearch);
