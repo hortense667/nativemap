@@ -963,11 +963,6 @@
       if (remoteData !== null && remoteData !== undefined) {
         events = remoteData;
         saveEvents();
-        renderEvents();
-        
-        // ジャンルが更新された可能性があるためフィルタ選択をリセット（conjunction: trueは除外）
-        if (window.selectedGenres) { selectedGenres = new Set(GENRES.filter(genre => !GENRE_CONJUNCTIONS[genre])); }
-        if (typeof updateGenreFilterButtonText === 'function') { updateGenreFilterButtonText(); }
         
         console.log('初期化: GitHubからデータ読み込み成功');
         return;
@@ -982,7 +977,28 @@
   }
   
   // 初期化実行
-  initializeWithRemoteData();
+  initializeWithRemoteData().then(() => {
+    // リモートデータ読み込み後にメイン初期化を実行
+    try {
+      // 起動時はconjunction: trueのジャンル以外を自動選択
+      console.log('メイン初期化時のジャンル状態:', { GENRES, GENRE_CONJUNCTIONS });
+      if (GENRES.length > 0) {
+        const filteredGenres = GENRES.filter(genre => !GENRE_CONJUNCTIONS[genre]);
+        console.log('メイン初期化時のフィルタ後のジャンル:', filteredGenres);
+        selectedGenres = new Set(filteredGenres);
+      } else {
+        console.log('ジャンルデータがまだ読み込まれていません');
+        selectedGenres = new Set();
+      }
+      updateGenreFilterButtonText && updateGenreFilterButtonText();
+      renderEvents();
+      
+      // 初期化時に時代区分背景を描画
+      renderEraBackgrounds();
+    } catch (error) {
+      console.error('レンダリングエラー:', error);
+    }
+  });
   
   // 自動保存の基準を初期化
   let lastSavedEventsData = JSON.stringify(events);
@@ -2099,17 +2115,6 @@
     }
   }
   
-  try {
-    // 起動時はconjunction: trueのジャンル以外を自動選択
-    selectedGenres = new Set(GENRES.filter(genre => !GENRE_CONJUNCTIONS[genre]));
-    updateGenreFilterButtonText && updateGenreFilterButtonText();
-    renderEvents();
-    
-    // 初期化時に時代区分背景を描画
-    renderEraBackgrounds();
-  } catch (error) {
-    console.error('レンダリングエラー:', error);
-  }
 
   // ===== 検索 =====
   function updateSearchPlaceholder() {
