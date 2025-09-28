@@ -10,8 +10,7 @@ Copyright (c) 2025 Satoshi Endoh / @hortense667
 
 - **データ**: [CC BY-SA 4.0](LICENSE) - Creative Commons Attribution-ShareAlike 4.0 International License
 - **プログラム**: MIT License
-- **お願い**: Development in progress 2025年9～10月現在、本格的な受け入れ体制が整うまでプルリクエストは受け付けません。いましばらく静かに開発させてもらえると助かります。
-- As of September to October 2025, we will not be accepting pull requests until a comprehensive acceptance system is established. We would appreciate it if you could allow us to continue development quietly for the time being.
+- **お願い**: Development in progress 2025年9月現在、本格的な受け入れ体制が整うまでプルリクエストは受け付けません。
 
 ## 開発趣旨
 
@@ -33,6 +32,7 @@ Copyright (c) 2025 Satoshi Endoh / @hortense667
 - **重要度設定**: 1-5の重要度でイベントの重要さを設定
 - **時代区分**: 基本的な時代区分に加え、放送期間や連載期間などで対象年を帯状に表示
 - **検索機能**: ラベルと注釈を対象とした検索（前/次で移動）
+- **詳細検索**: 「詳細」チェックボックスで注釈も検索対象に含める
 - **フィルタ機能**: ジャンルと重要度による絞り込み
 
 ### データ管理
@@ -44,6 +44,7 @@ Copyright (c) 2025 Satoshi Endoh / @hortense667
 
 ### インタラクティブ機能
 - **ドラッグ操作**: 誕生年の調整
+- **プローブ連動**: 水色と赤色のプローブを連動させて年齢差を比較
 - **詳細表示**: イベントの詳細情報表示
 - **URL連携**: 関連URLの表示とリンク
 - **時代区分**: 背景色・透明度・名称を設定し表示（コンテンツの詳細一覧からも登録可能、表示された時代区分名をクリックすると塗られた帯を非表示／表示できます）
@@ -54,22 +55,24 @@ Copyright (c) 2025 Satoshi Endoh / @hortense667
 
 1. **アプリケーションを開く**:
    ```
-   オンライン: https://hortense667.github.io/nativemap/nativemap101.htm
-              https://nativemap.pages.dev/
+   オンライン: https://hortense667.github.io/nativemap/nativemap101.html
    ローカル:   http://localhost:8000/nativemap101.html
    ```
 
 2. **URLパラメータでの指定**（推奨）:
    ```
-   https://hortense667.github.io/nativemap/nativemap101.htm?owner=hortense667&repo=nativemap&filePath=timeline.json
-   https://nativemap.pages.dev/?owner=hortense667&repo=nativemap&filePath=timeline.json
+   nativemap101.html?owner=hortense667&repo=nativemap&filePath=timeline.json
    ```
 
 3. **基本的な操作**:
    - イベントをクリックして詳細表示・編集
-   - 検索ボックスでラベル・注釈を検索
+   - 検索ボックスでラベル・注釈を検索（「詳細」チェックで注釈も検索対象）
    - 「ジャンル選択」で表示ジャンルを絞り込み
+   - 「プローブ連動」で水色・赤色プローブを連動させて年齢差を比較
    - 「同期」ボタンでGitHubからデータを読み込み・保存
+
+### 詳細な使用方法
+詳細な設定方法や操作方法については、[ネイティブマップ_ユーザーガイド.md](ネイティブマップ_ユーザーガイド.md)をご覧ください。
 
 ### データ形式
 - **CSV/TSV読み込み**: `開始年;終了年;ラベル;ジャンル;重要度;URL;注釈` の形式
@@ -106,6 +109,8 @@ Pythonがインストール済みの場合：
 python -m http.server 8000
 ```
 
+詳細な手順やトラブルシューティングは[ユーザーガイド](ネイティブマップ_ユーザーガイド.md)をご覧ください。
+
 ## ライセンス
 
 - **データ**: [CC BY-SA 4.0](LICENSE) - Creative Commons Attribution-ShareAlike 4.0
@@ -115,7 +120,7 @@ python -m http.server 8000
 
 - **問題報告**: [GitHub Issues](https://github.com/hortense667/nativemap/issues)
 - **機能要望**: GitHub Issuesで投稿
-- **詳細情報**: [メンテナンスガイド](ネイティブマップ_メンテナンスガイド.md)
+- **詳細情報**: [ユーザーガイド](ネイティブマップ_ユーザーガイド.md) / [メンテナンスガイド](ネイティブマップ_メンテナンスガイド.md)
 
 ## 更新履歴
 
@@ -125,6 +130,8 @@ python -m http.server 8000
 - GitHub同期機能
 - CSV/TSV読み込み機能
 - 検索・フィルタ機能
+- 詳細検索機能（注釈も検索対象）
+- プローブ連動機能（年齢差比較）
 - 16種類のジャンル分類
 - URLパラメータでのリポジトリ指定機能
 - ジャンルAND条件機能（conjunction指定）
@@ -132,7 +139,5 @@ python -m http.server 8000
 ---
 
 **ネイティブマップ** - 年代を超えたイベントの可視化ツール
-
-
 
 
