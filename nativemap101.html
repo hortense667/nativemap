@@ -1159,11 +1159,24 @@
         ` : ''}
       </div>
       <div style="margin-top: 16px; display: flex; gap: 8px; justify-content: center;">
-        <button onclick="deleteAllEraSettings()" style="padding: 8px 16px; background: #ff4444; color: white; border: none; border-radius: 4px; cursor: pointer;">すべての時代区分を削除</button>
-        <button onclick="saveEraSettings()" style="padding: 8px 16px; background: #4CAF50; color: white; border: none; border-radius: 4px; cursor: pointer;">保存</button>
+        <button id="deleteAllEraBtn" style="padding: 8px 16px; background: #ff4444; color: white; border: none; border-radius: 4px; cursor: pointer;">すべての時代区分を削除</button>
+        <button id="saveEraBtn" style="padding: 8px 16px; background: #4CAF50; color: white; border: none; border-radius: 4px; cursor: pointer;">保存</button>
       </div>
     `;
     openModal('時代区分設定', modalContent);
+    
+    // イベントリスナーを設定
+    setTimeout(() => {
+      const deleteAllBtn = document.getElementById('deleteAllEraBtn');
+      const saveBtn = document.getElementById('saveEraBtn');
+      
+      if (deleteAllBtn) {
+        deleteAllBtn.addEventListener('click', deleteAllEraSettings);
+      }
+      if (saveBtn) {
+        saveBtn.addEventListener('click', saveEraSettings);
+      }
+    }, 100);
   }
   
   // 新しい時代区分項目を追加
