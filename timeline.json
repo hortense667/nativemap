@@ -12,6 +12,17 @@
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/%E7%B5%82%E6%88%A6%E3%81%AE%E6%97%A5",
         "note": "第二次世界大戦の敗戦"
+      },
+      {
+        "label": "全共闘世代",
+        "startYear": 1945,
+        "endYear": 1949,
+        "genre": [
+          "JAPAN",
+          "UNC"
+        ],
+        "url": "https://ja.wikipedia.org/wiki/%E5%85%A8%E5%AD%A6%E5%85%B1%E9%97%98%E4%BC%9A%E8%AD%B0",
+        "note": "1941～1949年とすることが多い。"
       }
     ],
     "1946": [
