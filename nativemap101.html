@@ -501,6 +501,9 @@
     blueAgeDiff: null  // 水色プローブの上下の年差
   };
   
+  // プローブドラッグ状態を追跡
+  let isProbeDragging = false;
+  
   // 編集フラグを保存
   function saveEditFlags() {
     localStorage.setItem('nativemap_edit_flags', JSON.stringify(editFlags));
@@ -3882,7 +3885,11 @@
 
   // ===== 空年クリックで編集を開く =====
   function openEditorForEmptyYearAt(xCSS,yCSS){ const rect=stage.getBoundingClientRect(); const scale=1; const x=(xCSS-rect.left)/scale; const y=(yCSS-rect.top)/scale; if(x >= ORIGIN_X - HANDLE_LANE_W) return; const year = YEAR_MIN + Math.round((y-ORIGIN_Y)/PX_PER_YEAR); if(year<YEAR_MIN||year>YEAR_MAX) return; showEditModal(year, -1, { label: '', startYear: year, endYear: '' }); }
-  stage.addEventListener('click', (e)=>{ if(e.target && e.target.tagName && e.target.tagName.toLowerCase()==='text') return; openEditorForEmptyYearAt(e.clientX, e.clientY); });
+  stage.addEventListener('click', (e)=>{ 
+    if(e.target && e.target.tagName && e.target.tagName.toLowerCase()==='text') return; 
+    if(isProbeDragging) return; // プローブドラッグ中は空年クリック処理を無視
+    openEditorForEmptyYearAt(e.clientX, e.clientY); 
+  });
 
   // ===== プローブ =====
   function makeProbe(color){
@@ -3947,8 +3954,15 @@
       birthYearText.setAttribute('y', yAtAxis-6);
     }
 
-    function startDrag(){ document.body.classList.add('dragging'); }
-    function endDrag(){ document.body.classList.remove('dragging'); }
+    function startDrag(){ 
+      document.body.classList.add('dragging'); 
+      isProbeDragging = true;
+    }
+    function endDrag(){ 
+      document.body.classList.remove('dragging'); 
+      // ドラッグ終了後、少し遅延してフラグをリセット（クリックイベントより後に実行されるように）
+      setTimeout(() => { isProbeDragging = false; }, 10);
+    }
     function dragByYear(el,prop){ let dragging=false, startY=0, startVal=0; el.addEventListener('mousedown',e=>{ dragging=true; startY=e.clientY; startVal=state[prop]; startDrag(); e.preventDefault(); e.stopPropagation(); }); window.addEventListener('mousemove',e=>{ if(!dragging) return; const dy=e.clientY-startY; const dYear=Math.round(dy/PX_PER_YEAR); const newVal = Math.max(YEAR_MIN,Math.min(YEAR_MAX,startVal+dYear)); state[prop] = newVal; 
       
       // プローブ連動処理
