@@ -299,6 +299,25 @@
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/ETL_Mark_III"
+      },
+      {
+        "label": "ETL Mark III（トランジスタ式計算機）",
+        "startYear": 1956,
+        "genre": [
+          "HAR-PC",
+          "JAPAN"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/ETL_Mark_III"
+      },
+      {
+        "label": "FACOM 128A（リレー式計算機）",
+        "startYear": 1956,
+        "genre": [
+          "HAR-PC",
+          "JAPAN"
+        ],
+        "url": "https://museum.ipsj.or.jp/computer/dawn/0012.html"
       }
     ],
     "1957": [
@@ -332,6 +351,16 @@
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/MUSASINO-1",
         "note": "NTT前身・電通研の初期パラメトロン計算機"
+      },
+      {
+        "label": "ETL Mark IV（トランジスタ式計算機）",
+        "startYear": 1957,
+        "genre": [
+          "HAR-PC",
+          "JAPAN"
+        ],
+        "imp": 5,
+        "url": "https://museum.ipsj.or.jp/computer/dawn/0014.html"
       }
     ],
     "1958": [
@@ -376,6 +405,15 @@
         "imp": 4,
         "url": "https://www.ccapitalia.net/descarga/docs/1959-ec-1-heathkit.pdf",
         "note": "小型アナログ計算機で制御理論を実習。"
+      },
+      {
+        "label": "TAC（真空管式コンピュータ）",
+        "startYear": 1959,
+        "genre": [
+          "HAR-PC"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/TAC_(%E3%82%B3%E3%83%B3%E3%83%94%E3%83%A5%E3%83%BC%E3%82%BF)"
       }
     ],
     "1960": [
