@@ -1504,6 +1504,16 @@
     editor.querySelector('#addBtn').onclick = () => { addNewItem(year); };
     editor.querySelector('#closeBtn').onclick = close;
     
+    // ESCキーで閉じる機能を追加
+    const escHandler = (e) => {
+      if (e.key === 'Escape' && editor.style.display === 'block') {
+        e.preventDefault();
+        close();
+        document.removeEventListener('keydown', escHandler);
+      }
+    };
+    document.addEventListener('keydown', escHandler);
+    
     // ドラッグ&ドロップイベントを設定
     setupDragAndDrop(year);
   }
@@ -1738,6 +1748,17 @@
 
     function close() { editor.style.display = 'none'; }
     editor.querySelector('#cancel').onclick = close;
+    
+    // ESCキーで閉じる機能を追加
+    const escHandler = (e) => {
+      if (e.key === 'Escape' && editor.style.display === 'block') {
+        e.preventDefault();
+        close();
+        document.removeEventListener('keydown', escHandler);
+      }
+    };
+    document.addEventListener('keydown', escHandler);
+    
     editor.querySelector('#save').onclick = () => { saveEditItem(year, index); };
     // 入力中の長さ制限（URL + 注釈 合計最大512文字）
     const urlEl = document.getElementById('editUrl');
@@ -3866,7 +3887,7 @@
   // ===== プローブ =====
   function makeProbe(color){
     const g=document.getElementById('probe-'+color);
-    const state={eventYear:color==='blue'?1983:1999,birthYear:color==='blue'?1970:1964};
+    const state={eventYear:color==='blue'?1995:1995,birthYear:color==='blue'?1980:1960};
     const stroke=(color==='red'?'#ff3333':'#4da3ff');
     const eventLine=lineEl(ORIGIN_X,0,ORIGIN_X,0); eventLine.style.stroke=stroke; eventLine.style.strokeWidth=3; // 水平（交点まで）
     const vLine=lineEl(0,0,0,ORIGIN_Y);           vLine.style.stroke=stroke; vLine.style.strokeWidth=3; vLine.setAttribute('pointer-events','stroke');
