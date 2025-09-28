@@ -20960,7 +20960,7 @@
       "fillEnabled": false
     }
   ],
-    "genres": [
+  "genres": [
     {
       "code": "ANI",
       "label": "アニメ"
@@ -21059,5 +21059,4 @@
       "conjunction": true
     }
   ]
-
 }
