@@ -2583,7 +2583,13 @@
       const { merged: mergedAfterResolve, conflicts } = await performDetailedMerge(events, latestRemoteData);
       
       // 再試行（マージ済みデータのみ保存）
-      const ok = await saveToGitHub(mergedAfterResolve, newSha, retryCount + 1);
+      // genres項目を保持するために、リモートデータから取得
+      const dataToSave = { ...mergedAfterResolve };
+      if (latestRemoteData && latestRemoteData.genres) {
+        dataToSave.genres = latestRemoteData.genres;
+        console.log('競合解決時にリモートのgenres項目を保持:', dataToSave.genres);
+      }
+      const ok = await saveToGitHub(dataToSave, newSha, retryCount + 1);
       if (!ok) return false;
       
       // 保存成功時はローカル状態にも反映して、競合通知を表示
@@ -2674,6 +2680,12 @@
     
     const merged = { ...remoteData };
     const conflicts = []; // 真の競合のみを記録
+    
+    // genres項目を保持（リモートデータに存在する場合）
+    if (remoteData.genres) {
+      merged.genres = remoteData.genres;
+      console.log('詳細マージ時にgenres項目を保持:', merged.genres);
+    }
     
     // 各年のデータを詳細にマージ
     const getGenreKey = (g)=> Array.isArray(g) ? g.slice().sort().join('・') : (g || '');
@@ -3103,8 +3115,13 @@
       const dataToSave = {
         events: merged,
         eraSettings: toSaveEraSettings // リモートに保存するのは同名上書き分と新規取り込み分のみ
-        // genres項目は除外（リモートから読み込むのみでローカル編集はしない）
       };
+      
+      // リモートのgenres項目を保持（存在する場合のみ）
+      if (remoteData && remoteData.genres) {
+        dataToSave.genres = remoteData.genres;
+        console.log('リモートのgenres項目を保持:', dataToSave.genres);
+      }
       console.log('保存するデータ構造:', {
         hasEvents: !!dataToSave.events,
         eventsKeys: Object.keys(dataToSave.events || {}),
