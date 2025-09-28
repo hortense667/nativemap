@@ -334,18 +334,11 @@
 
   // ===== JSONロード/セーブ =====
   const LS_KEYS=['timelineEventsV2','timelineEventsV1'];
-  // ===== ジャンル（デフォルト値。GitHub JSONの genres により上書き可能） =====
-  let GENRES=['ANI','MAN','GAM','TVP','MOV','NET','HAR','PHE','SOF','TOY','FAS','BOO','MAG','NOV','MUS','IDL','RDO','EVT','FMT','SPW','RDE','FOO','UNC'];
-  let GENRE_LABELS={
-    'ANI':'アニメ','MAN':'マンガ','GAM':'ゲーム','TVP':'テレビ番組',
-    'MOV':'映画','NET':'インターネット','HAR':'ハードウェア','PHE':'現象・流行',
-    'SOF':'ソフトウェア','TOY':'おもちゃ','FAS':'ファッション','BOO':'書籍',
-    'MAG':'雑誌','NOV':'小説','MUS':'音楽','IDL':'アイドル','RDO':'ラジオ',
-    'EVT':'イベント','FMT':'フォーマット','SPW':'スポーツ','RDE':'テーマパーク',
-    'FOO':'食','UNC':'その他'
-  };
+  // ===== ジャンル（GitHub JSONの genres から読み込み） =====
+  let GENRES=[]; // デフォルト値なし
+  let GENRE_LABELS={}; // デフォルト値なし
   let GENRE_CONJUNCTIONS={}; // conjunction: true のジャンルを管理
-  let GENRE_SET=new Set(GENRES);
+  let GENRE_SET=new Set(); // デフォルト値なし
   function setGenresFromRemote(genresDef){
     try{
       if(Array.isArray(genresDef) && genresDef.length){
@@ -363,14 +356,30 @@
           GENRE_LABELS=labels; 
           GENRE_CONJUNCTIONS=conjunctions;
           GENRE_SET=new Set(GENRES); 
+          console.log('ジャンルデータを正常に読み込み:', GENRES);
+        } else {
+          throw new Error('有効なジャンルデータがありません');
         }
       } else if(genresDef && genresDef.list && Array.isArray(genresDef.list)){
         // 互換フォーマット: {list:['ANI',...], labels:{ANI:'アニメ',...}}
         const codes=genresDef.list.map(c=>String(c).toUpperCase());
         const labels={...genresDef.labels};
-        if(codes.length){ GENRES=codes; GENRE_LABELS=labels||GENRE_LABELS; GENRE_SET=new Set(GENRES); }
+        if(codes.length){ 
+          GENRES=codes; 
+          GENRE_LABELS=labels; 
+          GENRE_SET=new Set(GENRES); 
+          console.log('ジャンルデータを正常に読み込み（互換フォーマット）:', GENRES);
+        } else {
+          throw new Error('有効なジャンルデータがありません（互換フォーマット）');
+        }
+      } else {
+        throw new Error('ジャンルデータの形式が正しくありません');
       }
-    }catch(e){ console.warn('ジャンル定義の適用に失敗:', e); }
+    }catch(e){ 
+      console.error('ジャンル定義の適用に失敗:', e);
+      showError('ジャンルデータエラー', `ジャンルデータの読み込みに失敗しました: ${e.message}。正しいJSONデータを指定して「表示中の全ラベルをクリアしてGitHubから読み込み」を実行してください。`);
+      throw e; // エラーを再スローして処理を停止
+    }
   }
   function getGenreKey(genre){
     if(Array.isArray(genre)) return genre.map(g=>String(g).toUpperCase()).sort().join('・');
@@ -424,13 +433,19 @@
           if (data.events) {
             // 新しい形式（events + eraSettings）
             eraSettings = data.eraSettings || [];
-            if (data.genres) { setGenresFromRemote(data.genres); }
+            if (data.genres) { 
+              setGenresFromRemote(data.genres); 
+            } else {
+              showError('ジャンルデータエラー', 'ローカルストレージのJSONにジャンルデータが含まれていません。正しいJSONデータを指定して「表示中の全ラベルをクリアしてGitHubから読み込み」を実行してください。');
+              return {};
+            }
             console.log('loadEvents: eraSettings読み込み:', eraSettings);
             return normalizeAll(data.events);
           } else {
             // 古い形式（eventsのみ）
             console.log('loadEvents: 古い形式のデータ');
-            return normalizeAll(data);
+            showError('データ形式エラー', 'ローカルストレージのデータが古い形式です。正しいJSONデータを指定して「表示中の全ラベルをクリアしてGitHubから読み込み」を実行してください。');
+            return {};
           }
         } 
       }catch(e){} 
@@ -439,10 +454,16 @@
       const txt=document.getElementById('events-json').textContent.trim(); 
       const embedded=JSON.parse(txt);
       // 埋め込みJSONにも genres があれば使用
-      if (embedded.genres) { setGenresFromRemote(embedded.genres); }
+      if (embedded.genres) { 
+        setGenresFromRemote(embedded.genres); 
+      } else {
+        showError('ジャンルデータエラー', '埋め込みJSONにジャンルデータが含まれていません。正しいJSONデータを指定して「表示中の全ラベルをクリアしてGitHubから読み込み」を実行してください。');
+        return {};
+      }
       return normalizeAll(embedded.events ? embedded.events : embedded); 
     } catch(e){ 
       console.error('embedded JSON parse failed', e); 
+      showError('データ読み込みエラー', `埋め込みJSONの読み込みに失敗しました: ${e.message}。正しいJSONデータを指定して「表示中の全ラベルをクリアしてGitHubから読み込み」を実行してください。`);
       return {}; 
     } 
   }
@@ -2372,7 +2393,12 @@
       if (data.events) {
         // 新しい形式（events + eraSettings + genres）
         eraSettings = data.eraSettings || [];
-        if (data.genres) { setGenresFromRemote(data.genres); }
+        if (data.genres) { 
+          setGenresFromRemote(data.genres); 
+        } else {
+          showError('ジャンルデータエラー', 'GitHub JSONにジャンルデータが含まれていません。正しいJSONデータを指定して「表示中の全ラベルをクリアしてGitHubから読み込み」を実行してください。');
+          return null;
+        }
         return data.events;
       } else {
         // 古い形式（eventsのみ）
@@ -2404,6 +2430,9 @@
       if (jsonData.genres) { 
         setGenresFromRemote(jsonData.genres); 
         console.log('ジャンルデータを更新:', GENRES, GENRE_LABELS);
+      } else {
+        showError('ジャンルデータエラー', 'GitHub JSONにジャンルデータが含まれていません。正しいJSONデータを指定して「表示中の全ラベルをクリアしてGitHubから読み込み」を実行してください。');
+        throw new Error('ジャンルデータがありません');
       }
       
       // 時代区分データを読み込み
@@ -3236,6 +3265,9 @@
       if (data.genres) {
         setGenresFromRemote(data.genres);
         console.log('GitHubからジャンルデータを更新:', GENRES, GENRE_LABELS);
+      } else {
+        showError('ジャンルデータエラー', 'GitHub JSONにジャンルデータが含まれていません。正しいJSONデータを指定して「表示中の全ラベルをクリアしてGitHubから読み込み」を実行してください。');
+        return { remoteData: null, remoteSha: null, remoteEraSettings: [], timestamp: null };
       }
       
       if (data.events) {
@@ -3248,12 +3280,8 @@
         };
       } else {
         // 古い形式（eventsのみ）
-        return { 
-          remoteData: data, 
-          remoteSha: sha, 
-          remoteEraSettings: [],
-          timestamp: timestamp
-        };
+        showError('データ形式エラー', 'GitHub JSONが古い形式です。正しいJSONデータを指定して「表示中の全ラベルをクリアしてGitHubから読み込み」を実行してください。');
+        return { remoteData: null, remoteSha: null, remoteEraSettings: [], timestamp: null };
       }
     } catch (error) {
       showError('読み込みエラー', `GitHubからの読み込みに失敗しました: ${error.message}`);
