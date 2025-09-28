@@ -965,8 +965,8 @@
         saveEvents();
         renderEvents();
         
-        // ジャンルが更新された可能性があるためフィルタ選択を全選択にリセット
-        if (window.selectedGenres) { selectedGenres = new Set(GENRES); }
+        // ジャンルが更新された可能性があるためフィルタ選択をリセット（conjunction: trueは除外）
+        if (window.selectedGenres) { selectedGenres = new Set(GENRES.filter(genre => !GENRE_CONJUNCTIONS[genre])); }
         if (typeof updateGenreFilterButtonText === 'function') { updateGenreFilterButtonText(); }
         
         console.log('初期化: GitHubからデータ読み込み成功');
@@ -2100,8 +2100,8 @@
   }
   
   try {
-    // 起動時は全ジャンルを自動選択
-    selectedGenres = new Set(GENRES);
+    // 起動時はconjunction: trueのジャンル以外を自動選択
+    selectedGenres = new Set(GENRES.filter(genre => !GENRE_CONJUNCTIONS[genre]));
     updateGenreFilterButtonText && updateGenreFilterButtonText();
     renderEvents();
     
@@ -3220,8 +3220,8 @@
         renderEvents();
         renderEraBackgrounds();
         
-        // ジャンルが更新された可能性があるためフィルタ選択を全選択にリセット
-        if (window.selectedGenres) { selectedGenres = new Set(GENRES); }
+        // ジャンルが更新された可能性があるためフィルタ選択をリセット（conjunction: trueは除外）
+        if (window.selectedGenres) { selectedGenres = new Set(GENRES.filter(genre => !GENRE_CONJUNCTIONS[genre])); }
         if (typeof updateGenreFilterButtonText === 'function') { updateGenreFilterButtonText(); }
         
         // 同期完了時刻を記録
@@ -3449,9 +3449,9 @@
           // データをリモートから読み込む
           await clearAllDataAndReload();
           
-          // ジャンルをすべて選択した状態にする
+          // ジャンルを初期状態に設定（conjunction: trueは除外）
           if (window.selectedGenres) {
-            selectedGenres = new Set(GENRES);
+            selectedGenres = new Set(GENRES.filter(genre => !GENRE_CONJUNCTIONS[genre]));
           }
           if (typeof updateGenreFilterButtonText === 'function') {
             updateGenreFilterButtonText();
@@ -3626,9 +3626,9 @@
         events = remoteData;
         saveEvents();
         renderEvents();
-        // ジャンルが更新された可能性があるためフィルタ選択を全選択にリセット
+        // ジャンルが更新された可能性があるためフィルタ選択をリセット（conjunction: trueは除外）
         if (window.selectedGenres && GENRES.length > 0) { 
-          selectedGenres = new Set(GENRES); 
+          selectedGenres = new Set(GENRES.filter(genre => !GENRE_CONJUNCTIONS[genre])); 
         }
         if (typeof updateGenreFilterButtonText === 'function') { updateGenreFilterButtonText(); }
         // 時代区分背景を再描画
