@@ -2431,8 +2431,9 @@
         setGenresFromRemote(jsonData.genres); 
         console.log('ジャンルデータを更新:', GENRES, GENRE_LABELS);
       } else {
-        showError('ジャンルデータエラー', 'GitHub JSONにジャンルデータが含まれていません。正しいJSONデータを指定して「表示中の全ラベルをクリアしてGitHubから読み込み」を実行してください。');
-        throw new Error('ジャンルデータがありません');
+        console.warn('GitHub JSONにジャンルデータが含まれていません');
+        // エラーをスローせずにnullを返す（上位で処理）
+        return null;
       }
       
       // 時代区分データを読み込み
@@ -3461,8 +3462,8 @@
       // UIを即座に空状態へ
       renderEvents();
       if (typeof drawEraBackgrounds === 'function') { drawEraBackgrounds(); }
-      // フィルタは全選択に初期化
-      if (window.selectedGenres) { selectedGenres = new Set(GENRES); }
+      // フィルタは空に初期化（ジャンルデータ読み込み後に更新される）
+      if (window.selectedGenres) { selectedGenres = new Set(); }
       if (typeof updateGenreFilterButtonText === 'function') { updateGenreFilterButtonText(); }
       
       // 2. GitHubから最新データを読み込み（トークンがなくても読み込み）
@@ -3474,6 +3475,11 @@
       try {
         // まずGitHubから読み込みを試行
         remoteData = await loadFromGitHubWithoutToken();
+        if (remoteData === null) {
+          // ジャンルデータがない場合はエラーを表示
+          showError('ジャンルデータエラー', 'GitHub JSONにジャンルデータが含まれていません。正しいJSONデータを指定して「表示中の全ラベルをクリアしてGitHubから読み込み」を実行してください。');
+          return;
+        }
         console.log('GitHubからの読み込み成功');
       } catch (e) {
         console.log('GitHubからの読み込み失敗、埋め込みJSONから読み込み:', e.message);
@@ -3573,7 +3579,9 @@
         saveEvents();
         renderEvents();
         // ジャンルが更新された可能性があるためフィルタ選択を全選択にリセット
-        if (window.selectedGenres) { selectedGenres = new Set(GENRES); }
+        if (window.selectedGenres && GENRES.length > 0) { 
+          selectedGenres = new Set(GENRES); 
+        }
         if (typeof updateGenreFilterButtonText === 'function') { updateGenreFilterButtonText(); }
         // 時代区分背景を再描画
         if (typeof drawEraBackgrounds === 'function') {
