@@ -5,7 +5,7 @@
         "label": "ノイマン型アーキテクチャ",
         "startYear": 1945,
         "genre": [
-          "HIS",
+          "NON-HIS", "NONG",
           "THE"
         ],
         "imp": 5,
@@ -41,7 +41,7 @@
         "label": "トランジスタ発明",
         "startYear": 1947,
         "genre": [
-          "HIS"
+          "NON-HIS"
         ],
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/トランジスタ",
@@ -173,7 +173,7 @@
         "label": "ETL Mark I（リレー式自動計算機）",
         "startYear": 1952,
         "genre": [
-          "HAR-PC",
+          "HAR-PC", "HARD",
           "JAPAN"
         ],
         "imp": 5,
@@ -220,7 +220,7 @@
         "label": "ETL Mark II（リレー式計算機）",
         "startYear": 1955,
         "genre": [
-          "HAR-PC",
+          "HAR-PC", "HARD",
           "JAPAN"
         ],
         "imp": 3,
@@ -232,8 +232,8 @@
         "label": "ダートマス会議",
         "startYear": 1956,
         "genre": [
-          "AI",
-          "HIS"
+          "AI", "SOFT",
+          "NON-HIS"
         ],
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/ダートマス会議",
@@ -254,7 +254,7 @@
         "label": "IBM 305 RAMAC（HDD）",
         "startYear": 1956,
         "genre": [
-          "HAR-STO"
+          "HAR-MED"
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/IBM_305_RAMAC",
@@ -284,7 +284,7 @@
         "label": "FUJIC",
         "startYear": 1956,
         "genre": [
-          "HAR-PC",
+          "HAR-PC", "HARD",
           "JAPAN"
         ],
         "imp": 5,
@@ -304,7 +304,7 @@
         "label": "ETL Mark III（トランジスタ式計算機）",
         "startYear": 1956,
         "genre": [
-          "HAR-PC",
+          "HAR-PC", "HARD",
           "JAPAN"
         ],
         "imp": 5,
@@ -314,7 +314,7 @@
         "label": "FACOM 128A（リレー式計算機）",
         "startYear": 1956,
         "genre": [
-          "HAR-PC",
+          "HAR-PC", "HARD",
           "JAPAN"
         ],
         "url": "https://museum.ipsj.or.jp/computer/dawn/0012.html"
@@ -345,7 +345,7 @@
         "label": "MUSASINO-1（M-1）",
         "startYear": 1957,
         "genre": [
-          "HAR-PC",
+          "HAR-PC", "HARD",
           "JAPAN"
         ],
         "imp": 4,
@@ -356,7 +356,7 @@
         "label": "ETL Mark IV（トランジスタ式計算機）",
         "startYear": 1957,
         "genre": [
-          "HAR-PC",
+          "HAR-PC", "HARD",
           "JAPAN"
         ],
         "imp": 5,
@@ -378,7 +378,7 @@
         "label": "集積回路（IC）",
         "startYear": 1958,
         "genre": [
-          "HIS"
+          "NON-HIS"
         ],
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/集積回路",
@@ -432,7 +432,7 @@
         "startYear": 1960,
         "endYear": "ongoing",
         "genre": [
-          "WEB-SVC",
+          "WEB-SVC", "SOFT",
           "JAPAN"
         ],
         "imp": 5,
@@ -443,7 +443,7 @@
         "label": "MUSASINO-1B",
         "startYear": 1960,
         "genre": [
-          "HAR-PC",
+          "HAR-PC", "HARD",
           "JAPAN"
         ],
         "imp": 4,
@@ -508,7 +508,7 @@
         "label": "ジョセフソン接合（素子概念）",
         "startYear": 1962,
         "genre": [
-          "HAR-CPU",
+          "HAR-CPU", "HARD",
           "THE"
         ],
         "imp": 4,
@@ -655,8 +655,8 @@
         "label": "東京オリンピック競技速報オンライン",
         "startYear": 1964,
         "genre": [
-          "WEB-SVC",
-          "HIS",
+          "WEB-SVC", "SOFT",
+          "NON-HIS", "NONG",
           "JAPAN"
         ],
         "imp": 5,
@@ -667,7 +667,7 @@
         "label": "MARS-101 稼働",
         "startYear": 1964,
         "genre": [
-          "WEB-SVC",
+          "WEB-SVC", "SOFT",
           "JAPAN"
         ],
         "imp": 4,
@@ -678,7 +678,7 @@
         "label": "HITAC 5020",
         "startYear": 1964,
         "genre": [
-          "HAR-PC",
+          "HAR-PC", "HARD",
           "JAPAN"
         ],
         "imp": 4,
@@ -691,7 +691,7 @@
         "label": "ムーアの法則",
         "startYear": 1965,
         "genre": [
-          "HIS"
+          "NON-HIS"
         ],
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/ムーアの法則",
@@ -721,7 +721,7 @@
         "label": "MARS-102（みどりの窓口開始）",
         "startYear": 1965,
         "genre": [
-          "WEB-SVC",
+          "WEB-SVC", "SOFT",
           "JAPAN"
         ],
         "imp": 5,
@@ -732,7 +732,7 @@
         "label": "三井銀行 普通預金オンライン",
         "startYear": 1965,
         "genre": [
-          "ENT",
+          "ENT", "SOFT",
           "JAPAN"
         ],
         "imp": 5,
@@ -744,7 +744,7 @@
         "startYear": 1965,
         "endYear": 1975,
         "genre": [
-          "ENT",
+          "ENT", "SOFT",
           "JAPAN"
         ],
         "imp": 4,
@@ -810,8 +810,8 @@
         "label": "ダイナブック構想",
         "startYear": 1968,
         "genre": [
-          "HAR-MOB",
-          "HIS"
+          "HAR-MOB", "HARD",
+          "NON-HIS"
         ],
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/ダイナブック",
@@ -862,7 +862,7 @@
         "startYear": 1968,
         "endYear": "ongoing",
         "genre": [
-          "WEB-SVC",
+          "WEB-SVC", "SOFT",
           "SOF-DEV"
         ],
         "imp": 4,
@@ -894,8 +894,8 @@
         "startYear": 1968,
         "endYear": 2019,
         "genre": [
-          "WEB-SVC",
-          "HAR-MOB",
+          "WEB-SVC", "SOFT",
+          "HAR-MOB", "HARD",
           "JAPAN"
         ],
         "imp": 4,
@@ -906,7 +906,7 @@
         "label": "霞が関ビルの耐震設計と計算機利用",
         "startYear": 1968,
         "genre": [
-          "HIS",
+          "NON-HIS", "NONG",
           "JAPAN"
         ],
         "imp": 3,
@@ -917,7 +917,7 @@
         "label": "FACOM 230-60",
         "startYear": 1968,
         "genre": [
-          "HAR-PC",
+          "HAR-PC", "HARD",
           "JAPAN"
         ],
         "imp": 4,
@@ -930,7 +930,7 @@
         "label": "ARPANET",
         "startYear": 1969,
         "genre": [
-          "WEB-SVC",
+          "WEB-SVC", "SOFT",
           "NET-PRO"
         ],
         "imp": 5,
@@ -991,7 +991,7 @@
         "label": "JIS X 0201（アルファベット・片仮名）",
         "startYear": 1969,
         "genre": [
-          "FMT",
+          "HAR-MED", "SOFT",
           "JAPAN"
         ],
         "imp": 5,
@@ -1002,7 +1002,7 @@
         "label": "HITAC-10（日立ミニコン）",
         "startYear": 1969,
         "genre": [
-          "HAR-PC",
+          "HAR-PC", "HARD",
           "JAPAN"
         ],
         "imp": 4,
@@ -1015,7 +1015,7 @@
         "label": "関係データモデル",
         "startYear": 1970,
         "genre": [
-          "DB",
+          "SOF-OFF", "SOFT",
           "THE"
         ],
         "imp": 5,
@@ -1077,7 +1077,7 @@
         "startYear": 1970,
         "endYear": "ongoing",
         "genre": [
-          "ENT",
+          "ENT", "SOFT",
           "JAPAN"
         ],
         "imp": 4,
@@ -1112,7 +1112,7 @@
         "label": "フロッピーディスク",
         "startYear": 1971,
         "genre": [
-          "HAR-STO"
+          "HAR-MED"
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/フロッピーディスク",
@@ -1155,7 +1155,7 @@
         "startYear": 1972,
         "endYear": 1981,
         "genre": [
-          "MED",
+          "MED", "NONG",
           "COM"
         ],
         "imp": 4,
@@ -1186,7 +1186,7 @@
         "label": "SEIKO S-500（i8008搭載デスクトップ計算機）",
         "startYear": 1972,
         "genre": [
-          "HAR-PC",
+          "HAR-PC", "HARD",
           "JAPAN"
         ],
         "imp": 4,
@@ -1280,7 +1280,7 @@
         "startYear": 1973,
         "endYear": 1975,
         "genre": [
-          "WEB-SVC",
+          "WEB-SVC", "SOFT",
           "COM"
         ],
         "imp": 5,
@@ -1291,7 +1291,7 @@
         "label": "WABOT-1",
         "startYear": 1973,
         "genre": [
-          "ROB",
+          "ROB", "HARD",
           "JAPAN"
         ],
         "imp": 4,
@@ -1305,7 +1305,7 @@
         "startYear": 1974,
         "endYear": 1992,
         "genre": [
-          "HIS",
+          "NON-HIS", "NONG",
           "HAR-CPU"
         ],
         "imp": 3,
@@ -1347,7 +1347,7 @@
         "label": "SORD SMP80/X",
         "startYear": 1974,
         "genre": [
-          "HAR-PC",
+          "HAR-PC", "HARD",
           "JAPAN"
         ],
         "imp": 3,
@@ -1411,7 +1411,7 @@
         "label": "Jargon File（ハッカー用語集）",
         "startYear": 1975,
         "genre": [
-          "MED",
+          "MED", "NONG",
           "COM"
         ],
         "imp": 4,
@@ -1423,7 +1423,7 @@
         "startYear": 1975,
         "endYear": "ongoing",
         "genre": [
-          "COM",
+          "COM", "NONG",
           "EVT"
         ],
         "imp": 4,
@@ -1435,7 +1435,7 @@
         "startYear": 1975,
         "endYear": 1985,
         "genre": [
-          "ENT",
+          "ENT", "SOFT",
           "JAPAN"
         ],
         "imp": 4,
@@ -1447,8 +1447,8 @@
         "startYear": 1975,
         "endYear": "ongoing",
         "genre": [
-          "ENT",
-          "NET-PRO",
+          "ENT", "SOFT",
+          "NET-PRO", "SOFT",
           "JAPAN"
         ],
         "imp": 4,
@@ -1460,8 +1460,8 @@
         "startYear": 1975,
         "endYear": "ongoing",
         "genre": [
-          "SOF-OS",
-          "HAR-PC",
+          "SOF-OS", "SOFT",
+          "HAR-PC", "HARD",
           "JAPAN"
         ],
         "imp": 3,
@@ -1525,7 +1525,7 @@
         "label": "NEC TK-80",
         "startYear": 1976,
         "genre": [
-          "HAR-PC",
+          "HAR-PC", "HARD",
           "JAPAN"
         ],
         "imp": 5,
@@ -1537,7 +1537,7 @@
         "startYear": 1976,
         "endYear": "ongoing",
         "genre": [
-          "MED",
+          "MED", "NONG",
           "JAPAN"
         ],
         "imp": 5,
@@ -1548,7 +1548,7 @@
         "label": "NEC Bit-INN（秋葉原ラジオ会館）",
         "startYear": 1976,
         "genre": [
-          "COM",
+          "COM", "NONG",
           "JAPAN"
         ],
         "imp": 4,
@@ -1641,7 +1641,7 @@
         "label": "Apple II",
         "startYear": 1977,
         "genre": [
-          "HAR-PC",
+          "HAR-PC", "HARD",
           "GAM"
         ],
         "imp": 4,
@@ -1652,7 +1652,7 @@
         "label": "TRS-80",
         "startYear": 1977,
         "genre": [
-          "HAR-PC",
+          "HAR-PC", "HARD",
           "GAM"
         ],
         "imp": 3,
@@ -1663,7 +1663,7 @@
         "label": "PET 2001",
         "startYear": 1977,
         "genre": [
-          "HAR-PC",
+          "HAR-PC", "HARD",
           "GAM"
         ],
         "imp": 3,
@@ -1674,7 +1674,7 @@
         "label": "FACOM 230-75 APU（日本初のベクトル機）",
         "startYear": 1977,
         "genre": [
-          "HAR-PC",
+          "HAR-PC", "HARD",
           "JAPAN"
         ],
         "imp": 5,
@@ -1686,7 +1686,7 @@
         "startYear": 1977,
         "endYear": 2010,
         "genre": [
-          "MED",
+          "MED", "NONG",
           "JAPAN"
         ],
         "imp": 5,
@@ -1720,7 +1720,7 @@
         "label": "月刊アスキー",
         "startYear": 1978,
         "genre": [
-          "MED",
+          "MED", "NONG",
           "JAPAN"
         ],
         "imp": 4,
@@ -1731,7 +1731,7 @@
         "label": "SHARP MZ-80K",
         "startYear": 1978,
         "genre": [
-          "HAR-PC",
+          "HAR-PC", "HARD",
           "JAPAN"
         ],
         "imp": 5,
@@ -1743,7 +1743,7 @@
         "startYear": 1978,
         "endYear": "ongoing",
         "genre": [
-          "ENT",
+          "ENT", "SOFT",
           "JAPAN"
         ],
         "imp": 3,
@@ -1754,7 +1754,7 @@
         "label": "JIS C 6226 → JIS X 0208（漢字集合）",
         "startYear": 1978,
         "genre": [
-          "FMT",
+          "HAR-MED", "SOFT",
           "JAPAN"
         ],
         "imp": 5,
@@ -1765,7 +1765,7 @@
         "label": "日立 ベーシックマスターMB-6880",
         "startYear": 1978,
         "genre": [
-          "HAR-PC",
+          "HAR-PC", "HARD",
           "JAPAN"
         ],
         "imp": 5,
@@ -1840,7 +1840,7 @@
         "label": "NEC PC-8001",
         "startYear": 1979,
         "genre": [
-          "HAR-PC",
+          "HAR-PC", "HARD",
           "JAPAN"
         ],
         "imp": 5,
@@ -1851,7 +1851,7 @@
         "label": "東芝 JW-10",
         "startYear": 1979,
         "genre": [
-          "HAR-PER",
+          "HAR-PER", "HARD",
           "JAPAN"
         ],
         "imp": 5,
@@ -1862,7 +1862,7 @@
         "label": "シャープ 書院 WD-3000（初号機）",
         "startYear": 1979,
         "genre": [
-          "HAR-PER",
+          "HAR-PER", "HARD",
           "JAPAN"
         ],
         "imp": 4,
@@ -1873,7 +1873,7 @@
         "label": "ラテカピュータ PC-2001/PC-2000（SHARP）",
         "startYear": 1979,
         "genre": [
-          "HAR-PC",
+          "HAR-PC", "HARD",
           "JAPAN"
         ],
         "imp": 3,
@@ -1884,8 +1884,8 @@
         "label": "ウォークマン（文脈展示）",
         "startYear": 1979,
         "genre": [
-          "HAR-PER",
-          "MED",
+          "HAR-PER", "HARD",
+          "MED", "NONG",
           "JAPAN"
         ],
         "imp": 3,
@@ -1949,7 +1949,7 @@
         "label": "富士通 OASYS 100",
         "startYear": 1980,
         "genre": [
-          "HAR-PER",
+          "HAR-PER", "HARD",
           "JAPAN"
         ],
         "imp": 5,
@@ -1960,7 +1960,7 @@
         "label": "親指シフト（NICOLAの源流）",
         "startYear": 1980,
         "genre": [
-          "SOF-DEV",
+          "SOF-DEV", "SOFT",
           "JAPAN"
         ],
         "imp": 4,
@@ -1971,7 +1971,7 @@
         "label": "キヤノン キヤノワード55",
         "startYear": 1980,
         "genre": [
-          "HAR-PER",
+          "HAR-PER", "HARD",
           "JAPAN"
         ],
         "imp": 3,
@@ -2077,7 +2077,7 @@
         "label": "FUJITSU FM-8",
         "startYear": 1981,
         "genre": [
-          "HAR-PC",
+          "HAR-PC", "HARD",
           "JAPAN"
         ],
         "imp": 4,
@@ -2088,7 +2088,7 @@
         "label": "NEC PC-6001",
         "startYear": 1981,
         "genre": [
-          "HAR-PC",
+          "HAR-PC", "HARD",
           "JAPAN"
         ],
         "imp": 4,
@@ -2099,7 +2099,7 @@
         "label": "NEC 文豪 NWP-20N",
         "startYear": 1981,
         "genre": [
-          "HAR-PER",
+          "HAR-PER", "HARD",
           "JAPAN"
         ],
         "imp": 4,
@@ -2110,7 +2110,7 @@
         "label": "NEC PC-8801",
         "startYear": 1981,
         "genre": [
-          "HAR-PC",
+          "HAR-PC", "HARD",
           "JAPAN"
         ],
         "imp": 5,
@@ -2121,7 +2121,7 @@
         "label": "National JR-100",
         "startYear": 1981,
         "genre": [
-          "HAR-PC",
+          "HAR-PC", "HARD",
           "JAPAN"
         ],
         "imp": 3,
@@ -2132,7 +2132,7 @@
         "label": "FM-8",
         "startYear": 1981,
         "genre": [
-          "HAR-PC",
+          "HAR-PC", "HARD",
           "JAPAN"
         ],
         "imp": 3,
@@ -2206,7 +2206,7 @@
         "label": "SORD M5",
         "startYear": 1982,
         "genre": [
-          "HAR-PC",
+          "HAR-PC", "HARD",
           "JAPAN"
         ],
         "imp": 3,
@@ -2217,7 +2217,7 @@
         "label": "SHARP X1",
         "startYear": 1982,
         "genre": [
-          "HAR-PC",
+          "HAR-PC", "HARD",
           "JAPAN"
         ],
         "imp": 4,
@@ -2228,7 +2228,7 @@
         "label": "IBM産業スパイ事件",
         "startYear": 1982,
         "genre": [
-          "HIS",
+          "NON-HIS", "NONG",
           "JAPAN"
         ],
         "imp": 4,
@@ -2239,7 +2239,7 @@
         "label": "HITAC S-810",
         "startYear": 1982,
         "genre": [
-          "HAR-PC",
+          "HAR-PC", "HARD",
           "JAPAN"
         ],
         "imp": 4,
@@ -2250,7 +2250,7 @@
         "label": "Fujitsu VP-100/200（ベクトル計算機）",
         "startYear": 1982,
         "genre": [
-          "HAR-PC",
+          "HAR-PC", "HARD",
           "JAPAN"
         ],
         "imp": 4,
@@ -2261,7 +2261,7 @@
         "label": "NEC VWP-100（音声入力ワープロ）",
         "startYear": 1982,
         "genre": [
-          "HAR-PER",
+          "HAR-PER", "HARD",
           "JAPAN"
         ],
         "imp": 3,
@@ -2272,7 +2272,7 @@
         "label": "Shift_JIS（シフトJIS）",
         "startYear": 1982,
         "genre": [
-          "FMT",
+          "HAR-MED", "SOFT",
           "JAPAN"
         ],
         "imp": 4,
@@ -2283,7 +2283,7 @@
         "label": "FM-7",
         "startYear": 1982,
         "genre": [
-          "HAR-PC",
+          "HAR-PC", "HARD",
           "JAPAN"
         ],
         "imp": 4,
@@ -2294,7 +2294,7 @@
         "label": "FM-11",
         "startYear": 1982,
         "genre": [
-          "HAR-PC",
+          "HAR-PC", "HARD",
           "JAPAN"
         ],
         "imp": 3,
@@ -2305,7 +2305,7 @@
         "label": "Sony SMC-777",
         "startYear": 1982,
         "genre": [
-          "HAR-PC",
+          "HAR-PC", "HARD",
           "JAPAN"
         ],
         "imp": 3,
@@ -2316,7 +2316,7 @@
         "label": "SEIKO UC-2000（腕時計型コンピュータ）",
         "startYear": 1982,
         "genre": [
-          "HAR-PC",
+          "HAR-PC", "HARD",
           "JAPAN"
         ],
         "imp": 3,
@@ -2327,7 +2327,7 @@
         "label": "NEC PC-9801",
         "startYear": 1982,
         "genre": [
-          "HAR-PC",
+          "HAR-PC", "HARD",
           "JAPAN"
         ],
         "imp": 5,
@@ -2338,7 +2338,7 @@
         "label": "Epson HC-20（HX-20）",
         "startYear": 1982,
         "genre": [
-          "HAR-PC",
+          "HAR-PC", "HARD",
           "JAPAN"
         ],
         "imp": 5,
@@ -2350,7 +2350,7 @@
         "startYear": 1982,
         "endYear": 2003,
         "genre": [
-          "MED",
+          "MED", "NONG",
           "JAPAN"
         ],
         "imp": 5,
@@ -2362,7 +2362,7 @@
         "startYear": 1982,
         "endYear": 2008,
         "genre": [
-          "MED",
+          "MED", "NONG",
           "JAPAN"
         ],
         "imp": 4,
@@ -2374,7 +2374,7 @@
         "startYear": 1982,
         "endYear": 1995,
         "genre": [
-          "MED",
+          "MED", "NONG",
           "JAPAN"
         ],
         "imp": 4,
@@ -2387,7 +2387,7 @@
         "label": "Olivetti M10",
         "startYear": 1983,
         "genre": [
-          "HAR-MOB",
+          "HAR-MOB", "HARD",
           "HAR-PC"
         ],
         "imp": 3,
@@ -2498,8 +2498,8 @@
         "label": "TRS-80 Model 100",
         "startYear": 1983,
         "genre": [
-          "HAR-MOB",
-          "HAR-PC",
+          "HAR-MOB", "HARD",
+          "HAR-PC", "HARD",
           "JAPAN"
         ],
         "imp": 4,
@@ -2510,8 +2510,8 @@
         "label": "Kyotronic 85（京セラ）",
         "startYear": 1983,
         "genre": [
-          "HAR-MOB",
-          "HAR-PC",
+          "HAR-MOB", "HARD",
+          "HAR-PC", "HARD",
           "JAPAN"
         ],
         "imp": 4,
@@ -2522,7 +2522,7 @@
         "label": "NEC PC-100",
         "startYear": 1983,
         "genre": [
-          "HAR-PC",
+          "HAR-PC", "HARD",
           "JAPAN"
         ],
         "imp": 3,
@@ -2533,8 +2533,8 @@
         "label": "NEC PC-8201",
         "startYear": 1983,
         "genre": [
-          "HAR-MOB",
-          "HAR-PC",
+          "HAR-MOB", "HARD",
+          "HAR-PC", "HARD",
           "JAPAN"
         ],
         "imp": 3,
@@ -2545,7 +2545,7 @@
         "label": "MSX",
         "startYear": 1983,
         "genre": [
-          "HAR-PC",
+          "HAR-PC", "HARD",
           "JAPAN"
         ],
         "imp": 4,
@@ -2556,7 +2556,7 @@
         "label": "ファミリーコンピュータ",
         "startYear": 1983,
         "genre": [
-          "HAR-GAM",
+          "HAR-GAM", "HARD",
           "JAPAN"
         ],
         "imp": 4,
@@ -2567,7 +2567,7 @@
         "label": "Panasonic JR-200",
         "startYear": 1983,
         "genre": [
-          "HAR-PC",
+          "HAR-PC", "HARD",
           "JAPAN"
         ],
         "imp": 3,
@@ -2578,7 +2578,7 @@
         "label": "MITSUBISHI MULTI 8",
         "startYear": 1983,
         "genre": [
-          "HAR-PC",
+          "HAR-PC", "HARD",
           "JAPAN"
         ],
         "imp": 3,
@@ -2589,7 +2589,7 @@
         "label": "TOSHIBA PASOPIA7",
         "startYear": 1983,
         "genre": [
-          "HAR-PC",
+          "HAR-PC", "HARD",
           "JAPAN"
         ],
         "imp": 3,
@@ -2600,7 +2600,7 @@
         "label": "NEC SX-2（SXシリーズ）",
         "startYear": 1983,
         "genre": [
-          "HAR-PC",
+          "HAR-PC", "HARD",
           "JAPAN"
         ],
         "imp": 4,
@@ -2611,7 +2611,7 @@
         "label": "HITAC M-200/M-280系（主力汎用機）",
         "startYear": 1983,
         "genre": [
-          "HAR-PC",
+          "HAR-PC", "HARD",
           "JAPAN"
         ],
         "imp": 3,
@@ -2622,7 +2622,7 @@
         "label": "ATOK（ジャストシステム）",
         "startYear": 1983,
         "genre": [
-          "SOF-DEV",
+          "SOF-DEV", "SOFT",
           "JAPAN"
         ],
         "imp": 4,
@@ -2633,7 +2633,7 @@
         "label": "Sony HiTBiT HB-01系（MSX系）",
         "startYear": 1983,
         "genre": [
-          "HAR-PC",
+          "HAR-PC", "HARD",
           "JAPAN"
         ],
         "imp": 4,
@@ -2698,7 +2698,7 @@
         "label": "BB84量子鍵配送プロトコル",
         "startYear": 1984,
         "genre": [
-          "SEC",
+          "SOF-SEC", "SOFT",
           "THE"
         ],
         "imp": 5,
@@ -2811,8 +2811,8 @@
         "label": "TRON構想",
         "startYear": 1984,
         "genre": [
-          "SOF-OS",
-          "POL",
+          "SOF-OS", "SOFT",
+          "NON-HIS", "NONG",
           "JAPAN"
         ],
         "imp": 4,
@@ -2823,7 +2823,7 @@
         "label": "EPSON RC-20 リストコンピュータ",
         "startYear": 1984,
         "genre": [
-          "HAR-WEA",
+          "HAR-MOB", "HARD",
           "JAPAN"
         ],
         "imp": 5,
@@ -2834,7 +2834,7 @@
         "label": "SHARP X1turbo",
         "startYear": 1984,
         "genre": [
-          "HAR-PC",
+          "HAR-PC", "HARD",
           "JAPAN"
         ],
         "imp": 4,
@@ -2939,7 +2939,7 @@
         "startYear": 1985,
         "endYear": "ongoing",
         "genre": [
-          "WEB-SVC",
+          "WEB-SVC", "SOFT",
           "COM"
         ],
         "imp": 5,
@@ -2950,8 +2950,8 @@
         "label": "Toshiba T3100",
         "startYear": 1985,
         "genre": [
-          "HAR-PC",
-          "HAR-MOB",
+          "HAR-PC", "HARD",
+          "HAR-MOB", "HARD",
           "JAPAN"
         ],
         "imp": 4,
@@ -2962,7 +2962,7 @@
         "label": "NEC PC-8801mkIISR",
         "startYear": 1985,
         "genre": [
-          "HAR-PC",
+          "HAR-PC", "HARD",
           "JAPAN"
         ],
         "imp": 4,
@@ -2973,7 +2973,7 @@
         "label": "NEC PC-9801VM",
         "startYear": 1985,
         "genre": [
-          "HAR-PC",
+          "HAR-PC", "HARD",
           "JAPAN"
         ],
         "imp": 4,
@@ -2984,7 +2984,7 @@
         "label": "FM-77AV",
         "startYear": 1985,
         "genre": [
-          "HAR-PC",
+          "HAR-PC", "HARD",
           "JAPAN"
         ],
         "imp": 4,
@@ -2995,7 +2995,7 @@
         "label": "SHARP MZ-2500",
         "startYear": 1985,
         "genre": [
-          "HAR-PC",
+          "HAR-PC", "HARD",
           "JAPAN"
         ],
         "imp": 4,
@@ -3007,7 +3007,7 @@
         "startYear": 1985,
         "endYear": 1997,
         "genre": [
-          "WEB-SVC",
+          "WEB-SVC", "SOFT",
           "JAPAN"
         ],
         "imp": 4,
@@ -3019,7 +3019,7 @@
         "startYear": 1985,
         "endYear": 1995,
         "genre": [
-          "ENT",
+          "ENT", "SOFT",
           "JAPAN"
         ],
         "imp": 4,
@@ -3030,7 +3030,7 @@
         "label": "NTT ショルダーホン",
         "startYear": 1985,
         "genre": [
-          "HAR-MOB",
+          "HAR-MOB", "HARD",
           "JAPAN"
         ],
         "imp": 4,
@@ -3041,7 +3041,7 @@
         "label": "NEC PC-286系",
         "startYear": 1985,
         "genre": [
-          "HAR-PC",
+          "HAR-PC", "HARD",
           "JAPAN"
         ],
         "imp": 3,
@@ -3052,7 +3052,7 @@
         "label": "Toshiba T1100",
         "startYear": 1985,
         "genre": [
-          "HAR-PC",
+          "HAR-PC", "HARD",
           "JAPAN"
         ],
         "imp": 5,
@@ -3064,7 +3064,7 @@
         "startYear": 1985,
         "endYear": 1988,
         "genre": [
-          "MED",
+          "MED", "NONG",
           "JAPAN"
         ],
         "imp": 4,
@@ -3075,7 +3075,7 @@
         "label": "ショルダーフォン（TZ-802/803系）",
         "startYear": 1985,
         "genre": [
-          "HAR-MOB",
+          "HAR-MOB", "HARD",
           "JAPAN"
         ],
         "imp": 4,
@@ -3087,7 +3087,7 @@
         "startYear": 1985,
         "endYear": 2006,
         "genre": [
-          "WEB-SVC",
+          "WEB-SVC", "SOFT",
           "JAPAN"
         ],
         "imp": 5,
@@ -3100,7 +3100,7 @@
         "label": "SQL標準化",
         "startYear": 1986,
         "genre": [
-          "DB"
+          "SOF-OFF"
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/SQL",
@@ -3110,7 +3110,7 @@
         "label": "IBM PC Convertible（5140）",
         "startYear": 1986,
         "genre": [
-          "HAR-PC",
+          "HAR-PC", "HARD",
           "HAR-MOB"
         ],
         "imp": 4,
@@ -3121,7 +3121,7 @@
         "label": "Osborne系譜の終着",
         "startYear": 1986,
         "genre": [
-          "HIS"
+          "NON-HIS"
         ],
         "imp": 2,
         "url": "https://en.wikipedia.org/wiki/Osborne_Computer_Corporation",
@@ -3131,7 +3131,7 @@
         "label": "サブサンプション・アーキテクチャ",
         "startYear": 1986,
         "genre": [
-          "ROB",
+          "ROB", "HARD",
           "AI"
         ],
         "imp": 5,
@@ -3142,7 +3142,7 @@
         "label": "SLAM（自己位置推定と地図作成）",
         "startYear": 1986,
         "genre": [
-          "AI",
+          "AI", "SOFT",
           "ROB"
         ],
         "imp": 4,
@@ -3163,7 +3163,7 @@
         "label": "Habitat（オンライン仮想世界）",
         "startYear": 1986,
         "genre": [
-          "WEB-SVC",
+          "WEB-SVC", "SOFT",
           "GAM"
         ],
         "imp": 3,
@@ -3175,7 +3175,7 @@
         "startYear": 1986,
         "endYear": 2001,
         "genre": [
-          "WEB-SVC",
+          "WEB-SVC", "SOFT",
           "JAPAN"
         ],
         "imp": 4,
@@ -3186,7 +3186,7 @@
         "label": "X1turboZ（シャープ）",
         "startYear": 1986,
         "genre": [
-          "HAR-PC",
+          "HAR-PC", "HARD",
           "JAPAN"
         ],
         "imp": 4,
@@ -3197,8 +3197,8 @@
         "label": "Toshiba T2000",
         "startYear": 1986,
         "genre": [
-          "HAR-PC",
-          "HAR-MOB",
+          "HAR-PC", "HARD",
+          "HAR-MOB", "HARD",
           "JAPAN"
         ],
         "imp": 3,
@@ -3210,8 +3210,8 @@
         "startYear": 1986,
         "endYear": "ongoing",
         "genre": [
-          "ENT",
-          "NET-PRO",
+          "ENT", "SOFT",
+          "NET-PRO", "SOFT",
           "JAPAN"
         ],
         "imp": 4,
@@ -3223,8 +3223,8 @@
         "startYear": 1986,
         "endYear": 1991,
         "genre": [
-          "POL",
-          "HIS",
+          "NON-HIS", "NONG",
+          "NON-HIS", "NONG",
           "JAPAN"
         ],
         "imp": 5,
@@ -3235,8 +3235,8 @@
         "label": "MOSS電気通信合意（端末開放・新規参入）",
         "startYear": 1986,
         "genre": [
-          "POL",
-          "HIS",
+          "NON-HIS", "NONG",
+          "NON-HIS", "NONG",
           "JAPAN"
         ],
         "imp": 3,
@@ -3247,7 +3247,7 @@
         "label": "Panasonic FS-A1（MSX2）",
         "startYear": 1986,
         "genre": [
-          "HAR-PC",
+          "HAR-PC", "HARD",
           "JAPAN"
         ],
         "imp": 3,
@@ -3258,7 +3258,7 @@
         "label": "Toshiba T3100/T3200（T1100系譜）",
         "startYear": 1986,
         "genre": [
-          "HAR-PC",
+          "HAR-PC", "HARD",
           "JAPAN"
         ],
         "imp": 4,
@@ -3271,7 +3271,7 @@
         "label": "X Window System",
         "startYear": 1987,
         "genre": [
-          "SOF-OS",
+          "SOF-OS", "SOFT",
           "NET-PRO"
         ],
         "imp": 4,
@@ -3323,8 +3323,8 @@
         "label": "NEC UltraLite",
         "startYear": 1987,
         "genre": [
-          "HAR-MOB",
-          "HAR-PC",
+          "HAR-MOB", "HARD",
+          "HAR-PC", "HARD",
           "JAPAN"
         ],
         "imp": 4,
@@ -3335,7 +3335,7 @@
         "label": "NEC PC-9801シリーズ隆盛",
         "startYear": 1987,
         "genre": [
-          "HAR-PC",
+          "HAR-PC", "HARD",
           "JAPAN"
         ],
         "imp": 4,
@@ -3346,8 +3346,8 @@
         "label": "Toshiba T1200",
         "startYear": 1987,
         "genre": [
-          "HAR-PC",
-          "HAR-MOB",
+          "HAR-PC", "HARD",
+          "HAR-MOB", "HARD",
           "JAPAN"
         ],
         "imp": 4,
@@ -3358,8 +3358,8 @@
         "label": "東芝機械ココム違反事件",
         "startYear": 1987,
         "genre": [
-          "HIS",
-          "POL",
+          "NON-HIS", "NONG",
+          "NON-HIS", "NONG",
           "JAPAN"
         ],
         "imp": 4,
@@ -3370,7 +3370,7 @@
         "label": "µITRON（ITRON仕様）",
         "startYear": 1987,
         "genre": [
-          "SOF-OS",
+          "SOF-OS", "SOFT",
           "JAPAN"
         ],
         "imp": 5,
@@ -3381,7 +3381,7 @@
         "label": "NTT 携帯電話（TZ-802型）",
         "startYear": 1987,
         "genre": [
-          "HAR-MOB",
+          "HAR-MOB", "HARD",
           "JAPAN"
         ],
         "imp": 5,
@@ -3392,7 +3392,7 @@
         "label": "SHARP X68000",
         "startYear": 1987,
         "genre": [
-          "HAR-PC",
+          "HAR-PC", "HARD",
           "JAPAN"
         ],
         "imp": 5,
@@ -3404,7 +3404,7 @@
         "startYear": 1987,
         "endYear": 2006,
         "genre": [
-          "WEB-SVC",
+          "WEB-SVC", "SOFT",
           "JAPAN"
         ],
         "imp": 5,
@@ -3415,7 +3415,7 @@
         "label": "X68000（ゲーム開発文脈）",
         "startYear": 1987,
         "genre": [
-          "HAR-PC",
+          "HAR-PC", "HARD",
           "GAM",
           "JAPAN"
         ],
@@ -3546,7 +3546,7 @@
         "label": "FM TOWNS",
         "startYear": 1989,
         "genre": [
-          "HAR-PC",
+          "HAR-PC", "HARD",
           "JAPAN"
         ],
         "imp": 4,
@@ -3557,8 +3557,8 @@
         "label": "東芝 Dynabook J-3100SS",
         "startYear": 1989,
         "genre": [
-          "HAR-PC",
-          "HAR-MOB",
+          "HAR-PC", "HARD",
+          "HAR-MOB", "HARD",
           "JAPAN"
         ],
         "imp": 4,
@@ -3570,8 +3570,8 @@
         "startYear": 1989,
         "endYear": 1990,
         "genre": [
-          "POL",
-          "HIS",
+          "NON-HIS", "NONG",
+          "NON-HIS", "NONG",
           "JAPAN"
         ],
         "imp": 4,
@@ -3582,8 +3582,8 @@
         "label": "日米電気通信交渉（携帯市場開放）",
         "startYear": 1989,
         "genre": [
-          "POL",
-          "HIS",
+          "NON-HIS", "NONG",
+          "NON-HIS", "NONG",
           "JAPAN"
         ],
         "imp": 4,
@@ -3651,7 +3651,7 @@
         "startYear": 1990,
         "endYear": 1997,
         "genre": [
-          "WEB-SVC",
+          "WEB-SVC", "SOFT",
           "JAPAN"
         ],
         "imp": 4,
@@ -3662,8 +3662,8 @@
         "label": "スパコン政府調達是正の合意",
         "startYear": 1990,
         "genre": [
-          "POL",
-          "HIS",
+          "NON-HIS", "NONG",
+          "NON-HIS", "NONG",
           "JAPAN"
         ],
         "imp": 3,
@@ -3676,7 +3676,7 @@
         "label": "Linux",
         "startYear": 1991,
         "genre": [
-          "SOF-OS",
+          "SOF-OS", "SOFT",
           "COM"
         ],
         "imp": 5,
@@ -3687,7 +3687,7 @@
         "label": "PGP",
         "startYear": 1991,
         "genre": [
-          "SEC"
+          "SOF-SEC"
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/Pretty_Good_Privacy",
@@ -3748,7 +3748,7 @@
         "label": "World Wide Web（CERN）",
         "startYear": 1991,
         "genre": [
-          "WEB-SVC",
+          "WEB-SVC", "SOFT",
           "SOF"
         ],
         "imp": 5,
@@ -3760,8 +3760,8 @@
         "startYear": 1991,
         "endYear": 1996,
         "genre": [
-          "POL",
-          "HIS",
+          "NON-HIS", "NONG",
+          "NON-HIS", "NONG",
           "JAPAN"
         ],
         "imp": 5,
@@ -3773,8 +3773,8 @@
         "startYear": 1991,
         "endYear": 1996,
         "genre": [
-          "POL",
-          "HIS",
+          "NON-HIS", "NONG",
+          "NON-HIS", "NONG",
           "JAPAN"
         ],
         "imp": 3,
@@ -3785,7 +3785,7 @@
         "label": "東芝 Rupo JW98UP",
         "startYear": 1991,
         "genre": [
-          "HAR-PER",
+          "HAR-PER", "HARD",
           "JAPAN"
         ],
         "imp": 3,
@@ -3796,7 +3796,7 @@
         "label": "Sharp PV-F1（液晶ペンコム試作系）",
         "startYear": 1991,
         "genre": [
-          "HAR-MOB",
+          "HAR-MOB", "HARD",
           "JAPAN"
         ],
         "imp": 4,
@@ -3870,8 +3870,8 @@
         "label": "ThinkPad 700C",
         "startYear": 1992,
         "genre": [
-          "HAR-PC",
-          "HAR-MOB",
+          "HAR-PC", "HARD",
+          "HAR-MOB", "HARD",
           "JAPAN"
         ],
         "imp": 4,
@@ -3882,7 +3882,7 @@
         "label": "ASCII（企業）",
         "startYear": 1992,
         "genre": [
-          "ORG",
+          "ORG", "NONG",
           "JAPAN"
         ],
         "imp": 4,
@@ -3894,7 +3894,7 @@
         "startYear": 1992,
         "genre": [
           "NET",
-          "WEB-SVC",
+          "WEB-SVC", "SOFT",
           "JAPAN"
         ],
         "imp": 5,
@@ -3907,7 +3907,7 @@
         "label": "Mosaic",
         "startYear": 1993,
         "genre": [
-          "SOF-DEV",
+          "SOF-DEV", "SOFT",
           "WEB-SVC"
         ],
         "imp": 5,
@@ -3919,8 +3919,8 @@
         "startYear": 1993,
         "endYear": 1996,
         "genre": [
-          "HIS",
-          "POL"
+          "NON-HIS", "NONG",
+          "NON-HIS"
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/情報スーパーハイウェイ",
@@ -3930,7 +3930,7 @@
         "label": "PDF",
         "startYear": 1993,
         "genre": [
-          "FMT"
+          "HAR-MED"
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/Portable_Document_Format",
@@ -4001,7 +4001,7 @@
         "label": "情報スーパーハイウェイ構想（米）",
         "startYear": 1993,
         "genre": [
-          "POL",
+          "NON-HIS", "NONG",
           "NET"
         ],
         "imp": 4,
@@ -4013,7 +4013,7 @@
         "startYear": 1993,
         "endYear": 1995,
         "genre": [
-          "HAR-PC",
+          "HAR-PC", "HARD",
           "JAPAN"
         ],
         "imp": 5,
@@ -4024,7 +4024,7 @@
         "label": "Microsoft IME（Windows 3.1J標準添付）",
         "startYear": 1993,
         "genre": [
-          "SOF-DEV",
+          "SOF-DEV", "SOFT",
           "JAPAN"
         ],
         "imp": 4,
@@ -4035,7 +4035,7 @@
         "label": "MS-IMEの基盤（WX2系の導入）",
         "startYear": 1993,
         "genre": [
-          "SOF-DEV",
+          "SOF-DEV", "SOFT",
           "JAPAN"
         ],
         "imp": 3,
@@ -4046,7 +4046,7 @@
         "label": "Sharp Zaurus PI-3000",
         "startYear": 1993,
         "genre": [
-          "HAR-MOB",
+          "HAR-MOB", "HARD",
           "JAPAN"
         ],
         "imp": 5,
@@ -4070,8 +4070,8 @@
         "label": "ショアのアルゴリズム",
         "startYear": 1994,
         "genre": [
-          "THE",
-          "SEC"
+          "THE", "NONG",
+          "SOF-SEC"
         ],
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/ショアのアルゴリズム",
@@ -4133,7 +4133,7 @@
         "label": "Win95前夜の秋葉原活況",
         "startYear": 1994,
         "genre": [
-          "HIS",
+          "NON-HIS", "NONG",
           "JAPAN"
         ],
         "imp": 4,
@@ -4144,8 +4144,8 @@
         "label": "携帯市場開放違反の米側認定",
         "startYear": 1994,
         "genre": [
-          "POL",
-          "HIS",
+          "NON-HIS", "NONG",
+          "NON-HIS", "NONG",
           "JAPAN"
         ],
         "imp": 3,
@@ -4156,7 +4156,7 @@
         "label": "Sony Magic Link（Magic Cap）",
         "startYear": 1994,
         "genre": [
-          "HAR-MOB",
+          "HAR-MOB", "HARD",
           "JAPAN"
         ],
         "imp": 4,
@@ -4167,7 +4167,7 @@
         "label": "端末買い切り制（日本）",
         "startYear": 1994,
         "genre": [
-          "POL",
+          "NON-HIS", "NONG",
           "MOB",
           "JAPAN"
         ],
@@ -4180,7 +4180,7 @@
         "startYear": 1994,
         "genre": [
           "NET",
-          "WEB-SVC",
+          "WEB-SVC", "SOFT",
           "JAPAN"
         ],
         "imp": 5,
@@ -4213,7 +4213,7 @@
         "label": "SSL/TLS",
         "startYear": 1995,
         "genre": [
-          "SEC"
+          "SOF-SEC"
         ],
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/Transport_Layer_Security",
@@ -4233,7 +4233,7 @@
         "label": "Cirac–Zoller提案（イオントラップ）",
         "startYear": 1995,
         "genre": [
-          "THE",
+          "THE", "NONG",
           "HAR-CPU"
         ],
         "imp": 4,
@@ -4285,8 +4285,8 @@
         "startYear": 1995,
         "endYear": 2020,
         "genre": [
-          "HAR-MOB",
-          "NET-PRO",
+          "HAR-MOB", "HARD",
+          "NET-PRO", "SOFT",
           "JAPAN"
         ],
         "imp": 4,
@@ -4310,7 +4310,7 @@
         "endYear": 2008,
         "genre": [
           "MOB",
-          "WEB-SVC",
+          "WEB-SVC", "SOFT",
           "JAPAN"
         ],
         "imp": 4,
@@ -4353,7 +4353,7 @@
         "label": "Dell Direct Model（Web直販/BTO）",
         "startYear": 1996,
         "genre": [
-          "ENT",
+          "ENT", "SOFT",
           "WEB-SVC"
         ],
         "imp": 4,
@@ -4444,7 +4444,7 @@
         "label": "エプソン PM-700C（フォト・マッハジェット）",
         "startYear": 1996,
         "genre": [
-          "HAR-PER",
+          "HAR-PER", "HARD",
           "JAPAN"
         ],
         "imp": 5,
@@ -4455,8 +4455,8 @@
         "label": "IBM ThinkPad 701C（Butterfly）",
         "startYear": 1996,
         "genre": [
-          "HAR-PC",
-          "HAR-MOB",
+          "HAR-PC", "HARD",
+          "HAR-MOB", "HARD",
           "JAPAN"
         ],
         "imp": 4,
@@ -4467,8 +4467,8 @@
         "label": "Toshiba T3200",
         "startYear": 1996,
         "genre": [
-          "HAR-PC",
-          "HAR-MOB",
+          "HAR-PC", "HARD",
+          "HAR-MOB", "HARD",
           "JAPAN"
         ],
         "imp": 3,
@@ -4479,8 +4479,8 @@
         "label": "Toshiba Libretto（初代）",
         "startYear": 1996,
         "genre": [
-          "HAR-MOB",
-          "HAR-PC",
+          "HAR-MOB", "HARD",
+          "HAR-PC", "HARD",
           "JAPAN"
         ],
         "imp": 4,
@@ -4502,8 +4502,8 @@
         "label": "半導体協定の終結・新合意",
         "startYear": 1996,
         "genre": [
-          "POL",
-          "HIS",
+          "NON-HIS", "NONG",
+          "NON-HIS", "NONG",
           "JAPAN"
         ],
         "imp": 3,
@@ -4514,7 +4514,7 @@
         "label": "Toshiba Libretto",
         "startYear": 1996,
         "genre": [
-          "HAR-PC",
+          "HAR-PC", "HARD",
           "JAPAN"
         ],
         "imp": 4,
@@ -4578,8 +4578,8 @@
         "label": "Libretto 50/70",
         "startYear": 1997,
         "genre": [
-          "HAR-MOB",
-          "HAR-PC",
+          "HAR-MOB", "HARD",
+          "HAR-PC", "HARD",
           "JAPAN"
         ],
         "imp": 4,
@@ -4590,8 +4590,8 @@
         "label": "ポケットボード（NTTドコモ）",
         "startYear": 1997,
         "genre": [
-          "HAR-PER",
-          "HAR-MOB",
+          "HAR-PER", "HARD",
+          "HAR-MOB", "HARD",
           "JAPAN"
         ],
         "imp": 4,
@@ -4613,7 +4613,7 @@
         "label": "Cassiopeia A/Eシリーズ（Palm-size PC）",
         "startYear": 1997,
         "genre": [
-          "HAR-MOB",
+          "HAR-MOB", "HARD",
           "JAPAN"
         ],
         "imp": 3,
@@ -4678,7 +4678,7 @@
         "label": "ビジュアルメモリ（Dreamcast VMU）",
         "startYear": 1998,
         "genre": [
-          "HAR-PER",
+          "HAR-PER", "HARD",
           "TOY-DIG"
         ],
         "imp": 3,
@@ -4749,8 +4749,8 @@
         "label": "Libretto 100",
         "startYear": 1998,
         "genre": [
-          "HAR-MOB",
-          "HAR-PC",
+          "HAR-MOB", "HARD",
+          "HAR-PC", "HARD",
           "JAPAN"
         ],
         "imp": 3,
@@ -4783,7 +4783,7 @@
         "label": "東芝 Rupo Qual JW-F580",
         "startYear": 1998,
         "genre": [
-          "HAR-PER",
+          "HAR-PER", "HARD",
           "JAPAN"
         ],
         "imp": 2,
@@ -4880,7 +4880,7 @@
         "startYear": 1999,
         "endYear": 2006,
         "genre": [
-          "ROB",
+          "ROB", "HARD",
           "JAPAN"
         ],
         "imp": 4,
@@ -4892,8 +4892,8 @@
         "startYear": 1999,
         "endYear": 2015,
         "genre": [
-          "WEB-SVC",
-          "HAR-MOB",
+          "WEB-SVC", "SOFT",
+          "HAR-MOB", "HARD",
           "JAPAN"
         ],
         "imp": 5,
@@ -4905,8 +4905,8 @@
         "startYear": 1999,
         "endYear": "ongoing",
         "genre": [
-          "WEB-SVC",
-          "HAR-MOB",
+          "WEB-SVC", "SOFT",
+          "HAR-MOB", "HARD",
           "JAPAN"
         ],
         "imp": 3,
@@ -4917,7 +4917,7 @@
         "label": "ポケットステーション",
         "startYear": 1999,
         "genre": [
-          "HAR-PER",
+          "HAR-PER", "HARD",
           "TOY-DIG",
           "JAPAN"
         ],
@@ -4929,7 +4929,7 @@
         "label": "Kyocera VP-210 “ビジュアルフォン”",
         "startYear": 1999,
         "genre": [
-          "HAR-MOB",
+          "HAR-MOB", "HARD",
           "JAPAN"
         ],
         "imp": 5,
@@ -4953,7 +4953,7 @@
         "startYear": 1999,
         "endYear": "ongoing",
         "genre": [
-          "WEB-SVC",
+          "WEB-SVC", "SOFT",
           "MOB",
           "JAPAN"
         ],
@@ -4965,7 +4965,7 @@
         "label": "F501i（iモード初期機）",
         "startYear": 1999,
         "genre": [
-          "HAR-MOB",
+          "HAR-MOB", "HARD",
           "JAPAN"
         ],
         "imp": 4,
@@ -4976,7 +4976,7 @@
         "label": "F502i（カラー/着メロDL）",
         "startYear": 1999,
         "genre": [
-          "HAR-MOB",
+          "HAR-MOB", "HARD",
           "JAPAN"
         ],
         "imp": 4,
@@ -4987,7 +4987,7 @@
         "label": "写メール（J-フォン）",
         "startYear": 1999,
         "genre": [
-          "WEB-SVC",
+          "WEB-SVC", "SOFT",
           "MOB",
           "JAPAN"
         ],
@@ -5001,8 +5001,8 @@
         "label": "GPS民生向け高精度化（SA解除）",
         "startYear": 2000,
         "genre": [
-          "NET-PRO",
-          "HIS"
+          "NET-PRO", "SOFT",
+          "NON-HIS"
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/選択的能動不可",
@@ -5032,8 +5032,8 @@
         "label": "NTT接続料問題に関する日米協議",
         "startYear": 2000,
         "genre": [
-          "POL",
-          "HIS",
+          "NON-HIS", "NONG",
+          "NON-HIS", "NONG",
           "JAPAN"
         ],
         "imp": 3,
@@ -5045,7 +5045,7 @@
         "startYear": 2000,
         "endYear": 2004,
         "genre": [
-          "FMT",
+          "HAR-MED", "SOFT",
           "JAPAN"
         ],
         "imp": 4,
@@ -5056,7 +5056,7 @@
         "label": "J-Phone J-SH04（写メール）",
         "startYear": 2000,
         "genre": [
-          "HAR-MOB",
+          "HAR-MOB", "HARD",
           "JAPAN"
         ],
         "imp": 5,
@@ -5067,7 +5067,7 @@
         "label": "ASIMO",
         "startYear": 2000,
         "genre": [
-          "ROB",
+          "ROB", "HARD",
           "JAPAN"
         ],
         "imp": 4,
@@ -5081,7 +5081,7 @@
         "startYear": 2001,
         "endYear": "ongoing",
         "genre": [
-          "WEB-SVC",
+          "WEB-SVC", "SOFT",
           "COM"
         ],
         "imp": 5,
@@ -5154,8 +5154,8 @@
         "startYear": 2001,
         "endYear": 2006,
         "genre": [
-          "HIS",
-          "POL",
+          "NON-HIS", "NONG",
+          "NON-HIS", "NONG",
           "JAPAN"
         ],
         "imp": 4,
@@ -5167,7 +5167,7 @@
         "startYear": 2001,
         "endYear": "ongoing",
         "genre": [
-          "PAY",
+          "SOF-SEC", "SOFT",
           "JAPAN"
         ],
         "imp": 5,
@@ -5189,7 +5189,7 @@
         "label": "503i（Java搭載）",
         "startYear": 2001,
         "genre": [
-          "HAR-MOB",
+          "HAR-MOB", "HARD",
           "SOF",
           "JAPAN"
         ],
@@ -5255,8 +5255,8 @@
         "label": "Portege 2000",
         "startYear": 2002,
         "genre": [
-          "HAR-PC",
-          "HAR-MOB",
+          "HAR-PC", "HARD",
+          "HAR-MOB", "HARD",
           "JAPAN"
         ],
         "imp": 4,
@@ -5279,7 +5279,7 @@
         "label": "地球シミュレータ",
         "startYear": 2002,
         "genre": [
-          "HAR-PC",
+          "HAR-PC", "HARD",
           "JAPAN"
         ],
         "imp": 5,
@@ -5290,7 +5290,7 @@
         "label": "Sharp Zaurus SL-5500系（Linux）",
         "startYear": 2002,
         "genre": [
-          "HAR-MOB",
+          "HAR-MOB", "HARD",
           "JAPAN"
         ],
         "imp": 4,
@@ -5324,7 +5324,7 @@
         "startYear": 2003,
         "endYear": "ongoing",
         "genre": [
-          "WEB-SVC",
+          "WEB-SVC", "SOFT",
           "GAM"
         ],
         "imp": 4,
@@ -5336,7 +5336,7 @@
         "startYear": 2003,
         "endYear": 2013,
         "genre": [
-          "WEB-SVC",
+          "WEB-SVC", "SOFT",
           "JAPAN"
         ],
         "imp": 4,
@@ -5347,7 +5347,7 @@
         "label": "ワープロ専用機 生産終了（主要メーカー）",
         "startYear": 2003,
         "genre": [
-          "HIS",
+          "NON-HIS", "NONG",
           "JAPAN"
         ],
         "imp": 3,
@@ -5391,7 +5391,7 @@
         "label": "ロボサピエン（RoboSapien）",
         "startYear": 2004,
         "genre": [
-          "ROB",
+          "ROB", "HARD",
           "TOY-DIG"
         ],
         "imp": 3,
@@ -5413,7 +5413,7 @@
         "startYear": 2004,
         "endYear": "ongoing",
         "genre": [
-          "PAY",
+          "SOF-SEC", "SOFT",
           "JAPAN"
         ],
         "imp": 5,
@@ -5436,7 +5436,7 @@
         "label": "おサイフケータイ",
         "startYear": 2004,
         "genre": [
-          "WEB-SVC",
+          "WEB-SVC", "SOFT",
           "FIN",
           "JAPAN"
         ],
@@ -5462,7 +5462,7 @@
         "startYear": 2005,
         "endYear": "ongoing",
         "genre": [
-          "PAY"
+          "SOF-SEC"
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/QUICPay",
@@ -5493,7 +5493,7 @@
         "startYear": 2005,
         "endYear": "ongoing",
         "genre": [
-          "PAY",
+          "SOF-SEC", "SOFT",
           "JAPAN"
         ],
         "imp": 4,
@@ -5528,7 +5528,7 @@
         "label": "ニコニコ動画",
         "startYear": 2006,
         "genre": [
-          "WEB-SVC",
+          "WEB-SVC", "SOFT",
           "JAPAN"
         ],
         "imp": 4,
@@ -5542,7 +5542,7 @@
         "startYear": 2007,
         "endYear": "ongoing",
         "genre": [
-          "HAR-MOB",
+          "HAR-MOB", "HARD",
           "WEB-SVC"
         ],
         "imp": 4,
@@ -5573,7 +5573,7 @@
         "label": "トランズモン量子ビット",
         "startYear": 2007,
         "genre": [
-          "HAR-CPU",
+          "HAR-CPU", "HARD",
           "THE"
         ],
         "imp": 4,
@@ -5595,7 +5595,7 @@
         "startYear": 2007,
         "endYear": "ongoing",
         "genre": [
-          "SOF-DEV",
+          "SOF-DEV", "SOFT",
           "ROB"
         ],
         "imp": 4,
@@ -5637,7 +5637,7 @@
         "label": "iPhone",
         "startYear": 2007,
         "genre": [
-          "HAR-MOB",
+          "HAR-MOB", "HARD",
           "SOF"
         ],
         "imp": 5,
@@ -5662,7 +5662,7 @@
         "startYear": 2008,
         "endYear": "ongoing",
         "genre": [
-          "SOF-OS",
+          "SOF-OS", "SOFT",
           "HAR-MOB"
         ],
         "imp": 5,
@@ -5674,7 +5674,7 @@
         "startYear": 2008,
         "endYear": "ongoing",
         "genre": [
-          "WEB-SVC",
+          "WEB-SVC", "SOFT",
           "SOF-DEV"
         ],
         "imp": 4,
@@ -5792,7 +5792,7 @@
         "label": "ニコ動MMD文化定着",
         "startYear": 2010,
         "genre": [
-          "COM",
+          "COM", "NONG",
           "JAPAN"
         ],
         "imp": 4,
@@ -5815,7 +5815,7 @@
         "label": "トポロジカル量子ビット実験の進展",
         "startYear": 2011,
         "genre": [
-          "HAR-CPU",
+          "HAR-CPU", "HARD",
           "THE"
         ],
         "imp": 3,
@@ -5847,7 +5847,7 @@
         "label": "京（K computer）",
         "startYear": 2011,
         "genre": [
-          "HAR-PC",
+          "HAR-PC", "HARD",
           "JAPAN"
         ],
         "imp": 5,
@@ -5958,7 +5958,7 @@
         "startYear": 2014,
         "endYear": "ongoing",
         "genre": [
-          "ENT",
+          "ENT", "SOFT",
           "NET-SVC"
         ],
         "imp": 5,
@@ -5990,7 +5990,7 @@
         "startYear": 2014,
         "endYear": "ongoing",
         "genre": [
-          "WEB-SVC",
+          "WEB-SVC", "SOFT",
           "HAR-MOB"
         ],
         "imp": 4,
@@ -6001,7 +6001,7 @@
         "label": "IBM TrueNorth（ニューロモーフィック）",
         "startYear": 2014,
         "genre": [
-          "HAR-CPU",
+          "HAR-CPU", "HARD",
           "AI"
         ],
         "imp": 3,
@@ -6110,7 +6110,7 @@
         "startYear": 2016,
         "endYear": "ongoing",
         "genre": [
-          "PAY"
+          "SOF-SEC"
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/Apple_Pay",
@@ -6120,7 +6120,7 @@
         "label": "Google TPU v1",
         "startYear": 2016,
         "genre": [
-          "HAR-CPU",
+          "HAR-CPU", "HARD",
           "AI"
         ],
         "imp": 5,
@@ -6166,7 +6166,7 @@
         "label": "Intel Loihi（ニューロモーフィック）",
         "startYear": 2017,
         "genre": [
-          "HAR-CPU",
+          "HAR-CPU", "HARD",
           "AI"
         ],
         "imp": 3,
@@ -6201,7 +6201,7 @@
         "startYear": 2018,
         "endYear": "ongoing",
         "genre": [
-          "PAY"
+          "SOF-SEC"
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/PayPay",
@@ -6243,7 +6243,7 @@
         "startYear": 2018,
         "endYear": "ongoing",
         "genre": [
-          "ROB",
+          "ROB", "HARD",
           "JAPAN"
         ],
         "imp": 4,
@@ -6266,7 +6266,7 @@
         "label": "量子超越（Google宣言）",
         "startYear": 2019,
         "genre": [
-          "THE",
+          "THE", "NONG",
           "HAR-CPU"
         ],
         "imp": 4,
@@ -6300,7 +6300,7 @@
         "startYear": 2020,
         "endYear": "ongoing",
         "genre": [
-          "WEB-SVC",
+          "WEB-SVC", "SOFT",
           "ENT"
         ],
         "imp": 4,
@@ -6312,7 +6312,7 @@
         "startYear": 2020,
         "endYear": "ongoing",
         "genre": [
-          "HAR-PC",
+          "HAR-PC", "HARD",
           "JAPAN"
         ],
         "imp": 5,
@@ -6325,7 +6325,7 @@
         "label": "Apple M1/M1 Pro/Max",
         "startYear": 2021,
         "genre": [
-          "HAR-CPU",
+          "HAR-CPU", "HARD",
           "HAR-PC"
         ],
         "imp": 4,
@@ -6349,7 +6349,7 @@
         "startYear": 2022,
         "endYear": "ongoing",
         "genre": [
-          "AI",
+          "AI", "SOFT",
           "WEB-SVC"
         ],
         "imp": 5,
@@ -6372,7 +6372,7 @@
         "label": "量子誤り訂正の実証前進",
         "startYear": 2023,
         "genre": [
-          "THE",
+          "THE", "NONG",
           "HAR-CPU"
         ],
         "imp": 3,
@@ -6385,7 +6385,7 @@
         "label": "MARS-1 IEEEマイルストーン選定",
         "startYear": 2025,
         "genre": [
-          "HIS",
+          "NON-HIS", "NONG",
           "JAPAN"
         ],
         "imp": 3,
@@ -6434,16 +6434,12 @@
   ],
   "genres": [
     {
-      "code": "HIS",
-      "label": "歴史/出来事"
+      "code": "NON-HIS",
+      "label": "事件/戦略/協定/政策"
     },
     {
       "code": "THE",
       "label": "理論/モデル"
-    },
-    {
-      "code": "POL",
-      "label": "政策/戦略"
     },
     {
       "code": "ORG",
@@ -6459,15 +6455,15 @@
     },
     {
       "code": "HAR-MOB",
-      "label": "モバイル端末（PDA/携帯/スマホ）"
+      "label": "モバイル端末/携帯/ウェアラブル"
     },
     {
       "code": "HAR-CPU",
       "label": "マイクロプロセッサ"
     },
     {
-      "code": "HAR-STO",
-      "label": "ストレージ/メディア"
+      "code": "HAR-MED",
+      "label": "メディア/データ形式"
     },
     {
       "code": "HAR-PER",
@@ -6476,10 +6472,6 @@
     {
       "code": "HAR-IMG",
       "label": "画像/音響機器（カメラ/オーディオ）"
-    },
-    {
-      "code": "HAR-WEA",
-      "label": "ウェアラブル"
     },
     {
       "code": "HAR-GAM",
@@ -6502,12 +6494,12 @@
       "label": "クリエイティブ/3D/メディア系ソフト"
     },
     {
-      "code": "DB",
-      "label": "データベース/データモデル"
+      "code": "SOF-OFF",
+      "label": "ソフトウェア/業務/データベース"
     },
     {
-      "code": "SEC",
-      "label": "セキュリティ/プライバシー"
+      "code": "SOF-SEC",
+      "label": "セキュリティ/プライバシー/決済"
     },
     {
       "code": "AI",
@@ -6526,20 +6518,27 @@
       "label": "コミュニティ/イベント"
     },
     {
-      "code": "FMT",
-      "label": "データ形式/ファイルフォーマット"
-    },
-    {
-      "code": "PAY",
-      "label": "決済/交通IC・モバイル決済"
-    },
-    {
       "code": "ENT",
       "label": "エンタープライズIT"
     },
     {
       "code": "JAPAN",
       "label": "日本",
+      "conjunction": true
+    },
+    {
+      "code": "HARD",
+      "label": "ハードウェア",
+      "conjunction": true
+    },
+    {
+      "code": "SOFT",
+      "label": "ソフトウェア/メディア/規格等",
+      "conjunction": true
+    },
+    {
+      "code": "NONG",
+      "label": "事件/トピック/戦略等",
       "conjunction": true
     }
   ]
