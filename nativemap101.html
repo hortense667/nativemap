@@ -1553,6 +1553,7 @@
           // データを保存して画面を更新
           saveEvents();
           renderEvents();
+          autoSave();
           showDetailList(year, null);
         }
       }
@@ -1590,6 +1591,7 @@
     
     saveEvents();
     renderEvents();
+    autoSave();
     showDetailList(year, null);
   }
 
@@ -1631,6 +1633,7 @@
       console.log('項目を物理削除:', { year, index, label: item.label });
       saveEvents();
       renderEvents();
+      autoSave();
       showDetailList(year, null);
     }
   }
@@ -3742,7 +3745,7 @@
 
   // ===== CSV/TSV ロード =====
   function detectDelim(sample){ const cntTab=(sample.match(/\t/g)||[]).length; const cntSemi=(sample.match(/;/g)||[]).length; const cntComma=(sample.match(/,/g)||[]).length; const arr=[["\t",cntTab],[";",cntSemi],[",",cntComma]].sort((a,b)=>b[1]-a[1]); return arr[0][1]>0 ? arr[0][0] : ';'; }
-  fileInput.addEventListener('change', async (e)=>{ const f=e.target.files && e.target.files[0]; if(!f) return; const text = await f.text(); const {addedCount, errors} = importSeparatedText(text); if(errors.length){ const summary = `正常に追加: ${addedCount} 件`; showError('CSV/TSV読込エラー', [summary, ...errors]); } else if(addedCount>0){ saveEvents(); renderEvents(); showInfo('読み込み完了', `${addedCount} 件を追加しました。`); } else { showInfo('結果', '追加された項目はありませんでした。'); } if(addedCount>0){ saveEvents(); renderEvents(); } fileInput.value=''; });
+  fileInput.addEventListener('change', async (e)=>{ const f=e.target.files && e.target.files[0]; if(!f) return; const text = await f.text(); const {addedCount, errors} = importSeparatedText(text); if(errors.length){ const summary = `正常に追加: ${addedCount} 件`; showError('CSV/TSV読込エラー', [summary, ...errors]); } else if(addedCount>0){ saveEvents(); renderEvents(); localStorage.setItem('lastEdit', new Date().toISOString()); updateSyncStatus(); showInfo('読み込み完了', `${addedCount} 件を追加しました。`); } else { showInfo('結果', '追加された項目はありませんでした。'); } if(addedCount>0){ saveEvents(); renderEvents(); localStorage.setItem('lastEdit', new Date().toISOString()); updateSyncStatus(); } fileInput.value=''; });
 
   function importSeparatedText(text){
     const lines = text.replace(/^\uFEFF/, '').split(/\r?\n/);
