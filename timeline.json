@@ -12,6 +12,18 @@
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/%E7%B5%82%E6%88%A6%E3%81%AE%E6%97%A5",
         "note": "第二次世界大戦が終了、"
+      },
+      {
+        "label": "全共闘世代",
+        "startYear": 1945,
+        "endYear": 1949,
+        "genre": [
+          "UNC",
+          "JAPAN"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/%E5%85%A8%E5%AD%A6%E5%85%B1%E9%97%98%E4%BC%9A%E8%AD%B0",
+        "note": "1941～1949年生とすることが多い"
       }
     ],
     "1946": [
@@ -50,18 +62,6 @@
         "note": "戦後思想の論壇誌"
       },
       {
-        "label": "サザエさん",
-        "startYear": 1946,
-        "endYear": 1974,
-        "genre": [
-          "MAN",
-          "JAPAN"
-        ],
-        "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/サザエさん",
-        "note": "戦後家庭漫画の代表作"
-      },
-      {
         "label": "世界 (雑誌)",
         "startYear": 1946,
         "endYear": "ongoing",
@@ -85,6 +85,17 @@
       }
     ],
     "1947": [
+      {
+        "label": "団塊世代",
+        "startYear": 1947,
+        "endYear": 1949,
+        "genre": [
+          "UNC",
+          "JAPAN"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/%E5%9B%A3%E5%A1%8A%E3%81%AE%E4%B8%96%E4%BB%A3"
+      },
       {
         "label": "H&M",
         "startYear": 1947,
@@ -1719,6 +1730,7 @@
         "genre": [
           "UNC"
         ],
+        "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/X%E4%B8%96%E4%BB%A3"
       },
       {
@@ -3123,6 +3135,17 @@
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/Non-no",
         "note": "女性ファッション誌"
+      },
+      {
+        "label": "団塊ジュニア世代",
+        "startYear": 1971,
+        "endYear": 1974,
+        "genre": [
+          "UNC",
+          "JAPAN"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/%E5%9B%A3%E5%A1%8A%E3%82%B8%E3%83%A5%E3%83%8B%E3%82%A2"
       }
     ],
     "1972": [
@@ -3848,6 +3871,17 @@
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/ミクロマン",
         "note": "可動フィギュアの先駆"
+      },
+      {
+        "label": "氷河期世代",
+        "startYear": 1974,
+        "endYear": 1981,
+        "genre": [
+          "UNC",
+          "JAPAN"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/%E5%B0%B1%E8%81%B7%E6%B0%B7%E6%B2%B3%E6%9C%9F#%E6%B0%B7%E6%B2%B3%E6%9C%9F%E4%B8%96%E4%BB%A3"
       }
     ],
     "1975": [
@@ -5581,6 +5615,16 @@
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/パックマン",
         "note": "世界的アイコンとなる"
+      },
+      {
+        "label": "ミレニアム世代（Y世代）",
+        "startYear": 1980,
+        "endYear": 1995,
+        "genre": [
+          "UNC"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/Y%E4%B8%96%E4%BB%A3"
       }
     ],
     "1981": [
@@ -8431,6 +8475,17 @@
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/PC%E3%82%A8%E3%83%B3%E3%82%B8%E3%83%B3",
         "note": "コンパクト高性能"
+      },
+      {
+        "label": "ゆとり世代",
+        "startYear": 1987,
+        "endYear": 2004,
+        "genre": [
+          "UNC",
+          "JAPAN"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/%E3%82%86%E3%81%A8%E3%82%8A%E4%B8%96%E4%BB%A3"
       }
     ],
     "1988": [
@@ -12463,10 +12518,11 @@
       {
         "label": "Z世代",
         "startYear": 1996,
-        "endYear": 2012,
+        "endYear": 2010,
         "genre": [
           "UNC"
         ],
+        "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/Z%E4%B8%96%E4%BB%A3"
       },
       {
@@ -20958,105 +21014,6 @@
       "opacity": "0.3",
       "enabled": true,
       "fillEnabled": false
-    }
-  ],
-    "genres": [
-    {
-      "code": "ANI",
-      "label": "アニメ"
-    },
-    {
-      "code": "MAN",
-      "label": "マンガ"
-    },
-    {
-      "code": "GAM",
-      "label": "ゲーム"
-    },
-    {
-      "code": "TVP",
-      "label": "テレビ番組"
-    },
-    {
-      "code": "MOV",
-      "label": "映画"
-    },
-    {
-      "code": "NET",
-      "label": "インターネット"
-    },
-    {
-      "code": "HAR",
-      "label": "ハードウェア"
-    },
-    {
-      "code": "PHE",
-      "label": "現象・流行"
-    },
-    {
-      "code": "SOF",
-      "label": "ソフトウェア"
-    },
-    {
-      "code": "TOY",
-      "label": "おもちゃ"
-    },
-    {
-      "code": "FAS",
-      "label": "ファッション"
-    },
-    {
-      "code": "BOO",
-      "label": "書籍"
-    },
-    {
-      "code": "MAG",
-      "label": "雑誌"
-    },
-    {
-      "code": "NOV",
-      "label": "小説"
-    },
-    {
-      "code": "MUS",
-      "label": "音楽"
-    },
-    {
-      "code": "IDL",
-      "label": "アイドル"
-    },
-    {
-      "code": "RDO",
-      "label": "ラジオ"
-    },
-    {
-      "code": "EVT",
-      "label": "イベント"
-    },
-    {
-      "code": "FMT",
-      "label": "フォーマット"
-    },
-    {
-      "code": "SPW",
-      "label": "スポーツ"
-    },
-    {
-      "code": "RDE",
-      "label": "乗り物"
-    },
-    {
-      "code": "FOO",
-      "label": "食"
-    },
-    {
-      "code": "UNC",
-      "label": "その他"
-    },
-    {
-      "code": "JAPAN",
-      "label": "日本",
-      "conjunction": true
     }
   ]
 }
