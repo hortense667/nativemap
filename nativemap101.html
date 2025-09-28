@@ -324,6 +324,11 @@
 
   // ===== 検索ハイライトの状態 =====
   let matches=[]; let matchIndex=-1; let hlRect=null; let hlTarget=null; let clearOnNextMove=false;
+  
+  // 連続検索用の状態管理
+  let currentSearchQuery = '';
+  let allSearchResults = []; // 全検索結果を保持
+  let currentSearchIndex = -1; // 現在の検索結果のインデックス
   function clearHighlight(soft){ if(hlRect && hlRect.parentNode) hlRect.parentNode.removeChild(hlRect); if(hlTarget) hlTarget.classList.remove('hlText'); hlRect=null; hlTarget=null; if(!soft){ clearOnNextMove=false; } }
   function highlight(el){ clearHighlight(true); const bbox=el.getBBox(); hlRect=document.createElementNS(ns,'rect'); const padX=6, padY=3; hlRect.setAttribute('x', bbox.x - padX); hlRect.setAttribute('y', bbox.y - padY); hlRect.setAttribute('width', bbox.width + padX*2); hlRect.setAttribute('height', bbox.height + padY*2); hlRect.setAttribute('rx', 4); hlRect.setAttribute('fill', '#000'); eventsG.insertBefore(hlRect, el); el.classList.add('hlText'); hlTarget=el; const r=el.getBoundingClientRect(); const rv=vp.getBoundingClientRect(); if(r.top < rv.top || r.bottom > rv.bottom){ vp.scrollTop += (r.top - rv.top) - 80; } clearOnNextMove=true; }
 
@@ -2088,6 +2093,9 @@
     if(!q){ 
       matches=[]; 
       matchIndex=-1; 
+      currentSearchQuery = '';
+      allSearchResults = [];
+      currentSearchIndex = -1;
       // 検索ボックスが空の場合はすべてのハイライトをクリア
       document.querySelectorAll('.hlText').forEach(el => el.classList.remove('hlText'));
       return; 
@@ -2097,34 +2105,40 @@
     console.log('詳細検索モード:', detailSearchCheckbox.checked);
     console.log('events:', events);
     
-    // 検索対象は「選択中ジャンルのラベルのみ」（詳細検索時は注釈も含む）
-    const searchResults = [];
-    const isDetailSearch = detailSearchCheckbox.checked;
-    
-    for (const year of Object.keys(events)) {
-      const items = events[year] || [];
-      for (const item of items) {
-        // ジャンルフィルタ
-        if (selectedGenres.size === 0) continue;
-        if (!itemHasSelectedGenre(item)) continue;
-        
-        // ラベル検索
-        const labelMatch = item.label && item.label.toLowerCase().includes(q.toLowerCase());
-        
-        // 詳細検索時は注釈も検索対象に含める
-        let noteMatch = false;
-        if (isDetailSearch && item.note) {
-          noteMatch = item.note.toLowerCase().includes(q.toLowerCase());
-        }
-        
-        if (labelMatch || noteMatch) {
-          searchResults.push({ year: parseInt(year), item });
-          console.log('マッチした項目:', { year, item, labelMatch, noteMatch });
+    // 新しい検索クエリの場合は全検索結果を再取得
+    if (q !== currentSearchQuery) {
+      currentSearchQuery = q;
+      allSearchResults = [];
+      currentSearchIndex = -1;
+      
+      // 検索対象は「選択中ジャンルのラベルのみ」（詳細検索時は注釈も含む）
+      const isDetailSearch = detailSearchCheckbox.checked;
+      
+      for (const year of Object.keys(events)) {
+        const items = events[year] || [];
+        for (const item of items) {
+          // ジャンルフィルタ
+          if (selectedGenres.size === 0) continue;
+          if (!itemHasSelectedGenre(item)) continue;
+          
+          // ラベル検索
+          const labelMatch = item.label && item.label.toLowerCase().includes(q.toLowerCase());
+          
+          // 詳細検索時は注釈も検索対象に含める
+          let noteMatch = false;
+          if (isDetailSearch && item.note) {
+            noteMatch = item.note.toLowerCase().includes(q.toLowerCase());
+          }
+          
+          if (labelMatch || noteMatch) {
+            allSearchResults.push({ year: parseInt(year), item });
+            console.log('マッチした項目:', { year, item, labelMatch, noteMatch });
+          }
         }
       }
+      
+      console.log('全検索結果:', allSearchResults);
     }
-    
-    console.log('検索結果:', searchResults);
     
     // 検索結果に基づいてマッチするラベル要素を取得
     const els=[...eventsG.querySelectorAll('text.eventLabel')]; 
@@ -2134,7 +2148,7 @@
       const year = parseInt(el.getAttribute('data-year'));
       // テキストが省略（トランケート）される場合があるため、
       // 画面表示テキストへの含有判定は行わず、年単位で一致を判定する
-      const isMatch = searchResults.some(result => result.year === year);
+      const isMatch = allSearchResults.some(result => result.year === year);
       if (isMatch) {
         console.log('マッチ（年単位）:', { year, element: el });
       }
@@ -2146,11 +2160,62 @@
     matchIndex = matches.length? 0 : -1; 
     if(matchIndex!==-1){ highlight(matches[matchIndex]); } 
   }
-  function nextMatch(dir){ if(!matches.length) return; matchIndex=(matchIndex+ (dir>0?1:-1) + matches.length)%matches.length; highlight(matches[matchIndex]); }
+  function nextMatch(dir){ 
+    if(!matches.length) return; 
+    matchIndex=(matchIndex+ (dir>0?1:-1) + matches.length)%matches.length; 
+    highlight(matches[matchIndex]); 
+  }
+  
+  // 連続検索機能
+  function findNextSearchResult(direction) {
+    if (!currentSearchQuery || allSearchResults.length === 0) {
+      console.log('検索結果がありません');
+      return;
+    }
+    
+    // 現在の検索結果のインデックスを更新
+    if (direction > 0) {
+      // 次へ
+      currentSearchIndex = (currentSearchIndex + 1) % allSearchResults.length;
+    } else {
+      // 前へ
+      currentSearchIndex = (currentSearchIndex - 1 + allSearchResults.length) % allSearchResults.length;
+    }
+    
+    const targetResult = allSearchResults[currentSearchIndex];
+    console.log('連続検索:', { direction, currentSearchIndex, targetResult });
+    
+    // 該当する年を表示エリアにスクロール
+    const targetYear = targetResult.year;
+    const targetY = ORIGIN_Y + (targetYear - YEAR_MIN) * PX_PER_YEAR;
+    const viewportHeight = vp.clientHeight;
+    const scrollTop = Math.max(0, targetY - viewportHeight / 2);
+    
+    vp.scrollTop = scrollTop;
+    
+    // 該当するラベル要素をハイライト
+    const targetElement = eventsG.querySelector(`text.eventLabel[data-year="${targetYear}"]`);
+    if (targetElement) {
+      clearHighlight(true);
+      highlight(targetElement);
+    }
+  }
   searchBtn.addEventListener('click', doSearch);
   searchBox.addEventListener('keydown', e=>{ if(e.key==='Enter'){ doSearch(); }});
-  nextBtn.addEventListener('click', ()=> nextMatch(1));
-  prevBtn.addEventListener('click', ()=> nextMatch(-1));
+  nextBtn.addEventListener('click', ()=> {
+    if (currentSearchQuery && allSearchResults.length > 0) {
+      findNextSearchResult(1);
+    } else {
+      nextMatch(1);
+    }
+  });
+  prevBtn.addEventListener('click', ()=> {
+    if (currentSearchQuery && allSearchResults.length > 0) {
+      findNextSearchResult(-1);
+    } else {
+      nextMatch(-1);
+    }
+  });
   detailSearchCheckbox.addEventListener('change', ()=> {
     updateSearchPlaceholder();
     // 検索ボックスに文字が入力されている場合は再検索を実行
