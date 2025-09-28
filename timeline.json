@@ -2,15 +2,25 @@
   "events": {
     "1945": [
       {
+        "label": "全共闘世代",
+        "startYear": 1945,
+        "endYear": 1949,
+        "genre": [
+          "UNC"
+        ],
+        "imp": 5,
+        "note": "正確には1941～1949年生まれとすることが多い"
+      },
+      {
         "label": "終戦",
         "startYear": 1945,
+        "endYear": 1945,
         "genre": [
-          "JAPAN",
           "UNC"
         ],
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/%E7%B5%82%E6%88%A6%E3%81%AE%E6%97%A5",
-        "note": "第二次世界大戦が終わりました。敗戦ですね。"
+        "note": "第二次世界大戦の敗戦"
       }
     ],
     "1946": [
@@ -60,6 +70,17 @@
       }
     ],
     "1947": [
+      {
+        "label": "団塊世代",
+        "startYear": 1947,
+        "endYear": 1949,
+        "genre": [
+          "UNC",
+          "JAPAN"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/%E5%9B%A3%E5%A1%8A%E3%81%AE%E4%B8%96%E4%BB%A3"
+      },
       {
         "label": "新宝島",
         "startYear": 1947,
@@ -1125,6 +1146,16 @@
     ],
     "1965": [
       {
+        "label": "X世代",
+        "startYear": 1965,
+        "endYear": 1979,
+        "genre": [
+          "UNC"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/X%E4%B8%96%E4%BB%A3"
+      },
+      {
         "label": "ジャングル大帝",
         "startYear": 1965,
         "endYear": 1966,
@@ -1869,6 +1900,17 @@
     ],
     "1971": [
       {
+        "label": "団塊ジュニア世代",
+        "startYear": 1971,
+        "endYear": 1974,
+        "genre": [
+          "UNC",
+          "JAPAN"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/%E5%9B%A3%E5%A1%8A%E3%82%B8%E3%83%A5%E3%83%8B%E3%82%A2"
+      },
+      {
         "label": "日活ロマンポルノ",
         "startYear": 1971,
         "endYear": 1988,
@@ -2355,6 +2397,17 @@
       }
     ],
     "1974": [
+      {
+        "label": "氷河期世代",
+        "startYear": 1974,
+        "endYear": 1981,
+        "genre": [
+          "UNC",
+          "JAPAN"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/%E5%B0%B1%E8%81%B7%E6%B0%B7%E6%B2%B3%E6%9C%9F#%E6%B0%B7%E6%B2%B3%E6%9C%9F%E4%B8%96%E4%BB%A3"
+      },
       {
         "label": "エマニエル夫人",
         "startYear": 1974,
@@ -3413,6 +3466,16 @@
       }
     ],
     "1980": [
+      {
+        "label": "ミレニアム世代（Y世代）",
+        "startYear": 1980,
+        "endYear": 1995,
+        "genre": [
+          "UNC"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/Y%E4%B8%96%E4%BB%A3"
+      },
       {
         "label": "Roland TR-808",
         "startYear": 1980,
@@ -5182,6 +5245,17 @@
       }
     ],
     "1987": [
+      {
+        "label": "ゆとり世代",
+        "startYear": 1987,
+        "endYear": 2004,
+        "genre": [
+          "UNC",
+          "JAPAN"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/%E3%82%86%E3%81%A8%E3%82%8A%E4%B8%96%E4%BB%A3"
+      },
       {
         "label": "超神伝説うろつき童子",
         "startYear": 1987,
@@ -7756,6 +7830,16 @@
       }
     ],
     "1996": [
+      {
+        "label": "Z世代",
+        "startYear": 1996,
+        "endYear": 2010,
+        "genre": [
+          "UNC"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/Z%E4%B8%96%E4%BB%A3"
+      },
       {
         "label": "Adobe Flash Player",
         "startYear": 1996,
