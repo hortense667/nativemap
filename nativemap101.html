@@ -967,6 +967,9 @@
         events = remoteData;
         saveEvents();
         
+        // 自動保存の基準を更新（リモートデータ読み込み後）
+        lastSavedEventsData = JSON.stringify(events);
+        
         console.log('初期化: GitHubからデータ読み込み成功');
         return;
       } else {
