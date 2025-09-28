@@ -215,6 +215,18 @@
         "note": "巨大分散計算＋ライトペン端末で“対話×ネットワーク”を実運用"
       }
     ],
+    "1955": [
+      {
+        "label": "ETL Mark II（リレー式計算機）",
+        "startYear": 1955,
+        "genre": [
+          "HAR-PC",
+          "JAPAN"
+        ],
+        "imp": 3,
+        "url": "https://museum.ipsj.or.jp/heritage/ETL_Mark_II.html"
+      }
+    ],
     "1956": [
       {
         "label": "ダートマス会議",
@@ -278,6 +290,15 @@
         "imp": 5,
         "url": "https://en.wikipedia.org/wiki/FUJIC",
         "note": "日本初の電子式デジタル計算機・1956完成"
+      },
+      {
+        "label": "ETL Mark III（トランジスタ式計算機）",
+        "startYear": 1956,
+        "genre": [
+          "HAR-PC"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/ETL_Mark_III"
       }
     ],
     "1957": [
@@ -1678,17 +1699,6 @@
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/MZ-80",
         "note": "一体型設計と学習性で“自作/教育文化”醸成。"
-      },
-      {
-        "label": "日立 ベーシックマスター",
-        "startYear": 1978,
-        "genre": [
-          "HAR-PC",
-          "JAPAN"
-        ],
-        "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/ベーシックマスター",
-        "note": "国産8bit普及の嚆矢・教育に浸透"
       },
       {
         "label": "POS/レジ・流通での本格展開",
