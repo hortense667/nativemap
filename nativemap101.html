@@ -2040,62 +2040,58 @@
     const years = Object.keys(events).map(Number).sort((a,b)=>a-b);
     for(const y of years){
       const ypx=yFromBirthYear(y);
-      const labels=(events[y]||[]).filter(passesFilter).map(it=>it.label).filter(Boolean);
-      if(labels.length===0){ continue; }
+      const items=(events[y]||[]).filter(passesFilter);
+      if(items.length===0){ continue; }
       const yearPart = String(y).slice(2);
-      const labelsPart = labels.join('／');
-      const fullText = `${yearPart} ${labelsPart}`;
       
-      // 表示範囲を計算（左端から右端まで）
-      const maxWidth = LABEL_RIGHT_X - LABEL_LEFT_X;
-      const charWidth = 10; // 文字幅をより大きく見積もり（安全側に）
-      const maxChars = Math.floor(maxWidth / charWidth);
+      // 各ラベルを個別のテキスト要素として作成
+      let currentX = LABEL_RIGHT_X;
+      const labelSpacing = 5; // ラベル間のスペース
       
-      // 年部分は必ず表示し、ラベル部分のみ切り取り（すべて右詰め）
-      let text;
-      const textX = LABEL_RIGHT_X; // 常に右端
-      const textAnchor = 'end'; // 常に右詰め
-      
-      // より厳密な判定：年部分 + スペース + バッファを考慮
-      const yearSpaceLength = yearPart.length + 1; // 年 + スペース
-      const buffer = 8; // 余裕を持たせる文字数
-      const minRequiredChars = yearSpaceLength + buffer;
-      
-      // 判定条件：年部分が確実に見えるかどうか
-      if (fullText.length > maxChars || minRequiredChars > maxChars || labelsPart.length > 15) {
-        // 切り取られた場合も右詰めで表示
-        const remainingChars = Math.max(0, maxChars - yearSpaceLength - buffer);
-        const truncatedLabels = labelsPart.substring(0, remainingChars);
-        text = `${yearPart} ${truncatedLabels}`;
-      } else {
-        text = fullText;
+      for(let i = 0; i < items.length; i++) {
+        const item = items[i];
+        const label = item.label;
+        if(!label) continue;
+        
+        // 年部分は最初のラベルのみに表示
+        const displayText = i === 0 ? `${yearPart} ${label}` : label;
+        
+        const tx=textEl(displayText, currentX, ypx, 'eventLabel');
+        tx.setAttribute('text-anchor', 'end');
+        tx.setAttribute('dominant-baseline','middle');
+        tx.setAttribute('data-year', y);
+        tx.setAttribute('data-label', label);
+        tx.setAttribute('data-item-index', i);
+        if(items.length>1) tx.classList.add('eventMulti');
+        tx.style.cursor='pointer';
+        eventsG.appendChild(tx);
+        
+        // ツールチップ／クリック
+        tx.addEventListener('mouseenter',e=>{ 
+          clearHighlight(); 
+          tooltip.style.display='block'; 
+          const items = (events[y]||[]).filter(passesFilter);
+          const tooltipContent = items.map(item => {
+            let content = `<li><strong>${item.label}</strong>`;
+            if (item.genre) content += ` <span style="color:#666;">[${Array.isArray(item.genre) ? item.genre.join('・') : item.genre}]</span>`;
+            if (item.imp) content += ` <span style="color:#666;">★${item.imp}</span>`;
+            content += '</li>';
+            return content;
+          }).join('');
+          tooltip.innerHTML=`<strong>${y}年</strong><ul style="margin:4px 0 0 16px;">${tooltipContent}</ul>`; 
+          positionTooltip(e); 
+        });
+        tx.addEventListener('mousemove',positionTooltip);
+        tx.addEventListener('mouseleave',()=>{tooltip.style.display='none'});
+        tx.addEventListener('click',(e)=>{ tooltip.style.display='none'; showDetailList(y, e.target); });
+        
+        // 次のラベルの位置を計算（テキスト幅を考慮）
+        const textWidth = displayText.length * 10; // 概算
+        currentX -= (textWidth + labelSpacing);
+        
+        // 左端を超えないように制限
+        if(currentX < LABEL_LEFT_X) break;
       }
-      
-      const tx=textEl(text, textX, ypx, 'eventLabel');
-      tx.setAttribute('text-anchor', textAnchor);
-      tx.setAttribute('dominant-baseline','middle');
-      tx.setAttribute('data-year', y);
-      if(labels.length>1) tx.classList.add('eventMulti');
-      tx.style.cursor='pointer';
-      eventsG.appendChild(tx);
-      // ツールチップ／クリック
-      tx.addEventListener('mouseenter',e=>{ 
-        clearHighlight(); 
-        tooltip.style.display='block'; 
-        const items = (events[y]||[]).filter(passesFilter);
-        const tooltipContent = items.map(item => {
-          let content = `<li><strong>${item.label}</strong>`;
-          if (item.genre) content += ` <span style="color:#666;">[${Array.isArray(item.genre) ? item.genre.join('・') : item.genre}]</span>`;
-          if (item.imp) content += ` <span style="color:#666;">★${item.imp}</span>`;
-          content += '</li>';
-          return content;
-        }).join('');
-        tooltip.innerHTML=`<strong>${y}年</strong><ul style="margin:4px 0 0 16px;">${tooltipContent}</ul>`; 
-        positionTooltip(e); 
-      });
-      tx.addEventListener('mousemove',positionTooltip);
-      tx.addEventListener('mouseleave',()=>{tooltip.style.display='none'});
-      tx.addEventListener('click',(e)=>{ tooltip.style.display='none'; showDetailList(y, e.target); });
     }
   }
   
@@ -2241,14 +2237,18 @@
       vp.scrollTop = scrollTop;
     }
     
-    // 該当するラベル要素をハイライト（キャッシュされた要素を使用）
-    const targetElement = searchResultElements.get(targetYear);
+    // 該当するラベル要素をハイライト（現在のDOMから検索）
+    const targetLabel = targetResult.label;
+    const targetElement = eventsG.querySelector(`text[data-year="${targetYear}"][data-label="${targetLabel}"]`);
+    
     if (targetElement) {
       // 既にハイライトされている場合はスキップ
       if (hlTarget !== targetElement) {
         clearHighlight(true);
         highlight(targetElement);
       }
+    } else {
+      console.warn('ハイライト対象の要素が見つかりません:', { targetYear, targetLabel });
     }
   }
   searchBtn.addEventListener('click', doSearch);
