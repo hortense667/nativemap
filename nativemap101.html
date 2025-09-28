@@ -1159,6 +1159,7 @@
         ` : ''}
       </div>
       <div style="margin-top: 16px; display: flex; gap: 8px; justify-content: center;">
+        <button onclick="deleteAllEraSettings()" style="padding: 8px 16px; background: #ff4444; color: white; border: none; border-radius: 4px; cursor: pointer;">すべての時代区分を削除</button>
         <button onclick="saveEraSettings()" style="padding: 8px 16px; background: #4CAF50; color: white; border: none; border-radius: 4px; cursor: pointer;">保存</button>
       </div>
     `;
@@ -1184,6 +1185,16 @@
   function deleteEraItem(index) {
     if (confirm('この時代区分を削除しますか？')) {
       eraSettings.splice(index, 1);
+      saveEvents();
+      renderEraBackgrounds();
+      showEraSettingsModal();
+    }
+  }
+  
+  // すべての時代区分を削除
+  function deleteAllEraSettings() {
+    if (confirm('すべての時代区分を削除しますか？この操作は取り消せません。')) {
+      eraSettings = [];
       saveEvents();
       renderEraBackgrounds();
       showEraSettingsModal();
