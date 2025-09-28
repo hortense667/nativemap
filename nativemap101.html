@@ -342,8 +342,13 @@
   let GENRE_SET=new Set(); // デフォルト値なし
   function setGenresFromRemote(genresDef){
     try{
+      console.log('setGenresFromRemote呼び出し:', genresDef);
+      console.log('genresDefの型:', typeof genresDef);
+      console.log('genresDefが配列か:', Array.isArray(genresDef));
+      
       if(Array.isArray(genresDef) && genresDef.length){
         // 期待フォーマット: [{code:'ANI', label:'アニメ', conjunction: true}, ...]
+        console.log('配列形式のジャンルデータを処理:', genresDef.length, '個');
         const codes=[]; const labels={}; const conjunctions={};
         for(const g of genresDef){
           const code=String(g.code||'').toUpperCase();
@@ -363,6 +368,7 @@
         }
       } else if(genresDef && genresDef.list && Array.isArray(genresDef.list)){
         // 互換フォーマット: {list:['ANI',...], labels:{ANI:'アニメ',...}}
+        console.log('互換フォーマットのジャンルデータを処理:', genresDef.list.length, '個');
         const codes=genresDef.list.map(c=>String(c).toUpperCase());
         const labels={...genresDef.labels};
         if(codes.length){ 
@@ -374,6 +380,7 @@
           throw new Error('有効なジャンルデータがありません（互換フォーマット）');
         }
       } else {
+        console.error('ジャンルデータの形式が認識できません:', genresDef);
         throw new Error('ジャンルデータの形式が正しくありません');
       }
     }catch(e){ 
@@ -2446,12 +2453,19 @@
       const content = await response.text();
       const jsonData = JSON.parse(content);
       
+      // デバッグ情報を出力
+      console.log('GitHub JSON構造:', Object.keys(jsonData));
+      console.log('genres項目の存在:', 'genres' in jsonData);
+      console.log('genres項目の値:', jsonData.genres);
+      
       // ジャンルが更新された可能性があるためフィルタ選択をリセット
-      if (jsonData.genres) { 
+      if (jsonData.genres && (Array.isArray(jsonData.genres) ? jsonData.genres.length > 0 : true)) { 
         setGenresFromRemote(jsonData.genres); 
         console.log('ジャンルデータを更新:', GENRES, GENRE_LABELS);
       } else {
         console.warn('GitHub JSONにジャンルデータが含まれていません');
+        console.warn('JSON構造:', Object.keys(jsonData));
+        console.warn('genres項目の詳細:', jsonData.genres);
         // エラーをスローせずにnullを返す（上位で処理）
         return null;
       }
@@ -2635,8 +2649,10 @@
       // 再試行（マージ済みデータのみ保存）
       // genres項目を保持するために、リモートデータから取得
       const dataToSave = { ...mergedAfterResolve };
-      if (latestRemoteData && latestRemoteData.genres) {
-        dataToSave.genres = latestRemoteData.genres;
+      // 最新のリモートデータからgenres項目を取得
+      const latestRemoteFullData = await loadFromGitHub();
+      if (latestRemoteFullData && latestRemoteFullData.genres) {
+        dataToSave.genres = latestRemoteFullData.genres;
         console.log('競合解決時にリモートのgenres項目を保持:', dataToSave.genres);
       }
       const ok = await saveToGitHub(dataToSave, newSha, retryCount + 1);
@@ -2731,11 +2747,7 @@
     const merged = { ...remoteData };
     const conflicts = []; // 真の競合のみを記録
     
-    // genres項目を保持（リモートデータに存在する場合）
-    if (remoteData.genres) {
-      merged.genres = remoteData.genres;
-      console.log('詳細マージ時にgenres項目を保持:', merged.genres);
-    }
+    // genres項目は詳細マージでは処理しない（上位で処理される）
     
     // 各年のデータを詳細にマージ
     const getGenreKey = (g)=> Array.isArray(g) ? g.slice().sort().join('・') : (g || '');
@@ -3045,7 +3057,7 @@
       
       // 1. GitHubからデータを読み込み（SHAハッシュも同時に取得）
       console.log('GitHubからデータを読み込み中...');
-      const { remoteData, remoteSha, remoteEraSettings, timestamp } = await loadFromGitHubWithSha();
+      const { remoteData, remoteSha, remoteEraSettings, remoteGenres, timestamp } = await loadFromGitHubWithSha();
       if (remoteData === null) {
         console.log('リモートデータの読み込みに失敗');
         return;
@@ -3067,6 +3079,7 @@
       console.log('同期開始 - ローカル削除フラグ付き項目:', localDeletedItems);
       console.log('同期開始 - リモートeraSettings:', remoteEraSettings);
       console.log('同期開始 - ローカルeraSettings:', eraSettings);
+      console.log('同期開始 - リモートgenres:', remoteGenres);
       console.log('同期開始 - リモートSHA:', remoteSha);
       console.log('同期開始 - リモートタイムスタンプ:', timestamp);
 
@@ -3168,8 +3181,8 @@
       };
       
       // リモートのgenres項目を保持（存在する場合のみ）
-      if (remoteData && remoteData.genres) {
-        dataToSave.genres = remoteData.genres;
+      if (remoteGenres) {
+        dataToSave.genres = remoteGenres;
         console.log('リモートのgenres項目を保持:', dataToSave.genres);
       }
       console.log('保存するデータ構造:', {
@@ -3177,7 +3190,9 @@
         eventsKeys: Object.keys(dataToSave.events || {}),
         hasEraSettings: !!dataToSave.eraSettings,
         eraSettingsLength: dataToSave.eraSettings.length,
-        eraSettingsContent: dataToSave.eraSettings
+        eraSettingsContent: dataToSave.eraSettings,
+        hasGenres: !!dataToSave.genres,
+        genresContent: dataToSave.genres
       });
       const success = await saveToGitHub(dataToSave, remoteSha);
       if (success) {
@@ -3248,7 +3263,7 @@
       } else {
         showError('設定エラー', 'GitHubアクセストークンが設定されていません。GitHubでログインしてください。');
       }
-      return { remoteData: null, remoteSha: null, remoteEraSettings: [], timestamp: null };
+      return { remoteData: null, remoteSha: null, remoteEraSettings: [], remoteGenres: null, timestamp: null };
     }
 
     try {
@@ -3262,7 +3277,7 @@
       if (!response.ok) {
         if (response.status === 404) {
           // ファイルが存在しない場合は空のデータを返す
-          return { remoteData: {}, remoteSha: null, remoteEraSettings: [] };
+          return { remoteData: {}, remoteSha: null, remoteEraSettings: [], remoteGenres: null };
         }
         throw new Error(`HTTP ${response.status}: ${response.statusText}`);
       }
@@ -3288,25 +3303,29 @@
         console.log('GitHubからジャンルデータを更新:', GENRES, GENRE_LABELS);
       } else {
         showError('ジャンルデータエラー', 'GitHub JSONにジャンルデータが含まれていません。正しいJSONデータを指定して「表示中の全ラベルをクリアしてGitHubから読み込み」を実行してください。');
-        return { remoteData: null, remoteSha: null, remoteEraSettings: [], timestamp: null };
+        return { remoteData: null, remoteSha: null, remoteEraSettings: [], remoteGenres: null, timestamp: null };
       }
       
       if (data.events) {
-        // 新しい形式（events + eraSettings）
+        // 新しい形式（events + eraSettings + genres）
+        console.log('loadFromGitHubWithSha: 完全なデータ構造を返します');
+        console.log('loadFromGitHubWithSha: data.genres =', data.genres);
+        console.log('loadFromGitHubWithSha: data.eraSettings =', data.eraSettings);
         return { 
           remoteData: data.events, 
           remoteSha: sha, 
           remoteEraSettings: data.eraSettings || [],
+          remoteGenres: data.genres || null, // genres項目を追加
           timestamp: timestamp
         };
       } else {
         // 古い形式（eventsのみ）
         showError('データ形式エラー', 'GitHub JSONが古い形式です。正しいJSONデータを指定して「表示中の全ラベルをクリアしてGitHubから読み込み」を実行してください。');
-        return { remoteData: null, remoteSha: null, remoteEraSettings: [], timestamp: null };
+        return { remoteData: null, remoteSha: null, remoteEraSettings: [], remoteGenres: null, timestamp: null };
       }
     } catch (error) {
       showError('読み込みエラー', `GitHubからの読み込みに失敗しました: ${error.message}`);
-      return { remoteData: null, remoteSha: null, remoteEraSettings: [], timestamp: null };
+      return { remoteData: null, remoteSha: null, remoteEraSettings: [], remoteGenres: null, timestamp: null };
     }
   }
 
