@@ -3436,13 +3436,6 @@
           <small style="color: #666;">例: ?owner=hortense667&repo=nativemap&filePath=timeline.json</small>
         </div>
       </div>
-      <div style="margin: 16px 0; padding: 12px; background: #e3f2fd; border: 1px solid #2196f3; border-radius: 6px;">
-        <h5>設定情報について:</h5>
-        <p style="margin: 8px 0; font-size: 14px;">
-          <strong>一般ユーザー:</strong> 管理者（hortense667）から提供された設定情報を入力してください。<br>
-          <strong>管理者:</strong> 新しいトークンを生成する場合は、<a href="https://github.com/settings/tokens" target="_blank">GitHub Personal Access Tokens</a>で「repo」スコープを選択してトークンを生成してください。
-        </p>
-      </div>
       <div style="margin: 16px 0; padding: 12px; background: #fff3cd; border: 1px solid #ffeaa7; border-radius: 6px;">
         <h5>データ管理</h5>
         <div style="display: flex; align-items: center; gap: 8px; flex-wrap: wrap; margin-bottom: 8px;">
@@ -4307,12 +4300,8 @@
       <p><strong>２）</strong>アクセストークが空の状態で使うこともできます。<br>
       　編集した内容は「同期」ボタンの押下で修正内容をローカルに保存できます。<br>
       　★リモートDBには反映されませんのでご注意ください。<br>
-      　修正内容は管理者にお送りいただけるととくに競合する内容がない限り反映させていただく方針です。</p>
+      　リロード等で編集内容は失われますが「ロード」で編集内容を再現することができます。ヘルプ内の「データの同期」をご覧ください。</p>
       <p>※サービスは試験運用中です。</p>
-      <div style="margin: 16px 0;">
-        <p><a href="https://github.com/hortense667/nativemap/blob/main/README.md" target="_blank" style="color: #007bff; text-decoration: underline;">詳しい使いかた</a></p>
-        <p><a href="https://github.com/hortense667/nativemap/blob/main/%E3%83%8D%E3%82%A4%E3%83%86%E3%82%A3%E3%83%96%E3%83%9E%E3%83%83%E3%83%97_%E3%83%A1%E3%83%B3%E3%83%86%E3%83%8A%E3%83%B3%E3%82%B9%E3%82%AC%E3%82%A4%E3%83%89.md" target="_blank" style="color: #28a745; text-decoration: underline;">メンテナンスガイド</a></p>
-      </div>
       <hr style="margin: 20px 0;">
       <h4>使いかたの例（任天堂ファミコン）</h4>
       <p>任天堂のファミコン発売時の年齢を知りたいとします。</p>
@@ -4356,7 +4345,7 @@
       <p>左カラムの作品・製品名が並ぶエリアの<strong>空白部分</strong>をクリックすると、<strong>新規登録</strong>ができます。ラベル、ジャンル、重要度、URL、注釈を入力して保存してください。</p>
       <h4>データの同期</h4>
       <p><strong>重要：</strong>編集を開始する前に必ず<strong>「同期」</strong>で最新データを取得し、編集作業が終わったら必ず<strong>「同期」</strong>でGitHubへ保存・反映してください（並び替え・追加・削除・修正のすべてが対象）。</p>
-      <p><strong>GitHubアクセストークンが設定されていない場合：</strong>「同期」ボタンをクリックすると、変更された項目のみをCSVファイルとしてエクスポートするオプションが表示されます。このファイルを管理者に送信することで、データを統合できます。</p>
+      <p><strong>GitHubアクセストークンが設定されていない場合：</strong>「同期」ボタンをクリックすると、変更された項目のみをCSVファイルとしてエクスポートするオプションが表示されます。修正内容を持ち寄ることでリモートDBを更新していくことを目指しています（現状では体制ができていません）。</p>
       <h4>CSV/TSV読み込み形式</h4>
       <p>「ロード」ボタンでCSV/TSVファイルを読み込んで一括でデータを追加できます。</p>
       <p><strong>形式：</strong> <code>開始年;終了年;ラベル;ジャンル;重要度;URL;注釈</code></p>
