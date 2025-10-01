@@ -39,5 +39,20 @@
       "fillEnabled": false
     }
   ],
-  "genres": []
+  "genres": [
+    {
+      "code": "SOF-SVC",
+      "label": "インターネット/サービス（Web/検索/クラウド等）"
+    },
+    {
+      "code": "HARD",
+      "label": "ハードウェア",
+      "conjunction": true
+    },
+    {
+      "code": "SOFT",
+      "label": "ソフトウェア/メディア/規格等",
+      "conjunction": true
+    }
+  ]
 }
