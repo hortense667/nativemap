@@ -11,6 +11,17 @@
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/Intel_4004",
         "note": "世界初期の商用マイクロプロセッサ"
+      },
+      {
+        "label": "Intel 4004（マイクロプロセッサ）",
+        "startYear": 1971,
+        "genre": [
+          "HAR-CPU",
+          "HARD"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/Intel_4004",
+        "note": "世界初期の商用マイクロプロセッサ"
       }
     ],
     "1972": [
