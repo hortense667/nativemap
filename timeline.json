@@ -13492,117 +13492,140 @@
     {
       "code": "ANI",
       "label": "アニメ",
-      "label_en": "Animation"
+      "label_en": "Animation",
+      "conjunction": false
     },
     {
       "code": "MAN",
       "label": "マンガ",
-      "label_en": "Manga"
+      "label_en": "Manga",
+      "conjunction": false
     },
     {
       "code": "GAM",
       "label": "ゲーム",
-      "label_en": "Games"
+      "label_en": "Games",
+      "conjunction": false
     },
     {
       "code": "TVP",
       "label": "テレビ番組",
-      "label_en": "TV Shows"
+      "label_en": "TV Shows",
+      "conjunction": false
     },
     {
       "code": "MOV",
       "label": "映画",
-      "label_en": "Film"
+      "label_en": "Film",
+      "conjunction": false
     },
     {
       "code": "NET",
       "label": "インターネット",
-      "label_en": "Internet"
+      "label_en": "Internet",
+      "conjunction": false
     },
     {
       "code": "HAR",
       "label": "ハードウェア",
-      "label_en": "Hardware"
+      "label_en": "Hardware",
+      "conjunction": false
     },
     {
       "code": "PHE",
       "label": "現象・流行",
-      "label_en": "Phenomena & Trends"
+      "label_en": "Phenomena & Trends",
+      "conjunction": false
     },
     {
       "code": "SOF",
       "label": "ソフトウェア",
-      "label_en": "Software"
+      "label_en": "Software",
+      "conjunction": false
     },
     {
       "code": "TOY",
       "label": "おもちゃ",
-      "label_en": "Toys"
+      "label_en": "Toys",
+      "conjunction": false
     },
     {
       "code": "FAS",
       "label": "ファッション",
-      "label_en": "Fashion"
+      "label_en": "Fashion",
+      "conjunction": false
     },
     {
       "code": "BOO",
       "label": "書籍",
-      "label_en": "Books"
+      "label_en": "Books",
+      "conjunction": false
     },
     {
       "code": "MAG",
       "label": "雑誌",
-      "label_en": "Magazines"
+      "label_en": "Magazines",
+      "conjunction": false
     },
     {
       "code": "NOV",
       "label": "小説",
-      "label_en": "Novels"
+      "label_en": "Novels",
+      "conjunction": false
     },
     {
       "code": "MUS",
       "label": "音楽",
-      "label_en": "Music"
+      "label_en": "Music",
+      "conjunction": false
     },
     {
       "code": "IDL",
       "label": "アイドル",
-      "label_en": "Idols"
+      "label_en": "Idols",
+      "conjunction": false
     },
     {
       "code": "RDO",
       "label": "ラジオ",
-      "label_en": "Radio"
+      "label_en": "Radio",
+      "conjunction": false
     },
     {
       "code": "EVT",
       "label": "イベント",
-      "label_en": "Events"
+      "label_en": "Events",
+      "conjunction": false
     },
     {
       "code": "FMT",
       "label": "フォーマット",
-      "label_en": "Formats"
+      "label_en": "Formats",
+      "conjunction": false
     },
     {
       "code": "SPW",
       "label": "スポーツ",
-      "label_en": "Sports"
+      "label_en": "Sports",
+      "conjunction": false
     },
     {
       "code": "RDE",
       "label": "乗り物",
-      "label_en": "Vehicles"
+      "label_en": "Vehicles",
+      "conjunction": false
     },
     {
       "code": "FOO",
       "label": "食",
-      "label_en": "Food"
+      "label_en": "Food",
+      "conjunction": false
     },
     {
       "code": "UNC",
       "label": "その他",
-      "label_en": "Other"
+      "label_en": "Other",
+      "conjunction": false
     },
     {
       "code": "JAPAN",
