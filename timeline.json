@@ -13492,121 +13492,122 @@
     {
       "code": "ANI",
       "label": "アニメ",
-      "conjunction": false
+      "label_en": "Animation"
     },
     {
       "code": "MAN",
       "label": "マンガ",
-      "conjunction": false
+      "label_en": "Manga"
     },
     {
       "code": "GAM",
       "label": "ゲーム",
-      "conjunction": false
+      "label_en": "Games"
     },
     {
       "code": "TVP",
       "label": "テレビ番組",
-      "conjunction": false
+      "label_en": "TV Shows"
     },
     {
       "code": "MOV",
       "label": "映画",
-      "conjunction": false
+      "label_en": "Film"
     },
     {
       "code": "NET",
       "label": "インターネット",
-      "conjunction": false
+      "label_en": "Internet"
     },
     {
       "code": "HAR",
       "label": "ハードウェア",
-      "conjunction": false
+      "label_en": "Hardware"
     },
     {
       "code": "PHE",
       "label": "現象・流行",
-      "conjunction": false
+      "label_en": "Phenomena & Trends"
     },
     {
       "code": "SOF",
       "label": "ソフトウェア",
-      "conjunction": false
+      "label_en": "Software"
     },
     {
       "code": "TOY",
       "label": "おもちゃ",
-      "conjunction": false
+      "label_en": "Toys"
     },
     {
       "code": "FAS",
       "label": "ファッション",
-      "conjunction": false
+      "label_en": "Fashion"
     },
     {
       "code": "BOO",
       "label": "書籍",
-      "conjunction": false
+      "label_en": "Books"
     },
     {
       "code": "MAG",
       "label": "雑誌",
-      "conjunction": false
+      "label_en": "Magazines"
     },
     {
       "code": "NOV",
       "label": "小説",
-      "conjunction": false
+      "label_en": "Novels"
     },
     {
       "code": "MUS",
       "label": "音楽",
-      "conjunction": false
+      "label_en": "Music"
     },
     {
       "code": "IDL",
       "label": "アイドル",
-      "conjunction": false
+      "label_en": "Idols"
     },
     {
       "code": "RDO",
       "label": "ラジオ",
-      "conjunction": false
+      "label_en": "Radio"
     },
     {
       "code": "EVT",
       "label": "イベント",
-      "conjunction": false
+      "label_en": "Events"
     },
     {
       "code": "FMT",
       "label": "フォーマット",
-      "conjunction": false
+      "label_en": "Formats"
     },
     {
       "code": "SPW",
       "label": "スポーツ",
-      "conjunction": false
+      "label_en": "Sports"
     },
     {
       "code": "RDE",
       "label": "乗り物",
-      "conjunction": false
+      "label_en": "Vehicles"
     },
     {
       "code": "FOO",
       "label": "食",
-      "conjunction": false
+      "label_en": "Food"
     },
     {
       "code": "UNC",
       "label": "その他",
-      "conjunction": false
+      "label_en": "Other"
     },
     {
       "code": "JAPAN",
       "label": "日本",
+      "label_en": "Japan",
       "conjunction": true
     }
   ]
