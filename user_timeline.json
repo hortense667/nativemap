@@ -1,9 +1,9 @@
 {
   "events": {
-    "1971": [
+    "1970": [
       {
         "label": "Intel 4004（マイクロプロセッサ）",
-        "startYear": 1971,
+        "startYear": 1970,
         "genre": [
           "HAR-CPU",
           "HARD"
