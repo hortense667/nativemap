@@ -13,6 +13,19 @@
         "note": "世界初期の商用マイクロプロセッサ"
       }
     ],
+    "1971": [
+      {
+        "label": "Intel 4004（マイクロプロセッサ）",
+        "startYear": 1971,
+        "genre": [
+          "HAR-CPU",
+          "HARD"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/Intel_4004",
+        "note": "世界初期の商用マイクロプロセッサ"
+      }
+    ],
     "1972": [
       {
         "label": "Intel 8008（マイクロプロセッサ）",
@@ -55,5 +68,31 @@
     ]
   },
   "eraSettings": [],
-  "genres": []
+  "genres": [
+    {
+      "code": "HAR-CPU",
+      "label": "マイクロプロッセサ",
+      "conjunction": false
+    },
+    {
+      "code": "HARD",
+      "label": "ハードウェア",
+      "conjunction": true
+    },
+    {
+      "code": "SOF-SVC",
+      "label": "ネットサービス",
+      "conjunction": false
+    },
+    {
+      "code": "SOFT",
+      "label": "ソフトウェア",
+      "conjunction": true
+    },
+    {
+      "code": "JAPAN",
+      "label": "日本",
+      "conjunction": true
+    }
+  ]
 }
