@@ -13458,99 +13458,123 @@
   "genres": [
     {
       "code": "ANI",
-      "label": "アニメ"
+      "label": "アニメ",
+      "label_en": "Animation"
     },
     {
       "code": "MAN",
-      "label": "マンガ"
+      "label": "マンガ",
+      "label_en": "Manga"
     },
     {
       "code": "GAM",
-      "label": "ゲーム"
+      "label": "ゲーム",
+      "label_en": "Games"
     },
     {
       "code": "TVP",
-      "label": "テレビ番組"
+      "label": "テレビ番組",
+      "label_en": "TV Shows"
     },
     {
       "code": "MOV",
-      "label": "映画"
+      "label": "映画",
+      "label_en": "Film"
     },
     {
       "code": "NET",
-      "label": "インターネット"
+      "label": "インターネット",
+      "label_en": "Internet"
     },
     {
       "code": "HAR",
-      "label": "ハードウェア"
+      "label": "ハードウェア",
+      "label_en": "Hardware"
     },
     {
       "code": "PHE",
-      "label": "現象・流行"
+      "label": "現象・流行",
+      "label_en": "Phenomena & Trends"
     },
     {
       "code": "SOF",
-      "label": "ソフトウェア"
+      "label": "ソフトウェア",
+      "label_en": "Software"
     },
     {
       "code": "TOY",
-      "label": "おもちゃ"
+      "label": "おもちゃ",
+      "label_en": "Toys"
     },
     {
       "code": "FAS",
-      "label": "ファッション"
+      "label": "ファッション",
+      "label_en": "Fashion"
     },
     {
       "code": "BOO",
-      "label": "書籍"
+      "label": "書籍",
+      "label_en": "Books"
     },
     {
       "code": "MAG",
-      "label": "雑誌"
+      "label": "雑誌",
+      "label_en": "Magazines"
     },
     {
       "code": "NOV",
-      "label": "小説"
+      "label": "小説",
+      "label_en": "Novels"
     },
     {
       "code": "MUS",
-      "label": "音楽"
+      "label": "音楽",
+      "label_en": "Music"
     },
     {
       "code": "IDL",
-      "label": "アイドル"
+      "label": "アイドル",
+      "label_en": "Idols"
     },
     {
       "code": "RDO",
-      "label": "ラジオ"
+      "label": "ラジオ",
+      "label_en": "Radio"
     },
     {
       "code": "EVT",
-      "label": "イベント"
+      "label": "イベント",
+      "label_en": "Events"
     },
     {
       "code": "FMT",
-      "label": "フォーマット"
+      "label": "フォーマット",
+      "label_en": "Formats"
     },
     {
       "code": "SPW",
-      "label": "スポーツ"
+      "label": "スポーツ",
+      "label_en": "Sports"
     },
     {
       "code": "RDE",
-      "label": "乗り物"
+      "label": "乗り物",
+      "label_en": "Vehicles"
     },
     {
       "code": "FOO",
-      "label": "食"
+      "label": "食",
+      "label_en": "Food"
     },
     {
       "code": "UNC",
-      "label": "その他"
+      "label": "その他",
+      "label_en": "Other"
     },
     {
       "code": "JAPAN",
       "label": "日本",
+      "label_en": "Japan",
       "conjunction": true
     }
   ]
