@@ -66,5 +66,31 @@
     ]
   },
   "eraSettings": [],
-  "genres": []
+  "genres": [
+    {
+      "code": "HAR-CPU",
+      "label": "マイクロプロッセサ",
+      "conjunction": false
+    },
+    {
+      "code": "HARD",
+      "label": "ハードウェア",
+      "conjunction": true
+    },
+    {
+      "code": "SOF-SVC",
+      "label": "ネットサービス",
+      "conjunction": false
+    },
+    {
+      "code": "SOFT",
+      "label": "ソフトウェア",
+      "conjunction": true
+    },
+    {
+      "code": "JAPAN",
+      "label": "日本",
+      "conjunction": true
+    }
+  ]
 }
