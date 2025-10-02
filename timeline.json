@@ -477,18 +477,6 @@
     ],
     "1956": [
       {
-        "label": "鉄人28号",
-        "startYear": 1956,
-        "endYear": 1966,
-        "genre": [
-          "MAN",
-          "JAPAN"
-        ],
-        "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/鉄人28号",
-        "note": "巨大ロボ表現の源流"
-      },
-      {
         "label": "週刊新潮",
         "startYear": 1956,
         "endYear": "ongoing",
@@ -521,6 +509,13 @@
         "note": "エルメスの象徴的ハンドバッグ"
       },
       {
+        "label": "hortense",
+        "startYear": 1956,
+        "genre": [
+          "TVP"
+        ]
+      },
+      {
         "label": "鉄人28号",
         "startYear": 1956,
         "endYear": 1966,
@@ -533,25 +528,6 @@
         "note": "巨大ロボ表現の源流",
         "label_en": "myty atom",
         "url_en": "https://wikipedia.org/wiki/tesujin"
-      },
-      {
-        "label": "hortense",
-        "startYear": 1956,
-        "genre": [
-          "TVP"
-        ]
-      },
-      {
-        "label": "鉄人28号",
-        "startYear": 1956,
-        "endYear": 1966,
-        "genre": [
-          "MAN",
-          "JAPAN"
-        ],
-        "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/鉄人28号",
-        "note": "巨大ロボ表現の源流"
       }
     ],
     "1957": [
