@@ -4,7 +4,7 @@
 
 ### はじめに
 
-ネイティブマップは、年表データを視覚的に表示・編集できるWebアプリケーションです。ポップカルチャーやデジタル技術の歴史を年表形式で管理し、個人の体験と照らし合わせることができます。
+ネイティブマップは、年表データを視覚的に表示・編集できるWebアプリケーションです。ポップカルチャーやデジタル技術の歴史を年表形式で管理し、個人の体験と照らし合わせることができます。また、ユーザーが独自の年表を作成することもできます。
 
 ### 基本的な使い方
 
@@ -61,6 +61,8 @@
 3. 複数選択可能（AND条件）
 
 **ジャンルの種類**
+1.ジャンルは年表ごとに定義できます
+2.ジャンルの例（ポップカルチャーの場合）
 - ANI: アニメ
 - MAN: マンガ
 - GAM: ゲーム
@@ -70,6 +72,9 @@
 - HAR: ハードウェア
 - SOFT: ソフトウェア
 - その他多数
+3.AND条件とろるなジャンル
+ジャンルによる絞り込みの際にAND条件として機能するジャンルを定義できます
+ロードデータでは「genre;CODE;LABEL;label_en;conjunction」、リモートDB上のjsonでは「"conjunction": true」で定義します。
 
 #### 5. 重要度フィルター
 
@@ -211,15 +216,19 @@ Native Map is a web application that allows you to visually display and edit tim
 3. Multiple selection possible (AND condition)
 
 **Genre Types**
-- ANI: Animation
+1. Genres can be defined for each timeline.
+2. Examples of genres (in the case of pop culture):
+- ANI: Anime
 - MAN: Manga
-- GAM: Game
+- GAM: Games
 - MUS: Music
-- MOV: Movie
+- MOV: Movies
 - TV: Television
 - HAR: Hardware
 - SOFT: Software
-- And many others
+- Many others
+3. Genres with AND condition
+You can define genres that function as an AND condition when filtering by genre. In the load data, it is defined as "genre;CODE;LABEL;label_en;conjunction", and in the remote DB's JSON, it is defined as "\"conjunction\": true".
 
 #### 5. Importance Filter
 
@@ -297,3 +306,4 @@ Start Year;End Year;Label;label_en;Genre;Importance;URL;url_en;Note;note_en
 2. **Align Birth Year**: Drag the light blue circle near the left end of the light blue diagonal line (where it intersects with the vertical axis) up and down to align with your birth year (e.g., 1965). "18 years old" will be displayed at the top.
 
 **The same operation can be performed with the red circle (red line). You can turn the display of each line on/off with the small circle button in the upper right.**
+
