@@ -562,17 +562,6 @@
     ],
     "1956": [
       {
-        "label": "ケリーバッグ",
-        "startYear": 1956,
-        "genre": [
-          "WORK",
-          "FAS"
-        ],
-        "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/%E3%83%87%E3%82%A3%E3%82%AA%E3%83%BC%E3%83%AB",
-        "note": "エルメスの象徴的ハンドバッグ"
-      },
-      {
         "label": "hortense",
         "startYear": 1956,
         "genre": [
@@ -610,18 +599,6 @@
         "note": "週刊ジャーナリズム",
         "label_en": "Shūkan Shinchō",
         "url_en": "https://en.wikipedia.org/wiki/Sh%C5%ABkan_Shinch%C5%8D"
-      },
-      {
-        "label": "ケリーバッグ",
-        "startYear": 1956,
-        "genre": [
-          "FAS",
-          "WORK"
-        ],
-        "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/%E3%82%B1%E3%83%AA%E3%83%BC%E3%83%90%E3%83%83%E3%82%B0",
-        "note": "エルメスの象徴的ハンドバッグ",
-        "url_en": "https://en.wikipedia.org/wiki/Kelly_bag"
       }
     ],
     "1957": [
