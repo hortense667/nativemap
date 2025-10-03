@@ -3725,6 +3725,20 @@
         "label_en": "Atari 2600",
         "note_en": "The Atari 2600 is a home video",
         "url_en": "https://en.wikipedia.org/wiki/Atari_2600"
+      },
+      {
+        "label": "アメリカ横断ウルトラクイズ",
+        "startYear": 1977,
+        "endYear": 1998,
+        "genre": [
+          "JAPAN",
+          "TVP",
+          "WORK"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/アメリカ横断ウルトラクイズ",
+        "note": "昭和の超大型クイズ特番",
+        "url_en": "https://ja.wikipedia.org/wiki/%E8%A6%96%E8%81%B4%E8%80%85%E5%8F%82%E5%8A%A0%E5%9E%8B%E7%95%AA%E7%B5%84"
       }
     ],
     "1978": [
