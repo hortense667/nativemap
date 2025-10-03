@@ -314,20 +314,6 @@
         "url_en": "https://en.wikipedia.org/wiki/Astro_Boy"
       },
       {
-        "label": "NME",
-        "startYear": 1952,
-        "endYear": 2018,
-        "genre": [
-          "MAG"
-        ],
-        "imp": 3,
-        "url": "https://ja.wikipedia.org/wiki/%E3%83%8B%E3%83%A5%E3%83%BC%E3%83%BB%E3%83%9F%E3%83%A5%E3%83%BC%E3%82%B8%E3%82%AB%E3%83%AB%E3%83%BB%E3%82%A8%E3%82%AF%E3%82%B9%E3%83%97%E3%83%AC%E3%82%B9",
-        "note": "英国音楽誌",
-        "label_en": "Music magazine",
-        "url_en": "https://en.wikipedia.org/wiki/NME",
-        "note_en": "A music magazine is a magazine"
-      },
-      {
         "label": "老人と海",
         "startYear": 1952,
         "genre": [
@@ -362,6 +348,21 @@
         "label_en": "Singin' in the Rain",
         "note_en": "Singin' in the Rain is a 1952",
         "url_en": "https://en.wikipedia.org/wiki/Singin%27_in_the_Rain"
+      },
+      {
+        "label": "NME",
+        "startYear": 1952,
+        "endYear": 2018,
+        "genre": [
+          "MAG",
+          "MUS"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/%E3%83%8B%E3%83%A5%E3%83%BC%E3%83%BB%E3%83%9F%E3%83%A5%E3%83%BC%E3%82%B8%E3%82%AB%E3%83%AB%E3%83%BB%E3%82%A8%E3%82%AF%E3%82%B9%E3%83%97%E3%83%AC%E3%82%B9",
+        "note": "英国音楽誌",
+        "label_en": "NME",
+        "url_en": "https://en.wikipedia.org/wiki/NME",
+        "note_en": "a British music, film, gaming and culture website, bimonthly magazine, and brand."
       }
     ],
     "1953": [
