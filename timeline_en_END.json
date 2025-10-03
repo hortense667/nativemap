@@ -1038,6 +1038,17 @@
         "label_en": "La Dolce Vita",
         "note_en": "La Dolce Vita is a 1960 satirical",
         "url_en": "https://en.wikipedia.org/wiki/La_Dolce_Vita"
+      },
+      {
+        "label": "日本の学生運動",
+        "startYear": 1960,
+        "genre": [
+          "JAPAN",
+          "PHE",
+          "WORK"
+        ],
+        "imp": 4,
+        "note": "全共闘など隆盛"
       }
     ],
     "1961": [
