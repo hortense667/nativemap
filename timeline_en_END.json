@@ -543,18 +543,6 @@
         "label": "高度経済成長期",
         "startYear": 1955,
         "genre": [
-          "WORK",
-          "PHE",
-          "JAPAN"
-        ],
-        "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/%E9%AB%98%E5%BA%A6%E7%B5%8C%E6%B8%88%E6%88%90%E9%95%B7",
-        "note": "年平均高成長の時代"
-      },
-      {
-        "label": "高度経済成長期",
-        "startYear": 1955,
-        "genre": [
           "JAPAN",
           "PHE",
           "WORK"
