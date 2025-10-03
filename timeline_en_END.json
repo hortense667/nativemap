@@ -289,18 +289,6 @@
         "url_en": "https://en.wikipedia.org/wiki/Astro_Boy"
       },
       {
-        "label": "老人と海",
-        "startYear": 1952,
-        "genre": [
-          "WORK",
-          "NOV",
-          "JAPAN"
-        ],
-        "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/老人と海",
-        "note": "老漁師の誇りの闘い"
-      },
-      {
         "label": "雨に唄えば",
         "startYear": 1952,
         "genre": [
@@ -340,19 +328,6 @@
         "note": "戦争と童心の対比",
         "label_en": "Forbidden Games",
         "url_en": "https://en.wikipedia.org/wiki/Forbidden_Games"
-      },
-      {
-        "label": "老人と海",
-        "startYear": 1952,
-        "genre": [
-          "JAPAN",
-          "NOV",
-          "WORK"
-        ],
-        "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/老人と海",
-        "note": "老漁師の誇りの闘い",
-        "url_en": "https://en.wikipedia.org/wiki/The_Old_Man_and_the_Sea"
       }
     ],
     "1953": [
