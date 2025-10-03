@@ -233,17 +233,6 @@
     ],
     "1950": [
       {
-        "label": "ニュー・オーリンズR&B",
-        "startYear": 1950,
-        "genre": [
-          "WORK",
-          "MUS"
-        ],
-        "imp": 3,
-        "url": "https://ja.wikipedia.org/wiki/リズム・アンド・ブルース",
-        "note": "R&B隆盛の起点"
-      },
-      {
         "label": "羅生門",
         "startYear": 1950,
         "genre": [
@@ -256,6 +245,19 @@
         "label_en": "Rashomon",
         "note_en": "Rashomon is a 1950 Japanese",
         "url_en": "https://en.wikipedia.org/wiki/Rashomon"
+      },
+      {
+        "label": "ニュー・オーリンズR&B",
+        "startYear": 1950,
+        "genre": [
+          "MUS",
+          "WORK"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/リズム・アンド・ブルース",
+        "note": "R&B隆盛の起点",
+        "label_en": "Rhythm and blues",
+        "url_en": "https://en.wikipedia.org/wiki/Rhythm_and_blues"
       }
     ],
     "1951": [
@@ -1080,6 +1082,20 @@
         "label_en": "Sukiyaki (song)",
         "note_en": "\"Ue o Muite Arukō\" , alter",
         "url_en": "https://en.wikipedia.org/wiki/Sukiyaki_%28song%29"
+      },
+      {
+        "label": "連続テレビ小説",
+        "startYear": 1961,
+        "endYear": "ongoing",
+        "genre": [
+          "JAPAN",
+          "TVP",
+          "WORK"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/連続テレビ小説",
+        "note": "通称“朝ドラ”。NHKの国民的連続ドラマ枠",
+        "url_en": "https://en.wikipedia.org/wiki/Asadora"
       }
     ],
     "1962": [
