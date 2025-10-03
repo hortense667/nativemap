@@ -562,17 +562,6 @@
     ],
     "1956": [
       {
-        "label": "エルヴィス・プレスリー",
-        "startYear": 1956,
-        "genre": [
-          "WORK",
-          "MUS"
-        ],
-        "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/エルヴィス・プレスリー",
-        "note": "ロックの王の登場"
-      },
-      {
         "label": "ケリーバッグ",
         "startYear": 1956,
         "genre": [
@@ -623,16 +612,16 @@
         "url_en": "https://en.wikipedia.org/wiki/Sh%C5%ABkan_Shinch%C5%8D"
       },
       {
-        "label": "エルヴィス・プレスリー",
+        "label": "ケリーバッグ",
         "startYear": 1956,
         "genre": [
-          "MUS",
+          "FAS",
           "WORK"
         ],
         "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/エルヴィス・プレスリー",
-        "note": "ロックの王の登場",
-        "url_en": "https://en.wikipedia.org/wiki/Elvis_Presley"
+        "url": "https://ja.wikipedia.org/wiki/%E3%82%B1%E3%83%AA%E3%83%BC%E3%83%90%E3%83%83%E3%82%B0",
+        "note": "エルメスの象徴的ハンドバッグ",
+        "url_en": "https://en.wikipedia.org/wiki/Kelly_bag"
       }
     ],
     "1957": [
