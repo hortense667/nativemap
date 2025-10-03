@@ -995,6 +995,19 @@
         "label_en": "La Dolce Vita",
         "note_en": "La Dolce Vita is a 1960 satirical",
         "url_en": "https://en.wikipedia.org/wiki/La_Dolce_Vita"
+      },
+      {
+        "label": "ダッコちゃん",
+        "startYear": 1960,
+        "genre": [
+          "JAPAN",
+          "TOY",
+          "WORK"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/%E3%82%BF%E3%82%AB%E3%83%A9_%28%E7%8E%A9%E5%85%B7%E3%83%A1%E3%83%BC%E3%82%AB%E3%83%BC%29",
+        "note": "抱きつき人形の社会現象",
+        "url_en": "https://nl.wikipedia.org/wiki/Winky_Dolls"
       }
     ],
     "1961": [
