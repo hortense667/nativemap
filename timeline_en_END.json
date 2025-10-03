@@ -666,21 +666,6 @@
     ],
     "1958": [
       {
-        "label": "白蛇伝",
-        "startYear": 1958,
-        "endYear": 1958,
-        "genre": [
-          "ANI",
-          "JAPAN"
-        ],
-        "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/%E7%99%BD%E8%9B%87%E4%BC%9D_%281958%E5%B9%B4%E3%81%AE%E6%98%A0%E7%94%BB%29",
-        "note": "国産初の長編カラー",
-        "label_en": "The White Snake Enchantress (film)",
-        "note_en": "The White Snake Enchantress",
-        "url_en": "https://en.wikipedia.org/wiki/The_White_Snake_Enchantress_%28film%29"
-      },
-      {
         "label": "月光仮面",
         "startYear": 1958,
         "endYear": 1959,
@@ -694,6 +679,21 @@
         "label_en": "Moonlight Mask",
         "note_en": "Moonlight Mask , a.k.a. Moonbeam",
         "url_en": "https://en.wikipedia.org/wiki/Moonlight_Mask"
+      },
+      {
+        "label": "白蛇伝",
+        "startYear": 1958,
+        "endYear": 1958,
+        "genre": [
+          "ANI",
+          "JAPAN"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/%E7%99%BD%E8%9B%87%E4%BC%9D_%281958%E5%B9%B4%E3%81%AE%E6%98%A0%E7%94%BB%29",
+        "note": "国産初の長編カラー",
+        "label_en": "The White Snake Enchantress (film)",
+        "note_en": "The White Snake Enchantress",
+        "url_en": "https://en.wikipedia.org/wiki/The_White_Snake_Enchantress_%28film%29"
       },
       {
         "label": "レゴ",
