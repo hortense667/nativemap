@@ -301,17 +301,6 @@
         "note": "老漁師の誇りの闘い"
       },
       {
-        "label": "禁じられた遊び",
-        "startYear": 1952,
-        "genre": [
-          "WORK",
-          "MOV"
-        ],
-        "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/%E3%83%AB%E3%83%8D%E3%83%BB%E3%82%AF%E3%83%AC%E3%83%9E%E3%83%B3",
-        "note": "戦争と童心の対比"
-      },
-      {
         "label": "雨に唄えば",
         "startYear": 1952,
         "genre": [
@@ -338,6 +327,19 @@
         "label_en": "NME",
         "url_en": "https://en.wikipedia.org/wiki/NME",
         "note_en": "a British music, film, gaming and culture website, bimonthly magazine, and brand."
+      },
+      {
+        "label": "禁じられた遊び",
+        "startYear": 1952,
+        "genre": [
+          "MOV",
+          "WORK"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/%E7%A6%81%E3%81%98%E3%82%89%E3%82%8C%E3%81%9F%E9%81%8A%E3%81%B3",
+        "note": "戦争と童心の対比",
+        "label_en": "Forbidden Games",
+        "url_en": "https://en.wikipedia.org/wiki/Forbidden_Games"
       }
     ],
     "1953": [
