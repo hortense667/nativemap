@@ -73,17 +73,6 @@
     ],
     "1947": [
       {
-        "label": "団塊世代",
-        "startYear": 1947,
-        "endYear": 1949,
-        "genre": [
-          "UNC",
-          "JAPAN"
-        ],
-        "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/%E5%9B%A3%E5%A1%8A%E3%81%AE%E4%B8%96%E4%BB%A3"
-      },
-      {
         "label": "新宝島",
         "startYear": 1947,
         "endYear": 1947,
@@ -136,28 +125,6 @@
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/夜と霧",
         "note": "極限状況の人間学"
-      },
-      {
-        "label": "団塊世代",
-        "startYear": 1947,
-        "endYear": 1949,
-        "genre": [
-          "JAPAN",
-          "UNC"
-        ],
-        "imp": 5,
-        "url": "URL変更"
-      },
-      {
-        "label": "団塊世代",
-        "startYear": 1947,
-        "endYear": 1949,
-        "genre": [
-          "UNC",
-          "JAPAN"
-        ],
-        "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/%E5%9B%A3%E5%A1%8A%E3%81%AE%E4%B8%96%E4%BB%A3"
       }
     ],
     "1948": [
