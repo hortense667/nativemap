@@ -6,29 +6,25 @@
         "startYear": 1945,
         "endYear": 1945,
         "genre": [
+          "WORK",
           "UNC",
           "JAPAN"
         ],
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/%E7%B5%82%E6%88%A6%E3%81%AE%E6%97%A5",
-        "note": "第二次世界大戦の敗戦",
-        "label_en": "-Korean War",
-        "note_en": "The Korean War was an armed",
-        "url_en": "https://en.wikipedia.org/wiki/Korean_War"
+        "note": "第二次世界大戦の敗戦"
       },
       {
         "label": "全共闘世代",
         "startYear": 1945,
         "endYear": 1949,
         "genre": [
+          "WORK",
           "JAPAN",
           "UNC"
         ],
         "url": "https://ja.wikipedia.org/wiki/%E5%85%A8%E5%AD%A6%E5%85%B1%E9%97%98%E4%BC%9A%E8%AD%B0",
-        "note": "1941～1949年とすることが多い。",
-        "label_en": "-2025 Tokyo prefectural election",
-        "note_en": "2025 Tokyo prefectural election",
-        "url_en": "https://en.wikipedia.org/wiki/2025_Tokyo_prefectural_election"
+        "note": "1941～1949年とすることが多い。"
       }
     ],
     "1946": [
@@ -194,14 +190,13 @@
         "startYear": 1948,
         "endYear": "ongoing",
         "genre": [
+          "WORK",
           "MAG",
           "JAPAN"
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/%E7%BE%8E%E8%A1%93%E6%89%8B%E5%B8%96",
-        "note": "現代美術とカルチャー",
-        "label_en": "-Shingo Katori",
-        "note_en": "Contemporary art and culture"
+        "note": "現代美術とカルチャー"
       },
       {
         "label": "人間失格",
@@ -252,14 +247,12 @@
         "label": "ニュー・オーリンズR&B",
         "startYear": 1950,
         "genre": [
+          "WORK",
           "MUS"
         ],
         "imp": 3,
         "url": "https://ja.wikipedia.org/wiki/リズム・アンド・ブルース",
-        "note": "R&B隆盛の起点",
-        "label_en": "-Yūko Kaida",
-        "note_en": "Yūko Kaida is a Japanese actress",
-        "url_en": "https://en.wikipedia.org/wiki/Y%C5%ABko_Kaida"
+        "note": "R&B隆盛の起点"
       },
       {
         "label": "羅生門",
@@ -282,14 +275,13 @@
         "startYear": 1951,
         "endYear": 1998,
         "genre": [
+          "WORK",
           "MAG",
           "JAPAN"
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/%E3%83%9F%E3%83%A5%E3%83%BC%E3%82%B8%E3%83%83%E3%82%AF%E3%83%BB%E3%83%A9%E3%82%A4%E3%83%95",
-        "note": "洋楽情報の老舗誌",
-        "label_en": "-Music Life",
-        "note_en": "Established magazine for Western"
+        "note": "洋楽情報の老舗誌"
       },
       {
         "label": "UNIVAC I",
@@ -339,28 +331,24 @@
         "label": "老人と海",
         "startYear": 1952,
         "genre": [
+          "WORK",
           "NOV",
           "JAPAN"
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/老人と海",
-        "note": "老漁師の誇りの闘い",
-        "label_en": "-Yorushika",
-        "note_en": "Yorushika (ヨルシカ) is a Japanese",
-        "url_en": "https://en.wikipedia.org/wiki/Yorushika"
+        "note": "老漁師の誇りの闘い"
       },
       {
         "label": "禁じられた遊び",
         "startYear": 1952,
         "genre": [
+          "WORK",
           "MOV"
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/%E3%83%AB%E3%83%8D%E3%83%BB%E3%82%AF%E3%83%AC%E3%83%9E%E3%83%B3",
-        "note": "戦争と童心の対比",
-        "label_en": "-René Clément",
-        "note_en": "René Clément was a French film",
-        "url_en": "https://en.wikipedia.org/wiki/Ren%C3%A9_Cl%C3%A9ment"
+        "note": "戦争と童心の対比"
       },
       {
         "label": "雨に唄えば",
@@ -426,14 +414,13 @@
         "label": "華氏451度",
         "startYear": 1953,
         "genre": [
+          "WORK",
           "NOV",
           "JAPAN"
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/華氏451度",
-        "note": "本が禁じられた近未来",
-        "label_en": "-Hua Shi 451Du ",
-        "note_en": "A near-future where books are"
+        "note": "本が禁じられた近未来"
       },
       {
         "label": "マッチボックス(ミニカー)",
@@ -469,14 +456,12 @@
         "startYear": 1954,
         "endYear": "ongoing",
         "genre": [
+          "WORK",
           "TVP"
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/ザ・トゥナイト・ショー",
-        "note": "米国深夜トーク源流",
-        "label_en": "-Underscore",
-        "note_en": "An underscore or underline",
-        "url_en": "https://en.wikipedia.org/wiki/Underscore"
+        "note": "米国深夜トーク源流"
       },
       {
         "label": "火の鳥",
@@ -526,14 +511,12 @@
         "label": "ロックンロール",
         "startYear": 1954,
         "genre": [
+          "WORK",
           "MUS"
         ],
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/ロックンロール",
-        "note": "若者文化の爆発点",
-        "label_en": "-Cotton Fantasy: Superlative Night Dreams",
-        "note_en": "Cotton Fantasy: Superlative",
-        "url_en": "https://en.wikipedia.org/wiki/Cotton_Fantasy%3A_Superlative_Night_Dreams"
+        "note": "若者文化の爆発点"
       },
       {
         "label": "七人の侍",
@@ -584,15 +567,13 @@
         "label": "高度経済成長期",
         "startYear": 1955,
         "genre": [
+          "WORK",
           "PHE",
           "JAPAN"
         ],
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/%E9%AB%98%E5%BA%A6%E7%B5%8C%E6%B8%88%E6%88%90%E9%95%B7",
-        "note": "年平均高成長の時代",
-        "label_en": "-Meitetsu",
-        "note_en": "Nagoya Railroad Co., Ltd",
-        "url_en": "https://en.wikipedia.org/wiki/Meitetsu"
+        "note": "年平均高成長の時代"
       }
     ],
     "1956": [
@@ -601,40 +582,35 @@
         "startYear": 1956,
         "endYear": "ongoing",
         "genre": [
+          "WORK",
           "MAG",
           "JAPAN"
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/%E6%96%B0%E6%BD%AE45",
-        "note": "週刊ジャーナリズム",
-        "label_en": "-Shūkan Shinchō",
-        "note_en": "Weekly journalism"
+        "note": "週刊ジャーナリズム"
       },
       {
         "label": "エルヴィス・プレスリー",
         "startYear": 1956,
         "genre": [
+          "WORK",
           "MUS"
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/エルヴィス・プレスリー",
-        "note": "ロックの王の登場",
-        "label_en": "-A Little Less Conversation",
-        "note_en": "\"A Little Less Conversation\"",
-        "url_en": "https://en.wikipedia.org/wiki/A_Little_Less_Conversation"
+        "note": "ロックの王の登場"
       },
       {
         "label": "ケリーバッグ",
         "startYear": 1956,
         "genre": [
+          "WORK",
           "FAS"
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/%E3%83%87%E3%82%A3%E3%82%AA%E3%83%BC%E3%83%AB",
-        "note": "エルメスの象徴的ハンドバッグ",
-        "label_en": "-Dior",
-        "note_en": "Christian Dior SE, commonly",
-        "url_en": "https://en.wikipedia.org/wiki/Dior"
+        "note": "エルメスの象徴的ハンドバッグ"
       },
       {
         "label": "hortense",
@@ -679,14 +655,12 @@
         "label": "十二人の怒れる男",
         "startYear": 1957,
         "genre": [
+          "WORK",
           "MOV"
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/%E3%82%B7%E3%83%89%E3%83%8B%E3%83%BC%E3%83%BB%E3%83%AB%E3%83%A1%E3%83%83%E3%83%88",
-        "note": "密室劇の緊張感",
-        "label_en": "-Sidney Lumet",
-        "note_en": "Sidney Arthur Lumet was an",
-        "url_en": "https://en.wikipedia.org/wiki/Sidney_Lumet"
+        "note": "密室劇の緊張感"
       }
     ],
     "1958": [
@@ -796,29 +770,26 @@
         "startYear": 1959,
         "endYear": "ongoing",
         "genre": [
+          "WORK",
           "MAG",
           "JAPAN"
         ],
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/週刊文春",
-        "note": "調査報道の看板誌",
-        "label_en": "-Sohei Kamiya",
-        "note_en": "Sohei Kamiya is a Japanese",
-        "url_en": "https://en.wikipedia.org/wiki/Sohei_Kamiya"
+        "note": "調査報道の看板誌"
       },
       {
         "label": "朝日ジャーナル",
         "startYear": 1959,
         "endYear": 1992,
         "genre": [
+          "WORK",
           "MAG",
           "JAPAN"
         ],
         "imp": 3,
         "url": "https://ja.wikipedia.org/wiki/%E6%9C%9D%E6%97%A5%E3%82%B8%E3%83%A3%E3%83%BC%E3%83%8A%E3%83%AB",
-        "note": "論壇誌の象徴",
-        "label_en": "-Teito Monogatari",
-        "note_en": "Symbol of the forum magazine"
+        "note": "論壇誌の象徴"
       },
       {
         "label": "週刊少年マガジン",
@@ -854,27 +825,23 @@
         "label": "モータウン",
         "startYear": 1959,
         "genre": [
+          "WORK",
           "MUS"
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/モータウン",
-        "note": "黒人音楽の大衆化",
-        "label_en": "-Timeline of Japanese music",
-        "note_en": "This page is a timeline of",
-        "url_en": "https://en.wikipedia.org/wiki/Timeline_of_Japanese_music"
+        "note": "黒人音楽の大衆化"
       },
       {
         "label": "マイルス・デイヴィス『カインド・オブ・ブルー』",
         "startYear": 1959,
         "genre": [
+          "WORK",
           "MUS"
         ],
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/カインド・オブ・ブルー",
-        "note": "モード・ジャズ金字塔",
-        "label_en": "-Toshiyuki Morikawa",
-        "note_en": "Toshiyuki Morikawa is a Japanese",
-        "url_en": "https://en.wikipedia.org/wiki/Toshiyuki_Morikawa"
+        "note": "モード・ジャズ金字塔"
       },
       {
         "label": "COBOL",
@@ -920,14 +887,12 @@
         "label": "大人は判ってくれない",
         "startYear": 1959,
         "genre": [
+          "WORK",
           "MOV"
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/%E3%83%95%E3%83%A9%E3%83%B3%E3%82%BD%E3%83%AF%E3%83%BB%E3%83%88%E3%83%AA%E3%83%A5%E3%83%95%E3%82%A9%E3%83%BC",
-        "note": "仏ニューウェーブ象徴",
-        "label_en": "-François Truffaut",
-        "note_en": "François Roland Truffaut was",
-        "url_en": "https://en.wikipedia.org/wiki/Fran%C3%A7ois_Truffaut"
+        "note": "仏ニューウェーブ象徴"
       },
       {
         "label": "IBM 1401",
@@ -962,54 +927,46 @@
         "label": "日本の学生運動",
         "startYear": 1960,
         "genre": [
+          "WORK",
           "PHE",
           "JAPAN"
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/日本の学生運動",
-        "note": "全共闘など隆盛",
-        "label_en": "-Osamu Noguchi",
-        "note_en": "Osamu Noguchi was a Japanese",
-        "url_en": "https://en.wikipedia.org/wiki/Osamu_Noguchi"
+        "note": "全共闘など隆盛"
       },
       {
         "label": "レゲエ",
         "startYear": 1960,
         "genre": [
+          "WORK",
           "MUS"
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/レゲエ",
-        "note": "ジャマイカ発世界化",
-        "label_en": "-Minmi",
-        "note_en": "Michiko Evwana, better known",
-        "url_en": "https://en.wikipedia.org/wiki/Minmi"
+        "note": "ジャマイカ発世界化"
       },
       {
         "label": "ドクターマーチン",
         "startYear": 1960,
         "genre": [
+          "WORK",
           "FAS"
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/ドクターマーチン",
-        "note": "反骨文化の象徴ブーツ",
-        "label_en": "-List of One Piece episodes (seasons 15–present)",
-        "note_en": "One Piece is an anime television",
-        "url_en": "https://en.wikipedia.org/wiki/List_of_One_Piece_episodes_%28seasons_15%E2%80%93present%29"
+        "note": "反骨文化の象徴ブーツ"
       },
       {
         "label": "アメリカンカジュアル",
         "startYear": 1960,
         "genre": [
+          "WORK",
           "FAS"
         ],
         "imp": 3,
         "url": "https://ja.wikipedia.org/wiki/%E3%82%AE%E3%83%A3%E3%83%AB%E7%94%B7",
-        "note": "米国風の着こなし総称",
-        "label_en": "-Gyaruo",
-        "note_en": "Gyaruo are a sub-group of modern",
-        "url_en": "https://en.wikipedia.org/wiki/Gyaruo"
+        "note": "米国風の着こなし総称"
       },
       {
         "label": "アイビー・ルック",
@@ -1040,15 +997,13 @@
         "label": "ダッコちゃん",
         "startYear": 1960,
         "genre": [
+          "WORK",
           "TOY",
           "JAPAN"
         ],
         "imp": 3,
         "url": "https://ja.wikipedia.org/wiki/%E3%82%BF%E3%82%AB%E3%83%A9_%28%E7%8E%A9%E5%85%B7%E3%83%A1%E3%83%BC%E3%82%AB%E3%83%BC%29",
-        "note": "抱きつき人形の社会現象",
-        "label_en": "-Takara",
-        "note_en": "Takara Co., Ltd. was a Japanese",
-        "url_en": "https://en.wikipedia.org/wiki/Takara"
+        "note": "抱きつき人形の社会現象"
       },
       {
         "label": "勝手にしやがれ",
@@ -1096,15 +1051,13 @@
         "startYear": 1961,
         "endYear": "ongoing",
         "genre": [
+          "WORK",
           "TVP",
           "JAPAN"
         ],
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/連続テレビ小説",
-        "note": "通称“朝ドラ”。NHKの国民的連続ドラマ枠",
-        "label_en": "-Tao Tsuchiya",
-        "note_en": "Tao Tsuchiya is a Japanese",
-        "url_en": "https://en.wikipedia.org/wiki/Tao_Tsuchiya"
+        "note": "通称“朝ドラ”。NHKの国民的連続ドラマ枠"
       },
       {
         "label": "坂本九「上を向いて歩こう」",
@@ -1255,27 +1208,24 @@
         "startYear": 1963,
         "endYear": "ongoing",
         "genre": [
+          "WORK",
           "MAG",
           "JAPAN"
         ],
         "imp": 3,
         "url": "https://ja.wikipedia.org/wiki/%E3%82%BF%E3%82%A4%E3%83%A0_%28%E9%9B%91%E8%AA%8C%29",
-        "note": "経営・ビジネス誌",
-        "label_en": "-Time (magazine)",
-        "note_en": "Time is an American news magazine",
-        "url_en": "https://en.wikipedia.org/wiki/Time_%28magazine%29"
+        "note": "経営・ビジネス誌"
       },
       {
         "label": "ボブ・ディラン「風に吹かれて」",
         "startYear": 1963,
         "genre": [
+          "WORK",
           "MUS"
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/風に吹かれて",
-        "note": "プロテストソング象徴",
-        "label_en": "-bobu*deiran[Feng niChui karete] ",
-        "note_en": "Symbol of protest songs"
+        "note": "プロテストソング象徴"
       }
     ],
     "1964": [
@@ -1284,15 +1234,13 @@
         "startYear": 1964,
         "endYear": "ongoing",
         "genre": [
+          "WORK",
           "TVP",
           "JAPAN"
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/題名のない音楽会",
-        "note": "クラシック音楽番組の長寿枠",
-        "label_en": "-Kokia (singer)",
-        "note_en": "Akiko Yoshida is a Japanese",
-        "url_en": "https://en.wikipedia.org/wiki/Kokia_%28singer%29"
+        "note": "クラシック音楽番組の長寿枠"
       },
       {
         "label": "富士急ハイランド",
@@ -1454,13 +1402,11 @@
         "startYear": 1965,
         "endYear": 1979,
         "genre": [
+          "WORK",
           "UNC"
         ],
         "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/X%E4%B8%96%E4%BB%A3",
-        "label_en": "-San-X",
-        "note_en": "San-X is a Japanese company",
-        "url_en": "https://en.wikipedia.org/wiki/San-X"
+        "url": "https://ja.wikipedia.org/wiki/X%E4%B8%96%E4%BB%A3"
       },
       {
         "label": "ジャングル大帝",
@@ -1482,15 +1428,13 @@
         "startYear": 1965,
         "endYear": 1990,
         "genre": [
+          "WORK",
           "TVP",
           "JAPAN"
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/11PM",
-        "note": "深夜バラエティの草分け",
-        "label_en": "-Lee Goldberg (meteorologist)",
-        "note_en": "Lee Goldberg is an American",
-        "url_en": "https://en.wikipedia.org/wiki/Lee_Goldberg_%28meteorologist%29"
+        "note": "深夜バラエティの草分け"
       },
       {
         "label": "ゲゲゲの鬼太郎",
@@ -1511,26 +1455,25 @@
         "label": "いざなぎ景気",
         "startYear": 1965,
         "genre": [
+          "WORK",
           "PHE",
           "JAPAN"
         ],
         "imp": 3,
         "url": "https://ja.wikipedia.org/wiki/いざなぎ景気",
-        "note": "戦後最長級の好景気",
-        "label_en": "-Jurassic",
-        "note_en": "The Jurassic is a geologic",
-        "url_en": "https://en.wikipedia.org/wiki/Jurassic"
+        "note": "戦後最長級の好景気"
       },
       {
         "label": "ジョン・コルトレーン『至上の愛』",
         "startYear": 1965,
         "genre": [
+          "WORK",
           "MUS"
         ],
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/至上の愛",
-        "note": "スピリチュアルな到達",
-        "label_en": "-ziyon*korutore-n{Zhi Shang noAi } ",
+        "note": "スピリチュアルな到達"
+      } ",
         "note_en": "Spiritual attainment"
       },
       {
@@ -1624,14 +1567,12 @@
         "startYear": 1966,
         "endYear": 1969,
         "genre": [
+          "WORK",
           "TVP"
         ],
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/スター・トレック:宇宙大作戦",
-        "note": "SFドラマの古典的名作",
-        "label_en": "-Romi Park",
-        "note_en": "Romi Park is a Japanese actress",
-        "url_en": "https://en.wikipedia.org/wiki/Romi_Park"
+        "note": "SFドラマの古典的名作"
       },
       {
         "label": "巨人の星",
@@ -1667,15 +1608,13 @@
         "label": "成田空港問題",
         "startYear": 1966,
         "genre": [
+          "WORK",
           "PHE",
           "JAPAN"
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/成田空港問題",
-        "note": "空港建設を巡る対立",
-        "label_en": "-Jimmy Wang Yu",
-        "note_en": "James Wang Yu was a Hong K",
-        "url_en": "https://en.wikipedia.org/wiki/Jimmy_Wang_Yu"
+        "note": "空港建設を巡る対立"
       },
       {
         "label": "ビーチ・ボーイズ『ペット・サウンズ』",
@@ -1783,25 +1722,25 @@
         "label": "ビートルズ『サージェント・ペパーズ…』",
         "startYear": 1967,
         "genre": [
+          "WORK",
           "MUS"
         ],
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/サージェント・ペパーズ・ロンリー・ハーツ・クラブ・バンド",
-        "note": "アルバム芸術の金字塔",
-        "label_en": "-bi-toruzu{sa-ziento*pepa-zu...} ",
+        "note": "アルバム芸術の金字塔"
+      } ",
         "note_en": "A pinnacle of album art"
       },
       {
         "label": "ヴェルヴェット・アンダーグラウンド&ニコ",
         "startYear": 1967,
         "genre": [
+          "WORK",
           "MUS"
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/ヴェルヴェット・アンダーグラウンド&ニコ",
-        "note": "オルタナの源流",
-        "label_en": "-vueruvuetsuto*anda-guraundo&niko",
-        "note_en": "Origins of alternative culture"
+        "note": "オルタナの源流"
       },
       {
         "label": "リカちゃん",
@@ -1824,15 +1763,13 @@
         "startYear": 1968,
         "endYear": "ongoing",
         "genre": [
+          "WORK",
           "PHE",
           "JAPAN"
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/ラブホテル",
-        "note": "日本独自の宿泊文化",
-        "label_en": "-List of Futari Ecchi chapters",
-        "note_en": "This is a list of the chapters",
-        "url_en": "https://en.wikipedia.org/wiki/List_of_Futari_Ecchi_chapters"
+        "note": "日本独自の宿泊文化"
       },
       {
         "label": "ど根性ガエル",
@@ -1854,43 +1791,38 @@
         "startYear": 1968,
         "endYear": 2021,
         "genre": [
+          "WORK",
           "RDO",
           "JAPAN"
         ],
         "imp": 3,
         "url": "https://ja.wikipedia.org/wiki/走れ!歌謡曲",
-        "note": "深夜の定番歌謡番組。",
-        "label_en": "-Sayaka Senbongi",
-        "note_en": "Sayaka Senbongi is a Japanese",
-        "url_en": "https://en.wikipedia.org/wiki/Sayaka_Senbongi"
+        "note": "深夜の定番歌謡番組。"
       },
       {
         "label": "日野ミッドナイトグラフィティ 走れ!歌謡曲",
         "startYear": 1968,
         "endYear": 2021,
         "genre": [
+          "WORK",
           "RDO",
           "JAPAN"
         ],
         "imp": 3,
         "url": "https://ja.wikipedia.org/wiki/%E6%97%A5%E9%87%8E%E3%83%9F%E3%83%83%E3%83%89%E3%83%8A%E3%82%A4%E3%83%88%E3%82%B0%E3%83%A9%E3%83%95%E3%82%A3%E3%83%86%E3%82%A3_%E8%B5%B0%E3%82%8C!%E6%AD%8C%E8%AC%A1%E6%9B%B2",
-        "note": "深夜の定番歌謡番組。",
-        "label_en": "-Ri Ye mitsudonaitogurahuitei Zou re!Ge Yao Qu ",
-        "note_en": "Late-night classic music show"
+        "note": "深夜の定番歌謡番組。"
       },
       {
         "label": "60ミニッツ",
         "startYear": 1968,
         "endYear": "ongoing",
         "genre": [
+          "WORK",
           "TVP"
         ],
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/60ミニッツ",
-        "note": "調査報道の金字塔",
-        "label_en": "-Minutes to Midnight (Linkin Park album)",
-        "note_en": "Minutes to Midnight is the",
-        "url_en": "https://en.wikipedia.org/wiki/Minutes_to_Midnight_%28Linkin_Park_album%29"
+        "note": "調査報道の金字塔"
       },
       {
         "label": "ねじ式",
@@ -2012,15 +1944,13 @@
         "label": "二重らせん",
         "startYear": 1968,
         "genre": [
+          "WORK",
           "BOO",
           "JAPAN"
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/二重らせん",
-        "note": "DNA発見の内幕記",
-        "label_en": "-TV Asahi",
-        "note_en": "JOEX-DTV, branded as TV Asahi",
-        "url_en": "https://en.wikipedia.org/wiki/TV_Asahi"
+        "note": "DNA発見の内幕記"
       },
       {
         "label": "The Art of Computer Programming",
@@ -2080,15 +2010,13 @@
         "startYear": 1969,
         "endYear": 1986,
         "genre": [
+          "WORK",
           "TVP",
           "JAPAN"
         ],
         "imp": 3,
         "url": "https://ja.wikipedia.org/wiki/クイズタイムショック",
-        "note": "ハイスピード早押しの古典",
-        "label_en": "-List of Project EGG games",
-        "note_en": "Project EGG is an emulation-based",
-        "url_en": "https://en.wikipedia.org/wiki/List_of_Project_EGG_games"
+        "note": "ハイスピード早押しの古典"
       },
       {
         "label": "サザエさん",
@@ -2140,14 +2068,12 @@
         "startYear": 1969,
         "endYear": "ongoing",
         "genre": [
+          "WORK",
           "TVP"
         ],
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/セサミストリート",
-        "note": "教育番組の世界標準",
-        "label_en": "-The First Take",
-        "note_en": "The First Take is a Japanese",
-        "url_en": "https://en.wikipedia.org/wiki/The_First_Take"
+        "note": "教育番組の世界標準"
       },
       {
         "label": "ドラえもん",
@@ -2169,29 +2095,26 @@
         "startYear": 1969,
         "endYear": "ongoing",
         "genre": [
+          "WORK",
           "MAG",
           "JAPAN"
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/ユリイカ_(雑誌)",
-        "note": "詩批評×ポップ特集",
-        "label_en": "-Bokura no Eureka",
-        "note_en": "Bokura no Eureka is the seventh",
-        "url_en": "https://en.wikipedia.org/wiki/Bokura_no_Eureka"
+        "note": "詩批評×ポップ特集"
       },
       {
         "label": "週刊ポスト",
         "startYear": 1969,
         "endYear": "ongoing",
         "genre": [
+          "WORK",
           "MAG",
           "JAPAN"
         ],
         "imp": 3,
         "url": "https://ja.wikipedia.org/wiki/%E9%80%B1%E5%88%8A%E3%83%9D%E3%82%B9%E3%83%88",
-        "note": "大衆週刊の定番",
-        "label_en": "-Mino Suzume",
-        "note_en": "A staple of popular weekly"
+        "note": "大衆週刊の定番"
       },
       {
         "label": "ARPANET",
@@ -2248,14 +2171,12 @@
         "label": "ゴアテックス",
         "startYear": 1969,
         "genre": [
+          "WORK",
           "FAS"
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/ゴアテックス",
-        "note": "防水透湿素材の標準",
-        "label_en": "-Transcription into Japanese",
-        "note_en": "In contemporary Japanese writing",
-        "url_en": "https://en.wikipedia.org/wiki/Transcription_into_Japanese"
+        "note": "防水透湿素材の標準"
       },
       {
         "label": "Multics",
@@ -2304,15 +2225,13 @@
         "startYear": 1970,
         "endYear": "ongoing",
         "genre": [
+          "WORK",
           "TVP",
           "JAPAN"
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/NNNドキュメント",
-        "note": "民放最長級ドキュメンタリ",
-        "label_en": "-Net café refugee",
-        "note_en": "Net café refugees , also known",
-        "url_en": "https://en.wikipedia.org/wiki/Net_caf%C3%A9_refugee"
+        "note": "民放最長級ドキュメンタリ"
       },
       {
         "label": "日本万国博覧会（大阪万博）",
@@ -2416,14 +2335,13 @@
         "startYear": 1971,
         "endYear": 1988,
         "genre": [
+          "WORK",
           "MOV",
           "JAPAN"
         ],
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/%E6%97%A5%E6%B4%BB%E3%83%AD%E3%83%9E%E3%83%B3%E3%83%9D%E3%83%AB%E3%83%8E",
-        "note": "メジャー会社による成人映画レーベル",
-        "label_en": "-Aroused by Gymnopedies",
-        "note_en": "Major companies launching adult"
+        "note": "メジャー会社による成人映画レーベル"
       },
       {
         "label": "カップヌードル",
@@ -2445,30 +2363,26 @@
         "startYear": 1971,
         "endYear": "ongoing",
         "genre": [
+          "WORK",
           "FOO",
           "JAPAN"
         ],
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/%E6%97%A5%E6%9C%AC%E3%83%9E%E3%82%AF%E3%83%89%E3%83%8A%E3%83%AB%E3%83%89",
-        "note": "銀座で1号店を開店。",
-        "label_en": "-Ni-Ki",
-        "note_en": "Nishimura Riki , known pro",
-        "url_en": "https://en.wikipedia.org/wiki/Ni-Ki"
+        "note": "銀座で1号店を開店。"
       },
       {
         "label": "ミスタードーナツ（日本）",
         "startYear": 1971,
         "endYear": "ongoing",
         "genre": [
+          "WORK",
           "FOO",
           "JAPAN"
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/ミスタードーナツ",
-        "note": "国内ドーナツ文化を形成。",
-        "label_en": "-Stamp rally",
-        "note_en": "A stamp rally is an event or",
-        "url_en": "https://en.wikipedia.org/wiki/Stamp_rally"
+        "note": "国内ドーナツ文化を形成。"
       },
       {
         "label": "ルパン三世(TV第1シリーズ)",
@@ -2490,15 +2404,13 @@
         "startYear": 1971,
         "endYear": 1973,
         "genre": [
+          "WORK",
           "TVP",
           "JAPAN"
         ],
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/仮面ライダー_(1971年のテレビドラマ)",
-        "note": "変身ヒーロー定着",
-        "label_en": "-Takeru Satoh",
-        "note_en": "Takeru Satoh is a Japanese",
-        "url_en": "https://en.wikipedia.org/wiki/Takeru_Satoh"
+        "note": "変身ヒーロー定着"
       },
       {
         "label": "新婚さんいらっしゃい!",
@@ -2520,14 +2432,13 @@
         "startYear": 1971,
         "endYear": 1973,
         "genre": [
+          "WORK",
           "MAG",
           "JAPAN"
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/%E9%9D%A2%E7%99%BD%E5%8D%8A%E5%88%86",
-        "note": "文学と反体制の気概",
-        "label_en": "-Taiji, Wakayama",
-        "note_en": "Literature and anti-establishment"
+        "note": "文学と反体制の気概"
       },
       {
         "label": "日経サイエンス",
@@ -2789,15 +2700,13 @@
         "label": "成長の限界",
         "startYear": 1972,
         "genre": [
+          "WORK",
           "BOO",
           "JAPAN"
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/成長の限界",
-        "note": "地球資源の限界を警告",
-        "label_en": "-Backstabbed in a Backwater Dungeon",
-        "note_en": "Backstabbed in a Backwater",
-        "url_en": "https://en.wikipedia.org/wiki/Backstabbed_in_a_Backwater_Dungeon"
+        "note": "地球資源の限界を警告"
       },
       {
         "label": "ゴッドファーザー",
@@ -2915,79 +2824,72 @@
         "startYear": 1973,
         "endYear": "ongoing",
         "genre": [
+          "WORK",
           "MAG",
           "JAPAN"
         ],
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/%E5%AE%9D%E5%B3%B6_%28%E9%9B%91%E8%AA%8C%29",
-        "note": "サブカル誌の代名詞",
-        "label_en": "-Treasure Island (1978 TV series)",
-        "note_en": "Symbol of subculture magazines"
+        "note": "サブカル誌の代名詞"
       },
       {
         "label": "オイルショック",
         "startYear": 1973,
         "genre": [
+          "WORK",
           "PHE",
           "JAPAN"
         ],
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/オイルショック",
-        "note": "物価高と省エネ促進",
-        "label_en": "-List of gairaigo and wasei-eigo terms",
-        "note_en": "Gairaigo are Japanese words",
-        "url_en": "https://en.wikipedia.org/wiki/List_of_gairaigo_and_wasei-eigo_terms"
+        "note": "物価高と省エネ促進"
       },
       {
         "label": "トイレットペーパー騒動",
         "startYear": 1973,
         "genre": [
+          "WORK",
           "PHE",
           "JAPAN"
         ],
         "imp": 3,
         "url": "https://ja.wikipedia.org/wiki/トイレットペーパー騒動",
-        "note": "買い占めの象徴的事件",
-        "label_en": "-toiretsutope-pa-Sao Dong ",
-        "note_en": "Symbolic incident of hoarding"
+        "note": "買い占めの象徴的事件"
       },
       {
         "label": "イーサネット",
         "startYear": 1973,
         "genre": [
+          "WORK",
           "NET"
         ],
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/%E3%82%A4%E3%83%BC%E3%82%B5%E3%83%8D%E3%83%83%E3%83%88",
-        "note": "LANの事実上標準",
-        "label_en": "-KVH Co. Ltd.",
-        "note_en": "KVH Co., Ltd., previously known",
-        "url_en": "https://en.wikipedia.org/wiki/KVH_Co._Ltd."
+        "note": "LANの事実上標準"
       },
       {
         "label": "ピンク・フロイド『狂気』",
         "startYear": 1973,
         "genre": [
+          "WORK",
           "MUS"
         ],
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/狂気_(ピンク・フロイドのアルバム)",
-        "note": "概念作の到達点",
-        "label_en": "-pinku*huroido{Kuang Qi } ",
+        "note": "概念作の到達点"
+      } ",
         "note_en": "Conceptual work's achievement"
       },
       {
         "label": "ヒップホップ",
         "startYear": 1973,
         "genre": [
+          "WORK",
           "MUS"
         ],
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/ヒップホップ",
-        "note": "世界的文化ムーブメント",
-        "label_en": "-J-pop",
-        "note_en": "J-pop, natively known simply",
-        "url_en": "https://en.wikipedia.org/wiki/J-pop"
+        "note": "世界的文化ムーブメント"
       },
       {
         "label": "Xerox Alto",
@@ -3009,14 +2911,12 @@
         "startYear": 1974,
         "endYear": 1981,
         "genre": [
+          "WORK",
           "UNC",
           "JAPAN"
         ],
         "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/%E5%B0%B1%E8%81%B7%E6%B0%B7%E6%B2%B3%E6%9C%9F#%E6%B0%B7%E6%B2%B3%E6%9C%9F%E4%B8%96%E4%BB%A3",
-        "label_en": "-Employment Ice Age",
-        "note_en": "The Employment Ice Age is a",
-        "url_en": "https://en.wikipedia.org/wiki/Employment_Ice_Age"
+        "url": "https://ja.wikipedia.org/wiki/%E5%B0%B1%E8%81%B7%E6%B0%B7%E6%B2%B3%E6%9C%9F#%E6%B0%B7%E6%B2%B3%E6%9C%9F%E4%B8%96%E4%BB%A3"
       },
       {
         "label": "エマニエル夫人",
@@ -3066,14 +2966,13 @@
         "startYear": 1974,
         "endYear": 1985,
         "genre": [
+          "WORK",
           "MAG",
           "JAPAN"
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/%E3%83%93%E3%83%83%E3%82%AF%E3%83%AA%E3%83%8F%E3%82%A6%E3%82%B9",
-        "note": "投稿文化の拠点",
-        "label_en": "-Surprise House",
-        "note_en": "Hub of posting culture"
+        "note": "投稿文化の拠点"
       },
       {
         "label": "花とゆめ",
@@ -3191,14 +3090,13 @@
         "startYear": 1975,
         "endYear": "ongoing",
         "genre": [
+          "WORK",
           "FOO",
           "JAPAN"
         ],
         "imp": 3,
         "url": "https://ja.wikipedia.org/wiki/ペヤング",
-        "note": "ロングセラーの即席麺。",
-        "label_en": "-peyangu so-suyakisoba",
-        "note_en": "Long-selling instant noodles"
+        "note": "ロングセラーの即席麺。"
       },
       {
         "label": "コミックマーケット",
@@ -3220,14 +3118,13 @@
         "startYear": 1975,
         "endYear": "ongoing",
         "genre": [
+          "WORK",
           "FOO",
           "JAPAN"
         ],
         "imp": 3,
         "url": "https://ja.wikipedia.org/wiki/%E3%83%9A%E3%83%A4%E3%83%B3%E3%82%B0%E3%82%BD%E3%83%BC%E3%82%B9%E3%82%84%E3%81%8D%E3%81%9D%E3%81%B0",
-        "note": "ロングセラーの即席麺。",
-        "label_en": "-peyanguso-suyakisoba",
-        "note_en": "A long-selling instant noodle"
+        "note": "ロングセラーの即席麺。"
       },
       {
         "label": "秘密戦隊ゴレンジャー",
@@ -3249,14 +3146,12 @@
         "startYear": 1975,
         "endYear": "ongoing",
         "genre": [
+          "WORK",
           "TVP"
         ],
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/サタデー・ナイト・ライブ",
-        "note": "米国深夜コメディの王",
-        "label_en": "-Saturday Night Live Japan",
-        "note_en": "Saturday Night Live Japan was",
-        "url_en": "https://en.wikipedia.org/wiki/Saturday_Night_Live_Japan"
+        "note": "米国深夜コメディの王"
       },
       {
         "label": "沖縄国際海洋博覧会",
@@ -3290,41 +3185,35 @@
         "label": "クイーン「ボヘミアン・ラプソディ」",
         "startYear": 1975,
         "genre": [
+          "WORK",
           "MUS"
         ],
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/ボヘミアン・ラプソディ",
-        "note": "複合構成の名曲",
-        "label_en": "-List of Cowboy Bebop episodes",
-        "note_en": "The Japanese anime television",
-        "url_en": "https://en.wikipedia.org/wiki/List_of_Cowboy_Bebop_episodes"
+        "note": "複合構成の名曲"
       },
       {
         "label": "監獄の誕生",
         "startYear": 1975,
         "genre": [
+          "WORK",
           "BOO",
           "JAPAN"
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/監獄の誕生",
-        "note": "規律権力の歴史分析",
-        "label_en": "-Gordon Maeda",
-        "note_en": "Gordon Maeda is a Japanese",
-        "url_en": "https://en.wikipedia.org/wiki/Gordon_Maeda"
+        "note": "規律権力の歴史分析"
       },
       {
         "label": "人月の神話",
         "startYear": 1975,
         "genre": [
+          "WORK",
           "BOO"
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/人月の神話",
-        "note": "大規模開発の真理",
-        "label_en": "-Black Myth: Wukong",
-        "note_en": "Black Myth: Wukong is a 2024",
-        "url_en": "https://en.wikipedia.org/wiki/Black_Myth%3A_Wukong"
+        "note": "大規模開発の真理"
       },
       {
         "label": "ジョーズ",
@@ -3359,45 +3248,39 @@
         "startYear": 1976,
         "endYear": 1976,
         "genre": [
+          "WORK",
           "MOV",
           "JAPAN"
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/%E5%A4%A7%E5%B3%B6%E6%B8%9A",
-        "note": "表現と猥褻の境界を問う問題作",
-        "label_en": "-Nagisa Ōshima",
-        "note_en": "Nagisa Ōshima was a Japanese",
-        "url_en": "https://en.wikipedia.org/wiki/Nagisa_%C5%8Cshima"
+        "note": "表現と猥褻の境界を問う問題作"
       },
       {
         "label": "フィーバー機（SANKYO）",
         "startYear": 1976,
         "endYear": "ongoing",
         "genre": [
+          "WORK",
           "UNC",
           "JAPAN"
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/フィーバー機",
-        "note": "デジパチ普及の転機",
-        "label_en": "-Touch Down Fever",
-        "note_en": "Touch Down Fever (タッチダウンフィーバー)",
-        "url_en": "https://en.wikipedia.org/wiki/Touch_Down_Fever"
+        "note": "デジパチ普及の転機"
       },
       {
         "label": "報道特集",
         "startYear": 1976,
         "endYear": "ongoing",
         "genre": [
+          "WORK",
           "TVP",
           "JAPAN"
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/報道特集",
-        "note": "日曜夕方の硬派報道",
-        "label_en": "-Murder of Junko Furuta",
-        "note_en": "Junko Furuta was a 17-year-old",
-        "url_en": "https://en.wikipedia.org/wiki/Murder_of_Junko_Furuta"
+        "note": "日曜夕方の硬派報道"
       },
       {
         "label": "こちら葛飾区亀有公園前派出所",
@@ -3433,30 +3316,26 @@
         "startYear": 1976,
         "endYear": "ongoing",
         "genre": [
+          "WORK",
           "TVP",
           "JAPAN"
         ],
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/徹子の部屋",
-        "note": "長寿一対一トーク",
-        "label_en": "-Tetsuko Kuroyanagi",
-        "note_en": "Tetsuko Kuroyanagi is a Japanese",
-        "url_en": "https://en.wikipedia.org/wiki/Tetsuko_Kuroyanagi"
+        "note": "長寿一対一トーク"
       },
       {
         "label": "クイズダービー",
         "startYear": 1976,
         "endYear": 1992,
         "genre": [
+          "WORK",
           "TVP",
           "JAPAN"
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/クイズダービー",
-        "note": "昭和クイズ番組の代表",
-        "label_en": "-Ikumi Hasegawa",
-        "note_en": "Ikumi Hasegawa is a Japanese",
-        "url_en": "https://en.wikipedia.org/wiki/Ikumi_Hasegawa"
+        "note": "昭和クイズ番組の代表"
       },
       {
         "label": "ガラスの仮面",
@@ -3478,43 +3357,39 @@
         "startYear": 1976,
         "endYear": "ongoing",
         "genre": [
+          "WORK",
           "MAG",
           "JAPAN"
         ],
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/%E5%88%A5%E5%86%8A%E5%AE%9D%E5%B3%B6",
-        "note": "時事とタブー深掘り",
-        "label_en": "-Moe (slang)",
-        "note_en": "Exploring current events and"
+        "note": "時事とタブー深掘り"
       },
       {
         "label": "STUDIO VOICE",
         "startYear": 1976,
         "endYear": 2008,
         "genre": [
+          "WORK",
           "MAG",
           "JAPAN"
         ],
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/STUDIO_VOICE",
-        "note": "日本の月刊カルチャー雑誌",
-        "label_en": "-Studio Voice",
-        "note_en": "a japanese culture magazine"
+        "note": "日本の月刊カルチャー雑誌"
       },
       {
         "label": "I/O (パソコン雑誌)",
         "startYear": 1976,
         "endYear": "ongoing",
         "genre": [
+          "WORK",
           "MAG",
           "JAPAN"
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/%E3%83%91%E3%82%BD%E3%82%B3%E3%83%B3%E9%9B%91%E8%AA%8C",
-        "note": "自作派向けPC誌",
-        "label_en": "-List of computer magazines",
-        "note_en": "This is a list of magazines",
-        "url_en": "https://en.wikipedia.org/wiki/List_of_computer_magazines"
+        "note": "自作派向けPC誌"
       },
       {
         "label": "POPEYE (雑誌)",
@@ -3535,15 +3410,13 @@
         "label": "ロッキード事件",
         "startYear": 1976,
         "genre": [
+          "WORK",
           "PHE",
           "JAPAN"
         ],
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/ロッキード事件",
-        "note": "戦後最大級の汚職",
-        "label_en": "-Naoki Inose",
-        "note_en": "Naoki Inose is a Japanese",
-        "url_en": "https://en.wikipedia.org/wiki/Naoki_Inose"
+        "note": "戦後最大級の汚職"
       },
       {
         "label": "X.25",
@@ -3575,14 +3448,12 @@
         "label": "vi",
         "startYear": 1976,
         "genre": [
+          "WORK",
           "SOF"
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/Vi",
-        "note": "軽快なUNIX系エディタ",
-        "label_en": "-George VI",
-        "note_en": "George VI was King of the United",
-        "url_en": "https://en.wikipedia.org/wiki/George_VI"
+        "note": "軽快なUNIX系エディタ"
       },
       {
         "label": "スライム",
@@ -3670,29 +3541,25 @@
         "startYear": 1977,
         "endYear": 1998,
         "genre": [
+          "WORK",
           "TVP",
           "JAPAN"
         ],
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/アメリカ横断ウルトラクイズ",
-        "note": "昭和の超大型クイズ特番",
-        "label_en": "-Nippon Television",
-        "note_en": "JOAX-DTV, branded as Nippon",
-        "url_en": "https://en.wikipedia.org/wiki/Nippon_Television"
+        "note": "昭和の超大型クイズ特番"
       },
       {
         "label": "ルーツ (テレビドラマ)",
         "startYear": 1977,
         "endYear": 1977,
         "genre": [
+          "WORK",
           "TVP"
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/ルーツ_(テレビドラマ)",
-        "note": "人種史を描いた大作",
-        "label_en": "-List of best-selling manga",
-        "note_en": "The following is a list of",
-        "url_en": "https://en.wikipedia.org/wiki/List_of_best-selling_manga"
+        "note": "人種史を描いた大作"
       },
       {
         "label": "アスキー (雑誌)",
@@ -3728,15 +3595,13 @@
         "label": "ディスコ",
         "startYear": 1977,
         "genre": [
+          "WORK",
           "PHE",
           "JAPAN"
         ],
         "imp": 3,
         "url": "https://ja.wikipedia.org/wiki/ディスコ",
-        "note": "若者文化の発信地",
-        "label_en": "-Bleach (TV series)",
-        "note_en": "Bleach is a Japanese anime",
-        "url_en": "https://en.wikipedia.org/wiki/Bleach_%28TV_series%29"
+        "note": "若者文化の発信地"
       },
       {
         "label": "ARCNET",
@@ -3755,27 +3620,23 @@
         "label": "ボブ・マーリー『エクソダス』",
         "startYear": 1977,
         "genre": [
+          "WORK",
           "MUS"
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/エクソダス_(ボブ・マーリーのアルバム)",
-        "note": "レゲエ普及の名盤",
-        "label_en": "-Babur",
-        "note_en": "Babur was the founder of the",
-        "url_en": "https://en.wikipedia.org/wiki/Babur"
+        "note": "レゲエ普及の名盤"
       },
       {
         "label": "ラルフ・ローレンのアニー・ホール・ルック",
         "startYear": 1977,
         "genre": [
+          "WORK",
           "FAS"
         ],
         "imp": 3,
         "url": "https://ja.wikipedia.org/wiki/%E3%83%A9%E3%83%AB%E3%83%95%E3%83%BB%E3%83%AD%E3%83%BC%E3%83%AC%E3%83%B3",
-        "note": "メンズ風ミックスが流行",
-        "label_en": "-Ralph Lauren",
-        "note_en": "Ralph Lauren is an American",
-        "url_en": "https://en.wikipedia.org/wiki/Ralph_Lauren"
+        "note": "メンズ風ミックスが流行"
       },
       {
         "label": "Berkeley Software Distribution",
@@ -3875,15 +3736,13 @@
         "startYear": 1978,
         "endYear": 1985,
         "genre": [
+          "WORK",
           "PHE",
           "JAPAN"
         ],
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/ビニ本",
-        "note": "包装された成人向け写真集の流行",
-        "label_en": "-List of jōyō kanji",
-        "note_en": "The jōyō kanji system of r",
-        "url_en": "https://en.wikipedia.org/wiki/List_of_j%C5%8Dy%C5%8D_kanji"
+        "note": "包装された成人向け写真集の流行"
       },
       {
         "label": "Sequential Circuits Prophet-5",
@@ -3918,14 +3777,13 @@
         "startYear": 1978,
         "endYear": "ongoing",
         "genre": [
+          "WORK",
           "FOO",
           "JAPAN"
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/カレーハウスCoCo壱番屋",
-        "note": "カレー専門チェーンの代表格。",
-        "label_en": "-kare-hausuCoCoYi Fan Wu ",
-        "note_en": "A leading chain specializing"
+        "note": "カレー専門チェーンの代表格。"
       },
       {
         "label": "レーザーディスク",
@@ -3976,15 +3834,13 @@
         "startYear": 1978,
         "endYear": "ongoing",
         "genre": [
+          "WORK",
           "TVP",
           "JAPAN"
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/24時間テレビ_「愛は地球を救う」",
-        "note": "チャリティ長時間特番",
-        "label_en": "-Nippon Television",
-        "note_en": "JOAX-DTV, branded as Nippon",
-        "url_en": "https://en.wikipedia.org/wiki/Nippon_Television"
+        "note": "チャリティ長時間特番"
       },
       {
         "label": "うる星やつら",
@@ -4005,15 +3861,13 @@
         "label": "インベーダーブーム",
         "startYear": 1978,
         "genre": [
+          "WORK",
           "PHE",
           "JAPAN"
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/インベーダーブーム",
-        "note": "ゲーム喫茶が盛況",
-        "label_en": "-Shōwa nostalgia",
-        "note_en": "Shōwa nostalgia includes n",
-        "url_en": "https://en.wikipedia.org/wiki/Sh%C5%8Dwa_nostalgia"
+        "note": "ゲーム喫茶が盛況"
       },
       {
         "label": "TeX",
@@ -4103,30 +3957,26 @@
         "startYear": 1979,
         "endYear": 1992,
         "genre": [
+          "WORK",
           "TVP",
           "JAPAN"
         ],
         "imp": 3,
         "url": "https://ja.wikipedia.org/wiki/クイズ100人に聞きました",
-        "note": "家族向けクイズの古典",
-        "label_en": "-International versions of Family Feud",
-        "note_en": "The following article details",
-        "url_en": "https://en.wikipedia.org/wiki/International_versions_of_Family_Feud"
+        "note": "家族向けクイズの古典"
       },
       {
         "label": "ズームイン!!朝!",
         "startYear": 1979,
         "endYear": 2001,
         "genre": [
+          "WORK",
           "TVP",
           "JAPAN"
         ],
         "imp": 3,
         "url": "https://ja.wikipedia.org/wiki/ズームイン!!朝!",
-        "note": "朝の情報番組の先駆",
-        "label_en": "-List of Nikkatsu Roman Porno films",
-        "note_en": "The Nikkatsu Roman Porno films",
-        "url_en": "https://en.wikipedia.org/wiki/List_of_Nikkatsu_Roman_Porno_films"
+        "note": "朝の情報番組の先駆"
       },
       {
         "label": "CD-DA",
@@ -4205,53 +4055,46 @@
         "label": "YMO『ソリッド・ステイト・サヴァイヴァー』",
         "startYear": 1979,
         "genre": [
+          "WORK",
           "MUS"
         ],
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/ソリッド・ステイト・サヴァイヴァー",
-        "note": "テクノ歌謡の金字塔",
-        "label_en": "-2020 in Japanese music",
-        "note_en": "The year 2020 in Japanese music",
-        "url_en": "https://en.wikipedia.org/wiki/2020_in_Japanese_music"
+        "note": "テクノ歌謡の金字塔"
       },
       {
         "label": "サザン「いとしのエリー」",
         "startYear": 1979,
         "genre": [
+          "WORK",
           "MUS",
           "JAPAN"
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/いとしのエリー",
-        "note": "国民的バンドの名曲",
-        "label_en": "-sazan[itoshinoeri-] ",
-        "note_en": "Famous songs by a national"
+        "note": "国民的バンドの名曲"
       },
       {
         "label": "シンセポップ（ニュー・ウェイブ）",
         "startYear": 1979,
         "genre": [
+          "WORK",
           "MUS"
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/シンセポップ",
-        "note": "電子音とポップの融合",
-        "label_en": "-Talking Is Hard",
-        "note_en": "Talking Is Hard is the third",
-        "url_en": "https://en.wikipedia.org/wiki/Talking_Is_Hard"
+        "note": "電子音とポップの融合"
       },
       {
         "label": "フリース",
         "startYear": 1979,
         "genre": [
+          "WORK",
           "FAS"
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/フリース",
-        "note": "軽暖素材が大衆化",
-        "label_en": "-Freeze Me",
-        "note_en": "Freeze Me , or Freezer, is",
-        "url_en": "https://en.wikipedia.org/wiki/Freeze_Me"
+        "note": "軽暖素材が大衆化"
       },
       {
         "label": "VisiCalc",
@@ -4340,13 +4183,11 @@
         "startYear": 1980,
         "endYear": 1995,
         "genre": [
+          "WORK",
           "UNC"
         ],
         "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/Y%E4%B8%96%E4%BB%A3",
-        "label_en": "-Mayu Sagara",
-        "note_en": "Mayu Sagara is a Japanese voice",
-        "url_en": "https://en.wikipedia.org/wiki/Mayu_Sagara"
+        "url": "https://ja.wikipedia.org/wiki/Y%E4%B8%96%E4%BB%A3"
       },
       {
         "label": "Roland TR-808",
@@ -4469,27 +4310,24 @@
         "label": "パソコン通信",
         "startYear": 1980,
         "genre": [
+          "WORK",
           "NET",
           "JAPAN"
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/%E3%83%91%E3%82%BD%E3%82%B3%E3%83%B3%E9%80%9A%E4%BF%A1",
-        "note": "モデム接続の総称",
-        "label_en": "-Yaoi hole",
-        "note_en": "The yaoi hole is a concept",
-        "url_en": "https://en.wikipedia.org/wiki/Yaoi_hole"
+        "note": "モデム接続の総称"
       },
       {
         "label": "ネットニュース(Usenet)",
         "startYear": 1980,
         "genre": [
+          "WORK",
           "NET"
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/47NEWS",
-        "note": "分散型電子会議システム",
-        "label_en": "-2channel",
-        "note_en": "Decentralized electronic meeting"
+        "note": "分散型電子会議システム"
       },
       {
         "label": "ビデオテックス",
@@ -4533,15 +4371,13 @@
         "label": "チョロQ",
         "startYear": 1980,
         "genre": [
+          "WORK",
           "TOY",
           "JAPAN"
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/%E3%82%BF%E3%82%AB%E3%83%A9_%28%E7%8E%A9%E5%85%B7%E3%83%A1%E3%83%BC%E3%82%AB%E3%83%BC%29",
-        "note": "プルバック式ミニカー",
-        "label_en": "-Takara",
-        "note_en": "Takara Co., Ltd. was a Japanese",
-        "url_en": "https://en.wikipedia.org/wiki/Takara"
+        "note": "プルバック式ミニカー"
       },
       {
         "label": "パックマン",
@@ -4564,29 +4400,26 @@
         "startYear": 1981,
         "endYear": 2001,
         "genre": [
+          "WORK",
           "MAG",
           "JAPAN"
         ],
         "imp": 3,
         "url": "https://ja.wikipedia.org/wiki/FOCUS",
-        "note": "写真週刊誌ブームの火付け役",
-        "label_en": "-Ford Focus",
-        "note_en": "The Ford Focus is a compact",
-        "url_en": "https://en.wikipedia.org/wiki/Ford_Focus"
+        "note": "写真週刊誌ブームの火付け役"
       },
       {
         "label": "アダルトビデオ市場の勃興",
         "startYear": 1981,
         "endYear": "ongoing",
         "genre": [
+          "WORK",
           "PHE",
           "JAPAN"
         ],
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/アダルトビデオ",
-        "note": "家庭用AVの普及と産業化",
-        "label_en": "-adarutobideoShi Chang noBo Xing ",
-        "note_en": "Spread and industrialization"
+        "note": "家庭用AVの普及と産業化"
       },
       {
         "label": "Roland TB-303",
@@ -4678,30 +4511,26 @@
         "startYear": 1981,
         "endYear": 1989,
         "genre": [
+          "WORK",
           "TVP",
           "JAPAN"
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/オレたちひょうきん族",
-        "note": "80年代お笑い革新",
-        "label_en": "-Sanma Akashiya",
-        "note_en": "Sanma Akashiya is a Japanese",
-        "url_en": "https://en.wikipedia.org/wiki/Sanma_Akashiya"
+        "note": "80年代お笑い革新"
       },
       {
         "label": "北の国から",
         "startYear": 1981,
         "endYear": "ongoing",
         "genre": [
+          "WORK",
           "TVP",
           "JAPAN"
         ],
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/北の国から",
-        "note": "連ドラの名作群像劇",
-        "label_en": "-List of Japanese television dramas",
-        "note_en": "This is a list of Japanese",
-        "url_en": "https://en.wikipedia.org/wiki/List_of_Japanese_television_dramas"
+        "note": "連ドラの名作群像劇"
       },
       {
         "label": "キャプテン翼",
@@ -4723,39 +4552,38 @@
         "startYear": 1981,
         "endYear": 1988,
         "genre": [
+          "WORK",
           "MAG",
           "JAPAN"
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/%E5%86%99%E7%9C%9F%E6%99%82%E4%BB%A3",
-        "note": "80s写真とサブカル",
-        "label_en": "-Kowai Shashin",
-        "note_en": "80s photography and subculture"
+        "note": "80s写真とサブカル"
       },
       {
         "label": "Newton (雑誌)",
         "startYear": 1981,
         "endYear": "ongoing",
         "genre": [
+          "WORK",
           "MAG",
           "JAPAN"
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/%E3%83%8B%E3%83%A5%E3%83%BC%E3%83%88%E3%83%B3_%28%E9%9B%91%E8%AA%8C%29",
-        "note": "ビジュアル科学誌",
-        "label_en": "-Think different",
-        "note_en": "Visual Science Journal"
+        "note": "ビジュアル科学誌"
       },
       {
         "label": "クラフトワーク『コンピューター・ワールド』",
         "startYear": 1981,
         "genre": [
+          "WORK",
           "MUS"
         ],
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/コンピューター・ワールド",
-        "note": "電子音楽の金字塔",
-        "label_en": "-kurahutowa-ku{konpiyu-ta-*wa-rudo} ",
+        "note": "電子音楽の金字塔"
+      } ",
         "note_en": "Pinnacle of electronic music"
       },
       {
@@ -5026,14 +4854,13 @@
         "startYear": 1982,
         "endYear": 2003,
         "genre": [
+          "WORK",
           "MAG",
           "JAPAN"
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/Olive_%28%E9%9B%91%E8%AA%8C%29",
-        "note": "女子カルチャー誌",
-        "label_en": "-Manga Time Kirara",
-        "note_en": "Girls' culture magazine"
+        "note": "女子カルチャー誌"
       },
       {
         "label": "モーニング (雑誌)",
@@ -5067,14 +4894,12 @@
         "label": "ミニテル",
         "startYear": 1982,
         "genre": [
+          "WORK",
           "NET"
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/%E3%83%9F%E3%83%8B%E3%83%86%E3%83%AB",
-        "note": "仏の大規模ビデオテックス",
-        "label_en": "-Love, Chunibyo & Other Delusions season 1",
-        "note_en": "Love, Chunibyo & Other Delusions",
-        "url_en": "https://en.wikipedia.org/wiki/Love%2C_Chunibyo_%26_Other_Delusions_season_1"
+        "note": "仏の大規模ビデオテックス"
       },
       {
         "label": "マイケル・ジャクソン『スリラー』",
@@ -5227,15 +5052,13 @@
         "label": "X1",
         "startYear": 1982,
         "genre": [
+          "WORK",
           "HAR",
           "JAPAN"
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/X1_%28%E3%82%B3%E3%83%B3%E3%83%94%E3%83%A5%E3%83%BC%E3%82%BF%29",
-        "note": "高解像とTV機能で話題",
-        "label_en": "-ThinkPad X1 series",
-        "note_en": "The ThinkPad X1 series is a",
-        "url_en": "https://en.wikipedia.org/wiki/ThinkPad_X1_series"
+        "note": "高解像とTV機能で話題"
       },
       {
         "label": "FM-7",
@@ -5258,15 +5081,13 @@
         "startYear": 1983,
         "endYear": 1990,
         "genre": [
+          "WORK",
           "TVP",
           "JAPAN"
         ],
         "imp": 3,
         "url": "https://ja.wikipedia.org/wiki/オールナイトフジ",
-        "note": "深夜番組×女子大生ブーム",
-        "label_en": "-Fuji Television",
-        "note_en": "JOCX-DTV, branded as Fuji",
-        "url_en": "https://en.wikipedia.org/wiki/Fuji_Television"
+        "note": "深夜番組×女子大生ブーム"
       },
       {
         "label": "Yamaha DX7",
@@ -5300,15 +5121,13 @@
         "label": "Yamaha QX1",
         "startYear": 1983,
         "genre": [
+          "WORK",
           "HAR",
           "JAPAN"
         ],
         "imp": 2,
         "url": "https://ja.wikipedia.org/wiki/QX1",
-        "note": "初期ハードMIDIシーケンサーの象徴",
-        "label_en": "-List of Yamaha Corporation products",
-        "note_en": "This is a list of products",
-        "url_en": "https://en.wikipedia.org/wiki/List_of_Yamaha_Corporation_products"
+        "note": "初期ハードMIDIシーケンサーの象徴"
       },
       {
         "label": "Apple Lisa",
@@ -5465,15 +5284,13 @@
         "label": "山下達郎「クリスマス・イブ」",
         "startYear": 1983,
         "genre": [
+          "WORK",
           "MUS",
           "JAPAN"
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/クリスマス・イブ_(山下達郎の曲)",
-        "note": "日本の冬の定番曲",
-        "label_en": "-Tatsuro Yamashita",
-        "note_en": "Tatsurō Yamashita , occasionally",
-        "url_en": "https://en.wikipedia.org/wiki/Tatsuro_Yamashita"
+        "note": "日本の冬の定番曲"
       },
       {
         "label": "スウォッチ",
@@ -5543,27 +5360,23 @@
         "label": "想像の共同体",
         "startYear": 1983,
         "genre": [
+          "WORK",
           "BOO"
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/想像の共同体",
-        "note": "国民国家の起源論",
-        "label_en": "-Gundam",
-        "note_en": "Gundam is a Japanese military",
-        "url_en": "https://en.wikipedia.org/wiki/Gundam"
+        "note": "国民国家の起源論"
       },
       {
         "label": "マイリトルポニー",
         "startYear": 1983,
         "genre": [
+          "WORK",
           "TOY"
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/マイリトルポニー",
-        "note": "動物ドールの長寿ブランド",
-        "label_en": "-Suzuko Mimori",
-        "note_en": "Suzuko Mimori is a Japanese",
-        "url_en": "https://en.wikipedia.org/wiki/Suzuko_Mimori"
+        "note": "動物ドールの長寿ブランド"
       },
       {
         "label": "ゼビウス",
@@ -5614,15 +5427,13 @@
         "startYear": 1984,
         "endYear": 1988,
         "genre": [
+          "WORK",
           "TVP",
           "JAPAN"
         ],
         "imp": 3,
         "url": "https://ja.wikipedia.org/wiki/毎度おさわがせします",
-        "note": "性をめぐる青春群像で話題",
-        "label_en": "-List of Listen to Me, Girls. I Am Your Father! episodes",
-        "note_en": "The anime series, Listen to",
-        "url_en": "https://en.wikipedia.org/wiki/List_of_Listen_to_Me%2C_Girls._I_Am_Your_Father%21_episodes"
+        "note": "性をめぐる青春群像で話題"
       },
       {
         "label": "くりぃむレモン",
@@ -5687,29 +5498,26 @@
         "label": "ファミコン光線銃",
         "startYear": 1984,
         "genre": [
+          "WORK",
           "HAR",
           "JAPAN"
         ],
         "imp": 3,
         "url": "https://ja.wikipedia.org/wiki/任天堂光線銃シリーズ",
-        "note": "家庭用ガンシューティングの嚆矢",
-        "label_en": "-huamikonGuang Xian Chong ",
-        "note_en": "Pioneer of home gun shooting"
+        "note": "家庭用ガンシューティングの嚆矢"
       },
       {
         "label": "ワンダーフェスティバル",
         "startYear": 1984,
         "endYear": "ongoing",
         "genre": [
+          "WORK",
           "EVT",
           "JAPAN"
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/%E3%83%AF%E3%83%B3%E3%83%80%E3%83%BC%E3%83%95%E3%82%A7%E3%82%B9%E3%83%86%E3%82%A3%E3%83%90%E3%83%AB",
-        "note": "ガレージキットの祭典。",
-        "label_en": "-VTuber",
-        "note_en": "A VTuber or virtual YouTuber",
-        "url_en": "https://en.wikipedia.org/wiki/VTuber"
+        "note": "ガレージキットの祭典。"
       },
       {
         "label": "風の谷のナウシカ",
@@ -5745,41 +5553,35 @@
         "label": "トークンリング",
         "startYear": 1984,
         "genre": [
+          "WORK",
           "NET"
         ],
         "imp": 3,
         "url": "https://ja.wikipedia.org/wiki/%E3%83%88%E3%83%BC%E3%82%AF%E3%83%B3%E3%83%AA%E3%83%B3%E3%82%B0",
-        "note": "IBMのリング型LAN",
-        "label_en": "-Kamen Rider (1971 TV series)",
-        "note_en": "Kamen Rider is a Japanese",
-        "url_en": "https://en.wikipedia.org/wiki/Kamen_Rider_%281971_TV_series%29"
+        "note": "IBMのリング型LAN"
       },
       {
         "label": "NFS",
         "startYear": 1984,
         "genre": [
+          "WORK",
           "NET"
         ],
         "imp": 3,
         "url": "https://ja.wikipedia.org/wiki/Network_File_System",
-        "note": "UNIXの分散ファイル",
-        "label_en": "-Need for Speed",
-        "note_en": "Need for Speed (NFS) is a racing",
-        "url_en": "https://en.wikipedia.org/wiki/Need_for_Speed"
+        "note": "UNIXの分散ファイル"
       },
       {
         "label": "JUNET",
         "startYear": 1984,
         "genre": [
+          "WORK",
           "NET",
           "JAPAN"
         ],
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/JUNET",
-        "note": "日本初の実質的起源網",
-        "label_en": "-Junet Mohamed",
-        "note_en": "Junet Muhamed is a Kenyan",
-        "url_en": "https://en.wikipedia.org/wiki/Junet_Mohamed"
+        "note": "日本初の実質的起源網"
       },
       {
         "label": "FidoNet",
@@ -5798,26 +5600,25 @@
         "label": "キャプテンシステム",
         "startYear": 1984,
         "genre": [
+          "WORK",
           "NET",
           "JAPAN"
         ],
         "imp": 3,
         "url": "https://ja.wikipedia.org/wiki/%E3%82%AD%E3%83%A3%E3%83%97%E3%83%86%E3%83%B3%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0",
-        "note": "日本のビデオテックス網",
-        "label_en": "-Captain Silver",
-        "note_en": "Captain Silver is a side-s",
-        "url_en": "https://en.wikipedia.org/wiki/Captain_Silver"
+        "note": "日本のビデオテックス網"
       },
       {
         "label": "プリンス『パープル・レイン』",
         "startYear": 1984,
         "genre": [
+          "WORK",
           "MUS"
         ],
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/パープル・レイン_(アルバム)",
-        "note": "黒人ポップの革新",
-        "label_en": "-purinsu{pa-puru*rein} ",
+        "note": "黒人ポップの革新"
+      } ",
         "note_en": "Innovation in Black pop music"
       },
       {
@@ -5837,14 +5638,12 @@
         "label": "バーキン",
         "startYear": 1984,
         "genre": [
+          "WORK",
           "FAS"
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/エルメス",
-        "note": "ジェーン由来の名作鞄",
-        "label_en": "-Deaths in 2025",
-        "note_en": "The following notable deaths",
-        "url_en": "https://en.wikipedia.org/wiki/Deaths_in_2025"
+        "note": "ジェーン由来の名作鞄"
       },
       {
         "label": "ユニクロ",
@@ -6046,44 +5845,38 @@
         "startYear": 1985,
         "endYear": "ongoing",
         "genre": [
+          "WORK",
           "TVP",
           "JAPAN"
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/ニュースステーション",
-        "note": "民放夜の報道革新",
-        "label_en": "-Shadai Stallion Station",
-        "note_en": "Shadai Stallion Station is",
-        "url_en": "https://en.wikipedia.org/wiki/Shadai_Stallion_Station"
+        "note": "民放夜の報道革新"
       },
       {
         "label": "金曜ロードショー",
         "startYear": 1985,
         "endYear": "ongoing",
         "genre": [
+          "WORK",
           "TVP",
           "JAPAN"
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/金曜ロードショー",
-        "note": "映画枠の国民的ブランド",
-        "label_en": "-Suzume",
-        "note_en": "Suzume is a 2022 Japanese",
-        "url_en": "https://en.wikipedia.org/wiki/Suzume"
+        "note": "映画枠の国民的ブランド"
       },
       {
         "label": "ラリー・キング・ライブ",
         "startYear": 1985,
         "endYear": 2010,
         "genre": [
+          "WORK",
           "TVP"
         ],
         "imp": 3,
         "url": "https://ja.wikipedia.org/wiki/ラリー・キング・ライブ",
-        "note": "長寿対談番組の古典",
-        "label_en": "-Nyanko Star",
-        "note_en": "Nyanko Star is a Japanese comedy",
-        "url_en": "https://en.wikipedia.org/wiki/Nyanko_Star"
+        "note": "長寿対談番組の古典"
       },
       {
         "label": "シティーハンター",
@@ -6157,14 +5950,12 @@
         "label": "エア・ジョーダン",
         "startYear": 1985,
         "genre": [
+          "WORK",
           "FAS"
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/エア・ジョーダン",
-        "note": "NBA発の人気スニーカー",
-        "label_en": "-Suzu Hirose",
-        "note_en": "Suzu Hirose is a Japanese actress",
-        "url_en": "https://en.wikipedia.org/wiki/Suzu_Hirose"
+        "note": "NBA発の人気スニーカー"
       },
       {
         "label": "Microsoft Windows",
@@ -6235,13 +6026,12 @@
         "label": "計算機プログラムの構造と解釈",
         "startYear": 1985,
         "genre": [
+          "WORK",
           "BOO"
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/計算機プログラムの構造と解釈",
-        "note": "計算とは何かを示す名著",
-        "label_en": "-Ji Suan Ji puroguramunoGou Zao toJie Shi ",
-        "note_en": "A classic work illustrating"
+        "note": "計算とは何かを示す名著"
       },
       {
         "label": "シルバニアファミリー",
@@ -6344,15 +6134,13 @@
         "startYear": 1986,
         "endYear": "ongoing",
         "genre": [
+          "WORK",
           "TVP",
           "JAPAN"
         ],
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/ミュージックステーション",
-        "note": "生放送音楽番組の代表格",
-        "label_en": "-List of best-selling music artists in Japan",
-        "note_en": "The top music artists in Japan",
-        "url_en": "https://en.wikipedia.org/wiki/List_of_best-selling_music_artists_in_Japan"
+        "note": "生放送音楽番組の代表格"
       },
       {
         "label": "YAWARA!",
@@ -6374,15 +6162,13 @@
         "startYear": 1986,
         "endYear": 1994,
         "genre": [
+          "WORK",
           "MAN",
           "JAPAN"
         ],
         "imp": 3,
         "url": "https://ja.wikipedia.org/wiki/おぼっちゃまくん",
-        "note": "社会現象級ギャグ",
-        "label_en": "-Yoshinori Kobayashi",
-        "note_en": "Yoshinori Kobayashi is a Japanese",
-        "url_en": "https://en.wikipedia.org/wiki/Yoshinori_Kobayashi"
+        "note": "社会現象級ギャグ"
       },
       {
         "label": "天空の城ラピュタ",
@@ -6419,15 +6205,13 @@
         "startYear": 1986,
         "endYear": 2024,
         "genre": [
+          "WORK",
           "TVP",
           "JAPAN"
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/世界ふしぎ発見!",
-        "note": "教養×クイズの定番",
-        "label_en": "-Kairi Sane",
-        "note_en": "Kaori Housako is a Japanese",
-        "url_en": "https://en.wikipedia.org/wiki/Kairi_Sane"
+        "note": "教養×クイズの定番"
       },
       {
         "label": "オプラ・ウィンフリー・ショー",
@@ -6488,14 +6272,12 @@
         "label": "メタル文化（メタリカ等）",
         "startYear": 1986,
         "genre": [
+          "WORK",
           "MUS"
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/メタル",
-        "note": "過激表現の大衆化",
-        "label_en": "-List of Ironman Heavymetalweight Champions",
-        "note_en": "The Ironman Heavymetalweight",
-        "url_en": "https://en.wikipedia.org/wiki/List_of_Ironman_Heavymetalweight_Champions"
+        "note": "過激表現の大衆化"
       },
       {
         "label": "プラトーン",
@@ -6573,14 +6355,12 @@
         "startYear": 1987,
         "endYear": 2004,
         "genre": [
+          "WORK",
           "UNC",
           "JAPAN"
         ],
         "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/%E3%82%86%E3%81%A8%E3%82%8A%E4%B8%96%E4%BB%A3",
-        "label_en": "-Mafia Kajita",
-        "note_en": "Ryūki Kajita , known profe",
-        "url_en": "https://en.wikipedia.org/wiki/Mafia_Kajita"
+        "url": "https://ja.wikipedia.org/wiki/%E3%82%86%E3%81%A8%E3%82%8A%E4%B8%96%E4%BB%A3"
       },
       {
         "label": "超神伝説うろつき童子",
@@ -6640,15 +6420,13 @@
         "label": "Roland DA-50",
         "startYear": 1987,
         "genre": [
+          "WORK",
           "HAR",
           "JAPAN"
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/LA%E9%9F%B3%E6%BA%90",
-        "note": "LA音源でデジタル時代を象徴",
-        "label_en": "-Roland T",
-        "note_en": "The Roland TB-303 Bass Line",
-        "url_en": "https://en.wikipedia.org/wiki/Roland_TB-303"
+        "note": "LA音源でデジタル時代を象徴"
       },
       {
         "label": "E-mu SP-1200",
@@ -6683,15 +6461,13 @@
         "startYear": 1987,
         "endYear": "ongoing",
         "genre": [
+          "WORK",
           "TVP",
           "JAPAN"
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/サンデーモーニング",
-        "note": "日曜朝の時事討論",
-        "label_en": "-List of Japanese manga magazines by circulation",
-        "note_en": "The following is a list of",
-        "url_en": "https://en.wikipedia.org/wiki/List_of_Japanese_manga_magazines_by_circulation"
+        "note": "日曜朝の時事討論"
       },
       {
         "label": "ジョジョの奇妙な冒険",
@@ -6768,26 +6544,25 @@
         "label": "草の根BBS",
         "startYear": 1987,
         "genre": [
+          "WORK",
           "NET",
           "JAPAN"
         ],
         "imp": 3,
         "url": "https://ja.wikipedia.org/wiki/%E8%8D%89%E3%81%AE%E6%A0%B9BBS",
-        "note": "個人運営の小規模BBS群",
-        "label_en": "-2channel",
-        "note_en": "2channel , also known as 2ch",
-        "url_en": "https://en.wikipedia.org/wiki/2channel"
+        "note": "個人運営の小規模BBS群"
       },
       {
         "label": "U2『ヨシュア・トゥリー』",
         "startYear": 1987,
         "genre": [
+          "WORK",
           "MUS"
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/ヨシュア・トゥリー",
-        "note": "アリーナロック名盤",
-        "label_en": "-U2{yoshiyua*touri-} ",
+        "note": "アリーナロック名盤"
+      } ",
         "note_en": "Arena rock classic albums"
       },
       {
@@ -6902,14 +6677,12 @@
         "label": "Finale",
         "startYear": 1988,
         "genre": [
+          "WORK",
           "SOF"
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/Finale",
-        "note": "デジタル譜面制作の標準",
-        "label_en": "-Downton Abbey: The Grand Finale",
-        "note_en": "Downton Abbey: The Grand Finale",
-        "url_en": "https://en.wikipedia.org/wiki/Downton_Abbey%3A_The_Grand_Finale"
+        "note": "デジタル譜面制作の標準"
       },
       {
         "label": "Korg M1",
@@ -6959,15 +6732,13 @@
         "startYear": 1988,
         "endYear": 1996,
         "genre": [
+          "WORK",
           "TVP",
           "JAPAN"
         ],
         "imp": 3,
         "url": "https://ja.wikipedia.org/wiki/クイズ世界はSHOW_by_ショーバイ!!",
-        "note": "商売ネタの人気クイズ",
-        "label_en": "-Yoshimasa Hosoya",
-        "note_en": "Yoshimasa Hosoya is a Japanese",
-        "url_en": "https://en.wikipedia.org/wiki/Yoshimasa_Hosoya"
+        "note": "商売ネタの人気クイズ"
       },
       {
         "label": "MASTERキートン",
@@ -7034,29 +6805,26 @@
         "startYear": 1988,
         "endYear": "ongoing",
         "genre": [
+          "WORK",
           "ANI",
           "JAPAN"
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/%E9%8A%80%E6%B2%B3%E8%8B%B1%E9%9B%84%E4%BC%9D%E8%AA%AC_%28%E3%82%A2%E3%83%8B%E3%83%A1%29",
-        "note": "長大OVAの金字塔",
-        "label_en": "-Legend of the Galactic Heroes",
-        "note_en": "A landmark in long OVA history"
+        "note": "長大OVAの金字塔"
       },
       {
         "label": "とんねるずのみなさんのおかげです",
         "startYear": 1988,
         "endYear": "ongoing",
         "genre": [
+          "WORK",
           "TVP",
           "JAPAN"
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/とんねるずのみなさんのおかげです",
-        "note": "90年代バラエティ旗艦",
-        "label_en": "-Kazunari Ninomiya",
-        "note_en": "Kazunari Ninomiya , often called",
-        "url_en": "https://en.wikipedia.org/wiki/Kazunari_Ninomiya"
+        "note": "90年代バラエティ旗艦"
       },
       {
         "label": "寄生獣",
@@ -7135,52 +6903,50 @@
         "label": "WIDEプロジェクト",
         "startYear": 1988,
         "genre": [
+          "WORK",
           "NET",
           "JAPAN"
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/%E3%82%A6%E3%82%A7%E3%83%96%E3%83%96%E3%83%A9%E3%82%A6%E3%82%B6",
-        "note": "技術標準と研究の拠点",
-        "label_en": "-Web browser",
-        "note_en": "A web browser, often shortened",
-        "url_en": "https://en.wikipedia.org/wiki/Web_browser"
+        "note": "技術標準と研究の拠点"
       },
       {
         "label": "PC-VAN",
         "startYear": 1988,
         "genre": [
+          "WORK",
           "NET",
           "JAPAN"
         ],
         "imp": 3,
         "url": "https://ja.wikipedia.org/wiki/PC-VAN",
-        "note": "NEC系商用パソ通サービス",
-        "label_en": "-Bedford HC",
-        "note_en": "The Bedford HC is a small",
-        "url_en": "https://en.wikipedia.org/wiki/Bedford_HC"
+        "note": "NEC系商用パソ通サービス"
       },
       {
         "label": "パブリック・エナミー『…ミリオンズ』",
         "startYear": 1988,
         "genre": [
+          "WORK",
           "MUS"
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/イット・テイクス・ア・ネイション・オブ・ミリオンズ・トゥ・ホールド・アス・バック",
-        "note": "政治性と音響革新",
-        "label_en": "-paburitsuku*enami-{...mirionzu} ",
+        "note": "政治性と音響革新"
+      } ",
         "note_en": "Political aspects and acoustic"
       },
       {
         "label": "N.W.A『ストレイト・アウタ…』",
         "startYear": 1988,
         "genre": [
+          "WORK",
           "MUS"
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/ストレイト・アウタ・コンプトン",
-        "note": "ウェッサイの衝撃",
-        "label_en": "-N.W.A{sutoreito*auta...} ",
+        "note": "ウェッサイの衝撃"
+      } ",
         "note_en": "Impact of Wessai"
       },
       {
@@ -7336,30 +7102,26 @@
         "label": "WACOM タブレット（Intuos系の源流）",
         "startYear": 1989,
         "genre": [
+          "WORK",
           "HAR",
           "JAPAN"
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/ワコム",
-        "note": "デジタル作画環境を変革",
-        "label_en": "-Shingo Adachi",
-        "note_en": "Shingo Adachi is a Japanese",
-        "url_en": "https://en.wikipedia.org/wiki/Shingo_Adachi"
+        "note": "デジタル作画環境を変革"
       },
       {
         "label": "所さんの目がテン!",
         "startYear": 1989,
         "endYear": "ongoing",
         "genre": [
+          "WORK",
           "TVP",
           "JAPAN"
         ],
         "imp": 3,
         "url": "https://ja.wikipedia.org/wiki/所さんの目がテン!",
-        "note": "科学実験バラエティ",
-        "label_en": "-Ittan-momen",
-        "note_en": "Ittan-momen are yōkai in the",
-        "url_en": "https://en.wikipedia.org/wiki/Ittan-momen"
+        "note": "科学実験バラエティ"
       },
       {
         "label": "ダウンタウンのガキの使いやあらへんで!",
@@ -7439,43 +7201,39 @@
         "startYear": 1989,
         "endYear": 1990,
         "genre": [
+          "WORK",
           "TVP",
           "JAPAN"
         ],
         "imp": 3,
         "url": "https://ja.wikipedia.org/wiki/カノッサの屈辱",
-        "note": "知的パロディ紀行",
-        "label_en": "-kanotsusanoQu Ru ",
-        "note_en": "Intellectual parody journey"
+        "note": "知的パロディ紀行"
       },
       {
         "label": "NHKスペシャル",
         "startYear": 1989,
         "endYear": "ongoing",
         "genre": [
+          "WORK",
           "TVP",
           "JAPAN"
         ],
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/NHKスペシャル",
-        "note": "NHK大型ドキュメンタリー",
-        "label_en": "-Oda Nobunaga",
-        "note_en": "Oda Nobunaga was a Japanese",
-        "url_en": "https://en.wikipedia.org/wiki/Oda_Nobunaga"
+        "note": "NHK大型ドキュメンタリー"
       },
       {
         "label": "筑紫哲也NEWS23",
         "startYear": 1989,
         "endYear": "ongoing",
         "genre": [
+          "WORK",
           "TVP",
           "JAPAN"
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/筑紫哲也NEWS23",
-        "note": "硬派夜ニュースの象徴",
-        "label_en": "-Zhu Zi Zhe Ye NEWS23",
-        "note_en": "Symbol of serious night news"
+        "note": "硬派夜ニュースの象徴"
       },
       {
         "label": "ベルセルク",
@@ -7576,15 +7334,13 @@
         "label": "美空ひばり「川の流れのように」",
         "startYear": 1989,
         "genre": [
+          "WORK",
           "MUS",
           "JAPAN"
         ],
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/川の流れのように",
-        "note": "国民的歌手の代表曲",
-        "label_en": "-Hibari Misora",
-        "note_en": "Hibari Misora was a Japanese",
-        "url_en": "https://en.wikipedia.org/wiki/Hibari_Misora"
+        "note": "国民的歌手の代表曲"
       },
       {
         "label": "NeXTSTEP",
@@ -7603,15 +7359,13 @@
         "label": "プリンス・オブ・ペルシャ",
         "startYear": 1989,
         "genre": [
+          "WORK",
           "GAM",
           "JAPAN"
         ],
         "imp": 3,
         "url": "https://ja.wikipedia.org/wiki/%E3%83%A6%E3%83%BC%E3%83%93%E3%83%BC%E3%82%A2%E3%82%A4%E3%82%BD%E3%83%95%E3%83%88",
-        "note": "滑らかアニメ表現革新",
-        "label_en": "-Ubisoft",
-        "note_en": "Ubisoft Entertainment SA is",
-        "url_en": "https://en.wikipedia.org/wiki/Ubisoft"
+        "note": "滑らかアニメ表現革新"
       },
       {
         "label": "シムシティ",
@@ -7702,30 +7456,26 @@
         "startYear": 1990,
         "endYear": "ongoing",
         "genre": [
+          "WORK",
           "TVP",
           "JAPAN"
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/世界まる見え!テレビ特捜部",
-        "note": "海外映像バラエティ",
-        "label_en": "-Nippon Television",
-        "note_en": "JOAX-DTV, branded as Nippon",
-        "url_en": "https://en.wikipedia.org/wiki/Nippon_Television"
+        "note": "海外映像バラエティ"
       },
       {
         "label": "マジカル頭脳パワー!!",
         "startYear": 1990,
         "endYear": 1999,
         "genre": [
+          "WORK",
           "TVP",
           "JAPAN"
         ],
         "imp": 3,
         "url": "https://ja.wikipedia.org/wiki/マジカル頭脳パワー!!",
-        "note": "知的ゲーム系クイズ",
-        "label_en": "-Nippon Television",
-        "note_en": "JOAX-DTV, branded as Nippon",
-        "url_en": "https://en.wikipedia.org/wiki/Nippon_Television"
+        "note": "知的ゲーム系クイズ"
       },
       {
         "label": "ちびまる子ちゃん (1990年版)",
@@ -7762,15 +7512,13 @@
         "startYear": 1990,
         "endYear": 1995,
         "genre": [
+          "WORK",
           "MAN",
           "JAPAN"
         ],
         "imp": 3,
         "url": "https://ja.wikipedia.org/wiki/帯をギュッとね!",
-        "note": "高校柔道青春もの",
-        "label_en": "-List of series run in Weekly Shōnen Sunday",
-        "note_en": "Weekly Shōnen Sunday, a shōnen",
-        "url_en": "https://en.wikipedia.org/wiki/List_of_series_run_in_Weekly_Sh%C5%8Dnen_Sunday"
+        "note": "高校柔道青春もの"
       },
       {
         "label": "クレヨンしんちゃん",
@@ -7822,29 +7570,25 @@
         "startYear": 1990,
         "endYear": "ongoing",
         "genre": [
+          "WORK",
           "TVP",
           "JAPAN"
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/渡る世間は鬼ばかり",
-        "note": "家族群像の長寿劇",
-        "label_en": "-Momoko Kōchi",
-        "note_en": "Momoko Kōchi , born Momoko",
-        "url_en": "https://en.wikipedia.org/wiki/Momoko_K%C5%8Dchi"
+        "note": "家族群像の長寿劇"
       },
       {
         "label": "ツイン・ピークス",
         "startYear": 1990,
         "endYear": 1991,
         "genre": [
+          "WORK",
           "TVP"
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/ツイン・ピークス",
-        "note": "ミステリ群像の金字塔",
-        "label_en": "-Rising Impact",
-        "note_en": "Rising Impact is a Japanese",
-        "url_en": "https://en.wikipedia.org/wiki/Rising_Impact"
+        "note": "ミステリ群像の金字塔"
       },
       {
         "label": "幽☆遊☆白書",
@@ -7880,15 +7624,13 @@
         "label": "国際花と緑の博覧会（大阪）",
         "startYear": 1990,
         "genre": [
+          "WORK",
           "PHE",
           "JAPAN"
         ],
         "imp": 3,
         "url": "https://ja.wikipedia.org/wiki/国際花と緑の博覧会",
-        "note": "花と緑の国際博",
-        "label_en": "-Osaka Prefecture",
-        "note_en": "Osaka Prefecture is a prefecture",
-        "url_en": "https://en.wikipedia.org/wiki/Osaka_Prefecture"
+        "note": "花と緑の国際博"
       },
       {
         "label": "コギャル",
@@ -7908,42 +7650,37 @@
         "label": "日本の少子化",
         "startYear": 1990,
         "genre": [
+          "WORK",
           "PHE",
           "JAPAN"
         ],
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/日本の少子化",
-        "note": "人口動態の最重要課題",
-        "label_en": "-Conservative Party of Japan",
-        "note_en": "The Conservative Party of Japan",
-        "url_en": "https://en.wikipedia.org/wiki/Conservative_Party_of_Japan"
+        "note": "人口動態の最重要課題"
       },
       {
         "label": "原宿ファッション",
         "startYear": 1990,
         "genre": [
+          "WORK",
           "FAS",
           "JAPAN"
         ],
         "imp": 3,
         "url": "https://ja.wikipedia.org/wiki/%E3%83%A9%E3%83%95%E3%82%A9%E3%83%BC%E3%83%AC%E5%8E%9F%E5%AE%BF",
-        "note": "個性派スタイルの発信地",
-        "label_en": "-Laforet",
-        "note_en": "Laforet Harajuku is a department",
-        "url_en": "https://en.wikipedia.org/wiki/Laforet"
+        "note": "個性派スタイルの発信地"
       },
       {
         "label": "日本のストリートファッション",
         "startYear": 1990,
         "genre": [
+          "WORK",
           "FAS",
           "JAPAN"
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/%E3%83%95%E3%82%A1%E3%83%83%E3%82%B7%E3%83%A7%E3%83%B3%E3%83%A2%E3%83%87%E3%83%AB",
-        "note": "90年代世界的注目",
-        "label_en": "-Model (person)",
-        "note_en": "Global attention in the 1990s"
+        "note": "90年代世界的注目"
       },
       {
         "label": "Adobe Photoshop",
@@ -7976,15 +7713,13 @@
         "label": "ネオジオ (ゲーム機)",
         "startYear": 1990,
         "genre": [
+          "WORK",
           "HAR",
           "JAPAN"
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/%E3%83%8D%E3%82%AA%E3%82%B8%E3%82%AA_%28%E3%82%B2%E3%83%BC%E3%83%A0%E6%A9%9F%29",
-        "note": "業務用同等を家庭で",
-        "label_en": "-Karnov's Revenge",
-        "note_en": "Karnov's Revenge is a 1994",
-        "url_en": "https://en.wikipedia.org/wiki/Karnov%27s_Revenge"
+        "note": "業務用同等を家庭で"
       }
     ],
     "1991": [
@@ -8086,30 +7821,26 @@
         "startYear": 1991,
         "endYear": 1997,
         "genre": [
+          "WORK",
           "TVP",
           "JAPAN"
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/ダウンタウンのごっつええ感じ",
-        "note": "90年代コントの象徴",
-        "label_en": "-Downtown (owarai)",
-        "note_en": "Downtown is a Japanese comedy",
-        "url_en": "https://en.wikipedia.org/wiki/Downtown_%28owarai%29"
+        "note": "90年代コントの象徴"
       },
       {
         "label": "東京ラブストーリー (1991年のテレビドラマ)",
         "startYear": 1991,
         "endYear": 1991,
         "genre": [
+          "WORK",
           "TVP",
           "JAPAN"
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/東京ラブストーリー_(1991年のテレビドラマ)",
-        "note": "トレンディドラマの代表",
-        "label_en": "-Takeru Satoh",
-        "note_en": "Takeru Satoh is a Japanese",
-        "url_en": "https://en.wikipedia.org/wiki/Takeru_Satoh"
+        "note": "トレンディドラマの代表"
       },
       {
         "label": "グラップラー刃牙",
@@ -8159,15 +7890,13 @@
         "label": "バブル崩壊",
         "startYear": 1991,
         "genre": [
+          "WORK",
           "PHE",
           "JAPAN"
         ],
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/バブル崩壊",
-        "note": "長期不況の起点",
-        "label_en": "-Golden age (metaphor)",
-        "note_en": "A golden age is a period c",
-        "url_en": "https://en.wikipedia.org/wiki/Golden_age_%28metaphor%29"
+        "note": "長期不況の起点"
       },
       {
         "label": "失われた30年",
@@ -8200,14 +7929,12 @@
         "label": "Gopher",
         "startYear": 1991,
         "genre": [
+          "WORK",
           "NET"
         ],
         "imp": 3,
         "url": "https://ja.wikipedia.org/wiki/%E3%82%AA%E3%83%BC%E3%83%AB%E3%83%9F%E3%83%A5%E3%83%BC%E3%82%B8%E3%83%83%E3%82%AF",
-        "note": "前Web時代の情報公開",
-        "label_en": "-AllMusic",
-        "note_en": "AllMusic is an American online",
-        "url_en": "https://en.wikipedia.org/wiki/AllMusic"
+        "note": "前Web時代の情報公開"
       },
       {
         "label": "WAIS",
@@ -8239,14 +7966,12 @@
         "label": "グランジ",
         "startYear": 1991,
         "genre": [
+          "WORK",
           "MUS"
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/グランジ",
-        "note": "オルタナ主流化の象徴",
-        "label_en": "-Ballet and fashion",
-        "note_en": "Throughout its history, the",
-        "url_en": "https://en.wikipedia.org/wiki/Ballet_and_fashion"
+        "note": "オルタナ主流化の象徴"
       },
       {
         "label": "Linux",
@@ -8363,15 +8088,13 @@
         "label": "MDウォークマン",
         "startYear": 1992,
         "genre": [
+          "WORK",
           "HAR",
           "JAPAN"
         ],
         "imp": 3,
         "url": "https://ja.wikipedia.org/wiki/ミニディスク",
-        "note": "録再/編集で学生文化に浸透",
-        "label_en": "-List of Sony Walkman products",
-        "note_en": "The following is a partial",
-        "url_en": "https://en.wikipedia.org/wiki/List_of_Sony_Walkman_products"
+        "note": "録再/編集で学生文化に浸透"
       },
       {
         "label": "Amiga 4000",
@@ -8435,15 +8158,13 @@
         "startYear": 1992,
         "endYear": 1999,
         "genre": [
+          "WORK",
           "MAN",
           "JAPAN"
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/H2",
-        "note": "高校野球と恋愛の二重奏",
-        "label_en": "-Hollywood Squares",
-        "note_en": "Hollywood Squares (originally",
-        "url_en": "https://en.wikipedia.org/wiki/Hollywood_Squares"
+        "note": "高校野球と恋愛の二重奏"
       },
       {
         "label": "花より男子",
@@ -8465,15 +8186,13 @@
         "startYear": 1992,
         "endYear": "ongoing",
         "genre": [
+          "WORK",
           "RDO",
           "JAPAN"
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/%E5%B1%B1%E4%B8%8B%E9%81%94%E9%83%8E%E3%81%AE%E3%82%B5%E3%83%B3%E3%83%87%E3%83%BC%E3%83%BB%E3%82%BD%E3%83%B3%E3%82%B0%E3%83%96%E3%83%83%E3%82%AF",
-        "note": "音楽ファン定番の長寿番組。",
-        "label_en": "-2020 in Japanese music",
-        "note_en": "The year 2020 in Japanese music",
-        "url_en": "https://en.wikipedia.org/wiki/2020_in_Japanese_music"
+        "note": "音楽ファン定番の長寿番組。"
       },
       {
         "label": "MiniDisc",
@@ -8494,15 +8213,13 @@
         "startYear": 1992,
         "endYear": 2000,
         "genre": [
+          "WORK",
           "RDE",
           "JAPAN"
         ],
         "imp": 2,
         "url": "https://ja.wikipedia.org/wiki/%E3%83%8A%E3%83%A0%E3%82%B3%E3%83%BB%E3%83%AF%E3%83%B3%E3%83%80%E3%83%BC%E3%82%A8%E3%83%83%E3%82%B0",
-        "note": "株式会社ナムコが運営していたテーマパーク。",
-        "label_en": "-Namco",
-        "note_en": "Namco Limited was a Japanese",
-        "url_en": "https://en.wikipedia.org/wiki/Namco"
+        "note": "株式会社ナムコが運営していたテーマパーク。"
       },
       {
         "label": "美少女戦士セーラームーン",
@@ -8539,40 +8256,37 @@
         "startYear": 1992,
         "endYear": "ongoing",
         "genre": [
+          "WORK",
           "MAG",
           "JAPAN"
         ],
         "imp": 3,
         "url": "https://ja.wikipedia.org/wiki/BARFOUT%21",
-        "note": "ブラウンズブックスが発行する月刊のエンターテインメント情報誌",
-        "label_en": "-Mina Fujii",
-        "note_en": "Mina Fujii is a Japanese actress",
-        "url_en": "https://en.wikipedia.org/wiki/Mina_Fujii"
+        "note": "ブラウンズブックスが発行する月刊のエンターテインメント情報誌"
       },
       {
         "label": "ドクター・ドレー『The Chronic』",
         "startYear": 1992,
         "genre": [
+          "WORK",
           "MUS"
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/The_Chronic",
-        "note": "Gファンク定義作",
-        "label_en": "-dokuta-*dore-{The Chronic} ",
+        "note": "Gファンク定義作"
+      } ",
         "note_en": "Define G-funk"
       },
       {
         "label": "エレクトロニカ/IDM",
         "startYear": 1992,
         "genre": [
+          "WORK",
           "MUS"
         ],
         "imp": 3,
         "url": "https://ja.wikipedia.org/wiki/エレクトロニカ",
-        "note": "実験電子音楽の潮流",
-        "label_en": "-Mitsuto Suzuki",
-        "note_en": "Mitsuto Suzuki is a Japanese",
-        "url_en": "https://en.wikipedia.org/wiki/Mitsuto_Suzuki"
+        "note": "実験電子音楽の潮流"
       },
       {
         "label": "Solaris",
@@ -8632,40 +8346,34 @@
         "label": "id Tech 1 (DOOMエンジン)",
         "startYear": 1993,
         "genre": [
+          "WORK",
           "SOF"
         ],
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/Id_Tech_1",
-        "note": "FPS文化/Mod文化の震源",
-        "label_en": "-Defold",
-        "note_en": "Defold is a cross-platform",
-        "url_en": "https://en.wikipedia.org/wiki/Defold"
+        "note": "FPS文化/Mod文化の震源"
       },
       {
         "label": "Wine",
         "startYear": 1993,
         "genre": [
+          "WORK",
           "SOF"
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/Wine",
-        "note": "OS越境の実行環境",
-        "label_en": "-Wine",
-        "note_en": "Wine is an alcoholic drink",
-        "url_en": "https://en.wikipedia.org/wiki/Wine"
+        "note": "OS越境の実行環境"
       },
       {
         "label": "Sibelius",
         "startYear": 1993,
         "genre": [
+          "WORK",
           "SOF"
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/Sibelius",
-        "note": "作編曲ツールの定番",
-        "label_en": "-Jean Sibelius",
-        "note_en": "Jean Sibelius was a Finnish",
-        "url_en": "https://en.wikipedia.org/wiki/Jean_Sibelius"
+        "note": "作編曲ツールの定番"
       },
       {
         "label": "Sharp Zaurus（MIシリーズ）",
@@ -8845,15 +8553,13 @@
         "startYear": 1993,
         "endYear": "ongoing",
         "genre": [
+          "WORK",
           "TVP",
           "JAPAN"
         ],
         "imp": 3,
         "url": "https://ja.wikipedia.org/wiki/天才てれびくん",
-        "note": "児童向けバラエティ枠",
-        "label_en": "-Riho Iida",
-        "note_en": "Riho Iida is a Japanese ex-child",
-        "url_en": "https://en.wikipedia.org/wiki/Riho_Iida"
+        "note": "児童向けバラエティ枠"
       },
       {
         "label": "Zipper",
@@ -8887,40 +8593,35 @@
         "label": "就職氷河期",
         "startYear": 1993,
         "genre": [
+          "WORK",
           "PHE",
           "JAPAN"
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/就職氷河期",
-        "note": "若年雇用の厳冬期",
-        "label_en": "-Employment Ice Age",
-        "note_en": "The Employment Ice Age is a",
-        "url_en": "https://en.wikipedia.org/wiki/Employment_Ice_Age"
+        "note": "若年雇用の厳冬期"
       },
       {
         "label": "情報スーパーハイウェイ構想",
         "startYear": 1993,
         "genre": [
+          "WORK",
           "NET"
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/%E6%83%85%E5%A0%B1%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%8F%E3%82%A4%E3%82%A6%E3%82%A7%E3%82%A4%E6%A7%8B%E6%83%B3",
-        "note": "米国の国家情報基盤構想",
-        "label_en": "-Qing Bao su-pa-haiueiGou Xiang ",
-        "note_en": "U.S. National Information"
+        "note": "米国の国家情報基盤構想"
       },
       {
         "label": "プリーツ プリーズ",
         "startYear": 1993,
         "genre": [
+          "WORK",
           "FAS"
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/%E4%B8%89%E5%AE%85%E4%B8%80%E7%94%9F",
-        "note": "永久プリーツの日常服",
-        "label_en": "-Issey Miyake",
-        "note_en": "Issey Miyake was a Japanese",
-        "url_en": "https://en.wikipedia.org/wiki/Issey_Miyake"
+        "note": "永久プリーツの日常服"
       },
       {
         "label": "Adobe Acrobat",
@@ -8952,14 +8653,12 @@
         "label": "ジュラシック・パーク",
         "startYear": 1993,
         "genre": [
+          "WORK",
           "MOV"
         ],
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/%E3%82%B8%E3%83%A5%E3%83%A9%E3%82%B7%E3%83%83%E3%82%AF%E3%83%BB%E3%83%AF%E3%83%BC%E3%83%AB%E3%83%89",
-        "note": "CG恐竜で新時代",
-        "label_en": "-Jurassic World",
-        "note_en": "Jurassic World is a 2015 American",
-        "url_en": "https://en.wikipedia.org/wiki/Jurassic_World"
+        "note": "CG恐竜で新時代"
       },
       {
         "label": "シンドラーのリスト",
@@ -8978,15 +8677,13 @@
         "label": "バーチャファイター",
         "startYear": 1993,
         "genre": [
+          "WORK",
           "GAM",
           "JAPAN"
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/%E5%AF%BE%E6%88%A6%E5%9E%8B%E6%A0%BC%E9%97%98%E3%82%B2%E3%83%BC%E3%83%A0",
-        "note": "3D格闘の幕開け",
-        "label_en": "-Fighting game",
-        "note_en": "The fighting game genre involves",
-        "url_en": "https://en.wikipedia.org/wiki/Fighting_game"
+        "note": "3D格闘の幕開け"
       },
       {
         "label": "Doom (1993年のコンピュータゲーム)",
@@ -9018,15 +8715,13 @@
         "label": "聖剣伝説2",
         "startYear": 1993,
         "genre": [
+          "WORK",
           "GAM",
           "JAPAN"
         ],
         "imp": 3,
         "url": "https://ja.wikipedia.org/wiki/%E8%81%96%E5%89%A3%E4%BC%9D%E8%AA%AC",
-        "note": "アクションRPG名作",
-        "label_en": "-Mana (series)",
-        "note_en": "The Mana series, known in Japan",
-        "url_en": "https://en.wikipedia.org/wiki/Mana_%28series%29"
+        "note": "アクションRPG名作"
       },
       {
         "label": "ロマンシング サ・ガ2",
@@ -9076,15 +8771,13 @@
         "startYear": 1994,
         "endYear": 2002,
         "genre": [
+          "WORK",
           "TVP",
           "JAPAN"
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/トゥナイト2",
-        "note": "夜の街/性風俗特集で人気",
-        "label_en": "-Shazna",
-        "note_en": "Shazna is a Japanese visual",
-        "url_en": "https://en.wikipedia.org/wiki/Shazna"
+        "note": "夜の街/性風俗特集で人気"
       },
       {
         "label": "Apple QuickTake 100",
@@ -9178,59 +8871,51 @@
         "startYear": 1994,
         "endYear": 2010,
         "genre": [
+          "WORK",
           "MAN",
           "JAPAN"
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/MAJOR_(漫画)",
-        "note": "野球成長物語の決定版",
-        "label_en": "-Major Major Major Major",
-        "note_en": "Major Major Major Major is",
-        "url_en": "https://en.wikipedia.org/wiki/Major_Major_Major_Major"
+        "note": "野球成長物語の決定版"
       },
       {
         "label": "開運!なんでも鑑定団",
         "startYear": 1994,
         "endYear": "ongoing",
         "genre": [
+          "WORK",
           "TVP",
           "JAPAN"
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/開運!なんでも鑑定団",
-        "note": "骨董鑑定の草分け",
-        "label_en": "-Ultraman Jack (character)",
-        "note_en": "Ultraman Jack is the protagonist",
-        "url_en": "https://en.wikipedia.org/wiki/Ultraman_Jack_%28character%29"
+        "note": "骨董鑑定の草分け"
       },
       {
         "label": "フレンズ (1994年のテレビドラマ)",
         "startYear": 1994,
         "endYear": 2004,
         "genre": [
+          "WORK",
           "TVP"
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/フレンズ_(1994年のテレビドラマ)",
-        "note": "シットコムの代表格",
-        "label_en": "-Kento Yamazaki",
-        "note_en": "Kento Yamazaki is a Japanese",
-        "url_en": "https://en.wikipedia.org/wiki/Kento_Yamazaki"
+        "note": "シットコムの代表格"
       },
       {
         "label": "MONSTER",
         "startYear": 1994,
         "endYear": 2001,
         "genre": [
+          "WORK",
           "MAN",
           "JAPAN"
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/MONSTER",
-        "note": "本格サスペンスの傑作",
-        "label_en": "-Monster",
-        "note_en": "A monster is a type of imaginary",
-        "url_en": "https://en.wikipedia.org/wiki/Monster"
+        "note": "本格サスペンスの傑作"
       },
       {
         "label": "るろうに剣心",
@@ -9368,15 +9053,13 @@
         "label": "MOTHER2 ギーグの逆襲",
         "startYear": 1994,
         "genre": [
+          "WORK",
           "GAM",
           "JAPAN"
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/MOTHER2_%E3%82%AE%E3%83%BC%E3%82%B0%E3%81%AE%E9%80%86%E8%A5%B2",
-        "note": "個性派RPGの金字塔",
-        "label_en": "-EarthBound",
-        "note_en": "EarthBound, originally released",
-        "url_en": "https://en.wikipedia.org/wiki/EarthBound"
+        "note": "個性派RPGの金字塔"
       },
       {
         "label": "ときめきメモリアル",
@@ -9427,14 +9110,13 @@
         "startYear": 1995,
         "endYear": "ongoing",
         "genre": [
+          "WORK",
           "MAG",
           "JAPAN"
         ],
         "imp": 3,
         "url": "https://ja.wikipedia.org/wiki/%E8%A3%8F%E3%83%A2%E3%83%8EJAPAN",
-        "note": "裏社会/性風俗ルポの人気誌",
-        "label_en": "-List of Japanese films of 2025",
-        "note_en": "Popular magazine on the un"
+        "note": "裏社会/性風俗ルポの人気誌"
       },
       {
         "label": "RealPlayer",
@@ -9507,15 +9189,13 @@
         "startYear": 1995,
         "endYear": "ongoing",
         "genre": [
+          "WORK",
           "TVP",
           "JAPAN"
         ],
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/ザ!鉄腕!DASH!!",
-        "note": "体当たり系実験・農業企画",
-        "label_en": "-Nippon Television",
-        "note_en": "JOAX-DTV, branded as Nippon",
-        "url_en": "https://en.wikipedia.org/wiki/Nippon_Television"
+        "note": "体当たり系実験・農業企画"
       },
       {
         "label": "金田一少年の事件簿 (1995年版)",
@@ -9537,15 +9217,13 @@
         "startYear": 1995,
         "endYear": "ongoing",
         "genre": [
+          "WORK",
           "RDO",
           "JAPAN"
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/%E4%BC%8A%E9%9B%86%E9%99%A2%E5%85%89_%E6%B7%B1%E5%A4%9C%E3%81%AE%E9%A6%AC%E9%B9%BF%E5%8A%9B",
-        "note": "TBSラジオの長寿深夜番組。",
-        "label_en": "-Confucianism",
-        "note_en": "Confucianism, also known as",
-        "url_en": "https://en.wikipedia.org/wiki/Confucianism"
+        "note": "TBSラジオの長寿深夜番組。"
       },
       {
         "label": "E3",
@@ -9596,14 +9274,13 @@
         "startYear": 1995,
         "endYear": "ongoing",
         "genre": [
+          "WORK",
           "MAG",
           "JAPAN"
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/%E6%98%A0%E7%94%BB%E7%A7%98%E5%AE%9D",
-        "note": "カルト映画愛の拠点",
-        "label_en": "-Crumb (film)",
-        "note_en": "Cult film love hub"
+        "note": "カルト映画愛の拠点"
       },
       {
         "label": "阪神・淡路大震災",
@@ -9637,12 +9314,13 @@
         "label": "オアシス『モーニング・グローリー』",
         "startYear": 1995,
         "genre": [
+          "WORK",
           "MUS"
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/(What%27s_the_Story)_Morning_Glory%3F",
-        "note": "ブリットポップ頂点",
-        "label_en": "-oashisu{mo-ningu*guro-ri-} ",
+        "note": "ブリットポップ頂点"
+      } ",
         "note_en": "Peak of Britpop"
       },
       {
@@ -9956,15 +9634,13 @@
         "startYear": 1996,
         "endYear": 2010,
         "genre": [
+          "WORK",
           "TVP",
           "JAPAN"
         ],
         "imp": 3,
         "url": "https://ja.wikipedia.org/wiki/うたばん",
-        "note": "中居正広×石橋貴明の音楽バラエティ",
-        "label_en": "-Masahiro Nakai",
-        "note_en": "Masahiro Nakai is a Japanese",
-        "url_en": "https://en.wikipedia.org/wiki/Masahiro_Nakai"
+        "note": "中居正広×石橋貴明の音楽バラエティ"
       },
       {
         "label": "ロングバケーション",
@@ -10074,15 +9750,13 @@
         "startYear": 1996,
         "endYear": "ongoing",
         "genre": [
+          "WORK",
           "FOO",
           "JAPAN"
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%82%BF%E3%83%BC%E3%83%90%E3%83%83%E3%82%AF%E3%82%B9",
-        "note": "シアトル系コーヒー文化を普及。",
-        "label_en": "-List of companies of Japan",
-        "note_en": "This is a list of notable",
-        "url_en": "https://en.wikipedia.org/wiki/List_of_companies_of_Japan"
+        "note": "シアトル系コーヒー文化を普及。"
       },
       {
         "label": "水曜どうでしょう",
@@ -10104,15 +9778,13 @@
         "startYear": 1996,
         "endYear": "ongoing",
         "genre": [
+          "WORK",
           "TVP",
           "JAPAN"
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/めちゃ×2イケてるッ!",
-        "note": "平成お笑いの象徴枠",
-        "label_en": "-Sakuranbo",
-        "note_en": "\"Sakuranbo\" is Ai Otsuka's",
-        "url_en": "https://en.wikipedia.org/wiki/Sakuranbo"
+        "note": "平成お笑いの象徴枠"
       },
       {
         "label": "遊☆戯☆王",
@@ -10311,14 +9983,12 @@
         "label": "AviUtl",
         "startYear": 1997,
         "genre": [
+          "WORK",
           "SOF"
         ],
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/AviUtl",
-        "note": "日本のMAD文化を支えた編集",
-        "label_en": "-List of RISC OS filetypes",
-        "note_en": "RISC OS filetypes use metadata",
-        "url_en": "https://en.wikipedia.org/wiki/List_of_RISC_OS_filetypes"
+        "note": "日本のMAD文化を支えた編集"
       },
       {
         "label": "FL Studio",
@@ -10392,45 +10062,39 @@
         "startYear": 1997,
         "endYear": "ongoing",
         "genre": [
+          "WORK",
           "TVP",
           "JAPAN"
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/SASUKE",
-        "note": "究極の障害物競走",
-        "label_en": "-Sasuke Uchiha",
-        "note_en": "Sasuke Uchiha is a fictional",
-        "url_en": "https://en.wikipedia.org/wiki/Sasuke_Uchiha"
+        "note": "究極の障害物競走"
       },
       {
         "label": "学校へ行こう!",
         "startYear": 1997,
         "endYear": 2005,
         "genre": [
+          "WORK",
           "TVP",
           "JAPAN"
         ],
         "imp": 3,
         "url": "https://ja.wikipedia.org/wiki/学校へ行こう!",
-        "note": "学園系バラエティのヒット",
-        "label_en": "-V6 (band)",
-        "note_en": "V6 was a six-member Japanese",
-        "url_en": "https://en.wikipedia.org/wiki/V6_%28band%29"
+        "note": "学園系バラエティのヒット"
       },
       {
         "label": "ビーチボーイズ",
         "startYear": 1997,
         "endYear": 1997,
         "genre": [
+          "WORK",
           "TVP",
           "JAPAN"
         ],
         "imp": 3,
         "url": "https://ja.wikipedia.org/wiki/ビーチボーイズ",
-        "note": "夏ドラマの金字塔",
-        "label_en": "-Pet Sounds",
-        "note_en": "Pet Sounds is the eleventh",
-        "url_en": "https://en.wikipedia.org/wiki/Pet_Sounds"
+        "note": "夏ドラマの金字塔"
       },
       {
         "label": "South Park",
@@ -10585,15 +10249,13 @@
         "label": "ハリー・ポッターと賢者の石",
         "startYear": 1997,
         "genre": [
+          "WORK",
           "NOV",
           "JAPAN"
         ],
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/ハリー・ポッターと賢者の石",
-        "note": "児童ファンタジー新時代",
-        "label_en": "-Ichirō Nagai",
-        "note_en": "Ichirō Nagai was a Japanese",
-        "url_en": "https://en.wikipedia.org/wiki/Ichir%C5%8D_Nagai"
+        "note": "児童ファンタジー新時代"
       },
       {
         "label": "Wi-Fi",
@@ -10665,14 +10327,12 @@
         "label": "銃・病原菌・鉄",
         "startYear": 1997,
         "genre": [
+          "WORK",
           "BOO"
         ],
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/銃・病原菌・鉄",
-        "note": "人類史の比較論的解読",
-        "label_en": "-Fan Bingbing",
-        "note_en": "Fan Bingbing is a Chinese actress",
-        "url_en": "https://en.wikipedia.org/wiki/Fan_Bingbing"
+        "note": "人類史の比較論的解読"
       },
       {
         "label": "ハイパーヨーヨー",
@@ -10800,14 +10460,12 @@
         "label": "iMac (初代)",
         "startYear": 1998,
         "genre": [
+          "WORK",
           "HAR"
         ],
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/IMac",
-        "note": "ポップなiMacがPCデザインを刷新",
-        "label_en": "-Godzilla Minus One",
-        "note_en": "Godzilla Minus One is a 2023",
-        "url_en": "https://en.wikipedia.org/wiki/Godzilla_Minus_One"
+        "note": "ポップなiMacがPCデザインを刷新"
       },
       {
         "label": "ネオジオポケット",
@@ -10827,59 +10485,51 @@
         "label": "ゲームボーイカメラ",
         "startYear": 1998,
         "genre": [
+          "WORK",
           "HAR",
           "JAPAN"
         ],
         "imp": 3,
         "url": "https://ja.wikipedia.org/wiki/ゲームボーイカメラ",
-        "note": "“自撮り×ゲーム”の先駆",
-        "label_en": "-Transcription into Japanese",
-        "note_en": "In contemporary Japanese writing",
-        "url_en": "https://en.wikipedia.org/wiki/Transcription_into_Japanese"
+        "note": "“自撮り×ゲーム”の先駆"
       },
       {
         "label": "DVカメラ（Sony DCR-VX1000 等）",
         "startYear": 1998,
         "genre": [
+          "WORK",
           "HAR",
           "JAPAN"
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/Digital_Video_(DV)",
-        "note": "インディー映像/スケボー動画文化を牽引",
-        "label_en": "-Death of Wishma Sandamali",
-        "note_en": "Rathnayake Liyanage Wishma",
-        "url_en": "https://en.wikipedia.org/wiki/Death_of_Wishma_Sandamali"
+        "note": "インディー映像/スケボー動画文化を牽引"
       },
       {
         "label": "GTO (1998年のテレビドラマ)",
         "startYear": 1998,
         "endYear": 1998,
         "genre": [
+          "WORK",
           "TVP",
           "JAPAN"
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/GTO_(1998年のテレビドラマ)",
-        "note": "学園更生ドラマ",
-        "label_en": "-List of best-selling manga",
-        "note_en": "The following is a list of",
-        "url_en": "https://en.wikipedia.org/wiki/List_of_best-selling_manga"
+        "note": "学園更生ドラマ"
       },
       {
         "label": "Serial Experiments Lain",
         "startYear": 1998,
         "endYear": 1998,
         "genre": [
+          "WORK",
           "ANI",
           "JAPAN"
         ],
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/%E3%83%88%E3%83%A9%E3%82%A4%E3%82%A2%E3%83%B3%E3%82%B0%E3%83%AB%E3%82%B9%E3%82%BF%E3%83%83%E3%83%95",
-        "note": "電脳と自我の実験作",
-        "label_en": "-Triangle Staff",
-        "note_en": "Triangle Staff Corp. was a",
-        "url_en": "https://en.wikipedia.org/wiki/Triangle_Staff"
+        "note": "電脳と自我の実験作"
       },
       {
         "label": "カードキャプターさくら",
@@ -10946,15 +10596,13 @@
         "startYear": 1998,
         "endYear": 2003,
         "genre": [
+          "WORK",
           "MAN",
           "JAPAN"
         ],
         "imp": 3,
         "url": "https://ja.wikipedia.org/wiki/ROOKIES",
-        "note": "不良×野球で人気",
-        "label_en": "-The Rookies",
-        "note_en": "The Rookies is an American",
-        "url_en": "https://en.wikipedia.org/wiki/The_Rookies"
+        "note": "不良×野球で人気"
       },
       {
         "label": "カウボーイビバップ",
@@ -10976,15 +10624,13 @@
         "startYear": 1998,
         "endYear": "ongoing",
         "genre": [
+          "WORK",
           "TVP",
           "JAPAN"
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/情熱大陸",
-        "note": "人物密着ドキュメンタリー",
-        "label_en": "-Yoasobi",
-        "note_en": "Yoasobi is a Japanese musical",
-        "url_en": "https://en.wikipedia.org/wiki/Yoasobi"
+        "note": "人物密着ドキュメンタリー"
       },
       {
         "label": "HUNTER×HUNTER",
@@ -11034,15 +10680,13 @@
         "label": "1998年長野オリンピック",
         "startYear": 1998,
         "genre": [
+          "WORK",
           "PHE",
           "JAPAN"
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/1998年長野オリンピック",
-        "note": "長野で開催の冬季",
-        "label_en": "-M-Wave",
-        "note_en": "Nagano Olympic Memorial Arena",
-        "url_en": "https://en.wikipedia.org/wiki/M-Wave"
+        "note": "長野で開催の冬季"
       },
       {
         "label": "ICANN",
@@ -11141,14 +10785,12 @@
         "label": "Half-Life",
         "startYear": 1998,
         "genre": [
+          "WORK",
           "GAM"
         ],
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/%E3%83%95%E3%82%A1%E3%83%BC%E3%82%B9%E3%83%88%E3%83%91%E3%83%BC%E3%82%BD%E3%83%B3%E3%83%BB%E3%82%B7%E3%83%A5%E3%83%BC%E3%83%86%E3%82%A3%E3%83%B3%E3%82%B0%E3%82%B2%E3%83%BC%E3%83%A0",
-        "note": "物語主導FPSの確立",
-        "label_en": "-First-person shooter",
-        "note_en": "A first-person shooter (FPS)",
-        "url_en": "https://en.wikipedia.org/wiki/First-person_shooter"
+        "note": "物語主導FPSの確立"
       },
       {
         "label": "スタークラフト",
@@ -11367,15 +11009,13 @@
         "label": "iモード対応携帯（初期機）",
         "startYear": 1999,
         "genre": [
+          "WORK",
           "HAR",
           "JAPAN"
         ],
         "imp": 3,
         "url": "https://ja.wikipedia.org/wiki/Iモード",
-        "note": "モバイルWeb時代の入口",
-        "label_en": "-Final Fantasy IV: The After Years",
-        "note_en": "Final Fantasy IV: The After",
-        "url_en": "https://en.wikipedia.org/wiki/Final_Fantasy_IV%3A_The_After_Years"
+        "note": "モバイルWeb時代の入口"
       },
       {
         "label": "あいのり",
@@ -11427,15 +11067,13 @@
         "startYear": 1999,
         "endYear": 2008,
         "genre": [
+          "WORK",
           "MAN",
           "JAPAN"
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/BECK",
-        "note": "バンド青春譚",
-        "label_en": "-Beck",
-        "note_en": "Beck David Hansen, known m",
-        "url_en": "https://en.wikipedia.org/wiki/Beck"
+        "note": "バンド青春譚"
       },
       {
         "label": "嵐",
@@ -11457,14 +11095,12 @@
         "startYear": 1999,
         "endYear": 2007,
         "genre": [
+          "WORK",
           "TVP"
         ],
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/ザ・ソプラノズ",
-        "note": "黄金期TVドラマの象徴",
-        "label_en": "-Akira Ishida",
-        "note_en": "Akira Ishida is a Japanese",
-        "url_en": "https://en.wikipedia.org/wiki/Akira_Ishida"
+        "note": "黄金期TVドラマの象徴"
       },
       {
         "label": "20世紀少年",
@@ -11486,15 +11122,13 @@
         "startYear": 1999,
         "endYear": 2014,
         "genre": [
+          "WORK",
           "MAN",
           "JAPAN"
         ],
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/NARUTO_-ナルト-",
-        "note": "忍者バトルの国際的成功",
-        "label_en": "-Boruto",
-        "note_en": "Boruto is a Japanese manga",
-        "url_en": "https://en.wikipedia.org/wiki/Boruto"
+        "note": "忍者バトルの国際的成功"
       },
       {
         "label": "スペクテイター",
@@ -11515,29 +11149,25 @@
         "startYear": 1999,
         "endYear": "ongoing",
         "genre": [
+          "WORK",
           "MAG",
           "JAPAN"
         ],
         "imp": 3,
         "url": "https://ja.wikipedia.org/wiki/サイゾー",
-        "note": "メディア批評の情報誌",
-        "label_en": "-Daikichi Irokawa",
-        "note_en": "Daikichi Irokawa was a Japanese",
-        "url_en": "https://en.wikipedia.org/wiki/Daikichi_Irokawa"
+        "note": "メディア批評の情報誌"
       },
       {
         "label": "ニート",
         "startYear": 1999,
         "genre": [
+          "WORK",
           "PHE",
           "JAPAN"
         ],
         "imp": 3,
         "url": "https://ja.wikipedia.org/wiki/ニート",
-        "note": "社会参加の課題概念",
-        "label_en": "-I'm Living with an Otaku NEET Kunoichi!?",
-        "note_en": "I'm Living with an Otaku NEET",
-        "url_en": "https://en.wikipedia.org/wiki/I%27m_Living_with_an_Otaku_NEET_Kunoichi%21%3F"
+        "note": "社会参加の課題概念"
       },
       {
         "label": "Iモード",
@@ -11557,15 +11187,13 @@
         "label": "2000年問題",
         "startYear": 1999,
         "genre": [
+          "WORK",
           "PHE",
           "JAPAN"
         ],
         "imp": 3,
         "url": "https://ja.wikipedia.org/wiki/2000年問題",
-        "note": "Y2K対応の社会的課題",
-        "label_en": "-Cindy Au",
-        "note_en": "Cindy Au Sin-yi. Born in Hong",
-        "url_en": "https://en.wikipedia.org/wiki/Cindy_Au"
+        "note": "Y2K対応の社会的課題"
       },
       {
         "label": "2ちゃんねる",
@@ -11599,15 +11227,13 @@
         "label": "モーニング娘。「LOVEマシーン」",
         "startYear": 1999,
         "genre": [
+          "WORK",
           "MUS",
           "JAPAN"
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/LOVEマシーン",
-        "note": "アイドル再ブーム象徴",
-        "label_en": "-Dance Dance Revolution Solo",
-        "note_en": "Dance Dance Revolution Solo",
-        "url_en": "https://en.wikipedia.org/wiki/Dance_Dance_Revolution_Solo"
+        "note": "アイドル再ブーム象徴"
       },
       {
         "label": "VMware",
@@ -11788,15 +11414,13 @@
         "startYear": 2000,
         "endYear": 2000,
         "genre": [
+          "WORK",
           "TVP",
           "JAPAN"
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/TRICK",
-        "note": "超常×トリックの痛快作",
-        "label_en": "-Inuyasha season 1",
-        "note_en": "The first season of the anime",
-        "url_en": "https://en.wikipedia.org/wiki/Inuyasha_season_1"
+        "note": "超常×トリックの痛快作"
       },
       {
         "label": "池袋ウエストゲートパーク",
@@ -11863,41 +11487,37 @@
         "startYear": 2000,
         "endYear": "ongoing",
         "genre": [
+          "WORK",
           "TVP",
           "JAPAN"
         ],
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/プロジェクトX〜挑戦者たち〜",
-        "note": "技術者群像の名作",
-        "label_en": "-Noboru Rokuda",
-        "note_en": "Noboru Rokuda is a Japanese",
-        "url_en": "https://en.wikipedia.org/wiki/Noboru_Rokuda"
+        "note": "技術者群像の名作"
       },
       {
         "label": "ガラパゴス携帯電話",
         "startYear": 2000,
         "genre": [
+          "WORK",
           "PHE",
           "JAPAN"
         ],
         "imp": 3,
         "url": "https://ja.wikipedia.org/wiki/ガラパゴス携帯電話",
-        "note": "独自進化の象徴語",
-        "label_en": "-garapagosuXi Dai Dian Hua ",
-        "note_en": "Symbolic words of unique e"
+        "note": "独自進化の象徴語"
       },
       {
         "label": "ゴシック・アンド・ロリータ",
         "startYear": 2000,
         "genre": [
+          "WORK",
           "FAS",
           "JAPAN"
         ],
         "imp": 3,
         "url": "https://ja.wikipedia.org/wiki/ゴシック・アンド・ロリータ",
-        "note": "黒基調の退廃的様式",
-        "label_en": "-Gothic & Lolita",
-        "note_en": "Dystopian style with a black"
+        "note": "黒基調の退廃的様式"
       },
       {
         "label": "SQLite",
@@ -11942,27 +11562,23 @@
         "label": "カウンターストライク",
         "startYear": 2000,
         "genre": [
+          "WORK",
           "GAM"
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/Valve_Corporation",
-        "note": "対戦FPSの定番へ",
-        "label_en": "-Valve Corporation",
-        "note_en": "Valve Corporation, also known",
-        "url_en": "https://en.wikipedia.org/wiki/Valve_Corporation"
+        "note": "対戦FPSの定番へ"
       },
       {
         "label": "Diablo II",
         "startYear": 2000,
         "genre": [
+          "WORK",
           "GAM"
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/%E3%83%96%E3%83%AA%E3%82%B6%E3%83%BC%E3%83%89%E3%83%BB%E3%82%A8%E3%83%B3%E3%82%BF%E3%83%BC%E3%83%86%E3%82%A4%E3%83%A1%E3%83%B3%E3%83%88",
-        "note": "ハクスラ定番を確立",
-        "label_en": "-Blizzard Entertainment",
-        "note_en": "Blizzard Entertainment, Inc",
-        "url_en": "https://en.wikipedia.org/wiki/Blizzard_Entertainment"
+        "note": "ハクスラ定番を確立"
       },
       {
         "label": "PlayStation 2",
@@ -12142,14 +11758,12 @@
         "startYear": 2001,
         "endYear": 2001,
         "genre": [
+          "WORK",
           "TVP"
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/HERO_(テレビドラマ)",
-        "note": "木村拓哉主演の大ヒット",
-        "label_en": "-Hiroyuki Sanada",
-        "note_en": "Hiroyuki Sanada is a Japanese",
-        "url_en": "https://en.wikipedia.org/wiki/Hiroyuki_Sanada"
+        "note": "木村拓哉主演の大ヒット"
       },
       {
         "label": "千と千尋の神隠し",
@@ -12186,15 +11800,13 @@
         "startYear": 2001,
         "endYear": 2013,
         "genre": [
+          "WORK",
           "MAN",
           "JAPAN"
         ],
         "imp": 2,
         "url": "https://ja.wikipedia.org/wiki/WORST",
-        "note": "CROWSの続編的作品",
-        "label_en": "-List of worst Major League Baseball season win–loss records",
-        "note_en": "Listed below are the Major",
-        "url_en": "https://en.wikipedia.org/wiki/List_of_worst_Major_League_Baseball_season_win%E2%80%93loss_records"
+        "note": "CROWSの続編的作品"
       },
       {
         "label": "ブラックジャックによろしく",
@@ -12303,12 +11915,13 @@
         "label": "ダフト・パンク『ディスカバリー』",
         "startYear": 2001,
         "genre": [
+          "WORK",
           "MUS"
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/ディスカバリー_(ダフト・パンクのアルバム)",
-        "note": "フレンチハウス普及",
-        "label_en": "-dahuto*panku{deisukabari-} ",
+        "note": "フレンチハウス普及"
+      } ",
         "note_en": "Promotion of French house"
       },
       {
@@ -12354,40 +11967,35 @@
         "label": "Halo: Combat Evolved",
         "startYear": 2001,
         "genre": [
+          "WORK",
           "GAM"
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/%E3%83%95%E3%82%A1%E3%83%BC%E3%82%B9%E3%83%88%E3%83%91%E3%83%BC%E3%82%BD%E3%83%B3%E3%83%BB%E3%82%B7%E3%83%A5%E3%83%BC%E3%83%86%E3%82%A3%E3%83%B3%E3%82%B0%E3%82%B2%E3%83%BC%E3%83%A0",
-        "note": "家庭用FPSの標準化",
-        "label_en": "-First-person shooter",
-        "note_en": "A first-person shooter (FPS)",
-        "url_en": "https://en.wikipedia.org/wiki/First-person_shooter"
+        "note": "家庭用FPSの標準化"
       },
       {
         "label": "どうぶつの森",
         "startYear": 2001,
         "genre": [
+          "WORK",
           "GAM",
           "JAPAN"
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/%E3%81%A9%E3%81%86%E3%81%B6%E3%81%A4%E3%81%AE%E6%A3%AE",
-        "note": "緩やかな生活系の祖",
-        "label_en": "-Animal Crossing (video game)",
-        "note_en": "Pioneer of a relaxed lifestyle"
+        "note": "緩やかな生活系の祖"
       },
       {
         "label": "ICO",
         "startYear": 2001,
         "genre": [
+          "WORK",
           "GAM"
         ],
         "imp": 3,
         "url": "https://ja.wikipedia.org/wiki/ICO",
-        "note": "ミニマル表現の到達点",
-        "label_en": "-Ico",
-        "note_en": "Ico is a 2001 action-adventure",
-        "url_en": "https://en.wikipedia.org/wiki/Ico"
+        "note": "ミニマル表現の到達点"
       },
       {
         "label": "ファイナルファンタジーX",
@@ -12556,15 +12164,13 @@
         "startYear": 2002,
         "endYear": "ongoing",
         "genre": [
+          "WORK",
           "TVP",
           "JAPAN"
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/ガイアの夜明け",
-        "note": "経済ドキュメンタリー",
-        "label_en": "-Kongō Gumi",
-        "note_en": "Kongō Gumi Co., Ltd. is a",
-        "url_en": "https://en.wikipedia.org/wiki/Kong%C5%8D_Gumi"
+        "note": "経済ドキュメンタリー"
       },
       {
         "label": "相棒",
@@ -12661,28 +12267,24 @@
         "startYear": 2002,
         "endYear": 2008,
         "genre": [
+          "WORK",
           "TVP"
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/ザ・ワイヤー",
-        "note": "社会派群像の傑作",
-        "label_en": "-The Answer Studio",
-        "note_en": "The Answerstudio Co., Ltd",
-        "url_en": "https://en.wikipedia.org/wiki/The_Answer_Studio"
+        "note": "社会派群像の傑作"
       },
       {
         "label": "トップ・ギア (BBC)",
         "startYear": 2002,
         "endYear": 2002,
         "genre": [
+          "WORK",
           "TVP"
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/トップ・ギア_(BBC)",
-        "note": "自動車娯楽番組の頂点",
-        "label_en": "-Gran Turismo 5 Prologue",
-        "note_en": "Gran Turismo 5 Prologue is",
-        "url_en": "https://en.wikipedia.org/wiki/Gran_Turismo_5_Prologue"
+        "note": "自動車娯楽番組の頂点"
       },
       {
         "label": "2002 FIFAワールドカップ",
@@ -12825,15 +12427,13 @@
         "startYear": 2003,
         "endYear": 2004,
         "genre": [
+          "WORK",
           "TVP",
           "JAPAN"
         ],
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/白い巨塔_(2003年のテレビドラマ)",
-        "note": "医療群像の名作",
-        "label_en": "-Kaho (actress)",
-        "note_en": "Kaho Indō , better known m",
-        "url_en": "https://en.wikipedia.org/wiki/Kaho_%28actress%29"
+        "note": "医療群像の名作"
       },
       {
         "label": "プラネテス",
@@ -12899,15 +12499,13 @@
         "label": "韓流",
         "startYear": 2003,
         "genre": [
+          "WORK",
           "PHE",
           "JAPAN"
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/韓流",
-        "note": "韓国大衆文化の波",
-        "label_en": "-Along with the Gods: The Two Worlds",
-        "note_en": "Along with the Gods: The Two",
-        "url_en": "https://en.wikipedia.org/wiki/Along_with_the_Gods%3A_The_Two_Worlds"
+        "note": "韓国大衆文化の波"
       },
       {
         "label": "SMAP「世界に一つだけの花」",
@@ -13061,30 +12659,26 @@
         "startYear": 2004,
         "endYear": "ongoing",
         "genre": [
+          "WORK",
           "TVP",
           "JAPAN"
         ],
         "imp": 3,
         "url": "https://ja.wikipedia.org/wiki/人志松本のすべらない話",
-        "note": "年末特番の定番化",
-        "label_en": "-Hitoshi Matsumoto",
-        "note_en": "Hitoshi Matsumoto is a Japanese",
-        "url_en": "https://en.wikipedia.org/wiki/Hitoshi_Matsumoto"
+        "note": "年末特番の定番化"
       },
       {
         "label": "逃走中",
         "startYear": 2004,
         "endYear": "ongoing",
         "genre": [
+          "WORK",
           "TVP",
           "JAPAN"
         ],
         "imp": 3,
         "url": "https://ja.wikipedia.org/wiki/逃走中",
-        "note": "鬼ごっこバラエティ",
-        "label_en": "-Run for Money: The Great Mission",
-        "note_en": "Run for Money: The Great Mission",
-        "url_en": "https://en.wikipedia.org/wiki/Run_for_Money%3A_The_Great_Mission"
+        "note": "鬼ごっこバラエティ"
       },
       {
         "label": "ハウルの動く城",
@@ -13165,15 +12759,13 @@
         "startYear": 2004,
         "endYear": "ongoing",
         "genre": [
+          "WORK",
           "TVP",
           "JAPAN"
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/報道ステーション",
-        "note": "夜の総合報道番組",
-        "label_en": "-Kyuji Fujikawa",
-        "note_en": "Kyuji Fujikawa is a Japanese",
-        "url_en": "https://en.wikipedia.org/wiki/Kyuji_Fujikawa"
+        "note": "夜の総合報道番組"
       },
       {
         "label": "銀魂",
@@ -13195,14 +12787,13 @@
         "startYear": 2004,
         "endYear": "ongoing",
         "genre": [
+          "WORK",
           "MAG",
           "JAPAN"
         ],
         "imp": 3,
         "url": "https://ja.wikipedia.org/wiki/EYE_SCREAM",
-        "note": "音楽と服の交差点",
-        "label_en": "-EYESCREAM → Eye Scream",
-        "note_en": "Intersection of music and"
+        "note": "音楽と服の交差点"
       },
       {
         "label": "Gmail",
@@ -13273,14 +12864,12 @@
         "label": "World of Warcraft",
         "startYear": 2004,
         "genre": [
+          "WORK",
           "GAM"
         ],
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/%E3%83%96%E3%83%AA%E3%82%B6%E3%83%BC%E3%83%89%E3%83%BB%E3%82%A8%E3%83%B3%E3%82%BF%E3%83%BC%E3%83%86%E3%82%A4%E3%83%A1%E3%83%B3%E3%83%88",
-        "note": "MMO最大級の成功",
-        "label_en": "-Blizzard Entertainment",
-        "note_en": "Blizzard Entertainment, Inc",
-        "url_en": "https://en.wikipedia.org/wiki/Blizzard_Entertainment"
+        "note": "MMO最大級の成功"
       },
       {
         "label": "モンスターハンター",
@@ -13383,15 +12972,13 @@
         "startYear": 2005,
         "endYear": 2005,
         "genre": [
+          "WORK",
           "TVP",
           "JAPAN"
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/花より男子_(テレビドラマ)",
-        "note": "学園ラブコメの金字塔",
-        "label_en": "-Dori Sakurada",
-        "note_en": "Dori Sakurada is a Japanese",
-        "url_en": "https://en.wikipedia.org/wiki/Dori_Sakurada"
+        "note": "学園ラブコメの金字塔"
       },
       {
         "label": "蟲師",
@@ -13428,15 +13015,13 @@
         "startYear": 2005,
         "endYear": 2005,
         "genre": [
+          "WORK",
           "ANI",
           "JAPAN"
         ],
         "imp": 3,
         "url": "https://ja.wikipedia.org/wiki/%E6%96%B0%E4%B8%96%E7%B4%80%E3%82%A8%E3%83%B4%E3%82%A1%E3%83%B3%E3%82%B2%E3%83%AA%E3%82%AA%E3%83%B3%E5%8A%87%E5%A0%B4%E7%89%88_Air/%E3%81%BE%E3%81%94%E3%81%93%E3%82%8D%E3%82%92%E3%80%81%E5%90%9B%E3%81%AB",
-        "note": "ビジュアルノベル発アニメ",
-        "label_en": "-The End of Evangelion",
-        "note_en": "The End of Evangelion is a",
-        "url_en": "https://en.wikipedia.org/wiki/The_End_of_Evangelion"
+        "note": "ビジュアルノベル発アニメ"
       },
       {
         "label": "ヴィンランド・サガ",
@@ -13473,30 +13058,26 @@
         "startYear": 2005,
         "endYear": "ongoing",
         "genre": [
+          "WORK",
           "RDO",
           "JAPAN"
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/SCHOOL_OF_LOCK%21",
-        "note": "10代〜若年層に支持される全国ネット。",
-        "label_en": "-Jeonghan",
-        "note_en": "Yoon Jeong-han, known mono",
-        "url_en": "https://en.wikipedia.org/wiki/Jeonghan"
+        "note": "10代〜若年層に支持される全国ネット。"
       },
       {
         "label": "ワンダーJAPAN",
         "startYear": 2005,
         "endYear": 2014,
         "genre": [
+          "WORK",
           "MAG",
           "JAPAN"
         ],
         "imp": 3,
         "url": "https://ja.wikipedia.org/wiki/ワンダーJAPAN",
-        "note": "珍スポ・廃墟探訪誌",
-        "label_en": "-Nickelodeon (Japanese TV channel)",
-        "note_en": "Nickelodeon was a Japanese",
-        "url_en": "https://en.wikipedia.org/wiki/Nickelodeon_%28Japanese_TV_channel%29"
+        "note": "珍スポ・廃墟探訪誌"
       },
       {
         "label": "2005年日本国際博覧会（愛知）",
@@ -13558,59 +13139,52 @@
         "startYear": 2006,
         "endYear": "ongoing",
         "genre": [
+          "WORK",
           "TVP",
           "JAPAN"
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/プロフェッショナル_仕事の流儀",
-        "note": "職業ドキュメンタリー",
-        "label_en": "-Naoki Urasawa",
-        "note_en": "Naoki Urasawa is a Japanese",
-        "url_en": "https://en.wikipedia.org/wiki/Naoki_Urasawa"
+        "note": "職業ドキュメンタリー"
       },
       {
         "label": "カンブリア宮殿",
         "startYear": 2006,
         "endYear": "ongoing",
         "genre": [
+          "WORK",
           "TVP",
           "JAPAN"
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/カンブリア宮殿",
-        "note": "経営者インタビュー",
-        "label_en": "-Ryū Murakami",
-        "note_en": "Ryū Murakami is a Japanese",
-        "url_en": "https://en.wikipedia.org/wiki/Ry%C5%AB_Murakami"
+        "note": "経営者インタビュー"
       },
       {
         "label": "Fate/stay night (2006)",
         "startYear": 2006,
         "endYear": 2006,
         "genre": [
+          "WORK",
           "ANI",
           "JAPAN"
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/Fate/stay_night_%28%E3%82%A2%E3%83%8B%E3%83%A1%29",
-        "note": "深夜バトルの定番化",
-        "label_en": "-Fate/stay night",
-        "note_en": "Standardization of late-night"
+        "note": "深夜バトルの定番化"
       },
       {
         "label": "Kanon (2006)",
         "startYear": 2006,
         "endYear": 2007,
         "genre": [
+          "WORK",
           "ANI",
           "JAPAN"
         ],
         "imp": 3,
         "url": "https://ja.wikipedia.org/wiki/%E3%83%87%E3%82%B8%E3%83%A2%E3%83%B3%E3%82%BB%E3%82%A4%E3%83%90%E3%83%BC%E3%82%BA",
-        "note": "Key三部作の一角",
-        "label_en": "-Digimon Data Squad",
-        "note_en": "Digimon Data Squad, known in",
-        "url_en": "https://en.wikipedia.org/wiki/Digimon_Data_Squad"
+        "note": "Key三部作の一角"
       },
       {
         "label": "FAIRY TAIL",
@@ -13661,14 +13235,13 @@
         "startYear": 2006,
         "endYear": "ongoing",
         "genre": [
+          "WORK",
           "ANI",
           "JAPAN"
         ],
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/%E6%B6%BC%E5%AE%AE%E3%83%8F%E3%83%AB%E3%83%92%E3%81%AE%E6%86%82%E9%AC%B1_%28%E3%82%A2%E3%83%8B%E3%83%A1%29",
-        "note": "深夜アニメ隆盛象徴",
-        "label_en": "-Haruhi Suzumiya",
-        "note_en": "Symbol of late-night anime"
+        "note": "深夜アニメ隆盛象徴"
       },
       {
         "label": "コードギアス 反逆のルルーシュ",
@@ -13704,81 +13277,73 @@
         "startYear": 2006,
         "endYear": "ongoing",
         "genre": [
+          "WORK",
           "MAN",
           "JAPAN"
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/キングダム_(漫画)",
-        "note": "中国戦記の大河ロマン",
-        "label_en": "-Kingdom Hearts",
-        "note_en": "Kingdom Hearts is a series",
-        "url_en": "https://en.wikipedia.org/wiki/Kingdom_Hearts"
+        "note": "中国戦記の大河ロマン"
       },
       {
         "label": "ライブドア事件",
         "startYear": 2006,
         "genre": [
+          "WORK",
           "PHE",
           "JAPAN"
         ],
         "imp": 3,
         "url": "https://ja.wikipedia.org/wiki/ライブドア事件",
-        "note": "IT企業巡る事件",
-        "label_en": "-Hiroyuki Sanada",
-        "note_en": "Hiroyuki Sanada is a Japanese",
-        "url_en": "https://en.wikipedia.org/wiki/Hiroyuki_Sanada"
+        "note": "IT企業巡る事件"
       },
       {
         "label": "Twitter(現X)",
         "startYear": 2006,
         "genre": [
+          "WORK",
           "NET"
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/Twitter",
-        "note": "短文投稿の普及サービス",
-        "label_en": "-Spy × Family Code: White",
-        "note_en": "Spy × Family Code: White is",
-        "url_en": "https://en.wikipedia.org/wiki/Spy_%C3%97_Family_Code%3A_White"
+        "note": "短文投稿の普及サービス"
       },
       {
         "label": "ニコニコ動画",
         "startYear": 2006,
         "genre": [
+          "WORK",
           "NET",
           "JAPAN"
         ],
         "imp": 3,
         "url": "https://ja.wikipedia.org/wiki/%E3%83%8B%E3%82%B3%E3%83%8B%E3%82%B3%E9%9D%99%E7%94%BB",
-        "note": "コメント重畳動画文化",
-        "label_en": "-Niconico",
-        "note_en": "Comment overlay video culture"
+        "note": "コメント重畳動画文化"
       },
       {
         "label": "アミー・ワインハウス『バック・トゥ・ブラック』",
         "startYear": 2006,
         "genre": [
+          "WORK",
           "MUS"
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/バック・トゥ・ブラック",
-        "note": "ソウル再評価の契機",
-        "label_en": "-ami-*wainhausu{batsuku*tou*buratsuku} ",
+        "note": "ソウル再評価の契機"
+      } ",
         "note_en": "Opportunity for reevaluation"
       },
       {
         "label": "Wii Sports",
         "startYear": 2006,
         "genre": [
+          "WORK",
           "GAM",
           "JAPAN"
         ],
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/Wii",
-        "note": "体感操作で新市場創出",
-        "label_en": "-Wii",
-        "note_en": "The Wii is a home video game",
-        "url_en": "https://en.wikipedia.org/wiki/Wii"
+        "note": "体感操作で新市場創出"
       },
       {
         "label": "PlayStation 3",
@@ -13828,14 +13393,12 @@
         "label": "Construct",
         "startYear": 2007,
         "genre": [
+          "WORK",
           "SOF"
         ],
         "imp": 3,
         "url": "https://ja.wikipedia.org/wiki/Construct_(ゲームエンジン)",
-        "note": "ノーコード系2Dエンジン",
-        "label_en": "-Constructability",
-        "note_en": "Constructability is a concept",
-        "url_en": "https://en.wikipedia.org/wiki/Constructability"
+        "note": "ノーコード系2Dエンジン"
       },
       {
         "label": "ASUS Eee PC 701",
@@ -13854,58 +13417,51 @@
         "label": "RED One",
         "startYear": 2007,
         "genre": [
+          "WORK",
           "HAR"
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/RED_ONE",
-        "note": "デジタルシネマ普及の起爆剤",
-        "label_en": "-Red One (film)",
-        "note_en": "Red One is a 2024 American",
-        "url_en": "https://en.wikipedia.org/wiki/Red_One_%28film%29"
+        "note": "デジタルシネマ普及の起爆剤"
       },
       {
         "label": "世界の果てまでイッテQ!",
         "startYear": 2007,
         "endYear": "ongoing",
         "genre": [
+          "WORK",
           "TVP",
           "JAPAN"
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/世界の果てまでイッテQ!",
-        "note": "海外ロケ体当たり企画",
-        "label_en": "-Mayuko Kawakita",
-        "note_en": "Mayuko Kawakita is a Japan",
-        "url_en": "https://en.wikipedia.org/wiki/Mayuko_Kawakita"
+        "note": "海外ロケ体当たり企画"
       },
       {
         "label": "ガリレオ（第1シリーズ）",
         "startYear": 2007,
         "endYear": 2007,
         "genre": [
+          "WORK",
           "TVP",
           "JAPAN"
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/ガリレオ_(テレビドラマ)",
-        "note": "理系ミステリ人気作",
-        "label_en": "-Nijirō Murakami",
-        "note_en": "Nijiro Murakami is a Japanese",
-        "url_en": "https://en.wikipedia.org/wiki/Nijir%C5%8D_Murakami"
+        "note": "理系ミステリ人気作"
       },
       {
         "label": "CLANNAD",
         "startYear": 2007,
         "endYear": 2008,
         "genre": [
+          "WORK",
           "ANI",
           "JAPAN"
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/%E6%B8%9A%E3%81%A8%E6%97%A9%E8%8B%97%E3%81%AE%E3%81%8A%E3%81%BE%E3%81%88%E3%81%AB%E3%83%AC%E3%82%A4%E3%83%B3%E3%83%9C%E3%83%BC",
-        "note": "泣きの学園ドラマ",
-        "label_en": "-CLANNAD → Clan Ad",
-        "note_en": "A touching school drama"
+        "note": "泣きの学園ドラマ"
       },
       {
         "label": "宇宙兄弟",
@@ -13927,14 +13483,12 @@
         "startYear": 2007,
         "endYear": "ongoing",
         "genre": [
+          "WORK",
           "FMT"
         ],
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/動画配信",
-        "note": "配信時代の基盤。",
-        "label_en": "-List of streaming media services",
-        "note_en": "A streaming media service is",
-        "url_en": "https://en.wikipedia.org/wiki/List_of_streaming_media_services"
+        "note": "配信時代の基盤。"
       },
       {
         "label": "らき☆すた",
@@ -13997,27 +13551,23 @@
         "label": "Portal",
         "startYear": 2007,
         "genre": [
+          "WORK",
           "GAM"
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/PlayStation_5",
-        "note": "物理パズルの革新",
-        "label_en": "-PlayStation 5",
-        "note_en": "The PlayStation 5 (PS5) is",
-        "url_en": "https://en.wikipedia.org/wiki/PlayStation_5"
+        "note": "物理パズルの革新"
       },
       {
         "label": "コール オブ デューティ4 モダン・ウォーフェア",
         "startYear": 2007,
         "genre": [
+          "WORK",
           "GAM"
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/%E3%82%B3%E3%83%BC%E3%83%AB_%E3%82%AA%E3%83%96_%E3%83%87%E3%83%A5%E3%83%BC%E3%83%86%E3%82%A3%E3%82%B7%E3%83%AA%E3%83%BC%E3%82%BA",
-        "note": "近代FPSの標準へ",
-        "label_en": "-Call of Duty",
-        "note_en": "Call of Duty is a first-person",
-        "url_en": "https://en.wikipedia.org/wiki/Call_of_Duty"
+        "note": "近代FPSの標準へ"
       },
       {
         "label": "iPhone",
@@ -14079,13 +13629,12 @@
         "label": "WOLF RPGエディター",
         "startYear": 2008,
         "genre": [
+          "WORK",
           "SOF"
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/WOLF_RPGエディター",
-        "note": "フリーゲーム文化の牽引",
-        "label_en": "-WOLF RPG Editor",
-        "note_en": "Leading the culture of free"
+        "note": "フリーゲーム文化の牽引"
       },
       {
         "label": "Plex",
@@ -14117,14 +13666,12 @@
         "label": "MacBook Air (初代)",
         "startYear": 2008,
         "genre": [
+          "WORK",
           "HAR"
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/MacBook_Air",
-        "note": "薄型ノートの代名詞",
-        "label_en": "-Godzilla Minus One",
-        "note_en": "Godzilla Minus One is a 2023",
-        "url_en": "https://en.wikipedia.org/wiki/Godzilla_Minus_One"
+        "note": "薄型ノートの代名詞"
       },
       {
         "label": "Canon EOS 5D Mark II",
@@ -14190,15 +13737,13 @@
         "startYear": 2008,
         "endYear": "ongoing",
         "genre": [
+          "WORK",
           "MAN",
           "JAPAN"
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/乙嫁語り",
-        "note": "中央アジアの生活誌",
-        "label_en": "-A Bride's Story",
-        "note_en": "A Bride's Story is a Japanese",
-        "url_en": "https://en.wikipedia.org/wiki/A_Bride%27s_Story"
+        "note": "中央アジアの生活誌"
       },
       {
         "label": "黒子のバスケ",
@@ -14220,42 +13765,37 @@
         "startYear": 2008,
         "endYear": 2013,
         "genre": [
+          "WORK",
           "TVP"
         ],
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/ブレイキング・バッド",
-        "note": "クライム劇の到達点",
-        "label_en": "-Kinryū Arimoto",
-        "note_en": "Kinryū Arimoto was a Japanese",
-        "url_en": "https://en.wikipedia.org/wiki/Kinry%C5%AB_Arimoto"
+        "note": "クライム劇の到達点"
       },
       {
         "label": "TRASH-UP!!",
         "startYear": 2008,
         "endYear": "ongoing",
         "genre": [
+          "WORK",
           "MAG",
           "JAPAN"
         ],
         "imp": 3,
         "url": "https://ja.wikipedia.org/wiki/TRASH-UP%21%21",
-        "note": "トラッシュ文化特化",
-        "label_en": "-Trash talk",
-        "note_en": "Focus on trash culture"
+        "note": "トラッシュ文化特化"
       },
       {
         "label": "スマートフォン",
         "startYear": 2008,
         "genre": [
+          "WORK",
           "PHE",
           "JAPAN"
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/スマートフォン",
-        "note": "生活インフラへ定着",
-        "label_en": "-In Another World with My Smartphone",
-        "note_en": "In Another World with My S",
-        "url_en": "https://en.wikipedia.org/wiki/In_Another_World_with_My_Smartphone"
+        "note": "生活インフラへ定着"
       },
       {
         "label": "秋葉原通り魔事件",
@@ -14275,14 +13815,12 @@
         "label": "三体 (小説)",
         "startYear": 2008,
         "genre": [
+          "WORK",
           "NOV"
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/三体_(小説)",
-        "note": "中国発ハードSFの金字塔",
-        "label_en": "-The Man Who Died Seven Times",
-        "note_en": "The Man Who Died Seven Times",
-        "url_en": "https://en.wikipedia.org/wiki/The_Man_Who_Died_Seven_Times"
+        "note": "中国発ハードSFの金字塔"
       },
       {
         "label": "Spotify",
@@ -14345,45 +13883,39 @@
         "startYear": 2009,
         "endYear": 2009,
         "genre": [
+          "WORK",
           "TVP",
           "JAPAN"
         ],
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/JIN-仁-",
-        "note": "医療×時代劇の傑作",
-        "label_en": "-Go! Go! Loser Ranger!",
-        "note_en": "Go! Go! Loser Ranger!, also",
-        "url_en": "https://en.wikipedia.org/wiki/Go%21_Go%21_Loser_Ranger%21"
+        "note": "医療×時代劇の傑作"
       },
       {
         "label": "サマーウォーズ",
         "startYear": 2009,
         "endYear": 2009,
         "genre": [
+          "WORK",
           "ANI",
           "JAPAN"
         ],
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/%E7%B4%B0%E7%94%B0%E5%AE%88",
-        "note": "家族×仮想空間の名作",
-        "label_en": "-Mamoru Hosoda",
-        "note_en": "Mamoru Hosoda is a Japanese",
-        "url_en": "https://en.wikipedia.org/wiki/Mamoru_Hosoda"
+        "note": "家族×仮想空間の名作"
       },
       {
         "label": "化物語（物語シリーズ初期）",
         "startYear": 2009,
         "endYear": 2010,
         "genre": [
+          "WORK",
           "ANI",
           "JAPAN"
         ],
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/%E6%98%86%E8%99%AB%E7%89%A9%E8%AA%9E_%E3%81%BF%E3%81%AA%E3%81%97%E3%81%94%E3%83%8F%E3%83%83%E3%83%81",
-        "note": "会話劇×怪異の新機軸",
-        "label_en": "-The Adventures of Hutch the Honeybee",
-        "note_en": "The Adventures of Hutch the",
-        "url_en": "https://en.wikipedia.org/wiki/The_Adventures_of_Hutch_the_Honeybee"
+        "note": "会話劇×怪異の新機軸"
       },
       {
         "label": "ばらかもん",
@@ -14434,14 +13966,12 @@
         "label": "Go",
         "startYear": 2009,
         "genre": [
+          "WORK",
           "SOF"
         ],
         "imp": 3,
         "url": "https://ja.wikipedia.org/wiki/Go_%28%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%9F%E3%83%B3%E3%82%B0%E8%A8%80%E8%AA%9E%29",
-        "note": "並行処理と実用性重視",
-        "label_en": "-Go-go",
-        "note_en": "Go-go is a subgenre of funk",
-        "url_en": "https://en.wikipedia.org/wiki/Go-go"
+        "note": "並行処理と実用性重視"
       },
       {
         "label": "Node.js",
@@ -14597,14 +14127,12 @@
         "label": "インセプション",
         "startYear": 2010,
         "genre": [
+          "WORK",
           "MOV"
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/%E3%82%A6%E3%82%A9%E3%83%BC%E3%83%AA%E3%83%BC%E3%83%BB%E3%83%95%E3%82%A3%E3%82%B9%E3%82%BF%E3%83%BC",
-        "note": "夢と現実の多層劇",
-        "label_en": "-Wally Pfister",
-        "note_en": "Walter C. Pfister is an American",
-        "url_en": "https://en.wikipedia.org/wiki/Wally_Pfister"
+        "note": "夢と現実の多層劇"
       },
       {
         "label": "iPad",
@@ -14625,14 +14153,12 @@
         "label": "LINE",
         "startYear": 2011,
         "genre": [
+          "WORK",
           "SOF"
         ],
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/LINE",
-        "note": "スタンプ文化で国民的メッセンジャー",
-        "label_en": "-Line–line intersection",
-        "note_en": "In Euclidean geometry, the",
-        "url_en": "https://en.wikipedia.org/wiki/Line%E2%80%93line_intersection"
+        "note": "スタンプ文化で国民的メッセンジャー"
       },
       {
         "label": "家政婦のミタ",
@@ -14654,14 +14180,13 @@
         "startYear": 2011,
         "endYear": 2012,
         "genre": [
+          "WORK",
           "ANI",
           "JAPAN"
         ],
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/Fate/stay_night_%28%E3%82%A2%E3%83%8B%E3%83%A1%29",
-        "note": "重厚ダークファンタジー",
-        "label_en": "-Fate/Zero",
-        "note_en": "Heavy dark fantasy"
+        "note": "重厚ダークファンタジー"
       },
       {
         "label": "テラフォーマーズ",
@@ -14683,14 +14208,13 @@
         "startYear": 2011,
         "endYear": "ongoing",
         "genre": [
+          "WORK",
           "MAN",
           "JAPAN"
         ],
         "imp": 1,
         "url": "https://ja.wikipedia.org/wiki/キングダム_(漫画)",
-        "note": "※重複回避のため補足",
-        "label_en": "-kingudamuWai Chuan *Ben Bian haBie Tu ",
-        "note_en": "Note: Additional information"
+        "note": "※重複回避のため補足"
       },
       {
         "label": "乃木坂46",
@@ -14742,14 +14266,12 @@
         "startYear": 2011,
         "endYear": 2019,
         "genre": [
+          "WORK",
           "TVP"
         ],
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/ゲーム・オブ・スローンズ",
-        "note": "大河群像ファンタジー",
-        "label_en": "-Yuichi Nakamura",
-        "note_en": "Yuichi Nakamura is a Japanese",
-        "url_en": "https://en.wikipedia.org/wiki/Yuichi_Nakamura"
+        "note": "大河群像ファンタジー"
       },
       {
         "label": "東京喰種トーキョーグール",
@@ -14798,28 +14320,24 @@
         "label": "LINE",
         "startYear": 2011,
         "genre": [
+          "WORK",
           "NET",
           "JAPAN"
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/LINE",
-        "note": "日本で普及したメッセージ",
-        "label_en": "-Line–line intersection",
-        "note_en": "In Euclidean geometry, the",
-        "url_en": "https://en.wikipedia.org/wiki/Line%E2%80%93line_intersection"
+        "note": "日本で普及したメッセージ"
       },
       {
         "label": "アデル『21』",
         "startYear": 2011,
         "genre": [
+          "WORK",
           "MUS"
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/21_(アデルのアルバム)",
-        "note": "現代ポップの金字塔",
-        "label_en": "-21 (Adele album)",
-        "note_en": "21 is the second studio album",
-        "url_en": "https://en.wikipedia.org/wiki/21_%28Adele_album%29"
+        "note": "現代ポップの金字塔"
       },
       {
         "label": "初音ミク「千本桜」",
@@ -14839,13 +14357,12 @@
         "label": "サピエンス全史",
         "startYear": 2011,
         "genre": [
+          "WORK",
           "BOO"
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/サピエンス全史",
-        "note": "人類史を俯瞰する通史",
-        "label_en": "-sapiensuQuan Shi ",
-        "note_en": "Overview of human history"
+        "note": "人類史を俯瞰する通史"
       },
       {
         "label": "Minecraft",
@@ -14979,29 +14496,26 @@
         "startYear": 2012,
         "endYear": "ongoing",
         "genre": [
+          "WORK",
           "EVT",
           "JAPAN"
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/%E3%83%8B%E3%82%B3%E3%83%8B%E3%82%B3%E8%B6%85%E4%BC%9A%E8%AD%B0",
-        "note": "ネット文化を横断する総合イベント。",
-        "label_en": "-Megami Tensei",
-        "note_en": "Megami Tensei, marketed in",
-        "url_en": "https://en.wikipedia.org/wiki/Megami_Tensei"
+        "note": "ネット文化を横断する総合イベント。"
       },
       {
         "label": "ソードアート・オンライン",
         "startYear": 2012,
         "endYear": 2012,
         "genre": [
+          "WORK",
           "ANI",
           "JAPAN"
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/%E3%82%BD%E3%83%BC%E3%83%89%E3%82%A2%E3%83%BC%E3%83%88%E3%83%BB%E3%82%AA%E3%83%B3%E3%83%A9%E3%82%A4%E3%83%B3_%28%E3%82%A2%E3%83%8B%E3%83%A1%29",
-        "note": "VRMMO系の定番化",
-        "label_en": "-Sword Art Online",
-        "note_en": "Standardization of VRMMO genre"
+        "note": "VRMMO系の定番化"
       },
       {
         "label": "ガールズ&パンツァー",
@@ -15162,15 +14676,13 @@
         "startYear": 2013,
         "endYear": "ongoing",
         "genre": [
+          "WORK",
           "TVP",
           "JAPAN"
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/ドキュメント72時間",
-        "note": "街角定点ドキュメント",
-        "label_en": "-Rikako Yagi",
-        "note_en": "Rikako Yagi , is a Japanese",
-        "url_en": "https://en.wikipedia.org/wiki/Rikako_Yagi"
+        "note": "街角定点ドキュメント"
       },
       {
         "label": "風立ちぬ",
@@ -15267,15 +14779,13 @@
         "startYear": 2013,
         "endYear": "ongoing",
         "genre": [
+          "WORK",
           "TVP",
           "JAPAN"
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/半沢直樹",
-        "note": "社会現象の企業ドラマ",
-        "label_en": "-Kento Kaku",
-        "note_en": "Kento Kaku is a Japanese actor",
-        "url_en": "https://en.wikipedia.org/wiki/Kento_Kaku"
+        "note": "社会現象の企業ドラマ"
       },
       {
         "label": "Docker",
@@ -15333,14 +14843,12 @@
         "label": "Dota 2",
         "startYear": 2013,
         "genre": [
+          "WORK",
           "GAM"
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/Valve_Corporation",
-        "note": "MOBA競技シーン拡大",
-        "label_en": "-Valve Corporation",
-        "note_en": "Valve Corporation, also known",
-        "url_en": "https://en.wikipedia.org/wiki/Valve_Corporation"
+        "note": "MOBA競技シーン拡大"
       },
       {
         "label": "グランド・セフト・オートV",
@@ -15404,15 +14912,13 @@
         "startYear": 2014,
         "endYear": 2014,
         "genre": [
+          "WORK",
           "ANI",
           "JAPAN"
         ],
         "imp": 3,
         "url": "https://ja.wikipedia.org/wiki/%E6%80%9D%E3%81%84%E5%87%BA%E3%81%AE%E3%83%9E%E3%83%BC%E3%83%8B%E3%83%BC",
-        "note": "思春期の心象風景",
-        "label_en": "-When Marnie Was There (novel)",
-        "note_en": "When Marnie Was There is a",
-        "url_en": "https://en.wikipedia.org/wiki/When_Marnie_Was_There_%28novel%29"
+        "note": "思春期の心象風景"
       },
       {
         "label": "ピンポン THE ANIMATION",
@@ -15479,14 +14985,13 @@
         "startYear": 2014,
         "endYear": "ongoing",
         "genre": [
+          "WORK",
           "MAN",
           "JAPAN"
         ],
         "imp": 3,
         "url": "https://ja.wikipedia.org/wiki/七つの大罪_(漫画)",
-        "note": "王道ファンタジー",
-        "label_en": "-Qi tsunoDa Zui  Wai Chuan *Guan Lian Chu kuBen Bian Wan Jie ",
-        "note_en": "Classic fantasy"
+        "note": "王道ファンタジー"
       },
       {
         "label": "ゴールデンカムイ",
@@ -15522,14 +15027,12 @@
         "label": "テイラー・スウィフト『1989』",
         "startYear": 2014,
         "genre": [
+          "WORK",
           "MUS"
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/1989_(テイラー・スウィフトのアルバム)",
-        "note": "現代ポップ転身作",
-        "label_en": "-List of Taylor Swift live performances",
-        "note_en": "The American singer-songwriter",
-        "url_en": "https://en.wikipedia.org/wiki/List_of_Taylor_Swift_live_performances"
+        "note": "現代ポップ転身作"
       },
       {
         "label": "Kubernetes",
@@ -15551,15 +15054,13 @@
         "startYear": 2015,
         "endYear": 2015,
         "genre": [
+          "WORK",
           "ANI",
           "JAPAN"
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/%E7%B4%B0%E7%94%B0%E5%AE%88",
-        "note": "師弟の王道冒険",
-        "label_en": "-Mamoru Hosoda",
-        "note_en": "Mamoru Hosoda is a Japanese",
-        "url_en": "https://en.wikipedia.org/wiki/Mamoru_Hosoda"
+        "note": "師弟の王道冒険"
       },
       {
         "label": "ワンパンマン (アニメ)",
@@ -15693,28 +15194,26 @@
         "startYear": 2016,
         "endYear": 2016,
         "genre": [
+          "WORK",
           "ANI",
           "JAPAN"
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/Re%3A%E3%82%BC%E3%83%AD%E3%81%8B%E3%82%89%E5%A7%8B%E3%82%81%E3%82%8B%E7%95%B0%E4%B8%96%E7%95%8C%E7%94%9F%E6%B4%BB_%28%E3%82%A2%E3%83%8B%E3%83%A1%29",
-        "note": "ループ型異世界の代表格",
-        "label_en": "-Re:Zero",
-        "note_en": "Representative of loop-type"
+        "note": "ループ型異世界の代表格"
       },
       {
         "label": "この素晴らしい世界に祝福を!",
         "startYear": 2016,
         "endYear": 2017,
         "genre": [
+          "WORK",
           "ANI",
           "JAPAN"
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/%E3%81%93%E3%81%AE%E7%B4%A0%E6%99%B4%E3%82%89%E3%81%97%E3%81%84%E4%B8%96%E7%95%8C%E3%81%AB%E7%A5%9D%E7%A6%8F%E3%82%92%21_%28%E3%82%A2%E3%83%8B%E3%83%A1%29",
-        "note": "異世界コメディ",
-        "label_en": "-KonoSuba",
-        "note_en": "Isekai comedy"
+        "note": "異世界コメディ"
       },
       {
         "label": "モブサイコ100",
@@ -15781,15 +15280,13 @@
         "startYear": 2016,
         "endYear": "ongoing",
         "genre": [
+          "WORK",
           "TVP",
           "JAPAN"
         ],
         "imp": 3,
         "url": "https://ja.wikipedia.org/wiki/逃げるは恥だが役に立つ_(テレビドラマ)",
-        "note": "恋ダンスで社会現象",
-        "label_en": "-Gen Hoshino",
-        "note_en": "Gen Hoshino is a Japanese",
-        "url_en": "https://en.wikipedia.org/wiki/Gen_Hoshino"
+        "note": "恋ダンスで社会現象"
       },
       {
         "label": "鬼滅の刃",
@@ -15878,14 +15375,12 @@
         "label": "オーバーウォッチ",
         "startYear": 2016,
         "genre": [
+          "WORK",
           "GAM"
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/%E3%83%96%E3%83%AA%E3%82%B6%E3%83%BC%E3%83%89%E3%83%BB%E3%82%A8%E3%83%B3%E3%82%BF%E3%83%BC%E3%83%86%E3%82%A4%E3%83%A1%E3%83%B3%E3%83%88",
-        "note": "ヒーローFPS確立",
-        "label_en": "-Blizzard Entertainment",
-        "note_en": "Blizzard Entertainment, Inc",
-        "url_en": "https://en.wikipedia.org/wiki/Blizzard_Entertainment"
+        "note": "ヒーローFPS確立"
       }
     ],
     "2017": [
@@ -15894,15 +15389,13 @@
         "startYear": 2017,
         "endYear": 2017,
         "genre": [
+          "WORK",
           "TVP",
           "JAPAN"
         ],
         "imp": 3,
         "url": "https://ja.wikipedia.org/wiki/カルテット_(テレビドラマ)",
-        "note": "大人の会話劇",
-        "label_en": "-Natsuna Watanabe",
-        "note_en": "Natsuna Watanabe , better known",
-        "url_en": "https://en.wikipedia.org/wiki/Natsuna_Watanabe"
+        "note": "大人の会話劇"
       },
       {
         "label": "メイドインアビス",
@@ -15984,14 +15477,13 @@
         "startYear": 2017,
         "endYear": 2017,
         "genre": [
+          "WORK",
           "ANI",
           "JAPAN"
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/%E3%81%91%E3%82%82%E3%81%AE%E3%83%95%E3%83%AC%E3%83%B3%E3%82%BA_%28%E3%82%A2%E3%83%8B%E3%83%A1%29",
-        "note": "低予算から社会現象",
-        "label_en": "-Big Cat Rescue",
-        "note_en": "Low budget leads to social"
+        "note": "低予算から社会現象"
       },
       {
         "label": "プレミアムフライデー",
@@ -16081,14 +15573,13 @@
         "startYear": 2018,
         "endYear": "ongoing",
         "genre": [
+          "WORK",
           "NET",
           "JAPAN"
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/FANZA",
-        "note": "DMMの成人向けブランド再編",
-        "label_en": "-FANZA → Fanza",
-        "note_en": "Reorganization of DMM's ad"
+        "note": "DMMの成人向けブランド再編"
       },
       {
         "label": "アンナチュラル",
@@ -16170,44 +15661,40 @@
         "startYear": 2018,
         "endYear": 2020,
         "genre": [
+          "WORK",
           "FOO",
           "PHE",
           "JAPAN"
         ],
         "imp": 3,
         "url": "https://ja.wikipedia.org/wiki/バブルティー",
-        "note": "若年層を中心に大流行。",
-        "label_en": "-tapiokatei-bu-mu(Di 2Ci )",
-        "note_en": "Widespread among the younger"
+        "note": "若年層を中心に大流行。"
       },
       {
         "label": "タピオカティーブーム（第2次）",
         "startYear": 2018,
         "endYear": 2020,
         "genre": [
+          "WORK",
           "FOO",
           "JAPAN"
         ],
         "imp": 3,
         "url": "https://ja.wikipedia.org/wiki/%E3%83%90%E3%83%96%E3%83%AB%E3%83%86%E3%82%A3%E3%83%BC",
-        "note": "若年層を中心に大流行。",
-        "label_en": "-tapiokatei-bu-mu(Di 2Ci )",
-        "note_en": "Widespread outbreak among the"
+        "note": "若年層を中心に大流行。"
       },
       {
         "label": "ヴァイオレット・エヴァーガーデン",
         "startYear": 2018,
         "endYear": 2018,
         "genre": [
+          "WORK",
           "ANI",
           "JAPAN"
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/%E4%BA%AC%E9%83%BD%E3%82%A2%E3%83%8B%E3%83%A1%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3",
-        "note": "映像美で高評価",
-        "label_en": "-Kyoto Animation",
-        "note_en": "Kyoto Animation Co., Ltd",
-        "url_en": "https://en.wikipedia.org/wiki/Kyoto_Animation"
+        "note": "映像美で高評価"
       },
       {
         "label": "チェンソーマン",
@@ -16302,14 +15789,13 @@
         "startYear": 2019,
         "endYear": 2019,
         "genre": [
+          "WORK",
           "FMT",
           "JAPAN"
         ],
         "imp": 3,
         "url": "https://ja.wikipedia.org/wiki/成人向け雑誌#コンビニエンスストアでの扱い",
-        "note": "小売の扱いが転換点に",
-        "label_en": "-konbiniCheng Ren Zhi Che Qu ",
-        "note_en": "Retail handling is at a turning"
+        "note": "小売の扱いが転換点に"
       },
       {
         "label": "天気の子",
@@ -16360,14 +15846,12 @@
         "label": "ビリー・アイリッシュ『WHEN WE ALL…』",
         "startYear": 2019,
         "genre": [
+          "WORK",
           "MUS"
         ],
         "imp": 3,
         "url": "https://ja.wikipedia.org/wiki/WHEN_WE_ALL_FALL_ASLEEP,_WHERE_DO_WE_GO%3F",
-        "note": "ベッドルーム発世界制覇",
-        "label_en": "-Hit Me Hard and Soft: The Tour",
-        "note_en": "Hit Me Hard and Soft: The Tour",
-        "url_en": "https://en.wikipedia.org/wiki/Hit_Me_Hard_and_Soft%3A_The_Tour"
+        "note": "ベッドルーム発世界制覇"
       },
       {
         "label": "Official髭男dism「Pretender」",
@@ -16473,14 +15957,13 @@
         "startYear": 2020,
         "endYear": "ongoing",
         "genre": [
+          "WORK",
           "MAG",
           "JAPAN"
         ],
         "imp": 3,
         "url": "https://ja.wikipedia.org/wiki/%E3%83%AF%E3%83%B3%E3%83%80%E3%83%BCJAPON",
-        "note": "異空間旅の後継誌",
-        "label_en": "-Wonder Japan",
-        "note_en": "Sequel magazine to \"Otherworldly"
+        "note": "異空間旅の後継誌"
       },
       {
         "label": "原神",
@@ -16766,14 +16249,13 @@
         "startYear": 2023,
         "endYear": 2024,
         "genre": [
+          "WORK",
           "ANI",
           "JAPAN"
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/%E4%B8%AD%E8%B0%B7%E6%95%8F%E5%A4%AB",
-        "note": "後宮×薬学ミステリ",
-        "label_en": "-The Apothecary Diaries",
-        "note_en": "Palace intrigue meets phar"
+        "note": "後宮×薬学ミステリ"
       },
       {
         "label": "葬送のフリーレン",
@@ -16820,14 +16302,12 @@
         "label": "バルダーズ・ゲート3",
         "startYear": 2023,
         "genre": [
+          "WORK",
           "GAM"
         ],
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/バルダーズ・ゲート3",
-        "note": "CRPG再興の決定版",
-        "label_en": "-Spike Chunsoft",
-        "note_en": "Spike Chunsoft Co., Ltd. is",
-        "url_en": "https://en.wikipedia.org/wiki/Spike_Chunsoft"
+        "note": "CRPG再興の決定版"
       }
     ],
     "2024": [
@@ -17043,6 +16523,12 @@
       "code": "JAPAN",
       "label": "日本",
       "label_en": "Japan",
+      "conjunction": true
+    },
+    {
+      "code": "WORK",
+      "label": "作業用（仮）",
+      "label_en": "For Work",
       "conjunction": true
     }
   ]
