@@ -282,16 +282,6 @@
         "note": "老漁師の誇りの闘い"
       },
       {
-        "label": "禁じられた遊び",
-        "startYear": 1952,
-        "genre": [
-          "MOV"
-        ],
-        "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/禁じられた遊び",
-        "note": "戦争と童心の対比"
-      },
-      {
         "label": "雨に唄えば",
         "startYear": 1952,
         "genre": [
@@ -300,6 +290,17 @@
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/雨に唄えば",
         "note": "ミュージカル映画の古典"
+      },
+      {
+        "label": "禁じられた遊び",
+        "startYear": 1952,
+        "genre": [
+          "MOV"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/禁じられた遊び",
+        "note": "戦争と童心の対比",
+        "label_en": "fobidon game"
       }
     ],
     "1953": [
