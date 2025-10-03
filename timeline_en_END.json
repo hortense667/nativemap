@@ -623,19 +623,6 @@
         "url_en": "https://en.wikipedia.org/wiki/Sh%C5%ABkan_Shinch%C5%8D"
       },
       {
-        "label": "週刊新潮",
-        "startYear": 1956,
-        "endYear": "ongoing",
-        "genre": [
-          "WORK",
-          "MAG",
-          "JAPAN"
-        ],
-        "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/%E6%96%B0%E6%BD%AE45",
-        "note": "週刊ジャーナリズム"
-      },
-      {
         "label": "エルヴィス・プレスリー",
         "startYear": 1956,
         "genre": [
