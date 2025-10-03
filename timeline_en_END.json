@@ -640,19 +640,6 @@
     ],
     "1957": [
       {
-        "label": "Fortran",
-        "startYear": 1957,
-        "genre": [
-          "SOF"
-        ],
-        "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/Fortran",
-        "note": "科学技術計算言語の祖",
-        "label_en": "Fortran",
-        "url_en": "フォートラン",
-        "note_en": "Fortran is a third-generation"
-      },
-      {
         "label": "十二人の怒れる男",
         "startYear": 1957,
         "genre": [
@@ -662,6 +649,19 @@
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/%E3%82%B7%E3%83%89%E3%83%8B%E3%83%BC%E3%83%BB%E3%83%AB%E3%83%A1%E3%83%83%E3%83%88",
         "note": "密室劇の緊張感"
+      },
+      {
+        "label": "Fortran",
+        "startYear": 1957,
+        "genre": [
+          "SOF"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/Fortran",
+        "note": "科学技術計算言語の祖",
+        "label_en": "Fortran言語",
+        "url_en": "フォートラン",
+        "note_en": "Fortran is a third-generation"
       }
     ],
     "1958": [
