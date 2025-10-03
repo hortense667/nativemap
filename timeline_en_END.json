@@ -471,8 +471,8 @@
         "url": "https://ja.wikipedia.org/wiki/%E7%81%AB%E3%81%AE%E9%B3%A5_(%E6%BC%AB%E7%94%BB)",
         "note": "生命と輪廻を描く大作",
         "label_en": "Phoenix (manga)",
-        "note_en": "Phoenix is an unfinished manga",
-        "url_en": "https://en.wikipedia.org/wiki/Phoenix_%28manga%29"
+        "url_en": "ふむふむ",
+        "note_en": "Phoenix is an unfinished manga"
       },
       {
         "label": "なかよし",
@@ -488,20 +488,6 @@
         "label_en": "Nakayoshi",
         "note_en": "Nakayoshi is a monthly shōjo",
         "url_en": "https://en.wikipedia.org/wiki/Nakayoshi"
-      },
-      {
-        "label": "指輪物語",
-        "startYear": 1954,
-        "genre": [
-          "NOV",
-          "JAPAN"
-        ],
-        "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/指輪物語",
-        "note": "中つ国叙事詩の金字塔",
-        "label_en": "Tales of Wedding Rings",
-        "note_en": "Tales of Wedding Rings is a",
-        "url_en": "https://en.wikipedia.org/wiki/Tales_of_Wedding_Rings"
       },
       {
         "label": "ロックンロール",
@@ -541,6 +527,20 @@
         "label_en": "Godzilla (1954 film)",
         "note_en": "Godzilla is a 1954 Japanese",
         "url_en": "https://en.wikipedia.org/wiki/Godzilla_%281954_film%29"
+      },
+      {
+        "label": "指輪物語",
+        "startYear": 1954,
+        "genre": [
+          "NOV",
+          "JAPAN"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/指輪物語",
+        "note": "中つ国叙事詩の金字塔",
+        "label_en": "Tales of Wedding Ringsだす。",
+        "url_en": "https://en.wikipedia.org/wiki/Tales_of_Wedding_Rings",
+        "note_en": "Tales of Wedding Rings is a"
       }
     ],
     "1955": [
