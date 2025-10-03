@@ -13,6 +13,20 @@
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/%E7%B5%82%E6%88%A6%E3%81%AE%E6%97%A5",
         "note": "第二次世界大戦の敗戦"
+      },
+      {
+        "label": "終戦",
+        "startYear": 1945,
+        "endYear": 1945,
+        "genre": [
+          "JAPAN",
+          "UNC",
+          "WORK"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/%E7%B5%82%E6%88%A6%E3%81%AE%E6%97%A5",
+        "note": "第二次世界大戦の敗戦",
+        "url_en": "https://ja.wikipedia.org/wiki/%E5%AF%BE%E6%97%A5%E6%88%A6%E5%8B%9D%E8%A8%98%E5%BF%B5%E6%97%A5"
       }
     ],
     "1946": [
