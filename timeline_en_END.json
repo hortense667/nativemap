@@ -1959,6 +1959,20 @@
         "label_en": "2001: A Space Odyssey",
         "note_en": "2001: A Space Odyssey is a",
         "url_en": "https://en.wikipedia.org/wiki/2001%3A_A_Space_Odyssey"
+      },
+      {
+        "label": "ラブホテル文化",
+        "startYear": 1968,
+        "endYear": "ongoing",
+        "genre": [
+          "JAPAN",
+          "PHE",
+          "WORK"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/ラブホテル",
+        "note": "日本独自の宿泊文化",
+        "url_en": "https://en.wikipedia.org/wiki/Love_hotel"
       }
     ],
     "1969": [
