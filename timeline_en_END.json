@@ -599,6 +599,29 @@
         "note": "週刊ジャーナリズム",
         "label_en": "Shūkan Shinchō",
         "url_en": "https://en.wikipedia.org/wiki/Sh%C5%ABkan_Shinch%C5%8D"
+      },
+      {
+        "label": "ケリーバッグ",
+        "startYear": 1956,
+        "genre": [
+          "WORK",
+          "FAS"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/%E3%83%87%E3%82%A3%E3%82%AA%E3%83%BC%E3%83%AB",
+        "note": "エルメスの象徴的ハンドバッグ"
+      },
+      {
+        "label": "ケリーバッグ",
+        "startYear": 1956,
+        "genre": [
+          "FAS",
+          "WORK"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/%E3%82%B1%E3%83%AA%E3%83%BC%E3%83%90%E3%83%83%E3%82%B0",
+        "note": "エルメスの象徴的ハンドバッグ",
+        "url_en": "https://en.wikipedia.org/wiki/Kelly_bag"
       }
     ],
     "1957": [
@@ -1951,6 +1974,20 @@
         "url": "https://ja.wikipedia.org/wiki/ラブホテル",
         "note": "日本独自の宿泊文化",
         "url_en": "https://en.wikipedia.org/wiki/Love_hotel"
+      },
+      {
+        "label": "日野ミッドナイトグラフィティ 走れ!歌謡曲",
+        "startYear": 1968,
+        "endYear": 2021,
+        "genre": [
+          "JAPAN",
+          "RDO",
+          "WORK"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/%E6%97%A5%E9%87%8E%E3%83%9F%E3%83%83%E3%83%89%E3%83%8A%E3%82%A4%E3%83%88%E3%82%B0%E3%83%A9%E3%83%95%E3%82%A3%E3%83%86%E3%82%A3_%E8%B5%B0%E3%82%8C!%E6%AD%8C%E8%AC%A1%E6%9B%B2",
+        "note": "深夜の定番歌謡番組。",
+        "url_en": "https://ja.wikipedia.org/wiki/%E6%97%A5%E9%87%8E%E3%83%9F%E3%83%83%E3%83%89%E3%83%8A%E3%82%A4%E3%83%88%E3%82%B0%E3%83%A9%E3%83%95%E3%82%A3%E3%83%86%E3%82%A3_%E8%B5%B0%E3%82%8C!%E6%AD%8C%E8%AC%A1%E6%9B%B2"
       }
     ],
     "1969": [
