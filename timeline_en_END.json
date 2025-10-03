@@ -340,6 +340,19 @@
         "note": "戦争と童心の対比",
         "label_en": "Forbidden Games",
         "url_en": "https://en.wikipedia.org/wiki/Forbidden_Games"
+      },
+      {
+        "label": "老人と海",
+        "startYear": 1952,
+        "genre": [
+          "JAPAN",
+          "NOV",
+          "WORK"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/老人と海",
+        "note": "老漁師の誇りの闘い",
+        "url_en": "https://en.wikipedia.org/wiki/The_Old_Man_and_the_Sea"
       }
     ],
     "1953": [
@@ -617,6 +630,19 @@
         "note": "週刊ジャーナリズム",
         "label_en": "Shūkan Shinchō",
         "url_en": "https://en.wikipedia.org/wiki/Sh%C5%ABkan_Shinch%C5%8D"
+      },
+      {
+        "label": "週刊新潮",
+        "startYear": 1956,
+        "endYear": "ongoing",
+        "genre": [
+          "WORK",
+          "MAG",
+          "JAPAN"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/%E6%96%B0%E6%BD%AE45",
+        "note": "週刊ジャーナリズム"
       }
     ],
     "1957": [
@@ -1013,6 +1039,29 @@
         "label_en": "La Dolce Vita",
         "note_en": "La Dolce Vita is a 1960 satirical",
         "url_en": "https://en.wikipedia.org/wiki/La_Dolce_Vita"
+      },
+      {
+        "label": "日本の学生運動",
+        "startYear": 1960,
+        "genre": [
+          "WORK",
+          "PHE",
+          "JAPAN"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/日本の学生運動",
+        "note": "全共闘など隆盛"
+      },
+      {
+        "label": "日本の学生運動",
+        "startYear": 1960,
+        "genre": [
+          "JAPAN",
+          "PHE",
+          "WORK"
+        ],
+        "imp": 4,
+        "note": "全共闘など隆盛"
       }
     ],
     "1961": [
