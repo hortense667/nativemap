@@ -305,19 +305,6 @@
         "url_en": "https://en.wikipedia.org/wiki/Astro_Boy"
       },
       {
-        "label": "雨に唄えば",
-        "startYear": 1952,
-        "genre": [
-          "MOV"
-        ],
-        "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/%E9%9B%A8%E3%81%AB%E5%94%84%E3%81%88%E3%81%B0",
-        "note": "ミュージカル映画の古典",
-        "label_en": "Singin' in the Rain",
-        "note_en": "Singin' in the Rain is a 1952",
-        "url_en": "https://en.wikipedia.org/wiki/Singin%27_in_the_Rain"
-      },
-      {
         "label": "NME",
         "startYear": 1952,
         "endYear": 2018,
@@ -344,6 +331,32 @@
         "note": "戦争と童心の対比",
         "label_en": "Forbidden Games",
         "url_en": "https://en.wikipedia.org/wiki/Forbidden_Games"
+      },
+      {
+        "label": "雨に唄えば",
+        "startYear": 1952,
+        "genre": [
+          "MOV"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/%E9%9B%A8%E3%81%AB%E5%94%84%E3%81%88%E3%81%B0",
+        "note": "ミュージカル映画の古典",
+        "label_en": "Singin' in the Rainですねー。",
+        "url_en": "https://en.wikipedia.org/wiki/Singin%27_in_the_Rain",
+        "note_en": "Singin' in the Rain is a 1952"
+      },
+      {
+        "label": "雨に唄えば",
+        "startYear": 1952,
+        "genre": [
+          "MOV"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/%E9%9B%A8%E3%81%AB%E5%94%84%E3%81%88%E3%81%B0",
+        "note": "ミュージカル映画の古典",
+        "label_en": "Singin' in the Rain",
+        "note_en": "Singin' in the Rain is a 1952",
+        "url_en": "https://en.wikipedia.org/wiki/Singin%27_in_the_Rain"
       }
     ],
     "1953": [
@@ -396,13 +409,14 @@
         "label": "華氏451度",
         "startYear": 1953,
         "genre": [
-          "WORK",
           "NOV",
-          "JAPAN"
+          "JAPAN",
+          "WORK"
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/華氏451度",
-        "note": "本が禁じられた近未来"
+        "note": "本が禁じられた近未来",
+        "url_en": "そりゃねー。"
       },
       {
         "label": "マッチボックス(ミニカー)",
