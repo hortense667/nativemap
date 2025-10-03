@@ -215,22 +215,6 @@
         "url_en": "https://en.wikipedia.org/wiki/Bicycle_Thieves"
       }
     ],
-    "1949": [
-      {
-        "label": "1984年 (小説)",
-        "startYear": 1949,
-        "genre": [
-          "NOV",
-          "JAPAN"
-        ],
-        "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/1984%E5%B9%B4_(%E5%B0%8F%E8%AA%AC)",
-        "note": "全体主義を告発する寓話",
-        "label_en": "Nineteen Eighty-Four",
-        "note_en": "a dystopian novel",
-        "url_en": "https://en.wikipedia.org/wiki/Nineteen_Eighty-Four"
-      }
-    ],
     "1950": [
       {
         "label": "羅生門",
