@@ -634,6 +634,18 @@
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/%E6%96%B0%E6%BD%AE45",
         "note": "週刊ジャーナリズム"
+      },
+      {
+        "label": "エルヴィス・プレスリー",
+        "startYear": 1956,
+        "genre": [
+          "MUS",
+          "WORK"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/エルヴィス・プレスリー",
+        "note": "ロックの王の登場",
+        "url_en": "https://en.wikipedia.org/wiki/Elvis_Presley"
       }
     ],
     "1957": [
