@@ -1,6 +1,15 @@
 {
   "events": {
-    "1945": [],
+    "1945": [
+      {
+        "label": "終戦の日",
+        "startYear": 1945,
+        "genre": [
+          "PHE"
+        ],
+        "label_en": "the day of end of the war"
+      }
+    ],
     "1946": [
       {
         "label": "サザエさん",
