@@ -84,11 +84,11 @@
           "HAR"
         ],
         "imp": 5,
-        "note": "ENIAC は、アメリカで開発された黎明期の電子計算機。",
-        "label_en": "ENIAC",
-        "note_en": "ENIAC was the first programmable, electronic, general-purpose digital computer, completed in 1945.",
         "url": "https://ja.wikipedia.org/wiki/ENIAC",
-        "url_en": "https://en.wikipedia.org/wiki/ENIAC"
+        "note": "ENIAC は、アメリカで開発された黎明期の電子計算機です。",
+        "label_en": "ENIAC",
+        "url_en": "https://en.wikipedia.org/wiki/ENIAC",
+        "note_en": "ENIAC was the first programmable, electronic, general-purpose digital computer, completed in 1945."
       }
     ],
     "1947": [
@@ -17285,6 +17285,7 @@
       }
     ]
   },
+  "eraSettings": [],
   "metadata": {
     "title": {
       "ja": "ポップカルチャー年表 0.1",
