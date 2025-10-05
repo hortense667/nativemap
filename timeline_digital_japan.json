@@ -2,7 +2,7 @@
   "metadata": {
     "title": {
       "ja": "日本のデジタル年表 0.1",
-      "en": "Japan Digital Timeline 0.1﻿"
+      "en": "Japan Digital Timeline 0.1"
     },
     "description": {
       "ja": "この年表は日本におけるデジタル分野の主な製品や出来事を示します。現状、試験公開中であり内容を精査している段階です。",
@@ -467,20 +467,6 @@
         "url_en": "https://en.wikipedia.org/wiki/Transistor_computer"
       },
       {
-        "label": "ETL Mark III（トランジスタ式計算機）",
-        "startYear": 1956,
-        "genre": [
-          "HAR-PC",
-          "HARD",
-          "JAPAN"
-        ],
-        "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/ETL_Mark_III",
-        "label_en": "ETL Mark III",
-        "note_en": "Early Japanese transistorized computer at ETL",
-        "url_en": "https://en.wikipedia.org/wiki/History_of_computing"
-      },
-      {
         "label": "FACOM 128A（リレー式計算機）",
         "startYear": 1956,
         "genre": [
@@ -784,8 +770,8 @@
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/ジョセフソン効果",
         "note": "超伝導トンネル効果を理論予言し計測基盤に",
-        "label_en": "ziyosehusonXiao Guo noFa Jian",
-        "note_en": "https://en.wikipedia.org/wiki/Josephson_effect"
+        "label_en": "The discovery of the Josephson effect",
+        "url_en": "https://en.wikipedia.org/wiki/Josephson_effect"
       },
       {
         "label": "Atlas Supervisor",
@@ -1452,20 +1438,6 @@
         "url_en": "https://en.wikipedia.org/wiki/Data_General_Nova"
       },
       {
-        "label": "ARPANET",
-        "startYear": 1969,
-        "genre": [
-          "SOF-SVC",
-          "SOFT"
-        ],
-        "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/ARPANET",
-        "note": "4拠点接続から出発、パケット交換ネットの研究基盤に。",
-        "label_en": "ARPANET",
-        "note_en": "The Advanced Research Projects",
-        "url_en": "https://en.wikipedia.org/wiki/ARPANET"
-      },
-      {
         "label": "JIS X 0201（アルファベット・片仮名）",
         "startYear": 1969,
         "genre": [
@@ -1611,20 +1583,6 @@
         "label_en": "RT-11",
         "note_en": "RT-11 is a discontinued small.",
         "url_en": "https://en.wikipedia.org/wiki/RT-11"
-      },
-      {
-        "label": "PDP-11（研究・制御の本流）",
-        "startYear": 1970,
-        "genre": [
-          "HAR-PC",
-          "HARD"
-        ],
-        "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/PDP-11",
-        "note": "周辺機器/RT-11等とともに計測制御/対話処理の“現場OS/機”を形成",
-        "label_en": "PDP-11",
-        "note_en": "The PDP–11 is a series of 16-bit",
-        "url_en": "https://en.wikipedia.org/wiki/PDP-11"
       },
       {
         "label": "POSシステム普及（米発→日本）",
