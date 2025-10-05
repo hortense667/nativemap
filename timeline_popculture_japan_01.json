@@ -5,8 +5,8 @@
       "en": "POP Culture Timeline 0.1"
     },
     "description": {
-      "ja": "この年表は日本におけるデジタル分野の主な製品や出来事を示します。現状、試験公開中であり内容を精査している段階です。",
-      "en": "This timeline shows the major products and events in the digital field in Japan.Currently, it is in a trial phase and the content is being reviewed."
+      "ja": "この年表は日本におけるポップカルチャー分野の主な作品や製品、出来事を示します。現状、試験公開中であり内容を精査している段階です。",
+      "en": "This timeline shows the main works, products, and events in the field of pop culture in Japan. Currently, it is in a trial release and under review.。"
     },
     "initialCreator": "Satoshi Endo",
     "contributors": [
@@ -17508,4 +17508,5 @@
       "conjunction": true
     }
   ]
+
 }
