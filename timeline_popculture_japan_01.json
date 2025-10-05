@@ -116,11 +116,11 @@
           "JAPAN"
         ],
         "imp": 5,
-        "note": "『新宝島』（しんたからじま、新寳島）は、1947年に手塚治虫が発表した漫画。 原作・構成は酒井七馬、作画は手塚治虫。",
-        "label_en": "Shin Takarajima (song)",
-        "note_en": "\"Shin Takarajima\" is a song by Japanese band Sakanaction. The band's frontman, Ichiro Yamaguchi, wrote the lyrics and music.",
         "url": "https://ja.wikipedia.org/wiki/%E6%96%B0%E5%AE%9D%E5%B3%B6",
-        "url_en": "https://en.wikipedia.org/wiki/Shin_Takarajima_%28song%29"
+        "note": "『新宝島』（しんたからじま、新寳島）は、1947年に手塚治虫が発表した漫画。 原作・構成は酒井七馬、作画は手塚治虫＝当たり前ですかね。",
+        "label_en": "Shin Takarajima (song)",
+        "url_en": "https://en.wikipedia.org/wiki/Shin_Takarajima_%28song%29",
+        "note_en": "\"Shin Takarajima\" is a song by Japanese band Sakanaction. The band's frontman, Ichiro Yamaguchi, wrote the lyrics and music."
       },
       {
         "label": "斜陽",
@@ -17285,6 +17285,7 @@
       }
     ]
   },
+  "eraSettings": [],
   "metadata": {
     "title": {
       "ja": "ポップカルチャー年表 0.1",
