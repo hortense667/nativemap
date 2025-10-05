@@ -16658,116 +16658,143 @@
   "genres": [
     {
       "code": "NON-HIS",
-      "label": "事件/戦略/協定/政策"
+      "label": "事件/戦略/協定/政策",
+      "label_en": "Events/Strat/Agreements/Policies"
     },
     {
       "code": "THE",
-      "label": "理論/モデル"
+      "label": "理論/モデル",
+      "label_en": "Theory/Models"
     },
     {
       "code": "ORG",
-      "label": "人物/組織"
+      "label": "人物/組織",
+      "label_en": "People/Orgs"
     },
     {
       "code": "MED-CNT",
-      "label": "メディア（雑誌/出版）/コンテンツ（作品）"
+      "label": "メディア（雑誌/出版）/コンテンツ（作品）",
+      "label_en": "Media(Mag/Publ)/Content"
     },
     {
       "code": "HAR-PC",
-      "label": "コンピュータ本体"
+      "label": "コンピュータ本体",
+      "label_en": "Computers"
     },
     {
       "code": "HAR-MOB",
-      "label": "モバイル端末/携帯/ウェアラブル"
+      "label": "モバイル端末/携帯/ウェアラブル",
+      "label_en": "Mobile/Phones/Wearables"
     },
     {
       "code": "HAR-CPU",
-      "label": "マイクロプロセッサ"
+      "label": "マイクロプロセッサ",
+      "label_en": "MPUs"
     },
     {
       "code": "HAR-MED",
-      "label": "メディア/データ形式"
+      "label": "メディア/データ形式",
+      "label_en": "Media/DataFmt"
     },
     {
       "code": "HAR-PER",
-      "label": "周辺機器（プリンタ/スキャナ等）"
+      "label": "周辺機器（プリンタ/スキャナ等）",
+      "label_en": "Peripherals(Printers/Scanners)"
     },
     {
       "code": "HAR-IMG",
-      "label": "画像/音響機器（カメラ/オーディオ）"
+      "label": "画像/音響機器（カメラ/オーディオ）",
+      "label_en": "Imaging/Audio(Cam/Audio)"
     },
     {
       "code": "HAR-GAM",
-      "label": "ゲームハード"
+      "label": "ゲームハード",
+      "label_en": "GameHW"
     },
     {
       "code": "HAR-ROB",
-      "label": "ロボティクス/コンシューマロボ"
+      "label": "ロボティクス/コンシューマロボ",
+      "label_en": "Robotics/ConsumerRobots"
     },
     {
       "code": "SOF-OS",
-      "label": "OS"
+      "label": "OS",
+      "label_en": "OS"
     },
     {
       "code": "SOF-DEV",
-      "label": "ソフトウェア（言語/開発ツール/プラットフォーム）"
+      "label": "ソフトウェア（言語/開発ツール/プラットフォーム）",
+      "label_en": "SW(Lang/DevTools/Platforms)"
     },
     {
       "code": "SOF-CRE",
-      "label": "クリエイティブ/3D/メディア系ソフト"
+      "label": "クリエイティブ/3D/メディア系ソフト",
+      "label_en": "Creative/3D/MediaSW"
     },
     {
       "code": "SOF-OFF",
-      "label": "ソフトウェア/業務/データベース"
+      "label": "ソフトウェア/業務/データベース",
+      "label_en": "SW/Enterprise/DB"
     },
     {
       "code": "SOF-SEC",
-      "label": "セキュリティ/プライバシー/決済"
+      "label": "セキュリティ/プライバシー/決済",
+      "label_en": "Sec/Privacy/Payments"
     },
     {
       "code": "SOF-AI",
-      "label": "AI/機械学習"
+      "label": "AI/機械学習",
+      "label_en": "AI/ML"
     },
     {
       "code": "SOF-PRO",
-      "label": "ネットワーク/規格・プロトコル"
+      "label": "ネットワーク/規格・プロトコル",
+      "label_en": "Net/Std/Proto"
     },
     {
       "code": "SOF-SVC",
-      "label": "インターネット/サービス（Web/検索/クラウド等）"
+      "label": "インターネット/サービス（Web/検索/クラウド等）",
+      "label_en": "Internet/Services(Web/Search/Cloud)"
     },
     {
       "code": "NON-COM",
-      "label": "コミュニティ/イベント"
+      "label": "コミュニティ/イベント",
+      "label_en": "Community/Events"
     },
     {
       "code": "SOF-ENT",
-      "label": "エンタープライズIT"
+      "label": "エンタープライズIT",
+      "label_en": "EnterpriseIT"
     },
     {
       "code": "JAPAN",
       "label": "日本",
-      "conjunction": true
+      "conjunction": true,
+      "label_en": "Japan"
     },
     {
       "code": "HARD",
       "label": "ハードウェア",
-      "conjunction": true
+      "conjunction": true,
+      "label_en": "HW"
     },
     {
       "code": "SOFT",
       "label": "ソフトウェア/メディア/規格等",
-      "conjunction": true
+      "conjunction": true,
+      "label_en": "SW/Media/Standards"
     },
     {
       "code": "NONG",
       "label": "事件/トピック/戦略等",
-      "conjunction": true
+      "conjunction": true,
+      "label_en": "Events/Topics/Strat"
     },
     {
       "code": "WORK",
       "label": "作業用（仮）",
-      "conjunction": true
+      "conjunction": true,
+      "label_en": "Scratch"
     }
   ]
 }
