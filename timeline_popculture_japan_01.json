@@ -1,37 +1,4 @@
 {
-  "metadata": {
-    "title": {
-      "ja": "ポップカルチャー年表 0.1",
-      "en": "POP Culture Timeline 0.1"
-    },
-    "description": {
-      "ja": "この年表は日本におけるデジタル分野の主な製品や出来事を示します。現状、試験公開中であり内容を精査している段階です。",
-      "en": "This timeline shows the major products and events in the digital field in Japan.Currently, it is in a trial phase and the content is being reviewed."
-    },
-    "initialCreator": "Satoshi Endo",
-    "contributors": [
-      "Satoshi Endo",
-      "Hortense Endo"
-    ],
-    "contact": {
-      "administrator": {
-        "name": "Satoshi Endo",
-        "email": "zzz@65536.net",
-        "x": "https://x.com/hortense667",
-        "organization": "ZEN University"
-      }
-    },
-    "createdAt": "2025-10-01",
-    "version": "1.0",
-    "language": [
-      "ja",
-      "en"
-    ],
-    "copyright": "© 2025 Satoshi Endo",
-    "license": "CC BY 4.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
-    "notes": "Updates from contributors are welcome. Please do not create separate versions. When reusing data, credit the original authors."
-  },
   "events": {
     "1945": [
       {
@@ -214,16 +181,16 @@
       {
         "label": "エド・サリヴァン・ショー",
         "startYear": 1948,
-        "endYear": "ongoing",
+        "endYear": 1971,
         "genre": [
           "TVP"
         ],
         "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/%E3%82%A8%E3%83%89%E3%83%BB%E3%82%B5%E3%83%AA%E3%83%B4%E3%82%A1%E3%83%B3%E3%83%BB%E3%82%B7%E3%83%A7%E3%83%BC",
         "note": "『エド・サリヴァン・ショー』 は、アメリカ・CBSで放送されていたバラエティ番組である。 エド・サリヴァン まで。",
         "label_en": "The Ed Sullivan Show",
-        "note_en": "The Ed Sullivan Show is an American television variety show that ran on CBS from June 20, 1948, to March 28, 1971, and was hosted by New York entertainment colu…",
-        "url": "https://ja.wikipedia.org/wiki/%E3%82%A8%E3%83%89%E3%83%BB%E3%82%B5%E3%83%AA%E3%83%B4%E3%82%A1%E3%83%B3%E3%83%BB%E3%82%B7%E3%83%A7%E3%83%BC",
-        "url_en": "https://en.wikipedia.org/wiki/The_Ed_Sullivan_Show"
+        "url_en": "https://en.wikipedia.org/wiki/The_Ed_Sullivan_Show",
+        "note_en": "The Ed Sullivan Show is an American television variety show that ran on CBS from June 20, 1948, to March 28, 1971, and was hosted by New York entertainment colu…"
       },
       {
         "label": "美術手帖",
@@ -17356,6 +17323,12 @@
       "fillEnabled": false
     }
   ],
+  "metadata": {
+    "title": {
+      "ja": "ポップカルチャー年表 0.1",
+      "en": "POP Culture Timeline 0.1"
+    }
+  },
   "genres": [
     {
       "code": "ANI",
