@@ -43,11 +43,11 @@
           "JAPAN"
         ],
         "imp": 5,
-        "note": "『サザエさん』は、長谷川町子による日本の漫画。 また、その主人公である「フグ田サザエ」の呼び名のひとつである。",
-        "label_en": "Sazae-san",
-        "note_en": "Sazae-san is a Japanese yonkoma manga series written and illustrated by Machiko Hasegawa.",
         "url": "https://ja.wikipedia.org/wiki/%E3%82%B5%E3%82%B6%E3%82%A8%E3%81%95%E3%82%93",
-        "url_en": "https://en.wikipedia.org/wiki/Sazae-san"
+        "note": "『サザエさん』は、長谷川町子による日本の漫画。 また、その主人公である「フグ田サザエ」の呼び名のひとつである。タラちゃんがいいよね。最初はたしかいなかった。",
+        "label_en": "Sazae-san",
+        "url_en": "https://en.wikipedia.org/wiki/Sazae-san",
+        "note_en": "Sazae-san is a Japanese yonkoma manga series written and illustrated by Machiko Hasegawa."
       },
       {
         "label": "世界 (雑誌)",
@@ -17285,6 +17285,7 @@
       }
     ]
   },
+  "eraSettings": [],
   "metadata": {
     "title": {
       "ja": "ポップカルチャー年表 0.1",
