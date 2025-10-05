@@ -791,18 +791,18 @@
     ],
     "1963": [
       {
-        "label": "PDP-6",
+        "label": "Teletype ASR-33（端末）",
         "startYear": 1963,
         "genre": [
           "HAR-PC",
           "HARD"
         ],
         "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/PDP-6",
-        "note": "PDP-6は、1963年にディジタル・イクイップメント・コーポレーション(DEC)が開発したPDPシリーズコンピュータの1モデル。 後に開発されたPDP-10の原型であり、両者の命令セットはほぼ同じである。",
-        "label_en": "PDP-6",
-        "note_en": "The PDP-6, short for Programmed Data Processor model 6, is a computer developed by Digital Equipment Corporation (DEC) during 1963 and first delivered in the su…",
-        "url_en": "https://en.wikipedia.org/wiki/PDP-6"
+        "url": "https://ja.wikipedia.org/wiki/ASR-33",
+        "note": "ASR-33は、1960から70年代にコンピュータ用端末装置として広く使われたテレタイプ社のテレタイプ端末で、当時のテレタイプ端末の代表的な機種である。 「テレタイプ」はテレタイプ社の商標だが、同社端末が極めて著名となり、この種の端末を「テレタイプ端末」あるいは「TTY端末」と称することが多い。",
+        "label_en": "Teletype Model 33",
+        "note_en": "The Teletype Model 33 is an electromechanical teleprinter designed for light-duty office use.",
+        "url_en": "https://en.wikipedia.org/wiki/Teletype_Model_33"
       },
       {
         "label": "DIGI-COMP 1",
@@ -819,18 +819,18 @@
         "url_en": "https://en.wikipedia.org/wiki/Digi-Comp_I"
       },
       {
-        "label": "Teletype ASR-33（端末）",
+        "label": "PDP-6",
         "startYear": 1963,
         "genre": [
           "HAR-PC",
           "HARD"
         ],
         "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/ASR-33",
-        "note": "ASR-33は、1960から70年代にコンピュータ用端末装置として広く使われたテレタイプ社のテレタイプ端末で、当時のテレタイプ端末の代表的な機種である。 「テレタイプ」はテレタイプ社の商標だが、同社端末が極めて著名となり、この種の端末を「テレタイプ端末」あるいは「TTY端末」と称することが多い。",
-        "label_en": "Teletype Model 33",
-        "note_en": "The Teletype Model 33 is an electromechanical teleprinter designed for light-duty office use.",
-        "url_en": "https://en.wikipedia.org/wiki/Teletype_Model_33"
+        "url": "https://ja.wikipedia.org/wiki/PDP-6",
+        "note": "PDP-6は、1963年にディジタル・イクイップメント・コーポレーション(DEC)が開発したPDPシリーズコンピュータの1モデル。 後に開発されたPDP-10の原型であり、両者の命令セットはほぼ同じである。",
+        "label_en": "PDP-6",
+        "note_en": "The PDP-6, short for Programmed Data Processor model 6, is a computer developed by Digital Equipment Corporation (DEC) during 1963 and first delivered in the su…",
+        "url_en": "https://en.wikipedia.org/wiki/PDP-6"
       },
       {
         "label": "TX-2",
@@ -841,10 +841,10 @@
         ],
         "imp": 4,
         "url": "https://en.wikipedia.org/wiki/TX-2",
-        "note": "大規模対話型実験機。Sketchpadの母艦として対話グラフィクスを実証",
+        "note": "大規模対話型実験機。Sketchpadの母艦として対話グラフィクスを実証。",
         "label_en": "TX-2",
-        "note_en": "The MIT Lincoln Laboratory TX-2 computer was the successor to the Lincoln TX-0 and was known for its role in advancing both artificial intelligence and human–co…",
-        "url_en": "https://en.wikipedia.org/wiki/TX-2"
+        "url_en": "https://en.wikipedia.org/wiki/TX-2",
+        "note_en": "The MIT Lincoln Laboratory TX-2 computer was the successor to the Lincoln TX-0 and was known for its role in advancing both artificial intelligence and human–co…"
       },
       {
         "label": "Sketchpad（アイヴァン・サザランド）",
