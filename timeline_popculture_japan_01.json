@@ -6,16 +6,16 @@
         "startYear": 1945,
         "endYear": 1945,
         "genre": [
-          "WORK",
           "UNC",
-          "JAPAN"
+          "JAPAN",
+          "WORK"
         ],
         "imp": 5,
-        "note": "終戦の日（しゅうせんのひ）は、日本における第二次世界大戦終結（終戦）日の呼称である。",
+        "url": "https://ja.wikipedia.org/wiki/%E7%B5%82%E6%88%A6%E3%81%AE%E6%97%A5",
+        "note": "終戦の日（しゅうせんのひ）は、日本における第二次世界大戦終結（終戦）日の呼称である。日本の団塊の世代と米国のベビーブーマーは少し違いがあるかもしれません。",
         "label_en": "Surrender of Japan",
         "url_en": "https://en.wikipedia.org/wiki/Surrender_of_Japan",
-        "note_en": "The surrender of the Empire of Japan in World War II was announced by Emperor Hirohito on 15 August and formally signed on 2 September 1945, ending the war.",
-        "url": "https://ja.wikipedia.org/wiki/%E7%B5%82%E6%88%A6%E3%81%AE%E6%97%A5"
+        "note_en": "The surrender of the Empire of Japan in World War II was announced by Emperor Hirohito on 15 August and formally signed on 2 September 1945, ending the war."
       },
       {
         "label": "全共闘世代",
