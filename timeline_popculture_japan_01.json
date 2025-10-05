@@ -1,4 +1,37 @@
 {
+  "metadata": {
+    "title": {
+      "ja": "ポップカルチャー年表 0.1",
+      "en": "POP Culture Timeline 0.1"
+    },
+    "description": {
+      "ja": "この年表は日本におけるデジタル分野の主な製品や出来事を示します。現状、試験公開中であり内容を精査している段階です。",
+      "en": "This timeline shows the major products and events in the digital field in Japan.Currently, it is in a trial phase and the content is being reviewed."
+    },
+    "initialCreator": "Satoshi Endo",
+    "contributors": [
+      "Satoshi Endo",
+      "Hortense Endo"
+    ],
+    "contact": {
+      "administrator": {
+        "name": "Satoshi Endo",
+        "email": "zzz@65536.net",
+        "x": "https://x.com/hortense667",
+        "organization": "ZEN University"
+      }
+    },
+    "createdAt": "2025-10-01",
+    "version": "1.0",
+    "language": [
+      "ja",
+      "en"
+    ],
+    "copyright": "© 2025 Satoshi Endo",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "notes": "Updates from contributors are welcome. Please do not create separate versions. When reusing data, credit the original authors."
+  },
   "events": {
     "1945": [
       {
@@ -6,16 +39,16 @@
         "startYear": 1945,
         "endYear": 1945,
         "genre": [
+          "WORK",
           "UNC",
-          "JAPAN",
-          "WORK"
+          "JAPAN"
         ],
         "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/%E7%B5%82%E6%88%A6%E3%81%AE%E6%97%A5",
         "note": "終戦の日（しゅうせんのひ）は、日本における第二次世界大戦終結（終戦）日の呼称である。",
         "label_en": "Surrender of Japan",
         "url_en": "https://en.wikipedia.org/wiki/Surrender_of_Japan",
-        "note_en": "The surrender of the Empire of Japan in World War II was announced by Emperor Hirohito on 15 August and formally signed on 2 September 1945, ending the war."
+        "note_en": "The surrender of the Empire of Japan in World War II was announced by Emperor Hirohito on 15 August and formally signed on 2 September 1945, ending the war.",
+        "url": "https://ja.wikipedia.org/wiki/%E7%B5%82%E6%88%A6%E3%81%AE%E6%97%A5"
       },
       {
         "label": "全共闘世代",
@@ -43,11 +76,11 @@
           "JAPAN"
         ],
         "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/%E3%82%B5%E3%82%B6%E3%82%A8%E3%81%95%E3%82%93",
-        "note": "『サザエさん』は、長谷川町子による日本の漫画。 また、その主人公である「フグ田サザエ」の呼び名のひとつである。タラちゃんがいいよね。最初はたしかいなかった。",
+        "note": "『サザエさん』は、長谷川町子による日本の漫画。 また、その主人公である「フグ田サザエ」の呼び名のひとつである。",
         "label_en": "Sazae-san",
-        "url_en": "https://en.wikipedia.org/wiki/Sazae-san",
-        "note_en": "Sazae-san is a Japanese yonkoma manga series written and illustrated by Machiko Hasegawa."
+        "note_en": "Sazae-san is a Japanese yonkoma manga series written and illustrated by Machiko Hasegawa.",
+        "url": "https://ja.wikipedia.org/wiki/%E3%82%B5%E3%82%B6%E3%82%A8%E3%81%95%E3%82%93",
+        "url_en": "https://en.wikipedia.org/wiki/Sazae-san"
       },
       {
         "label": "世界 (雑誌)",
@@ -84,11 +117,11 @@
           "HAR"
         ],
         "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/ENIAC",
-        "note": "ENIAC は、アメリカで開発された黎明期の電子計算機です。",
+        "note": "ENIAC は、アメリカで開発された黎明期の電子計算機。",
         "label_en": "ENIAC",
-        "url_en": "https://en.wikipedia.org/wiki/ENIAC",
-        "note_en": "ENIAC was the first programmable, electronic, general-purpose digital computer, completed in 1945."
+        "note_en": "ENIAC was the first programmable, electronic, general-purpose digital computer, completed in 1945.",
+        "url": "https://ja.wikipedia.org/wiki/ENIAC",
+        "url_en": "https://en.wikipedia.org/wiki/ENIAC"
       }
     ],
     "1947": [
@@ -101,11 +134,11 @@
           "JAPAN"
         ],
         "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/%E5%9B%A3%E5%A1%8A%E3%81%AE%E4%B8%96%E4%BB%A3",
-        "note": "団塊の世代（だんかいのせだい）とは、日本において第一次ベビーブームが起きた時期に生まれた世代を指す。ですよね。",
         "label_en": "Baby boom",
+        "note_en": "A baby boom is a period marked by a significant increase of births.",
+        "url": "https://ja.wikipedia.org/wiki/%E5%9B%A3%E5%A1%8A%E3%81%AE%E4%B8%96%E4%BB%A3",
         "url_en": "https://en.wikipedia.org/wiki/Baby_boom",
-        "note_en": "A baby boom is a period marked by a significant increase of births."
+        "note": "団塊の世代（だんかいのせだい）とは、日本において第一次ベビーブームが起きた時期に生まれた世代を指す。"
       },
       {
         "label": "新宝島",
@@ -116,11 +149,11 @@
           "JAPAN"
         ],
         "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/%E6%96%B0%E5%AE%9D%E5%B3%B6",
-        "note": "『新宝島』（しんたからじま、新寳島）は、1947年に手塚治虫が発表した漫画。 原作・構成は酒井七馬、作画は手塚治虫＝当たり前ですかね。",
+        "note": "『新宝島』（しんたからじま、新寳島）は、1947年に手塚治虫が発表した漫画。 原作・構成は酒井七馬、作画は手塚治虫。",
         "label_en": "Shin Takarajima (song)",
-        "url_en": "https://en.wikipedia.org/wiki/Shin_Takarajima_%28song%29",
-        "note_en": "\"Shin Takarajima\" is a song by Japanese band Sakanaction. The band's frontman, Ichiro Yamaguchi, wrote the lyrics and music."
+        "note_en": "\"Shin Takarajima\" is a song by Japanese band Sakanaction. The band's frontman, Ichiro Yamaguchi, wrote the lyrics and music.",
+        "url": "https://ja.wikipedia.org/wiki/%E6%96%B0%E5%AE%9D%E5%B3%B6",
+        "url_en": "https://en.wikipedia.org/wiki/Shin_Takarajima_%28song%29"
       },
       {
         "label": "斜陽",
@@ -181,16 +214,16 @@
       {
         "label": "エド・サリヴァン・ショー",
         "startYear": 1948,
-        "endYear": 1971,
+        "endYear": "ongoing",
         "genre": [
           "TVP"
         ],
         "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/%E3%82%A8%E3%83%89%E3%83%BB%E3%82%B5%E3%83%AA%E3%83%B4%E3%82%A1%E3%83%B3%E3%83%BB%E3%82%B7%E3%83%A7%E3%83%BC",
         "note": "『エド・サリヴァン・ショー』 は、アメリカ・CBSで放送されていたバラエティ番組である。 エド・サリヴァン まで。",
         "label_en": "The Ed Sullivan Show",
-        "url_en": "https://en.wikipedia.org/wiki/The_Ed_Sullivan_Show",
-        "note_en": "The Ed Sullivan Show is an American television variety show that ran on CBS from June 20, 1948, to March 28, 1971, and was hosted by New York entertainment colu…"
+        "note_en": "The Ed Sullivan Show is an American television variety show that ran on CBS from June 20, 1948, to March 28, 1971, and was hosted by New York entertainment colu…",
+        "url": "https://ja.wikipedia.org/wiki/%E3%82%A8%E3%83%89%E3%83%BB%E3%82%B5%E3%83%AA%E3%83%B4%E3%82%A1%E3%83%B3%E3%83%BB%E3%82%B7%E3%83%A7%E3%83%BC",
+        "url_en": "https://en.wikipedia.org/wiki/The_Ed_Sullivan_Show"
       },
       {
         "label": "美術手帖",
@@ -315,21 +348,6 @@
     ],
     "1952": [
       {
-        "label": "老人と海",
-        "startYear": 1952,
-        "genre": [
-          "WORK",
-          "NOV",
-          "JAPAN"
-        ],
-        "imp": 4,
-        "note": "『老人と海』 は、20世紀アメリカの作家アーネスト・ヘミングウェイによる中編小説。 出版は1952年で、ヘミングウェイの生前に刊行されてベストセラーとなった最後の作品である。",
-        "label_en": "The Old Man and the Sea",
-        "url_en": "https://en.wikipedia.org/wiki/The_Old_Man_and_the_Sea",
-        "note_en": "The Old Man and the Sea is a 1952 novella by the American author Ernest Hemingway.",
-        "url": "https://ja.wikipedia.org/wiki/老人と海"
-      },
-      {
         "label": "鉄腕アトム",
         "startYear": 1952,
         "endYear": 1968,
@@ -357,6 +375,21 @@
         "note_en": "New Musical Express (NME) is a British music, film, gaming and culture website, bimonthly magazine, and brand.",
         "url": "https://ja.wikipedia.org/wiki/%E3%83%8B%E3%83%A5%E3%83%BC%E3%83%BB%E3%83%9F%E3%83%A5%E3%83%BC%E3%82%B8%E3%82%AB%E3%83%AB%E3%83%BB%E3%82%A8%E3%82%AF%E3%82%B9%E3%83%97%E3%83%AC%E3%82%B9",
         "url_en": "https://en.wikipedia.org/wiki/NME"
+      },
+      {
+        "label": "老人と海",
+        "startYear": 1952,
+        "genre": [
+          "WORK",
+          "NOV",
+          "JAPAN"
+        ],
+        "imp": 4,
+        "note": "『老人と海』 は、20世紀アメリカの作家アーネスト・ヘミングウェイによる中編小説。 出版は1952年で、ヘミングウェイの生前に刊行されてベストセラーとなった最後の作品である。",
+        "label_en": "The Old Man and the Sea",
+        "url_en": "https://en.wikipedia.org/wiki/The_Old_Man_and_the_Sea",
+        "note_en": "The Old Man and the Sea is a 1952 novella by the American author Ernest Hemingway.",
+        "url": "https://ja.wikipedia.org/wiki/老人と海"
       },
       {
         "label": "禁じられた遊び",
@@ -426,11 +459,11 @@
           "JAPAN"
         ],
         "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/%E3%83%97%E3%83%AC%E3%82%A4%E3%83%A1%E3%82%A4%E3%83%88",
-        "note": "プレイメイト は、アメリカ合衆国の雑誌『プレイボーイ』各号に呼び物として掲載される女性ヌードモデル。雑誌名でもありますよね？",
+        "note": "プレイメイト は、アメリカ合衆国の雑誌『プレイボーイ』各号に呼び物として掲載される女性ヌードモデル。",
         "label_en": "Playboy Playmate",
-        "url_en": "https://en.wikipedia.org/wiki/Playboy_Playmate",
-        "note_en": "A Playmate is a female model featured in the centerfold/gatefold of Playboy magazine as Playmate of the Month (PMOTM)."
+        "note_en": "A Playmate is a female model featured in the centerfold/gatefold of Playboy magazine as Playmate of the Month (PMOTM).",
+        "url": "https://ja.wikipedia.org/wiki/%E3%83%97%E3%83%AC%E3%82%A4%E3%83%A1%E3%82%A4%E3%83%88",
+        "url_en": "https://en.wikipedia.org/wiki/Playboy_Playmate"
       },
       {
         "label": "華氏451度",
@@ -477,21 +510,6 @@
     ],
     "1954": [
       {
-        "label": "火の鳥",
-        "startYear": 1954,
-        "endYear": "ongoing",
-        "genre": [
-          "MAN",
-          "JAPAN"
-        ],
-        "imp": 5,
-        "note": "『火の鳥』（ひのとり）は、手塚治虫のシリーズ漫画作品。",
-        "label_en": "Phoenix (manga)",
-        "note_en": "Phoenix is an unfinished manga series written and illustrated by Osamu Tezuka.",
-        "url": "https://ja.wikipedia.org/wiki/%E7%81%AB%E3%81%AE%E9%B3%A5_(%E6%BC%AB%E7%94%BB)",
-        "url_en": "https://en.wikipedia.org/wiki/Phoenix_%28manga%29"
-      },
-      {
         "label": "ザ・トゥナイト・ショー",
         "startYear": 1954,
         "endYear": "ongoing",
@@ -505,6 +523,21 @@
         "url_en": "https://en.wikipedia.org/wiki/The_Tonight_Show",
         "note_en": "The Tonight Show is an American late-night talk show that has been broadcast on NBC since 1954.",
         "url": "https://ja.wikipedia.org/wiki/ザ・トゥナイト・ショー"
+      },
+      {
+        "label": "火の鳥",
+        "startYear": 1954,
+        "endYear": "ongoing",
+        "genre": [
+          "MAN",
+          "JAPAN"
+        ],
+        "imp": 5,
+        "note": "『火の鳥』（ひのとり）は、手塚治虫のシリーズ漫画作品。",
+        "label_en": "Phoenix (manga)",
+        "note_en": "Phoenix is an unfinished manga series written and illustrated by Osamu Tezuka.",
+        "url": "https://ja.wikipedia.org/wiki/%E7%81%AB%E3%81%AE%E9%B3%A5_(%E6%BC%AB%E7%94%BB)",
+        "url_en": "https://en.wikipedia.org/wiki/Phoenix_%28manga%29"
       },
       {
         "label": "なかよし",
@@ -17285,13 +17318,44 @@
       }
     ]
   },
-  "eraSettings": [],
-  "metadata": {
-    "title": {
-      "ja": "ポップカルチャー年表 0.1",
-      "en": "POP Culture Timeline 0.1"
+  "eraSettings": [
+    {
+      "name": "テレビ・マンガ・週刊誌の時代",
+      "startYear": 1959,
+      "endYear": 1999,
+      "color": "#FFD700",
+      "opacity": "0.3",
+      "enabled": true,
+      "fillEnabled": false
+    },
+    {
+      "name": "ビデオとゲームの時代",
+      "startYear": 1983,
+      "endYear": 2005,
+      "color": "#4169E1",
+      "opacity": "0.3",
+      "enabled": true,
+      "fillEnabled": false
+    },
+    {
+      "name": "モバイルとネットの時代",
+      "startYear": 1995,
+      "endYear": "ongoing",
+      "color": "#DC143C",
+      "opacity": "0.3",
+      "enabled": true,
+      "fillEnabled": false
+    },
+    {
+      "name": "AIの時代",
+      "startYear": 2022,
+      "endYear": "ongoing",
+      "color": "#4169E1",
+      "opacity": "0.3",
+      "enabled": true,
+      "fillEnabled": false
     }
-  },
+  ],
   "genres": [
     {
       "code": "ANI",
