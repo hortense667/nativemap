@@ -1,37 +1,4 @@
 {
-  "metadata": {
-    "title": {
-      "ja": "日本のデジタル年表 0.1",
-      "en": "Japan Digital Timeline 0.1"
-    },
-    "description": {
-      "ja": "この年表は日本におけるデジタル分野の主な製品や出来事を示します。現状、試験公開中であり内容を精査している段階です。",
-      "en": "This timeline shows the major products and events in the digital field in Japan.Currently, it is in a trial phase and the content is being reviewed."
-    },
-    "initialCreator": "Satoshi Endo",
-    "contributors": [
-      "Satoshi Endo",
-      "Hortense Endo"
-    ],
-    "contact": {
-      "administrator": {
-        "name": "Satoshi Endo",
-        "email": "zzz@65536.net",
-        "x": "https://x.com/hortense667",
-        "organization": "ZEN University"
-      }
-    },
-    "createdAt": "2025-10-01",
-    "version": "1.0",
-    "language": [
-      "ja",
-      "en"
-    ],
-    "copyright": "© 2025 Satoshi Endo",
-    "license": "CC BY 4.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
-    "notes": "Updates from contributors are welcome. Please do not create separate versions. When reusing data, credit the original authors."
-  },
   "events": {
     "1945": [
       {
@@ -16655,146 +16622,174 @@
       "fillEnabled": false
     }
   ],
+  "metadata": {
+    "title": {
+      "ja": "日本のデジタル年表 0.1",
+      "en": "Japan Digital Timeline 0.1"
+    }
+  },
   "genres": [
     {
       "code": "NON-HIS",
       "label": "事件/戦略/協定/政策",
-      "label_en": "Events/Strat/Agreements/Policies"
+      "label_en": "Events/Strat/Agreements/Policies",
+      "conjunction": false
     },
     {
       "code": "THE",
       "label": "理論/モデル",
-      "label_en": "Theory/Models"
+      "label_en": "Theory/Models",
+      "conjunction": false
     },
     {
       "code": "ORG",
       "label": "人物/組織",
-      "label_en": "People/Orgs"
+      "label_en": "People/Orgs",
+      "conjunction": false
     },
     {
       "code": "MED-CNT",
       "label": "メディア（雑誌/出版）/コンテンツ（作品）",
-      "label_en": "Media(Mag/Publ)/Content"
+      "label_en": "Media(Mag/Publ)/Content",
+      "conjunction": false
     },
     {
       "code": "HAR-PC",
       "label": "コンピュータ本体",
-      "label_en": "Computers"
+      "label_en": "Computers",
+      "conjunction": false
     },
     {
       "code": "HAR-MOB",
       "label": "モバイル端末/携帯/ウェアラブル",
-      "label_en": "Mobile/Phones/Wearables"
+      "label_en": "Mobile/Phones/Wearables",
+      "conjunction": false
     },
     {
       "code": "HAR-CPU",
       "label": "マイクロプロセッサ",
-      "label_en": "MPUs"
+      "label_en": "MPUs",
+      "conjunction": false
     },
     {
       "code": "HAR-MED",
       "label": "メディア/データ形式",
-      "label_en": "Media/DataFmt"
+      "label_en": "Media/DataFmt",
+      "conjunction": false
     },
     {
       "code": "HAR-PER",
       "label": "周辺機器（プリンタ/スキャナ等）",
-      "label_en": "Peripherals(Printers/Scanners)"
+      "label_en": "Peripherals(Printers/Scanners)",
+      "conjunction": false
     },
     {
       "code": "HAR-IMG",
       "label": "画像/音響機器（カメラ/オーディオ）",
-      "label_en": "Imaging/Audio(Cam/Audio)"
+      "label_en": "Imaging/Audio(Cam/Audio)",
+      "conjunction": false
     },
     {
       "code": "HAR-GAM",
       "label": "ゲームハード",
-      "label_en": "GameHW"
+      "label_en": "GameHW",
+      "conjunction": false
     },
     {
       "code": "HAR-ROB",
       "label": "ロボティクス/コンシューマロボ",
-      "label_en": "Robotics/ConsumerRobots"
+      "label_en": "Robotics/ConsumerRobots",
+      "conjunction": false
     },
     {
       "code": "SOF-OS",
       "label": "OS",
-      "label_en": "OS"
+      "label_en": "OS",
+      "conjunction": false
     },
     {
       "code": "SOF-DEV",
       "label": "ソフトウェア（言語/開発ツール/プラットフォーム）",
-      "label_en": "SW(Lang/DevTools/Platforms)"
+      "label_en": "SW(Lang/DevTools/Platforms)",
+      "conjunction": false
     },
     {
       "code": "SOF-CRE",
       "label": "クリエイティブ/3D/メディア系ソフト",
-      "label_en": "Creative/3D/MediaSW"
+      "label_en": "Creative/3D/MediaSW",
+      "conjunction": false
     },
     {
       "code": "SOF-OFF",
       "label": "ソフトウェア/業務/データベース",
-      "label_en": "SW/Enterprise/DB"
+      "label_en": "SW/Enterprise/DB",
+      "conjunction": false
     },
     {
       "code": "SOF-SEC",
       "label": "セキュリティ/プライバシー/決済",
-      "label_en": "Sec/Privacy/Payments"
+      "label_en": "Sec/Privacy/Payments",
+      "conjunction": false
     },
     {
       "code": "SOF-AI",
       "label": "AI/機械学習",
-      "label_en": "AI/ML"
+      "label_en": "AI/ML",
+      "conjunction": false
     },
     {
       "code": "SOF-PRO",
       "label": "ネットワーク/規格・プロトコル",
-      "label_en": "Net/Std/Proto"
+      "label_en": "Net/Std/Proto",
+      "conjunction": false
     },
     {
       "code": "SOF-SVC",
       "label": "インターネット/サービス（Web/検索/クラウド等）",
-      "label_en": "Internet/Services(Web/Search/Cloud)"
+      "label_en": "Internet/Services(Web/Search/Cloud)",
+      "conjunction": false
     },
     {
       "code": "NON-COM",
       "label": "コミュニティ/イベント",
-      "label_en": "Community/Events"
+      "label_en": "Community/Events",
+      "conjunction": false
     },
     {
       "code": "SOF-ENT",
       "label": "エンタープライズIT",
-      "label_en": "EnterpriseIT"
+      "label_en": "EnterpriseIT",
+      "conjunction": false
     },
     {
       "code": "JAPAN",
       "label": "日本",
-      "conjunction": true,
-      "label_en": "Japan"
+      "label_en": "Japan",
+      "conjunction": true
     },
     {
       "code": "HARD",
       "label": "ハードウェア",
-      "conjunction": true,
-      "label_en": "HW"
+      "label_en": "HW",
+      "conjunction": true
     },
     {
       "code": "SOFT",
       "label": "ソフトウェア/メディア/規格等",
-      "conjunction": true,
-      "label_en": "SW/Media/Standards"
+      "label_en": "SW/Media/Standards",
+      "conjunction": true
     },
     {
       "code": "NONG",
       "label": "事件/トピック/戦略等",
-      "conjunction": true,
-      "label_en": "Events/Topics/Strat"
+      "label_en": "Events/Topics/Strat",
+      "conjunction": true
     },
     {
       "code": "WORK",
       "label": "作業用（仮）",
-      "conjunction": true,
-      "label_en": "Scratch"
+      "label_en": "Scratch",
+      "conjunction": true
     }
   ]
 }
