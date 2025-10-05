@@ -315,6 +315,21 @@
     ],
     "1952": [
       {
+        "label": "老人と海",
+        "startYear": 1952,
+        "genre": [
+          "WORK",
+          "NOV",
+          "JAPAN"
+        ],
+        "imp": 4,
+        "note": "『老人と海』 は、20世紀アメリカの作家アーネスト・ヘミングウェイによる中編小説。 出版は1952年で、ヘミングウェイの生前に刊行されてベストセラーとなった最後の作品である。",
+        "label_en": "The Old Man and the Sea",
+        "url_en": "https://en.wikipedia.org/wiki/The_Old_Man_and_the_Sea",
+        "note_en": "The Old Man and the Sea is a 1952 novella by the American author Ernest Hemingway.",
+        "url": "https://ja.wikipedia.org/wiki/老人と海"
+      },
+      {
         "label": "鉄腕アトム",
         "startYear": 1952,
         "endYear": 1968,
@@ -342,21 +357,6 @@
         "note_en": "New Musical Express (NME) is a British music, film, gaming and culture website, bimonthly magazine, and brand.",
         "url": "https://ja.wikipedia.org/wiki/%E3%83%8B%E3%83%A5%E3%83%BC%E3%83%BB%E3%83%9F%E3%83%A5%E3%83%BC%E3%82%B8%E3%82%AB%E3%83%AB%E3%83%BB%E3%82%A8%E3%82%AF%E3%82%B9%E3%83%97%E3%83%AC%E3%82%B9",
         "url_en": "https://en.wikipedia.org/wiki/NME"
-      },
-      {
-        "label": "老人と海",
-        "startYear": 1952,
-        "genre": [
-          "WORK",
-          "NOV",
-          "JAPAN"
-        ],
-        "imp": 4,
-        "note": "『老人と海』 は、20世紀アメリカの作家アーネスト・ヘミングウェイによる中編小説。 出版は1952年で、ヘミングウェイの生前に刊行されてベストセラーとなった最後の作品である。",
-        "label_en": "The Old Man and the Sea",
-        "url_en": "https://en.wikipedia.org/wiki/The_Old_Man_and_the_Sea",
-        "note_en": "The Old Man and the Sea is a 1952 novella by the American author Ernest Hemingway.",
-        "url": "https://ja.wikipedia.org/wiki/老人と海"
       },
       {
         "label": "禁じられた遊び",
@@ -426,11 +426,11 @@
           "JAPAN"
         ],
         "imp": 4,
-        "note": "プレイメイト は、アメリカ合衆国の雑誌『プレイボーイ』各号に呼び物として掲載される女性ヌードモデル。",
-        "label_en": "Playboy Playmate",
-        "note_en": "A Playmate is a female model featured in the centerfold/gatefold of Playboy magazine as Playmate of the Month (PMOTM).",
         "url": "https://ja.wikipedia.org/wiki/%E3%83%97%E3%83%AC%E3%82%A4%E3%83%A1%E3%82%A4%E3%83%88",
-        "url_en": "https://en.wikipedia.org/wiki/Playboy_Playmate"
+        "note": "プレイメイト は、アメリカ合衆国の雑誌『プレイボーイ』各号に呼び物として掲載される女性ヌードモデル。雑誌名でもありますよね？",
+        "label_en": "Playboy Playmate",
+        "url_en": "https://en.wikipedia.org/wiki/Playboy_Playmate",
+        "note_en": "A Playmate is a female model featured in the centerfold/gatefold of Playboy magazine as Playmate of the Month (PMOTM)."
       },
       {
         "label": "華氏451度",
@@ -477,21 +477,6 @@
     ],
     "1954": [
       {
-        "label": "ザ・トゥナイト・ショー",
-        "startYear": 1954,
-        "endYear": "ongoing",
-        "genre": [
-          "WORK",
-          "TVP"
-        ],
-        "imp": 4,
-        "note": "『ザ・トゥナイト・ショー』 は、1954年からアメリカNBCで放送されている深夜トーク番組シリーズ。 以前はロサンゼルスの様々なスタジオで収録されていたが、現在はニューヨークのロックフェラーセンターから放映されている。",
-        "label_en": "The Tonight Show",
-        "url_en": "https://en.wikipedia.org/wiki/The_Tonight_Show",
-        "note_en": "The Tonight Show is an American late-night talk show that has been broadcast on NBC since 1954.",
-        "url": "https://ja.wikipedia.org/wiki/ザ・トゥナイト・ショー"
-      },
-      {
         "label": "火の鳥",
         "startYear": 1954,
         "endYear": "ongoing",
@@ -505,6 +490,21 @@
         "note_en": "Phoenix is an unfinished manga series written and illustrated by Osamu Tezuka.",
         "url": "https://ja.wikipedia.org/wiki/%E7%81%AB%E3%81%AE%E9%B3%A5_(%E6%BC%AB%E7%94%BB)",
         "url_en": "https://en.wikipedia.org/wiki/Phoenix_%28manga%29"
+      },
+      {
+        "label": "ザ・トゥナイト・ショー",
+        "startYear": 1954,
+        "endYear": "ongoing",
+        "genre": [
+          "WORK",
+          "TVP"
+        ],
+        "imp": 4,
+        "note": "『ザ・トゥナイト・ショー』 は、1954年からアメリカNBCで放送されている深夜トーク番組シリーズ。 以前はロサンゼルスの様々なスタジオで収録されていたが、現在はニューヨークのロックフェラーセンターから放映されている。",
+        "label_en": "The Tonight Show",
+        "url_en": "https://en.wikipedia.org/wiki/The_Tonight_Show",
+        "note_en": "The Tonight Show is an American late-night talk show that has been broadcast on NBC since 1954.",
+        "url": "https://ja.wikipedia.org/wiki/ザ・トゥナイト・ショー"
       },
       {
         "label": "なかよし",
