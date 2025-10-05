@@ -1,4 +1,31 @@
 {
+  "metadata": {
+    "title": {
+      "ja": "",
+      "en": ""
+    },
+    "description": {
+      "ja": "",
+      "en": ""
+    },
+    "initialCreator": "",
+    "contributors": [],
+    "contact": {
+      "administrator": {
+        "name": "",
+        "email": "",
+        "x": "",
+        "organization": ""
+      }
+    },
+    "createdAt": "",
+    "version": "",
+    "language": ["ja", "en"],
+    "copyright": "",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "notes": "Updates from contributors are welcome. Please do not create separate versions. When reusing data, credit the original authors."
+  },
   "events": {
   },
   "eraSettings": [],
