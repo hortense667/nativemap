@@ -101,11 +101,11 @@
           "JAPAN"
         ],
         "imp": 5,
-        "label_en": "Baby boom",
-        "note_en": "A baby boom is a period marked by a significant increase of births.",
         "url": "https://ja.wikipedia.org/wiki/%E5%9B%A3%E5%A1%8A%E3%81%AE%E4%B8%96%E4%BB%A3",
+        "note": "団塊の世代（だんかいのせだい）とは、日本において第一次ベビーブームが起きた時期に生まれた世代を指す。ですよね。",
+        "label_en": "Baby boom",
         "url_en": "https://en.wikipedia.org/wiki/Baby_boom",
-        "note": "団塊の世代（だんかいのせだい）とは、日本において第一次ベビーブームが起きた時期に生まれた世代を指す。"
+        "note_en": "A baby boom is a period marked by a significant increase of births."
       },
       {
         "label": "新宝島",
