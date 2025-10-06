@@ -1,109 +1,35 @@
 {
-  "genres": [
-    {
-      "code": "THEORY",
-      "label": "理論/モデル/アルゴリズム",
-      "label_en": "Theory/Models/Algorithms",
-      "conjunction": false
-    },
-    {
-      "code": "SOFTWARE",
-      "label": "ソフトウェア/開発基盤/サービス",
-      "label_en": "Software/Frameworks/Services",
-      "conjunction": false
-    },
-    {
-      "code": "HARDWARE",
-      "label": "ハードウェア/デバイス/計算基盤",
-      "label_en": "Hardware/Devices/Compute",
-      "conjunction": false
-    },
-    {
-      "code": "ROBOTICS",
-      "label": "ロボティクス/自律システム",
-      "label_en": "Robotics/Autonomous Systems",
-      "conjunction": false
-    },
-    {
-      "code": "DATA",
-      "label": "データセット/ベンチマーク",
-      "label_en": "Datasets/Benchmarks",
-      "conjunction": false
-    },
-    {
-      "code": "ORG",
-      "label": "人物/組織/プロジェクト",
-      "label_en": "People/Orgs/Projects",
-      "conjunction": false
-    },
-    {
-      "code": "APPLICATION",
-      "label": "応用/製品/サービス",
-      "label_en": "Applications/Products/Services",
-      "conjunction": false
-    },
-    {
-      "code": "CONTENT",
-      "label": "メディア/コンテンツ（小説/映画/アニメ/ゲーム/書籍）",
-      "label_en": "Media/Content (Fiction/Film/Anime/Game/Books)",
-      "conjunction": false
-    },
-    {
-      "code": "EVENT",
-      "label": "出来事/政策/競技/歴史的転換",
-      "label_en": "Events/Policy/Competitions/Turning points",
-      "conjunction": false
-    },
-    {
-      "code": "BACKGROUND",
-      "label": "時代背景/一般技術",
-      "label_en": "Era background / General tech",
-      "conjunction": false
-    },
-    {
-      "code": "JAPAN",
-      "label": "日本",
-      "label_en": "Japan",
-      "conjunction": true
-    },
-    {
-      "code": "P_NEURAL",
-      "label": "ニューラルネット系",
-      "label_en": "Neural-network based",
-      "conjunction": true
-    },
-    {
-      "code": "P_SYMBOLIC",
-      "label": "記号処理/ルール系",
-      "label_en": "Symbolic/Rule-based",
-      "conjunction": true
-    },
-    {
-      "code": "P_GENERATIVE",
-      "label": "生成モデル系",
-      "label_en": "Generative models",
-      "conjunction": true
-    },
-    {
-      "code": "P_RL",
-      "label": "強化学習系",
-      "label_en": "Reinforcement learning",
-      "conjunction": true
-    },
-    {
-      "code": "P_PROB",
-      "label": "確率/ベイズ系",
-      "label_en": "Probabilistic/Bayesian",
-      "conjunction": true
-    },
-    {
-      "code": "P_EVOL",
-      "label": "進化/遺伝的計算系",
-      "label_en": "Evolutionary/Genetic",
-      "conjunction": true
-    }
-  ],
   "events": {
+    "1942": [
+      {
+        "label": "ロボット工学三原則",
+        "label_en": "Three Laws of Robotics",
+        "startYear": 1942,
+        "genre": [
+          "CONTENT"
+        ],
+        "imp": 5,
+        "url": "[https://ja.wikipedia.org/wiki/ロボット工学三原則",
+        "url_en": "https://en.wikipedia.org/wiki/Three_Laws_of_Robotics",
+        "note": "アシモフが提示したロボット行動の基本原則。",
+        "note_en": "Asimov’s](https://ja.wikipedia.org/wiki/ロボット工学三原則"
+      }
+    ],
+    "1943": [
+      {
+        "label": "マッカロック＝ピッツ・ニューロン",
+        "label_en": "McCulloch–Pitts neuron",
+        "startYear": 1943,
+        "genre": [
+          "THEORY"
+        ],
+        "imp": 5,
+        "url": "[https://ja.wikipedia.org/wiki/マッカロック-ピッツの神経細胞モデル",
+        "url_en": "https://en.wikipedia.org/wiki/Artificial_neuron",
+        "note": "形式ニューロンで論理計算を示し神経計算の礎を築いた。",
+        "note_en": "Formal](https://ja.wikipedia.org/wiki/マッカロック-ピッツの神経細胞モデル"
+      }
+    ],
     "1948": [
       {
         "label": "サイバネティックス",
@@ -4042,5 +3968,116 @@
         "note_en": "OpenAI o3, announced in Dec 2024 and released in 2025, is a stronger reasoning model for ChatGPT with improved performance on coding, math and science tasks."
       }
     ]
-  }
+  },
+  "eraSettings": [],
+  "metadata": {
+    "title": {
+      "ja": "AIの年表 0.1",
+      "en": "Japan Digital Timeline 0.1"
+    }
+  },
+  "genres": [
+    {
+      "code": "THEORY",
+      "label": "理論/モデル/アルゴリズム",
+      "label_en": "Theory/Models/Algorithms",
+      "conjunction": false
+    },
+    {
+      "code": "SOFTWARE",
+      "label": "ソフトウェア/開発基盤/サービス",
+      "label_en": "Software/Frameworks/Services",
+      "conjunction": false
+    },
+    {
+      "code": "HARDWARE",
+      "label": "ハードウェア/デバイス/計算基盤",
+      "label_en": "Hardware/Devices/Compute",
+      "conjunction": false
+    },
+    {
+      "code": "ROBOTICS",
+      "label": "ロボティクス/自律システム",
+      "label_en": "Robotics/Autonomous Systems",
+      "conjunction": false
+    },
+    {
+      "code": "DATA",
+      "label": "データセット/ベンチマーク",
+      "label_en": "Datasets/Benchmarks",
+      "conjunction": false
+    },
+    {
+      "code": "ORG",
+      "label": "人物/組織/プロジェクト",
+      "label_en": "People/Orgs/Projects",
+      "conjunction": false
+    },
+    {
+      "code": "APPLICATION",
+      "label": "応用/製品/サービス",
+      "label_en": "Applications/Products/Services",
+      "conjunction": false
+    },
+    {
+      "code": "CONTENT",
+      "label": "メディア/コンテンツ（小説/映画/アニメ/ゲーム/書籍）",
+      "label_en": "Media/Content (Fiction/Film/Anime/Game/Books)",
+      "conjunction": false
+    },
+    {
+      "code": "EVENT",
+      "label": "出来事/政策/競技/歴史的転換",
+      "label_en": "Events/Policy/Competitions/Turning points",
+      "conjunction": false
+    },
+    {
+      "code": "BACKGROUND",
+      "label": "時代背景/一般技術",
+      "label_en": "Era background / General tech",
+      "conjunction": false
+    },
+    {
+      "code": "JAPAN",
+      "label": "日本",
+      "label_en": "Japan",
+      "conjunction": true
+    },
+    {
+      "code": "P_NEURAL",
+      "label": "ニューラルネット系",
+      "label_en": "Neural-network based",
+      "conjunction": true
+    },
+    {
+      "code": "P_SYMBOLIC",
+      "label": "記号処理/ルール系",
+      "label_en": "Symbolic/Rule-based",
+      "conjunction": true
+    },
+    {
+      "code": "P_GENERATIVE",
+      "label": "生成モデル系",
+      "label_en": "Generative models",
+      "conjunction": true
+    },
+    {
+      "code": "P_RL",
+      "label": "強化学習系",
+      "label_en": "Reinforcement learning",
+      "conjunction": true
+    },
+    {
+      "code": "P_PROB",
+      "label": "確率/ベイズ系",
+      "label_en": "Probabilistic/Bayesian",
+      "conjunction": true
+    },
+    {
+      "code": "P_EVOL",
+      "label": "進化/遺伝的計算系",
+      "label_en": "Evolutionary/Genetic",
+      "conjunction": true
+    }
+  ]
 }
