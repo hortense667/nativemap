@@ -6373,21 +6373,6 @@
         "note_en": "World) Expo in Osaka (Apr?Oct 2025) showcasing future society tech including robotics."
       },
       {
-        "label": "Unitree R1（低価格ヒューマノイド）",
-        "label_en": "Unitree R1 low-cost humanoid",
-        "startYear": 2025,
-        "genre": [
-          "ROBOTICS",
-          "APPLICATION",
-          "CHINA"
-        ],
-        "imp": 4,
-        "url": "https://www.reuters.com/technology/chinas-unitree-prices-new-humanoid-robot-deep-discount-2024-model-2025-07-25/",
-        "url_en": "https://www.reuters.com/technology/chinas-unitree-prices-new-humanoid-robot-deep-discount-2024-model-2025-07-25/",
-        "note": "G1より大幅に安価なR1を発表。多モーダルLLM搭載で家庭・教育用途を狙う。",
-        "note_en": "Unitree) unveiled the cheaper R1 humanoid with a multimodal LLM for home/education uses."
-      },
-      {
         "label": "DeepSeek R1（推論強化LLM）",
         "label_en": "DeepSeek R1 (reasoning LLM)",
         "startYear": 2025,
@@ -6582,6 +6567,36 @@
         "url_en": "https://en.wikipedia.org/wiki/Expo_2025",
         "note": "2025年4?10月開催。先端技術やロボ、未来社会の展示で国際注目を集める。",
         "note_en": "World Expo in Osaka   showcasing future society tech including robotics."
+      },
+      {
+        "label": "Unitree R1（低価格ヒューマノイド）",
+        "startYear": 2025,
+        "genre": [
+          "ROBOTICS",
+          "APPLICATION",
+          "CHAINA"
+        ],
+        "imp": 4,
+        "url": "https://www.reuters.com/technology/chinas-unitree-prices-new-humanoid-robot-deep-discount-2024-model-2025-07-25/",
+        "note": "G1より大幅に安価なR1を発表。多モーダルLLM搭載で家庭・教育用途を狙う。",
+        "label_en": "Unitree R1 low-cost humanoid",
+        "url_en": "https://www.reuters.com/technology/chinas-unitree-prices-new-humanoid-robot-deep-discount-2024-model-2025-07-25/",
+        "note_en": "Unitree) unveiled the cheaper R1 humanoid with a multimodal LLM for home/education uses."
+      },
+      {
+        "label": "Unitree R1（低価格ヒューマノイド）",
+        "label_en": "Unitree R1 low-cost humanoid",
+        "startYear": 2025,
+        "genre": [
+          "ROBOTICS",
+          "APPLICATION",
+          "CHINA"
+        ],
+        "imp": 4,
+        "url": "https://www.reuters.com/technology/chinas-unitree-prices-new-humanoid-robot-deep-discount-2024-model-2025-07-25/",
+        "url_en": "https://www.reuters.com/technology/chinas-unitree-prices-new-humanoid-robot-deep-discount-2024-model-2025-07-25/",
+        "note": "G1より大幅に安価なR1を発表。多モーダルLLM搭載で家庭・教育用途を狙う。",
+        "note_en": "Unitree) unveiled the cheaper R1 humanoid with a multimodal LLM for home/education uses."
       }
     ]
   },
