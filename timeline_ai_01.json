@@ -174,6 +174,22 @@
         "note_en": "Mathematics](https://ja.wikipedia.org/wiki/反応拡散系"
       }
     ],
+    "1955": [
+      {
+        "label": "生成文法（チョムスキー）",
+        "label_en": "Generative grammar",
+        "startYear": 1955,
+        "genre": [
+          "THEORY",
+          "BACKGROUND"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/生成文法",
+        "url_en": "https://en.wikipedia.org/wiki/Generative_grammar",
+        "note": "自然言語の形式的記述の基礎を築いた理論。AI言語処理にも影響。",
+        "note_en": "A foundational theory of formal language description influencing NLP."
+      }
+    ],
     "1956": [
       {
         "label": "ダートマス会議",
@@ -526,6 +542,33 @@
         "url_en": "https://en.wikipedia.org/wiki/Kasumigaseki_Building",
         "note": "日本初の超高層オフィスビル。構造計算に計算機が活用され近代化を象徴。",
         "note_en": "Japan’s first high‑rise office tower; computer‑aided structural analysis symbolized modernization and computational engineering in construction."
+      },
+      {
+        "label": "2001年宇宙の旅（HAL 9000）",
+        "label_en": "2001: A Space Odyssey",
+        "startYear": 1968,
+        "genre": [
+          "CONTENT",
+          "BACKGROUND"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/2001年宇宙の旅",
+        "url_en": "https://en.wikipedia.org/wiki/2001:_A_Space_Odyssey_(film)",
+        "note": "高度AI HALを描いた映画。AIと人間の関係を象徴的に提示。",
+        "note_en": "Film featuring HAL 9000"
+      },
+      {
+        "label": "アンドロイドは電気羊の夢を見るか？",
+        "label_en": "Do Androids Dream of Electric Sheep?",
+        "startYear": 1968,
+        "genre": [
+          "CONTENT"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/アンドロイドは電気羊の夢を見るか%3F",
+        "url_en": "https://en.wikipedia.org/wiki/Do_Androids_Dream_of_Electric_Sheep%3F",
+        "note": "人間性と人工物の境界を問うSF小説。",
+        "note_en": "SF novel questioning the boundary between humans and artificial beings."
       }
     ],
     "1969": [
@@ -648,6 +691,20 @@
         "url_en": "https://en.wikipedia.org/wiki/Colossus:_The_Forbin_Project",
         "note": "軍事超コンピュータが人類を支配する危機を描く。",
         "note_en": "A](https://ja.wikipedia.org/wiki/地球爆破作戦"
+      },
+      {
+        "label": "ライフゲーム",
+        "label_en": "Game of Life",
+        "startYear": 1970,
+        "genre": [
+          "THEORY",
+          "CONTENT"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/ライフゲーム",
+        "url_en": "https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life",
+        "note": "セル・オートマトンの古典。複雑性と創発の例示。",
+        "note_en": "Classic cellular automaton illustrating emergence and complexity."
       }
     ],
     "1971": [
@@ -678,6 +735,21 @@
         "url_en": "https://en.wikipedia.org/wiki/Intel_4004",
         "note": "初の商用マイクロプロセッサ。計算資源の小型化がPC時代の基盤に。",
         "note_en": "The first commercial microprocessor; miniaturized computing power that laid the foundation for the personal computer era."
+      },
+      {
+        "label": "STRIPS",
+        "label_en": "STRIPS",
+        "startYear": 1971,
+        "genre": [
+          "THEORY",
+          "SOFTWARE",
+          "P_SYMBOLIC"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/STRIPS",
+        "url_en": "https://en.wikipedia.org/wiki/STRIPS",
+        "note": "古典計画アルゴリズムの基礎表現。ブロック世界などで使用。",
+        "note_en": "Foundational planning formalism used in blocks-world and beyond."
       }
     ],
     "1972": [
@@ -806,6 +878,22 @@
         "url_en": "https://en.wikipedia.org/wiki/Mobile_phone",
         "note": "携帯電話の黎明。後のデジタル化・スマートフォン普及の出発点。",
         "note_en": "The dawn of mobile telephony, a starting point for later digital networks and the smartphone revolution."
+      }
+    ],
+    "1975": [
+      {
+        "label": "遺伝的アルゴリズム",
+        "label_en": "Genetic algorithm",
+        "startYear": 1975,
+        "genre": [
+          "THEORY",
+          "P_EVOL"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/遺伝的アルゴリズム",
+        "url_en": "https://en.wikipedia.org/wiki/Genetic_algorithm",
+        "note": "ホランドにより提唱。探索・最適化を進化過程で行う手法。",
+        "note_en": "Holland’s method optimizing via evolutionary processes."
       }
     ],
     "1976": [
@@ -937,6 +1025,21 @@
         "url_en": "https://en.wikipedia.org/wiki/Expert_system",
         "note": "知識ベースと推論で専門家の判断を模倣。80年代の商用AIを牽引。",
         "note_en": "Knowledge-based](https://ja.wikipedia.org/wiki/エキスパートシステム"
+      },
+      {
+        "label": "XCON（R1）",
+        "label_en": "XCON (R1)",
+        "startYear": 1980,
+        "genre": [
+          "APPLICATION",
+          "SOFTWARE",
+          "P_SYMBOLIC"
+        ],
+        "imp": 4,
+        "url": "https://en.wikipedia.org/wiki/XCON",
+        "url_en": "https://en.wikipedia.org/wiki/XCON",
+        "note": "DECの受注構成支援エキスパートシステム。商用成功例。",
+        "note_en": "DEC’s expert system for VAX configurations"
       }
     ],
     "1981": [
@@ -1274,6 +1377,35 @@
         "url_en": "https://en.wikipedia.org/wiki/Backpropagation",
         "note": "多層ニューラルネット学習法として再評価され、深層学習の基盤となった。",
         "note_en": "Learning](https://ja.wikipedia.org/wiki/誤差逆伝播法"
+      },
+      {
+        "label": "電総研の脳型コンピュータ研究",
+        "label_en": "ETL/AIST brain-like computing",
+        "startYear": 1986,
+        "genre": [
+          "HARDWARE",
+          "THEORY",
+          "JAPAN"
+        ],
+        "imp": 4,
+        "url": "https://unit.aist.go.jp/rcect/ja/intro/about.html",
+        "url_en": "https://en.wikipedia.org/wiki/Neuromorphic_engineering",
+        "note": "電子技術総合研究所で脳型計算の研究開始。日本の先駆的取り組み。",
+        "note_en": "Japan’s ETL/AIST began brain-inspired computing research"
+      },
+      {
+        "label": "人工生命（命名）",
+        "label_en": "Artificial Life (term)",
+        "startYear": 1986,
+        "genre": [
+          "BACKGROUND",
+          "THEORY"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/人工生命",
+        "url_en": "https://en.wikipedia.org/wiki/Artificial_life",
+        "note": "ランクトンにより命名。生命的現象の計算機モデル化を志向。",
+        "note_en": "Named by Langton"
       }
     ],
     "1987": [
@@ -1579,6 +1711,20 @@
         "url_en": "https://en.wikipedia.org/wiki/Dr._Sbaitso",
         "note": "Sound Blaster同梱の対話デモ。",
         "note_en": "PC speech chatbot bundled with Sound Blaster."
+      },
+      {
+        "label": "シンギュラリティ（ヴィンジ）",
+        "label_en": "Technological Singularity (Vinge)",
+        "startYear": 1993,
+        "genre": [
+          "BACKGROUND",
+          "EVENT"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/技術的特異点",
+        "url_en": "https://en.wikipedia.org/wiki/Technological_singularity",
+        "note": "ヴィンジが近未来の技術的特異点を論じた。",
+        "note_en": "Vinge argued a near-future technological singularity."
       }
     ],
     "1994": [
@@ -1703,6 +1849,22 @@
         "note_en": "Home PC and consumer Internet adoption surged, catalyzing mass online culture and everyday digital life."
       }
     ],
+    "1996": [
+      {
+        "label": "ホンダP2",
+        "label_en": "Honda P2",
+        "startYear": 1996,
+        "genre": [
+          "ROBOTICS",
+          "JAPAN"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/ASIMO",
+        "url_en": "https://en.wikipedia.org/wiki/ASIMO",
+        "note": "ASIMOへ繋がる二足歩行ヒューマノイドの前段機。",
+        "note_en": "Precursor humanoid biped leading toward ASIMO."
+      }
+    ],
     "1997": [
       {
         "label": "Deep Blue（チェス）",
@@ -1807,6 +1969,22 @@
         "url_en": "https://ja.wikipedia.org/wiki/%E4%BA%BA%E5%B7%A5%E7%84%A1%E8%84%B3",
         "note": "日本ネット文化のボット群。",
         "note_en": "Japanese net culture of chatterbots."
+      },
+      {
+        "label": "RoboCup（第1回・名古屋）",
+        "label_en": "RoboCup 97 Nagoya",
+        "startYear": 1997,
+        "genre": [
+          "EVENT",
+          "ORG",
+          "ROBOTICS",
+          "JAPAN"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/RoboCup",
+        "url_en": "https://en.wikipedia.org/wiki/RoboCup",
+        "note": "サッカーロボでAI研究を推進する国際競技会が日本で初開催。",
+        "note_en": "International robotics competition launched in Japan to advance AI."
       }
     ],
     "1998": [
@@ -2368,6 +2546,20 @@
         "url_en": "https://en.wikipedia.org/wiki/YouTube",
         "note": "動画投稿・視聴の文化を確立し、放送と個人発信の境界を変えた。",
         "note_en": "Established a culture of online video sharing, blurring the lines between broadcasting and personal media."
+      },
+      {
+        "label": "『シンギュラリティは近い』",
+        "label_en": "The Singularity Is Near",
+        "startYear": 2005,
+        "genre": [
+          "BACKGROUND",
+          "CONTENT"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/シンギュラリティは近い",
+        "url_en": "https://en.wikipedia.org/wiki/The_Singularity_Is_Near",
+        "note": "カーツワイルが2045年頃の特異点到来を予測。",
+        "note_en": "Kurzweil predicted the singularity around 2045."
       }
     ],
     "2006": [
@@ -2433,6 +2625,21 @@
         "url_en": "https://en.wikipedia.org/wiki/Netflix_Prize",
         "note": "推薦精度向上を競うコンテスト。協調フィルタ等の手法を促進。",
         "note_en": "Competition](https://ja.wikipedia.org/wiki/Netflix_Prize"
+      },
+      {
+        "label": "FRGC（顔認識チャレンジ）",
+        "label_en": "Face Recognition Grand Challenge",
+        "startYear": 2006,
+        "genre": [
+          "EVENT",
+          "DATA",
+          "APPLICATION"
+        ],
+        "imp": 3,
+        "url": "https://en.wikipedia.org/wiki/Face_Recognition_Grand_Challenge",
+        "url_en": "https://en.wikipedia.org/wiki/Face_Recognition_Grand_Challenge",
+        "note": "顔認識の性能が大幅向上した評価イベント。",
+        "note_en": "Benchmark highlighting major gains in face recognition performance."
       }
     ],
     "2007": [
@@ -2823,6 +3030,20 @@
         "url_en": "https://en.wikipedia.org/wiki/2011_Tōhoku_earthquake_and_tsunami",
         "note": "災害現場でのロボット適用が注目された。",
         "note_en": "Robot](https://ja.wikipedia.org/wiki/東北地方太平洋沖地震"
+      },
+      {
+        "label": "Siri",
+        "label_en": "Siri",
+        "startYear": 2011,
+        "genre": [
+          "APPLICATION",
+          "SOFTWARE"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/Siri",
+        "url_en": "https://en.wikipedia.org/wiki/Siri",
+        "note": "スマホの音声アシスタントとして普及を加速。",
+        "note_en": "Mainstreamed voice assistants on smartphones."
       }
     ],
     "2012": [
@@ -3241,6 +3462,20 @@
         "url_en": "https://en.wikipedia.org/wiki/Generative_adversarial_network",
         "note": "生成と判別の競合で高品質生成を実現した深層生成モデル。",
         "note_en": "Deep](https://ja.wikipedia.org/wiki/敵対的生成ネットワーク"
+      },
+      {
+        "label": "Amazon Echo（Alexa）",
+        "label_en": "Amazon Echo (Alexa)",
+        "startYear": 2014,
+        "genre": [
+          "APPLICATION",
+          "HARDWARE"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/Amazon_Echo",
+        "url_en": "https://en.wikipedia.org/wiki/Amazon_Echo",
+        "note": "家庭用スマートスピーカーを普及させ対話AIを日常化。",
+        "note_en": "Popularized home smart speakers and everyday conversational AI."
       }
     ],
     "2015": [
@@ -4442,6 +4677,20 @@
         "url_en": "https://en.wikipedia.org/wiki/BERT",
         "note": "日本語検索品質の向上に寄与。",
         "note_en": "Contributed](https://ja.wikipedia.org/wiki/BERT"
+      },
+      {
+        "label": "Waymo 自動運転タクシー",
+        "label_en": "Waymo robotaxi",
+        "startYear": 2018,
+        "genre": [
+          "APPLICATION",
+          "EVENT"
+        ],
+        "imp": 3,
+        "url": "https://en.wikipedia.org/wiki/Waymo",
+        "url_en": "https://en.wikipedia.org/wiki/Waymo",
+        "note": "米国で自動運転タクシーの商用運行を開始。",
+        "note_en": "Commercial autonomous robotaxi service launched in the US."
       }
     ],
     "2019": [
