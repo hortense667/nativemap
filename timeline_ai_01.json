@@ -42,6 +42,18 @@
         "url_en": "https://en.wikipedia.org/wiki/Artificial_neuron",
         "note": "形式ニューロンで論理計算可能性を示し、神経回路網研究の礎に。",
         "note_en": "Formal neurons showing logic computation"
+      },
+      {
+        "label": "マッカロック＝ピッツ・ニューロン",
+        "label_en": "McCulloch?Pitts neuron",
+        "startYear": 1943,
+        "genre": [
+          "THEORY"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/マッカロック-ピッツの神経細胞モデル",
+        "url_en": "https://en.wikipedia.org/wiki/Artificial_neuron",
+        "note": "形式ニューロンで論理計算を示し神経計算の礎を築いた。"
       }
     ],
     "1948": [
@@ -188,6 +200,19 @@
         "url_en": "https://en.wikipedia.org/wiki/Astro_Boy",
         "note": "高性能な心を持つロボット少年の活躍を描く名作。",
         "note_en": "Seminal](https://ja.wikipedia.org/wiki/鉄腕アトム"
+      },
+      {
+        "label": "チューリングパターン（反応拡散）",
+        "label_en": "Turing patterns (reaction?diffusion)",
+        "startYear": 1952,
+        "genre": [
+          "P_GENERATIVE",
+          "THEORY"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/反応拡散系",
+        "url_en": "https://en.wikipedia.org/wiki/Turing_pattern",
+        "note": "形態形成の数理。自己組織化・パターン生成の理論的根拠。"
       }
     ],
     "1956": [
@@ -848,6 +873,19 @@
         "url_en": "https://en.wikipedia.org/wiki/Shun%27ichi_Amari",
         "note": "統計多様体で学習を幾何学化し神経計算に影響。",
         "note_en": "Geometrized](https://ja.wikipedia.org/wiki/甘利俊一"
+      },
+      {
+        "label": "甘利俊一：情報幾何学の基礎",
+        "label_en": "Shun’ichi Amari ? Information geometry",
+        "startYear": 1976,
+        "genre": [
+          "JAPAN",
+          "THEORY"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/甘利俊一",
+        "url_en": "https://en.wikipedia.org/wiki/Shun%27ichi_Amari",
+        "note": "統計多様体で学習を幾何学化し神経計算に影響。"
       }
     ],
     "1977": [
@@ -2411,6 +2449,20 @@
         "url_en": "https://en.wikipedia.org/wiki/On_Intelligence",
         "note": "ジェフ・ホーキンスが新皮質理論を一般向けに解説。",
         "note_en": "Hawkins’ book explaining neocortex theory to the public.\"),"
+      },
+      {
+        "label": "Fac?ade",
+        "label_en": "Facade",
+        "startYear": 2005,
+        "genre": [
+          "CONTENT",
+          "APPLICATION"
+        ],
+        "imp": 3,
+        "url": "https://en.wikipedia.org/wiki/Fa%C3%A7ade_(video_game)",
+        "url_en": "https://en.wikipedia.org/wiki/Fa%C3%A7ade_(video_game)",
+        "note": "対話的ドラマの先駆。自然言語対話を重視。",
+        "note_en": "Pioneering interactive drama with NLP."
       }
     ],
     "2006": [
@@ -2570,6 +2622,18 @@
         "url_en": "https://en.wikipedia.org/wiki/App_Store_(iOS)",
         "note": "モバイルアプリの流通を標準化し、開発者エコシステムを拡大。",
         "note_en": "Standardized mobile app distribution and scaled the developer ecosystem, fueling the app economy."
+      },
+      {
+        "label": "WALL?E",
+        "label_en": "WALL-E",
+        "startYear": 2008,
+        "genre": [
+          "CONTENT"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/ウォーリー",
+        "url_en": "https://en.wikipedia.org/wiki/WALL-E",
+        "note": "廃棄物処理ロボと宇宙船AIを描く環境SF。"
       }
     ],
     "2009": [
@@ -2805,6 +2869,21 @@
         "url_en": "https://en.wikipedia.org/wiki/Hiroshi_Ishiguro",
         "note": "石黒浩らの人間らしい会話ロボ研究。",
         "note_en": "Ishiguro lab’s human-like dialogue robot research.\"),"
+      },
+      {
+        "label": "東日本大震災とロボット活用",
+        "label_en": "Robots in 2011 T?hoku quake",
+        "startYear": 2011,
+        "genre": [
+          "EVENT",
+          "HARDWARE",
+          "JAPAN",
+          "ROBOTICS"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/東北地方太平洋沖地震",
+        "url_en": "https://en.wikipedia.org/wiki/2011_T?hoku_earthquake_and_tsunami",
+        "note": "災害現場でのロボット適用が注目された。"
       }
     ],
     "2012": [
@@ -3886,6 +3965,21 @@
         "url_en": "https://en.wikipedia.org/wiki/Replika",
         "note": "AIコンパニオンが広く普及。",
         "note_en": "AI companion app gained popularity.\"),"
+      },
+      {
+        "label": "Baidu Apollo",
+        "label_en": "Apollo (autonomous driving)",
+        "startYear": 2017,
+        "genre": [
+          "APPLICATION",
+          "HARDWARE",
+          "ORG",
+          "CHAINA"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/Apollo_(自動運転プラットフォーム)",
+        "url_en": "https://en.wikipedia.org/wiki/Apollo_(autonomous_driving)",
+        "note": "自動運転向けのオープンプラットフォーム。"
       }
     ],
     "2018": [
@@ -4177,6 +4271,34 @@
         "url_en": "https://en.wikipedia.org/wiki/ANYmal",
         "note": "四脚ロボが自律性と実用性を向上。",
         "note_en": "Quadruped robot improved autonomy and utility.\"),"
+      },
+      {
+        "label": "AlphaFold 2（計画開始?発表は後年）",
+        "label_en": "AlphaFold 2",
+        "startYear": 2018,
+        "genre": [
+          "APPLICATION",
+          "THEORY",
+          "P_NEURAL"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/AlphaFold",
+        "url_en": "https://en.wikipedia.org/wiki/AlphaFold",
+        "note": "タンパク質構造予測を飛躍。",
+        "note_en": "Breakthrough in protein structure prediction."
+      },
+      {
+        "label": "Baidu ERNIE",
+        "label_en": "ERNIE",
+        "startYear": 2018,
+        "genre": [
+          "THEORY",
+          "CHAINA"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/ERNIE",
+        "url_en": "https://en.wikipedia.org/wiki/ERNIE",
+        "note": "知識統合を重視した事前学習モデル。"
       }
     ],
     "2019": [
@@ -4947,6 +5069,20 @@
         "url_en": "https://en.wikipedia.org/wiki/LAION",
         "note": "大規模画像テキストデータセット。",
         "note_en": "Large-scale image-text dataset.\"),"
+      },
+      {
+        "label": "DALL・E",
+        "label_en": "DALL・E",
+        "startYear": 2021,
+        "genre": [
+          "APPLICATION",
+          "P_GENERATIVE"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/DALL-E",
+        "url_en": "https://en.wikipedia.org/wiki/DALL-E",
+        "note": "画像生成の消費者普及の端緒。",
+        "note_en": "Catalyzed consumer text-to-image."
       }
     ],
     "2022": [
@@ -5993,6 +6129,22 @@
         "url_en": "https://www.ncsl.org/technology-and-communication/deepfakes-and-artificial-intelligence",
         "note": "州法で選挙やポルノ被害対策が前進。",
         "note_en": "US states advance rules for elections and abuse cases.\"),"
+      },
+      {
+        "label": "Gemini 1.5",
+        "label_en": "Gemini (language model) ? 1.5",
+        "startYear": 2024,
+        "genre": [
+          "THEORY",
+          "SOFTWARE",
+          "APPLICATION",
+          "P_NEURAL",
+          "P_GENERATIVE"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/Google_Gemini",
+        "url_en": "https://en.wikipedia.org/wiki/Gemini_%28language_model%29",
+        "note_en": "Gemini 1.5 introduced very long context windows and multimodality in 2024, with Pro and Flash variants rolling out across Google products and developer APIs."
       }
     ],
     "2025": [
