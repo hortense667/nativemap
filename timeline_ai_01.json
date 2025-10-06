@@ -1,5 +1,35 @@
 {
   "events": {
+    "1942": [
+      {
+        "label": "ロボット工学三原則",
+        "label_en": "Three Laws of Robotics",
+        "startYear": 1942,
+        "genre": [
+          "CONTENT"
+        ],
+        "imp": 5,
+        "url": "[https://ja.wikipedia.org/wiki/ロボット工学三原則",
+        "url_en": "https://en.wikipedia.org/wiki/Three_Laws_of_Robotics",
+        "note": "アシモフが提示したロボット行動の基本原則。",
+        "note_en": "Asimov’s](https://ja.wikipedia.org/wiki/ロボット工学三原則"
+      }
+    ],
+    "1943": [
+      {
+        "label": "マッカロック＝ピッツ・ニューロン",
+        "label_en": "McCulloch–Pitts neuron",
+        "startYear": 1943,
+        "genre": [
+          "THEORY"
+        ],
+        "imp": 5,
+        "url": "[https://ja.wikipedia.org/wiki/マッカロック-ピッツの神経細胞モデル",
+        "url_en": "https://en.wikipedia.org/wiki/Artificial_neuron",
+        "note": "形式ニューロンで論理計算を示し神経計算の礎を築いた。",
+        "note_en": "Formal](https://ja.wikipedia.org/wiki/マッカロック-ピッツの神経細胞モデル"
+      }
+    ],
     "1948": [
       {
         "label": "サイバネティックス",
