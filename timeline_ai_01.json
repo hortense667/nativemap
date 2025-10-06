@@ -3130,6 +3130,28 @@
         "url_en": "https://en.wikipedia.org/wiki/Ecovacs",
         "note": "自律走行・マッピング機能を備えたロボット掃除機シリーズ。中国発の民生ロボとして普及。",
         "note_en": "Deebot is Ecovacs’ line of robot vacuum cleaners with mapping and autonomous navigation, popularizing consumer home robotics originating from China."
+      },
+      {
+        "startYear": 2017,
+        "label": "Tmall Genie（天猫精霊）",
+        "label_en": "Tmall Genie",
+        "imp": 4,
+        "genre": ["APPLICATION","HARDWARE","SOFTWARE","P_NEURAL","CHAINA"],
+        "url": "https://ja.wikipedia.org/wiki/アリババグループ",
+        "url_en": "https://en.wikipedia.org/wiki/Tmall_Genie",
+        "note": "Alibabaのスマートスピーカー/音声アシスタント。家庭向けの音声操作や家電連携、EC連携を担う中国向けプラットフォーム。",
+        "note_en": "Alibaba’s smart speaker and voice assistant for the Chinese market, enabling hands-free control, home device integration, and e-commerce services."
+      },
+      {
+        "startYear": 2017,
+        "label": "小愛同学（Xiaomi XiaoAI）",
+        "label_en": "Xiaomi XiaoAI",
+        "imp": 4,
+        "genre": ["APPLICATION","SOFTWARE","HARDWARE","P_NEURAL","CHAINA"],
+        "url": "https://ja.wikipedia.org/wiki/小米科技",
+        "url_en": "https://en.wikipedia.org/wiki/XiaoAi",
+        "note": "Xiaomiの音声アシスタント。スマートフォンやMiスマートデバイスに標準搭載され、音声で操作やサービス呼び出しが可能。",
+        "note_en": "Xiaomi’s voice assistant integrated across Mi phones and devices, enabling hands-free control and service access in Mandarin Chinese."
       }
     ],
     "2018": [
@@ -3390,6 +3412,28 @@
         "url": "https://ja.wikipedia.org/wiki/脳型コンピュータ",
         "url_en": "https://en.wikipedia.org/wiki/Neuromorphic_engineering",
         "note": "ニューロモルフィック計算機の研究開発。"
+      },
+      {
+        "startYear": 2018,
+        "label": "UBTech Walker（ヒューマノイド）",
+        "label_en": "UBTech Walker",
+        "imp": 4,
+        "genre": ["ROBOTICS","HARDWARE","APPLICATION","CHAINA"],
+        "url": "https://en.wikipedia.org/wiki/UBTECH_Robotics",
+        "url_en": "https://en.wikipedia.org/wiki/UBTECH_Robotics",
+        "note": "UBTechの二足歩行ヒューマノイド。展示や研究用途でのデモを通じ、家庭・サービス領域の将来像を示す。",
+        "note_en": "UBTech’s bipedal humanoid robot showcased in demos for home and service scenarios, highlighting progress in balance, locomotion, and interaction."
+      },
+      {
+        "startYear": 2018,
+        "label": "小度（Baidu Xiaodu）",
+        "label_en": "Baidu Xiaodu (smart speaker)",
+        "imp": 4,
+        "genre": ["APPLICATION","HARDWARE","SOFTWARE","P_NEURAL","CHAINA"],
+        "url": "https://ja.wikipedia.org/wiki/百度",
+        "url_en": "https://en.wikipedia.org/wiki/Xiaodu",
+        "note": "Baiduのスマートスピーカー/音声アシスタント。DuerOS系の機能で音声検索、音楽、家電制御などを提供。",
+        "note_en": "Baidu’s smart speaker and assistant line powered by DuerOS, offering voice search, music, and smart-home control for Chinese consumers."
       }
     ],
     "2019": [
@@ -3623,6 +3667,17 @@
         "url_en": "https://en.wikipedia.org/wiki/Roborock",
         "note": "高性能センサーとマッピングで清掃経路を最適化するロボット掃除機ブランド。",
         "note_en": "Roborock is a robot vacuum brand optimizing cleaning paths using advanced sensors and mapping, expanding globally from China."
+      },
+      {
+        "startYear": 2019,
+        "label": "DJI RoboMaster S1（教育用ロボ）",
+        "label_en": "DJI RoboMaster S1",
+        "imp": 4,
+        "genre": ["ROBOTICS","HARDWARE","APPLICATION","EVENT","CHAINA"],
+        "url": "https://ja.wikipedia.org/wiki/DJI",
+        "url_en": "https://en.wikipedia.org/wiki/DJI",
+        "note": "DJIのSTEM教育向けロボット。プログラミングや映像処理を学べ、RoboMaster競技とも連動。",
+        "note_en": "DJI’s STEM robot that teaches programming and vision, linked to the RoboMaster ecosystem and educational competitions."
       }
     ],
     "2020": [
@@ -4082,6 +4137,17 @@
         "url_en": "https://en.wikipedia.org/wiki/Xiaomi_CyberDog",
         "note": "小米の四足歩行ロボット。オープンプラットフォームとして開発者向けに提供。",
         "note_en": "Xiaomi CyberDog is a quadruped robot platform released for developers, showcasing locomotion, sensing, and open interfaces."
+      },
+      {
+        "startYear": 2021,
+        "label": "Unitree Go1（四足歩行ロボット）",
+        "label_en": "Unitree Go1",
+        "imp": 4,
+        "genre": ["ROBOTICS","HARDWARE","APPLICATION","CHAINA"],
+        "url": "https://en.wikipedia.org/wiki/Unitree_Robotics",
+        "url_en": "https://en.wikipedia.org/wiki/Unitree_Robotics",
+        "note": "Unitree Roboticsの比較的低価格な四足歩行ロボット。移動、追従、研究用途などに利用される。",
+        "note_en": "A relatively affordable quadruped robot from Unitree used for mobility, follow-me tasks, and research applications."
       }
     ],
     "2022": [
@@ -4579,6 +4645,39 @@
         "url_en": "https://en.wikipedia.org/wiki/Hunyuan_(language_model)",
         "note": "TencentのLLMスイート。WeChatやクラウドで展開され、各種業務の自動化・支援に利用。",
         "note_en": "Hunyuan is Tencent’s family of large language models deployed across WeChat and cloud services to support automation and enterprise tasks."
+      },
+      {
+        "startYear": 2023,
+        "label": "Unitree Go2（四足歩行ロボット）",
+        "label_en": "Unitree Go2",
+        "imp": 4,
+        "genre": ["ROBOTICS","HARDWARE","APPLICATION","CHAINA"],
+        "url": "https://en.wikipedia.org/wiki/Unitree_Robotics",
+        "url_en": "https://en.wikipedia.org/wiki/Unitree_Robotics",
+        "note": "Go1の後継モデル。機動性や自律機能を強化し、教育・研究・点検などへの適用を狙う。",
+        "note_en": "Successor to Go1 with improved mobility and autonomy, targeting education, research, and inspection scenarios."
+      },
+      {
+        "startYear": 2023,
+        "label": "SenseTime SenseNova（モデル群）",
+        "label_en": "SenseTime SenseNova",
+        "imp": 4,
+        "genre": ["THEORY","SOFTWARE","APPLICATION","P_NEURAL","P_GENERATIVE","CHAINA"],
+        "url": "https://en.wikipedia.org/wiki/SenseTime",
+        "url_en": "https://en.wikipedia.org/wiki/SenseTime",
+        "note": "SenseTimeの大規模モデル群。言語・視覚などの生成/理解タスクに対応する中国向けAIスイート。",
+        "note_en": "SenseTime’s family of large-scale models for Chinese markets, spanning language and vision tasks across generative and understanding use cases."
+      },
+      {
+        "startYear": 2023,
+        "label": "iFlytek Spark（星火）",
+        "label_en": "iFlytek Spark",
+        "imp": 4,
+        "genre": ["THEORY","SOFTWARE","APPLICATION","P_NEURAL","P_GENERATIVE","CHAINA"],
+        "url": "https://ja.wikipedia.org/wiki/科大訊飛",
+        "url_en": "https://en.wikipedia.org/wiki/IFlytek",
+        "note": "iFLYTEKの大規模言語モデル/チャット群。教育・行政・産業での中国語タスクに最適化。",
+        "note_en": "iFLYTEK’s Chinese LLM/chat suite optimized for education, government, and industry use with strong Mandarin capabilities."
       }
     ],
     "2024": [
