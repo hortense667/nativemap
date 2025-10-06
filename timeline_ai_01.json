@@ -3503,6 +3503,18 @@
         "url_en": "https://en.wikipedia.org/wiki/Xiaodu",
         "note": "Baiduのスマートスピーカー/音声アシスタント。DuerOS系の機能で音声検索、音楽、家電制御などを提供。",
         "note_en": "Baidu’s smart speaker and assistant line powered by DuerOS, offering voice search, music, and smart-home control for Chinese consumers."
+      },
+      {
+        "label": "AI白書",
+        "startYear": 2018,
+        "genre": [
+          "CONTENT",
+          "JAPAN"
+        ],
+        "imp": 2,
+        "url": "https://www.amazon.co.jp/dp/B07BKS5ZMV/",
+        "note": "独立行政法人情報処理推進機構 AI白書編集委員会編集",
+        "label_en": "AI White paper"
       }
     ],
     "2019": [
