@@ -4670,6 +4670,20 @@
         "url_en": "https://en.wikipedia.org/wiki/MMLU",
         "note": "多分野知識の標準テストに。",
         "note_en": "Broad-knowledge benchmark for LMs.\"),"
+      },
+      {
+        "label": "Transformersライブラリ普及",
+        "label_en": "Hugging Face Transformers",
+        "startYear": 2020,
+        "genre": [
+          "SOFTWARE",
+          "APPLICATION"
+        ],
+        "imp": 4,
+        "url": "https://en.wikipedia.org/wiki/Transformers_(Hugging_Face)",
+        "url_en": "https://en.wikipedia.org/wiki/Transformers_(Hugging_Face)",
+        "note": "LLM活用の事実上の標準基盤。",
+        "note_en": "De facto standard library for LLMs."
       }
     ],
     "2021": [
@@ -6386,6 +6400,36 @@
         "url_en": "https://cursor.com/blog",
         "note": "ブラウザ操作やCLI対応で自動化が進展。",
         "note_en": "Agent gains browser controls/CLI"
+      },
+      {
+        "label": "Windows 11 2025 Update（25H2）",
+        "label_en": "Windows 11, version 25H2",
+        "startYear": 2025,
+        "genre": [
+          "SOFTWARE",
+          "APPLICATION"
+        ],
+        "imp": 3,
+        "url": "https://en.wikipedia.org/wiki/Windows_11%2C_version_25H2",
+        "url_en": "https://en.wikipedia.org/wiki/Windows_11%2C_version_25H2",
+        "note": "2025年の大型更新。24H2の上に載る有効化パッケージとして9/30から段階配信開始。",
+        "note_en": "The 2025 Update is an enablement package rolling out from Sept 30, 2025."
+      },
+      {
+        "label": "大阪・関西万博（ロボ・先端技術展示）",
+        "label_en": "Expo 2025 Osaka, Kansai",
+        "startYear": 2025,
+        "endYear": 2025,
+        "genre": [
+          "EVENT",
+          "BACKGROUND",
+          "JAPAN"
+        ],
+        "imp": 4,
+        "url": "https://en.wikipedia.org/wiki/Expo_2025",
+        "url_en": "https://en.wikipedia.org/wiki/Expo_2025",
+        "note": "2025年4?10月開催。先端技術やロボ、未来社会の展示で国際注目を集める。",
+        "note_en": "World Expo in Osaka   showcasing future society tech including robotics."
       }
     ]
   },
