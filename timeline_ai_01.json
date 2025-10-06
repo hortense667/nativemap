@@ -2169,7 +2169,14 @@
         "label": "Megvii（Face++）",
         "label_en": "Megvii (Face++)",
         "imp": 4,
-        "genre": ["ORG","SOFTWARE","APPLICATION","P_NEURAL","P_PROB","CHAINA"],
+        "genre": [
+          "ORG",
+          "SOFTWARE",
+          "APPLICATION",
+          "P_NEURAL",
+          "P_PROB",
+          "CHAINA"
+        ],
         "url": "https://ja.wikipedia.org/wiki/曠視科技",
         "url_en": "https://en.wikipedia.org/wiki/Megvii",
         "note": "顔認識等のコンピュータビジョン基盤を提供する中国AI企業。",
@@ -2303,7 +2310,14 @@
         "label": "iFLYTEK（音声AI）",
         "label_en": "iFlytek",
         "imp": 4,
-        "genre": ["ORG","SOFTWARE","APPLICATION","P_NEURAL","P_PROB","CHAINA"],
+        "genre": [
+          "ORG",
+          "SOFTWARE",
+          "APPLICATION",
+          "P_NEURAL",
+          "P_PROB",
+          "CHAINA"
+        ],
         "url": "https://ja.wikipedia.org/wiki/科大訊飛",
         "url_en": "https://en.wikipedia.org/wiki/IFlytek",
         "note": "音声認識・合成の大手。教育/行政/民生の音声AI基盤を提供。",
@@ -2487,7 +2501,14 @@
         "label": "DJI（民生ドローンとロボ教育）",
         "label_en": "DJI",
         "imp": 4,
-        "genre": ["ORG","HARDWARE","APPLICATION","ROBOTICS","EVENT","CHAINA"],
+        "genre": [
+          "ORG",
+          "HARDWARE",
+          "APPLICATION",
+          "ROBOTICS",
+          "EVENT",
+          "CHAINA"
+        ],
         "url": "https://ja.wikipedia.org/wiki/DJI",
         "url_en": "https://en.wikipedia.org/wiki/DJI",
         "note": "民生ドローン市場を牽引。画像認識や自律制御を搭載し、競技/教育分野のRoboMasterでもロボ技術を普及。",
@@ -2940,7 +2961,11 @@
         "label": "PaddlePaddle",
         "label_en": "PaddlePaddle",
         "imp": 4,
-        "genre": ["SOFTWARE","P_NEURAL","CHAINA"],
+        "genre": [
+          "SOFTWARE",
+          "P_NEURAL",
+          "CHAINA"
+        ],
         "url": "https://ja.wikipedia.org/wiki/PaddlePaddle",
         "url_en": "https://en.wikipedia.org/wiki/PaddlePaddle",
         "note": "Baiduが開発するオープンソース深層学習フレームワーク。中国圏で産業適用が進む。",
@@ -3125,7 +3150,13 @@
         "label": "ECOVACS DEEBOT（ロボット掃除機）",
         "label_en": "Ecovacs Deebot",
         "imp": 4,
-        "genre": ["APPLICATION","ROBOTICS","HARDWARE","P_NEURAL","CHAINA"],
+        "genre": [
+          "APPLICATION",
+          "ROBOTICS",
+          "HARDWARE",
+          "P_NEURAL",
+          "CHAINA"
+        ],
         "url": "https://ja.wikipedia.org/wiki/エコバックス",
         "url_en": "https://en.wikipedia.org/wiki/Ecovacs",
         "note": "自律走行・マッピング機能を備えたロボット掃除機シリーズ。中国発の民生ロボとして普及。",
@@ -3136,7 +3167,13 @@
         "label": "Tmall Genie（天猫精霊）",
         "label_en": "Tmall Genie",
         "imp": 4,
-        "genre": ["APPLICATION","HARDWARE","SOFTWARE","P_NEURAL","CHAINA"],
+        "genre": [
+          "APPLICATION",
+          "HARDWARE",
+          "SOFTWARE",
+          "P_NEURAL",
+          "CHAINA"
+        ],
         "url": "https://ja.wikipedia.org/wiki/アリババグループ",
         "url_en": "https://en.wikipedia.org/wiki/Tmall_Genie",
         "note": "Alibabaのスマートスピーカー/音声アシスタント。家庭向けの音声操作や家電連携、EC連携を担う中国向けプラットフォーム。",
@@ -3147,7 +3184,13 @@
         "label": "小愛同学（Xiaomi XiaoAI）",
         "label_en": "Xiaomi XiaoAI",
         "imp": 4,
-        "genre": ["APPLICATION","SOFTWARE","HARDWARE","P_NEURAL","CHAINA"],
+        "genre": [
+          "APPLICATION",
+          "SOFTWARE",
+          "HARDWARE",
+          "P_NEURAL",
+          "CHAINA"
+        ],
         "url": "https://ja.wikipedia.org/wiki/小米科技",
         "url_en": "https://en.wikipedia.org/wiki/XiaoAi",
         "note": "Xiaomiの音声アシスタント。スマートフォンやMiスマートデバイスに標準搭載され、音声で操作やサービス呼び出しが可能。",
@@ -3418,7 +3461,12 @@
         "label": "UBTech Walker（ヒューマノイド）",
         "label_en": "UBTech Walker",
         "imp": 4,
-        "genre": ["ROBOTICS","HARDWARE","APPLICATION","CHAINA"],
+        "genre": [
+          "ROBOTICS",
+          "HARDWARE",
+          "APPLICATION",
+          "CHAINA"
+        ],
         "url": "https://en.wikipedia.org/wiki/UBTECH_Robotics",
         "url_en": "https://en.wikipedia.org/wiki/UBTECH_Robotics",
         "note": "UBTechの二足歩行ヒューマノイド。展示や研究用途でのデモを通じ、家庭・サービス領域の将来像を示す。",
@@ -3429,7 +3477,13 @@
         "label": "小度（Baidu Xiaodu）",
         "label_en": "Baidu Xiaodu (smart speaker)",
         "imp": 4,
-        "genre": ["APPLICATION","HARDWARE","SOFTWARE","P_NEURAL","CHAINA"],
+        "genre": [
+          "APPLICATION",
+          "HARDWARE",
+          "SOFTWARE",
+          "P_NEURAL",
+          "CHAINA"
+        ],
         "url": "https://ja.wikipedia.org/wiki/百度",
         "url_en": "https://en.wikipedia.org/wiki/Xiaodu",
         "note": "Baiduのスマートスピーカー/音声アシスタント。DuerOS系の機能で音声検索、音楽、家電制御などを提供。",
@@ -3662,7 +3716,13 @@
         "label": "Roborock（ロボット掃除機）",
         "label_en": "Roborock",
         "imp": 4,
-        "genre": ["APPLICATION","ROBOTICS","HARDWARE","P_NEURAL","CHAINA"],
+        "genre": [
+          "APPLICATION",
+          "ROBOTICS",
+          "HARDWARE",
+          "P_NEURAL",
+          "CHAINA"
+        ],
         "url": "https://ja.wikipedia.org/wiki/ロボロック",
         "url_en": "https://en.wikipedia.org/wiki/Roborock",
         "note": "高性能センサーとマッピングで清掃経路を最適化するロボット掃除機ブランド。",
@@ -3673,7 +3733,13 @@
         "label": "DJI RoboMaster S1（教育用ロボ）",
         "label_en": "DJI RoboMaster S1",
         "imp": 4,
-        "genre": ["ROBOTICS","HARDWARE","APPLICATION","EVENT","CHAINA"],
+        "genre": [
+          "ROBOTICS",
+          "HARDWARE",
+          "APPLICATION",
+          "EVENT",
+          "CHAINA"
+        ],
         "url": "https://ja.wikipedia.org/wiki/DJI",
         "url_en": "https://en.wikipedia.org/wiki/DJI",
         "note": "DJIのSTEM教育向けロボット。プログラミングや映像処理を学べ、RoboMaster競技とも連動。",
@@ -3884,7 +3950,15 @@
         "label": "Apollo Go（百度ロボタクシー）",
         "label_en": "Apollo Go",
         "imp": 4,
-        "genre": ["APPLICATION","ROBOTICS","HARDWARE","EVENT","P_RL","P_NEURAL","CHAINA"],
+        "genre": [
+          "APPLICATION",
+          "ROBOTICS",
+          "HARDWARE",
+          "EVENT",
+          "P_RL",
+          "P_NEURAL",
+          "CHAINA"
+        ],
         "url": "https://ja.wikipedia.org/wiki/百度",
         "url_en": "https://en.wikipedia.org/wiki/Apollo_Go",
         "note": "百度の自動運転配車サービス。複数都市で試験運用から商用化へ拡大。",
@@ -4132,7 +4206,13 @@
         "label": "CyberDog（小米/シャオミ）",
         "label_en": "Xiaomi CyberDog",
         "imp": 4,
-        "genre": ["ROBOTICS","HARDWARE","APPLICATION","P_NEURAL","CHAINA"],
+        "genre": [
+          "ROBOTICS",
+          "HARDWARE",
+          "APPLICATION",
+          "P_NEURAL",
+          "CHAINA"
+        ],
         "url": "https://ja.wikipedia.org/wiki/小米科技",
         "url_en": "https://en.wikipedia.org/wiki/Xiaomi_CyberDog",
         "note": "小米の四足歩行ロボット。オープンプラットフォームとして開発者向けに提供。",
@@ -4143,7 +4223,12 @@
         "label": "Unitree Go1（四足歩行ロボット）",
         "label_en": "Unitree Go1",
         "imp": 4,
-        "genre": ["ROBOTICS","HARDWARE","APPLICATION","CHAINA"],
+        "genre": [
+          "ROBOTICS",
+          "HARDWARE",
+          "APPLICATION",
+          "CHAINA"
+        ],
         "url": "https://en.wikipedia.org/wiki/Unitree_Robotics",
         "url_en": "https://en.wikipedia.org/wiki/Unitree_Robotics",
         "note": "Unitree Roboticsの比較的低価格な四足歩行ロボット。移動、追従、研究用途などに利用される。",
@@ -4618,7 +4703,14 @@
         "label": "ERNIE Bot（文心一言）",
         "label_en": "ERNIE Bot",
         "imp": 5,
-        "genre": ["THEORY","SOFTWARE","APPLICATION","P_NEURAL","P_GENERATIVE","CHAINA"],
+        "genre": [
+          "THEORY",
+          "SOFTWARE",
+          "APPLICATION",
+          "P_NEURAL",
+          "P_GENERATIVE",
+          "CHAINA"
+        ],
         "url": "https://ja.wikipedia.org/wiki/ERNIE",
         "url_en": "https://en.wikipedia.org/wiki/ERNIE_Bot",
         "note": "Baiduの大規模言語モデル/対話サービス。中国国内の規制に沿って公開され、検索や生産性サービスと統合。",
@@ -4629,7 +4721,14 @@
         "label": "通義千問（Qwen）",
         "label_en": "Tongyi Qianwen (Qwen)",
         "imp": 5,
-        "genre": ["THEORY","SOFTWARE","APPLICATION","P_NEURAL","P_GENERATIVE","CHAINA"],
+        "genre": [
+          "THEORY",
+          "SOFTWARE",
+          "APPLICATION",
+          "P_NEURAL",
+          "P_GENERATIVE",
+          "CHAINA"
+        ],
         "url": "https://ja.wikipedia.org/wiki/阿里巴巴集団",
         "url_en": "https://en.wikipedia.org/wiki/Qwen_(language_model)",
         "note": "Alibabaの大規模言語モデル群。企業向け・開発者向けに提供され、画像やコードなどマルチモーダルにも対応。",
@@ -4640,7 +4739,14 @@
         "label": "混元大模型（Hunyuan）",
         "label_en": "Hunyuan (Tencent)",
         "imp": 4,
-        "genre": ["THEORY","SOFTWARE","APPLICATION","P_NEURAL","P_GENERATIVE","CHAINA"],
+        "genre": [
+          "THEORY",
+          "SOFTWARE",
+          "APPLICATION",
+          "P_NEURAL",
+          "P_GENERATIVE",
+          "CHAINA"
+        ],
         "url": "https://en.wikipedia.org/wiki/Hunyuan_(language_model)",
         "url_en": "https://en.wikipedia.org/wiki/Hunyuan_(language_model)",
         "note": "TencentのLLMスイート。WeChatやクラウドで展開され、各種業務の自動化・支援に利用。",
@@ -4651,7 +4757,12 @@
         "label": "Unitree Go2（四足歩行ロボット）",
         "label_en": "Unitree Go2",
         "imp": 4,
-        "genre": ["ROBOTICS","HARDWARE","APPLICATION","CHAINA"],
+        "genre": [
+          "ROBOTICS",
+          "HARDWARE",
+          "APPLICATION",
+          "CHAINA"
+        ],
         "url": "https://en.wikipedia.org/wiki/Unitree_Robotics",
         "url_en": "https://en.wikipedia.org/wiki/Unitree_Robotics",
         "note": "Go1の後継モデル。機動性や自律機能を強化し、教育・研究・点検などへの適用を狙う。",
@@ -4662,7 +4773,14 @@
         "label": "SenseTime SenseNova（モデル群）",
         "label_en": "SenseTime SenseNova",
         "imp": 4,
-        "genre": ["THEORY","SOFTWARE","APPLICATION","P_NEURAL","P_GENERATIVE","CHAINA"],
+        "genre": [
+          "THEORY",
+          "SOFTWARE",
+          "APPLICATION",
+          "P_NEURAL",
+          "P_GENERATIVE",
+          "CHAINA"
+        ],
         "url": "https://en.wikipedia.org/wiki/SenseTime",
         "url_en": "https://en.wikipedia.org/wiki/SenseTime",
         "note": "SenseTimeの大規模モデル群。言語・視覚などの生成/理解タスクに対応する中国向けAIスイート。",
@@ -4673,7 +4791,14 @@
         "label": "iFlytek Spark（星火）",
         "label_en": "iFlytek Spark",
         "imp": 4,
-        "genre": ["THEORY","SOFTWARE","APPLICATION","P_NEURAL","P_GENERATIVE","CHAINA"],
+        "genre": [
+          "THEORY",
+          "SOFTWARE",
+          "APPLICATION",
+          "P_NEURAL",
+          "P_GENERATIVE",
+          "CHAINA"
+        ],
         "url": "https://ja.wikipedia.org/wiki/科大訊飛",
         "url_en": "https://en.wikipedia.org/wiki/IFlytek",
         "note": "iFLYTEKの大規模言語モデル/チャット群。教育・行政・産業での中国語タスクに最適化。",
@@ -5023,6 +5148,20 @@
         "url_en": "https://www.meti.go.jp/english/press/2024/0419_002.html",
         "note": "企業向け指針を整備し安全な利活用を促進。",
         "note_en": "Government-issued guidance for safe AI adoption."
+      },
+      {
+        "label": "Unitree H1（ヒューマノイドロボット）",
+        "startYear": 2024,
+        "genre": [
+          "HARDWARE",
+          "ROBOTICS",
+          "APPLICATION",
+          "CHAINA"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/%E5%AE%87%E6%A8%B9%E7%A7%91%E6%8A%80",
+        "label_en": "Unitree H1(Humanoid robot)",
+        "url_en": "https://en.wikipedia.org/wiki/Unitree_Robotics"
       }
     ],
     "2025": [
@@ -5313,13 +5452,20 @@
         "label": "DeepSeek-R1（推論強化）",
         "label_en": "DeepSeek-R1",
         "imp": 5,
-        "genre": ["THEORY","SOFTWARE","APPLICATION","P_NEURAL","P_RL","CHAINA"],
+        "genre": [
+          "THEORY",
+          "SOFTWARE",
+          "APPLICATION",
+          "P_NEURAL",
+          "P_RL",
+          "CHAINA"
+        ],
         "url": "https://en.wikipedia.org/wiki/DeepSeek",
         "url_en": "https://huggingface.co/deepseek-ai/DeepSeek-R1",
         "note": "DeepSeekの推論特化モデル。強化学習のみで推論能力を高める枠組みが報告。",
         "note_en": "DeepSeek-R1 is a reasoning-focused model whose RL-only training framework incentivizes emergent reasoning patterns like self-verification and adaptive strategies."
       }
-    ] 
+    ]
   },
   "eraSettings": [],
   "metadata": {
