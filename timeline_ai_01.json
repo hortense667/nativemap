@@ -3249,6 +3249,23 @@
         "url_en": "https://en.wikipedia.org/wiki/Multi-armed_bandit",
         "note": "探索と活用のトレードオフを扱う古典問題の応用拡大。",
         "note_en": "Classical](https://ja.wikipedia.org/wiki/マルチアーム・バンディット"
+      },
+      {
+        "label": "GUNDAM FACTORY YOKOHAMA（動くガンダム展示）",
+        "label_en": "Gundam Factory Yokohama",
+        "startYear": 2020,
+        "endYear": 2024,
+        "genre": [
+          "CONTENT",
+          "ROBOTICS",
+          "EVENT",
+          "JAPAN"
+        ],
+        "imp": 3,
+        "url": "https://en.wikipedia.org/wiki/Gundam_Factory_Yokohama",
+        "url_en": "https://en.wikipedia.org/wiki/Gundam_Factory_Yokohama",
+        "note": "実物大・可動ガンダム展示。人気の末に2024年3月でクローズ。",
+        "note_en": "Life-size) moving Gundam exhibition in Yokohama"
       }
     ],
     "2021": [
@@ -3584,6 +3601,69 @@
         "url_en": "https://en.wikipedia.org/wiki/Swarm_intelligence",
         "note": "分散協調により最適化やロボ群制御へ展開。",
         "note_en": "Distributed](https://ja.wikipedia.org/wiki/群知能"
+      },
+      {
+        "label": "テレイグジスタンス×ファミマ：TX SCARA 300店舗展開",
+        "label_en": "Telexistence×FamilyMart: TX SCARA rollout",
+        "startYear": 2022,
+        "genre": [
+          "ROBOTICS",
+          "APPLICATION",
+          "EVENT",
+          "JAPAN"
+        ],
+        "imp": 4,
+        "url": "https://www.japantimes.co.jp/news/2022/08/10/business/corporate-business/familymart-telexistence-robot-shelf-stocker/",
+        "url_en": "https://www.japantimes.co.jp/news/2022/08/10/business/corporate-business/familymart-telexistence-robot-shelf-stocker/",
+        "note": "AI補充ロボを300店舗へ展開と発表。飲料補充を自動化し人手不足を補う動きが話題に。",
+        "note_en": "\"Japan’s) FamilyMart to roll out AI shelf-stocking robots across 300 stores, highlighting labor-shortage automation.\""
+      },
+      {
+        "label": "Xiaomi CyberOne（ヒューマノイド）",
+        "label_en": "Xiaomi CyberOne",
+        "startYear": 2022,
+        "genre": [
+          "ROBOTICS",
+          "APPLICATION",
+          "CHINA"
+        ],
+        "imp": 3,
+        "url": "https://robotsguide.com/robots/cyberone",
+        "url_en": "https://robotsguide.com/robots/cyberone",
+        "note": "身長約177cmの二足歩行ヒューマノイド。顔認識や感情推定などの機能を搭載し試作機を公開。",
+        "note_en": "A) 177-cm bipedal humanoid concept with perception and emotion recognition"
+      },
+      {
+        "label": "テレイグジスタンス×ファミマ補充ロボ実証",
+        "label_en": "Telexistence×FamilyMart robot pilot",
+        "startYear": 2022,
+        "genre": [
+          "ROBOTICS",
+          "APPLICATION",
+          "EVENT",
+          "JAPAN"
+        ],
+        "imp": 4,
+        "url": "https://www.japantimes.co.jp/news/2022/08/10/business/corporate-business/familymart-telexistence-robot-shelf-stocker/",
+        "url_en": "https://www.japantimes.co.jp/news/2022/08/10/business/corporate-business/familymart-telexistence-robot-shelf-stocker/",
+        "note": "コンビニ300店規模で棚補充ロボ導入へ。人手不足対応の先行例として注目。",
+        "note_en": "Convenience-store) pilot toward 300-store rollout of shelf-stocking robots amid labor shortages."
+      },
+      {
+        "label": "ディープフェイク問題（規制・検出・悪用）",
+        "label_en": "Deepfake problem (regulation & misuse)",
+        "startYear": 2022,
+        "endYear": 2025,
+        "genre": [
+          "BACKGROUND",
+          "EVENT",
+          "APPLICATION"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/%E3%83%87%E3%83%BC%E3%83%97%E3%83%95%E3%82%A7%E3%82%A4%E3%82%AF",
+        "url_en": "https://en.wikipedia.org/wiki/Deepfake",
+        "note": "偽動画・音声等が急増。選挙・詐欺・性的被害で深刻化し各国で規制・対策が進展。",
+        "note_en": "\"Rapid) rise of synthetic media drives scams, politics, and abuse\""
       }
     ],
     "2023": [
@@ -3748,6 +3828,66 @@
         "url_en": "https://en.wikipedia.org/wiki/Generative_artificial_intelligence",
         "note": "画像・文章生成が広く一般に普及。",
         "note_en": "Image](https://ja.wikipedia.org/wiki/生成AI"
+      },
+      {
+        "label": "G7「広島AIプロセス」始動",
+        "label_en": "G7 Hiroshima AI Process launched",
+        "startYear": 2023,
+        "genre": [
+          "EVENT",
+          "ORG",
+          "JAPAN"
+        ],
+        "imp": 5,
+        "url": "https://www.mofa.go.jp/ecm/ec/page5e_000076.html",
+        "url_en": "https://www.mofa.go.jp/ecm/ec/page5e_000076.html",
+        "note": "G7主導で生成AIの原則と行動規範を策定する国際枠組み。日本議長年に始動。",
+        "note_en": "\"G7’s) international framework on AI principles and a code of conduct, launched under Japan’s presidency.\""
+      },
+      {
+        "label": "Fourier GR-1 公開",
+        "label_en": "Fourier GR-1 unveiled",
+        "startYear": 2023,
+        "genre": [
+          "ROBOTICS",
+          "APPLICATION",
+          "CHINA"
+        ],
+        "imp": 4,
+        "url": "https://en.wikipedia.org/wiki/Fourier_(company)",
+        "url_en": "https://en.wikipedia.org/wiki/Fourier_(company)",
+        "note": "中国Fourierの人型ロボGR-1を上海のAI会議で公開。研究機関向け出荷も。",
+        "note_en": "China’s) Fourier showcased the GR-1 humanoid at WAIC"
+      },
+      {
+        "label": "Amazon×Agility「Digit」実証",
+        "label_en": "Amazon pilots Agility’s Digit",
+        "startYear": 2023,
+        "genre": [
+          "ROBOTICS",
+          "APPLICATION"
+        ],
+        "imp": 3,
+        "url": "https://www.aboutamazon.com/news/operations/amazon-introduces-new-robotics-solutions",
+        "url_en": "https://www.aboutamazon.com/news/operations/amazon-introduces-new-robotics-solutions",
+        "note": "倉庫業務支援で二足歩行ロボDigitの実証導入を発表。",
+        "note_en": "Amazon) announced pilots of bipedal robot Digit to support fulfillment operations."
+      },
+      {
+        "label": "SAG-AFTRAストライキ（AIが主要争点）",
+        "label_en": "2023 SAG-AFTRA strike (AI provisions)",
+        "startYear": 2023,
+        "genre": [
+          "EVENT",
+          "ORG",
+          "BACKGROUND",
+          "CONTENT"
+        ],
+        "imp": 5,
+        "url": "https://en.wikipedia.org/wiki/2023_SAG-AFTRA_strike",
+        "url_en": "https://en.wikipedia.org/wiki/2023_SAG-AFTRA_strike",
+        "note": "俳優の肖像・声のスキャンや生成利用の条件が大争点に。合意で保護条項を明確化。",
+        "note_en": "Actors’) strike centered on AI scanning/use"
       }
     ],
     "2024": [
@@ -3932,6 +4072,96 @@
         "url": "https://ja.wikipedia.org/wiki/Sora_%28%E4%BA%BA%E5%B7%A5%E7%9F%A5%E8%83%BD%E3%83%A2%E3%83%87%E3%83%AB%29",
         "url_en": "https://en.wikipedia.org/wiki/Sora_%28text-to-video_model%29",
         "note_en": "Sora is OpenAI’s text‑to‑video model that produces short clips from prompts and can extend footage, first widely released to ChatGPT Plus/Pro users in December 2024."
+      },
+      {
+        "label": "経産省「AI Guidelines for Business」Ver1.0",
+        "label_en": "METI AI Guidelines for Business v1.0",
+        "startYear": 2024,
+        "genre": [
+          "EVENT",
+          "BACKGROUND",
+          "JAPAN"
+        ],
+        "imp": 4,
+        "url": "https://www.meti.go.jp/english/press/2024/0419_002.html",
+        "url_en": "https://www.meti.go.jp/english/press/2024/0419_002.html",
+        "note": "企業のAI利活用に向けた包括的ガイドラインを公表。安全・信頼確保を整理。",
+        "note_en": "\"Japan) issued comprehensive guidance for business use of AI to promote safe, trustworthy adoption.\""
+      },
+      {
+        "label": "Unitree G1（約1.6万ドル）",
+        "label_en": "Unitree G1 (~$16K)",
+        "startYear": 2024,
+        "genre": [
+          "ROBOTICS",
+          "APPLICATION",
+          "CHINA"
+        ],
+        "imp": 4,
+        "url": "https://www.therobotreport.com/unitree-robotics-unveils-g1-humanoid-for-16k/",
+        "url_en": "https://www.therobotreport.com/unitree-robotics-unveils-g1-humanoid-for-16k/",
+        "note": "約1.6万ドルの人型G1を発表し低価格化が話題に。研究・教育向け。",
+        "note_en": "\"Unitree) announced the ~$16K G1 humanoid, signaling lower-cost access for R&D and education.\""
+      },
+      {
+        "label": "Figure×OpenAI 提携",
+        "label_en": "Figure?OpenAI partnership",
+        "startYear": 2024,
+        "genre": [
+          "ROBOTICS",
+          "ORG",
+          "APPLICATION"
+        ],
+        "imp": 4,
+        "url": "https://apnews.com/article/02ee0bf87ec46021c84646a882133c9a",
+        "url_en": "https://apnews.com/article/02ee0bf87ec46021c84646a882133c9a",
+        "note": "Figureの人型ロボへOpenAIのAI統合を発表。大型資金調達も。",
+        "note_en": "OpenAI) to build models for Figure’s humanoids"
+      },
+      {
+        "label": "テネシーELVIS法施行（音声クローン対策）",
+        "label_en": "Tennessee ELVIS Act takes effect",
+        "startYear": 2024,
+        "genre": [
+          "EVENT",
+          "BACKGROUND"
+        ],
+        "imp": 4,
+        "url": "https://en.wikipedia.org/wiki/ELVIS_Act",
+        "url_en": "https://en.wikipedia.org/wiki/ELVIS_Act",
+        "note": "無断のAI声・肖像の利用を抑止する米州法。2024年7月1日施行で音声ディープフェイク対策に前進。",
+        "note_en": "US) state law protecting voice/likeness from AI misuse"
+      },
+      {
+        "label": "Unitree G1（低価格ヒューマノイド）",
+        "label_en": "Unitree G1 low-cost humanoid",
+        "startYear": 2024,
+        "genre": [
+          "ROBOTICS",
+          "APPLICATION",
+          "CHINA"
+        ],
+        "imp": 4,
+        "url": "https://www.therobotreport.com/unitree-robotics-unveils-g1-humanoid-for-16k/",
+        "url_en": "https://www.therobotreport.com/unitree-robotics-unveils-g1-humanoid-for-16k/",
+        "note": "約1.6万ドルの人型ロボを発表し話題に。研究・教育の裾野拡大に寄与。",
+        "note_en": "\"~$16K) humanoid announced, expanding access for R&D and education.\""
+      },
+      {
+        "label": "GITAI ISS外部実証（S2ロボ腕）",
+        "label_en": "GITAI ISS external demo (S2 arm)",
+        "startYear": 2024,
+        "genre": [
+          "ROBOTICS",
+          "HARDWARE",
+          "EVENT",
+          "JAPAN"
+        ],
+        "imp": 4,
+        "url": "https://gitai.tech/2024/03/19/gitai-completes-fully-successful-technology-demonstration-outside-the-iss/",
+        "url_en": "https://www.therobotreport.com/gitai-dual-armed-robot-heads-to-the-iss-after-successful-launch/",
+        "note": "日本発スタートアップがISS外部でISAM実証に成功。宇宙作業ロボの実装が前進。",
+        "note_en": "\"Japan’s) startup completed an external ISS ISAM demo, advancing operational space robotics.\""
       }
     ],
     "2025": [
@@ -3966,6 +4196,334 @@
         "url": "https://ja.wikipedia.org/wiki/ChatGPT",
         "url_en": "https://en.wikipedia.org/wiki/OpenAI_o3",
         "note_en": "OpenAI o3, announced in Dec 2024 and released in 2025, is a stronger reasoning model for ChatGPT with improved performance on coding, math and science tasks."
+      },
+      {
+        "label": "DeepSeek R1",
+        "label_en": "DeepSeek R1",
+        "startYear": 2025,
+        "genre": [
+          "THEORY",
+          "P_NEURAL",
+          "P_GENERATIVE",
+          "P_RL",
+          "CHINA"
+        ],
+        "imp": 5,
+        "url": "https://arxiv.org/abs/2501.12948",
+        "url_en": "https://arxiv.org/abs/2501.12948",
+        "note": "DeepSeekが公開した推論強化LLM。GRPOで自己誘導的に思考を鍛え、数学やコードで高性能を示したオープンウェイト系。"
+      },
+      {
+        "label": "OpenAI o4-mini",
+        "label_en": "OpenAI o4-mini",
+        "startYear": 2025,
+        "genre": [
+          "THEORY",
+          "SOFTWARE",
+          "P_GENERATIVE"
+        ],
+        "imp": 4,
+        "url": "https://en.wikipedia.org/wiki/OpenAI_o4-mini",
+        "url_en": "https://en.wikipedia.org/wiki/OpenAI_o4-mini",
+        "note": "OpenAIの2025年モデル。テキストと画像を扱う推論志向の小型モデルで、ChatGPTとAPIで提供。",
+        "note_en": "\"OpenAI’s) 2025 small reasoning model with text+image input, available in ChatGPT and via API. \""
+      },
+      {
+        "label": "Sora 2（OpenAIの動画生成）",
+        "label_en": "Sora 2",
+        "startYear": 2025,
+        "genre": [
+          "APPLICATION",
+          "SOFTWARE",
+          "P_GENERATIVE"
+        ],
+        "imp": 4,
+        "url": "https://en.wikipedia.org/wiki/Sora_(text-to-video_model)",
+        "url_en": "https://en.wikipedia.org/wiki/Sora_(text-to-video_model)",
+        "note": "テキストから短編動画を生成するSoraの第2世代。物理一貫性や制御性を強化し、アプリ提供も開始。",
+        "note_en": "Second-gen) text-to-video model with improved physics/controllability"
+      },
+      {
+        "label": "Windows 11 2025 Update（25H2）",
+        "label_en": "\"Windows 11, version 25H2\"",
+        "startYear": 2025,
+        "genre": [
+          "SOFTWARE",
+          "APPLICATION"
+        ],
+        "imp": 3,
+        "url": "https://en.wikipedia.org/wiki/Windows_11%2C_version_25H2",
+        "url_en": "https://en.wikipedia.org/wiki/Windows_11%2C_version_25H2",
+        "note": "2025年の大型更新。24H2の上に載る有効化パッケージとして9/30から段階配信開始。",
+        "note_en": "\"The) 2025 Update is an enablement package rolling out from Sept 30, 2025. \""
+      },
+      {
+        "label": "GeForce RTX 50シリーズ",
+        "label_en": "GeForce RTX 50 series",
+        "startYear": 2025,
+        "genre": [
+          "HARDWARE",
+          "APPLICATION"
+        ],
+        "imp": 4,
+        "url": "https://en.wikipedia.org/wiki/GeForce_RTX_50_series",
+        "url_en": "https://en.wikipedia.org/wiki/GeForce_RTX_50_series",
+        "note": "NVIDIAの新世代GPU。Blackwell採用でRTX](https://en.wikipedia.org/wiki/GeForce_RTX_50_series",
+        "note_en": "NVIDIA’s new Blackwell-based consumer GPUs debuting in 2025 with DLSS 4 and GDDR7. ([ウィキペディア][5])"
+      },
+      {
+        "label": "Grace Blackwellシステム初出荷",
+        "label_en": "First shipment of NVIDIA Grace Blackwell system",
+        "startYear": 2025,
+        "genre": [
+          "HARDWARE",
+          "EVENT",
+          "ORG"
+        ],
+        "imp": 4,
+        "url": "https://www.hpe.com/us/en/newsroom/press-release/2025/02/hpe-announces-shipment-of-its-first-nvidia-grace-blackwell-system.html",
+        "url_en": "https://www.hpe.com/us/en/newsroom/press-release/2025/02/hpe-announces-shipment-of-its-first-nvidia-grace-blackwell-system.html",
+        "note": "HPEがGrace](https://www.hpe.com/us/en/newsroom/press-release/2025/02/hpe-announces-shipment-of-its-first-nvidia-grace-blackwell-system.html",
+        "note_en": "\"HPE announced shipment of its first Grace-Blackwell system, moving next-gen AI compute into the field. ([ヒューレット・パッカード・エンタープライズ][6])\""
+      },
+      {
+        "label": "Apple IntelligenceのFoundation Modelsフレームワーク",
+        "label_en": "Apple Foundation Models framework",
+        "startYear": 2025,
+        "genre": [
+          "SOFTWARE",
+          "APPLICATION"
+        ],
+        "imp": 3,
+        "url": "https://developer.apple.com/documentation/FoundationModels",
+        "url_en": "https://developer.apple.com/documentation/FoundationModels",
+        "note": "Appleのオンデバイス基盤モデルに開発者が直接アクセス可能に。オフライン実行のAI機能を実装できる。",
+        "note_en": "Lets) developers access Apple’s on-device foundation model to build offline/private AI features. ([Apple Developer][7])"
+      },
+      {
+        "label": "Apple Intelligence 機能拡張（WWDC25）",
+        "label_en": "Apple Intelligence expansion (WWDC25)",
+        "startYear": 2025,
+        "genre": [
+          "SOFTWARE",
+          "APPLICATION"
+        ],
+        "imp": 3,
+        "url": "https://www.apple.com/newsroom/2025/06/apple-intelligence-gets-even-more-powerful-with-new-capabilities-across-apple-devices/",
+        "url_en": "https://www.apple.com/newsroom/2025/06/apple-intelligence-gets-even-more-powerful-with-new-capabilities-across-apple-devices/",
+        "note": "対応機能・言語・デバイスを拡大し、プライバシー重視のAI体験を強化。",
+        "note_en": "\"Expanded) features, languages, and devices for Apple’s privacy-focused AI suite. ([Apple][8])\""
+      },
+      {
+        "label": "DeepSeek（チャットボット）公開",
+        "label_en": "DeepSeek (chatbot) release",
+        "startYear": 2025,
+        "genre": [
+          "APPLICATION",
+          "SOFTWARE"
+        ],
+        "imp": 4,
+        "url": "https://en.wikipedia.org/wiki/DeepSeek_(chatbot)",
+        "url_en": "https://en.wikipedia.org/wiki/DeepSeek_(chatbot)",
+        "note": "R1を搭載したチャットボットを1月に公開。短期間でiOS無料アプリの上位に。",
+        "note_en": "Chatbot) based on R1 launched in Jan"
+      },
+      {
+        "label": "Copilot+ PCの機能ロールアウト拡充",
+        "label_en": "Copilot+ PCs feature rollout",
+        "startYear": 2025,
+        "genre": [
+          "SOFTWARE",
+          "HARDWARE",
+          "APPLICATION"
+        ],
+        "imp": 3,
+        "url": "https://www.microsoft.com/en-us/windows/business/devices/copilot-plus-pcs",
+        "url_en": "https://www.microsoft.com/en-us/windows/business/devices/copilot-plus-pcs",
+        "note": "NPUを活用するAI体験が2025年にかけて順次拡充。ライブ翻訳等を提供。",
+        "note_en": "NPU-powered) Windows AI features continue rolling out across Copilot+ PCs through 2025. ([Microsoft][10])"
+      },
+      {
+        "label": "GENIAC（日本の生成AI開発支援）採択",
+        "label_en": "GENIAC selections (Japan’s generative-AI support)",
+        "startYear": 2025,
+        "genre": [
+          "EVENT",
+          "ORG",
+          "JAPAN"
+        ],
+        "imp": 3,
+        "url": "https://www.meti.go.jp/press/2025/07/20250715001/20250715001.html",
+        "url_en": "https://www.meti.go.jp/press/2025/07/20250715001/20250715001.html",
+        "note": "経産省とNEDOが基盤モデル向け計算資源提供で24件採択。国産AIの開発力強化を狙う。",
+        "note_en": "Japan’s) METI/NEDO selected 24 themes to provide compute for foundation-model R&D. ([経済産業省][11])"
+      },
+      {
+        "label": "GENIAC 第3期（国産生成AI支援）",
+        "label_en": "GENIAC Phase 3 (Japan generative-AI support)",
+        "startYear": 2025,
+        "genre": [
+          "EVENT",
+          "ORG",
+          "JAPAN"
+        ],
+        "imp": 3,
+        "url": "https://www.meti.go.jp/english/policy/mono_info_service/geniac/index.html",
+        "url_en": "https://www.meti.go.jp/english/policy/mono_info_service/geniac/index.html",
+        "note": "基盤モデル開発に計算資源等を提供する国家事業。2025年も採択拡大。",
+        "note_en": "Japan’s) METI/NEDO program providing compute for foundation-model R&D continued with new 2025 selections."
+      },
+      {
+        "label": "大阪・関西万博（ロボ・先端技術展示）",
+        "label_en": "\"Expo 2025 Osaka, Kansai\"",
+        "startYear": 2025,
+        "endYear": 2025,
+        "genre": [
+          "EVENT",
+          "BACKGROUND",
+          "JAPAN"
+        ],
+        "imp": 4,
+        "url": "https://en.wikipedia.org/wiki/Expo_2025",
+        "url_en": "https://en.wikipedia.org/wiki/Expo_2025",
+        "note": "2025年4?10月開催。先端技術やロボ、未来社会の展示で国際注目を集める。",
+        "note_en": "World) Expo in Osaka (Apr?Oct 2025) showcasing future society tech including robotics."
+      },
+      {
+        "label": "Unitree R1（低価格ヒューマノイド）",
+        "label_en": "Unitree R1 low-cost humanoid",
+        "startYear": 2025,
+        "genre": [
+          "ROBOTICS",
+          "APPLICATION",
+          "CHINA"
+        ],
+        "imp": 4,
+        "url": "https://www.reuters.com/technology/chinas-unitree-prices-new-humanoid-robot-deep-discount-2024-model-2025-07-25/",
+        "url_en": "https://www.reuters.com/technology/chinas-unitree-prices-new-humanoid-robot-deep-discount-2024-model-2025-07-25/",
+        "note": "G1より大幅に安価なR1を発表。多モーダルLLM搭載で家庭・教育用途を狙う。",
+        "note_en": "Unitree) unveiled the cheaper R1 humanoid with a multimodal LLM for home/education uses."
+      },
+      {
+        "label": "DeepSeek R1（推論強化LLM）",
+        "label_en": "DeepSeek R1 (reasoning LLM)",
+        "startYear": 2025,
+        "genre": [
+          "THEORY",
+          "P_NEURAL",
+          "P_GENERATIVE",
+          "P_RL",
+          "CHINA"
+        ],
+        "imp": 5,
+        "url": "https://arxiv.org/abs/2501.12948",
+        "url_en": "https://arxiv.org/abs/2501.12948",
+        "note": "自己改善型の強化学習で推論力を高めたLLMを公開。数学やコードで高性能。",
+        "note_en": "\"Reasoning-focused) LLM trained via RL, showing strong math/coding performance with open weights.\""
+      },
+      {
+        "label": "SO-101（低価格ロボットアーム）",
+        "label_en": "SO-101 robotic arm",
+        "startYear": 2025,
+        "genre": [
+          "ROBOTICS",
+          "HARDWARE",
+          "APPLICATION"
+        ],
+        "imp": 3,
+        "url": "https://techcrunch.com/2025/04/28/hugging-face-releases-a-3d-printed-robotic-arm-starting-at-100/",
+        "url_en": "https://techcrunch.com/2025/04/28/hugging-face-releases-a-3d-printed-robotic-arm-starting-at-100/",
+        "note": "Hugging](https://techcrunch.com/2025/04/28/hugging-face-releases-a-3d-printed-robotic-arm-starting-at-100/"
+      },
+      {
+        "label": "CURSOR重大脆弱性（RCE/MCP）",
+        "label_en": "Cursor RCE vulnerability",
+        "startYear": 2025,
+        "genre": [
+          "SOFTWARE",
+          "APPLICATION",
+          "EVENT"
+        ],
+        "imp": 3,
+        "url": "https://en.wikipedia.org/wiki/Cursor_(code_editor)",
+        "url_en": "https://en.wikipedia.org/wiki/Cursor_(code_editor)",
+        "note": "AI搭載エディタCursorでRCE脆弱性が報告・修正。拡張連携の安全性が論点に。",
+        "note_en": "\"An) RCE flaw in the AI code editor Cursor was disclosed and patched, raising supply-chain safety concerns.\""
+      },
+      {
+        "label": "Replikaへの苦情・規制強化",
+        "label_en": "Replika complaints and enforcement",
+        "startYear": 2025,
+        "genre": [
+          "APPLICATION",
+          "EVENT",
+          "BACKGROUND"
+        ],
+        "imp": 4,
+        "url": "https://en.wikipedia.org/wiki/Replika",
+        "url_en": "https://en.wikipedia.org/wiki/Replika",
+        "note": "FTC関連の苦情報道やイタリア当局の措置など、AIコンパニオンの安全・年齢対策が焦点。",
+        "note_en": "FTC) complaint coverage and Italian DPA actions highlight safety/age-gating issues for AI companions."
+      },
+      {
+        "label": "「AI俳優」Tilly Norwood論争",
+        "label_en": "Tilly Norwood AI actor controversy",
+        "startYear": 2025,
+        "genre": [
+          "EVENT",
+          "BACKGROUND",
+          "CONTENT"
+        ],
+        "imp": 4,
+        "url": "https://en.wikipedia.org/wiki/Tilly_Norwood",
+        "url_en": "https://en.wikipedia.org/wiki/Tilly_Norwood",
+        "note": "AI生成俳優の登場にSAG-AFTRAや俳優が強く反発。権利・労働・倫理で激論。",
+        "note_en": "\"Debut) of an AI-generated “actor” sparked union backlash and debate over rights, labor, and ethics.\""
+      },
+      {
+        "label": "Unitree R1（家庭志向ヒューマノイド）",
+        "label_en": "Unitree R1 humanoid",
+        "startYear": 2025,
+        "genre": [
+          "ROBOTICS",
+          "APPLICATION",
+          "CHINA"
+        ],
+        "imp": 4,
+        "url": "https://www.reuters.com/technology/chinas-unitree-prices-new-humanoid-robot-deep-discount-2024-model-2025-07-25/",
+        "url_en": "https://www.reuters.com/technology/chinas-unitree-prices-new-humanoid-robot-deep-discount-2024-model-2025-07-25/",
+        "note": "さらに低価格のR1を発表。多モーダルLLM搭載で家庭・教育用途を狙う。",
+        "note_en": "Cheaper) R1 with multimodal LLM targets home/education scenarios."
+      },
+      {
+        "label": "GITAI：JAXAの有人加圧ローバ用ロボ腕 概念検討",
+        "label_en": "GITAI JAXA lunar rover arm study",
+        "startYear": 2025,
+        "genre": [
+          "ROBOTICS",
+          "HARDWARE",
+          "EVENT",
+          "JAPAN"
+        ],
+        "imp": 3,
+        "url": "https://gitai.tech/2025/03/31/gitai-awarded-jaxa-contract-for-concept-study-of-robotic-arm-for-crewed-pressurized-lunar-rover/",
+        "url_en": "https://www.prnewswire.com/news-releases/gitai-awarded-jaxa-contract-for-concept-study-of-robotic-arm-for-crewed-pressurized-lunar-rover-302414860.html",
+        "note": "JAXAが月面ローバ用ロボ腕の概念検討を委託。試料採取等の運用要件を整理。",
+        "note_en": "\"JAXA) commissioned a concept study for a lunar rover robotic arm (sampling, handling, ISAM tasks).\""
+      },
+      {
+        "label": "Cursorのエージェント/ブラウザ操作の拡張",
+        "label_en": "Cursor Agent upgrades (browser controls)",
+        "startYear": 2025,
+        "genre": [
+          "SOFTWARE",
+          "APPLICATION"
+        ],
+        "imp": 3,
+        "url": "https://cursor.com/changelog",
+        "url_en": "https://cursor.com/blog",
+        "note": "ブラウザ操作やCLI対応などエージェント機能を強化。開発ワークフロー自動化が進展。",
+        "note_en": "\"Agent) gains browser controls/CLI, pushing workflow automation forward.\""
       }
     ]
   },
