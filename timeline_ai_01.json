@@ -6660,6 +6660,12 @@
       "conjunction": true
     },
     {
+      "code": "CHAINA",
+      "label": "中国",
+      "label_en": "Chaina",
+      "conjunction": true
+    },
+    {
       "code": "P_NEURAL",
       "label": "ニューラルネット系",
       "label_en": "Neural-network based",
