@@ -156,22 +156,6 @@
         "url_en": "https://en.wikipedia.org/wiki/Astro_Boy",
         "note": "高性能な心を持つロボット少年の活躍を描く名作。",
         "note_en": "Seminal](https://ja.wikipedia.org/wiki/鉄腕アトム"
-      },
-      {
-        "label": "チューリングパターン（反応拡散）",
-        "label_en": "Turing patterns (reaction–diffusion)",
-        "startYear": 1952,
-        "genre": [
-          "P_GENERATIVE",
-          "THEORY",
-          "THE",
-          "SOF-AI"
-        ],
-        "imp": 4,
-        "url": "[https://ja.wikipedia.org/wiki/反応拡散系",
-        "url_en": "https://en.wikipedia.org/wiki/Turing_pattern",
-        "note": "形態形成の数理。自己組織化・パターン生成の理論的根拠。",
-        "note_en": "Mathematics](https://ja.wikipedia.org/wiki/反応拡散系"
       }
     ],
     "1955": [
@@ -2747,6 +2731,19 @@
         "url_en": "https://en.wikipedia.org/wiki/App_Store_(iOS)",
         "note": "モバイルアプリの流通を標準化し、開発者エコシステムを拡大。",
         "note_en": "Standardized mobile app distribution and scaled the developer ecosystem, fueling the app economy."
+      },
+      {
+        "label": "幹細胞由来の神経球組織の層構造化を実証",
+        "startYear": 2008,
+        "genre": [
+          "THEORY",
+          "JAPAN",
+          "P_NEURAL"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/%E8%84%B3%E3%82%AA%E3%83%AB%E3%82%AC%E3%83%8E%E3%82%A4%E3%83%89",
+        "note": "笹井芳樹らが幹細胞由来の神経球組織の層構造化を実証（日本、理化学研究所）",
+        "url_en": "https://en.wikipedia.org/wiki/Cerebral_organoid"
       }
     ],
     "2009": [
@@ -3219,6 +3216,19 @@
         "url_en": "https://en.wikipedia.org/wiki/IFlytek",
         "note": "音声認識・合成の大手。教育/行政/民生の音声AI基盤を提供。",
         "note_en": "iFlytek is a Chinese company specializing in speech recognition and synthesis, providing voice AI platforms for education, government and consumer use."
+      },
+      {
+        "label": "大脳オルガノイド",
+        "startYear": 2013,
+        "genre": [
+          "THEORY",
+          "P_NEURAL"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/%E8%84%B3%E3%82%AA%E3%83%AB%E3%82%AC%E3%83%8E%E3%82%A4%E3%83%89",
+        "note": "マデリーン・ランカスターらが大脳オルガノイド培養法を確立（米国イリノイ大学）",
+        "label_en": "Cerebral organoid",
+        "url_en": "https://en.wikipedia.org/wiki/Cerebral_organoid"
       }
     ],
     "2014": [
