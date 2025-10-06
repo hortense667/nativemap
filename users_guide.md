@@ -4,7 +4,9 @@
 
 ### はじめに
 
-ネイティブマップは、年表データを視覚的に表示・編集できるWebアプリケーションです。ポップカルチャーやデジタル技術の歴史を年表形式で管理し、個人の体験と照らし合わせることができます。また、ユーザーが独自の年表を作成することもできます。
+ネイティブマップは、年表データを視覚的に表示・編集できるWebアプリケーションです。ポップカルチャーやデジタル技術の歴史を年表形式で管理し、個人の体験と照らし合わせることができます。
+
+**GitHubユーザーなら誰でも管理者になれる分散型システム**として設計されており、自分のリポジトリで独自の年表データを管理できます。
 
 ### 基本的な使い方
 
@@ -47,11 +49,12 @@
 **ラベル検索**
 - 検索ボックスにキーワードを入力
 - 選択中のジャンルのみが検索対象
+- ラベル（日本語/英語）のどちらに一致してもヒット
 - リアルタイムで検索結果が更新
 
 **詳細検索**
 - 「詳細」ボタンで詳細検索モーダルを開く
-- より詳細な条件で検索可能
+- 注釈（日本語/英語）も検索対象に含めて検索可能
 
 #### 4. ジャンルフィルター
 
@@ -61,8 +64,6 @@
 3. 複数選択可能（AND条件）
 
 **ジャンルの種類**
-1.ジャンルは年表ごとに定義できます
-2.ジャンルの例（ポップカルチャーの場合）
 - ANI: アニメ
 - MAN: マンガ
 - GAM: ゲーム
@@ -72,9 +73,6 @@
 - HAR: ハードウェア
 - SOFT: ソフトウェア
 - その他多数
-3.AND条件とろるなジャンル
-ジャンルによる絞り込みの際にAND条件として機能するジャンルを定義できます
-ロードデータでは「genre;CODE;LABEL;label_en;conjunction」、リモートDB上のjsonでは「"conjunction": true」で定義します。
 
 #### 5. 重要度フィルター
 
@@ -145,6 +143,92 @@
 - 日本語と英語の両方の情報を保持
 - 表示時は選択された言語に応じて適切なフィールドが優先表示
 
+### 自分で新たに年表を作りたい人へ
+
+**GitHubユーザーなら誰でも管理者になれます！**
+
+このサービスは、GitHubアカウントを持つユーザーが自分のリポジトリで年表データを管理できる分散型システムです。独自の年表を作成・管理したい場合は、以下の手順でセットアップできます。
+
+#### セットアップ手順
+
+1. **GitHubリポジトリの準備**
+   - 自分のGitHubアカウントでリポジトリを作成
+   - `timeline.json`ファイルを配置（空のファイルでも可）
+
+2. **Personal Access Tokenの取得**
+   - GitHubの設定でPersonal Access Tokenを生成
+   - リポジトリへの読み書き権限を付与
+
+3. **設定画面での設定**
+   - 「設定」ボタンから以下を入力：
+     - Personal Access Token
+     - リポジトリ所有者（自分のGitHubユーザー名）
+     - リポジトリ名
+     - ファイルパス（通常は`timeline.json`）
+
+#### 推奨ワークフロー
+
+1. **データの準備**
+   - 「ロード」機能でCSVファイルからデータを読み込み、年表を作成
+
+2. **同期でJSON化**
+   - 「同期」ボタンでデータをGitHubリポジトリのJSONファイルに保存
+
+**注意：** 同期では時代区分の設定は反映されません。時代区分はローカル設定として管理されます。
+
+#### データ形式
+
+**CSV形式（ロード用）**
+```
+開始年;終了年;ラベル;label_en;ジャンル;重要度;URL;url_en;注釈;note_en
+```
+
+**JSON形式（同期用）**
+同期で生成されるJSONファイルには以下の構造が含まれます：
+- `events`: 年表データ（年をキーとしたオブジェクト）
+- `genres`: ジャンル設定
+- `metadata`: メタデータ（作成日時、更新日時など）
+
+#### 利点
+- 完全なデータ制御権
+- GitHubのバックアップ機能
+- 複数ユーザーでの協力可能
+- バージョン管理
+
+### メタデータについて
+
+年表JSONの先頭に`metadata`セクションを追加できます。クレジットや説明、問い合わせ先などを格納します。アプリは以下のように利用します。
+
+- タイトルは`metadata.title.ja`/`metadata.title.en`を使用（旧`title`/`title_en`は互換表示）。
+- ヘルプ画面の冒頭に「編集中のデータ」として`title`、`description`、`initialCreator`、`contributors`を表示。
+- `events`（年→配列）の構造・操作は従来通りで変更なし。
+
+#### `metadata`の例
+```
+{
+  "metadata": {
+    "title": { "ja": "ポップカルチャー年表", "en": "POP Culture Timeline" },
+    "description": {
+      "ja": "この年表は日本における…",
+      "en": "This timeline shows …"
+    },
+    "initialCreator": "Satoshi Endo",
+    "contributors": ["Satoshi Endo", "Hortense Endo"],
+    "contact": {
+      "administrator": { "name": "Satoshi Endo", "email": "zzz@65536.net" }
+    },
+    "createdAt": "2025-10-01",
+    "version": "1.0",
+    "language": ["ja","en"]
+  },
+  "events": { /* 以降は従来のイベント */ }
+}
+```
+
+#### タイトルの設定/保存
+- GitHub/ローカル保存時も`metadata.title`に保存されます。
+- 旧データを読み込んだ場合は自動で新形式に保存されます（互換維持）。
+
 #### 10. 年表の活用例
 
 **使い方の例（任天堂ファミコン）**
@@ -202,11 +286,12 @@ Native Map is a web application that allows you to visually display and edit tim
 **Label Search**
 - Enter keywords in search box
 - Only selected genres are searched
+- Hits if either Japanese or English label matches
 - Search results update in real-time
 
 **Detailed Search**
 - Click "Detail" button to open detailed search modal
-- Search with more detailed conditions
+- Notes (Japanese/English) are also included in the search target
 
 #### 4. Genre Filter
 
@@ -216,19 +301,15 @@ Native Map is a web application that allows you to visually display and edit tim
 3. Multiple selection possible (AND condition)
 
 **Genre Types**
-1. Genres can be defined for each timeline.
-2. Examples of genres (in the case of pop culture):
-- ANI: Anime
+- ANI: Animation
 - MAN: Manga
-- GAM: Games
+- GAM: Game
 - MUS: Music
-- MOV: Movies
+- MOV: Movie
 - TV: Television
 - HAR: Hardware
 - SOFT: Software
-- Many others
-3. Genres with AND condition
-You can define genres that function as an AND condition when filtering by genre. In the load data, it is defined as "genre;CODE;LABEL;label_en;conjunction", and in the remote DB's JSON, it is defined as "\"conjunction\": true".
+- And many others
 
 #### 5. Importance Filter
 
