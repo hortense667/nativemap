@@ -2163,6 +2163,17 @@
         "url": "https://ja.wikipedia.org/wiki/東北地方太平洋沖地震",
         "url_en": "https://en.wikipedia.org/wiki/2011_T?hoku_earthquake_and_tsunami",
         "note": "災害現場でのロボット適用が注目された。"
+      },
+      {
+        "startYear": 2011,
+        "label": "Megvii（Face++）",
+        "label_en": "Megvii (Face++)",
+        "imp": 4,
+        "genre": ["ORG","SOFTWARE","APPLICATION","P_NEURAL","P_PROB","CHAINA"],
+        "url": "https://ja.wikipedia.org/wiki/曠視科技",
+        "url_en": "https://en.wikipedia.org/wiki/Megvii",
+        "note": "顔認識等のコンピュータビジョン基盤を提供する中国AI企業。",
+        "note_en": "Megvii, known for Face++, provides computer vision platforms including face recognition, serving developers, enterprises and smart city applications."
       }
     ],
     "2012": [
@@ -2286,6 +2297,17 @@
         "url": "https://ja.wikipedia.org/wiki/強化学習",
         "url_en": "https://en.wikipedia.org/wiki/Reinforcement_learning",
         "note": "関数近似に深層学習を用い高次元タスクを突破。"
+      },
+      {
+        "startYear": 2013,
+        "label": "iFLYTEK（音声AI）",
+        "label_en": "iFlytek",
+        "imp": 4,
+        "genre": ["ORG","SOFTWARE","APPLICATION","P_NEURAL","P_PROB","CHAINA"],
+        "url": "https://ja.wikipedia.org/wiki/科大訊飛",
+        "url_en": "https://en.wikipedia.org/wiki/IFlytek",
+        "note": "音声認識・合成の大手。教育/行政/民生の音声AI基盤を提供。",
+        "note_en": "iFlytek is a Chinese company specializing in speech recognition and synthesis, providing voice AI platforms for education, government and consumer use."
       }
     ],
     "2014": [
@@ -2459,6 +2481,17 @@
         "url_en": "https://en.wikipedia.org/wiki/Attention_(machine_learning)",
         "note": "長系列処理を改善しTransformerへ。",
         "note_en": "Improved sequence modeling"
+      },
+      {
+        "startYear": 2014,
+        "label": "DJI（民生ドローンとロボ教育）",
+        "label_en": "DJI",
+        "imp": 4,
+        "genre": ["ORG","HARDWARE","APPLICATION","ROBOTICS","EVENT","CHAINA"],
+        "url": "https://ja.wikipedia.org/wiki/DJI",
+        "url_en": "https://en.wikipedia.org/wiki/DJI",
+        "note": "民生ドローン市場を牽引。画像認識や自律制御を搭載し、競技/教育分野のRoboMasterでもロボ技術を普及。",
+        "note_en": "DJI leads the consumer drone market, integrating vision and autonomy; its RoboMaster initiatives promote robotics in competitions and education."
       }
     ],
     "2015": [
@@ -2901,6 +2934,17 @@
         "url": "https://ja.wikipedia.org/wiki/理化学研究所AIPセンター",
         "url_en": "https://en.wikipedia.org/wiki/RIKEN",
         "note": "AIとビッグデータの先端研究拠点。"
+      },
+      {
+        "startYear": 2016,
+        "label": "PaddlePaddle",
+        "label_en": "PaddlePaddle",
+        "imp": 4,
+        "genre": ["SOFTWARE","P_NEURAL","CHAINA"],
+        "url": "https://ja.wikipedia.org/wiki/PaddlePaddle",
+        "url_en": "https://en.wikipedia.org/wiki/PaddlePaddle",
+        "note": "Baiduが開発するオープンソース深層学習フレームワーク。中国圏で産業適用が進む。",
+        "note_en": "PaddlePaddle is Baidu’s open-source deep learning framework widely used in China for industrial AI workloads and research."
       }
     ],
     "2017": [
@@ -3075,6 +3119,17 @@
         "url": "https://ja.wikipedia.org/wiki/進化的計算",
         "url_en": "https://en.wikipedia.org/wiki/Evolutionary_computation",
         "note": "設計探索・ハイパーパラメータ最適化などで実用化。"
+      },
+      {
+        "startYear": 2017,
+        "label": "ECOVACS DEEBOT（ロボット掃除機）",
+        "label_en": "Ecovacs Deebot",
+        "imp": 4,
+        "genre": ["APPLICATION","ROBOTICS","HARDWARE","P_NEURAL","CHAINA"],
+        "url": "https://ja.wikipedia.org/wiki/エコバックス",
+        "url_en": "https://en.wikipedia.org/wiki/Ecovacs",
+        "note": "自律走行・マッピング機能を備えたロボット掃除機シリーズ。中国発の民生ロボとして普及。",
+        "note_en": "Deebot is Ecovacs’ line of robot vacuum cleaners with mapping and autonomous navigation, popularizing consumer home robotics originating from China."
       }
     ],
     "2018": [
@@ -3557,6 +3612,17 @@
         "url": "https://ja.wikipedia.org/wiki/認知アーキテクチャ",
         "url_en": "https://en.wikipedia.org/wiki/Cognitive_architecture",
         "note": "記号・確率・深層の統合モデルが再評価。"
+      },
+      {
+        "startYear": 2019,
+        "label": "Roborock（ロボット掃除機）",
+        "label_en": "Roborock",
+        "imp": 4,
+        "genre": ["APPLICATION","ROBOTICS","HARDWARE","P_NEURAL","CHAINA"],
+        "url": "https://ja.wikipedia.org/wiki/ロボロック",
+        "url_en": "https://en.wikipedia.org/wiki/Roborock",
+        "note": "高性能センサーとマッピングで清掃経路を最適化するロボット掃除機ブランド。",
+        "note_en": "Roborock is a robot vacuum brand optimizing cleaning paths using advanced sensors and mapping, expanding globally from China."
       }
     ],
     "2020": [
@@ -3757,6 +3823,17 @@
         "url_en": "https://en.wikipedia.org/wiki/Gundam_Factory_Yokohama",
         "note": "実物大・可動ガンダム展示。2024年3月に閉幕。",
         "note_en": "Life-size moving Gundam exhibition"
+      },
+      {
+        "startYear": 2020,
+        "label": "Apollo Go（百度ロボタクシー）",
+        "label_en": "Apollo Go",
+        "imp": 4,
+        "genre": ["APPLICATION","ROBOTICS","HARDWARE","EVENT","P_RL","P_NEURAL","CHAINA"],
+        "url": "https://ja.wikipedia.org/wiki/百度",
+        "url_en": "https://en.wikipedia.org/wiki/Apollo_Go",
+        "note": "百度の自動運転配車サービス。複数都市で試験運用から商用化へ拡大。",
+        "note_en": "Apollo Go is Baidu’s robotaxi service operating pilot and commercial routes across multiple Chinese cities with autonomous driving technology."
       }
     ],
     "2021": [
@@ -3994,6 +4071,17 @@
         "url": "https://ja.wikipedia.org/wiki/大規模言語モデル",
         "url_en": "https://en.wikipedia.org/wiki/Autonomous_agent",
         "note": "LLMを計画・行動に結びつける枠組みが登場。"
+      },
+      {
+        "startYear": 2021,
+        "label": "CyberDog（小米/シャオミ）",
+        "label_en": "Xiaomi CyberDog",
+        "imp": 4,
+        "genre": ["ROBOTICS","HARDWARE","APPLICATION","P_NEURAL","CHAINA"],
+        "url": "https://ja.wikipedia.org/wiki/小米科技",
+        "url_en": "https://en.wikipedia.org/wiki/Xiaomi_CyberDog",
+        "note": "小米の四足歩行ロボット。オープンプラットフォームとして開発者向けに提供。",
+        "note_en": "Xiaomi CyberDog is a quadruped robot platform released for developers, showcasing locomotion, sensing, and open interfaces."
       }
     ],
     "2022": [
@@ -4458,6 +4546,39 @@
         "url": "https://ja.wikipedia.org/wiki/生成AI",
         "url_en": "https://en.wikipedia.org/wiki/Generative_artificial_intelligence",
         "note": "画像・文章生成が広く一般に普及。"
+      },
+      {
+        "startYear": 2023,
+        "label": "ERNIE Bot（文心一言）",
+        "label_en": "ERNIE Bot",
+        "imp": 5,
+        "genre": ["THEORY","SOFTWARE","APPLICATION","P_NEURAL","P_GENERATIVE","CHAINA"],
+        "url": "https://ja.wikipedia.org/wiki/ERNIE",
+        "url_en": "https://en.wikipedia.org/wiki/ERNIE_Bot",
+        "note": "Baiduの大規模言語モデル/対話サービス。中国国内の規制に沿って公開され、検索や生産性サービスと統合。",
+        "note_en": "ERNIE Bot is Baidu’s large language model and chatbot service released in China, integrated with Baidu search and productivity apps under domestic regulations."
+      },
+      {
+        "startYear": 2023,
+        "label": "通義千問（Qwen）",
+        "label_en": "Tongyi Qianwen (Qwen)",
+        "imp": 5,
+        "genre": ["THEORY","SOFTWARE","APPLICATION","P_NEURAL","P_GENERATIVE","CHAINA"],
+        "url": "https://ja.wikipedia.org/wiki/阿里巴巴集団",
+        "url_en": "https://en.wikipedia.org/wiki/Qwen_(language_model)",
+        "note": "Alibabaの大規模言語モデル群。企業向け・開発者向けに提供され、画像やコードなどマルチモーダルにも対応。",
+        "note_en": "Qwen (Tongyi Qianwen) is Alibaba’s family of large language models offered for enterprise and developers, with variants for vision, coding, and multilingual tasks."
+      },
+      {
+        "startYear": 2023,
+        "label": "混元大模型（Hunyuan）",
+        "label_en": "Hunyuan (Tencent)",
+        "imp": 4,
+        "genre": ["THEORY","SOFTWARE","APPLICATION","P_NEURAL","P_GENERATIVE","CHAINA"],
+        "url": "https://en.wikipedia.org/wiki/Hunyuan_(language_model)",
+        "url_en": "https://en.wikipedia.org/wiki/Hunyuan_(language_model)",
+        "note": "TencentのLLMスイート。WeChatやクラウドで展開され、各種業務の自動化・支援に利用。",
+        "note_en": "Hunyuan is Tencent’s family of large language models deployed across WeChat and cloud services to support automation and enterprise tasks."
       }
     ],
     "2024": [
@@ -5087,8 +5208,19 @@
         "url_en": "https://en.wikipedia.org/wiki/Expo_2025",
         "note": "2025年4?10月開催。先端技術やロボの展示。",
         "note_en": "World Expo in Osaka ,"
+      },
+      {
+        "startYear": 2025,
+        "label": "DeepSeek-R1（推論強化）",
+        "label_en": "DeepSeek-R1",
+        "imp": 5,
+        "genre": ["THEORY","SOFTWARE","APPLICATION","P_NEURAL","P_RL","CHAINA"],
+        "url": "https://en.wikipedia.org/wiki/DeepSeek",
+        "url_en": "https://huggingface.co/deepseek-ai/DeepSeek-R1",
+        "note": "DeepSeekの推論特化モデル。強化学習のみで推論能力を高める枠組みが報告。",
+        "note_en": "DeepSeek-R1 is a reasoning-focused model whose RL-only training framework incentivizes emergent reasoning patterns like self-verification and adaptive strategies."
       }
-    ]
+    ] 
   },
   "eraSettings": [],
   "metadata": {
