@@ -1,4 +1,4 @@
-# ネイティブマップ ユーザーガイド / Native Map User Guide
+# ネイティブマップ ユーザーガイド / NativeMap User Guide
 
 ## 日本語版
 
@@ -387,4 +387,5 @@ Start Year;End Year;Label;label_en;Genre;Importance;URL;url_en;Note;note_en
 2. **Align Birth Year**: Drag the light blue circle near the left end of the light blue diagonal line (where it intersects with the vertical axis) up and down to align with your birth year (e.g., 1965). "18 years old" will be displayed at the top.
 
 **The same operation can be performed with the red circle (red line). You can turn the display of each line on/off with the small circle button in the upper right.**
+
 
