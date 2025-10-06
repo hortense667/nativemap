@@ -1,4 +1,108 @@
 {
+  "genres": [
+    {
+      "code": "THEORY",
+      "label": "理論/モデル/アルゴリズム",
+      "label_en": "Theory/Models/Algorithms",
+      "conjunction": false
+    },
+    {
+      "code": "SOFTWARE",
+      "label": "ソフトウェア/開発基盤/サービス",
+      "label_en": "Software/Frameworks/Services",
+      "conjunction": false
+    },
+    {
+      "code": "HARDWARE",
+      "label": "ハードウェア/デバイス/計算基盤",
+      "label_en": "Hardware/Devices/Compute",
+      "conjunction": false
+    },
+    {
+      "code": "ROBOTICS",
+      "label": "ロボティクス/自律システム",
+      "label_en": "Robotics/Autonomous Systems",
+      "conjunction": false
+    },
+    {
+      "code": "DATA",
+      "label": "データセット/ベンチマーク",
+      "label_en": "Datasets/Benchmarks",
+      "conjunction": false
+    },
+    {
+      "code": "ORG",
+      "label": "人物/組織/プロジェクト",
+      "label_en": "People/Orgs/Projects",
+      "conjunction": false
+    },
+    {
+      "code": "APPLICATION",
+      "label": "応用/製品/サービス",
+      "label_en": "Applications/Products/Services",
+      "conjunction": false
+    },
+    {
+      "code": "CONTENT",
+      "label": "メディア/コンテンツ（小説/映画/アニメ/ゲーム/書籍）",
+      "label_en": "Media/Content (Fiction/Film/Anime/Game/Books)",
+      "conjunction": false
+    },
+    {
+      "code": "EVENT",
+      "label": "出来事/政策/競技/歴史的転換",
+      "label_en": "Events/Policy/Competitions/Turning points",
+      "conjunction": false
+    },
+    {
+      "code": "BACKGROUND",
+      "label": "時代背景/一般技術",
+      "label_en": "Era background / General tech",
+      "conjunction": false
+    },
+    {
+      "code": "JAPAN",
+      "label": "日本",
+      "label_en": "Japan",
+      "conjunction": true
+    },
+    {
+      "code": "P_NEURAL",
+      "label": "ニューラルネット系",
+      "label_en": "Neural-network based",
+      "conjunction": true
+    },
+    {
+      "code": "P_SYMBOLIC",
+      "label": "記号処理/ルール系",
+      "label_en": "Symbolic/Rule-based",
+      "conjunction": true
+    },
+    {
+      "code": "P_GENERATIVE",
+      "label": "生成モデル系",
+      "label_en": "Generative models",
+      "conjunction": true
+    },
+    {
+      "code": "P_RL",
+      "label": "強化学習系",
+      "label_en": "Reinforcement learning",
+      "conjunction": true
+    },
+    {
+      "code": "P_PROB",
+      "label": "確率/ベイズ系",
+      "label_en": "Probabilistic/Bayesian",
+      "conjunction": true
+    },
+    {
+      "code": "P_EVOL",
+      "label": "進化/遺伝的計算系",
+      "label_en": "Evolutionary/Genetic",
+      "conjunction": true
+    }
+  ],
   "events": {
     "1948": [
       {
@@ -6,8 +110,7 @@
         "label_en": "Cybernetics",
         "startYear": 1948,
         "genre": [
-          "THE",
-          "SOF-AI"
+          "THEORY"
         ],
         "imp": 4,
         "url": "[https://ja.wikipedia.org/wiki/サイバネティックス",
@@ -20,8 +123,8 @@
         "label_en": "Information theory",
         "startYear": 1948,
         "genre": [
-          "THE",
-          "SOF-AI"
+          "P_PROB",
+          "THEORY"
         ],
         "imp": 5,
         "url": "[https://ja.wikipedia.org/wiki/情報理論",
@@ -32,31 +135,32 @@
     ],
     "1950": [
       {
-        "label": "チューリング・テスト",
-        "label_en": "Turing test",
-        "startYear": 1950,
-        "genre": [
-          "THE",
-          "SOF-AI"
-        ],
-        "imp": 5,
-        "url": "[https://ja.wikipedia.org/wiki/チューリング・テスト",
-        "url_en": "https://en.wikipedia.org/wiki/Turing_test",
-        "note": "機械の知能を人と区別できるかを問う思考実験。AI評価基準として広く知られる概念。",
-        "note_en": "A](https://ja.wikipedia.org/wiki/チューリング・テスト"
-      },
-      {
         "label": "われはロボット",
         "label_en": "I, Robot",
         "startYear": 1950,
         "genre": [
-          "MED-CNT"
+          "CONTENT",
+          "HARDWARE",
+          "ROBOTICS"
         ],
         "imp": 5,
         "url": "[https://ja.wikipedia.org/wiki/われはロボット",
         "url_en": "https://en.wikipedia.org/wiki/I,_Robot",
         "note": "アシモフの短編集。三原則を軸に人間とロボットの関係を描く。",
         "note_en": "Asimov](https://ja.wikipedia.org/wiki/われはロボット"
+      },
+      {
+        "label": "チューリング・テスト",
+        "label_en": "Turing test",
+        "startYear": 1950,
+        "genre": [
+          "THEORY"
+        ],
+        "imp": 5,
+        "url": "[https://ja.wikipedia.org/wiki/チューリング・テスト",
+        "url_en": "https://en.wikipedia.org/wiki/Turing_test",
+        "note": "機械の知能を人と区別できるかを問う思考実験。AI評価基準として広く知られる概念。",
+        "note_en": "A](https://ja.wikipedia.org/wiki/チューリング・テスト"
       },
       {
         "label": "テレビ黄金時代（米国）",
@@ -79,9 +183,7 @@
         "label_en": "SNARC",
         "startYear": 1951,
         "genre": [
-          "HAR",
-          "SOF-AI",
-          "HARD"
+          "HARDWARE"
         ],
         "imp": 3,
         "url": "[https://ja.wikipedia.org/wiki/SNARC",
@@ -96,8 +198,8 @@
         "label_en": "Turing patterns (reaction–diffusion)",
         "startYear": 1952,
         "genre": [
-          "THE",
-          "SOF-AI"
+          "P_GENERATIVE",
+          "THEORY"
         ],
         "imp": 4,
         "url": "[https://ja.wikipedia.org/wiki/反応拡散系",
@@ -110,7 +212,7 @@
         "label_en": "Astro Boy",
         "startYear": 1952,
         "genre": [
-          "MED-CNT"
+          "CONTENT"
         ],
         "imp": 5,
         "url": "[https://ja.wikipedia.org/wiki/鉄腕アトム",
@@ -125,8 +227,8 @@
         "label_en": "Dartmouth workshop",
         "startYear": 1956,
         "genre": [
-          "THE",
-          "SOF-AI"
+          "EVENT",
+          "THEORY"
         ],
         "imp": 5,
         "url": "[https://ja.wikipedia.org/wiki/ダートマス会議_(人工知能)",
@@ -139,8 +241,7 @@
         "label_en": "Operant conditioning (Skinner)",
         "startYear": 1956,
         "genre": [
-          "THE",
-          "SOF-AI"
+          "THEORY"
         ],
         "imp": 4,
         "url": "[https://ja.wikipedia.org/wiki/オペラント条件づけ",
@@ -151,32 +252,31 @@
     ],
     "1957": [
       {
-        "label": "パーセプトロン",
-        "label_en": "Perceptron",
-        "startYear": 1957,
-        "genre": [
-          "THE",
-          "SOF-AI"
-        ],
-        "imp": 5,
-        "url": "[https://ja.wikipedia.org/wiki/パーセプトロン",
-        "url_en": "https://en.wikipedia.org/wiki/Perceptron",
-        "note": "単純な神経回路網モデル。初期の機械学習研究を牽引し、後のニューラルネット基盤となった。",
-        "note_en": "A](https://ja.wikipedia.org/wiki/パーセプトロン"
-      },
-      {
         "label": "ダイナミック・プログラミング",
         "label_en": "Dynamic programming (Bellman)",
         "startYear": 1957,
         "genre": [
-          "THE",
-          "SOF-AI"
+          "THEORY"
         ],
         "imp": 5,
         "url": "[https://ja.wikipedia.org/wiki/動的計画法",
         "url_en": "https://en.wikipedia.org/wiki/Dynamic_programming",
         "note": "逐次意思決定を最適化する枠組み。MDP/RLの核。",
         "note_en": "Framework](https://ja.wikipedia.org/wiki/動的計画法"
+      },
+      {
+        "label": "パーセプトロン",
+        "label_en": "Perceptron",
+        "startYear": 1957,
+        "genre": [
+          "P_NEURAL",
+          "THEORY"
+        ],
+        "imp": 5,
+        "url": "[https://ja.wikipedia.org/wiki/パーセプトロン",
+        "url_en": "https://en.wikipedia.org/wiki/Perceptron",
+        "note": "単純な神経回路網モデル。初期の機械学習研究を牽引し、後のニューラルネット基盤となった。",
+        "note_en": "A](https://ja.wikipedia.org/wiki/パーセプトロン"
       },
       {
         "label": "スプートニク1号（人工衛星）",
@@ -199,8 +299,7 @@
         "label_en": "Lisp",
         "startYear": 1958,
         "genre": [
-          "SOF-AI",
-          "SOFT"
+          "SOFTWARE"
         ],
         "imp": 5,
         "url": "[https://ja.wikipedia.org/wiki/Lisp",
@@ -215,8 +314,8 @@
         "label_en": "Kalman filter",
         "startYear": 1960,
         "genre": [
-          "THE",
-          "SOF-AI"
+          "P_PROB",
+          "THEORY"
         ],
         "imp": 4,
         "url": "[https://ja.wikipedia.org/wiki/カルマンフィルタ",
@@ -229,8 +328,8 @@
         "label_en": "Markov decision process",
         "startYear": 1960,
         "genre": [
-          "THE",
-          "SOF-AI"
+          "P_PROB",
+          "THEORY"
         ],
         "imp": 5,
         "url": "[https://ja.wikipedia.org/wiki/マルコフ決定過程",
@@ -245,8 +344,7 @@
         "label_en": "MENACE (matchbox computer)",
         "startYear": 1961,
         "genre": [
-          "THE",
-          "SOF-AI"
+          "THEORY"
         ],
         "imp": 4,
         "url": "[https://ja.wikipedia.org/wiki/MENACE",
@@ -261,8 +359,7 @@
         "label_en": "ELIZA",
         "startYear": 1964,
         "genre": [
-          "THE",
-          "SOF-AI"
+          "THEORY"
         ],
         "imp": 4,
         "url": "[https://ja.wikipedia.org/wiki/ELIZA",
@@ -275,8 +372,7 @@
         "label_en": "Cellular automaton",
         "startYear": 1964,
         "genre": [
-          "THE",
-          "SOF-AI"
+          "THEORY"
         ],
         "imp": 4,
         "url": "[https://ja.wikipedia.org/wiki/セル・オートマトン",
@@ -301,32 +397,32 @@
     ],
     "1965": [
       {
-        "label": "知能爆発（I.J.グッド）",
-        "label_en": "Intelligence explosion (I.J. Good)",
-        "startYear": 1965,
-        "genre": [
-          "THE",
-          "SOF-AI"
-        ],
-        "imp": 4,
-        "url": "[https://ja.wikipedia.org/wiki/技術的特異点",
-        "url_en": "https://en.wikipedia.org/wiki/Intelligence_explosion",
-        "note": "自己改良AIが急速に高度化するという概念の起源。",
-        "note_en": "Origin](https://ja.wikipedia.org/wiki/技術的特異点"
-      },
-      {
         "label": "アダライン/ウィドロウ・ホフ学習",
         "label_en": "ADALINE / LMS",
         "startYear": 1965,
         "genre": [
-          "THE",
-          "SOF-AI"
+          "JAPAN",
+          "SOFTWARE",
+          "THEORY"
         ],
         "imp": 3,
         "url": "[https://ja.wikipedia.org/wiki/アダライン",
         "url_en": "https://en.wikipedia.org/wiki/ADALINE",
         "note": "最小二乗に基づく適応学習回路で信号処理に応用。",
         "note_en": "Adaptive](https://ja.wikipedia.org/wiki/アダライン"
+      },
+      {
+        "label": "知能爆発（I.J.グッド）",
+        "label_en": "Intelligence explosion (I.J. Good)",
+        "startYear": 1965,
+        "genre": [
+          "THEORY"
+        ],
+        "imp": 4,
+        "url": "[https://ja.wikipedia.org/wiki/技術的特異点",
+        "url_en": "https://en.wikipedia.org/wiki/Intelligence_explosion",
+        "note": "自己改良AIが急速に高度化するという概念の起源。",
+        "note_en": "Origin](https://ja.wikipedia.org/wiki/技術的特異点"
       }
     ],
     "1966": [
@@ -336,9 +432,8 @@
         "startYear": 1966,
         "endYear": 1972,
         "genre": [
-          "HAR-ROB",
-          "SOF-AI",
-          "HARD"
+          "HARDWARE",
+          "ROBOTICS"
         ],
         "imp": 4,
         "url": "[https://ja.wikipedia.org/wiki/シェーキー",
@@ -347,13 +442,30 @@
         "note_en": "An](https://ja.wikipedia.org/wiki/シェーキー"
       }
     ],
+    "1967": [
+      {
+        "label": "ATMの普及開始",
+        "label_en": "Automated teller machine (ATM)",
+        "imp": 3,
+        "genre": [
+          "BACKGROUND",
+          "APPLICATION",
+          "HARDWARE",
+          "SOFTWARE"
+        ],
+        "url": "https://ja.wikipedia.org/wiki/現金自動預け払い機",
+        "url_en": "https://en.wikipedia.org/wiki/Automated_teller_machine",
+        "note": "現金自動預け払い機が一般化。24時間の金融アクセスが生活を変えた。",
+        "note_en": "Automated teller machines became widespread, extending 24‑hour access to cash and banking, reshaping everyday financial habits."
+      }
+    ],
     "1968": [
       {
         "label": "2001年宇宙の旅",
         "label_en": "2001: A Space Odyssey",
         "startYear": 1968,
         "genre": [
-          "MED-CNT"
+          "CONTENT"
         ],
         "imp": 5,
         "url": "[https://ja.wikipedia.org/wiki/2001年宇宙の旅",
@@ -366,7 +478,7 @@
         "label_en": "Do Androids Dream of Electric Sheep?",
         "startYear": 1968,
         "genre": [
-          "MED-CNT"
+          "CONTENT"
         ],
         "imp": 5,
         "url": "[https://ja.wikipedia.org/wiki/アンドロイドは電気羊の夢を見るか?",
@@ -392,31 +504,31 @@
     ],
     "1969": [
       {
-        "label": "パーセプトロンの限界（M&P）",
-        "label_en": "Perceptrons (limitations)",
-        "startYear": 1969,
-        "genre": [
-          "THE",
-          "SOF-AI"
-        ],
-        "imp": 4,
-        "url": "[https://ja.wikipedia.org/wiki/パーセプトロン",
-        "url_en": "https://en.wikipedia.org/wiki/Perceptrons_(book)",
-        "note": "線形分離不能問題を指摘し研究潮流に影響。",
-        "note_en": "Identified](https://ja.wikipedia.org/wiki/パーセプトロン"
-      },
-      {
         "label": "ドラえもん",
         "label_en": "Doraemon",
         "startYear": 1969,
         "genre": [
-          "MED-CNT"
+          "CONTENT"
         ],
         "imp": 5,
         "url": "[https://ja.wikipedia.org/wiki/ドラえもん",
         "url_en": "https://en.wikipedia.org/wiki/Doraemon",
         "note": "未来から来た猫型ロボットが日常を助ける国民的作品。",
         "note_en": "A](https://ja.wikipedia.org/wiki/ドラえもん"
+      },
+      {
+        "label": "パーセプトロンの限界（M&P）",
+        "label_en": "Perceptrons (limitations)",
+        "startYear": 1969,
+        "genre": [
+          "P_NEURAL",
+          "THEORY"
+        ],
+        "imp": 4,
+        "url": "[https://ja.wikipedia.org/wiki/パーセプトロン",
+        "url_en": "https://en.wikipedia.org/wiki/Perceptrons_(book)",
+        "note": "線形分離不能問題を指摘し研究潮流に影響。",
+        "note_en": "Identified](https://ja.wikipedia.org/wiki/パーセプトロン"
       },
       {
         "label": "アポロ11号（月面着陸）",
@@ -439,8 +551,8 @@
         "label_en": "SHRDLU",
         "startYear": 1970,
         "genre": [
-          "THE",
-          "SOF-AI"
+          "P_SYMBOLIC",
+          "THEORY"
         ],
         "imp": 4,
         "url": "[https://ja.wikipedia.org/wiki/SHRDLU",
@@ -453,8 +565,7 @@
         "label_en": "Conway’s Game of Life",
         "startYear": 1970,
         "genre": [
-          "THE",
-          "SOF-AI"
+          "THEORY"
         ],
         "imp": 4,
         "url": "[https://ja.wikipedia.org/wiki/ライフゲーム",
@@ -467,7 +578,7 @@
         "label_en": "Colossus: The Forbin Project",
         "startYear": 1970,
         "genre": [
-          "MED-CNT"
+          "CONTENT"
         ],
         "imp": 4,
         "url": "[https://ja.wikipedia.org/wiki/地球爆破作戦",
@@ -476,14 +587,30 @@
         "note_en": "A](https://ja.wikipedia.org/wiki/地球爆破作戦"
       }
     ],
+    "1971": [
+      {
+        "label": "マイクロプロセッサ（Intel 4004）",
+        "label_en": "Microprocessor (Intel 4004)",
+        "imp": 5,
+        "genre": [
+          "BACKGROUND",
+          "HARDWARE",
+          "EVENT"
+        ],
+        "url": "https://ja.wikipedia.org/wiki/インテル4004",
+        "url_en": "https://en.wikipedia.org/wiki/Intel_4004",
+        "note": "初の商用マイクロプロセッサ。計算資源の小型化がPC時代の基盤に。",
+        "note_en": "The first commercial microprocessor; miniaturized computing power that laid the foundation for the personal computer era."
+      }
+    ],
     "1972": [
       {
         "label": "MYCIN",
         "label_en": "MYCIN",
         "startYear": 1972,
         "genre": [
-          "THE",
-          "SOF-AI"
+          "P_SYMBOLIC",
+          "THEORY"
         ],
         "imp": 4,
         "url": "[https://ja.wikipedia.org/wiki/MYCIN",
@@ -496,8 +623,8 @@
         "label_en": "Prolog",
         "startYear": 1972,
         "genre": [
-          "SOF-AI",
-          "SOFT"
+          "P_SYMBOLIC",
+          "SOFTWARE"
         ],
         "imp": 4,
         "url": "[https://ja.wikipedia.org/wiki/Prolog",
@@ -510,8 +637,7 @@
         "label_en": "The Computer and the Brain",
         "startYear": 1972,
         "genre": [
-          "THE",
-          "SOF-AI"
+          "THEORY"
         ],
         "imp": 3,
         "url": "[https://ja.wikipedia.org/wiki/計算機と脳",
@@ -541,10 +667,9 @@
         "label_en": "WABOT-1",
         "startYear": 1973,
         "genre": [
-          "HAR-ROB",
-          "SOF-AI",
-          "HARD",
-          "JAPAN"
+          "HARDWARE",
+          "JAPAN",
+          "ROBOTICS"
         ],
         "imp": 4,
         "url": "[https://ja.wikipedia.org/wiki/WABOT",
@@ -557,7 +682,8 @@
         "label_en": "Westworld (1973 film)",
         "startYear": 1973,
         "genre": [
-          "MED-CNT"
+          "CONTENT",
+          "P_RL"
         ],
         "imp": 4,
         "url": "[https://ja.wikipedia.org/wiki/ウエストワールド",
@@ -587,9 +713,8 @@
         "label_en": "Shun’ichi Amari – Information geometry",
         "startYear": 1976,
         "genre": [
-          "THE",
-          "SOF-AI",
-          "JAPAN"
+          "JAPAN",
+          "THEORY"
         ],
         "imp": 5,
         "url": "[https://ja.wikipedia.org/wiki/甘利俊一",
@@ -604,7 +729,7 @@
         "label_en": "Star Wars droids",
         "startYear": 1977,
         "genre": [
-          "MED-CNT"
+          "CONTENT"
         ],
         "imp": 3,
         "url": "[https://ja.wikipedia.org/wiki/スター・ウォーズの用語一覧#ドロイド",
@@ -619,9 +744,8 @@
         "label_en": "Stanford cart",
         "startYear": 1979,
         "genre": [
-          "HAR-ROB",
-          "SOF-AI",
-          "HARD"
+          "HARDWARE",
+          "ROBOTICS"
         ],
         "imp": 3,
         "url": "[https://ja.wikipedia.org/wiki/スタンフォード・カート",
@@ -632,33 +756,33 @@
     ],
     "1980": [
       {
-        "label": "ネオコグニトロン",
-        "label_en": "Neocognitron",
-        "startYear": 1980,
-        "genre": [
-          "THE",
-          "SOF-AI",
-          "JAPAN"
-        ],
-        "imp": 5,
-        "url": "[https://ja.wikipedia.org/wiki/ネオコグニトロン",
-        "url_en": "https://en.wikipedia.org/wiki/Neocognitron",
-        "note": "福島邦彦による階層型ネット。CNNの原型とされるモデル。",
-        "note_en": "Kunihiko](https://ja.wikipedia.org/wiki/ネオコグニトロン"
-      },
-      {
         "label": "エキスパートシステム",
         "label_en": "Expert systems",
         "startYear": 1980,
         "genre": [
-          "THE",
-          "SOF-AI"
+          "P_SYMBOLIC",
+          "THEORY"
         ],
         "imp": 5,
         "url": "[https://ja.wikipedia.org/wiki/エキスパートシステム",
         "url_en": "https://en.wikipedia.org/wiki/Expert_system",
         "note": "知識ベースと推論で専門家の判断を模倣。80年代の商用AIを牽引。",
         "note_en": "Knowledge-based](https://ja.wikipedia.org/wiki/エキスパートシステム"
+      },
+      {
+        "label": "ネオコグニトロン",
+        "label_en": "Neocognitron",
+        "startYear": 1980,
+        "genre": [
+          "JAPAN",
+          "P_NEURAL",
+          "THEORY"
+        ],
+        "imp": 5,
+        "url": "[https://ja.wikipedia.org/wiki/ネオコグニトロン",
+        "url_en": "https://en.wikipedia.org/wiki/Neocognitron",
+        "note": "福島邦彦による階層型ネット。CNNの原型とされるモデル。",
+        "note_en": "Kunihiko](https://ja.wikipedia.org/wiki/ネオコグニトロン"
       }
     ],
     "1981": [
@@ -668,10 +792,9 @@
         "startYear": 1981,
         "endYear": 1992,
         "genre": [
-          "ORG",
-          "NONG",
-          "SOF-AI",
-          "JAPAN"
+          "EVENT",
+          "JAPAN",
+          "ORG"
         ],
         "imp": 4,
         "url": "[https://ja.wikipedia.org/wiki/新世代コンピュータ技術開発機構",
@@ -698,15 +821,41 @@
     ],
     "1982": [
       {
+        "label": "ブレードランナー",
+        "label_en": "Blade Runner",
+        "startYear": 1982,
+        "genre": [
+          "CONTENT"
+        ],
+        "imp": 5,
+        "url": "[https://ja.wikipedia.org/wiki/ブレードランナー",
+        "url_en": "https://en.wikipedia.org/wiki/Blade_Runner",
+        "note": "人造人間レプリカントと人間性を描くSF映画の金字塔。",
+        "note_en": "Landmark](https://ja.wikipedia.org/wiki/ブレードランナー"
+      },
+      {
+        "label": "ホップフィールド・ネット",
+        "label_en": "Hopfield network",
+        "startYear": 1982,
+        "genre": [
+          "P_NEURAL",
+          "THEORY"
+        ],
+        "imp": 5,
+        "url": "[https://ja.wikipedia.org/wiki/ホップフィールドネットワーク",
+        "url_en": "https://en.wikipedia.org/wiki/Hopfield_network",
+        "note": "エネルギーモデルで連想記憶を実現。",
+        "note_en": "Energy-based](https://ja.wikipedia.org/wiki/ホップフィールドネットワーク"
+      },
+      {
         "label": "第五世代コンピュータ・プロジェクト",
         "label_en": "Fifth Generation Computer Systems",
         "startYear": 1982,
         "endYear": 1992,
         "genre": [
-          "HAR",
-          "SOF-AI",
-          "HARD",
-          "JAPAN"
+          "HARDWARE",
+          "JAPAN",
+          "P_SYMBOLIC"
         ],
         "imp": 5,
         "url": "[https://ja.wikipedia.org/wiki/第五世代コンピュータ",
@@ -719,41 +868,33 @@
         "label_en": "Self-organizing map",
         "startYear": 1982,
         "genre": [
-          "THE",
-          "SOF-AI"
+          "P_GENERATIVE",
+          "P_NEURAL",
+          "THEORY"
         ],
         "imp": 5,
         "url": "[https://ja.wikipedia.org/wiki/自己組織化マップ",
         "url_en": "https://en.wikipedia.org/wiki/Self-organizing_map",
         "note": "競合学習で高次元データを可視化・クラスタ化。",
         "note_en": "Competitive](https://ja.wikipedia.org/wiki/自己組織化マップ"
-      },
+      }
+    ],
+    "1983": [
       {
-        "label": "ホップフィールド・ネット",
-        "label_en": "Hopfield network",
-        "startYear": 1982,
+        "label": "ファミリーコンピュータ（任天堂）",
+        "label_en": "Family Computer (Famicom)",
+        "imp": 4,
         "genre": [
-          "THE",
-          "SOF-AI"
+          "BACKGROUND",
+          "HARDWARE",
+          "CONTENT",
+          "APPLICATION",
+          "JAPAN"
         ],
-        "imp": 5,
-        "url": "[https://ja.wikipedia.org/wiki/ホップフィールドネットワーク",
-        "url_en": "https://en.wikipedia.org/wiki/Hopfield_network",
-        "note": "エネルギーモデルで連想記憶を実現。",
-        "note_en": "Energy-based](https://ja.wikipedia.org/wiki/ホップフィールドネットワーク"
-      },
-      {
-        "label": "ブレードランナー",
-        "label_en": "Blade Runner",
-        "startYear": 1982,
-        "genre": [
-          "MED-CNT"
-        ],
-        "imp": 5,
-        "url": "[https://ja.wikipedia.org/wiki/ブレードランナー",
-        "url_en": "https://en.wikipedia.org/wiki/Blade_Runner",
-        "note": "人造人間レプリカントと人間性を描くSF映画の金字塔。",
-        "note_en": "Landmark](https://ja.wikipedia.org/wiki/ブレードランナー"
+        "url": "https://ja.wikipedia.org/wiki/ファミリーコンピュータ",
+        "url_en": "https://en.wikipedia.org/wiki/Nintendo_Entertainment_System",
+        "note": "家庭用ゲームの大衆化を決定づけた日本発のプラットフォーム。",
+        "note_en": "A Japanese platform that popularized home video gaming worldwide and defined a generation’s media habits."
       }
     ],
     "1984": [
@@ -762,8 +903,8 @@
         "label_en": "Cyc",
         "startYear": 1984,
         "genre": [
-          "THE",
-          "SOF-AI"
+          "P_SYMBOLIC",
+          "THEORY"
         ],
         "imp": 4,
         "url": "[https://ja.wikipedia.org/wiki/Cyc",
@@ -772,31 +913,30 @@
         "note_en": "Project](https://ja.wikipedia.org/wiki/Cyc"
       },
       {
-        "label": "ブレイテンベルク・ビークル",
-        "label_en": "Braitenberg vehicles",
-        "startYear": 1984,
-        "genre": [
-          "THE",
-          "SOF-AI"
-        ],
-        "imp": 3,
-        "url": "[https://ja.wikipedia.org/wiki/ブレイテンベルク・ビークル",
-        "url_en": "https://en.wikipedia.org/wiki/Braitenberg_vehicle",
-        "note": "単純結線でも行動が生まれることを示す思考モデル。",
-        "note_en": "Thought](https://ja.wikipedia.org/wiki/ブレイテンベルク・ビークル"
-      },
-      {
         "label": "ターミネーター",
         "label_en": "The Terminator",
         "startYear": 1984,
         "genre": [
-          "MED-CNT"
+          "CONTENT"
         ],
         "imp": 5,
         "url": "[https://ja.wikipedia.org/wiki/ターミネーター_(映画)",
         "url_en": "https://en.wikipedia.org/wiki/The_Terminator",
         "note": "未来のAI「スカイネット」が送り込む殺人機械を描く。",
         "note_en": "A](https://ja.wikipedia.org/wiki/ターミネーター_%28映画%29"
+      },
+      {
+        "label": "ブレイテンベルク・ビークル",
+        "label_en": "Braitenberg vehicles",
+        "startYear": 1984,
+        "genre": [
+          "THEORY"
+        ],
+        "imp": 3,
+        "url": "[https://ja.wikipedia.org/wiki/ブレイテンベルク・ビークル",
+        "url_en": "https://en.wikipedia.org/wiki/Braitenberg_vehicle",
+        "note": "単純結線でも行動が生まれることを示す思考モデル。",
+        "note_en": "Thought](https://ja.wikipedia.org/wiki/ブレイテンベルク・ビークル"
       },
       {
         "label": "Macintosh（GUI普及）",
@@ -821,8 +961,9 @@
         "label_en": "Boltzmann machine",
         "startYear": 1985,
         "genre": [
-          "THE",
-          "SOF-AI"
+          "P_NEURAL",
+          "P_PROB",
+          "THEORY"
         ],
         "imp": 4,
         "url": "[https://ja.wikipedia.org/wiki/ボルツマンマシン",
@@ -835,7 +976,7 @@
         "label_en": "RoboCop",
         "startYear": 1985,
         "genre": [
-          "MED-CNT"
+          "CONTENT"
         ],
         "imp": 4,
         "url": "[https://ja.wikipedia.org/wiki/ロボコップ",
@@ -846,26 +987,25 @@
     ],
     "1986": [
       {
-        "label": "誤差逆伝播法",
-        "label_en": "Backpropagation",
+        "label": "ショート・サーキット",
+        "label_en": "Short Circuit",
         "startYear": 1986,
         "genre": [
-          "THE",
-          "SOF-AI"
+          "CONTENT"
         ],
-        "imp": 5,
-        "url": "[https://ja.wikipedia.org/wiki/誤差逆伝播法",
-        "url_en": "https://en.wikipedia.org/wiki/Backpropagation",
-        "note": "多層ニューラルネット学習法として再評価され、深層学習の基盤となった。",
-        "note_en": "Learning](https://ja.wikipedia.org/wiki/誤差逆伝播法"
+        "imp": 3,
+        "url": "[https://ja.wikipedia.org/wiki/ショート・サーキット",
+        "url_en": "https://en.wikipedia.org/wiki/Short_Circuit_(1986_film)",
+        "note": "落雷で自我に目覚めたロボット「No.5」の騒動。",
+        "note_en": "A](https://ja.wikipedia.org/wiki/ショート・サーキット"
       },
       {
         "label": "バックプロパゲーション再発見",
         "label_en": "Backpropagation (revival)",
         "startYear": 1986,
         "genre": [
-          "THE",
-          "SOF-AI"
+          "P_NEURAL",
+          "THEORY"
         ],
         "imp": 5,
         "url": "[https://ja.wikipedia.org/wiki/誤差逆伝播法",
@@ -874,17 +1014,18 @@
         "note_en": "Enabled](https://ja.wikipedia.org/wiki/誤差逆伝播法"
       },
       {
-        "label": "ショート・サーキット",
-        "label_en": "Short Circuit",
+        "label": "誤差逆伝播法",
+        "label_en": "Backpropagation",
         "startYear": 1986,
         "genre": [
-          "MED-CNT"
+          "P_NEURAL",
+          "THEORY"
         ],
-        "imp": 3,
-        "url": "[https://ja.wikipedia.org/wiki/ショート・サーキット",
-        "url_en": "https://en.wikipedia.org/wiki/Short_Circuit_(1986_film)",
-        "note": "落雷で自我に目覚めたロボット「No.5」の騒動。",
-        "note_en": "A](https://ja.wikipedia.org/wiki/ショート・サーキット"
+        "imp": 5,
+        "url": "[https://ja.wikipedia.org/wiki/誤差逆伝播法",
+        "url_en": "https://en.wikipedia.org/wiki/Backpropagation",
+        "note": "多層ニューラルネット学習法として再評価され、深層学習の基盤となった。",
+        "note_en": "Learning](https://ja.wikipedia.org/wiki/誤差逆伝播法"
       }
     ],
     "1987": [
@@ -894,7 +1035,7 @@
         "startYear": 1987,
         "endYear": 1993,
         "genre": [
-          "NON-HIS"
+          "EVENT"
         ],
         "imp": 4,
         "url": "[https://ja.wikipedia.org/wiki/AIの冬",
@@ -907,8 +1048,8 @@
         "label_en": "Artificial life (field)",
         "startYear": 1987,
         "genre": [
-          "THE",
-          "SOF-AI"
+          "P_EVOL",
+          "THEORY"
         ],
         "imp": 4,
         "url": "[https://ja.wikipedia.org/wiki/人工生命",
@@ -923,8 +1064,8 @@
         "label_en": "Q-learning",
         "startYear": 1989,
         "genre": [
-          "THE",
-          "SOF-AI"
+          "P_RL",
+          "THEORY"
         ],
         "imp": 5,
         "url": "[https://ja.wikipedia.org/wiki/Q学習",
@@ -937,8 +1078,7 @@
         "label_en": "Universal approximation theorem",
         "startYear": 1989,
         "genre": [
-          "THE",
-          "SOF-AI"
+          "THEORY"
         ],
         "imp": 4,
         "url": "[https://ja.wikipedia.org/wiki/普遍近似定理",
@@ -951,7 +1091,7 @@
         "label_en": "Patlabor",
         "startYear": 1989,
         "genre": [
-          "MED-CNT"
+          "CONTENT"
         ],
         "imp": 4,
         "url": "[https://ja.wikipedia.org/wiki/機動警察パトレイバー",
@@ -981,8 +1121,8 @@
         "label_en": "Tierra (A-life)",
         "startYear": 1990,
         "genre": [
-          "THE",
-          "SOF-AI"
+          "P_EVOL",
+          "THEORY"
         ],
         "imp": 3,
         "url": "[https://ja.wikipedia.org/wiki/人工生命",
@@ -993,31 +1133,31 @@
     ],
     "1991": [
       {
-        "label": "遺伝的アルゴリズムの普及",
-        "label_en": "Genetic algorithms",
-        "startYear": 1991,
-        "genre": [
-          "THE",
-          "SOF-AI"
-        ],
-        "imp": 4,
-        "url": "[https://ja.wikipedia.org/wiki/遺伝的アルゴリズム",
-        "url_en": "https://en.wikipedia.org/wiki/Genetic_algorithm",
-        "note": "進化的最適化が機械学習・設計探索に広く応用。",
-        "note_en": "Evolutionary](https://ja.wikipedia.org/wiki/遺伝的アルゴリズム"
-      },
-      {
         "label": "ターミネーター2",
         "label_en": "Terminator 2: Judgment Day",
         "startYear": 1991,
         "genre": [
-          "MED-CNT"
+          "CONTENT"
         ],
         "imp": 5,
         "url": "[https://ja.wikipedia.org/wiki/ターミネーター2",
         "url_en": "https://en.wikipedia.org/wiki/Terminator_2:_Judgment_Day",
         "note": "進化したターミネーターとAI脅威を描く続編。",
         "note_en": "Sequel](https://ja.wikipedia.org/wiki/ターミネーター2"
+      },
+      {
+        "label": "遺伝的アルゴリズムの普及",
+        "label_en": "Genetic algorithms",
+        "startYear": 1991,
+        "genre": [
+          "P_EVOL",
+          "THEORY"
+        ],
+        "imp": 4,
+        "url": "[https://ja.wikipedia.org/wiki/遺伝的アルゴリズム",
+        "url_en": "https://en.wikipedia.org/wiki/Genetic_algorithm",
+        "note": "進化的最適化が機械学習・設計探索に広く応用。",
+        "note_en": "Evolutionary](https://ja.wikipedia.org/wiki/遺伝的アルゴリズム"
       }
     ],
     "1993": [
@@ -1026,8 +1166,7 @@
         "label_en": "C4.5",
         "startYear": 1993,
         "genre": [
-          "THE",
-          "SOF-AI"
+          "THEORY"
         ],
         "imp": 4,
         "url": "[https://ja.wikipedia.org/wiki/C4.5",
@@ -1042,8 +1181,8 @@
         "label_en": "Evolved virtual creatures (Sims)",
         "startYear": 1994,
         "genre": [
-          "THE",
-          "SOF-AI"
+          "P_EVOL",
+          "THEORY"
         ],
         "imp": 3,
         "url": "[https://ja.wikipedia.org/wiki/カール・シムズ",
@@ -1058,8 +1197,7 @@
         "label_en": "Support-vector machine",
         "startYear": 1995,
         "genre": [
-          "THE",
-          "SOF-AI"
+          "THEORY"
         ],
         "imp": 5,
         "url": "[https://ja.wikipedia.org/wiki/サポートベクターマシン",
@@ -1068,25 +1206,11 @@
         "note_en": "Machine](https://ja.wikipedia.org/wiki/サポートベクターマシン"
       },
       {
-        "label": "行動ベースロボット/サブサンプション",
-        "label_en": "Subsumption architecture",
-        "startYear": 1995,
-        "genre": [
-          "THE",
-          "SOF-AI"
-        ],
-        "imp": 4,
-        "url": "[https://ja.wikipedia.org/wiki/サブサンプション・アーキテクチャ",
-        "url_en": "https://en.wikipedia.org/wiki/Subsumption_architecture",
-        "note": "階層抑制で自律行動を実現する設計。",
-        "note_en": "Behavior-based](https://ja.wikipedia.org/wiki/サブサンプション・アーキテクチャ"
-      },
-      {
         "label": "攻殻機動隊",
         "label_en": "Ghost in the Shell",
         "startYear": 1995,
         "genre": [
-          "MED-CNT"
+          "CONTENT"
         ],
         "imp": 5,
         "url": "[https://ja.wikipedia.org/wiki/攻殻機動隊_(映画)",
@@ -1099,13 +1223,26 @@
         "label_en": "Neon Genesis Evangelion",
         "startYear": 1995,
         "genre": [
-          "MED-CNT"
+          "CONTENT"
         ],
         "imp": 4,
         "url": "[https://ja.wikipedia.org/wiki/新世紀エヴァンゲリオン",
         "url_en": "https://en.wikipedia.org/wiki/Neon_Genesis_Evangelion",
         "note": "巨大人型兵器とMAGIら高度計算機を背景に人間心理を描く。",
         "note_en": "Mecha](https://ja.wikipedia.org/wiki/新世紀エヴァンゲリオン"
+      },
+      {
+        "label": "行動ベースロボット/サブサンプション",
+        "label_en": "Subsumption architecture",
+        "startYear": 1995,
+        "genre": [
+          "THEORY"
+        ],
+        "imp": 4,
+        "url": "[https://ja.wikipedia.org/wiki/サブサンプション・アーキテクチャ",
+        "url_en": "https://en.wikipedia.org/wiki/Subsumption_architecture",
+        "note": "階層抑制で自律行動を実現する設計。",
+        "note_en": "Behavior-based](https://ja.wikipedia.org/wiki/サブサンプション・アーキテクチャ"
       },
       {
         "label": "Windows 95とインターネット普及",
@@ -1129,8 +1266,7 @@
         "label_en": "Long short-term memory",
         "startYear": 1997,
         "genre": [
-          "THE",
-          "SOF-AI"
+          "THEORY"
         ],
         "imp": 5,
         "url": "[https://ja.wikipedia.org/wiki/Long_short-term_memory",
@@ -1143,8 +1279,7 @@
         "label_en": "Deep Blue",
         "startYear": 1997,
         "genre": [
-          "SOF-AI",
-          "SOFT"
+          "SOFTWARE"
         ],
         "imp": 5,
         "url": "[https://ja.wikipedia.org/wiki/ディープ・ブルー",
@@ -1155,32 +1290,31 @@
     ],
     "1998": [
       {
-        "label": "自然勾配法（甘利）",
-        "label_en": "Natural gradient (Amari)",
-        "startYear": 1998,
-        "genre": [
-          "THE",
-          "SOF-AI",
-          "JAPAN"
-        ],
-        "imp": 5,
-        "url": "[https://ja.wikipedia.org/wiki/自然勾配法",
-        "url_en": "https://en.wikipedia.org/wiki/Natural_gradient",
-        "note": "情報幾何に基づく勾配で学習を効率化。",
-        "note_en": "Efficient](https://ja.wikipedia.org/wiki/自然勾配法"
-      },
-      {
         "label": "Serial Experiments Lain",
         "label_en": "Serial Experiments Lain",
         "startYear": 1998,
         "genre": [
-          "MED-CNT"
+          "CONTENT"
         ],
         "imp": 4,
         "url": "[https://ja.wikipedia.org/wiki/Serial_experiments_lain",
         "url_en": "https://en.wikipedia.org/wiki/Serial_Experiments_Lain",
         "note": "ネットと自己同一性をめぐる実験的サイバーパンク。",
         "note_en": "Experimental](https://ja.wikipedia.org/wiki/Serial_experiments_lain"
+      },
+      {
+        "label": "自然勾配法（甘利）",
+        "label_en": "Natural gradient (Amari)",
+        "startYear": 1998,
+        "genre": [
+          "JAPAN",
+          "THEORY"
+        ],
+        "imp": 5,
+        "url": "[https://ja.wikipedia.org/wiki/自然勾配法",
+        "url_en": "https://en.wikipedia.org/wiki/Natural_gradient",
+        "note": "情報幾何に基づく勾配で学習を効率化。",
+        "note_en": "Efficient](https://ja.wikipedia.org/wiki/自然勾配法"
       },
       {
         "label": "Google検索",
@@ -1204,10 +1338,10 @@
         "label_en": "AIBO",
         "startYear": 1999,
         "genre": [
-          "HAR-ROB",
-          "SOF-AI",
-          "HARD",
-          "JAPAN"
+          "APPLICATION",
+          "HARDWARE",
+          "JAPAN",
+          "ROBOTICS"
         ],
         "imp": 4,
         "url": "[https://ja.wikipedia.org/wiki/AIBO",
@@ -1220,10 +1354,10 @@
         "label_en": "AIBO (added)",
         "startYear": 1999,
         "genre": [
-          "HAR-ROB",
-          "SOF-AI",
-          "HARD",
-          "JAPAN"
+          "APPLICATION",
+          "HARDWARE",
+          "JAPAN",
+          "ROBOTICS"
         ],
         "imp": 4,
         "url": "[https://ja.wikipedia.org/wiki/AIBO",
@@ -1236,7 +1370,7 @@
         "label_en": "The Matrix",
         "startYear": 1999,
         "genre": [
-          "MED-CNT"
+          "CONTENT"
         ],
         "imp": 5,
         "url": "[https://ja.wikipedia.org/wiki/マトリックス",
@@ -1263,59 +1397,42 @@
     ],
     "2000": [
       {
-        "label": "OpenCV",
-        "label_en": "OpenCV",
-        "startYear": 2000,
-        "genre": [
-          "SOF-AI",
-          "SOFT"
-        ],
-        "imp": 4,
-        "url": "[https://ja.wikipedia.org/wiki/OpenCV",
-        "url_en": "https://en.wikipedia.org/wiki/OpenCV",
-        "note": "コンピュータビジョンのオープンソースライブラリ。研究と実装の標準的基盤。",
-        "note_en": "Open-source](https://ja.wikipedia.org/wiki/OpenCV"
-      },
-      {
         "label": "ASIMO",
         "label_en": "ASIMO",
         "startYear": 2000,
         "genre": [
-          "HAR-ROB",
-          "SOF-AI",
-          "HARD",
-          "JAPAN"
+          "APPLICATION",
+          "HARDWARE",
+          "JAPAN",
+          "ROBOTICS"
         ],
         "imp": 5,
         "url": "[https://ja.wikipedia.org/wiki/ASIMO",
         "url_en": "https://en.wikipedia.org/wiki/ASIMO",
         "note": "本田技研の人型ロボット。歩行や操作で高い技術を示した。",
         "note_en": "Honda’s](https://ja.wikipedia.org/wiki/ASIMO"
+      },
+      {
+        "label": "OpenCV",
+        "label_en": "OpenCV",
+        "startYear": 2000,
+        "genre": [
+          "SOFTWARE"
+        ],
+        "imp": 4,
+        "url": "[https://ja.wikipedia.org/wiki/OpenCV",
+        "url_en": "https://en.wikipedia.org/wiki/OpenCV",
+        "note": "コンピュータビジョンのオープンソースライブラリ。研究と実装の標準的基盤。",
+        "note_en": "Open-source](https://ja.wikipedia.org/wiki/OpenCV"
       }
     ],
     "2001": [
-      {
-        "label": "人工無脳",
-        "label_en": "Chatbots (Japanese “Artificial unintelligence”)",
-        "startYear": 2001,
-        "genre": [
-          "SOF-SVC",
-          "SOF-AI",
-          "SOFT",
-          "JAPAN"
-        ],
-        "imp": 3,
-        "url": "[https://ja.wikipedia.org/wiki/人工無脳",
-        "url_en": "https://en.wikipedia.org/wiki/Chatbot",
-        "note": "対話らしさを模倣する日本ネット文化の自動応答群。",
-        "note_en": "Japanese](https://ja.wikipedia.org/wiki/人工無脳"
-      },
       {
         "label": "A.I.",
         "label_en": "A.I. Artificial Intelligence",
         "startYear": 2001,
         "genre": [
-          "MED-CNT"
+          "CONTENT"
         ],
         "imp": 4,
         "url": "[https://ja.wikipedia.org/wiki/A.I.",
@@ -1328,13 +1445,27 @@
         "label_en": "Metropolis (2001 film)",
         "startYear": 2001,
         "genre": [
-          "MED-CNT"
+          "CONTENT"
         ],
         "imp": 4,
         "url": "[https://ja.wikipedia.org/wiki/メトロポリス_(2001年の映画)",
         "url_en": "https://en.wikipedia.org/wiki/Metropolis_(2001_film)",
         "note": "手塚治虫原作の近未来都市と人造人間の物語。",
         "note_en": "Anime](https://ja.wikipedia.org/wiki/メトロポリス_%282001年の映画%29"
+      },
+      {
+        "label": "人工無脳",
+        "label_en": "Chatbots (Japanese “Artificial unintelligence”)",
+        "startYear": 2001,
+        "genre": [
+          "JAPAN",
+          "SOFTWARE"
+        ],
+        "imp": 3,
+        "url": "[https://ja.wikipedia.org/wiki/人工無脳",
+        "url_en": "https://en.wikipedia.org/wiki/Chatbot",
+        "note": "対話らしさを模倣する日本ネット文化の自動応答群。",
+        "note_en": "Japanese](https://ja.wikipedia.org/wiki/人工無脳"
       },
       {
         "label": "Wikipedia（共同知識基盤）",
@@ -1354,32 +1485,48 @@
     ],
     "2002": [
       {
-        "label": "ルンバ",
-        "label_en": "Roomba",
-        "startYear": 2002,
-        "genre": [
-          "HAR-ROB",
-          "SOF-AI",
-          "HARD"
-        ],
-        "imp": 4,
-        "url": "[https://ja.wikipedia.org/wiki/ルンバ",
-        "url_en": "https://en.wikipedia.org/wiki/Roomba",
-        "note": "家庭用自律清掃ロボを普及させた代表製品。",
-        "note_en": "Flagship](https://ja.wikipedia.org/wiki/ルンバ"
-      },
-      {
         "label": "ちょびっツ",
         "label_en": "Chobits",
         "startYear": 2002,
         "genre": [
-          "MED-CNT"
+          "CONTENT"
         ],
         "imp": 3,
         "url": "[https://ja.wikipedia.org/wiki/ちょびっツ",
         "url_en": "https://en.wikipedia.org/wiki/Chobits",
         "note": "人型PCと人間の関係を描くラブコメSF。",
         "note_en": "Romantic](https://ja.wikipedia.org/wiki/ちょびっツ"
+      },
+      {
+        "label": "ルンバ",
+        "label_en": "Roomba",
+        "startYear": 2002,
+        "genre": [
+          "APPLICATION",
+          "HARDWARE",
+          "ROBOTICS"
+        ],
+        "imp": 4,
+        "url": "[https://ja.wikipedia.org/wiki/ルンバ",
+        "url_en": "https://en.wikipedia.org/wiki/Roomba",
+        "note": "家庭用自律清掃ロボを普及させた代表製品。",
+        "note_en": "Flagship](https://ja.wikipedia.org/wiki/ルンバ"
+      }
+    ],
+    "2003": [
+      {
+        "label": "Skype（VoIP）",
+        "label_en": "Skype (VoIP)",
+        "imp": 3,
+        "genre": [
+          "BACKGROUND",
+          "SOFTWARE",
+          "APPLICATION"
+        ],
+        "url": "https://ja.wikipedia.org/wiki/Skype",
+        "url_en": "https://en.wikipedia.org/wiki/Skype",
+        "note": "インターネット電話を一般化し、遠隔コミュニケーションを低コスト化。",
+        "note_en": "Popularized Internet telephony, lowering the cost of long‑distance communication for the public."
       }
     ],
     "2004": [
@@ -1389,9 +1536,9 @@
         "startYear": 2004,
         "endYear": 2007,
         "genre": [
-          "NONG",
-          "SOF-AI",
-          "HARD"
+          "EVENT",
+          "HARDWARE",
+          "P_RL"
         ],
         "imp": 5,
         "url": "[https://ja.wikipedia.org/wiki/DARPAグランド・チャレンジ",
@@ -1421,8 +1568,7 @@
         "label_en": "Stanley (self-driving car)",
         "startYear": 2005,
         "genre": [
-          "SOF-AI",
-          "HARD"
+          "HARDWARE"
         ],
         "imp": 4,
         "url": "[https://ja.wikipedia.org/wiki/スタンリー_(自動運転車)",
@@ -1435,8 +1581,7 @@
         "label_en": "Autonomous/intelligent agents",
         "startYear": 2005,
         "genre": [
-          "THE",
-          "SOF-AI"
+          "THEORY"
         ],
         "imp": 3,
         "url": "[https://ja.wikipedia.org/wiki/知的エージェント",
@@ -1462,35 +1607,33 @@
     ],
     "2006": [
       {
-        "label": "Netflix Prize",
-        "label_en": "Netflix Prize",
-        "startYear": 2006,
-        "endYear": 2009,
-        "genre": [
-          "NONG",
-          "SOF-AI",
-          "SOFT"
-        ],
-        "imp": 4,
-        "url": "[https://ja.wikipedia.org/wiki/Netflix_Prize",
-        "url_en": "https://en.wikipedia.org/wiki/Netflix_Prize",
-        "note": "推薦精度向上を競うコンテスト。協調フィルタ等の手法を促進。",
-        "note_en": "Competition](https://ja.wikipedia.org/wiki/Netflix_Prize"
-      },
-      {
         "label": "Google翻訳",
         "label_en": "Google Translate",
         "startYear": 2006,
         "genre": [
-          "SOF-SVC",
-          "SOF-AI",
-          "SOFT"
+          "APPLICATION",
+          "SOFTWARE"
         ],
         "imp": 4,
         "url": "[https://ja.wikipedia.org/wiki/Google翻訳",
         "url_en": "https://en.wikipedia.org/wiki/Google_Translate",
         "note": "機械翻訳サービス。2016年にニューラルMTへ移行し品質を大幅向上。",
         "note_en": "Machine](https://ja.wikipedia.org/wiki/Google翻訳"
+      },
+      {
+        "label": "Netflix Prize",
+        "label_en": "Netflix Prize",
+        "startYear": 2006,
+        "endYear": 2009,
+        "genre": [
+          "EVENT",
+          "SOFTWARE"
+        ],
+        "imp": 4,
+        "url": "[https://ja.wikipedia.org/wiki/Netflix_Prize",
+        "url_en": "https://en.wikipedia.org/wiki/Netflix_Prize",
+        "note": "推薦精度向上を競うコンテスト。協調フィルタ等の手法を促進。",
+        "note_en": "Competition](https://ja.wikipedia.org/wiki/Netflix_Prize"
       }
     ],
     "2007": [
@@ -1499,9 +1642,7 @@
         "label_en": "CUDA",
         "startYear": 2007,
         "genre": [
-          "SOF-DEV",
-          "SOF-AI",
-          "SOFT"
+          "SOFTWARE"
         ],
         "imp": 4,
         "url": "[https://ja.wikipedia.org/wiki/CUDA",
@@ -1510,30 +1651,30 @@
         "note_en": "NVIDIA’s](https://ja.wikipedia.org/wiki/CUDA"
       },
       {
-        "label": "電脳コイル",
-        "label_en": "Dennou Coil",
-        "startYear": 2007,
-        "genre": [
-          "MED-CNT"
-        ],
-        "imp": 4,
-        "url": "[https://ja.wikipedia.org/wiki/電脳コイル",
-        "url_en": "https://en.wikipedia.org/wiki/Dennou_Coil",
-        "note": "AR化した都市でAI的存在と子ども達の冒険を描く。",
-        "note_en": "Kids](https://ja.wikipedia.org/wiki/電脳コイル"
-      },
-      {
         "label": "Portal (GLaDOS)",
         "label_en": "Portal (GLaDOS)",
         "startYear": 2007,
         "genre": [
-          "MED-CNT"
+          "CONTENT"
         ],
         "imp": 4,
         "url": "[https://ja.wikipedia.org/wiki/Portal",
         "url_en": "https://en.wikipedia.org/wiki/GLaDOS",
         "note": "実験施設を管理する皮肉なAI「GLaDOS」が登場。",
         "note_en": "Features](https://ja.wikipedia.org/wiki/Portal"
+      },
+      {
+        "label": "電脳コイル",
+        "label_en": "Dennou Coil",
+        "startYear": 2007,
+        "genre": [
+          "CONTENT"
+        ],
+        "imp": 4,
+        "url": "[https://ja.wikipedia.org/wiki/電脳コイル",
+        "url_en": "https://en.wikipedia.org/wiki/Dennou_Coil",
+        "note": "AR化した都市でAI的存在と子ども達の冒険を描く。",
+        "note_en": "Kids](https://ja.wikipedia.org/wiki/電脳コイル"
       },
       {
         "label": "iPhone（スマートフォン時代）",
@@ -1558,7 +1699,7 @@
         "label_en": "WALL-E",
         "startYear": 2008,
         "genre": [
-          "MED-CNT"
+          "CONTENT"
         ],
         "imp": 4,
         "url": "[https://ja.wikipedia.org/wiki/ウォーリー",
@@ -1571,7 +1712,7 @@
         "label_en": "Eden of the East",
         "startYear": 2008,
         "genre": [
-          "MED-CNT"
+          "CONTENT"
         ],
         "imp": 3,
         "url": "[https://ja.wikipedia.org/wiki/東のエデン",
@@ -1601,8 +1742,9 @@
         "label_en": "ImageNet",
         "startYear": 2009,
         "genre": [
-          "THE",
-          "SOF-AI"
+          "DATA",
+          "SOFTWARE",
+          "THEORY"
         ],
         "imp": 5,
         "url": "[https://ja.wikipedia.org/wiki/ImageNet",
@@ -1615,7 +1757,7 @@
         "label_en": "Summer Wars",
         "startYear": 2009,
         "genre": [
-          "MED-CNT"
+          "CONTENT"
         ],
         "imp": 4,
         "url": "[https://ja.wikipedia.org/wiki/サマーウォーズ",
@@ -1626,42 +1768,14 @@
     ],
     "2010": [
       {
-        "label": "Kinect",
-        "label_en": "Kinect",
-        "startYear": 2010,
-        "genre": [
-          "HAR-IMG",
-          "SOF-AI",
-          "HARD"
-        ],
-        "imp": 3,
-        "url": "[https://ja.wikipedia.org/wiki/Kinect",
-        "url_en": "https://en.wikipedia.org/wiki/Kinect",
-        "note": "深度センサーを普及させ、骨格追跡などの応用を拡大。",
-        "note_en": "Popularized](https://ja.wikipedia.org/wiki/Kinect"
-      },
-      {
-        "label": "DeepMind",
-        "label_en": "DeepMind",
-        "startYear": 2010,
-        "genre": [
-          "ORG",
-          "SOF-AI"
-        ],
-        "imp": 5,
-        "url": "[https://ja.wikipedia.org/wiki/DeepMind",
-        "url_en": "https://en.wikipedia.org/wiki/DeepMind",
-        "note": "汎用学習を目標とするAI企業。強化学習や深層学習で革新。",
-        "note_en": "AI](https://ja.wikipedia.org/wiki/DeepMind"
-      },
-      {
         "label": "Bing翻訳→ニューラル化",
         "label_en": "Microsoft Translator (neural)",
         "startYear": 2010,
         "genre": [
-          "SOF-SVC",
-          "SOF-AI",
-          "SOFT"
+          "APPLICATION",
+          "P_NEURAL",
+          "SOFTWARE",
+          "THEORY"
         ],
         "imp": 3,
         "url": "[https://ja.wikipedia.org/wiki/Microsoft_Translator",
@@ -1670,13 +1784,40 @@
         "note_en": "Adopted](https://ja.wikipedia.org/wiki/Microsoft_Translator"
       },
       {
+        "label": "DeepMind",
+        "label_en": "DeepMind",
+        "startYear": 2010,
+        "genre": [
+          "ORG"
+        ],
+        "imp": 5,
+        "url": "[https://ja.wikipedia.org/wiki/DeepMind",
+        "url_en": "https://en.wikipedia.org/wiki/DeepMind",
+        "note": "汎用学習を目標とするAI企業。強化学習や深層学習で革新。",
+        "note_en": "AI](https://ja.wikipedia.org/wiki/DeepMind"
+      },
+      {
+        "label": "Kinect",
+        "label_en": "Kinect",
+        "startYear": 2010,
+        "genre": [
+          "APPLICATION",
+          "HARDWARE"
+        ],
+        "imp": 3,
+        "url": "[https://ja.wikipedia.org/wiki/Kinect",
+        "url_en": "https://en.wikipedia.org/wiki/Kinect",
+        "note": "深度センサーを普及させ、骨格追跡などの応用を拡大。",
+        "note_en": "Popularized](https://ja.wikipedia.org/wiki/Kinect"
+      },
+      {
         "label": "SVM/カーネル法産業適用",
         "label_en": "SVM in industry",
         "startYear": 2010,
         "genre": [
-          "SOF-ENT",
-          "SOF-AI",
-          "SOFT"
+          "APPLICATION",
+          "SOFTWARE",
+          "THEORY"
         ],
         "imp": 3,
         "url": "[https://ja.wikipedia.org/wiki/サポートベクターマシン",
@@ -1689,8 +1830,9 @@
         "label_en": "Behavior tree (game AI)",
         "startYear": 2010,
         "genre": [
-          "THE",
-          "SOF-AI"
+          "HARDWARE",
+          "ROBOTICS",
+          "THEORY"
         ],
         "imp": 3,
         "url": "[https://ja.wikipedia.org/wiki/ビヘイビアツリー",
@@ -1701,12 +1843,26 @@
     ],
     "2011": [
       {
+        "label": "HMM/DNN音声認識転換",
+        "label_en": "DNN for ASR",
+        "startYear": 2011,
+        "genre": [
+          "APPLICATION",
+          "THEORY"
+        ],
+        "imp": 4,
+        "url": "[https://ja.wikipedia.org/wiki/音声認識",
+        "url_en": "https://en.wikipedia.org/wiki/Speech_recognition",
+        "note": "従来HMM中心からDNN主導へと転換が進んだ。",
+        "note_en": "Shift](https://ja.wikipedia.org/wiki/音声認識"
+      },
+      {
         "label": "IBM Watson",
         "label_en": "IBM Watson",
         "startYear": 2011,
         "genre": [
-          "SOF-AI",
-          "SOFT"
+          "APPLICATION",
+          "SOFTWARE"
         ],
         "imp": 5,
         "url": "[https://ja.wikipedia.org/wiki/IBM_Watson",
@@ -1719,9 +1875,8 @@
         "label_en": "Siri",
         "startYear": 2011,
         "genre": [
-          "SOF-SVC",
-          "SOF-AI",
-          "SOFT"
+          "APPLICATION",
+          "SOFTWARE"
         ],
         "imp": 4,
         "url": "[https://ja.wikipedia.org/wiki/Siri",
@@ -1730,48 +1885,33 @@
         "note_en": "Brought](https://ja.wikipedia.org/wiki/Siri"
       },
       {
-        "label": "東日本大震災とロボット活用",
-        "label_en": "Robots in 2011 Tōhoku quake",
-        "startYear": 2011,
-        "genre": [
-          "NONG",
-          "HAR-ROB",
-          "SOF-AI",
-          "HARD",
-          "JAPAN"
-        ],
-        "imp": 3,
-        "url": "[https://ja.wikipedia.org/wiki/東北地方太平洋沖地震",
-        "url_en": "https://en.wikipedia.org/wiki/2011_Tōhoku_earthquake_and_tsunami",
-        "note": "災害現場でのロボット適用が注目された。",
-        "note_en": "Robot](https://ja.wikipedia.org/wiki/東北地方太平洋沖地震"
-      },
-      {
-        "label": "HMM/DNN音声認識転換",
-        "label_en": "DNN for ASR",
-        "startYear": 2011,
-        "genre": [
-          "THE",
-          "SOF-AI"
-        ],
-        "imp": 4,
-        "url": "[https://ja.wikipedia.org/wiki/音声認識",
-        "url_en": "https://en.wikipedia.org/wiki/Speech_recognition",
-        "note": "従来HMM中心からDNN主導へと転換が進んだ。",
-        "note_en": "Shift](https://ja.wikipedia.org/wiki/音声認識"
-      },
-      {
         "label": "リアル・スティール",
         "label_en": "Real Steel",
         "startYear": 2011,
         "genre": [
-          "MED-CNT"
+          "CONTENT"
         ],
         "imp": 3,
         "url": "[https://ja.wikipedia.org/wiki/リアル・スティール",
         "url_en": "https://en.wikipedia.org/wiki/Real_Steel",
         "note": "格闘ロボットと親子の再生を描く。",
         "note_en": "Father-son](https://ja.wikipedia.org/wiki/リアル・スティール"
+      },
+      {
+        "label": "東日本大震災とロボット活用",
+        "label_en": "Robots in 2011 Tōhoku quake",
+        "startYear": 2011,
+        "genre": [
+          "EVENT",
+          "HARDWARE",
+          "JAPAN",
+          "ROBOTICS"
+        ],
+        "imp": 3,
+        "url": "[https://ja.wikipedia.org/wiki/東北地方太平洋沖地震",
+        "url_en": "https://en.wikipedia.org/wiki/2011_Tōhoku_earthquake_and_tsunami",
+        "note": "災害現場でのロボット適用が注目された。",
+        "note_en": "Robot](https://ja.wikipedia.org/wiki/東北地方太平洋沖地震"
       }
     ],
     "2012": [
@@ -1780,8 +1920,8 @@
         "label_en": "AlexNet",
         "startYear": 2012,
         "genre": [
-          "THE",
-          "SOF-AI"
+          "P_NEURAL",
+          "THEORY"
         ],
         "imp": 5,
         "url": "[https://ja.wikipedia.org/wiki/AlexNet",
@@ -1794,8 +1934,8 @@
         "label_en": "Deep belief networks",
         "startYear": 2012,
         "genre": [
-          "THE",
-          "SOF-AI"
+          "P_GENERATIVE",
+          "THEORY"
         ],
         "imp": 3,
         "url": "[https://ja.wikipedia.org/wiki/深層信念ネットワーク",
@@ -1804,32 +1944,31 @@
         "note_en": "Generative](https://ja.wikipedia.org/wiki/深層信念ネットワーク"
       },
       {
-        "label": "大規模GPU学習の普及",
-        "label_en": "Large-scale GPU training",
-        "startYear": 2012,
-        "genre": [
-          "NONG",
-          "SOF-AI",
-          "HARD"
-        ],
-        "imp": 4,
-        "url": "[https://ja.wikipedia.org/wiki/GPGPU",
-        "url_en": "https://en.wikipedia.org/wiki/General-purpose_computing_on_graphics_processing_units",
-        "note": "GPUを用いた深層学習訓練が一般化。",
-        "note_en": "GPU-based](https://ja.wikipedia.org/wiki/GPGPU"
-      },
-      {
         "label": "Psycho-Pass",
         "label_en": "Psycho-Pass",
         "startYear": 2012,
         "genre": [
-          "MED-CNT"
+          "CONTENT"
         ],
         "imp": 4,
         "url": "[https://ja.wikipedia.org/wiki/PSYCHO-PASS",
         "url_en": "https://en.wikipedia.org/wiki/Psycho-Pass",
         "note": "社会を裁く巨大判断システム「シビュラ」を描くSF。",
         "note_en": "SF](https://ja.wikipedia.org/wiki/PSYCHO-PASS"
+      },
+      {
+        "label": "大規模GPU学習の普及",
+        "label_en": "Large-scale GPU training",
+        "startYear": 2012,
+        "genre": [
+          "EVENT",
+          "HARDWARE"
+        ],
+        "imp": 4,
+        "url": "[https://ja.wikipedia.org/wiki/GPGPU",
+        "url_en": "https://en.wikipedia.org/wiki/General-purpose_computing_on_graphics_processing_units",
+        "note": "GPUを用いた深層学習訓練が一般化。",
+        "note_en": "GPU-based](https://ja.wikipedia.org/wiki/GPGPU"
       },
       {
         "label": "Raspberry Pi（メイカー運動）",
@@ -1849,12 +1988,24 @@
     ],
     "2013": [
       {
+        "label": "her/世界でひとつの彼女",
+        "label_en": "Her",
+        "startYear": 2013,
+        "genre": [
+          "CONTENT"
+        ],
+        "imp": 5,
+        "url": "[https://ja.wikipedia.org/wiki/her/世界でひとつの彼女",
+        "url_en": "https://en.wikipedia.org/wiki/Her_(film)",
+        "note": "高度OSとの恋愛を通じAIと人の関係を描く。",
+        "note_en": "A](https://ja.wikipedia.org/wiki/her/世界でひとつの彼女"
+      },
+      {
         "label": "word2vec",
         "label_en": "word2vec",
         "startYear": 2013,
         "genre": [
-          "THE",
-          "SOF-AI"
+          "THEORY"
         ],
         "imp": 4,
         "url": "[https://ja.wikipedia.org/wiki/Word2vec",
@@ -1867,171 +2018,23 @@
         "label_en": "Deep reinforcement learning",
         "startYear": 2013,
         "genre": [
-          "THE",
-          "SOF-AI"
+          "P_RL",
+          "THEORY"
         ],
         "imp": 5,
         "url": "[https://ja.wikipedia.org/wiki/強化学習",
         "url_en": "https://en.wikipedia.org/wiki/Reinforcement_learning",
         "note": "関数近似に深層学習を用い高次元タスクを突破。",
         "note_en": "Uses](https://ja.wikipedia.org/wiki/強化学習"
-      },
-      {
-        "label": "her/世界でひとつの彼女",
-        "label_en": "Her",
-        "startYear": 2013,
-        "genre": [
-          "MED-CNT"
-        ],
-        "imp": 5,
-        "url": "[https://ja.wikipedia.org/wiki/her/世界でひとつの彼女",
-        "url_en": "https://en.wikipedia.org/wiki/Her_(film)",
-        "note": "高度OSとの恋愛を通じAIと人の関係を描く。",
-        "note_en": "A](https://ja.wikipedia.org/wiki/her/世界でひとつの彼女"
       }
     ],
     "2014": [
-      {
-        "label": "GAN",
-        "label_en": "Generative adversarial network",
-        "startYear": 2014,
-        "genre": [
-          "THE",
-          "SOF-AI"
-        ],
-        "imp": 5,
-        "url": "[https://ja.wikipedia.org/wiki/敵対的生成ネットワーク",
-        "url_en": "https://en.wikipedia.org/wiki/Generative_adversarial_network",
-        "note": "生成と判別の競合で高品質生成を実現した深層生成モデル。",
-        "note_en": "Deep](https://ja.wikipedia.org/wiki/敵対的生成ネットワーク"
-      },
-      {
-        "label": "Amazon Echo",
-        "label_en": "Amazon Echo",
-        "startYear": 2014,
-        "genre": [
-          "HAR",
-          "SOF-AI",
-          "HARD"
-        ],
-        "imp": 4,
-        "url": "[https://ja.wikipedia.org/wiki/Amazon_Echo",
-        "url_en": "https://en.wikipedia.org/wiki/Amazon_Echo",
-        "note": "Alexa音声アシスタント搭載のスマートスピーカー。",
-        "note_en": "Smart](https://ja.wikipedia.org/wiki/Amazon_Echo"
-      },
-      {
-        "label": "AlphaGo（開発開始目安）",
-        "label_en": "AlphaGo (dev start)",
-        "startYear": 2014,
-        "genre": [
-          "THE",
-          "SOF-AI"
-        ],
-        "imp": 4,
-        "url": "[https://ja.wikipedia.org/wiki/AlphaGo",
-        "url_en": "https://en.wikipedia.org/wiki/AlphaGo",
-        "note": "囲碁AIの研究開発開始期。後に世界トップ棋士に勝利。",
-        "note_en": "Early](https://ja.wikipedia.org/wiki/AlphaGo"
-      },
-      {
-        "label": "LINE CLOVA",
-        "label_en": "CLOVA",
-        "startYear": 2014,
-        "genre": [
-          "SOF-SVC",
-          "SOF-AI",
-          "SOFT",
-          "JAPAN"
-        ],
-        "imp": 3,
-        "url": "[https://ja.wikipedia.org/wiki/CLOVA",
-        "url_en": "https://en.wikipedia.org/wiki/Clova",
-        "note": "LINEのAIプラットフォーム。音声アシスタントやNLPを提供。",
-        "note_en": "LINE’s](https://ja.wikipedia.org/wiki/CLOVA"
-      },
-      {
-        "label": "Pepper",
-        "label_en": "Pepper",
-        "startYear": 2014,
-        "genre": [
-          "HAR-ROB",
-          "SOF-AI",
-          "HARD",
-          "JAPAN"
-        ],
-        "imp": 3,
-        "url": "[https://ja.wikipedia.org/wiki/Pepper",
-        "url_en": "https://en.wikipedia.org/wiki/Pepper_(robot)",
-        "note": "感情認識をうたうヒューマノイド型サービスロボット。",
-        "note_en": "Humanoid](https://ja.wikipedia.org/wiki/Pepper"
-      },
-      {
-        "label": "Chainer",
-        "label_en": "Chainer",
-        "startYear": 2014,
-        "genre": [
-          "SOF-AI",
-          "SOFT",
-          "JAPAN"
-        ],
-        "imp": 4,
-        "url": "[https://ja.wikipedia.org/wiki/Chainer",
-        "url_en": "https://en.wikipedia.org/wiki/Chainer",
-        "note": "日本発のDLフレームワーク。Define-by-Runを先駆。",
-        "note_en": "Japanese](https://ja.wikipedia.org/wiki/Chainer"
-      },
-      {
-        "label": "Keras",
-        "label_en": "Keras",
-        "startYear": 2014,
-        "genre": [
-          "SOF-AI",
-          "SOFT"
-        ],
-        "imp": 4,
-        "url": "[https://ja.wikipedia.org/wiki/Keras",
-        "url_en": "https://en.wikipedia.org/wiki/Keras",
-        "note": "DLを簡便にする高水準API。",
-        "note_en": "High-level](https://ja.wikipedia.org/wiki/Keras"
-      },
-      {
-        "label": "IBM Watson Health",
-        "label_en": "Watson Health",
-        "startYear": 2014,
-        "genre": [
-          "SOF-ENT",
-          "SOF-AI",
-          "SOFT"
-        ],
-        "imp": 3,
-        "url": "[https://ja.wikipedia.org/wiki/IBM_Watson",
-        "url_en": "https://en.wikipedia.org/wiki/IBM_Watson",
-        "note": "医療領域へのAI適用の象徴的試み。",
-        "note_en": "Symbolic](https://ja.wikipedia.org/wiki/IBM_Watson"
-      },
-      {
-        "label": "Neural Machine Translation普及",
-        "label_en": "NMT adoption",
-        "startYear": 2014,
-        "genre": [
-          "THE",
-          "SOF-AI"
-        ],
-        "imp": 4,
-        "url": "[https://ja.wikipedia.org/wiki/ニューラル機械翻訳",
-        "url_en": "https://en.wikipedia.org/wiki/Neural_machine_translation",
-        "note": "エンドツーエンドで翻訳品質を底上げ。",
-        "note_en": "End-to-end](https://ja.wikipedia.org/wiki/ニューラル機械翻訳"
-      },
       {
         "label": "Alexaスキル・エコシステム",
         "label_en": "Alexa Skills ecosystem",
         "startYear": 2014,
         "genre": [
-          "SOF-SVC",
-          "SOF-AI",
-          "SOFT"
+          "SOFTWARE"
         ],
         "imp": 3,
         "url": "[https://ja.wikipedia.org/wiki/Amazon_Alexa",
@@ -2040,11 +2043,140 @@
         "note_en": "Extensions](https://ja.wikipedia.org/wiki/Amazon_Alexa"
       },
       {
+        "label": "AlphaGo（開発開始目安）",
+        "label_en": "AlphaGo (dev start)",
+        "startYear": 2014,
+        "genre": [
+          "APPLICATION",
+          "P_RL",
+          "THEORY"
+        ],
+        "imp": 4,
+        "url": "[https://ja.wikipedia.org/wiki/AlphaGo",
+        "url_en": "https://en.wikipedia.org/wiki/AlphaGo",
+        "note": "囲碁AIの研究開発開始期。後に世界トップ棋士に勝利。",
+        "note_en": "Early](https://ja.wikipedia.org/wiki/AlphaGo"
+      },
+      {
+        "label": "Amazon Echo",
+        "label_en": "Amazon Echo",
+        "startYear": 2014,
+        "genre": [
+          "APPLICATION",
+          "HARDWARE"
+        ],
+        "imp": 4,
+        "url": "[https://ja.wikipedia.org/wiki/Amazon_Echo",
+        "url_en": "https://en.wikipedia.org/wiki/Amazon_Echo",
+        "note": "Alexa音声アシスタント搭載のスマートスピーカー。",
+        "note_en": "Smart](https://ja.wikipedia.org/wiki/Amazon_Echo"
+      },
+      {
+        "label": "Chainer",
+        "label_en": "Chainer",
+        "startYear": 2014,
+        "genre": [
+          "JAPAN",
+          "SOFTWARE"
+        ],
+        "imp": 4,
+        "url": "[https://ja.wikipedia.org/wiki/Chainer",
+        "url_en": "https://en.wikipedia.org/wiki/Chainer",
+        "note": "日本発のDLフレームワーク。Define-by-Runを先駆。",
+        "note_en": "Japanese](https://ja.wikipedia.org/wiki/Chainer"
+      },
+      {
+        "label": "GAN",
+        "label_en": "Generative adversarial network",
+        "startYear": 2014,
+        "genre": [
+          "P_GENERATIVE",
+          "THEORY"
+        ],
+        "imp": 5,
+        "url": "[https://ja.wikipedia.org/wiki/敵対的生成ネットワーク",
+        "url_en": "https://en.wikipedia.org/wiki/Generative_adversarial_network",
+        "note": "生成と判別の競合で高品質生成を実現した深層生成モデル。",
+        "note_en": "Deep](https://ja.wikipedia.org/wiki/敵対的生成ネットワーク"
+      },
+      {
+        "label": "IBM Watson Health",
+        "label_en": "Watson Health",
+        "startYear": 2014,
+        "genre": [
+          "APPLICATION",
+          "P_SYMBOLIC",
+          "SOFTWARE"
+        ],
+        "imp": 3,
+        "url": "[https://ja.wikipedia.org/wiki/IBM_Watson",
+        "url_en": "https://en.wikipedia.org/wiki/IBM_Watson",
+        "note": "医療領域へのAI適用の象徴的試み。",
+        "note_en": "Symbolic](https://ja.wikipedia.org/wiki/IBM_Watson"
+      },
+      {
+        "label": "Keras",
+        "label_en": "Keras",
+        "startYear": 2014,
+        "genre": [
+          "SOFTWARE"
+        ],
+        "imp": 4,
+        "url": "[https://ja.wikipedia.org/wiki/Keras",
+        "url_en": "https://en.wikipedia.org/wiki/Keras",
+        "note": "DLを簡便にする高水準API。",
+        "note_en": "High-level](https://ja.wikipedia.org/wiki/Keras"
+      },
+      {
+        "label": "LINE CLOVA",
+        "label_en": "CLOVA",
+        "startYear": 2014,
+        "genre": [
+          "JAPAN",
+          "SOFTWARE"
+        ],
+        "imp": 3,
+        "url": "[https://ja.wikipedia.org/wiki/CLOVA",
+        "url_en": "https://en.wikipedia.org/wiki/Clova",
+        "note": "LINEのAIプラットフォーム。音声アシスタントやNLPを提供。",
+        "note_en": "LINE’s](https://ja.wikipedia.org/wiki/CLOVA"
+      },
+      {
+        "label": "Neural Machine Translation普及",
+        "label_en": "NMT adoption",
+        "startYear": 2014,
+        "genre": [
+          "P_NEURAL",
+          "THEORY"
+        ],
+        "imp": 4,
+        "url": "[https://ja.wikipedia.org/wiki/ニューラル機械翻訳",
+        "url_en": "https://en.wikipedia.org/wiki/Neural_machine_translation",
+        "note": "エンドツーエンドで翻訳品質を底上げ。",
+        "note_en": "End-to-end](https://ja.wikipedia.org/wiki/ニューラル機械翻訳"
+      },
+      {
+        "label": "Pepper",
+        "label_en": "Pepper",
+        "startYear": 2014,
+        "genre": [
+          "APPLICATION",
+          "HARDWARE",
+          "JAPAN",
+          "ROBOTICS"
+        ],
+        "imp": 3,
+        "url": "[https://ja.wikipedia.org/wiki/Pepper",
+        "url_en": "https://en.wikipedia.org/wiki/Pepper_(robot)",
+        "note": "感情認識をうたうヒューマノイド型サービスロボット。",
+        "note_en": "Humanoid](https://ja.wikipedia.org/wiki/Pepper"
+      },
+      {
         "label": "エクス・マキナ",
         "label_en": "Ex Machina",
         "startYear": 2014,
         "genre": [
-          "MED-CNT"
+          "CONTENT"
         ],
         "imp": 5,
         "url": "[https://ja.wikipedia.org/wiki/エクス・マキナ",
@@ -2057,7 +2189,7 @@
         "label_en": "Big Hero 6",
         "startYear": 2014,
         "genre": [
-          "MED-CNT"
+          "CONTENT"
         ],
         "imp": 3,
         "url": "[https://ja.wikipedia.org/wiki/ベイマックス",
@@ -2068,12 +2200,67 @@
     ],
     "2015": [
       {
+        "label": "Fast R-CNN/物体検出系",
+        "label_en": "Fast/Faster R-CNN",
+        "startYear": 2015,
+        "genre": [
+          "P_NEURAL",
+          "THEORY"
+        ],
+        "imp": 4,
+        "url": "[https://ja.wikipedia.org/wiki/物体検出",
+        "url_en": "https://en.wikipedia.org/wiki/Faster_R-CNN",
+        "note": "領域提案とCNNで物体検出性能を引き上げた。",
+        "note_en": "Boosted](https://ja.wikipedia.org/wiki/物体検出"
+      },
+      {
+        "label": "Gluon",
+        "label_en": "Gluon",
+        "startYear": 2015,
+        "genre": [
+          "SOFTWARE",
+          "THEORY"
+        ],
+        "imp": 3,
+        "url": "[https://ja.wikipedia.org/wiki/Gluon",
+        "url_en": "https://en.wikipedia.org/wiki/Gluon_(machine_learning_library)",
+        "note": "動的記述の高水準APIでDLを容易化。",
+        "note_en": "High-level](https://ja.wikipedia.org/wiki/Gluon"
+      },
+      {
+        "label": "MXNet",
+        "label_en": "Apache MXNet",
+        "startYear": 2015,
+        "genre": [
+          "SOFTWARE"
+        ],
+        "imp": 3,
+        "url": "[https://ja.wikipedia.org/wiki/Apache_MXNet",
+        "url_en": "https://en.wikipedia.org/wiki/Apache_MXNet",
+        "note": "分散学習を重視した深層学習フレームワーク。",
+        "note_en": "Deep](https://ja.wikipedia.org/wiki/Apache_MXNet"
+      },
+      {
+        "label": "OpenAI設立",
+        "label_en": "OpenAI (founding)",
+        "startYear": 2015,
+        "genre": [
+          "EVENT",
+          "ORG"
+        ],
+        "imp": 4,
+        "url": "[https://ja.wikipedia.org/wiki/OpenAI",
+        "url_en": "https://en.wikipedia.org/wiki/OpenAI",
+        "note": "AIの安全な発展を掲げる研究機関として設立。",
+        "note_en": "Founded](https://ja.wikipedia.org/wiki/OpenAI"
+      },
+      {
         "label": "ResNet",
         "label_en": "ResNet",
         "startYear": 2015,
         "genre": [
-          "THE",
-          "SOF-AI"
+          "P_NEURAL",
+          "THEORY"
         ],
         "imp": 5,
         "url": "[https://ja.wikipedia.org/wiki/Residual_Network",
@@ -2086,8 +2273,7 @@
         "label_en": "TensorFlow",
         "startYear": 2015,
         "genre": [
-          "SOF-AI",
-          "SOFT"
+          "SOFTWARE"
         ],
         "imp": 5,
         "url": "[https://ja.wikipedia.org/wiki/TensorFlow",
@@ -2096,96 +2282,25 @@
         "note_en": "Google’s](https://ja.wikipedia.org/wiki/TensorFlow"
       },
       {
-        "label": "自動運転実用化の進展",
-        "label_en": "Autonomous driving advances",
+        "label": "チャッピー",
+        "label_en": "Chappie",
         "startYear": 2015,
         "genre": [
-          "SOF-AI",
-          "HARD"
-        ],
-        "imp": 4,
-        "url": "[https://ja.wikipedia.org/wiki/自動運転車",
-        "url_en": "https://en.wikipedia.org/wiki/Self-driving_car",
-        "note": "公道試験や運用実験が本格化し、商用化へ向けた動きが加速。",
-        "note_en": "Public](https://ja.wikipedia.org/wiki/自動運転車"
-      },
-      {
-        "label": "MXNet",
-        "label_en": "Apache MXNet",
-        "startYear": 2015,
-        "genre": [
-          "SOF-AI",
-          "SOFT"
+          "CONTENT"
         ],
         "imp": 3,
-        "url": "[https://ja.wikipedia.org/wiki/Apache_MXNet",
-        "url_en": "https://en.wikipedia.org/wiki/Apache_MXNet",
-        "note": "分散学習を重視した深層学習フレームワーク。",
-        "note_en": "Deep](https://ja.wikipedia.org/wiki/Apache_MXNet"
-      },
-      {
-        "label": "Gluon",
-        "label_en": "Gluon",
-        "startYear": 2015,
-        "genre": [
-          "SOF-AI",
-          "SOFT"
-        ],
-        "imp": 3,
-        "url": "[https://ja.wikipedia.org/wiki/Gluon",
-        "url_en": "https://en.wikipedia.org/wiki/Gluon_(machine_learning_library)",
-        "note": "動的記述の高水準APIでDLを容易化。",
-        "note_en": "High-level](https://ja.wikipedia.org/wiki/Gluon"
-      },
-      {
-        "label": "Fast R-CNN/物体検出系",
-        "label_en": "Fast/Faster R-CNN",
-        "startYear": 2015,
-        "genre": [
-          "THE",
-          "SOF-AI"
-        ],
-        "imp": 4,
-        "url": "[https://ja.wikipedia.org/wiki/物体検出",
-        "url_en": "https://en.wikipedia.org/wiki/Faster_R-CNN",
-        "note": "領域提案とCNNで物体検出性能を引き上げた。",
-        "note_en": "Boosted](https://ja.wikipedia.org/wiki/物体検出"
-      },
-      {
-        "label": "OpenAI設立",
-        "label_en": "OpenAI (founding)",
-        "startYear": 2015,
-        "genre": [
-          "ORG",
-          "SOF-AI"
-        ],
-        "imp": 4,
-        "url": "[https://ja.wikipedia.org/wiki/OpenAI",
-        "url_en": "https://en.wikipedia.org/wiki/OpenAI",
-        "note": "AIの安全な発展を掲げる研究機関として設立。",
-        "note_en": "Founded](https://ja.wikipedia.org/wiki/OpenAI"
-      },
-      {
-        "label": "自動運転ロボタクシー実証",
-        "label_en": "Robotaxi pilots",
-        "startYear": 2015,
-        "genre": [
-          "SOF-AI",
-          "HARD"
-        ],
-        "imp": 3,
-        "url": "[https://ja.wikipedia.org/wiki/自動運転車",
-        "url_en": "https://en.wikipedia.org/wiki/Robotaxi",
-        "note": "限定地域での自律走行サービスの実証が進展。",
-        "note_en": "Pilots](https://ja.wikipedia.org/wiki/自動運転車"
+        "url": "[https://ja.wikipedia.org/wiki/チャッピー",
+        "url_en": "https://en.wikipedia.org/wiki/Chappie",
+        "note": "自我を得た警察ロボットの成長物語。",
+        "note_en": "A](https://ja.wikipedia.org/wiki/チャッピー"
       },
       {
         "label": "知能の特異点（再興・議論）",
         "label_en": "Technological singularity (debate)",
         "startYear": 2015,
         "genre": [
-          "NONG",
-          "SOF-AI"
+          "EVENT",
+          "P_SYMBOLIC"
         ],
         "imp": 3,
         "url": "[https://ja.wikipedia.org/wiki/技術的特異点",
@@ -2194,142 +2309,45 @@
         "note_en": "Public](https://ja.wikipedia.org/wiki/技術的特異点"
       },
       {
-        "label": "チャッピー",
-        "label_en": "Chappie",
+        "label": "自動運転ロボタクシー実証",
+        "label_en": "Robotaxi pilots",
         "startYear": 2015,
         "genre": [
-          "MED-CNT"
+          "APPLICATION",
+          "HARDWARE",
+          "P_RL",
+          "ROBOTICS"
         ],
         "imp": 3,
-        "url": "[https://ja.wikipedia.org/wiki/チャッピー",
-        "url_en": "https://en.wikipedia.org/wiki/Chappie",
-        "note": "自我を得た警察ロボットの成長物語。",
-        "note_en": "A](https://ja.wikipedia.org/wiki/チャッピー"
+        "url": "[https://ja.wikipedia.org/wiki/自動運転車",
+        "url_en": "https://en.wikipedia.org/wiki/Robotaxi",
+        "note": "限定地域での自律走行サービスの実証が進展。",
+        "note_en": "Pilots](https://ja.wikipedia.org/wiki/自動運転車"
+      },
+      {
+        "label": "自動運転実用化の進展",
+        "label_en": "Autonomous driving advances",
+        "startYear": 2015,
+        "genre": [
+          "APPLICATION",
+          "HARDWARE"
+        ],
+        "imp": 4,
+        "url": "[https://ja.wikipedia.org/wiki/自動運転車",
+        "url_en": "https://en.wikipedia.org/wiki/Self-driving_car",
+        "note": "公道試験や運用実験が本格化し、商用化へ向けた動きが加速。",
+        "note_en": "Public](https://ja.wikipedia.org/wiki/自動運転車"
       }
     ],
     "2016": [
-      {
-        "label": "PyTorch",
-        "label_en": "PyTorch",
-        "startYear": 2016,
-        "genre": [
-          "SOF-AI",
-          "SOFT"
-        ],
-        "imp": 5,
-        "url": "[https://ja.wikipedia.org/wiki/PyTorch",
-        "url_en": "https://en.wikipedia.org/wiki/PyTorch",
-        "note": "動的計算グラフで研究者に支持された深層学習フレームワーク。",
-        "note_en": "Deep](https://ja.wikipedia.org/wiki/PyTorch"
-      },
-      {
-        "label": "AlphaGo勝利",
-        "label_en": "AlphaGo victory",
-        "startYear": 2016,
-        "genre": [
-          "THE",
-          "SOF-AI"
-        ],
-        "imp": 5,
-        "url": "[https://ja.wikipedia.org/wiki/AlphaGo",
-        "url_en": "https://en.wikipedia.org/wiki/AlphaGo",
-        "note": "囲碁でプロ棋士に勝利し、深層学習と強化学習の力を示した。",
-        "note_en": "Defeated](https://ja.wikipedia.org/wiki/AlphaGo"
-      },
-      {
-        "label": "Google神経機械翻訳",
-        "label_en": "Google Neural MT",
-        "startYear": 2016,
-        "genre": [
-          "THE",
-          "SOF-AI"
-        ],
-        "imp": 4,
-        "url": "[https://ja.wikipedia.org/wiki/機械翻訳",
-        "url_en": "https://en.wikipedia.org/wiki/Google_Neural_Machine_Translation",
-        "note": "エンドツーエンドのニューラルMTで翻訳品質を大幅改善。",
-        "note_en": "End-to-end](https://ja.wikipedia.org/wiki/機械翻訳"
-      },
-      {
-        "label": "TPU（Tensor Processing Unit）",
-        "label_en": "TPU",
-        "startYear": 2016,
-        "genre": [
-          "HAR",
-          "SOF-AI",
-          "HARD"
-        ],
-        "imp": 5,
-        "url": "[https://ja.wikipedia.org/wiki/Tensor_Processing_Unit",
-        "url_en": "https://en.wikipedia.org/wiki/Tensor_Processing_Unit",
-        "note": "GoogleのAI専用アクセラレータで学習・推論を高速化。",
-        "note_en": "Google’s](https://ja.wikipedia.org/wiki/Tensor_Processing_Unit"
-      },
-      {
-        "label": "WaveNet",
-        "label_en": "WaveNet",
-        "startYear": 2016,
-        "genre": [
-          "THE",
-          "SOF-AI"
-        ],
-        "imp": 4,
-        "url": "[https://ja.wikipedia.org/wiki/WaveNet",
-        "url_en": "https://en.wikipedia.org/wiki/WaveNet",
-        "note": "音声波形を直接生成するモデルで自然な音声合成を実現。",
-        "note_en": "Model](https://ja.wikipedia.org/wiki/WaveNet"
-      },
-      {
-        "label": "Neural Style Transfer",
-        "label_en": "Neural style transfer",
-        "startYear": 2016,
-        "genre": [
-          "THE",
-          "SOF-AI"
-        ],
-        "imp": 3,
-        "url": "[https://ja.wikipedia.org/wiki/ニューラルスタイル転送",
-        "url_en": "https://en.wikipedia.org/wiki/Neural_style_transfer",
-        "note": "画像の内容と画風を分離・合成する技術。",
-        "note_en": "Technique](https://ja.wikipedia.org/wiki/ニューラルスタイル転送"
-      },
-      {
-        "label": "HoloLens（AI活用）",
-        "label_en": "HoloLens",
-        "startYear": 2016,
-        "genre": [
-          "HAR-IMG",
-          "SOF-AI",
-          "HARD"
-        ],
-        "imp": 3,
-        "url": "[https://ja.wikipedia.org/wiki/Microsoft_HoloLens",
-        "url_en": "https://en.wikipedia.org/wiki/Microsoft_HoloLens",
-        "note": "空間認識と視覚処理にAIを活用するMRデバイス。",
-        "note_en": "MR](https://ja.wikipedia.org/wiki/Microsoft_HoloLens"
-      },
-      {
-        "label": "理研AIPセンター",
-        "label_en": "RIKEN AIP Center",
-        "startYear": 2016,
-        "genre": [
-          "ORG",
-          "SOF-AI",
-          "JAPAN"
-        ],
-        "imp": 3,
-        "url": "[https://ja.wikipedia.org/wiki/理化学研究所AIPセンター",
-        "url_en": "https://en.wikipedia.org/wiki/RIKEN",
-        "note": "AIとビッグデータの先端研究拠点。",
-        "note_en": "Research](https://ja.wikipedia.org/wiki/理化学研究所AIPセンター"
-      },
       {
         "label": "AlphaGo Zero",
         "label_en": "AlphaGo Zero",
         "startYear": 2016,
         "genre": [
-          "THE",
-          "SOF-AI"
+          "APPLICATION",
+          "P_RL",
+          "THEORY"
         ],
         "imp": 5,
         "url": "[https://ja.wikipedia.org/wiki/AlphaGo_Zero",
@@ -2338,12 +2356,39 @@
         "note_en": "Go](https://ja.wikipedia.org/wiki/AlphaGo_Zero"
       },
       {
+        "label": "AlphaGo勝利",
+        "label_en": "AlphaGo victory",
+        "startYear": 2016,
+        "genre": [
+          "APPLICATION",
+          "P_RL",
+          "THEORY"
+        ],
+        "imp": 5,
+        "url": "[https://ja.wikipedia.org/wiki/AlphaGo",
+        "url_en": "https://en.wikipedia.org/wiki/AlphaGo",
+        "note": "囲碁でプロ棋士に勝利し、深層学習と強化学習の力を示した。",
+        "note_en": "Defeated](https://ja.wikipedia.org/wiki/AlphaGo"
+      },
+      {
+        "label": "Attention is All You Need",
+        "label_en": "Attention Is All You Need",
+        "startYear": 2016,
+        "genre": [
+          "THEORY"
+        ],
+        "imp": 5,
+        "url": "[https://ja.wikipedia.org/wiki/Transformer",
+        "url_en": "https://en.wikipedia.org/wiki/Attention_Is_All_You_Need",
+        "note": "Transformer提案論文。自己注意で並列計算を実現。",
+        "note_en": "Paper](https://ja.wikipedia.org/wiki/Transformer"
+      },
+      {
         "label": "CatBoost",
         "label_en": "CatBoost",
         "startYear": 2016,
         "genre": [
-          "THE",
-          "SOF-AI"
+          "THEORY"
         ],
         "imp": 3,
         "url": "[https://ja.wikipedia.org/wiki/CatBoost",
@@ -2352,12 +2397,53 @@
         "note_en": "Gradient](https://ja.wikipedia.org/wiki/CatBoost"
       },
       {
+        "label": "Google Assistant",
+        "label_en": "Google Assistant",
+        "startYear": 2016,
+        "genre": [
+          "APPLICATION",
+          "SOFTWARE"
+        ],
+        "imp": 4,
+        "url": "[https://ja.wikipedia.org/wiki/Google_Assistant",
+        "url_en": "https://en.wikipedia.org/wiki/Google_Assistant",
+        "note": "音声アシスタントの中核サービス。",
+        "note_en": "Core](https://ja.wikipedia.org/wiki/Google_Assistant"
+      },
+      {
+        "label": "Google神経機械翻訳",
+        "label_en": "Google Neural MT",
+        "startYear": 2016,
+        "genre": [
+          "P_NEURAL",
+          "THEORY"
+        ],
+        "imp": 4,
+        "url": "[https://ja.wikipedia.org/wiki/機械翻訳",
+        "url_en": "https://en.wikipedia.org/wiki/Google_Neural_Machine_Translation",
+        "note": "エンドツーエンドのニューラルMTで翻訳品質を大幅改善。",
+        "note_en": "End-to-end](https://ja.wikipedia.org/wiki/機械翻訳"
+      },
+      {
+        "label": "HoloLens（AI活用）",
+        "label_en": "HoloLens",
+        "startYear": 2016,
+        "genre": [
+          "APPLICATION",
+          "HARDWARE"
+        ],
+        "imp": 3,
+        "url": "[https://ja.wikipedia.org/wiki/Microsoft_HoloLens",
+        "url_en": "https://en.wikipedia.org/wiki/Microsoft_HoloLens",
+        "note": "空間認識と視覚処理にAIを活用するMRデバイス。",
+        "note_en": "MR](https://ja.wikipedia.org/wiki/Microsoft_HoloLens"
+      },
+      {
         "label": "LightGBM",
         "label_en": "LightGBM",
         "startYear": 2016,
         "genre": [
-          "THE",
-          "SOF-AI"
+          "THEORY"
         ],
         "imp": 4,
         "url": "[https://ja.wikipedia.org/wiki/LightGBM",
@@ -2370,9 +2456,7 @@
         "label_en": "NVIDIA Pascal/V100 GPUs",
         "startYear": 2016,
         "genre": [
-          "HAR",
-          "SOF-AI",
-          "HARD"
+          "HARDWARE"
         ],
         "imp": 4,
         "url": "[https://ja.wikipedia.org/wiki/Nvidia_Tesla",
@@ -2381,54 +2465,65 @@
         "note_en": "GPU](https://ja.wikipedia.org/wiki/Nvidia_Tesla"
       },
       {
-        "label": "Attention is All You Need",
-        "label_en": "Attention Is All You Need",
+        "label": "Neural Style Transfer",
+        "label_en": "Neural style transfer",
         "startYear": 2016,
         "genre": [
-          "THE",
-          "SOF-AI"
-        ],
-        "imp": 5,
-        "url": "[https://ja.wikipedia.org/wiki/Transformer",
-        "url_en": "https://en.wikipedia.org/wiki/Attention_Is_All_You_Need",
-        "note": "Transformer提案論文。自己注意で並列計算を実現。",
-        "note_en": "Paper](https://ja.wikipedia.org/wiki/Transformer"
-      },
-      {
-        "label": "Google Assistant",
-        "label_en": "Google Assistant",
-        "startYear": 2016,
-        "genre": [
-          "SOF-SVC",
-          "SOF-AI",
-          "SOFT"
-        ],
-        "imp": 4,
-        "url": "[https://ja.wikipedia.org/wiki/Google_Assistant",
-        "url_en": "https://en.wikipedia.org/wiki/Google_Assistant",
-        "note": "音声アシスタントの中核サービス。",
-        "note_en": "Core](https://ja.wikipedia.org/wiki/Google_Assistant"
-      },
-      {
-        "label": "自律移動ロボ（倉庫/配達）",
-        "label_en": "Autonomous mobile robots (AMR)",
-        "startYear": 2016,
-        "genre": [
-          "SOF-AI",
-          "HARD"
+          "P_NEURAL",
+          "THEORY"
         ],
         "imp": 3,
-        "url": "[https://ja.wikipedia.org/wiki/自動搬送ロボット",
-        "url_en": "https://en.wikipedia.org/wiki/Autonomous_mobile_robot",
-        "note": "倉庫や小売で自律搬送が普及。",
-        "note_en": "Autonomous](https://ja.wikipedia.org/wiki/自動搬送ロボット"
+        "url": "[https://ja.wikipedia.org/wiki/ニューラルスタイル転送",
+        "url_en": "https://en.wikipedia.org/wiki/Neural_style_transfer",
+        "note": "画像の内容と画風を分離・合成する技術。",
+        "note_en": "Technique](https://ja.wikipedia.org/wiki/ニューラルスタイル転送"
+      },
+      {
+        "label": "PyTorch",
+        "label_en": "PyTorch",
+        "startYear": 2016,
+        "genre": [
+          "SOFTWARE"
+        ],
+        "imp": 5,
+        "url": "[https://ja.wikipedia.org/wiki/PyTorch",
+        "url_en": "https://en.wikipedia.org/wiki/PyTorch",
+        "note": "動的計算グラフで研究者に支持された深層学習フレームワーク。",
+        "note_en": "Deep](https://ja.wikipedia.org/wiki/PyTorch"
+      },
+      {
+        "label": "TPU（Tensor Processing Unit）",
+        "label_en": "TPU",
+        "startYear": 2016,
+        "genre": [
+          "HARDWARE"
+        ],
+        "imp": 5,
+        "url": "[https://ja.wikipedia.org/wiki/Tensor_Processing_Unit",
+        "url_en": "https://en.wikipedia.org/wiki/Tensor_Processing_Unit",
+        "note": "GoogleのAI専用アクセラレータで学習・推論を高速化。",
+        "note_en": "Google’s](https://ja.wikipedia.org/wiki/Tensor_Processing_Unit"
+      },
+      {
+        "label": "WaveNet",
+        "label_en": "WaveNet",
+        "startYear": 2016,
+        "genre": [
+          "THEORY"
+        ],
+        "imp": 4,
+        "url": "[https://ja.wikipedia.org/wiki/WaveNet",
+        "url_en": "https://en.wikipedia.org/wiki/WaveNet",
+        "note": "音声波形を直接生成するモデルで自然な音声合成を実現。",
+        "note_en": "Model](https://ja.wikipedia.org/wiki/WaveNet"
       },
       {
         "label": "ウエストワールド (テレビドラマ)",
         "label_en": "Westworld (TV series)",
         "startYear": 2016,
         "genre": [
-          "MED-CNT"
+          "CONTENT",
+          "P_RL"
         ],
         "imp": 5,
         "url": "[https://ja.wikipedia.org/wiki/ウエストワールド_(テレビドラマ)",
@@ -2441,126 +2536,52 @@
         "label_en": "Humanity Has Declined (AI-related ep.)",
         "startYear": 2016,
         "genre": [
-          "MED-CNT"
+          "CONTENT",
+          "JAPAN",
+          "SOFTWARE"
         ],
         "imp": 3,
         "url": "[https://ja.wikipedia.org/wiki/人類は衰退しました",
         "url_en": "https://en.wikipedia.org/wiki/Humanity_Has_Declined",
         "note": "風刺色の強い人類黄昏SF。AI的テーマを含む回も。",
         "note_en": "Satirical](https://ja.wikipedia.org/wiki/人類は衰退しました"
+      },
+      {
+        "label": "理研AIPセンター",
+        "label_en": "RIKEN AIP Center",
+        "startYear": 2016,
+        "genre": [
+          "JAPAN",
+          "ORG"
+        ],
+        "imp": 3,
+        "url": "[https://ja.wikipedia.org/wiki/理化学研究所AIPセンター",
+        "url_en": "https://en.wikipedia.org/wiki/RIKEN",
+        "note": "AIとビッグデータの先端研究拠点。",
+        "note_en": "Research](https://ja.wikipedia.org/wiki/理化学研究所AIPセンター"
+      },
+      {
+        "label": "自律移動ロボ（倉庫/配達）",
+        "label_en": "Autonomous mobile robots (AMR)",
+        "startYear": 2016,
+        "genre": [
+          "HARDWARE",
+          "ROBOTICS"
+        ],
+        "imp": 3,
+        "url": "[https://ja.wikipedia.org/wiki/自動搬送ロボット",
+        "url_en": "https://en.wikipedia.org/wiki/Autonomous_mobile_robot",
+        "note": "倉庫や小売で自律搬送が普及。",
+        "note_en": "Autonomous](https://ja.wikipedia.org/wiki/自動搬送ロボット"
       }
     ],
     "2017": [
-      {
-        "label": "Transformer",
-        "label_en": "Transformer",
-        "startYear": 2017,
-        "genre": [
-          "THE",
-          "SOF-AI"
-        ],
-        "imp": 5,
-        "url": "[https://ja.wikipedia.org/wiki/Transformer",
-        "url_en": "https://en.wikipedia.org/wiki/Transformer_(machine_learning_model)",
-        "note": "自己注意機構に基づくモデル。NLPの主流アーキテクチャへ。",
-        "note_en": "Self-attention–based](https://ja.wikipedia.org/wiki/Transformer"
-      },
-      {
-        "label": "Apple Neural Engine",
-        "label_en": "Apple Neural Engine",
-        "startYear": 2017,
-        "genre": [
-          "HAR",
-          "SOF-AI",
-          "HARD"
-        ],
-        "imp": 4,
-        "url": "[https://ja.wikipedia.org/wiki/Apple_A11",
-        "url_en": "https://en.wikipedia.org/wiki/Apple_A11",
-        "note": "iPhone](https://ja.wikipedia.org/wiki/Apple_A11",
-        "note_en": "https://en.wikipedia.org/wiki/Apple_A11"
-      },
-      {
-        "label": "RoboCup（継続開催）",
-        "label_en": "RoboCup",
-        "startYear": 2017,
-        "genre": [
-          "NON-COM",
-          "SOF-AI"
-        ],
-        "imp": 3,
-        "url": "[https://ja.wikipedia.org/wiki/RoboCup",
-        "url_en": "https://en.wikipedia.org/wiki/RoboCup",
-        "note": "サッカーロボ等を通じてAIとロボットの研究促進を目指す競技会。",
-        "note_en": "Competition](https://ja.wikipedia.org/wiki/RoboCup"
-      },
-      {
-        "label": "XGBoost",
-        "label_en": "XGBoost",
-        "startYear": 2017,
-        "genre": [
-          "THE",
-          "SOF-AI"
-        ],
-        "imp": 4,
-        "url": "[https://ja.wikipedia.org/wiki/XGBoost",
-        "url_en": "https://en.wikipedia.org/wiki/XGBoost",
-        "note": "勾配ブースティング実装として多くの実務で高精度。",
-        "note_en": "Gradient](https://ja.wikipedia.org/wiki/XGBoost"
-      },
-      {
-        "label": "Baidu Apollo",
-        "label_en": "Apollo (autonomous driving)",
-        "startYear": 2017,
-        "genre": [
-          "SOF-AI",
-          "HARD"
-        ],
-        "imp": 3,
-        "url": "[https://ja.wikipedia.org/wiki/Apollo_(自動運転プラットフォーム)",
-        "url_en": "https://en.wikipedia.org/wiki/Apollo_(autonomous_driving)",
-        "note": "自動運転向けのオープンプラットフォーム。",
-        "note_en": "Open](https://ja.wikipedia.org/wiki/Apollo_%28自動運転プラットフォーム%29"
-      },
-      {
-        "label": "Preferred Networksの深層学習応用",
-        "label_en": "Preferred Networks apps",
-        "startYear": 2017,
-        "genre": [
-          "SOF-SVC",
-          "SOF-AI",
-          "SOFT",
-          "JAPAN"
-        ],
-        "imp": 3,
-        "url": "[https://ja.wikipedia.org/wiki/Preferred_Networks",
-        "url_en": "https://en.wikipedia.org/wiki/Preferred_Networks",
-        "note": "産業・医療などでの深層学習応用を推進。",
-        "note_en": "Applied](https://ja.wikipedia.org/wiki/Preferred_Networks"
-      },
-      {
-        "label": "DeepL翻訳",
-        "label_en": "DeepL Translator",
-        "startYear": 2017,
-        "genre": [
-          "SOF-SVC",
-          "SOF-AI",
-          "SOFT"
-        ],
-        "imp": 4,
-        "url": "[https://ja.wikipedia.org/wiki/DeepL翻訳",
-        "url_en": "https://en.wikipedia.org/wiki/DeepL_Translator",
-        "note": "ニューラル翻訳で高品質な出力を提供。",
-        "note_en": "Neural](https://ja.wikipedia.org/wiki/DeepL翻訳"
-      },
       {
         "label": "Amazon SageMaker",
         "label_en": "Amazon SageMaker",
         "startYear": 2017,
         "genre": [
-          "SOF-SVC",
-          "SOF-AI",
-          "SOFT"
+          "SOFTWARE"
         ],
         "imp": 3,
         "url": "[https://ja.wikipedia.org/wiki/Amazon_SageMaker",
@@ -2569,25 +2590,56 @@
         "note_en": "Cloud](https://ja.wikipedia.org/wiki/Amazon_SageMaker"
       },
       {
-        "label": "進化的計算の応用拡大",
-        "label_en": "Evolutionary computation (applications)",
+        "label": "Apple Neural Engine",
+        "label_en": "Apple Neural Engine",
         "startYear": 2017,
         "genre": [
-          "THE",
-          "SOF-AI"
+          "HARDWARE",
+          "P_NEURAL",
+          "THEORY"
+        ],
+        "imp": 4,
+        "url": "[https://ja.wikipedia.org/wiki/Apple_A11",
+        "url_en": "https://en.wikipedia.org/wiki/Apple_A11",
+        "note": "iPhone](https://ja.wikipedia.org/wiki/Apple_A11",
+        "note_en": "https://en.wikipedia.org/wiki/Apple_A11"
+      },
+      {
+        "label": "Baidu Apollo",
+        "label_en": "Apollo (autonomous driving)",
+        "startYear": 2017,
+        "genre": [
+          "APPLICATION",
+          "HARDWARE",
+          "ORG"
         ],
         "imp": 3,
-        "url": "[https://ja.wikipedia.org/wiki/進化的計算",
-        "url_en": "https://en.wikipedia.org/wiki/Evolutionary_computation",
-        "note": "設計探索・ハイパーパラメータ最適化などで実用化。",
-        "note_en": "Applied](https://ja.wikipedia.org/wiki/進化的計算"
+        "url": "[https://ja.wikipedia.org/wiki/Apollo_(自動運転プラットフォーム)",
+        "url_en": "https://en.wikipedia.org/wiki/Apollo_(autonomous_driving)",
+        "note": "自動運転向けのオープンプラットフォーム。",
+        "note_en": "Open](https://ja.wikipedia.org/wiki/Apollo_%28自動運転プラットフォーム%29"
+      },
+      {
+        "label": "DeepL翻訳",
+        "label_en": "DeepL Translator",
+        "startYear": 2017,
+        "genre": [
+          "APPLICATION",
+          "P_NEURAL",
+          "SOFTWARE"
+        ],
+        "imp": 4,
+        "url": "[https://ja.wikipedia.org/wiki/DeepL翻訳",
+        "url_en": "https://en.wikipedia.org/wiki/DeepL_Translator",
+        "note": "ニューラル翻訳で高品質な出力を提供。",
+        "note_en": "Neural](https://ja.wikipedia.org/wiki/DeepL翻訳"
       },
       {
         "label": "NieR:Automata",
         "label_en": "NieR:Automata",
         "startYear": 2017,
         "genre": [
-          "MED-CNT"
+          "CONTENT"
         ],
         "imp": 4,
         "url": "[https://ja.wikipedia.org/wiki/NieR:Automata",
@@ -2596,114 +2648,97 @@
         "note_en": "Androids](https://ja.wikipedia.org/wiki/NieR:Automata"
       },
       {
+        "label": "Preferred Networksの深層学習応用",
+        "label_en": "Preferred Networks apps",
+        "startYear": 2017,
+        "genre": [
+          "JAPAN",
+          "ORG",
+          "SOFTWARE",
+          "THEORY"
+        ],
+        "imp": 3,
+        "url": "[https://ja.wikipedia.org/wiki/Preferred_Networks",
+        "url_en": "https://en.wikipedia.org/wiki/Preferred_Networks",
+        "note": "産業・医療などでの深層学習応用を推進。",
+        "note_en": "Applied](https://ja.wikipedia.org/wiki/Preferred_Networks"
+      },
+      {
+        "label": "RoboCup（継続開催）",
+        "label_en": "RoboCup",
+        "startYear": 2017,
+        "genre": [
+          "EVENT"
+        ],
+        "imp": 3,
+        "url": "[https://ja.wikipedia.org/wiki/RoboCup",
+        "url_en": "https://en.wikipedia.org/wiki/RoboCup",
+        "note": "サッカーロボ等を通じてAIとロボットの研究促進を目指す競技会。",
+        "note_en": "Competition](https://ja.wikipedia.org/wiki/RoboCup"
+      },
+      {
+        "label": "Transformer",
+        "label_en": "Transformer",
+        "startYear": 2017,
+        "genre": [
+          "P_NEURAL",
+          "THEORY"
+        ],
+        "imp": 5,
+        "url": "[https://ja.wikipedia.org/wiki/Transformer",
+        "url_en": "https://en.wikipedia.org/wiki/Transformer_(machine_learning_model)",
+        "note": "自己注意機構に基づくモデル。NLPの主流アーキテクチャへ。",
+        "note_en": "Self-attention–based](https://ja.wikipedia.org/wiki/Transformer"
+      },
+      {
+        "label": "XGBoost",
+        "label_en": "XGBoost",
+        "startYear": 2017,
+        "genre": [
+          "THEORY"
+        ],
+        "imp": 4,
+        "url": "[https://ja.wikipedia.org/wiki/XGBoost",
+        "url_en": "https://en.wikipedia.org/wiki/XGBoost",
+        "note": "勾配ブースティング実装として多くの実務で高精度。",
+        "note_en": "Gradient](https://ja.wikipedia.org/wiki/XGBoost"
+      },
+      {
         "label": "ブレードランナー 2049",
         "label_en": "Blade Runner 2049",
         "startYear": 2017,
         "genre": [
-          "MED-CNT"
+          "CONTENT"
         ],
         "imp": 4,
         "url": "[https://ja.wikipedia.org/wiki/ブレードランナー_2049",
         "url_en": "https://en.wikipedia.org/wiki/Blade_Runner_2049",
         "note": "レプリカントと記憶・アイデンティティを継承・拡張。",
         "note_en": "Sequel](https://ja.wikipedia.org/wiki/ブレードランナー_2049"
+      },
+      {
+        "label": "進化的計算の応用拡大",
+        "label_en": "Evolutionary computation (applications)",
+        "startYear": 2017,
+        "genre": [
+          "P_EVOL",
+          "THEORY"
+        ],
+        "imp": 3,
+        "url": "[https://ja.wikipedia.org/wiki/進化的計算",
+        "url_en": "https://en.wikipedia.org/wiki/Evolutionary_computation",
+        "note": "設計探索・ハイパーパラメータ最適化などで実用化。",
+        "note_en": "Applied](https://ja.wikipedia.org/wiki/進化的計算"
       }
     ],
     "2018": [
-      {
-        "label": "BERT",
-        "label_en": "BERT",
-        "startYear": 2018,
-        "genre": [
-          "THE",
-          "SOF-AI"
-        ],
-        "imp": 5,
-        "url": "[https://ja.wikipedia.org/wiki/BERT",
-        "url_en": "https://en.wikipedia.org/wiki/BERT",
-        "note": "双方向事前学習でNLP性能を飛躍させたモデル。",
-        "note_en": "Bidirectional](https://ja.wikipedia.org/wiki/BERT"
-      },
-      {
-        "label": "GPT-1",
-        "label_en": "GPT-1",
-        "startYear": 2018,
-        "genre": [
-          "THE",
-          "SOF-AI"
-        ],
-        "imp": 4,
-        "url": "[https://ja.wikipedia.org/wiki/Generative_Pre-trained_Transformer",
-        "url_en": "https://en.wikipedia.org/wiki/Generative_pre-trained_transformer",
-        "note": "事前学習と微調整の枠組みを示した生成モデルの初代。",
-        "note_en": "First](https://ja.wikipedia.org/wiki/Generative_Pre-trained_Transformer"
-      },
-      {
-        "label": "OpenAI Five",
-        "label_en": "OpenAI Five",
-        "startYear": 2018,
-        "genre": [
-          "THE",
-          "SOF-AI"
-        ],
-        "imp": 4,
-        "url": "[https://ja.wikipedia.org/wiki/OpenAI_Five",
-        "url_en": "https://en.wikipedia.org/wiki/OpenAI_Five",
-        "note": "Dota](https://ja.wikipedia.org/wiki/OpenAI_Five",
-        "note_en": "https://en.wikipedia.org/wiki/OpenAI_Five"
-      },
-      {
-        "label": "BERT日本語版（Tohoku等）",
-        "label_en": "Japanese BERT by Tohoku",
-        "startYear": 2018,
-        "genre": [
-          "THE",
-          "SOF-AI",
-          "JAPAN"
-        ],
-        "imp": 3,
-        "url": "[https://ja.wikipedia.org/wiki/BERT",
-        "url_en": "https://en.wikipedia.org/wiki/BERT",
-        "note": "東北大などによる日本語事前学習モデルが広く利用。",
-        "note_en": "Japanese](https://ja.wikipedia.org/wiki/BERT"
-      },
-      {
-        "label": "BERTベースの検索改善",
-        "label_en": "BERT for Search",
-        "startYear": 2018,
-        "genre": [
-          "SOF-SVC",
-          "SOF-AI",
-          "SOFT"
-        ],
-        "imp": 3,
-        "url": "[https://ja.wikipedia.org/wiki/BERT",
-        "url_en": "https://en.wikipedia.org/wiki/BERT",
-        "note": "検索エンジンの理解改善に活用され品質が向上。",
-        "note_en": "Used](https://ja.wikipedia.org/wiki/BERT"
-      },
-      {
-        "label": "Google Duplex",
-        "label_en": "Google Duplex",
-        "startYear": 2018,
-        "genre": [
-          "SOF-SVC",
-          "SOF-AI",
-          "SOFT"
-        ],
-        "imp": 3,
-        "url": "[https://ja.wikipedia.org/wiki/Google_Duplex",
-        "url_en": "https://en.wikipedia.org/wiki/Google_Duplex",
-        "note": "電話予約などを自動で行う対話技術。",
-        "note_en": "Conversational](https://ja.wikipedia.org/wiki/Google_Duplex"
-      },
       {
         "label": "AlphaZero",
         "label_en": "AlphaZero",
         "startYear": 2018,
         "genre": [
-          "THE",
-          "SOF-AI"
+          "P_RL",
+          "THEORY"
         ],
         "imp": 5,
         "url": "[https://ja.wikipedia.org/wiki/AlphaZero",
@@ -2712,89 +2747,28 @@
         "note_en": "General](https://ja.wikipedia.org/wiki/AlphaZero"
       },
       {
-        "label": "BERT日本語Wiki版（京都大等）",
-        "label_en": "Japanese BERT (Kyoto etc.)",
+        "label": "BERT",
+        "label_en": "BERT",
         "startYear": 2018,
         "genre": [
-          "THE",
-          "SOF-AI",
-          "JAPAN"
+          "P_NEURAL",
+          "THEORY"
         ],
-        "imp": 3,
+        "imp": 5,
         "url": "[https://ja.wikipedia.org/wiki/BERT",
         "url_en": "https://en.wikipedia.org/wiki/BERT",
-        "note": "日本語Wikipediaで事前学習したモデル群。",
-        "note_en": "Models](https://ja.wikipedia.org/wiki/BERT"
-      },
-      {
-        "label": "BERTベース日本語QAシステム",
-        "label_en": "Japanese QA with BERT",
-        "startYear": 2018,
-        "genre": [
-          "SOF-SVC",
-          "SOF-AI",
-          "SOFT",
-          "JAPAN"
-        ],
-        "imp": 3,
-        "url": "[https://ja.wikipedia.org/wiki/機械読解",
-        "url_en": "https://en.wikipedia.org/wiki/Machine_reading_comprehension",
-        "note": "日本語の機械読解・QAで性能が向上。",
-        "note_en": "Improved](https://ja.wikipedia.org/wiki/機械読解"
-      },
-      {
-        "label": "Baidu ERNIE",
-        "label_en": "ERNIE",
-        "startYear": 2018,
-        "genre": [
-          "THE",
-          "SOF-AI"
-        ],
-        "imp": 3,
-        "url": "[https://ja.wikipedia.org/wiki/ERNIE",
-        "url_en": "https://en.wikipedia.org/wiki/ERNIE",
-        "note": "知識統合を重視した事前学習モデル。",
-        "note_en": "Pretrained](https://ja.wikipedia.org/wiki/ERNIE"
-      },
-      {
-        "label": "Triton（OpenAI）",
-        "label_en": "Triton (language)",
-        "startYear": 2018,
-        "genre": [
-          "SOF-DEV",
-          "SOF-AI",
-          "SOFT"
-        ],
-        "imp": 3,
-        "url": "[https://ja.wikipedia.org/wiki/Triton_(プログラミング言語)",
-        "url_en": "https://en.wikipedia.org/wiki/Triton_(programming_language)",
-        "note": "GPU向けカーネルをPythonで記述可能に。",
-        "note_en": "Python-based](https://ja.wikipedia.org/wiki/Triton_%28プログラミング言語%29"
-      },
-      {
-        "label": "BERTベース検索（日本語対応）",
-        "label_en": "BERT-powered search (JP)",
-        "startYear": 2018,
-        "genre": [
-          "SOF-SVC",
-          "SOF-AI",
-          "SOFT",
-          "JAPAN"
-        ],
-        "imp": 3,
-        "url": "[https://ja.wikipedia.org/wiki/BERT",
-        "url_en": "https://en.wikipedia.org/wiki/BERT",
-        "note": "日本語検索品質の向上に寄与。",
-        "note_en": "Contributed](https://ja.wikipedia.org/wiki/BERT"
+        "note": "双方向事前学習でNLP性能を飛躍させたモデル。",
+        "note_en": "Bidirectional](https://ja.wikipedia.org/wiki/BERT"
       },
       {
         "label": "BERT-based QA（医療等）",
         "label_en": "BERT QA in healthcare",
         "startYear": 2018,
         "genre": [
-          "SOF-ENT",
-          "SOF-AI",
-          "SOFT"
+          "APPLICATION",
+          "P_NEURAL",
+          "SOFTWARE",
+          "THEORY"
         ],
         "imp": 3,
         "url": "[https://ja.wikipedia.org/wiki/自然言語処理",
@@ -2803,27 +2777,103 @@
         "note_en": "Automated](https://ja.wikipedia.org/wiki/自然言語処理"
       },
       {
-        "label": "脳型コンピュータ（日本の取組）",
-        "label_en": "Brain-inspired computers (Japan)",
+        "label": "BERTベースの検索改善",
+        "label_en": "BERT for Search",
         "startYear": 2018,
         "genre": [
-          "HAR",
-          "SOF-AI",
-          "HARD",
-          "JAPAN"
+          "APPLICATION",
+          "P_NEURAL",
+          "SOFTWARE",
+          "THEORY"
         ],
-        "imp": 4,
-        "url": "[https://ja.wikipedia.org/wiki/脳型コンピュータ",
-        "url_en": "https://en.wikipedia.org/wiki/Neuromorphic_engineering",
-        "note": "ニューロモルフィック計算機の研究開発。",
-        "note_en": "Japanese](https://ja.wikipedia.org/wiki/脳型コンピュータ"
+        "imp": 3,
+        "url": "[https://ja.wikipedia.org/wiki/BERT",
+        "url_en": "https://en.wikipedia.org/wiki/BERT",
+        "note": "検索エンジンの理解改善に活用され品質が向上。",
+        "note_en": "Used](https://ja.wikipedia.org/wiki/BERT"
+      },
+      {
+        "label": "BERTベース日本語QAシステム",
+        "label_en": "Japanese QA with BERT",
+        "startYear": 2018,
+        "genre": [
+          "JAPAN",
+          "P_NEURAL",
+          "SOFTWARE",
+          "THEORY"
+        ],
+        "imp": 3,
+        "url": "[https://ja.wikipedia.org/wiki/機械読解",
+        "url_en": "https://en.wikipedia.org/wiki/Machine_reading_comprehension",
+        "note": "日本語の機械読解・QAで性能が向上。",
+        "note_en": "Improved](https://ja.wikipedia.org/wiki/機械読解"
+      },
+      {
+        "label": "BERTベース検索（日本語対応）",
+        "label_en": "BERT-powered search (JP)",
+        "startYear": 2018,
+        "genre": [
+          "APPLICATION",
+          "JAPAN",
+          "P_NEURAL",
+          "SOFTWARE",
+          "THEORY"
+        ],
+        "imp": 3,
+        "url": "[https://ja.wikipedia.org/wiki/BERT",
+        "url_en": "https://en.wikipedia.org/wiki/BERT",
+        "note": "日本語検索品質の向上に寄与。",
+        "note_en": "Contributed](https://ja.wikipedia.org/wiki/BERT"
+      },
+      {
+        "label": "BERT日本語Wiki版（京都大等）",
+        "label_en": "Japanese BERT (Kyoto etc.)",
+        "startYear": 2018,
+        "genre": [
+          "JAPAN",
+          "P_NEURAL",
+          "THEORY"
+        ],
+        "imp": 3,
+        "url": "[https://ja.wikipedia.org/wiki/BERT",
+        "url_en": "https://en.wikipedia.org/wiki/BERT",
+        "note": "日本語Wikipediaで事前学習したモデル群。",
+        "note_en": "Models](https://ja.wikipedia.org/wiki/BERT"
+      },
+      {
+        "label": "BERT日本語版（Tohoku等）",
+        "label_en": "Japanese BERT by Tohoku",
+        "startYear": 2018,
+        "genre": [
+          "JAPAN",
+          "P_NEURAL",
+          "THEORY"
+        ],
+        "imp": 3,
+        "url": "[https://ja.wikipedia.org/wiki/BERT",
+        "url_en": "https://en.wikipedia.org/wiki/BERT",
+        "note": "東北大などによる日本語事前学習モデルが広く利用。",
+        "note_en": "Japanese](https://ja.wikipedia.org/wiki/BERT"
+      },
+      {
+        "label": "Baidu ERNIE",
+        "label_en": "ERNIE",
+        "startYear": 2018,
+        "genre": [
+          "THEORY"
+        ],
+        "imp": 3,
+        "url": "[https://ja.wikipedia.org/wiki/ERNIE",
+        "url_en": "https://en.wikipedia.org/wiki/ERNIE",
+        "note": "知識統合を重視した事前学習モデル。",
+        "note_en": "Pretrained](https://ja.wikipedia.org/wiki/ERNIE"
       },
       {
         "label": "Detroit: Become Human",
         "label_en": "Detroit: Become Human",
         "startYear": 2018,
         "genre": [
-          "MED-CNT"
+          "CONTENT"
         ],
         "imp": 4,
         "url": "[https://ja.wikipedia.org/wiki/Detroit:_Become_Human",
@@ -2832,41 +2882,99 @@
         "note_en": "Interactive](https://ja.wikipedia.org/wiki/Detroit:_Become_Human"
       },
       {
+        "label": "GPT-1",
+        "label_en": "GPT-1",
+        "startYear": 2018,
+        "genre": [
+          "P_GENERATIVE",
+          "P_NEURAL",
+          "THEORY"
+        ],
+        "imp": 4,
+        "url": "[https://ja.wikipedia.org/wiki/Generative_Pre-trained_Transformer",
+        "url_en": "https://en.wikipedia.org/wiki/Generative_pre-trained_transformer",
+        "note": "事前学習と微調整の枠組みを示した生成モデルの初代。",
+        "note_en": "First](https://ja.wikipedia.org/wiki/Generative_Pre-trained_Transformer"
+      },
+      {
+        "label": "Google Duplex",
+        "label_en": "Google Duplex",
+        "startYear": 2018,
+        "genre": [
+          "APPLICATION",
+          "SOFTWARE"
+        ],
+        "imp": 3,
+        "url": "[https://ja.wikipedia.org/wiki/Google_Duplex",
+        "url_en": "https://en.wikipedia.org/wiki/Google_Duplex",
+        "note": "電話予約などを自動で行う対話技術。",
+        "note_en": "Conversational](https://ja.wikipedia.org/wiki/Google_Duplex"
+      },
+      {
+        "label": "OpenAI Five",
+        "label_en": "OpenAI Five",
+        "startYear": 2018,
+        "genre": [
+          "ORG",
+          "THEORY"
+        ],
+        "imp": 4,
+        "url": "[https://ja.wikipedia.org/wiki/OpenAI_Five",
+        "url_en": "https://en.wikipedia.org/wiki/OpenAI_Five",
+        "note": "Dota](https://ja.wikipedia.org/wiki/OpenAI_Five",
+        "note_en": "https://en.wikipedia.org/wiki/OpenAI_Five"
+      },
+      {
+        "label": "Triton（OpenAI）",
+        "label_en": "Triton (language)",
+        "startYear": 2018,
+        "genre": [
+          "SOFTWARE"
+        ],
+        "imp": 3,
+        "url": "[https://ja.wikipedia.org/wiki/Triton_(プログラミング言語)",
+        "url_en": "https://en.wikipedia.org/wiki/Triton_(programming_language)",
+        "note": "GPU向けカーネルをPythonで記述可能に。",
+        "note_en": "Python-based](https://ja.wikipedia.org/wiki/Triton_%28プログラミング言語%29"
+      },
+      {
         "label": "イヴの時間",
         "label_en": "Time of Eve",
         "startYear": 2018,
         "genre": [
-          "MED-CNT"
+          "CONTENT"
         ],
         "imp": 3,
         "url": "[https://ja.wikipedia.org/wiki/イヴの時間",
         "url_en": "https://en.wikipedia.org/wiki/Time_of_Eve",
         "note": "人間とアンドロイドの境界をカフェで描く短編群。",
         "note_en": "Anthology](https://ja.wikipedia.org/wiki/イヴの時間"
+      },
+      {
+        "label": "脳型コンピュータ（日本の取組）",
+        "label_en": "Brain-inspired computers (Japan)",
+        "startYear": 2018,
+        "genre": [
+          "HARDWARE",
+          "JAPAN"
+        ],
+        "imp": 4,
+        "url": "[https://ja.wikipedia.org/wiki/脳型コンピュータ",
+        "url_en": "https://en.wikipedia.org/wiki/Neuromorphic_engineering",
+        "note": "ニューロモルフィック計算機の研究開発。",
+        "note_en": "Japanese](https://ja.wikipedia.org/wiki/脳型コンピュータ"
       }
     ],
     "2019": [
-      {
-        "label": "GPT-2",
-        "label_en": "GPT-2",
-        "startYear": 2019,
-        "genre": [
-          "THE",
-          "SOF-AI"
-        ],
-        "imp": 5,
-        "url": "[https://ja.wikipedia.org/wiki/GPT-2",
-        "url_en": "https://en.wikipedia.org/wiki/GPT-2",
-        "note": "大規模言語モデルで自然文生成能力を大幅に向上。",
-        "note_en": "Large](https://ja.wikipedia.org/wiki/GPT-2"
-      },
       {
         "label": "AlphaStar",
         "label_en": "AlphaStar",
         "startYear": 2019,
         "genre": [
-          "THE",
-          "SOF-AI"
+          "APPLICATION",
+          "ORG",
+          "P_RL",
+          "THEORY"
         ],
         "imp": 4,
         "url": "[https://ja.wikipedia.org/wiki/AlphaStar",
@@ -2875,13 +2983,30 @@
         "note_en": "Deep](https://ja.wikipedia.org/wiki/AlphaStar"
       },
       {
+        "label": "BERT/日本の企業導入",
+        "label_en": "BERT enterprise in Japan",
+        "startYear": 2019,
+        "genre": [
+          "APPLICATION",
+          "JAPAN",
+          "P_NEURAL",
+          "SOFTWARE",
+          "THEORY"
+        ],
+        "imp": 3,
+        "url": "[https://ja.wikipedia.org/wiki/BERT",
+        "url_en": "https://en.wikipedia.org/wiki/BERT",
+        "note": "企業のFAQや検索で導入が進展。",
+        "note_en": "Adopted](https://ja.wikipedia.org/wiki/BERT"
+      },
+      {
         "label": "BERT日本語事前学習系",
         "label_en": "Japanese BERT models",
         "startYear": 2019,
         "genre": [
-          "THE",
-          "SOF-AI",
-          "JAPAN"
+          "JAPAN",
+          "P_NEURAL",
+          "THEORY"
         ],
         "imp": 3,
         "url": "[https://ja.wikipedia.org/wiki/BERT",
@@ -2890,12 +3015,57 @@
         "note_en": "Many](https://ja.wikipedia.org/wiki/BERT"
       },
       {
+        "label": "Edge TPU",
+        "label_en": "Edge TPU",
+        "startYear": 2019,
+        "genre": [
+          "APPLICATION",
+          "HARDWARE"
+        ],
+        "imp": 3,
+        "url": "[https://ja.wikipedia.org/wiki/Edge_TPU",
+        "url_en": "https://en.wikipedia.org/wiki/Edge_TPU",
+        "note": "エッジ向けAI推論アクセラレータ。",
+        "note_en": "AI](https://ja.wikipedia.org/wiki/Edge_TPU"
+      },
+      {
+        "label": "GPT-2",
+        "label_en": "GPT-2",
+        "startYear": 2019,
+        "genre": [
+          "P_NEURAL",
+          "THEORY"
+        ],
+        "imp": 5,
+        "url": "[https://ja.wikipedia.org/wiki/GPT-2",
+        "url_en": "https://en.wikipedia.org/wiki/GPT-2",
+        "note": "大規模言語モデルで自然文生成能力を大幅に向上。",
+        "note_en": "Large](https://ja.wikipedia.org/wiki/GPT-2"
+      },
+      {
+        "label": "Google BERT検索適用",
+        "label_en": "BERT in Google Search",
+        "startYear": 2019,
+        "genre": [
+          "APPLICATION",
+          "P_NEURAL",
+          "SOFTWARE",
+          "THEORY"
+        ],
+        "imp": 4,
+        "url": "[https://ja.wikipedia.org/wiki/BERT",
+        "url_en": "https://en.wikipedia.org/wiki/BERT",
+        "note": "検索クエリ理解の改善に活用。",
+        "note_en": "Used](https://ja.wikipedia.org/wiki/BERT"
+      },
+      {
         "label": "Neural Architecture Search",
         "label_en": "Neural architecture search",
         "startYear": 2019,
         "genre": [
-          "THE",
-          "SOF-AI"
+          "APPLICATION",
+          "P_NEURAL",
+          "THEORY"
         ],
         "imp": 3,
         "url": "[https://ja.wikipedia.org/wiki/ニューラル・アーキテクチャ・サーチ",
@@ -2908,8 +3078,8 @@
         "label_en": "T5",
         "startYear": 2019,
         "genre": [
-          "THE",
-          "SOF-AI"
+          "P_NEURAL",
+          "THEORY"
         ],
         "imp": 4,
         "url": "[https://ja.wikipedia.org/wiki/T5_(機械学習モデル)",
@@ -2922,8 +3092,7 @@
         "label_en": "XLNet",
         "startYear": 2019,
         "genre": [
-          "THE",
-          "SOF-AI"
+          "THEORY"
         ],
         "imp": 3,
         "url": "[https://ja.wikipedia.org/wiki/XLNet",
@@ -2932,72 +3101,26 @@
         "note_en": "Permutation-based](https://ja.wikipedia.org/wiki/XLNet"
       },
       {
-        "label": "自然言語処理用事前学習の普及",
-        "label_en": "Pretrained NLP ubiquity",
+        "label": "ラブ、デス&ロボット",
+        "label_en": "Love, Death & Robots",
         "startYear": 2019,
         "genre": [
-          "THE",
-          "SOF-AI"
+          "CONTENT",
+          "HARDWARE",
+          "ROBOTICS"
         ],
         "imp": 3,
-        "url": "[https://ja.wikipedia.org/wiki/自然言語処理",
-        "url_en": "https://en.wikipedia.org/wiki/Natural_language_processing",
-        "note": "事前学習・微調整がNLPの標準手法となった。",
-        "note_en": "Pretrain–finetune](https://ja.wikipedia.org/wiki/自然言語処理"
-      },
-      {
-        "label": "Edge TPU",
-        "label_en": "Edge TPU",
-        "startYear": 2019,
-        "genre": [
-          "HAR",
-          "SOF-AI",
-          "HARD"
-        ],
-        "imp": 3,
-        "url": "[https://ja.wikipedia.org/wiki/Edge_TPU",
-        "url_en": "https://en.wikipedia.org/wiki/Edge_TPU",
-        "note": "エッジ向けAI推論アクセラレータ。",
-        "note_en": "AI](https://ja.wikipedia.org/wiki/Edge_TPU"
-      },
-      {
-        "label": "BERT/日本の企業導入",
-        "label_en": "BERT enterprise in Japan",
-        "startYear": 2019,
-        "genre": [
-          "SOF-ENT",
-          "SOF-AI",
-          "SOFT",
-          "JAPAN"
-        ],
-        "imp": 3,
-        "url": "[https://ja.wikipedia.org/wiki/BERT",
-        "url_en": "https://en.wikipedia.org/wiki/BERT",
-        "note": "企業のFAQや検索で導入が進展。",
-        "note_en": "Adopted](https://ja.wikipedia.org/wiki/BERT"
-      },
-      {
-        "label": "Google BERT検索適用",
-        "label_en": "BERT in Google Search",
-        "startYear": 2019,
-        "genre": [
-          "SOF-SVC",
-          "SOF-AI",
-          "SOFT"
-        ],
-        "imp": 4,
-        "url": "[https://ja.wikipedia.org/wiki/BERT",
-        "url_en": "https://en.wikipedia.org/wiki/BERT",
-        "note": "検索クエリ理解の改善に活用。",
-        "note_en": "Used](https://ja.wikipedia.org/wiki/BERT"
+        "url": "[https://ja.wikipedia.org/wiki/ラブ、デス&ロボット",
+        "url_en": "https://en.wikipedia.org/wiki/Love,_Death_%26_Robots",
+        "note": "短編アニメ集。AIやロボットを扱う多様なエピソード。",
+        "note_en": "Anthology](https://ja.wikipedia.org/wiki/ラブ、デス&ロボット"
       },
       {
         "label": "知能アーキテクチャ統合",
         "label_en": "Cognitive architectures (revival)",
         "startYear": 2019,
         "genre": [
-          "THE",
-          "SOF-AI"
+          "THEORY"
         ],
         "imp": 3,
         "url": "[https://ja.wikipedia.org/wiki/認知アーキテクチャ",
@@ -3006,17 +3129,17 @@
         "note_en": "Renewed](https://ja.wikipedia.org/wiki/認知アーキテクチャ"
       },
       {
-        "label": "ラブ、デス&ロボット",
-        "label_en": "Love, Death & Robots",
+        "label": "自然言語処理用事前学習の普及",
+        "label_en": "Pretrained NLP ubiquity",
         "startYear": 2019,
         "genre": [
-          "MED-CNT"
+          "THEORY"
         ],
         "imp": 3,
-        "url": "[https://ja.wikipedia.org/wiki/ラブ、デス&ロボット",
-        "url_en": "https://en.wikipedia.org/wiki/Love,_Death_%26_Robots",
-        "note": "短編アニメ集。AIやロボットを扱う多様なエピソード。",
-        "note_en": "Anthology](https://ja.wikipedia.org/wiki/ラブ、デス&ロボット"
+        "url": "[https://ja.wikipedia.org/wiki/自然言語処理",
+        "url_en": "https://en.wikipedia.org/wiki/Natural_language_processing",
+        "note": "事前学習・微調整がNLPの標準手法となった。",
+        "note_en": "Pretrain–finetune](https://ja.wikipedia.org/wiki/自然言語処理"
       },
       {
         "label": "5G商用化",
@@ -3037,26 +3160,12 @@
     ],
     "2020": [
       {
-        "label": "GPT-3",
-        "label_en": "GPT-3",
-        "startYear": 2020,
-        "genre": [
-          "THE",
-          "SOF-AI"
-        ],
-        "imp": 5,
-        "url": "[https://ja.wikipedia.org/wiki/GPT-3",
-        "url_en": "https://en.wikipedia.org/wiki/GPT-3",
-        "note": "大規模化で汎用的な言語能力を示しFew-shot学習を普及。",
-        "note_en": "Scaled](https://ja.wikipedia.org/wiki/GPT-3"
-      },
-      {
         "label": "AlphaFold",
         "label_en": "AlphaFold",
         "startYear": 2020,
         "genre": [
-          "THE",
-          "SOF-AI"
+          "APPLICATION",
+          "THEORY"
         ],
         "imp": 5,
         "url": "[https://ja.wikipedia.org/wiki/AlphaFold",
@@ -3069,8 +3178,8 @@
         "label_en": "CLIP",
         "startYear": 2020,
         "genre": [
-          "THE",
-          "SOF-AI"
+          "P_NEURAL",
+          "THEORY"
         ],
         "imp": 4,
         "url": "[https://ja.wikipedia.org/wiki/CLIP_(人工知能)",
@@ -3079,27 +3188,11 @@
         "note_en": "Jointly](https://ja.wikipedia.org/wiki/CLIP_%28人工知能%29"
       },
       {
-        "label": "JAX",
-        "label_en": "JAX",
-        "startYear": 2020,
-        "genre": [
-          "SOF-AI",
-          "SOFT"
-        ],
-        "imp": 3,
-        "url": "[https://ja.wikipedia.org/wiki/JAX",
-        "url_en": "https://en.wikipedia.org/wiki/JAX_(software)",
-        "note": "自動微分とXLAで高速な数値計算を実現するライブラリ。",
-        "note_en": "Library](https://ja.wikipedia.org/wiki/JAX"
-      },
-      {
         "label": "FugakuとAI応用",
         "label_en": "Fugaku supercomputer (AI use)",
         "startYear": 2020,
         "genre": [
-          "HAR",
-          "SOF-AI",
-          "HARD",
+          "HARDWARE",
           "JAPAN"
         ],
         "imp": 3,
@@ -3109,40 +3202,38 @@
         "note_en": "Japanese](https://ja.wikipedia.org/wiki/富岳_%28スーパーコンピュータ%29"
       },
       {
-        "label": "Vision Transformer",
-        "label_en": "Vision Transformer",
+        "label": "GPT-3",
+        "label_en": "GPT-3",
         "startYear": 2020,
         "genre": [
-          "THE",
-          "SOF-AI"
+          "P_NEURAL",
+          "THEORY"
         ],
-        "imp": 4,
-        "url": "[https://ja.wikipedia.org/wiki/ビジョントランスフォーマー",
-        "url_en": "https://en.wikipedia.org/wiki/Vision_transformer",
-        "note": "画像認識にTransformerを適用し高精度を達成。",
-        "note_en": "Applied](https://ja.wikipedia.org/wiki/ビジョントランスフォーマー"
+        "imp": 5,
+        "url": "[https://ja.wikipedia.org/wiki/GPT-3",
+        "url_en": "https://en.wikipedia.org/wiki/GPT-3",
+        "note": "大規模化で汎用的な言語能力を示しFew-shot学習を普及。",
+        "note_en": "Scaled](https://ja.wikipedia.org/wiki/GPT-3"
       },
       {
-        "label": "Swin Transformer",
-        "label_en": "Swin Transformer",
+        "label": "JAX",
+        "label_en": "JAX",
         "startYear": 2020,
         "genre": [
-          "THE",
-          "SOF-AI"
+          "SOFTWARE"
         ],
         "imp": 3,
-        "url": "[https://ja.wikipedia.org/wiki/Swin_Transformer",
-        "url_en": "https://en.wikipedia.org/wiki/Swin_Transformer",
-        "note": "階層型ウィンドウ注意で高効率な視覚表現。",
-        "note_en": "Hierarchical](https://ja.wikipedia.org/wiki/Swin_Transformer"
+        "url": "[https://ja.wikipedia.org/wiki/JAX",
+        "url_en": "https://en.wikipedia.org/wiki/JAX_(software)",
+        "note": "自動微分とXLAで高速な数値計算を実現するライブラリ。",
+        "note_en": "Library](https://ja.wikipedia.org/wiki/JAX"
       },
       {
         "label": "ONNX Runtime",
         "label_en": "ONNX Runtime",
         "startYear": 2020,
         "genre": [
-          "SOF-AI",
-          "SOFT"
+          "SOFTWARE"
         ],
         "imp": 3,
         "url": "[https://ja.wikipedia.org/wiki/ONNX",
@@ -3151,12 +3242,54 @@
         "note_en": "Runtime](https://ja.wikipedia.org/wiki/ONNX"
       },
       {
+        "label": "Swin Transformer",
+        "label_en": "Swin Transformer",
+        "startYear": 2020,
+        "genre": [
+          "P_NEURAL",
+          "THEORY"
+        ],
+        "imp": 3,
+        "url": "[https://ja.wikipedia.org/wiki/Swin_Transformer",
+        "url_en": "https://en.wikipedia.org/wiki/Swin_Transformer",
+        "note": "階層型ウィンドウ注意で高効率な視覚表現。",
+        "note_en": "Hierarchical](https://ja.wikipedia.org/wiki/Swin_Transformer"
+      },
+      {
+        "label": "T5日本語学習系",
+        "label_en": "Japanese T5 variants",
+        "startYear": 2020,
+        "genre": [
+          "JAPAN",
+          "P_NEURAL",
+          "THEORY"
+        ],
+        "imp": 3,
+        "url": "[https://ja.wikipedia.org/wiki/T5_(機械学習モデル)",
+        "url_en": "https://en.wikipedia.org/wiki/T5_(text-to-text_transfer_transformer)",
+        "note": "日本語向けT5派生が公開。",
+        "note_en": "Japanese](https://ja.wikipedia.org/wiki/T5_%28機械学習モデル%29"
+      },
+      {
+        "label": "Vision Transformer",
+        "label_en": "Vision Transformer",
+        "startYear": 2020,
+        "genre": [
+          "P_NEURAL",
+          "THEORY"
+        ],
+        "imp": 4,
+        "url": "[https://ja.wikipedia.org/wiki/ビジョントランスフォーマー",
+        "url_en": "https://en.wikipedia.org/wiki/Vision_transformer",
+        "note": "画像認識にTransformerを適用し高精度を達成。",
+        "note_en": "Applied](https://ja.wikipedia.org/wiki/ビジョントランスフォーマー"
+      },
+      {
         "label": "YOLOv5以降の普及",
         "label_en": "YOLO family",
         "startYear": 2020,
         "genre": [
-          "THE",
-          "SOF-AI"
+          "THEORY"
         ],
         "imp": 3,
         "url": "[https://ja.wikipedia.org/wiki/You_Only_Look_Once",
@@ -3169,9 +3302,7 @@
         "label_en": "NVIDIA A100",
         "startYear": 2020,
         "genre": [
-          "HAR",
-          "SOF-AI",
-          "HARD"
+          "HARDWARE"
         ],
         "imp": 4,
         "url": "[https://ja.wikipedia.org/wiki/Nvidia_A100",
@@ -3180,27 +3311,12 @@
         "note_en": "Widely](https://ja.wikipedia.org/wiki/Nvidia_A100"
       },
       {
-        "label": "T5日本語学習系",
-        "label_en": "Japanese T5 variants",
-        "startYear": 2020,
-        "genre": [
-          "THE",
-          "SOF-AI",
-          "JAPAN"
-        ],
-        "imp": 3,
-        "url": "[https://ja.wikipedia.org/wiki/T5_(機械学習モデル)",
-        "url_en": "https://en.wikipedia.org/wiki/T5_(text-to-text_transfer_transformer)",
-        "note": "日本語向けT5派生が公開。",
-        "note_en": "Japanese](https://ja.wikipedia.org/wiki/T5_%28機械学習モデル%29"
-      },
-      {
         "label": "多腕バンディットと探索戦略",
         "label_en": "Multi-armed bandit & exploration",
         "startYear": 2020,
         "genre": [
-          "THE",
-          "SOF-AI"
+          "P_RL",
+          "THEORY"
         ],
         "imp": 3,
         "url": "[https://ja.wikipedia.org/wiki/マルチアーム・バンディット",
@@ -3211,127 +3327,11 @@
     ],
     "2021": [
       {
-        "label": "DALL·E",
-        "label_en": "DALL·E",
-        "startYear": 2021,
-        "genre": [
-          "THE",
-          "SOF-AI"
-        ],
-        "imp": 4,
-        "url": "[https://ja.wikipedia.org/wiki/DALL-E",
-        "url_en": "https://en.wikipedia.org/wiki/DALL-E",
-        "note": "テキストから画像を生成するモデルの先駆。",
-        "note_en": "Pioneering](https://ja.wikipedia.org/wiki/DALL-E"
-      },
-      {
-        "label": "M1（Apple Silicon）",
-        "label_en": "Apple M1",
-        "startYear": 2021,
-        "genre": [
-          "HAR",
-          "SOF-AI",
-          "HARD"
-        ],
-        "imp": 4,
-        "url": "[https://ja.wikipedia.org/wiki/Apple_M1",
-        "url_en": "https://en.wikipedia.org/wiki/Apple_M1",
-        "note": "統合GPU/NEでオンデバイスAIの効率を向上。",
-        "note_en": "Integrated](https://ja.wikipedia.org/wiki/Apple_M1"
-      },
-      {
-        "label": "MegerFace/Face recognition発展",
-        "label_en": "Face recognition progress",
-        "startYear": 2021,
-        "genre": [
-          "THE",
-          "SOF-AI"
-        ],
-        "imp": 3,
-        "url": "[https://ja.wikipedia.org/wiki/顔認識システム",
-        "url_en": "https://en.wikipedia.org/wiki/Facial_recognition_system",
-        "note": "深層学習により顔認識の精度が大幅に進展。",
-        "note_en": "Deep](https://ja.wikipedia.org/wiki/顔認識システム"
-      },
-      {
-        "label": "Codex",
-        "label_en": "OpenAI Codex",
-        "startYear": 2021,
-        "genre": [
-          "THE",
-          "SOF-AI"
-        ],
-        "imp": 4,
-        "url": "[https://ja.wikipedia.org/wiki/OpenAI_Codex",
-        "url_en": "https://en.wikipedia.org/wiki/OpenAI_Codex",
-        "note": "コード生成に特化した言語モデル。IDE連携で支援。",
-        "note_en": "Language](https://ja.wikipedia.org/wiki/OpenAI_Codex"
-      },
-      {
-        "label": "GitHub Copilot",
-        "label_en": "GitHub Copilot",
-        "startYear": 2021,
-        "genre": [
-          "SOF-SVC",
-          "SOF-AI",
-          "SOFT"
-        ],
-        "imp": 4,
-        "url": "[https://ja.wikipedia.org/wiki/GitHub_Copilot",
-        "url_en": "https://en.wikipedia.org/wiki/GitHub_Copilot",
-        "note": "プログラミング補完を行うAIアシスタント。",
-        "note_en": "AI](https://ja.wikipedia.org/wiki/GitHub_Copilot"
-      },
-      {
-        "label": "VQGAN+CLIP",
-        "label_en": "VQGAN+CLIP",
-        "startYear": 2021,
-        "genre": [
-          "THE",
-          "SOF-AI"
-        ],
-        "imp": 3,
-        "url": "[https://ja.wikipedia.org/wiki/CLIP_(人工知能)",
-        "url_en": "https://en.wikipedia.org/wiki/CLIP_(artificial_intelligence)",
-        "note": "テキスト誘導で画像生成・編集を行う手法。",
-        "note_en": "Text-guided](https://ja.wikipedia.org/wiki/CLIP_%28人工知能%29"
-      },
-      {
-        "label": "MLOpsの普及",
-        "label_en": "MLOps adoption",
-        "startYear": 2021,
-        "genre": [
-          "SOF-DEV",
-          "SOF-AI",
-          "SOFT"
-        ],
-        "imp": 3,
-        "url": "[https://ja.wikipedia.org/wiki/MLOps",
-        "url_en": "https://en.wikipedia.org/wiki/MLOps",
-        "note": "機械学習運用を支える実践・ツールが整備。",
-        "note_en": "Practices](https://ja.wikipedia.org/wiki/MLOps"
-      },
-      {
-        "label": "SwinIR/画像復元",
-        "label_en": "SwinIR",
-        "startYear": 2021,
-        "genre": [
-          "THE",
-          "SOF-AI"
-        ],
-        "imp": 3,
-        "url": "[https://ja.wikipedia.org/wiki/Swin_Transformer",
-        "url_en": "https://en.wikipedia.org/wiki/Swin_Transformer",
-        "note": "Transformer系の画像復元モデル。",
-        "note_en": "Transformer-based](https://ja.wikipedia.org/wiki/Swin_Transformer"
-      },
-      {
         "label": "AlphaCode",
         "label_en": "AlphaCode",
         "startYear": 2021,
         "genre": [
-          "THE",
-          "SOF-AI"
+          "THEORY"
         ],
         "imp": 3,
         "url": "[https://ja.wikipedia.org/wiki/AlphaCode",
@@ -3340,39 +3340,134 @@
         "note_en": "Code-generating](https://ja.wikipedia.org/wiki/AlphaCode"
       },
       {
-        "label": "自律エージェント（LLM駆動）",
-        "label_en": "LLM-driven autonomous agents",
+        "label": "Codex",
+        "label_en": "OpenAI Codex",
         "startYear": 2021,
         "genre": [
-          "THE",
-          "SOF-AI"
+          "ORG",
+          "THEORY"
         ],
-        "imp": 3,
-        "url": "[https://ja.wikipedia.org/wiki/大規模言語モデル",
-        "url_en": "https://en.wikipedia.org/wiki/Autonomous_agent",
-        "note": "LLMを計画・行動に結びつける枠組みが登場。",
-        "note_en": "Frameworks](https://ja.wikipedia.org/wiki/大規模言語モデル"
+        "imp": 4,
+        "url": "[https://ja.wikipedia.org/wiki/OpenAI_Codex",
+        "url_en": "https://en.wikipedia.org/wiki/OpenAI_Codex",
+        "note": "コード生成に特化した言語モデル。IDE連携で支援。",
+        "note_en": "Language](https://ja.wikipedia.org/wiki/OpenAI_Codex"
       },
       {
-        "label": "ニューラルODE/確率微分方程式",
-        "label_en": "Neural ODE/SDE",
+        "label": "DALL·E",
+        "label_en": "DALL·E",
         "startYear": 2021,
         "genre": [
-          "THE",
-          "SOF-AI"
+          "P_GENERATIVE",
+          "THEORY"
+        ],
+        "imp": 4,
+        "url": "[https://ja.wikipedia.org/wiki/DALL-E",
+        "url_en": "https://en.wikipedia.org/wiki/DALL-E",
+        "note": "テキストから画像を生成するモデルの先駆。",
+        "note_en": "Pioneering](https://ja.wikipedia.org/wiki/DALL-E"
+      },
+      {
+        "label": "GitHub Copilot",
+        "label_en": "GitHub Copilot",
+        "startYear": 2021,
+        "genre": [
+          "APPLICATION",
+          "SOFTWARE"
+        ],
+        "imp": 4,
+        "url": "[https://ja.wikipedia.org/wiki/GitHub_Copilot",
+        "url_en": "https://en.wikipedia.org/wiki/GitHub_Copilot",
+        "note": "プログラミング補完を行うAIアシスタント。",
+        "note_en": "AI](https://ja.wikipedia.org/wiki/GitHub_Copilot"
+      },
+      {
+        "label": "M1（Apple Silicon）",
+        "label_en": "Apple M1",
+        "startYear": 2021,
+        "genre": [
+          "HARDWARE"
+        ],
+        "imp": 4,
+        "url": "[https://ja.wikipedia.org/wiki/Apple_M1",
+        "url_en": "https://en.wikipedia.org/wiki/Apple_M1",
+        "note": "統合GPU/NEでオンデバイスAIの効率を向上。",
+        "note_en": "Integrated](https://ja.wikipedia.org/wiki/Apple_M1"
+      },
+      {
+        "label": "MLOpsの普及",
+        "label_en": "MLOps adoption",
+        "startYear": 2021,
+        "genre": [
+          "SOFTWARE"
         ],
         "imp": 3,
-        "url": "[https://ja.wikipedia.org/wiki/常微分方程式",
-        "url_en": "https://en.wikipedia.org/wiki/Neural_ordinary_differential_equations",
-        "note": "連続時間モデル化で生成・推定に新手法。",
-        "note_en": "Continuous-time](https://ja.wikipedia.org/wiki/常微分方程式"
+        "url": "[https://ja.wikipedia.org/wiki/MLOps",
+        "url_en": "https://en.wikipedia.org/wiki/MLOps",
+        "note": "機械学習運用を支える実践・ツールが整備。",
+        "note_en": "Practices](https://ja.wikipedia.org/wiki/MLOps"
+      },
+      {
+        "label": "MegerFace/Face recognition発展",
+        "label_en": "Face recognition progress",
+        "startYear": 2021,
+        "genre": [
+          "THEORY"
+        ],
+        "imp": 3,
+        "url": "[https://ja.wikipedia.org/wiki/顔認識システム",
+        "url_en": "https://en.wikipedia.org/wiki/Facial_recognition_system",
+        "note": "深層学習により顔認識の精度が大幅に進展。",
+        "note_en": "Deep](https://ja.wikipedia.org/wiki/顔認識システム"
+      },
+      {
+        "label": "Mother/Android",
+        "label_en": "Mother/Android",
+        "startYear": 2021,
+        "genre": [
+          "CONTENT"
+        ],
+        "imp": 3,
+        "url": "[https://ja.wikipedia.org/wiki/Mother/Android",
+        "url_en": "https://en.wikipedia.org/wiki/Mother/Android",
+        "note": "アンドロイド反乱下の逃避行を描くSFスリラー。",
+        "note_en": "Sci-fi](https://ja.wikipedia.org/wiki/Mother/Android"
+      },
+      {
+        "label": "SwinIR/画像復元",
+        "label_en": "SwinIR",
+        "startYear": 2021,
+        "genre": [
+          "P_NEURAL",
+          "THEORY"
+        ],
+        "imp": 3,
+        "url": "[https://ja.wikipedia.org/wiki/Swin_Transformer",
+        "url_en": "https://en.wikipedia.org/wiki/Swin_Transformer",
+        "note": "Transformer系の画像復元モデル。",
+        "note_en": "Transformer-based](https://ja.wikipedia.org/wiki/Swin_Transformer"
+      },
+      {
+        "label": "VQGAN+CLIP",
+        "label_en": "VQGAN+CLIP",
+        "startYear": 2021,
+        "genre": [
+          "P_GENERATIVE",
+          "P_NEURAL",
+          "THEORY"
+        ],
+        "imp": 3,
+        "url": "[https://ja.wikipedia.org/wiki/CLIP_(人工知能)",
+        "url_en": "https://en.wikipedia.org/wiki/CLIP_(artificial_intelligence)",
+        "note": "テキスト誘導で画像生成・編集を行う手法。",
+        "note_en": "Text-guided](https://ja.wikipedia.org/wiki/CLIP_%28人工知能%29"
       },
       {
         "label": "Vivy -Fluorite Eye’s Song-",
         "label_en": "Vivy: Fluorite Eye’s Song",
         "startYear": 2021,
         "genre": [
-          "MED-CNT"
+          "CONTENT"
         ],
         "imp": 4,
         "url": "[https://ja.wikipedia.org/wiki/Vivy_-Fluorite_Eye%27s_Song-",
@@ -3381,114 +3476,40 @@
         "note_en": "A](https://ja.wikipedia.org/wiki/Vivy_-Fluorite_Eye%27s_Song-"
       },
       {
-        "label": "Mother/Android",
-        "label_en": "Mother/Android",
+        "label": "ニューラルODE/確率微分方程式",
+        "label_en": "Neural ODE/SDE",
         "startYear": 2021,
         "genre": [
-          "MED-CNT"
+          "P_NEURAL",
+          "THEORY"
         ],
         "imp": 3,
-        "url": "[https://ja.wikipedia.org/wiki/Mother/Android",
-        "url_en": "https://en.wikipedia.org/wiki/Mother/Android",
-        "note": "アンドロイド反乱下の逃避行を描くSFスリラー。",
-        "note_en": "Sci-fi](https://ja.wikipedia.org/wiki/Mother/Android"
+        "url": "[https://ja.wikipedia.org/wiki/常微分方程式",
+        "url_en": "https://en.wikipedia.org/wiki/Neural_ordinary_differential_equations",
+        "note": "連続時間モデル化で生成・推定に新手法。",
+        "note_en": "Continuous-time](https://ja.wikipedia.org/wiki/常微分方程式"
+      },
+      {
+        "label": "自律エージェント（LLM駆動）",
+        "label_en": "LLM-driven autonomous agents",
+        "startYear": 2021,
+        "genre": [
+          "THEORY"
+        ],
+        "imp": 3,
+        "url": "[https://ja.wikipedia.org/wiki/大規模言語モデル",
+        "url_en": "https://en.wikipedia.org/wiki/Autonomous_agent",
+        "note": "LLMを計画・行動に結びつける枠組みが登場。",
+        "note_en": "Frameworks](https://ja.wikipedia.org/wiki/大規模言語モデル"
       }
     ],
     "2022": [
-      {
-        "label": "Stable Diffusion",
-        "label_en": "Stable Diffusion",
-        "startYear": 2022,
-        "genre": [
-          "THE",
-          "SOF-AI"
-        ],
-        "imp": 5,
-        "url": "[https://ja.wikipedia.org/wiki/Stable_Diffusion",
-        "url_en": "https://en.wikipedia.org/wiki/Stable_Diffusion",
-        "note": "拡散モデルによる高品質画像生成を一般に広めた。",
-        "note_en": "Popularized](https://ja.wikipedia.org/wiki/Stable_Diffusion"
-      },
-      {
-        "label": "Midjourney",
-        "label_en": "Midjourney",
-        "startYear": 2022,
-        "genre": [
-          "SOF-SVC",
-          "SOF-AI",
-          "SOFT"
-        ],
-        "imp": 4,
-        "url": "[https://ja.wikipedia.org/wiki/Midjourney",
-        "url_en": "https://en.wikipedia.org/wiki/Midjourney",
-        "note": "プロンプトから画像を生成するオンラインサービス。",
-        "note_en": "Online](https://ja.wikipedia.org/wiki/Midjourney"
-      },
-      {
-        "label": "ChatGPT",
-        "label_en": "ChatGPT",
-        "startYear": 2022,
-        "genre": [
-          "SOF-SVC",
-          "SOF-AI",
-          "SOFT"
-        ],
-        "imp": 5,
-        "url": "[https://ja.wikipedia.org/wiki/ChatGPT",
-        "url_en": "https://en.wikipedia.org/wiki/ChatGPT",
-        "note": "大規模言語モデルを対話で活用可能にしたサービス。",
-        "note_en": "Service](https://ja.wikipedia.org/wiki/ChatGPT"
-      },
-      {
-        "label": "Whisper",
-        "label_en": "Whisper (speech recognition)",
-        "startYear": 2022,
-        "genre": [
-          "THE",
-          "SOF-AI"
-        ],
-        "imp": 4,
-        "url": "[https://ja.wikipedia.org/wiki/Whisper",
-        "url_en": "https://en.wikipedia.org/wiki/Whisper_(speech_recognition_software)",
-        "note": "多言語対応の音声認識モデル。",
-        "note_en": "Multilingual](https://ja.wikipedia.org/wiki/Whisper"
-      },
-      {
-        "label": "Imagen",
-        "label_en": "Imagen",
-        "startYear": 2022,
-        "genre": [
-          "THE",
-          "SOF-AI"
-        ],
-        "imp": 3,
-        "url": "[https://ja.wikipedia.org/wiki/Imagen",
-        "url_en": "https://en.wikipedia.org/wiki/Imagen",
-        "note": "テキストから高品質画像を生成する拡散系モデル。",
-        "note_en": "Text-to-image](https://ja.wikipedia.org/wiki/Imagen"
-      },
-      {
-        "label": "Stable Diffusion Web UI群",
-        "label_en": "Stable Diffusion UIs",
-        "startYear": 2022,
-        "genre": [
-          "SOF-SVC",
-          "SOF-AI",
-          "SOFT"
-        ],
-        "imp": 3,
-        "url": "[https://ja.wikipedia.org/wiki/Stable_Diffusion",
-        "url_en": "https://en.wikipedia.org/wiki/Stable_Diffusion",
-        "note": "多様なUIが整備され、生成AIの利用が大衆化。",
-        "note_en": "Various](https://ja.wikipedia.org/wiki/Stable_Diffusion"
-      },
       {
         "label": "Bloom",
         "label_en": "BLOOM",
         "startYear": 2022,
         "genre": [
-          "THE",
-          "SOF-AI"
+          "THEORY"
         ],
         "imp": 3,
         "url": "[https://ja.wikipedia.org/wiki/BLOOM",
@@ -3497,26 +3518,27 @@
         "note_en": "Open](https://ja.wikipedia.org/wiki/BLOOM"
       },
       {
-        "label": "LaMDA",
-        "label_en": "LaMDA",
+        "label": "ChatGPT",
+        "label_en": "ChatGPT",
         "startYear": 2022,
         "genre": [
-          "THE",
-          "SOF-AI"
+          "APPLICATION",
+          "P_NEURAL",
+          "SOFTWARE",
+          "THEORY"
         ],
-        "imp": 4,
-        "url": "[https://ja.wikipedia.org/wiki/LaMDA",
-        "url_en": "https://en.wikipedia.org/wiki/LaMDA",
-        "note": "対話に特化した言語モデル。",
-        "note_en": "Language](https://ja.wikipedia.org/wiki/LaMDA"
+        "imp": 5,
+        "url": "[https://ja.wikipedia.org/wiki/ChatGPT",
+        "url_en": "https://en.wikipedia.org/wiki/ChatGPT",
+        "note": "大規模言語モデルを対話で活用可能にしたサービス。",
+        "note_en": "Service](https://ja.wikipedia.org/wiki/ChatGPT"
       },
       {
         "label": "ControlNet",
         "label_en": "ControlNet",
         "startYear": 2022,
         "genre": [
-          "THE",
-          "SOF-AI"
+          "THEORY"
         ],
         "imp": 3,
         "url": "[https://ja.wikipedia.org/wiki/ControlNet",
@@ -3525,41 +3547,156 @@
         "note_en": "Extension](https://ja.wikipedia.org/wiki/ControlNet"
       },
       {
-        "label": "自己組織化・群知能の応用",
-        "label_en": "Swarm intelligence applications",
+        "label": "Imagen",
+        "label_en": "Imagen",
         "startYear": 2022,
         "genre": [
-          "THE",
-          "SOF-AI"
+          "SOFTWARE",
+          "THEORY"
         ],
         "imp": 3,
-        "url": "[https://ja.wikipedia.org/wiki/群知能",
-        "url_en": "https://en.wikipedia.org/wiki/Swarm_intelligence",
-        "note": "分散協調により最適化やロボ群制御へ展開。",
-        "note_en": "Distributed](https://ja.wikipedia.org/wiki/群知能"
+        "url": "[https://ja.wikipedia.org/wiki/Imagen",
+        "url_en": "https://en.wikipedia.org/wiki/Imagen",
+        "note": "テキストから高品質画像を生成する拡散系モデル。",
+        "note_en": "Text-to-image](https://ja.wikipedia.org/wiki/Imagen"
+      },
+      {
+        "label": "LaMDA",
+        "label_en": "LaMDA",
+        "startYear": 2022,
+        "genre": [
+          "THEORY"
+        ],
+        "imp": 4,
+        "url": "[https://ja.wikipedia.org/wiki/LaMDA",
+        "url_en": "https://en.wikipedia.org/wiki/LaMDA",
+        "note": "対話に特化した言語モデル。",
+        "note_en": "Language](https://ja.wikipedia.org/wiki/LaMDA"
       },
       {
         "label": "M3GAN",
         "label_en": "M3GAN",
         "startYear": 2022,
         "genre": [
-          "MED-CNT"
+          "CONTENT",
+          "P_GENERATIVE",
+          "THEORY"
         ],
         "imp": 3,
         "url": "[https://ja.wikipedia.org/wiki/M3GAN",
         "url_en": "https://en.wikipedia.org/wiki/M3GAN",
         "note": "子守りAI人形が暴走するホラー。",
         "note_en": "Horror](https://ja.wikipedia.org/wiki/M3GAN"
+      },
+      {
+        "label": "Midjourney",
+        "label_en": "Midjourney",
+        "startYear": 2022,
+        "genre": [
+          "APPLICATION",
+          "P_GENERATIVE",
+          "SOFTWARE"
+        ],
+        "imp": 4,
+        "url": "[https://ja.wikipedia.org/wiki/Midjourney",
+        "url_en": "https://en.wikipedia.org/wiki/Midjourney",
+        "note": "プロンプトから画像を生成するオンラインサービス。",
+        "note_en": "Online](https://ja.wikipedia.org/wiki/Midjourney"
+      },
+      {
+        "label": "Stable Diffusion",
+        "label_en": "Stable Diffusion",
+        "startYear": 2022,
+        "genre": [
+          "P_GENERATIVE",
+          "SOFTWARE",
+          "THEORY"
+        ],
+        "imp": 5,
+        "url": "[https://ja.wikipedia.org/wiki/Stable_Diffusion",
+        "url_en": "https://en.wikipedia.org/wiki/Stable_Diffusion",
+        "note": "拡散モデルによる高品質画像生成を一般に広めた。",
+        "note_en": "Popularized](https://ja.wikipedia.org/wiki/Stable_Diffusion"
+      },
+      {
+        "label": "Stable Diffusion Web UI群",
+        "label_en": "Stable Diffusion UIs",
+        "startYear": 2022,
+        "genre": [
+          "P_GENERATIVE",
+          "SOFTWARE"
+        ],
+        "imp": 3,
+        "url": "[https://ja.wikipedia.org/wiki/Stable_Diffusion",
+        "url_en": "https://en.wikipedia.org/wiki/Stable_Diffusion",
+        "note": "多様なUIが整備され、生成AIの利用が大衆化。",
+        "note_en": "Various](https://ja.wikipedia.org/wiki/Stable_Diffusion"
+      },
+      {
+        "label": "Whisper",
+        "label_en": "Whisper (speech recognition)",
+        "startYear": 2022,
+        "genre": [
+          "THEORY"
+        ],
+        "imp": 4,
+        "url": "[https://ja.wikipedia.org/wiki/Whisper",
+        "url_en": "https://en.wikipedia.org/wiki/Whisper_(speech_recognition_software)",
+        "note": "多言語対応の音声認識モデル。",
+        "note_en": "Multilingual](https://ja.wikipedia.org/wiki/Whisper"
+      },
+      {
+        "label": "自己組織化・群知能の応用",
+        "label_en": "Swarm intelligence applications",
+        "startYear": 2022,
+        "genre": [
+          "P_EVOL",
+          "THEORY"
+        ],
+        "imp": 3,
+        "url": "[https://ja.wikipedia.org/wiki/群知能",
+        "url_en": "https://en.wikipedia.org/wiki/Swarm_intelligence",
+        "note": "分散協調により最適化やロボ群制御へ展開。",
+        "note_en": "Distributed](https://ja.wikipedia.org/wiki/群知能"
       }
     ],
     "2023": [
+      {
+        "label": "ChatGPTプラグイン/拡張",
+        "label_en": "ChatGPT plugins/extensions",
+        "startYear": 2023,
+        "genre": [
+          "APPLICATION",
+          "P_NEURAL",
+          "SOFTWARE",
+          "THEORY"
+        ],
+        "imp": 3,
+        "url": "[https://ja.wikipedia.org/wiki/ChatGPT",
+        "url_en": "https://en.wikipedia.org/wiki/ChatGPT",
+        "note": "外部ツール連携で応用範囲を拡大。",
+        "note_en": "Extends](https://ja.wikipedia.org/wiki/ChatGPT"
+      },
+      {
+        "label": "Falcon LLM",
+        "label_en": "Falcon LLM",
+        "startYear": 2023,
+        "genre": [
+          "THEORY"
+        ],
+        "imp": 3,
+        "url": "[https://ja.wikipedia.org/wiki/Falcon_(言語モデル)",
+        "url_en": "https://en.wikipedia.org/wiki/Falcon_LLM",
+        "note": "アラブ首長国連邦発のオープンLLM。",
+        "note_en": "Open](https://ja.wikipedia.org/wiki/Falcon_%28言語モデル%29"
+      },
       {
         "label": "GPT-4",
         "label_en": "GPT-4",
         "startYear": 2023,
         "genre": [
-          "THE",
-          "SOF-AI"
+          "P_NEURAL",
+          "THEORY"
         ],
         "imp": 5,
         "url": "[https://ja.wikipedia.org/wiki/GPT-4",
@@ -3572,8 +3709,7 @@
         "label_en": "LLaMA",
         "startYear": 2023,
         "genre": [
-          "THE",
-          "SOF-AI"
+          "THEORY"
         ],
         "imp": 4,
         "url": "[https://ja.wikipedia.org/wiki/LLaMA",
@@ -3582,26 +3718,11 @@
         "note_en": "Family](https://ja.wikipedia.org/wiki/LLaMA"
       },
       {
-        "label": "Segment Anything",
-        "label_en": "Segment Anything Model",
-        "startYear": 2023,
-        "genre": [
-          "THE",
-          "SOF-AI"
-        ],
-        "imp": 4,
-        "url": "[https://ja.wikipedia.org/wiki/Segment_Anything",
-        "url_en": "https://en.wikipedia.org/wiki/SAM_(Segment_Anything_Model)",
-        "note": "画像の汎用セグメンテーションを目指す基盤モデル。",
-        "note_en": "Foundation](https://ja.wikipedia.org/wiki/Segment_Anything"
-      },
-      {
         "label": "LLaMA 2",
         "label_en": "Llama 2",
         "startYear": 2023,
         "genre": [
-          "THE",
-          "SOF-AI"
+          "THEORY"
         ],
         "imp": 4,
         "url": "[https://ja.wikipedia.org/wiki/Llama_2",
@@ -3610,40 +3731,11 @@
         "note_en": "Large](https://ja.wikipedia.org/wiki/Llama_2"
       },
       {
-        "label": "Phi（小型LLM系）",
-        "label_en": "Phi models",
-        "startYear": 2023,
-        "genre": [
-          "THE",
-          "SOF-AI"
-        ],
-        "imp": 3,
-        "url": "[https://ja.wikipedia.org/wiki/大規模言語モデル",
-        "url_en": "https://en.wikipedia.org/wiki/Large_language_model",
-        "note": "小規模ながら高性能を狙うLLM群の代表例。",
-        "note_en": "Compact](https://ja.wikipedia.org/wiki/大規模言語モデル"
-      },
-      {
-        "label": "Segment Anything Data",
-        "label_en": "SA-1B dataset",
-        "startYear": 2023,
-        "genre": [
-          "THE",
-          "SOF-AI"
-        ],
-        "imp": 3,
-        "url": "[https://ja.wikipedia.org/wiki/Segment_Anything",
-        "url_en": "https://en.wikipedia.org/wiki/SAM_(Segment_Anything_Model)",
-        "note": "汎用セグメンテーション向けに大規模データを公開。",
-        "note_en": "Large-scale](https://ja.wikipedia.org/wiki/Segment_Anything"
-      },
-      {
         "label": "MPT",
         "label_en": "MPT (MosaicML)",
         "startYear": 2023,
         "genre": [
-          "THE",
-          "SOF-AI"
+          "THEORY"
         ],
         "imp": 3,
         "url": "[https://ja.wikipedia.org/wiki/大規模言語モデル",
@@ -3652,55 +3744,64 @@
         "note_en": "LLM](https://ja.wikipedia.org/wiki/大規模言語モデル"
       },
       {
-        "label": "Falcon LLM",
-        "label_en": "Falcon LLM",
+        "label": "Phi（小型LLM系）",
+        "label_en": "Phi models",
         "startYear": 2023,
         "genre": [
-          "THE",
-          "SOF-AI"
+          "THEORY"
         ],
         "imp": 3,
-        "url": "[https://ja.wikipedia.org/wiki/Falcon_(言語モデル)",
-        "url_en": "https://en.wikipedia.org/wiki/Falcon_LLM",
-        "note": "アラブ首長国連邦発のオープンLLM。",
-        "note_en": "Open](https://ja.wikipedia.org/wiki/Falcon_%28言語モデル%29"
+        "url": "[https://ja.wikipedia.org/wiki/大規模言語モデル",
+        "url_en": "https://en.wikipedia.org/wiki/Large_language_model",
+        "note": "小規模ながら高性能を狙うLLM群の代表例。",
+        "note_en": "Compact](https://ja.wikipedia.org/wiki/大規模言語モデル"
       },
       {
-        "label": "ChatGPTプラグイン/拡張",
-        "label_en": "ChatGPT plugins/extensions",
+        "label": "Segment Anything",
+        "label_en": "Segment Anything Model",
         "startYear": 2023,
         "genre": [
-          "SOF-SVC",
-          "SOF-AI",
-          "SOFT"
+          "THEORY"
+        ],
+        "imp": 4,
+        "url": "[https://ja.wikipedia.org/wiki/Segment_Anything",
+        "url_en": "https://en.wikipedia.org/wiki/SAM_(Segment_Anything_Model)",
+        "note": "画像の汎用セグメンテーションを目指す基盤モデル。",
+        "note_en": "Foundation](https://ja.wikipedia.org/wiki/Segment_Anything"
+      },
+      {
+        "label": "Segment Anything Data",
+        "label_en": "SA-1B dataset",
+        "startYear": 2023,
+        "genre": [
+          "DATA",
+          "THEORY"
         ],
         "imp": 3,
-        "url": "[https://ja.wikipedia.org/wiki/ChatGPT",
-        "url_en": "https://en.wikipedia.org/wiki/ChatGPT",
-        "note": "外部ツール連携で応用範囲を拡大。",
-        "note_en": "Extends](https://ja.wikipedia.org/wiki/ChatGPT"
+        "url": "[https://ja.wikipedia.org/wiki/Segment_Anything",
+        "url_en": "https://en.wikipedia.org/wiki/SAM_(Segment_Anything_Model)",
+        "note": "汎用セグメンテーション向けに大規模データを公開。",
+        "note_en": "Large-scale](https://ja.wikipedia.org/wiki/Segment_Anything"
       },
       {
-        "label": "生成AIの一般普及",
-        "label_en": "Generative AI mainstreaming",
+        "label": "ザ・クリエイター/創造者",
+        "label_en": "The Creator",
         "startYear": 2023,
         "genre": [
-          "NONG",
-          "SOF-AI"
+          "CONTENT"
         ],
-        "imp": 5,
-        "url": "[https://ja.wikipedia.org/wiki/生成AI",
-        "url_en": "https://en.wikipedia.org/wiki/Generative_artificial_intelligence",
-        "note": "画像・文章生成が広く一般に普及。",
-        "note_en": "Image](https://ja.wikipedia.org/wiki/生成AI"
+        "imp": 4,
+        "url": "[https://ja.wikipedia.org/wiki/ザ・クリエイター/創造者",
+        "url_en": "https://en.wikipedia.org/wiki/The_Creator_(2023_film)",
+        "note": "人類とAIの戦争を背景に人工生命体を巡る物語。",
+        "note_en": "Story](https://ja.wikipedia.org/wiki/ザ・クリエイター/創造者"
       },
       {
         "label": "合成データの活用",
         "label_en": "Synthetic data usage",
         "startYear": 2023,
         "genre": [
-          "NONG",
-          "SOF-AI"
+          "EVENT"
         ],
         "imp": 3,
         "url": "[https://ja.wikipedia.org/wiki/人工データ",
@@ -3709,262 +3810,223 @@
         "note_en": "Noted](https://ja.wikipedia.org/wiki/人工データ"
       },
       {
-        "label": "ザ・クリエイター/創造者",
-        "label_en": "The Creator",
+        "label": "生成AIの一般普及",
+        "label_en": "Generative AI mainstreaming",
         "startYear": 2023,
         "genre": [
-          "MED-CNT"
+          "EVENT",
+          "P_GENERATIVE"
         ],
-        "imp": 4,
-        "url": "[https://ja.wikipedia.org/wiki/ザ・クリエイター/創造者",
-        "url_en": "https://en.wikipedia.org/wiki/The_Creator_(2023_film)",
-        "note": "人類とAIの戦争を背景に人工生命体を巡る物語。",
-        "note_en": "Story](https://ja.wikipedia.org/wiki/ザ・クリエイター/創造者"
+        "imp": 5,
+        "url": "[https://ja.wikipedia.org/wiki/生成AI",
+        "url_en": "https://en.wikipedia.org/wiki/Generative_artificial_intelligence",
+        "note": "画像・文章生成が広く一般に普及。",
+        "note_en": "Image](https://ja.wikipedia.org/wiki/生成AI"
       }
     ],
-    "1967": [
+    "2024": [
       {
-        "label": "ATMの普及開始",
-        "label_en": "Automated teller machine (ATM)",
-        "imp": 3,
-        "genre": [
-          "BACKGROUND",
-          "APPLICATION",
-          "HARDWARE",
-          "SOFTWARE"
-        ],
-        "url": "https://ja.wikipedia.org/wiki/現金自動預け払い機",
-        "url_en": "https://en.wikipedia.org/wiki/Automated_teller_machine",
-        "note": "現金自動預け払い機が一般化。24時間の金融アクセスが生活を変えた。",
-        "note_en": "Automated teller machines became widespread, extending 24‑hour access to cash and banking, reshaping everyday financial habits."
-      }
-    ],
-    "1971": [
-      {
-        "label": "マイクロプロセッサ（Intel 4004）",
-        "label_en": "Microprocessor (Intel 4004)",
+        "label": "Apple Intelligence",
+        "label_en": "Apple Intelligence",
         "imp": 5,
         "genre": [
-          "BACKGROUND",
-          "HARDWARE",
-          "EVENT"
+          "SOFTWARE",
+          "APPLICATION",
+          "EVENT",
+          "P_NEURAL",
+          "P_GENERATIVE"
         ],
-        "url": "https://ja.wikipedia.org/wiki/インテル4004",
-        "url_en": "https://en.wikipedia.org/wiki/Intel_4004",
-        "note": "初の商用マイクロプロセッサ。計算資源の小型化がPC時代の基盤に。",
-        "note_en": "The first commercial microprocessor; miniaturized computing power that laid the foundation for the personal computer era."
-      }
-    ],
-    "1983": [
+        "url": "https://ja.wikipedia.org/wiki/Apple_Intelligence",
+        "url_en": "https://en.wikipedia.org/wiki/Apple_Intelligence",
+        "note_en": "Apple Intelligence is Apple’s on‑device and private‑cloud AI system announced at WWDC 2024 and rolled out with iOS 18, iPadOS 18 and macOS Sequoia features."
+      },
       {
-        "label": "ファミリーコンピュータ（任天堂）",
-        "label_en": "Family Computer (Famicom)",
+        "label": "Claude 3（Anthropic）",
+        "label_en": "Claude 3",
+        "imp": 5,
+        "genre": [
+          "THEORY",
+          "SOFTWARE",
+          "APPLICATION",
+          "P_NEURAL",
+          "P_GENERATIVE"
+        ],
+        "url": "https://ja.wikipedia.org/wiki/Claude_AI",
+        "url_en": "https://en.wikipedia.org/wiki/Claude_%28language_model%29",
+        "note_en": "Claude 3 is Anthropic’s 2024 family of models (Haiku, Sonnet, Opus) focused on safer, high‑accuracy language and multimodal tasks across consumer and enterprise use."
+      },
+      {
+        "label": "Copilot+ PC（AI PC）",
+        "label_en": "Copilot+ PC (Windows)",
         "imp": 4,
         "genre": [
-          "BACKGROUND",
           "HARDWARE",
-          "CONTENT",
+          "SOFTWARE",
           "APPLICATION",
-          "JAPAN"
+          "EVENT"
         ],
-        "url": "https://ja.wikipedia.org/wiki/ファミリーコンピュータ",
-        "url_en": "https://en.wikipedia.org/wiki/Nintendo_Entertainment_System",
-        "note": "家庭用ゲームの大衆化を決定づけた日本発のプラットフォーム。",
-        "note_en": "A Japanese platform that popularized home video gaming worldwide and defined a generation’s media habits."
-      }
-    ],
-    "2003": [
+        "url": "https://ja.wikipedia.org/wiki/Microsoft_Copilot",
+        "url_en": "https://en.wikipedia.org/wiki/Microsoft_Copilot",
+        "note_en": "Microsoft’s Copilot+ PC branding (May 2024) denotes Windows PCs with NPUs and AI features like Live Captions and Cocreator, expanding across vendors and chips."
+      },
       {
-        "label": "Skype（VoIP）",
-        "label_en": "Skype (VoIP)",
+        "label": "GPT-4o（オムニ）",
+        "label_en": "GPT-4o",
+        "imp": 5,
+        "genre": [
+          "THEORY",
+          "SOFTWARE",
+          "APPLICATION",
+          "P_NEURAL",
+          "P_GENERATIVE"
+        ],
+        "url": "https://ja.wikipedia.org/wiki/GPT-4o",
+        "url_en": "https://en.wikipedia.org/wiki/GPT-4o",
+        "note_en": "GPT-4o is OpenAI’s multimodal GPT released in May 2024 that natively handles text, images and audio, enabling real‑time voice interactions and improved multilingual support."
+      },
+      {
+        "label": "Gemini 1.5",
+        "label_en": "Gemini (language model) — 1.5",
+        "imp": 5,
+        "genre": [
+          "THEORY",
+          "SOFTWARE",
+          "APPLICATION",
+          "P_NEURAL",
+          "P_GENERATIVE"
+        ],
+        "url": "https://ja.wikipedia.org/wiki/Google_Gemini",
+        "url_en": "https://en.wikipedia.org/wiki/Gemini_%28language_model%29",
+        "note_en": "Gemini 1.5 introduced very long context windows and multimodality in 2024, with Pro and Flash variants rolling out across Google products and developer APIs."
+      },
+      {
+        "label": "Humane AI Pin",
+        "label_en": "Humane AI Pin",
         "imp": 3,
         "genre": [
-          "BACKGROUND",
+          "HARDWARE",
+          "APPLICATION",
+          "EVENT"
+        ],
+        "url": "https://ja.wikipedia.org/wiki/Humane_Inc.",
+        "url_en": "https://en.wikipedia.org/wiki/Humane_Inc.",
+        "note_en": "Humane’s wearable AI device began shipping in 2024 and was later discontinued; the company sold assets after service shutdowns affecting device functionality in 2025."
+      },
+      {
+        "label": "Llama 3（Metaのオープン系LLM）",
+        "label_en": "Llama 3 (Meta)",
+        "imp": 5,
+        "genre": [
+          "THEORY",
           "SOFTWARE",
+          "APPLICATION",
+          "P_NEURAL",
+          "P_GENERATIVE"
+        ],
+        "url": "https://ja.wikipedia.org/wiki/Llama",
+        "url_en": "https://en.wikipedia.org/wiki/Llama_%28language_model%29",
+        "note_en": "Llama 3 is Meta’s open‑weight LLM series introduced in April 2024 with 8B/70B models, followed by Llama 3.1 in July 2024, extending sizes and capabilities."
+      },
+      {
+        "label": "Mistral Large",
+        "label_en": "Mistral Large",
+        "imp": 4,
+        "genre": [
+          "THEORY",
+          "SOFTWARE",
+          "APPLICATION",
+          "P_NEURAL"
+        ],
+        "url": "https://ja.wikipedia.org/wiki/Mistral_AI",
+        "url_en": "https://mistral.ai/news/mistral-large",
+        "note_en": "Mistral Large, announced in 2024, is Mistral AI’s flagship text model for advanced multilingual reasoning, code, and tool use, available via API and partners."
+      },
+      {
+        "label": "NVIDIA Blackwell（GB200世代）",
+        "label_en": "Blackwell (microarchitecture)",
+        "imp": 5,
+        "genre": [
+          "HARDWARE",
+          "EVENT",
+          "P_NEURAL"
+        ],
+        "url": "https://ja.wikipedia.org/wiki/NVIDIA",
+        "url_en": "https://en.wikipedia.org/wiki/Blackwell_%28microarchitecture%29",
+        "note_en": "Nvidia’s Blackwell GPU microarchitecture, unveiled in 2024, succeeds Hopper and powers GB200‑class systems aimed at large‑scale training and fast LLM inference."
+      },
+      {
+        "label": "OpenAI o1（推論モデル）",
+        "label_en": "OpenAI o1",
+        "imp": 5,
+        "genre": [
+          "THEORY",
+          "SOFTWARE",
+          "APPLICATION",
+          "P_NEURAL",
+          "P_RL"
+        ],
+        "url": "https://ja.wikipedia.org/wiki/ChatGPT",
+        "url_en": "https://en.wikipedia.org/wiki/OpenAI_o1",
+        "note_en": "OpenAI o1 is the first ‘reasoning’ model in the o‑series, previewed in Sep 2024 and released in Dec 2024, designed to spend extra time deliberating to solve harder tasks."
+      },
+      {
+        "label": "Rabbit r1（AIアシスタント端末）",
+        "label_en": "Rabbit r1",
+        "imp": 3,
+        "genre": [
+          "HARDWARE",
           "APPLICATION"
         ],
-        "url": "https://ja.wikipedia.org/wiki/Skype",
-        "url_en": "https://en.wikipedia.org/wiki/Skype",
-        "note": "インターネット電話を一般化し、遠隔コミュニケーションを低コスト化。",
-        "note_en": "Popularized Internet telephony, lowering the cost of long‑distance communication for the public."
+        "url": "https://ja.wikipedia.org/wiki/Rabbit_r1",
+        "url_en": "https://en.wikipedia.org/wiki/Rabbit_r1",
+        "note_en": "Rabbit r1 is a handheld assistant device using cloud AI to perform everyday tasks via voice and touch, introduced in early 2024 by Rabbit Inc."
+      },
+      {
+        "label": "Sora（Text-to-Video）",
+        "label_en": "Sora (text-to-video model)",
+        "imp": 5,
+        "genre": [
+          "SOFTWARE",
+          "APPLICATION",
+          "P_GENERATIVE",
+          "P_NEURAL"
+        ],
+        "url": "https://ja.wikipedia.org/wiki/Sora_%28%E4%BA%BA%E5%B7%A5%E7%9F%A5%E8%83%BD%E3%83%A2%E3%83%87%E3%83%AB%29",
+        "url_en": "https://en.wikipedia.org/wiki/Sora_%28text-to-video_model%29",
+        "note_en": "Sora is OpenAI’s text‑to‑video model that produces short clips from prompts and can extend footage, first widely released to ChatGPT Plus/Pro users in December 2024."
+      }
+    ],
+    "2025": [
+      {
+        "label": "Apple Intelligence（多言語拡張）",
+        "label_en": "Apple Intelligence (2025 expansion)",
+        "imp": 4,
+        "genre": [
+          "SOFTWARE",
+          "APPLICATION",
+          "EVENT",
+          "P_NEURAL",
+          "P_GENERATIVE"
+        ],
+        "url": "https://ja.wikipedia.org/wiki/Apple_Intelligence",
+        "url_en": "https://en.wikipedia.org/wiki/Apple_Intelligence",
+        "note_en": "In 2025 Apple expanded Apple Intelligence to additional languages and regions with updates to iOS 18.4, macOS 15.4 and iPadOS 18.4, adding broader device support."
+      },
+      {
+        "label": "OpenAI o3（推論モデル）",
+        "label_en": "OpenAI o3",
+        "imp": 5,
+        "genre": [
+          "THEORY",
+          "SOFTWARE",
+          "APPLICATION",
+          "P_NEURAL",
+          "P_RL"
+        ],
+        "url": "https://ja.wikipedia.org/wiki/ChatGPT",
+        "url_en": "https://en.wikipedia.org/wiki/OpenAI_o3",
+        "note_en": "OpenAI o3, announced in Dec 2024 and released in 2025, is a stronger reasoning model for ChatGPT with improved performance on coding, math and science tasks."
       }
     ]
-  },
-  "eraSettings": [],
-  "metadata": {
-    "title": {
-      "ja": "AIの年表 0.1",
-      "en": "Japan Digital Timeline 0.1"
-    }
-  },
-  "genres": [
-    {
-      "code": "NON-HIS",
-      "label": "事件/戦略/協定/政策",
-      "label_en": "Events/Strat/Agreements/Policies",
-      "conjunction": false
-    },
-    {
-      "code": "THE",
-      "label": "理論/モデル",
-      "label_en": "Theory/Models",
-      "conjunction": false
-    },
-    {
-      "code": "ORG",
-      "label": "人物/組織",
-      "label_en": "People/Orgs",
-      "conjunction": false
-    },
-    {
-      "code": "MED-CNT",
-      "label": "メディア（雑誌/出版）/コンテンツ（作品）",
-      "label_en": "Media(Mag/Publ)/Content",
-      "conjunction": false
-    },
-    {
-      "code": "HAR-PC",
-      "label": "コンピュータ本体",
-      "label_en": "Computers",
-      "conjunction": false
-    },
-    {
-      "code": "HAR-MOB",
-      "label": "モバイル端末/携帯/ウェアラブル",
-      "label_en": "Mobile/Phones/Wearables",
-      "conjunction": false
-    },
-    {
-      "code": "HAR-CPU",
-      "label": "マイクロプロセッサ",
-      "label_en": "MPUs",
-      "conjunction": false
-    },
-    {
-      "code": "HAR-MED",
-      "label": "メディア/データ形式",
-      "label_en": "Media/DataFmt",
-      "conjunction": false
-    },
-    {
-      "code": "HAR-PER",
-      "label": "周辺機器（プリンタ/スキャナ等）",
-      "label_en": "Peripherals(Printers/Scanners)",
-      "conjunction": false
-    },
-    {
-      "code": "HAR-IMG",
-      "label": "画像/音響機器（カメラ/オーディオ）",
-      "label_en": "Imaging/Audio(Cam/Audio)",
-      "conjunction": false
-    },
-    {
-      "code": "HAR-GAM",
-      "label": "ゲームハード",
-      "label_en": "GameHW",
-      "conjunction": false
-    },
-    {
-      "code": "HAR-ROB",
-      "label": "ロボティクス/コンシューマロボ",
-      "label_en": "Robotics/ConsumerRobots",
-      "conjunction": false
-    },
-    {
-      "code": "SOF-OS",
-      "label": "OS",
-      "label_en": "OS",
-      "conjunction": false
-    },
-    {
-      "code": "SOF-DEV",
-      "label": "ソフトウェア（言語/開発ツール/プラットフォーム）",
-      "label_en": "SW(Lang/DevTools/Platforms)",
-      "conjunction": false
-    },
-    {
-      "code": "SOF-CRE",
-      "label": "クリエイティブ/3D/メディア系ソフト",
-      "label_en": "Creative/3D/MediaSW",
-      "conjunction": false
-    },
-    {
-      "code": "SOF-OFF",
-      "label": "ソフトウェア/業務/データベース",
-      "label_en": "SW/Enterprise/DB",
-      "conjunction": false
-    },
-    {
-      "code": "SOF-SEC",
-      "label": "セキュリティ/プライバシー/決済",
-      "label_en": "Sec/Privacy/Payments",
-      "conjunction": false
-    },
-    {
-      "code": "SOF-AI",
-      "label": "AI/機械学習",
-      "label_en": "AI/ML",
-      "conjunction": false
-    },
-    {
-      "code": "SOF-PRO",
-      "label": "ネットワーク/規格・プロトコル",
-      "label_en": "Net/Std/Proto",
-      "conjunction": false
-    },
-    {
-      "code": "SOF-SVC",
-      "label": "インターネット/サービス（Web/検索/クラウド等）",
-      "label_en": "Internet/Services(Web/Search/Cloud)",
-      "conjunction": false
-    },
-    {
-      "code": "NON-COM",
-      "label": "コミュニティ/イベント",
-      "label_en": "Community/Events",
-      "conjunction": false
-    },
-    {
-      "code": "SOF-ENT",
-      "label": "エンタープライズIT",
-      "label_en": "EnterpriseIT",
-      "conjunction": false
-    },
-    {
-      "code": "JAPAN",
-      "label": "日本",
-      "label_en": "Japan",
-      "conjunction": true
-    },
-    {
-      "code": "HARD",
-      "label": "ハードウェア",
-      "label_en": "HW",
-      "conjunction": true
-    },
-    {
-      "code": "SOFT",
-      "label": "ソフトウェア/メディア/規格等",
-      "label_en": "SW/Media/Standards",
-      "conjunction": true
-    },
-    {
-      "code": "NONG",
-      "label": "事件/トピック/戦略等",
-      "label_en": "Events/Topics/Strat",
-      "conjunction": true
-    },
-    {
-      "code": "WORK",
-      "label": "作業用（仮）",
-      "label_en": "Scratch",
-      "conjunction": true
-    },
-    {
-      "code": "BACKGROUND",
-      "label": "時代背景/一般技術",
-      "label_en": "Era background / General tech",
-      "conjunction": false
-    }
-  ]
+  }
 }
