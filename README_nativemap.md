@@ -1,4 +1,4 @@
-# Native Map 1.0 / ネイティブマップ 1.0
+# NativeMap 1.0 / ネイティブマップ 1.0
 
 ## 日本語版
 
@@ -395,5 +395,6 @@ Start Year;End Year;Label;label_en;Genre;Importance;URL;url_en;Note;note_en;dele
 ### サポート / Support
 
 サービスは試験運用中です。問題やご要望がございましたら、GitHubのIssuesまでお知らせください。
+
 
 Service is in trial operation. If you have any problems or requests, please let us know via GitHub Issues.
