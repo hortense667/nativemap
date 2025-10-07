@@ -65,20 +65,6 @@
         "url_en": "https://en.wikipedia.org/wiki/Transistor"
       },
       {
-        "label": "Cathode-Ray Tube Amusement Device",
-        "startYear": 1947,
-        "genre": [
-          "HAR-GAM",
-          "HARD"
-        ],
-        "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/%E9%99%B0%E6%A5%B5%E7%B7%9A%E7%AE%A1%E5%A8%AF%E6%A5%BD%E8%A3%85%E7%BD%AE",
-        "note": "陰極線管娯楽装置 は、現在わかっている限りで最初の、陰極線管（CRT）を用いたインタラクティブなコンピュータゲームである。 en:Thomas T. Goldsmith Jr.およびen:Estle Ray Mannによって、1947年にアナログ回路を構成して作成された。",
-        "label_en": "Cathode-ray tube amusement device",
-        "note_en": "The cathode-ray tube amusement device is the earliest-known concept for an interactive electronic game, as well as the first game concept to incorporate an elec…",
-        "url_en": "https://en.wikipedia.org/wiki/Cathode-ray_tube_amusement_device"
-      },
-      {
         "label": "Ampex Model 200（テープレコーダー）",
         "startYear": 1947,
         "genre": [
@@ -91,6 +77,20 @@
         "label_en": "Ampex Model 200",
         "note_en": "Ampex Data Systems Corporation is an American electronics company founded in 1944 by Alexander M.",
         "url_en": "https://en.wikipedia.org/wiki/Ampex"
+      },
+      {
+        "label": "Cathode-Ray Tube Amusement Device",
+        "startYear": 1947,
+        "genre": [
+          "HAR-GAM",
+          "HARD"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/%E9%99%B0%E6%A5%B5%E7%B7%9A%E7%AE%A1%E5%A8%AF%E6%A5%BD%E8%A3%85%E7%BD%AE",
+        "note": "陰極線管娯楽装置 は、現在わかっている限りで最初の、陰極線管（CRT）を用いたインタラクティブなコンピュータゲームである。 en:Thomas T. Goldsmith Jr.およびen:Estle Ray Mannによって、1947年にアナログ回路を構成して作成された。",
+        "label_en": "Cathode-ray tube amusement device",
+        "note_en": "The cathode-ray tube amusement device is the earliest-known concept for an interactive electronic game, as well as the first game concept to incorporate an elec…",
+        "url_en": "https://en.wikipedia.org/wiki/Cathode-ray_tube_amusement_device"
       },
       {
         "label": "ACM – Association for Computing Machinery（学会）",
