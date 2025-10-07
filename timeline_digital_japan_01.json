@@ -61,8 +61,8 @@
         "url": "https://ja.wikipedia.org/wiki/トランジスタ",
         "note": "トランジスタ とは、電子回路において、信号を増幅またはスイッチングすることができる半導体素子である。 石とも呼ばれる(#真空管の名称も参照)。",
         "label_en": "Transistor",
-        "note_en": "A transistor is a semiconductor device used to amplify or switch electrical signals and power.",
-        "url_en": "https://en.wikipedia.org/wiki/Transistor"
+        "url_en": "https://en.wikipedia.org/wiki/Transistor",
+        "note_en": "A transistor is a semiconductor device used to amplify or switch electrical signals and power"
       },
       {
         "label": "Ampex Model 200（テープレコーダー）",
