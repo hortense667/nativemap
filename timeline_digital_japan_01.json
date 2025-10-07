@@ -21,20 +21,6 @@
     ],
     "1946": [
       {
-        "label": "ENIAC",
-        "startYear": 1946,
-        "genre": [
-          "HAR-PC",
-          "HARD"
-        ],
-        "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/ENIAC",
-        "note": "ENIAC は、アメリカで開発された黎明期の電子計算機。",
-        "label_en": "ENIAC",
-        "note_en": "ENIAC was the first programmable, electronic, general-purpose digital computer, completed in 1945.",
-        "url_en": "https://en.wikipedia.org/wiki/ENIAC"
-      },
-      {
         "label": "MIT Tech Model Railroad Club（TMRC）",
         "startYear": 1946,
         "endYear": "ongoing",
@@ -48,6 +34,20 @@
         "label_en": "Tech Model Railroad Club",
         "note_en": "The Tech Model Railroad Club (TMRC) is a student organization at the Massachusetts Institute of Technology (MIT).",
         "url_en": "https://en.wikipedia.org/wiki/Tech_Model_Railroad_Club"
+      },
+      {
+        "label": "ENIAC",
+        "startYear": 1946,
+        "genre": [
+          "HAR-PC",
+          "HARD"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/ENIAC",
+        "note": "ENIAC は、アメリカで開発された黎明期の電子計算機。",
+        "label_en": "ENIAC",
+        "note_en": "ENIAC was the first programmable, electronic, general-purpose digital computer, completed in 1945.",
+        "url_en": "https://en.wikipedia.org/wiki/ENIAC"
       }
     ],
     "1947": [
