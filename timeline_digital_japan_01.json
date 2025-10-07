@@ -1,40 +1,23 @@
 {
   "events": {
-    "1942": [],
-    "1943": [],
     "1945": [
       {
         "label": "ノイマン型アーキテクチャ",
         "startYear": 1945,
         "genre": [
           "NON-HIS",
-          "THE",
-          "NONG"
+          "NONG",
+          "THE"
         ],
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/ノイマン型コンピュータ",
-        "note": "ノイマン型 、またはフォンノイマン型アーキテクチャは、コンピュータの基本的な構成法のひとつである。 今では基本的なコンピュータ・アーキテクチャのひとつとされるが、そもそもコンピュータの要件とされることもあり、このあたりの定義は循環的である。です。",
+        "note": "ノイマン型 、またはフォンノイマン型アーキテクチャは、コンピュータの基本的な構成法のひとつである。 今では基本的なコンピュータ・アーキテクチャのひとつとされるが、そもそもコンピュータの要件とされることもあり、このあたりの定義は循環的である。",
         "label_en": "Von Neumann architecture",
-        "url_en": "https://en.wikipedia.org/wiki/Von_Neumann_architecture",
-        "note_en": "The von Neumann architecture—also known as the von Neumann model or Princeton architecture—is a computer architecture based on the First Draft of a Report on th…"
+        "note_en": "The von Neumann architecture—also known as the von Neumann model or Princeton architecture—is a computer architecture based on the First Draft of a Report on th…",
+        "url_en": "https://en.wikipedia.org/wiki/Von_Neumann_architecture"
       }
     ],
     "1946": [
-      {
-        "label": "MIT Tech Model Railroad Club（TMRC）",
-        "startYear": 1946,
-        "endYear": "ongoing",
-        "genre": [
-          "NON-COM",
-          "NONG"
-        ],
-        "imp": 5,
-        "url": "https://en.wikipedia.org/wiki/Tech_Model_Railroad_Club",
-        "note": "初期ハッカー語彙/倫理の源流。配線/制御“ハック”文化の母体ともいうべき。",
-        "label_en": "Tech Model Railroad Club",
-        "url_en": "https://en.wikipedia.org/wiki/Tech_Model_Railroad_Club",
-        "note_en": "The Tech Model Railroad Club (TMRC) is a student organization at the Massachusetts Institute of Technology (MIT)."
-      },
       {
         "label": "ENIAC",
         "startYear": 1946,
@@ -48,6 +31,21 @@
         "label_en": "ENIAC",
         "note_en": "ENIAC was the first programmable, electronic, general-purpose digital computer, completed in 1945.",
         "url_en": "https://en.wikipedia.org/wiki/ENIAC"
+      },
+      {
+        "label": "MIT Tech Model Railroad Club（TMRC）",
+        "startYear": 1946,
+        "endYear": "ongoing",
+        "genre": [
+          "NON-COM",
+          "NONG"
+        ],
+        "imp": 5,
+        "url": "https://en.wikipedia.org/wiki/Tech_Model_Railroad_Club",
+        "note": "初期ハッカー語彙/倫理の源流。配線/制御“ハック”文化の母体。",
+        "label_en": "Tech Model Railroad Club",
+        "note_en": "The Tech Model Railroad Club (TMRC) is a student organization at the Massachusetts Institute of Technology (MIT).",
+        "url_en": "https://en.wikipedia.org/wiki/Tech_Model_Railroad_Club"
       }
     ],
     "1947": [
