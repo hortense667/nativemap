@@ -225,20 +225,6 @@
         "url_en": "https://en.wikipedia.org/wiki/MENACE",
         "note": "マッチ箱とビーズで学習を示した三目並べ装置。",
         "note_en": "MENACE (matchbox computer) is a notable topic related to artificial intelligence or intelligent robots, recognized for its impact on research, technology, or culture."
-      },
-      {
-        "label": "Unimate（産業用ロボット）",
-        "startYear": 1961,
-        "genre": [
-          "ROBOTICS",
-          "APPLICATION"
-        ],
-        "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/%E3%83%A6%E3%83%8B%E3%83%A1%E3%83%BC%E3%83%88",
-        "note": "ユニメート は、1960年代のアメリカ合衆国で開発された産業用ロボットである。",
-        "label_en": "Unimate",
-        "note_en": "Unimate was the first industrial robot, which worked on a General Motors assembly line at the Inland Fisher Guide Plant in Ewing Township, New Jersey, in 1961.",
-        "url_en": "https://en.wikipedia.org/wiki/Unimate"
       }
     ],
     "1964": [
