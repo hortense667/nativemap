@@ -30,10 +30,10 @@
         ],
         "imp": 5,
         "url": "https://en.wikipedia.org/wiki/Tech_Model_Railroad_Club",
-        "note": "初期ハッカー語彙/倫理の源流。配線/制御“ハック”文化の母体。",
+        "note": "初期ハッカー語彙/倫理の源流。配線/制御“ハック”文化の母体ともいうべき。",
         "label_en": "Tech Model Railroad Club",
-        "note_en": "The Tech Model Railroad Club (TMRC) is a student organization at the Massachusetts Institute of Technology (MIT).",
-        "url_en": "https://en.wikipedia.org/wiki/Tech_Model_Railroad_Club"
+        "url_en": "https://en.wikipedia.org/wiki/Tech_Model_Railroad_Club",
+        "note_en": "The Tech Model Railroad Club (TMRC) is a student organization at the Massachusetts Institute of Technology (MIT)."
       },
       {
         "label": "ENIAC",
