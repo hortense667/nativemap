@@ -1,20 +1,22 @@
 {
   "events": {
+    "1942": [],
+    "1943": [],
     "1945": [
       {
         "label": "ノイマン型アーキテクチャ",
         "startYear": 1945,
         "genre": [
           "NON-HIS",
-          "NONG",
-          "THE"
+          "THE",
+          "NONG"
         ],
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/ノイマン型コンピュータ",
-        "note": "ノイマン型 、またはフォンノイマン型アーキテクチャは、コンピュータの基本的な構成法のひとつである。 今では基本的なコンピュータ・アーキテクチャのひとつとされるが、そもそもコンピュータの要件とされることもあり、このあたりの定義は循環的である。",
+        "note": "ノイマン型 、またはフォンノイマン型アーキテクチャは、コンピュータの基本的な構成法のひとつである。 今では基本的なコンピュータ・アーキテクチャのひとつとされるが、そもそもコンピュータの要件とされることもあり、このあたりの定義は循環的である。です。",
         "label_en": "Von Neumann architecture",
-        "note_en": "The von Neumann architecture—also known as the von Neumann model or Princeton architecture—is a computer architecture based on the First Draft of a Report on th…",
-        "url_en": "https://en.wikipedia.org/wiki/Von_Neumann_architecture"
+        "url_en": "https://en.wikipedia.org/wiki/Von_Neumann_architecture",
+        "note_en": "The von Neumann architecture—also known as the von Neumann model or Princeton architecture—is a computer architecture based on the First Draft of a Report on th…"
       }
     ],
     "1946": [
