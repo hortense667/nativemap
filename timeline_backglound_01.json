@@ -22665,6 +22665,19 @@
         "url_en": "https://en.wikipedia.org/wiki/Internet_in_the_classroom",
         "note": "ブラウザ普及とともに学校接続が試行拡大。",
         "note_en": "Pilots connected schools as browsers spread."
+      },
+      {
+        "label": "『マーフィーの法則』",
+        "startYear": 1993,
+        "genre": [
+          "CONTENT",
+          "JAPAN"
+        ],
+        "url": "https://ja.wikipedia.org/wiki/%E3%83%9E%E3%83%BC%E3%83%95%E3%82%A3%E3%83%BC%E3%81%AE%E6%B3%95%E5%89%87",
+        "note": "「失敗する可能性のあるものは失敗する」",
+        "label_en": "\"Murphy's Law\"(Japanese translation version)",
+        "url_en": "https://en.wikipedia.org/wiki/Murphy%27s_law",
+        "note_en": "Anything that can go wrong will go wrong."
       }
     ],
     "1994": [
