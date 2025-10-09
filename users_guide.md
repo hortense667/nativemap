@@ -16,15 +16,20 @@
 参照年表機能は、メインの年表データに加えて、複数の年表データを同時に表示・比較できる機能です。参照年表のデータは読み取り専用で、編集や削除はできません。
 
 #### 参照年表の設定方法
-1. **設定画面で参照年表ファイルパスを指定**
-   - 「設定」→「参照年表ファイルパス」に、カンマ区切りで最大10個のJSONファイルパスを入力
-   - 例：`timeline_popculture_japan_01.json, timeline_ai_01.json`
+1. **設定画面で参照年表を指定**
+   - 「設定」→「参照年表設定」で各参照年表の詳細を入力
+   - 各参照年表について以下を指定：
+     - リポジトリ所有者（owner）
+     - リポジトリ名（repo）
+     - ファイルパス（filePath）
+     - 最小重要度（minImportance、省略可）
+   - 「+ 参照年表を追加」ボタンで最大10個まで追加可能
 
 2. **URLパラメータで直接指定**
    - URLに `refTimelines`（JSON配列）を追加（重要度も含めて指定可能）
    - 例：
      ```
-     nativemap201.html?owner=hortense667&repo=nativemap&filePath=timeline_digital_japan_01.json&refTimelines=%5B%7B%22owner%22%3A%22hortense667%22%2C%22repo%22%3A%22nativemap%22%2C%22filePath%22%3A%22timeline_backglound_01.json%22%2C%22minImportance%22%3A2%7D%5D
+     nativemap201.html?owner=hortense667&repo=nativemap&filePath=timeline_digital_japan_01.json&refTimelines=[{"owner":"hortense667","repo":"nativemap","filePath":"timeline_popculture_japan_01.json","minImportance":2}]
      ```
 
 #### 参照年表の特徴
@@ -423,13 +428,18 @@ It is designed as a **distributed system where any GitHub user can become an adm
 The reference timeline feature allows you to display and compare multiple timeline data simultaneously in addition to the main timeline data. Reference timeline data is read-only and cannot be edited or deleted.
 
 #### How to Set Up Reference Timeline
-1. **Specify reference timeline file paths in settings**
-   - Go to "Settings" → "Reference timeline file paths" and enter up to 10 JSON file paths separated by commas
-   - Example: `timeline_popculture_japan_01.json, timeline_ai_01.json`
+1. **Specify reference timeline details in settings**
+   - Go to "Settings" → "Reference Timeline Settings" and enter details for each reference timeline
+   - For each reference timeline, specify:
+     - Repository owner
+     - Repository name
+     - File path
+     - Minimum importance (optional)
+   - Use "+ Add Reference Timeline" button to add up to 10 reference timelines
 
 2. **Direct specification via URL parameters**
-   - Add `&refFilePaths=filepath1,filepath2` to the URL
-   - Example: `nativemap201.html?owner=hortense667&repo=nativemap&filePath=timeline_digital_japan_01.json&refFilePaths=timeline_popculture_japan_01.json`
+   - Add `refTimelines` (JSON array) to the URL (importance can also be specified)
+   - Example: `nativemap201.html?owner=hortense667&repo=nativemap&filePath=timeline_digital_japan_01.json&refTimelines=[{"owner":"hortense667","repo":"nativemap","filePath":"timeline_popculture_japan_01.json","minImportance":2}]`
 
 #### Features of Reference Timeline
 - **Read-only**: Cannot be edited or deleted (pencil and trash icons are grayed out)

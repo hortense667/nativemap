@@ -32,6 +32,8 @@ This document includes both a Japanese and an English version. The English versi
 3. **timeline_ai_01.json** - AI年表
    - AIの歴史年表
 
+4. **timeline_background_01.json** - 時代背景年表
+   - 時代背景年表
 
 ### 基本的な使い方
 
@@ -113,6 +115,9 @@ Currently, the following three datasets are available:
    
 3. **timeline_ai_01.json** - AI Timeline
    - AI history timeline
+
+4. **timeline_background_01.json** - Timeline of Historical Background
+   - Timeline of historical background
 
 ### Basic Usage
 
