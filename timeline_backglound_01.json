@@ -18439,6 +18439,17 @@
         "url_en": "https://en.wikipedia.org/wiki/ARPANET#Decommissioning",
         "note": "軍事と研究の分離に向け準備が進む。",
         "note_en": "Preparation advanced to separate military and research nets."
+      },
+      {
+        "label": "「おたく」という言葉の誕生",
+        "startYear": 1983,
+        "genre": [
+          "EVENT",
+          "JAPAN"
+        ],
+        "imp": 2,
+        "url": "https://weekly.ascii.jp/elem/000/002/615/2615521/",
+        "label_en": "### The birth of the word \"otaku.\""
       }
     ],
     "1984": [
