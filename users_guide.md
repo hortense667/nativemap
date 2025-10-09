@@ -129,12 +129,21 @@
 ```
 genre;CODE;LABEL;label_en;conjunction
 ```
+*Conjunction is used within labels as an AND condition with other genres (e.g., if the "[Japan]" genre is selected, only events containing that genre will be displayed).
 
 **例**:
 ```
 genre;ANI;アニメ;Animation;
 genre;GAM;ゲーム;Game;
 genre;JAPAN;日本;Japan;true
+```
+**Title Definition**:
+```
+title;title(Japanese);title(English)
+```
+**Example**:
+```
+title;日本のカレーの歴史;Japanese Curry History
 ```
 
 #### JSON形式（同期用）
@@ -539,12 +548,22 @@ Start Year;End Year;Label;label_en;Genre;Importance;URL;url_en;Note;note_en
 ```
 genre;CODE;LABEL;label_en;conjunction
 ```
+※conjunctionはラベルの中で他のジャンルとAND条件として使用するものです（例：「[日本]」ジャンルが選択された場合、そのジャンルが含まれるイベントのみが表示される）。
 
 **Example**:
 ```
 genre;ANI;アニメ;Animation;
 genre;GAM;ゲーム;Game;
 genre;JAPAN;日本;Japan;true
+```
+
+**Title Definition**:
+```
+title;title（Japanese）;title（English）
+```
+**Example**:
+```
+title;日本のカレーの歴史;Japanese Curry History
 ```
 
 #### JSON Format (for synchronization)
