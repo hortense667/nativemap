@@ -5072,21 +5072,6 @@
         "note_en": "Masterworks by Kurosawa, Ozu and Mizoguchi proliferated."
       },
       {
-        "label": "ゴジラ?（1954）→ 東宝特撮準備",
-        "label_en": "Toho tokusatsu groundwork",
-        "startYear": 1951,
-        "genre": [
-          "CONTENT",
-          "COMPANY",
-          "JAPAN"
-        ],
-        "imp": 2,
-        "url": "https://ja.wikipedia.org/wiki/ゴジラ",
-        "url_en": "https://en.wikipedia.org/wiki/Toho",
-        "note": "特撮映画制作の技術・人材が整備され始める。",
-        "note_en": "Technical and staffing groundwork for special‑effects films took shape."
-      },
-      {
         "label": "トランジスタの特許・ライセンス網",
         "label_en": "Transistor patent/licensing network",
         "startYear": 1951,
@@ -5129,20 +5114,6 @@
         "url_en": "https://en.wikipedia.org/wiki/T%C5%8Dkaid%C5%8D_Main_Line",
         "note": "長距離幹線の電化が進み輸送力が向上。",
         "note_en": "Electrification improved capacity on key long‑distance lines."
-      },
-      {
-        "label": "『生きる』制作期",
-        "startYear": 1951,
-        "genre": [
-          "CONTENT",
-          "JAPAN"
-        ],
-        "imp": 2,
-        "url": "https://ja.wikipedia.org/wiki/生きる",
-        "note": "黒澤の人間ドラマ『生きる』の制作が進む（翌年公開）。",
-        "label_en": "Kurosawa ‘Ikiru’ in production",
-        "url_en": "https://en.wikipedia.org/wiki/Ikiru",
-        "note_en": "Production advanced on Kurosawa’s humanist drama ‘Ikiru’ (released next year)."
       }
     ],
     "1952": [
@@ -9050,20 +9021,6 @@
         "note_en": "Kurosawa’s stylish jidai‑geki became an international hit."
       },
       {
-        "label": "映画『人間の証明』? → 小津『小早川家の秋』",
-        "label_en": "Film: The End of Summer (Ozu)",
-        "startYear": 1961,
-        "genre": [
-          "CONTENT",
-          "JAPAN"
-        ],
-        "imp": 3,
-        "url": "https://ja.wikipedia.org/wiki/小早川家の秋",
-        "url_en": "https://en.wikipedia.org/wiki/The_End_of_Summer",
-        "note": "小津の後期代表作の一つ。",
-        "note_en": "One of Ozu’s late‑period masterpieces."
-      },
-      {
         "label": "IBM 7030 Stretch／大型機アーキの進展",
         "label_en": "IBM 7030 Stretch advances",
         "startYear": 1961,
@@ -9301,6 +9258,20 @@
         "url_en": "https://en.wikipedia.org/wiki/Japanese_economic_miracle",
         "note": "輸出拡大と設備投資で高成長が本格化。",
         "note_en": "Exports and capital investment fueled rapid growth."
+      },
+      {
+        "label": "小津『小早川家の秋』",
+        "startYear": 1961,
+        "genre": [
+          "CONTENT",
+          "JAPAN"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/小早川家の秋",
+        "note": "小津の後期代表作の一つ。",
+        "label_en": "Film: The End of Summer (Ozu)",
+        "url_en": "https://en.wikipedia.org/wiki/The_End_of_Summer",
+        "note_en": "One of Ozu’s late‑period masterpieces."
       }
     ],
     "1962": [
@@ -10187,35 +10158,6 @@
         "note_en": "Led to congressional resolution and deeper US involvement in Vietnam."
       },
       {
-        "label": "チャイナ・ミラクル前史：四つの近代化提起? →核実験成功",
-        "label_en": "PRC’s first nuclear test",
-        "startYear": 1964,
-        "genre": [
-          "EVENT",
-          "WORLD",
-          "PRODUCT"
-        ],
-        "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/596_(核実験)",
-        "url_en": "https://en.wikipedia.org/wiki/596_(nuclear_test)",
-        "note": "中国が初の核実験に成功し核保有国へ。",
-        "note_en": "China conducted its first nuclear test, becoming a nuclear power."
-      },
-      {
-        "label": "テレサ・テン活動開始?（本格は70s）→歌謡曲隆盛",
-        "label_en": "J‑pop kayōkyoku boom grows",
-        "startYear": 1964,
-        "genre": [
-          "CONTENT",
-          "JAPAN"
-        ],
-        "imp": 2,
-        "url": "https://ja.wikipedia.org/wiki/歌謡曲",
-        "url_en": "https://en.wikipedia.org/wiki/Kay%C5%8Dkyoku",
-        "note": "高度成長とTV普及で歌番組・歌手が台頭。",
-        "note_en": "TV and growth fueled a boom in pop singers and shows."
-      },
-      {
         "label": "ビートルズ北米ツアー／ブリティッシュ・インヴェイジョン",
         "label_en": "\"Beatles’ US tour: British Invasion\"",
         "startYear": 1964,
@@ -10524,6 +10466,35 @@
         "url_en": "https://en.wikipedia.org/wiki/Integrated_circuit",
         "note": "要素技術の合従連衡が進む。",
         "note_en": "Firms partnered across key component technologies."
+      },
+      {
+        "label": "中国が核実験成功",
+        "startYear": 1964,
+        "genre": [
+          "EVENT",
+          "PRODUCT",
+          "WORLD"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/596_(核実験)",
+        "note": "中国が初の核実験に成功し核保有国へ。",
+        "label_en": "PRC’s first nuclear test",
+        "url_en": "https://en.wikipedia.org/wiki/596_(nuclear_test)",
+        "note_en": "China conducted its first nuclear test, becoming a nuclear power."
+      },
+      {
+        "label": "歌謡曲隆盛",
+        "startYear": 1964,
+        "genre": [
+          "CONTENT",
+          "JAPAN"
+        ],
+        "imp": 2,
+        "url": "https://ja.wikipedia.org/wiki/歌謡曲",
+        "note": "高度成長とTV普及で歌番組・歌手が台頭。",
+        "label_en": "J‑pop kayōkyoku boom grows",
+        "url_en": "https://en.wikipedia.org/wiki/Kay%C5%8Dkyoku",
+        "note_en": "TV and growth fueled a boom in pop singers and shows."
       }
     ],
     "1965": [
@@ -10749,20 +10720,6 @@
         "note_en": "A landmark satire of the Cold War."
       },
       {
-        "label": "映画『赤ひげ』（黒澤）」「怪獣大戦争」は1965?→1965-66",
-        "label_en": "Film: Red Beard (Kurosawa)",
-        "startYear": 1965,
-        "genre": [
-          "CONTENT",
-          "JAPAN"
-        ],
-        "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/赤ひげ",
-        "url_en": "https://en.wikipedia.org/wiki/Red_Beard",
-        "note": "黒澤の人間ドラマ大作。",
-        "note_en": "Kurosawa’s humanist epic."
-      },
-      {
         "label": "円谷プロ設立（翌年ウルトラQ/マン）",
         "label_en": "Tsuburaya Productions founded",
         "startYear": 1965,
@@ -10924,6 +10881,20 @@
         "url_en": "https://en.wikipedia.org/wiki/Otoko_wa_Tsurai_yo",
         "note": "国民的キャラ誕生前夜のTVドラマ隆盛。",
         "note_en": "Flourishing TV dramas set the stage for beloved characters."
+      },
+      {
+        "label": "映画『赤ひげ』（黒澤）",
+        "startYear": 1965,
+        "genre": [
+          "CONTENT",
+          "JAPAN"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/赤ひげ",
+        "note": "黒澤の人間ドラマ大作。",
+        "label_en": "Film: Red Beard (Kurosawa)",
+        "url_en": "https://en.wikipedia.org/wiki/Red_Beard",
+        "note_en": "Kurosawa’s humanist epic."
       }
     ],
     "1966": [
@@ -11928,20 +11899,6 @@
         "url_en": "https://en.wikipedia.org/wiki/Night_of_the_Living_Dead",
         "note": "近代ゾンビ像を定義した低予算ホラー。",
         "note_en": "Low‑budget horror that defined the modern zombie."
-      },
-      {
-        "label": "黒澤『隠し砦』は1958→本年は『赤毛』? →『どですかでん』は1970",
-        "label_en": "JP cinema (late 60s new waves)",
-        "startYear": 1968,
-        "genre": [
-          "CONTENT",
-          "JAPAN"
-        ],
-        "imp": 2,
-        "url": "https://ja.wikipedia.org/wiki/日本映画",
-        "url_en": "https://en.wikipedia.org/wiki/Cinema_of_Japan",
-        "note": "日本のニューシネマ潮流が強まる時期。",
-        "note_en": "Japanese New Cinema currents strengthened around this time."
       },
       {
         "label": "ビートルズ『ザ・ビートルズ（ホワイト・アルバム）』",
