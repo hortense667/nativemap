@@ -13366,21 +13366,6 @@
     ],
     "1972": [
       {
-        "label": "沖縄の日本復帰",
-        "label_en": "Okinawa reversion to Japan",
-        "startYear": 1972,
-        "genre": [
-          "EVENT",
-          "JAPAN",
-          "WORLD"
-        ],
-        "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/沖縄の日本復帰",
-        "url_en": "https://en.wikipedia.org/wiki/1972_return_of_Okinawa_to_Japan",
-        "note": "米施政権下にあった沖縄が日本に返還。",
-        "note_en": "Okinawa, under US administration, was returned to Japan."
-      },
-      {
         "label": "日中国交正常化（田中角栄訪中）",
         "label_en": "Japan–PRC normalization",
         "startYear": 1972,
@@ -13763,6 +13748,21 @@
         "url_en": "https://en.wikipedia.org/wiki/Semiconductor_industry",
         "note": "各社が量産・微細化で競争。",
         "note_en": "Firms competed in mass production and miniaturization."
+      },
+      {
+        "label": "沖縄返還",
+        "startYear": 1972,
+        "genre": [
+          "EVENT",
+          "JAPAN",
+          "WORLD"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/沖縄の日本復帰",
+        "note": "米施政権下にあった沖縄が日本に返還。",
+        "label_en": "Okinawa reversion to Japan",
+        "url_en": "https://en.wikipedia.org/wiki/1972_return_of_Okinawa_to_Japan",
+        "note_en": "Okinawa, under US administration, was returned to Japan."
       }
     ],
     "1973": [
@@ -14619,6 +14619,22 @@
         "note": "日本アニメSFの金字塔がTV放送開始。",
         "label_en": "Space Battleship Yamato airs",
         "url_en": "https://en.wikipedia.org/wiki/Space_Battleship_Yamato_(1974_TV_series)",
+        "note_en": "Landmark Japanese sci‑fi anime premiered."
+      },
+      {
+        "label": "スペース・バトルシップ ヤマト 放送開始",
+        "label_en": "Space Battleship Yamato airs",
+        "startYear": 1974,
+        "genre": [
+          "CONTENT",
+          "JAPAN",
+          "WORLD",
+          "COMPANY"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/宇宙戦艦ヤマト",
+        "url_en": "https://en.wikipedia.org/wiki/Space_Battleship_Yamato_(1974_TV_series)",
+        "note": "日本アニメSFの金字塔がTV放送開始。",
         "note_en": "Landmark Japanese sci‑fi anime premiered."
       }
     ],
