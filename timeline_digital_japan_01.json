@@ -2086,20 +2086,6 @@
     ],
     "1975": [
       {
-        "label": "Altair 8800",
-        "startYear": 1975,
-        "genre": [
-          "HAR-PC",
-          "HARD"
-        ],
-        "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/Altair_8800",
-        "note": "Altair 8800 は、アメリカのMicro Instrumentation and Telemetry Systems (MITS) がIntel 8080 CPUをベースに開発し、1974年12月に発売した個人用のコンピュータである。",
-        "label_en": "Altair 8800",
-        "note_en": "The Altair 8800 is a microcomputer introduced in 1974 by Micro Instrumentation and Telemetry Systems (MITS) based on the Intel 8080 CPU.",
-        "url_en": "https://en.wikipedia.org/wiki/Altair_8800"
-      },
-      {
         "label": "Microsoft創業",
         "startYear": 1975,
         "genre": [
@@ -2112,20 +2098,6 @@
         "label_en": "Microsoft",
         "note_en": "Microsoft Corporation is an American multinational corporation and technology conglomerate headquartered in Redmond, Washington.",
         "url_en": "https://en.wikipedia.org/wiki/Microsoft"
-      },
-      {
-        "label": "Altair 8800",
-        "startYear": 1975,
-        "genre": [
-          "HAR-PC",
-          "HARD"
-        ],
-        "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/Altair_8800",
-        "note": "Altair 8800 は、アメリカのMicro Instrumentation and Telemetry Systems (MITS) がIntel 8080 CPUをベースに開発し、1974年12月に発売した個人用のコンピュータである。",
-        "label_en": "Altair 8800",
-        "note_en": "The Altair 8800 is a microcomputer introduced in 1974 by Micro Instrumentation and Telemetry Systems (MITS) based on the Intel 8080 CPU.",
-        "url_en": "https://en.wikipedia.org/wiki/Altair_8800"
       },
       {
         "label": "IMSAI 8080",
