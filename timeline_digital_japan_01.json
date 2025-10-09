@@ -2222,6 +2222,20 @@
         "label_en": "MOS Technology 6502",
         "note_en": "The MOS Technology 6502 is an 8-bit microprocessor that was designed by a small team led by Chuck Peddle for MOS Technology and was launched in September 1975.",
         "url_en": "https://en.wikipedia.org/wiki/MOS_Technology_6502"
+      },
+      {
+        "label": "Altair 8800",
+        "startYear": 1975,
+        "genre": [
+          "HAR-PC",
+          "HARD"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/Altair_8800",
+        "note": "Altair 8800 は、アメリカのMicro Instrumentation and Telemetry Systems (MITS) がIntel 8080 CPUをベースに開発し、1974年12月に発売した個人用のコンピュータである。",
+        "label_en": "Altair 8800",
+        "note_en": "The Altair 8800 is a microcomputer introduced in 1974 by Micro Instrumentation and Telemetry Systems (MITS) based on the Intel 8080 CPU.",
+        "url_en": "https://en.wikipedia.org/wiki/Altair_8800"
       }
     ],
     "1976": [
