@@ -22673,9 +22673,10 @@
           "CONTENT",
           "JAPAN"
         ],
+        "imp": 2,
         "url": "https://ja.wikipedia.org/wiki/%E3%83%9E%E3%83%BC%E3%83%95%E3%82%A3%E3%83%BC%E3%81%AE%E6%B3%95%E5%89%87",
         "note": "「失敗する可能性のあるものは失敗する」",
-        "label_en": "\"Murphy's Law\"(Japanese translation version)",
+        "label_en": "Murphy's Law",
         "url_en": "https://en.wikipedia.org/wiki/Murphy%27s_law",
         "note_en": "Anything that can go wrong will go wrong."
       }
