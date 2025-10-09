@@ -1980,20 +1980,6 @@
         "startYear": 2009,
         "genre": [
           "DATA",
-          "EVENT"
-        ],
-        "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/ImageNet",
-        "url_en": "https://en.wikipedia.org/wiki/ImageNet",
-        "note": "大規模画像データセットとコンテスト。",
-        "note_en": "Large-scale image dataset and challenge."
-      },
-      {
-        "label": "ImageNet",
-        "label_en": "ImageNet",
-        "startYear": 2009,
-        "genre": [
-          "DATA",
           "SOFTWARE",
           "THEORY"
         ],
@@ -2013,6 +1999,20 @@
         "url": "https://ja.wikipedia.org/wiki/サマーウォーズ",
         "url_en": "https://en.wikipedia.org/wiki/Summer_Wars",
         "note": "仮想世界OZとAI的プログラムの暴走を描く。"
+      },
+      {
+        "label": "ImageNet",
+        "label_en": "ImageNet",
+        "startYear": 2009,
+        "genre": [
+          "DATA",
+          "EVENT"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/ImageNet",
+        "url_en": "https://en.wikipedia.org/wiki/ImageNet",
+        "note": "大規模画像データセットとコンテスト。",
+        "note_en": "Large-scale image dataset and challenge."
       }
     ],
     "2010": [
