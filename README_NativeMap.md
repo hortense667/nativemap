@@ -7,8 +7,6 @@ This document includes both a Japanese and an English version. The English versi
 
 ネイティブマップは、年表データを視覚的に表示・編集できるWebアプリケーションです。ポップカルチャーやデジタル技術の歴史を年表形式で管理し、個人の体験と照らし合わせることができます。
 
-**GitHubユーザーなら誰でも管理者になれる分散型システム**として設計されており、自分のリポジトリで独自の年表データを管理できます。
-
 ### 主な機能
 
 - **年表の視覚的表示**: 1940年代から2035年代までの年表を縦スクロールで表示
@@ -90,8 +88,6 @@ This document includes both a Japanese and an English version. The English versi
 ## English Version
 
 Native Map is a web application that allows you to visually display and edit timeline data. You can manage the history of pop culture and digital technology in timeline format and compare it with your personal experiences.
-
-It is designed as a **distributed system where any GitHub user can become an administrator**, allowing you to manage your own timeline data in your own repository.
 
 ### Main Features
 
