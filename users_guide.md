@@ -10,6 +10,36 @@
 
 **GitHubユーザーなら誰でも管理者になれる分散型システム**として設計されており、自分のリポジトリで独自の年表データを管理できます。
 
+### 参照年表機能について
+
+#### 参照年表とは
+参照年表機能は、メインの年表データに加えて、複数の年表データを同時に表示・比較できる機能です。参照年表のデータは読み取り専用で、編集や削除はできません。
+
+#### 参照年表の設定方法
+1. **設定画面で参照年表ファイルパスを指定**
+   - 「設定」→「参照年表ファイルパス」に、カンマ区切りで最大10個のJSONファイルパスを入力
+   - 例：`timeline_popculture_japan_01.json, timeline_ai_01.json`
+
+2. **URLパラメータで直接指定**
+   - URLに `refTimelines`（JSON配列）を追加（重要度も含めて指定可能）
+   - 例：
+     ```
+     nativemap201.html?owner=hortense667&repo=nativemap&filePath=timeline_digital_japan_01.json&refTimelines=%5B%7B%22owner%22%3A%22hortense667%22%2C%22repo%22%3A%22nativemap%22%2C%22filePath%22%3A%22timeline_backglound_01.json%22%2C%22minImportance%22%3A2%7D%5D
+     ```
+
+#### 参照年表の特徴
+- **読み取り専用**: 編集・削除は不可（鉛筆アイコンとゴミ箱アイコンがグレーアウト）
+- **独立したジャンル管理**: 各参照年表ごとにジャンルのオン/オフを制御
+- **視覚的区別**: 参照年表の項目は青色で表示
+- **検索対象**: ジャンルがオンになっている参照年表の項目も検索対象に含まれる
+
+#### 参照年表の編集方法
+参照年表の内容を編集したい場合は、ブラウザの別タブでそのファイルをメインのファイルパスとして開いて編集してください。
+
+例：
+- メインタブ：`timeline_digital_japan_01.json` + 参照：`timeline_popculture_japan_01.json`
+- 編集タブ：`timeline_popculture_japan_01.json` をメインとして開いて編集
+
 ### 目的別の使い方
 
 #### 1. 見たり操作するだけの人（閲覧者）
@@ -29,113 +59,22 @@
 
 #### 2. いまある年表の編集に参加する人（コラボレーター）
 
-**対象**: アクセストークンはないが編集後の「同期」でダウンロードしたデータを提供できる人
+**対象**: 管理者からアクセストークンを受け取り、オンラインで編集・保存できる人。
 
-**注意**: 現状、この機能への十分な対応はできていませんが、機能としては存在します。
-
-**基本的な操作**:
+**できること**:
 - 閲覧者の操作に加えて、項目の編集・追加・削除
-- 「同期」ボタンでCSVファイルをエクスポート
-- エクスポートしたデータを管理者に提供
+- 「同期」ボタンでGitHub上のJSONに直接反映（アクセストークン必須）
+
+**注意**:
+- 作業開始前に必ず「同期」で最新を取得し、作業後は必ず「同期」で保存してください。
 
 **制限事項**:
-- リモートデータを直接更新することはできない
-- 編集内容はローカルにのみ保存される
-- 他のユーザーとのリアルタイム同期は不可
+- 更新可能な範囲は付与されたGitHub権限（対象リポジトリ）に従います
+- ネットワークやGitHub側の制限により同期が一時的に失敗する場合があります
 
-#### 3. 自分で新たに年表を作りたい人（ローカル管理者）
+#### 3. 自分で作った年表を公開したい人（GitHub管理者）
 
-**対象**: ローカルのデータで閉じてロードとセーブで回していく人
-
-**用途**: 簡単な年表をプレゼンや分析に使うなどに適する
-
-**基本的な操作**:
-- 閲覧者・コラボレーターの操作すべて
-- 「ロード」でCSVファイルからデータを読み込み
-- 「セーブ」で現在のデータをCSVファイルとして保存
-- ローカルでの完全なデータ管理
-
-**推奨ワークフロー**:
-1. 初期データをCSVファイルで準備
-2. 「ロード」でデータを読み込み
-3. 必要に応じて編集・追加・削除
-4. 「セーブ」で編集内容を保存
-5. 必要に応じて手順2-4を繰り返し
-
-#### 4. 自分で作った年表を公開したい人（GitHub管理者）
-
-**対象**: GitHubにデータを置いて公開したい人
-
-**必要な準備**:
-- GitHubアカウント
-- Personal Access Token
-- リポジトリの作成
-
-### GitHub公開の詳細手順
-
-#### ステップ1: GitHubリポジトリの準備
-
-1. **リポジトリの作成**
-   - GitHubにログイン
-   - 「New repository」をクリック
-   - リポジトリ名を入力（例：`my-timeline`）
-   - 「Public」または「Private」を選択
-   - 「Create repository」をクリック
-
-2. **初期ファイルの配置**
-   - リポジトリに`timeline.json`ファイルを作成
-   - 空のファイルでも構いません
-   - または、[nativemapのリポジトリ](https://github.com/hortense667/nativemap)からサンプルデータを参照
-
-#### ステップ2: Personal Access Tokenの取得
-
-1. **GitHubの設定画面にアクセス**
-   - GitHubの右上のプロフィール画像をクリック
-   - 「Settings」を選択
-   - 左サイドバーの「Developer settings」をクリック
-   - 「Personal access tokens」→「Tokens (classic)」を選択
-
-2. **新しいトークンの生成**
-   - 「Generate new token」→「Generate new token (classic)」をクリック
-   - Note: `Native Map Timeline Access`（任意の名前）
-   - Expiration: 適切な期間を選択（推奨：90 days）
-   - Scopes: 以下の権限にチェック
-     - `repo` (Full control of private repositories)
-     - `public_repo` (Access public repositories)
-
-3. **トークンの保存**
-   - 「Generate token」をクリック
-   - 生成されたトークンをコピーして安全な場所に保存
-   - **重要**: このトークンは再表示されません
-
-#### ステップ3: ネイティブマップでの設定
-
-1. **設定画面を開く**
-   - ネイティブマップの「設定」ボタンをクリック
-
-2. **GitHub情報を入力**
-   - Personal Access Token: ステップ2で取得したトークン
-   - リポジトリ所有者: 自分のGitHubユーザー名
-   - リポジトリ名: ステップ1で作成したリポジトリ名
-   - ファイルパス: `timeline.json`（通常はこのままでOK）
-
-3. **設定の保存**
-   - 「保存」ボタンをクリック
-   - 設定がローカルストレージに保存されます
-
-#### ステップ4: データの準備と同期
-
-1. **データの準備**
-   - 「ロード」機能でCSVファイルからデータを読み込み
-   - または、既存のデータを編集
-
-2. **初回同期**
-   - 「同期」ボタンをクリック
-   - データがGitHubリポジトリの`timeline.json`に保存されます
-
-3. **継続的な運用**
-   - 編集後は必ず「同期」でGitHubに反映
-   - 他のユーザーが編集した場合は「同期」で最新データを取得
+このセクションの詳細ドキュメントは準備中です。近日中に公開予定です。
 
 ### 推奨運用方針
 
@@ -248,12 +187,48 @@ genre;JAPAN;日本;Japan;true
 
 **注意**: 同期では時代区分の設定は反映されません。時代区分はローカル設定として管理されます。
 
+### トラブルシューティング
+
+#### うまくいかないときのチェック項目
+
+**参照年表が表示されない場合**：
+1. ファイルパスが正しく設定されているか確認
+2. 設定変更後は必ず「保存」ボタンを押しているか
+3. ファイルがGitHubリポジトリに存在するか確認
+4. ファイルパスにスペースや特殊文字が含まれていないか確認
+
+**同期が失敗する場合**：
+1. アクセストークンが正しく設定されているか
+2. リポジトリの所有者名とリポジトリ名が正しいか
+3. ファイルパスが正しいか
+4. ネットワーク接続が正常か
+
+**データが更新されない場合**：
+1. ブラウザのキャッシュをクリア
+2. 「表示中の全ラベルをクリアしてGitHubから読み込み」を実行
+3. 設定を一度リセットして再設定
+
+#### ブラウザのリロードと「表示中の全ラベルをクリアしてGitHubから読み込み」の違い
+
+**ブラウザのリロード**：
+- ページ全体を再読み込み
+- ローカルストレージの設定は保持される
+- 参照年表の設定も保持される
+- 編集内容は失われる（未保存の場合）
+
+**「表示中の全ラベルをクリアしてGitHubから読み込み」**：
+- ローカルデータを完全にクリア
+- GitHubから最新データを再読み込み
+- 参照年表も再読み込み
+- 編集フラグや削除記録もクリア
+- より確実に最新状態にリセット
+
 ### 基本的な操作の詳細
 
 #### 年表の表示と操作
 
 **年表の表示**:
-- 1950年代から2050年代まで縦スクロールで閲覧
+- 1940年代から2035年代まで縦スクロールで閲覧
 - 左側のカラムに年とイベントが表示
 - 右側のエリアでドラッグ操作が可能
 
@@ -274,6 +249,11 @@ genre;JAPAN;日本;Japan;true
    - URL（日本語・英語）
    - 注釈（日本語・英語）
 4. 「保存」ボタンで変更を確定
+
+注意（重要）:
+- 編集モーダルは縦に長い場合があります。必ず一番下までスクロールして「保存」ボタンを押してください。押さない場合、変更は反映されません。
+- 編集モーダルと詳細一覧は、上部の何もない部分をドラッグして位置を移動できます。
+- 右側のグラフエリア（タイムライン部）をクリックすると、開いている詳細一覧/編集モーダルが閉じます。
 
 **項目の追加**:
 1. 詳細一覧で「追加」ボタンをクリック
@@ -437,6 +417,33 @@ Native Map is a web application that allows you to visually display and edit tim
 
 It is designed as a **distributed system where any GitHub user can become an administrator**, allowing you to manage your own timeline data in your own repository.
 
+### About Reference Timeline Feature
+
+#### What is Reference Timeline
+The reference timeline feature allows you to display and compare multiple timeline data simultaneously in addition to the main timeline data. Reference timeline data is read-only and cannot be edited or deleted.
+
+#### How to Set Up Reference Timeline
+1. **Specify reference timeline file paths in settings**
+   - Go to "Settings" → "Reference timeline file paths" and enter up to 10 JSON file paths separated by commas
+   - Example: `timeline_popculture_japan_01.json, timeline_ai_01.json`
+
+2. **Direct specification via URL parameters**
+   - Add `&refFilePaths=filepath1,filepath2` to the URL
+   - Example: `nativemap201.html?owner=hortense667&repo=nativemap&filePath=timeline_digital_japan_01.json&refFilePaths=timeline_popculture_japan_01.json`
+
+#### Features of Reference Timeline
+- **Read-only**: Cannot be edited or deleted (pencil and trash icons are grayed out)
+- **Independent genre management**: Control genre on/off for each reference timeline
+- **Visual distinction**: Reference timeline items are displayed in blue
+- **Search target**: Items from reference timelines with genres turned on are also included in search results
+
+#### How to Edit Reference Timeline
+To edit reference timeline content, open that file as the main file path in a separate browser tab.
+
+Example:
+- Main tab: `timeline_digital_japan_01.json` + Reference: `timeline_popculture_japan_01.json`
+- Edit tab: Open `timeline_popculture_japan_01.json` as main for editing
+
 ### Usage by Purpose
 
 #### 1. Viewers (Read-only users)
@@ -470,99 +477,9 @@ It is designed as a **distributed system where any GitHub user can become an adm
 - Edited content is saved locally only
 - No real-time synchronization with other users
 
-#### 3. Local Timeline Creators (Local administrators)
+#### 3. GitHub Timeline Publishers (GitHub administrators)
 
-**Target**: Users who work with local data using load and save cycles
-
-**Use cases**: Suitable for creating simple timelines for presentations or analysis
-
-**Basic operations**:
-- All viewer and collaborator operations
-- Load data from CSV files using "Load"
-- Save current data as CSV files using "Save"
-- Complete local data management
-
-**Recommended workflow**:
-1. Prepare initial data in CSV file
-2. Load data using "Load"
-3. Edit, add, or delete as needed
-4. Save edited content using "Save"
-5. Repeat steps 2-4 as needed
-
-#### 4. GitHub Timeline Publishers (GitHub administrators)
-
-**Target**: Users who want to publish their timelines on GitHub
-
-**Required preparation**:
-- GitHub account
-- Personal Access Token
-- Repository creation
-
-### Detailed Steps for GitHub Publishing
-
-#### Step 1: Prepare GitHub Repository
-
-1. **Create Repository**
-   - Log in to GitHub
-   - Click "New repository"
-   - Enter repository name (e.g., `my-timeline`)
-   - Select "Public" or "Private"
-   - Click "Create repository"
-
-2. **Place Initial Files**
-   - Create `timeline.json` file in repository
-   - Empty file is acceptable
-   - Or refer to sample data from [nativemap repository](https://github.com/hortense667/nativemap)
-
-#### Step 2: Get Personal Access Token
-
-1. **Access GitHub Settings**
-   - Click profile image in upper right of GitHub
-   - Select "Settings"
-   - Click "Developer settings" in left sidebar
-   - Select "Personal access tokens" → "Tokens (classic)"
-
-2. **Generate New Token**
-   - Click "Generate new token" → "Generate new token (classic)"
-   - Note: `Native Map Timeline Access` (any name)
-   - Expiration: Select appropriate period (recommended: 90 days)
-   - Scopes: Check the following permissions:
-     - `repo` (Full control of private repositories)
-     - `public_repo` (Access public repositories)
-
-3. **Save Token**
-   - Click "Generate token"
-   - Copy generated token and save in secure location
-   - **Important**: This token will not be shown again
-
-#### Step 3: Configure in Native Map
-
-1. **Open Settings**
-   - Click "Settings" button in Native Map
-
-2. **Enter GitHub Information**
-   - Personal Access Token: Token obtained in Step 2
-   - Repository Owner: Your GitHub username
-   - Repository Name: Repository name created in Step 1
-   - File Path: `timeline.json` (usually OK as is)
-
-3. **Save Settings**
-   - Click "Save" button
-   - Settings are saved to local storage
-
-#### Step 4: Prepare Data and Synchronize
-
-1. **Prepare Data**
-   - Use "Load" function to read data from CSV files
-   - Or edit existing data
-
-2. **Initial Synchronization**
-   - Click "Sync" button
-   - Data is saved to `timeline.json` in GitHub repository
-
-3. **Continuous Operation**
-   - Always "Sync" to reflect changes to GitHub after editing
-   - Use "Sync" to get latest data when others have edited
+This section is under preparation and will be published soon.
 
 ### Recommended Operation Policies
 
@@ -675,12 +592,48 @@ The JSON file generated by synchronization includes the following structure:
 
 **Note**: Era settings are not reflected in synchronization. Era settings are managed as local settings.
 
+### Troubleshooting
+
+#### Check Items When Things Don't Work
+
+**When reference timeline is not displayed**:
+1. Check if file paths are correctly set
+2. Make sure to press "Save" button after changing settings
+3. Check if files exist in GitHub repository
+4. Check if file paths contain spaces or special characters
+
+**When synchronization fails**:
+1. Check if access token is correctly set
+2. Check if repository owner name and repository name are correct
+3. Check if file path is correct
+4. Check if network connection is normal
+
+**When data is not updated**:
+1. Clear browser cache
+2. Execute "Clear all displayed labels and load from GitHub"
+3. Reset settings once and reconfigure
+
+#### Difference Between Browser Reload and "Clear all displayed labels and load from GitHub"
+
+**Browser Reload**:
+- Reloads entire page
+- Keeps local storage settings
+- Keeps reference timeline settings
+- Loses editing content (if unsaved)
+
+**"Clear all displayed labels and load from GitHub"**:
+- Completely clears local data
+- Reloads latest data from GitHub
+- Reloads reference timeline
+- Clears edit flags and deletion records
+- More reliably resets to latest state
+
 ### Detailed Basic Operations
 
 #### Timeline Display and Operation
 
 **Timeline Display**:
-- Browse from 1950s to 2050s with vertical scrolling
+- Browse from 1940s to 2035s with vertical scrolling
 - Years and events are displayed in the left column
 - Drag operations are possible in the right area
 
@@ -701,6 +654,11 @@ The JSON file generated by synchronization includes the following structure:
    - URL (Japanese/English)
    - Note (Japanese/English)
 4. Click "Save" button to confirm changes
+
+Important notes:
+- The edit modal can be tall. Scroll to the bottom and click the "Save" button to apply changes. If you don't click Save, changes will not be applied.
+- You can drag the header (blank area at the top) of the edit modal and the detail list to reposition them.
+- Clicking the right graph area (timeline) closes the currently open detail/edit panels.
 
 **Adding Items**:
 1. Click "Add" button in detail list
