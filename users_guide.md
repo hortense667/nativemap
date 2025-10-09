@@ -77,7 +77,7 @@
 
 #### 3. 自分で作った年表を公開したい人（GitHub管理者）
 
-このセクションの詳細ドキュメントは準備中です。近日中に公開予定です。
+この機能はいまのところ非公開ですが将来的には提供していく予定です。
 
 ### 推奨運用方針
 
@@ -487,7 +487,7 @@ Example:
 
 #### 3. GitHub Timeline Publishers (GitHub administrators)
 
-This section is under preparation and will be published soon.
+This feature is currently not available, but we plan to offer it in the future.
 
 ### Recommended Operation Policies
 
