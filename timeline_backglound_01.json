@@ -26686,6 +26686,7 @@
     "2003": [
       {
         "label": "イラク戦争 開始",
+        "label_en": "Iraq War begins",
         "startYear": 2003,
         "genre": [
           "EVENT",
@@ -26693,9 +26694,8 @@
         ],
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/イラク戦争",
-        "note": "米英などがイラクに侵攻。フセイン政権が崩壊。",
-        "label_en": "Iraq War begins",
         "url_en": "https://en.wikipedia.org/wiki/Iraq_War",
+        "note": "米英などがイラクに侵攻。フセイン政権が崩壊。",
         "note_en": "US‑UK led invasion toppled Saddam Hussein’s regime."
       },
       {
