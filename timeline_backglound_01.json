@@ -14361,22 +14361,6 @@
         "note_en": "Theorized black‑hole radiation changed physics."
       },
       {
-        "label": "スペース・バトルシップ ヤマト 放送開始",
-        "label_en": "Space Battleship Yamato airs",
-        "startYear": 1974,
-        "genre": [
-          "CONTENT",
-          "JAPAN",
-          "WORLD",
-          "COMPANY"
-        ],
-        "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/宇宙戦艦ヤマト",
-        "url_en": "https://en.wikipedia.org/wiki/Space_Battleship_Yamato_(1974_TV_series)",
-        "note": "日本アニメSFの金字塔がTV放送開始。",
-        "note_en": "Landmark Japanese sci‑fi anime premiered."
-      },
-      {
         "label": "ハローキティ 誕生（サンリオ）",
         "label_en": "Hello Kitty debuts (Sanrio)",
         "startYear": 1974,
@@ -14621,6 +14605,37 @@
         "url_en": "https://en.wikipedia.org/wiki/Pocket_calculator",
         "note": "半導体化で一般家庭にも普及。",
         "note_en": "Semiconductor advances made them mass‑market."
+      },
+      {
+        "label": "宇宙戦艦ヤマト 放送開始",
+        "startYear": 1974,
+        "genre": [
+          "CONTENT",
+          "COMPANY",
+          "JAPAN"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/宇宙戦艦ヤマト",
+        "note": "日本アニメSFの金字塔がTV放送開始。",
+        "label_en": "Space Battleship Yamato airs",
+        "url_en": "https://en.wikipedia.org/wiki/Space_Battleship_Yamato_(1974_TV_series)",
+        "note_en": "Landmark Japanese sci‑fi anime premiered."
+      },
+      {
+        "label": "スペース・バトルシップ ヤマト 放送開始",
+        "label_en": "Space Battleship Yamato airs",
+        "startYear": 1974,
+        "genre": [
+          "CONTENT",
+          "JAPAN",
+          "WORLD",
+          "COMPANY"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/宇宙戦艦ヤマト",
+        "url_en": "https://en.wikipedia.org/wiki/Space_Battleship_Yamato_(1974_TV_series)",
+        "note": "日本アニメSFの金字塔がTV放送開始。",
+        "note_en": "Landmark Japanese sci‑fi anime premiered."
       }
     ],
     "1975": [
