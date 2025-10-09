@@ -4734,20 +4734,6 @@
         "label_en": "Sino–Soviet Treaty of Friendship",
         "url_en": "https://en.wikipedia.org/wiki/Sino-Soviet_Treaty_of_Friendship,_Alliance_and_Mutual_Assistance",
         "note_en": "The PRC and USSR signed a mutual assistance treaty."
-      },
-      {
-        "label": "天津条約? → 中ソ友好同盟相互援助条約(1950)",
-        "label_en": "Sino–Soviet Treaty of Friendship",
-        "startYear": 1950,
-        "genre": [
-          "EVENT",
-          "WORLD"
-        ],
-        "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/中ソ友好同盟相互援助条約",
-        "url_en": "https://en.wikipedia.org/wiki/Sino-Soviet_Treaty_of_Friendship,_Alliance_and_Mutual_Assistance",
-        "note": "中華人民共和国とソ連が相互援助条約を締結。",
-        "note_en": "The PRC and USSR signed a mutual assistance treaty."
       }
     ],
     "1951": [
@@ -5014,20 +5000,6 @@
         "note_en": "J.D. Salinger’s novel debuted to major acclaim and debate."
       },
       {
-        "label": "映画『用心棒』?（1961）→『生きる』制作期",
-        "label_en": "Kurosawa ‘Ikiru’ in production",
-        "startYear": 1951,
-        "genre": [
-          "CONTENT",
-          "JAPAN"
-        ],
-        "imp": 2,
-        "url": "https://ja.wikipedia.org/wiki/生きる",
-        "url_en": "https://en.wikipedia.org/wiki/Ikiru",
-        "note": "黒澤の人間ドラマ『生きる』の制作が進む（翌年公開）。",
-        "note_en": "Production advanced on Kurosawa’s humanist drama ‘Ikiru’ (released next year)."
-      },
-      {
         "label": "任天堂・花札/トランプの全国展開",
         "label_en": "Nintendo expands Hanafuda/cards",
         "startYear": 1951,
@@ -5157,6 +5129,20 @@
         "url_en": "https://en.wikipedia.org/wiki/T%C5%8Dkaid%C5%8D_Main_Line",
         "note": "長距離幹線の電化が進み輸送力が向上。",
         "note_en": "Electrification improved capacity on key long‑distance lines."
+      },
+      {
+        "label": "『生きる』制作期",
+        "startYear": 1951,
+        "genre": [
+          "CONTENT",
+          "JAPAN"
+        ],
+        "imp": 2,
+        "url": "https://ja.wikipedia.org/wiki/生きる",
+        "note": "黒澤の人間ドラマ『生きる』の制作が進む（翌年公開）。",
+        "label_en": "Kurosawa ‘Ikiru’ in production",
+        "url_en": "https://en.wikipedia.org/wiki/Ikiru",
+        "note_en": "Production advanced on Kurosawa’s humanist drama ‘Ikiru’ (released next year)."
       }
     ],
     "1952": [
