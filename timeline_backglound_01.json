@@ -919,17 +919,17 @@
     "1942": [
       {
         "label": "ミッドウェー海戦",
-        "label_en": "Battle of Midway",
         "startYear": 1942,
         "genre": [
           "EVENT",
-          "WORLD",
-          "JAPAN"
+          "JAPAN",
+          "WORLD"
         ],
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/ミッドウェー海戦",
+        "note": "日米の空母決戦で米軍が勝利し太平洋戦争の転機となる",
+        "label_en": "Battle of Midway",
         "url_en": "https://en.wikipedia.org/wiki/Battle_of_Midway",
-        "note": "日米の空母決戦で米軍が勝利し太平洋戦争の転機となる。",
         "note_en": "\"Decisive carrier battle: US victory turned the tide in the Pacific War.\""
       },
       {
@@ -2218,6 +2218,7 @@
     "1945": [
       {
         "label": "ヤルタ会談",
+        "label_en": "Yalta Conference",
         "startYear": 1945,
         "genre": [
           "EVENT",
@@ -2225,9 +2226,8 @@
         ],
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/ヤルタ会談",
-        "note": "米英ソ首脳が戦後処理・国連設立などを協議",
-        "label_en": "Yalta Conference",
         "url_en": "https://en.wikipedia.org/wiki/Yalta_Conference",
+        "note": "米英ソ首脳が戦後処理・国連設立などを協議。",
         "note_en": "US‑UK‑USSR leaders met to decide postwar arrangements and the UN."
       },
       {
