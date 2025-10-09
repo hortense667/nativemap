@@ -1,37 +1,4 @@
 {
-  "metadata": {
-    "title": {
-      "ja": "時代背景 0.1",
-      "en": "Historical background Timeline 0.1"
-    },
-    "description": {
-      "ja": "この年表は時代背景を知るための年表です。現状、試験公開中であり内容を精査している段階です。",
-      "en": "This timeline is a chronology for understanding the historical context.Currently, it is in a trial phase and the content is being reviewed."
-    },
-    "initialCreator": "Satoshi Endo",
-    "contributors": [
-      "Satoshi Endo",
-      "Hortense Endo"
-    ],
-    "contact": {
-      "administrator": {
-        "name": "Satoshi Endo",
-        "email": "zzz@65536.net",
-        "x": "https://x.com/hortense667",
-        "organization": "ZEN University"
-      }
-    },
-    "createdAt": "2025-10-09",
-    "version": "1.0",
-    "language": [
-      "ja",
-      "en"
-    ],
-    "copyright": "© 2025 Satoshi Endo",
-    "license": "CC BY 4.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
-    "notes": "Updates from contributors are welcome. Please do not create separate versions. When reusing data, credit the original authors."
-  },
   "events": {
     "1940": [
       {
@@ -4419,20 +4386,6 @@
         "note_en": "Supranational management of coal and steel took shape."
       },
       {
-        "label": "天津条約? → 中ソ友好同盟相互援助条約(1950)",
-        "label_en": "Sino–Soviet Treaty of Friendship",
-        "startYear": 1950,
-        "genre": [
-          "EVENT",
-          "WORLD"
-        ],
-        "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/中ソ友好同盟相互援助条約",
-        "url_en": "https://en.wikipedia.org/wiki/Sino-Soviet_Treaty_of_Friendship,_Alliance_and_Mutual_Assistance",
-        "note": "中華人民共和国とソ連が相互援助条約を締結。",
-        "note_en": "The PRC and USSR signed a mutual assistance treaty."
-      },
-      {
         "label": "インドの共和国移行準備（1950年1月26日）",
         "label_en": "India becomes a republic",
         "startYear": 1950,
@@ -4767,6 +4720,34 @@
         "url_en": "https://en.wikipedia.org/wiki/Treaty_of_San_Francisco",
         "note": "講和条約に向けた国際的調整が進む。",
         "note_en": "International coordination advanced toward the peace treaty with Japan."
+      },
+      {
+        "label": "中ソ友好同盟相互援助条約(1950)",
+        "startYear": 1950,
+        "genre": [
+          "EVENT",
+          "WORLD"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/中ソ友好同盟相互援助条約",
+        "note": "中華人民共和国とソ連が相互援助条約を締結。",
+        "label_en": "Sino–Soviet Treaty of Friendship",
+        "url_en": "https://en.wikipedia.org/wiki/Sino-Soviet_Treaty_of_Friendship,_Alliance_and_Mutual_Assistance",
+        "note_en": "The PRC and USSR signed a mutual assistance treaty."
+      },
+      {
+        "label": "天津条約? → 中ソ友好同盟相互援助条約(1950)",
+        "label_en": "Sino–Soviet Treaty of Friendship",
+        "startYear": 1950,
+        "genre": [
+          "EVENT",
+          "WORLD"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/中ソ友好同盟相互援助条約",
+        "url_en": "https://en.wikipedia.org/wiki/Sino-Soviet_Treaty_of_Friendship,_Alliance_and_Mutual_Assistance",
+        "note": "中華人民共和国とソ連が相互援助条約を締結。",
+        "note_en": "The PRC and USSR signed a mutual assistance treaty."
       }
     ],
     "1951": [
@@ -37330,6 +37311,12 @@
     ]
   },
   "eraSettings": [],
+  "metadata": {
+    "title": {
+      "ja": "時代背景 0.1",
+      "en": "Historical background Timeline 0.1"
+    }
+  },
   "genres": [
     {
       "code": "EVENT",
