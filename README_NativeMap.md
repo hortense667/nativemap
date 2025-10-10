@@ -7,40 +7,49 @@ This document includes both a Japanese and an English version. The English versi
 
 ネイティブマップは、年表データを視覚的に表示・編集できるWebアプリケーションです。ポップカルチャーやデジタル技術の歴史を年表形式で管理し、個人の体験と照らし合わせることができます。
 
+**GitHubユーザーなら誰でも管理者になれる分散型システム**として設計されており、自分のリポジトリで独自の年表データを管理できます。
+
 ### 主な機能
 
-- **年表の視覚的表示**: 1940年代から2035年代までの年表を縦スクロールで表示
+- **年表の視覚的表示**: 1950年代から2050年代までの年表を縦スクロールで表示
 - **多言語対応**: 日本語/英語の切り替えが可能
 - **データ編集**: 項目の追加、編集、削除、並び替え
 - **検索機能**: ラベルやジャンルによる検索
 - **データ同期**: GitHubとの連携による共有データの管理
-- **CSV/TSV対応**: データの一括インポート
+- **CSV/TSV対応**: データの一括インポート/エクスポート
 - **参照年表機能**: 複数の年表データを同時に表示・比較可能
+- **フキダシ（吹き出し）**: 右側エリアをクリックして注釈を配置。三角テールはクリック位置を先端にし、バブルの辺から自然に接続。スタイル（色・文字サイズ・太字）変更やドラッグ移動、スナップショット保存/復元に対応。
 
 ### データセット
 
 現在、以下の3つのデータセットが用意されています：
 
-1. **timeline_popculture_japan_01.json** - ポップカルチャー年表
+1. **timeline.json** - ポップカルチャー年表
    - アニメ、マンガ、ゲーム、音楽などのポップカルチャーイベント
    
-2. **timeline_digital_japan_01.json** - デジタルの歴史年表
+2. **timeline_digital.json** - デジタルの歴史年表
    - コンピュータ、インターネット、デジタル技術の歴史
    
-3. **timeline_ai_01.json** - AI年表
-   - AIの歴史年表
+3. **initial_timeline.json** - 独自年表作成用フレーム
+   - 空のテンプレート。独自の年表を作成する際の出発点
 
-4. **timeline_background_01.json** - 時代背景年表
-   - 時代背景年表
+※ユーザーは独自のデータセットを作ることができ公開することもできます。「自分で新たに年表を作りたい人へ」の項目をご覧ください。
+
 
 ### 基本的な使い方
 
 #### 年表の表示と操作
-- 1940年代から2035年代まで縦スクロールで閲覧
+- 1950年代から2050年代まで縦スクロールで閲覧
 - 左側のカラムに年とイベントが表示
 - 右側のエリアでドラッグ操作が可能
 
 #### 項目の編集
+#### フキダシ（吹き出し）
+- ヘッダーのフキダシ追加アイコンをオン（またはShift+クリック）し、右側エリアをクリックで作成
+- クリック点＝三角先端。接合位置は辺の中央±1/3範囲で自動調整（角丸は避ける）
+- バブル／テールはドラッグ可能。右クリックで色テーマ・A-/A+・B（太字）を設定（表示モード）
+- 削除アイコンでバブル・三角・継ぎ目カバーも一括削除
+- 余白は左右対称（上下13px／左右16px）
 - 項目をクリックして編集モーダルを開く
 - ラベル、年、ジャンル、重要度、URL、注釈を編集可能
 - 詳細一覧で項目の追加・削除・並び替え
@@ -68,6 +77,12 @@ This document includes both a Japanese and an English version. The English versi
 2. **生年を合わせる**: 水色の斜め線の左端の丸を生年に合わせる
 3. **年齢表示**: 上部に年齢が表示される
 
+### 自分で新たに年表を作りたい人へ
+
+**GitHubユーザーなら誰でも管理者になれます！**
+
+このサービスは、GitHubアカウントを持つユーザーが自分のリポジトリで年表データを管理できる分散型システムです。独自の年表を作成・管理したい場合は、[ユーザーガイド](users_guide.md)をご覧ください。
+
 ### 技術仕様
 
 - **フロントエンド**: HTML5, CSS3, JavaScript (ES6+)
@@ -89,14 +104,16 @@ This document includes both a Japanese and an English version. The English versi
 
 Native Map is a web application that allows you to visually display and edit timeline data. You can manage the history of pop culture and digital technology in timeline format and compare it with your personal experiences.
 
+It is designed as a **distributed system where any GitHub user can become an administrator**, allowing you to manage your own timeline data in your own repository.
+
 ### Main Features
 
-- **Visual Timeline Display**: Display timeline from 1940s to 2035s with vertical scrolling
+- **Visual Timeline Display**: Display timeline from 1950s to 2050s with vertical scrolling
 - **Multilingual Support**: Switch between Japanese/English
 - **Data Editing**: Add, edit, delete, and reorder items
 - **Search Function**: Search by labels and genres
 - **Data Synchronization**: Shared data management through GitHub integration
-- **CSV/TSV Support**: Bulk import
+- **CSV/TSV Support**: Bulk import/export of data
 - **Reference Timeline Feature**: Display and compare multiple timeline data simultaneously
 
 ### Datasets
@@ -109,16 +126,13 @@ Currently, the following three datasets are available:
 2. **timeline_digital.json** - Digital History Timeline
    - History of computers, internet, digital technology
    
-3. **timeline_ai_01.json** - AI Timeline
-   - AI history timeline
-
-4. **timeline_background_01.json** - Timeline of Historical Background
-   - Timeline of historical background
+3. **initial_timeline.json** - Framework for Creating Custom Timelines
+   - Empty template. Starting point for creating custom timelines
 
 ### Basic Usage
 
 #### Timeline Display and Operation
-- Browse from 1940s to 2035s with vertical scrolling
+- Browse from 1950s to 2050s with vertical scrolling
 - Years and events are displayed in the left column
 - Drag operations are possible in the right area
 
@@ -149,7 +163,7 @@ Currently, the following three datasets are available:
 
 **Any GitHub user can become an administrator!**
 
-The document is being prepared and is scheduled to be released soon.
+This service is a distributed system where GitHub users can manage timeline data in their own repositories. If you want to create and manage your own timeline, please see the [User Guide](users_guide.md).
 
 ### Technical Specifications
 
