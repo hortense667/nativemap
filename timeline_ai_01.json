@@ -88,18 +88,6 @@
       "conjunction": false
     },
     {
-      "code": "JAPAN",
-      "label": "日本",
-      "label_en": "Japan",
-      "conjunction": true
-    },
-    {
-      "code": "CHINA",
-      "label": "中国", 
-      "label_en": "CHINA",
-      "conjunction": true
-    },
-    {
       "code": "P_NEURAL",
       "label": "ニューラルネット系",
       "label_en": "Neural-network based",
@@ -133,6 +121,18 @@
       "code": "P_EVOL",
       "label": "進化/遺伝的計算系",
       "label_en": "Evolutionary/Genetic",
+      "conjunction": true
+    },
+    {
+      "code": "JAPAN",
+      "label": "日本",
+      "label_en": "Japan",
+      "conjunction": true
+    },
+    {
+      "code": "CHINA",
+      "label": "中国", 
+      "label_en": "CHINA",
       "conjunction": true
     },
     {
