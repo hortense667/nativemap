@@ -7323,21 +7323,6 @@
         "note_en": "Private investment‑led boom reaching its final stage around 1957."
       },
       {
-        "label": "東京タワー 起工（翌年完成）",
-        "label_en": "Tokyo Tower construction begins",
-        "startYear": 1957,
-        "genre": [
-          "EVENT",
-          "JAPAN",
-          "CONTENT"
-        ],
-        "imp": 3,
-        "url": "https://ja.wikipedia.org/wiki/東京タワー",
-        "url_en": "https://en.wikipedia.org/wiki/Tokyo_Tower",
-        "note": "日本の高度成長の象徴となる電波塔の建設が始まる。",
-        "note_en": "Construction began on an iconic broadcasting tower."
-      },
-      {
         "label": "ボーイング707 初飛行",
         "label_en": "Boeing 707 first flight",
         "startYear": 1957,
@@ -7618,6 +7603,35 @@
         "url_en": "https://en.wikipedia.org/wiki/The_Beatles_timeline",
         "note": "リヴァプールでの出会いがのちのビートルズ結成に繋がる。",
         "note_en": "The Liverpool meeting led to the formation of The Beatles."
+      },
+      {
+        "label": "東京タワー 起工（翌年完成）",
+        "startYear": 1957,
+        "genre": [
+          "EVENT",
+          "JAPAN"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/東京タワー",
+        "note": "日本の高度成長の象徴となる電波塔の建設が始まる。",
+        "label_en": "Tokyo Tower construction begins",
+        "url_en": "https://en.wikipedia.org/wiki/Tokyo_Tower",
+        "note_en": "Construction began on an iconic broadcasting tower."
+      },
+      {
+        "label": "東京タワー 起工（翌年完成）",
+        "label_en": "Tokyo Tower construction begins",
+        "startYear": 1957,
+        "genre": [
+          "EVENT",
+          "JAPAN",
+          "CONTENT"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/東京タワー",
+        "url_en": "https://en.wikipedia.org/wiki/Tokyo_Tower",
+        "note": "日本の高度成長の象徴となる電波塔の建設が始まる。",
+        "note_en": "Construction began on an iconic broadcasting tower."
       }
     ],
     "1958": [
