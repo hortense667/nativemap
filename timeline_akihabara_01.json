@@ -514,6 +514,19 @@
         "url_en": "https://ja.wikipedia.org/wiki/ラジオガァデン",
         "note": "GHQの露店撤廃後に整備された電子部品の商業施設。",
         "note_en": "Post-GHQ](https://ja.wikipedia.org/wiki/ラジオガァデン"
+      },
+      {
+        "label": "肉の万世（万世橋本店を中核とする老舗肉料理）",
+        "label_en": "Niku no Mansei (steak & cutlet icon)",
+        "startYear": 1949,
+        "genre": [
+          "STORE"
+        ],
+        "imp": 4,
+        "url": "[https://ja.wikipedia.org/wiki/肉の万世",
+        "url_en": "https://www.niku-mansei.com/contents/02nazo/nazo_04rekisi01.html",
+        "note": "1949年創業。万世橋近くの本店ビルで肉料理・万かつサンドなどを名物化した。",
+        "note_en": "Founded](https://ja.wikipedia.org/wiki/肉の万世"
       }
     ],
     "1950": [
@@ -1032,6 +1045,20 @@
         "url_en": "https://www.fun-japan.jp/en/articles/11765",
         "note": "休日の無車化が定着し名物に。",
         "note_en": "Weekend car-free street becomes a hallmark."
+      },
+      {
+        "label": "ベンガル（老舗インド風カレー）",
+        "label_en": "Bengal (classic Indian-style curry)",
+        "startYear": 1973,
+        "endYear": 2024,
+        "genre": [
+          "STORE"
+        ],
+        "imp": 3,
+        "url": "[https://www.gdm.or.jp/crew/2024/1226/569189",
+        "url_en": "https://aki-pass.tokyo/aki-pass_blog/2022/07/08/bengal-02/",
+        "note": "1973年創業。秋葉原のカレー文化を象徴する一店として長年親しまれてきた。",
+        "note_en": "Founded](https://www.gdm.or.jp/crew/2024/1226/569189"
       }
     ],
     "1975": [
@@ -1276,6 +1303,19 @@
         "url_en": "https://en.wikipedia.org/wiki/MSX",
         "note": "互換規格でソフト・周辺機器が売れ行き好調。",
         "note_en": "Compatibility boosted sales of software and add-ons."
+      },
+      {
+        "label": "九州じゃんがら（秋葉原本店）",
+        "label_en": "Kyushu Jangara (Akihabara main)",
+        "startYear": 1984,
+        "genre": [
+          "STORE"
+        ],
+        "imp": 3,
+        "url": "[https://kyushujangara.co.jp/archives/",
+        "url_en": "https://1goten.jp/archives/post-3296.html",
+        "note": "1984年開業。マイルドとんこつの草分けとして行列店に。",
+        "note_en": "Opened](https://kyushujangara.co.jp/archives/"
       }
     ],
     "1985": [
@@ -1292,6 +1332,19 @@
         "url_en": "https://en.wikipedia.org/wiki/Compact_Disc",
         "note": "デジタルオーディオ普及で売場の構成が変化。",
         "note_en": "Digital audio reshaped store layouts."
+      },
+      {
+        "label": "ラホール（外神田の老舗カレー）",
+        "label_en": "Lahore (Lahore curry stand)",
+        "startYear": 1985,
+        "genre": [
+          "STORE"
+        ],
+        "imp": 3,
+        "url": "[https://tabelog.com/tokyo/A1311/A131101/13000354/",
+        "url_en": "https://tabelog.com/tokyo/A1311/A131101/13000354/",
+        "note": "1985年創業。辛口のブラックなど多彩なルウで支持を集める。",
+        "note_en": "Founded](https://tabelog.com/tokyo/A1311/A131101/13000354/"
       }
     ],
     "1986": [
