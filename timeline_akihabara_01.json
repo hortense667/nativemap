@@ -1910,6 +1910,17 @@
         "url_en": "https://en.wikipedia.org/wiki/I-mode",
         "note": "データ通信用周辺や着メロ関連が伸長。",
         "note_en": "Accessories for mobile data boomed."
+      },
+      {
+        "label": "スターケバブが移動販売の形で開業",
+        "startYear": 1999,
+        "genre": [
+          "EVENT",
+          "STORE"
+        ],
+        "imp": 1,
+        "url": "http://www.kebab.co.jp/",
+        "label_en": "Starkebab opened in the form of a mobile food vendor."
       }
     ],
     "2000": [
