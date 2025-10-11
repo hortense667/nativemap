@@ -1,20 +1,5 @@
 {
   "events": {
-    "1928": [
-      {
-        "label": "手塚治虫",
-        "startYear": 1928,
-        "endYear": 1989,
-        "genre": [
-          "ANI",
-          "MAN",
-          "MOV",
-          "UNC"
-        ],
-        "imp": 5,
-        "label_en": "Osamu Tetsuka"
-      }
-    ],
     "1945": [
       {
         "label": "終戦",
