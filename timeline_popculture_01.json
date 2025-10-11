@@ -3771,6 +3771,45 @@
     ],
     "1977": [
       {
+        "label": "Apple II",
+        "startYear": 1977,
+        "genre": [
+          "HAR"
+        ],
+        "imp": 5,
+        "note": "Apple II（アップル・ツー）は、Appleが1977年に発表したパーソナルコンピューター（ないしホームコンピューター）。 当時の分類としてはマイクロコンピューターである。",
+        "label_en": "Apple II",
+        "note_en": "Apple II is a series of microcomputers manufactured by Apple Computer, Inc. from 1977 to 1993.",
+        "url": "https://ja.wikipedia.org/wiki/Apple_II",
+        "url_en": "https://en.wikipedia.org/wiki/Apple_II"
+      },
+      {
+        "label": "VAX-11/780",
+        "startYear": 1977,
+        "genre": [
+          "HAR"
+        ],
+        "imp": 4,
+        "note": "VAX (バックス) は、1970年代中ごろディジタル・イクイップメント・コーポレーション (DEC) が開発し販売した32ビットのミニコンピュータのシリーズ、及び同シリーズの命令セットアーキテクチャ (ISA) を指すこともある。",
+        "label_en": "VAX",
+        "note_en": "VAX is a series of computers featuring a 32-bit instruction set architecture (ISA) and virtual memory that was developed and sold by Digital Equipment Corporati…",
+        "url": "https://ja.wikipedia.org/wiki/VAX-11/780",
+        "url_en": "https://en.wikipedia.org/wiki/VAX"
+      },
+      {
+        "label": "Atari 2600",
+        "startYear": 1977,
+        "genre": [
+          "HAR"
+        ],
+        "imp": 5,
+        "note": "Atari 2600は、米国アタリ社が開発し1977年にリリースした家庭用ゲーム機である。",
+        "label_en": "Atari 2600",
+        "note_en": "The Atari 2600 is a home video game console developed and produced by Atari, Inc.",
+        "url": "https://ja.wikipedia.org/wiki/Atari_2600",
+        "url_en": "https://en.wikipedia.org/wiki/Atari_2600"
+      },
+      {
         "label": "Yamaha CS-80",
         "startYear": 1977,
         "genre": [
@@ -3796,6 +3835,15 @@
         "note_en": "The Synclavier is an early digital synthesizer, polyphonic digital sampling system, and music workstation manufactured by New England Digital Corporation of Nor…",
         "url": "https://ja.wikipedia.org/wiki/シンクラヴィア",
         "url_en": "https://en.wikipedia.org/wiki/Synclavier"
+      },
+      {
+        "label": "Commodore PET 2001",
+        "startYear": 1977,
+        "genre": [
+          "HAR"
+        ],
+        "imp": 3,
+        "label_en": "Commodore PET 2001"
       },
       {
         "label": "アメリカ横断ウルトラクイズ",
@@ -3954,32 +4002,6 @@
         "url_en": "https://en.wikipedia.org/wiki/Star_Wars_%28film%29"
       },
       {
-        "label": "VAX-11/780",
-        "startYear": 1977,
-        "genre": [
-          "HAR"
-        ],
-        "imp": 4,
-        "note": "VAX (バックス) は、1970年代中ごろディジタル・イクイップメント・コーポレーション (DEC) が開発し販売した32ビットのミニコンピュータのシリーズ、及び同シリーズの命令セットアーキテクチャ (ISA) を指すこともある。",
-        "label_en": "VAX",
-        "note_en": "VAX is a series of computers featuring a 32-bit instruction set architecture (ISA) and virtual memory that was developed and sold by Digital Equipment Corporati…",
-        "url": "https://ja.wikipedia.org/wiki/VAX-11/780",
-        "url_en": "https://en.wikipedia.org/wiki/VAX"
-      },
-      {
-        "label": "Apple II",
-        "startYear": 1977,
-        "genre": [
-          "HAR"
-        ],
-        "imp": 5,
-        "note": "Apple II（アップル・ツー）は、Appleが1977年に発表したパーソナルコンピューター（ないしホームコンピューター）。 当時の分類としてはマイクロコンピューターである。",
-        "label_en": "Apple II",
-        "note_en": "Apple II is a series of microcomputers manufactured by Apple Computer, Inc. from 1977 to 1993.",
-        "url": "https://ja.wikipedia.org/wiki/Apple_II",
-        "url_en": "https://en.wikipedia.org/wiki/Apple_II"
-      },
-      {
         "label": "TRS-80",
         "startYear": 1977,
         "genre": [
@@ -3991,19 +4013,6 @@
         "note_en": "The TRS-80 Micro Computer System is a desktop microcomputer developed by American company Tandy Corporation and sold through their Radio Shack stores.",
         "url": "https://ja.wikipedia.org/wiki/TRS-80",
         "url_en": "https://en.wikipedia.org/wiki/TRS-80"
-      },
-      {
-        "label": "Atari 2600",
-        "startYear": 1977,
-        "genre": [
-          "HAR"
-        ],
-        "imp": 5,
-        "note": "Atari 2600は、米国アタリ社が開発し1977年にリリースした家庭用ゲーム機である。",
-        "label_en": "Atari 2600",
-        "note_en": "The Atari 2600 is a home video game console developed and produced by Atari, Inc.",
-        "url": "https://ja.wikipedia.org/wiki/Atari_2600",
-        "url_en": "https://en.wikipedia.org/wiki/Atari_2600"
       }
     ],
     "1978": [
@@ -17342,7 +17351,12 @@
     "title": {
       "ja": "ポップカルチャー年表 0.1",
       "en": "POP Culture Timeline 0.1"
-    }
+    },
+    "description": {
+      "ja": "秋葉原に関する年表：作者が制作してきた年表データに、Wikipedia、秋葉原電気街振興会のページなどを参考に項目を追加させていただきました。",
+      "en": "Timeline of Akihabara: The author has created timeline data with additional items based on references such as Wikipedia and the Akihabara Electric Town Promotion Association page."
+    },
+    "initialCreator": "Satoshi Endo"
   },
   "genres": [
     {
