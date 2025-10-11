@@ -35,21 +35,6 @@
     ],
     "1946": [
       {
-        "label": "サザエさん",
-        "startYear": 1946,
-        "endYear": 1974,
-        "genre": [
-          "MAN",
-          "JAPAN"
-        ],
-        "imp": 5,
-        "note": "『サザエさん』は、長谷川町子による日本の漫画。 また、その主人公である「フグ田サザエ」の呼び名のひとつである。",
-        "label_en": "Sazae-san",
-        "note_en": "Sazae-san is a Japanese yonkoma manga series written and illustrated by Machiko Hasegawa.",
-        "url": "https://ja.wikipedia.org/wiki/%E3%82%B5%E3%82%B6%E3%82%A8%E3%81%95%E3%82%93",
-        "url_en": "https://en.wikipedia.org/wiki/Sazae-san"
-      },
-      {
         "label": "世界 (雑誌)",
         "startYear": 1946,
         "endYear": "ongoing",
@@ -63,6 +48,21 @@
         "note_en": "Sekai is a Japanese monthly political magazine published by Iwanami Shoten, which was founded in December 1945.",
         "url": "https://ja.wikipedia.org/wiki/%E4%B8%96%E7%95%8C_%28%E9%9B%91%E8%AA%8C%29",
         "url_en": "https://en.wikipedia.org/wiki/Sekai_(magazine)"
+      },
+      {
+        "label": "サザエさん",
+        "startYear": 1946,
+        "endYear": 1974,
+        "genre": [
+          "MAN",
+          "JAPAN"
+        ],
+        "imp": 5,
+        "note": "『サザエさん』は、長谷川町子による日本の漫画。 また、その主人公である「フグ田サザエ」の呼び名のひとつである。",
+        "label_en": "Sazae-san",
+        "note_en": "Sazae-san is a Japanese yonkoma manga series written and illustrated by Machiko Hasegawa.",
+        "url": "https://ja.wikipedia.org/wiki/%E3%82%B5%E3%82%B6%E3%82%A8%E3%81%95%E3%82%93",
+        "url_en": "https://en.wikipedia.org/wiki/Sazae-san"
       },
       {
         "label": "ビキニ",
