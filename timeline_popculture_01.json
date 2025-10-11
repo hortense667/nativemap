@@ -179,20 +179,6 @@
     ],
     "1948": [
       {
-        "label": "エド・サリヴァン・ショー",
-        "startYear": 1948,
-        "endYear": "ongoing",
-        "genre": [
-          "TVP"
-        ],
-        "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/%E3%82%A8%E3%83%89%E3%83%BB%E3%82%B5%E3%83%AA%E3%83%B4%E3%82%A1%E3%83%B3%E3%83%BB%E3%82%B7%E3%83%A7%E3%83%BC",
-        "note": "『エド・サリヴァン・ショー』 は、アメリカ・CBSで放送されていたバラエティ番組である。",
-        "label_en": "The Ed Sullivan Show",
-        "url_en": "https://en.wikipedia.org/wiki/The_Ed_Sullivan_Show",
-        "note_en": "The Ed Sullivan Show is an American television variety show that ran on CBS from June 20, 1948, to March 28, 1971, and was hosted by New York entertainment colu…"
-      },
-      {
         "label": "美術手帖",
         "startYear": 1948,
         "endYear": "ongoing",
@@ -221,6 +207,20 @@
         "note_en": "No Longer Human , also translated as A Shameful Life, is a 1948 novel by Japanese author Osamu Dazai.",
         "url": "https://ja.wikipedia.org/wiki/人間失格",
         "url_en": "https://en.wikipedia.org/wiki/No_Longer_Human"
+      },
+      {
+        "label": "エド・サリヴァン・ショー",
+        "startYear": 1948,
+        "endYear": "ongoing",
+        "genre": [
+          "TVP"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/%E3%82%A8%E3%83%89%E3%83%BB%E3%82%B5%E3%83%AA%E3%83%B4%E3%82%A1%E3%83%B3%E3%83%BB%E3%82%B7%E3%83%A7%E3%83%BC",
+        "note": "『エド・サリヴァン・ショー』 は、アメリカ・CBSで放送されていたバラエティ番組である。",
+        "label_en": "The Ed Sullivan Show",
+        "url_en": "https://en.wikipedia.org/wiki/The_Ed_Sullivan_Show",
+        "note_en": "The Ed Sullivan Show is an American television variety show that ran on CBS from June 20, 1948, to March 28, 1971, and was hosted by New York entertainment colu…"
       },
       {
         "label": "自転車泥棒",
