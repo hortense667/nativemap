@@ -31,6 +31,19 @@
     ],
     "1870": [
       {
+        "label": "鎮火社（通称・秋葉社）創建",
+        "startYear": 1870,
+        "genre": [
+          "EVENT"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/秋葉神社_(台東区)",
+        "note": "明治天皇の勅命で神田花岡町の火除地に鎮火社を創建。この鎮火社を人々が「火伏の神様なら秋葉様」と誤解して「秋葉の原」、「秋葉っ原」などと呼んだ。",
+        "label_en": "Foundation of Chinka-sha (Akiba Shrine)",
+        "url_en": "https://en.wikipedia.org/wiki/Akihabara",
+        "note_en": "By](https://ja.wikipedia.org/wiki/秋葉神社_%28台東区%29"
+      },
+      {
         "label": "鎮火社が創建",
         "startYear": 1870,
         "genre": [
