@@ -271,15 +271,15 @@
         "label": "ニュー・オーリンズR&B",
         "startYear": 1950,
         "genre": [
-          "WORK",
-          "MUS"
+          "MUS",
+          "WORK"
         ],
         "imp": 3,
-        "note": "リズム・アンド・ブルース は、ポピュラー・音楽のジャンルである。 略称はR&B（アール・アンド・ビー）。",
+        "url": "https://ja.wikipedia.org/wiki/リズム・アンド・ブルース",
+        "note": "リズム・アンド・ブルース は、ポピュラー・音楽のジャンルである。 略称はR&B（アール・アンド・ビー）",
         "label_en": "New Orleans rhythm and blues",
         "url_en": "https://en.wikipedia.org/wiki/New_Orleans_rhythm_and_blues",
-        "note_en": "New Orleans rhythm and blues is a style of rhythm and blues that originated in New Orleans.",
-        "url": "https://ja.wikipedia.org/wiki/リズム・アンド・ブルース"
+        "note_en": "New Orleans rhythm and blues is a style of rhythm and blues that originated in New Orleans."
       }
     ],
     "1951": [
