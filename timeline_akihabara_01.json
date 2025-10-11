@@ -2890,6 +2890,18 @@
         "url_en": "https://visit-chiyoda.tokyo/app/en/spot/detail/806",
         "note": "ニュー秋葉原センター等にハラール食品店が出店。",
         "note_en": "Halal](https://www.value-press.com/pressrelease/73562"
+      },
+      {
+        "label": "山菊ポータブル閉店",
+        "startYear": 2011,
+        "genre": [
+          "EVENT",
+          "STORE"
+        ],
+        "imp": 2,
+        "note": "秋葉原の発祥は戦後の露店でラジオを販売した山菊ポータブルの前身だとされます。2010~2011の間に閉店。",
+        "label_en": "Yamagiku Portable Closed",
+        "note_en": "The origin of Akihabara is considered to be the predecessor of Yamagiku Portable, which sold radios at street stalls. It closed down between 2010 and 2011."
       }
     ],
     "2012": [
