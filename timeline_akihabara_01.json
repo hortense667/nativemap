@@ -3089,6 +3089,16 @@
         "url_en": "https://en.wikipedia.org/wiki/Trading_card_game",
         "note": "カード大会やショーケースが賑わう。",
         "note_en": "Stores hosted tourneys with prominent showcases."
+      },
+      {
+        "label": "「「グレーターアキバ: 情報・知識の交差路」広域秋葉原作戦会議",
+        "startYear": 2018,
+        "genre": [
+          "EVENT"
+        ],
+        "imp": 2,
+        "url": "https://tcha.jp/pts/greater-akiba/",
+        "label_en": "\"Greater Akiba: The Crossroads of Information and Knowledge\" Greater Akihabara Strategy Meeting"
       }
     ],
     "2019": [
