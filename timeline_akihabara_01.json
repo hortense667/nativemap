@@ -1673,6 +1673,17 @@
         "url_en": "https://en.wikipedia.org/wiki/Consumer_electronics_retailers",
         "note": "不況影響でシントク、ヒロセムセンなどが廃業。",
         "note_en": "Recession](https://ja.wikipedia.org/wiki/家電量販店"
+      },
+      {
+        "label": "タイゲン貿易が開店",
+        "startYear": 1993,
+        "genre": [
+          "STORE",
+          "ELECTRONICS"
+        ],
+        "imp": 2,
+        "url": "https://yosshin4004.github.io/demoscene/japanese_scene/index.html",
+        "label_en": "Taigen Trading Opens"
       }
     ],
     "1994": [
