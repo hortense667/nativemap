@@ -1,5 +1,154 @@
 {
   "events": {
+    "1912": [
+      {
+        "label": "万世橋駅（中央線の重要駅）",
+        "label_en": "Manseibashi Station (Chuo Line key stop)",
+        "startYear": 1912,
+        "endYear": 1943,
+        "genre": [
+          "EVENT",
+          "JAPAN"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/万世橋駅",
+        "url_en": "https://en.wikipedia.org/wiki/Manseibashi_Station",
+        "note": "赤煉瓦高架上の駅として開業し戦時下の1943年に休止、遺構は商業施設として活用。",
+        "note_en": "Opened in 1912 on red brick viaduct, closed in 1943, remnants later reused in retail spaces."
+      }
+    ],
+    "1920": [
+      {
+        "label": "青果市場的な集積と問屋街化",
+        "label_en": "Wholesalers and produce market cluster",
+        "startYear": 1920,
+        "endYear": 1930,
+        "genre": [
+          "EVENT",
+          "JAPAN"
+        ],
+        "imp": 3,
+        "url": "https://www.japan-experience.com/all-about-japan/tokyo/attractions-and-excursions/akihabara-station",
+        "url_en": "https://www.jrailpass.com/blog/akihabara-station",
+        "note": "駅利便の向上で青果や雑貨の問屋が集まり商流の土台が形成。",
+        "note_en": "Improved access drew produce and goods wholesalers, laying commerce foundations."
+      }
+    ],
+    "1925": [
+      {
+        "label": "秋葉原駅 旅客営業開始（山手・京浜直通整備）",
+        "label_en": "Akihabara Station opens to passengers",
+        "startYear": 1925,
+        "genre": [
+          "EVENT",
+          "JAPAN"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/秋葉原駅",
+        "url_en": "https://www.japan-experience.com/all-about-japan/tokyo/attractions-and-excursions/akihabara-station",
+        "note": "山手方面と接続が進み旅客取扱いを開始、問屋の集積が進む。",
+        "note_en": "Passenger services began after line connections improved, attracting wholesalers to the area."
+      }
+    ],
+    "1930": [
+      {
+        "label": "都市モダニズムと電化の浸透（周辺市街地）",
+        "label_en": "Urban modernism and electrification spread",
+        "startYear": 1930,
+        "endYear": 1939,
+        "genre": [
+          "EVENT",
+          "JAPAN",
+          "ELECTRONICS"
+        ],
+        "imp": 2,
+        "url": "https://ja.wikipedia.org/wiki/モダニズム建築",
+        "url_en": "https://en.wikipedia.org/wiki/Modern_architecture",
+        "note": "神田川沿いの高架活用や電化の普及で商業環境が近代化。",
+        "note_en": "Viaduct reuse and electrification modernized the commercial environment around Kanda River."
+      }
+    ],
+    "1935": [
+      {
+        "label": "秋葉原駅の賑わい（昭和初期）写真資料",
+        "label_en": "Akihabara Station bustle in mid-1930s (photo)",
+        "startYear": 1935,
+        "genre": [
+          "CONTENT",
+          "JAPAN"
+        ],
+        "imp": 2,
+        "url": "https://www.oldtokyo.com/akihabara-station-tokyo-c-1935/",
+        "url_en": "https://www.oldtokyo.com/akihabara-station-tokyo-c-1935/",
+        "note": "昭和初期の駅前風景が記録され流通拠点としての性格がうかがえる。",
+        "note_en": "Mid-1930s photos show a busy station area, reflecting its role as a logistics and retail node."
+      }
+    ],
+    "1936": [
+      {
+        "label": "周辺地下鉄整備と人流増（銀座線界隈）",
+        "label_en": "Subway improvements boost foot traffic",
+        "startYear": 1936,
+        "genre": [
+          "EVENT",
+          "JAPAN"
+        ],
+        "imp": 2,
+        "url": "https://ja.wikipedia.org/wiki/東京メトロ銀座線",
+        "url_en": "https://en.wikipedia.org/wiki/Tokyo_Metro_Ginza_Line",
+        "note": "神田〜末広町付近の地下鉄整備が広域の人流を誘発。",
+        "note_en": "Subway development around Kanda to Suehirocho increased regional foot traffic."
+      }
+    ],
+    "1937": [
+      {
+        "label": "電気部材の需要増（ラジオ普及と学校需要）",
+        "label_en": "Rising demand for radio parts and school needs",
+        "startYear": 1937,
+        "genre": [
+          "ELECTRONICS",
+          "JAPAN"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/ラジオ",
+        "url_en": "https://en.wikipedia.org/wiki/Radio_in_Japan",
+        "note": "受信機普及や工学教育の拡大で部品需要が増し関連商いが芽生える。",
+        "note_en": "Radio ownership and engineering education increased demand for parts, seeding related trade."
+      }
+    ],
+    "1938": [
+      {
+        "label": "統制経済の進展と物資の配給影響",
+        "label_en": "Wartime controls and rationing effects",
+        "startYear": 1938,
+        "genre": [
+          "EVENT",
+          "JAPAN"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/国家総動員法",
+        "url_en": "https://en.wikipedia.org/wiki/National_Mobilization_Law",
+        "note": "統制経済で物資や販売が制約され流通構造に影響。",
+        "note_en": "Mobilization policies restricted goods and sales, affecting local distribution."
+      }
+    ],
+    "1939": [
+      {
+        "label": "家電・部品の統制強化前夜",
+        "label_en": "Pre-war tightening on appliances and parts",
+        "startYear": 1939,
+        "genre": [
+          "EVENT",
+          "JAPAN",
+          "ELECTRONICS"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/配給制度",
+        "url_en": "https://en.wikipedia.org/wiki/Rationing_in_Japan",
+        "note": "戦時体制移行で家電や部品取引が制約される兆候が強まる。",
+        "note_en": "Shift to wartime regime signaled tighter controls on appliances and electronic parts."
+      }
+    ],
     "1940": [
       {
         "label": "電材問屋の集積が進む",
@@ -14,6 +163,20 @@
         "url_en": "https://www.jstage.jst.go.jp/article/jasess/33/0/33_39/_pdf",
         "note": "戦前から秋葉原周辺に電気材料の卸商が集積し始めた。",
         "note_en": "Before WWII, wholesalers of electrical materials began clustering near Akihabara."
+      },
+      {
+        "label": "秋葉原周辺の商環境に戦時色が濃まる",
+        "label_en": "Wartime atmosphere intensifies in Akihabara area",
+        "startYear": 1940,
+        "genre": [
+          "EVENT",
+          "JAPAN"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/第二次世界大戦下の日本",
+        "url_en": "https://en.wikipedia.org/wiki/Home_front_in_Japan_during_World_War_II",
+        "note": "軍需優先や統制強化で民生商材の流通が細り商環境が変質。",
+        "note_en": "Military priority and controls thinned civilian goods distribution, altering local commerce."
       }
     ],
     "1945": [
