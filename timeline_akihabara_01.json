@@ -1,5 +1,101 @@
 {
   "events": {
+    "1869": [
+      {
+        "label": "秋葉原の地名の由来（火除けの秋葉社）",
+        "label_en": "Origin of the name Akihabara (Akiba fire deity shrine)",
+        "startYear": 1869,
+        "genre": [
+          "EVENT",
+          "JAPAN"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/秋葉原",
+        "url_en": "https://en.wikipedia.org/wiki/Akihabara",
+        "note": "明治の大火後に火防の神を祀る社が置かれ、秋葉ヶ原→秋葉原と呼ばれるようになった。",
+        "note_en": "After a major fire a shrine to Akiba, a fire deity, was built and the area became known as Akibagahara then Akihabara."
+      }
+    ],
+    "1870": [
+      {
+        "label": "鎮火社（通称・秋葉社）創建",
+        "label_en": "Foundation of Chinka-sha (Akiba Shrine)",
+        "startYear": 1870,
+        "genre": [
+          "EVENT",
+          "JAPAN"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/秋葉神社_(台東区)",
+        "url_en": "https://en.wikipedia.org/wiki/Akihabara",
+        "note": "明治天皇の勅命で神田花岡町の火除地に鎮火社を創建。地名「秋葉原」の由来の核となる。",
+        "note_en": "By](https://ja.wikipedia.org/wiki/秋葉神社_%28台東区%29"
+      }
+    ],
+    "1880": [
+      {
+        "label": "森鴎外『雁』の舞台（神田界隈）",
+        "label_en": "Setting of Mori Ogai's The Wild Geese near Kanda",
+        "startYear": 1880,
+        "genre": [
+          "CONTENT",
+          "JAPAN"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/雁_(小説)",
+        "url_en": "https://en.wikipedia.org/wiki/The_Wild_Geese_(Mori_novel)",
+        "note": "明治東京の世相を背景に神田周辺が舞台となり後の秋葉原周縁の風景もにじむ。",
+        "note_en": "Set in 1880 Tokyo around Kanda, reflecting social change near what later borders Akihabara."
+      }
+    ],
+    "1888": [
+      {
+        "label": "鎮火社が入谷へ遷座（現・台東区松が谷）",
+        "label_en": "Relocation of Chinka-sha to Iriya",
+        "startYear": 1888,
+        "genre": [
+          "EVENT",
+          "JAPAN"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/秋葉神社_(台東区)",
+        "url_en": "https://en.wikipedia.org/wiki/Tait%C5%8D",
+        "note": "火除を祀る鎮火社が下谷区入谷町へ移転。のちの台東区松が谷三丁目に鎮座する。",
+        "note_en": "The](https://ja.wikipedia.org/wiki/秋葉神社_%28台東区%29"
+      }
+    ],
+    "1890": [
+      {
+        "label": "秋葉原駅 開業（貨物駅）",
+        "label_en": "Akihabara Station opens as freight terminal",
+        "startYear": 1890,
+        "genre": [
+          "EVENT",
+          "JAPAN"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/秋葉原駅",
+        "url_en": "https://en.wikipedia.org/wiki/Akihabara_Station",
+        "note": "上野と結ぶ貨物拠点として開業し周辺流通の核となる。",
+        "note_en": "Opened as a freight terminal linked to Ueno, becoming a logistics hub for the area."
+      }
+    ],
+    "1908": [
+      {
+        "label": "昌平橋駅が開業（中央本線の臨時駅）",
+        "label_en": "Shoheibashi Station opens",
+        "startYear": 1908,
+        "genre": [
+          "EVENT",
+          "JAPAN"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/昌平橋駅",
+        "url_en": "https://en.wikipedia.org/wiki/Ch%C5%AB%C5%8D_Main_Line",
+        "note": "万世橋の至近に臨時駅として開業、のちに万世橋駅へ役割を継承。",
+        "note_en": "A](https://ja.wikipedia.org/wiki/昌平橋駅"
+      }
+    ],
     "1912": [
       {
         "label": "万世橋駅（中央線の重要駅）",
@@ -15,6 +111,20 @@
         "url_en": "https://en.wikipedia.org/wiki/Manseibashi_Station",
         "note": "赤煉瓦高架上の駅として開業し戦時下の1943年に休止、遺構は商業施設として活用。",
         "note_en": "Opened in 1912 on red brick viaduct, closed in 1943, remnants later reused in retail spaces."
+      },
+      {
+        "label": "昌平橋駅が廃止",
+        "label_en": "Shoheibashi Station closes",
+        "startYear": 1912,
+        "genre": [
+          "EVENT",
+          "JAPAN"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/昌平橋駅",
+        "url_en": "https://en.wikipedia.org/wiki/Ch%C5%AB%C5%8D_Main_Line",
+        "note": "万世橋駅の開業に伴い廃止。",
+        "note_en": "Closed](https://ja.wikipedia.org/wiki/昌平橋駅"
       }
     ],
     "1920": [
@@ -50,6 +160,22 @@
         "note_en": "Passenger services began after line connections improved, attracting wholesalers to the area."
       }
     ],
+    "1928": [
+      {
+        "label": "神田青果市場が多町から移転",
+        "label_en": "Kanda Fruit Market relocates to Akihabara area",
+        "startYear": 1928,
+        "genre": [
+          "EVENT",
+          "JAPAN"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/神田市場",
+        "url_en": "https://en.wikipedia.org/wiki/T%C5%8Dky%C5%8D_Metropolitan_Central_Wholesale_Market",
+        "note": "市場の移転で駅近に卸売機能が集積し、商流の核が強化。",
+        "note_en": "The](https://ja.wikipedia.org/wiki/神田市場"
+      }
+    ],
     "1930": [
       {
         "label": "都市モダニズムと電化の浸透（周辺市街地）",
@@ -66,6 +192,37 @@
         "url_en": "https://en.wikipedia.org/wiki/Modern_architecture",
         "note": "神田川沿いの高架活用や電化の普及で商業環境が近代化。",
         "note_en": "Viaduct reuse and electrification modernized the commercial environment around Kanda River."
+      },
+      {
+        "label": "児童書で“未来都市”の象徴として描写",
+        "label_en": "Akihabara as “future city” motif in kids’ books",
+        "startYear": 1930,
+        "endYear": 1945,
+        "genre": [
+          "CONTENT",
+          "EVENT"
+        ],
+        "imp": 2,
+        "url": "https://ja.wikipedia.org/wiki/児童文学",
+        "url_en": "https://en.wikipedia.org/wiki/Children%27s_literature",
+        "note": "多層に交差する鉄道風景から未来都市として描かれることがあった。",
+        "note_en": "Its](https://ja.wikipedia.org/wiki/児童文学"
+      }
+    ],
+    "1932": [
+      {
+        "label": "御茶ノ水〜両国開業で乗換拠点化",
+        "label_en": "Becomes transfer hub with Ochanomizu–Ryogoku link",
+        "startYear": 1932,
+        "genre": [
+          "EVENT",
+          "JAPAN"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/総武本線",
+        "url_en": "https://en.wikipedia.org/wiki/S%C5%8Dbu_Main_Line",
+        "note": "路線延伸で秋葉原が乗換の要に。",
+        "note_en": "Line](https://ja.wikipedia.org/wiki/総武本線"
       }
     ],
     "1935": [
@@ -98,6 +255,20 @@
         "url_en": "https://en.wikipedia.org/wiki/Tokyo_Metro_Ginza_Line",
         "note": "神田〜末広町付近の地下鉄整備が広域の人流を誘発。",
         "note_en": "Subway development around Kanda to Suehirocho increased regional foot traffic."
+      },
+      {
+        "label": "鉄道博物館が万世橋構内へ移転",
+        "label_en": "Railway Museum moves to Manseibashi",
+        "startYear": 1936,
+        "genre": [
+          "EVENT",
+          "CONTENT"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/交通博物館_(東京)",
+        "url_en": "https://en.wikipedia.org/wiki/Transportation_Museum_(Tokyo)",
+        "note": "東京駅から万世橋の駅構内へ移転し来街動機を創出。",
+        "note_en": "Relocated](https://ja.wikipedia.org/wiki/交通博物館_%28東京%29"
       }
     ],
     "1937": [
@@ -241,6 +412,19 @@
         "url_en": "https://en.wikipedia.org/wiki/Radio_in_Japan",
         "note": "戦後の放送再開が部品需要と自作文化を刺激。",
         "note_en": "Postwar resumption of broadcasting spurred parts demand and DIY culture."
+      },
+      {
+        "label": "万世橋警察署が設置",
+        "label_en": "Manseibashi Police Station established",
+        "startYear": 1948,
+        "genre": [
+          "EVENT"
+        ],
+        "imp": 2,
+        "url": "https://ja.wikipedia.org/wiki/万世橋警察署",
+        "url_en": "https://en.wikipedia.org/wiki/Chiyoda,_Tokyo",
+        "note": "治安維持拠点として設置され、電気街の発展を下支え。",
+        "note_en": "A](https://ja.wikipedia.org/wiki/万世橋警察署"
       }
     ],
     "1949": [
@@ -272,6 +456,20 @@
         "url_en": "https://toragi.cqpub.co.jp/wp-content/uploads/p085-6.pdf",
         "note": "露店撤廃令を受け高架下にラジオストアーが開店。電気街の基盤に。",
         "note_en": "Stall clearance led to Radio Store under the tracks, forming Electric Town’s base."
+      },
+      {
+        "label": "ラジオガァデン開設（高架下モール）",
+        "label_en": "Radio Gaarden under-track mall opens",
+        "startYear": 1949,
+        "genre": [
+          "STORE",
+          "ELECTRONICS"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/ラジオガァデン",
+        "url_en": "https://ja.wikipedia.org/wiki/ラジオガァデン",
+        "note": "GHQの露店撤廃後に整備された電子部品の商業施設。",
+        "note_en": "Post-GHQ](https://ja.wikipedia.org/wiki/ラジオガァデン"
       }
     ],
     "1950": [
@@ -288,6 +486,22 @@
         "url_en": "https://www.tokyoradiodepart.co.jp/",
         "note": "電子部品専門デパートとして1950年2月設立。",
         "note_en": "Established Feb 1950 as a specialist department store for electronic parts."
+      },
+      {
+        "label": "「○○ムセン」命名の流行（ラジオ販売）",
+        "label_en": "“Musen” shop-naming trend",
+        "startYear": 1950,
+        "endYear": 1969,
+        "genre": [
+          "EVENT",
+          "STORE",
+          "ELECTRONICS"
+        ],
+        "imp": 2,
+        "url": "https://ja.wikipedia.org/wiki/ラジオ",
+        "url_en": "https://en.wikipedia.org/wiki/Radio_in_Japan",
+        "note": "ラジオ中心の販売店が「無線」を冠する屋号を多用。巣鴨系発祥店も秋葉原へ。",
+        "note_en": "Radio-focused](https://ja.wikipedia.org/wiki/ラジオ"
       }
     ],
     "1951": [
@@ -318,6 +532,20 @@
         "url_en": "https://toragi.cqpub.co.jp/wp-content/uploads/p085-6.pdf",
         "note": "放送再開で完成品ラジオや部品が秋葉原でブームに。",
         "note_en": "Resumed broadcasting boosted demand for radios and parts in Akihabara."
+      },
+      {
+        "label": "オノデン設立（秋葉原の量販店の草分け）",
+        "label_en": "Onoden is founded",
+        "startYear": 1951,
+        "genre": [
+          "STORE",
+          "ELECTRONICS"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/オノデン",
+        "url_en": "https://en.wikipedia.org/wiki/Onoden",
+        "note": "電気店「オノデン」が法人化し量販店化の先鞭を付ける。",
+        "note_en": "Onoden](https://ja.wikipedia.org/wiki/オノデン"
       }
     ],
     "1952": [
@@ -333,6 +561,37 @@
         "url_en": "https://en.wikipedia.org/wiki/Akihabara_Station",
         "note": "駅周辺の動線整備が進み電気街口形成の素地ができる。",
         "note_en": "Pedestrian flows around the station set the stage for the Electric Town exit."
+      },
+      {
+        "label": "ラジオガーデン開業（万世橋たもと）",
+        "label_en": "Radio Garden opens near Manseibashi",
+        "startYear": 1952,
+        "genre": [
+          "STORE",
+          "ELECTRONICS"
+        ],
+        "imp": 3,
+        "url": "https://akiba.or.jp/archives/history02/",
+        "url_en": "https://akiba.or.jp/wp_en/archives/history02/",
+        "note": "戦後の高架下活用で専門モールが拡大し、部品・完成品の販売拠点が増える。",
+        "note_en": "Under-viaduct](https://akiba.or.jp/archives/history02/"
+      }
+    ],
+    "1953": [
+      {
+        "label": "テレビ本放送開始で受像機需要が急増",
+        "label_en": "Start of TV broadcasting drives TV demand",
+        "startYear": 1953,
+        "genre": [
+          "EVENT",
+          "PRODUCT",
+          "ELECTRONICS"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/テレビ放送史_(日本)",
+        "url_en": "https://en.wikipedia.org/wiki/Television_in_Japan",
+        "note": "NHK等の本放送開始で受像機の需要が伸び、秋葉原の家電需要を押し上げた。",
+        "note_en": "Start](https://ja.wikipedia.org/wiki/テレビ放送史_%28日本%29"
       }
     ],
     "1954": [
@@ -460,6 +719,63 @@
         "url_en": "https://en.wikipedia.org/wiki/Akihabara_Station",
         "note": "駅の動線が電気街側に強化され回遊性が向上。",
         "note_en": "Station access improved on the Electric Town side."
+      },
+      {
+        "label": "日比谷線・秋葉原駅が開業",
+        "label_en": "Hibiya Line Akihabara Station opens",
+        "startYear": 1962,
+        "genre": [
+          "EVENT"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/秋葉原駅",
+        "url_en": "https://en.wikipedia.org/wiki/Akihabara_Station",
+        "note": "地下鉄接続で来街導線が強化され商業が拡大。",
+        "note_en": "Subway](https://ja.wikipedia.org/wiki/秋葉原駅"
+      },
+      {
+        "label": "営団地下鉄日比谷線 秋葉原駅開業",
+        "label_en": "Hibiya Line Akihabara Station opens",
+        "startYear": 1962,
+        "genre": [
+          "EVENT"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/秋葉原駅",
+        "url_en": "https://en.wikipedia.org/wiki/Akihabara_Station",
+        "note": "地下鉄駅の新設で回遊性が向上し来街者が増加。",
+        "note_en": "Subway](https://ja.wikipedia.org/wiki/秋葉原駅"
+      },
+      {
+        "label": "営団地下鉄日比谷線 秋葉原駅 開業",
+        "label_en": "Hibiya Line Akihabara Station opens",
+        "startYear": 1962,
+        "genre": [
+          "EVENT",
+          "JAPAN"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/秋葉原駅",
+        "url_en": "https://en.wikipedia.org/wiki/Akihabara_Station",
+        "note": "1962年5月31日、営団地下鉄（日比谷線）秋葉原駅が開業し都心アクセスが向上。",
+        "note_en": "On](https://ja.wikipedia.org/wiki/秋葉原駅"
+      }
+    ],
+    "1963": [
+      {
+        "label": "全日本電器大店経営研究会発足（NEBAの前身）",
+        "label_en": "Precursor of NEBA is formed",
+        "startYear": 1963,
+        "genre": [
+          "EVENT",
+          "STORE",
+          "ELECTRONICS"
+        ],
+        "imp": 3,
+        "url": "https://akiba.or.jp/archives/history03/",
+        "url_en": "https://akiba.or.jp/wp_en/archives/history03/",
+        "note": "大型店の連携組織が発足し流通の近代化が進む。",
+        "note_en": "A](https://akiba.or.jp/archives/history03/"
       }
     ],
     "1964": [
@@ -475,6 +791,19 @@
         "url_en": "https://en.wikipedia.org/wiki/T%C5%8Dkaid%C5%8D_Shinkansen",
         "note": "地方からの来街が便利になり、買い回りが増加。",
         "note_en": "High-speed rail made visits from other regions easier."
+      },
+      {
+        "label": "台東区秋葉原で住居表示を実施",
+        "label_en": "New address system enforced in Taitō Akihabara",
+        "startYear": 1964,
+        "genre": [
+          "EVENT"
+        ],
+        "imp": 2,
+        "url": "https://ja.wikipedia.org/wiki/住居表示に関する法律",
+        "url_en": "https://en.wikipedia.org/wiki/Japanese_addressing_system",
+        "note": "住居表示実施で地番表記が整理され案内性が向上。",
+        "note_en": "Address](https://ja.wikipedia.org/wiki/住居表示に関する法律"
       }
     ],
     "1965": [
@@ -539,6 +868,63 @@
         "url_en": "https://en.wikipedia.org/wiki/Akihabara",
         "note": "電子部品小売の先駆が正式出店。",
         "note_en": "Pioneer component retailer opens officially."
+      },
+      {
+        "label": "都電の撤去で交通体系が転換",
+        "label_en": "Toden streetcars removed",
+        "startYear": 1970,
+        "endYear": 1972,
+        "genre": [
+          "EVENT"
+        ],
+        "imp": 2,
+        "url": "https://ja.wikipedia.org/wiki/%E6%9D%B1%E4%BA%AC%E9%83%BD%E9%9B%BB%E3%83%BB%E8%BB%8A%E8%BC%AA%E3%83%BB%E8%BB%8A%E8%BC%AA%E8%BB%8A",
+        "url_en": "https://en.wikipedia.org/wiki/Tram_network_in_Tokyo",
+        "note": "路面電車撤去でバス・鉄道中心に人流が再編。",
+        "note_en": "Streetcar](https://ja.wikipedia.org/wiki/%E6%9D%B1%E4%BA%AC%E9%83%BD%E9%9B%BB%E3%83%BB%E8%BB%8A%E8%BC%AA%E3%83%BB%E8%BB%8A%E8%BC%AA%E8%BB%8A"
+      },
+      {
+        "label": "免税店の登場と観光消費の芽生え",
+        "label_en": "Duty-free shops emerge",
+        "startYear": 1970,
+        "endYear": 1979,
+        "genre": [
+          "STORE",
+          "EVENT"
+        ],
+        "imp": 2,
+        "url": "https://ja.wikipedia.org/wiki/免税店",
+        "url_en": "https://en.wikipedia.org/wiki/Duty-free_shop",
+        "note": "輸入家電やレコード需要とともに訪日客向け販売が拡大。",
+        "note_en": "Duty-free](https://ja.wikipedia.org/wiki/免税店"
+      },
+      {
+        "label": "都電の撤去が進む（秋葉原周辺）",
+        "label_en": "Toden streetcar withdrawal around Akihabara",
+        "startYear": 1970,
+        "endYear": 1972,
+        "genre": [
+          "EVENT"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/東京都電車",
+        "url_en": "https://en.wikipedia.org/wiki/Tokyo_city_tram",
+        "note": "1970年代初頭に路面電車が段階的に廃止され交通動線が変化。",
+        "note_en": "Streetcars](https://ja.wikipedia.org/wiki/東京都電車"
+      },
+      {
+        "label": "FM東京（現TOKYO FM）開局、民放FM本格化",
+        "label_en": "Tokyo FM launches",
+        "startYear": 1970,
+        "genre": [
+          "EVENT",
+          "CONTENT"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/エフエム東京",
+        "url_en": "https://en.wikipedia.org/wiki/Tokyo_FM",
+        "note": "高音質放送の普及でオーディオ需要が刺激され関連売場が拡充。",
+        "note_en": "Hi-fi](https://ja.wikipedia.org/wiki/エフエム東京"
       }
     ],
     "1971": [
@@ -571,6 +957,20 @@
         "url_en": "https://en.wikipedia.org/wiki/Shortwave_listening",
         "note": "短波受信機や外部アンテナの売れ行きが伸びる。",
         "note_en": "Shortwave receivers and antennas sold briskly."
+      },
+      {
+        "label": "サトー無線→サトームセンへ改称",
+        "label_en": "Sato Musen becomes Sato Musen Co.",
+        "startYear": 1972,
+        "genre": [
+          "STORE",
+          "ELECTRONICS"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/サトームセン",
+        "url_en": "https://ja.wikipedia.org/wiki/サトームセン",
+        "note": "量販化の波に乗り秋葉原で多店舗展開の基盤に。",
+        "note_en": "Renaming](https://ja.wikipedia.org/wiki/サトームセン"
       }
     ],
     "1973": [
@@ -869,6 +1269,19 @@
         "url_en": "https://www.hilife.or.jp/journal/akihabara/history.html",
         "note": "旧来の「やっちゃば」機能が移転し再開発が進む。",
         "note_en": "Old produce market relocates, enabling redevelopment."
+      },
+      {
+        "label": "牛丼サンボ 開業",
+        "label_en": "Gyudon SAMBO opens",
+        "startYear": 1989,
+        "genre": [
+          "STORE"
+        ],
+        "imp": 2,
+        "url": "https://getnews.jp/archives/2536523",
+        "url_en": "https://tabelog.com/en/tokyo/A1310/A131001/13000378/",
+        "note": "秋葉原のローカル名物食堂「牛丼サンボ」が開業しB級グルメの象徴に。",
+        "note_en": "Local](https://getnews.jp/archives/2536523"
       }
     ],
     "1990": [
@@ -900,6 +1313,34 @@
         "url_en": "https://en.wikipedia.org/wiki/Used_good",
         "note": "下取り・中古専門店が成立し回遊が活発化。",
         "note_en": "Trade-ins and used-goods shops fueled circulation."
+      },
+      {
+        "label": "LaOX ザ・コンピュータ館開店",
+        "label_en": "LaOX “The Computer” opens",
+        "startYear": 1990,
+        "genre": [
+          "STORE",
+          "ELECTRONICS"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/ラオックスホールディングス",
+        "url_en": "https://zh.wikipedia.org/wiki/%E7%A6%8F%E4%B9%90%E9%80%9A#%E6%AD%B7%E5%8F%B2",
+        "note": "大型PC専門ビルの象徴的存在として行列を生んだ。",
+        "note_en": "Flagship](https://ja.wikipedia.org/wiki/ラオックスホールディングス"
+      },
+      {
+        "label": "ツクモパソコン本店開設",
+        "label_en": "TSUKUMO PC Main Store opens",
+        "startYear": 1990,
+        "genre": [
+          "STORE",
+          "ELECTRONICS"
+        ],
+        "imp": 4,
+        "url": "https://kaisya.tsukumo.co.jp/contents/history",
+        "url_en": "https://ja.wikipedia.org/wiki/九十九電機",
+        "note": "自作・周辺機器の大型専門店として地位を確立。",
+        "note_en": "Became](https://kaisya.tsukumo.co.jp/contents/history"
       }
     ],
     "1991": [
@@ -948,6 +1389,34 @@
         "url_en": "https://en.wikipedia.org/wiki/Arcade_game",
         "note": "大型筐体の導入が進みゲームセンターが活況。",
         "note_en": "Large cabinets drew crowds to arcades."
+      },
+      {
+        "label": "ソフマップが中央通りに初出店",
+        "label_en": "Sofmap opens on Chuo-dori",
+        "startYear": 1993,
+        "genre": [
+          "STORE",
+          "ELECTRONICS"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/ソフマップ",
+        "url_en": "https://en.wikipedia.org/wiki/Sofmap",
+        "note": "PC量販の旗艦展開を加速。",
+        "note_en": "Marked](https://ja.wikipedia.org/wiki/ソフマップ"
+      },
+      {
+        "label": "老舗中堅の廃業が相次ぐ（シントク等）",
+        "label_en": "Mid-tier legacy shops close",
+        "startYear": 1993,
+        "genre": [
+          "EVENT",
+          "STORE"
+        ],
+        "imp": 2,
+        "url": "https://ja.wikipedia.org/wiki/家電量販店",
+        "url_en": "https://en.wikipedia.org/wiki/Consumer_electronics_retailers",
+        "note": "不況影響でシントク、ヒロセムセンなどが廃業。",
+        "note_en": "Recession](https://ja.wikipedia.org/wiki/家電量販店"
       }
     ],
     "1994": [
@@ -964,6 +1433,48 @@
         "url_en": "https://en.wikipedia.org/wiki/PC_Card",
         "note": "PC用拡張カードやCD-ROMが定番化。",
         "note_en": "Sound/video/PC cards and CD-ROMs became staples."
+      },
+      {
+        "label": "PC関連売上がその他家電を逆転",
+        "label_en": "PC overtakes non-PC appliances in sales",
+        "startYear": 1994,
+        "genre": [
+          "EVENT",
+          "ELECTRONICS"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/DOS/V",
+        "url_en": "https://en.wikipedia.org/wiki/DOS/V",
+        "note": "自作・DOS/V普及でPC関連が街の主役に。",
+        "note_en": "DIY](https://ja.wikipedia.org/wiki/DOS/V"
+      },
+      {
+        "label": "T・ZONE.ミナミ店に大型PC専門フロア",
+        "label_en": "T-ZONE Minami opens large PC floor",
+        "startYear": 1994,
+        "genre": [
+          "STORE",
+          "ELECTRONICS"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/T-ZONE",
+        "url_en": "https://en.wikipedia.org/wiki/PC_retailer",
+        "note": "専門フロア整備で自作市場を牽引。",
+        "note_en": "Expanded](https://ja.wikipedia.org/wiki/T-ZONE"
+      },
+      {
+        "label": "とらのあな1号店（同人誌専門）開店",
+        "label_en": "Toranoana 1st store opens",
+        "startYear": 1994,
+        "genre": [
+          "STORE",
+          "OTAKU"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/コミックとらのあな",
+        "url_en": "https://akiba.keizai.biz/headline/4951/",
+        "note": "1994年6月、秋葉原で1号店が開店し同人流通の拠点に。",
+        "note_en": "In](https://ja.wikipedia.org/wiki/コミックとらのあな"
       }
     ],
     "1995": [
@@ -980,6 +1491,20 @@
         "url_en": "https://en.wikipedia.org/wiki/Windows_95",
         "note": "深夜販売に長蛇の列、PCブームの象徴に。",
         "note_en": "Massive midnight lines symbolized the PC boom."
+      },
+      {
+        "label": "あきばお〜 創業・出店",
+        "label_en": "Akibaoo founded/opens",
+        "startYear": 1995,
+        "genre": [
+          "STORE",
+          "ELECTRONICS"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/あきばお〜",
+        "url_en": "https://www.akibaoo.co.jp/static/n/info_company/",
+        "note": "1995年創業のディスカウント店「あきばお〜」が秋葉原に根付く。",
+        "note_en": "Discount](https://ja.wikipedia.org/wiki/あきばお〜"
       }
     ],
     "1996": [
@@ -1012,6 +1537,22 @@
         "url_en": "https://en.wikipedia.org/wiki/Mobile_phone#Japan",
         "note": "携帯電話コーナーが拡大。",
         "note_en": "Mobile phone sections expanded."
+      },
+      {
+        "label": "インターネットショー→AKIBAX開催",
+        "label_en": "Internet Show → AKIBAX",
+        "startYear": 1997,
+        "endYear": 2001,
+        "genre": [
+          "EVENT",
+          "CONTENT",
+          "ELECTRONICS"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/AKIBAX",
+        "url_en": "https://en.wikipedia.org/wiki/Akihabara#Festivals_and_events",
+        "note": "駅前広場中心の夏の大型イベントとして定着。",
+        "note_en": "A](https://ja.wikipedia.org/wiki/AKIBAX"
       }
     ],
     "1998": [
@@ -1028,6 +1569,20 @@
         "url_en": "https://en.wikipedia.org/wiki/IMac_G3",
         "note": "カラフル筐体が売場を彩る。",
         "note_en": "Colorful translucent designs refreshed displays."
+      },
+      {
+        "label": "（参考）Windows 98 発売・店頭セール活況",
+        "label_en": "Windows 98 launch retail buzz",
+        "startYear": 1998,
+        "genre": [
+          "EVENT",
+          "ELECTRONICS"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/Windows_98",
+        "url_en": "https://en.wikipedia.org/wiki/Windows_98",
+        "note": "発売に合わせPCショップが販促、OS販売イベント文化が定着。",
+        "note_en": "Launch](https://ja.wikipedia.org/wiki/Windows_98"
       }
     ],
     "1999": [
@@ -1074,6 +1629,61 @@
         "url_en": "https://en.wikipedia.org/wiki/Homebuilt_computer",
         "note": "ショップ独自ブランドPCやパーツ競争が激化。",
         "note_en": "Parts wars and shop-brand PCs flourished."
+      },
+      {
+        "label": "日本初のロボット専門店（ツクモ）",
+        "label_en": "Japan’s first robot specialty shop (Tsukumo)",
+        "startYear": 2000,
+        "genre": [
+          "STORE",
+          "ELECTRONICS"
+        ],
+        "imp": 3,
+        "url": "https://kaisya.tsukumo.co.jp/contents/history",
+        "url_en": "https://kaisya.tsukumo.co.jp/contents/history",
+        "note": "個人向けロボット・工作関連の販売を先導。",
+        "note_en": "Pioneered](https://kaisya.tsukumo.co.jp/contents/history"
+      },
+      {
+        "label": "TSUKUMO eX.（自作パーツ館）開設",
+        "label_en": "TSUKUMO eX. parts megastore opens",
+        "startYear": 2000,
+        "genre": [
+          "STORE",
+          "ELECTRONICS"
+        ],
+        "imp": 4,
+        "url": "https://kaisya.tsukumo.co.jp/contents/history",
+        "url_en": "https://ja.wikipedia.org/wiki/九十九電機",
+        "note": "大規模なパーツ特化館で自作市場を牽引。",
+        "note_en": "Large](https://kaisya.tsukumo.co.jp/contents/history"
+      },
+      {
+        "label": "万世橋警察署が現在地へ移転",
+        "label_en": "Manseibashi Police moves to current site",
+        "startYear": 2000,
+        "genre": [
+          "EVENT"
+        ],
+        "imp": 2,
+        "url": "https://ja.wikipedia.org/wiki/万世橋警察署",
+        "url_en": "https://en.wikipedia.org/wiki/Chiyoda,_Tokyo",
+        "note": "再開発に伴い施設を移転。",
+        "note_en": "Relocated](https://ja.wikipedia.org/wiki/万世橋警察署"
+      },
+      {
+        "label": "Windows 2000 深夜販売（秋葉原）",
+        "label_en": "Windows 2000 midnight launch (Akihabara)",
+        "startYear": 2000,
+        "genre": [
+          "EVENT",
+          "ELECTRONICS"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/Windows_2000",
+        "url_en": "https://en.wikipedia.org/wiki/Windows_2000",
+        "note": "2000年2月、深夜販売が実施され行列が発生。",
+        "note_en": "In](https://ja.wikipedia.org/wiki/Windows_2000"
       }
     ],
     "2001": [
@@ -1091,6 +1701,90 @@
         "url_en": "https://www.japantimes.co.jp/news/2001/01/06/national/anime-invade-akihabaras-electronics-monopoly/",
         "note": "Gamersやとらのあな等の出店が相次ぐ。",
         "note_en": "Gamers and Toranoana expand, fueling otaku retail."
+      },
+      {
+        "label": "秋葉原ガチャポン会館オープン",
+        "label_en": "Akihabara Gachapon Kaikan opens",
+        "startYear": 2001,
+        "genre": [
+          "STORE",
+          "OTAKU"
+        ],
+        "imp": 3,
+        "url": "https://www.akibagacha.com/",
+        "url_en": "https://visit-chiyoda.tokyo/app/en/spot/detail/440",
+        "note": "カプセルトイ専門店として観光資源に定着。",
+        "note_en": "Capsule-toy](https://www.akibagacha.com/"
+      },
+      {
+        "label": "喫茶「東洋」が公衆無線LAN「ブロードバンドカレー」",
+        "label_en": "Cafe Toyo launches public Wi-Fi “Broadband Curry”",
+        "startYear": 2001,
+        "genre": [
+          "EVENT",
+          "STORE",
+          "ELECTRONICS"
+        ],
+        "imp": 3,
+        "url": "https://pcweb.mycom.co.jp/news/2001/08/08/13.html",
+        "url_en": "https://web.archive.org/web/20020106181636/http://www.hotspot.ne.jp/toyo/",
+        "note": "早期の公衆無線LAN実験でIT色を象徴。",
+        "note_en": "An](https://pcweb.mycom.co.jp/news/2001/08/08/13.html"
+      },
+      {
+        "label": "電気街口北側の駅前広場を閉鎖",
+        "label_en": "North station plaza closed for redevelopment",
+        "startYear": 2001,
+        "genre": [
+          "EVENT"
+        ],
+        "imp": 2,
+        "url": "https://ja.wikipedia.org/wiki/秋葉原",
+        "url_en": "https://en.wikipedia.org/wiki/Akihabara",
+        "note": "再開発のため広場が閉鎖、後のクロスフィールド整備へ。",
+        "note_en": "Plaza](https://ja.wikipedia.org/wiki/秋葉原"
+      },
+      {
+        "label": "喫茶「東洋」が公衆無線LAN“ブロードバンドカレー”開始",
+        "label_en": "Cafe Toyo starts public Wi-Fi “Broadband Curry”",
+        "startYear": 2001,
+        "genre": [
+          "EVENT",
+          "STORE"
+        ],
+        "imp": 3,
+        "url": "https://bb.watch.impress.co.jp/news/2001/10/26/curry.htm",
+        "url_en": "https://bb.watch.impress.co.jp/news/2001/10/26/curry.htm",
+        "note": "店内無線LANとADSLを提供しIT色の強い街の象徴に。",
+        "note_en": "Offered](https://bb.watch.impress.co.jp/news/2001/10/26/curry.htm"
+      },
+      {
+        "label": "Windows XP 深夜販売（秋葉原）",
+        "label_en": "Windows XP midnight launch (Akihabara)",
+        "startYear": 2001,
+        "genre": [
+          "EVENT",
+          "ELECTRONICS"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/Windows_XP",
+        "url_en": "https://en.wikipedia.org/wiki/Windows_XP",
+        "note": "2001年11月、複数店で深夜販売とイベントが開催。",
+        "note_en": "In](https://ja.wikipedia.org/wiki/Windows_XP"
+      },
+      {
+        "label": "Mac OS X 10.0 販売開始",
+        "label_en": "Mac OS X 10.0 goes on sale",
+        "startYear": 2001,
+        "genre": [
+          "EVENT",
+          "ELECTRONICS"
+        ],
+        "imp": 3,
+        "url": "https://www.apple.com/jp/newsroom/2001/03/21Mac-OS-X-Hits-Stores-This-Weekend/",
+        "url_en": "https://en.wikipedia.org/wiki/Mac_OS_X_10.0",
+        "note": "2001年3月24日、販売開始。取扱店で店頭展開が始まる。",
+        "note_en": "Released](https://www.apple.com/jp/newsroom/2001/03/21Mac-OS-X-Hits-Stores-This-Weekend/"
       }
     ],
     "2002": [
@@ -1108,6 +1802,48 @@
         "url_en": "https://en.wikipedia.org/wiki/Maid_caf%C3%A9",
         "note": "接客文化が観光資源として定着。",
         "note_en": "The themed service culture became a tourist draw."
+      },
+      {
+        "label": "成人向けグッズ店が電気街口周辺に進出",
+        "label_en": "Adult-goods stores expand near Electric Town exit",
+        "startYear": 2002,
+        "genre": [
+          "STORE",
+          "OTAKU"
+        ],
+        "imp": 2,
+        "url": "https://ja.wikipedia.org/wiki/アダルトショップ",
+        "url_en": "https://en.wikipedia.org/wiki/Sex_shop",
+        "note": "サブカル需要と観光化で関連店舗が増加。",
+        "note_en": "Subcultural](https://ja.wikipedia.org/wiki/アダルトショップ"
+      },
+      {
+        "label": "千代田区環境保護条例で路上禁煙化",
+        "label_en": "Chiyoda anti-littering ordinance creates no-smoking streets",
+        "startYear": 2002,
+        "genre": [
+          "EVENT"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/千代田区#環境",
+        "url_en": "https://en.wikipedia.org/wiki/Chiyoda,_Tokyo",
+        "note": "秋葉原の大半が路上禁煙地区に指定。",
+        "note_en": "Most](https://ja.wikipedia.org/wiki/千代田区#環境"
+      },
+      {
+        "label": "アソビットシティ開店（T・ZONE跡）",
+        "label_en": "Asobit City opens on former T-ZONE site",
+        "startYear": 2002,
+        "genre": [
+          "STORE",
+          "OTAKU",
+          "CONTENT"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/アソビットシティ",
+        "url_en": "https://ja.wikipedia.org/wiki/アソビットシティ",
+        "note": "ホビー・メディア複合の大型店。",
+        "note_en": "A](https://ja.wikipedia.org/wiki/アソビットシティ"
       }
     ],
     "2003": [
@@ -1124,6 +1860,46 @@
         "url_en": "https://en.wikipedia.org/wiki/Gashapon",
         "note": "小型店が増え回遊の楽しみを提供。",
         "note_en": "More specialty shops added to the browsing fun."
+      },
+      {
+        "label": "日本通運本社が汐留へ移転",
+        "label_en": "Nippon Express HQ moves to Shiodome",
+        "startYear": 2003,
+        "genre": [
+          "EVENT"
+        ],
+        "imp": 2,
+        "url": "https://ja.wikipedia.org/wiki/日本通運",
+        "url_en": "https://en.wikipedia.org/wiki/Nippon_Express",
+        "note": "物流系の拠点移転で街区再編が進む。",
+        "note_en": "Logistics](https://ja.wikipedia.org/wiki/日本通運"
+      },
+      {
+        "label": "中央通りで屋外公衆無線LAN「ホットスポット」開始",
+        "label_en": "Outdoor public Wi-Fi “HotSpot” begins on Chuo-dori",
+        "startYear": 2003,
+        "genre": [
+          "EVENT"
+        ],
+        "imp": 2,
+        "url": "https://akiba-pc.watch.impress.co.jp/hotline/20031004/etc_hotspot.html",
+        "url_en": "https://akiba-pc.watch.impress.co.jp/hotline/20031004/etc_hotspot.html",
+        "note": "NTT](https://akiba-pc.watch.impress.co.jp/hotline/20031004/etc_hotspot.html",
+        "note_en": "https://akiba-pc.watch.impress.co.jp/hotline/20031004/etc_hotspot.html"
+      },
+      {
+        "label": "Mac OS X 10.3 Panther 店頭イベント",
+        "label_en": "Mac OS X 10.3 “Panther” retail events",
+        "startYear": 2003,
+        "genre": [
+          "EVENT",
+          "ELECTRONICS"
+        ],
+        "imp": 2,
+        "url": "https://pc.watch.impress.co.jp/docs/2003/1025/apple.htm",
+        "url_en": "https://en.wikipedia.org/wiki/Mac_OS_X_Panther",
+        "note": "2003年10月、量販店で早朝・カウントダウン販売が話題に。",
+        "note_en": "In](https://pc.watch.impress.co.jp/docs/2003/1025/apple.htm"
       }
     ],
     "2004": [
@@ -1200,6 +1976,48 @@
         "url_en": "https://en.wikipedia.org/wiki/Don_Quijote_(store)",
         "note": "ドンキ秋葉原店8Fに常設劇場が誕生。",
         "note_en": "Permanent idol theater opens on Don Quijote Akihabara’s 8F."
+      },
+      {
+        "label": "ドン・キホーテ秋葉原店（劇場併設ビル）",
+        "label_en": "Don Quijote Akihabara landmark store",
+        "startYear": 2005,
+        "genre": [
+          "STORE",
+          "OTAKU"
+        ],
+        "imp": 3,
+        "url": "https://en.wikipedia.org/wiki/Don_Quijote_(store)",
+        "url_en": "https://visit-chiyoda.tokyo/app/en/spot/detail/810",
+        "note": "24時間営業の大型ディスカウントで観光客も定番化。",
+        "note_en": "24h](https://en.wikipedia.org/wiki/Don_Quijote_%28store%29"
+      },
+      {
+        "label": "「秋葉原エンタまつり」開始（東京国際映画祭併催）",
+        "label_en": "Akihabara Enta-Matsuri begins",
+        "startYear": 2005,
+        "genre": [
+          "EVENT",
+          "CONTENT",
+          "OTAKU"
+        ],
+        "imp": 3,
+        "url": "https://akiba.or.jp/archives/history07/",
+        "url_en": "https://akiba.or.jp/wp_en/archives/history07/",
+        "note": "映画・アニメ・ゲーム連動の街ぐるみイベントが恒例化。",
+        "note_en": "A](https://akiba.or.jp/archives/history07/"
+      },
+      {
+        "label": "サンコーレアモノショップ 秋葉原店オープン",
+        "label_en": "Thanko Rare-mono Shop opens (Akihabara)",
+        "startYear": 2005,
+        "genre": [
+          "STORE"
+        ],
+        "imp": 3,
+        "url": "https://akiba-pc.watch.impress.co.jp/hotline/20050402/etc_thanko.html",
+        "url_en": "https://www.thanko.co.jp/view/company",
+        "note": "珍品・便利グッズの専門店が秋葉原に初出店。",
+        "note_en": "Gadget/novelty](https://akiba-pc.watch.impress.co.jp/hotline/20050402/etc_thanko.html"
       }
     ],
     "2006": [
@@ -1232,6 +2050,116 @@
         "url_en": "https://en.wikipedia.org/wiki/Transportation_Museum_(Tokyo)",
         "note": "長年の来街導線の一つが幕を下ろす。",
         "note_en": "A longtime visitor draw near Akiba shut its doors."
+      },
+      {
+        "label": "東京アニメセンター（UDX内）",
+        "label_en": "Tokyo Anime Center at UDX",
+        "startYear": 2006,
+        "endYear": 2011,
+        "genre": [
+          "CONTENT",
+          "OTAKU"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/東京アニメセンター",
+        "url_en": "https://en.wikipedia.org/wiki/Tokyo_Anime_Center",
+        "note": "UDXでPR拠点として開設、イベントや展示を実施。",
+        "note_en": "Opened](https://ja.wikipedia.org/wiki/東京アニメセンター"
+      },
+      {
+        "label": "AKIBA_SQUARE（UDXのイベント拠点）",
+        "label_en": "Akiba Square event venue opens",
+        "startYear": 2006,
+        "genre": [
+          "EVENT",
+          "CONTENT",
+          "OTAKU"
+        ],
+        "imp": 3,
+        "url": "https://www.nttud.co.jp/english/business/amenity/detail/id/21.html",
+        "url_en": "https://in.yamaha.com/en/business/audio/case-studies/2018/0606-20-udx.html",
+        "note": "大型展示・物販イベントの開催拠点に。",
+        "note_en": "Became](https://www.nttud.co.jp/english/business/amenity/detail/id/21.html"
+      },
+      {
+        "label": "ベルサール秋葉原（イベントホール）稼働",
+        "label_en": "Bellesalle Akihabara in operation",
+        "startYear": 2006,
+        "genre": [
+          "EVENT",
+          "CONTENT"
+        ],
+        "imp": 2,
+        "url": "https://www.bellesalle.co.jp/shisetsu/tokyo/bs_akihabara/",
+        "url_en": "https://www.bellesalle.co.jp/shisetsu/tokyo/bs_akihabara/",
+        "note": "中央通り至近の多目的ホールとして催事を支える。",
+        "note_en": "Multi-purpose](https://www.bellesalle.co.jp/shisetsu/tokyo/bs_akihabara/"
+      },
+      {
+        "label": "都内初の区営有料トイレを駅前に設置",
+        "label_en": "First ward-run paid toilet in Tokyo installed",
+        "startYear": 2006,
+        "genre": [
+          "EVENT"
+        ],
+        "imp": 1,
+        "url": "https://www.city.chiyoda.lg.jp/koho/machizukuri/kotsu/kisei/toire.html",
+        "url_en": "https://en.wikipedia.org/wiki/Chiyoda,_Tokyo",
+        "note": "中央改札前ロータリーに設置。",
+        "note_en": "Installed](https://www.city.chiyoda.lg.jp/koho/machizukuri/kotsu/kisei/toire.html"
+      },
+      {
+        "label": "AKIBAXが一度限りで復活開催",
+        "label_en": "AKIBAX revived for one-off event",
+        "startYear": 2006,
+        "genre": [
+          "EVENT",
+          "CONTENT"
+        ],
+        "imp": 2,
+        "url": "https://ja.wikipedia.org/wiki/AKIBAX",
+        "url_en": "https://en.wikipedia.org/wiki/Akihabara#Festivals_and_events",
+        "note": "駅前広場閉鎖後に一夜限りで復活。",
+        "note_en": "A](https://ja.wikipedia.org/wiki/AKIBAX"
+      },
+      {
+        "label": "アキハバラデパートが閉店",
+        "label_en": "Akihabara Department Store closes",
+        "startYear": 2006,
+        "genre": [
+          "STORE"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/アキハバラデパート",
+        "url_en": "https://en.wikipedia.org/wiki/Akihabara#History",
+        "note": "駅ビル老朽化と改装に伴い閉店。",
+        "note_en": "The](https://ja.wikipedia.org/wiki/アキハバラデパート"
+      },
+      {
+        "label": "都内初の区営有料トイレを中央改札前に設置",
+        "label_en": "First ward-run paid public toilet installed",
+        "startYear": 2006,
+        "genre": [
+          "EVENT"
+        ],
+        "imp": 1,
+        "url": "https://akiba.or.jp/archives/history07/",
+        "url_en": "https://akiba.or.jp/wp_en/archives/history07/",
+        "note": "来街者増に対応した衛生・観光インフラ整備の一環。",
+        "note_en": "Part](https://akiba.or.jp/archives/history07/"
+      },
+      {
+        "label": "サンコーレアモノショップ UDX向かいに移転拡張",
+        "label_en": "Thanko shop relocates/expands near UDX",
+        "startYear": 2006,
+        "genre": [
+          "STORE"
+        ],
+        "imp": 2,
+        "url": "https://ascii.jp/elem/000/000/351/351770/",
+        "url_en": "https://data.thanko.jp/download/catalog/thanko-corporate-profile.pdf",
+        "note": "UDX向かいへ移転し売場を拡大。",
+        "note_en": "Relocated](https://ascii.jp/elem/000/000/351/351770/"
       }
     ],
     "2007": [
@@ -1249,6 +2177,63 @@
         "url_en": "https://en.wikipedia.org/wiki/Consumer_electronics_retailers",
         "note": "大型店の競争で価格・品揃えが高度化。",
         "note_en": "Competition drove pricing and assortment upgrades."
+      },
+      {
+        "label": "JAM/ASIAGRAPH等がAKIBA_SQUAREで開催",
+        "label_en": "JAM & ASIAGRAPH at Akiba Square",
+        "startYear": 2007,
+        "genre": [
+          "EVENT",
+          "CONTENT",
+          "OTAKU"
+        ],
+        "imp": 2,
+        "url": "https://www.japantimes.co.jp/news/2008/10/17/national/anime-biz-taps-new-inspiration/",
+        "url_en": "https://www.tokyoartbeat.com/en/venues/-/412FD383",
+        "note": "UDXのイベント空間がアニメ関連見本市の舞台に。",
+        "note_en": "UDX](https://www.japantimes.co.jp/news/2008/10/17/national/anime-biz-taps-new-inspiration/"
+      },
+      {
+        "label": "ラオックス ザ・コンピュータ館が閉店",
+        "label_en": "LaOX The Computer closes",
+        "startYear": 2007,
+        "genre": [
+          "STORE",
+          "ELECTRONICS"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/ラオックスホールディングス",
+        "url_en": "https://en.wikipedia.org/wiki/Laox",
+        "note": "PCブームの象徴的店舗が歴史に幕。",
+        "note_en": "The](https://ja.wikipedia.org/wiki/ラオックスホールディングス"
+      },
+      {
+        "label": "Windows Vista 深夜販売（秋葉原）",
+        "label_en": "Windows Vista midnight launch (Akihabara)",
+        "startYear": 2007,
+        "genre": [
+          "EVENT",
+          "ELECTRONICS"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/Windows_Vista",
+        "url_en": "https://en.wikipedia.org/wiki/Windows_Vista",
+        "note": "2007年1月、店頭でカウントダウンと深夜販売が行われた。",
+        "note_en": "In](https://ja.wikipedia.org/wiki/Windows_Vista"
+      },
+      {
+        "label": "Mac OS X 10.5 Leopard 店頭イベント（ヨドバシAkiba）",
+        "label_en": "Mac OS X Leopard launch event (Yodobashi Akiba)",
+        "startYear": 2007,
+        "genre": [
+          "EVENT",
+          "ELECTRONICS"
+        ],
+        "imp": 3,
+        "url": "https://www.apple.com/jp/newsroom/2007/10/16Apple-to-Ship-Mac-OS-X-Leopard-on-October-26/",
+        "url_en": "https://www.itmedia.co.jp/pcuser/articles/0710/26/news104.html",
+        "note": "2007年10月26日18時、店外ステージなどで販促イベント。",
+        "note_en": "At](https://www.apple.com/jp/newsroom/2007/10/16Apple-to-Ship-Mac-OS-X-Leopard-on-October-26/"
       }
     ],
     "2008": [
@@ -1264,6 +2249,34 @@
         "url_en": "https://en.wikipedia.org/wiki/2008_Akihabara_massacre",
         "note": "歩行者天国中に無差別殺傷事件が発生。",
         "note_en": "Mass murder occurred during the pedestrian zone."
+      },
+      {
+        "label": "まんだらけ コンプレックス開業",
+        "label_en": "Mandarake Complex opens",
+        "startYear": 2008,
+        "genre": [
+          "STORE",
+          "OTAKU"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/まんだらけ",
+        "url_en": "https://en.wikipedia.org/wiki/Mandarake",
+        "note": "中古同人誌・フィギュア等の大型旗艦店が誕生。",
+        "note_en": "Flagship](https://ja.wikipedia.org/wiki/まんだらけ"
+      },
+      {
+        "label": "TX秋葉原阪急ビル・レム秋葉原開業",
+        "label_en": "TX Akihabara Hankyu Bldg. & Remm hotel open",
+        "startYear": 2008,
+        "genre": [
+          "STORE",
+          "EVENT"
+        ],
+        "imp": 2,
+        "url": "https://ja.wikipedia.org/wiki/レム_(ホテル)",
+        "url_en": "https://en.wikipedia.org/wiki/Hankyu_Hanshin_Holdings",
+        "note": "つくばエクスプレス直結のホテル・商業施設が稼働。",
+        "note_en": "Hotel](https://ja.wikipedia.org/wiki/レム_%28ホテル%29"
       }
     ],
     "2009": [
@@ -1280,6 +2293,20 @@
         "url_en": "https://en.wikipedia.org/wiki/Akiba%27s_Trip",
         "note": "街を舞台にした作品が観光動機に。",
         "note_en": "Works set in Akiba inspired tourism."
+      },
+      {
+        "label": "住友不動産秋葉原ビル竣工",
+        "label_en": "Sumitomo Real Estate Akihabara Bldg. completed",
+        "startYear": 2009,
+        "genre": [
+          "EVENT",
+          "STORE"
+        ],
+        "imp": 2,
+        "url": "https://ja.wikipedia.org/wiki/住友不動産",
+        "url_en": "https://en.wikipedia.org/wiki/Sumitomo_Realty_%26_Development",
+        "note": "旧日本通運本社跡にオフィスビルが完成。",
+        "note_en": "An](https://ja.wikipedia.org/wiki/住友不動産"
       }
     ],
     "2010": [
@@ -1309,6 +2336,47 @@
         "url_en": "https://en.wikipedia.org/wiki/2k540_AKI-OKA_ARTISAN",
         "note": "御徒町寄り高架下の職人モールが誕生。",
         "note_en": "Under-viaduct artisan mall opened near Okachimachi."
+      },
+      {
+        "label": "外神田で防犯カメラ運用を開始",
+        "label_en": "CCTV surveillance begins in Sotokanda",
+        "startYear": 2010,
+        "genre": [
+          "EVENT"
+        ],
+        "imp": 2,
+        "url": "https://www.city.chiyoda.lg.jp/koho/kurashi/anzen/safe/bohan-camera.html",
+        "url_en": "https://en.wikipedia.org/wiki/Closed-circuit_television",
+        "note": "段階的に増設し防犯体制を強化。",
+        "note_en": "Phased](https://www.city.chiyoda.lg.jp/koho/kurashi/anzen/safe/bohan-camera.html"
+      },
+      {
+        "label": "アトレ秋葉原1が開業（旧駅ビル跡）",
+        "label_en": "atre Akihabara 1 opens",
+        "startYear": 2010,
+        "genre": [
+          "STORE"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/アトレ",
+        "url_en": "https://en.wikipedia.org/wiki/Atre",
+        "note": "耐震改築完了に伴い新駅ビルが開業。",
+        "note_en": "New](https://ja.wikipedia.org/wiki/アトレ"
+      },
+      {
+        "label": "GUNDAM Café 秋葉原店オープン（4/24）",
+        "label_en": "GUNDAM Café Akihabara opens (Apr 24)",
+        "startYear": 2010,
+        "genre": [
+          "STORE",
+          "CONTENT",
+          "OTAKU"
+        ],
+        "imp": 4,
+        "url": "https://www.bandainamco.co.jp/files/E382ACE383B3E38380E383A0E382ABE38395E382A720100414.pdf",
+        "url_en": "https://www.japan-experience.com/all-about-japan/tokyo/restaurants-cafes/gundam-cafe-akihabara",
+        "note": "JR秋葉原駅前に公式カフェが開店、観光名所化。",
+        "note_en": "Official](https://www.bandainamco.co.jp/files/E382ACE383B3E38380E383A0E382ABE38395E382A720100414.pdf"
       }
     ],
     "2011": [
@@ -1356,6 +2424,35 @@
         "url_en": "https://en.wikipedia.org/wiki/AKB48",
         "note": "駅前に関連施設が登場（のち閉店）。",
         "note_en": "A branded cafe/shop opened near the station (later closed)."
+      },
+      {
+        "label": "AKIBAカルチャーズZONE開業",
+        "label_en": "Akiba Cultures Zone opens",
+        "startYear": 2011,
+        "genre": [
+          "STORE",
+          "OTAKU",
+          "CONTENT"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/AKIBAカルチャーズZONE",
+        "url_en": "https://tokyocheapo.com/place/akiba-culture-zone/",
+        "note": "旧ザ・コンピュータ館を改装したサブカル拠点。",
+        "note_en": "Converted](https://ja.wikipedia.org/wiki/AKIBAカルチャーズZONE"
+      },
+      {
+        "label": "コトブキヤ 秋葉原館 開店（7/23）",
+        "label_en": "Kotobukiya Akihabara-kan opens",
+        "startYear": 2011,
+        "genre": [
+          "STORE",
+          "OTAKU"
+        ],
+        "imp": 4,
+        "url": "https://company.kotobukiya.co.jp/company/company-history/",
+        "url_en": "https://www.kotobukiya.co.jp/en/kotobukiya-shop/detail/3/",
+        "note": "ラジオ会館店の移転により新旗艦「秋葉原館」が開店。",
+        "note_en": "Replacing](https://company.kotobukiya.co.jp/company/company-history/"
       }
     ],
     "2012": [
@@ -1372,6 +2469,20 @@
         "url_en": "https://en.wikipedia.org/wiki/Itasha",
         "note": "関連グッズやカスタムが周辺で存在感。",
         "note_en": "Custom vehicles and goods had a visible presence."
+      },
+      {
+        "label": "JR神田万世橋ビルが完成",
+        "label_en": "JR Kanda Manseibashi Bldg. completed",
+        "startYear": 2012,
+        "genre": [
+          "EVENT",
+          "STORE"
+        ],
+        "imp": 2,
+        "url": "https://ja.wikipedia.org/wiki/万世橋駅",
+        "url_en": "https://en.wikipedia.org/wiki/Manseibashi_Station",
+        "note": "旧交通博物館跡地の再開発。",
+        "note_en": "Redevelopment](https://ja.wikipedia.org/wiki/万世橋駅"
       }
     ],
     "2013": [
@@ -1388,6 +2499,20 @@
         "url_en": "https://en.wikipedia.org/wiki/Maach_ecute_Kanda_Manseibashi",
         "note": "旧駅遺構を活用した商業施設が開業。",
         "note_en": "Commercial facility opened using the old station remains."
+      },
+      {
+        "label": "秋葉原ラジオストアーが閉店",
+        "label_en": "Akihabara Radio Store closes",
+        "startYear": 2013,
+        "genre": [
+          "STORE",
+          "ELECTRONICS"
+        ],
+        "imp": 3,
+        "url": "https://eleki-expo2025.cqpub.co.jp/history/",
+        "url_en": "https://eleki-expo2025.cqpub.co.jp/history/",
+        "note": "戦後創成期を支えた高架下モールが役割を終える。",
+        "note_en": "Postwar](https://eleki-expo2025.cqpub.co.jp/history/"
       }
     ],
     "2014": [
@@ -1420,6 +2545,20 @@
         "url_en": "https://en.wikipedia.org/wiki/Tourism_in_Japan#Inbound",
         "note": "家電・玩具・コスメなど免税販売が伸びる。",
         "note_en": "Tax-free sales of electronics, toys, cosmetics surged."
+      },
+      {
+        "label": "Windows 10 DSP版 深夜販売（秋葉原）",
+        "label_en": "Windows 10 DSP midnight launch (Akihabara)",
+        "startYear": 2015,
+        "genre": [
+          "EVENT",
+          "ELECTRONICS"
+        ],
+        "imp": 4,
+        "url": "https://pc.watch.impress.co.jp/docs/news/713286.html",
+        "url_en": "https://www.itmedia.co.jp/pcuser/articles/1507/24/news156.html",
+        "note": "8/1](https://pc.watch.impress.co.jp/docs/news/713286.html",
+        "note_en": "https://www.itmedia.co.jp/pcuser/articles/1507/24/news156.html"
       }
     ],
     "2016": [
@@ -1452,6 +2591,20 @@
         "url_en": "https://en.wikipedia.org/wiki/Tourism_in_Japan",
         "note": "店頭・案内の多言語化が進む。",
         "note_en": "Shops and guides adopted multilingual signage."
+      },
+      {
+        "label": "ソフマップ→ビックカメラ傘下で再編進む",
+        "label_en": "Sofmap reorganization under Bic Camera",
+        "startYear": 2017,
+        "genre": [
+          "STORE",
+          "ELECTRONICS"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/ソフマップ",
+        "url_en": "https://en.wikipedia.org/wiki/Sofmap",
+        "note": "リユース・PC中心の再配置で店舗形態が変化。",
+        "note_en": "Chain](https://ja.wikipedia.org/wiki/ソフマップ"
       }
     ],
     "2018": [
@@ -1484,6 +2637,36 @@
         "url_en": "https://en.wikipedia.org/wiki/Rental_display_case",
         "note": "個人委託販売の場として機能。",
         "note_en": "Rental display cases enabled consignment sales."
+      },
+      {
+        "label": "AKB48カフェ＆ショップ閉店",
+        "label_en": "AKB48 Cafe & Shop closes",
+        "startYear": 2019,
+        "genre": [
+          "STORE",
+          "OTAKU",
+          "CONTENT"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/AKB48",
+        "url_en": "https://en.wikipedia.org/wiki/AKB48",
+        "note": "駅前のブランド施設が幕、時代の変化を象徴。",
+        "note_en": "Branded](https://ja.wikipedia.org/wiki/AKB48"
+      },
+      {
+        "label": "明和電機 公式ショップが東京ラジオデパートに",
+        "label_en": "Maywa Denki shop opens in Radio Dept.",
+        "startYear": 2019,
+        "genre": [
+          "STORE",
+          "CONTENT",
+          "ELECTRONICS"
+        ],
+        "imp": 2,
+        "url": "https://strangeseed.info/2021/program/",
+        "url_en": "https://strangeseed.info/2021/program/",
+        "note": "アート×電子工作の発信拠点として話題に。",
+        "note_en": "Art-meets-electronics](https://strangeseed.info/2021/program/"
       }
     ],
     "2020": [
@@ -1513,6 +2696,20 @@
         "url_en": "https://en.wikipedia.org/wiki/COVID-19_pandemic_in_Japan",
         "note": "外出自粛で休業・閉店が相次ぐ。",
         "note_en": "Stay-home measures caused closures and reduced traffic."
+      },
+      {
+        "label": "ラオックス秋葉原本店が大規模改装再開",
+        "label_en": "Laox Akihabara Main Store revamped",
+        "startYear": 2020,
+        "genre": [
+          "STORE",
+          "ELECTRONICS"
+        ],
+        "imp": 3,
+        "url": "https://toshoken.com/news/20113",
+        "url_en": "https://livejapan.com/en/in-tokyo/in-pref-tokyo/in-akihabara/article-a0005721/",
+        "note": "一部フロアをアソビットシティ化し再出発。",
+        "note_en": "Relaunched](https://toshoken.com/news/20113"
       }
     ],
     "2021": [
@@ -1529,6 +2726,22 @@
         "url_en": "https://en.wikipedia.org/wiki/E-commerce",
         "note": "店舗がEC/テイクアウトを強化し回復を模索。",
         "note_en": "Shops leaned into e-commerce/takeout for recovery."
+      },
+      {
+        "label": "GUNDAM Café TOKYO → 全店閉店",
+        "label_en": "GUNDAM Café closes nationwide",
+        "startYear": 2021,
+        "endYear": 2022,
+        "genre": [
+          "STORE",
+          "OTAKU",
+          "CONTENT"
+        ],
+        "imp": 3,
+        "url": "https://en.gundam.info/news/cafe-food/01_6022.html",
+        "url_en": "https://www.siliconera.com/gundam-cafes-will-begin-closing-in-early-2022/",
+        "note": "秋葉原の大型店を含む各店が2022年1月に営業終了。",
+        "note_en": "Akihabara’s](https://en.gundam.info/news/cafe-food/01_6022.html"
       }
     ],
     "2022": [
