@@ -232,6 +232,15 @@
         "url_en": "https://en.wikipedia.org/wiki/Children%27s_literature",
         "note": "多層に交差する鉄道風景から未来都市として描かれることがあった。",
         "note_en": "Its](https://ja.wikipedia.org/wiki/児童文学"
+      },
+      {
+        "label": "松ケ谷にあった鎮火社が秋葉神社と改称",
+        "startYear": 1930,
+        "genre": [
+          "EVENT"
+        ],
+        "imp": 5,
+        "label_en": "The firefighting shrine in Matsugatani was renamed to Akiba Shrine."
       }
     ],
     "1932": [
