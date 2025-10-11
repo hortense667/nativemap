@@ -70,22 +70,6 @@
         "note_en": "By](https://ja.wikipedia.org/wiki/秋葉神社_%28台東区%29"
       }
     ],
-    "1880": [
-      {
-        "label": "森鴎外『雁』の舞台（神田界隈）",
-        "label_en": "Setting of Mori Ogai's The Wild Geese near Kanda",
-        "startYear": 1880,
-        "genre": [
-          "CONTENT",
-          "JAPAN"
-        ],
-        "imp": 3,
-        "url": "https://ja.wikipedia.org/wiki/雁_(小説)",
-        "url_en": "https://en.wikipedia.org/wiki/The_Wild_Geese_(Mori_novel)",
-        "note": "明治東京の世相を背景に神田周辺が舞台となり後の秋葉原周縁の風景もにじむ。",
-        "note_en": "Set in 1880 Tokyo around Kanda, reflecting social change near what later borders Akihabara."
-      }
-    ],
     "1888": [
       {
         "label": "鎮火社が入谷へ遷座（現・台東区松が谷）",
@@ -273,6 +257,19 @@
       }
     ],
     "1935": [
+      {
+        "label": "秋葉原駅の賑わい",
+        "startYear": 1935,
+        "genre": [
+          "EVENT"
+        ],
+        "imp": 2,
+        "url": "https://www.oldtokyo.com/akihabara-station-tokyo-c-1935/",
+        "note": "昭和初期の流通拠点としての性格がうかがえる。",
+        "label_en": "Akihabara Station bustle in mid-1930s",
+        "url_en": "https://www.oldtokyo.com/akihabara-station-tokyo-c-1935/",
+        "note_en": "Mid-1930s photos show a busy station area, reflecting its role as a logistics and retail node."
+      },
       {
         "label": "秋葉原駅の賑わい（昭和初期）写真資料",
         "label_en": "Akihabara Station bustle in mid-1930s (photo)",
@@ -781,19 +778,6 @@
         "note_en": "Subway](https://ja.wikipedia.org/wiki/秋葉原駅"
       },
       {
-        "label": "営団地下鉄日比谷線 秋葉原駅開業",
-        "label_en": "Hibiya Line Akihabara Station opens",
-        "startYear": 1962,
-        "genre": [
-          "EVENT"
-        ],
-        "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/秋葉原駅",
-        "url_en": "https://en.wikipedia.org/wiki/Akihabara_Station",
-        "note": "地下鉄駅の新設で回遊性が向上し来街者が増加。",
-        "note_en": "Subway](https://ja.wikipedia.org/wiki/秋葉原駅"
-      },
-      {
         "label": "営団地下鉄日比谷線 秋葉原駅 開業",
         "label_en": "Hibiya Line Akihabara Station opens",
         "startYear": 1962,
@@ -806,6 +790,19 @@
         "url_en": "https://en.wikipedia.org/wiki/Akihabara_Station",
         "note": "1962年5月31日、営団地下鉄（日比谷線）秋葉原駅が開業し都心アクセスが向上。",
         "note_en": "On](https://ja.wikipedia.org/wiki/秋葉原駅"
+      },
+      {
+        "label": "営団地下鉄日比谷線 秋葉原駅開業",
+        "label_en": "Hibiya Line Akihabara Station opens",
+        "startYear": 1962,
+        "genre": [
+          "EVENT"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/秋葉原駅",
+        "url_en": "https://en.wikipedia.org/wiki/Akihabara_Station",
+        "note": "地下鉄駅の新設で回遊性が向上し来街者が増加。",
+        "note_en": "Subway](https://ja.wikipedia.org/wiki/秋葉原駅"
       }
     ],
     "1963": [
@@ -946,20 +943,6 @@
         "note_en": "Duty-free](https://ja.wikipedia.org/wiki/免税店"
       },
       {
-        "label": "都電の撤去が進む（秋葉原周辺）",
-        "label_en": "Toden streetcar withdrawal around Akihabara",
-        "startYear": 1970,
-        "endYear": 1972,
-        "genre": [
-          "EVENT"
-        ],
-        "imp": 3,
-        "url": "https://ja.wikipedia.org/wiki/東京都電車",
-        "url_en": "https://en.wikipedia.org/wiki/Tokyo_city_tram",
-        "note": "1970年代初頭に路面電車が段階的に廃止され交通動線が変化。",
-        "note_en": "Streetcars](https://ja.wikipedia.org/wiki/東京都電車"
-      },
-      {
         "label": "FM東京（現TOKYO FM）開局、民放FM本格化",
         "label_en": "Tokyo FM launches",
         "startYear": 1970,
@@ -972,6 +955,20 @@
         "url_en": "https://en.wikipedia.org/wiki/Tokyo_FM",
         "note": "高音質放送の普及でオーディオ需要が刺激され関連売場が拡充。",
         "note_en": "Hi-fi](https://ja.wikipedia.org/wiki/エフエム東京"
+      },
+      {
+        "label": "都電の撤去が進む（秋葉原周辺）",
+        "label_en": "Toden streetcar withdrawal around Akihabara",
+        "startYear": 1970,
+        "endYear": 1972,
+        "genre": [
+          "EVENT"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/東京都電車",
+        "url_en": "https://en.wikipedia.org/wiki/Tokyo_city_tram",
+        "note": "1970年代初頭に路面電車が段階的に廃止され交通動線が変化。",
+        "note_en": "Streetcars](https://ja.wikipedia.org/wiki/東京都電車"
       }
     ],
     "1971": [
@@ -1070,6 +1067,34 @@
     ],
     "1977": [
       {
+        "label": "Apple IIなど初期マイコンが米国で登場",
+        "startYear": 1977,
+        "genre": [
+          "EVENT",
+          "PRODUCT",
+          "ELECTRONICS"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/パーソナルコンピュータの歴史",
+        "note": "キットや完成品、周辺機器の専門売場が形成。",
+        "label_en": "The emergence of early microcomputers like the Apple II in the United States",
+        "url_en": "https://en.wikipedia.org/wiki/Home_computer",
+        "note_en": "Dedicated corners for kits, machines, and peripherals formed."
+      },
+      {
+        "label": "マイコン雑誌『月刊アスキー』創刊",
+        "startYear": 1977,
+        "genre": [
+          "EVENT",
+          "CONTENT",
+          "ELECTRONICS"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/%E6%9C%88%E5%88%8A%E3%82%A2%E3%82%B9%E3%82%AD%E3%83%BC",
+        "label_en": "Launch of Microcomputer Magazine \"Monthly ASCII\"",
+        "url_en": "https://en.wikipedia.org/wiki/ASCII_(magazine)"
+      },
+      {
         "label": "マイコン（8ビット）売場が拡大",
         "label_en": "8-bit microcomputer corners expand",
         "startYear": 1977,
@@ -1114,6 +1139,20 @@
         "url_en": "https://en.wikipedia.org/wiki/Akihabara",
         "note": "商店会の連携組織が発足。",
         "note_en": "Unified promotion body for the district established."
+      },
+      {
+        "label": "PC-8001",
+        "startYear": 1979,
+        "genre": [
+          "PRODUCT",
+          "ELECTRONICS"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/PC-8001",
+        "note": "実用志向の8ビットPCが市場を拡大。",
+        "label_en": "NEC PC-8001",
+        "url_en": "https://en.wikipedia.org/wiki/PC-8001",
+        "note_en": "Practical 8-bit PCs broadened the market."
       },
       {
         "label": "PC-8001/マイコン誌の牽引力",
@@ -1792,20 +1831,6 @@
         "note_en": "Plaza](https://ja.wikipedia.org/wiki/秋葉原"
       },
       {
-        "label": "喫茶「東洋」が公衆無線LAN“ブロードバンドカレー”開始",
-        "label_en": "Cafe Toyo starts public Wi-Fi “Broadband Curry”",
-        "startYear": 2001,
-        "genre": [
-          "EVENT",
-          "STORE"
-        ],
-        "imp": 3,
-        "url": "https://bb.watch.impress.co.jp/news/2001/10/26/curry.htm",
-        "url_en": "https://bb.watch.impress.co.jp/news/2001/10/26/curry.htm",
-        "note": "店内無線LANとADSLを提供しIT色の強い街の象徴に。",
-        "note_en": "Offered](https://bb.watch.impress.co.jp/news/2001/10/26/curry.htm"
-      },
-      {
         "label": "Windows XP 深夜販売（秋葉原）",
         "label_en": "Windows XP midnight launch (Akihabara)",
         "startYear": 2001,
@@ -1832,6 +1857,20 @@
         "url_en": "https://en.wikipedia.org/wiki/Mac_OS_X_10.0",
         "note": "2001年3月24日、販売開始。取扱店で店頭展開が始まる。",
         "note_en": "Released](https://www.apple.com/jp/newsroom/2001/03/21Mac-OS-X-Hits-Stores-This-Weekend/"
+      },
+      {
+        "label": "喫茶「東洋」が公衆無線LAN“ブロードバンドカレー”開始",
+        "label_en": "Cafe Toyo starts public Wi-Fi “Broadband Curry”",
+        "startYear": 2001,
+        "genre": [
+          "EVENT",
+          "STORE"
+        ],
+        "imp": 3,
+        "url": "https://bb.watch.impress.co.jp/news/2001/10/26/curry.htm",
+        "url_en": "https://bb.watch.impress.co.jp/news/2001/10/26/curry.htm",
+        "note": "店内無線LANとADSLを提供しIT色の強い街の象徴に。",
+        "note_en": "Offered](https://bb.watch.impress.co.jp/news/2001/10/26/curry.htm"
       }
     ],
     "2002": [
@@ -1895,20 +1934,6 @@
     ],
     "2003": [
       {
-        "label": "ガチャ/カプセルトイ専門店台頭",
-        "label_en": "Capsule-toy specialty shops rise",
-        "startYear": 2003,
-        "genre": [
-          "STORE",
-          "OTAKU"
-        ],
-        "imp": 3,
-        "url": "https://ja.wikipedia.org/wiki/ガチャ",
-        "url_en": "https://en.wikipedia.org/wiki/Gashapon",
-        "note": "小型店が増え回遊の楽しみを提供。",
-        "note_en": "More specialty shops added to the browsing fun."
-      },
-      {
         "label": "日本通運本社が汐留へ移転",
         "label_en": "Nippon Express HQ moves to Shiodome",
         "startYear": 2003,
@@ -1947,6 +1972,20 @@
         "url_en": "https://en.wikipedia.org/wiki/Mac_OS_X_Panther",
         "note": "2003年10月、量販店で早朝・カウントダウン販売が話題に。",
         "note_en": "In](https://pc.watch.impress.co.jp/docs/2003/1025/apple.htm"
+      },
+      {
+        "label": "ガチャ/カプセルトイ専門店台頭",
+        "label_en": "Capsule-toy specialty shops rise",
+        "startYear": 2003,
+        "genre": [
+          "STORE",
+          "OTAKU"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/ガチャ",
+        "url_en": "https://en.wikipedia.org/wiki/Gashapon",
+        "note": "小型店が増え回遊の楽しみを提供。",
+        "note_en": "More specialty shops added to the browsing fun."
       }
     ],
     "2004": [
@@ -2354,6 +2393,18 @@
         "url_en": "https://en.wikipedia.org/wiki/Sumitomo_Realty_%26_Development",
         "note": "旧日本通運本社跡にオフィスビルが完成。",
         "note_en": "An](https://ja.wikipedia.org/wiki/住友不動産"
+      },
+      {
+        "label": "Windows7の発売イベントがヨドバシAKIBAで開催",
+        "startYear": 2009,
+        "genre": [
+          "EVENT",
+          "STORE",
+          "ELECTRONICS"
+        ],
+        "imp": 3,
+        "url": "https://ascii.jp/elem/000/000/470/470465/",
+        "label_en": "Windows 7 launch event held at Yodobashi AKIBA"
       }
     ],
     "2010": [
@@ -2622,6 +2673,18 @@
         "url_en": "https://en.wikipedia.org/wiki/Esports",
         "note": "ゲーミングPC/デバイスの専用棚が増加。",
         "note_en": "Dedicated shelves for gaming PCs and gear grew."
+      },
+      {
+        "label": "第1回技術書典が秋葉原通運会館で開催",
+        "startYear": 2016,
+        "genre": [
+          "EVENT",
+          "CONTENT",
+          "ELECTRONICS"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/%E6%8A%80%E8%A1%93%E6%9B%B8%E5%85%B8",
+        "label_en": "The 1st Technical Book Fair was held at the Akihabara Tsūun Kaikan."
       }
     ],
     "2017": [
@@ -2896,6 +2959,19 @@
         "url_en": "https://en.wikipedia.org/wiki/Electronics",
         "note": "STEM需要で工作キットや学習教材が強化。",
         "note_en": "STEM demand revived kits and educational stock."
+      },
+      {
+        "label": "『秋葉三尺坊の大冒険』",
+        "startYear": 2025,
+        "genre": [
+          "CONTENT",
+          "OTAKU",
+          "ELECTRONICS"
+        ],
+        "imp": 1,
+        "url": "https://booth.pm/ja/items/7337405?srsltid=AfmBOoqbCbHwyyr6Ey7YOVSpADxzIuSMjuNsijykNsqm2mgI0Is_NaSU",
+        "note": "秋葉原の源流探求記とする薄い本です",
+        "label_en": "\"The Great Adventure of Akiba Sanshakubou\""
       }
     ]
   },
