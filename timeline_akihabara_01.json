@@ -1880,6 +1880,17 @@
         "url_en": "https://en.wikipedia.org/wiki/Windows_98",
         "note": "発売に合わせPCショップが販促、OS販売イベント文化が定着。",
         "note_en": "Launch](https://ja.wikipedia.org/wiki/Windows_98"
+      },
+      {
+        "label": "TOKYO MX『秋葉原大スキ』放送",
+        "startYear": 1998,
+        "genre": [
+          "EVENT",
+          "CONTENT"
+        ],
+        "imp": 1,
+        "note": "『鼎談』桃井はるこ、李竜一、遠藤諭が出演",
+        "label_en": "\"Akihabara Daisuki\" on TOKYO MX"
       }
     ],
     "1999": [
