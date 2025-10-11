@@ -2964,7 +2964,12 @@
     "title": {
       "ja": "秋葉原年表 0.1",
       "en": "Akihabara Timeline 0.1"
-    }
+    },
+    "description": {
+      "ja": "秋葉原に関する年表：作者が制作してきた年表データに、Wikipedia、秋葉原電気街振興会のページなどを参考に項目を追加させていただきました。",
+      "en": "Timeline of Akihabara: The author has created timeline data with additional items based on references such as Wikipedia and the Akihabara Electric Town Promotion Association page."
+    },
+    "initialCreator": "Satoshi Endo"
   },
   "genres": [
     {
