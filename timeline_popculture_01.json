@@ -186,11 +186,11 @@
           "TVP"
         ],
         "imp": 4,
-        "note": "『エド・サリヴァン・ショー』 は、アメリカ・CBSで放送されていたバラエティ番組である。 エド・サリヴァン まで。",
-        "label_en": "The Ed Sullivan Show",
-        "note_en": "The Ed Sullivan Show is an American television variety show that ran on CBS from June 20, 1948, to March 28, 1971, and was hosted by New York entertainment colu…",
         "url": "https://ja.wikipedia.org/wiki/%E3%82%A8%E3%83%89%E3%83%BB%E3%82%B5%E3%83%AA%E3%83%B4%E3%82%A1%E3%83%B3%E3%83%BB%E3%82%B7%E3%83%A7%E3%83%BC",
-        "url_en": "https://en.wikipedia.org/wiki/The_Ed_Sullivan_Show"
+        "note": "『エド・サリヴァン・ショー』 は、アメリカ・CBSで放送されていたバラエティ番組である。",
+        "label_en": "The Ed Sullivan Show",
+        "url_en": "https://en.wikipedia.org/wiki/The_Ed_Sullivan_Show",
+        "note_en": "The Ed Sullivan Show is an American television variety show that ran on CBS from June 20, 1948, to March 28, 1971, and was hosted by New York entertainment colu…"
       },
       {
         "label": "美術手帖",
