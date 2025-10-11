@@ -2,6 +2,19 @@
   "events": {
     "1869": [
       {
+        "label": "神田相生町から外神田の周辺１００戸が焼失した大火",
+        "startYear": 1869,
+        "genre": [
+          "EVENT"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/秋葉原",
+        "note": "秋葉原の地名由来の発端となった大火",
+        "label_en": "A large fire destroyed around 100 houses in the area from Kanda Aioicho to Sotokanda.",
+        "url_en": "https://en.wikipedia.org/wiki/Akihabara",
+        "note_en": "The great fire that was the origin of the name \"Akihabara\""
+      },
+      {
         "label": "秋葉原の地名の由来（火除けの秋葉社）",
         "label_en": "Origin of the name Akihabara (Akiba fire deity shrine)",
         "startYear": 1869,
@@ -17,6 +30,18 @@
       }
     ],
     "1870": [
+      {
+        "label": "鎮火社が創建",
+        "startYear": 1870,
+        "genre": [
+          "EVENT"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/秋葉神社_(台東区)",
+        "note": "明治天皇の勅命で神田花岡町の火除地に鎮火社を創建。",
+        "label_en": "Foundation of Chinka-sha",
+        "url_en": "https://en.wikipedia.org/wiki/Akihabara"
+      },
       {
         "label": "鎮火社（通称・秋葉社）創建",
         "label_en": "Foundation of Chinka-sha (Akiba Shrine)",
