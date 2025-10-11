@@ -35,21 +35,6 @@
     ],
     "1946": [
       {
-        "label": "世界 (雑誌)",
-        "startYear": 1946,
-        "endYear": "ongoing",
-        "genre": [
-          "MAG",
-          "JAPAN"
-        ],
-        "imp": 4,
-        "note": "『世界』（せかい）は、岩波書店が発行している総合雑誌である。 1946年1月1日創刊。",
-        "label_en": "Sekai (magazine)",
-        "note_en": "Sekai is a Japanese monthly political magazine published by Iwanami Shoten, which was founded in December 1945.",
-        "url": "https://ja.wikipedia.org/wiki/%E4%B8%96%E7%95%8C_%28%E9%9B%91%E8%AA%8C%29",
-        "url_en": "https://en.wikipedia.org/wiki/Sekai_(magazine)"
-      },
-      {
         "label": "サザエさん",
         "startYear": 1946,
         "endYear": 1974,
@@ -63,6 +48,21 @@
         "note_en": "Sazae-san is a Japanese yonkoma manga series written and illustrated by Machiko Hasegawa.",
         "url": "https://ja.wikipedia.org/wiki/%E3%82%B5%E3%82%B6%E3%82%A8%E3%81%95%E3%82%93",
         "url_en": "https://en.wikipedia.org/wiki/Sazae-san"
+      },
+      {
+        "label": "世界 (雑誌)",
+        "startYear": 1946,
+        "endYear": "ongoing",
+        "genre": [
+          "MAG",
+          "JAPAN"
+        ],
+        "imp": 4,
+        "note": "『世界』（せかい）は、岩波書店が発行している総合雑誌である。 1946年1月1日創刊。",
+        "label_en": "Sekai (magazine)",
+        "note_en": "Sekai is a Japanese monthly political magazine published by Iwanami Shoten, which was founded in December 1945.",
+        "url": "https://ja.wikipedia.org/wiki/%E4%B8%96%E7%95%8C_%28%E9%9B%91%E8%AA%8C%29",
+        "url_en": "https://en.wikipedia.org/wiki/Sekai_(magazine)"
       },
       {
         "label": "ビキニ",
@@ -330,20 +330,6 @@
         "url_en": "https://en.wikipedia.org/wiki/Astro_Boy"
       },
       {
-        "label": "NME",
-        "startYear": 1952,
-        "endYear": 2018,
-        "genre": [
-          "MAG"
-        ],
-        "imp": 3,
-        "note": "『ニュー・ミュージカル・エクスプレス』 は、イギリスの週刊音楽雑誌、週刊新聞。 一般的に「NME」の略称が使われ、正式名称の認知度は低い。",
-        "label_en": "NME",
-        "note_en": "New Musical Express (NME) is a British music, film, gaming and culture website, bimonthly magazine, and brand.",
-        "url": "https://ja.wikipedia.org/wiki/%E3%83%8B%E3%83%A5%E3%83%BC%E3%83%BB%E3%83%9F%E3%83%A5%E3%83%BC%E3%82%B8%E3%82%AB%E3%83%AB%E3%83%BB%E3%82%A8%E3%82%AF%E3%82%B9%E3%83%97%E3%83%AC%E3%82%B9",
-        "url_en": "https://en.wikipedia.org/wiki/NME"
-      },
-      {
         "label": "老人と海",
         "startYear": 1952,
         "genre": [
@@ -357,6 +343,20 @@
         "url_en": "https://en.wikipedia.org/wiki/The_Old_Man_and_the_Sea",
         "note_en": "The Old Man and the Sea is a 1952 novella by the American author Ernest Hemingway.",
         "url": "https://ja.wikipedia.org/wiki/老人と海"
+      },
+      {
+        "label": "NME",
+        "startYear": 1952,
+        "endYear": 2018,
+        "genre": [
+          "MAG"
+        ],
+        "imp": 3,
+        "note": "『ニュー・ミュージカル・エクスプレス』 は、イギリスの週刊音楽雑誌、週刊新聞。 一般的に「NME」の略称が使われ、正式名称の認知度は低い。",
+        "label_en": "NME",
+        "note_en": "New Musical Express (NME) is a British music, film, gaming and culture website, bimonthly magazine, and brand.",
+        "url": "https://ja.wikipedia.org/wiki/%E3%83%8B%E3%83%A5%E3%83%BC%E3%83%BB%E3%83%9F%E3%83%A5%E3%83%BC%E3%82%B8%E3%82%AB%E3%83%AB%E3%83%BB%E3%82%A8%E3%82%AF%E3%82%B9%E3%83%97%E3%83%AC%E3%82%B9",
+        "url_en": "https://en.wikipedia.org/wiki/NME"
       },
       {
         "label": "禁じられた遊び",
