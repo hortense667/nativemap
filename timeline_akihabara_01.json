@@ -1,10 +1,4 @@
 {
-  "metadata": {
-    "title": {
-      "ja": "秋葉原年表 0.1",
-      "en": "Akihabara Timeline 0.1"
-    }
-  },
   "events": {
     "1869": [
       {
@@ -2893,8 +2887,8 @@
       "enabled": true,
       "fillEnabled": false
     },
-  {
-    "name": "闇市から電気街誕生",
+    {
+      "name": "闇市から電気街誕生",
       "startYear": 1946,
       "endYear": 1954,
       "color": "#228B22",
@@ -2902,8 +2896,8 @@
       "enabled": true,
       "fillEnabled": false
     },
-  {
-    "name": "家電量販とランドマーク形成",
+    {
+      "name": "家電量販とランドマーク形成",
       "startYear": 1955,
       "endYear": 1969,
       "color": "#1E90FF",
@@ -2911,8 +2905,8 @@
       "enabled": true,
       "fillEnabled": false
     },
-  {
-    "name": "オーディオ・マイコン黎明",
+    {
+      "name": "オーディオ・マイコン黎明",
       "startYear": 1970,
       "endYear": 1984,
       "color": "#FF8C00",
@@ -2920,8 +2914,8 @@
       "enabled": true,
       "fillEnabled": false
     },
-  {
-    "name": "コンピュータ＆ゲーム躍進",
+    {
+      "name": "コンピュータ＆ゲーム躍進",
       "startYear": 1985,
       "endYear": 1999,
       "color": "#9932CC",
@@ -2929,8 +2923,8 @@
       "enabled": true,
       "fillEnabled": false
     },
-  {
-    "name": "再開発とオタク主流化",
+    {
+      "name": "再開発とオタク主流化",
       "startYear": 2000,
       "endYear": 2007,
       "color": "#DC143C",
@@ -2938,8 +2932,8 @@
       "enabled": true,
       "fillEnabled": false
     },
-  {
-    "name": "転換と再整備の時代",
+    {
+      "name": "転換と再整備の時代",
       "startYear": 2008,
       "endYear": 2014,
       "color": "#708090",
@@ -2947,8 +2941,8 @@
       "enabled": true,
       "fillEnabled": false
     },
-  {
-    "name": "インバウンドと多言語化",
+    {
+      "name": "インバウンドと多言語化",
       "startYear": 2015,
       "endYear": 2019,
       "color": "#FFD700",
@@ -2956,8 +2950,8 @@
       "enabled": true,
       "fillEnabled": false
     },
-  {
-    "name": "ポストCOVID・ハイブリッド化",
+    {
+      "name": "ポストCOVID・ハイブリッド化",
       "startYear": 2020,
       "endYear": "ongoing",
       "color": "#00CED1",
@@ -2966,6 +2960,12 @@
       "fillEnabled": false
     }
   ],
+  "metadata": {
+    "title": {
+      "ja": "秋葉原年表 0.1",
+      "en": "Akihabara Timeline 0.1"
+    }
+  },
   "genres": [
     {
       "code": "EVENT",
