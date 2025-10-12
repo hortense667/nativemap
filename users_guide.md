@@ -8,26 +8,48 @@
 
 ネイティブマップは、年表データを視覚的に表示・編集できるWebアプリケーションです。ポップカルチャーやデジタル技術の歴史を年表形式で管理し、個人の体験と照らし合わせることができます。
 
+**GitHubユーザーなら誰でも管理者になれる分散型システム**として設計されており、自分のリポジトリで独自の年表データを管理できます。
+
 ### 参照年表機能について
+### フキダシ（吹き出し）詳細ガイド
+
+#### 概要
+右側のグラフエリアに注釈を配置できるフキダシ機能です。先端（ポインタ）はクリック位置になり、三角テールが自動で最適な辺から接続されます。角丸部分からは出ず、接合位置は辺の中央±1/3の範囲に制限されます。
+
+#### 作成・編集・削除
+- 作成: ヘッダーのフキダシ追加アイコンをオン、または Shift+クリック → 右側エリアをクリック
+- 編集: 表示モードで鉛筆アイコンをクリック
+- 削除: ゴミ箱アイコン（バブル本体・三角テール・継ぎ目カバーを同時に削除）
+- 移動: バブルはドラッグで移動、三角はテールをドラッグして先端座標を変更
+
+#### スタイル設定（表示モードのみ）
+- 右クリックメニューから以下を変更
+  - 色テーマ（数種）
+  - 文字サイズ（A-/A+ 連続押し可、下限8px・上限なし）
+  - 太字（B トグル）
+
+#### 表示の調整
+- 内側余白は左右対称（上下13px・左右16px）
+- 三角テールとバブルの継ぎ目は自動で馴染むよう処理（背景色のシーム＋枠線揃え）
+
+#### スナップショット
+- スナップショット保存/復元に対応（位置・テキスト・スタイル・先端座標）
+- 復元後、GitHubが新しければ同期をブロックする仕組みに準拠
+
 
 #### 参照年表とは
 参照年表機能は、メインの年表データに加えて、複数の年表データを同時に表示・比較できる機能です。参照年表のデータは読み取り専用で、編集や削除はできません。
 
 #### 参照年表の設定方法
-1. **設定画面で参照年表を指定**
-   - 「設定」→「参照年表設定」で各参照年表の詳細を入力
-   - 各参照年表について以下を指定：
-     - リポジトリ所有者（owner）
-     - リポジトリ名（repo）
-     - ファイルパス（filePath）
-     - 最小重要度（minImportance、省略可）
-   - 「+ 参照年表を追加」ボタンで最大10個まで追加可能
+1. **設定画面で参照年表ファイルパスを指定**
+   - 「設定」→「参照年表ファイルパス」に、カンマ区切りで最大10個のJSONファイルパスを入力
+   - 例：`timeline_popculture_japan_01.json, timeline_ai_01.json`
 
 2. **URLパラメータで直接指定**
    - URLに `refTimelines`（JSON配列）を追加（重要度も含めて指定可能）
    - 例：
      ```
-     nativemap201.html?owner=hortense667&repo=nativemap&filePath=timeline_digital_japan_01.json&refTimelines=[{"owner":"hortense667","repo":"nativemap","filePath":"timeline_popculture_japan_01.json","minImportance":2}]
+     nativemap201.html?owner=hortense667&repo=nativemap&filePath=timeline_digital_japan_01.json&refTimelines=%5B%7B%22owner%22%3A%22hortense667%22%2C%22repo%22%3A%22nativemap%22%2C%22filePath%22%3A%22timeline_backglound_01.json%22%2C%22minImportance%22%3A2%7D%5D
      ```
 
 #### 参照年表の特徴
@@ -62,22 +84,114 @@
 
 #### 2. いまある年表の編集に参加する人（コラボレーター）
 
-**対象**: 管理者からアクセストークンを受け取り、オンラインで編集・保存できる人。
+**対象**: アクセストークンはないが編集後の「同期」でダウンロードしたデータを提供できる人
 
-**できること**:
+**注意**: 現状、この機能への十分な対応はできていませんが、機能としては存在します。
+
+**基本的な操作**:
 - 閲覧者の操作に加えて、項目の編集・追加・削除
-- 「同期」ボタンでGitHub上のJSONに直接反映（アクセストークン必須）
-
-**注意**:
-- 作業開始前に必ず「同期」で最新を取得し、作業後は必ず「同期」で保存してください。
+- 「同期」ボタンでCSVファイルをエクスポート（アクセストークンがない場合）
+- エクスポートしたデータを管理者に提供
 
 **制限事項**:
-- 更新可能な範囲は付与されたGitHub権限（対象リポジトリ）に従います
-- ネットワークやGitHub側の制限により同期が一時的に失敗する場合があります
+- リモートデータを直接更新することはできない
+- 編集内容はローカルにのみ保存される
+- 他のユーザーとのリアルタイム同期は不可
 
-#### 3. 自分で作った年表を公開したい人（GitHub管理者）
+#### 3. 自分で新たに年表を作りたい人（ローカル管理者）
 
-この機能はいまのところ非公開ですが将来的には提供していく予定です。
+**対象**: ローカルのデータで閉じてロードとセーブで回していく人
+
+**用途**: 簡単な年表をプレゼンや分析に使うなどに適する
+
+**基本的な操作**:
+- 閲覧者・コラボレーターの操作すべて
+- 「ロード」でCSVファイルからデータを読み込み
+- 「セーブ」で現在のデータをCSVファイルとして保存
+- ローカルでの完全なデータ管理
+
+**推奨ワークフロー**:
+1. 初期データをCSVファイルで準備
+2. 「ロード」でデータを読み込み
+3. 必要に応じて編集・追加・削除
+4. 「セーブ」で編集内容を保存
+5. 必要に応じて手順2-4を繰り返し
+
+#### 4. 自分で作った年表を公開したい人（GitHub管理者）
+
+**対象**: GitHubにデータを置いて公開したい人
+
+**必要な準備**:
+- GitHubアカウント
+- Personal Access Token
+- リポジトリの作成
+
+### GitHub公開の詳細手順
+
+#### ステップ1: GitHubリポジトリの準備
+
+1. **リポジトリの作成**
+   - GitHubにログイン
+   - 「New repository」をクリック
+   - リポジトリ名を入力（例：`my-timeline`）
+   - 「Public」または「Private」を選択
+   - 「Create repository」をクリック
+
+2. **初期ファイルの配置**
+   - リポジトリに`timeline.json`ファイルを作成
+   - 空のファイルでも構いません
+   - または、[nativemapのリポジトリ](https://github.com/hortense667/nativemap)からサンプルデータを参照
+
+#### ステップ2: Personal Access Tokenの取得
+
+1. **GitHubの設定画面にアクセス**
+   - GitHubの右上のプロフィール画像をクリック
+   - 「Settings」を選択
+   - 左サイドバーの「Developer settings」をクリック
+   - 「Personal access tokens」→「Tokens (classic)」を選択
+
+2. **新しいトークンの生成**
+   - 「Generate new token」→「Generate new token (classic)」をクリック
+   - Note: `Native Map Timeline Access`（任意の名前）
+   - Expiration: 適切な期間を選択（推奨：90 days）
+   - Scopes: 以下の権限にチェック
+     - `repo` (Full control of private repositories)
+     - `public_repo` (Access public repositories)
+
+3. **トークンの保存**
+   - 「Generate token」をクリック
+   - 生成されたトークンをコピーして安全な場所に保存
+   - **重要**: このトークンは再表示されません
+
+#### ステップ3: ネイティブマップでの設定
+
+1. **設定画面を開く**
+   - ネイティブマップの「設定」ボタンをクリック
+
+2. **GitHub情報を入力**
+   - Personal Access Token: ステップ2で取得したトークン
+   - リポジトリ所有者: 自分のGitHubユーザー名
+   - リポジトリ名: ステップ1で作成したリポジトリ名
+   - ファイルパス: `timeline.json`（通常はこのままでOK）
+
+3. **設定の保存**
+   - 「保存」ボタンをクリック
+   - 設定がローカルストレージに保存されます
+
+#### ステップ4: データの準備と同期
+
+1. **データの準備**
+   - 「ロード」機能でCSVファイルからデータを読み込み
+   - または、既存のデータを編集
+
+2. **初回同期**
+   - 「同期」ボタンをクリック
+   - アクセストークンあり: GitHubのJSONを更新（メッセージ「リモートデータを更新しました」）
+   - アクセストークンなし: 変更点のみCSVとしてダウンロード（ボタンは緑に戻ります）
+
+3. **継続的な運用**
+   - 編集後は必ず「同期」でGitHubに反映
+   - 他のユーザーが編集した場合は「同期」で最新データを取得
 
 ### 推奨運用方針
 
@@ -129,21 +243,12 @@
 ```
 genre;CODE;LABEL;label_en;conjunction
 ```
-*Conjunction is used within labels as an AND condition with other genres (e.g., if the "[Japan]" genre is selected, only events containing that genre will be displayed).
 
 **例**:
 ```
 genre;ANI;アニメ;Animation;
 genre;GAM;ゲーム;Game;
 genre;JAPAN;日本;Japan;true
-```
-**Title Definition**:
-```
-title;title(Japanese);title(English)
-```
-**Example**:
-```
-title;日本のカレーの歴史;Japanese Curry History
 ```
 
 #### JSON形式（同期用）
@@ -240,7 +345,7 @@ title;日本のカレーの歴史;Japanese Curry History
 #### 年表の表示と操作
 
 **年表の表示**:
-- 1940年代から2035年代まで縦スクロールで閲覧
+- 1950年代から2050年代まで縦スクロールで閲覧
 - 左側のカラムに年とイベントが表示
 - 右側のエリアでドラッグ操作が可能
 
@@ -435,18 +540,13 @@ It is designed as a **distributed system where any GitHub user can become an adm
 The reference timeline feature allows you to display and compare multiple timeline data simultaneously in addition to the main timeline data. Reference timeline data is read-only and cannot be edited or deleted.
 
 #### How to Set Up Reference Timeline
-1. **Specify reference timeline details in settings**
-   - Go to "Settings" → "Reference Timeline Settings" and enter details for each reference timeline
-   - For each reference timeline, specify:
-     - Repository owner
-     - Repository name
-     - File path
-     - Minimum importance (optional)
-   - Use "+ Add Reference Timeline" button to add up to 10 reference timelines
+1. **Specify reference timeline file paths in settings**
+   - Go to "Settings" → "Reference timeline file paths" and enter up to 10 JSON file paths separated by commas
+   - Example: `timeline_popculture_japan_01.json, timeline_ai_01.json`
 
 2. **Direct specification via URL parameters**
-   - Add `refTimelines` (JSON array) to the URL (importance can also be specified)
-   - Example: `nativemap201.html?owner=hortense667&repo=nativemap&filePath=timeline_digital_japan_01.json&refTimelines=[{"owner":"hortense667","repo":"nativemap","filePath":"timeline_popculture_japan_01.json","minImportance":2}]`
+   - Add `&refFilePaths=filepath1,filepath2` to the URL
+   - Example: `nativemap201.html?owner=hortense667&repo=nativemap&filePath=timeline_digital_japan_01.json&refFilePaths=timeline_popculture_japan_01.json`
 
 #### Features of Reference Timeline
 - **Read-only**: Cannot be edited or deleted (pencil and trash icons are grayed out)
@@ -494,9 +594,99 @@ Example:
 - Edited content is saved locally only
 - No real-time synchronization with other users
 
-#### 3. GitHub Timeline Publishers (GitHub administrators)
+#### 3. Local Timeline Creators (Local administrators)
 
-This feature is currently not available, but we plan to offer it in the future.
+**Target**: Users who work with local data using load and save cycles
+
+**Use cases**: Suitable for creating simple timelines for presentations or analysis
+
+**Basic operations**:
+- All viewer and collaborator operations
+- Load data from CSV files using "Load"
+- Save current data as CSV files using "Save"
+- Complete local data management
+
+**Recommended workflow**:
+1. Prepare initial data in CSV file
+2. Load data using "Load"
+3. Edit, add, or delete as needed
+4. Save edited content using "Save"
+5. Repeat steps 2-4 as needed
+
+#### 4. GitHub Timeline Publishers (GitHub administrators)
+
+**Target**: Users who want to publish their timelines on GitHub
+
+**Required preparation**:
+- GitHub account
+- Personal Access Token
+- Repository creation
+
+### Detailed Steps for GitHub Publishing
+
+#### Step 1: Prepare GitHub Repository
+
+1. **Create Repository**
+   - Log in to GitHub
+   - Click "New repository"
+   - Enter repository name (e.g., `my-timeline`)
+   - Select "Public" or "Private"
+   - Click "Create repository"
+
+2. **Place Initial Files**
+   - Create `timeline.json` file in repository
+   - Empty file is acceptable
+   - Or refer to sample data from [nativemap repository](https://github.com/hortense667/nativemap)
+
+#### Step 2: Get Personal Access Token
+
+1. **Access GitHub Settings**
+   - Click profile image in upper right of GitHub
+   - Select "Settings"
+   - Click "Developer settings" in left sidebar
+   - Select "Personal access tokens" → "Tokens (classic)"
+
+2. **Generate New Token**
+   - Click "Generate new token" → "Generate new token (classic)"
+   - Note: `Native Map Timeline Access` (any name)
+   - Expiration: Select appropriate period (recommended: 90 days)
+   - Scopes: Check the following permissions:
+     - `repo` (Full control of private repositories)
+     - `public_repo` (Access public repositories)
+
+3. **Save Token**
+   - Click "Generate token"
+   - Copy generated token and save in secure location
+   - **Important**: This token will not be shown again
+
+#### Step 3: Configure in Native Map
+
+1. **Open Settings**
+   - Click "Settings" button in Native Map
+
+2. **Enter GitHub Information**
+   - Personal Access Token: Token obtained in Step 2
+   - Repository Owner: Your GitHub username
+   - Repository Name: Repository name created in Step 1
+   - File Path: `timeline.json` (usually OK as is)
+
+3. **Save Settings**
+   - Click "Save" button
+   - Settings are saved to local storage
+
+#### Step 4: Prepare Data and Synchronize
+
+1. **Prepare Data**
+   - Use "Load" function to read data from CSV files
+   - Or edit existing data
+
+2. **Initial Synchronization**
+   - Click "Sync" button
+   - Data is saved to `timeline.json` in GitHub repository
+
+3. **Continuous Operation**
+   - Always "Sync" to reflect changes to GitHub after editing
+   - Use "Sync" to get latest data when others have edited
 
 ### Recommended Operation Policies
 
@@ -548,22 +738,12 @@ Start Year;End Year;Label;label_en;Genre;Importance;URL;url_en;Note;note_en
 ```
 genre;CODE;LABEL;label_en;conjunction
 ```
-※conjunctionはラベルの中で他のジャンルとAND条件として使用するものです（例：「[日本]」ジャンルが選択された場合、そのジャンルが含まれるイベントのみが表示される）。
 
 **Example**:
 ```
 genre;ANI;アニメ;Animation;
 genre;GAM;ゲーム;Game;
 genre;JAPAN;日本;Japan;true
-```
-
-**Title Definition**:
-```
-title;title（Japanese）;title（English）
-```
-**Example**:
-```
-title;日本のカレーの歴史;Japanese Curry History
 ```
 
 #### JSON Format (for synchronization)
@@ -660,7 +840,7 @@ The JSON file generated by synchronization includes the following structure:
 #### Timeline Display and Operation
 
 **Timeline Display**:
-- Browse from 1940s to 2035s with vertical scrolling
+- Browse from 1950s to 2050s with vertical scrolling
 - Years and events are displayed in the left column
 - Drag operations are possible in the right area
 

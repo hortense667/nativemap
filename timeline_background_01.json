@@ -1,4 +1,37 @@
 {
+  "metadata": {
+    "title": {
+      "ja": "時代背景 0.1",
+      "en": "Historical background Timeline 0.1"
+    },
+    "description": {
+      "ja": "この年表は参照年表として時代背景が分かるように項目を選んだものです。Wikipediaなどの項目をソースに作られています。注釈の冒頭はWikipediaから切り出されていたりします。現状、試験公開中であり内容を精査している段階です。",
+      "en": "This timeline is a reference timeline with items selected to provide historical context. It is created with items sourced from Wikipedia and other references. Some annotation introductions are excerpted from Wikipedia. Currently, it is in a trial phase and the content is being reviewed."
+    },
+    "initialCreator": "Satoshi Endo",
+    "contributors": [
+      "Satoshi Endo",
+      "Hortense Endo"
+    ],
+    "contact": {
+      "administrator": {
+        "name": "Satoshi Endo",
+        "email": "zzz@65536.net",
+        "x": "https://x.com/hortense667",
+        "organization": "ZEN University"
+      }
+    },
+    "createdAt": "2025-10-01",
+    "version": "1.0",
+    "language": [
+      "ja",
+      "en"
+    ],
+    "copyright": "© 2025 Satoshi Endo",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "notes": "Updates from contributors are welcome. Please do not create separate versions. When reusing data, credit the original authors."
+  },
   "events": {
     "1940": [
       {
@@ -37049,12 +37082,6 @@
     ]
   },
   "eraSettings": [],
-  "metadata": {
-    "title": {
-      "ja": "時代背景 0.1",
-      "en": "Historical background Timeline 0.1"
-    }
-  },
   "genres": [
     {
       "code": "EVENT",

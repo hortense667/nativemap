@@ -1,4 +1,37 @@
 {
+  "metadata": {
+    "title": {
+      "ja": "日本のデジタル年表 0.1",
+      "en": "Japan Digital Timeline 0.1"
+    },
+    "description": {
+      "ja": "この年表は日本におけるデジタル分野の主な製品や出来事を示します。制作者の作成した年表に、Wikipediaなどの項目をソースに作られています。注釈の冒頭はWikipediaから切り出されていたりします。現状、試験公開中であり内容を精査している段階です。",
+      "en": "This timeline shows major products and events in the digital field in Japan. It is created based on the author's timeline with items sourced from Wikipedia and other references. Some annotation introductions are excerpted from Wikipedia. Currently, it is in a trial phase and the content is being reviewed."
+    },
+    "initialCreator": "Satoshi Endo",
+    "contributors": [
+      "Satoshi Endo",
+      "Hortense Endo"
+    ],
+    "contact": {
+      "administrator": {
+        "name": "Satoshi Endo",
+        "email": "zzz@65536.net",
+        "x": "https://x.com/hortense667",
+        "organization": "ZEN University"
+      }
+    },
+    "createdAt": "2025-10-01",
+    "version": "1.0",
+    "language": [
+      "ja",
+      "en"
+    ],
+    "copyright": "© 2025 Satoshi Endo",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "notes": "Updates from contributors are welcome. Please do not create separate versions. When reusing data, credit the original authors."
+  },
   "events": {
     "1945": [
       {
@@ -799,10 +832,10 @@
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/PDP-6",
-        "note": "PDP-6は、1963年にディジタル・イクイップメント・コーポレーション(DEC)が開発したPDPシリーズコンピュータの1モデル。 後に開発されたPDP-10の原型であり、両者の命令セットはほぼ同じである",
+        "note": "PDP-6は、1963年にディジタル・イクイップメント・コーポレーション(DEC)が開発したPDPシリーズコンピュータの1モデル。 後に開発されたPDP-10の原型であり、両者の命令セットはほぼ同じである。",
         "label_en": "PDP-6",
-        "url_en": "https://en.wikipedia.org/wiki/PDP-6",
-        "note_en": "The PDP-6, short for Programmed Data Processor model 6, is a computer developed by Digital Equipment Corporation (DEC) during 1963 and first delivered in the su…"
+        "note_en": "The PDP-6, short for Programmed Data Processor model 6, is a computer developed by Digital Equipment Corporation (DEC) during 1963 and first delivered in the su…",
+        "url_en": "https://en.wikipedia.org/wiki/PDP-6"
       },
       {
         "label": "DIGI-COMP 1",
@@ -16622,183 +16655,146 @@
       "fillEnabled": false
     }
   ],
-  "metadata": {
-    "title": {
-      "ja": "日本のデジタル年表 0.1",
-      "en": "Japan Digital Timeline 0.1"
-    },
-    "description": {
-      "ja": "この年表は日本におけるデジタル分野の主な製品や出来事を示します。現状、試験公開中であり内容を精査している段階です。",
-      "en": "This timeline shows the major products and events in the digital field in Japan.Currently, it is in a trial phase and the content is being reviewed."
-    },
-    "initialCreator": "Satoshi Endo",
-    "contributors": [
-      "Satoshi Endo",
-      "Hortense Endo"
-    ]
-  },
   "genres": [
     {
       "code": "NON-HIS",
       "label": "事件/戦略/協定/政策",
-      "label_en": "Events/Strat/Agreements/Policies",
-      "conjunction": false
+      "label_en": "Events/Strat/Agreements/Policies"
     },
     {
       "code": "THE",
       "label": "理論/モデル",
-      "label_en": "Theory/Models",
-      "conjunction": false
+      "label_en": "Theory/Models"
     },
     {
       "code": "ORG",
       "label": "人物/組織",
-      "label_en": "People/Orgs",
-      "conjunction": false
+      "label_en": "People/Orgs"
     },
     {
       "code": "MED-CNT",
       "label": "メディア（雑誌/出版）/コンテンツ（作品）",
-      "label_en": "Media(Mag/Publ)/Content",
-      "conjunction": false
+      "label_en": "Media(Mag/Publ)/Content"
     },
     {
       "code": "HAR-PC",
       "label": "コンピュータ本体",
-      "label_en": "Computers",
-      "conjunction": false
+      "label_en": "Computers"
     },
     {
       "code": "HAR-MOB",
       "label": "モバイル端末/携帯/ウェアラブル",
-      "label_en": "Mobile/Phones/Wearables",
-      "conjunction": false
+      "label_en": "Mobile/Phones/Wearables"
     },
     {
       "code": "HAR-CPU",
       "label": "マイクロプロセッサ",
-      "label_en": "MPUs",
-      "conjunction": false
+      "label_en": "MPUs"
     },
     {
       "code": "HAR-MED",
       "label": "メディア/データ形式",
-      "label_en": "Media/DataFmt",
-      "conjunction": false
+      "label_en": "Media/DataFmt"
     },
     {
       "code": "HAR-PER",
       "label": "周辺機器（プリンタ/スキャナ等）",
-      "label_en": "Peripherals(Printers/Scanners)",
-      "conjunction": false
+      "label_en": "Peripherals(Printers/Scanners)"
     },
     {
       "code": "HAR-IMG",
       "label": "画像/音響機器（カメラ/オーディオ）",
-      "label_en": "Imaging/Audio(Cam/Audio)",
-      "conjunction": false
+      "label_en": "Imaging/Audio(Cam/Audio)"
     },
     {
       "code": "HAR-GAM",
       "label": "ゲームハード",
-      "label_en": "GameHW",
-      "conjunction": false
+      "label_en": "GameHW"
     },
     {
       "code": "HAR-ROB",
       "label": "ロボティクス/コンシューマロボ",
-      "label_en": "Robotics/ConsumerRobots",
-      "conjunction": false
+      "label_en": "Robotics/ConsumerRobots"
     },
     {
       "code": "SOF-OS",
       "label": "OS",
-      "label_en": "OS",
-      "conjunction": false
+      "label_en": "OS"
     },
     {
       "code": "SOF-DEV",
       "label": "ソフトウェア（言語/開発ツール/プラットフォーム）",
-      "label_en": "SW(Lang/DevTools/Platforms)",
-      "conjunction": false
+      "label_en": "SW(Lang/DevTools/Platforms)"
     },
     {
       "code": "SOF-CRE",
       "label": "クリエイティブ/3D/メディア系ソフト",
-      "label_en": "Creative/3D/MediaSW",
-      "conjunction": false
+      "label_en": "Creative/3D/MediaSW"
     },
     {
       "code": "SOF-OFF",
       "label": "ソフトウェア/業務/データベース",
-      "label_en": "SW/Enterprise/DB",
-      "conjunction": false
+      "label_en": "SW/Enterprise/DB"
     },
     {
       "code": "SOF-SEC",
       "label": "セキュリティ/プライバシー/決済",
-      "label_en": "Sec/Privacy/Payments",
-      "conjunction": false
+      "label_en": "Sec/Privacy/Payments"
     },
     {
       "code": "SOF-AI",
       "label": "AI/機械学習",
-      "label_en": "AI/ML",
-      "conjunction": false
+      "label_en": "AI/ML"
     },
     {
       "code": "SOF-PRO",
       "label": "ネットワーク/規格・プロトコル",
-      "label_en": "Net/Std/Proto",
-      "conjunction": false
+      "label_en": "Net/Std/Proto"
     },
     {
       "code": "SOF-SVC",
       "label": "インターネット/サービス（Web/検索/クラウド等）",
-      "label_en": "Internet/Services(Web/Search/Cloud)",
-      "conjunction": false
+      "label_en": "Internet/Services(Web/Search/Cloud)"
     },
     {
       "code": "NON-COM",
       "label": "コミュニティ/イベント",
-      "label_en": "Community/Events",
-      "conjunction": false
+      "label_en": "Community/Events"
     },
     {
       "code": "SOF-ENT",
       "label": "エンタープライズIT",
-      "label_en": "EnterpriseIT",
-      "conjunction": false
+      "label_en": "EnterpriseIT"
     },
     {
       "code": "JAPAN",
       "label": "日本",
-      "label_en": "Japan",
-      "conjunction": true
+      "conjunction": true,
+      "label_en": "Japan"
     },
     {
       "code": "HARD",
       "label": "ハードウェア",
-      "label_en": "HW",
-      "conjunction": true
+      "conjunction": true,
+      "label_en": "HW"
     },
     {
       "code": "SOFT",
       "label": "ソフトウェア/メディア/規格等",
-      "label_en": "SW/Media/Standards",
-      "conjunction": true
+      "conjunction": true,
+      "label_en": "SW/Media/Standards"
     },
     {
       "code": "NONG",
       "label": "事件/トピック/戦略等",
-      "label_en": "Events/Topics/Strat",
-      "conjunction": true
+      "conjunction": true,
+      "label_en": "Events/Topics/Strat"
     },
     {
       "code": "WORK",
       "label": "作業用（仮）",
-      "label_en": "Scratch",
-      "conjunction": true
+      "conjunction": true,
+      "label_en": "Scratch"
     }
   ]
 }
