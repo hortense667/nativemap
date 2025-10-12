@@ -73,6 +73,19 @@
     "1888": [
       {
         "label": "鎮火社が入谷へ遷座（現・台東区松が谷）",
+        "startYear": 1888,
+        "genre": [
+          "EVENT"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/秋葉神社_(台東区)",
+        "note": "火除を祀る鎮火社が下谷区入谷町へ移転。のちの台東区松が谷三丁目に鎮座する",
+        "label_en": "Relocation of Chinka-sha to Iriya",
+        "url_en": "https://en.wikipedia.org/wiki/Tait%C5%8D",
+        "note_en": "The](https://ja.wikipedia.org/wiki/秋葉神社_%28台東区%29"
+      },
+      {
+        "label": "鎮火社が入谷へ遷座（現・台東区松が谷）",
         "label_en": "Relocation of Chinka-sha to Iriya",
         "startYear": 1888,
         "genre": [
