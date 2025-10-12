@@ -16602,22 +16602,6 @@
         "url": "https://ja.wikipedia.org/wiki/バブルティー"
       },
       {
-        "label": "タピオカティーブーム（第2次）",
-        "startYear": 2018,
-        "endYear": 2020,
-        "genre": [
-          "WORK",
-          "FOO",
-          "JAPAN"
-        ],
-        "imp": 3,
-        "note": "タピオカティー またはタピオカミルクティー は、ミルクティーに大粒のタピオカパール（スターチボール）を入れた台湾発祥の飲料。",
-        "label_en": "[OJ]",
-        "url_en": "",
-        "note_en": "",
-        "url": "https://ja.wikipedia.org/wiki/%E3%83%90%E3%83%96%E3%83%AB%E3%83%86%E3%82%A3%E3%83%BC"
-      },
-      {
         "label": "ヴァイオレット・エヴァーガーデン",
         "startYear": 2018,
         "endYear": 2018,
@@ -16718,6 +16702,22 @@
         "note_en": "Among Us is a 2018 online multiplayer social deduction game developed and published by American game studio Innersloth.",
         "url": "https://ja.wikipedia.org/wiki/Among_Us",
         "url_en": "https://en.wikipedia.org/wiki/Among_Us"
+      },
+      {
+        "label": "タピオカティーブーム（第2次）",
+        "startYear": 2018,
+        "endYear": 2020,
+        "genre": [
+          "WORK",
+          "FOO",
+          "JAPAN"
+        ],
+        "imp": 3,
+        "note": "タピオカティー またはタピオカミルクティー は、ミルクティーに大粒のタピオカパール（スターチボール）を入れた台湾発祥の飲料。",
+        "label_en": "[OJ]",
+        "url_en": "",
+        "note_en": "",
+        "url": "https://ja.wikipedia.org/wiki/%E3%83%90%E3%83%96%E3%83%AB%E3%83%86%E3%82%A3%E3%83%BC"
       }
     ],
     "2019": [
