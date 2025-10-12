@@ -799,10 +799,10 @@
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/PDP-6",
-        "note": "PDP-6は、1963年にディジタル・イクイップメント・コーポレーション(DEC)が開発したPDPシリーズコンピュータの1モデル。 後に開発されたPDP-10の原型であり、両者の命令セットはほぼ同じである。",
+        "note": "PDP-6は、1963年にディジタル・イクイップメント・コーポレーション(DEC)が開発したPDPシリーズコンピュータの1モデル。 後に開発されたPDP-10の原型であり、両者の命令セットはほぼ同じである",
         "label_en": "PDP-6",
-        "note_en": "The PDP-6, short for Programmed Data Processor model 6, is a computer developed by Digital Equipment Corporation (DEC) during 1963 and first delivered in the su…",
-        "url_en": "https://en.wikipedia.org/wiki/PDP-6"
+        "url_en": "https://en.wikipedia.org/wiki/PDP-6",
+        "note_en": "The PDP-6, short for Programmed Data Processor model 6, is a computer developed by Digital Equipment Corporation (DEC) during 1963 and first delivered in the su…"
       },
       {
         "label": "DIGI-COMP 1",
