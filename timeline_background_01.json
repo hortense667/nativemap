@@ -7684,17 +7684,17 @@
       },
       {
         "label": "東京タワー 完成",
-        "label_en": "Tokyo Tower completed",
         "startYear": 1958,
         "genre": [
           "EVENT",
-          "JAPAN",
-          "CONTENT"
+          "CONTENT",
+          "JAPAN"
         ],
-        "imp": 4,
+        "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/東京タワー",
-        "url_en": "https://en.wikipedia.org/wiki/Tokyo_Tower",
         "note": "電波塔として完成しテレビ時代の象徴に。",
+        "label_en": "Tokyo Tower completed",
+        "url_en": "https://en.wikipedia.org/wiki/Tokyo_Tower",
         "note_en": "Completed as a broadcast tower, becoming a TV‑era icon."
       },
       {
@@ -7744,17 +7744,17 @@
       },
       {
         "label": "キルビーが集積回路を実証",
-        "label_en": "Kilby demonstrates integrated circuit",
         "startYear": 1958,
         "genre": [
           "PRODUCT",
           "COMPANY",
           "WORLD"
         ],
-        "imp": 4,
+        "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/集積回路",
-        "url_en": "https://en.wikipedia.org/wiki/Jack_Kilby",
         "note": "ジャック・キルビーがICの概念を実証。マイクロエレクトロニクスの幕開け。",
+        "label_en": "Kilby demonstrates integrated circuit",
+        "url_en": "https://en.wikipedia.org/wiki/Jack_Kilby",
         "note_en": "Jack Kilby proved the IC concept, launching microelectronics."
       },
       {
@@ -8012,16 +8012,16 @@
     "1959": [
       {
         "label": "キューバ革命 成立",
-        "label_en": "Cuban Revolution triumph",
         "startYear": 1959,
         "genre": [
           "EVENT",
           "WORLD"
         ],
-        "imp": 4,
+        "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/キューバ革命",
-        "url_en": "https://en.wikipedia.org/wiki/Cuban_Revolution",
         "note": "カストロらの革命軍が勝利し体制転換。",
+        "label_en": "Cuban Revolution triumph",
+        "url_en": "https://en.wikipedia.org/wiki/Cuban_Revolution",
         "note_en": "Rebel forces led by Castro prevailed, transforming the regime."
       },
       {
@@ -8426,17 +8426,17 @@
     "1960": [
       {
         "label": "安保闘争（新安保条約・岸内閣退陣）",
-        "label_en": "Anpo protests & new US–Japan Security Treaty",
         "startYear": 1960,
         "genre": [
           "EVENT",
           "JAPAN",
           "WORLD"
         ],
-        "imp": 4,
+        "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/安保闘争",
-        "url_en": "https://en.wikipedia.org/wiki/Anpo_protests",
         "note": "新安保条約に反対する大規模デモが全国で発生。岸内閣は退陣。",
+        "label_en": "Anpo protests & new US–Japan Security Treaty",
+        "url_en": "https://en.wikipedia.org/wiki/Anpo_protests",
         "note_en": "\"Mass protests against the revised US–Japan treaty: PM Kishi resigned.\""
       },
       {
@@ -8850,17 +8850,17 @@
       },
       {
         "label": "ガガーリン 人類初の有人宇宙飛行",
-        "label_en": "Gagarin: first human in space",
         "startYear": 1961,
         "genre": [
           "EVENT",
           "PRODUCT",
           "WORLD"
         ],
-        "imp": 4,
+        "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/ユーリイ・ガガーリン",
-        "url_en": "https://en.wikipedia.org/wiki/Yuri_Gagarin",
         "note": "ボストーク1号で世界初の有人宇宙飛行に成功。",
+        "label_en": "Gagarin: first human in space",
+        "url_en": "https://en.wikipedia.org/wiki/Yuri_Gagarin",
         "note_en": "Yuri Gagarin orbited Earth aboard Vostok 1."
       },
       {
@@ -9350,17 +9350,17 @@
       },
       {
         "label": "Spacewar!（初期ビデオゲーム）",
-        "label_en": "Spacewar! (early video game)",
         "startYear": 1962,
         "genre": [
           "CONTENT",
           "PRODUCT",
           "WORLD"
         ],
-        "imp": 4,
+        "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/Spacewar!",
-        "url_en": "https://en.wikipedia.org/wiki/Spacewar!",
         "note": "MITで動作した黎明期の対戦ビデオゲーム。",
+        "label_en": "Spacewar! (early video game)",
+        "url_en": "https://en.wikipedia.org/wiki/Spacewar!",
         "note_en": "One of the earliest digital video games, created at MIT."
       },
       {
