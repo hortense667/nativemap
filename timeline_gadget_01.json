@@ -33,6 +33,22 @@
     "notes": "Updates from contributors are welcome. Please do not create separate versions. When reusing data, credit the original authors."
   },
   "events": {
+    "1948": [
+      {
+        "label": "Curta計算機",
+        "label_en": "Curta calculator",
+        "startYear": 1948,
+        "genre": [
+          "COMPUTER",
+          "MOBILE"
+        ],
+        "imp": 2,
+        "url": "https://ja.wikipedia.org/wiki/クルタ計算機",
+        "url_en": "https://en.wikipedia.org/wiki/Curta",
+        "note": "手回し式の携帯計算機。",
+        "note_en": "https://ja.wikipedia.org/wiki/クルタ計算機"
+      }
+    ],
     "1960": [
       {
         "label": "Etch A Sketch",
@@ -653,6 +669,19 @@
         "url_en": "https://en.wikipedia.org/wiki/Hayes_command_set",
         "note": "ATコマンドでモデムを制御する事実上標準。",
         "note_en": "De](https://ja.wikipedia.org/wiki/Hayesコマンドセット"
+      },
+      {
+        "label": "トミー アームトロン",
+        "label_en": "Tomy Armatron",
+        "startYear": 1982,
+        "genre": [
+          "ROBOTOY"
+        ],
+        "imp": 2,
+        "url": "https://en.wikipedia.org/wiki/Armatron",
+        "url_en": "https://en.wikipedia.org/wiki/Armatron",
+        "note": "機械式アームを手元レバーで操作する玩具。",
+        "note_en": "https://en.wikipedia.org/wiki/Armatron"
       }
     ],
     "1983": [
@@ -807,6 +836,20 @@
         "url_en": "https://en.wikipedia.org/wiki/R.O.B.",
         "note": "ロボット玩具兼ゲーム周辺機器。",
         "note_en": "A](https://ja.wikipedia.org/wiki/ファミリーコンピュータ_ロボット"
+      },
+      {
+        "label": "Omnibot",
+        "label_en": "Omnibot",
+        "startYear": 1985,
+        "genre": [
+          "ROBOTOY",
+          "JAPAN"
+        ],
+        "imp": 2,
+        "url": "https://ja.wikipedia.org/wiki/オムニボット",
+        "url_en": "https://en.wikipedia.org/wiki/Omnibot",
+        "note": "タカラのプログラム玩具ロボット。",
+        "note_en": "https://ja.wikipedia.org/wiki/オムニボット"
       }
     ],
     "1986": [
