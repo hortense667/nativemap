@@ -80,15 +80,15 @@
     "1963": [
       {
         "label": "コンパクトカセット",
-        "label_en": "Compact cassette",
         "startYear": 1963,
         "genre": [
           "MEDIA"
         ],
         "imp": 4,
         "url": "[https://ja.wikipedia.org/wiki/コンパクトカセット",
-        "url_en": "https://en.wikipedia.org/wiki/Compact_Cassette",
         "note": "小型磁気テープ規格。携帯オーディオと録音文化を普及。",
+        "label_en": "Compact cassette",
+        "url_en": "https://en.wikipedia.org/wiki/Compact_Cassette",
         "note_en": "Small](https://ja.wikipedia.org/wiki/コンパクトカセット"
       }
     ],
