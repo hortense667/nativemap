@@ -8817,6 +8817,20 @@
         "url_en": "https://en.wikipedia.org/wiki/Television_program",
         "note": "ドラマや音楽番組が多様化し家庭娯楽が定着。",
         "note_en": "More diverse TV dramas and music shows entrenched home entertainment."
+      },
+      {
+        "label": "世界初のレーザー動作（メイマン）",
+        "label_en": "First working laser (Maiman)",
+        "startYear": 1960,
+        "genre": [
+          "PRODUCT",
+          "WORLD"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/レーザー#歴史",
+        "url_en": "https://en.wikipedia.org/wiki/Theodore_Maiman",
+        "note": "メイマンがルビーレーザーの発振に成功。",
+        "note_en": "Theodore Maiman achieved the first laser oscillation with ruby."
       }
     ],
     "1961": [
@@ -9230,6 +9244,20 @@
         "note": "小津の後期代表作の一つ。",
         "label_en": "Film: The End of Summer (Ozu)",
         "url_en": "https://en.wikipedia.org/wiki/The_End_of_Summer",
+        "note_en": "One of Ozu’s late‑period masterpieces."
+      },
+      {
+        "label": "映画『人間の証明』? → 小津『小早川家の秋』",
+        "label_en": "Film: The End of Summer (Ozu)",
+        "startYear": 1961,
+        "genre": [
+          "CONTENT",
+          "JAPAN"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/小早川家の秋",
+        "url_en": "https://en.wikipedia.org/wiki/The_End_of_Summer",
+        "note": "小津の後期代表作の一つ。",
         "note_en": "One of Ozu’s late‑period masterpieces."
       }
     ],
