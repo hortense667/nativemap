@@ -120,6 +120,20 @@
         "url_en": "https://en.wikipedia.org/wiki/Stylophone",
         "note": "スタイラスで演奏する小型電子楽器。",
         "note_en": "A](https://ja.wikipedia.org/wiki/スタイロフォン"
+      },
+      {
+        "label": "ウルトラハンド",
+        "startYear": 1967,
+        "genre": [
+          "INPUT",
+          "ROBOTOY"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/%E3%82%A6%E3%83%AB%E3%83%88%E3%83%A9%E3%83%8F%E3%83%B3%E3%83%89",
+        "note": "横井軍平が手がけた「ウルトラ」シリーズ第1弾で、以下、ウルトラマシン（1968年）、ウルトラスコープ（1971年）と続く。",
+        "label_en": "Ultra Hand",
+        "url_en": "https://en.wikipedia.org/wiki/Ultra_Hand",
+        "note_en": "Ultra Hand is a toy that was manufactured by Nintendo in the late 1960s"
       }
     ],
     "1969": [
