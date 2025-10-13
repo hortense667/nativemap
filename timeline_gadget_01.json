@@ -369,15 +369,15 @@
     "1977": [
       {
         "label": "Apple II",
-        "label_en": "Apple II",
         "startYear": 1977,
         "genre": [
           "COMPUTER"
         ],
         "imp": 5,
-        "url": "[https://ja.wikipedia.org/wiki/Apple_II",
-        "url_en": "https://en.wikipedia.org/wiki/Apple_II",
+        "url": "https://ja.wikipedia.org/wiki/Apple_II",
         "note": "量販に成功した初期の代表的パソコン。",
+        "label_en": "Apple II",
+        "url_en": "https://en.wikipedia.org/wiki/Apple_II",
         "note_en": "A](https://ja.wikipedia.org/wiki/Apple_II"
       },
       {
