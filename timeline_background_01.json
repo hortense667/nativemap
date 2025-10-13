@@ -30,7 +30,26 @@
     "copyright": "© 2025 Satoshi Endo",
     "license": "CC BY 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
-    "notes": "Updates from contributors are welcome. Please do not create separate versions. When reusing data, credit the original authors."
+    "notes": "Updates from contributors are welcome. Please do not create separate versions. When reusing data, credit the original authors.",
+    "timestamp": "2025-10-13T01:10:05.472Z",
+    "githubConfig": {
+      "accessToken": "",
+      "owner": "hortense667",
+      "repo": "nativemap",
+      "filePath": "timeline_background_01.json",
+      "refFilePaths": "timeline_digital_01.json",
+      "refTimelines": [
+        {
+          "owner": "hortense667",
+          "repo": "nativemap",
+          "filePath": "timeline_digital_01.json",
+          "minImportance": 5
+        }
+      ]
+    },
+    "appTitle": "時代背景 0.1",
+    "appTitleEn": "Historical background Timeline 0.1",
+    "currentLang": "ja"
   },
   "events": {
     "1940": [
