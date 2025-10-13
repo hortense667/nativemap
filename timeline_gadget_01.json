@@ -46,7 +46,7 @@
         "url": "https://ja.wikipedia.org/wiki/クルタ計算機",
         "url_en": "https://en.wikipedia.org/wiki/Curta",
         "note": "手回し式の携帯計算機。",
-        "note_en": "https://ja.wikipedia.org/wiki/クルタ計算機"
+        "note_en": "A compact mechanical hand-cranked calculator."
       }
     ],
     "1960": [
@@ -58,10 +58,10 @@
           "ROBOTOY"
         ],
         "imp": 2,
-        "url": "[https://ja.wikipedia.org/wiki/エッチ・ア・スケッチ",
+        "url": "https://ja.wikipedia.org/wiki/エッチ・ア・スケッチ",
         "url_en": "https://en.wikipedia.org/wiki/Etch_A_Sketch",
         "note": "ツマミで描くスクリーン玩具。世代を超えて親しまれた。",
-        "note_en": "A](https://ja.wikipedia.org/wiki/エッチ・ア・スケッチ"
+        "note_en": "A drawing toy controlled by two knobs, a pop-culture staple."
       },
       {
         "label": "ブローバ アキュトロン",
@@ -71,25 +71,25 @@
           "WEARABLE"
         ],
         "imp": 4,
-        "url": "[https://ja.wikipedia.org/wiki/ブローバ",
+        "url": "https://ja.wikipedia.org/wiki/ブローバ",
         "url_en": "https://en.wikipedia.org/wiki/Accutron",
         "note": "音叉式ムーブメント採用の高精度腕時計。電子時計時代の先駆け。",
-        "note_en": "A](https://ja.wikipedia.org/wiki/ブローバ"
+        "note_en": "A tuning fork watch noted for accuracy, ushering electronic timepieces."
       }
     ],
     "1963": [
       {
         "label": "コンパクトカセット",
+        "label_en": "Compact cassette",
         "startYear": 1963,
         "genre": [
           "MEDIA"
         ],
         "imp": 4,
-        "url": "[https://ja.wikipedia.org/wiki/コンパクトカセット",
-        "note": "小型磁気テープ規格。携帯オーディオと録音文化を普及。",
-        "label_en": "Compact cassette",
+        "url": "https://ja.wikipedia.org/wiki/コンパクトカセット",
         "url_en": "https://en.wikipedia.org/wiki/Compact_Cassette",
-        "note_en": "Small](https://ja.wikipedia.org/wiki/コンパクトカセット"
+        "note": "小型磁気テープ規格。携帯オーディオと録音文化を普及。",
+        "note_en": "Small magnetic tape format that popularized portable audio and recording."
       }
     ],
     "1965": [
@@ -101,10 +101,10 @@
           "COMPUTER"
         ],
         "imp": 5,
-        "url": "[https://ja.wikipedia.org/wiki/PDP-8",
+        "url": "https://ja.wikipedia.org/wiki/PDP-8",
         "url_en": "https://en.wikipedia.org/wiki/PDP-8",
         "note": "低価格で普及した12ビットミニコン。ミニコン時代を切り開く。",
-        "note_en": "A](https://ja.wikipedia.org/wiki/PDP-8"
+        "note_en": "A widely used 12-bit minicomputer that defined the minicomputer era."
       }
     ],
     "1967": [
@@ -116,10 +116,10 @@
           "AUDIO_VIDEO"
         ],
         "imp": 2,
-        "url": "[https://ja.wikipedia.org/wiki/スタイロフォン",
+        "url": "https://ja.wikipedia.org/wiki/スタイロフォン",
         "url_en": "https://en.wikipedia.org/wiki/Stylophone",
         "note": "スタイラスで演奏する小型電子楽器。",
-        "note_en": "A](https://ja.wikipedia.org/wiki/スタイロフォン"
+        "note_en": "A pocket electronic instrument played with a stylus."
       },
       {
         "label": "ウルトラハンド",
@@ -145,10 +145,10 @@
           "MEDIA"
         ],
         "imp": 2,
-        "url": "[https://ja.wikipedia.org/wiki/マイクロカセット",
+        "url": "https://ja.wikipedia.org/wiki/マイクロカセット",
         "url_en": "https://en.wikipedia.org/wiki/Microcassette",
         "note": "小型音声録音用カセット。取材やボイスレコーダーで普及。",
-        "note_en": "Small](https://ja.wikipedia.org/wiki/マイクロカセット"
+        "note_en": "Small audio cassette widely used in dictation and recorders."
       },
       {
         "label": "ラブテスター（任天堂）",
@@ -160,10 +160,10 @@
           "JAPAN"
         ],
         "imp": 2,
-        "url": "[https://ja.wikipedia.org/wiki/ラブテスター",
+        "url": "https://ja.wikipedia.org/wiki/ラブテスター",
         "url_en": "https://en.wikipedia.org/wiki/Love_Tester",
         "note": "手をつないで“相性”を表示する遊具。",
-        "note_en": "A](https://ja.wikipedia.org/wiki/ラブテスター"
+        "note_en": "A novelty device that “measures” compatibility by holding hands."
       }
     ],
     "1970": [
@@ -175,10 +175,10 @@
           "COMPUTER"
         ],
         "imp": 5,
-        "url": "[https://ja.wikipedia.org/wiki/PDP-11",
+        "url": "https://ja.wikipedia.org/wiki/PDP-11",
         "url_en": "https://en.wikipedia.org/wiki/PDP-11",
         "note": "UNIX誕生にも関わったDECの16ビットミニコン。",
-        "note_en": "DEC’s](https://ja.wikipedia.org/wiki/PDP-11"
+        "note_en": "DEC’s 16-bit minicomputer influential in UNIX’s development."
       }
     ],
     "1971": [
@@ -191,10 +191,10 @@
           "AUDIO_VIDEO"
         ],
         "imp": 5,
-        "url": "[https://ja.wikipedia.org/wiki/Intel_4004",
+        "url": "https://ja.wikipedia.org/wiki/Intel_4004",
         "url_en": "https://en.wikipedia.org/wiki/Intel_4004",
         "note": "世界初の商用マイクロプロセッサ。日本の電卓向けに誕生。",
-        "note_en": "The](https://ja.wikipedia.org/wiki/Intel_4004"
+        "note_en": "The first commercial microprocessor, created for a Japanese calculator."
       }
     ],
     "1972": [
@@ -206,10 +206,10 @@
           "AUDIO_VIDEO"
         ],
         "imp": 4,
-        "url": "[https://ja.wikipedia.org/wiki/HP-35",
+        "url": "https://ja.wikipedia.org/wiki/HP-35",
         "url_en": "https://en.wikipedia.org/wiki/HP-35",
         "note": "携帯科学電卓の嚆矢。ポータブル計算を一般化。",
-        "note_en": "A](https://ja.wikipedia.org/wiki/HP-35"
+        "note_en": "A breakthrough handheld scientific calculator."
       },
       {
         "label": "Magnavox Odyssey",
@@ -219,10 +219,10 @@
           "GAME"
         ],
         "imp": 5,
-        "url": "[https://ja.wikipedia.org/wiki/Magnavox_Odyssey",
+        "url": "https://ja.wikipedia.org/wiki/Magnavox_Odyssey",
         "url_en": "https://en.wikipedia.org/wiki/Magnavox_Odyssey",
         "note": "初の家庭用テレビゲーム機とされる。",
-        "note_en": "Often](https://ja.wikipedia.org/wiki/Magnavox_Odyssey"
+        "note_en": "Often cited as the first home video game console."
       },
       {
         "label": "Polaroid SX-70",
@@ -232,10 +232,10 @@
           "CAMERA"
         ],
         "imp": 4,
-        "url": "[https://ja.wikipedia.org/wiki/ポラロイド・SX-70",
+        "url": "https://ja.wikipedia.org/wiki/ポラロイド・SX-70",
         "url_en": "https://en.wikipedia.org/wiki/Polaroid_SX-70",
         "note": "折りたたみ一眼レフのインスタントカメラ。",
-        "note_en": "A](https://ja.wikipedia.org/wiki/ポラロイド・SX-70"
+        "note_en": "A folding SLR instant camera that popularized instant photography."
       }
     ],
     "1973": [
@@ -247,10 +247,10 @@
           "COMPUTER"
         ],
         "imp": 5,
-        "url": "[https://ja.wikipedia.org/wiki/Xerox_Alto",
+        "url": "https://ja.wikipedia.org/wiki/Xerox_Alto",
         "url_en": "https://en.wikipedia.org/wiki/Xerox_Alto",
         "note": "GUI・マウス・WYSIWYGを実装した研究用コンピュータ。",
-        "note_en": "Research](https://ja.wikipedia.org/wiki/Xerox_Alto"
+        "note_en": "Research system pioneering GUI, mouse, and WYSIWYG."
       }
     ],
     "1975": [
@@ -262,10 +262,10 @@
           "INPUT"
         ],
         "imp": 3,
-        "url": "[https://ja.wikipedia.org/wiki/ユタ・ティーポット",
+        "url": "https://ja.wikipedia.org/wiki/ユタ・ティーポット",
         "url_en": "https://en.wikipedia.org/wiki/Utah_teapot",
         "note": "CG研究で標準的に使われた3Dモデル。",
-        "note_en": "A](https://ja.wikipedia.org/wiki/ユタ・ティーポット"
+        "note_en": "A standard 3D test model in computer graphics."
       },
       {
         "label": "Altair 8800",
@@ -275,10 +275,10 @@
           "COMPUTER"
         ],
         "imp": 5,
-        "url": "[https://ja.wikipedia.org/wiki/Altair_8800",
+        "url": "https://ja.wikipedia.org/wiki/Altair_8800",
         "url_en": "https://en.wikipedia.org/wiki/Altair_8800",
         "note": "自作キットで普及した初期パソコンの象徴。",
-        "note_en": "Seminal](https://ja.wikipedia.org/wiki/Altair_8800"
+        "note_en": "Seminal kit microcomputer that sparked the home PC revolution."
       },
       {
         "label": "IMSAI 8080",
@@ -288,10 +288,10 @@
           "COMPUTER"
         ],
         "imp": 4,
-        "url": "[https://ja.wikipedia.org/wiki/IMSAI_8080",
+        "url": "https://ja.wikipedia.org/wiki/IMSAI_8080",
         "url_en": "https://en.wikipedia.org/wiki/IMSAI_8080",
         "note": "Altair互換の早期パーソナルコンピュータ。",
-        "note_en": "An](https://ja.wikipedia.org/wiki/IMSAI_8080"
+        "note_en": "An early Altair-compatible personal computer."
       },
       {
         "label": "Betamax",
@@ -303,10 +303,10 @@
           "JAPAN"
         ],
         "imp": 3,
-        "url": "[https://ja.wikipedia.org/wiki/ベータマックス",
+        "url": "https://ja.wikipedia.org/wiki/ベータマックス",
         "url_en": "https://en.wikipedia.org/wiki/Betamax",
         "note": "ソニーの家庭用ビデオ規格。",
-        "note_en": "Sony’s](https://ja.wikipedia.org/wiki/ベータマックス"
+        "note_en": "Sony’s consumer videotape format."
       },
       {
         "label": "テレビテニス（エポック社）",
@@ -317,10 +317,10 @@
           "JAPAN"
         ],
         "imp": 3,
-        "url": "[https://ja.wikipedia.org/wiki/テレビテニス",
+        "url": "https://ja.wikipedia.org/wiki/テレビテニス",
         "url_en": "https://en.wikipedia.org/wiki/Epoch_Co.",
         "note": "日本初の家庭用テレビゲーム機。",
-        "note_en": "Japan’s](https://ja.wikipedia.org/wiki/テレビテニス"
+        "note_en": "Japan’s first home video game console."
       }
     ],
     "1976": [
@@ -332,10 +332,10 @@
           "COMPUTER"
         ],
         "imp": 5,
-        "url": "[https://ja.wikipedia.org/wiki/Apple_I",
+        "url": "https://ja.wikipedia.org/wiki/Apple_I",
         "url_en": "https://en.wikipedia.org/wiki/Apple_I",
         "note": "Apple最初のコンピュータ。基板単体販売で話題。",
-        "note_en": "Apple’s](https://ja.wikipedia.org/wiki/Apple_I"
+        "note_en": "Apple’s first computer, sold as a bare board."
       },
       {
         "label": "VHS",
@@ -346,10 +346,10 @@
           "MEDIA"
         ],
         "imp": 5,
-        "url": "[https://ja.wikipedia.org/wiki/VHS",
+        "url": "https://ja.wikipedia.org/wiki/VHS",
         "url_en": "https://en.wikipedia.org/wiki/Video_Home_System",
         "note": "家庭用ビデオの世界標準となった規格。",
-        "note_en": "The](https://ja.wikipedia.org/wiki/VHS"
+        "note_en": "The videotape format that became the global home standard."
       },
       {
         "label": "ナショナル RF-2200（クーガー）",
@@ -360,25 +360,25 @@
           "JAPAN"
         ],
         "imp": 3,
-        "url": "[https://ja.wikipedia.org/wiki/クーガー_(ラジオ)",
+        "url": "https://ja.wikipedia.org/wiki/クーガー_(ラジオ)",
         "url_en": "https://en.wikipedia.org/wiki/Panasonic",
         "note": "BCL期を代表する短波ラジオ。",
-        "note_en": "A](https://ja.wikipedia.org/wiki/クーガー_%28ラジオ%29"
+        "note_en": "A popular shortwave radio of Japan’s BCL era."
       }
     ],
     "1977": [
       {
         "label": "Apple II",
+        "label_en": "Apple II",
         "startYear": 1977,
         "genre": [
           "COMPUTER"
         ],
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/Apple_II",
-        "note": "量販に成功した初期の代表的パソコン。",
-        "label_en": "Apple II",
         "url_en": "https://en.wikipedia.org/wiki/Apple_II",
-        "note_en": "A](https://ja.wikipedia.org/wiki/Apple_II"
+        "note": "量販に成功した初期の代表的パソコン。",
+        "note_en": "A mass-produced, highly successful early personal computer."
       },
       {
         "label": "TRS-80",
@@ -388,10 +388,10 @@
           "COMPUTER"
         ],
         "imp": 3,
-        "url": "[https://ja.wikipedia.org/wiki/TRS-80",
+        "url": "https://ja.wikipedia.org/wiki/TRS-80",
         "url_en": "https://en.wikipedia.org/wiki/TRS-80",
         "note": "Tandyの8ビットPC。",
-        "note_en": "An](https://ja.wikipedia.org/wiki/TRS-80"
+        "note_en": "An 8-bit microcomputer sold by RadioShack."
       },
       {
         "label": "Atari 2600",
@@ -401,10 +401,10 @@
           "GAME"
         ],
         "imp": 5,
-        "url": "[https://ja.wikipedia.org/wiki/Atari_2600",
+        "url": "https://ja.wikipedia.org/wiki/Atari_2600",
         "url_en": "https://en.wikipedia.org/wiki/Atari_2600",
         "note": "ROMカートリッジ式家庭用ゲームの代表。",
-        "note_en": "Landmark](https://ja.wikipedia.org/wiki/Atari_2600"
+        "note_en": "Landmark cartridge-based home video game console."
       },
       {
         "label": "VAX-11/780",
@@ -414,10 +414,10 @@
           "COMPUTER"
         ],
         "imp": 4,
-        "url": "[https://ja.wikipedia.org/wiki/VAX",
+        "url": "https://ja.wikipedia.org/wiki/VAX",
         "url_en": "https://en.wikipedia.org/wiki/VAX",
         "note": "DECの32ビットミニコンVAXシリーズ代表機。",
-        "note_en": "A](https://ja.wikipedia.org/wiki/VAX"
+        "note_en": "A representative 32-bit minicomputer of DEC’s VAX line."
       },
       {
         "label": "Polaroid 1000",
@@ -427,10 +427,10 @@
           "CAMERA"
         ],
         "imp": 3,
-        "url": "[https://ja.wikipedia.org/wiki/OneStep",
+        "url": "https://ja.wikipedia.org/wiki/OneStep",
         "url_en": "https://en.wikipedia.org/wiki/Polaroid_OneStep",
         "note": "大衆向け即写カメラのヒット機。",
-        "note_en": "A](https://ja.wikipedia.org/wiki/OneStep"
+        "note_en": "A popular consumer instant camera by Polaroid."
       }
     ],
     "1978": [
@@ -443,10 +443,10 @@
           "JAPAN"
         ],
         "imp": 4,
-        "url": "[https://ja.wikipedia.org/wiki/Roland_TR-808",
+        "url": "https://ja.wikipedia.org/wiki/Roland_TR-808",
         "url_en": "https://en.wikipedia.org/wiki/Roland_TR-808",
         "note": "名機とされるアナログドラムマシン。",
-        "note_en": "Iconic](https://ja.wikipedia.org/wiki/Roland_TR-808"
+        "note_en": "Iconic analog drum machine with lasting impact."
       },
       {
         "label": "LaserDisc",
@@ -457,10 +457,10 @@
           "MEDIA"
         ],
         "imp": 3,
-        "url": "[https://ja.wikipedia.org/wiki/レーザーディスク",
+        "url": "https://ja.wikipedia.org/wiki/レーザーディスク",
         "url_en": "https://en.wikipedia.org/wiki/LaserDisc",
         "note": "光学式ビデオディスクの先駆。",
-        "note_en": "An](https://ja.wikipedia.org/wiki/レーザーディスク"
+        "note_en": "An early optical video disc format."
       }
     ],
     "1979": [
@@ -473,10 +473,10 @@
           "JAPAN"
         ],
         "imp": 5,
-        "url": "[https://ja.wikipedia.org/wiki/ウォークマン",
+        "url": "https://ja.wikipedia.org/wiki/ウォークマン",
         "url_en": "https://en.wikipedia.org/wiki/Walkman",
         "note": "携帯音楽プレーヤーの代名詞となった初代機。",
-        "note_en": "The](https://ja.wikipedia.org/wiki/ウォークマン"
+        "note_en": "The portable cassette player that defined on-the-go music."
       },
       {
         "label": "MZ-80K",
@@ -487,10 +487,10 @@
           "JAPAN"
         ],
         "imp": 4,
-        "url": "[https://ja.wikipedia.org/wiki/MZ-80K",
+        "url": "https://ja.wikipedia.org/wiki/MZ-80K",
         "url_en": "https://en.wikipedia.org/wiki/Sharp_MZ",
         "note": "シャープの一体型8ビットPC。",
-        "note_en": "Sharp’s](https://ja.wikipedia.org/wiki/MZ-80K"
+        "note_en": "Sharp’s all-in-one 8-bit PC."
       },
       {
         "label": "Game & Watch",
@@ -501,10 +501,10 @@
           "JAPAN"
         ],
         "imp": 4,
-        "url": "[https://ja.wikipedia.org/wiki/ゲーム&ウオッチ",
+        "url": "https://ja.wikipedia.org/wiki/ゲーム&ウオッチ",
         "url_en": "https://en.wikipedia.org/wiki/Game_%26_Watch",
         "note": "任天堂の携帯LCDゲームシリーズ。",
-        "note_en": "Nintendo’s](https://ja.wikipedia.org/wiki/ゲーム&ウオッチ"
+        "note_en": "Nintendo’s line of handheld LCD games."
       },
       {
         "label": "BigTrak",
@@ -514,10 +514,10 @@
           "ROBOTOY"
         ],
         "imp": 2,
-        "url": "[https://ja.wikipedia.org/wiki/BigTrak",
+        "url": "https://ja.wikipedia.org/wiki/BigTrak",
         "url_en": "https://en.wikipedia.org/wiki/Big_Trak",
         "note": "プログラム走行する玩具ビークル。",
-        "note_en": "Programmable](https://ja.wikipedia.org/wiki/BigTrak"
+        "note_en": "Programmable toy vehicle."
       }
     ],
     "1980": [
@@ -529,10 +529,10 @@
           "INPUT"
         ],
         "imp": 3,
-        "url": "[https://ja.wikipedia.org/wiki/Model_M",
+        "url": "https://ja.wikipedia.org/wiki/Model_M",
         "url_en": "https://en.wikipedia.org/wiki/Model_M_keyboard",
         "note": "クリック感で知られる名機キーボード。",
-        "note_en": "Famed](https://ja.wikipedia.org/wiki/Model_M"
+        "note_en": "Famed mechanical keyboard with buckling-spring feel."
       },
       {
         "label": "Roland TB-303",
@@ -543,10 +543,10 @@
           "JAPAN"
         ],
         "imp": 3,
-        "url": "[https://ja.wikipedia.org/wiki/Roland_TB-303",
+        "url": "https://ja.wikipedia.org/wiki/Roland_TB-303",
         "url_en": "https://en.wikipedia.org/wiki/Roland_TB-303",
         "note": "アシッドハウス象徴のベース音源機。",
-        "note_en": "Bass](https://ja.wikipedia.org/wiki/Roland_TB-303"
+        "note_en": "Bass synthesizer iconic in acid house."
       }
     ],
     "1981": [
@@ -558,10 +558,10 @@
           "COMPUTER"
         ],
         "imp": 5,
-        "url": "[https://ja.wikipedia.org/wiki/IBM_Personal_Computer",
+        "url": "https://ja.wikipedia.org/wiki/IBM_Personal_Computer",
         "url_en": "https://en.wikipedia.org/wiki/IBM_Personal_Computer",
         "note": "PC互換機の原点となったIBMのPC。",
-        "note_en": "IBM’s](https://ja.wikipedia.org/wiki/IBM_Personal_Computer"
+        "note_en": "IBM’s PC that set the standard for compatibles."
       },
       {
         "label": "Osborne 1",
@@ -571,10 +571,10 @@
           "COMPUTER"
         ],
         "imp": 3,
-        "url": "[https://ja.wikipedia.org/wiki/Osborne_1",
+        "url": "https://ja.wikipedia.org/wiki/Osborne_1",
         "url_en": "https://en.wikipedia.org/wiki/Osborne_1",
         "note": "可搬型“一体ラップトップ”の先駆。",
-        "note_en": "An](https://ja.wikipedia.org/wiki/Osborne_1"
+        "note_en": "An early portable “luggable” computer."
       },
       {
         "label": "PC-6001",
@@ -585,10 +585,10 @@
           "JAPAN"
         ],
         "imp": 3,
-        "url": "[https://ja.wikipedia.org/wiki/PC-6001",
+        "url": "https://ja.wikipedia.org/wiki/PC-6001",
         "url_en": "https://en.wikipedia.org/wiki/NEC_PC-6001",
         "note": "「パピコン」の愛称で親しまれた8ビット機。",
-        "note_en": "Popular](https://ja.wikipedia.org/wiki/PC-6001"
+        "note_en": "Popular Japanese home 8-bit nicknamed “Papicon”."
       },
       {
         "label": "BBC Micro",
@@ -598,10 +598,10 @@
           "COMPUTER"
         ],
         "imp": 3,
-        "url": "[https://ja.wikipedia.org/wiki/BBC_Micro",
+        "url": "https://ja.wikipedia.org/wiki/BBC_Micro",
         "url_en": "https://en.wikipedia.org/wiki/BBC_Micro",
         "note": "英国の教育向け8ビット機。",
-        "note_en": "An](https://ja.wikipedia.org/wiki/BBC_Micro"
+        "note_en": "An 8-bit micro widely used in UK schools."
       }
     ],
     "1982": [
@@ -614,10 +614,10 @@
           "JAPAN"
         ],
         "imp": 5,
-        "url": "[https://ja.wikipedia.org/wiki/PC-9801",
+        "url": "https://ja.wikipedia.org/wiki/PC-9801",
         "url_en": "https://en.wikipedia.org/wiki/PC-9800_series",
         "note": "日本市場で圧倒的シェアを誇ったPCシリーズ。",
-        "note_en": "A](https://ja.wikipedia.org/wiki/PC-9801"
+        "note_en": "A dominant Japanese PC line of the 1980s–90s."
       },
       {
         "label": "Commodore 64",
@@ -627,10 +627,10 @@
           "COMPUTER"
         ],
         "imp": 5,
-        "url": "[https://ja.wikipedia.org/wiki/Commodore_64",
+        "url": "https://ja.wikipedia.org/wiki/Commodore_64",
         "url_en": "https://en.wikipedia.org/wiki/Commodore_64",
         "note": "世界的に大ヒットした8ビットPC。",
-        "note_en": "One](https://ja.wikipedia.org/wiki/Commodore_64"
+        "note_en": "One of the best-selling home computers worldwide."
       },
       {
         "label": "ZX Spectrum",
@@ -640,10 +640,10 @@
           "COMPUTER"
         ],
         "imp": 4,
-        "url": "[https://ja.wikipedia.org/wiki/ZX_Spectrum",
+        "url": "https://ja.wikipedia.org/wiki/ZX_Spectrum",
         "url_en": "https://en.wikipedia.org/wiki/ZX_Spectrum",
         "note": "英国で普及した低価格8ビット機。",
-        "note_en": "Low-cost](https://ja.wikipedia.org/wiki/ZX_Spectrum"
+        "note_en": "Low-cost 8-bit computer popular in the UK."
       },
       {
         "label": "VIC-20",
@@ -653,10 +653,10 @@
           "COMPUTER"
         ],
         "imp": 3,
-        "url": "[https://ja.wikipedia.org/wiki/Commodore_VIC-20",
+        "url": "https://ja.wikipedia.org/wiki/Commodore_VIC-20",
         "url_en": "https://en.wikipedia.org/wiki/Commodore_VIC-20",
         "note": "家庭向けの安価な8ビットPC。",
-        "note_en": "An](https://ja.wikipedia.org/wiki/Commodore_VIC-20"
+        "note_en": "An affordable 8-bit home computer."
       },
       {
         "label": "Kaypro II",
@@ -666,10 +666,10 @@
           "COMPUTER"
         ],
         "imp": 3,
-        "url": "[https://ja.wikipedia.org/wiki/Kaypro",
+        "url": "https://ja.wikipedia.org/wiki/Kaypro",
         "url_en": "https://en.wikipedia.org/wiki/Kaypro",
         "note": "CP/M搭載の“ラガブル”PC。Osborneのライバル。",
-        "note_en": "A](https://ja.wikipedia.org/wiki/Kaypro"
+        "note_en": "A CP/M-based luggable rival to Osborne 1."
       },
       {
         "label": "Hayesコマンドセット",
@@ -679,10 +679,10 @@
           "COMM"
         ],
         "imp": 3,
-        "url": "[https://ja.wikipedia.org/wiki/Hayesコマンドセット",
+        "url": "https://ja.wikipedia.org/wiki/Hayesコマンドセット",
         "url_en": "https://en.wikipedia.org/wiki/Hayes_command_set",
         "note": "ATコマンドでモデムを制御する事実上標準。",
-        "note_en": "De](https://ja.wikipedia.org/wiki/Hayesコマンドセット"
+        "note_en": "De facto “AT” modem command language for modems."
       },
       {
         "label": "トミー アームトロン",
@@ -695,7 +695,7 @@
         "url": "https://en.wikipedia.org/wiki/Armatron",
         "url_en": "https://en.wikipedia.org/wiki/Armatron",
         "note": "機械式アームを手元レバーで操作する玩具。",
-        "note_en": "https://en.wikipedia.org/wiki/Armatron"
+        "note_en": "A mechanically geared toy robotic arm controlled by levers."
       }
     ],
     "1983": [
@@ -707,10 +707,10 @@
           "COMPUTER"
         ],
         "imp": 4,
-        "url": "[https://ja.wikipedia.org/wiki/コンパック・ポータブル",
+        "url": "https://ja.wikipedia.org/wiki/コンパック・ポータブル",
         "url_en": "https://en.wikipedia.org/wiki/Compaq_Portable",
         "note": "IBM互換の可搬型PC。互換機市場を切り開く。",
-        "note_en": "IBM](https://ja.wikipedia.org/wiki/コンパック・ポータブル"
+        "note_en": "IBM PC–compatible luggable that opened the clone market."
       },
       {
         "label": "Olivetti M10",
@@ -720,10 +720,10 @@
           "COMPUTER"
         ],
         "imp": 3,
-        "url": "[https://ja.wikipedia.org/wiki/Olivetti_M10",
+        "url": "https://ja.wikipedia.org/wiki/Olivetti_M10",
         "url_en": "https://en.wikipedia.org/wiki/Olivetti_M10",
         "note": "京セラ設計のポータブルPC系。",
-        "note_en": "A](https://ja.wikipedia.org/wiki/Olivetti_M10"
+        "note_en": "A Kyocera-designed portable computer."
       },
       {
         "label": "Apple IIc",
@@ -733,9 +733,9 @@
           "COMPUTER"
         ],
         "imp": 3,
-        "url": "[https://ja.wikipedia.org/wiki/Apple_IIc",
+        "url": "https://ja.wikipedia.org/wiki/Apple_IIc",
         "url_en": "https://en.wikipedia.org/wiki/Apple_IIc",
-        "note": "Apple](https://ja.wikipedia.org/wiki/Apple_IIc",
+        "note": "https://ja.wikipedia.org/wiki/Apple_IIc",
         "note_en": "https://en.wikipedia.org/wiki/Apple_IIc"
       },
       {
@@ -746,10 +746,10 @@
           "MOBILE"
         ],
         "imp": 5,
-        "url": "[https://ja.wikipedia.org/wiki/DynaTAC",
+        "url": "https://ja.wikipedia.org/wiki/DynaTAC",
         "url_en": "https://en.wikipedia.org/wiki/Motorola_DynaTAC",
         "note": "初期携帯“ブリックフォン”の象徴。",
-        "note_en": "An](https://ja.wikipedia.org/wiki/DynaTAC"
+        "note_en": "An iconic early “brick” mobile phone."
       }
     ],
     "1984": [
@@ -761,10 +761,10 @@
           "COMPUTER"
         ],
         "imp": 5,
-        "url": "[https://ja.wikipedia.org/wiki/Macintosh",
+        "url": "https://ja.wikipedia.org/wiki/Macintosh",
         "url_en": "https://en.wikipedia.org/wiki/Macintosh",
         "note": "GUIとマウス操作を一般層に普及。",
-        "note_en": "GUI-based](https://ja.wikipedia.org/wiki/Macintosh"
+        "note_en": "GUI-based PC that popularized the mouse for consumers."
       },
       {
         "label": "Roland MPU-401",
@@ -776,10 +776,10 @@
           "JAPAN"
         ],
         "imp": 3,
-        "url": "[https://ja.wikipedia.org/wiki/MPU-401",
+        "url": "https://ja.wikipedia.org/wiki/MPU-401",
         "url_en": "https://en.wikipedia.org/wiki/MPU-401",
         "note": "PCにMIDIをもたらしたIF規格/製品。",
-        "note_en": "An](https://ja.wikipedia.org/wiki/MPU-401"
+        "note_en": "An interface bringing MIDI connectivity to PCs."
       }
     ],
     "1985": [
@@ -791,10 +791,10 @@
           "AUDIO_VIDEO"
         ],
         "imp": 3,
-        "url": "[https://ja.wikipedia.org/wiki/HP-16C",
+        "url": "https://ja.wikipedia.org/wiki/HP-16C",
         "url_en": "https://en.wikipedia.org/wiki/HP-16C",
         "note": "プログラマ向け関数電卓。",
-        "note_en": "A](https://ja.wikipedia.org/wiki/HP-16C"
+        "note_en": "A programmer’s calculator supporting bases and bit ops."
       },
       {
         "label": "Amiga 1000",
@@ -804,10 +804,10 @@
           "COMPUTER"
         ],
         "imp": 4,
-        "url": "[https://ja.wikipedia.org/wiki/Amiga",
+        "url": "https://ja.wikipedia.org/wiki/Amiga",
         "url_en": "https://en.wikipedia.org/wiki/Amiga",
         "note": "マルチメディア能力に優れた16/32ビットPC。",
-        "note_en": "A](https://ja.wikipedia.org/wiki/Amiga"
+        "note_en": "A multimedia-capable 16/32-bit computer platform."
       },
       {
         "label": "Atari ST",
@@ -817,10 +817,10 @@
           "COMPUTER"
         ],
         "imp": 3,
-        "url": "[https://ja.wikipedia.org/wiki/Atari_ST",
+        "url": "https://ja.wikipedia.org/wiki/Atari_ST",
         "url_en": "https://en.wikipedia.org/wiki/Atari_ST",
         "note": "MIDI端子搭載で音楽制作でも普及。",
-        "note_en": "16-bit](https://ja.wikipedia.org/wiki/Atari_ST"
+        "note_en": "16-bit micro popular in music with built-in MIDI."
       },
       {
         "label": "Nintendo Family Computer",
@@ -831,10 +831,10 @@
           "JAPAN"
         ],
         "imp": 5,
-        "url": "[https://ja.wikipedia.org/wiki/ファミリーコンピュータ",
+        "url": "https://ja.wikipedia.org/wiki/ファミリーコンピュータ",
         "url_en": "https://en.wikipedia.org/wiki/Nintendo_Entertainment_System",
         "note": "日本発の家庭用ゲーム機。NESとして世界展開。",
-        "note_en": "Nintendo’s](https://ja.wikipedia.org/wiki/ファミリーコンピュータ"
+        "note_en": "Nintendo’s home console released worldwide as the NES."
       },
       {
         "label": "R.O.B.（ファミコンロボット）",
@@ -846,10 +846,10 @@
           "JAPAN"
         ],
         "imp": 2,
-        "url": "[https://ja.wikipedia.org/wiki/ファミリーコンピュータ_ロボット",
+        "url": "https://ja.wikipedia.org/wiki/ファミリーコンピュータ_ロボット",
         "url_en": "https://en.wikipedia.org/wiki/R.O.B.",
         "note": "ロボット玩具兼ゲーム周辺機器。",
-        "note_en": "A](https://ja.wikipedia.org/wiki/ファミリーコンピュータ_ロボット"
+        "note_en": "A toy robot functioning as a game accessory."
       },
       {
         "label": "Omnibot",
@@ -863,7 +863,7 @@
         "url": "https://ja.wikipedia.org/wiki/オムニボット",
         "url_en": "https://en.wikipedia.org/wiki/Omnibot",
         "note": "タカラのプログラム玩具ロボット。",
-        "note_en": "https://ja.wikipedia.org/wiki/オムニボット"
+        "note_en": "Programmable) toy robots by Takara."
       }
     ],
     "1986": [
@@ -876,10 +876,10 @@
           "JAPAN"
         ],
         "imp": 3,
-        "url": "[https://ja.wikipedia.org/wiki/MSX",
+        "url": "https://ja.wikipedia.org/wiki/MSX",
         "url_en": "https://en.wikipedia.org/wiki/MSX",
         "note": "MSX2世代のソニー機。",
-        "note_en": "A](https://ja.wikipedia.org/wiki/MSX"
+        "note_en": "A Sony model of the MSX2 standard."
       }
     ],
     "1987": [
@@ -892,10 +892,10 @@
           "JAPAN"
         ],
         "imp": 5,
-        "url": "[https://ja.wikipedia.org/wiki/X68000",
+        "url": "https://ja.wikipedia.org/wiki/X68000",
         "url_en": "https://en.wikipedia.org/wiki/Sharp_X68000",
         "note": "高性能ホビーPC。アーケード移植で評価。",
-        "note_en": "High-end](https://ja.wikipedia.org/wiki/X68000"
+        "note_en": "High-end hobbyist PC famed for arcade-accurate ports."
       },
       {
         "label": "PC Engine",
@@ -906,10 +906,10 @@
           "JAPAN"
         ],
         "imp": 4,
-        "url": "[https://ja.wikipedia.org/wiki/PCエンジン",
+        "url": "https://ja.wikipedia.org/wiki/PCエンジン",
         "url_en": "https://en.wikipedia.org/wiki/TurboGrafx-16",
         "note": "CD-ROMなど先進性で話題の家庭用ゲーム機。",
-        "note_en": "Console](https://ja.wikipedia.org/wiki/PCエンジン"
+        "note_en": "Console notable for early CD-ROM adoption."
       }
     ],
     "1988": [
@@ -921,10 +921,10 @@
           "COMPUTER"
         ],
         "imp": 4,
-        "url": "[https://ja.wikipedia.org/wiki/NeXTcube",
+        "url": "https://ja.wikipedia.org/wiki/NeXTcube",
         "url_en": "https://en.wikipedia.org/wiki/NeXTcube",
         "note": "NeXT社のWS。macOSの源流。",
-        "note_en": "NeXT’s](https://ja.wikipedia.org/wiki/NeXTcube"
+        "note_en": "NeXT’s workstation, foundation of macOS lineage."
       },
       {
         "label": "SEGA Mega Drive",
@@ -935,10 +935,10 @@
           "JAPAN"
         ],
         "imp": 4,
-        "url": "[https://ja.wikipedia.org/wiki/メガドライブ",
+        "url": "https://ja.wikipedia.org/wiki/メガドライブ",
         "url_en": "https://en.wikipedia.org/wiki/Sega_Genesis",
         "note": "16ビット機の代表。海外で大成功。",
-        "note_en": "Leading](https://ja.wikipedia.org/wiki/メガドライブ"
+        "note_en": "Leading 16-bit console, hugely successful overseas."
       }
     ],
     "1989": [
@@ -951,10 +951,10 @@
           "JAPAN"
         ],
         "imp": 5,
-        "url": "[https://ja.wikipedia.org/wiki/ゲームボーイ",
+        "url": "https://ja.wikipedia.org/wiki/ゲームボーイ",
         "url_en": "https://en.wikipedia.org/wiki/Game_Boy",
         "note": "任天堂の携帯ゲーム機。長寿と大ヒット。",
-        "note_en": "Nintendo’s](https://ja.wikipedia.org/wiki/ゲームボーイ"
+        "note_en": "Nintendo’s hugely successful handheld console."
       },
       {
         "label": "Power Glove",
@@ -965,10 +965,10 @@
           "GAME"
         ],
         "imp": 3,
-        "url": "[https://ja.wikipedia.org/wiki/パワーグローブ",
+        "url": "https://ja.wikipedia.org/wiki/パワーグローブ",
         "url_en": "https://en.wikipedia.org/wiki/Power_Glove",
         "note": "モーション入力の家庭用周辺機器。",
-        "note_en": "A](https://ja.wikipedia.org/wiki/パワーグローブ"
+        "note_en": "A motion-control peripheral for home gaming."
       },
       {
         "label": "Kensington ExpertMouse",
@@ -1007,10 +1007,10 @@
           "JAPAN"
         ],
         "imp": 4,
-        "url": "[https://ja.wikipedia.org/wiki/R360",
+        "url": "https://ja.wikipedia.org/wiki/R360",
         "url_en": "https://en.wikipedia.org/wiki/R360_(arcade_system)",
         "note": "全方位回転が可能な大型体感筐体。",
-        "note_en": "A](https://ja.wikipedia.org/wiki/R360"
+        "note_en": "A full-rotation arcade cabinet enabling 360-degree motion."
       },
       {
         "label": "Handycam TR55",
@@ -1021,10 +1021,10 @@
           "JAPAN"
         ],
         "imp": 3,
-        "url": "[https://ja.wikipedia.org/wiki/ハンディカム",
+        "url": "https://ja.wikipedia.org/wiki/ハンディカム",
         "url_en": "https://en.wikipedia.org/wiki/Sony_Handycam",
         "note": "“パスポートサイズ”を掲げた小型ビデオカメラ。",
-        "note_en": "A](https://ja.wikipedia.org/wiki/ハンディカム"
+        "note_en": "A compact “passport-size” camcorder from Sony."
       },
       {
         "label": "DataHand",
@@ -1034,7 +1034,7 @@
           "INPUT"
         ],
         "imp": 2,
-        "url": "[https://en.wikipedia.org/wiki/DataHand",
+        "url": "https://en.wikipedia.org/wiki/DataHand",
         "url_en": "https://en.wikipedia.org/wiki/DataHand",
         "note": "指先の5方向スイッチを用いるユニークなエルゴキーボード。",
         "note_en": "An ergonomic keyboard using finger clusters with directional switches."
@@ -1050,10 +1050,10 @@
           "JAPAN"
         ],
         "imp": 5,
-        "url": "[https://ja.wikipedia.org/wiki/スーパーファミコン",
+        "url": "https://ja.wikipedia.org/wiki/スーパーファミコン",
         "url_en": "https://en.wikipedia.org/wiki/Super_Nintendo_Entertainment_System",
         "note": "任天堂の16ビット家庭用ゲーム機。",
-        "note_en": "Nintendo’s](https://ja.wikipedia.org/wiki/スーパーファミコン"
+        "note_en": "Nintendo’s 16-bit home console."
       }
     ],
     "1992": [
@@ -1067,10 +1067,10 @@
           "JAPAN"
         ],
         "imp": 4,
-        "url": "[https://ja.wikipedia.org/wiki/MiniDisc",
+        "url": "https://ja.wikipedia.org/wiki/MiniDisc",
         "url_en": "https://en.wikipedia.org/wiki/MiniDisc",
         "note": "編集性に優れるデジタル音声メディア。",
-        "note_en": "Magneto-optical](https://ja.wikipedia.org/wiki/MiniDisc"
+        "note_en": "Magneto-optical digital audio format with easy editing."
       },
       {
         "label": "Valentine One",
@@ -1080,10 +1080,10 @@
           "AUDIO_VIDEO"
         ],
         "imp": 2,
-        "url": "[https://ja.wikipedia.org/wiki/レーダー探知機",
+        "url": "https://ja.wikipedia.org/wiki/レーダー探知機",
         "url_en": "https://en.wikipedia.org/wiki/Radar_detector",
         "note": "高性能レーダー探知機の代表モデル。",
-        "note_en": "A](https://ja.wikipedia.org/wiki/レーダー探知機"
+        "note_en": "A well-known high-performance radar detector."
       }
     ],
     "1993": [
@@ -1095,10 +1095,10 @@
           "MOBILE"
         ],
         "imp": 4,
-        "url": "[https://ja.wikipedia.org/wiki/Apple_Newton",
+        "url": "https://ja.wikipedia.org/wiki/Apple_Newton",
         "url_en": "https://en.wikipedia.org/wiki/Apple_Newton",
         "note": "手書き認識で知られるAppleのPDA。",
-        "note_en": "Apple’s](https://ja.wikipedia.org/wiki/Apple_Newton"
+        "note_en": "Apple’s PDA known for handwriting recognition."
       },
       {
         "label": "3Dconnexion SpaceMouse",
@@ -1108,10 +1108,10 @@
           "INPUT"
         ],
         "imp": 2,
-        "url": "[https://ja.wikipedia.org/wiki/3Dconnexion",
+        "url": "https://ja.wikipedia.org/wiki/3Dconnexion",
         "url_en": "https://en.wikipedia.org/wiki/3Dconnexion",
         "note": "3D操作に特化した入力デバイス。",
-        "note_en": "Input](https://ja.wikipedia.org/wiki/3Dconnexion"
+        "note_en": "Input device specialized for 3D navigation."
       }
     ],
     "1994": [
@@ -1123,10 +1123,10 @@
           "MOBILE"
         ],
         "imp": 3,
-        "url": "[https://ja.wikipedia.org/wiki/General_Magic",
+        "url": "https://ja.wikipedia.org/wiki/General_Magic",
         "url_en": "https://en.wikipedia.org/wiki/Magic_Link",
         "note": "PDA/通信端末の先駆。",
-        "note_en": "An](https://ja.wikipedia.org/wiki/General_Magic"
+        "note_en": "An early PDA/communications device."
       },
       {
         "label": "Iomega Zip Drive",
@@ -1136,10 +1136,10 @@
           "MEDIA"
         ],
         "imp": 3,
-        "url": "[https://ja.wikipedia.org/wiki/Zipドライブ",
+        "url": "https://ja.wikipedia.org/wiki/Zipドライブ",
         "url_en": "https://en.wikipedia.org/wiki/Zip_drive",
         "note": "100MB級のリムーバブルディスクで普及。",
-        "note_en": "Popular](https://ja.wikipedia.org/wiki/Zipドライブ"
+        "note_en": "Popular 100MB removable disk system."
       },
       {
         "label": "PlayStation",
@@ -1150,10 +1150,10 @@
           "JAPAN"
         ],
         "imp": 5,
-        "url": "[https://ja.wikipedia.org/wiki/PlayStation_(ゲーム機)",
+        "url": "https://ja.wikipedia.org/wiki/PlayStation_(ゲーム機)",
         "url_en": "https://en.wikipedia.org/wiki/PlayStation_(console)",
         "note": "ソニー初の家庭用ゲーム機。CD-ROM普及に寄与。",
-        "note_en": "Sony’s](https://ja.wikipedia.org/wiki/PlayStation_%28ゲーム機%29"
+        "note_en": "Sony’s first home console, popularizing CD-ROM gaming."
       },
       {
         "label": "QRコード",
@@ -1164,10 +1164,10 @@
           "JAPAN"
         ],
         "imp": 5,
-        "url": "[https://ja.wikipedia.org/wiki/QRコード",
+        "url": "https://ja.wikipedia.org/wiki/QRコード",
         "url_en": "https://en.wikipedia.org/wiki/QR_code",
         "note": "日本発の2次元コード。世界標準として普及。",
-        "note_en": "Japanese](https://ja.wikipedia.org/wiki/QRコード"
+        "note_en": "Japanese 2D code that became a global standard."
       }
     ],
     "1995": [
@@ -1180,10 +1180,10 @@
           "JAPAN"
         ],
         "imp": 5,
-        "url": "[https://ja.wikipedia.org/wiki/CASIO_QV-10",
+        "url": "https://ja.wikipedia.org/wiki/CASIO_QV-10",
         "url_en": "https://en.wikipedia.org/wiki/Casio_QV-10",
         "note": "液晶モニター搭載で知られる初期デジカメ。",
-        "note_en": "Early](https://ja.wikipedia.org/wiki/CASIO_QV-10"
+        "note_en": "Early consumer digital camera noted for its LCD monitor."
       },
       {
         "label": "Virtual Boy",
@@ -1194,10 +1194,10 @@
           "JAPAN"
         ],
         "imp": 2,
-        "url": "[https://ja.wikipedia.org/wiki/バーチャルボーイ",
+        "url": "https://ja.wikipedia.org/wiki/バーチャルボーイ",
         "url_en": "https://en.wikipedia.org/wiki/Virtual_Boy",
         "note": "立体視を掲げた実験的ゲーム機。",
-        "note_en": "Nintendo’s](https://ja.wikipedia.org/wiki/バーチャルボーイ"
+        "note_en": "Nintendo’s experimental stereoscopic console."
       },
       {
         "label": "Palm Top PC 110",
@@ -1208,10 +1208,10 @@
           "JAPAN"
         ],
         "imp": 3,
-        "url": "[https://ja.wikipedia.org/wiki/Palm_top_PC_110",
+        "url": "https://ja.wikipedia.org/wiki/Palm_top_PC_110",
         "url_en": "https://en.wikipedia.org/wiki/IBM_Palm_Top_PC_110",
         "note": "IBMの超小型PC（日本展開）。",
-        "note_en": "IBM’s](https://ja.wikipedia.org/wiki/Palm_top_PC_110"
+        "note_en": "IBM’s ultra-compact PC sold mainly in Japan."
       },
       {
         "label": "プリクラ",
@@ -1223,10 +1223,10 @@
           "JAPAN"
         ],
         "imp": 4,
-        "url": "[https://ja.wikipedia.org/wiki/プリクラ",
+        "url": "https://ja.wikipedia.org/wiki/プリクラ",
         "url_en": "https://en.wikipedia.org/wiki/Purikura",
         "note": "写真を撮りシールに印刷する日本発の機器。",
-        "note_en": "Japanese](https://ja.wikipedia.org/wiki/プリクラ"
+        "note_en": "Japanese photo-sticker booths that became a social craze."
       }
     ],
     "1996": [
@@ -1239,10 +1239,10 @@
           "JAPAN"
         ],
         "imp": 4,
-        "url": "[https://ja.wikipedia.org/wiki/NINTENDO_64",
+        "url": "https://ja.wikipedia.org/wiki/NINTENDO_64",
         "url_en": "https://en.wikipedia.org/wiki/Nintendo_64",
         "note": "アナログスティックで3D操作を普及。",
-        "note_en": "Popularized](https://ja.wikipedia.org/wiki/NINTENDO_64"
+        "note_en": "Popularized analog stick 3D control."
       },
       {
         "label": "Motorola StarTAC",
@@ -1252,10 +1252,10 @@
           "MOBILE"
         ],
         "imp": 4,
-        "url": "[https://ja.wikipedia.org/wiki/StarTAC",
+        "url": "https://ja.wikipedia.org/wiki/StarTAC",
         "url_en": "https://en.wikipedia.org/wiki/Motorola_StarTAC",
         "note": "折りたたみ式携帯の象徴。",
-        "note_en": "An](https://ja.wikipedia.org/wiki/StarTAC"
+        "note_en": "An iconic flip mobile phone."
       },
       {
         "label": "たまごっち",
@@ -1266,10 +1266,10 @@
           "JAPAN"
         ],
         "imp": 4,
-        "url": "[https://ja.wikipedia.org/wiki/たまごっち",
+        "url": "https://ja.wikipedia.org/wiki/たまごっち",
         "url_en": "https://en.wikipedia.org/wiki/Tamagotchi",
         "note": "育成玩具ブームを巻き起こした電子ペット。",
-        "note_en": "A](https://ja.wikipedia.org/wiki/たまごっち"
+        "note_en": "A digital pet that sparked a global craze."
       },
       {
         "label": "LS-120 SuperDisk",
@@ -1279,10 +1279,10 @@
           "MEDIA"
         ],
         "imp": 2,
-        "url": "[https://ja.wikipedia.org/wiki/LS-120",
+        "url": "https://ja.wikipedia.org/wiki/LS-120",
         "url_en": "https://en.wikipedia.org/wiki/SuperDisk",
         "note": "120MBの高密度フロッピー互換。",
-        "note_en": "120MB](https://ja.wikipedia.org/wiki/LS-120"
+        "note_en": "120MB high-density floppy-compatible system."
       },
       {
         "label": "Iomega Jaz",
@@ -1292,10 +1292,10 @@
           "MEDIA"
         ],
         "imp": 2,
-        "url": "[https://ja.wikipedia.org/wiki/Jazドライブ",
+        "url": "https://ja.wikipedia.org/wiki/Jazドライブ",
         "url_en": "https://en.wikipedia.org/wiki/Jaz_drive",
         "note": "大容量リムーバブルHDDカートリッジ。",
-        "note_en": "High-capacity](https://ja.wikipedia.org/wiki/Jazドライブ"
+        "note_en": "High-capacity removable hard disk cartridges."
       }
     ],
     "1997": [
@@ -1308,10 +1308,10 @@
           "JAPAN"
         ],
         "imp": 3,
-        "url": "[https://ja.wikipedia.org/wiki/ソニー・マビカ",
+        "url": "https://ja.wikipedia.org/wiki/ソニー・マビカ",
         "url_en": "https://en.wikipedia.org/wiki/Sony_Mavica",
         "note": "フロッピーに直接記録するデジカメ。",
-        "note_en": "Digital](https://ja.wikipedia.org/wiki/ソニー・マビカ"
+        "note_en": "Digital camera recording to floppy disks."
       },
       {
         "label": "カシオ マウスプリンター KP-C50",
@@ -1322,10 +1322,10 @@
           "JAPAN"
         ],
         "imp": 2,
-        "url": "[https://ascii.jp/elem/000/000/318/318664/",
+        "url": "https://ascii.jp/elem/000/000/318/318664/",
         "url_en": "https://ascii.jp/elem/000/000/318/318664/",
         "note": "マウス型サーマルプリンタ。付箋やラベルを即印刷。",
-        "note_en": "Mouse-shaped](https://ascii.jp/elem/000/000/318/318664/"
+        "note_en": "Mouse-shaped thermal mini-printer for quick labels."
       }
     ],
     "1998": [
@@ -1337,10 +1337,10 @@
           "COMPUTER"
         ],
         "imp": 5,
-        "url": "[https://ja.wikipedia.org/wiki/IMac",
+        "url": "https://ja.wikipedia.org/wiki/IMac",
         "url_en": "https://en.wikipedia.org/wiki/IMac",
         "note": "透明感あるデザインでPC市場に影響。",
-        "note_en": "Colorful](https://ja.wikipedia.org/wiki/IMac"
+        "note_en": "Colorful all-in-one that reshaped consumer PCs."
       },
       {
         "label": "Game Boy Camera",
@@ -1352,10 +1352,10 @@
           "JAPAN"
         ],
         "imp": 3,
-        "url": "[https://ja.wikipedia.org/wiki/ポケットカメラ",
+        "url": "https://ja.wikipedia.org/wiki/ポケットカメラ",
         "url_en": "https://en.wikipedia.org/wiki/Game_Boy_Camera",
         "note": "ゲームボーイに写真撮影機能を追加。",
-        "note_en": "A](https://ja.wikipedia.org/wiki/ポケットカメラ"
+        "note_en": "A Game Boy accessory enabling low-res photos."
       },
       {
         "label": "Furby",
@@ -1365,10 +1365,10 @@
           "ROBOTOY"
         ],
         "imp": 3,
-        "url": "[https://ja.wikipedia.org/wiki/ファービー",
+        "url": "https://ja.wikipedia.org/wiki/ファービー",
         "url_en": "https://en.wikipedia.org/wiki/Furby",
         "note": "学習するぬいぐるみ型電子玩具。",
-        "note_en": "Electronic](https://ja.wikipedia.org/wiki/ファービー"
+        "note_en": "Electronic toy that “learns” language-like sounds."
       },
       {
         "label": "ドラえホン（パルディオ316S）",
@@ -1379,10 +1379,10 @@
           "JAPAN"
         ],
         "imp": 3,
-        "url": "[https://ja.wikipedia.org/wiki/NTTパーソナル",
+        "url": "https://ja.wikipedia.org/wiki/NTTパーソナル",
         "url_en": "https://ascii.jp/elem/000/000/301/301777/",
         "note": "ドラえもん意匠の子供向けPHS端末。",
-        "note_en": "A](https://ja.wikipedia.org/wiki/NTTパーソナル"
+        "note_en": "A kid-focused PHS handset shaped like Doraemon."
       }
     ],
     "1999": [
@@ -1395,10 +1395,10 @@
           "JAPAN"
         ],
         "imp": 4,
-        "url": "[https://ja.wikipedia.org/wiki/Nikon_D1",
+        "url": "https://ja.wikipedia.org/wiki/Nikon_D1",
         "url_en": "https://en.wikipedia.org/wiki/Nikon_D1",
         "note": "報道分野で普及したニコン初の本格デジ一眼。",
-        "note_en": "Nikon’s](https://ja.wikipedia.org/wiki/Nikon_D1"
+        "note_en": "Nikon’s first pro DSLR, widely used in photojournalism."
       },
       {
         "label": "KORG KAOSS Pad",
@@ -1410,10 +1410,10 @@
           "JAPAN"
         ],
         "imp": 3,
-        "url": "[https://ja.wikipedia.org/wiki/Kaoss_Pad",
+        "url": "https://ja.wikipedia.org/wiki/Kaoss_Pad",
         "url_en": "https://en.wikipedia.org/wiki/Kaoss_Pad",
         "note": "タッチパッドで直感操作するエフェクター。",
-        "note_en": "Touchpad-controlled](https://ja.wikipedia.org/wiki/Kaoss_Pad"
+        "note_en": "Touchpad-controlled audio effects processor."
       },
       {
         "label": "DEF CON バッジ",
@@ -1423,10 +1423,10 @@
           "INPUT"
         ],
         "imp": 2,
-        "url": "[https://ja.wikipedia.org/wiki/DEF_CON",
+        "url": "https://ja.wikipedia.org/wiki/DEF_CON",
         "url_en": "https://en.wikipedia.org/wiki/DEF_CON",
         "note": "ハッカー会議の電子バッジ文化。",
-        "note_en": "Culture](https://ja.wikipedia.org/wiki/DEF_CON"
+        "note_en": "Culture of electronic badges at DEF CON."
       },
       {
         "label": "Barcode Battler",
@@ -1438,10 +1438,10 @@
           "JAPAN"
         ],
         "imp": 2,
-        "url": "[https://ja.wikipedia.org/wiki/バーコードバトラー",
+        "url": "https://ja.wikipedia.org/wiki/バーコードバトラー",
         "url_en": "https://en.wikipedia.org/wiki/Barcode_Battler",
         "note": "バーコードを読み取り遊ぶ携帯ゲーム。",
-        "note_en": "Handheld](https://ja.wikipedia.org/wiki/バーコードバトラー"
+        "note_en": "Handheld game that reads barcodes as play data."
       },
       {
         "label": "SDメモリーカード",
@@ -1451,10 +1451,10 @@
           "MEDIA"
         ],
         "imp": 4,
-        "url": "[https://ja.wikipedia.org/wiki/SDメモリーカード",
+        "url": "https://ja.wikipedia.org/wiki/SDメモリーカード",
         "url_en": "https://en.wikipedia.org/wiki/Secure_Digital",
         "note": "フラッシュメモリカード規格。",
-        "note_en": "Flash](https://ja.wikipedia.org/wiki/SDメモリーカード"
+        "note_en": "Flash memory card used in cameras and phones."
       },
       {
         "label": "iモード",
@@ -1466,10 +1466,10 @@
           "JAPAN"
         ],
         "imp": 5,
-        "url": "[https://www.docomo.ne.jp/info/3g_closed/",
+        "url": "https://www.docomo.ne.jp/info/3g_closed/",
         "url_en": "https://en.wikipedia.org/wiki/I-mode",
         "note": "NTTドコモの携帯向けインターネットサービス。",
-        "note_en": "NTT](https://www.docomo.ne.jp/info/3g_closed/"
+        "note_en": "NTT DoCoMo’s mobile internet service launched in 1999."
       },
       {
         "label": "USBフラッシュドライブ",
@@ -1496,10 +1496,10 @@
           "JAPAN"
         ],
         "imp": 4,
-        "url": "[https://ja.wikipedia.org/wiki/IXY_DIGITAL",
+        "url": "https://ja.wikipedia.org/wiki/IXY_DIGITAL",
         "url_en": "https://en.wikipedia.org/wiki/Canon_IXUS",
         "note": "小型高速で人気のデジカメ。",
-        "note_en": "Compact](https://ja.wikipedia.org/wiki/IXY_DIGITAL"
+        "note_en": "Compact), stylish digital camera line by Canon."
       },
       {
         "label": "Nokia 3310",
@@ -1509,10 +1509,10 @@
           "MOBILE"
         ],
         "imp": 4,
-        "url": "[https://ja.wikipedia.org/wiki/Nokia_3310",
+        "url": "https://ja.wikipedia.org/wiki/Nokia_3310",
         "url_en": "https://en.wikipedia.org/wiki/Nokia_3310",
         "note": "頑丈さと長電池で人気の携帯電話。",
-        "note_en": "Durable](https://ja.wikipedia.org/wiki/Nokia_3310"
+        "note_en": "Durable mobile phone famed for battery life."
       },
       {
         "label": "写メール（J-Phone）",
@@ -1524,10 +1524,10 @@
           "JAPAN"
         ],
         "imp": 5,
-        "url": "[https://ja.wikipedia.org/wiki/写メール",
+        "url": "https://ja.wikipedia.org/wiki/写メール",
         "url_en": "https://en.wikipedia.org/wiki/Sha-Mail",
         "note": "携帯で撮影しメール送信するサービス。",
-        "note_en": "Picture](https://ja.wikipedia.org/wiki/写メール"
+        "note_en": "Picture messaging that sparked camera-phone adoption."
       },
       {
         "label": "Microvision",
@@ -1537,10 +1537,10 @@
           "GAME"
         ],
         "imp": 2,
-        "url": "[https://ja.wikipedia.org/wiki/Microvision",
+        "url": "https://ja.wikipedia.org/wiki/Microvision",
         "url_en": "https://en.wikipedia.org/wiki/Microvision",
         "note": "世界初のカートリッジ式携帯ゲーム機。",
-        "note_en": "First](https://ja.wikipedia.org/wiki/Microvision"
+        "note_en": "First handheld console with interchangeable cartridges."
       }
     ],
     "2001": [
@@ -1552,10 +1552,10 @@
           "AUDIO_VIDEO"
         ],
         "imp": 5,
-        "url": "[https://ja.wikipedia.org/wiki/IPod",
+        "url": "https://ja.wikipedia.org/wiki/IPod",
         "url_en": "https://en.wikipedia.org/wiki/IPod",
         "note": "携帯音楽プレーヤーの代名詞となったApple製品。",
-        "note_en": "Apple’s](https://ja.wikipedia.org/wiki/IPod"
+        "note_en": "Apple’s portable music player that defined the category."
       },
       {
         "label": "Game Boy Advance",
@@ -1566,10 +1566,10 @@
           "JAPAN"
         ],
         "imp": 4,
-        "url": "[https://ja.wikipedia.org/wiki/ゲームボーイアドバンス",
+        "url": "https://ja.wikipedia.org/wiki/ゲームボーイアドバンス",
         "url_en": "https://en.wikipedia.org/wiki/Game_Boy_Advance",
         "note": "ゲームボーイ後継の携帯機。",
-        "note_en": "Nintendo’s](https://ja.wikipedia.org/wiki/ゲームボーイアドバンス"
+        "note_en": "Nintendo’s successor to the Game Boy line."
       },
       {
         "label": "Wacom Cintiq",
@@ -1581,10 +1581,10 @@
           "JAPAN"
         ],
         "imp": 3,
-        "url": "[https://ja.wikipedia.org/wiki/ワコム",
+        "url": "https://ja.wikipedia.org/wiki/ワコム",
         "url_en": "https://en.wikipedia.org/wiki/Wacom_Cintiq",
         "note": "液晶ペンタブの定番シリーズ。",
-        "note_en": "Leading](https://ja.wikipedia.org/wiki/ワコム"
+        "note_en": "Leading pen display line for on-screen drawing."
       }
     ],
     "2002": [
@@ -1596,10 +1596,10 @@
           "ROBOTOY"
         ],
         "imp": 4,
-        "url": "[https://ja.wikipedia.org/wiki/Roomba",
+        "url": "https://ja.wikipedia.org/wiki/Roomba",
         "url_en": "https://en.wikipedia.org/wiki/Roomba",
         "note": "自動走行するロボット掃除機。",
-        "note_en": "An](https://ja.wikipedia.org/wiki/Roomba"
+        "note_en": "An autonomous robotic vacuum cleaner."
       },
       {
         "label": "Zaurus SL-C700",
@@ -1610,10 +1610,10 @@
           "JAPAN"
         ],
         "imp": 3,
-        "url": "[https://ja.wikipedia.org/wiki/Sharp_Zaurus",
+        "url": "https://ja.wikipedia.org/wiki/Sharp_Zaurus",
         "url_en": "https://en.wikipedia.org/wiki/Sharp_Zaurus",
         "note": "高解像度液晶のクラムシェルPDA。",
-        "note_en": "Clamshell](https://ja.wikipedia.org/wiki/Sharp_Zaurus"
+        "note_en": "Clamshell PDA with high-resolution display."
       }
     ],
     "2003": [
@@ -1625,10 +1625,10 @@
           "MOBILE"
         ],
         "imp": 3,
-        "url": "[https://ja.wikipedia.org/wiki/BlackBerry",
+        "url": "https://ja.wikipedia.org/wiki/BlackBerry",
         "url_en": "https://en.wikipedia.org/wiki/BlackBerry",
         "note": "QWERTY搭載スマートフォン黎明の象徴。",
-        "note_en": "Early](https://ja.wikipedia.org/wiki/BlackBerry"
+        "note_en": "Early smartphone with a QWERTY keyboard."
       },
       {
         "label": "Nokia N-Gage",
@@ -1639,10 +1639,10 @@
           "GAME"
         ],
         "imp": 2,
-        "url": "[https://ja.wikipedia.org/wiki/N-Gage",
+        "url": "https://ja.wikipedia.org/wiki/N-Gage",
         "url_en": "https://en.wikipedia.org/wiki/N-Gage_(device)",
         "note": "携帯電話と携帯ゲーム機を融合。",
-        "note_en": "Hybrid](https://ja.wikipedia.org/wiki/N-Gage"
+        "note_en": "Hybrid mobile phone and handheld game console."
       }
     ],
     "2004": [
@@ -1655,10 +1655,10 @@
           "JAPAN"
         ],
         "imp": 5,
-        "url": "[https://ja.wikipedia.org/wiki/Nintendo_DS",
+        "url": "https://ja.wikipedia.org/wiki/Nintendo_DS",
         "url_en": "https://en.wikipedia.org/wiki/Nintendo_DS",
         "note": "二画面・タッチで携帯ゲームを再発明。",
-        "note_en": "Dual-screen](https://ja.wikipedia.org/wiki/Nintendo_DS"
+        "note_en": "Dual-screen handheld with touch input."
       },
       {
         "label": "OQO Model 01",
@@ -1668,9 +1668,9 @@
           "COMPUTER"
         ],
         "imp": 2,
-        "url": "[https://en.wikipedia.org/wiki/OQO",
+        "url": "https://en.wikipedia.org/wiki/OQO",
         "url_en": "https://en.wikipedia.org/wiki/OQO",
-        "note": "超小型Windows](https://en.wikipedia.org/wiki/OQO",
+        "note": "https://en.wikipedia.org/wiki/OQO",
         "note_en": "https://en.wikipedia.org/wiki/OQO"
       },
       {
@@ -1682,10 +1682,10 @@
           "CAMERA"
         ],
         "imp": 2,
-        "url": "[https://ja.wikipedia.org/wiki/Eye-Fi",
+        "url": "https://ja.wikipedia.org/wiki/Eye-Fi",
         "url_en": "https://en.wikipedia.org/wiki/Eye-Fi",
         "note": "Wi-Fi内蔵SDカードで写真自動転送。",
-        "note_en": "SD](https://ja.wikipedia.org/wiki/Eye-Fi"
+        "note_en": "SD cards with Wi-Fi for automatic photo transfers."
       },
       {
         "label": "Libretto U100",
@@ -1696,10 +1696,10 @@
           "JAPAN"
         ],
         "imp": 2,
-        "url": "[https://ja.wikipedia.org/wiki/Libretto",
+        "url": "https://ja.wikipedia.org/wiki/Libretto",
         "url_en": "https://en.wikipedia.org/wiki/Toshiba_Libretto",
         "note": "超小型サブノートの系譜。",
-        "note_en": "Ultracompact](https://ja.wikipedia.org/wiki/Libretto"
+        "note_en": "Ultracompact subnotebook line."
       },
       {
         "label": "VAIO U",
@@ -1710,10 +1710,10 @@
           "JAPAN"
         ],
         "imp": 2,
-        "url": "[https://ja.wikipedia.org/wiki/VAIO_U",
+        "url": "https://ja.wikipedia.org/wiki/VAIO_U",
         "url_en": "https://en.wikipedia.org/wiki/Vaio_U",
         "note": "手のひらサイズのWindows機。",
-        "note_en": "Palm-sized](https://ja.wikipedia.org/wiki/VAIO_U"
+        "note_en": "Palm-sized Windows UMPC."
       }
     ],
     "2005": [
@@ -1726,10 +1726,10 @@
           "JAPAN"
         ],
         "imp": 4,
-        "url": "[https://ja.wikipedia.org/wiki/キヤノン・EOS_5D",
+        "url": "https://ja.wikipedia.org/wiki/キヤノン・EOS_5D",
         "url_en": "https://en.wikipedia.org/wiki/Canon_EOS_5D",
         "note": "フルサイズCMOSを大衆化したDSLR。",
-        "note_en": "DSLR](https://ja.wikipedia.org/wiki/キヤノン・EOS_5D"
+        "note_en": "DSLR line that popularized full-frame CMOS."
       },
       {
         "label": "Arduino",
@@ -1739,10 +1739,10 @@
           "MAKER"
         ],
         "imp": 5,
-        "url": "[https://ja.wikipedia.org/wiki/Arduino",
+        "url": "https://ja.wikipedia.org/wiki/Arduino",
         "url_en": "https://en.wikipedia.org/wiki/Arduino",
         "note": "オープンソースのマイコン開発基板。",
-        "note_en": "Open-source](https://ja.wikipedia.org/wiki/Arduino"
+        "note_en": "Open-source microcontroller platform central to makers."
       }
     ],
     "2006": [
@@ -1756,10 +1756,10 @@
           "JAPAN"
         ],
         "imp": 4,
-        "url": "[https://ja.wikipedia.org/wiki/Wiiリモコン",
+        "url": "https://ja.wikipedia.org/wiki/Wiiリモコン",
         "url_en": "https://en.wikipedia.org/wiki/Wii_Remote",
         "note": "モーションセンシングの一般化に貢献。",
-        "note_en": "Popularized](https://ja.wikipedia.org/wiki/Wiiリモコン"
+        "note_en": "Popularized motion-sensing game control."
       },
       {
         "label": "KORG Kaossilator",
@@ -1770,10 +1770,10 @@
           "JAPAN"
         ],
         "imp": 3,
-        "url": "[https://en.wikipedia.org/wiki/Korg_Kaossilator",
+        "url": "https://en.wikipedia.org/wiki/Korg_Kaossilator",
         "url_en": "https://en.wikipedia.org/wiki/Korg_Kaossilator",
         "note": "XYパッドで演奏するポータブル・シンセ。",
-        "note_en": "Portable](https://en.wikipedia.org/wiki/Korg_Kaossilator"
+        "note_en": "Portable synth played via an XY touchpad."
       },
       {
         "label": "PlayStation 3",
@@ -1784,10 +1784,10 @@
           "JAPAN"
         ],
         "imp": 4,
-        "url": "[https://ja.wikipedia.org/wiki/PlayStation_3",
+        "url": "https://ja.wikipedia.org/wiki/PlayStation_3",
         "url_en": "https://en.wikipedia.org/wiki/PlayStation_3",
         "note": "Cell採用のソニー据置機。",
-        "note_en": "Sony’s](https://ja.wikipedia.org/wiki/PlayStation_3"
+        "note_en": "Sony’s console featuring the Cell processor."
       }
     ],
     "2007": [
@@ -1799,10 +1799,10 @@
           "MOBILE"
         ],
         "imp": 5,
-        "url": "[https://ja.wikipedia.org/wiki/IPhone",
+        "url": "https://ja.wikipedia.org/wiki/IPhone",
         "url_en": "https://en.wikipedia.org/wiki/IPhone",
         "note": "タッチUIとアプリでスマホの形を決定づけた。",
-        "note_en": "Redefined](https://ja.wikipedia.org/wiki/IPhone"
+        "note_en": "Redefined smartphones with touch UI and apps."
       },
       {
         "label": "Eee PC 701",
@@ -1812,10 +1812,10 @@
           "COMPUTER"
         ],
         "imp": 3,
-        "url": "[https://ja.wikipedia.org/wiki/Eee_PC",
+        "url": "https://ja.wikipedia.org/wiki/Eee_PC",
         "url_en": "https://en.wikipedia.org/wiki/Asus_Eee_PC",
         "note": "ネットブックブームを巻き起こす。",
-        "note_en": "Small](https://ja.wikipedia.org/wiki/Eee_PC"
+        "note_en": "Small laptop that sparked the netbook boom."
       },
       {
         "label": "Flip Video",
@@ -1825,10 +1825,10 @@
           "CAMERA"
         ],
         "imp": 2,
-        "url": "[https://ja.wikipedia.org/wiki/Flip_Video",
+        "url": "https://ja.wikipedia.org/wiki/Flip_Video",
         "url_en": "https://en.wikipedia.org/wiki/Flip_Video",
         "note": "簡便なポケットビデオカメラ。",
-        "note_en": "Simple](https://ja.wikipedia.org/wiki/Flip_Video"
+        "note_en": "Simple pocket camcorders for easy shooting."
       },
       {
         "label": "Apple TV",
@@ -1839,10 +1839,10 @@
           "COMM"
         ],
         "imp": 3,
-        "url": "[https://ja.wikipedia.org/wiki/Apple_TV",
+        "url": "https://ja.wikipedia.org/wiki/Apple_TV",
         "url_en": "https://en.wikipedia.org/wiki/Apple_TV",
         "note": "Appleのストリーミング端末。",
-        "note_en": "Apple’s](https://ja.wikipedia.org/wiki/Apple_TV"
+        "note_en": "Apple’s streaming set-top box."
       },
       {
         "label": "Canon X Mark I Mouse",
@@ -1853,10 +1853,10 @@
           "INPUT"
         ],
         "imp": 2,
-        "url": "[https://www.wired.com/2010/08/mouse-calculator",
+        "url": "https://www.wired.com/2010/08/mouse-calculator",
         "url_en": "https://www.wired.com/2010/08/mouse-calculator",
         "note": "電卓＋テンキー＋マウスの三位一体。",
-        "note_en": "Hybrid](https://www.wired.com/2010/08/mouse-calculator"
+        "note_en": "Hybrid device combining mouse, keypad and calculator."
       }
     ],
     "2008": [
@@ -1868,10 +1868,10 @@
           "COMPUTER"
         ],
         "imp": 4,
-        "url": "[https://ja.wikipedia.org/wiki/MacBook_Air",
+        "url": "https://ja.wikipedia.org/wiki/MacBook_Air",
         "url_en": "https://en.wikipedia.org/wiki/MacBook_Air",
         "note": "薄型軽量ノートの象徴。",
-        "note_en": "Iconic](https://ja.wikipedia.org/wiki/MacBook_Air"
+        "note_en": "Iconic thin-and-light laptop."
       },
       {
         "label": "App Store（iPhone 3G）",
@@ -1882,10 +1882,10 @@
           "COMM"
         ],
         "imp": 5,
-        "url": "[https://ja.wikipedia.org/wiki/App_Store",
+        "url": "https://ja.wikipedia.org/wiki/App_Store",
         "url_en": "https://en.wikipedia.org/wiki/App_Store_(iOS)",
         "note": "モバイルアプリ配信のエコシステム確立。",
-        "note_en": "Established](https://ja.wikipedia.org/wiki/App_Store"
+        "note_en": "Established the modern mobile app ecosystem."
       },
       {
         "label": "Roku",
@@ -1896,10 +1896,10 @@
           "COMM"
         ],
         "imp": 3,
-        "url": "[https://ja.wikipedia.org/wiki/Roku",
+        "url": "https://ja.wikipedia.org/wiki/Roku",
         "url_en": "https://en.wikipedia.org/wiki/Roku",
         "note": "ストリーミング機器ブランド。",
-        "note_en": "Popular](https://ja.wikipedia.org/wiki/Roku"
+        "note_en": "Popular brand of streaming media players."
       }
     ],
     "2009": [
@@ -1912,10 +1912,10 @@
           "MOBILE"
         ],
         "imp": 3,
-        "url": "[https://ja.wikipedia.org/wiki/Fitbit",
+        "url": "https://ja.wikipedia.org/wiki/Fitbit",
         "url_en": "https://en.wikipedia.org/wiki/Fitbit",
         "note": "活動量計・ヘルストラッカー普及を牽引。",
-        "note_en": "Helped](https://ja.wikipedia.org/wiki/Fitbit"
+        "note_en": "Helped popularize consumer fitness trackers."
       },
       {
         "label": "Pocket WiFi",
@@ -1926,10 +1926,10 @@
           "MOBILE"
         ],
         "imp": 2,
-        "url": "[https://ja.wikipedia.org/wiki/モバイルWi-Fiルーター",
+        "url": "https://ja.wikipedia.org/wiki/モバイルWi-Fiルーター",
         "url_en": "https://en.wikipedia.org/wiki/Mobile_broadband",
         "note": "携帯型Wi-Fiルーターの普及を示す呼称。",
-        "note_en": "Term](https://ja.wikipedia.org/wiki/モバイルWi-Fiルーター"
+        "note_en": "Term for portable mobile Wi-Fi routers."
       }
     ],
     "2010": [
@@ -1941,10 +1941,10 @@
           "MOBILE"
         ],
         "imp": 5,
-        "url": "[https://ja.wikipedia.org/wiki/IPad",
+        "url": "https://ja.wikipedia.org/wiki/IPad",
         "url_en": "https://en.wikipedia.org/wiki/IPad",
         "note": "タブレット市場を本格化させた製品。",
-        "note_en": "Tablet](https://ja.wikipedia.org/wiki/IPad"
+        "note_en": "Tablet that catalyzed the modern tablet market."
       },
       {
         "label": "Kinect",
@@ -1955,10 +1955,10 @@
           "GAME"
         ],
         "imp": 4,
-        "url": "[https://ja.wikipedia.org/wiki/Kinect",
+        "url": "https://ja.wikipedia.org/wiki/Kinect",
         "url_en": "https://en.wikipedia.org/wiki/Kinect",
         "note": "深度センサーで身体を入力化。",
-        "note_en": "Popularized](https://ja.wikipedia.org/wiki/Kinect"
+        "note_en": "Popularized body-tracking input via depth sensors."
       }
     ],
     "2011": [
@@ -1971,10 +1971,10 @@
           "PERIPHERAL"
         ],
         "imp": 3,
-        "url": "[https://ja.wikipedia.org/wiki/Nest_Labs",
+        "url": "https://ja.wikipedia.org/wiki/Nest_Labs",
         "url_en": "https://en.wikipedia.org/wiki/Nest_Learning_Thermostat",
         "note": "学習機能を備えたスマート恒温器。",
-        "note_en": "Learning](https://ja.wikipedia.org/wiki/Nest_Labs"
+        "note_en": "Learning smart thermostat for home automation."
       }
     ],
     "2012": [
@@ -1986,10 +1986,10 @@
           "MAKER"
         ],
         "imp": 5,
-        "url": "[https://ja.wikipedia.org/wiki/Raspberry_Pi",
+        "url": "https://ja.wikipedia.org/wiki/Raspberry_Pi",
         "url_en": "https://en.wikipedia.org/wiki/Raspberry_Pi",
         "note": "教育・試作向けの低価格シングルボードPC。",
-        "note_en": "Low-cost](https://ja.wikipedia.org/wiki/Raspberry_Pi"
+        "note_en": "Low-cost single-board computer for education and prototyping."
       },
       {
         "label": "Philips Hue",
@@ -2000,10 +2000,10 @@
           "PERIPHERAL"
         ],
         "imp": 2,
-        "url": "[https://ja.wikipedia.org/wiki/Philips_Hue",
+        "url": "https://ja.wikipedia.org/wiki/Philips_Hue",
         "url_en": "https://en.wikipedia.org/wiki/Philips_Hue",
         "note": "スマート電球の代表ブランド。",
-        "note_en": "A](https://ja.wikipedia.org/wiki/Philips_Hue"
+        "note_en": "A leading brand of smart light bulbs."
       }
     ],
     "2013": [
@@ -2016,10 +2016,10 @@
           "JAPAN"
         ],
         "imp": 4,
-        "url": "[https://ja.wikipedia.org/wiki/Ricoh_Theta",
+        "url": "https://ja.wikipedia.org/wiki/Ricoh_Theta",
         "url_en": "https://en.wikipedia.org/wiki/Ricoh_Theta",
         "note": "全天球撮影が可能な小型カメラ。",
-        "note_en": "Compact](https://ja.wikipedia.org/wiki/Ricoh_Theta"
+        "note_en": "Compact camera capable of 360-degree images."
       },
       {
         "label": "Chromecast",
@@ -2031,10 +2031,10 @@
           "COMM"
         ],
         "imp": 3,
-        "url": "[https://ja.wikipedia.org/wiki/Chromecast",
+        "url": "https://ja.wikipedia.org/wiki/Chromecast",
         "url_en": "https://en.wikipedia.org/wiki/Chromecast",
         "note": "テレビに挿すストリーミング端末。",
-        "note_en": "TV](https://ja.wikipedia.org/wiki/Chromecast"
+        "note_en": "TV streaming dongle that plugs into HDMI."
       },
       {
         "label": "Pebble",
@@ -2045,10 +2045,10 @@
           "MOBILE"
         ],
         "imp": 3,
-        "url": "[https://ja.wikipedia.org/wiki/Pebble_(企業)",
+        "url": "https://ja.wikipedia.org/wiki/Pebble_(企業)",
         "url_en": "https://en.wikipedia.org/wiki/Pebble_(watch)",
         "note": "CF発のスマートウォッチ。",
-        "note_en": "Crowdfunded](https://ja.wikipedia.org/wiki/Pebble_%28企業%29"
+        "note_en": "Crowdfunded smartwatch that helped kickstart the category."
       },
       {
         "label": "Google Glass",
@@ -2059,10 +2059,10 @@
           "MOBILE"
         ],
         "imp": 2,
-        "url": "[https://ja.wikipedia.org/wiki/Google_Glass",
+        "url": "https://ja.wikipedia.org/wiki/Google_Glass",
         "url_en": "https://en.wikipedia.org/wiki/Google_Glass",
         "note": "HMD型ARデバイス。社会的議論を喚起。",
-        "note_en": "Head-mounted](https://ja.wikipedia.org/wiki/Google_Glass"
+        "note_en": "Head-mounted AR device that sparked public debate."
       },
       {
         "label": "DJI Phantom",
@@ -2073,10 +2073,10 @@
           "AUDIO_VIDEO"
         ],
         "imp": 3,
-        "url": "[https://ja.wikipedia.org/wiki/Phantom_(マルチコプター)",
+        "url": "https://ja.wikipedia.org/wiki/Phantom_(マルチコプター)",
         "url_en": "https://en.wikipedia.org/wiki/DJI_Phantom",
         "note": "民生ドローン普及の象徴シリーズ。",
-        "note_en": "Consumer](https://ja.wikipedia.org/wiki/Phantom_%28マルチコプター%29"
+        "note_en": "Consumer drone series popularizing aerial imaging."
       }
     ],
     "2014": [
@@ -2089,10 +2089,10 @@
           "COMM"
         ],
         "imp": 4,
-        "url": "[https://ja.wikipedia.org/wiki/Amazon_Echo",
+        "url": "https://ja.wikipedia.org/wiki/Amazon_Echo",
         "url_en": "https://en.wikipedia.org/wiki/Amazon_Echo",
         "note": "音声アシスタント搭載スマートスピーカー。",
-        "note_en": "Smart](https://ja.wikipedia.org/wiki/Amazon_Echo"
+        "note_en": "Smart speaker featuring Alexa voice assistant."
       }
     ],
     "2015": [
@@ -2105,10 +2105,10 @@
           "MOBILE"
         ],
         "imp": 4,
-        "url": "[https://ja.wikipedia.org/wiki/Apple_Watch",
+        "url": "https://ja.wikipedia.org/wiki/Apple_Watch",
         "url_en": "https://en.wikipedia.org/wiki/Apple_Watch",
         "note": "Appleのスマートウォッチ。健康・通知機能。",
-        "note_en": "Apple’s](https://ja.wikipedia.org/wiki/Apple_Watch"
+        "note_en": "Apple’s smartwatch with health and notifications."
       },
       {
         "label": "Pocket Operator",
@@ -2119,10 +2119,10 @@
           "AUDIO_VIDEO"
         ],
         "imp": 2,
-        "url": "[https://ja.wikipedia.org/wiki/Teenage_Engineering",
+        "url": "https://ja.wikipedia.org/wiki/Teenage_Engineering",
         "url_en": "https://en.wikipedia.org/wiki/Pocket_Operator",
         "note": "名刺大の小型シンセ／リズムマシン。",
-        "note_en": "Credit-card-sized](https://ja.wikipedia.org/wiki/Teenage_Engineering"
+        "note_en": "Credit-card-sized synths and drum machines."
       },
       {
         "label": "KeyMouse",
@@ -2148,10 +2148,10 @@
           "JAPAN"
         ],
         "imp": 5,
-        "url": "[https://ja.wikipedia.org/wiki/Nintendo_Switch",
+        "url": "https://ja.wikipedia.org/wiki/Nintendo_Switch",
         "url_en": "https://en.wikipedia.org/wiki/Nintendo_Switch",
         "note": "据置と携帯を兼ねるハイブリッド。",
-        "note_en": "Hybrid](https://ja.wikipedia.org/wiki/Nintendo_Switch"
+        "note_en": "Hybrid console bridging handheld and home play."
       },
       {
         "label": "ESP32",
@@ -2162,10 +2162,10 @@
           "COMM"
         ],
         "imp": 4,
-        "url": "[https://ja.wikipedia.org/wiki/ESP32",
+        "url": "https://ja.wikipedia.org/wiki/ESP32",
         "url_en": "https://en.wikipedia.org/wiki/ESP32",
         "note": "Wi-Fi/BLE内蔵の低価格SoCでIoT試作を加速。",
-        "note_en": "Low-cost](https://ja.wikipedia.org/wiki/ESP32"
+        "note_en": "Low-cost Wi-Fi/BLE SoC accelerating IoT prototyping."
       },
       {
         "label": "HoloLens",
@@ -2176,10 +2176,10 @@
           "MOBILE"
         ],
         "imp": 3,
-        "url": "[https://ja.wikipedia.org/wiki/Microsoft_HoloLens",
+        "url": "https://ja.wikipedia.org/wiki/Microsoft_HoloLens",
         "url_en": "https://en.wikipedia.org/wiki/Microsoft_HoloLens",
         "note": "Microsoftの複合現実ヘッドセット。",
-        "note_en": "Microsoft’s](https://ja.wikipedia.org/wiki/Microsoft_HoloLens"
+        "note_en": "Microsoft’s mixed-reality headset."
       }
     ],
     "2017": [
@@ -2192,10 +2192,10 @@
           "JAPAN"
         ],
         "imp": 2,
-        "url": "[https://ja.wikipedia.org/wiki/Nintendo_Classic_Mini",
+        "url": "https://ja.wikipedia.org/wiki/Nintendo_Classic_Mini",
         "url_en": "https://en.wikipedia.org/wiki/Nintendo_Classic_Mini",
         "note": "往年機のミニ復刻。レトロブーム加速。",
-        "note_en": "Mini](https://ja.wikipedia.org/wiki/Nintendo_Classic_Mini"
+        "note_en": "Mini re-releases fueling retro nostalgia."
       }
     ],
     "2018": [
@@ -2207,10 +2207,10 @@
           "CAMERA"
         ],
         "imp": 3,
-        "url": "[https://ja.wikipedia.org/wiki/Insta360",
+        "url": "https://ja.wikipedia.org/wiki/Insta360",
         "url_en": "https://en.wikipedia.org/wiki/Insta360",
         "note": "手軽な360度動画撮影を普及。",
-        "note_en": "Portable](https://ja.wikipedia.org/wiki/Insta360"
+        "note_en": "Portable 360-degree action camera."
       }
     ],
     "2021": [
@@ -2223,10 +2223,10 @@
           "MOBILE"
         ],
         "imp": 3,
-        "url": "[https://ja.wikipedia.org/wiki/AirTag",
+        "url": "https://ja.wikipedia.org/wiki/AirTag",
         "url_en": "https://en.wikipedia.org/wiki/AirTag",
         "note": "UWBと「探す」ネットワークで紛失物追跡。",
-        "note_en": "Tracker](https://ja.wikipedia.org/wiki/AirTag"
+        "note_en": "Tracker leveraging UWB and Apple’s Find My network."
       },
       {
         "label": "Steam Deck",
@@ -2236,10 +2236,10 @@
           "GAME"
         ],
         "imp": 3,
-        "url": "[https://ja.wikipedia.org/wiki/Steam_Deck",
+        "url": "https://ja.wikipedia.org/wiki/Steam_Deck",
         "url_en": "https://en.wikipedia.org/wiki/Steam_Deck",
         "note": "PCゲームを携帯機で遊べるハンドヘルド。",
-        "note_en": "Valve’s](https://ja.wikipedia.org/wiki/Steam_Deck"
+        "note_en": "Valve’s handheld PC for playing Steam games."
       }
     ],
     "2024": [
@@ -2253,10 +2253,10 @@
           "AUDIO_VIDEO"
         ],
         "imp": 4,
-        "url": "[https://ja.wikipedia.org/wiki/Apple_Vision_Pro",
+        "url": "https://ja.wikipedia.org/wiki/Apple_Vision_Pro",
         "url_en": "https://en.wikipedia.org/wiki/Apple_Vision_Pro",
         "note": "空間コンピューティングを掲げるAppleのヘッドセット。",
-        "note_en": "Apple’s](https://ja.wikipedia.org/wiki/Apple_Vision_Pro"
+        "note_en": "Apple’s spatial-computing headset blending AR/VR."
       }
     ]
   },
