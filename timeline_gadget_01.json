@@ -52,15 +52,14 @@
     "1960": [
       {
         "label": "Etch A Sketch",
-        "label_en": "Etch A Sketch",
         "startYear": 1960,
         "genre": [
           "ROBOTOY"
         ],
         "imp": 2,
-        "url": "https://ja.wikipedia.org/wiki/エッチ・ア・スケッチ",
-        "url_en": "https://en.wikipedia.org/wiki/Etch_A_Sketch",
         "note": "ツマミで描くスクリーン玩具。世代を超えて親しまれた。",
+        "label_en": "Etch A Sketch",
+        "url_en": "https://en.wikipedia.org/wiki/Etch_A_Sketch",
         "note_en": "A drawing toy controlled by two knobs, a pop-culture staple."
       },
       {
