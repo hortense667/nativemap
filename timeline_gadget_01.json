@@ -955,6 +955,32 @@
         "url_en": "https://en.wikipedia.org/wiki/Power_Glove",
         "note": "モーション入力の家庭用周辺機器。",
         "note_en": "A](https://ja.wikipedia.org/wiki/パワーグローブ"
+      },
+      {
+        "label": "Kensington ExpertMouse",
+        "label_en": "Kensington Expert Mouse",
+        "startYear": 1989,
+        "genre": [
+          "INPUT"
+        ],
+        "imp": 1,
+        "url": "https://www.kensington.com/news/news-press-center/2021-news-press-center/kensington-marks-40-years-of-innovation/",
+        "url_en": "https://xahlee.info/kbd/kensington_expert_mouse_hist.html",
+        "note": "ケンジントンの大型ボール採用トラックボール。1989年にPC向けExpertケンジントンの大型ボール採用トラックボール。1989年にPC向けExpert) Mouse。",
+        "note_en": "Kensington’s large-ball trackball"
+      },
+      {
+        "label": "Logitech TrackMan",
+        "startYear": 1989,
+        "genre": [
+          "INPUT"
+        ],
+        "imp": 1,
+        "url": "https://ja.wikipedia.org/wiki/トラックボール",
+        "note": "ロジクールのトラックボール製品群。1989年に初代TrackManを発売。",
+        "label_en": "Logitech TrackMan",
+        "url_en": "https://en.wikipedia.org/wiki/Logitech",
+        "note_en": "Logitech’s well-known trackball line."
       }
     ],
     "1990": [
@@ -985,6 +1011,19 @@
         "url_en": "https://en.wikipedia.org/wiki/Sony_Handycam",
         "note": "“パスポートサイズ”を掲げた小型ビデオカメラ。",
         "note_en": "A](https://ja.wikipedia.org/wiki/ハンディカム"
+      },
+      {
+        "label": "DataHand",
+        "label_en": "DataHand",
+        "startYear": 1990,
+        "genre": [
+          "INPUT"
+        ],
+        "imp": 2,
+        "url": "[https://en.wikipedia.org/wiki/DataHand",
+        "url_en": "https://en.wikipedia.org/wiki/DataHand",
+        "note": "指先の5方向スイッチを用いるユニークなエルゴキーボード。",
+        "note_en": "An ergonomic keyboard using finger clusters with directional switches."
       }
     ],
     "1991": [
@@ -1417,6 +1456,20 @@
         "url_en": "https://en.wikipedia.org/wiki/I-mode",
         "note": "NTTドコモの携帯向けインターネットサービス。",
         "note_en": "NTT](https://www.docomo.ne.jp/info/3g_closed/"
+      },
+      {
+        "label": "USBフラッシュドライブ",
+        "label_en": "USB flash drive",
+        "startYear": 1999,
+        "genre": [
+          "MEDIA",
+          "PERIPHERAL"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/USBメモリ",
+        "url_en": "https://en.wikipedia.org/wiki/USB_flash_drive",
+        "note": "USB接続の半導体メモリ。可搬ストレージの主流に。",
+        "note_en": "USB-connected flash memory, the dominant portable storage."
       }
     ],
     "2000": [
@@ -2056,6 +2109,19 @@
         "url_en": "https://en.wikipedia.org/wiki/Pocket_Operator",
         "note": "名刺大の小型シンセ／リズムマシン。",
         "note_en": "Credit-card-sized](https://ja.wikipedia.org/wiki/Teenage_Engineering"
+      },
+      {
+        "label": "KeyMouse",
+        "label_en": "KeyMouse",
+        "startYear": 2015,
+        "genre": [
+          "INPUT"
+        ],
+        "imp": 1,
+        "url": "https://www.kickstarter.com/projects/1666150716/keymousetm-the-keyboard-and-mouse-re-invented",
+        "url_en": "https://www.prnewswire.com/news-releases/zz-inc-unveils-keymouse-on-kickstarter-and-at-ces-2015-300021167.html",
+        "note": "キーボードとマウスを統合した左右分割の入力デバイス。",
+        "note_en": "split keyboard-and-mouse hybrid device."
       }
     ],
     "2016": [
