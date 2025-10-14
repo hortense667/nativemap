@@ -64,6 +64,18 @@
     ],
     "1870": [
       {
+        "label": "鎮火社が創建",
+        "startYear": 1870,
+        "genre": [
+          "EVENT"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/秋葉神社_(台東区)",
+        "note": "明治天皇の勅命で神田花岡町の火除地に鎮火社を創建。",
+        "label_en": "Foundation of Chinka-sha",
+        "url_en": "https://en.wikipedia.org/wiki/Akihabara"
+      },
+      {
         "label": "鎮火社（通称・秋葉社）創建",
         "startYear": 1870,
         "genre": [
@@ -75,18 +87,6 @@
         "label_en": "Foundation of Chinka-sha (Akiba Shrine)",
         "url_en": "https://en.wikipedia.org/wiki/Akihabara",
         "note_en": "By](https://ja.wikipedia.org/wiki/秋葉神社_%28台東区%29"
-      },
-      {
-        "label": "鎮火社が創建",
-        "startYear": 1870,
-        "genre": [
-          "EVENT"
-        ],
-        "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/秋葉神社_(台東区)",
-        "note": "明治天皇の勅命で神田花岡町の火除地に鎮火社を創建。",
-        "label_en": "Foundation of Chinka-sha",
-        "url_en": "https://en.wikipedia.org/wiki/Akihabara"
       },
       {
         "label": "鎮火社（通称・秋葉社）創建",
@@ -104,6 +104,19 @@
       }
     ],
     "1888": [
+      {
+        "label": "鎮火社が入谷へ遷座（現・台東区松が谷）",
+        "startYear": 1888,
+        "genre": [
+          "EVENT"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/秋葉神社_(台東区)",
+        "note": "火除を祀る鎮火社が台東区松が谷三丁目に移転。",
+        "label_en": "Relocation of Chinka-sha to Iriya",
+        "url_en": "https://en.wikipedia.org/wiki/Tait%C5%8D",
+        "note_en": "The Chinka Shrine, which enshrines protection against fire, has relocated to Matsugaya 3-chome in Taito City."
+      },
       {
         "label": "鎮火社が入谷へ遷座（現・台東区松が谷）",
         "label_en": "Relocation of Chinka-sha to Iriya",
