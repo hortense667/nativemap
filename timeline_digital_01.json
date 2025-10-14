@@ -1337,6 +1337,20 @@
         "url_en": "https://en.wikipedia.org/wiki/Seiko_Epson",
         "note": "小型インパクトプリンタの先駆。",
         "note_en": "Pioneering compact impact printer."
+      },
+      {
+        "label": "FACOM 230-60",
+        "label_en": "FACOM 230-60",
+        "startYear": 1968,
+        "genre": [
+          "HAR-PC",
+          "JAPAN"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/FACOM_230",
+        "url_en": "https://en.wikipedia.org/wiki/FUJITSU_FACOM",
+        "note": "国産汎用機FACOM) 230系の上位機。",
+        "note_en": "High-end model of Japan’s FACOM 230 line."
       }
     ],
     "1969": [
@@ -2515,6 +2529,19 @@
         "url_en": "https://en.wikipedia.org/wiki/TRS-80",
         "note": "低価格で普及した8ビットPC。",
         "note_en": "Low-cost 8-bit PC that popularized home computing."
+      },
+      {
+        "label": "Apple DOS 3.3",
+        "label_en": "Apple DOS 3.3",
+        "startYear": 1977,
+        "genre": [
+          "SOF-OS"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/Apple_DOS",
+        "url_en": "https://en.wikipedia.org/wiki/Apple_DOS",
+        "note": "Apple) II用ディスクOSの標準版。",
+        "note_en": "Standard disk OS for Apple II."
       }
     ],
     "1978": [
@@ -2712,6 +2739,19 @@
         "url_en": "https://en.wikipedia.org/wiki/User_group",
         "note": "日本のUNIXユーザーコミュニティ。",
         "note_en": "Japanese UNIX user community."
+      },
+      {
+        "label": "Apple DOS（オペレーティングシステム）",
+        "label_en": "Apple DOS",
+        "startYear": 1978,
+        "genre": [
+          "SOF-OS"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/Apple_DOS",
+        "url_en": "https://en.wikipedia.org/wiki/Apple_DOS",
+        "note": "Apple) II向け初期ディスクOS。",
+        "note_en": "Early disk OS for Apple II."
       }
     ],
     "1979": [
@@ -2891,6 +2931,32 @@
         "url_en": "https://en.wikipedia.org/wiki/Sharp_Corporation",
         "note": "教育/実習向け小型計算機系。",
         "note_en": "Small training/educational computers."
+      },
+      {
+        "label": "Intel 8088",
+        "label_en": "Intel 8088",
+        "startYear": 1979,
+        "genre": [
+          "HAR-CPU"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/Intel_8088",
+        "url_en": "https://en.wikipedia.org/wiki/Intel_8088",
+        "note": "IBM) PCで採用された外部8ビット版。",
+        "note_en": "8-bit bus variant used in IBM PC."
+      },
+      {
+        "label": "ProDOS",
+        "label_en": "ProDOS",
+        "startYear": 1979,
+        "genre": [
+          "SOF-OS"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/ProDOS",
+        "url_en": "https://en.wikipedia.org/wiki/ProDOS",
+        "note": "Apple) II向け次世代ディスクOS。",
+        "note_en": "Next-gen disk OS for Apple II."
       }
     ],
     "1980": [
@@ -4137,6 +4203,34 @@
         "url_en": "https://en.wikipedia.org/wiki/Dragon%27s_Lair",
         "note": "レーザーディスク活用の話題作。",
         "note_en": "LD-based arcade game sensation."
+      },
+      {
+        "label": "NetWare",
+        "label_en": "NetWare",
+        "startYear": 1983,
+        "genre": [
+          "SOF-ENT",
+          "SOF-PRO"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/NetWare",
+        "url_en": "https://en.wikipedia.org/wiki/Novell_NetWare",
+        "note": "PC) LANの定番NOS。",
+        "note_en": "Dominant NOS for PC LANs."
+      },
+      {
+        "label": "Kyotronic 85（京セラ）",
+        "label_en": "Kyotronic 85",
+        "startYear": 1983,
+        "genre": [
+          "HAR-MOB",
+          "JAPAN"
+        ],
+        "imp": 2,
+        "url": "https://ja.wikipedia.org/wiki/TRS-80_Model_100",
+        "url_en": "https://en.wikipedia.org/wiki/Kyocera_Portable",
+        "note": "Model) 100の原型機。",
+        "note_en": "Original design behind Model 100."
       }
     ],
     "1984": [
@@ -4521,6 +4615,58 @@
         "url_en": "https://en.wikipedia.org/wiki/Discman",
         "note": "携帯CDプレイヤーの先駆。",
         "note_en": "Pioneering portable CD player."
+      },
+      {
+        "label": "Apple IIc",
+        "label_en": "Apple IIc",
+        "startYear": 1984,
+        "genre": [
+          "HAR-PC"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/Apple_IIc",
+        "url_en": "https://en.wikipedia.org/wiki/Apple_IIc",
+        "note": "Apple) IIの小型版。",
+        "note_en": "Compact member of Apple II family."
+      },
+      {
+        "label": "IBM Portable PC",
+        "label_en": "IBM Portable PC",
+        "startYear": 1984,
+        "genre": [
+          "HAR-PC"
+        ],
+        "imp": 2,
+        "url": "https://ja.wikipedia.org/wiki/IBM_Portable_PC",
+        "url_en": "https://en.wikipedia.org/wiki/IBM_Portable_Personal_Computer",
+        "note": "可搬型の初期IBM) PC。",
+        "note_en": "Luggable early IBM PC model."
+      },
+      {
+        "label": "Mac System Software（オペレーティングシステム）",
+        "label_en": "Mac System Software",
+        "startYear": 1984,
+        "genre": [
+          "SOF-OS"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/Classic_Mac_OS",
+        "url_en": "https://en.wikipedia.org/wiki/Classic_Mac_OS",
+        "note": "初期のMac) OS総称。",
+        "note_en": "Early “Classic” Mac OS family."
+      },
+      {
+        "label": "Macintosh System Software（Classic Mac OS）",
+        "label_en": "Macintosh System Software",
+        "startYear": 1984,
+        "genre": [
+          "SOF-OS"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/Classic_Mac_OS",
+        "url_en": "https://en.wikipedia.org/wiki/Classic_Mac_OS",
+        "note": "Classic) Mac OSの総称。",
+        "note_en": "Collective term for Classic Mac OS."
       }
     ],
     "1985": [
@@ -4968,6 +5114,19 @@
         "url_en": "https://en.wikipedia.org/wiki/Banking_in_Japan",
         "note": "銀行システムの全国的オンライン化。",
         "note_en": "Nationwide online banking rollout in Japan."
+      },
+      {
+        "label": "Atari TOS",
+        "label_en": "Atari TOS",
+        "startYear": 1985,
+        "genre": [
+          "SOF-OS"
+        ],
+        "imp": 2,
+        "url": "https://ja.wikipedia.org/wiki/Atari_TOS",
+        "url_en": "https://en.wikipedia.org/wiki/Atari_TOS",
+        "note": "Atari) ST向けROMベースOS。",
+        "note_en": "ROM-based OS for Atari ST."
       }
     ],
     "1986": [
@@ -5265,6 +5424,20 @@
         "url_en": "https://en.wikipedia.org/wiki/Value-added_network",
         "note": "企業間データ交換基盤の普及。",
         "note_en": "Networks providing value-added data services."
+      },
+      {
+        "label": "NEC V60（マイクロプロセッサ）",
+        "label_en": "NEC V60",
+        "startYear": 1986,
+        "genre": [
+          "HAR-CPU",
+          "JAPAN"
+        ],
+        "imp": 2,
+        "url": "https://ja.wikipedia.org/wiki/NEC_V60",
+        "url_en": "https://en.wikipedia.org/wiki/NEC_V60",
+        "note": "国産CISC) 32ビットCPU。",
+        "note_en": "Japanese 32-bit CISC CPU."
       }
     ],
     "1987": [
@@ -6516,6 +6689,19 @@
         "url_en": "https://en.wikipedia.org/wiki/Windows_3.0",
         "note": "GUI普及を加速させた版。",
         "note_en": "Release that accelerated GUI adoption."
+      },
+      {
+        "label": "3D Studio（3DCG）",
+        "label_en": "3D Studio (DOS)",
+        "startYear": 1990,
+        "genre": [
+          "SOF-CRE"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/Autodesk_3ds_Max",
+        "url_en": "https://en.wikipedia.org/wiki/Autodesk_3ds_Max",
+        "note": "後の3ds) Maxの源流。",
+        "note_en": "Precursor to Autodesk 3ds Max."
       }
     ],
     "1991": [
@@ -6980,6 +7166,20 @@
         "url_en": "https://en.wikipedia.org/wiki/Solaris_(operating_system)",
         "note": "UNIX系の企業向けOS。",
         "note_en": "Enterprise UNIX operating system."
+      },
+      {
+        "label": "OpenGL",
+        "label_en": "OpenGL",
+        "startYear": 1992,
+        "genre": [
+          "SOF-PRO",
+          "SOF-CRE"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/OpenGL",
+        "url_en": "https://en.wikipedia.org/wiki/OpenGL",
+        "note": "クロスプラットフォーム3D) APIの標準。",
+        "note_en": "Cross-platform standard 3D graphics API."
       }
     ],
     "1993": [
@@ -7324,6 +7524,19 @@
         "url_en": "https://en.wikipedia.org/wiki/Information_superhighway",
         "note": "米国中心の情報基盤構想。",
         "note_en": "US-led vision for digital networks."
+      },
+      {
+        "label": "IBM POWER2（マイクロプロセッサ）",
+        "label_en": "IBM POWER2",
+        "startYear": 1993,
+        "genre": [
+          "HAR-CPU"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/POWER_マイクロプロセッサ",
+        "url_en": "https://en.wikipedia.org/wiki/POWER2",
+        "note": "RISC系の第二世代POWER) CPU。",
+        "note_en": "Second-gen IBM POWER RISC CPU."
       }
     ],
     "1994": [
@@ -7732,6 +7945,33 @@
         "url_en": "https://en.wikipedia.org/wiki/Mobile_phone",
         "note": "端末販売形態の転換点。",
         "note_en": "Shift in handset pricing/ownership model."
+      },
+      {
+        "label": "Motorola Envoy（Magic Cap）",
+        "label_en": "Motorola Envoy (Magic Cap)",
+        "startYear": 1994,
+        "genre": [
+          "HAR-MOB"
+        ],
+        "imp": 2,
+        "url": "https://en.wikipedia.org/wiki/Motorola_Envoy",
+        "url_en": "https://en.wikipedia.org/wiki/Magic_Cap",
+        "note": "Magic) Cap搭載のPDA端末。",
+        "note_en": "PDA running Magic Cap OS."
+      },
+      {
+        "label": "Sony Magic Link（Magic Cap）",
+        "label_en": "Sony Magic Link (Magic Cap)",
+        "startYear": 1994,
+        "genre": [
+          "HAR-MOB",
+          "JAPAN"
+        ],
+        "imp": 2,
+        "url": "https://en.wikipedia.org/wiki/Sony_Magic_Link",
+        "url_en": "https://en.wikipedia.org/wiki/Magic_Cap",
+        "note": "ソニーのMagic) Cap端末。",
+        "note_en": "Sony’s handheld running Magic Cap."
       }
     ],
     "1995": [
@@ -8163,6 +8403,32 @@
         "url_en": "https://en.wikipedia.org/wiki/Quantum_error_correction",
         "note": "量子計算の誤り訂正の基礎理論。",
         "note_en": "Foundational theory for quantum error correction."
+      },
+      {
+        "label": "Intel Pentium Pro（マイクロプロセッサ）",
+        "label_en": "Intel Pentium Pro",
+        "startYear": 1995,
+        "genre": [
+          "HAR-CPU"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/Pentium_Pro",
+        "url_en": "https://en.wikipedia.org/wiki/Pentium_Pro",
+        "note": "P6世代の先進x86) CPU。",
+        "note_en": "Advanced P6-generation x86 CPU."
+      },
+      {
+        "label": "UltraSPARC（マイクロプロセッサ）",
+        "label_en": "UltraSPARC",
+        "startYear": 1995,
+        "genre": [
+          "HAR-CPU"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/UltraSPARC",
+        "url_en": "https://en.wikipedia.org/wiki/UltraSPARC",
+        "note": "Sunの64ビットRISC) CPU。",
+        "note_en": "Sun’s 64-bit RISC CPU family."
       }
     ],
     "1996": [
@@ -8827,6 +9093,32 @@
         "url_en": "https://en.wikipedia.org/wiki/Boston_Dynamics",
         "note": "物流志向の研究/実用ロボ。",
         "note_en": "Logistics-oriented research robots."
+      },
+      {
+        "label": "Mac OS 8",
+        "label_en": "Mac OS 8",
+        "startYear": 1997,
+        "genre": [
+          "SOF-OS"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/Mac_OS",
+        "url_en": "https://en.wikipedia.org/wiki/Mac_OS_8",
+        "note": "Classic) Mac OSの主要版。",
+        "note_en": "Major Classic Mac OS release."
+      },
+      {
+        "label": "Intel Pentium II",
+        "label_en": "Intel Pentium II",
+        "startYear": 1997,
+        "genre": [
+          "HAR-CPU"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/Pentium_II",
+        "url_en": "https://en.wikipedia.org/wiki/Pentium_II",
+        "note": "Slot) 1採用の主力CPU。",
+        "note_en": "Mainstream Slot-1 x86 processor."
       }
     ],
     "1998": [
@@ -9812,6 +10104,19 @@
         "url_en": "https://en.wikipedia.org/wiki/Existenz",
         "note": "VR/ゲームを題材にしたSF映画。",
         "note_en": "SF film exploring VR and games."
+      },
+      {
+        "label": "Mac OS 9",
+        "label_en": "Mac OS 9",
+        "startYear": 1999,
+        "genre": [
+          "SOF-OS"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/Mac_OS_9",
+        "url_en": "https://en.wikipedia.org/wiki/Mac_OS_9",
+        "note": "Classic) Mac OSの最終期。",
+        "note_en": "Late iteration of Classic Mac OS."
       }
     ],
     "2000": [
@@ -10361,6 +10666,32 @@
         "url_en": "https://en.wikipedia.org/wiki/Surface_code",
         "note": "量子誤り訂正の有力方式。",
         "note_en": "Leading approach to quantum error correction."
+      },
+      {
+        "label": "Mac OS X 10.0",
+        "label_en": "Mac OS X 10.0",
+        "startYear": 2001,
+        "genre": [
+          "SOF-OS"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/Mac_OS_X",
+        "url_en": "https://en.wikipedia.org/wiki/MacOS",
+        "note": "UNIXベースの新世代Mac) OS。",
+        "note_en": "UNIX-based next-gen Mac OS."
+      },
+      {
+        "label": "Mac OS X",
+        "label_en": "Mac OS X",
+        "startYear": 2001,
+        "genre": [
+          "SOF-OS"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/Mac_OS_X",
+        "url_en": "https://en.wikipedia.org/wiki/MacOS",
+        "note": "UNIXベースの新生Mac) OS。",
+        "note_en": "UNIX-based modern Mac operating system."
       }
     ],
     "2002": [
@@ -10816,6 +11147,20 @@
         "url_en": "https://en.wikipedia.org/wiki/Word_processor",
         "note": "専用機時代の終焉を象徴。",
         "note_en": "Marks the end of dedicated word processors."
+      },
+      {
+        "label": "Windows Mobile 2003（オペレーティングシステム）",
+        "label_en": "Windows Mobile 2003",
+        "startYear": 2003,
+        "genre": [
+          "SOF-OS",
+          "HAR-MOB"
+        ],
+        "imp": 2,
+        "url": "https://ja.wikipedia.org/wiki/Windows_Mobile",
+        "url_en": "https://en.wikipedia.org/wiki/Windows_Mobile",
+        "note": "Pocket) PC系のモバイルOS。",
+        "note_en": "Pocket PC–based mobile OS release."
       }
     ],
     "2004": [
@@ -12423,6 +12768,19 @@
         "url_en": "https://en.wikipedia.org/wiki/Databricks",
         "note": "Spark商用/統合AI基盤。",
         "note_en": "Company behind commercial Spark/AI platform."
+      },
+      {
+        "label": "Slack",
+        "label_en": "Slack",
+        "startYear": 2013,
+        "genre": [
+          "SOF-SVC"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/Slack",
+        "url_en": "https://en.wikipedia.org/wiki/Slack_(software)",
+        "note": "業務コラボの中心ツールに。",
+        "note_en": "Team collaboration and messaging platform."
       }
     ],
     "2014": [
@@ -13141,6 +13499,20 @@
         "url_en": "https://en.wikipedia.org/wiki/Ceph_(software)",
         "note": "分散オブジェクト/ブロック/FS。",
         "note_en": "Distributed object/block/file storage."
+      },
+      {
+        "label": "Raspberry Pi OS（Raspbian）",
+        "label_en": "Raspberry Pi OS (Raspbian)",
+        "startYear": 2016,
+        "genre": [
+          "SOF-OS",
+          "SOF-DEV"
+        ],
+        "imp": 2,
+        "url": "https://ja.wikipedia.org/wiki/Raspberry_Pi_OS",
+        "url_en": "https://en.wikipedia.org/wiki/Raspberry_Pi_OS",
+        "note": "Raspberry) Pi公式OS。",
+        "note_en": "Official OS for Raspberry Pi."
       }
     ],
     "2017": [
@@ -13269,6 +13641,19 @@
         "url_en": "https://en.wikipedia.org/wiki/Elastic_NV",
         "note": "ログ/可視化の統合基盤。",
         "note_en": "Integrated log and visualization stack."
+      },
+      {
+        "label": "Transformer",
+        "label_en": "Transformer",
+        "startYear": 2017,
+        "genre": [
+          "SOF-AI"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/Transformer",
+        "url_en": "https://en.wikipedia.org/wiki/Transformer_(machine_learning_model)",
+        "note": "自己注意に基づくDLモデル。",
+        "note_en": "Self-attention–based DL architecture."
       }
     ],
     "2018": [
@@ -13465,6 +13850,20 @@
         "url_en": "https://en.wikipedia.org/wiki/Ansible_(software)",
         "note": "運用自動化のGUI/OSS化。",
         "note_en": "GUI management and open-sourcing."
+      },
+      {
+        "label": "Google Workspace（ブランド統合）",
+        "label_en": "Google Workspace (branding)",
+        "startYear": 2018,
+        "genre": [
+          "SOF-SVC",
+          "SOF-ENT"
+        ],
+        "imp": 2,
+        "url": "https://ja.wikipedia.org/wiki/Google_Workspace",
+        "url_en": "https://en.wikipedia.org/wiki/Google_Workspace",
+        "note": "G) Suite再編/統合の文脈。",
+        "note_en": "Branding for Google’s productivity suite."
       }
     ],
     "2019": [
@@ -13628,6 +14027,19 @@
         "url_en": "https://en.wikipedia.org/wiki/Okta",
         "note": "IDaaSの代表的サービス。",
         "note_en": "Flagship identity-as-a-service."
+      },
+      {
+        "label": "Valve Index",
+        "label_en": "Valve Index",
+        "startYear": 2019,
+        "genre": [
+          "HAR-IMG"
+        ],
+        "imp": 2,
+        "url": "https://ja.wikipedia.org/wiki/Valve_Index",
+        "url_en": "https://en.wikipedia.org/wiki/Valve_Index",
+        "note": "高性能PC向けVR) HMD。",
+        "note_en": "High-end PC VR headset."
       }
     ],
     "2020": [
@@ -13880,6 +14292,20 @@
         "url_en": "https://en.wikipedia.org/wiki/OpenShift",
         "note": "K8s向けSDS/データ基盤。",
         "note_en": "SDS/data services for OpenShift."
+      },
+      {
+        "label": "Apple M1",
+        "label_en": "Apple M1",
+        "startYear": 2020,
+        "genre": [
+          "HAR-CPU",
+          "HAR-PC"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/Apple_M1",
+        "url_en": "https://en.wikipedia.org/wiki/Apple_M1",
+        "note": "PC向けArm) SoCで高効率と性能を両立。",
+        "note_en": "Arm-based SoC delivering efficiency and speed."
       }
     ],
     "2021": [
@@ -14060,6 +14486,20 @@
         "url_en": "https://en.wikipedia.org/wiki/GitHub",
         "note": "企業向けDevOps/CI統合を強化。",
         "note_en": "Enterprise DevOps/CI integrations."
+      },
+      {
+        "label": "Apple M1 Pro/Max",
+        "label_en": "Apple M1 Pro/Max",
+        "startYear": 2021,
+        "genre": [
+          "HAR-CPU",
+          "HAR-PC"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/Apple_M1",
+        "url_en": "https://en.wikipedia.org/wiki/Apple_M1#M1_Pro_and_M1_Max",
+        "note": "高性能Arm) SoCでクリエイティブ向け強化。",
+        "note_en": "High-end Arm SoCs for pro workloads."
       }
     ],
     "2022": [
@@ -14248,6 +14688,20 @@
         "url_en": "https://en.wikipedia.org/wiki/Tesla_Optimus",
         "note": "試作二足ロボの改良世代。",
         "note_en": "Improved prototype humanoid robot."
+      },
+      {
+        "label": "Apple M4",
+        "label_en": "Apple M4",
+        "startYear": 2024,
+        "genre": [
+          "HAR-CPU",
+          "HAR-MOB"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/Apple_M4",
+        "url_en": "https://en.wikipedia.org/wiki/Apple_M4",
+        "note": "モバイル向けArm) SoC世代を更新。",
+        "note_en": "Next-gen Arm SoC powering Apple devices."
       }
     ],
     "2025": [
