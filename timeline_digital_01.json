@@ -2739,19 +2739,6 @@
         "url_en": "https://en.wikipedia.org/wiki/User_group",
         "note": "日本のUNIXユーザーコミュニティ。",
         "note_en": "Japanese UNIX user community."
-      },
-      {
-        "label": "Apple DOS（オペレーティングシステム）",
-        "label_en": "Apple DOS",
-        "startYear": 1978,
-        "genre": [
-          "SOF-OS"
-        ],
-        "imp": 3,
-        "url": "https://ja.wikipedia.org/wiki/Apple_DOS",
-        "url_en": "https://en.wikipedia.org/wiki/Apple_DOS",
-        "note": "Apple) II向け初期ディスクOS。",
-        "note_en": "Early disk OS for Apple II."
       }
     ],
     "1979": [
@@ -9123,20 +9110,6 @@
     ],
     "1998": [
       {
-        "label": "Google",
-        "label_en": "Google",
-        "startYear": 1998,
-        "endYear": "ongoing",
-        "genre": [
-          "SOF-SVC"
-        ],
-        "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/Google",
-        "url_en": "https://en.wikipedia.org/wiki/Google",
-        "note": "検索から多分野へ拡大する基盤企業。",
-        "note_en": "Search company expanding to many domains."
-      },
-      {
         "label": "Google（サービス）",
         "label_en": "Google (service)",
         "startYear": 1998,
@@ -14292,20 +14265,6 @@
         "url_en": "https://en.wikipedia.org/wiki/OpenShift",
         "note": "K8s向けSDS/データ基盤。",
         "note_en": "SDS/data services for OpenShift."
-      },
-      {
-        "label": "Apple M1",
-        "label_en": "Apple M1",
-        "startYear": 2020,
-        "genre": [
-          "HAR-CPU",
-          "HAR-PC"
-        ],
-        "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/Apple_M1",
-        "url_en": "https://en.wikipedia.org/wiki/Apple_M1",
-        "note": "PC向けArm) SoCで高効率と性能を両立。",
-        "note_en": "Arm-based SoC delivering efficiency and speed."
       }
     ],
     "2021": [
@@ -14321,19 +14280,6 @@
         "url_en": "https://en.wikipedia.org/wiki/Windows_11",
         "note": "UI刷新とセキュリティ強化。",
         "note_en": "UI overhaul and security updates."
-      },
-      {
-        "label": "Apple M1/M1 Pro/Max",
-        "label_en": "Apple M1/M1 Pro/Max",
-        "startYear": 2021,
-        "genre": [
-          "HAR-CPU"
-        ],
-        "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/Apple_M1",
-        "url_en": "https://en.wikipedia.org/wiki/Apple_M1",
-        "note": "Appleシリコン世代が拡充。",
-        "note_en": "Expanded Apple Silicon lineup."
       },
       {
         "label": "量子ボリュームなど指標の普及",
@@ -14688,20 +14634,6 @@
         "url_en": "https://en.wikipedia.org/wiki/Tesla_Optimus",
         "note": "試作二足ロボの改良世代。",
         "note_en": "Improved prototype humanoid robot."
-      },
-      {
-        "label": "Apple M4",
-        "label_en": "Apple M4",
-        "startYear": 2024,
-        "genre": [
-          "HAR-CPU",
-          "HAR-MOB"
-        ],
-        "imp": 3,
-        "url": "https://ja.wikipedia.org/wiki/Apple_M4",
-        "url_en": "https://en.wikipedia.org/wiki/Apple_M4",
-        "note": "モバイル向けArm) SoC世代を更新。",
-        "note_en": "Next-gen Arm SoC powering Apple devices."
       }
     ],
     "2025": [
@@ -14719,20 +14651,6 @@
         "url_en": "https://en.wikipedia.org/wiki/MARS_(ticketing_system)",
         "note": "国鉄の座席予約システムが功績認定。",
         "note_en": "Japanese rail reservation system honored."
-      },
-      {
-        "label": "MARS-1 IEEEマイルストーン選定",
-        "label_en": "MARS-1 named IEEE Milestone",
-        "startYear": 2025,
-        "genre": [
-          "NON-HIS",
-          "JAPAN"
-        ],
-        "imp": 2,
-        "url": "https://ja.wikipedia.org/wiki/MARS_(JR)",
-        "url_en": "https://en.wikipedia.org/wiki/MARS_(computer_system)",
-        "note": "国鉄座席予約の初代が顕彰。",
-        "note_en": "Japan’s early rail booking system honored."
       }
     ]
   },
