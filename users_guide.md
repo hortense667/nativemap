@@ -4,6 +4,8 @@
 
 ## 日本語版
 
+このリポジトリはデータ（JSON）専用です。アプリは別リポジトリ/ホスティングで提供されます。
+
 ### はじめに
 
 ネイティブマップは、年表データを視覚的に表示・編集できるWebアプリケーションです。ポップカルチャーやデジタル技術の歴史を年表形式で管理し、個人の体験と照らし合わせることができます。
@@ -27,6 +29,7 @@
   - 色テーマ（数種）
   - 文字サイズ（A-/A+ 連続押し可、下限8px・上限なし）
   - 太字（B トグル）
+  - テイル表示/非表示（△ボタン）
 
 #### 表示の調整
 - 内側余白は左右対称（上下13px・左右16px）
@@ -35,6 +38,17 @@
 #### スナップショット
 - スナップショット保存/復元に対応（位置・テキスト・スタイル・先端座標）
 - 復元後、GitHubが新しければ同期をブロックする仕組みに準拠
+
+#### 画像表示機能
+- テキストに「#https://example.com/image.png」の形式で画像URLを記述すると画像を表示
+- 「#https://example.com/image.png キャプション」の形式でキャプションも表示可能
+- 画像はドラッグ移動・角からのリサイズ（アスペクト比維持）に対応
+- 画像のマージンは最小限（フキダシの枠線のみ）
+- キャプションはフキダシの文字色・サイズ設定を継承
+
+#### 改行対応
+- フキダシ内のテキストで改行が有効
+- 入力時の改行が表示時も反映される
 
 
 #### 参照年表とは
@@ -114,8 +128,9 @@
 1. 初期データをCSVファイルで準備
 2. 「ロード」でデータを読み込み
 3. 必要に応じて編集・追加・削除
-4. 「セーブ」で編集内容を保存
+4. 「スナップショット保存」で現在の状態を保存
 5. 必要に応じて手順2-4を繰り返し
+6. 気に入った状態になったら「セーブ」でCSVファイルとして保存
 
 #### 4. 自分で作った年表を公開したい人（GitHub管理者）
 
@@ -192,6 +207,7 @@
 3. **継続的な運用**
    - 編集後は必ず「同期」でGitHubに反映
    - 他のユーザーが編集した場合は「同期」で最新データを取得
+   - 重要な編集前は「スナップショット保存」でバックアップを取る
 
 ### 推奨運用方針
 
@@ -199,7 +215,8 @@
 
 1. **定期的なバックアップ**
    - GitHubのバックアップ機能を活用
-   - 重要な編集前は必ず「同期」を実行
+   - 重要な編集前は必ず「スナップショット保存」を実行
+   - 定期的に「同期」でGitHubに反映
 
 2. **バージョン管理**
    - 大きな変更前はGitHubでコミットメッセージを記録
@@ -209,6 +226,7 @@
    - 複数人で編集する場合は事前にルールを決める
    - 編集前に必ず「同期」で最新データを取得
    - 編集後は必ず「同期」で変更を反映
+   - 編集前は「スナップショット保存」でバックアップを取る
 
 #### 公開の方針
 
@@ -524,105 +542,159 @@ genre;JAPAN;日本;Japan;true
    - サービス障害が発生した場合は、GitHubのIssuesで報告
    - 緊急時は管理者への直接連絡も検討
 
+## ライセンス
+- データ: 原則 CC BY 4.0。項目単位で CC BY-SA 4.0 の例外がある場合は `CREDIT.md` に明記します。
+- 詳細は `LICENSE_DATA.txt` を参照。
+
+## コミュニティとの連携
+- **Issues と Pull Request を活用**してください。
+- Issues 作成時はテンプレートから該当（内容訂正 / 機能提案 / 不具合報告）を選び、  
+  **再現手順・スクリーンショット・参照URL** を添付いただけると助かります。
+- フィードバック導線：
+  - 一般: https://github.com/hortense667/nativemap/issues
+  - セキュリティ: `SECURITY.md` の手順に従ってください。
+
 ---
 
 ## English Version
 
+This repository is for data (JSON) only. The application is provided in a separate repository/hosting.
+
 ### Introduction
 
-Native Map is a web application that allows you to visually display and edit timeline data. You can manage the history of pop culture and digital technology in timeline format and compare it with your personal experiences.
+NativeMap is a web application that allows you to visually display and edit timeline data. You can manage the history of pop culture and digital technology in a timeline format and compare it with personal experiences.
 
-It is designed as a **distributed system where any GitHub user can become an administrator**, allowing you to manage your own timeline data in your own repository.
+Designed as a **distributed system where any GitHub user can become an administrator**, you can manage your own timeline data in your repository.
 
 ### About Reference Timeline Feature
+### Speech Bubble Detailed Guide
+
+#### Overview
+A speech bubble feature that allows you to place annotations in the right graph area. The tip (pointer) becomes the click position, and the triangle tail automatically connects from the optimal edge. It doesn't extend from rounded corners, and the connection position is restricted to within ±1/3 of the edge center.
+
+#### Create, Edit, Delete
+- Create: Turn on the speech bubble add icon in header, or Shift+click → Click in right area
+- Edit: Click pencil icon in display mode
+- Delete: Trash icon (simultaneously deletes bubble body, triangle tail, and seam cover)
+- Move: Drag bubble to move, drag tail to change tip coordinates
+
+#### Style Settings (Display Mode Only)
+- Change the following from right-click menu:
+  - Color theme (multiple options)
+  - Font size (A-/A+ continuous press possible, minimum 8px, no maximum)
+  - Bold (B toggle)
+  - Tail display/hide (△ button)
+
+#### Display Adjustment
+- Internal padding is symmetrical (13px top/bottom, 16px left/right)
+- Triangle tail and bubble seam are automatically blended (background color seam + border alignment)
+
+#### Snapshots
+- Supports snapshot save/restore (position, text, style, tip coordinates)
+- After restoration, complies with mechanism to block synchronization if GitHub is newer
+
+#### Image Display Feature
+- Display images by writing image URL in text format "#https://example.com/image.png"
+- Caption can also be displayed in format "#https://example.com/image.png Caption"
+- Images support drag movement and resize from corners (maintains aspect ratio)
+- Image margins are minimal (bubble border only)
+- Captions inherit speech bubble text color and size settings
+
+#### Line Break Support
+- Line breaks are effective in speech bubble text
+- Line breaks during input are reflected in display
 
 #### What is Reference Timeline
 The reference timeline feature allows you to display and compare multiple timeline data simultaneously in addition to the main timeline data. Reference timeline data is read-only and cannot be edited or deleted.
 
 #### How to Set Up Reference Timeline
-1. **Specify reference timeline file paths in settings**
-   - Go to "Settings" → "Reference timeline file paths" and enter up to 10 JSON file paths separated by commas
+1. **Specify reference timeline file path in settings**
+   - Enter up to 10 JSON file paths separated by commas in "Settings" → "Reference Timeline File Path"
    - Example: `timeline_popculture_japan_01.json, timeline_ai_01.json`
 
-2. **Direct specification via URL parameters**
-   - Add `&refFilePaths=filepath1,filepath2` to the URL
-   - Example: `nativemap201.html?owner=hortense667&repo=nativemap&filePath=timeline_digital_japan_01.json&refFilePaths=timeline_popculture_japan_01.json`
+2. **Direct specification in URL parameters**
+   - Add `refTimelines` (JSON array) to URL (can specify importance level)
+   - Example:
+     ```
+     nativemap201.html?owner=hortense667&repo=nativemap&filePath=timeline_digital_japan_01.json&refTimelines=%5B%7B%22owner%22%3A%22hortense667%22%2C%22repo%22%3A%22nativemap%22%2C%22filePath%22%3A%22timeline_backglound_01.json%22%2C%22minImportance%22%3A2%7D%5D
+     ```
 
-#### Features of Reference Timeline
-- **Read-only**: Cannot be edited or deleted (pencil and trash icons are grayed out)
+#### Reference Timeline Features
+- **Read-only**: Cannot edit or delete (pencil and trash icons are grayed out)
 - **Independent genre management**: Control genre on/off for each reference timeline
 - **Visual distinction**: Reference timeline items are displayed in blue
-- **Search target**: Items from reference timelines with genres turned on are also included in search results
+- **Search target**: Items from reference timelines with genres turned on are included in search
 
 #### How to Edit Reference Timeline
 To edit reference timeline content, open that file as the main file path in a separate browser tab.
 
 Example:
 - Main tab: `timeline_digital_japan_01.json` + Reference: `timeline_popculture_japan_01.json`
-- Edit tab: Open `timeline_popculture_japan_01.json` as main for editing
+- Edit tab: Open `timeline_popculture_japan_01.json` as main and edit
 
 ### Usage by Purpose
 
-#### 1. Viewers (Read-only users)
+#### 1. People Who Just Want to View and Operate (Viewers)
 
-**Target**: Users who do not add or edit data, but can temporarily add data through loading
+**Target**: Cannot add or edit data, but can temporarily add through loading
 
-**Basic operations**:
-- Timeline display and scrolling
-- Using search function
+**Basic Operations**:
+- Display and scroll timeline
+- Use search function
 - Genre and importance filters
 - Timeline utilization (aligning event years and birth years)
 
-**Temporary data addition**:
-- Use "Load" function to read data from CSV files
-- Editing, adding, and deleting is possible, but saving is local only
+**Temporary Data Addition**:
+- Load data from CSV file using "Load" function
+- Can edit, add, delete but saves locally only
 - Returns to original state when page is reloaded
 
-#### 2. Collaborators (Contributors to existing timelines)
+#### 2. People Who Want to Participate in Editing Existing Timeline (Collaborators)
 
-**Target**: Users without access tokens but can provide data downloaded after editing through "Sync"
+**Target**: People who can provide downloaded data after "sync" without access token
 
-**Note**: Currently, this functionality is not fully supported, but the feature exists.
+**Note**: Currently, this functionality is not fully supported but exists as a feature.
 
-**Basic operations**:
-- All viewer operations plus item editing, adding, and deleting
-- Export CSV files using "Sync" button
-- Provide exported data to administrators
+**Basic Operations**:
+- Edit, add, delete items in addition to viewer operations
+- Export CSV file with "Sync" button (when no access token)
+- Provide exported data to administrator
 
 **Limitations**:
 - Cannot directly update remote data
-- Edited content is saved locally only
-- No real-time synchronization with other users
+- Edits are saved locally only
+- No real-time sync with other users
 
-#### 3. Local Timeline Creators (Local administrators)
+#### 3. People Who Want to Create Their Own Timeline (Local Administrators)
 
-**Target**: Users who work with local data using load and save cycles
+**Target**: People who manage with local data using load and save
 
-**Use cases**: Suitable for creating simple timelines for presentations or analysis
+**Use Cases**: Suitable for using simple timelines for presentations and analysis
 
-**Basic operations**:
+**Basic Operations**:
 - All viewer and collaborator operations
-- Load data from CSV files using "Load"
-- Save current data as CSV files using "Save"
-- Complete local data management
+- Load data from CSV file with "Load"
+- Save current data as CSV file with "Save"
+- Complete data management locally
 
-**Recommended workflow**:
+**Recommended Workflow**:
 1. Prepare initial data in CSV file
 2. Load data using "Load"
-3. Edit, add, or delete as needed
-4. Save edited content using "Save"
+3. Edit, add, delete as needed
+4. Save current state with "Snapshot Save"
 5. Repeat steps 2-4 as needed
+6. When satisfied with state, save as CSV file using "Save"
 
-#### 4. GitHub Timeline Publishers (GitHub administrators)
+#### 4. People Who Want to Publish Their Own Timeline (GitHub Administrators)
 
-**Target**: Users who want to publish their timelines on GitHub
+**Target**: People who want to host and publish data on GitHub
 
-**Required preparation**:
+**Required Preparation**:
 - GitHub account
 - Personal Access Token
 - Repository creation
 
-### Detailed Steps for GitHub Publishing
+### Detailed GitHub Publication Steps
 
 #### Step 1: Prepare GitHub Repository
 
@@ -635,13 +707,13 @@ Example:
 
 2. **Place Initial Files**
    - Create `timeline.json` file in repository
-   - Empty file is acceptable
-   - Or refer to sample data from [nativemap repository](https://github.com/hortense667/nativemap)
+   - Can be empty file
+   - Or reference sample data from [nativemap repository](https://github.com/hortense667/nativemap)
 
-#### Step 2: Get Personal Access Token
+#### Step 2: Obtain Personal Access Token
 
 1. **Access GitHub Settings**
-   - Click profile image in upper right of GitHub
+   - Click profile image in top right of GitHub
    - Select "Settings"
    - Click "Developer settings" in left sidebar
    - Select "Personal access tokens" → "Tokens (classic)"
@@ -650,371 +722,81 @@ Example:
    - Click "Generate new token" → "Generate new token (classic)"
    - Note: `Native Map Timeline Access` (any name)
    - Expiration: Select appropriate period (recommended: 90 days)
-   - Scopes: Check the following permissions:
+   - Scopes: Check following permissions
      - `repo` (Full control of private repositories)
      - `public_repo` (Access public repositories)
 
 3. **Save Token**
    - Click "Generate token"
-   - Copy generated token and save in secure location
-   - **Important**: This token will not be shown again
+   - Copy generated token and save in safe place
+   - **Important**: This token will not be displayed again
 
-#### Step 3: Configure in Native Map
+#### Step 3: NativeMap Settings
 
 1. **Open Settings**
-   - Click "Settings" button in Native Map
+   - Click "Settings" button in NativeMap
 
 2. **Enter GitHub Information**
    - Personal Access Token: Token obtained in Step 2
-   - Repository Owner: Your GitHub username
-   - Repository Name: Repository name created in Step 1
-   - File Path: `timeline.json` (usually OK as is)
+   - Repository owner: Your GitHub username
+   - Repository name: Repository name created in Step 1
+   - File path: `timeline.json` (usually OK as is)
 
 3. **Save Settings**
    - Click "Save" button
    - Settings are saved to local storage
 
-#### Step 4: Prepare Data and Synchronize
+#### Step 4: Data Preparation and Synchronization
 
 1. **Prepare Data**
-   - Use "Load" function to read data from CSV files
+   - Load data from CSV file using "Load" function
    - Or edit existing data
 
-2. **Initial Synchronization**
+2. **Initial Sync**
    - Click "Sync" button
-   - Data is saved to `timeline.json` in GitHub repository
+   - With access token: Updates GitHub JSON (Message "Remote data updated")
+   - Without access token: Downloads changes only as CSV (button returns to green)
 
 3. **Continuous Operation**
-   - Always "Sync" to reflect changes to GitHub after editing
-   - Use "Sync" to get latest data when others have edited
+   - Always reflect to GitHub with "Sync" after editing
+   - Get latest data with "Sync" if others have edited
+   - Take backup with "Snapshot Save" before important edits
 
-### Recommended Operation Policies
+### Recommended Operation Policy
 
-#### Data Management Policies
+#### Data Management Policy
 
-1. **Regular Backups**
-   - Utilize GitHub's backup functionality
-   - Always "Sync" before important edits
+1. **Regular Backup**
+   - Utilize GitHub's backup function
+   - Always execute "Snapshot Save" before important edits
+   - Regularly reflect to GitHub with "Sync"
 
-2. **Version Control**
-   - Record commit messages in GitHub before major changes
+2. **Version Management**
+   - Record commit messages on GitHub before major changes
    - Use tags and branches as needed
 
 3. **Collaborative Editing Management**
-   - Establish rules in advance when editing with multiple people
-   - Always "Sync" to get latest data before editing
-   - Always "Sync" to reflect changes after editing
+   - Establish rules beforehand for multiple editors
+   - Always get latest data with "Sync" before editing
+   - Always reflect changes with "Sync" after editing
+   - Take backup with "Snapshot Save" before editing
 
-#### Publishing Policies
+#### Publication Policy
 
 1. **Data Quality Management**
-   - Regularly check data integrity
-   - Verify no inappropriate content
+   - Regularly check data consistency
+   - Check for inappropriate content
 
 2. **Update Frequency**
-   - Maintain regular updates
-   - Quickly add important events
+   - Aim for regular updates
+   - Add important events promptly
 
-3. **Community Engagement**
+3. **Community Collaboration**
    - Utilize Issues and Pull Requests
    - Actively incorporate user feedback
 
-### Detailed Data Formats
+### Data Format Details
 
-#### CSV Format (for loading)
+#### CSV Format (For Loading)
 
-**Basic format**:
-```
-Start Year;End Year;Label;label_en;Genre;Importance;URL;url_en;Note;note_en
-```
-
-**Example**:
-```
-1946;;ENIAC;ENIAC;HAR;5;https://ja.wikipedia.org/wiki/ENIAC;https://en.wikipedia.org/wiki/ENIAC;初の大規模電子計算機;First large-scale electronic computer
-1983;;任天堂ファミコン;Nintendo Famicom;GAM;5;https://ja.wikipedia.org/wiki/ファミリーコンピュータ;https://en.wikipedia.org/wiki/Nintendo_Entertainment_System;家庭用ゲーム機の革命;Home console revolution
-```
-
-**Genre Definition**:
-```
-genre;CODE;LABEL;label_en;conjunction
-```
-
-**Example**:
-```
-genre;ANI;アニメ;Animation;
-genre;GAM;ゲーム;Game;
-genre;JAPAN;日本;Japan;true
-```
-
-#### JSON Format (for synchronization)
-
-The JSON file generated by synchronization includes the following structure:
-
-```json
-{
-  "metadata": {
-    "title": { "ja": "ポップカルチャー年表", "en": "POP Culture Timeline" },
-    "description": {
-      "ja": "この年表は…",
-      "en": "This timeline …"
-    },
-    "initialCreator": "Satoshi Endo",
-    "contributors": ["Satoshi Endo", "Hortense Endo"],
-    "contact": {
-      "administrator": {
-        "name": "Satoshi Endo",
-        "email": "zzz@65536.net",
-        "x": "https://x.com/hortense667",
-        "organization": "ZEN University"
-      }
-    },
-    "createdAt": "2025-10-01",
-    "version": "1.0",
-    "language": ["ja","en"],
-    "copyright": "© 2025 Satoshi Endo",
-    "license": "CC BY 4.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
-    "notes": "Updates from contributors are welcome …"
-  },
-  "events": {
-    "1946": [
-      {
-        "label": "ENIAC",
-        "label_en": "ENIAC",
-        "genre": "HAR",
-        "importance": 5,
-        "url": "https://ja.wikipedia.org/wiki/ENIAC",
-        "url_en": "https://en.wikipedia.org/wiki/ENIAC",
-        "note": "初の大規模電子計算機",
-        "note_en": "First large-scale electronic computer"
-      }
-    ]
-  },
-  "genres": {
-    "ANI": { "label": "アニメ", "label_en": "Animation" },
-    "GAM": { "label": "ゲーム", "label_en": "Game" }
-  }
-}
-```
-
-**Note**: Era settings are not reflected in synchronization. Era settings are managed as local settings.
-
-### Troubleshooting
-
-#### Check Items When Things Don't Work
-
-**When reference timeline is not displayed**:
-1. Check if file paths are correctly set
-2. Make sure to press "Save" button after changing settings
-3. Check if files exist in GitHub repository
-4. Check if file paths contain spaces or special characters
-
-**When synchronization fails**:
-1. Check if access token is correctly set
-2. Check if repository owner name and repository name are correct
-3. Check if file path is correct
-4. Check if network connection is normal
-
-**When data is not updated**:
-1. Clear browser cache
-2. Execute "Clear all displayed labels and load from GitHub"
-3. Reset settings once and reconfigure
-
-#### Difference Between Browser Reload and "Clear all displayed labels and load from GitHub"
-
-**Browser Reload**:
-- Reloads entire page
-- Keeps local storage settings
-- Keeps reference timeline settings
-- Loses editing content (if unsaved)
-
-**"Clear all displayed labels and load from GitHub"**:
-- Completely clears local data
-- Reloads latest data from GitHub
-- Reloads reference timeline
-- Clears edit flags and deletion records
-- More reliably resets to latest state
-
-### Detailed Basic Operations
-
-#### Timeline Display and Operation
-
-**Timeline Display**:
-- Browse from 1950s to 2050s with vertical scrolling
-- Years and events are displayed in the left column
-- Drag operations are possible in the right area
-
-**Scroll Operation**:
-- Scroll up and down with mouse wheel or scroll bar
-- Also operable with keyboard up/down arrow keys
-
-#### Item Editing
-
-**Editing Items**:
-1. Click on the item you want to edit
-2. Edit modal opens
-3. The following items can be edited:
-   - Label (Japanese/English)
-   - Start year/End year
-   - Genre
-   - Importance (1-5)
-   - URL (Japanese/English)
-   - Note (Japanese/English)
-4. Click "Save" button to confirm changes
-
-Important notes:
-- The edit modal can be tall. Scroll to the bottom and click the "Save" button to apply changes. If you don't click Save, changes will not be applied.
-- You can drag the header (blank area at the top) of the edit modal and the detail list to reposition them.
-- Clicking the right graph area (timeline) closes the currently open detail/edit panels.
-
-**Adding Items**:
-1. Click "Add" button in detail list
-2. Enter information for new item
-3. Click "Save" button to add
-
-**Deleting Items**:
-1. Click "Delete" button in edit modal
-2. Select "OK" in confirmation dialog
-
-#### Search Function
-
-**Label Search**:
-- Enter keywords in search box
-- Only selected genres are searched
-- Hits if either Japanese or English label matches
-- Search results update in real-time
-
-**Detailed Search**:
-- Check "Detail" checkbox and search
-- Notes (Japanese/English) are also included in the search target
-
-#### Genre Filter
-
-**Genre Selection**:
-1. Click "Genre Selection" button
-2. Select from genre list
-3. Multiple selection possible (AND condition)
-
-**Genre Types**:
-- ANI: Animation
-- MAN: Manga
-- GAM: Game
-- MUS: Music
-- MOV: Movie
-- TV: Television
-- HAR: Hardware
-- SOFT: Software
-- And many others
-
-#### Importance Filter
-
-**Importance Settings**:
-- 1: Reference level
-- 2: Somewhat important
-- 3: Important
-- 4: Quite important
-- 5: Most important
-
-**Filter Operation**:
-- Filter by importance with "Importance" button
-- Multiple selection possible
-
-#### Detail List
-
-**Display Detail List**:
-1. Click "Detail" button
-2. Year-by-year detail list is displayed
-3. Check detailed information for each item
-
-**Item Reordering**:
-- Change order with drag & drop
-- "Drag to change the order of the list" display
-
-#### Timeline Usage Examples
-
-**Usage Example (Nintendo Famicom)**:
-1. **Align Event Year**: Drag the light blue circle in the drag-only lane up and down to align with the label "83 Nintendo Famicom" in the left column. "1983" will be displayed inside the vertical axis.
-2. **Align Birth Year**: Drag the light blue circle near the left end of the light blue diagonal line (where it intersects with the vertical axis) up and down to align with your birth year (e.g., 1965). "18 years old" will be displayed at the top.
-
-**The same operation can be performed with the red circle (red line). You can turn the display of each line on/off with the small circle button in the upper right.**
-
-#### Multilingual Support
-
-**Language Switching**:
-- Switch to English display with "EN" button in upper right
-- Add `?lang=en` to URL to access in English display
-- Click "JA" button to return to Japanese
-
-**Multilingual Data**:
-- Maintains both Japanese and English information
-- Appropriate fields are prioritized for display based on selected language
-
-### Disaster Recovery and Offline Usage
-
-#### Service Outage Response
-
-Native Map depends on external services such as Cloudflare, GitHub (for data storage and publishing), and DNS. This section explains countermeasures when these services experience outages.
-
-#### Preparation: Saving HTML Files
-
-**Pre-preparation for reliable demonstrations**:
-
-1. **Save HTML File**
-   - Right-click on the page when normal access is possible
-   - Select "Save as"
-   - Save as HTML file (e.g., `nativemap_backup.html`)
-
-2. **Timing for Saving**
-   - Before important presentations or demonstrations
-   - As regular backups
-   - Save when latest data is reflected
-
-#### Offline Usage Method
-
-**Usage procedure during outages**:
-
-1. **Open Saved HTML File**
-   - Double-click the saved HTML file
-   - Open directly in browser
-
-2. **Adjust Settings**
-   - Click "Settings" button
-   - **Clear access token** (important)
-   - Adjust other settings as needed
-
-3. **Load Data**
-   - Use "Load" function to read pre-prepared CSV files
-   - Or use data from the time of saving
-
-#### Precautions and Limitations
-
-**Important Notes**:
-
-1. **Synchronization Inconsistency**
-   - Offline usage is a convenient method
-   - Synchronization inconsistencies may occur at recovery time
-   - Always clear access token when using
-
-2. **Data Integrity**
-   - Content edited offline needs to be manually synchronized after service recovery
-   - Conflicts may occur when multiple people are editing
-
-3. **Copyright**
-   - HTML files are downloadable but protected by copyright
-   - Limited to personal use and educational purposes
-   - Commercial use and redistribution are prohibited
-
-#### Recommended Operation Policies
-
-1. **Regular Backups**
-   - Always save HTML files before important events
-   - Recommend monthly regular backups
-
-2. **Dual Data Storage**
-   - HTML file saving
-   - Data export via CSV files
-   - Protect data using both methods
-
-3. **Contact During Outages**
-   - Report service outages via GitHub Issues
-   - Consider direct contact with administrators in emergencies
+**Basic Format**:

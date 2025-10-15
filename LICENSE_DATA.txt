@@ -22,8 +22,8 @@ Item-level Exceptions
 Some items include very short descriptive text. If, in rare cases, a snippet is
 considered an adaptation of a source that requires ShareAlike (e.g., Wikipedia),
 that item's "Text license" will be explicitly marked as CC BY-SA 4.0 in
-`CREDITS.md`. When such an exception is noted, only that snippet is licensed
-under CC BY-SA 4.0; the rest of the dataset remains under CC BY 4.0.
+CREDIT.md. When such an exception is noted, only that snippet is licensed under
+CC BY-SA 4.0; the rest of the dataset remains under CC BY 4.0.
 
 Notes
 -----
@@ -38,4 +38,4 @@ Attribution format (example)
 ----------------------------
 "nativemap data" by Satoshi Endoh / @hortense667,
 available at https://github.com/hortense667/nativemap, licensed CC BY 4.0,
-with item-level exceptions as listed in CREDITS.md (if any).
+with item-level exceptions as listed in CREDIT.md (if any).
