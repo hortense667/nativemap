@@ -2,12 +2,12 @@
   "schemaVersion": 1,
   "metadata": {
     "title": {
-      "ja": "ガジェットの年表 0.0",
-      "en": "Gadget Timeline 0.0"
+      "ja": "〇〇の年表 0.0",
+      "en": "xx Timeline 0.0"
     },
     "description": {
-      "ja": "この年表はガジェット分野の主な製品や出来事を示します。現状、試験公開中であり内容を精査している段階です。",
-      "en": "This timeline shows the major products and events in the gadget field. Currently, it is in a trial phase and the content is being reviewed."
+      "ja": "この年表は〇〇分野の主な製品や出来事を示します。",
+      "en": "This timeline shows the major products and events in the xx field. "
     },
     "initialCreator": "Satoshi Endo",
     "contributors": [
