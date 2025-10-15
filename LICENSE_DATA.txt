@@ -1,0 +1,41 @@
+nativemap Data License (CC BY 4.0; item-level exceptions possible)
+==================================================================
+
+Copyright (c) 2025 Satoshi Endoh / @hortense667
+Repository: https://github.com/hortense667/nativemap
+
+Scope
+-----
+This repository currently contains data files only (e.g., JSON such as
+`timeline_popculture_01.json`). No program code is included here.
+The program code (if any) lives outside this repository and is licensed
+separately (see LICENSE.txt for details).
+
+Default License
+---------------
+Unless noted otherwise for a specific item, all data in this repository is
+licensed under Creative Commons Attribution 4.0 International (CC BY 4.0).
+https://creativecommons.org/licenses/by/4.0/
+
+Item-level Exceptions
+---------------------
+Some items include very short descriptive text. If, in rare cases, a snippet is
+considered an adaptation of a source that requires ShareAlike (e.g., Wikipedia),
+that item's "Text license" will be explicitly marked as CC BY-SA 4.0 in
+`CREDITS.md`. When such an exception is noted, only that snippet is licensed
+under CC BY-SA 4.0; the rest of the dataset remains under CC BY 4.0.
+
+Notes
+-----
+- Short factual descriptions are authored originally; no verbatim text from
+  Wikipedia or other sources is included.
+- Consulting public sources (including Wikipedia) for fact-checking does not, by
+  itself, import their licenses because no protected expression is reused.
+- This license does not grant rights to third-party trademarks, portraits, or
+  privacy-sensitive content referenced by the data. Ensure compliance for your use.
+
+Attribution format (example)
+----------------------------
+"nativemap data" by Satoshi Endoh / @hortense667,
+available at https://github.com/hortense667/nativemap, licensed CC BY 4.0,
+with item-level exceptions as listed in CREDITS.md (if any).
