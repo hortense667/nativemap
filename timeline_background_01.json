@@ -1,5 +1,4 @@
 {
-  "schemaVersion": 1,
   "metadata": {
     "title": {
       "ja": "時代背景 0.1",
@@ -5409,17 +5408,17 @@
     "1958": [
       {
         "label": "NASA 設立",
-        "label_en": "NASA established",
         "startYear": 1958,
         "genre": [
           "EVENT",
           "COMPANY",
           "WORLD"
         ],
-        "imp": 4,
+        "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/アメリカ航空宇宙局",
+        "note": "米国の宇宙機関NASAが設立され宇宙開発競争が本格化",
+        "label_en": "NASA established",
         "url_en": "https://en.wikipedia.org/wiki/NASA",
-        "note": "米国の宇宙機関NASAが設立され宇宙開発競争が本格化。",
         "note_en": "The United States created NASA, intensifying the space race."
       },
       {
@@ -5431,7 +5430,7 @@
           "COMPANY",
           "WORLD"
         ],
-        "imp": 4,
+        "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/DARPA",
         "url_en": "https://en.wikipedia.org/wiki/DARPA",
         "note": "先端研究を推進する国防高等研究計画局が発足。",
@@ -5446,11 +5445,11 @@
           "PRODUCT",
           "WORLD"
         ],
-        "imp": 4,
+        "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/エクスプローラー1号",
         "url_en": "https://en.wikipedia.org/wiki/Explorer_1",
         "note": "米初の人工衛星を打上げ、バン・アレン帯を発見。",
-        "note_en": "\"First US satellite reached orbit: discovered the Van Allen belts.\""
+        "note_en": "\"First US satellite reached orbit"
       },
       {
         "label": "EEC 稼働開始（ローマ条約発効）",
@@ -5460,7 +5459,7 @@
           "EVENT",
           "WORLD"
         ],
-        "imp": 4,
+        "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/欧州経済共同体",
         "url_en": "https://en.wikipedia.org/wiki/European_Economic_Community",
         "note": "欧州経済共同体が本格稼働し域内統合が進む。",
@@ -5474,7 +5473,7 @@
           "EVENT",
           "WORLD"
         ],
-        "imp": 4,
+        "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/フランス第五共和政",
         "url_en": "https://en.wikipedia.org/wiki/Fifth_French_Republic",
         "note": "体制危機を経て新憲法で第五共和政が成立。",
@@ -5489,7 +5488,7 @@
           "WORLD",
           "PRODUCT"
         ],
-        "imp": 2,
+        "imp": 3,
         "url": "https://ja.wikipedia.org/wiki/核実験#歴史",
         "url_en": "https://en.wikipedia.org/wiki/Nuclear_testing#Moratoria",
         "note": "非公式の核実験停止の動きが始まる（のち崩れる）。",
@@ -5504,7 +5503,7 @@
           "JAPAN",
           "CONTENT"
         ],
-        "imp": 4,
+        "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/東京タワー",
         "url_en": "https://en.wikipedia.org/wiki/Tokyo_Tower",
         "note": "電波塔として完成しテレビ時代の象徴に。",
@@ -5519,7 +5518,7 @@
           "COMPANY",
           "JAPAN"
         ],
-        "imp": 4,
+        "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/チキンラーメン",
         "url_en": "https://en.wikipedia.org/wiki/Instant_noodle",
         "note": "世界初の即席袋麺が発売され食文化を一変。",
@@ -5534,7 +5533,7 @@
           "COMPANY",
           "WORLD"
         ],
-        "imp": 3,
+        "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/レゴ",
         "url_en": "https://en.wikipedia.org/wiki/Lego",
         "note": "結合力を高めたスタッド&チューブ構造が特許化。",
@@ -5549,7 +5548,7 @@
           "COMPANY",
           "WORLD"
         ],
-        "imp": 4,
+        "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/ボーイング707",
         "url_en": "https://en.wikipedia.org/wiki/Boeing_707",
         "note": "大西洋路線でジェット旅客機時代が本格化。",
@@ -5564,7 +5563,7 @@
           "COMPANY",
           "WORLD"
         ],
-        "imp": 4,
+        "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/集積回路",
         "url_en": "https://en.wikipedia.org/wiki/Jack_Kilby",
         "note": "ジャック・キルビーがICの概念を実証。マイクロエレクトロニクスの幕開け。",
@@ -5579,7 +5578,7 @@
           "COMPANY",
           "WORLD"
         ],
-        "imp": 3,
+        "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/半導体素子#プレーナ型トランジスタ",
         "url_en": "https://en.wikipedia.org/wiki/Planar_process",
         "note": "半導体製造で画期となる工程の着想が進む。",
@@ -5594,7 +5593,7 @@
           "COMPANY",
           "JAPAN"
         ],
-        "imp": 3,
+        "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/トランジスタラジオ#日本",
         "url_en": "https://en.wikipedia.org/wiki/Transistor_radio",
         "note": "ポケットサイズの普及機が登場し輸出を牽引。",
@@ -5609,7 +5608,7 @@
           "PRODUCT",
           "JAPAN"
         ],
-        "imp": 2,
+        "imp": 3,
         "url": "https://ja.wikipedia.org/wiki/トヨタ・クラウン",
         "url_en": "https://en.wikipedia.org/wiki/Toyota_Crown",
         "note": "国産乗用の海外展開が本格化。",
@@ -5623,7 +5622,7 @@
           "CONTENT",
           "JAPAN"
         ],
-        "imp": 4,
+        "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/隠し砦の三悪人",
         "url_en": "https://en.wikipedia.org/wiki/The_Hidden_Fortress",
         "note": "スター・ウォーズにも影響を与えた冒険時代劇。",
@@ -5637,7 +5636,7 @@
           "CONTENT",
           "JAPAN"
         ],
-        "imp": 3,
+        "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/彼岸花_(1958年の映画)",
         "url_en": "https://en.wikipedia.org/wiki/Equinox_Flower",
         "note": "小津安二郎初のカラー作品。",
@@ -5652,7 +5651,7 @@
           "JAPAN",
           "WORLD"
         ],
-        "imp": 4,
+        "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/白蛇伝_(1958年の映画)",
         "url_en": "https://en.wikipedia.org/wiki/The_Tale_of_the_White_Serpent",
         "note": "日本初の長編カラーアニメ映画が公開。",
@@ -5666,7 +5665,7 @@
           "CONTENT",
           "WORLD"
         ],
-        "imp": 4,
+        "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/めまい",
         "url_en": "https://en.wikipedia.org/wiki/Vertigo",
         "note": "ヒッチコックの心理スリラー傑作。",
@@ -5680,7 +5679,7 @@
           "CONTENT",
           "WORLD"
         ],
-        "imp": 3,
+        "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/黒い罠",
         "url_en": "https://en.wikipedia.org/wiki/Touch_of_Evil",
         "note": "オーソン・ウェルズのフィルム・ノワール名作。",
@@ -5694,7 +5693,7 @@
           "CONTENT",
           "WORLD"
         ],
-        "imp": 3,
+        "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/恋の手ほどき",
         "url_en": "https://en.wikipedia.org/wiki/Gigi_(1958_film)",
         "note": "アカデミー作品賞を受賞したミュージカル。",
@@ -5709,7 +5708,7 @@
           "PRODUCT",
           "JAPAN"
         ],
-        "imp": 1,
+        "imp": 2,
         "url": "https://ja.wikipedia.org/wiki/富士フイルム",
         "url_en": "https://en.wikipedia.org/wiki/Fujifilm",
         "note": "カラーフィルムと現像網が拡大。",
@@ -5724,7 +5723,7 @@
           "COMPANY",
           "JAPAN"
         ],
-        "imp": 2,
+        "imp": 3,
         "url": "https://ja.wikipedia.org/wiki/ニコンF",
         "url_en": "https://en.wikipedia.org/wiki/Nikon_F",
         "note": "一眼レフの金字塔となる機種の準備が進む。",
@@ -5739,7 +5738,7 @@
           "WORLD",
           "COMPANY"
         ],
-        "imp": 2,
+        "imp": 3,
         "url": "https://ja.wikipedia.org/wiki/ステレオ録音",
         "url_en": "https://en.wikipedia.org/wiki/Stereophonic_sound",
         "note": "ステレオ録音の規格化・普及の機運が高まる。",
@@ -5754,7 +5753,7 @@
           "COMPANY",
           "WORLD"
         ],
-        "imp": 2,
+        "imp": 3,
         "url": "https://ja.wikipedia.org/wiki/IBM_7070",
         "url_en": "https://en.wikipedia.org/wiki/IBM_7070",
         "note": "事務処理向けシステムの整備が進む。",
@@ -5769,7 +5768,7 @@
           "PRODUCT",
           "WORLD"
         ],
-        "imp": 1,
+        "imp": 2,
         "url": "https://ja.wikipedia.org/wiki/フラフープ",
         "url_en": "https://en.wikipedia.org/wiki/Hula_hoop",
         "note": "世界的な玩具ブームに。",
@@ -5784,7 +5783,7 @@
           "PRODUCT",
           "JAPAN"
         ],
-        "imp": 2,
+        "imp": 3,
         "url": "https://ja.wikipedia.org/wiki/東海道新幹線",
         "url_en": "https://en.wikipedia.org/wiki/T%C5%8Dkaid%C5%8D_Shinkansen",
         "note": "高速鉄道構想が実施段階に近づく。",
@@ -5800,7 +5799,7 @@
           "COMPANY",
           "JAPAN"
         ],
-        "imp": 3,
+        "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/日本におけるテレビ放送史",
         "url_en": "https://en.wikipedia.org/wiki/Television_in_Japan",
         "note": "家庭へのテレビ普及が加速し視聴文化が形成。",
@@ -5815,7 +5814,7 @@
           "CONTENT",
           "JAPAN"
         ],
-        "imp": 1,
+        "imp": 2,
         "url": "https://ja.wikipedia.org/wiki/朝日新聞",
         "url_en": "https://en.wikipedia.org/wiki/Yomiuri_Shimbun",
         "note": "紙面拡充と発行部数の伸長が続く。",
@@ -5831,7 +5830,7 @@
           "EVENT",
           "WORLD"
         ],
-        "imp": 4,
+        "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/キューバ革命",
         "url_en": "https://en.wikipedia.org/wiki/Cuban_Revolution",
         "note": "カストロらの革命軍が勝利し体制転換。",
@@ -5845,7 +5844,7 @@
           "EVENT",
           "WORLD"
         ],
-        "imp": 4,
+        "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/南極条約",
         "url_en": "https://en.wikipedia.org/wiki/Antarctic_Treaty",
         "note": "南極を平和利用と科学協力の場とする枠組みが合意。",
@@ -5860,7 +5859,7 @@
           "PRODUCT",
           "WORLD"
         ],
-        "imp": 4,
+        "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/ルナ計画",
         "url_en": "https://en.wikipedia.org/wiki/Luna_programme",
         "note": "ソ連探査機が月に到達・衝突・裏側を初撮影。",
@@ -5875,7 +5874,7 @@
           "COMPANY",
           "WORLD"
         ],
-        "imp": 4,
+        "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/集積回路",
         "url_en": "https://en.wikipedia.org/wiki/Robert_Noyce",
         "note": "平面工程を用いたICの概念が成立し量産への道を開く。",
@@ -5890,7 +5889,7 @@
           "COMPANY",
           "WORLD"
         ],
-        "imp": 3,
+        "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/PDP-1",
         "url_en": "https://en.wikipedia.org/wiki/PDP-1",
         "note": "インタラクティブ計算の先駆となる小型計算機が発表。",
@@ -5905,7 +5904,7 @@
           "COMPANY",
           "WORLD"
         ],
-        "imp": 4,
+        "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/ゼロックス_914",
         "url_en": "https://en.wikipedia.org/wiki/Xerox_914",
         "note": "普通紙複写機が登場しオフィスの標準機に。",
@@ -5920,7 +5919,7 @@
           "COMPANY",
           "WORLD"
         ],
-        "imp": 4,
+        "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/バービー",
         "url_en": "https://en.wikipedia.org/wiki/Barbie",
         "note": "着せ替え人形バービーが登場し世界的ヒット。",
@@ -5935,7 +5934,7 @@
           "CONTENT",
           "WORLD"
         ],
-        "imp": 4,
+        "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/モータウン",
         "url_en": "https://en.wikipedia.org/wiki/Motown",
         "note": "デトロイトで創業。ソウル/ポップの黄金時代を牽引。",
@@ -5950,7 +5949,7 @@
           "JAPAN",
           "CONTENT"
         ],
-        "imp": 4,
+        "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/皇太子明仁親王の結婚の儀",
         "url_en": "https://en.wikipedia.org/wiki/Wedding_of_Akihito_and_Michiko",
         "note": "テレビ普及を加速させた国民的イベント。",
@@ -5965,7 +5964,7 @@
           "PRODUCT",
           "JAPAN"
         ],
-        "imp": 4,
+        "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/東海道新幹線",
         "url_en": "https://en.wikipedia.org/wiki/T%C5%8Dkaid%C5%8D_Shinkansen",
         "note": "高速鉄道の建設が正式に始まる。",
@@ -5980,7 +5979,7 @@
           "COMPANY",
           "JAPAN"
         ],
-        "imp": 3,
+        "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/ソニー#歴史",
         "url_en": "https://en.wikipedia.org/wiki/Sony#History",
         "note": "全トランジスタ式受像機の発売準備が進む。",
@@ -5995,7 +5994,7 @@
           "COMPANY",
           "JAPAN"
         ],
-        "imp": 4,
+        "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/ニコンF",
         "url_en": "https://en.wikipedia.org/wiki/Nikon_F",
         "note": "一眼レフの新基準を打ち立てた名機。",
@@ -6010,7 +6009,7 @@
           "COMPANY",
           "WORLD"
         ],
-        "imp": 4,
+        "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/ミニ_(自動車)",
         "url_en": "https://en.wikipedia.org/wiki/Mini",
         "note": "横置きFFの小型車が登場し設計史を刷新。",
@@ -6024,7 +6023,7 @@
           "PRODUCT",
           "WORLD"
         ],
-        "imp": 1,
+        "imp": 2,
         "url": "https://ja.wikipedia.org/wiki/プログラミング言語",
         "url_en": "https://en.wikipedia.org/wiki/History_of_programming_languages",
         "note": "ALGOL60前史として言語標準化の機運が高まる。",
@@ -6039,7 +6038,7 @@
           "WORLD",
           "COMPANY"
         ],
-        "imp": 4,
+        "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/COBOL",
         "url_en": "https://en.wikipedia.org/wiki/COBOL",
         "note": "事務処理向け言語COBOLの策定作業が始まる。",
@@ -6053,11 +6052,11 @@
           "CONTENT",
           "WORLD"
         ],
-        "imp": 4,
+        "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/ベン・ハー_(1959年の映画)",
         "url_en": "https://en.wikipedia.org/wiki/Ben-Hur_(1959_film)",
         "note": "大スケールの歴史劇。アカデミー記録的受賞。",
-        "note_en": "\"Epic historical drama: record Academy Award haul.\""
+        "note_en": "\"Epic historical drama"
       },
       {
         "label": "映画『お熱いのがお好き』公開",
@@ -6067,7 +6066,7 @@
           "CONTENT",
           "WORLD"
         ],
-        "imp": 4,
+        "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/お熱いのがお好き",
         "url_en": "https://en.wikipedia.org/wiki/Some_Like_It_Hot",
         "note": "ビリー・ワイルダーのコメディ名作。",
@@ -6081,7 +6080,7 @@
           "CONTENT",
           "JAPAN"
         ],
-        "imp": 3,
+        "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/浮草",
         "url_en": "https://en.wikipedia.org/wiki/Floating_Weeds",
         "note": "小津が自身の無声作をカラーでリメイク。",
@@ -6095,7 +6094,7 @@
           "CONTENT",
           "JAPAN"
         ],
-        "imp": 1,
+        "imp": 2,
         "url": "https://ja.wikipedia.org/wiki/日本映画",
         "url_en": "https://en.wikipedia.org/wiki/Cinema_of_Japan",
         "note": "ヌーヴェルヴァーグの胎動を示す作品群が登場。",
@@ -6110,7 +6109,7 @@
           "WORLD",
           "COMPANY"
         ],
-        "imp": 3,
+        "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/ステレオ録音",
         "url_en": "https://en.wikipedia.org/wiki/Stereophonic_sound",
         "note": "ステレオ録音が一般家庭に浸透し始める。",
@@ -6125,7 +6124,7 @@
           "PRODUCT",
           "JAPAN"
         ],
-        "imp": 1,
+        "imp": 2,
         "url": "https://ja.wikipedia.org/wiki/富士フイルム",
         "url_en": "https://en.wikipedia.org/wiki/Fujifilm",
         "note": "ラインアップと供給体制を拡充。",
@@ -6140,7 +6139,7 @@
           "PRODUCT",
           "JAPAN"
         ],
-        "imp": 1,
+        "imp": 2,
         "url": "https://ja.wikipedia.org/wiki/日立製作所",
         "url_en": "https://en.wikipedia.org/wiki/Hitachi",
         "note": "テレビ・ラジオ向けの部品量産が進む。",
@@ -6155,7 +6154,7 @@
           "COMPANY",
           "JAPAN"
         ],
-        "imp": 2,
+        "imp": 3,
         "url": "https://ja.wikipedia.org/wiki/三種の神器_(経済)",
         "url_en": "https://en.wikipedia.org/wiki/Major_appliance",
         "note": "冷蔵庫・洗濯機が家庭標準へ。",
@@ -6170,7 +6169,7 @@
           "CONTENT",
           "JAPAN"
         ],
-        "imp": 2,
+        "imp": 3,
         "url": "https://ja.wikipedia.org/wiki/日本の広告#テレビ広告",
         "url_en": "https://en.wikipedia.org/wiki/Advertising_in_Japan",
         "note": "スポンサー番組とCM枠が拡大。",
@@ -6185,7 +6184,7 @@
           "PRODUCT",
           "JAPAN"
         ],
-        "imp": 1,
+        "imp": 2,
         "url": "https://ja.wikipedia.org/wiki/本田技研工業#モータースポーツ",
         "url_en": "https://en.wikipedia.org/wiki/Honda_in_motorsport",
         "note": "マン島参戦へ向けた体制整備が進む。",
@@ -6214,7 +6213,7 @@
           "PRODUCT",
           "JAPAN"
         ],
-        "imp": 2,
+        "imp": 3,
         "url": "https://ja.wikipedia.org/wiki/新幹線#歴史",
         "url_en": "https://en.wikipedia.org/wiki/Shinkansen",
         "note": "高速運転に向けた技術設計が進む。",
@@ -6229,7 +6228,7 @@
           "COMPANY",
           "WORLD"
         ],
-        "imp": 2,
+        "imp": 3,
         "url": "https://ja.wikipedia.org/wiki/コンピュータ",
         "url_en": "https://en.wikipedia.org/wiki/Computer",
         "note": "民間企業と研究機関での導入が広がる。",
@@ -6246,11 +6245,11 @@
           "JAPAN",
           "WORLD"
         ],
-        "imp": 4,
+        "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/安保闘争",
         "url_en": "https://en.wikipedia.org/wiki/Anpo_protests",
         "note": "新安保条約に反対する大規模デモが全国で発生。岸内閣は退陣。",
-        "note_en": "\"Mass protests against the revised US–Japan treaty: PM Kishi resigned.\""
+        "note_en": "\"Mass protests against the revised US–Japan treaty"
       },
       {
         "label": "アフリカの年（17か国独立）",
@@ -6260,7 +6259,7 @@
           "EVENT",
           "WORLD"
         ],
-        "imp": 4,
+        "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/アフリカの年",
         "url_en": "https://en.wikipedia.org/wiki/Year_of_Africa",
         "note": "一挙に多数のアフリカ諸国が独立し国際秩序が変化。",
@@ -6275,7 +6274,7 @@
           "WORLD",
           "COMPANY"
         ],
-        "imp": 4,
+        "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/OPEC",
         "url_en": "https://en.wikipedia.org/wiki/OPEC",
         "note": "主要産油国が結集して原油政策の協調を図る。",
@@ -6289,7 +6288,7 @@
           "EVENT",
           "WORLD"
         ],
-        "imp": 3,
+        "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/U-2偵察機撃墜事件",
         "url_en": "https://en.wikipedia.org/wiki/1960_U-2_incident",
         "note": "米偵察機がソ連上空で撃墜され東西関係が悪化。",
@@ -6303,7 +6302,7 @@
           "EVENT",
           "WORLD"
         ],
-        "imp": 4,
+        "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/1960年アメリカ合衆国大統領選挙",
         "url_en": "https://en.wikipedia.org/wiki/1960_United_States_presidential_election",
         "note": "JFKが当選し若さと新政策を掲げる。テレビ討論が選挙を左右。",
@@ -6317,7 +6316,7 @@
           "PRODUCT",
           "WORLD"
         ],
-        "imp": 3,
+        "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/レーザー",
         "url_en": "https://en.wikipedia.org/wiki/Laser",
         "note": "レーザーの理論と実験が実用段階に到達。",
@@ -6331,7 +6330,7 @@
           "CONTENT",
           "JAPAN"
         ],
-        "imp": 3,
+        "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/日本映画",
         "url_en": "https://en.wikipedia.org/wiki/Cinema_of_Japan",
         "note": "黒澤・小津・今村らが多彩な作品を発表。",
@@ -6345,7 +6344,7 @@
           "CONTENT",
           "JAPAN"
         ],
-        "imp": 2,
+        "imp": 3,
         "url": "https://ja.wikipedia.org/wiki/用心棒",
         "url_en": "https://en.wikipedia.org/wiki/Yojimbo",
         "note": "黒澤の痛快時代劇が制作段階へ（1961公開）。",
@@ -6359,7 +6358,7 @@
           "CONTENT",
           "WORLD"
         ],
-        "imp": 4,
+        "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/サイコ_(映画)",
         "url_en": "https://en.wikipedia.org/wiki/Psycho_(1960_film)",
         "note": "ヒッチコックのサスペンス傑作。ホラーの文法を更新。",
@@ -6373,7 +6372,7 @@
           "CONTENT",
           "WORLD"
         ],
-        "imp": 3,
+        "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/荒野の七人",
         "url_en": "https://en.wikipedia.org/wiki/The_Magnificent_Seven",
         "note": "『七人の侍』の西部劇リメイクが公開。",
@@ -6388,7 +6387,7 @@
           "WORLD",
           "CONTENT"
         ],
-        "imp": 3,
+        "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/NTSC",
         "url_en": "https://en.wikipedia.org/wiki/Color_television",
         "note": "カラー番組と受像機の普及が進む。",
@@ -6403,7 +6402,7 @@
           "COMPANY",
           "JAPAN"
         ],
-        "imp": 4,
+        "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/ニコンF",
         "url_en": "https://en.wikipedia.org/wiki/Nikon_F",
         "note": "報道・プロ現場で標準機に。",
@@ -6418,7 +6417,7 @@
           "COMPANY",
           "JAPAN"
         ],
-        "imp": 2,
+        "imp": 3,
         "url": "https://ja.wikipedia.org/wiki/トヨタ・パブリカ",
         "url_en": "https://en.wikipedia.org/wiki/Toyota_Publica",
         "note": "国民車構想の小型車が企画段階から量産準備へ。",
@@ -6433,7 +6432,7 @@
           "COMPANY",
           "JAPAN"
         ],
-        "imp": 4,
+        "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/トランジスタテレビ",
         "url_en": "https://en.wikipedia.org/wiki/Transistor_television",
         "note": "全トランジスタ式受像機を発売し家電の小型化に弾み。",
@@ -6447,7 +6446,7 @@
           "EVENT",
           "WORLD"
         ],
-        "imp": 1,
+        "imp": 2,
         "url": "https://ja.wikipedia.org/wiki/ハングル",
         "url_en": "https://en.wikipedia.org/wiki/Korean_language#Orthography",
         "note": "表記体系の整備が進む。",
@@ -6476,7 +6475,7 @@
           "PRODUCT",
           "WORLD"
         ],
-        "imp": 3,
+        "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/集積回路",
         "url_en": "https://en.wikipedia.org/wiki/Integrated_circuit",
         "note": "キルビーとノイスのアプローチでICの実用化競争が激化。",
@@ -6491,7 +6490,7 @@
           "PRODUCT",
           "WORLD"
         ],
-        "imp": 2,
+        "imp": 3,
         "url": "https://ja.wikipedia.org/wiki/レゴ",
         "url_en": "https://en.wikipedia.org/wiki/Lego",
         "note": "基礎ブロックの規格で世界市場へ本格進出。",
@@ -6506,7 +6505,7 @@
           "PRODUCT",
           "JAPAN"
         ],
-        "imp": 2,
+        "imp": 3,
         "url": "https://ja.wikipedia.org/wiki/日本の自動車産業史",
         "url_en": "https://en.wikipedia.org/wiki/Automotive_industry_in_Japan",
         "note": "高速道路整備構想と大衆車で普及が加速。",
@@ -6520,7 +6519,7 @@
           "CONTENT",
           "WORLD"
         ],
-        "imp": 1,
+        "imp": 2,
         "url": "https://ja.wikipedia.org/wiki/1960年代",
         "url_en": "https://en.wikipedia.org/wiki/1960s",
         "note": "60年代の若者文化が台頭、のちのファッション変化へ。",
@@ -6535,7 +6534,7 @@
           "COMPANY",
           "WORLD"
         ],
-        "imp": 2,
+        "imp": 3,
         "url": "https://ja.wikipedia.org/wiki/ステレオ録音",
         "url_en": "https://en.wikipedia.org/wiki/Stereophonic_sound",
         "note": "家庭用再生機と盤が整いステレオ時代へ。",
@@ -6550,7 +6549,7 @@
           "COMPANY",
           "WORLD"
         ],
-        "imp": 2,
+        "imp": 3,
         "url": "https://ja.wikipedia.org/wiki/コンテナ輸送",
         "url_en": "https://en.wikipedia.org/wiki/Containerization",
         "note": "港湾・船会社での導入が拡大。",
@@ -6565,7 +6564,7 @@
           "COMPANY",
           "JAPAN"
         ],
-        "imp": 2,
+        "imp": 3,
         "url": "https://ja.wikipedia.org/wiki/東海道新幹線",
         "url_en": "https://en.wikipedia.org/wiki/T%C5%8Dkaid%C5%8D_Shinkansen",
         "note": "土木・車両の詳細設計が進む。",
@@ -6580,7 +6579,7 @@
           "CONTENT",
           "JAPAN"
         ],
-        "imp": 1,
+        "imp": 2,
         "url": "https://ja.wikipedia.org/wiki/日本におけるテレビ放送史",
         "url_en": "https://en.wikipedia.org/wiki/Television_in_Japan",
         "note": "カラーテレビの実験放送と制度整備が進む。",
@@ -6595,7 +6594,7 @@
           "CONTENT",
           "JAPAN"
         ],
-        "imp": 1,
+        "imp": 2,
         "url": "https://ja.wikipedia.org/wiki/理科教育",
         "url_en": "https://en.wikipedia.org/wiki/Education_in_Japan",
         "note": "科学技術立国を目指し理科教育が強化。",
@@ -6610,7 +6609,7 @@
           "COMPANY",
           "WORLD"
         ],
-        "imp": 4,
+        "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/IBM_1401",
         "url_en": "https://en.wikipedia.org/wiki/IBM_1401",
         "note": "事務処理用の傑作中型機が登場しオフィス電算化を牽引。",
@@ -6625,11 +6624,25 @@
           "WORLD",
           "COMPANY"
         ],
-        "imp": 1,
+        "imp": 2,
         "url": "https://ja.wikipedia.org/wiki/テレビドラマ",
         "url_en": "https://en.wikipedia.org/wiki/Television_program",
         "note": "ドラマや音楽番組が多様化し家庭娯楽が定着。",
         "note_en": "More diverse TV dramas and music shows entrenched home entertainment."
+      },
+      {
+        "label": "世界初のレーザー動作（メイマン）",
+        "label_en": "First working laser (Maiman)",
+        "startYear": 1960,
+        "genre": [
+          "PRODUCT",
+          "WORLD"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/レーザー#歴史",
+        "url_en": "https://en.wikipedia.org/wiki/Theodore_Maiman",
+        "note": "メイマンがルビーレーザーの発振に成功。",
+        "note_en": "Theodore Maiman achieved the first laser oscillation with ruby."
       }
     ],
     "1961": [
@@ -6641,7 +6654,7 @@
           "EVENT",
           "WORLD"
         ],
-        "imp": 4,
+        "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/ベルリンの壁",
         "url_en": "https://en.wikipedia.org/wiki/Berlin_Wall",
         "note": "東独が西ベルリンを遮断する壁を建設。冷戦の象徴。",
@@ -6656,7 +6669,7 @@
           "PRODUCT",
           "WORLD"
         ],
-        "imp": 4,
+        "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/ユーリイ・ガガーリン",
         "url_en": "https://en.wikipedia.org/wiki/Yuri_Gagarin",
         "note": "ボストーク1号で世界初の有人宇宙飛行に成功。",
@@ -6671,7 +6684,7 @@
           "PRODUCT",
           "WORLD"
         ],
-        "imp": 3,
+        "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/アラン・シェパード",
         "url_en": "https://en.wikipedia.org/wiki/Alan_Shepard",
         "note": "マーキュリー計画で米初の有人宇宙飛行を実施。",
@@ -6686,7 +6699,7 @@
           "WORLD",
           "PRODUCT"
         ],
-        "imp": 4,
+        "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/アポロ計画",
         "url_en": "https://en.wikipedia.org/wiki/Apollo_program",
         "note": "ケネディが月着陸目標を国民に提起。",
@@ -6700,7 +6713,7 @@
           "EVENT",
           "WORLD"
         ],
-        "imp": 3,
+        "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/ピッグス湾事件",
         "url_en": "https://en.wikipedia.org/wiki/Bay_of_Pigs_Invasion",
         "note": "米支援の反体制部隊が上陸作戦に失敗。",
@@ -6715,7 +6728,7 @@
           "WORLD",
           "COMPANY"
         ],
-        "imp": 4,
+        "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/経済協力開発機構",
         "url_en": "https://en.wikipedia.org/wiki/OECD",
         "note": "経済協力と開発を目的とする国際機構が発足。",
@@ -6729,7 +6742,7 @@
           "EVENT",
           "WORLD"
         ],
-        "imp": 3,
+        "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/非同盟運動",
         "url_en": "https://en.wikipedia.org/wiki/Non-Aligned_Movement",
         "note": "米ソ両陣営に属さない諸国が結集。",
@@ -6744,7 +6757,7 @@
           "WORLD",
           "COMPANY"
         ],
-        "imp": 3,
+        "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/世界食糧計画",
         "url_en": "https://en.wikipedia.org/wiki/World_Food_Programme",
         "note": "人道支援のための食糧援助機関が発足。",
@@ -6758,7 +6771,7 @@
           "CONTENT",
           "WORLD"
         ],
-        "imp": 3,
+        "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/ビートルズの歴史",
         "url_en": "https://en.wikipedia.org/wiki/The_Beatles_in_Hamburg",
         "note": "長時間演奏でバンドの基礎を固める。",
@@ -6772,7 +6785,7 @@
           "CONTENT",
           "WORLD"
         ],
-        "imp": 4,
+        "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/ウエスト・サイド物語_(映画)",
         "url_en": "https://en.wikipedia.org/wiki/West_Side_Story_(1961_film)",
         "note": "社会問題を取り込んだ革新的ミュージカル映画。",
@@ -6786,7 +6799,7 @@
           "CONTENT",
           "JAPAN"
         ],
-        "imp": 4,
+        "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/用心棒",
         "url_en": "https://en.wikipedia.org/wiki/Yojimbo",
         "note": "痛快な時代劇アクションで国際的ヒット。",
@@ -6801,7 +6814,7 @@
           "COMPANY",
           "WORLD"
         ],
-        "imp": 3,
+        "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/IBM_7030",
         "url_en": "https://en.wikipedia.org/wiki/IBM_7030_Stretch",
         "note": "超高速計算を目指した大型機の開発が進む。",
@@ -6816,7 +6829,7 @@
           "PRODUCT",
           "WORLD"
         ],
-        "imp": 3,
+        "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/デジタル・イクイップメント・コーポレーション",
         "url_en": "https://en.wikipedia.org/wiki/Digital_Equipment_Corporation",
         "note": "小型計算機市場の形成へ。",
@@ -6831,7 +6844,7 @@
           "PRODUCT",
           "WORLD"
         ],
-        "imp": 4,
+        "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/集積回路#歴史",
         "url_en": "https://en.wikipedia.org/wiki/Planar_process",
         "note": "プレーナ工程によるICの量産が始動。",
@@ -6846,7 +6859,7 @@
           "COMPANY",
           "JAPAN"
         ],
-        "imp": 3,
+        "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/トヨタ・パブリカ",
         "url_en": "https://en.wikipedia.org/wiki/Toyota_Publica",
         "note": "国民車構想の小型大衆車が発売。",
@@ -6861,7 +6874,7 @@
           "COMPANY",
           "JAPAN"
         ],
-        "imp": 3,
+        "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/マツダ・R360クーペ",
         "url_en": "https://en.wikipedia.org/wiki/Mazda_R360",
         "note": "軽自動車市場を拡大させた人気モデル。",
@@ -6876,7 +6889,7 @@
           "COMPANY",
           "JAPAN"
         ],
-        "imp": 2,
+        "imp": 3,
         "url": "https://ja.wikipedia.org/wiki/ソニー#歴史",
         "url_en": "https://en.wikipedia.org/wiki/Sony#History",
         "note": "携帯・小型化を進めた新製品群を展開。",
@@ -6892,7 +6905,7 @@
           "COMPANY",
           "JAPAN"
         ],
-        "imp": 1,
+        "imp": 2,
         "url": "https://ja.wikipedia.org/wiki/日本におけるテレビ放送史",
         "url_en": "https://en.wikipedia.org/wiki/Television_in_Japan",
         "note": "カラー規格導入に向けた試験放送が続く。",
@@ -6907,7 +6920,7 @@
           "WORLD",
           "PRODUCT"
         ],
-        "imp": 1,
+        "imp": 2,
         "url": "https://ja.wikipedia.org/wiki/ツァーリ・ボンバ",
         "url_en": "https://en.wikipedia.org/wiki/Tsar_Bomba",
         "note": "史上最大の核実験へ向け準備が進む。",
@@ -6921,7 +6934,7 @@
           "EVENT",
           "WORLD"
         ],
-        "imp": 3,
+        "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/ダグ・ハマーショルド",
         "url_en": "https://en.wikipedia.org/wiki/Dag_Hammarskj%C3%B6ld",
         "note": "コンゴ危機対応中の航空機事故で死亡。",
@@ -6935,7 +6948,7 @@
           "EVENT",
           "WORLD"
         ],
-        "imp": 1,
+        "imp": 2,
         "url": "https://ja.wikipedia.org/wiki/ローデシア",
         "url_en": "https://en.wikipedia.org/wiki/Rhodesia",
         "note": "英領アフリカ各地で民族運動が高揚。",
@@ -6950,7 +6963,7 @@
           "COMPANY",
           "WORLD"
         ],
-        "imp": 2,
+        "imp": 3,
         "url": "https://ja.wikipedia.org/wiki/ビデオテープレコーダ",
         "url_en": "https://en.wikipedia.org/wiki/Videotape",
         "note": "業務用VTRがTV制作現場で普及。",
@@ -6965,7 +6978,7 @@
           "COMPANY",
           "WORLD"
         ],
-        "imp": 2,
+        "imp": 3,
         "url": "https://ja.wikipedia.org/wiki/レコード",
         "url_en": "https://en.wikipedia.org/wiki/Gramophone_record",
         "note": "LPとシングル双方で市場が拡大。",
@@ -6980,7 +6993,7 @@
           "JAPAN",
           "COMPANY"
         ],
-        "imp": 1,
+        "imp": 2,
         "url": "https://ja.wikipedia.org/wiki/日活",
         "url_en": "https://en.wikipedia.org/wiki/Nikkatsu",
         "note": "スタジオ制で人気シリーズが定着。",
@@ -6995,7 +7008,7 @@
           "COMPANY",
           "JAPAN"
         ],
-        "imp": 3,
+        "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/東海道新幹線",
         "url_en": "https://en.wikipedia.org/wiki/T%C5%8Dkaid%C5%8D_Shinkansen",
         "note": "路盤・橋梁・トンネルなどの本格工事が進む。",
@@ -7010,7 +7023,7 @@
           "COMPANY",
           "JAPAN"
         ],
-        "imp": 2,
+        "imp": 3,
         "url": "https://ja.wikipedia.org/wiki/三種の神器_(経済)",
         "url_en": "https://en.wikipedia.org/wiki/Three_Sacred_Treasures_(economics)",
         "note": "冷蔵庫・洗濯機・テレビの普及が進み家事が省力化。",
@@ -7025,7 +7038,7 @@
           "JAPAN",
           "WORLD"
         ],
-        "imp": 4,
+        "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/日本の高度経済成長",
         "url_en": "https://en.wikipedia.org/wiki/Japanese_economic_miracle",
         "note": "輸出拡大と設備投資で高成長が本格化。",
@@ -7044,6 +7057,20 @@
         "label_en": "Film: The End of Summer (Ozu)",
         "url_en": "https://en.wikipedia.org/wiki/The_End_of_Summer",
         "note_en": "One of Ozu’s late‑period masterpieces."
+      },
+      {
+        "label": "映画『人間の証明』? → 小津『小早川家の秋』",
+        "label_en": "Film: The End of Summer (Ozu)",
+        "startYear": 1961,
+        "genre": [
+          "CONTENT",
+          "JAPAN"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/小早川家の秋",
+        "url_en": "https://en.wikipedia.org/wiki/The_End_of_Summer",
+        "note": "小津の後期代表作の一つ。",
+        "note_en": "One of Ozu’s late‑period masterpieces."
       }
     ],
     "1962": [
@@ -7055,11 +7082,11 @@
           "EVENT",
           "WORLD"
         ],
-        "imp": 4,
+        "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/キューバ危機",
         "url_en": "https://en.wikipedia.org/wiki/Cuban_Missile_Crisis",
         "note": "米ソが核戦争の瀬戸際まで対立。ケネディとフルシチョフが危機管理で回避。",
-        "note_en": "\"US and USSR faced off on the brink of nuclear war: resolved via tense diplomacy.\""
+        "note_en": "\"US and USSR faced off on the brink of nuclear war"
       },
       {
         "label": "アルジェリア独立",
@@ -7069,7 +7096,7 @@
           "EVENT",
           "WORLD"
         ],
-        "imp": 4,
+        "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/アルジェリアの歴史#独立",
         "url_en": "https://en.wikipedia.org/wiki/Algerian_War#Independence",
         "note": "エビアン協定などを経てフランスから独立。",
@@ -7083,7 +7110,7 @@
           "EVENT",
           "WORLD"
         ],
-        "imp": 3,
+        "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/ジャマイカ",
         "url_en": "https://en.wikipedia.org/wiki/Jamaica#Independence",
         "note": "カリブの英領から独立国家が誕生。",
@@ -7098,7 +7125,7 @@
           "PRODUCT",
           "WORLD"
         ],
-        "imp": 4,
+        "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/テレスター1号",
         "url_en": "https://en.wikipedia.org/wiki/Telstar_1",
         "note": "衛星中継によるテレビ・電話の大西洋横断が実現。",
@@ -7113,7 +7140,7 @@
           "COMPANY",
           "WORLD"
         ],
-        "imp": 4,
+        "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/DARPA#IPTO",
         "url_en": "https://en.wikipedia.org/wiki/Information_Processing_Techniques_Office",
         "note": "ネットワーク研究やタイムシェアリングを推進。のちのインターネットに直結。",
@@ -7127,7 +7154,7 @@
           "PRODUCT",
           "WORLD"
         ],
-        "imp": 4,
+        "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/発光ダイオード#歴史",
         "url_en": "https://en.wikipedia.org/wiki/Light-emitting_diode#History",
         "note": "赤色LEDが実証され半導体発光の応用が始まる。",
@@ -7142,7 +7169,7 @@
           "PRODUCT",
           "WORLD"
         ],
-        "imp": 4,
+        "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/Spacewar!",
         "url_en": "https://en.wikipedia.org/wiki/Spacewar!",
         "note": "MITで動作した黎明期の対戦ビデオゲーム。",
@@ -7157,7 +7184,7 @@
           "COMPANY",
           "WORLD"
         ],
-        "imp": 2,
+        "imp": 3,
         "url": "https://ja.wikipedia.org/wiki/プッシュボタン式電話機",
         "url_en": "https://en.wikipedia.org/wiki/Push-button_telephone",
         "note": "プッシュボタン電話の実用化に向けた開発が進む。",
@@ -7172,7 +7199,7 @@
           "WORLD",
           "COMPANY"
         ],
-        "imp": 4,
+        "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/ラヴ・ミー・ドゥ",
         "url_en": "https://en.wikipedia.org/wiki/Love_Me_Do",
         "note": "ビートルズのデビュー・シングルが発売。",
@@ -7186,11 +7213,11 @@
           "CONTENT",
           "WORLD"
         ],
-        "imp": 3,
+        "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/ローリング・ストーンズ",
         "url_en": "https://en.wikipedia.org/wiki/The_Rolling_Stones",
         "note": "ロンドンで結成。のちにロックを象徴するバンドへ。",
-        "note_en": "\"Formed in London: became an iconic rock band.\""
+        "note_en": "\"Formed in London"
       },
       {
         "label": "スパイダーマン初登場",
@@ -7201,7 +7228,7 @@
           "WORLD",
           "COMPANY"
         ],
-        "imp": 4,
+        "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/スパイダーマン",
         "url_en": "https://en.wikipedia.org/wiki/Spider-Man",
         "note": "マーベルの人気ヒーローが『Amazing Fantasy #15』で登場。",
@@ -7215,7 +7242,7 @@
           "CONTENT",
           "WORLD"
         ],
-        "imp": 4,
+        "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/アラビアのロレンス",
         "url_en": "https://en.wikipedia.org/wiki/Lawrence_of_Arabia",
         "note": "デヴィッド・リーンの大作。雄大な砂漠映像で高評価。",
@@ -7229,7 +7256,7 @@
           "CONTENT",
           "WORLD"
         ],
-        "imp": 4,
+        "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/アラバマ物語",
         "url_en": "https://en.wikipedia.org/wiki/To_Kill_a_Mockingbird_(film)",
         "note": "人種偏見を描く文学原作の名作。",
@@ -7243,11 +7270,11 @@
           "CONTENT",
           "WORLD"
         ],
-        "imp": 4,
+        "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/ドクター・ノオ",
         "url_en": "https://en.wikipedia.org/wiki/Dr._No",
         "note": "007シリーズ第1作。スパイ映画の金字塔。",
-        "note_en": "\"First James Bond film: a landmark in spy cinema.\""
+        "note_en": "\"First James Bond film"
       },
       {
         "label": "小津『秋刀魚の味』",
@@ -7257,7 +7284,7 @@
           "CONTENT",
           "JAPAN"
         ],
-        "imp": 4,
+        "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/秋刀魚の味",
         "url_en": "https://en.wikipedia.org/wiki/An_Autumn_Afternoon",
         "note": "小津安二郎の遺作。家族の別れを静かに描く。",
@@ -7271,7 +7298,7 @@
           "CONTENT",
           "JAPAN"
         ],
-        "imp": 4,
+        "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/椿三十郎",
         "url_en": "https://en.wikipedia.org/wiki/Sanjuro",
         "note": "痛快時代劇。『用心棒』の続編的作品。",
@@ -7285,7 +7312,7 @@
           "CONTENT",
           "JAPAN"
         ],
-        "imp": 2,
+        "imp": 3,
         "url": "https://ja.wikipedia.org/wiki/市川崑",
         "url_en": "https://en.wikipedia.org/wiki/Kon_Ichikawa",
         "note": "生活派の秀作が話題に。",
@@ -7300,7 +7327,7 @@
           "PRODUCT",
           "JAPAN"
         ],
-        "imp": 3,
+        "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/東海道新幹線#建設",
         "url_en": "https://en.wikipedia.org/wiki/T%C5%8Dkaid%C5%8D_Shinkansen",
         "note": "土木工事が最盛期に入り開業準備が進む。",
@@ -7315,7 +7342,7 @@
           "PRODUCT",
           "JAPAN"
         ],
-        "imp": 3,
+        "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/首都高速道路",
         "url_en": "https://en.wikipedia.org/wiki/Shuto_Expressway",
         "note": "東京の都市高速の一部区間が開通。",
@@ -7330,7 +7357,7 @@
           "PRODUCT",
           "JAPAN"
         ],
-        "imp": 2,
+        "imp": 3,
         "url": "https://ja.wikipedia.org/wiki/ソニー#歴史",
         "url_en": "https://en.wikipedia.org/wiki/Sony#History",
         "note": "小型・軽量の家電製品で市場を広げる。",
@@ -7360,7 +7387,7 @@
           "PRODUCT",
           "JAPAN"
         ],
-        "imp": 1,
+        "imp": 2,
         "url": "https://ja.wikipedia.org/wiki/富士フイルム",
         "url_en": "https://en.wikipedia.org/wiki/Fujifilm",
         "note": "一般家庭向けのカラー写真普及を推進。",
@@ -7375,7 +7402,7 @@
           "CONTENT",
           "JAPAN"
         ],
-        "imp": 2,
+        "imp": 3,
         "url": "https://ja.wikipedia.org/wiki/東映アニメーション",
         "url_en": "https://en.wikipedia.org/wiki/Toei_Animation",
         "note": "TVアニメ時代に向けて制作体制を強化。",
@@ -7390,7 +7417,7 @@
           "COMPANY",
           "WORLD"
         ],
-        "imp": 3,
+        "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/IBM_7090",
         "url_en": "https://en.wikipedia.org/wiki/IBM_7090",
         "note": "トランジスタ大型機が科学・航空宇宙で活躍。",
@@ -7405,7 +7432,7 @@
           "WORLD",
           "COMPANY"
         ],
-        "imp": 3,
+        "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/ジェット旅客機",
         "url_en": "https://en.wikipedia.org/wiki/Jet_airliner",
         "note": "国際路線でジェット化が進む。",
@@ -7433,7 +7460,7 @@
           "CONTENT",
           "WORLD"
         ],
-        "imp": 1,
+        "imp": 2,
         "url": "https://ja.wikipedia.org/wiki/ブリティッシュ・インヴェイジョン",
         "url_en": "https://en.wikipedia.org/wiki/British_Invasion",
         "note": "英米の若者文化が60年代中盤の波に向かう。",
@@ -7449,7 +7476,7 @@
           "EVENT",
           "WORLD"
         ],
-        "imp": 4,
+        "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/ジョン・F・ケネディ暗殺",
         "url_en": "https://en.wikipedia.org/wiki/Assassination_of_John_F._Kennedy",
         "note": "テキサス州ダラスで暗殺され世界に衝撃。",
@@ -7463,7 +7490,7 @@
           "EVENT",
           "WORLD"
         ],
-        "imp": 4,
+        "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/部分的核実験禁止条約",
         "url_en": "https://en.wikipedia.org/wiki/Partial_Test_Ban_Treaty",
         "note": "大気圏・宇宙空間・水中での核実験を禁止。",
@@ -7478,7 +7505,7 @@
           "WORLD",
           "CONTENT"
         ],
-        "imp": 4,
+        "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/ワシントン大行進",
         "url_en": "https://en.wikipedia.org/wiki/March_on_Washington_for_Jobs_and_Freedom",
         "note": "公民権運動の象徴的集会で「I Have a Dream」。",
@@ -7493,7 +7520,7 @@
           "PRODUCT",
           "WORLD"
         ],
-        "imp": 4,
+        "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/ワレンチナ・テレシコワ",
         "url_en": "https://en.wikipedia.org/wiki/Valentina_Tereshkova",
         "note": "ボストーク6号で女性初の宇宙飛行を達成。",
@@ -7507,11 +7534,11 @@
           "EVENT",
           "WORLD"
         ],
-        "imp": 3,
+        "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/ケニアの歴史#独立",
         "url_en": "https://en.wikipedia.org/wiki/History_of_Kenya#Independence",
         "note": "英国から独立しジョモ・ケニヤッタが首相に。",
-        "note_en": "\"Secured independence from the UK: Jomo Kenyatta became PM.\""
+        "note_en": "\"Secured independence from the UK"
       },
       {
         "label": "欧州宇宙研究機関（ESRO前史）/ELDO発足",
@@ -7522,7 +7549,7 @@
           "WORLD",
           "COMPANY"
         ],
-        "imp": 2,
+        "imp": 3,
         "url": "https://ja.wikipedia.org/wiki/欧州ロケット開発機構",
         "url_en": "https://en.wikipedia.org/wiki/ELDO",
         "note": "欧州の宇宙協力体制が形成される。のちのESAへ。",
@@ -7537,7 +7564,7 @@
           "WORLD",
           "PRODUCT"
         ],
-        "imp": 2,
+        "imp": 3,
         "url": "https://ja.wikipedia.org/wiki/郵便番号#アメリカ合衆国",
         "url_en": "https://en.wikipedia.org/wiki/ZIP_Code",
         "note": "郵便番号が導入され郵便の自動化が進む。",
@@ -7567,7 +7594,7 @@
           "COMPANY",
           "WORLD"
         ],
-        "imp": 3,
+        "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/プッシュボタン式電話機",
         "url_en": "https://en.wikipedia.org/wiki/Push-button_telephone",
         "note": "米AT&Tがプッシュボタン通話のサービスを開始。",
@@ -7597,7 +7624,7 @@
           "CONTENT",
           "JAPAN"
         ],
-        "imp": 2,
+        "imp": 3,
         "url": "https://ja.wikipedia.org/wiki/NHK総合テレビジョン",
         "url_en": "https://en.wikipedia.org/wiki/Television_in_Japan#Color_broadcasting",
         "note": "カラーテレビ本格化に向けた編成が進む。",
@@ -7612,7 +7639,7 @@
           "COMPANY",
           "JAPAN"
         ],
-        "imp": 4,
+        "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/本田技研工業#四輪事業",
         "url_en": "https://en.wikipedia.org/wiki/Honda_S500",
         "note": "軽トラックT360とスポーツS500で四輪事業を開始。",
@@ -7627,7 +7654,7 @@
           "PRODUCT",
           "JAPAN"
         ],
-        "imp": 2,
+        "imp": 3,
         "url": "https://ja.wikipedia.org/wiki/トヨタ・パブリカ",
         "url_en": "https://en.wikipedia.org/wiki/Toyota_Corona",
         "note": "大衆車・中型車の普及が進む。",
@@ -7642,7 +7669,7 @@
           "PRODUCT",
           "JAPAN"
         ],
-        "imp": 2,
+        "imp": 3,
         "url": "https://ja.wikipedia.org/wiki/ソニー#歴史",
         "url_en": "https://en.wikipedia.org/wiki/Sony#History",
         "note": "カセット前史の録音機や小型テレビを拡充。",
@@ -7657,7 +7684,7 @@
           "COMPANY",
           "WORLD"
         ],
-        "imp": 2,
+        "imp": 3,
         "url": "https://ja.wikipedia.org/wiki/IBM_System/360",
         "url_en": "https://en.wikipedia.org/wiki/IBM_System/360",
         "note": "互換性重視の新アーキテクチャ設計が固まる（翌年発表）。",
@@ -7672,7 +7699,7 @@
           "WORLD",
           "COMPANY"
         ],
-        "imp": 3,
+        "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/タイムシェアリング",
         "url_en": "https://en.wikipedia.org/wiki/Time-sharing",
         "note": "大学・企業で端末共有計算が普及し始める。",
@@ -7700,7 +7727,7 @@
           "CONTENT",
           "WORLD"
         ],
-        "imp": 4,
+        "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/大脱走",
         "url_en": "https://en.wikipedia.org/wiki/The_Great_Escape_(film)",
         "note": "第二次大戦の脱走劇を描く名作アクション。",
@@ -7714,7 +7741,7 @@
           "CONTENT",
           "WORLD"
         ],
-        "imp": 3,
+        "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/クレオパトラ_(1963年の映画)",
         "url_en": "https://en.wikipedia.org/wiki/Cleopatra_(1963_film)",
         "note": "超大作として話題と論争を呼ぶ。",
@@ -7728,7 +7755,7 @@
           "CONTENT",
           "JAPAN"
         ],
-        "imp": 4,
+        "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/天国と地獄",
         "url_en": "https://en.wikipedia.org/wiki/High_and_Low_(1963_film)",
         "note": "犯罪と倫理を描く社会派サスペンス。",
@@ -7743,7 +7770,7 @@
           "CONTENT",
           "JAPAN"
         ],
-        "imp": 3,
+        "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/小津安二郎",
         "url_en": "https://en.wikipedia.org/wiki/Yasujir%C5%8D_Ozu",
         "note": "日本映画の巨匠が亡くなる。",
@@ -7758,7 +7785,7 @@
           "CONTENT",
           "JAPAN"
         ],
-        "imp": 3,
+        "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/日本のアニメ史",
         "url_en": "https://en.wikipedia.org/wiki/History_of_anime",
         "note": "週刊連続放送に対応した分業体制が整う。",
@@ -7788,7 +7815,7 @@
           "PRODUCT",
           "JAPAN"
         ],
-        "imp": 2,
+        "imp": 3,
         "url": "https://ja.wikipedia.org/wiki/首都高速道路",
         "url_en": "https://en.wikipedia.org/wiki/Shuto_Expressway",
         "note": "東京の都市高速が延伸し64年五輪に備える。",
@@ -7803,7 +7830,7 @@
           "COMPANY",
           "JAPAN"
         ],
-        "imp": 2,
+        "imp": 3,
         "url": "https://ja.wikipedia.org/wiki/東海道新幹線#建設",
         "url_en": "https://en.wikipedia.org/wiki/T%C5%8Dkaid%C5%8D_Shinkansen",
         "note": "試験走行に向けた最終工程が進む。",
@@ -7817,7 +7844,7 @@
           "EVENT",
           "JAPAN"
         ],
-        "imp": 3,
+        "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/三井三池三川炭鉱炭じん爆発",
         "url_en": "https://en.wikipedia.org/wiki/Miike_coal_mine_explosion",
         "note": "大規模爆発事故で多数の死傷者。産業安全の課題に。",
@@ -7847,7 +7874,7 @@
           "WORLD",
           "COMPANY"
         ],
-        "imp": 2,
+        "imp": 3,
         "url": "https://ja.wikipedia.org/wiki/コンパクトカセット",
         "url_en": "https://en.wikipedia.org/wiki/Compact_Cassette",
         "note": "各社が規格対応機の開発を進める。",
