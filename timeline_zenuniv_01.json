@@ -73,7 +73,7 @@
     ],
     "1977": [
       {
-        "label": "Apple II",
+        "label": "アップルII",
         "startYear": 1977,
         "endYear": 1984,
         "genre": [
@@ -87,7 +87,7 @@
         "url_en": "https://ja.wikipedia.org/wiki/Apple_II"
       },
       {
-        "label": "アップルII",
+        "label": "Apple II",
         "startYear": 1977,
         "endYear": 1984,
         "genre": [
@@ -107,8 +107,7 @@
         "startYear": 1981,
         "endYear": 1989,
         "genre": [
-          "ERA",
-          "WORK"
+          "ERA"
         ],
         "imp": 1,
         "note": "•Ronald Reagan期の新自由主義、政府不信、反官僚主義。\n•カウンターカルチャーがリバタリアンに変質。\n　「権力からの自由」→「国家からの自由」→「市場の自由」。\n•Apple、Atari、Homebrew Computer Clubが象徴。\n\n転回の本質：自由が倫理ではなく効率になった。",
@@ -119,7 +118,8 @@
         "startYear": 1981,
         "endYear": 1989,
         "genre": [
-          "ERA"
+          "ERA",
+          "WORK"
         ],
         "imp": 1,
         "note": "•Ronald Reagan期の新自由主義、政府不信、反官僚主義。\n•カウンターカルチャーがリバタリアンに変質。\n　「権力からの自由」→「国家からの自由」→「市場の自由」。\n•Apple、Atari、Homebrew Computer Clubが象徴。\n\n転回の本質：自由が倫理ではなく効率になった。",
@@ -144,8 +144,7 @@
         "label": "Out of Control",
         "startYear": 1991,
         "genre": [
-          "BOOK",
-          "WORK"
+          "BOOK"
         ],
         "imp": 4,
         "url": "https://en.wikipedia.org/wiki/Out_of_Control_(Kelly_book)",
@@ -157,7 +156,8 @@
         "label": "Out of Control",
         "startYear": 1991,
         "genre": [
-          "BOOK"
+          "BOOK",
+          "WORK"
         ],
         "imp": 4,
         "url": "https://en.wikipedia.org/wiki/Out_of_Control_(Kelly_book)",
@@ -171,8 +171,7 @@
         "label": "The Virtual Community",
         "startYear": 1993,
         "genre": [
-          "BOOK",
-          "WORK"
+          "BOOK"
         ],
         "imp": 4,
         "url": "https://en.wikipedia.org/wiki/The_Virtual_Community",
@@ -184,7 +183,8 @@
         "label": "The Virtual Community",
         "startYear": 1993,
         "genre": [
-          "BOOK"
+          "BOOK",
+          "WORK"
         ],
         "imp": 4,
         "url": "https://en.wikipedia.org/wiki/The_Virtual_Community",
@@ -199,23 +199,23 @@
         "startYear": 2000,
         "endYear": 2009,
         "genre": [
-          "ERA"
-        ],
-        "imp": 1,
-        "note": "•**PayPal Mafia（Thiel, Musk, etc.）**が出現。\n•リバタリアン思想と“選民”意識が融合。\n•テック成功者が「社会を超えて未来を指導する存在」に。\n•福音派的構造（選ばれし者／終末への備え／再創造の使命）が、\n　起業家倫理と一体化。\n\n転回の本質：自由が信仰に、成功が恩寵に。",
-        "label_en": "2000s \"Entrepreneur = Prophet\""
-      },
-      {
-        "label": "2000年代　「起業家＝預言者」",
-        "startYear": 2000,
-        "endYear": 2009,
-        "genre": [
           "ERA",
           "WORK"
         ],
         "imp": 1,
         "note": "•**PayPal Mafia（Thiel, Musk, etc.）**が出現。\n•リバタリアン思想と“選民”意識が融合。\n•テック成功者が「社会を超えて未来を指導する存在」に。\n•福音派的構造（選ばれし者／終末への備え／再創造の使命）が、\n　起業家倫理と一体化。\n\n転回の本質：自由が信仰に、成功が恩寵に。",
         "label_en": "2000s"
+      },
+      {
+        "label": "2000年代　「起業家＝預言者」",
+        "startYear": 2000,
+        "endYear": 2009,
+        "genre": [
+          "ERA"
+        ],
+        "imp": 1,
+        "note": "•**PayPal Mafia（Thiel, Musk, etc.）**が出現。\n•リバタリアン思想と“選民”意識が融合。\n•テック成功者が「社会を超えて未来を指導する存在」に。\n•福音派的構造（選ばれし者／終末への備え／再創造の使命）が、\n　起業家倫理と一体化。\n\n転回の本質：自由が信仰に、成功が恩寵に。",
+        "label_en": "2000s \"Entrepreneur = Prophet\""
       }
     ]
   },
