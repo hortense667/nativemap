@@ -449,6 +449,28 @@
         "url_en": "https://en.wikipedia.org/wiki/LaserDisc",
         "note": "光学式ビデオディスクの先駆。",
         "note_en": "An early optical video disc format."
+      },
+      {
+        "label": "HP-01",
+        "startYear": 1978,
+        "genre": [
+          "MOBILE"
+        ],
+        "imp": 4,
+        "url": "https://en.wikipedia.org/wiki/HP-01",
+        "note": "HPのLED表示の電卓時計。",
+        "label_en": "HP-01",
+        "url_en": "https://en.wikipedia.org/wiki/HP-01"
+      },
+      {
+        "label": "ベーシックマスターMB-6880",
+        "startYear": 1978,
+        "genre": [
+          "COMPUTER"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/%E3%83%99%E3%83%BC%E3%82%B7%E3%83%83%E3%82%AF%E3%83%9E%E3%82%B9%E3%82%BF%E3%83%BC",
+        "label_en": "MASIC MASTER MB-6880"
       }
     ],
     "1979": [
@@ -684,6 +706,17 @@
         "url_en": "https://en.wikipedia.org/wiki/Armatron",
         "note": "機械式アームを手元レバーで操作する玩具。",
         "note_en": "A mechanically geared toy robotic arm controlled by levers."
+      },
+      {
+        "label": "テレビウォッチ",
+        "startYear": 1982,
+        "genre": [
+          "WEARABLE",
+          "JAPAN"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/%E3%83%86%E3%83%AC%E3%83%93%E3%82%A6%E3%82%AA%E3%83%83%E3%83%81",
+        "note": "世界初のテレビ付き腕時計"
       }
     ],
     "1983": [
