@@ -33,13 +33,14 @@
   "events": {
     "1956": [
       {
-        "label": "hortense",
+        "label": "hortenseです。",
         "startYear": 1956,
         "genre": [
           "ORG/COMP",
           "WORK"
         ],
-        "imp": 5
+        "imp": 5,
+        "label_en": "だよーん。"
       }
     ],
     "1960": [
