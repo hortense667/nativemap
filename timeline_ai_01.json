@@ -69,7 +69,6 @@
         "note": "形式ニューロンで論理計算を示し神経計算の礎を築いた。"
       }
     ],
-    "1948": [],
     "1949": [
       {
         "label": "情報理論",
@@ -85,21 +84,19 @@
         "url_en": "https://en.wikipedia.org/wiki/Information_theory"
       }
     ],
-    "1950": [],
-    "1951": [],
     "1952": [
       {
-        "label": "チューリングパターン（反応拡散）",
-        "label_en": "Turing patterns (reaction?diffusion)",
+        "label": "チューリングパターン（反応拡散）もはやこれだろー。",
         "startYear": 1952,
         "genre": [
-          "P_GENERATIVE",
-          "THEORY"
+          "THEORY",
+          "P_GENERATIVE"
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/反応拡散系",
-        "url_en": "https://en.wikipedia.org/wiki/Turing_pattern",
-        "note": "形態形成の数理。自己組織化・パターン生成の理論的根拠。"
+        "note": "形態形成の数理。自己組織化・パターン生成の理論的根拠。",
+        "label_en": "Turing patterns (reaction?diffusion)",
+        "url_en": "https://en.wikipedia.org/wiki/Turing_pattern"
       }
     ],
     "1954": [
