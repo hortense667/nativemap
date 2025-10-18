@@ -208,8 +208,8 @@
   "genres": [
     {
       "code": "BOOK",
-      "label": "書籍",
-      "label_en": "Books",
+      "label": "書籍/雑誌",
+      "label_en": "Books?Magazines",
       "conjunction": false
     },
     {
