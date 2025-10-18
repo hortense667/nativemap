@@ -1,5 +1,4 @@
 {
-  "schemaVersion": 1,
   "metadata": {
     "title": {
       "ja": "ZEN大学叢書 0.1",
@@ -32,16 +31,29 @@
     "notes": "Updates from contributors are welcome. Please do not create separate versions. When reusing data, credit the original authors."
   },
   "events": {
+    "1968": [
+      {
+        "label": "ホールアースカタログ",
+        "startYear": 1968,
+        "genre": [
+          "BOOK"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/%E5%85%A8%E5%9C%B0%E7%90%83%E3%82%AB%E3%82%BF%E3%83%AD%E3%82%B0",
+        "label_en": "Whole Earth Catalog",
+        "url_en": "https://en.wikipedia.org/wiki/Whole_Earth_Catalog"
+      }
+    ]
   },
   "eraSettings": [
-     {
+    {
       "name": "3. 転回②：1990年代　「ネット＝新しい教会」",
       "startYear": 1990,
       "endYear": 1999,
       "color": "#4169E1",
       "opacity": "0.3",
       "enabled": true,
-      "fillEnabled": false
+      "fillEnabled": true
     },
     {
       "name": "1. 出発：1960s–70s　「意識の拡張」",
@@ -59,7 +71,7 @@
       "color": "#4169E1",
       "opacity": "0.3",
       "enabled": true,
-      "fillEnabled": false
+      "fillEnabled": true
     },
     {
       "name": "4. 転回③：2000年代　「起業家＝預言者」",
@@ -68,15 +80,16 @@
       "color": "#FFD700",
       "opacity": "0.3",
       "enabled": true,
-      "fillEnabled": false
-    },    {
+      "fillEnabled": true
+    },
+    {
       "name": "5. 極点：2010s–2020s　「テクノ・メシアの出現」",
-      "startYear": 1960,
-      "endYear": 1979,
+      "startYear": 2010,
+      "endYear": 2019,
       "color": "#DC143C",
       "opacity": "0.5",
       "enabled": true,
-      "fillEnabled": false
+      "fillEnabled": true
     }
   ],
   "genres": [
