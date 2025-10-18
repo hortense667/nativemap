@@ -31,6 +31,16 @@
     "notes": "Updates from contributors are welcome. Please do not create separate versions. When reusing data, credit the original authors."
   },
   "events": {
+    "1956": [
+      {
+        "label": "hortense",
+        "startYear": 1956,
+        "genre": [
+          "ORG/COMP"
+        ],
+        "imp": 5
+      }
+    ],
     "1960": [
       {
         "label": "1960s–70s　「意識の拡張」",
