@@ -252,6 +252,21 @@
         "note_en": "Research system pioneering GUI, mouse, and WYSIWYG."
       }
     ],
+    "1974": [
+      {
+        "label": "Altair 8800",
+        "startYear": 1974,
+        "genre": [
+          "COMPUTER"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/Altair_8800",
+        "note": "自作キットで普及した初期パソコンの象徴。",
+        "label_en": "Altair 8800",
+        "url_en": "https://en.wikipedia.org/wiki/Altair_8800",
+        "note_en": "Seminal kit microcomputer that sparked the home PC revolution."
+      }
+    ],
     "1975": [
       {
         "label": "Utah teapot",
@@ -265,19 +280,6 @@
         "url_en": "https://en.wikipedia.org/wiki/Utah_teapot",
         "note": "CG研究で標準的に使われた3Dモデル。",
         "note_en": "A standard 3D test model in computer graphics."
-      },
-      {
-        "label": "Altair 8800",
-        "label_en": "Altair 8800",
-        "startYear": 1975,
-        "genre": [
-          "COMPUTER"
-        ],
-        "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/Altair_8800",
-        "url_en": "https://en.wikipedia.org/wiki/Altair_8800",
-        "note": "自作キットで普及した初期パソコンの象徴。",
-        "note_en": "Seminal kit microcomputer that sparked the home PC revolution."
       },
       {
         "label": "IMSAI 8080",
@@ -404,19 +406,6 @@
         "url_en": "https://en.wikipedia.org/wiki/Atari_2600",
         "note": "ROMカートリッジ式家庭用ゲームの代表。",
         "note_en": "Landmark cartridge-based home video game console."
-      },
-      {
-        "label": "VAX-11/780",
-        "label_en": "VAX-11/780",
-        "startYear": 1977,
-        "genre": [
-          "COMPUTER"
-        ],
-        "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/VAX",
-        "url_en": "https://en.wikipedia.org/wiki/VAX",
-        "note": "DECの32ビットミニコンVAXシリーズ代表機。",
-        "note_en": "A representative 32-bit minicomputer of DEC’s VAX line."
       },
       {
         "label": "Polaroid 1000",
