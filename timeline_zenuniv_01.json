@@ -43,6 +43,17 @@
         "imp": 1,
         "note": "•背景：冷戦・ベトナム反戦・カウンターカルチャー。\n•Stewart Brand『Whole Earth Catalog』（1968）\n　→ “Tools for Human Freedom.”　テクノロジーは自己解放の道具。\n•科学・自然・瞑想・LSD・コンピュータが同じ文脈で語られた。\n\n軸：個人の覚醒（inner revolution）\n→ 世界を変える前に意識を変える。",
         "label_en": "1960s–70s"
+      },
+      {
+        "label": "1960s–70s　「意識の拡張」",
+        "startYear": 1960,
+        "endYear": 1979,
+        "genre": [
+          "ERA"
+        ],
+        "imp": 1,
+        "note": "•背景：冷戦・ベトナム反戦・カウンターカルチャー。\n•Stewart Brand『Whole Earth Catalog』（1968）\n　→ “Tools for Human Freedom.”　テクノロジーは自己解放の道具。\n•科学・自然・瞑想・LSD・コンピュータが同じ文脈で語られた。\n\n軸：個人の覚醒（inner revolution）\n→ 世界を変える前に意識を変える。",
+        "label_en": "1960s–70s"
       }
     ],
     "1968": [
@@ -57,11 +68,36 @@
         "note": "『全地球カタログ』（ぜんちきゅうかたろぐ）、英語でホール・アース・カタログ（英語: Whole Earth Catalog）とは、アメリカ合衆国で発刊された、ヒッピー向けの雑誌（カタログ）。WECと略される。",
         "label_en": "Whole Earth Catalog ...",
         "url_en": "https://en.wikipedia.org/wiki/Whole_Earth_Catalog"
+      },
+      {
+        "label": "ホールアースカタログ",
+        "startYear": 1968,
+        "genre": [
+          "BOOK"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/%E5%85%A8%E5%9C%B0%E7%90%83%E3%82%AB%E3%82%BF%E3%83%AD%E3%82%B0",
+        "note": "『全地球カタログ』（ぜんちきゅうかたろぐ）、英語でホール・アース・カタログ（英語: Whole Earth Catalog）とは、アメリカ合衆国で発刊された、ヒッピー向けの雑誌（カタログ）。WECと略される。",
+        "label_en": "Whole Earth Catalog",
+        "url_en": "https://en.wikipedia.org/wiki/Whole_Earth_Catalog"
       }
     ],
     "1975": [
       {
         "label": "ホームブリュー・コンピュータ・クラブです",
+        "startYear": 1975,
+        "endYear": 1986,
+        "genre": [
+          "EVENT"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/%E3%83%9B%E3%83%BC%E3%83%A0%E3%83%96%E3%83%AA%E3%83%A5%E3%83%BC%E3%83%BB%E3%82%B3%E3%83%B3%E3%83%94%E3%83%A5%E3%83%BC%E3%82%BF%E3%83%BB%E3%82%AF%E3%83%A9%E3%83%96",
+        "note": "カリフォルニア州サンマテオ郡メンローパークで結成された初期のコンピュータを趣味とする人々の団体（ユーザーグループ）であり、1975年3月5日から1986年12月まで活動していた。",
+        "label_en": "Homebrew Computer Club",
+        "url_en": "https://en.wikipedia.org/wiki/Homebrew_Computer_Club"
+      },
+      {
+        "label": "ホームブリュー・コンピュータ・クラブ",
         "startYear": 1975,
         "endYear": 1986,
         "genre": [
@@ -88,6 +124,19 @@
         "note": "Appleが1977年に発表したパーソナルコンピューター（ないしホームコンピューター）",
         "label_en": "Apple II",
         "url_en": "https://ja.wikipedia.org/wiki/Apple_II"
+      },
+      {
+        "label": "Apple II",
+        "startYear": 1977,
+        "endYear": 1984,
+        "genre": [
+          "PROD"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/Apple_II",
+        "note": "Appleが1977年に発表したパーソナルコンピューター（ないしホームコンピューター）",
+        "label_en": "Apple II",
+        "url_en": "https://ja.wikipedia.org/wiki/Apple_II"
       }
     ],
     "1981": [
@@ -102,6 +151,17 @@
         "imp": 1,
         "note": "•Ronald Reagan期の新自由主義、政府不信、反官僚主義。\n•カウンターカルチャーがリバタリアンに変質。\n　「権力からの自由」→「国家からの自由」→「市場の自由」。\n•Apple、Atari、Homebrew Computer Clubが象徴。\n\n転回の本質：自由が倫理ではなく効率になった。",
         "label_en": "The Politicization of Freedom in the 1980s"
+      },
+      {
+        "label": "1980年代　「自由の政治化」",
+        "startYear": 1981,
+        "endYear": 1989,
+        "genre": [
+          "ERA",
+          "WORK"
+        ],
+        "imp": 1,
+        "note": "•Ronald Reagan期の新自由主義、政府不信、反官僚主義。\n•カウンターカルチャーがリバタリアンに変質。\n　「権力からの自由」→「国家からの自由」→「市場の自由」。\n•Apple、Atari、Homebrew Computer Clubが象徴。\n\n転回の本質：自由が倫理ではなく効率になった。"
       }
     ],
     "1990": [
@@ -115,9 +175,32 @@
         "imp": 1,
         "note": "•インターネット黎明期、Rheingold『The Virtual Community』、Kelly『Out of Control』。\n•ネットを“集合的意識”と捉えるニューエイジ的思想。\n•国家や宗教の代わりに「分散ネットワーク」が信仰対象に。\n\n軸：霊的救済から情報的救済へ。\n→ “Spiritual Enlightenment” が “Digital Enlightenment” に置き換わる。",
         "label_en": "1990s"
+      },
+      {
+        "label": "1990年代　「ネット＝新しい教会」",
+        "startYear": 1990,
+        "endYear": 1999,
+        "genre": [
+          "ERA"
+        ],
+        "imp": 1,
+        "note": "•インターネット黎明期、Rheingold『The Virtual Community』、Kelly『Out of Control』。\n•ネットを“集合的意識”と捉えるニューエイジ的思想。\n•国家や宗教の代わりに「分散ネットワーク」が信仰対象に。\n\n軸：霊的救済から情報的救済へ。\n→ “Spiritual Enlightenment” が “Digital Enlightenment” に置き換わる。",
+        "label_en": "1990s"
       }
     ],
     "1991": [
+      {
+        "label": "Out of Control",
+        "startYear": 1991,
+        "genre": [
+          "BOOK"
+        ],
+        "imp": 4,
+        "url": "https://en.wikipedia.org/wiki/Out_of_Control_(Kelly_book)",
+        "note": "『アウト・オブ・コントロール: 機械、社会システム、経済世界の新しい生物学』は、ケビン・ケリーによる 1992 年の本です。 Out of Control の主なテーマは、サイバネティクス、創発、自己組織化、複雑なシステム、ネゲントロピー、カオス理論です。この本はテクノユートピア主義の作品と見ることができます。",
+        "label_en": "Out of Control",
+        "url_en": "https://en.wikipedia.org/wiki/Out_of_Control_(Kelly_book)"
+      },
       {
         "label": "Out of Control",
         "startYear": 1991,
@@ -145,6 +228,18 @@
         "note": "ハワード・ラインゴールドによる本。Virtual Communityは、初期のネットワークシステムTheWELLのメンバーであるHowardRheingoldによる仮想コミュニティに関する1993年の本です。新しい結論の章を含む第2版は、2000年にMITPressから出版されました。",
         "label_en": "The Virtual Community",
         "url_en": "https://en.wikipedia.org/wiki/The_Virtual_Community"
+      },
+      {
+        "label": "The Virtual Community",
+        "startYear": 1993,
+        "genre": [
+          "BOOK"
+        ],
+        "imp": 4,
+        "url": "https://en.wikipedia.org/wiki/The_Virtual_Community",
+        "note": "ハワード・ラインゴールドによる本。Virtual Communityは、初期のネットワークシステムTheWELLのメンバーであるHowardRheingoldによる仮想コミュニティに関する1993年の本です。新しい結論の章を含む第2版は、2000年にMITPressから出版されました。",
+        "label_en": "The Virtual Community",
+        "url_en": "https://en.wikipedia.org/wiki/The_Virtual_Community"
       }
     ],
     "2000": [
@@ -158,6 +253,17 @@
         "imp": 1,
         "note": "•**PayPal Mafia（Thiel, Musk, etc.）**が出現。\n•リバタリアン思想と“選民”意識が融合。\n•テック成功者が「社会を超えて未来を指導する存在」に。\n•福音派的構造（選ばれし者／終末への備え／再創造の使命）が、\n　起業家倫理と一体化。\n\n転回の本質：自由が信仰に、成功が恩寵に。",
         "label_en": "2000s \"Entrepreneur = Prophet\""
+      },
+      {
+        "label": "2000年代　「起業家＝預言者」",
+        "startYear": 2000,
+        "endYear": 2009,
+        "genre": [
+          "ERA"
+        ],
+        "imp": 1,
+        "note": "•**PayPal Mafia（Thiel, Musk, etc.）**が出現。\n•リバタリアン思想と“選民”意識が融合。\n•テック成功者が「社会を超えて未来を指導する存在」に。\n•福音派的構造（選ばれし者／終末への備え／再創造の使命）が、\n　起業家倫理と一体化。\n\n転回の本質：自由が信仰に、成功が恩寵に。",
+        "label_en": "2000s"
       }
     ]
   },
