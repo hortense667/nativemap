@@ -172,8 +172,8 @@
         "genre": [
           "ERA"
         ],
-        "imp": 1,
-        "note": "•**PayPal Mafia（Thiel, Musk, etc.）**が出現。\n•リバタリアン思想と“選民”意識が融合。\n•テック成功者が「社会を超えて未来を指導する存在」に。\n•福音派的構造（選ばれし者／終末への備え／再創造の使命）が、\n　起業家倫理と一体化。\n\n転回の本質：自由が信仰に、成功が恩寵に。",
+        "imp": 5,
+        "note": "•**PayPal Mafia（Thiel, Musk, etc.）**が出現。\n•リバタリアン思想と“選民”意識が融合。\n•テック成功者が「社会を超えて未来を指導する存在」に。\n•福音派的構造（選ばれし者／終末への備え／再創造の使命）が、\n　起業家倫理と一体化。",
         "label_en": "2000s \"Entrepreneur = Prophet\""
       },
       {
@@ -195,9 +195,47 @@
         "genre": [
           "ERA"
         ],
+        "imp": 5,
+        "note": "•**PayPal Mafia（Thiel, Musk, etc.）**が出現。\n•リバタリアン思想と“選民”意識が融合。\n•テック成功者が「社会を超えて未来を指導する存在」に。\n•福音派的構造（選ばれし者／終末への備え／再創造の使命）が、\n　起業家倫理と一体化。",
+        "label_en": "2000s \"Entrepreneur = Prophet\""
+      },
+      {
+        "label": "2000年代　「起業家＝預言者」",
+        "startYear": 2000,
+        "endYear": 2009,
+        "genre": [
+          "ERA",
+          "WORK"
+        ],
         "imp": 1,
         "note": "•**PayPal Mafia（Thiel, Musk, etc.）**が出現。\n•リバタリアン思想と“選民”意識が融合。\n•テック成功者が「社会を超えて未来を指導する存在」に。\n•福音派的構造（選ばれし者／終末への備え／再創造の使命）が、\n　起業家倫理と一体化。\n\n転回の本質：自由が信仰に、成功が恩寵に。",
-        "label_en": "2000s \"Entrepreneur = Prophet\""
+        "label_en": "2000s"
+      }
+    ],
+    "2002": [
+      {
+        "label": "ペイパルマフィア",
+        "startYear": 2002,
+        "genre": [
+          "ORG/COMP"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/%E3%83%9A%E3%82%A4%E3%83%91%E3%83%AB%E3%83%9E%E3%83%95%E3%82%A3%E3%82%A2",
+        "label_en": "PayPal Mafia",
+        "url_en": "https://en.wikipedia.org/wiki/PayPal_Mafia"
+      }
+    ],
+    "2010": [
+      {
+        "label": "2010s–2020s　「テクノ・メシアの出現」",
+        "startYear": 2010,
+        "endYear": "ongoing",
+        "genre": [
+          "ERA"
+        ],
+        "imp": 5,
+        "note": "Elon Muskがその象徴。\n　→ 国家の外に宇宙植民を構想。\n　→ SNSを「真実の教会」として運営。\n•自由と救済が一体化した“個人神”。\n•「信じる者のみ救われる」アルゴリズム的信仰。\n\n帰結：技術が宗教の形式を引き継ぎ、救済装置となる。",
+        "label_en": "2010s–2020s"
       }
     ]
   },
