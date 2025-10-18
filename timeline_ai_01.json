@@ -31,7 +31,6 @@
     "notes": "Updates from contributors are welcome. Please do not create separate versions. When reusing data, credit the original authors."
   },
   "events": {
-    "1942": [],
     "1943": [
       {
         "label": "マッカロック＝ピッツ・神経細胞モデル",
@@ -87,18 +86,6 @@
     ],
     "1950": [
       {
-        "label": "チューリング・テスト",
-        "label_en": "Turing test",
-        "startYear": 1950,
-        "genre": [
-          "THEORY"
-        ],
-        "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/チューリング・テスト",
-        "url_en": "https://en.wikipedia.org/wiki/Turing_test",
-        "note": "機械の知能を人と区別できるかを問う思考実験。AI評価基準として広く知られる概念。"
-      },
-      {
         "label": "われはロボット",
         "label_en": "I, Robot",
         "startYear": 1950,
@@ -111,6 +98,18 @@
         "url": "https://ja.wikipedia.org/wiki/われはロボット",
         "url_en": "https://en.wikipedia.org/wiki/I,_Robot",
         "note": "アシモフの短編集。三原則を軸に人間とロボットの関係を描く。"
+      },
+      {
+        "label": "チューリング・テスト",
+        "label_en": "Turing test",
+        "startYear": 1950,
+        "genre": [
+          "THEORY"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/チューリング・テスト",
+        "url_en": "https://en.wikipedia.org/wiki/Turing_test",
+        "note": "機械の知能を人と区別できるかを問う思考実験。AI評価基準として広く知られる概念。"
       }
     ],
     "1951": [
