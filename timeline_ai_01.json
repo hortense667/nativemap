@@ -61,6 +61,18 @@
     ],
     "1943": [
       {
+        "label": "マッカロック＝ピッツ・神経細胞モデル",
+        "startYear": 1943,
+        "genre": [
+          "THEORY"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/マッカロック-ピッツの神経細胞モデル",
+        "note": "形式ニューロンで論理計算を示し神経計算の礎を築いた。",
+        "label_en": "McCulloch?Pitts neuron",
+        "url_en": "https://en.wikipedia.org/wiki/Artificial_neuron"
+      },
+      {
         "label": "マッカロック＝ピッツ・ニューロン",
         "label_en": "McCulloch?Pitts neuron",
         "startYear": 1943,
