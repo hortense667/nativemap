@@ -48,6 +48,7 @@
         "startYear": 1960,
         "endYear": 1979,
         "genre": [
+          "BOOK",
           "ERA",
           "WORK"
         ],
