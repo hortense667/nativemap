@@ -433,15 +433,15 @@
     "1964": [
       {
         "label": "ELIZA",
-        "label_en": "ELIZA",
         "startYear": 1964,
         "genre": [
           "THEORY"
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/ELIZA",
-        "url_en": "https://en.wikipedia.org/wiki/ELIZA",
-        "note": "初期の対話型プログラム。パターン照合で人間らしい応答を模倣した。"
+        "note": "初期の対話型プログラム。パターン照合で人間らしい応答を模倣した。面白いよーね。",
+        "label_en": "ELIZA",
+        "url_en": "https://en.wikipedia.org/wiki/ELIZA"
       },
       {
         "label": "セル・オートマトン（理論の普及）",
