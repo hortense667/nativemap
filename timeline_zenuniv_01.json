@@ -223,30 +223,6 @@
         "label_en": "PayPal Mafia",
         "url_en": "https://en.wikipedia.org/wiki/PayPal_Mafia"
       }
-    ],
-    "2010": [
-      {
-        "label": "2010s–2020s　「テクノ・メシアの出現」",
-        "startYear": 2010,
-        "endYear": 2009,
-        "genre": [
-          "ERA"
-        ],
-        "imp": 1,
-        "note": "•Elon Muskがその象徴。\n　→ 国家の外に宇宙植民を構想。\n　→ SNSを「真実の教会」として運営。\n•自由と救済が一体化した“個人神”。\n•「信じる者のみ救われる」アルゴリズム的信仰。\n\n帰結：技術が宗教の形式を引き継ぎ、救済装置となる。",
-        "label_en": "2010s–2020s \"The Emergence of the Techno-Messiah\""
-      },
-      {
-        "label": "2010s–2020s　「テクノ・メシアの出現」",
-        "startYear": 2010,
-        "endYear": 2019,
-        "genre": [
-          "ERA"
-        ],
-        "imp": 1,
-        "note": "•Elon Muskがその象徴。\n　→ 国家の外に宇宙植民を構想。\n　→ SNSを「真実の教会」として運営。\n•自由と救済が一体化した“個人神”。\n•「信じる者のみ救われる」アルゴリズム的信仰。\n\n帰結：技術が宗教の形式を引き継ぎ、救済装置となる。",
-        "label_en": "2010s–2020s"
-      }
     ]
   },
   "eraSettings": [],
