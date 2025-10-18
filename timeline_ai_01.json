@@ -34,19 +34,6 @@
     "1942": [
       {
         "label": "ロボット工学三原則",
-        "startYear": 1942,
-        "genre": [
-          "THEORY",
-          "CONTENT"
-        ],
-        "imp": 5,
-        "url": "[https://ja.wikipedia.org/wiki/ロボット工学三原則",
-        "note": "アシモフが提示したロボット行動の基本原則。",
-        "label_en": "Three Laws of Robotics",
-        "url_en": "https://en.wikipedia.org/wiki/Three_Laws_of_Robotics"
-      },
-      {
-        "label": "ロボット工学三原則",
         "label_en": "Three Laws of Robotics",
         "startYear": 1942,
         "genre": [
@@ -57,6 +44,19 @@
         "url_en": "https://en.wikipedia.org/wiki/Three_Laws_of_Robotics",
         "note": "アシモフが提示したロボット行動の基本原則。",
         "note_en": ""
+      },
+      {
+        "label": "ロボット工学三原則",
+        "startYear": 1942,
+        "genre": [
+          "THEORY",
+          "CONTENT"
+        ],
+        "imp": 5,
+        "url": "[https://ja.wikipedia.org/wiki/ロボット工学三原則",
+        "note": "アシモフが提示したロボット行動の基本原則。",
+        "label_en": "Three Laws of Robotics",
+        "url_en": "https://en.wikipedia.org/wiki/Three_Laws_of_Robotics"
       }
     ],
     "1943": [
