@@ -44,6 +44,20 @@
         "label_en": "1960s–70s"
       }
     ],
+    "1965": [
+      {
+        "label": "X世代",
+        "startYear": 1965,
+        "endYear": 1979,
+        "genre": [
+          "ERA"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/ジェネレーションX",
+        "label_en": "Generation X",
+        "url_en": "https://en.wikipedia.org/wiki/Generation_X"
+      }
+    ],
     "1968": [
       {
         "label": "ホールアースカタログ",
@@ -96,6 +110,18 @@
         "imp": 1,
         "note": "•Ronald Reagan期の新自由主義、政府不信、反官僚主義。\n•カウンターカルチャーがリバタリアンに変質。\n　「権力からの自由」→「国家からの自由」→「市場の自由」。\n•Apple、Atari、Homebrew Computer Clubが象徴。\n\n転回の本質：自由が倫理ではなく効率になった。",
         "label_en": "The Politicization of Freedom in the 1980s"
+      },
+      {
+        "label": "ミレニアム世代（Y世代）",
+        "startYear": 1980,
+        "endYear": 1995,
+        "genre": [
+          "ERA"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/ミレニアル世代",
+        "label_en": "Millennials",
+        "url_en": "https://en.wikipedia.org/wiki/Millennials"
       }
     ],
     "1990": [
@@ -141,6 +167,20 @@
         "url_en": "https://en.wikipedia.org/wiki/The_Virtual_Community"
       }
     ],
+    "1996": [
+      {
+        "label": "Z世代",
+        "startYear": 1996,
+        "endYear": 2010,
+        "genre": [
+          "ERA"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/ジェネレーションZ",
+        "label_en": "Generation Z",
+        "url_en": "https://en.wikipedia.org/wiki/Generation_Z"
+      }
+    ],
     "2000": [
       {
         "label": "2000年代　「起業家＝預言者」",
@@ -150,8 +190,8 @@
           "ERA"
         ],
         "imp": 5,
-        "note": "•**PayPal Mafia（Thiel, Musk, etc.）**が出現。\n•リバタリアン思想と“選民”意識が融合。\n•テック成功者が「社会を超えて未来を指導する存在」に。\n•福音派的構造（選ばれし者／終末への備え／再創造の使命）が、\n　起業家倫理と一体化。",
-        "label_en": "2000s \"Entrepreneur = Prophet\""
+        "note": "•**PayPal Mafia（Thiel, Musk, etc.）**が出現。\n•リバタリアン思想と“選民”意識が融合。\n•テック成功者が「社会を超えて未来を指導する存在」に。\n•福音派的構造（選ばれし者／終末への備え／再創造の使命）が、起業家倫理と一体化。",
+        "label_en": "2000s"
       }
     ],
     "2002": [
@@ -224,7 +264,6 @@
       "code": "ERA",
       "label": "時代区分",
       "label_en": "Eras",
-      "genre_era": true,
       "conjunction": false
     }
   ]
