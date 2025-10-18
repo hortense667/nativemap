@@ -73,7 +73,7 @@
     ],
     "1977": [
       {
-        "label": "アップルII",
+        "label": "Apple II",
         "startYear": 1977,
         "endYear": 1984,
         "genre": [
@@ -87,7 +87,7 @@
         "url_en": "https://ja.wikipedia.org/wiki/Apple_II"
       },
       {
-        "label": "Apple II",
+        "label": "アップルII",
         "startYear": 1977,
         "endYear": 1984,
         "genre": [
@@ -107,7 +107,8 @@
         "startYear": 1981,
         "endYear": 1989,
         "genre": [
-          "ERA"
+          "ERA",
+          "WORK"
         ],
         "imp": 1,
         "note": "•Ronald Reagan期の新自由主義、政府不信、反官僚主義。\n•カウンターカルチャーがリバタリアンに変質。\n　「権力からの自由」→「国家からの自由」→「市場の自由」。\n•Apple、Atari、Homebrew Computer Clubが象徴。\n\n転回の本質：自由が倫理ではなく効率になった。",
@@ -118,8 +119,7 @@
         "startYear": 1981,
         "endYear": 1989,
         "genre": [
-          "ERA",
-          "WORK"
+          "ERA"
         ],
         "imp": 1,
         "note": "•Ronald Reagan期の新自由主義、政府不信、反官僚主義。\n•カウンターカルチャーがリバタリアンに変質。\n　「権力からの自由」→「国家からの自由」→「市場の自由」。\n•Apple、Atari、Homebrew Computer Clubが象徴。\n\n転回の本質：自由が倫理ではなく効率になった。",
