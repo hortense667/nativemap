@@ -94,6 +94,34 @@
         "url": "https://ja.wikipedia.org/wiki/サイバネティックス",
         "url_en": "https://en.wikipedia.org/wiki/Cybernetics",
         "note": "制御・通信の一般理論。フィードバック概念でAIとロボに影響。"
+      },
+      {
+        "label": "情報理論",
+        "label_en": "Information theory",
+        "startYear": 1948,
+        "genre": [
+          "P_PROB",
+          "THEORY"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/情報理論",
+        "url_en": "https://en.wikipedia.org/wiki/Information_theory",
+        "note": "シャノンが通信における情報量と符号化を定式化。"
+      }
+    ],
+    "1949": [
+      {
+        "label": "情報理論",
+        "startYear": 1949,
+        "genre": [
+          "THEORY",
+          "P_PROB"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/情報理論",
+        "note": "シャノンが通信における情報量と符号化を定式化。",
+        "label_en": "Information theory",
+        "url_en": "https://en.wikipedia.org/wiki/Information_theory"
       }
     ],
     "1950": [
