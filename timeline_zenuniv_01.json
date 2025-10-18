@@ -131,20 +131,6 @@
         "note": "Appleが1977年に発表したパーソナルコンピューター（ないしホームコンピューター）",
         "label_en": "Apple II",
         "url_en": "https://ja.wikipedia.org/wiki/Apple_II"
-      },
-      {
-        "label": "アップルII",
-        "startYear": 1977,
-        "endYear": 1984,
-        "genre": [
-          "PROD",
-          "WORK"
-        ],
-        "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/Apple_II",
-        "note": "Appleが1977年に発表したパーソナルコンピューター（ないしホームコンピューター）",
-        "label_en": "Apple II",
-        "url_en": "https://ja.wikipedia.org/wiki/Apple_II"
       }
     ],
     "1981": [
