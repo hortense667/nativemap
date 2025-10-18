@@ -166,6 +166,17 @@
     ],
     "1990": [
       {
+        "label": "1990年代　「ネット＝新しい教会」だよ",
+        "startYear": 1990,
+        "endYear": 1999,
+        "genre": [
+          "ERA"
+        ],
+        "imp": 1,
+        "note": "•インターネット黎明期、Rheingold『The Virtual Community』、Kelly『Out of Control』。\n•ネットを“集合的意識”と捉えるニューエイジ的思想。\n•国家や宗教の代わりに「分散ネットワーク」が信仰対象に。\n\n軸：霊的救済から情報的救済へ。\n→ “Spiritual Enlightenment” が “Digital Enlightenment” に置き換わる。",
+        "label_en": "1990s"
+      },
+      {
         "label": "1990年代　「ネット＝新しい教会」",
         "startYear": 1990,
         "endYear": 1999,
