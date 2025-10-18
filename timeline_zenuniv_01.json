@@ -43,6 +43,77 @@
         "label_en": "Whole Earth Catalog",
         "url_en": "https://en.wikipedia.org/wiki/Whole_Earth_Catalog"
       }
+    ],
+    "1975": [
+      {
+        "label": "ホームブリュー・コンピュータ・クラブ",
+        "startYear": 1975,
+        "endYear": 1986,
+        "genre": [
+          "EVENT"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/%E3%83%9B%E3%83%BC%E3%83%A0%E3%83%96%E3%83%AA%E3%83%A5%E3%83%BC%E3%83%BB%E3%82%B3%E3%83%B3%E3%83%94%E3%83%A5%E3%83%BC%E3%82%BF%E3%83%BB%E3%82%AF%E3%83%A9%E3%83%96",
+        "note": "カリフォルニア州サンマテオ郡メンローパークで結成された初期のコンピュータを趣味とする人々の団体（ユーザーグループ）であり、1975年3月5日から1986年12月まで活動していた。",
+        "label_en": "Homebrew Computer Club",
+        "url_en": "https://en.wikipedia.org/wiki/Homebrew_Computer_Club"
+      }
+    ],
+    "1977": [
+      {
+        "label": "Apple II",
+        "startYear": 1977,
+        "genre": [
+          "EVENT"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/Apple_II",
+        "note": "Appleが1977年に発表したパーソナルコンピューター（ないしホームコンピューター）",
+        "label_en": "Apple II",
+        "url_en": "https://ja.wikipedia.org/wiki/Apple_II"
+      }
+    ],
+    "1992": [
+      {
+        "label": "Out of Control",
+        "startYear": 1992,
+        "genre": [
+          "BOOK"
+        ],
+        "imp": 4,
+        "url": "https://en.wikipedia.org/wiki/Out_of_Control_(Kelly_book)",
+        "note": "『アウト・オブ・コントロール: 機械、社会システム、経済世界の新しい生物学』は、ケビン・ケリーによる 1992 年の本です。 Out of Control の主なテーマは、サイバネティクス、創発、自己組織化、複雑なシステム、ネゲントロピー、カオス理論です。この本はテクノユートピア主義の作品と見ることができます。",
+        "label_en": "Out of Control",
+        "url_en": "https://en.wikipedia.org/wiki/Out_of_Control_(Kelly_book)"
+      }
+    ],
+    "1993": [
+      {
+        "label": "The Virtual Community",
+        "startYear": 1993,
+        "genre": [
+          "BOOK"
+        ],
+        "imp": 4,
+        "url": "https://en.wikipedia.org/wiki/The_Virtual_Community",
+        "note": "ハワード・ラインゴールドによる本。Virtual Communityは、初期のネットワークシステムTheWELLのメンバーであるHowardRheingoldによる仮想コミュニティに関する1993年の本です。新しい結論の章を含む第2版は、2000年にMITPressから出版されました。",
+        "label_en": "The Virtual Community",
+        "url_en": "https://en.wikipedia.org/wiki/The_Virtual_Community"
+      }
+    ],
+    "2002": [
+      {
+        "label": "ペイパルマフィア",
+        "startYear": 2002,
+        "genre": [
+          "EVENT"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/%E3%83%9A%E3%82%A4%E3%83%91%E3%83%AB%E3%83%9E%E3%83%95%E3%82%A3%E3%82%A2",
+        "note": "2002年のeBayによるPayPal買収以後、サービスやシステムを通じて社会あるいはビジネスを変動させた元PayPal出身者らのグループである",
+        "label_en": "PayPal Mafia",
+        "url_en": "https://en.wikipedia.org/wiki/PayPal_Mafia"
+      }
     ]
   },
   "eraSettings": [
@@ -62,7 +133,7 @@
       "color": "#DC143C",
       "opacity": "0.3",
       "enabled": true,
-      "fillEnabled": false
+      "fillEnabled": true
     },
     {
       "name": "2．転回①：1980年代　「自由の政治化」",
