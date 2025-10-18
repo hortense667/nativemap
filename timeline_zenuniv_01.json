@@ -196,6 +196,18 @@
         "label": "Out of Control",
         "startYear": 1991,
         "genre": [
+          "BOOK"
+        ],
+        "imp": 4,
+        "url": "https://en.wikipedia.org/wiki/Out_of_Control_(Kelly_book)",
+        "note": "『アウト・オブ・コントロール: 機械、社会システム、経済世界の新しい生物学』は、ケビン・ケリーによる 1992 年の本です。 Out of Control の主なテーマは、サイバネティクス、創発、自己組織化、複雑なシステム、ネゲントロピー、カオス理論です。この本はテクノユートピア主義の作品と見ることができます。",
+        "label_en": "Out of Control",
+        "url_en": "https://en.wikipedia.org/wiki/Out_of_Control_(Kelly_book)"
+      },
+      {
+        "label": "Out of Control",
+        "startYear": 1991,
+        "genre": [
           "BOOK",
           "WORK"
         ],
