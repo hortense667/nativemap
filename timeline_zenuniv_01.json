@@ -222,7 +222,7 @@
     },
     {
       "code": "ERA",
-      "label": "時代の区分",
+      "label": "時代区分",
       "label_en": "Eras",
       "genre_era": true,
       "conjunction": false
