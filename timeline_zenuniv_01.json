@@ -53,7 +53,7 @@
         ],
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/%E5%85%A8%E5%9C%B0%E7%90%83%E3%82%AB%E3%82%BF%E3%83%AD%E3%82%B0",
-        "note": "『全地球カタログ』（ぜんちきゅうかたろぐ）、英語でホール・アース・カタログ（英語: Whole Earth Catalog）とは、アメリカ合衆国で発刊された、ヒッピー向けの雑誌（カタログ）。WECと略される",
+        "note": "『全地球カタログ』（ぜんちきゅうかたろぐ）、英語でホール・アース・カタログ（英語: Whole Earth Catalog）とは、アメリカ合衆国で発刊された、ヒッピー向けの雑誌（カタログ）。WECと略される。",
         "label_en": "Whole Earth Catalog",
         "url_en": "https://en.wikipedia.org/wiki/Whole_Earth_Catalog"
       }
@@ -113,6 +113,17 @@
       }
     ],
     "1980": [
+      {
+        "label": "1980年代　「自由の政治化」",
+        "startYear": 1980,
+        "endYear": 1989,
+        "genre": [
+          "ERA",
+          "WORK"
+        ],
+        "imp": 1,
+        "note": "•Ronald Reagan期の新自由主義、政府不信、反官僚主義。\n•カウンターカルチャーがリバタリアンに変質。\n　「権力からの自由」→「国家からの自由」→「市場の自由」。\n•Apple、Atari、Homebrew Computer Clubが象徴。\n\n転回の本質：自由が倫理ではなく効率になった。"
+      },
       {
         "label": "1980年代　「自由の政治化」",
         "startYear": 1980,
