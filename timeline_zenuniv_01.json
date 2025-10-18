@@ -39,15 +39,6 @@
           "ORG/COMP"
         ],
         "imp": 5
-      },
-      {
-        "label": "hortense",
-        "startYear": 1956,
-        "genre": [
-          "ORG/COMP",
-          "WORK"
-        ],
-        "imp": 5
       }
     ],
     "1960": [
@@ -62,18 +53,6 @@
         "imp": 1,
         "note": "•背景：冷戦・ベトナム反戦・カウンターカルチャー。\n•Stewart Brand『Whole Earth Catalog』（1968）\n　→ “Tools for Human Freedom.”　テクノロジーは自己解放の道具。\n•科学・自然・瞑想・LSD・コンピュータが同じ文脈で語られた。\n\n軸：個人の覚醒（inner revolution）\n→ 世界を変える前に意識を変える。",
         "label_en": "1960s–70s ..."
-      },
-      {
-        "label": "1960s–70s　「意識の拡張」",
-        "startYear": 1960,
-        "endYear": 1979,
-        "genre": [
-          "ERA",
-          "WORK"
-        ],
-        "imp": 1,
-        "note": "•背景：冷戦・ベトナム反戦・カウンターカルチャー。\n•Stewart Brand『Whole Earth Catalog』（1968）\n　→ “Tools for Human Freedom.”　テクノロジーは自己解放の道具。\n•科学・自然・瞑想・LSD・コンピュータが同じ文脈で語られた。\n\n軸：個人の覚醒（inner revolution）\n→ 世界を変える前に意識を変える。",
-        "label_en": "1960s–70s"
       }
     ],
     "1975": [
@@ -105,20 +84,6 @@
         "note": "Appleが1977年に発表したパーソナルコンピューター（ないしホームコンピューター）",
         "label_en": "Apple II",
         "url_en": "https://ja.wikipedia.org/wiki/Apple_II"
-      },
-      {
-        "label": "アップルII",
-        "startYear": 1977,
-        "endYear": 1984,
-        "genre": [
-          "PROD",
-          "WORK"
-        ],
-        "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/Apple_II",
-        "note": "Appleが1977年に発表したパーソナルコンピューター（ないしホームコンピューター）",
-        "label_en": "Apple II",
-        "url_en": "https://ja.wikipedia.org/wiki/Apple_II"
       }
     ],
     "1981": [
@@ -129,17 +94,6 @@
         "genre": [
           "ERA",
           "WORK"
-        ],
-        "imp": 1,
-        "note": "•Ronald Reagan期の新自由主義、政府不信、反官僚主義。\n•カウンターカルチャーがリバタリアンに変質。\n　「権力からの自由」→「国家からの自由」→「市場の自由」。\n•Apple、Atari、Homebrew Computer Clubが象徴。\n\n転回の本質：自由が倫理ではなく効率になった。",
-        "label_en": "The Politicization of Freedom in the 1980s"
-      },
-      {
-        "label": "1980年代　「自由の政治化」",
-        "startYear": 1981,
-        "endYear": 1989,
-        "genre": [
-          "ERA"
         ],
         "imp": 1,
         "note": "•Ronald Reagan期の新自由主義、政府不信、反官僚主義。\n•カウンターカルチャーがリバタリアンに変質。\n　「権力からの自由」→「国家からの自由」→「市場の自由」。\n•Apple、Atari、Homebrew Computer Clubが象徴。\n\n転回の本質：自由が倫理ではなく効率になった。",
@@ -171,19 +125,6 @@
         "note": "『アウト・オブ・コントロール: 機械、社会システム、経済世界の新しい生物学』は、ケビン・ケリーによる 1992 年の本です。 Out of Control の主なテーマは、サイバネティクス、創発、自己組織化、複雑なシステム、ネゲントロピー、カオス理論です。この本はテクノユートピア主義の作品と見ることができます。",
         "label_en": "Out of Control",
         "url_en": "https://en.wikipedia.org/wiki/Out_of_Control_(Kelly_book)"
-      },
-      {
-        "label": "Out of Control",
-        "startYear": 1991,
-        "genre": [
-          "BOOK",
-          "WORK"
-        ],
-        "imp": 4,
-        "url": "https://en.wikipedia.org/wiki/Out_of_Control_(Kelly_book)",
-        "note": "『アウト・オブ・コントロール: 機械、社会システム、経済世界の新しい生物学』は、ケビン・ケリーによる 1992 年の本です。 Out of Control の主なテーマは、サイバネティクス、創発、自己組織化、複雑なシステム、ネゲントロピー、カオス理論です。この本はテクノユートピア主義の作品と見ることができます。",
-        "label_en": "Out of Control",
-        "url_en": "https://en.wikipedia.org/wiki/Out_of_Control_(Kelly_book)"
       }
     ],
     "1993": [
@@ -192,19 +133,6 @@
         "startYear": 1993,
         "genre": [
           "BOOK"
-        ],
-        "imp": 4,
-        "url": "https://en.wikipedia.org/wiki/The_Virtual_Community",
-        "note": "ハワード・ラインゴールドによる本。Virtual Communityは、初期のネットワークシステムTheWELLのメンバーであるHowardRheingoldによる仮想コミュニティに関する1993年の本です。新しい結論の章を含む第2版は、2000年にMITPressから出版されました。",
-        "label_en": "The Virtual Community",
-        "url_en": "https://en.wikipedia.org/wiki/The_Virtual_Community"
-      },
-      {
-        "label": "The Virtual Community",
-        "startYear": 1993,
-        "genre": [
-          "BOOK",
-          "WORK"
         ],
         "imp": 4,
         "url": "https://en.wikipedia.org/wiki/The_Virtual_Community",
@@ -225,17 +153,6 @@
         "imp": 1,
         "note": "•**PayPal Mafia（Thiel, Musk, etc.）**が出現。\n•リバタリアン思想と“選民”意識が融合。\n•テック成功者が「社会を超えて未来を指導する存在」に。\n•福音派的構造（選ばれし者／終末への備え／再創造の使命）が、\n　起業家倫理と一体化。\n\n転回の本質：自由が信仰に、成功が恩寵に。",
         "label_en": "2000s"
-      },
-      {
-        "label": "2000年代　「起業家＝預言者」",
-        "startYear": 2000,
-        "endYear": 2009,
-        "genre": [
-          "ERA"
-        ],
-        "imp": 1,
-        "note": "•**PayPal Mafia（Thiel, Musk, etc.）**が出現。\n•リバタリアン思想と“選民”意識が融合。\n•テック成功者が「社会を超えて未来を指導する存在」に。\n•福音派的構造（選ばれし者／終末への備え／再創造の使命）が、\n　起業家倫理と一体化。\n\n転回の本質：自由が信仰に、成功が恩寵に。",
-        "label_en": "2000s \"Entrepreneur = Prophet\""
       }
     ]
   },
