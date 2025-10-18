@@ -1,0 +1,108 @@
+{
+  "schemaVersion": 1,
+  "metadata": {
+    "title": {
+      "ja": "ZEN大学叢書 0.1",
+      "en": "ZEN University Series 0.1"
+    },
+    "description": {
+      "ja": "ZEN大学叢書企画のためのメモ年表",
+      "en": "Timeline Memo for the ZEN University Book Series Project"
+    },
+    "initialCreator": "Satoshi Endo",
+    "contributors": [
+      "Satoshi Endo",
+      "Hortense Endo"
+    ],
+    "contact": {
+      "administrator": {
+        "name": "Satoshi Endo",
+        "x": "https://x.com/hortense667"
+      }
+    },
+    "createdAt": "2025-10-01",
+    "version": "1.0",
+    "language": [
+      "ja",
+      "en"
+    ],
+    "copyright": "© 2025 Satoshi Endo",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "notes": "Updates from contributors are welcome. Please do not create separate versions. When reusing data, credit the original authors."
+  },
+  "events": {
+  },
+  "eraSettings": [
+     {
+      "name": "3. 転回②：1990年代　「ネット＝新しい教会」",
+      "startYear": 1990,
+      "endYear": 1999,
+      "color": "#4169E1",
+      "opacity": "0.3",
+      "enabled": true,
+      "fillEnabled": false
+    },
+    {
+      "name": "1. 出発：1960s–70s　「意識の拡張」",
+      "startYear": 1960,
+      "endYear": 1979,
+      "color": "#DC143C",
+      "opacity": "0.3",
+      "enabled": true,
+      "fillEnabled": false
+    },
+    {
+      "name": "2．転回①：1980年代　「自由の政治化」",
+      "startYear": 1980,
+      "endYear": 1989,
+      "color": "#4169E1",
+      "opacity": "0.3",
+      "enabled": true,
+      "fillEnabled": false
+    },
+    {
+      "name": "4. 転回③：2000年代　「起業家＝預言者」",
+      "startYear": 2000,
+      "endYear": 2009,
+      "color": "#FFD700",
+      "opacity": "0.3",
+      "enabled": true,
+      "fillEnabled": false
+    },    {
+      "name": "5. 極点：2010s–2020s　「テクノ・メシアの出現」",
+      "startYear": 1960,
+      "endYear": 1979,
+      "color": "#DC143C",
+      "opacity": "0.5",
+      "enabled": true,
+      "fillEnabled": false
+    }
+  ],
+  "genres": [
+    {
+      "code": "BOOK",
+      "label": "書籍",
+      "label_en": "Books",
+      "conjunction": false
+    },
+    {
+      "code": "ERA",
+      "label": "時代区分",
+      "label_en": "Eras",
+      "conjunction": false
+    },
+    {
+      "code": "EVENT",
+      "label": "出来事",
+      "label_en": "Events",
+      "conjunction": false
+    },
+    {
+      "code": "WORK",
+      "label": "作業用（仮）",
+      "label_en": "Scratch",
+      "conjunction": true
+    }
+  ]
+}
