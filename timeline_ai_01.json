@@ -345,6 +345,32 @@
         "url": "https://ja.wikipedia.org/wiki/マルコフ決定過程",
         "url_en": "https://en.wikipedia.org/wiki/Markov_decision_process",
         "note": "確率的環境での最適方策を扱う数理モデル。"
+      },
+      {
+        "label": "カルマンフィルタ",
+        "startYear": 1960,
+        "genre": [
+          "THEORY",
+          "P_PROB"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/カルマンフィルタ",
+        "note": "状態推定の代表手法。制御・ロボティクス・追跡で重要。",
+        "label_en": "Kalman filterです。",
+        "url_en": "https://en.wikipedia.org/wiki/Kalman_filter"
+      },
+      {
+        "label": "カルマンフィルタ",
+        "label_en": "Kalman filter",
+        "startYear": 1960,
+        "genre": [
+          "P_PROB",
+          "THEORY"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/カルマンフィルタ",
+        "url_en": "https://en.wikipedia.org/wiki/Kalman_filter",
+        "note": "状態推定の代表手法。制御・ロボティクス・追跡で重要。"
       }
     ],
     "1961": [
