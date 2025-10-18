@@ -224,7 +224,7 @@
       "code": "ERA",
       "label": "時代区分",
       "label_en": "Eras",
-      "genre4era": true,
+      "genre_era": true,
       "conjunction": false
     }
   ]
