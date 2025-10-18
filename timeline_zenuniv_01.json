@@ -31,6 +31,19 @@
     "notes": "Updates from contributors are welcome. Please do not create separate versions. When reusing data, credit the original authors."
   },
   "events": {
+    "1960": [
+      {
+        "label": "1960s–70s　「意識の拡張」",
+        "startYear": 1960,
+        "endYear": 1979,
+        "genre": [
+          "ERA"
+        ],
+        "imp": 1,
+        "note": "•背景：冷戦・ベトナム反戦・カウンターカルチャー。\n•Stewart Brand『Whole Earth Catalog』（1968）\n　→ “Tools for Human Freedom.”　テクノロジーは自己解放の道具。\n•科学・自然・瞑想・LSD・コンピュータが同じ文脈で語られた。\n\n軸：個人の覚醒（inner revolution）\n→ 世界を変える前に意識を変える。",
+        "label_en": "1960s–70s"
+      }
+    ],
     "1968": [
       {
         "label": "ホールアースカタログ",
@@ -51,6 +64,19 @@
         "startYear": 1975,
         "endYear": 1986,
         "genre": [
+          "ORG/COMP"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/%E3%83%9B%E3%83%BC%E3%83%A0%E3%83%96%E3%83%AA%E3%83%A5%E3%83%BC%E3%83%BB%E3%82%B3%E3%83%B3%E3%83%94%E3%83%A5%E3%83%BC%E3%82%BF%E3%83%BB%E3%82%AF%E3%83%A9%E3%83%96",
+        "note": "カリフォルニア州サンマテオ郡メンローパークで結成された初期のコンピュータを趣味とする人々の団体（ユーザーグループ）であり、1975年3月5日から1986年12月まで活動していた。",
+        "label_en": "Homebrew Computer Club",
+        "url_en": "https://en.wikipedia.org/wiki/Homebrew_Computer_Club"
+      },
+      {
+        "label": "ホームブリュー・コンピュータ・クラブ",
+        "startYear": 1975,
+        "endYear": 1986,
+        "genre": [
           "EVENT"
         ],
         "imp": 5,
@@ -65,6 +91,18 @@
         "label": "Apple II",
         "startYear": 1977,
         "genre": [
+          "PROD"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/Apple_II",
+        "note": "Appleが1977年に発表したパーソナルコンピューター（ないしホームコンピューター）",
+        "label_en": "Apple II",
+        "url_en": "https://ja.wikipedia.org/wiki/Apple_II"
+      },
+      {
+        "label": "Apple II",
+        "startYear": 1977,
+        "genre": [
           "EVENT"
         ],
         "imp": 5,
@@ -72,6 +110,30 @@
         "note": "Appleが1977年に発表したパーソナルコンピューター（ないしホームコンピューター）",
         "label_en": "Apple II",
         "url_en": "https://ja.wikipedia.org/wiki/Apple_II"
+      }
+    ],
+    "1980": [
+      {
+        "label": "1980年代　「自由の政治化」",
+        "startYear": 1980,
+        "endYear": 1989,
+        "genre": [
+          "ERA"
+        ],
+        "imp": 1,
+        "note": "•Ronald Reagan期の新自由主義、政府不信、反官僚主義。\n•カウンターカルチャーがリバタリアンに変質。\n　「権力からの自由」→「国家からの自由」→「市場の自由」。\n•Apple、Atari、Homebrew Computer Clubが象徴。\n\n転回の本質：自由が倫理ではなく効率になった。"
+      }
+    ],
+    "1990": [
+      {
+        "label": "1990年代　「ネット＝新しい教会」",
+        "startYear": 1990,
+        "genre": [
+          "ERA"
+        ],
+        "imp": 1,
+        "note": "•インターネット黎明期、Rheingold『The Virtual Community』、Kelly『Out of Control』。\n•ネットを“集合的意識”と捉えるニューエイジ的思想。\n•国家や宗教の代わりに「分散ネットワーク」が信仰対象に。\n\n軸：霊的救済から情報的救済へ。\n→ “Spiritual Enlightenment” が “Digital Enlightenment” に置き換わる。",
+        "label_en": "1990s \"The Internet = The New Church\""
       }
     ],
     "1992": [
@@ -102,7 +164,31 @@
         "url_en": "https://en.wikipedia.org/wiki/The_Virtual_Community"
       }
     ],
+    "2000": [
+      {
+        "label": "2000年代　「起業家＝預言者」",
+        "startYear": 2000,
+        "genre": [
+          "ERA"
+        ],
+        "imp": 1,
+        "note": "•**PayPal Mafia（Thiel, Musk, etc.）**が出現。\n•リバタリアン思想と“選民”意識が融合。\n•テック成功者が「社会を超えて未来を指導する存在」に。\n•福音派的構造（選ばれし者／終末への備え／再創造の使命）が、\n　起業家倫理と一体化。\n\n転回の本質：自由が信仰に、成功が恩寵に。",
+        "label_en": "2000s \"Entrepreneur = Prophet\""
+      }
+    ],
     "2002": [
+      {
+        "label": "ペイパルマフィア",
+        "startYear": 2002,
+        "genre": [
+          "ORG/COMP"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/%E3%83%9A%E3%82%A4%E3%83%91%E3%83%AB%E3%83%9E%E3%83%95%E3%82%A3%E3%82%A2",
+        "note": "2002年のeBayによるPayPal買収以後、サービスやシステムを通じて社会あるいはビジネスを変動させた元PayPal出身者らのグループである",
+        "label_en": "PayPal Mafia",
+        "url_en": "https://en.wikipedia.org/wiki/PayPal_Mafia"
+      },
       {
         "label": "ペイパルマフィア",
         "startYear": 2002,
@@ -114,6 +200,19 @@
         "note": "2002年のeBayによるPayPal買収以後、サービスやシステムを通じて社会あるいはビジネスを変動させた元PayPal出身者らのグループである",
         "label_en": "PayPal Mafia",
         "url_en": "https://en.wikipedia.org/wiki/PayPal_Mafia"
+      }
+    ],
+    "2010": [
+      {
+        "label": "2010s–2020s　「テクノ・メシアの出現」",
+        "startYear": 2010,
+        "endYear": 2009,
+        "genre": [
+          "ERA"
+        ],
+        "imp": 1,
+        "note": "•Elon Muskがその象徴。\n　→ 国家の外に宇宙植民を構想。\n　→ SNSを「真実の教会」として運営。\n•自由と救済が一体化した“個人神”。\n•「信じる者のみ救われる」アルゴリズム的信仰。\n\n帰結：技術が宗教の形式を引き継ぎ、救済装置となる。",
+        "label_en": "2010s–2020s \"The Emergence of the Techno-Messiah\""
       }
     ]
   },
