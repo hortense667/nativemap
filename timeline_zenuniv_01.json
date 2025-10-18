@@ -178,10 +178,28 @@
       "conjunction": false
     },
     {
+      "code": "ORG/COMP",
+      "label": "組織/企業/グループ",
+      "label_en": "Organization/Company/Group",
+      "conjunction": false
+    },
+    {
+      "code": "PROD",
+      "label": "製品/サービス",
+      "label_en": "Products/Service",
+      "conjunction": false
+    },
+    {
       "code": "EVENT",
       "label": "出来事",
       "label_en": "Events",
       "conjunction": false
+    },
+    {
+      "code": "JAPAN",
+      "label": "日本",
+      "label_en": "Japan",
+      "conjunction": true
     },
     {
       "code": "WORK",
