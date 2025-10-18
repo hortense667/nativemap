@@ -69,46 +69,7 @@
         "note": "形式ニューロンで論理計算を示し神経計算の礎を築いた。"
       }
     ],
-    "1948": [
-      {
-        "label": "情報理論",
-        "label_en": "Information theory",
-        "startYear": 1948,
-        "genre": [
-          "P_PROB",
-          "THEORY"
-        ],
-        "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/情報理論",
-        "url_en": "https://en.wikipedia.org/wiki/Information_theory",
-        "note": "シャノンが通信における情報量と符号化を定式化。"
-      },
-      {
-        "label": "サイバネティックス",
-        "label_en": "Cybernetics",
-        "startYear": 1948,
-        "genre": [
-          "THEORY"
-        ],
-        "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/サイバネティックス",
-        "url_en": "https://en.wikipedia.org/wiki/Cybernetics",
-        "note": "制御・通信の一般理論。フィードバック概念でAIとロボに影響。"
-      },
-      {
-        "label": "情報理論",
-        "label_en": "Information theory",
-        "startYear": 1948,
-        "genre": [
-          "P_PROB",
-          "THEORY"
-        ],
-        "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/情報理論",
-        "url_en": "https://en.wikipedia.org/wiki/Information_theory",
-        "note": "シャノンが通信における情報量と符号化を定式化。"
-      }
-    ],
+    "1948": [],
     "1949": [
       {
         "label": "情報理論",
@@ -124,48 +85,8 @@
         "url_en": "https://en.wikipedia.org/wiki/Information_theory"
       }
     ],
-    "1950": [
-      {
-        "label": "チューリング・テスト",
-        "label_en": "Turing test",
-        "startYear": 1950,
-        "genre": [
-          "THEORY"
-        ],
-        "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/チューリング・テスト",
-        "url_en": "https://en.wikipedia.org/wiki/Turing_test",
-        "note": "機械の知能を人と区別できるかを問う思考実験。AI評価基準として広く知られる概念。"
-      },
-      {
-        "label": "われはロボット",
-        "label_en": "I, Robot",
-        "startYear": 1950,
-        "genre": [
-          "CONTENT",
-          "HARDWARE",
-          "ROBOTICS"
-        ],
-        "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/われはロボット",
-        "url_en": "https://en.wikipedia.org/wiki/I,_Robot",
-        "note": "アシモフの短編集。三原則を軸に人間とロボットの関係を描く。"
-      }
-    ],
-    "1951": [
-      {
-        "label": "SNARC（初期の神経回路機械）",
-        "label_en": "SNARC",
-        "startYear": 1951,
-        "genre": [
-          "HARDWARE"
-        ],
-        "imp": 3,
-        "url": "https://ja.wikipedia.org/wiki/SNARC",
-        "url_en": "https://en.wikipedia.org/wiki/SNARC",
-        "note": "ミンスキーらの確率学習機構を持つ初期ニューロ機械。"
-      }
-    ],
+    "1950": [],
+    "1951": [],
     "1952": [
       {
         "label": "チューリングパターン（反応拡散）",
@@ -179,18 +100,6 @@
         "url": "https://ja.wikipedia.org/wiki/反応拡散系",
         "url_en": "https://en.wikipedia.org/wiki/Turing_pattern",
         "note": "形態形成の数理。自己組織化・パターン生成の理論的根拠。"
-      },
-      {
-        "label": "鉄腕アトム",
-        "label_en": "Astro Boy",
-        "startYear": 1952,
-        "genre": [
-          "CONTENT"
-        ],
-        "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/鉄腕アトム",
-        "url_en": "https://en.wikipedia.org/wiki/Astro_Boy",
-        "note": "高性能な心を持つロボット少年の活躍を描く名作。"
       }
     ],
     "1954": [
@@ -205,20 +114,6 @@
     ],
     "1955": [
       {
-        "label": "生成文法（チョムスキー）",
-        "label_en": "Generative grammar",
-        "startYear": 1955,
-        "genre": [
-          "THEORY",
-          "BACKGROUND"
-        ],
-        "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/生成文法",
-        "url_en": "https://en.wikipedia.org/wiki/Generative_grammar",
-        "note": "自然言語の形式的記述の基礎を築いた理論。AI言語処理にも影響。",
-        "note_en": "A foundational theory of formal language description influencing NLP."
-      },
-      {
         "label": "生成文法",
         "startYear": 1955,
         "genre": [
@@ -231,36 +126,9 @@
         "label_en": "Generative grammar",
         "url_en": "https://en.wikipedia.org/wiki/Generative_grammar",
         "note_en": "A foundational theory of formal language description influencing NLP."
-      },
-      {
-        "label": "生成文法（チョムスキー）",
-        "label_en": "Generative grammar",
-        "startYear": 1955,
-        "genre": [
-          "THEORY",
-          "BACKGROUND"
-        ],
-        "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/生成文法",
-        "url_en": "https://en.wikipedia.org/wiki/Generative_grammar",
-        "note": "自然言語の形式的記述の基礎を築いた理論。AI言語処理にも影響。",
-        "note_en": "A foundational theory of formal language description influencing NLP."
       }
     ],
     "1956": [
-      {
-        "label": "ダートマス会議",
-        "label_en": "Dartmouth workshop",
-        "startYear": 1956,
-        "genre": [
-          "EVENT",
-          "THEORY"
-        ],
-        "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/ダートマス会議_(人工知能)",
-        "url_en": "https://en.wikipedia.org/wiki/Dartmouth_workshop",
-        "note": "「人工知能」という研究分野名が提案された創始的会議。以後のAI研究の起点とされる。"
-      },
       {
         "label": "ロジック・セオリスト",
         "label_en": "Logic Theorist",
@@ -299,19 +167,6 @@
         "note": "「人工知能」という研究分野名が提案された創始的会議。以後のAI研究の起点とされる。",
         "label_en": "Dartmouth workshop",
         "url_en": "https://en.wikipedia.org/wiki/Dartmouth_workshop"
-      },
-      {
-        "label": "ダートマス会議",
-        "label_en": "Dartmouth workshop",
-        "startYear": 1956,
-        "genre": [
-          "EVENT",
-          "THEORY"
-        ],
-        "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/ダートマス会議_(人工知能)",
-        "url_en": "https://en.wikipedia.org/wiki/Dartmouth_workshop",
-        "note": "「人工知能」という研究分野名が提案された創始的会議。以後のAI研究の起点とされる。"
       }
     ],
     "1957": [
@@ -326,51 +181,26 @@
         "url": "https://ja.wikipedia.org/wiki/動的計画法",
         "url_en": "https://en.wikipedia.org/wiki/Dynamic_programming",
         "note": "逐次意思決定を最適化する枠組み。MDP/RLの核。"
-      },
-      {
-        "label": "パーセプトロン",
-        "label_en": "Perceptron",
-        "startYear": 1957,
-        "genre": [
-          "P_NEURAL",
-          "THEORY"
-        ],
-        "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/パーセプトロン",
-        "url_en": "https://en.wikipedia.org/wiki/Perceptron",
-        "note": "単純な神経回路網モデル。初期の機械学習研究を牽引し、後のニューラルネット基盤となった。"
       }
     ],
     "1958": [
       {
         "label": "Lisp",
-        "label_en": "Lisp",
         "startYear": 1958,
         "genre": [
+          "THEORY",
           "SOFTWARE",
           "P_SYMBOLIC"
         ],
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/LISP",
-        "url_en": "https://en.wikipedia.org/wiki/Lisp_(programming_language)",
         "note": "シンボリックAIの主要言語として普及。",
+        "label_en": "Lisp",
+        "url_en": "https://en.wikipedia.org/wiki/Lisp_(programming_language)",
         "note_en": "The primary language of early symbolic AI."
       }
     ],
     "1960": [
-      {
-        "label": "カルマンフィルタ",
-        "label_en": "Kalman filter",
-        "startYear": 1960,
-        "genre": [
-          "P_PROB",
-          "THEORY"
-        ],
-        "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/カルマンフィルタ",
-        "url_en": "https://en.wikipedia.org/wiki/Kalman_filter",
-        "note": "状態推定の代表手法。制御・ロボティクス・追跡で重要。"
-      },
       {
         "label": "マルコフ決定過程",
         "label_en": "Markov decision process",
@@ -396,19 +226,6 @@
         "note": "状態推定の代表手法。制御・ロボティクス・追跡で重要。",
         "label_en": "Kalman filterです。",
         "url_en": "https://en.wikipedia.org/wiki/Kalman_filter"
-      },
-      {
-        "label": "カルマンフィルタ",
-        "label_en": "Kalman filter",
-        "startYear": 1960,
-        "genre": [
-          "P_PROB",
-          "THEORY"
-        ],
-        "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/カルマンフィルタ",
-        "url_en": "https://en.wikipedia.org/wiki/Kalman_filter",
-        "note": "状態推定の代表手法。制御・ロボティクス・追跡で重要。"
       }
     ],
     "1961": [
@@ -426,18 +243,6 @@
       }
     ],
     "1964": [
-      {
-        "label": "ELIZA",
-        "startYear": 1964,
-        "genre": [
-          "THEORY"
-        ],
-        "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/ELIZA",
-        "note": "初期の対話型プログラム。パターン照合で人間らしい応答を模倣した。面白いよーね。",
-        "label_en": "ELIZA",
-        "url_en": "https://en.wikipedia.org/wiki/ELIZA"
-      },
       {
         "label": "セル・オートマトン（理論の普及）",
         "label_en": "Cellular automaton",
