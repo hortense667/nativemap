@@ -158,7 +158,8 @@
         "label": "ペイパルマフィア",
         "startYear": 2002,
         "genre": [
-          "ORG/COMP"
+          "ORG/COMP",
+          "WORK"
         ],
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/%E3%83%9A%E3%82%A4%E3%83%91%E3%83%AB%E3%83%9E%E3%83%95%E3%82%A3%E3%82%A2",
