@@ -114,6 +114,7 @@
       {
         "label": "Apple II",
         "startYear": 1977,
+        "endYear": 1984,
         "genre": [
           "PROD"
         ],
