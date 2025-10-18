@@ -37,6 +37,18 @@
         "startYear": 1960,
         "endYear": 1979,
         "genre": [
+          "ERA",
+          "WORK"
+        ],
+        "imp": 1,
+        "note": "•背景：冷戦・ベトナム反戦・カウンターカルチャー。\n•Stewart Brand『Whole Earth Catalog』（1968）\n　→ “Tools for Human Freedom.”　テクノロジーは自己解放の道具。\n•科学・自然・瞑想・LSD・コンピュータが同じ文脈で語られた。\n\n軸：個人の覚醒（inner revolution）\n→ 世界を変える前に意識を変える。",
+        "label_en": "1960s–70s"
+      },
+      {
+        "label": "1960s–70s　「意識の拡張」",
+        "startYear": 1960,
+        "endYear": 1979,
+        "genre": [
           "ERA"
         ],
         "imp": 1,
