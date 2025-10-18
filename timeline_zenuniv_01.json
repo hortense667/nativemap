@@ -54,9 +54,33 @@
         "imp": 1,
         "note": "•背景：冷戦・ベトナム反戦・カウンターカルチャー。\n•Stewart Brand『Whole Earth Catalog』（1968）\n　→ “Tools for Human Freedom.”　テクノロジーは自己解放の道具。\n•科学・自然・瞑想・LSD・コンピュータが同じ文脈で語られた。\n\n軸：個人の覚醒（inner revolution）\n→ 世界を変える前に意識を変える。",
         "label_en": "1960s–70s"
+      },
+      {
+        "label": "1960s–70s　「意識の拡張」",
+        "startYear": 1960,
+        "endYear": 1979,
+        "genre": [
+          "ERA"
+        ],
+        "imp": 1,
+        "note": "•背景：冷戦・ベトナム反戦・カウンターカルチャー。\n•Stewart Brand『Whole Earth Catalog』（1968）\n　→ “Tools for Human Freedom.”　テクノロジーは自己解放の道具。\n•科学・自然・瞑想・LSD・コンピュータが同じ文脈で語られた。\n\n軸：個人の覚醒（inner revolution）\n→ 世界を変える前に意識を変える。",
+        "label_en": "1960s–70s"
       }
     ],
     "1968": [
+      {
+        "label": "ホールアースカタログ",
+        "startYear": 1968,
+        "genre": [
+          "BOOK",
+          "WORK"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/%E5%85%A8%E5%9C%B0%E7%90%83%E3%82%AB%E3%82%BF%E3%83%AD%E3%82%B0",
+        "note": "『全地球カタログ』（ぜんちきゅうかたろぐ）、英語でホール・アース・カタログ（英語: Whole Earth Catalog）とは、アメリカ合衆国で発刊された、ヒッピー向けの雑誌（カタログ）。WECと略される。",
+        "label_en": "Whole Earth Catalog ...",
+        "url_en": "https://en.wikipedia.org/wiki/Whole_Earth_Catalog"
+      },
       {
         "label": "ホールアースカタログ",
         "startYear": 1968,
