@@ -187,6 +187,18 @@
     ],
     "1993": [
       {
+        "label": "バーチャルコミュニティ",
+        "startYear": 1993,
+        "genre": [
+          "BOOK"
+        ],
+        "imp": 4,
+        "url": "https://en.wikipedia.org/wiki/The_Virtual_Community",
+        "note": "ハワード・ラインゴールドによる本。Virtual Communityは、初期のネットワークシステムTheWELLのメンバーであるHowardRheingoldによる仮想コミュニティに関する1993年の本です。新しい結論の章を含む第2版は、2000年にMITPressから出版されました。",
+        "label_en": "The Virtual Community",
+        "url_en": "https://en.wikipedia.org/wiki/The_Virtual_Community"
+      },
+      {
         "label": "The Virtual Community",
         "startYear": 1993,
         "genre": [
