@@ -40,6 +40,23 @@
           "WORK"
         ],
         "imp": 5
+      },
+      {
+        "label": "hortense",
+        "startYear": 1956,
+        "genre": [
+          "ORG/COMP"
+        ],
+        "imp": 5
+      },
+      {
+        "label": "hortense",
+        "startYear": 1956,
+        "genre": [
+          "ORG/COMP",
+          "WORK"
+        ],
+        "imp": 5
       }
     ],
     "1960": [
