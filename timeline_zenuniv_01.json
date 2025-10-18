@@ -160,6 +160,19 @@
         "label": "ペイパルマフィア",
         "startYear": 2002,
         "genre": [
+          "ORG/COMP",
+          "WORK"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/%E3%83%9A%E3%82%A4%E3%83%91%E3%83%AB%E3%83%9E%E3%83%95%E3%82%A3%E3%82%A2",
+        "note": "2002年のeBayによるPayPal買収以後、サービスやシステムを通じて社会あるいはビジネスを変動させた元PayPal出身者らのグループである",
+        "label_en": "PayPal Mafia",
+        "url_en": "https://en.wikipedia.org/wiki/PayPal_Mafia"
+      },
+      {
+        "label": "ペイパルマフィア",
+        "startYear": 2002,
+        "genre": [
           "ORG/COMP"
         ],
         "imp": 5,
