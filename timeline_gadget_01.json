@@ -2327,6 +2327,12 @@
       "label": "日本ローカル",
       "label_en": "JAPAN",
       "conjunction": true
+    },
+    {
+      "code": "WORK",
+      "label": "作業用（仮）",
+      "label_en": "Scratch",
+      "conjunction": true
     }
   ]
 }
