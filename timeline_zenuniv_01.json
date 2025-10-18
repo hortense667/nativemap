@@ -40,23 +40,6 @@
           "WORK"
         ],
         "imp": 5
-      },
-      {
-        "label": "hortense",
-        "startYear": 1956,
-        "genre": [
-          "ORG/COMP"
-        ],
-        "imp": 5
-      },
-      {
-        "label": "hortense",
-        "startYear": 1956,
-        "genre": [
-          "ORG/COMP",
-          "WORK"
-        ],
-        "imp": 5
       }
     ],
     "1960": [
@@ -71,59 +54,9 @@
         "imp": 1,
         "note": "•背景：冷戦・ベトナム反戦・カウンターカルチャー。\n•Stewart Brand『Whole Earth Catalog』（1968）\n　→ “Tools for Human Freedom.”　テクノロジーは自己解放の道具。\n•科学・自然・瞑想・LSD・コンピュータが同じ文脈で語られた。\n\n軸：個人の覚醒（inner revolution）\n→ 世界を変える前に意識を変える。",
         "label_en": "1960s–70s"
-      },
-      {
-        "label": "1960s–70s　「意識の拡張」",
-        "startYear": 1960,
-        "endYear": 1979,
-        "genre": [
-          "ERA"
-        ],
-        "imp": 1,
-        "note": "•背景：冷戦・ベトナム反戦・カウンターカルチャー。\n•Stewart Brand『Whole Earth Catalog』（1968）\n　→ “Tools for Human Freedom.”　テクノロジーは自己解放の道具。\n•科学・自然・瞑想・LSD・コンピュータが同じ文脈で語られた。\n\n軸：個人の覚醒（inner revolution）\n→ 世界を変える前に意識を変える。",
-        "label_en": "1960s–70s"
-      },
-      {
-        "label": "1960s–70s　「意識の拡張」",
-        "startYear": 1960,
-        "endYear": 1979,
-        "genre": [
-          "ERA",
-          "WORK"
-        ],
-        "imp": 1,
-        "note": "•背景：冷戦・ベトナム反戦・カウンターカルチャー。\n•Stewart Brand『Whole Earth Catalog』（1968）\n　→ “Tools for Human Freedom.”　テクノロジーは自己解放の道具。\n•科学・自然・瞑想・LSD・コンピュータが同じ文脈で語られた。\n\n軸：個人の覚醒（inner revolution）\n→ 世界を変える前に意識を変える。",
-        "label_en": "1960s–70s"
       }
     ],
     "1975": [
-      {
-        "label": "ホームブリュー・コンピュータ・クラブです",
-        "startYear": 1975,
-        "endYear": 1986,
-        "genre": [
-          "EVENT"
-        ],
-        "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/%E3%83%9B%E3%83%BC%E3%83%A0%E3%83%96%E3%83%AA%E3%83%A5%E3%83%BC%E3%83%BB%E3%82%B3%E3%83%B3%E3%83%94%E3%83%A5%E3%83%BC%E3%82%BF%E3%83%BB%E3%82%AF%E3%83%A9%E3%83%96",
-        "note": "カリフォルニア州サンマテオ郡メンローパークで結成された初期のコンピュータを趣味とする人々の団体（ユーザーグループ）であり、1975年3月5日から1986年12月まで活動していた。",
-        "label_en": "Homebrew Computer Club",
-        "url_en": "https://en.wikipedia.org/wiki/Homebrew_Computer_Club"
-      },
-      {
-        "label": "ホームブリュー・コンピュータ・クラブです",
-        "startYear": 1975,
-        "endYear": 1986,
-        "genre": [
-          "EVENT",
-          "WORK"
-        ],
-        "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/%E3%83%9B%E3%83%BC%E3%83%A0%E3%83%96%E3%83%AA%E3%83%A5%E3%83%BC%E3%83%BB%E3%82%B3%E3%83%B3%E3%83%94%E3%83%A5%E3%83%BC%E3%82%BF%E3%83%BB%E3%82%AF%E3%83%A9%E3%83%96",
-        "note": "カリフォルニア州サンマテオ郡メンローパークで結成された初期のコンピュータを趣味とする人々の団体（ユーザーグループ）であり、1975年3月5日から1986年12月まで活動していた。",
-        "label_en": "Homebrew Computer Club",
-        "url_en": "https://en.wikipedia.org/wiki/Homebrew_Computer_Club"
-      },
       {
         "label": "ホームブリュー・コンピュータ・クラブです",
         "startYear": 1975,
@@ -194,29 +127,6 @@
       }
     ],
     "1990": [
-      {
-        "label": "1990年代　「ネット＝新しい教会」だよ",
-        "startYear": 1990,
-        "endYear": 1999,
-        "genre": [
-          "ERA"
-        ],
-        "imp": 1,
-        "note": "•インターネット黎明期、Rheingold『The Virtual Community』、Kelly『Out of Control』。\n•ネットを“集合的意識”と捉えるニューエイジ的思想。\n•国家や宗教の代わりに「分散ネットワーク」が信仰対象に。\n\n軸：霊的救済から情報的救済へ。\n→ “Spiritual Enlightenment” が “Digital Enlightenment” に置き換わる。",
-        "label_en": "1990s"
-      },
-      {
-        "label": "1990年代　「ネット＝新しい教会」だよ",
-        "startYear": 1990,
-        "endYear": 1999,
-        "genre": [
-          "ERA",
-          "WORK"
-        ],
-        "imp": 1,
-        "note": "•インターネット黎明期、Rheingold『The Virtual Community』、Kelly『Out of Control』。\n•ネットを“集合的意識”と捉えるニューエイジ的思想。\n•国家や宗教の代わりに「分散ネットワーク」が信仰対象に。\n\n軸：霊的救済から情報的救済へ。\n→ “Spiritual Enlightenment” が “Digital Enlightenment” に置き換わる。",
-        "label_en": "1990s"
-      },
       {
         "label": "1990年代　「ネット＝新しい教会」だよ",
         "startYear": 1990,
