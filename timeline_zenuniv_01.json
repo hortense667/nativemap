@@ -137,6 +137,20 @@
         "note": "Appleが1977年に発表したパーソナルコンピューター（ないしホームコンピューター）",
         "label_en": "Apple II",
         "url_en": "https://ja.wikipedia.org/wiki/Apple_II"
+      },
+      {
+        "label": "Apple II",
+        "startYear": 1977,
+        "endYear": 1984,
+        "genre": [
+          "PROD",
+          "WORK"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/Apple_II",
+        "note": "Appleが1977年に発表したパーソナルコンピューター（ないしホームコンピューター）",
+        "label_en": "Apple II",
+        "url_en": "https://ja.wikipedia.org/wiki/Apple_II"
       }
     ],
     "1981": [
@@ -162,6 +176,18 @@
         ],
         "imp": 1,
         "note": "•Ronald Reagan期の新自由主義、政府不信、反官僚主義。\n•カウンターカルチャーがリバタリアンに変質。\n　「権力からの自由」→「国家からの自由」→「市場の自由」。\n•Apple、Atari、Homebrew Computer Clubが象徴。\n\n転回の本質：自由が倫理ではなく効率になった。"
+      },
+      {
+        "label": "1980年代　「自由の政治化」",
+        "startYear": 1981,
+        "endYear": 1989,
+        "genre": [
+          "ERA",
+          "WORK"
+        ],
+        "imp": 1,
+        "note": "•Ronald Reagan期の新自由主義、政府不信、反官僚主義。\n•カウンターカルチャーがリバタリアンに変質。\n　「権力からの自由」→「国家からの自由」→「市場の自由」。\n•Apple、Atari、Homebrew Computer Clubが象徴。\n\n転回の本質：自由が倫理ではなく効率になった。",
+        "label_en": "The Politicization of Freedom in the 1980s"
       }
     ],
     "1990": [
@@ -178,6 +204,17 @@
       },
       {
         "label": "1990年代　「ネット＝新しい教会」",
+        "startYear": 1990,
+        "endYear": 1999,
+        "genre": [
+          "ERA"
+        ],
+        "imp": 1,
+        "note": "•インターネット黎明期、Rheingold『The Virtual Community』、Kelly『Out of Control』。\n•ネットを“集合的意識”と捉えるニューエイジ的思想。\n•国家や宗教の代わりに「分散ネットワーク」が信仰対象に。\n\n軸：霊的救済から情報的救済へ。\n→ “Spiritual Enlightenment” が “Digital Enlightenment” に置き換わる。",
+        "label_en": "1990s"
+      },
+      {
+        "label": "1990年代　「ネット＝新しい教会」だよ",
         "startYear": 1990,
         "endYear": 1999,
         "genre": [
@@ -204,6 +241,19 @@
       }
     ],
     "1993": [
+      {
+        "label": "The Virtual Community",
+        "startYear": 1993,
+        "genre": [
+          "BOOK",
+          "WORK"
+        ],
+        "imp": 4,
+        "url": "https://en.wikipedia.org/wiki/The_Virtual_Community",
+        "note": "ハワード・ラインゴールドによる本。Virtual Communityは、初期のネットワークシステムTheWELLのメンバーであるHowardRheingoldによる仮想コミュニティに関する1993年の本です。新しい結論の章を含む第2版は、2000年にMITPressから出版されました。",
+        "label_en": "The Virtual Community",
+        "url_en": "https://en.wikipedia.org/wiki/The_Virtual_Community"
+      },
       {
         "label": "The Virtual Community",
         "startYear": 1993,
