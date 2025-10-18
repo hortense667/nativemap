@@ -62,7 +62,8 @@
         "label": "ホームブリュー・コンピュータ・クラブ",
         "startYear": 1975,
         "genre": [
-          "ORG/COMP"
+          "ORG/COMP",
+          "WORK"
         ],
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/%E3%83%9B%E3%83%BC%E3%83%A0%E3%83%96%E3%83%AA%E3%83%A5%E3%83%BC%E3%83%BB%E3%82%B3%E3%83%B3%E3%83%94%E3%83%A5%E3%83%BC%E3%82%BF%E3%83%BB%E3%82%AF%E3%83%A9%E3%83%96",
