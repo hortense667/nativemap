@@ -46,6 +46,19 @@
         "label_en": "1960s–70s"
       }
     ],
+    "1968": [
+      {
+        "label": "ホールアースカタログ",
+        "startYear": 1968,
+        "genre": [
+          "BOOK"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/%E5%85%A8%E5%9C%B0%E7%90%83%E3%82%AB%E3%82%BF%E3%83%AD%E3%82%B0",
+        "label_en": "Whole Earth Catalog",
+        "url_en": "https://en.wikipedia.org/wiki/Whole_Earth_Catalog"
+      }
+    ],
     "1977": [
       {
         "label": "Apple II",
@@ -77,6 +90,20 @@
       },
       {
         "label": "Apple II",
+        "startYear": 1977,
+        "endYear": 1984,
+        "genre": [
+          "PROD",
+          "WORK"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/Apple_II",
+        "note": "Appleが1977年に発表したパーソナルコンピューター（ないしホームコンピューター）",
+        "label_en": "Apple II",
+        "url_en": "https://ja.wikipedia.org/wiki/Apple_II"
+      },
+      {
+        "label": "アップルツー",
         "startYear": 1977,
         "endYear": 1984,
         "genre": [
