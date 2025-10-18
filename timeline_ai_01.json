@@ -31,34 +31,7 @@
     "notes": "Updates from contributors are welcome. Please do not create separate versions. When reusing data, credit the original authors."
   },
   "events": {
-    "1942": [
-      {
-        "label": "ロボット工学三原則",
-        "label_en": "Three Laws of Robotics",
-        "startYear": 1942,
-        "genre": [
-          "CONTENT"
-        ],
-        "imp": 5,
-        "url": "[https://ja.wikipedia.org/wiki/ロボット工学三原則",
-        "url_en": "https://en.wikipedia.org/wiki/Three_Laws_of_Robotics",
-        "note": "アシモフが提示したロボット行動の基本原則。",
-        "note_en": ""
-      },
-      {
-        "label": "ロボット工学三原則",
-        "startYear": 1942,
-        "genre": [
-          "THEORY",
-          "CONTENT"
-        ],
-        "imp": 5,
-        "url": "[https://ja.wikipedia.org/wiki/ロボット工学三原則",
-        "note": "アシモフが提示したロボット行動の基本原則。",
-        "label_en": "Three Laws of Robotics",
-        "url_en": "https://en.wikipedia.org/wiki/Three_Laws_of_Robotics"
-      }
-    ],
+    "1942": [],
     "1943": [
       {
         "label": "マッカロック＝ピッツ・神経細胞モデル",
@@ -87,18 +60,6 @@
     ],
     "1948": [
       {
-        "label": "サイバネティックス",
-        "label_en": "Cybernetics",
-        "startYear": 1948,
-        "genre": [
-          "THEORY"
-        ],
-        "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/サイバネティックス",
-        "url_en": "https://en.wikipedia.org/wiki/Cybernetics",
-        "note": "制御・通信の一般理論。フィードバック概念でAIとロボに影響。"
-      },
-      {
         "label": "情報理論",
         "label_en": "Information theory",
         "startYear": 1948,
@@ -110,6 +71,18 @@
         "url": "https://ja.wikipedia.org/wiki/情報理論",
         "url_en": "https://en.wikipedia.org/wiki/Information_theory",
         "note": "シャノンが通信における情報量と符号化を定式化。"
+      },
+      {
+        "label": "サイバネティックス",
+        "label_en": "Cybernetics",
+        "startYear": 1948,
+        "genre": [
+          "THEORY"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/サイバネティックス",
+        "url_en": "https://en.wikipedia.org/wiki/Cybernetics",
+        "note": "制御・通信の一般理論。フィードバック概念でAIとロボに影響。"
       }
     ],
     "1950": [
@@ -2030,34 +2003,6 @@
       }
     ],
     "2009": [
-      {
-        "label": "ImageNet",
-        "label_en": "ImageNet",
-        "startYear": 2009,
-        "genre": [
-          "DATA",
-          "EVENT"
-        ],
-        "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/ImageNet",
-        "url_en": "https://en.wikipedia.org/wiki/ImageNet",
-        "note": "大規模画像データセットとコンテスト。",
-        "note_en": "Large-scale image dataset and challenge."
-      },
-      {
-        "label": "ImageNet",
-        "label_en": "ImageNet",
-        "startYear": 2009,
-        "genre": [
-          "DATA",
-          "SOFTWARE",
-          "THEORY"
-        ],
-        "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/ImageNet",
-        "url_en": "https://en.wikipedia.org/wiki/ImageNet",
-        "note": "大規模画像データセット。視覚認識研究と競技ILSVRCを牽引。"
-      },
       {
         "label": "サマーウォーズ",
         "label_en": "Summer Wars",
