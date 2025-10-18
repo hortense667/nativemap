@@ -217,51 +217,6 @@
     ]
   },
   "eraSettings": [
-    {
-      "name": "3. 転回②：1990年代　「ネット＝新しい教会」",
-      "startYear": 1990,
-      "endYear": 1999,
-      "color": "#4169E1",
-      "opacity": "0.3",
-      "enabled": true,
-      "fillEnabled": true
-    },
-    {
-      "name": "1. 出発：1960s–70s　「意識の拡張」",
-      "startYear": 1960,
-      "endYear": 1979,
-      "color": "#DC143C",
-      "opacity": "0.3",
-      "enabled": true,
-      "fillEnabled": true
-    },
-    {
-      "name": "2．転回①：1980年代　「自由の政治化」",
-      "startYear": 1980,
-      "endYear": 1989,
-      "color": "#4169E1",
-      "opacity": "0.3",
-      "enabled": true,
-      "fillEnabled": true
-    },
-    {
-      "name": "4. 転回③：2000年代　「起業家＝預言者」",
-      "startYear": 2000,
-      "endYear": 2009,
-      "color": "#FFD700",
-      "opacity": "0.3",
-      "enabled": true,
-      "fillEnabled": true
-    },
-    {
-      "name": "5. 極点：2010s–2020s　「テクノ・メシアの出現」",
-      "startYear": 2010,
-      "endYear": 2019,
-      "color": "#DC143C",
-      "opacity": "0.5",
-      "enabled": true,
-      "fillEnabled": true
-    }
   ],
   "genres": [
     {
