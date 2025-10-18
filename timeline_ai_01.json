@@ -415,21 +415,6 @@
         "note": "マッチ箱とビーズで学習を示した三目並べ装置。"
       }
     ],
-    "1962": [
-      {
-        "label": "一次視覚野の研究",
-        "startYear": 1962,
-        "genre": [
-          "THEORY",
-          "P_NEURAL"
-        ],
-        "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/%E8%A6%96%E8%A6%9A%E9%87%8E",
-        "note": "デイビッド・ヒューベルとトルステン・ウィーセルによる視覚野に関する研究論文が発表される",
-        "label_en": "Research on the primary visual cortex",
-        "url_en": "https://en.wikipedia.org/wiki/Visual_cortex"
-      }
-    ],
     "1964": [
       {
         "label": "ELIZA",
