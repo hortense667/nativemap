@@ -1,4 +1,5 @@
 {
+  "schemaVersion": 1,
   "metadata": {
     "title": {
       "ja": "AIの年表 0.1",
@@ -30,32 +31,133 @@
     "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
     "notes": "Updates from contributors are welcome. Please do not create separate versions. When reusing data, credit the original authors."
   },
+  "genres": [
+    {
+      "code": "THEORY",
+      "label": "理論/モデル/アルゴリズム",
+      "label_en": "Theory/Models/Algorithms",
+      "conjunction": false
+    },
+    {
+      "code": "SOFTWARE",
+      "label": "ソフトウェア/開発基盤/サービス",
+      "label_en": "Software/Frameworks/Services",
+      "conjunction": false
+    },
+    {
+      "code": "HARDWARE",
+      "label": "ハードウェア/デバイス/計算基盤",
+      "label_en": "Hardware/Devices/Compute",
+      "conjunction": false
+    },
+    {
+      "code": "ROBOTICS",
+      "label": "ロボティクス/自律システム",
+      "label_en": "Robotics/Autonomous Systems",
+      "conjunction": false
+    },
+    {
+      "code": "DATA",
+      "label": "データセット/ベンチマーク",
+      "label_en": "Datasets/Benchmarks",
+      "conjunction": false
+    },
+    {
+      "code": "ORG",
+      "label": "人物/組織/プロジェクト",
+      "label_en": "People/Orgs/Projects",
+      "conjunction": false
+    },
+    {
+      "code": "APPLICATION",
+      "label": "応用/製品/サービス",
+      "label_en": "Applications/Products/Services",
+      "conjunction": false
+    },
+    {
+      "code": "CONTENT",
+      "label": "メディア/コンテンツ（小説/映画/アニメ/ゲーム/書籍）",
+      "label_en": "Media/Content (Fiction/Film/Anime/Game/Books)",
+      "conjunction": false
+    },
+    {
+      "code": "EVENT",
+      "label": "出来事/政策/競技/歴史的転換",
+      "label_en": "Events/Policy/Competitions/Turning points",
+      "conjunction": false
+    },
+    {
+      "code": "P_NEURAL",
+      "label": "ニューラルネット系",
+      "label_en": "Neural-network based",
+      "conjunction": true
+    },
+    {
+      "code": "P_SYMBOLIC",
+      "label": "記号処理/ルール系",
+      "label_en": "Symbolic/Rule-based",
+      "conjunction": true
+    },
+    {
+      "code": "P_GENERATIVE",
+      "label": "生成モデル系",
+      "label_en": "Generative models",
+      "conjunction": true
+    },
+    {
+      "code": "P_RL",
+      "label": "強化学習系",
+      "label_en": "Reinforcement learning",
+      "conjunction": true
+    },
+    {
+      "code": "P_PROB",
+      "label": "確率/ベイズ系",
+      "label_en": "Probabilistic/Bayesian",
+      "conjunction": true
+    },
+    {
+      "code": "P_EVOL",
+      "label": "進化/遺伝的計算系",
+      "label_en": "Evolutionary/Genetic",
+      "conjunction": true
+    },
+    {
+      "code": "JAPAN",
+      "label": "日本",
+      "label_en": "Japan",
+      "conjunction": true
+    },
+    {
+      "code": "CHINA",
+      "label": "中国", 
+      "label_en": "CHINA",
+      "conjunction": true
+    },
+    {
+      "code": "BACKGROUND",
+      "label": "時代背景/一般技術",
+      "label_en": "Era background / General tech",
+      "conjunction": false
+    }  
+  ],
   "events": {
+    "1942": [
+      {
+        "label": "ロボット工学三原則",
+        "label_en": "Three Laws of Robotics",
+        "startYear": 1942,
+        "genre": [
+          "CONTENT"
+        ],
+        "imp": 5,
+        "url": "[https://ja.wikipedia.org/wiki/ロボット工学三原則",
+        "url_en": "https://en.wikipedia.org/wiki/Three_Laws_of_Robotics",
+        "note": "アシモフが提示したロボット行動の基本原則。",
+        "note_en": ""
+      }
+    ],
     "1943": [
-      {
-        "label": "マッカロック＝ピッツ・神経細胞モデル",
-        "startYear": 1943,
-        "genre": [
-          "THEORY"
-        ],
-        "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/マッカロック-ピッツの神経細胞モデル",
-        "note": "形式ニューロンで論理計算を示し神経計算の礎を築いた。",
-        "label_en": "McCulloch?Pitts neuron",
-        "url_en": "https://en.wikipedia.org/wiki/Artificial_neuron"
-      },
-      {
-        "label": "マッカロック＝ピッツ・ニューロン",
-        "label_en": "McCulloch?Pitts neuron",
-        "startYear": 1943,
-        "genre": [
-          "THEORY"
-        ],
-        "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/マッカロック-ピッツの神経細胞モデル",
-        "url_en": "https://en.wikipedia.org/wiki/Artificial_neuron",
-        "note": "形式ニューロンで論理計算を示し神経計算の礎を築いた。"
-      },
       {
         "label": "マッカロック＝ピッツ・ニューロン",
         "label_en": "McCulloch?Pitts neuron",
@@ -69,49 +171,106 @@
         "note": "形式ニューロンで論理計算を示し神経計算の礎を築いた。"
       }
     ],
-    "1949": [
+    "1948": [
+      {
+        "label": "サイバネティックス",
+        "label_en": "Cybernetics",
+        "startYear": 1948,
+        "genre": [
+          "THEORY"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/サイバネティックス",
+        "url_en": "https://en.wikipedia.org/wiki/Cybernetics",
+        "note": "制御・通信の一般理論。フィードバック概念でAIとロボに影響。"
+      },
       {
         "label": "情報理論",
-        "startYear": 1949,
+        "label_en": "Information theory",
+        "startYear": 1948,
         "genre": [
-          "THEORY",
-          "P_PROB"
+          "P_PROB",
+          "THEORY"
         ],
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/情報理論",
-        "note": "シャノンが通信における情報量と符号化を定式化。",
-        "label_en": "Information theory",
-        "url_en": "https://en.wikipedia.org/wiki/Information_theory"
+        "url_en": "https://en.wikipedia.org/wiki/Information_theory",
+        "note": "シャノンが通信における情報量と符号化を定式化。"
+      }
+    ],
+    "1950": [
+      {
+        "label": "チューリング・テスト",
+        "label_en": "Turing test",
+        "startYear": 1950,
+        "genre": [
+          "THEORY"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/チューリング・テスト",
+        "url_en": "https://en.wikipedia.org/wiki/Turing_test",
+        "note": "機械の知能を人と区別できるかを問う思考実験。AI評価基準として広く知られる概念。"
+      },
+      {
+        "label": "われはロボット",
+        "label_en": "I, Robot",
+        "startYear": 1950,
+        "genre": [
+          "CONTENT",
+          "HARDWARE",
+          "ROBOTICS"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/われはロボット",
+        "url_en": "https://en.wikipedia.org/wiki/I,_Robot",
+        "note": "アシモフの短編集。三原則を軸に人間とロボットの関係を描く。"
+      }
+    ],
+    "1951": [
+      {
+        "label": "SNARC（初期の神経回路機械）",
+        "label_en": "SNARC",
+        "startYear": 1951,
+        "genre": [
+          "HARDWARE"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/SNARC",
+        "url_en": "https://en.wikipedia.org/wiki/SNARC",
+        "note": "ミンスキーらの確率学習機構を持つ初期ニューロ機械。"
       }
     ],
     "1952": [
       {
-        "label": "チューリングパターン（反応拡散）もはやこれだろー。",
+        "label": "チューリングパターン（反応拡散）",
+        "label_en": "Turing patterns (reaction?diffusion)",
         "startYear": 1952,
         "genre": [
-          "THEORY",
-          "P_GENERATIVE"
+          "P_GENERATIVE",
+          "THEORY"
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/反応拡散系",
-        "note": "形態形成の数理。自己組織化・パターン生成の理論的根拠。",
-        "label_en": "Turing patterns (reaction?diffusion)",
-        "url_en": "https://en.wikipedia.org/wiki/Turing_pattern"
-      }
-    ],
-    "1954": [
+        "url_en": "https://en.wikipedia.org/wiki/Turing_pattern",
+        "note": "形態形成の数理。自己組織化・パターン生成の理論的根拠。"
+      },
       {
-        "label": "hortense",
-        "startYear": 1954,
+        "label": "鉄腕アトム",
+        "label_en": "Astro Boy",
+        "startYear": 1952,
         "genre": [
-          "THEORY"
+          "CONTENT"
         ],
-        "imp": 5
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/鉄腕アトム",
+        "url_en": "https://en.wikipedia.org/wiki/Astro_Boy",
+        "note": "高性能な心を持つロボット少年の活躍を描く名作。"
       }
     ],
     "1955": [
       {
-        "label": "生成文法",
+        "label": "生成文法（チョムスキー）",
+        "label_en": "Generative grammar",
         "startYear": 1955,
         "genre": [
           "THEORY",
@@ -119,25 +278,24 @@
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/生成文法",
-        "note": "自然言語の形式的記述の基礎を築いた理論。AI言語処理にも影響。",
-        "label_en": "Generative grammar",
         "url_en": "https://en.wikipedia.org/wiki/Generative_grammar",
+        "note": "自然言語の形式的記述の基礎を築いた理論。AI言語処理にも影響。",
         "note_en": "A foundational theory of formal language description influencing NLP."
       }
     ],
     "1956": [
       {
-        "label": "ダートマス会議です。",
+        "label": "ダートマス会議",
+        "label_en": "Dartmouth workshop",
         "startYear": 1956,
         "genre": [
-          "THEORY",
-          "EVENT"
+          "EVENT",
+          "THEORY"
         ],
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/ダートマス会議_(人工知能)",
-        "note": "「人工知能」という研究分野名が提案された創始的会議。以後のAI研究の起点とされる。",
-        "label_en": "Dartmouth workshop",
-        "url_en": "https://en.wikipedia.org/wiki/Dartmouth_workshop"
+        "url_en": "https://en.wikipedia.org/wiki/Dartmouth_workshop",
+        "note": "「人工知能」という研究分野名が提案された創始的会議。以後のAI研究の起点とされる。"
       },
       {
         "label": "ロジック・セオリスト",
@@ -178,26 +336,51 @@
         "url": "https://ja.wikipedia.org/wiki/動的計画法",
         "url_en": "https://en.wikipedia.org/wiki/Dynamic_programming",
         "note": "逐次意思決定を最適化する枠組み。MDP/RLの核。"
+      },
+      {
+        "label": "パーセプトロン",
+        "label_en": "Perceptron",
+        "startYear": 1957,
+        "genre": [
+          "P_NEURAL",
+          "THEORY"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/パーセプトロン",
+        "url_en": "https://en.wikipedia.org/wiki/Perceptron",
+        "note": "単純な神経回路網モデル。初期の機械学習研究を牽引し、後のニューラルネット基盤となった。"
       }
     ],
     "1958": [
       {
         "label": "Lisp",
+        "label_en": "Lisp",
         "startYear": 1958,
         "genre": [
-          "THEORY",
           "SOFTWARE",
           "P_SYMBOLIC"
         ],
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/LISP",
-        "note": "シンボリックAIの主要言語として普及。",
-        "label_en": "Lisp",
         "url_en": "https://en.wikipedia.org/wiki/Lisp_(programming_language)",
+        "note": "シンボリックAIの主要言語として普及。",
         "note_en": "The primary language of early symbolic AI."
       }
     ],
     "1960": [
+      {
+        "label": "カルマンフィルタ",
+        "label_en": "Kalman filter",
+        "startYear": 1960,
+        "genre": [
+          "P_PROB",
+          "THEORY"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/カルマンフィルタ",
+        "url_en": "https://en.wikipedia.org/wiki/Kalman_filter",
+        "note": "状態推定の代表手法。制御・ロボティクス・追跡で重要。"
+      },
       {
         "label": "マルコフ決定過程",
         "label_en": "Markov decision process",
@@ -210,19 +393,6 @@
         "url": "https://ja.wikipedia.org/wiki/マルコフ決定過程",
         "url_en": "https://en.wikipedia.org/wiki/Markov_decision_process",
         "note": "確率的環境での最適方策を扱う数理モデル。"
-      },
-      {
-        "label": "カルマンフィルタ",
-        "startYear": 1960,
-        "genre": [
-          "THEORY",
-          "P_PROB"
-        ],
-        "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/カルマンフィルタ",
-        "note": "状態推定の代表手法。制御・ロボティクス・追跡で重要。",
-        "label_en": "Kalman filterです。",
-        "url_en": "https://en.wikipedia.org/wiki/Kalman_filter"
       }
     ],
     "1961": [
@@ -239,7 +409,34 @@
         "note": "マッチ箱とビーズで学習を示した三目並べ装置。"
       }
     ],
+    "1962": [
+      {
+        "label": "一次視覚野の研究",
+        "startYear": 1962,
+        "genre": [
+          "THEORY",
+          "P_NEURAL"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/%E8%A6%96%E8%A6%9A%E9%87%8E",
+        "note": "デイビッド・ヒューベルとトルステン・ウィーセルによる視覚野に関する研究論文が発表される",
+        "label_en": "Research on the primary visual cortex",
+        "url_en": "https://en.wikipedia.org/wiki/Visual_cortex"
+      }
+    ],
     "1964": [
+      {
+        "label": "ELIZA",
+        "label_en": "ELIZA",
+        "startYear": 1964,
+        "genre": [
+          "THEORY"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/ELIZA",
+        "url_en": "https://en.wikipedia.org/wiki/ELIZA",
+        "note": "初期の対話型プログラム。パターン照合で人間らしい応答を模倣した。"
+      },
       {
         "label": "セル・オートマトン（理論の普及）",
         "label_en": "Cellular automaton",
@@ -1919,6 +2116,34 @@
       }
     ],
     "2009": [
+      {
+        "label": "ImageNet",
+        "label_en": "ImageNet",
+        "startYear": 2009,
+        "genre": [
+          "DATA",
+          "EVENT"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/ImageNet",
+        "url_en": "https://en.wikipedia.org/wiki/ImageNet",
+        "note": "大規模画像データセットとコンテスト。",
+        "note_en": "Large-scale image dataset and challenge."
+      },
+      {
+        "label": "ImageNet",
+        "label_en": "ImageNet",
+        "startYear": 2009,
+        "genre": [
+          "DATA",
+          "SOFTWARE",
+          "THEORY"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/ImageNet",
+        "url_en": "https://en.wikipedia.org/wiki/ImageNet",
+        "note": "大規模画像データセット。視覚認識研究と競技ILSVRCを牽引。"
+      },
       {
         "label": "サマーウォーズ",
         "label_en": "Summer Wars",
@@ -5427,115 +5652,5 @@
       }
     ]
   },
-  "eraSettings": [],
-  "genres": [
-    {
-      "code": "THEORY",
-      "label": "理論/モデル/アルゴリズム",
-      "label_en": "Theory/Models/Algorithms",
-      "conjunction": false
-    },
-    {
-      "code": "SOFTWARE",
-      "label": "ソフトウェア/開発基盤/サービス",
-      "label_en": "Software/Frameworks/Services",
-      "conjunction": false
-    },
-    {
-      "code": "HARDWARE",
-      "label": "ハードウェア/デバイス/計算基盤",
-      "label_en": "Hardware/Devices/Compute",
-      "conjunction": false
-    },
-    {
-      "code": "ROBOTICS",
-      "label": "ロボティクス/自律システム",
-      "label_en": "Robotics/Autonomous Systems",
-      "conjunction": false
-    },
-    {
-      "code": "DATA",
-      "label": "データセット/ベンチマーク",
-      "label_en": "Datasets/Benchmarks",
-      "conjunction": false
-    },
-    {
-      "code": "ORG",
-      "label": "人物/組織/プロジェクト",
-      "label_en": "People/Orgs/Projects",
-      "conjunction": false
-    },
-    {
-      "code": "APPLICATION",
-      "label": "応用/製品/サービス",
-      "label_en": "Applications/Products/Services",
-      "conjunction": false
-    },
-    {
-      "code": "CONTENT",
-      "label": "メディア/コンテンツ（小説/映画/アニメ/ゲーム/書籍）",
-      "label_en": "Media/Content (Fiction/Film/Anime/Game/Books)",
-      "conjunction": false
-    },
-    {
-      "code": "EVENT",
-      "label": "出来事/政策/競技/歴史的転換",
-      "label_en": "Events/Policy/Competitions/Turning points",
-      "conjunction": false
-    },
-    {
-      "code": "P_NEURAL",
-      "label": "ニューラルネット系",
-      "label_en": "Neural-network based",
-      "conjunction": true
-    },
-    {
-      "code": "P_SYMBOLIC",
-      "label": "記号処理/ルール系",
-      "label_en": "Symbolic/Rule-based",
-      "conjunction": true
-    },
-    {
-      "code": "P_GENERATIVE",
-      "label": "生成モデル系",
-      "label_en": "Generative models",
-      "conjunction": true
-    },
-    {
-      "code": "P_RL",
-      "label": "強化学習系",
-      "label_en": "Reinforcement learning",
-      "conjunction": true
-    },
-    {
-      "code": "P_PROB",
-      "label": "確率/ベイズ系",
-      "label_en": "Probabilistic/Bayesian",
-      "conjunction": true
-    },
-    {
-      "code": "P_EVOL",
-      "label": "進化/遺伝的計算系",
-      "label_en": "Evolutionary/Genetic",
-      "conjunction": true
-    },
-    {
-      "code": "JAPAN",
-      "label": "日本",
-      "label_en": "Japan",
-      "conjunction": true
-    },
-    {
-      "code": "CHINA",
-      "label": "中国",
-      "label_en": "CHINA",
-      "conjunction": true
-    },
-    {
-      "code": "BACKGROUND",
-      "label": "時代背景/一般技術",
-      "label_en": "Era background / General tech",
-      "conjunction": false
-    }
-  ]
+  "eraSettings": []
 }

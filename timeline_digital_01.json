@@ -1,4 +1,5 @@
 {
+  "schemaVersion": 1,
   "metadata": {
     "title": {
       "ja": "日本のデジタル年表 0.1",
@@ -33,7 +34,8 @@
   "events": {
     "1945": [
       {
-        "label": "ノイマン型アーキテクチャかな。",
+        "label": "ノイマン型アーキテクチャ",
+        "label_en": "Von Neumann architecture",
         "startYear": 1945,
         "genre": [
           "THE",
@@ -42,9 +44,8 @@
         ],
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/ノイマン型アーキテクチャ",
-        "note": "現代計算機の基本構造（プログラム内蔵方式）。",
-        "label_en": "Von Neumann architecture",
         "url_en": "https://en.wikipedia.org/wiki/Von_Neumann_architecture",
+        "note": "現代計算機の基本構造（プログラム内蔵方式）。",
         "note_en": "Stored-program computer architecture foundational today."
       }
     ],
