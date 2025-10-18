@@ -69,6 +69,33 @@
         "note": "カリフォルニア州サンマテオ郡メンローパークで結成された初期のコンピュータを趣味とする人々の団体（ユーザーグループ）であり、1975年3月5日から1986年12月まで活動していた。",
         "label_en": "Homebrew Computer Club",
         "url_en": "https://en.wikipedia.org/wiki/Homebrew_Computer_Club"
+      },
+      {
+        "label": "ホームブリュー・コンピュータ・クラブです",
+        "startYear": 1975,
+        "endYear": 1986,
+        "genre": [
+          "EVENT",
+          "WORK"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/%E3%83%9B%E3%83%BC%E3%83%A0%E3%83%96%E3%83%AA%E3%83%A5%E3%83%BC%E3%83%BB%E3%82%B3%E3%83%B3%E3%83%94%E3%83%A5%E3%83%BC%E3%82%BF%E3%83%BB%E3%82%AF%E3%83%A9%E3%83%96",
+        "note": "カリフォルニア州サンマテオ郡メンローパークで結成された初期のコンピュータを趣味とする人々の団体（ユーザーグループ）であり、1975年3月5日から1986年12月まで活動していた。",
+        "label_en": "Homebrew Computer Club",
+        "url_en": "https://en.wikipedia.org/wiki/Homebrew_Computer_Club"
+      },
+      {
+        "label": "ホームブリュー・コンピュータ・クラブです",
+        "startYear": 1975,
+        "endYear": 1986,
+        "genre": [
+          "EVENT"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/%E3%83%9B%E3%83%BC%E3%83%A0%E3%83%96%E3%83%AA%E3%83%A5%E3%83%BC%E3%83%BB%E3%82%B3%E3%83%B3%E3%83%94%E3%83%A5%E3%83%BC%E3%82%BF%E3%83%BB%E3%82%AF%E3%83%A9%E3%83%96",
+        "note": "カリフォルニア州サンマテオ郡メンローパークで結成された初期のコンピュータを趣味とする人々の団体（ユーザーグループ）であり、1975年3月5日から1986年12月まで活動していた。",
+        "label_en": "Homebrew Computer Club",
+        "url_en": "https://en.wikipedia.org/wiki/Homebrew_Computer_Club"
       }
     ],
     "1977": [
