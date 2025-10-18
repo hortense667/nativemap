@@ -248,6 +248,32 @@
         "url": "https://ja.wikipedia.org/wiki/オペラント条件づけ",
         "url_en": "https://en.wikipedia.org/wiki/Operant_conditioning",
         "note": "報酬と罰による行動形成。RLの心理学的基盤。"
+      },
+      {
+        "label": "ダートマス会議です。",
+        "startYear": 1956,
+        "genre": [
+          "THEORY",
+          "EVENT"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/ダートマス会議_(人工知能)",
+        "note": "「人工知能」という研究分野名が提案された創始的会議。以後のAI研究の起点とされる。",
+        "label_en": "Dartmouth workshop",
+        "url_en": "https://en.wikipedia.org/wiki/Dartmouth_workshop"
+      },
+      {
+        "label": "ダートマス会議",
+        "label_en": "Dartmouth workshop",
+        "startYear": 1956,
+        "genre": [
+          "EVENT",
+          "THEORY"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/ダートマス会議_(人工知能)",
+        "url_en": "https://en.wikipedia.org/wiki/Dartmouth_workshop",
+        "note": "「人工知能」という研究分野名が提案された創始的会議。以後のAI研究の起点とされる。"
       }
     ],
     "1957": [
