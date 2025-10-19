@@ -119,20 +119,6 @@
         "note_en": "A tuning fork watch noted for accuracy, ushering electronic timepieces."
       },
       {
-        "label": "Heathkit EC-1 アナログコンピュータ",
-        "label_en": "Heathkit EC-1",
-        "startYear": 1960,
-        "genre": [
-          "COMPUTER",
-          "MAKER"
-        ],
-        "imp": 3,
-        "url": "https://commons.wikimedia.org/wiki/File:Heathkit_Analog_Computer.jpg",
-        "url_en": "https://commons.wikimedia.org/wiki/File:Heathkit_Analog_Computer.jpg",
-        "note": "1960年に登場した教育用アナログ計算機で、制御工学などの学習用に広く用いられた。",
-        "note_en": "Introduced in 1960, an educational analog computer widely used for teaching control and circuit theory."
-      },
-      {
         "label": "アコースティックカプラ（1960年代）",
         "label_en": "Acoustic coupler(The 1960s)",
         "startYear": 1960,
@@ -164,19 +150,7 @@
         "note_en": "Educational electromechanical trainer by Claude Shannon for learning binary logic and computing concepts."
       }
     ],
-    "1962": [
-      {
-        "label": "MINIVAC 6010",
-        "label_en": "MINIVAC 6010",
-        "startYear": 1962,
-        "genre": [
-          "COMPUTER"
-        ],
-        "imp": 3,
-        "note": "MINIVAC 6010はScientific Developmentのコンピュータで、当時の利用に広く用いられた。",
-        "note_en": "MINIVAC 6010 is a computer by Scientific Development, widely used in its era."
-      }
-    ],
+    "1962": [],
     "1963": [
       {
         "label": "コンパクトカセット",
@@ -470,17 +444,6 @@
         "note_en": "\"8‑bit CPU notable for its single 5V supply"
       },
       {
-        "label": "SMP80/X",
-        "label_en": "SMP80/X",
-        "startYear": 1974,
-        "genre": [
-          "COMPUTER"
-        ],
-        "imp": 3,
-        "note": "SMP80/Xはソード電算機システム（現ソード）のコンピュータで、当時の利用に広く用いられた。",
-        "note_en": "SMP80/X is a computer by ソード電算機システム（現ソード）, widely used in its era."
-      },
-      {
         "label": "『Whole Earth Catalog』（『Whole Earth Epilog』）",
         "label_en": "『Whole Earth Epilog』",
         "startYear": 1974,
@@ -642,21 +605,6 @@
         "url_en": "https://en.wikipedia.org/wiki/Polaroid_OneStep",
         "note": "大衆向け即写カメラのヒット機。",
         "note_en": "A popular consumer instant camera by Polaroid."
-      },
-      {
-        "label": "Apple II シリーズ",
-        "label_en": "Apple II series",
-        "startYear": 1977,
-        "endYear": 1993,
-        "genre": [
-          "COMPUTER",
-          "COMM"
-        ],
-        "imp": 5,
-        "url": "https://en.wikipedia.org/wiki/Apple_II",
-        "url_en": "https://en.wikipedia.org/wiki/Apple_II",
-        "note": "カラー表示と拡張性で家庭・教育に広く普及し、表計算VisiCalcなどの普及に寄与した。",
-        "note_en": "Color-capable, expandable microcomputer line that popularized home/education computing and VisiCalc."
       },
       {
         "label": "Commodore PET 2001",
@@ -1434,6 +1382,20 @@
         "imp": 3,
         "note": "Lisaはアップルコンピュータ（現アップル）のコンピュータで、当時の利用に広く用いられた。",
         "note_en": "Lisa is a computer by アップルコンピュータ（現アップル）, widely used in its era."
+      },
+      {
+        "label": "Compaq Portable",
+        "label_en": "Compaq Portable",
+        "startYear": 1983,
+        "genre": [
+          "COMPUTER",
+          "MOBILE"
+        ],
+        "imp": 4,
+        "url": "https://en.wikipedia.org/wiki/Compaq_Portable",
+        "url_en": "https://en.wikipedia.org/wiki/Compaq_Portable",
+        "note": "IBM PC互換のラゲッジ型で、互換BIOSによりPC/AT互換機市場を切り開いた。",
+        "note_en": "Luggable IBM‑PC‑compatible with a clean‑room BIOS that opened the clone market."
       }
     ],
     "1984": [
@@ -1529,6 +1491,19 @@
         "url_en": "https://en.wikipedia.org/wiki/Apple_IIc",
         "note": "拡張スロットを省いた小型化モデルで、可搬性を高めた。",
         "note_en": "A compact Apple II model without slots that improved portability."
+      },
+      {
+        "label": "Macintosh",
+        "label_en": "Macintosh",
+        "startYear": 1984,
+        "genre": [
+          "COMPUTER"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/Macintosh",
+        "url_en": "https://en.wikipedia.org/wiki/Macintosh",
+        "note": "GUIとマウス操作を一般層に普及。",
+        "note_en": "GUI-based PC that popularized the mouse for consumers."
       }
     ],
     "1985": [
@@ -1639,6 +1614,20 @@
         "url_en": "https://en.wikipedia.org/wiki/Ichitaro",
         "note": "ジャストシステムの日本語ワープロソフトで、国内オフィスで広く使われた。",
         "note_en": "A Japanese word processor by JustSystems widely used in domestic offices."
+      },
+      {
+        "label": "Nintendo Family Computer",
+        "label_en": "Family Computer (Famicom)",
+        "startYear": 1985,
+        "genre": [
+          "GAME",
+          "JAPAN"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/ファミリーコンピュータ",
+        "url_en": "https://en.wikipedia.org/wiki/Nintendo_Entertainment_System",
+        "note": "日本発の家庭用ゲーム機。NESとして世界展開。",
+        "note_en": "Nintendo’s home console released worldwide as the NES."
       }
     ],
     "1986": [
@@ -1736,6 +1725,20 @@
         "url_en": "https://en.wikipedia.org/wiki/X68000",
         "note": "高性能グラフィックと音源を備えた国産16ビット機で、移植度の高いゲームで人気を博した。",
         "note_en": "A Japanese 16‑bit micro with advanced graphics/sound, famed for high‑quality arcade ports."
+      },
+      {
+        "label": "X68000",
+        "label_en": "X68000",
+        "startYear": 1987,
+        "genre": [
+          "COMPUTER",
+          "JAPAN"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/X68000",
+        "url_en": "https://en.wikipedia.org/wiki/Sharp_X68000",
+        "note": "高性能ホビーPC。アーケード移植で評価。",
+        "note_en": "High-end hobbyist PC famed for arcade-accurate ports."
       }
     ],
     "1988": [
@@ -2940,20 +2943,6 @@
         "url_en": "https://en.wikipedia.org/wiki/Chromecast",
         "note": "テレビに挿すストリーミング端末。",
         "note_en": "TV streaming dongle that plugs into HDMI."
-      },
-      {
-        "label": "Pebble",
-        "label_en": "Pebble",
-        "startYear": 2013,
-        "genre": [
-          "WEARABLE",
-          "MOBILE"
-        ],
-        "imp": 3,
-        "url": "https://ja.wikipedia.org/wiki/Pebble_(企業)",
-        "url_en": "https://en.wikipedia.org/wiki/Pebble_(watch)",
-        "note": "CF発のスマートウォッチ。",
-        "note_en": "Crowdfunded smartwatch that helped kickstart the category."
       },
       {
         "label": "Google Glass",
