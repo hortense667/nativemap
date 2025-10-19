@@ -204,6 +204,21 @@
         "url_en": "https://en.wikipedia.org/wiki/PDP-8",
         "note": "低価格で普及した12ビットミニコン。ミニコン時代を切り開く。",
         "note_en": "A widely used 12-bit minicomputer that defined the minicomputer era."
+      },
+      {
+        "label": "Trimline Telephone",
+        "label_en": "Trimline Telephone",
+        "startYear": 1965,
+        "genre": [
+          "COMM",
+          "INPUT",
+          "PERIPHERAL"
+        ],
+        "imp": 3,
+        "url": "https://en.wikipedia.org/wiki/Trimline_telephone",
+        "url_en": "https://en.wikipedia.org/wiki/Trimline_telephone",
+        "note": "受話器内にダイヤル/キーを統合した家庭用電話の定番デザイン。",
+        "note_en": "Iconic home telephone with dial/keypad integrated in the handset."
       }
     ],
     "1967": [
@@ -828,6 +843,20 @@
         "url_en": "https://en.wikipedia.org/wiki/Sharp_Corporation",
         "note": "シャープの多機能一体型端末で、AV機能と計算機能を統合した。",
         "note_en": "A Sharp hybrid unit integrating AV functions with computing capabilities."
+      },
+      {
+        "label": "Mattel Brain Baffler",
+        "label_en": "Mattel Brain Baffler",
+        "startYear": 1979,
+        "genre": [
+          "MAKER",
+          "GAME"
+        ],
+        "imp": 2,
+        "url": "https://www.youtube.com/watch?v=xwDzxCkxtPE",
+        "url_en": "https://www.youtube.com/watch?v=xwDzxCkxtPE",
+        "note": "単語遊びなど複数モードを備えた電子パズル玩具。",
+        "note_en": "Electronic word/puzzle handheld with multiple game modes."
       }
     ],
     "1980": [
@@ -1203,6 +1232,20 @@
         "url_en": "https://en.wikipedia.org/wiki/Multiplan",
         "note": "初期の表計算ソフトで、CP/MやMS-DOS上で利用された。",
         "note_en": "An early spreadsheet program available on CP/M and MS‑DOS."
+      },
+      {
+        "label": "Vectrex",
+        "label_en": "Vectrex",
+        "startYear": 1982,
+        "genre": [
+          "GAME",
+          "COMPUTER"
+        ],
+        "imp": 4,
+        "url": "https://en.wikipedia.org/wiki/Vectrex",
+        "url_en": "https://en.wikipedia.org/wiki/Vectrex",
+        "note": "家庭用として唯一のベクターディスプレイ内蔵ゲーム機。",
+        "note_en": "Only home console with a built-in vector display."
       }
     ],
     "1983": [
@@ -1738,6 +1781,36 @@
         "url_en": "https://en.wikipedia.org/wiki/Sharp_X68000",
         "note": "高性能ホビーPC。アーケード移植で評価。",
         "note_en": "High-end hobbyist PC famed for arcade-accurate ports."
+      },
+      {
+        "label": "PXL2000 Pixelvision Camcorder",
+        "label_en": "PXL2000 Pixelvision Camcorder",
+        "startYear": 1987,
+        "genre": [
+          "CAMERA",
+          "MEDIA",
+          "MAKER"
+        ],
+        "imp": 4,
+        "url": "https://en.wikipedia.org/wiki/PXL2000",
+        "url_en": "https://en.wikipedia.org/wiki/PXL2000",
+        "note": "カセットテープに動画を記録する玩具カメラで後年アーティストに再評価。",
+        "note_en": "Toy camcorder recording to compact cassettes; later embraced by artists."
+      },
+      {
+        "label": "Sanwa Sanpix1000",
+        "label_en": "Sanwa Sanpix1000",
+        "startYear": 1987,
+        "genre": [
+          "CAMERA",
+          "MEDIA",
+          "JAPAN"
+        ],
+        "imp": 3,
+        "url": "https://en.wikipedia.org/wiki/PXL2000",
+        "url_en": "https://www.bentstruments.com/sanpix-1000.html",
+        "note": "PXL2000の日本向け同系機とされる玩具カメラ。",
+        "note_en": "\"Japanese-market variant/clone of the PXL2000 toy camcorder.\""
       }
     ],
     "1988": [
@@ -2821,6 +2894,22 @@
         "url_en": "https://en.wikipedia.org/wiki/N-Gage_(device)",
         "note": "携帯電話と携帯ゲーム機を融合。",
         "note_en": "Hybrid mobile phone and handheld game console."
+      },
+      {
+        "label": "NTTドコモ リストモ（WRISTOMO）",
+        "label_en": "NTT DoCoMo WRISTOMO",
+        "startYear": 2003,
+        "genre": [
+          "WEARABLE",
+          "MOBILE",
+          "COMM",
+          "JAPAN"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/WRISTOMO",
+        "url_en": "https://ja.wikipedia.org/wiki/WRISTOMO",
+        "note": "腕時計型のPHS電話で2003年発売、音声通話と簡易データ通信に対応。",
+        "note_en": "A 2003 wrist-worn PHS phone offering voice and basic data."
       }
     ],
     "2004": [
@@ -2936,6 +3025,21 @@
         "url_en": "https://en.wikipedia.org/wiki/W-ZERO3",
         "note": "物理キーボード搭載のスマートフォンで国内PDA市場を再活性化。",
         "note_en": "Keyboarded smartphone that revitalized Japan’s PDA scene."
+      },
+      {
+        "label": "Fascinations Micro Movie（Micro Movie Viewer）",
+        "label_en": "Fascinations Micro Movie Viewer",
+        "startYear": 2005,
+        "genre": [
+          "AUDIO_VIDEO",
+          "MAKER",
+          "ROBOTOY"
+        ],
+        "imp": 2,
+        "url": "https://www.youtube.com/watch?v=7et2WRPrzzo",
+        "url_en": "https://www.youtube.com/watch?v=7et2WRPrzzo",
+        "note": "小型カートリッジで短編を再生する手のひらサイズの手回し映写玩具。",
+        "note_en": "Palm-sized hand-cranked viewer playing short film cartridges."
       }
     ],
     "2006": [
@@ -3050,6 +3154,21 @@
         "url_en": "https://www.wired.com/2010/08/mouse-calculator",
         "note": "電卓＋テンキー＋マウスの三位一体。",
         "note_en": "Hybrid device combining mouse, keypad and calculator."
+      },
+      {
+        "label": "トミー i-SOBOT",
+        "label_en": "Tomy i-SOBOT",
+        "startYear": 2007,
+        "genre": [
+          "ROBOTOY",
+          "MAKER",
+          "JAPAN"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/I-SOBOT",
+        "url_en": "https://en.wikipedia.org/wiki/I-SOBOT",
+        "note": "量産世界最小級の二足歩行ロボット玩具として発売。",
+        "note_en": "Mass-produced bipedal robot toy noted as ultra-small."
       }
     ],
     "2008": [
@@ -3152,6 +3271,36 @@
         "url_en": "https://en.wikipedia.org/wiki/Kinect",
         "note": "深度センサーで身体を入力化。",
         "note_en": "Popularized body-tracking input via depth sensors."
+      },
+      {
+        "label": "Canon X Mark I Mouse Slim（Bluetooth電卓マウス）",
+        "label_en": "Canon X Mark I Mouse Slim",
+        "startYear": 2010,
+        "genre": [
+          "INPUT",
+          "PERIPHERAL",
+          "MOBILE"
+        ],
+        "imp": 2,
+        "url": "https://www.wired.com/2010/08/mouse-calculator",
+        "url_en": "https://www.usa.canon.com/support/p/x-mark-i-mouse-slim",
+        "note": "電卓とテンキーを内蔵したBluetoothマウスのハイブリッド機。",
+        "note_en": "Hybrid Bluetooth mouse with built-in calculator/keypad."
+      },
+      {
+        "label": "アニメーションフローティングペン",
+        "label_en": "Animation Floating Pen",
+        "startYear": 2010,
+        "genre": [
+          "MAKER",
+          "INPUT",
+          "JAPAN"
+        ],
+        "imp": 2,
+        "url": "https://www.assiston.co.jp/3139",
+        "url_en": "https://www.kickstarter.com/projects/1547147308/animation-floating-pen",
+        "note": "錯視効果で6コマの動きを見せる仕掛け付きのボールペン。",
+        "note_en": "Ballpoint pen using optical illusions to show 6-frame animation."
       }
     ],
     "2011": [
