@@ -33,6 +33,49 @@
     "notes": "Updates from contributors are welcome. Please do not create separate versions. When reusing data, credit the original authors."
   },
   "events": {
+    "1910": [
+      {
+        "label": "モンロー計算機",
+        "label_en": "Monroe calculator",
+        "startYear": 1910,
+        "endYear": 1960,
+        "genre": [
+          "COMPUTER"
+        ],
+        "imp": 3,
+        "url": "https://en.wikipedia.org/wiki/Monroe_calculating_machine",
+        "url_en": "https://en.wikipedia.org/wiki/Monroe_calculating_machine",
+        "note": "モンロー社の機械式卓上計算機で、商用計算に広く用いられた。",
+        "note_en": "A mechanical desktop calculator by Monroe widely used in business."
+      }
+    ],
+    "1923": [
+      {
+        "label": "タイガー計算器",
+        "label_en": "Tiger calculator",
+        "startYear": 1923,
+        "genre": [
+          "COMPUTER"
+        ],
+        "imp": 3,
+        "note": "日本で普及した機械式計算機で、加減乗除や連続計算に対応した。",
+        "note_en": "A Japanese mechanical calculator supporting the four operations and repeated calculations."
+      }
+    ],
+    "1940": [
+      {
+        "label": "放電破壊プリンタ（1940年代～1980年代初頭）",
+        "label_en": "Spark printer(1940s to early 1980s)",
+        "startYear": 1940,
+        "genre": [
+          "COMPUTER",
+          "PERIPHERAL"
+        ],
+        "imp": 3,
+        "note": "放電で着色紙に印字する低コストプリンタで、簡易出力に用いられた。",
+        "note_en": "A low‑cost printer using discharge to mark on coated paper for simple output."
+      }
+    ],
     "1948": [
       {
         "label": "Curta計算機",
@@ -74,6 +117,64 @@
         "url_en": "https://en.wikipedia.org/wiki/Accutron",
         "note": "音叉式ムーブメント採用の高精度腕時計。電子時計時代の先駆け。",
         "note_en": "A tuning fork watch noted for accuracy, ushering electronic timepieces."
+      },
+      {
+        "label": "Heathkit EC-1 アナログコンピュータ",
+        "label_en": "Heathkit EC-1",
+        "startYear": 1960,
+        "genre": [
+          "COMPUTER",
+          "MAKER"
+        ],
+        "imp": 3,
+        "url": "https://commons.wikimedia.org/wiki/File:Heathkit_Analog_Computer.jpg",
+        "url_en": "https://commons.wikimedia.org/wiki/File:Heathkit_Analog_Computer.jpg",
+        "note": "1960年に登場した教育用アナログ計算機で、制御工学などの学習用に広く用いられた。",
+        "note_en": "Introduced in 1960, an educational analog computer widely used for teaching control and circuit theory."
+      },
+      {
+        "label": "アコースティックカプラ（1960年代）",
+        "label_en": "Acoustic coupler(The 1960s)",
+        "startYear": 1960,
+        "genre": [
+          "COMPUTER",
+          "PERIPHERAL",
+          "COMM"
+        ],
+        "imp": 4,
+        "url": "https://en.wikipedia.org/wiki/Acoustic_coupler",
+        "url_en": "https://en.wikipedia.org/wiki/Acoustic_coupler",
+        "note": "電話機の受話器に音響的に結合してデータ通信を可能にした初期のモデム装置。",
+        "note_en": "Early modem device coupling to a telephone handset acoustically to enable data communications."
+      }
+    ],
+    "1961": [
+      {
+        "label": "MINIVAC 601（および6010）",
+        "label_en": "Minivac 601/6010",
+        "startYear": 1961,
+        "genre": [
+          "COMPUTER",
+          "MAKER"
+        ],
+        "imp": 4,
+        "url": "https://en.wikipedia.org/wiki/Minivac_601",
+        "url_en": "https://en.wikipedia.org/wiki/Minivac_601",
+        "note": "クロード・シャノン設計の教育用デジタル計算機で、論理回路と二進法を体験学習できた。",
+        "note_en": "Educational electromechanical trainer by Claude Shannon for learning binary logic and computing concepts."
+      }
+    ],
+    "1962": [
+      {
+        "label": "MINIVAC 6010",
+        "label_en": "MINIVAC 6010",
+        "startYear": 1962,
+        "genre": [
+          "COMPUTER"
+        ],
+        "imp": 3,
+        "note": "MINIVAC 6010はScientific Developmentのコンピュータで、当時の利用に広く用いられた。",
+        "note_en": "MINIVAC 6010 is a computer by Scientific Development, widely used in its era."
       }
     ],
     "1963": [
@@ -89,6 +190,32 @@
         "url_en": "https://en.wikipedia.org/wiki/Compact_Cassette",
         "note": "小型磁気テープ規格。携帯オーディオと録音文化を普及。",
         "note_en": "Small magnetic tape format that popularized portable audio and recording."
+      },
+      {
+        "label": "DIGI-COMP 1",
+        "label_en": "DIGI-COMP 1",
+        "startYear": 1963,
+        "genre": [
+          "COMPUTER"
+        ],
+        "imp": 3,
+        "note": "DIGI-COMP 1はE.S.R.のコンピュータで、当時の利用に広く用いられた。",
+        "note_en": "DIGI-COMP 1 is a computer by E.S.R., widely used in its era."
+      },
+      {
+        "label": "Teletype ASR-33",
+        "label_en": "Teletype ASR-33",
+        "startYear": 1963,
+        "genre": [
+          "COMPUTER",
+          "PERIPHERAL",
+          "INPUT"
+        ],
+        "imp": 3,
+        "url": "https://en.wikipedia.org/wiki/Teletype_Model_33",
+        "url_en": "https://en.wikipedia.org/wiki/Teletype_Model_33",
+        "note": "紙テープ入出力を備えたテレタイプ端末で、多くの初期ミニ/マイコンに接続された。",
+        "note_en": "Teleprinter with paper‑tape I/O commonly used with early mini/microcomputers."
       }
     ],
     "1965": [
@@ -163,6 +290,18 @@
         "url_en": "https://en.wikipedia.org/wiki/Love_Tester",
         "note": "手をつないで“相性”を表示する遊具。",
         "note_en": "A novelty device that “measures” compatibility by holding hands."
+      },
+      {
+        "label": "HITAC 10",
+        "label_en": "HITAC 10 minicomputer",
+        "startYear": 1969,
+        "genre": [
+          "COMPUTER"
+        ],
+        "imp": 3,
+        "url_en": "https://en.wikipedia.org/wiki/Hitachi",
+        "note": "日立製作所の研究・業務向けミニコンで、テレタイプ端末を主要I/Oとした。",
+        "note_en": "A Hitachi minicomputer for labs and offices that used a teletype as primary I/O."
       }
     ],
     "1970": [
@@ -182,18 +321,45 @@
     ],
     "1971": [
       {
-        "label": "Intel 4004/Busicom 141-PF",
-        "label_en": "Intel 4004 / Busicom 141-PF",
+        "label": "Intel 4004 マイクロプロセッサ",
+        "label_en": "Intel 4004",
+        "startYear": 1971,
+        "genre": [
+          "COMPUTER"
+        ],
+        "imp": 5,
+        "url": "https://en.wikipedia.org/wiki/Intel_4004",
+        "url_en": "https://en.wikipedia.org/wiki/Intel_4004",
+        "note": "1971年登場の世界初の商用マイクロプロセッサで、ビジコンの電卓開発から生まれた。",
+        "note_en": "Released in 1971, the first commercial microprocessor, originating from Busicom’s calculator project."
+      },
+      {
+        "label": "Busicom 141-PF 電卓",
+        "label_en": "Busicom 141-PF",
         "startYear": 1971,
         "genre": [
           "COMPUTER",
-          "AUDIO_VIDEO"
+          "JAPAN"
         ],
         "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/Intel_4004",
-        "url_en": "https://en.wikipedia.org/wiki/Intel_4004",
-        "note": "世界初の商用マイクロプロセッサ。日本の電卓向けに誕生。",
-        "note_en": "The first commercial microprocessor, created for a Japanese calculator."
+        "url": "https://en.wikipedia.org/wiki/Busicom",
+        "url_en": "https://en.wikipedia.org/wiki/Busicom",
+        "note": "インテル4004を採用した日本の卓上電卓で、汎用MPUの実用化を示した初期事例。",
+        "note_en": "Japanese desktop calculator using Intel’s 4004, demonstrating an early practical use of a general‑purpose MPU."
+      },
+      {
+        "label": "8インチフロッピーディスク",
+        "label_en": "8-inch floppy disk",
+        "startYear": 1971,
+        "genre": [
+          "COMPUTER",
+          "MEDIA"
+        ],
+        "imp": 5,
+        "url": "https://en.wikipedia.org/wiki/Floppy_disk",
+        "url_en": "https://en.wikipedia.org/wiki/Floppy_disk",
+        "note": "IBMが1971年に導入した柔軟な磁気ディスクで、可搬データ媒体の標準となった。",
+        "note_en": "IBM’s 1971 removable magnetic disk medium that became the standard for portable data storage."
       }
     ],
     "1972": [
@@ -235,6 +401,17 @@
         "url_en": "https://en.wikipedia.org/wiki/Polaroid_SX-70",
         "note": "折りたたみ一眼レフのインスタントカメラ。",
         "note_en": "A folding SLR instant camera that popularized instant photography."
+      },
+      {
+        "label": "S-500",
+        "label_en": "S-500",
+        "startYear": 1972,
+        "genre": [
+          "COMPUTER"
+        ],
+        "imp": 3,
+        "note": "S-500は服部時計店（現セイコー）のコンピュータで、当時の利用に広く用いられた。",
+        "note_en": "S-500 is a computer by 服部時計店（現セイコー）, widely used in its era."
       }
     ],
     "1973": [
@@ -255,16 +432,64 @@
     "1974": [
       {
         "label": "Altair 8800",
+        "label_en": "Altair 8800",
         "startYear": 1974,
         "genre": [
           "COMPUTER"
         ],
         "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/Altair_8800",
-        "note": "自作キットで普及した初期パソコンの象徴。",
-        "label_en": "Altair 8800",
+        "url": "https://en.wikipedia.org/wiki/Altair_8800",
         "url_en": "https://en.wikipedia.org/wiki/Altair_8800",
-        "note_en": "Seminal kit microcomputer that sparked the home PC revolution."
+        "note": "Intel 8080搭載のキットPCで、ホビイスト向けマイクロコンピュータ時代を切り開いた。",
+        "note_en": "Intel 8080‑based kit microcomputer that ignited the hobbyist personal computing era."
+      },
+      {
+        "label": "Intel 8080 マイクロプロセッサ",
+        "label_en": "Intel 8080",
+        "startYear": 1974,
+        "genre": [
+          "COMPUTER"
+        ],
+        "imp": 5,
+        "url": "https://en.wikipedia.org/wiki/Intel_8080",
+        "url_en": "https://en.wikipedia.org/wiki/Intel_8080",
+        "note": "1974年発表の8ビットMPUで、多くの初期パソコンとCP/M系ソフトの基盤となった。",
+        "note_en": "1974 8‑bit CPU that powered many early microcomputers and the CP/M software ecosystem."
+      },
+      {
+        "label": "Motorola 6800 マイクロプロセッサ",
+        "label_en": "Motorola 6800",
+        "startYear": 1974,
+        "genre": [
+          "COMPUTER"
+        ],
+        "imp": 4,
+        "url": "https://en.wikipedia.org/wiki/Motorola_6800",
+        "url_en": "https://en.wikipedia.org/wiki/Motorola_6800",
+        "note": "単一5V電源を特徴とする8ビットMPUで、後の6502や68k系にも影響を与えた。",
+        "note_en": "\"8‑bit CPU notable for its single 5V supply"
+      },
+      {
+        "label": "SMP80/X",
+        "label_en": "SMP80/X",
+        "startYear": 1974,
+        "genre": [
+          "COMPUTER"
+        ],
+        "imp": 3,
+        "note": "SMP80/Xはソード電算機システム（現ソード）のコンピュータで、当時の利用に広く用いられた。",
+        "note_en": "SMP80/X is a computer by ソード電算機システム（現ソード）, widely used in its era."
+      },
+      {
+        "label": "『Whole Earth Catalog』（『Whole Earth Epilog』）",
+        "label_en": "『Whole Earth Epilog』",
+        "startYear": 1974,
+        "genre": [
+          "COMPUTER"
+        ],
+        "imp": 3,
+        "note": "Point財団の出版物で、当時のコンピュータ文化や技術を紹介した。",
+        "note_en": "A publication that introduced computing culture and technology of the time."
       }
     ],
     "1975": [
@@ -288,11 +513,11 @@
         "genre": [
           "COMPUTER"
         ],
-        "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/IMSAI_8080",
+        "imp": 3,
+        "url": "https://en.wikipedia.org/wiki/IMSAI_8080",
         "url_en": "https://en.wikipedia.org/wiki/IMSAI_8080",
-        "note": "Altair互換の早期パーソナルコンピュータ。",
-        "note_en": "An early Altair-compatible personal computer."
+        "note": "Altair互換の初期マイコンで、S-100バス採用の代表機となった。",
+        "note_en": "An Altair‑compatible early microcomputer and a prominent S‑100 bus system."
       },
       {
         "label": "Betamax",
@@ -333,10 +558,10 @@
           "COMPUTER"
         ],
         "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/Apple_I",
+        "url": "https://en.wikipedia.org/wiki/Apple_I",
         "url_en": "https://en.wikipedia.org/wiki/Apple_I",
-        "note": "Apple最初のコンピュータ。基板単体販売で話題。",
-        "note_en": "Apple’s first computer, sold as a bare board."
+        "note": "1976年発売の基板単体キットで、後のApple IIへつながる初期パーソナルコンピュータ。",
+        "note_en": "1976 single‑board kit computer that led directly to the Apple II and the Apple personal computer line."
       },
       {
         "label": "VHS",
@@ -365,22 +590,20 @@
         "url_en": "https://en.wikipedia.org/wiki/Panasonic",
         "note": "BCL期を代表する短波ラジオ。",
         "note_en": "A popular shortwave radio of Japan’s BCL era."
-      }
-    ],
-    "1977": [
+      },
       {
-        "label": "Apple II",
-        "label_en": "Apple II",
-        "startYear": 1977,
+        "label": "TK-80",
+        "label_en": "TK-80",
+        "startYear": 1976,
         "genre": [
           "COMPUTER"
         ],
-        "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/Apple_II",
-        "url_en": "https://en.wikipedia.org/wiki/Apple_II",
-        "note": "量販に成功した初期の代表的パソコン。",
-        "note_en": "A mass-produced, highly successful early personal computer."
-      },
+        "imp": 3,
+        "note": "日本最初期のマイコン学習キット。",
+        "note_en": "TK-80 is a computer by 日本電気（NEC）, widely used in its era."
+      }
+    ],
+    "1977": [
       {
         "label": "TRS-80",
         "label_en": "TRS-80",
@@ -419,6 +642,70 @@
         "url_en": "https://en.wikipedia.org/wiki/Polaroid_OneStep",
         "note": "大衆向け即写カメラのヒット機。",
         "note_en": "A popular consumer instant camera by Polaroid."
+      },
+      {
+        "label": "Apple II シリーズ",
+        "label_en": "Apple II series",
+        "startYear": 1977,
+        "endYear": 1993,
+        "genre": [
+          "COMPUTER",
+          "COMM"
+        ],
+        "imp": 5,
+        "url": "https://en.wikipedia.org/wiki/Apple_II",
+        "url_en": "https://en.wikipedia.org/wiki/Apple_II",
+        "note": "カラー表示と拡張性で家庭・教育に広く普及し、表計算VisiCalcなどの普及に寄与した。",
+        "note_en": "Color-capable, expandable microcomputer line that popularized home/education computing and VisiCalc."
+      },
+      {
+        "label": "Commodore PET 2001",
+        "label_en": "Commodore PET 2001",
+        "startYear": 1977,
+        "genre": [
+          "COMPUTER"
+        ],
+        "imp": 4,
+        "url": "https://en.wikipedia.org/wiki/Commodore_PET",
+        "url_en": "https://en.wikipedia.org/wiki/Commodore_PET",
+        "note": "一体型デザインの初期8ビット機で、教育や業務に導入されApple IIと並ぶ先駆けとなった。",
+        "note_en": "Early all‑in‑one 8‑bit microcomputer adopted in education and business alongside the Apple II."
+      },
+      {
+        "label": "TRS-80 Model I",
+        "label_en": "TRS-80 Model I",
+        "startYear": 1977,
+        "genre": [
+          "COMPUTER"
+        ],
+        "imp": 4,
+        "url": "https://en.wikipedia.org/wiki/TRS-80",
+        "url_en": "https://en.wikipedia.org/wiki/TRS-80",
+        "note": "ラジオシャックが量販した8ビット機で、米国における家庭用PC普及の牽引役となった。",
+        "note_en": "Mass‑marketed 8‑bit micro by Radio Shack that helped drive early home PC adoption in the U.S."
+      },
+      {
+        "label": "SM-B-80TE",
+        "label_en": "SM-B-80TE",
+        "startYear": 1977,
+        "genre": [
+          "COMPUTER"
+        ],
+        "imp": 3,
+        "note": "ザイログ社のZ80を搭載したワンボードマイコン。",
+        "note_en": "SM-B-80TE is a computer by シャープ, widely used in its era."
+      },
+      {
+        "label": "『マイ・コンピュータ入門』",
+        "label_en": "My Computer Primer (book)",
+        "startYear": 1977,
+        "genre": [
+          "COMPUTER",
+          "MAKER"
+        ],
+        "imp": 3,
+        "note": "日本の初期PC普及期に書かれた入門書で、基礎概念を平易に解説した。",
+        "note_en": "An introductory book from Japan’s early PC era explaining fundamentals plainly."
       }
     ],
     "1978": [
@@ -464,13 +751,53 @@
       },
       {
         "label": "ベーシックマスターMB-6880",
+        "label_en": "Hitachi Basic Master MB-6880",
         "startYear": 1978,
         "genre": [
           "COMPUTER"
         ],
-        "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/%E3%83%99%E3%83%BC%E3%82%B7%E3%83%83%E3%82%AF%E3%83%9E%E3%82%B9%E3%82%BF%E3%83%BC",
-        "label_en": "MASIC MASTER MB-6880"
+        "imp": 3,
+        "url": "https://en.wikipedia.org/wiki/Hitachi_Basic_Master",
+        "url_en": "https://en.wikipedia.org/wiki/Hitachi_Basic_Master",
+        "note": "日立の8ビット一体型PCで、家庭学習や入門用途に用いられた。",
+        "note_en": "Hitachi’s 8‑bit all‑in‑one micro for home learning and entry‑level computing."
+      },
+      {
+        "label": "マイティ・レオ（Mighty Leo）",
+        "label_en": "Mighty Leo",
+        "startYear": 1978,
+        "genre": [
+          "COMPUTER"
+        ],
+        "imp": 3,
+        "note": "マイコン教育用ワンボードマイコン。",
+        "note_en": "マイティ・レオ（Mighty Leo） is a computer by コモタ, widely used in its era."
+      },
+      {
+        "label": "MZ-80K",
+        "label_en": "Sharp MZ-80K",
+        "startYear": 1978,
+        "genre": [
+          "COMPUTER"
+        ],
+        "imp": 3,
+        "url": "https://en.wikipedia.org/wiki/Sharp_MZ",
+        "url_en": "https://en.wikipedia.org/wiki/Sharp_MZ",
+        "note": "シャープの一体型8ビットPCで、独自ローダと堅実な設計で知られる。",
+        "note_en": "Sharp’s all‑in‑one 8‑bit micro noted for its monitor/loader architecture."
+      },
+      {
+        "label": "スペースインベーダー",
+        "label_en": "Space Invaders",
+        "startYear": 1978,
+        "genre": [
+          "COMPUTER"
+        ],
+        "imp": 3,
+        "url": "https://en.wikipedia.org/wiki/Space_Invaders",
+        "url_en": "https://en.wikipedia.org/wiki/Space_Invaders",
+        "note": "1978年に社会現象となったアーケードゲームで、業界を拡大させた。",
+        "note_en": "1978 arcade title that became a social phenomenon and expanded the industry."
       }
     ],
     "1979": [
@@ -528,6 +855,32 @@
         "url_en": "https://en.wikipedia.org/wiki/Big_Trak",
         "note": "プログラム走行する玩具ビークル。",
         "note_en": "Programmable toy vehicle."
+      },
+      {
+        "label": "NEC PC-8001",
+        "label_en": "NEC PC-8001",
+        "startYear": 1979,
+        "genre": [
+          "COMPUTER",
+          "JAPAN"
+        ],
+        "imp": 4,
+        "url": "https://en.wikipedia.org/wiki/PC-8000_series",
+        "url_en": "https://en.wikipedia.org/wiki/PC-8000_series",
+        "note": "NECの8ビット機で、日本のパソコン市場形成とホビイスト文化の拡大に寄与した。",
+        "note_en": "NEC’s 8‑bit micro that helped shape Japan’s PC market and hobbyist culture."
+      },
+      {
+        "label": "ラテカピュータ PC-2000",
+        "label_en": "Sharp PC-2000",
+        "startYear": 1979,
+        "genre": [
+          "COMPUTER"
+        ],
+        "imp": 3,
+        "url_en": "https://en.wikipedia.org/wiki/Sharp_Corporation",
+        "note": "シャープの多機能一体型端末で、AV機能と計算機能を統合した。",
+        "note_en": "A Sharp hybrid unit integrating AV functions with computing capabilities."
       }
     ],
     "1980": [
@@ -557,6 +910,31 @@
         "url_en": "https://en.wikipedia.org/wiki/Roland_TB-303",
         "note": "アシッドハウス象徴のベース音源機。",
         "note_en": "Bass synthesizer iconic in acid house."
+      },
+      {
+        "label": "VIC-1001",
+        "label_en": "VIC-1001",
+        "startYear": 1980,
+        "genre": [
+          "COMPUTER",
+          "GAME"
+        ],
+        "imp": 3,
+        "note": "VIC-1001はコモドールのゲーム関連機器で、当時の利用に広く用いられた。",
+        "note_en": "VIC-1001 is a game hardware/content by コモドール, widely used in its era."
+      },
+      {
+        "label": "Apple ///",
+        "label_en": "Apple III",
+        "startYear": 1980,
+        "genre": [
+          "COMPUTER"
+        ],
+        "imp": 3,
+        "url": "https://en.wikipedia.org/wiki/Apple_III",
+        "url_en": "https://en.wikipedia.org/wiki/Apple_III",
+        "note": "ビジネス志向の上位機だが安定性問題で成功は限定的だった。",
+        "note_en": "A business‑oriented successor whose adoption was limited due to stability issues."
       }
     ],
     "1981": [
@@ -612,6 +990,78 @@
         "url_en": "https://en.wikipedia.org/wiki/BBC_Micro",
         "note": "英国の教育向け8ビット機。",
         "note_en": "An 8-bit micro widely used in UK schools."
+      },
+      {
+        "label": "TK-Z80",
+        "label_en": "TK-Z80",
+        "startYear": 1981,
+        "genre": [
+          "COMPUTER"
+        ],
+        "imp": 3,
+        "note": "東芝TMPZ84C00AP-6(Z80互換）を搭載したワンボードマイコン。",
+        "note_en": "TK-Z80 is a computer by 東洋リンクス, widely used in its era."
+      },
+      {
+        "label": "FM-8（FUJITSU MICRO 8）",
+        "label_en": "FUJITSU MICRO 8",
+        "startYear": 1981,
+        "genre": [
+          "COMPUTER"
+        ],
+        "imp": 3,
+        "note": "FM-8（FUJITSU MICRO 8）は富士通のコンピュータで、当時の利用に広く用いられた。",
+        "note_en": "FM-8（FUJITSU MICRO 8） is a computer by 富士通, widely used in its era."
+      },
+      {
+        "label": "JR-100",
+        "label_en": "JR-100",
+        "startYear": 1981,
+        "genre": [
+          "COMPUTER"
+        ],
+        "imp": 3,
+        "note": "JR-100は松下電器産業（現パナソニック）のコンピュータで、当時の利用に広く用いられた。",
+        "note_en": "JR-100 is a computer by 松下電器産業（現パナソニック）, widely used in its era."
+      },
+      {
+        "label": "ZX-81",
+        "label_en": "Sinclair ZX81",
+        "startYear": 1981,
+        "genre": [
+          "COMPUTER"
+        ],
+        "imp": 3,
+        "url": "https://en.wikipedia.org/wiki/ZX81",
+        "url_en": "https://en.wikipedia.org/wiki/ZX81",
+        "note": "英国の超低価格8ビットPCで、入門・教育用途に広く普及した。",
+        "note_en": "A very low‑cost British 8‑bit micro widely used for entry‑level learning."
+      },
+      {
+        "label": "PC-8801",
+        "label_en": "NEC PC-8801",
+        "startYear": 1981,
+        "genre": [
+          "COMPUTER"
+        ],
+        "imp": 3,
+        "url": "https://en.wikipedia.org/wiki/PC-8800_series",
+        "url_en": "https://en.wikipedia.org/wiki/PC-8800_series",
+        "note": "高解像度表示と音源で日本のホビー/ゲーム文化を支えた8ビット機。",
+        "note_en": "An 8‑bit series with high‑res graphics and sound that fostered Japan’s hobby/game culture."
+      },
+      {
+        "label": "MS-DOS",
+        "label_en": "MS-DOS",
+        "startYear": 1981,
+        "genre": [
+          "COMPUTER"
+        ],
+        "imp": 5,
+        "url": "https://en.wikipedia.org/wiki/MS-DOS",
+        "url_en": "https://en.wikipedia.org/wiki/MS-DOS",
+        "note": "IBM PC系で普及したDOS系OSで、PCソフト市場の基盤となった。",
+        "note_en": "The dominant DOS for IBM‑PC compatibles that underpinned the PC software market."
       }
     ],
     "1982": [
@@ -717,6 +1167,95 @@
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/%E3%83%86%E3%83%AC%E3%83%93%E3%82%A6%E3%82%AA%E3%83%83%E3%83%81",
         "note": "世界初のテレビ付き腕時計"
+      },
+      {
+        "label": "Epson HX-20（HC-20）",
+        "label_en": "Epson HX-20 / HC-20",
+        "startYear": 1982,
+        "genre": [
+          "COMPUTER",
+          "MOBILE",
+          "JAPAN"
+        ],
+        "imp": 4,
+        "url": "https://en.wikipedia.org/wiki/Epson_HX-20",
+        "url_en": "https://en.wikipedia.org/wiki/Epson_HX-20",
+        "note": "A4サイズの初期ノート型PCで、内蔵LCDとプリンタを備え携帯計算機の先駆けとなった。",
+        "note_en": "\"A4‑footprint early notebook with LCD and built‑in printer"
+      },
+      {
+        "label": "シャープ X1 シリーズ",
+        "label_en": "Sharp X1 series",
+        "startYear": 1982,
+        "genre": [
+          "COMPUTER",
+          "JAPAN"
+        ],
+        "imp": 4,
+        "url": "https://en.wikipedia.org/wiki/Sharp_X1",
+        "url_en": "https://en.wikipedia.org/wiki/Sharp_X1",
+        "note": "テレビチューナー統合モニタやPCGなどを備えたZ80系の国産ホームコンピュータ。",
+        "note_en": "Japanese Z80‑based home computer line with TV‑tuner monitors and programmable character graphics."
+      },
+      {
+        "label": "ぴゅう太 TP1000",
+        "label_en": "ぴゅう太 TP1000",
+        "startYear": 1982,
+        "genre": [
+          "COMPUTER"
+        ],
+        "imp": 3,
+        "note": "ぴゅう太 TP1000はトミーのコンピュータで、当時の利用に広く用いられた。",
+        "note_en": "ぴゅう太 TP1000 is a computer by トミー, widely used in its era."
+      },
+      {
+        "label": "M5",
+        "label_en": "Sord M5",
+        "startYear": 1982,
+        "genre": [
+          "COMPUTER"
+        ],
+        "imp": 3,
+        "url": "https://en.wikipedia.org/wiki/Sord_M5",
+        "url_en": "https://en.wikipedia.org/wiki/Sord_M5",
+        "note": "ソードの8ビットホーム機で、玩具店ルートでも販売された。",
+        "note_en": "Sord’s 8‑bit home computer that was also sold through toy retailers."
+      },
+      {
+        "label": "『こんにちはマイコン』",
+        "label_en": "Hello Microcomputer (book)",
+        "startYear": 1982,
+        "genre": [
+          "COMPUTER"
+        ],
+        "imp": 3,
+        "note": "児童向けにマイコンの仕組みと楽しさを解説した入門書。",
+        "note_en": "An introductory children’s book explaining how microcomputers work and why they’re fun."
+      },
+      {
+        "label": "X1（初代）",
+        "label_en": "X1（初代）",
+        "startYear": 1982,
+        "genre": [
+          "COMPUTER",
+          "GAME"
+        ],
+        "imp": 3,
+        "note": "X1（初代）はシャープのゲーム関連機器で、当時の利用に広く用いられた。",
+        "note_en": "X1（初代） is a game hardware/content by シャープ, widely used in its era."
+      },
+      {
+        "label": "Microsoft Multiplan",
+        "label_en": "Microsoft Multiplan",
+        "startYear": 1982,
+        "genre": [
+          "COMPUTER"
+        ],
+        "imp": 3,
+        "url": "https://en.wikipedia.org/wiki/Multiplan",
+        "url_en": "https://en.wikipedia.org/wiki/Multiplan",
+        "note": "初期の表計算ソフトで、CP/MやMS-DOS上で利用された。",
+        "note_en": "An early spreadsheet program available on CP/M and MS‑DOS."
       }
     ],
     "1983": [
@@ -771,6 +1310,130 @@
         "url_en": "https://en.wikipedia.org/wiki/Motorola_DynaTAC",
         "note": "初期携帯“ブリックフォン”の象徴。",
         "note_en": "An iconic early “brick” mobile phone."
+      },
+      {
+        "label": "Compaq Portable",
+        "label_en": "Compaq Portable",
+        "startYear": 1983,
+        "genre": [
+          "COMPUTER",
+          "MOBILE"
+        ],
+        "imp": 4,
+        "url": "https://en.wikipedia.org/wiki/Compaq_Portable",
+        "url_en": "https://en.wikipedia.org/wiki/Compaq_Portable",
+        "note": "IBM PC互換のラゲッジ型で、互換BIOSによりPC/AT互換機市場を切り開いた。",
+        "note_en": "Luggable IBM‑PC‑compatible with a clean‑room BIOS that opened the clone market."
+      },
+      {
+        "label": "MSX 規格",
+        "label_en": "MSX standard",
+        "startYear": 1983,
+        "genre": [
+          "COMPUTER",
+          "JAPAN"
+        ],
+        "imp": 4,
+        "url": "https://en.wikipedia.org/wiki/MSX",
+        "url_en": "https://en.wikipedia.org/wiki/MSX",
+        "note": "ASCIIとMicrosoft主導の統一ホームコンピュータ規格で、多数のメーカーが参入した。",
+        "note_en": "Unified home‑computer standard led by ASCII and Microsoft, adopted by many manufacturers."
+      },
+      {
+        "label": "ファミリーコンピュータ（ファミコン）",
+        "label_en": "Family Computer (Famicom)",
+        "startYear": 1983,
+        "genre": [
+          "COMPUTER",
+          "GAME",
+          "JAPAN"
+        ],
+        "imp": 5,
+        "url": "https://en.wikipedia.org/wiki/Nintendo_Entertainment_System",
+        "url_en": "https://en.wikipedia.org/wiki/Nintendo_Entertainment_System",
+        "note": "任天堂の8ビット家庭用ゲーム機で、1983年に日本発売、世界的ゲーム市場を拡大した。",
+        "note_en": "Nintendo’s 8‑bit home console, launched in Japan in 1983, that revitalized the global game market."
+      },
+      {
+        "label": "SMC-777",
+        "label_en": "Sony SMC-777",
+        "startYear": 1983,
+        "genre": [
+          "COMPUTER"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/SMC-777",
+        "url_en": "https://ja.wikipedia.org/wiki/SMC-777",
+        "note": "ソニーの8ビットパソコンで、独自OSとグラフィック機能を備えた。",
+        "note_en": "A Sony 8‑bit microcomputer with a unique OS and notable graphics."
+      },
+      {
+        "label": "CF-2000",
+        "label_en": "Panasonic CF-2000 (MSX)",
+        "startYear": 1983,
+        "genre": [
+          "COMPUTER"
+        ],
+        "imp": 3,
+        "url": "https://en.wikipedia.org/wiki/MSX",
+        "url_en": "https://en.wikipedia.org/wiki/MSX",
+        "note": "松下の初期MSX機で、国内MSX普及に寄与した。",
+        "note_en": "An early Panasonic MSX model that helped spread MSX in Japan."
+      },
+      {
+        "label": "HB-10",
+        "label_en": "HB-10",
+        "startYear": 1983,
+        "genre": [
+          "COMPUTER"
+        ],
+        "imp": 3,
+        "note": "HB-10はソニーのコンピュータで、当時の利用に広く用いられた。",
+        "note_en": "HB-10 is a computer by ソニー, widely used in its era."
+      },
+      {
+        "label": "YIS503",
+        "label_en": "YIS503",
+        "startYear": 1983,
+        "genre": [
+          "COMPUTER"
+        ],
+        "imp": 3,
+        "note": "YISは、1983年末〜1984年初にかけて、ヤマハが展開した教育・音楽志向のパソコンブランド。",
+        "note_en": "YIS503 is a computer by 日本楽器製造（ヤマハ）, widely used in its era."
+      },
+      {
+        "label": "IBM PC XT (5160)",
+        "label_en": "IBM PC XT (5160)",
+        "startYear": 1983,
+        "genre": [
+          "COMPUTER"
+        ],
+        "imp": 3,
+        "note": "当時の用途に用いられたコンピュータ本体で、世代の特徴を備える。",
+        "note_en": "A computer system used in its era, reflecting the characteristics of its generation."
+      },
+      {
+        "label": "PC-100",
+        "label_en": "PC-100",
+        "startYear": 1983,
+        "genre": [
+          "COMPUTER"
+        ],
+        "imp": 3,
+        "note": "当時の用途に用いられたコンピュータ本体で、世代の特徴を備える。",
+        "note_en": "A computer system used in its era, reflecting the characteristics of its generation."
+      },
+      {
+        "label": "Lisa",
+        "label_en": "Lisa",
+        "startYear": 1983,
+        "genre": [
+          "COMPUTER"
+        ],
+        "imp": 3,
+        "note": "Lisaはアップルコンピュータ（現アップル）のコンピュータで、当時の利用に広く用いられた。",
+        "note_en": "Lisa is a computer by アップルコンピュータ（現アップル）, widely used in its era."
       }
     ],
     "1984": [
@@ -801,6 +1464,71 @@
         "url_en": "https://en.wikipedia.org/wiki/MPU-401",
         "note": "PCにMIDIをもたらしたIF規格/製品。",
         "note_en": "An interface bringing MIDI connectivity to PCs."
+      },
+      {
+        "label": "Macintosh 128K",
+        "label_en": "Macintosh 128K",
+        "startYear": 1984,
+        "genre": [
+          "COMPUTER"
+        ],
+        "imp": 5,
+        "url": "https://en.wikipedia.org/wiki/Macintosh_128K",
+        "url_en": "https://en.wikipedia.org/wiki/Macintosh_128K",
+        "note": "GUIとマウスを標準化した一体型PCの初代機で、デスクトップGUI時代を一般化した。",
+        "note_en": "First Macintosh all‑in‑one that mainstreamed the desktop GUI with mouse‑driven interaction."
+      },
+      {
+        "label": "ファミリーベーシック",
+        "label_en": "Family BASIC",
+        "startYear": 1984,
+        "genre": [
+          "COMPUTER",
+          "GAME"
+        ],
+        "imp": 3,
+        "url": "https://en.wikipedia.org/wiki/Family_BASIC",
+        "url_en": "https://en.wikipedia.org/wiki/Family_BASIC",
+        "note": "ファミコン上でBASICプログラミングを可能にした学習用ソフト。",
+        "note_en": "A learning tool enabling BASIC programming on the Famicom/NES."
+      },
+      {
+        "label": "YK-01",
+        "label_en": "YK-01",
+        "startYear": 1984,
+        "genre": [
+          "COMPUTER"
+        ],
+        "imp": 3,
+        "note": "YK-01は日本楽器製造（ヤマハ）のコンピュータで、当時の利用に広く用いられた。",
+        "note_en": "YK-01 is a computer by 日本楽器製造（ヤマハ）, widely used in its era."
+      },
+      {
+        "label": "UC-2000",
+        "label_en": "UC-2000",
+        "startYear": 1984,
+        "genre": [
+          "COMPUTER",
+          "MOBILE",
+          "WEARABLE"
+        ],
+        "imp": 3,
+        "note": "UC-2000は服部セイコー、セイコー電子工業の携帯型コンピュータで、当時の利用に広く用いられた。",
+        "note_en": "UC-2000 is a portable computer by 服部セイコー、セイコー電子工業, widely used in its era."
+      },
+      {
+        "label": "Apple IIc",
+        "label_en": "Apple IIc",
+        "startYear": 1984,
+        "genre": [
+          "COMPUTER",
+          "MOBILE"
+        ],
+        "imp": 5,
+        "url": "https://en.wikipedia.org/wiki/Apple_IIc",
+        "url_en": "https://en.wikipedia.org/wiki/Apple_IIc",
+        "note": "拡張スロットを省いた小型化モデルで、可搬性を高めた。",
+        "note_en": "A compact Apple II model without slots that improved portability."
       }
     ],
     "1985": [
@@ -885,6 +1613,32 @@
         "url_en": "https://en.wikipedia.org/wiki/Omnibot",
         "note": "タカラのプログラム玩具ロボット。",
         "note_en": "Programmable) toy robots by Takara."
+      },
+      {
+        "label": "FM-77AV",
+        "label_en": "Fujitsu FM-77AV",
+        "startYear": 1985,
+        "genre": [
+          "COMPUTER"
+        ],
+        "imp": 3,
+        "url": "https://en.wikipedia.org/wiki/FM-7_series",
+        "url_en": "https://en.wikipedia.org/wiki/FM-7_series",
+        "note": "高機能AVを特徴としたFM-7系の上位モデル。",
+        "note_en": "An advanced FM‑7 series model featuring strong audio‑visual capabilities."
+      },
+      {
+        "label": "一太郎",
+        "label_en": "Ichitaro",
+        "startYear": 1985,
+        "genre": [
+          "COMPUTER"
+        ],
+        "imp": 3,
+        "url": "https://en.wikipedia.org/wiki/Ichitaro",
+        "url_en": "https://en.wikipedia.org/wiki/Ichitaro",
+        "note": "ジャストシステムの日本語ワープロソフトで、国内オフィスで広く使われた。",
+        "note_en": "A Japanese word processor by JustSystems widely used in domestic offices."
       }
     ],
     "1986": [
@@ -901,6 +1655,44 @@
         "url_en": "https://en.wikipedia.org/wiki/MSX",
         "note": "MSX2世代のソニー機。",
         "note_en": "A Sony model of the MSX2 standard."
+      },
+      {
+        "label": "X1turboZ",
+        "label_en": "Sharp X1 turbo Z",
+        "startYear": 1986,
+        "genre": [
+          "COMPUTER",
+          "GAME"
+        ],
+        "imp": 3,
+        "url": "https://en.wikipedia.org/wiki/Sharp_X1",
+        "url_en": "https://en.wikipedia.org/wiki/Sharp_X1",
+        "note": "X1シリーズ最終期の強化機で、描画や音源を充実させた。",
+        "note_en": "A late enhanced model in the X1 line with improved graphics and audio."
+      },
+      {
+        "label": "HB-F900 / HBI-F900",
+        "label_en": "Sony HB-F900 / HBI-F900",
+        "startYear": 1986,
+        "genre": [
+          "COMPUTER"
+        ],
+        "imp": 3,
+        "url": "https://en.wikipedia.org/wiki/Sony_Hit_Bit",
+        "url_en": "https://en.wikipedia.org/wiki/Sony_Hit_Bit",
+        "note": "プロ志向のMSX2本体と拡張ボックスの組み合わせ。",
+        "note_en": "A pro‑oriented MSX2 with an external expansion unit."
+      },
+      {
+        "label": "PV-A1200 MKⅢ",
+        "label_en": "PV-A1200 MKⅢ",
+        "startYear": 1986,
+        "genre": [
+          "COMPUTER"
+        ],
+        "imp": 3,
+        "note": "パソコン通信の初期に使われた代表的なインテリジェントモデム。",
+        "note_en": "PV-A1200 MKⅢ is a computer by アイワ, widely used in its era."
       }
     ],
     "1987": [
@@ -931,6 +1723,19 @@
         "url_en": "https://en.wikipedia.org/wiki/TurboGrafx-16",
         "note": "CD-ROMなど先進性で話題の家庭用ゲーム機。",
         "note_en": "Console notable for early CD-ROM adoption."
+      },
+      {
+        "label": "X68000",
+        "label_en": "Sharp X68000",
+        "startYear": 1987,
+        "genre": [
+          "COMPUTER"
+        ],
+        "imp": 5,
+        "url": "https://en.wikipedia.org/wiki/X68000",
+        "url_en": "https://en.wikipedia.org/wiki/X68000",
+        "note": "高性能グラフィックと音源を備えた国産16ビット機で、移植度の高いゲームで人気を博した。",
+        "note_en": "A Japanese 16‑bit micro with advanced graphics/sound, famed for high‑quality arcade ports."
       }
     ],
     "1988": [
@@ -960,6 +1765,19 @@
         "url_en": "https://en.wikipedia.org/wiki/Sega_Genesis",
         "note": "16ビット機の代表。海外で大成功。",
         "note_en": "Leading 16-bit console, hugely successful overseas."
+      },
+      {
+        "label": "OASYS 30AFⅢ",
+        "label_en": "Fujitsu OASYS 30AF III",
+        "startYear": 1988,
+        "genre": [
+          "COMPUTER"
+        ],
+        "imp": 3,
+        "url": "https://en.wikipedia.org/wiki/Fujitsu_OASYS",
+        "url_en": "https://en.wikipedia.org/wiki/Fujitsu_OASYS",
+        "note": "富士通の日本語ワープロ専用機で、オフィス文書作成に広く用いられた。",
+        "note_en": "Fujitsu’s dedicated Japanese word processor widely used for office documents."
       }
     ],
     "1989": [
@@ -1016,6 +1834,20 @@
         "label_en": "Logitech TrackMan",
         "url_en": "https://en.wikipedia.org/wiki/Logitech",
         "note_en": "Logitech’s well-known trackball line."
+      },
+      {
+        "label": "Dynabook J-3100 SS001",
+        "label_en": "Toshiba Dynabook J-3100 SS001",
+        "startYear": 1989,
+        "genre": [
+          "COMPUTER",
+          "MOBILE"
+        ],
+        "imp": 3,
+        "url": "https://en.wikipedia.org/wiki/Dynabook",
+        "url_en": "https://en.wikipedia.org/wiki/Dynabook",
+        "note": "東芝の初期A4ノートで、可搬性と実用性を高めた。",
+        "note_en": "An early A4‑sized Toshiba notebook that improved portability and practicality."
       }
     ],
     "1990": [
@@ -1059,6 +1891,19 @@
         "url_en": "https://en.wikipedia.org/wiki/DataHand",
         "note": "指先の5方向スイッチを用いるユニークなエルゴキーボード。",
         "note_en": "An ergonomic keyboard using finger clusters with directional switches."
+      },
+      {
+        "label": "NeXTcube",
+        "label_en": "NeXTcube",
+        "startYear": 1990,
+        "genre": [
+          "COMPUTER"
+        ],
+        "imp": 3,
+        "url": "https://en.wikipedia.org/wiki/NeXTcube",
+        "url_en": "https://en.wikipedia.org/wiki/NeXTcube",
+        "note": "NeXTのワークステーションで、NeXTSTEPと高品位表示を備えた。",
+        "note_en": "NeXT workstation featuring NeXTSTEP and high‑quality display capabilities."
       }
     ],
     "1991": [
@@ -1404,6 +2249,18 @@
         "url_en": "https://ascii.jp/elem/000/000/301/301777/",
         "note": "ドラえもん意匠の子供向けPHS端末。",
         "note_en": "A kid-focused PHS handset shaped like Doraemon."
+      },
+      {
+        "label": "iMac",
+        "label_en": "iMac",
+        "startYear": 1998,
+        "genre": [
+          "COMPUTER",
+          "AUDIO_VIDEO"
+        ],
+        "imp": 3,
+        "note": "当時の用途に用いられたコンピュータ本体で、世代の特徴を備える。",
+        "note_en": "A computer system used in its era, reflecting the characteristics of its generation."
       }
     ],
     "1999": [
@@ -1505,6 +2362,19 @@
         "url_en": "https://en.wikipedia.org/wiki/USB_flash_drive",
         "note": "USB接続の半導体メモリ。可搬ストレージの主流に。",
         "note_en": "USB-connected flash memory, the dominant portable storage."
+      },
+      {
+        "label": "Power Mac G3 (Blue&White)",
+        "label_en": "Power Mac G3 (Blue & White)",
+        "startYear": 1999,
+        "genre": [
+          "COMPUTER"
+        ],
+        "imp": 3,
+        "url": "https://en.wikipedia.org/wiki/Power_Mac_G3",
+        "url_en": "https://en.wikipedia.org/wiki/Power_Mac_G3",
+        "note": "半透明筐体と容易な拡張性を備えたPowerPC G3搭載機。",
+        "note_en": "A PowerPC G3 system with translucent case and easy expandability."
       }
     ],
     "2000": [
@@ -1562,6 +2432,20 @@
         "url_en": "https://en.wikipedia.org/wiki/Microvision",
         "note": "世界初のカートリッジ式携帯ゲーム機。",
         "note_en": "First handheld console with interchangeable cartridges."
+      },
+      {
+        "label": "Power Mac G4 Cube",
+        "label_en": "Power Mac G4 Cube",
+        "startYear": 2000,
+        "genre": [
+          "COMPUTER",
+          "AUDIO_VIDEO"
+        ],
+        "imp": 3,
+        "url": "https://en.wikipedia.org/wiki/Power_Mac_G4_Cube",
+        "url_en": "https://en.wikipedia.org/wiki/Power_Mac_G4_Cube",
+        "note": "静音・省スペース設計の立方体デスクトップで、デザイン性が評価された。",
+        "note_en": "A quiet, compact cube desktop acclaimed for its industrial design."
       }
     ],
     "2001": [
@@ -2278,6 +3162,19 @@
         "url_en": "https://en.wikipedia.org/wiki/Apple_Vision_Pro",
         "note": "空間コンピューティングを掲げるAppleのヘッドセット。",
         "note_en": "Apple’s spatial-computing headset blending AR/VR."
+      }
+    ],
+    "2025": [
+      {
+        "label": "ERIS6800",
+        "label_en": "ERIS6800",
+        "startYear": 2025,
+        "genre": [
+          "COMPUTER"
+        ],
+        "imp": 3,
+        "note": "1970年代のマイコンを体験できるMC6802（6800の改良品）を搭載したワンボードマイコン。",
+        "note_en": "ERIS6800 is a computer by 科学技術継承財団（マイコン博物館）, widely used in its era."
       }
     ]
   },
