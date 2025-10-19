@@ -150,7 +150,6 @@
         "note_en": "Educational electromechanical trainer by Claude Shannon for learning binary logic and computing concepts."
       }
     ],
-    "1962": [],
     "1963": [
       {
         "label": "コンパクトカセット",
@@ -2195,6 +2194,22 @@
         "url_en": "https://ascii.jp/elem/000/000/318/318664/",
         "note": "マウス型サーマルプリンタ。付箋やラベルを即印刷。",
         "note_en": "Mouse-shaped thermal mini-printer for quick labels."
+      },
+      {
+        "label": "NTTドコモ ポケットボード",
+        "label_en": "NTT DoCoMo PocketBoard",
+        "startYear": 1997,
+        "genre": [
+          "MOBILE",
+          "INPUT",
+          "COMM",
+          "JAPAN"
+        ],
+        "imp": 4,
+        "url": "https://sts.kahaku.go.jp/sts/detail.php?no=900890141063",
+        "url_en": "https://www.news-postseven.com/archives/20180404_663345.html?DETAIL=",
+        "note": "低価格メール端末の草分けとして若年層に普及した携帯ガジェット。",
+        "note_en": "Pioneering low-cost mobile email device popular with youth."
       }
     ],
     "1998": [
@@ -2378,6 +2393,37 @@
         "url_en": "https://en.wikipedia.org/wiki/Power_Mac_G3",
         "note": "半透明筐体と容易な拡張性を備えたPowerPC G3搭載機。",
         "note_en": "A PowerPC G3 system with translucent case and easy expandability."
+      },
+      {
+        "label": "京セラ ビジュアルホン（VP-210）",
+        "label_en": "Kyocera Visual Phone VP-210",
+        "startYear": 1999,
+        "genre": [
+          "MOBILE",
+          "CAMERA",
+          "COMM",
+          "JAPAN"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/VP-210",
+        "url_en": "https://en.wikipedia.org/wiki/VP-210",
+        "note": "世界初級の量産カメラPHSで動画/静止画通信を実現。",
+        "note_en": "Early mass-market camera phone enabling image/video calls."
+      },
+      {
+        "label": "シャープ インターネットビューカム",
+        "label_en": "Sharp Internet ViewCamVN-EZ1",
+        "startYear": 1999,
+        "genre": [
+          "CAMERA",
+          "COMM",
+          "JAPAN"
+        ],
+        "imp": 4,
+        "url": "https://corporate.jp.sharp/info/history/only_one/av/av_w18.html",
+        "url_en": "https://corporate.jp.sharp/info/history/only_one/av/av_w18.html",
+        "note": "MPEG-4録画とPC連携で“撮って送る”を訴求したデジタルビデオカメラ。",
+        "note_en": "MPEG-4 camcorder enabling easy capture-and-share workflows."
       }
     ],
     "2000": [
@@ -2449,6 +2495,170 @@
         "url_en": "https://en.wikipedia.org/wiki/Power_Mac_G4_Cube",
         "note": "静音・省スペース設計の立方体デスクトップで、デザイン性が評価された。",
         "note_en": "A quiet, compact cube desktop acclaimed for its industrial design."
+      },
+      {
+        "label": "セイコーエプソン クロノビット",
+        "label_en": "Seiko Epson Chrono-Bit",
+        "startYear": 2000,
+        "genre": [
+          "WEARABLE",
+          "MOBILE",
+          "INPUT",
+          "JAPAN"
+        ],
+        "imp": 3,
+        "url": "https://www.itmedia.co.jp/news/0009/11/epson.html",
+        "url_en": "https://www.itmedia.co.jp/news/0009/11/epson.html",
+        "note": "回転ベゼル入力を備えた腕時計型PDAの先駆。",
+        "note_en": "Early watch-type PDA with rotary-bezel text input."
+      },
+      {
+        "label": "ＮＴＴドコモ シグマリオン",
+        "label_en": "NTT DoCoMo sigmarion",
+        "startYear": 2000,
+        "genre": [
+          "MOBILE",
+          "COMPUTER",
+          "JAPAN"
+        ],
+        "imp": 3,
+        "url": "https://pc.watch.impress.co.jp/docs/news/yajiuma/1088928.html",
+        "url_en": "https://pc.watch.impress.co.jp/docs/news/yajiuma/1088928.html",
+        "note": "NEC製のWindows CE搭載ハンドヘルドPCをドコモが販売。",
+        "note_en": "DoCoMo-sold handheld PC by NEC running Windows CE."
+      },
+      {
+        "label": "クリエイティブメディア NOMAD Jukebox",
+        "label_en": "Creative NOMAD Jukebox",
+        "startYear": 2000,
+        "genre": [
+          "AUDIO_VIDEO",
+          "MEDIA"
+        ],
+        "imp": 4,
+        "url": "https://en.wikipedia.org/wiki/Creative_Nomad",
+        "url_en": "https://en.wikipedia.org/wiki/Creative_Nomad",
+        "note": "初期のHDD型携帯音楽プレーヤーで2000年に出荷開始。",
+        "note_en": "Early hard-drive portable music player shipped in 2000."
+      },
+      {
+        "label": "Ｊ－ＰＨＯＮＥ Ｊ－ＳＨ０４",
+        "label_en": "J-PHONE J-SH04",
+        "startYear": 2000,
+        "genre": [
+          "MOBILE",
+          "CAMERA",
+          "JAPAN"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/J-SH04",
+        "url_en": "https://en.wikipedia.org/wiki/J-SH04",
+        "note": "業界初の実用的カメラ付き携帯として普及の礎を築いた。",
+        "note_en": "Landmark camera phone that popularized photo messaging."
+      },
+      {
+        "label": "ＮＥＣ モバイルギアⅡ ＭＣ／Ｒ４５０",
+        "label_en": "NEC MobileGear II MC/R450",
+        "startYear": 2000,
+        "genre": [
+          "MOBILE",
+          "COMPUTER",
+          "JAPAN"
+        ],
+        "imp": 3,
+        "url": "https://ascii.jp/elem/000/000/319/319279/",
+        "url_en": "https://ascii.jp/elem/000/000/319/319279/",
+        "note": "長時間駆動とキーボードを備えたH/PC2000世代の日本向け端末。",
+        "note_en": "Japanese H/PC2000 handheld with long battery and full keyboard."
+      },
+      {
+        "label": "リコー ＲＤＣ－ｉ７００",
+        "label_en": "Ricoh RDC-i700",
+        "startYear": 2000,
+        "genre": [
+          "CAMERA",
+          "COMM",
+          "JAPAN"
+        ],
+        "imp": 4,
+        "url": "https://camera-wiki.org/wiki/Ricoh_RDC-i700",
+        "url_en": "https://camera-wiki.org/wiki/Ricoh_RDC-i700",
+        "note": "PCカード通信により写真を直接送信できるインターネット対応デジカメ。",
+        "note_en": "Internet-capable digicam emailing photos via PC card."
+      },
+      {
+        "label": "バンダイ ワンダーボーグ",
+        "label_en": "Bandai WonderBorg",
+        "startYear": 2000,
+        "genre": [
+          "ROBOTOY",
+          "MAKER",
+          "JAPAN"
+        ],
+        "imp": 3,
+        "url": "https://w.atwiki.jp/yamamura2/pages/8652.html",
+        "url_en": "https://w.atwiki.jp/yamamura2/pages/8652.html",
+        "note": "昆虫型の自律走行ロボット玩具でプログラム学習に対応。",
+        "note_en": "Insect-style autonomous robot toy for programmable play."
+      },
+      {
+        "label": "シャープ ビジネスザウルス BI-L10",
+        "label_en": "Sharp Business Zaurus BI-L10",
+        "startYear": 2000,
+        "genre": [
+          "MOBILE",
+          "COMPUTER",
+          "JAPAN"
+        ],
+        "imp": 3,
+        "url": "https://k-tai.watch.impress.co.jp/cda/article/news_toppage/1537.html",
+        "url_en": "https://k-tai.watch.impress.co.jp/cda/article/news_toppage/1537.html",
+        "note": "業務向けに耐衝撃・防滴を強化したPDAモデル。",
+        "note_en": "Ruggedized PDA model for enterprise field use."
+      },
+      {
+        "label": "NTTドコモ eggy",
+        "label_en": "NTT DoCoMo eggy",
+        "startYear": 2000,
+        "genre": [
+          "CAMERA",
+          "COMM",
+          "MOBILE",
+          "JAPAN"
+        ],
+        "imp": 3,
+        "url": "https://ascii.jp/elem/000/000/318/318651/",
+        "url_en": "https://ascii.jp/elem/000/000/318/318968/",
+        "note": "動画配信サービス対応の動画撮影端末でPHS通信に対応。",
+        "note_en": "Video-capture device for DoCoMo’s PHS video service."
+      },
+      {
+        "label": "IBM「1Gマイクロドライブ」",
+        "label_en": "IBM Microdrive 1GB",
+        "startYear": 2000,
+        "genre": [
+          "MEDIA"
+        ],
+        "imp": 4,
+        "url": "https://www.dpreview.com/articles/4869383797/microdrive1gb-official",
+        "url_en": "https://en.wikipedia.org/wiki/Microdrive",
+        "note": "CF Type II対応の1インチHDDで1GBモデルを2000年に発表。",
+        "note_en": "1-inch HDD (CF Type II) with 1GB model announced in 2000."
+      },
+      {
+        "label": "ルートテクノロジー IPシェアリング CAS2040",
+        "label_en": "Route Technology IP Sharing CAS2040",
+        "startYear": 2000,
+        "genre": [
+          "COMM",
+          "PERIPHERAL",
+          "JAPAN"
+        ],
+        "imp": 2,
+        "url": "https://pc.watch.impress.co.jp/docs/article/20001219/root.htm",
+        "url_en": "https://pc.watch.impress.co.jp/docs/article/20001219/root.htm",
+        "note": "低価格でPPPoEやNATに対応した家庭向けイーサネットルータ。",
+        "note_en": "Low-cost home router supporting PPPoE and NAT."
       }
     ],
     "2001": [
@@ -2493,6 +2703,66 @@
         "url_en": "https://en.wikipedia.org/wiki/Wacom_Cintiq",
         "note": "液晶ペンタブの定番シリーズ。",
         "note_en": "Leading pen display line for on-screen drawing."
+      },
+      {
+        "label": "セグウェイ PT",
+        "label_en": "Segway PT",
+        "startYear": 2001,
+        "genre": [
+          "ROBOTOY",
+          "MOBILE",
+          "INPUT"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/セグウェイ",
+        "url_en": "https://en.wikipedia.org/wiki/Segway_PT",
+        "note": "自己バランス制御の電動立ち乗りパーソナルモビリティ。",
+        "note_en": "Self-balancing electric personal transporter."
+      },
+      {
+        "label": "日本IBM ThinkPad TransNote",
+        "label_en": "IBM ThinkPad TransNote",
+        "startYear": 2001,
+        "genre": [
+          "COMPUTER",
+          "INPUT"
+        ],
+        "imp": 4,
+        "url": "https://en.wikipedia.org/wiki/ThinkPad_TransNote",
+        "url_en": "https://en.wikipedia.org/wiki/ThinkPad_TransNote",
+        "note": "紙のメモをデジタル取り込みできるノートPC一体型デジタイザ。",
+        "note_en": "Notebook with a digitizer portfolio for capturing paper notes."
+      },
+      {
+        "label": "セイコー ミズムME100S",
+        "label_en": "Seiko Meism ME100S",
+        "startYear": 2001,
+        "genre": [
+          "AUDIO_VIDEO",
+          "MOBILE",
+          "JAPAN"
+        ],
+        "imp": 2,
+        "url": "https://av.watch.impress.co.jp/docs/20010605/meism.htm",
+        "url_en": "https://av.watch.impress.co.jp/docs/20010605/meism.htm",
+        "note": "携帯TV/ラジオとWMA再生に対応した多機能ポータブル端末。",
+        "note_en": "Portable TV/radio device that also plays WMA audio."
+      },
+      {
+        "label": "NTTドコモ P-in M@ster",
+        "label_en": "NTT DoCoMo P-in m@ster",
+        "startYear": 2001,
+        "genre": [
+          "PERIPHERAL",
+          "COMM",
+          "MOBILE",
+          "JAPAN"
+        ],
+        "imp": 3,
+        "url": "https://ascii.jp/elem/000/000/324/324872/",
+        "url_en": "https://ascii.jp/elem/000/000/324/324872/",
+        "note": "CFカード型のPHSデータ通信カードでノートPC接続を簡便化。",
+        "note_en": "CompactFlash PHS data card simplifying mobile PC access."
       }
     ],
     "2002": [
@@ -2651,6 +2921,21 @@
         "url_en": "https://en.wikipedia.org/wiki/Arduino",
         "note": "オープンソースのマイコン開発基板。",
         "note_en": "Open-source microcontroller platform central to makers."
+      },
+      {
+        "label": "シャープ W-ZERO3",
+        "label_en": "Sharp W-ZERO3",
+        "startYear": 2005,
+        "genre": [
+          "MOBILE",
+          "COMPUTER",
+          "JAPAN"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/W-ZERO3",
+        "url_en": "https://en.wikipedia.org/wiki/W-ZERO3",
+        "note": "物理キーボード搭載のスマートフォンで国内PDA市場を再活性化。",
+        "note_en": "Keyboarded smartphone that revitalized Japan’s PDA scene."
       }
     ],
     "2006": [
@@ -2883,6 +3168,20 @@
         "url_en": "https://en.wikipedia.org/wiki/Nest_Learning_Thermostat",
         "note": "学習機能を備えたスマート恒温器。",
         "note_en": "Learning smart thermostat for home automation."
+      },
+      {
+        "label": "Samsung Galaxy Note",
+        "label_en": "Samsung Galaxy Note",
+        "startYear": 2011,
+        "genre": [
+          "MOBILE",
+          "INPUT"
+        ],
+        "imp": 3,
+        "url": "https://en.wikipedia.org/wiki/Samsung_Galaxy_Note",
+        "url_en": "https://en.wikipedia.org/wiki/Samsung_Galaxy_Note",
+        "note": "大画面とSペンで“ファブレット”潮流を生んだ端末。",
+        "note_en": "Large-screen phone with S Pen that sparked the phablet trend."
       }
     ],
     "2012": [
@@ -2912,22 +3211,36 @@
         "url_en": "https://en.wikipedia.org/wiki/Philips_Hue",
         "note": "スマート電球の代表ブランド。",
         "note_en": "A leading brand of smart light bulbs."
+      },
+      {
+        "label": "GoPro HERO3",
+        "label_en": "GoPro HERO3",
+        "startYear": 2012,
+        "genre": [
+          "CAMERA",
+          "AUDIO_VIDEO"
+        ],
+        "imp": 4,
+        "url": "https://en.wikipedia.org/wiki/GoPro",
+        "url_en": "https://en.wikipedia.org/wiki/GoPro",
+        "note": "アクションカメラを一般化した代表的シリーズの転機。",
+        "note_en": "Pivotal generation that mainstreamed action cameras."
       }
     ],
     "2013": [
       {
         "label": "RICOH THETA",
-        "label_en": "RICOH THETA",
+        "label_en": "Ricoh Theta",
         "startYear": 2013,
         "genre": [
           "CAMERA",
           "JAPAN"
         ],
         "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/Ricoh_Theta",
+        "url": "https://ja.wikipedia.org/wiki/RICOH_THETA",
         "url_en": "https://en.wikipedia.org/wiki/Ricoh_Theta",
-        "note": "全天球撮影が可能な小型カメラ。",
-        "note_en": "Compact camera capable of 360-degree images."
+        "note": "民生向け360度カメラを切り開いた初期代表機。",
+        "note_en": "Early consumer 360-degree camera that opened the category."
       },
       {
         "label": "Chromecast",
@@ -2971,22 +3284,93 @@
         "url_en": "https://en.wikipedia.org/wiki/DJI_Phantom",
         "note": "民生ドローン普及の象徴シリーズ。",
         "note_en": "Consumer drone series popularizing aerial imaging."
+      },
+      {
+        "label": "Oculus Rift DK1",
+        "label_en": "Oculus Rift DK1",
+        "startYear": 2013,
+        "genre": [
+          "WEARABLE",
+          "COMPUTER"
+        ],
+        "imp": 5,
+        "url": "https://en.wikipedia.org/wiki/Oculus_Rift",
+        "url_en": "https://en.wikipedia.org/wiki/Oculus_Rift",
+        "note": "開発者向けVR HMDで現代VR復興の起点となった。",
+        "note_en": "Dev-kit VR HMD that reignited modern virtual reality."
+      },
+      {
+        "label": "Tile（初代）",
+        "label_en": "Tile (1st gen)",
+        "startYear": 2013,
+        "genre": [
+          "WEARABLE",
+          "COMM"
+        ],
+        "imp": 3,
+        "url": "https://en.wikipedia.org/wiki/Tile_(tracking_device)",
+        "url_en": "https://en.wikipedia.org/wiki/Tile_(tracking_device)",
+        "note": "Bluetoothトラッカーを一般層へ広めた先駆。",
+        "note_en": "Early Bluetooth tracker that popularized item finding."
+      },
+      {
+        "label": "Pebble（初代）",
+        "label_en": "Pebble (1st gen)",
+        "startYear": 2013,
+        "genre": [
+          "WEARABLE",
+          "MOBILE"
+        ],
+        "imp": 4,
+        "url": "https://en.wikipedia.org/wiki/Pebble_(watch)",
+        "url_en": "https://en.wikipedia.org/wiki/Pebble_(watch)",
+        "note": "Eペーパー採用のスマートウォッチでKickstarter発。",
+        "note_en": "E-paper smartwatch that became a Kickstarter hit."
       }
     ],
     "2014": [
       {
-        "label": "Amazon Echo",
+        "label": "Amazon Echo（初代）",
         "label_en": "Amazon Echo",
         "startYear": 2014,
         "genre": [
           "AUDIO_VIDEO",
+          "COMM",
+          "INPUT"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/Amazon_Echo",
+        "url_en": "https://en.wikipedia.org/wiki/Amazon_Echo",
+        "note": "音声アシスタント搭載スマートスピーカーの嚆矢。",
+        "note_en": "Voice-assistant smart speaker that defined the category."
+      },
+      {
+        "label": "Google Cardboard",
+        "label_en": "Google Cardboard",
+        "startYear": 2014,
+        "genre": [
+          "WEARABLE",
+          "MAKER"
+        ],
+        "imp": 3,
+        "url": "https://en.wikipedia.org/wiki/Google_Cardboard",
+        "url_en": "https://en.wikipedia.org/wiki/Google_Cardboard",
+        "note": "段ボール製の安価なVRビューアで間口を広げた。",
+        "note_en": "Low-cost phone-VR viewer that broadened access."
+      },
+      {
+        "label": "DJI Phantom 2 Vision+",
+        "label_en": "DJI Phantom 2 Vision+",
+        "startYear": 2014,
+        "genre": [
+          "CAMERA",
           "COMM"
         ],
         "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/Amazon_Echo",
-        "url_en": "https://en.wikipedia.org/wiki/Amazon_Echo",
-        "note": "音声アシスタント搭載スマートスピーカー。",
-        "note_en": "Smart speaker featuring Alexa voice assistant."
+        "url": "https://en.wikipedia.org/wiki/Phantom_(UAV)",
+        "url_en": "https://en.wikipedia.org/wiki/Phantom_(UAV)",
+        "note": "民生ドローン空撮を一般化したカメラ搭載機。",
+        "note_en": "Camera drone that popularized consumer aerial imaging."
       }
     ],
     "2015": [
@@ -3030,23 +3414,37 @@
         "url_en": "https://www.prnewswire.com/news-releases/zz-inc-unveils-keymouse-on-kickstarter-and-at-ces-2015-300021167.html",
         "note": "キーボードとマウスを統合した左右分割の入力デバイス。",
         "note_en": "split keyboard-and-mouse hybrid device."
+      },
+      {
+        "label": "Amazon Dash Button",
+        "label_en": "Amazon Dash Button",
+        "startYear": 2015,
+        "genre": [
+          "INPUT",
+          "COMM"
+        ],
+        "imp": 3,
+        "url": "https://en.wikipedia.org/wiki/Amazon_Dash",
+        "url_en": "https://en.wikipedia.org/wiki/Amazon_Dash",
+        "note": "ワンプッシュで商品再注文を可能にしたIoTボタン。",
+        "note_en": "Wi-Fi IoT button for one-press product reorders."
+      },
+      {
+        "label": "Raspberry Pi Zero",
+        "label_en": "Raspberry Pi Zero",
+        "startYear": 2015,
+        "genre": [
+          "MAKER",
+          "COMPUTER"
+        ],
+        "imp": 4,
+        "url": "https://en.wikipedia.org/wiki/Raspberry_Pi",
+        "url_en": "https://en.wikipedia.org/wiki/Raspberry_Pi",
+        "note": "$5の超低価格SBCで組込み用途を拡大。",
+        "note_en": "Ultra-low-cost SBC that expanded embedded DIY."
       }
     ],
     "2016": [
-      {
-        "label": "Nintendo Switch",
-        "label_en": "Nintendo Switch",
-        "startYear": 2016,
-        "genre": [
-          "GAME",
-          "JAPAN"
-        ],
-        "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/Nintendo_Switch",
-        "url_en": "https://en.wikipedia.org/wiki/Nintendo_Switch",
-        "note": "据置と携帯を兼ねるハイブリッド。",
-        "note_en": "Hybrid console bridging handheld and home play."
-      },
       {
         "label": "ESP32",
         "label_en": "ESP32",
@@ -3074,37 +3472,112 @@
         "url_en": "https://en.wikipedia.org/wiki/Microsoft_HoloLens",
         "note": "Microsoftの複合現実ヘッドセット。",
         "note_en": "Microsoft’s mixed-reality headset."
-      }
-    ],
-    "2017": [
+      },
       {
-        "label": "Nintendo Classic Mini",
-        "label_en": "Nintendo Classic Mini (NES/SNES)",
-        "startYear": 2017,
+        "label": "AirPods（初代）",
+        "label_en": "AirPods (1st gen)",
+        "startYear": 2016,
+        "genre": [
+          "AUDIO_VIDEO",
+          "WEARABLE",
+          "PERIPHERAL"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/AirPods",
+        "url_en": "https://en.wikipedia.org/wiki/AirPods",
+        "note": "完全ワイヤレスイヤホンを主流化した代表格。",
+        "note_en": "True-wireless earbuds that went mainstream."
+      },
+      {
+        "label": "Nintendo Classic Mini ファミコン",
+        "label_en": "NES Classic Edition",
+        "startYear": 2016,
         "genre": [
           "GAME",
           "JAPAN"
         ],
-        "imp": 2,
-        "url": "https://ja.wikipedia.org/wiki/Nintendo_Classic_Mini",
-        "url_en": "https://en.wikipedia.org/wiki/Nintendo_Classic_Mini",
-        "note": "往年機のミニ復刻。レトロブーム加速。",
-        "note_en": "Mini re-releases fueling retro nostalgia."
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/Nintendo_Classic_Mini_Famicom",
+        "url_en": "https://en.wikipedia.org/wiki/NES_Classic_Edition",
+        "note": "復刻ミニ筐体でレトロゲーム熱を喚起した。",
+        "note_en": "Mini reissue that sparked a retro-gaming boom."
+      }
+    ],
+    "2017": [
+      {
+        "label": "Nintendo Switch",
+        "label_en": "Nintendo Switch",
+        "startYear": 2017,
+        "genre": [
+          "GAME",
+          "MOBILE",
+          "JAPAN"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/Nintendo_Switch",
+        "url_en": "https://en.wikipedia.org/wiki/Nintendo_Switch",
+        "note": "据置/携帯を兼ねるハイブリッド機で大成功。",
+        "note_en": "Hit hybrid console bridging handheld and TV play."
       }
     ],
     "2018": [
       {
         "label": "Insta360 ONE X",
-        "label_en": "Insta360 ONE X",
+        "label_en": "Insta360 One X",
         "startYear": 2018,
         "genre": [
           "CAMERA"
         ],
         "imp": 3,
-        "url": "https://ja.wikipedia.org/wiki/Insta360",
+        "url": "https://en.wikipedia.org/wiki/Insta360",
         "url_en": "https://en.wikipedia.org/wiki/Insta360",
-        "note": "手軽な360度動画撮影を普及。",
-        "note_en": "Portable 360-degree action camera."
+        "note": "手ブレ補正と編集性で360度撮影を一般化。",
+        "note_en": "360 action cam that popularized stabilized 360 capture."
+      },
+      {
+        "label": "DJI Osmo Pocket",
+        "label_en": "DJI Osmo Pocket",
+        "startYear": 2018,
+        "genre": [
+          "CAMERA"
+        ],
+        "imp": 3,
+        "url": "https://en.wikipedia.org/wiki/DJI",
+        "url_en": "https://en.wikipedia.org/wiki/DJI",
+        "note": "小型ジンバル一体の4Kハンドヘルドカメラ。",
+        "note_en": "Handheld 4K camera with integrated gimbal."
+      }
+    ],
+    "2019": [
+      {
+        "label": "Oculus Quest（初代）",
+        "label_en": "Oculus Quest (1st gen)",
+        "startYear": 2019,
+        "genre": [
+          "WEARABLE",
+          "COMPUTER"
+        ],
+        "imp": 5,
+        "url": "https://en.wikipedia.org/wiki/Oculus_Quest",
+        "url_en": "https://en.wikipedia.org/wiki/Oculus_Quest",
+        "note": "PC不要のスタンドアロンVRで普及を加速。",
+        "note_en": "Standalone VR headset that accelerated adoption."
+      }
+    ],
+    "2020": [
+      {
+        "label": "Valve Index",
+        "label_en": "Valve Index",
+        "startYear": 2020,
+        "genre": [
+          "WEARABLE",
+          "COMPUTER"
+        ],
+        "imp": 4,
+        "url": "https://en.wikipedia.org/wiki/Valve_Index",
+        "url_en": "https://en.wikipedia.org/wiki/Valve_Index",
+        "note": "高精細表示と指トラッキングを備えたPC向けVR。",
+        "note_en": "PC VR with high-fidelity display and finger tracking."
       }
     ],
     "2021": [
@@ -3134,6 +3607,37 @@
         "url_en": "https://en.wikipedia.org/wiki/Steam_Deck",
         "note": "PCゲームを携帯機で遊べるハンドヘルド。",
         "note_en": "Valve’s handheld PC for playing Steam games."
+      },
+      {
+        "label": "Playdate",
+        "label_en": "Playdate",
+        "startYear": 2021,
+        "genre": [
+          "GAME",
+          "MAKER"
+        ],
+        "imp": 3,
+        "url": "https://en.wikipedia.org/wiki/Playdate_(console)",
+        "url_en": "https://en.wikipedia.org/wiki/Playdate_(console)",
+        "note": "クランク操作が特徴のインディ携帯ゲーム機。",
+        "note_en": "Indie handheld notable for its crank input."
+      }
+    ],
+    "2022": [
+      {
+        "label": "Flipper Zero",
+        "label_en": "Flipper Zero",
+        "startYear": 2022,
+        "genre": [
+          "MAKER",
+          "COMM",
+          "PERIPHERAL"
+        ],
+        "imp": 3,
+        "url": "https://en.wikipedia.org/wiki/Flipper_Zero",
+        "url_en": "https://en.wikipedia.org/wiki/Flipper_Zero",
+        "note": "RF/IoT検証向け多機能ハッキングツール。",
+        "note_en": "Portable multi-tool for RF/IoT exploration."
       }
     ],
     "2024": [
