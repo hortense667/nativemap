@@ -2972,22 +2972,7 @@
         "note_en": "Consumer drone series popularizing aerial imaging."
       }
     ],
-    "2014": [
-      {
-        "label": "Amazon Echo",
-        "label_en": "Amazon Echo",
-        "startYear": 2014,
-        "genre": [
-          "AUDIO_VIDEO",
-          "COMM"
-        ],
-        "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/Amazon_Echo",
-        "url_en": "https://en.wikipedia.org/wiki/Amazon_Echo",
-        "note": "音声アシスタント搭載スマートスピーカー。",
-        "note_en": "Smart speaker featuring Alexa voice assistant."
-      }
-    ],
+    "2014": [],
     "2015": [
       {
         "label": "KeyMouse",
