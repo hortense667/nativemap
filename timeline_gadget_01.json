@@ -3064,20 +3064,18 @@
     "2017": [
       {
         "label": "Nintendo Classic Mini",
-        "label_en": "Nintendo Classic Mini (NES/SNES)",
         "startYear": 2017,
         "genre": [
-          "GAME",
-          "JAPAN"
+          "GAME"
         ],
         "imp": 2,
         "url": "https://ja.wikipedia.org/wiki/Nintendo_Classic_Mini",
-        "url_en": "https://en.wikipedia.org/wiki/Nintendo_Classic_Mini",
         "note": "往年機のミニ復刻。レトロブーム加速。",
+        "label_en": "Nintendo Classic Mini (NES/SNES)",
+        "url_en": "https://en.wikipedia.org/wiki/Nintendo_Classic_Mini",
         "note_en": "Mini re-releases fueling retro nostalgia."
       }
     ],
-    "2018": [],
     "2021": [
       {
         "label": "AirTag",
