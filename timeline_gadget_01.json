@@ -2903,7 +2903,6 @@
     "2013": [
       {
         "label": "RICOH THETA",
-        "label_en": "RICOH THETA",
         "startYear": 2013,
         "genre": [
           "CAMERA",
@@ -2911,8 +2910,9 @@
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/Ricoh_Theta",
+        "note": "全天球撮影が可能な小型カメラ。です。",
+        "label_en": "RICOH THETA",
         "url_en": "https://en.wikipedia.org/wiki/Ricoh_Theta",
-        "note": "全天球撮影が可能な小型カメラ。",
         "note_en": "Compact camera capable of 360-degree images."
       },
       {
