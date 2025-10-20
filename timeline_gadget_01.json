@@ -150,7 +150,6 @@
         "note_en": "Educational electromechanical trainer by Claude Shannon for learning binary logic and computing concepts."
       }
     ],
-    "1962": [],
     "1963": [
       {
         "label": "コンパクトカセット",
@@ -3003,20 +3002,6 @@
         "url_en": "https://en.wikipedia.org/wiki/Apple_Watch",
         "note": "Appleのスマートウォッチ。健康・通知機能。",
         "note_en": "Apple’s smartwatch with health and notifications."
-      },
-      {
-        "label": "Pocket Operator",
-        "label_en": "Pocket Operator",
-        "startYear": 2015,
-        "genre": [
-          "MAKER",
-          "AUDIO_VIDEO"
-        ],
-        "imp": 2,
-        "url": "https://ja.wikipedia.org/wiki/Teenage_Engineering",
-        "url_en": "https://en.wikipedia.org/wiki/Pocket_Operator",
-        "note": "名刺大の小型シンセ／リズムマシン。",
-        "note_en": "Credit-card-sized synths and drum machines."
       },
       {
         "label": "KeyMouse",
