@@ -34,7 +34,6 @@
     "1945": [
       {
         "label": "ヤルタ会談",
-        "label_en": "Yalta Conference",
         "startYear": 1945,
         "genre": [
           "EVENT",
@@ -42,8 +41,9 @@
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/ヤルタ会談",
+        "note": "米英ソ首脳が戦後処理・国連設立などを協議した。",
+        "label_en": "Yalta Conference",
         "url_en": "https://en.wikipedia.org/wiki/Yalta_Conference",
-        "note": "米英ソ首脳が戦後処理・国連設立などを協議。",
         "note_en": "US‑UK‑USSR leaders met to decide postwar arrangements and the UN."
       },
       {
@@ -469,20 +469,6 @@
     ],
     "1946": [
       {
-        "label": "国連総会 第1回開催",
-        "label_en": "First UN General Assembly",
-        "startYear": 1946,
-        "genre": [
-          "EVENT",
-          "WORLD"
-        ],
-        "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/国際連合総会",
-        "url_en": "https://en.wikipedia.org/wiki/United_Nations_General_Assembly_First_Session",
-        "note": "ロンドンで第1回国連総会が開かれ、戦後国際協調が始動。",
-        "note_en": "The first UN General Assembly met in London, launching postwar multilateralism."
-      },
-      {
         "label": "IMTFE（極東国際軍事裁判）開始",
         "label_en": "Tokyo War Crimes Tribunal begins",
         "startYear": 1946,
@@ -496,6 +482,20 @@
         "url_en": "https://en.wikipedia.org/wiki/International_Military_Tribunal_for_the_Far_East",
         "note": "東京で戦争指導者を裁く国際裁判が始まる。",
         "note_en": "The International Military Tribunal for the Far East convened in Tokyo."
+      },
+      {
+        "label": "国連総会 第1回開催",
+        "label_en": "First UN General Assembly",
+        "startYear": 1946,
+        "genre": [
+          "EVENT",
+          "WORLD"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/国際連合総会",
+        "url_en": "https://en.wikipedia.org/wiki/United_Nations_General_Assembly_First_Session",
+        "note": "ロンドンで第1回国連総会が開かれ、戦後国際協調が始動。",
+        "note_en": "The first UN General Assembly met in London, launching postwar multilateralism."
       },
       {
         "label": "日本国憲法公布",
