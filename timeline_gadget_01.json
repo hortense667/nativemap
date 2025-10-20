@@ -2972,37 +2972,22 @@
         "note_en": "Consumer drone series popularizing aerial imaging."
       }
     ],
-    "2014": [],
     "2015": [
       {
-        "label": "KeyMouse",
-        "label_en": "KeyMouse",
+        "label": "KeyMouseだね",
         "startYear": 2015,
         "genre": [
           "INPUT"
         ],
         "imp": 1,
         "url": "https://www.kickstarter.com/projects/1666150716/keymousetm-the-keyboard-and-mouse-re-invented",
-        "url_en": "https://www.prnewswire.com/news-releases/zz-inc-unveils-keymouse-on-kickstarter-and-at-ces-2015-300021167.html",
         "note": "キーボードとマウスを統合した左右分割の入力デバイス。",
+        "label_en": "KeyMouse",
+        "url_en": "https://www.prnewswire.com/news-releases/zz-inc-unveils-keymouse-on-kickstarter-and-at-ces-2015-300021167.html",
         "note_en": "split keyboard-and-mouse hybrid device."
       }
     ],
     "2016": [
-      {
-        "label": "ESP32",
-        "label_en": "ESP32",
-        "startYear": 2016,
-        "genre": [
-          "MAKER",
-          "COMM"
-        ],
-        "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/ESP32",
-        "url_en": "https://en.wikipedia.org/wiki/ESP32",
-        "note": "Wi-Fi/BLE内蔵の低価格SoCでIoT試作を加速。",
-        "note_en": "Low-cost Wi-Fi/BLE SoC accelerating IoT prototyping."
-      },
       {
         "label": "HoloLens",
         "label_en": "Microsoft HoloLens",
@@ -3048,20 +3033,6 @@
       }
     ],
     "2021": [
-      {
-        "label": "AirTag",
-        "label_en": "AirTag",
-        "startYear": 2021,
-        "genre": [
-          "PERIPHERAL",
-          "MOBILE"
-        ],
-        "imp": 3,
-        "url": "https://ja.wikipedia.org/wiki/AirTag",
-        "url_en": "https://en.wikipedia.org/wiki/AirTag",
-        "note": "UWBと「探す」ネットワークで紛失物追跡。",
-        "note_en": "Tracker leveraging UWB and Apple’s Find My network."
-      },
       {
         "label": "Steam Deck",
         "label_en": "Steam Deck",
