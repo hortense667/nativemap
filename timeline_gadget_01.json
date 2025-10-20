@@ -3019,24 +3019,7 @@
         "note_en": "Mini re-releases fueling retro nostalgia."
       }
     ],
-    "2021": [],
-    "2024": [
-      {
-        "label": "Apple Vision Pro",
-        "label_en": "Apple Vision Pro",
-        "startYear": 2024,
-        "genre": [
-          "WEARABLE",
-          "MOBILE",
-          "AUDIO_VIDEO"
-        ],
-        "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/Apple_Vision_Pro",
-        "url_en": "https://en.wikipedia.org/wiki/Apple_Vision_Pro",
-        "note": "空間コンピューティングを掲げるAppleのヘッドセット。",
-        "note_en": "Apple’s spatial-computing headset blending AR/VR."
-      }
-    ],
+    "2024": [],
     "2025": [
       {
         "label": "ERIS6800",
