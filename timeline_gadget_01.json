@@ -150,6 +150,7 @@
         "note_en": "Educational electromechanical trainer by Claude Shannon for learning binary logic and computing concepts."
       }
     ],
+    "1962": [],
     "1963": [
       {
         "label": "コンパクトカセット",
@@ -2725,6 +2726,19 @@
         "note_en": "Small laptop that sparked the netbook boom."
       },
       {
+        "label": "Flip Video",
+        "label_en": "Flip Video",
+        "startYear": 2007,
+        "genre": [
+          "CAMERA"
+        ],
+        "imp": 2,
+        "url": "https://ja.wikipedia.org/wiki/Flip_Video",
+        "url_en": "https://en.wikipedia.org/wiki/Flip_Video",
+        "note": "簡便なポケットビデオカメラ。",
+        "note_en": "Simple pocket camcorders for easy shooting."
+      },
+      {
         "label": "Apple TV",
         "label_en": "Apple TV",
         "startYear": 2007,
@@ -2873,6 +2887,19 @@
     ],
     "2012": [
       {
+        "label": "Raspberry Pi",
+        "label_en": "Raspberry Pi",
+        "startYear": 2012,
+        "genre": [
+          "MAKER"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/Raspberry_Pi",
+        "url_en": "https://en.wikipedia.org/wiki/Raspberry_Pi",
+        "note": "教育・試作向けの低価格シングルボードPC。",
+        "note_en": "Low-cost single-board computer for education and prototyping."
+      },
+      {
         "label": "Philips Hue",
         "label_en": "Philips Hue",
         "startYear": 2012,
@@ -2885,25 +2912,12 @@
         "url_en": "https://en.wikipedia.org/wiki/Philips_Hue",
         "note": "スマート電球の代表ブランド。",
         "note_en": "A leading brand of smart light bulbs."
-      },
-      {
-        "label": "Raspberry Pi",
-        "startYear": 2012,
-        "genre": [
-          "COMPUTER",
-          "MAKER"
-        ],
-        "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/Raspberry_Pi",
-        "note": "教育・試作向けの低価格シングルボードPC。",
-        "label_en": "Raspberry Pi",
-        "url_en": "https://en.wikipedia.org/wiki/Raspberry_Pi",
-        "note_en": "Low-cost single-board computer for education and prototyping."
       }
     ],
     "2013": [
       {
         "label": "RICOH THETA",
+        "label_en": "RICOH THETA",
         "startYear": 2013,
         "genre": [
           "CAMERA",
@@ -2911,9 +2925,8 @@
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/Ricoh_Theta",
-        "note": "全天球撮影が可能な小型カメラ。です。",
-        "label_en": "RICOH THETA",
         "url_en": "https://en.wikipedia.org/wiki/Ricoh_Theta",
+        "note": "全天球撮影が可能な小型カメラ。",
         "note_en": "Compact camera capable of 360-degree images."
       },
       {
@@ -2960,38 +2973,69 @@
         "note_en": "Consumer drone series popularizing aerial imaging."
       }
     ],
+    "2014": [
+      {
+        "label": "Amazon Echo",
+        "label_en": "Amazon Echo",
+        "startYear": 2014,
+        "genre": [
+          "AUDIO_VIDEO",
+          "COMM"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/Amazon_Echo",
+        "url_en": "https://en.wikipedia.org/wiki/Amazon_Echo",
+        "note": "音声アシスタント搭載スマートスピーカー。",
+        "note_en": "Smart speaker featuring Alexa voice assistant."
+      }
+    ],
     "2015": [
       {
-        "label": "KeyMouseだね",
+        "label": "Apple Watch",
+        "label_en": "Apple Watch",
+        "startYear": 2015,
+        "genre": [
+          "WEARABLE",
+          "MOBILE"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/Apple_Watch",
+        "url_en": "https://en.wikipedia.org/wiki/Apple_Watch",
+        "note": "Appleのスマートウォッチ。健康・通知機能。",
+        "note_en": "Apple’s smartwatch with health and notifications."
+      },
+      {
+        "label": "Pocket Operator",
+        "label_en": "Pocket Operator",
+        "startYear": 2015,
+        "genre": [
+          "MAKER",
+          "AUDIO_VIDEO"
+        ],
+        "imp": 2,
+        "url": "https://ja.wikipedia.org/wiki/Teenage_Engineering",
+        "url_en": "https://en.wikipedia.org/wiki/Pocket_Operator",
+        "note": "名刺大の小型シンセ／リズムマシン。",
+        "note_en": "Credit-card-sized synths and drum machines."
+      },
+      {
+        "label": "KeyMouse",
+        "label_en": "KeyMouse",
         "startYear": 2015,
         "genre": [
           "INPUT"
         ],
         "imp": 1,
         "url": "https://www.kickstarter.com/projects/1666150716/keymousetm-the-keyboard-and-mouse-re-invented",
-        "note": "キーボードとマウスを統合した左右分割の入力デバイス。",
-        "label_en": "KeyMouse",
         "url_en": "https://www.prnewswire.com/news-releases/zz-inc-unveils-keymouse-on-kickstarter-and-at-ces-2015-300021167.html",
+        "note": "キーボードとマウスを統合した左右分割の入力デバイス。",
         "note_en": "split keyboard-and-mouse hybrid device."
       }
     ],
     "2016": [
       {
-        "label": "HoloLens",
-        "startYear": 2016,
-        "genre": [
-          "MOBILE",
-          "WEARABLE"
-        ],
-        "imp": 3,
-        "url": "https://ja.wikipedia.org/wiki/Microsoft_HoloLensasdsa",
-        "note": "Microsoftの複合現実ヘッドセット。",
-        "label_en": "Microsoft HoloLens",
-        "url_en": "https://en.wikipedia.org/wiki/Microsoft_HoloLens",
-        "note_en": "Microsoft’s mixed-reality headset."
-      },
-      {
-        "label": "Nintendo Switchです。",
+        "label": "Nintendo Switch",
+        "label_en": "Nintendo Switch",
         "startYear": 2016,
         "genre": [
           "GAME",
@@ -2999,25 +3043,114 @@
         ],
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/Nintendo_Switch",
-        "note": "据置と携帯を兼ねるハイブリッド。",
-        "label_en": "Nintendo Switch",
         "url_en": "https://en.wikipedia.org/wiki/Nintendo_Switch",
+        "note": "据置と携帯を兼ねるハイブリッド。",
         "note_en": "Hybrid console bridging handheld and home play."
+      },
+      {
+        "label": "ESP32",
+        "label_en": "ESP32",
+        "startYear": 2016,
+        "genre": [
+          "MAKER",
+          "COMM"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/ESP32",
+        "url_en": "https://en.wikipedia.org/wiki/ESP32",
+        "note": "Wi-Fi/BLE内蔵の低価格SoCでIoT試作を加速。",
+        "note_en": "Low-cost Wi-Fi/BLE SoC accelerating IoT prototyping."
+      },
+      {
+        "label": "HoloLens",
+        "label_en": "Microsoft HoloLens",
+        "startYear": 2016,
+        "genre": [
+          "WEARABLE",
+          "MOBILE"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/Microsoft_HoloLens",
+        "url_en": "https://en.wikipedia.org/wiki/Microsoft_HoloLens",
+        "note": "Microsoftの複合現実ヘッドセット。",
+        "note_en": "Microsoft’s mixed-reality headset."
       }
     ],
     "2017": [
       {
         "label": "Nintendo Classic Mini",
+        "label_en": "Nintendo Classic Mini (NES/SNES)",
         "startYear": 2017,
         "genre": [
-          "GAME"
+          "GAME",
+          "JAPAN"
         ],
         "imp": 2,
         "url": "https://ja.wikipedia.org/wiki/Nintendo_Classic_Mini",
-        "note": "往年機のミニ復刻。レトロブーム加速。",
-        "label_en": "Nintendo Classic Mini (NES/SNES)",
         "url_en": "https://en.wikipedia.org/wiki/Nintendo_Classic_Mini",
-        "note_en": "Mini re-releases fueling retro nostal"
+        "note": "往年機のミニ復刻。レトロブーム加速。",
+        "note_en": "Mini re-releases fueling retro nostalgia."
+      }
+    ],
+    "2018": [
+      {
+        "label": "Insta360 ONE X",
+        "label_en": "Insta360 ONE X",
+        "startYear": 2018,
+        "genre": [
+          "CAMERA"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/Insta360",
+        "url_en": "https://en.wikipedia.org/wiki/Insta360",
+        "note": "手軽な360度動画撮影を普及。",
+        "note_en": "Portable 360-degree action camera."
+      }
+    ],
+    "2021": [
+      {
+        "label": "AirTag",
+        "label_en": "AirTag",
+        "startYear": 2021,
+        "genre": [
+          "PERIPHERAL",
+          "MOBILE"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/AirTag",
+        "url_en": "https://en.wikipedia.org/wiki/AirTag",
+        "note": "UWBと「探す」ネットワークで紛失物追跡。",
+        "note_en": "Tracker leveraging UWB and Apple’s Find My network."
+      },
+      {
+        "label": "Steam Deck",
+        "label_en": "Steam Deck",
+        "startYear": 2021,
+        "genre": [
+          "GAME"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/Steam_Deck",
+        "url_en": "https://en.wikipedia.org/wiki/Steam_Deck",
+        "note": "PCゲームを携帯機で遊べるハンドヘルド。",
+        "note_en": "Valve’s handheld PC for playing Steam games."
+      }
+    ],
+    "2024": [
+      {
+        "label": "Apple Vision Pro",
+        "label_en": "Apple Vision Pro",
+        "startYear": 2024,
+        "genre": [
+          "WEARABLE",
+          "MOBILE",
+          "AUDIO_VIDEO"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/Apple_Vision_Pro",
+        "url_en": "https://en.wikipedia.org/wiki/Apple_Vision_Pro",
+        "note": "空間コンピューティングを掲げるAppleのヘッドセット。",
+        "note_en": "Apple’s spatial-computing headset blending AR/VR."
       }
     ],
     "2025": [
