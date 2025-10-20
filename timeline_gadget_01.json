@@ -3019,20 +3019,6 @@
     ],
     "2016": [
       {
-        "label": "Nintendo Switch",
-        "label_en": "Nintendo Switch",
-        "startYear": 2016,
-        "genre": [
-          "GAME",
-          "JAPAN"
-        ],
-        "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/Nintendo_Switch",
-        "url_en": "https://en.wikipedia.org/wiki/Nintendo_Switch",
-        "note": "据置と携帯を兼ねるハイブリッド。",
-        "note_en": "Hybrid console bridging handheld and home play."
-      },
-      {
         "label": "ESP32",
         "label_en": "ESP32",
         "startYear": 2016,
@@ -3059,6 +3045,20 @@
         "url_en": "https://en.wikipedia.org/wiki/Microsoft_HoloLens",
         "note": "Microsoftの複合現実ヘッドセット。",
         "note_en": "Microsoft’s mixed-reality headset."
+      },
+      {
+        "label": "Nintendo Switchです。",
+        "startYear": 2016,
+        "genre": [
+          "GAME",
+          "JAPAN"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/Nintendo_Switch",
+        "note": "据置と携帯を兼ねるハイブリッド。",
+        "label_en": "Nintendo Switch",
+        "url_en": "https://en.wikipedia.org/wiki/Nintendo_Switch",
+        "note_en": "Hybrid console bridging handheld and home play."
       }
     ],
     "2017": [
