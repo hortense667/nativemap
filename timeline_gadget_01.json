@@ -2977,16 +2977,16 @@
     "2016": [
       {
         "label": "HoloLens",
-        "label_en": "Microsoft HoloLens",
         "startYear": 2016,
         "genre": [
-          "WEARABLE",
-          "MOBILE"
+          "MOBILE",
+          "WEARABLE"
         ],
         "imp": 3,
-        "url": "https://ja.wikipedia.org/wiki/Microsoft_HoloLens",
-        "url_en": "https://en.wikipedia.org/wiki/Microsoft_HoloLens",
+        "url": "https://ja.wikipedia.org/wiki/Microsoft_HoloLensasdsa",
         "note": "Microsoftの複合現実ヘッドセット。",
+        "label_en": "Microsoft HoloLens",
+        "url_en": "https://en.wikipedia.org/wiki/Microsoft_HoloLens",
         "note_en": "Microsoft’s mixed-reality headset."
       },
       {
