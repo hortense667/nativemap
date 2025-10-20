@@ -3077,21 +3077,7 @@
         "note_en": "Mini re-releases fueling retro nostalgia."
       }
     ],
-    "2018": [
-      {
-        "label": "Insta360 ONE X",
-        "label_en": "Insta360 ONE X",
-        "startYear": 2018,
-        "genre": [
-          "CAMERA"
-        ],
-        "imp": 3,
-        "url": "https://ja.wikipedia.org/wiki/Insta360",
-        "url_en": "https://en.wikipedia.org/wiki/Insta360",
-        "note": "手軽な360度動画撮影を普及。",
-        "note_en": "Portable 360-degree action camera."
-      }
-    ],
+    "2018": [],
     "2021": [
       {
         "label": "AirTag",
