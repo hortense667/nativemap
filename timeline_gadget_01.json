@@ -2873,19 +2873,6 @@
     ],
     "2012": [
       {
-        "label": "Raspberry Pi",
-        "label_en": "Raspberry Pi",
-        "startYear": 2012,
-        "genre": [
-          "MAKER"
-        ],
-        "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/Raspberry_Pi",
-        "url_en": "https://en.wikipedia.org/wiki/Raspberry_Pi",
-        "note": "教育・試作向けの低価格シングルボードPC。",
-        "note_en": "Low-cost single-board computer for education and prototyping."
-      },
-      {
         "label": "Philips Hue",
         "label_en": "Philips Hue",
         "startYear": 2012,
@@ -2898,6 +2885,20 @@
         "url_en": "https://en.wikipedia.org/wiki/Philips_Hue",
         "note": "スマート電球の代表ブランド。",
         "note_en": "A leading brand of smart light bulbs."
+      },
+      {
+        "label": "Raspberry Pi",
+        "startYear": 2012,
+        "genre": [
+          "COMPUTER",
+          "MAKER"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/Raspberry_Pi",
+        "note": "教育・試作向けの低価格シングルボードPC。",
+        "label_en": "Raspberry Pi",
+        "url_en": "https://en.wikipedia.org/wiki/Raspberry_Pi",
+        "note_en": "Low-cost single-board computer for education and prototyping."
       }
     ],
     "2013": [
