@@ -2725,19 +2725,6 @@
         "note_en": "Small laptop that sparked the netbook boom."
       },
       {
-        "label": "Flip Video",
-        "label_en": "Flip Video",
-        "startYear": 2007,
-        "genre": [
-          "CAMERA"
-        ],
-        "imp": 2,
-        "url": "https://ja.wikipedia.org/wiki/Flip_Video",
-        "url_en": "https://en.wikipedia.org/wiki/Flip_Video",
-        "note": "簡便なポケットビデオカメラ。",
-        "note_en": "Simple pocket camcorders for easy shooting."
-      },
-      {
         "label": "Apple TV",
         "label_en": "Apple TV",
         "startYear": 2007,
@@ -3032,21 +3019,7 @@
         "note_en": "Mini re-releases fueling retro nostalgia."
       }
     ],
-    "2021": [
-      {
-        "label": "Steam Deck",
-        "label_en": "Steam Deck",
-        "startYear": 2021,
-        "genre": [
-          "GAME"
-        ],
-        "imp": 3,
-        "url": "https://ja.wikipedia.org/wiki/Steam_Deck",
-        "url_en": "https://en.wikipedia.org/wiki/Steam_Deck",
-        "note": "PCゲームを携帯機で遊べるハンドヘルド。",
-        "note_en": "Valve’s handheld PC for playing Steam games."
-      }
-    ],
+    "2021": [],
     "2024": [
       {
         "label": "Apple Vision Pro",
