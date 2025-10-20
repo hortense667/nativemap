@@ -2990,20 +2990,6 @@
     ],
     "2015": [
       {
-        "label": "Apple Watch",
-        "label_en": "Apple Watch",
-        "startYear": 2015,
-        "genre": [
-          "WEARABLE",
-          "MOBILE"
-        ],
-        "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/Apple_Watch",
-        "url_en": "https://en.wikipedia.org/wiki/Apple_Watch",
-        "note": "Appleのスマートウォッチ。健康・通知機能。",
-        "note_en": "Apple’s smartwatch with health and notifications."
-      },
-      {
         "label": "KeyMouse",
         "label_en": "KeyMouse",
         "startYear": 2015,
