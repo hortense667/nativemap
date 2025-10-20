@@ -3538,20 +3538,6 @@
         "note_en": "Apple’s smartwatch with health and notifications."
       },
       {
-        "label": "Pocket Operator",
-        "label_en": "Pocket Operator",
-        "startYear": 2015,
-        "genre": [
-          "MAKER",
-          "AUDIO_VIDEO"
-        ],
-        "imp": 2,
-        "url": "https://ja.wikipedia.org/wiki/Teenage_Engineering",
-        "url_en": "https://en.wikipedia.org/wiki/Pocket_Operator",
-        "note": "名刺大の小型シンセ／リズムマシン。",
-        "note_en": "Credit-card-sized synths and drum machines."
-      },
-      {
         "label": "KeyMouse",
         "label_en": "KeyMouse",
         "startYear": 2015,
@@ -3806,19 +3792,7 @@
         "note_en": "Apple’s spatial-computing headset blending AR/VR."
       }
     ],
-    "2025": [
-      {
-        "label": "ERIS6800",
-        "label_en": "ERIS6800",
-        "startYear": 2025,
-        "genre": [
-          "COMPUTER"
-        ],
-        "imp": 3,
-        "note": "1970年代のマイコンを体験できるMC6802（6800の改良品）を搭載したワンボードマイコン。",
-        "note_en": "ERIS6800 is a computer by 科学技術継承財団（マイコン博物館）, widely used in its era."
-      }
-    ]
+    "2025": []
   },
   "eraSettings": [],
   "genres": [
