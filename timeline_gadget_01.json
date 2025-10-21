@@ -83,16 +83,8 @@
         "label": "hortense",
         "startYear": 1956,
         "genre": [
-          "COMPUTER"
-        ],
-        "imp": 5,
-        "label_en": "hortense"
-      },
-      {
-        "label": "hortense",
-        "startYear": 1956,
-        "genre": [
-          "COMPUTER"
+          "COMPUTER",
+          "JAPAN"
         ],
         "imp": 5,
         "label_en": "hortense"
