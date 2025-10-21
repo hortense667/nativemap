@@ -653,6 +653,19 @@
         "imp": 3,
         "note": "日本の初期PC普及期に書かれた入門書で、基礎概念を平易に解説した。",
         "note_en": "An introductory book from Japan’s early PC era explaining fundamentals plainly."
+      },
+      {
+        "label": "TRS-80 Model I",
+        "label_en": "TRS-80 Model I",
+        "startYear": 1977,
+        "genre": [
+          "COMPUTER"
+        ],
+        "imp": 4,
+        "url": "https://en.wikipedia.org/wiki/TRS-80",
+        "url_en": "https://en.wikipedia.org/wiki/TRS-80",
+        "note": "ラジオシャックが量販した8ビット機で、米国における家庭用PC普及の牽引役となった。",
+        "note_en": "Mass‑marketed 8‑bit micro by Radio Shack that helped drive early home PC adoption in the U.S."
       }
     ],
     "1978": [
@@ -828,20 +841,34 @@
         "url_en": "https://en.wikipedia.org/wiki/Sharp_Corporation",
         "note": "シャープの多機能一体型端末で、AV機能と計算機能を統合した。",
         "note_en": "A Sharp hybrid unit integrating AV functions with computing capabilities."
+      },
+      {
+        "label": "MZ-80K",
+        "label_en": "MZ-80K",
+        "startYear": 1979,
+        "genre": [
+          "COMPUTER",
+          "JAPAN"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/MZ-80K",
+        "url_en": "https://en.wikipedia.org/wiki/Sharp_MZ",
+        "note": "シャープの一体型8ビットPC。",
+        "note_en": "Sharp’s all-in-one 8-bit PC."
       }
     ],
     "1980": [
       {
         "label": "IBM Model M",
-        "label_en": "IBM Model M",
         "startYear": 1980,
         "genre": [
           "INPUT"
         ],
         "imp": 3,
-        "url": "https://ja.wikipedia.org/wiki/Model_M",
-        "url_en": "https://en.wikipedia.org/wiki/Model_M_keyboard",
+        "url": "https://en.wikipedia.org/wiki/Model_M_keyboard",
         "note": "クリック感で知られる名機キーボード。",
+        "label_en": "IBM Model M",
+        "url_en": "https://en.wikipedia.org/wiki/Model_M_keyboard",
         "note_en": "Famed mechanical keyboard with buckling-spring feel."
       },
       {
@@ -860,14 +887,15 @@
       },
       {
         "label": "VIC-1001",
-        "label_en": "VIC-1001",
         "startYear": 1980,
         "genre": [
           "COMPUTER",
           "GAME"
         ],
         "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/VIC-1001",
         "note": "VIC-1001はコモドールのゲーム関連機器で、当時の利用に広く用いられた。",
+        "label_en": "VIC-1001",
         "note_en": "VIC-1001 is a game hardware/content by コモドール, widely used in its era."
       },
       {
@@ -1203,6 +1231,33 @@
         "url_en": "https://en.wikipedia.org/wiki/Multiplan",
         "note": "初期の表計算ソフトで、CP/MやMS-DOS上で利用された。",
         "note_en": "An early spreadsheet program available on CP/M and MS‑DOS."
+      },
+      {
+        "label": "VIC-20",
+        "label_en": "VIC-20",
+        "startYear": 1982,
+        "genre": [
+          "COMPUTER"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/Commodore_VIC-20",
+        "url_en": "https://en.wikipedia.org/wiki/Commodore_VIC-20",
+        "note": "家庭向けの安価な8ビットPC。",
+        "note_en": "An affordable 8-bit home computer."
+      },
+      {
+        "label": "シャープ X1 シリーズ",
+        "label_en": "Sharp X1 series",
+        "startYear": 1982,
+        "genre": [
+          "COMPUTER",
+          "JAPAN"
+        ],
+        "imp": 4,
+        "url": "https://en.wikipedia.org/wiki/Sharp_X1",
+        "url_en": "https://en.wikipedia.org/wiki/Sharp_X1",
+        "note": "テレビチューナー統合モニタやPCGなどを備えたZ80系の国産ホームコンピュータ。",
+        "note_en": "Japanese Z80‑based home computer line with TV‑tuner monitors and programmable character graphics."
       }
     ],
     "1983": [
@@ -1395,6 +1450,53 @@
         "url_en": "https://en.wikipedia.org/wiki/Compaq_Portable",
         "note": "IBM PC互換のラゲッジ型で、互換BIOSによりPC/AT互換機市場を切り開いた。",
         "note_en": "Luggable IBM‑PC‑compatible with a clean‑room BIOS that opened the clone market."
+      },
+      {
+        "label": "MyOASYS2",
+        "startYear": 1983,
+        "genre": [
+          "COMPUTER",
+          "JAPAN"
+        ],
+        "imp": 3,
+        "url": "https://museum.ipsj.or.jp/computer/word/0003.html",
+        "label_en": "MyOASYS2",
+        "url_en": "https://museum.ipsj.or.jp/computer/word/0003.html"
+      },
+      {
+        "label": "Apple IIc",
+        "label_en": "Apple IIc",
+        "startYear": 1983,
+        "genre": [
+          "COMPUTER"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/Apple_IIc",
+        "url_en": "https://en.wikipedia.org/wiki/Apple_IIc",
+        "note": "https://ja.wikipedia.org/wiki/Apple_IIc",
+        "note_en": "https://en.wikipedia.org/wiki/Apple_IIc"
+      },
+      {
+        "label": "HB-10",
+        "label_en": "HB-10",
+        "startYear": 1983,
+        "genre": [
+          "COMPUTER"
+        ],
+        "imp": 3,
+        "note": "HB-10はソニーのコンピュータで、当時の利用に広く用いられた。",
+        "note_en": "HB-10 is a computer by ソニー, widely used in its era."
+      },
+      {
+        "label": "YIS503",
+        "label_en": "YIS503",
+        "startYear": 1983,
+        "genre": [
+          "COMPUTER"
+        ],
+        "imp": 3,
+        "note": "YISは、1983年末〜1984年初にかけて、ヤマハが展開した教育・音楽志向のパソコンブランド。",
+        "note_en": "YIS503 is a computer by 日本楽器製造（ヤマハ）, widely used in its era."
       }
     ],
     "1984": [
@@ -1546,20 +1648,6 @@
         "note_en": "16-bit micro popular in music with built-in MIDI."
       },
       {
-        "label": "Nintendo Family Computer",
-        "label_en": "Family Computer (Famicom)",
-        "startYear": 1985,
-        "genre": [
-          "GAME",
-          "JAPAN"
-        ],
-        "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/ファミリーコンピュータ",
-        "url_en": "https://en.wikipedia.org/wiki/Nintendo_Entertainment_System",
-        "note": "日本発の家庭用ゲーム機。NESとして世界展開。",
-        "note_en": "Nintendo’s home console released worldwide as the NES."
-      },
-      {
         "label": "R.O.B.（ファミコンロボット）",
         "label_en": "R.O.B.",
         "startYear": 1985,
@@ -1615,8 +1703,7 @@
         "note_en": "A Japanese word processor by JustSystems widely used in domestic offices."
       },
       {
-        "label": "Nintendo Family Computer",
-        "label_en": "Family Computer (Famicom)",
+        "label": "Nintendo Entertainment System",
         "startYear": 1985,
         "genre": [
           "GAME",
@@ -1624,8 +1711,9 @@
         ],
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/ファミリーコンピュータ",
-        "url_en": "https://en.wikipedia.org/wiki/Nintendo_Entertainment_System",
         "note": "日本発の家庭用ゲーム機。NESとして世界展開。",
+        "label_en": "Nintendo Entertainment System",
+        "url_en": "https://en.wikipedia.org/wiki/Nintendo_Entertainment_System",
         "note_en": "Nintendo’s home console released worldwide as the NES."
       }
     ],
@@ -1681,6 +1769,17 @@
         "imp": 3,
         "note": "パソコン通信の初期に使われた代表的なインテリジェントモデム。",
         "note_en": "PV-A1200 MKⅢ is a computer by アイワ, widely used in its era."
+      },
+      {
+        "label": "OASYS 30AF",
+        "startYear": 1986,
+        "genre": [
+          "COMPUTER",
+          "JAPAN"
+        ],
+        "imp": 3,
+        "url": "https://museum.ipsj.or.jp/computer/word/0009.html",
+        "label_en": "OASYS 30AF"
       }
     ],
     "1987": [
@@ -1738,6 +1837,34 @@
         "url_en": "https://en.wikipedia.org/wiki/Sharp_X68000",
         "note": "高性能ホビーPC。アーケード移植で評価。",
         "note_en": "High-end hobbyist PC famed for arcade-accurate ports."
+      },
+      {
+        "label": "X68000",
+        "label_en": "X68000",
+        "startYear": 1987,
+        "genre": [
+          "COMPUTER",
+          "JAPAN"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/X68000",
+        "url_en": "https://en.wikipedia.org/wiki/Sharp_X68000",
+        "note": "高性能ホビーPC。アーケード移植で評価。",
+        "note_en": "High-end hobbyist PC famed for arcade-accurate ports."
+      },
+      {
+        "label": "X68000",
+        "label_en": "X68000",
+        "startYear": 1987,
+        "genre": [
+          "COMPUTER",
+          "JAPAN"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/X68000",
+        "url_en": "https://en.wikipedia.org/wiki/Sharp_X68000",
+        "note": "高性能ホビーPC。アーケード移植で評価。",
+        "note_en": "High-end hobbyist PC famed for arcade-accurate ports."
       }
     ],
     "1988": [
@@ -1767,6 +1894,30 @@
         "url_en": "https://en.wikipedia.org/wiki/Sega_Genesis",
         "note": "16ビット機の代表。海外で大成功。",
         "note_en": "Leading 16-bit console, hugely successful overseas."
+      },
+      {
+        "label": "OASYS 30AFⅢ",
+        "label_en": "Fujitsu OASYS 30AF III",
+        "startYear": 1988,
+        "genre": [
+          "COMPUTER"
+        ],
+        "imp": 3,
+        "url": "https://en.wikipedia.org/wiki/Fujitsu_OASYS",
+        "url_en": "https://en.wikipedia.org/wiki/Fujitsu_OASYS",
+        "note": "富士通の日本語ワープロ専用機で、オフィス文書作成に広く用いられた。",
+        "note_en": "Fujitsu’s dedicated Japanese word processor widely used for office documents."
+      },
+      {
+        "label": "Ultra Lite",
+        "startYear": 1988,
+        "genre": [
+          "COMPUTER",
+          "MOBILE"
+        ],
+        "imp": 3,
+        "url": "https://en.wikipedia.org/wiki/NEC_UltraLite",
+        "label_en": "Ultra Lite"
       },
       {
         "label": "OASYS 30AFⅢ",
@@ -1850,6 +2001,17 @@
         "url_en": "https://en.wikipedia.org/wiki/Dynabook",
         "note": "東芝の初期A4ノートで、可搬性と実用性を高めた。",
         "note_en": "An early A4‑sized Toshiba notebook that improved portability and practicality."
+      },
+      {
+        "label": "PoqetPC",
+        "startYear": 1989,
+        "genre": [
+          "COMPUTER",
+          "MOBILE"
+        ],
+        "imp": 3,
+        "url": "https://en.wikipedia.org/wiki/Poqet_PC",
+        "label_en": "PoqetPC"
       }
     ],
     "1990": [
@@ -1922,6 +2084,18 @@
         "url_en": "https://en.wikipedia.org/wiki/Super_Nintendo_Entertainment_System",
         "note": "任天堂の16ビット家庭用ゲーム機。",
         "note_en": "Nintendo’s 16-bit home console."
+      },
+      {
+        "label": "OASYS Pocket",
+        "startYear": 1991,
+        "genre": [
+          "COMPUTER",
+          "MOBILE",
+          "JAPAN"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/%E3%82%AA%E3%82%A2%E3%82%B7%E3%82%B9%E3%83%9D%E3%82%B1%E3%83%83%E3%83%88",
+        "label_en": "OASYS Pocket"
       }
     ],
     "1992": [
