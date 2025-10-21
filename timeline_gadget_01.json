@@ -1886,6 +1886,62 @@
         "imp": 4,
         "note": "シャープの電子手帳",
         "label_en": "PA-7000"
+      },
+      {
+        "label": "X68000",
+        "label_en": "X68000",
+        "startYear": 1987,
+        "genre": [
+          "COMPUTER",
+          "JAPAN"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/X68000",
+        "url_en": "https://en.wikipedia.org/wiki/Sharp_X68000",
+        "note": "高性能ホビーPC。アーケード移植で評価。",
+        "note_en": "High-end hobbyist PC famed for arcade-accurate ports."
+      },
+      {
+        "label": "X68000",
+        "label_en": "X68000",
+        "startYear": 1987,
+        "genre": [
+          "COMPUTER",
+          "JAPAN"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/X68000",
+        "url_en": "https://en.wikipedia.org/wiki/Sharp_X68000",
+        "note": "高性能ホビーPC。アーケード移植で評価。",
+        "note_en": "High-end hobbyist PC famed for arcade-accurate ports."
+      },
+      {
+        "label": "X68000",
+        "label_en": "X68000",
+        "startYear": 1987,
+        "genre": [
+          "COMPUTER",
+          "JAPAN"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/X68000",
+        "url_en": "https://en.wikipedia.org/wiki/Sharp_X68000",
+        "note": "高性能ホビーPC。アーケード移植で評価。",
+        "note_en": "High-end hobbyist PC famed for arcade-accurate ports."
+      },
+      {
+        "label": "X68000",
+        "label_en": "X68000",
+        "startYear": 1987,
+        "genre": [
+          "COMPUTER",
+          "JAPAN"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/X68000",
+        "url_en": "https://en.wikipedia.org/wiki/Sharp_X68000",
+        "note": "高性能ホビーPC。アーケード移植で評価。",
+        "note_en": "High-end hobbyist PC famed for arcade-accurate ports."
       }
     ],
     "1988": [
