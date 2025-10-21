@@ -78,6 +78,22 @@
         "note_en": "A compact mechanical hand-cranked calculator."
       }
     ],
+    "1958": [
+      {
+        "label": "DYMO",
+        "label_en": "DYMO labelmaker",
+        "startYear": 1958,
+        "genre": [
+          "PERIPHERAL",
+          "INPUT"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/ラベルライター",
+        "url_en": "https://en.wikipedia.org/wiki/DYMO",
+        "note": "エンボス式を含むラベルメーカーの代名詞的ブランド。",
+        "note_en": "https://ja.wikipedia.org/wiki/ラベルライター"
+      }
+    ],
     "1960": [
       {
         "label": "Etch A Sketch",
@@ -371,6 +387,60 @@
         "imp": 3,
         "note": "S-500は服部時計店（現セイコー）のコンピュータで、当時の利用に広く用いられた。",
         "note_en": "S-500 is a computer by 服部時計店（現セイコー）, widely used in its era."
+      },
+      {
+        "label": "CASIO mini",
+        "label_en": "CASIO mini",
+        "startYear": 1972,
+        "genre": [
+          "AUDIO_VIDEO",
+          "JAPAN"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/CASIO_mini",
+        "url_en": "https://en.wikipedia.org/wiki/Casio_Mini",
+        "note": "低価格で電卓を大衆化したカシオのヒット機。",
+        "note_en": "https://ja.wikipedia.org/wiki/CASIO_mini"
+      },
+      {
+        "label": "PONG",
+        "label_en": "PONG",
+        "startYear": 1972,
+        "genre": [
+          "GAME"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/PONG",
+        "url_en": "https://en.wikipedia.org/wiki/Pong",
+        "note": "最初期のアーケードヒット。家庭用TVゲームの端緒となった。",
+        "note_en": "https://ja.wikipedia.org/wiki/PONG"
+      },
+      {
+        "label": "SAKURA PAK 100",
+        "label_en": "Konica Sakura Pak 100",
+        "startYear": 1972,
+        "genre": [
+          "CAMERA",
+          "JAPAN"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/小西六本店",
+        "url_en": "https://fukucame.fan.coocan.jp/sakura.htm",
+        "note": "簡易フラッシュ内蔵の低価格35mmカメラ。",
+        "note_en": "https://ja.wikipedia.org/wiki/小西六本店"
+      },
+      {
+        "label": "Kodak Disk Camera",
+        "label_en": "Kodak Disc camera",
+        "startYear": 1972,
+        "genre": [
+          "CAMERA"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/コダック・ディスク",
+        "url_en": "https://en.wikipedia.org/wiki/Disc_film",
+        "note": "円盤フィルムを使う簡便カメラの規格。",
+        "note_en": "https://ja.wikipedia.org/wiki/コダック・ディスク"
       }
     ],
     "1973": [
@@ -549,6 +619,21 @@
         "imp": 3,
         "note": "日本最初期のマイコン学習キット。",
         "note_en": "TK-80 is a computer by 日本電気（NEC）, widely used in its era."
+      },
+      {
+        "label": "TK-80",
+        "label_en": "NEC TK-80",
+        "startYear": 1976,
+        "genre": [
+          "MAKER",
+          "COMPUTER",
+          "JAPAN"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/TK-80",
+        "url_en": "https://en.wikipedia.org/wiki/TK-80",
+        "note": "NECの学習用マイコンキット。日本の自作コンピュータ文化を育てた草分け。",
+        "note_en": "https://ja.wikipedia.org/wiki/TK-80"
       }
     ],
     "1977": [
@@ -652,6 +737,33 @@
         "url_en": "https://en.wikipedia.org/wiki/TRS-80",
         "note": "ラジオシャックが量販した8ビット機で、米国における家庭用PC普及の牽引役となった。",
         "note_en": "Mass‑marketed 8‑bit micro by Radio Shack that helped drive early home PC adoption in the U.S."
+      },
+      {
+        "label": "VAX-11/780",
+        "label_en": "VAX-11/780",
+        "startYear": 1977,
+        "genre": [
+          "COMPUTER"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/VAX",
+        "url_en": "https://en.wikipedia.org/wiki/VAX-11/780",
+        "note": "DECの32ビット級ミニコンの代表機。仮想記憶で時代を画した。",
+        "note_en": "https://ja.wikipedia.org/wiki/VAX"
+      },
+      {
+        "label": "TI Dataman",
+        "label_en": "TI Dataman",
+        "startYear": 1977,
+        "genre": [
+          "MAKER",
+          "ROBOTOY"
+        ],
+        "imp": 2,
+        "url": "https://ja.wikipedia.org/wiki/テキサス・インスツルメンツ",
+        "url_en": "https://en.wikipedia.org/wiki/Dataman",
+        "note": "電卓型の算数学習トイ。",
+        "note_en": "https://ja.wikipedia.org/wiki/テキサス・インスツルメンツ"
       }
     ],
     "1978": [
@@ -744,6 +856,20 @@
         "url_en": "https://en.wikipedia.org/wiki/Space_Invaders",
         "note": "1978年に社会現象となったアーケードゲームで、業界を拡大させた。",
         "note_en": "1978 arcade title that became a social phenomenon and expanded the industry."
+      },
+      {
+        "label": "Speak&Spell",
+        "label_en": "Speak & Spell",
+        "startYear": 1978,
+        "genre": [
+          "ROBOTOY",
+          "MAKER"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/Speak_%26_Spell",
+        "url_en": "https://en.wikipedia.org/wiki/Speak_%26_Spell_(toy)",
+        "note": "TIの教育玩具。音声合成で綴りを学べる携帯機。",
+        "note_en": "https://ja.wikipedia.org/wiki/Speak_%26_Spell"
       }
     ],
     "1979": [
@@ -896,6 +1022,20 @@
         "url_en": "https://en.wikipedia.org/wiki/Apple_III",
         "note": "ビジネス志向の上位機だが安定性問題で成功は限定的だった。",
         "note_en": "A business‑oriented successor whose adoption was limited due to stability issues."
+      },
+      {
+        "label": "ゲームウォッチ",
+        "label_en": "Game & Watch",
+        "startYear": 1980,
+        "genre": [
+          "GAME",
+          "JAPAN"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/Game_%26_Watch",
+        "url_en": "https://en.wikipedia.org/wiki/Game_%26_Watch",
+        "note": "任天堂の携帯型LCDゲームシリーズ。携帯ゲームの基礎を築いた。",
+        "note_en": "https://ja.wikipedia.org/wiki/Game_%26_Watch"
       }
     ],
     "1981": [
@@ -919,11 +1059,11 @@
         "genre": [
           "COMPUTER"
         ],
-        "imp": 3,
+        "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/Osborne_1",
         "url_en": "https://en.wikipedia.org/wiki/Osborne_1",
-        "note": "可搬型“一体ラップトップ”の先駆。",
-        "note_en": "An early portable “luggable” computer."
+        "note": "“ポータブル”PCの嚆矢。スーツケース型で話題に。",
+        "note_en": "https://ja.wikipedia.org/wiki/Osborne_1"
       },
       {
         "label": "PC-6001",
@@ -1244,6 +1384,21 @@
         "url_en": "https://en.wikipedia.org/wiki/Sharp_X1",
         "note": "テレビチューナー統合モニタやPCGなどを備えたZ80系の国産ホームコンピュータ。",
         "note_en": "Japanese Z80‑based home computer line with TV‑tuner monitors and programmable character graphics."
+      },
+      {
+        "label": "MyOASYS2",
+        "label_en": "My OASYS",
+        "startYear": 1982,
+        "genre": [
+          "COMPUTER",
+          "INPUT",
+          "JAPAN"
+        ],
+        "imp": 4,
+        "url": "https://museum.ipsj.or.jp/computer/word/0003.html",
+        "url_en": "https://en.wikipedia.org/wiki/OASYS",
+        "note": "富士通の家庭向けワープロ。小型低価格で普及に弾み。",
+        "note_en": "https://museum.ipsj.or.jp/computer/word/0003.html"
       }
     ],
     "1983": [
@@ -1493,6 +1648,48 @@
         "imp": 4,
         "note": "カシオの電子手帳",
         "label_en": "PF-300"
+      },
+      {
+        "label": "メガドライブ/GENESIS",
+        "label_en": "Sega Mega Drive/Genesis",
+        "startYear": 1983,
+        "genre": [
+          "GAME",
+          "JAPAN"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/メガドライブ",
+        "url_en": "https://en.wikipedia.org/wiki/Sega_Genesis",
+        "note": "16ビット機。北米Genesisで大成功を収める。",
+        "note_en": "https://ja.wikipedia.org/wiki/メガドライブ"
+      },
+      {
+        "label": "YAMAHA DX7",
+        "label_en": "Yamaha DX7",
+        "startYear": 1983,
+        "genre": [
+          "AUDIO_VIDEO",
+          "JAPAN"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/DX7",
+        "url_en": "https://en.wikipedia.org/wiki/Yamaha_DX7",
+        "note": "FM音源シンセの金字塔。80年代サウンドを象徴。",
+        "note_en": "https://ja.wikipedia.org/wiki/DX7"
+      },
+      {
+        "label": "Omnibot",
+        "label_en": "Tomy Omnibot",
+        "startYear": 1983,
+        "genre": [
+          "ROBOTOY",
+          "JAPAN"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/トミー",
+        "url_en": "https://en.wikipedia.org/wiki/Omnibot",
+        "note": "トミーの家庭用ロボット玩具シリーズ。",
+        "note_en": "https://ja.wikipedia.org/wiki/トミー"
       }
     ],
     "1984": [
@@ -1601,6 +1798,19 @@
         "url_en": "https://en.wikipedia.org/wiki/Macintosh",
         "note": "GUIとマウス操作を一般層に普及。",
         "note_en": "GUI-based PC that popularized the mouse for consumers."
+      },
+      {
+        "label": "Psion Organiser",
+        "label_en": "Psion Organiser",
+        "startYear": 1984,
+        "genre": [
+          "MOBILE"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/Psion_Organiser",
+        "url_en": "https://en.wikipedia.org/wiki/Psion_Organiser",
+        "note": "初期PDAの源流とされるポケットコンピュータ。",
+        "note_en": "https://ja.wikipedia.org/wiki/Psion_Organiser"
       }
     ],
     "1985": [
@@ -1711,6 +1921,34 @@
         "label_en": "Nintendo Entertainment System",
         "url_en": "https://en.wikipedia.org/wiki/Nintendo_Entertainment_System",
         "note_en": "Nintendo’s home console released worldwide as the NES."
+      },
+      {
+        "label": "CASIO SK-1",
+        "label_en": "Casio SK-1",
+        "startYear": 1985,
+        "genre": [
+          "AUDIO_VIDEO",
+          "JAPAN"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/CASIO_SK-1",
+        "url_en": "https://en.wikipedia.org/wiki/Casio_SK-1",
+        "note": "お手頃価格のサンプリング鍵盤。家庭にサンプリングを普及。",
+        "note_en": "https://ja.wikipedia.org/wiki/CASIO_SK-1"
+      },
+      {
+        "label": "EPSON RC-20",
+        "label_en": "Epson RC-20 Wrist Computer",
+        "startYear": 1985,
+        "genre": [
+          "MOBILE",
+          "JAPAN"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/スマートウォッチ",
+        "url_en": "https://en.wikipedia.org/wiki/Wearable_computer",
+        "note": "エプソンの腕コンピュータ。タッチ操作対応の先駆。",
+        "note_en": "https://ja.wikipedia.org/wiki/スマートウォッチ"
       }
     ],
     "1986": [
@@ -1776,6 +2014,48 @@
         "imp": 3,
         "url": "https://museum.ipsj.or.jp/computer/word/0009.html",
         "label_en": "OASYS 30AF"
+      },
+      {
+        "label": "OASYS 30AF",
+        "label_en": "OASYS 30AF",
+        "startYear": 1986,
+        "genre": [
+          "COMPUTER",
+          "INPUT",
+          "JAPAN"
+        ],
+        "imp": 4,
+        "url": "https://museum.ipsj.or.jp/computer/word/0009.html",
+        "url_en": "https://en.wikipedia.org/wiki/OASYS",
+        "note": "フル画面液晶や通信機能を備えたパーソナルワープロ上位機。",
+        "note_en": "https://museum.ipsj.or.jp/computer/word/0009.html"
+      },
+      {
+        "label": "Laser 128",
+        "label_en": "Laser 128",
+        "startYear": 1986,
+        "genre": [
+          "COMPUTER"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/Apple_II#互換機",
+        "url_en": "https://en.wikipedia.org/wiki/Laser_128",
+        "note": "https://ja.wikipedia.org/wiki/Apple_II#互換機",
+        "note_en": "https://en.wikipedia.org/wiki/Laser_128"
+      },
+      {
+        "label": "T3100",
+        "label_en": "Toshiba T3100",
+        "startYear": 1986,
+        "genre": [
+          "COMPUTER",
+          "JAPAN"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/T3100",
+        "url_en": "https://en.wikipedia.org/wiki/Toshiba_T3100",
+        "note": "東芝の“ポータブル”DOS機。ガスプラズマ表示を採用。",
+        "note_en": "https://ja.wikipedia.org/wiki/T3100"
       }
     ],
     "1987": [
@@ -1816,6 +2096,20 @@
         "imp": 4,
         "note": "シャープの電子手帳",
         "label_en": "PA-7000"
+      },
+      {
+        "label": "PXL2000/Pixelvision/Sanpix1000",
+        "label_en": "Fisher-Price PXL2000/PixelVision/Sanpix 1000",
+        "startYear": 1987,
+        "genre": [
+          "CAMERA",
+          "MEDIA"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/ピクセルビジョン",
+        "url_en": "https://en.wikipedia.org/wiki/PXL2000",
+        "note": "カセットテープに白黒低解像度映像を記録するトイカメラ。",
+        "note_en": "https://ja.wikipedia.org/wiki/ピクセルビジョン"
       }
     ],
     "1988": [
@@ -1856,6 +2150,51 @@
         "imp": 3,
         "url": "https://en.wikipedia.org/wiki/NEC_UltraLite",
         "label_en": "Ultra Lite"
+      },
+      {
+        "label": "Ultra Lite",
+        "label_en": "NEC UltraLite",
+        "startYear": 1988,
+        "genre": [
+          "COMPUTER",
+          "MOBILE",
+          "JAPAN"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/NEC_UltraLite",
+        "url_en": "https://en.wikipedia.org/wiki/NEC_Ultralite",
+        "note": "モバイルPCの先駆的薄型機。",
+        "note_en": "https://ja.wikipedia.org/wiki/NEC_UltraLite"
+      },
+      {
+        "label": "テプラ",
+        "label_en": "King Jim TEPRA",
+        "startYear": 1988,
+        "genre": [
+          "PERIPHERAL",
+          "INPUT",
+          "JAPAN"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/テプラ",
+        "url_en": "https://en.wikipedia.org/wiki/Label_printer",
+        "note": "キングジムのラベルライター。事務用ラベリングを簡便化。",
+        "note_en": "https://ja.wikipedia.org/wiki/テプラ"
+      },
+      {
+        "label": "ネームランド",
+        "label_en": "CASIO NAME LAND",
+        "startYear": 1988,
+        "genre": [
+          "PERIPHERAL",
+          "INPUT",
+          "JAPAN"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/ネームランド",
+        "url_en": "https://en.wikipedia.org/wiki/Label_printer",
+        "note": "カシオの家庭向けラベルプリンター。",
+        "note_en": "https://ja.wikipedia.org/wiki/ネームランド"
       }
     ],
     "1989": [
@@ -1937,6 +2276,34 @@
         "imp": 3,
         "url": "https://en.wikipedia.org/wiki/Poqet_PC",
         "label_en": "PoqetPC"
+      },
+      {
+        "label": "PoqetPC",
+        "label_en": "Poqet PC",
+        "startYear": 1989,
+        "genre": [
+          "MOBILE"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/Poqet_PC",
+        "url_en": "https://en.wikipedia.org/wiki/Poqet_PC",
+        "note": "乾電池駆動で長時間動く超小型DOS機。",
+        "note_en": "https://ja.wikipedia.org/wiki/Poqet_PC"
+      },
+      {
+        "label": "J-3100SS Dynabook",
+        "label_en": "Toshiba J-3100SS Dynabook",
+        "startYear": 1989,
+        "genre": [
+          "COMPUTER",
+          "MOBILE",
+          "JAPAN"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/DynaBook",
+        "url_en": "https://en.wikipedia.org/wiki/Dynabook_Satellite",
+        "note": "軽量化した日本向けダイナブック初期モデル。",
+        "note_en": "https://ja.wikipedia.org/wiki/DynaBook"
       }
     ],
     "1990": [
@@ -1993,6 +2360,34 @@
         "url_en": "https://en.wikipedia.org/wiki/NeXTcube",
         "note": "NeXTのワークステーションで、NeXTSTEPと高品位表示を備えた。",
         "note_en": "NeXT workstation featuring NeXTSTEP and high‑quality display capabilities."
+      },
+      {
+        "label": "SEIKO RECEPTOR",
+        "label_en": "Seiko Receptor MessageWatch",
+        "startYear": 1990,
+        "genre": [
+          "MOBILE",
+          "COMM",
+          "JAPAN"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/腕時計型PHS#歴史",
+        "url_en": "https://en.wikipedia.org/wiki/Wearable_computer",
+        "note": "FM電波を使う腕時計型ポケベル。",
+        "note_en": "https://ja.wikipedia.org/wiki/腕時計型PHS#歴史"
+      },
+      {
+        "label": "Jaminator",
+        "label_en": "Jaminator",
+        "startYear": 1990,
+        "genre": [
+          "AUDIO_VIDEO"
+        ],
+        "imp": 2,
+        "url": "https://ja.wikipedia.org/wiki/Worlds_of_Wonder",
+        "url_en": "https://en.wikipedia.org/wiki/Worlds_of_Wonder_(toy_company)#Products",
+        "note": "電子“エアギター”玩具。内蔵リフで演奏気分に。",
+        "note_en": "https://ja.wikipedia.org/wiki/Worlds_of_Wonder"
       }
     ],
     "1991": [
@@ -2022,6 +2417,19 @@
         "url": "https://ja.wikipedia.org/wiki/%E3%82%AA%E3%82%A2%E3%82%B7%E3%82%B9%E3%83%9D%E3%82%B1%E3%83%83%E3%83%88",
         "note": "富士通のわらじ型サイズワープロ。",
         "label_en": "OASYS Pocket"
+      },
+      {
+        "label": "Psion 3",
+        "label_en": "Psion Series 3",
+        "startYear": 1991,
+        "genre": [
+          "MOBILE"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/PSION",
+        "url_en": "https://en.wikipedia.org/wiki/Psion_Series_3",
+        "note": "長寿命と完成度の高いアプリで評価されたPDA。",
+        "note_en": "https://ja.wikipedia.org/wiki/PSION"
       }
     ],
     "1992": [
@@ -2116,6 +2524,19 @@
         "imp": 3,
         "note": "Graffitiを積んだカシオのPDA",
         "label_en": "Zoomer"
+      },
+      {
+        "label": "Zoomer",
+        "label_en": "Tandy/Casio Zoomer",
+        "startYear": 1993,
+        "genre": [
+          "MOBILE"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/Zoomer",
+        "url_en": "https://en.wikipedia.org/wiki/Zoomer",
+        "note": "初期PDAプラットフォーム。Palmの前史を彩る。",
+        "note_en": "https://ja.wikipedia.org/wiki/Zoomer"
       }
     ],
     "1994": [
@@ -2172,6 +2593,34 @@
         "url_en": "https://en.wikipedia.org/wiki/QR_code",
         "note": "日本発の2次元コード。世界標準として普及。",
         "note_en": "Japanese 2D code that became a global standard."
+      },
+      {
+        "label": "Mobilegear",
+        "label_en": "NEC Mobile Gear",
+        "startYear": 1994,
+        "genre": [
+          "MOBILE",
+          "JAPAN"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/Mobile_Gear",
+        "url_en": "https://en.wikipedia.org/wiki/NEC_Mobile_Gear",
+        "note": "軽量日本語PDAシリーズ。キーボード搭載でモバイル文書作成に強み。",
+        "note_en": "https://ja.wikipedia.org/wiki/Mobile_Gear"
+      },
+      {
+        "label": "TIMEX DataLink",
+        "label_en": "Timex Datalink",
+        "startYear": 1994,
+        "genre": [
+          "MOBILE",
+          "COMM"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/スマートウォッチ",
+        "url_en": "https://en.wikipedia.org/wiki/Timex_Datalink",
+        "note": "PC画面経由でデータ転送できる初期スマートウォッチ。",
+        "note_en": "https://ja.wikipedia.org/wiki/スマートウォッチ"
       }
     ],
     "1995": [
@@ -2241,6 +2690,19 @@
         "imp": 3,
         "url": "https://www.hpmuseum.net/display_item.php?hw=200",
         "label_en": "HP OmniGo 100"
+      },
+      {
+        "label": "OmniGo 100",
+        "label_en": "HP OmniGo 100",
+        "startYear": 1995,
+        "genre": [
+          "MOBILE"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/HP_OmniGo",
+        "url_en": "https://en.wikipedia.org/wiki/HP_OmniGo",
+        "note": "折りたたみ式の小型PDA。Graffiti入力対応。",
+        "note_en": "https://ja.wikipedia.org/wiki/HP_OmniGo"
       }
     ],
     "1996": [
@@ -2322,6 +2784,33 @@
         "url": "https://ja.wikipedia.org/wiki/%E3%82%AB%E3%83%A9%E3%83%AA%E3%82%AA",
         "note": "写真品質インクジェットプリンタ。",
         "label_en": "PM-700C"
+      },
+      {
+        "label": "SO-101",
+        "label_en": "DoCoMo by Sony SO101",
+        "startYear": 1996,
+        "genre": [
+          "MOBILE",
+          "JAPAN"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/NTTドコモ",
+        "url_en": "https://en.wikipedia.org/wiki/NTT_Docomo",
+        "note": "ドコモのデジタルmova初期機。ジョグダイヤル搭載で操作性向上。",
+        "note_en": "https://ja.wikipedia.org/wiki/NTTドコモ"
+      },
+      {
+        "label": "Palm pilot",
+        "label_en": "PalmPilot",
+        "startYear": 1996,
+        "genre": [
+          "MOBILE"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/Palm_(PDA)",
+        "url_en": "https://en.wikipedia.org/wiki/PalmPilot",
+        "note": "PDAを一般層へ広めた決定版。",
+        "note_en": "https://ja.wikipedia.org/wiki/Palm_%28PDA%29"
       }
     ],
     "1997": [
@@ -2352,6 +2841,32 @@
         "url_en": "https://ascii.jp/elem/000/000/318/318664/",
         "note": "マウス型サーマルプリンタ。付箋やラベルを即印刷。",
         "note_en": "Mouse-shaped thermal mini-printer for quick labels."
+      },
+      {
+        "label": "Psion 5",
+        "label_en": "Psion Series 5",
+        "startYear": 1997,
+        "genre": [
+          "MOBILE"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/PSION",
+        "url_en": "https://en.wikipedia.org/wiki/Psion_Series_5",
+        "note": "EPOC32採用の名機。名キーボードとCF対応で人気。",
+        "note_en": "https://ja.wikipedia.org/wiki/PSION"
+      },
+      {
+        "label": "eMate 300",
+        "label_en": "eMate 300",
+        "startYear": 1997,
+        "genre": [
+          "MOBILE"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/EMate_300",
+        "url_en": "https://en.wikipedia.org/wiki/EMate_300",
+        "note": "https://ja.wikipedia.org/wiki/EMate_300",
+        "note_en": "https://en.wikipedia.org/wiki/EMate_300"
       }
     ],
     "1998": [
@@ -2364,9 +2879,9 @@
         ],
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/IMac",
-        "url_en": "https://en.wikipedia.org/wiki/IMac",
-        "note": "透明感あるデザインでPC市場に影響。",
-        "note_en": "Colorful all-in-one that reshaped consumer PCs."
+        "url_en": "https://en.wikipedia.org/wiki/IMac_G3",
+        "note": "半透明一体型でPCデザインを刷新。USB普及にも寄与。",
+        "note_en": "https://ja.wikipedia.org/wiki/IMac"
       },
       {
         "label": "Game Boy Camera",
@@ -2421,6 +2936,35 @@
         "imp": 3,
         "note": "当時の用途に用いられたコンピュータ本体で、世代の特徴を備える。",
         "note_en": "A computer system used in its era, reflecting the characteristics of its generation."
+      },
+      {
+        "label": "ドラえホン",
+        "label_en": "Dorae-phone (PALDiO 316S)",
+        "startYear": 1998,
+        "genre": [
+          "MOBILE",
+          "ROBOTOY",
+          "JAPAN"
+        ],
+        "imp": 3,
+        "url": "https://history-s.nttdocomo.co.jp/list_phs.html",
+        "url_en": "https://en.wikipedia.org/wiki/Personal_Handy-phone_System",
+        "note": "ドラえもん形のPHS端末。キャラクター携帯の先駆。",
+        "note_en": "https://history-s.nttdocomo.co.jp/list_phs.html"
+      },
+      {
+        "label": "LEGO Mindstorms",
+        "label_en": "LEGO Mindstorms",
+        "startYear": 1998,
+        "genre": [
+          "MAKER",
+          "ROBOTOY"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/LEGO_MINDSTORMS",
+        "url_en": "https://en.wikipedia.org/wiki/Lego_Mindstorms",
+        "note": "LEGO×プログラミングの教育ロボットキット。",
+        "note_en": "https://ja.wikipedia.org/wiki/LEGO_MINDSTORMS"
       }
     ],
     "1999": [
@@ -2535,6 +3079,46 @@
         "url_en": "https://en.wikipedia.org/wiki/Power_Mac_G3",
         "note": "半透明筐体と容易な拡張性を備えたPowerPC G3搭載機。",
         "note_en": "A PowerPC G3 system with translucent case and easy expandability."
+      },
+      {
+        "label": "VISOR",
+        "label_en": "Handspring Visor",
+        "startYear": 1999,
+        "genre": [
+          "MOBILE"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/Handspring",
+        "url_en": "https://en.wikipedia.org/wiki/Handspring_Visor",
+        "note": "https://ja.wikipedia.org/wiki/Handspring",
+        "note_en": "https://en.wikipedia.org/wiki/Handspring_Visor"
+      },
+      {
+        "label": "aibo",
+        "label_en": "Sony aibo",
+        "startYear": 1999,
+        "genre": [
+          "ROBOTOY",
+          "JAPAN"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/AIBO",
+        "url_en": "https://en.wikipedia.org/wiki/AIBO",
+        "note": "ソニーのエンタメロボ犬。家庭用ロボの象徴。",
+        "note_en": "https://ja.wikipedia.org/wiki/AIBO"
+      },
+      {
+        "label": "Blackberry",
+        "label_en": "BlackBerry",
+        "startYear": 1999,
+        "genre": [
+          "MOBILE"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/ブラックベリー",
+        "url_en": "https://en.wikipedia.org/wiki/BlackBerry",
+        "note": "QWERTYとプッシュ型メールで企業モバイルを席巻。",
+        "note_en": "https://ja.wikipedia.org/wiki/ブラックベリー"
       }
     ],
     "2000": [
@@ -2606,6 +3190,48 @@
         "url_en": "https://en.wikipedia.org/wiki/Power_Mac_G4_Cube",
         "note": "静音・省スペース設計の立方体デスクトップで、デザイン性が評価された。",
         "note_en": "A quiet, compact cube desktop acclaimed for its industrial design."
+      },
+      {
+        "label": "SH-04",
+        "label_en": "J-SH04",
+        "startYear": 2000,
+        "genre": [
+          "MOBILE",
+          "JAPAN"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/J-PHONE",
+        "url_en": "https://en.wikipedia.org/wiki/J-SH04",
+        "note": "シャープのカメラ付携帯草創期モデル。モバイル撮影普及に貢献。",
+        "note_en": "https://ja.wikipedia.org/wiki/J-PHONE"
+      },
+      {
+        "label": "IBM WatchPad",
+        "label_en": "IBM WatchPad",
+        "startYear": 2000,
+        "endYear": 2002,
+        "genre": [
+          "MOBILE",
+          "COMM"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/スマートウォッチ",
+        "url_en": "https://en.wikipedia.org/wiki/IBM_WatchPad",
+        "note": "IBMとCITIZENの試作的Linux腕時計。",
+        "note_en": "https://ja.wikipedia.org/wiki/スマートウォッチ"
+      },
+      {
+        "label": "VISOR Phone",
+        "label_en": "VisorPhone",
+        "startYear": 2000,
+        "genre": [
+          "MOBILE"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/Handspring",
+        "url_en": "https://en.wikipedia.org/wiki/VisorPhone",
+        "note": "Visorを携帯電話化するSpringboardモジュール。",
+        "note_en": "https://ja.wikipedia.org/wiki/Handspring"
       }
     ],
     "2001": [
@@ -2650,6 +3276,61 @@
         "url_en": "https://en.wikipedia.org/wiki/Wacom_Cintiq",
         "note": "液晶ペンタブの定番シリーズ。",
         "note_en": "Leading pen display line for on-screen drawing."
+      },
+      {
+        "label": "シグマリオン",
+        "label_en": "NTT DoCoMo sigmarion",
+        "startYear": 2001,
+        "genre": [
+          "MOBILE",
+          "JAPAN"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/Sigmarion",
+        "url_en": "https://en.wikipedia.org/wiki/Sigmarion",
+        "note": "https://ja.wikipedia.org/wiki/Sigmarion",
+        "note_en": "https://en.wikipedia.org/wiki/Sigmarion"
+      },
+      {
+        "label": "eggy",
+        "label_en": "eggy",
+        "startYear": 2001,
+        "genre": [
+          "MOBILE",
+          "CAMERA",
+          "JAPAN"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/FOMA",
+        "url_en": "https://en.wikipedia.org/wiki/NTT_Docomo",
+        "note": "携帯動画時代を先取りした携帯型ビデオ端末。",
+        "note_en": "https://ja.wikipedia.org/wiki/FOMA"
+      },
+      {
+        "label": "セグウェイ",
+        "label_en": "Segway PT",
+        "startYear": 2001,
+        "genre": [
+          "MOBILE"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/セグウェイ",
+        "url_en": "https://en.wikipedia.org/wiki/Segway",
+        "note": "自立二輪パーソナルモビリティの先駆。",
+        "note_en": "https://ja.wikipedia.org/wiki/セグウェイ"
+      },
+      {
+        "label": "Treo",
+        "label_en": "Handspring Treo",
+        "startYear": 2001,
+        "genre": [
+          "MOBILE"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/Handspring",
+        "url_en": "https://en.wikipedia.org/wiki/Treo",
+        "note": "電話機能統合のPalmスマートフォン系譜の幕開け。",
+        "note_en": "https://ja.wikipedia.org/wiki/Handspring"
       }
     ],
     "2002": [
@@ -2679,6 +3360,19 @@
         "url_en": "https://en.wikipedia.org/wiki/Sharp_Zaurus",
         "note": "高解像度液晶のクラムシェルPDA。",
         "note_en": "Clamshell PDA with high-resolution display."
+      },
+      {
+        "label": "Danger Hiptop",
+        "label_en": "Danger Hiptop/Sidekick",
+        "startYear": 2002,
+        "genre": [
+          "MOBILE"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/Sidekick_(携帯電話)",
+        "url_en": "https://en.wikipedia.org/wiki/Danger_Hiptop",
+        "note": "QWERTY＋常時接続で若者文化を席巻したスマホ前夜機。",
+        "note_en": "https://ja.wikipedia.org/wiki/Sidekick_%28携帯電話%29"
       }
     ],
     "2003": [
@@ -2708,6 +3402,20 @@
         "url_en": "https://en.wikipedia.org/wiki/N-Gage_(device)",
         "note": "携帯電話と携帯ゲーム機を融合。",
         "note_en": "Hybrid mobile phone and handheld game console."
+      },
+      {
+        "label": "WRISTOMO",
+        "label_en": "WRISTOMO",
+        "startYear": 2003,
+        "genre": [
+          "MOBILE",
+          "JAPAN"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/WRISTOMO",
+        "url_en": "https://en.wikipedia.org/wiki/NTT_Docomo",
+        "note": "ドコモの腕時計型PHS電話機。ウェアラブル通話の先駆け。",
+        "note_en": "https://ja.wikipedia.org/wiki/WRISTOMO"
       }
     ],
     "2004": [
@@ -2779,6 +3487,19 @@
         "url_en": "https://en.wikipedia.org/wiki/Vaio_U",
         "note": "手のひらサイズのWindows機。",
         "note_en": "Palm-sized Windows UMPC."
+      },
+      {
+        "label": "Gopro Hero",
+        "label_en": "GoPro HERO",
+        "startYear": 2004,
+        "genre": [
+          "CAMERA"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/GoPro",
+        "url_en": "https://en.wikipedia.org/wiki/GoPro",
+        "note": "アクションカムの代名詞。ウェアラブル撮影を大衆化。",
+        "note_en": "https://ja.wikipedia.org/wiki/GoPro"
       }
     ],
     "2005": [
@@ -2922,6 +3643,19 @@
         "url_en": "https://www.wired.com/2010/08/mouse-calculator",
         "note": "電卓＋テンキー＋マウスの三位一体。",
         "note_en": "Hybrid device combining mouse, keypad and calculator."
+      },
+      {
+        "label": "Kindle",
+        "label_en": "Amazon Kindle",
+        "startYear": 2007,
+        "genre": [
+          "MEDIA"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/Amazon_Kindle",
+        "url_en": "https://en.wikipedia.org/wiki/Amazon_Kindle",
+        "note": "電子書籍リーダーの代名詞。eインクで長時間読書を実現。",
+        "note_en": "https://ja.wikipedia.org/wiki/Amazon_Kindle"
       }
     ],
     "2008": [
@@ -3024,6 +3758,20 @@
         "url_en": "https://en.wikipedia.org/wiki/Kinect",
         "note": "深度センサーで身体を入力化。",
         "note_en": "Popularized body-tracking input via depth sensors."
+      },
+      {
+        "label": "AR. Drone",
+        "label_en": "Parrot AR.Drone",
+        "startYear": 2010,
+        "genre": [
+          "ROBOTOY",
+          "CAMERA"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/Parrot_AR.Drone",
+        "url_en": "https://en.wikipedia.org/wiki/Parrot_AR.Drone",
+        "note": "スマホ操縦のトイドローン。空撮普及のきっかけに。",
+        "note_en": "https://ja.wikipedia.org/wiki/Parrot_AR.Drone"
       }
     ],
     "2011": [
@@ -3040,6 +3788,20 @@
         "url_en": "https://en.wikipedia.org/wiki/Nest_Learning_Thermostat",
         "note": "学習機能を備えたスマート恒温器。",
         "note_en": "Learning smart thermostat for home automation."
+      },
+      {
+        "label": "Jawbone Up",
+        "label_en": "Jawbone UP",
+        "startYear": 2011,
+        "genre": [
+          "MOBILE",
+          "PERIPHERAL"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/ウェアラブルコンピュータ",
+        "url_en": "https://en.wikipedia.org/wiki/Jawbone_(company)#UP",
+        "note": "活動量計リストバンドの先駆け。",
+        "note_en": "https://ja.wikipedia.org/wiki/ウェアラブルコンピュータ"
       }
     ],
     "2012": [
@@ -3069,6 +3831,20 @@
         "url_en": "https://en.wikipedia.org/wiki/Philips_Hue",
         "note": "スマート電球の代表ブランド。",
         "note_en": "A leading brand of smart light bulbs."
+      },
+      {
+        "label": "SONY SmartWatch",
+        "label_en": "Sony SmartWatch",
+        "startYear": 2012,
+        "genre": [
+          "MOBILE",
+          "JAPAN"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/スマートウォッチ",
+        "url_en": "https://en.wikipedia.org/wiki/Sony_SmartWatch",
+        "note": "Android連携の初期スマートウォッチ。",
+        "note_en": "https://ja.wikipedia.org/wiki/スマートウォッチ"
       }
     ],
     "2013": [
@@ -3128,6 +3904,60 @@
         "url_en": "https://en.wikipedia.org/wiki/DJI_Phantom",
         "note": "民生ドローン普及の象徴シリーズ。",
         "note_en": "Consumer drone series popularizing aerial imaging."
+      },
+      {
+        "label": "DJI Phantom",
+        "label_en": "DJI Phantom",
+        "startYear": 2013,
+        "genre": [
+          "CAMERA",
+          "ROBOTOY"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/DJI",
+        "url_en": "https://en.wikipedia.org/wiki/DJI_Phantom",
+        "note": "空撮用民生ドローンの代表格。",
+        "note_en": "https://ja.wikipedia.org/wiki/DJI"
+      },
+      {
+        "label": "Pebble",
+        "label_en": "Pebble",
+        "startYear": 2013,
+        "genre": [
+          "MOBILE"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/スマートウォッチ",
+        "url_en": "https://en.wikipedia.org/wiki/Pebble_(smartwatch)",
+        "note": "eペーパー採用のスマートウォッチ草創期の人気機。",
+        "note_en": "https://ja.wikipedia.org/wiki/スマートウォッチ"
+      },
+      {
+        "label": "Google Glass",
+        "label_en": "Google Glass",
+        "startYear": 2013,
+        "genre": [
+          "MOBILE",
+          "CAMERA"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/Google_Glass",
+        "url_en": "https://en.wikipedia.org/wiki/Google_Glass",
+        "note": "ヘッドマウント型AR端末。賛否を呼びつつ新境地を提示。",
+        "note_en": "https://ja.wikipedia.org/wiki/Google_Glass"
+      },
+      {
+        "label": "Makeblock",
+        "label_en": "Makeblock",
+        "startYear": 2013,
+        "genre": [
+          "MAKER"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/Makeblock",
+        "url_en": "https://en.wikipedia.org/wiki/Makeblock",
+        "note": "STEM向けロボット／メイカー用ハードのプラットフォーム。",
+        "note_en": "https://ja.wikipedia.org/wiki/Makeblock"
       }
     ],
     "2014": [
@@ -3231,6 +4061,48 @@
         "url_en": "https://en.wikipedia.org/wiki/Microsoft_HoloLens",
         "note": "Microsoftの複合現実ヘッドセット。",
         "note_en": "Microsoft’s mixed-reality headset."
+      },
+      {
+        "label": "DonkeyCar",
+        "label_en": "DonkeyCar",
+        "startYear": 2016,
+        "genre": [
+          "MAKER",
+          "ROBOTOY"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/ドンキー・カー",
+        "url_en": "https://en.wikipedia.org/wiki/Donkey_Car",
+        "note": "R/Cカー改造の自動運転学習用OSSプラットフォーム。",
+        "note_en": "https://ja.wikipedia.org/wiki/ドンキー・カー"
+      },
+      {
+        "label": "Mekamon",
+        "label_en": "MekaMon",
+        "startYear": 2016,
+        "genre": [
+          "ROBOTOY"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/メカモン",
+        "url_en": "https://en.wikipedia.org/wiki/MekaMon",
+        "note": "AR連携のクモ型バトルロボ玩具。",
+        "note_en": "https://ja.wikipedia.org/wiki/メカモン"
+      },
+      {
+        "label": "ROBOPHONE",
+        "label_en": "Sharp RoBoHoN",
+        "startYear": 2016,
+        "genre": [
+          "MOBILE",
+          "ROBOTOY",
+          "JAPAN"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/RoBoHoN",
+        "url_en": "https://en.wikipedia.org/wiki/RoBoHoN",
+        "note": "音声対話やプロジェクタを備えた“ロボット携帯”。",
+        "note_en": "https://ja.wikipedia.org/wiki/RoBoHoN"
       }
     ],
     "2017": [
@@ -3291,6 +4163,21 @@
         "url_en": "https://en.wikipedia.org/wiki/Steam_Deck",
         "note": "PCゲームを携帯機で遊べるハンドヘルド。",
         "note_en": "Valve’s handheld PC for playing Steam games."
+      }
+    ],
+    "2023": [
+      {
+        "label": "HOVERAir X1",
+        "label_en": "HOVERAir X1",
+        "startYear": 2023,
+        "genre": [
+          "CAMERA"
+        ],
+        "imp": 3,
+        "url": "https://www.hovercamera.com/pages/hoverair-x1",
+        "url_en": "https://www.hovercamera.com/pages/hoverair-x1",
+        "note": "自撮り特化の自律フライングカメラ。",
+        "note_en": "https://www.hovercamera.com/pages/hoverair-x1"
       }
     ],
     "2024": [
