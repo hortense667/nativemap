@@ -1,8 +1,8 @@
 {
   "metadata": {
     "title": {
-      "ja": "ガジェットの年表 0.0",
-      "en": "Gadget Timeline 0.0"
+      "ja": "ガジェットの年表 0.1",
+      "en": "Gadget Timeline 0.1"
     },
     "description": {
       "ja": "この年表はガジェット分野の主な製品や出来事を示します。現状、試験公開中であり内容を精査している段階です。",
@@ -32,8 +32,6 @@
     "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
     "notes": "Updates from contributors are welcome. Please do not create separate versions. When reusing data, credit the original authors."
   },
-  "title": "ガジェットの年表 0.0",
-  "title_en": "Gadget Timeline 0.0",
   "events": {
     "1910": [
       {
