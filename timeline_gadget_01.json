@@ -2034,6 +2034,7 @@
         ],
         "imp": 3,
         "url": "https://ja.wikipedia.org/wiki/%E3%82%AA%E3%82%A2%E3%82%B7%E3%82%B9%E3%83%9D%E3%82%B1%E3%83%83%E3%83%88",
+        "note": "富士通のわらじ型サイズワープロ。",
         "label_en": "OASYS Pocket"
       }
     ],
@@ -2075,6 +2076,7 @@
         ],
         "imp": 3,
         "url": "https://ja.wikipedia.org/wiki/%E3%82%B6%E3%82%A6%E3%83%AB%E3%82%B9",
+        "note": "ザウルスやNewton MessagePadの前身にあたるPDA。",
         "label_en": "PV-F1"
       }
     ],
@@ -2114,6 +2116,7 @@
         ],
         "imp": 3,
         "url": "https://ja.wikipedia.org/wiki/%E3%82%B6%E3%82%A6%E3%83%AB%E3%82%B9",
+        "note": "一時代を築いた国産ペン型電子手帳。",
         "label_en": "ザウルス",
         "url_en": "https://en.wikipedia.org/wiki/Sharp_Zaurus"
       },
@@ -2125,6 +2128,7 @@
           "JAPAN"
         ],
         "imp": 3,
+        "note": "Graffitiを積んだカシオのPDA",
         "label_en": "Zoomer"
       }
     ],
@@ -2241,6 +2245,16 @@
         "url_en": "https://en.wikipedia.org/wiki/Purikura",
         "note": "写真を撮りシールに印刷する日本発の機器。",
         "note_en": "Japanese photo-sticker booths that became a social craze."
+      },
+      {
+        "label": "HP OmniGo 100",
+        "startYear": 1995,
+        "genre": [
+          "MOBILE"
+        ],
+        "imp": 3,
+        "url": "https://www.hpmuseum.net/display_item.php?hw=200",
+        "label_en": "HP OmniGo 100"
       }
     ],
     "1996": [
