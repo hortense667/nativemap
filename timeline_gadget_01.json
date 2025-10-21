@@ -1861,19 +1861,6 @@
         "note_en": "Leading 16-bit console, hugely successful overseas."
       },
       {
-        "label": "OASYS 30AFⅢ",
-        "label_en": "Fujitsu OASYS 30AF III",
-        "startYear": 1988,
-        "genre": [
-          "COMPUTER"
-        ],
-        "imp": 3,
-        "url": "https://en.wikipedia.org/wiki/Fujitsu_OASYS",
-        "url_en": "https://en.wikipedia.org/wiki/Fujitsu_OASYS",
-        "note": "富士通の日本語ワープロ専用機で、オフィス文書作成に広く用いられた。",
-        "note_en": "Fujitsu’s dedicated Japanese word processor widely used for office documents."
-      },
-      {
         "label": "Ultra Lite",
         "startYear": 1988,
         "genre": [
@@ -1883,45 +1870,6 @@
         "imp": 3,
         "url": "https://en.wikipedia.org/wiki/NEC_UltraLite",
         "label_en": "Ultra Lite"
-      },
-      {
-        "label": "OASYS 30AFⅢ",
-        "label_en": "Fujitsu OASYS 30AF III",
-        "startYear": 1988,
-        "genre": [
-          "COMPUTER"
-        ],
-        "imp": 3,
-        "url": "https://en.wikipedia.org/wiki/Fujitsu_OASYS",
-        "url_en": "https://en.wikipedia.org/wiki/Fujitsu_OASYS",
-        "note": "富士通の日本語ワープロ専用機で、オフィス文書作成に広く用いられた。",
-        "note_en": "Fujitsu’s dedicated Japanese word processor widely used for office documents."
-      },
-      {
-        "label": "OASYS 30AFⅢ",
-        "label_en": "Fujitsu OASYS 30AF III",
-        "startYear": 1988,
-        "genre": [
-          "COMPUTER"
-        ],
-        "imp": 3,
-        "url": "https://en.wikipedia.org/wiki/Fujitsu_OASYS",
-        "url_en": "https://en.wikipedia.org/wiki/Fujitsu_OASYS",
-        "note": "富士通の日本語ワープロ専用機で、オフィス文書作成に広く用いられた。",
-        "note_en": "Fujitsu’s dedicated Japanese word processor widely used for office documents."
-      },
-      {
-        "label": "OASYS 30AFⅢ",
-        "label_en": "Fujitsu OASYS 30AF III",
-        "startYear": 1988,
-        "genre": [
-          "COMPUTER"
-        ],
-        "imp": 3,
-        "url": "https://en.wikipedia.org/wiki/Fujitsu_OASYS",
-        "url_en": "https://en.wikipedia.org/wiki/Fujitsu_OASYS",
-        "note": "富士通の日本語ワープロ専用機で、オフィス文書作成に広く用いられた。",
-        "note_en": "Fujitsu’s dedicated Japanese word processor widely used for office documents."
       }
     ],
     "1989": [
