@@ -2729,15 +2729,15 @@
       },
       {
         "label": "OQO Model 01",
-        "label_en": "OQO Model 01",
         "startYear": 2004,
         "genre": [
           "COMPUTER"
         ],
         "imp": 2,
         "url": "https://en.wikipedia.org/wiki/OQO",
+        "note": "スライド式キーボードの超小型マシン",
+        "label_en": "OQO Model 01",
         "url_en": "https://en.wikipedia.org/wiki/OQO",
-        "note": "https://en.wikipedia.org/wiki/OQO",
         "note_en": "https://en.wikipedia.org/wiki/OQO"
       },
       {
@@ -3165,16 +3165,16 @@
       },
       {
         "label": "Pocket Operator",
-        "label_en": "Pocket Operator",
         "startYear": 2015,
         "genre": [
-          "MAKER",
-          "AUDIO_VIDEO"
+          "AUDIO_VIDEO",
+          "MAKER"
         ],
         "imp": 2,
         "url": "https://ja.wikipedia.org/wiki/Teenage_Engineering",
+        "note": "Teenage Engineering 小型シンセ／リズムマシン。",
+        "label_en": "Pocket Operator",
         "url_en": "https://en.wikipedia.org/wiki/Pocket_Operator",
-        "note": "名刺大の小型シンセ／リズムマシン。",
         "note_en": "Credit-card-sized synths and drum machines."
       },
       {
