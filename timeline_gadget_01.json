@@ -1497,6 +1497,16 @@
         "imp": 3,
         "note": "YISは、1983年末〜1984年初にかけて、ヤマハが展開した教育・音楽志向のパソコンブランド。",
         "note_en": "YIS503 is a computer by 日本楽器製造（ヤマハ）, widely used in its era."
+      },
+      {
+        "label": "PF-300（電子手帳）",
+        "startYear": 1983,
+        "genre": [
+          "MOBILE"
+        ],
+        "imp": 4,
+        "note": "カシオの電子手帳",
+        "label_en": "PF-300"
       }
     ],
     "1984": [
@@ -1865,6 +1875,17 @@
         "url_en": "https://en.wikipedia.org/wiki/Sharp_X68000",
         "note": "高性能ホビーPC。アーケード移植で評価。",
         "note_en": "High-end hobbyist PC famed for arcade-accurate ports."
+      },
+      {
+        "label": "PA-7000",
+        "startYear": 1987,
+        "genre": [
+          "MOBILE",
+          "JAPAN"
+        ],
+        "imp": 4,
+        "note": "シャープの電子手帳",
+        "label_en": "PA-7000"
       }
     ],
     "1988": [
@@ -2126,6 +2147,17 @@
         "url_en": "https://en.wikipedia.org/wiki/Radar_detector",
         "note": "高性能レーダー探知機の代表モデル。",
         "note_en": "A well-known high-performance radar detector."
+      },
+      {
+        "label": "PV-F1",
+        "startYear": 1992,
+        "genre": [
+          "MOBILE",
+          "JAPAN"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/%E3%82%B6%E3%82%A6%E3%83%AB%E3%82%B9",
+        "label_en": "PV-F1"
       }
     ],
     "1993": [
@@ -2154,6 +2186,28 @@
         "url_en": "https://en.wikipedia.org/wiki/3Dconnexion",
         "note": "3D操作に特化した入力デバイス。",
         "note_en": "Input device specialized for 3D navigation."
+      },
+      {
+        "label": "ザウルス",
+        "startYear": 1993,
+        "genre": [
+          "MOBILE",
+          "JAPAN"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/%E3%82%B6%E3%82%A6%E3%83%AB%E3%82%B9",
+        "label_en": "ザウルス",
+        "url_en": "https://en.wikipedia.org/wiki/Sharp_Zaurus"
+      },
+      {
+        "label": "Zoomer",
+        "startYear": 1993,
+        "genre": [
+          "MOBILE",
+          "JAPAN"
+        ],
+        "imp": 3,
+        "label_en": "Zoomer"
       }
     ],
     "1994": [
