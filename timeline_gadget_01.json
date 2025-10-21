@@ -62,20 +62,6 @@
         "note_en": "A Japanese mechanical calculator supporting the four operations and repeated calculations."
       }
     ],
-    "1940": [
-      {
-        "label": "放電破壊プリンタ（1940年代～1980年代初頭）",
-        "label_en": "Spark printer(1940s to early 1980s)",
-        "startYear": 1940,
-        "genre": [
-          "COMPUTER",
-          "PERIPHERAL"
-        ],
-        "imp": 3,
-        "note": "放電で着色紙に印字する低コストプリンタで、簡易出力に用いられた。",
-        "note_en": "A low‑cost printer using discharge to mark on coated paper for simple output."
-      }
-    ],
     "1948": [
       {
         "label": "Curta計算機",
