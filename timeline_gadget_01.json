@@ -749,18 +749,6 @@
         "note_en": "Early all‑in‑one 8‑bit microcomputer adopted in education and business alongside the Apple II."
       },
       {
-        "label": "『マイ・コンピュータ入門』",
-        "label_en": "My Computer Primer (book)",
-        "startYear": 1977,
-        "genre": [
-          "COMPUTER",
-          "MAKER"
-        ],
-        "imp": 3,
-        "note": "日本の初期PC普及期に書かれた入門書で、基礎概念を平易に解説した。",
-        "note_en": "An introductory book from Japan’s early PC era explaining fundamentals plainly."
-      },
-      {
         "label": "VAX-11/780",
         "label_en": "VAX-11/780",
         "startYear": 1977,
@@ -775,16 +763,16 @@
       },
       {
         "label": "TI Dataman",
-        "label_en": "TI Dataman",
         "startYear": 1977,
         "genre": [
-          "MAKER",
-          "ROBOTOY"
+          "ROBOTOY",
+          "MAKER"
         ],
         "imp": 2,
-        "url": "https://ja.wikipedia.org/wiki/テキサス・インスツルメンツ",
-        "url_en": "https://en.wikipedia.org/wiki/Dataman",
+        "url": "https://en.wikipedia.org/wiki/Dataman",
         "note": "電卓型の算数学習トイ。",
+        "label_en": "TI Dataman",
+        "url_en": "https://en.wikipedia.org/wiki/Dataman",
         "note_en": "https://ja.wikipedia.org/wiki/テキサス・インスツルメンツ"
       },
       {
@@ -799,6 +787,20 @@
         "note": "ザイログ社のZ80を搭載したワンボードマイコン。",
         "label_en": "SM-B-80TE",
         "note_en": "SM-B-80TE is a computer by シャープ, widely used in its era."
+      },
+      {
+        "label": "『マイ・コンピュータ入門』",
+        "startYear": 1977,
+        "genre": [
+          "COMPUTER",
+          "MAKER",
+          "JAPAN"
+        ],
+        "imp": 3,
+        "url": "https://www.amazon.co.jp/dp/4061179136",
+        "note": "日本の初期PC普及期に書かれた入門書で、基礎概念を平易に解説した。",
+        "label_en": "My Computer Primer (book)",
+        "note_en": "An introductory book from Japan’s early PC era explaining fundamentals plainly."
       }
     ],
     "1978": [
@@ -844,15 +846,14 @@
       },
       {
         "label": "ベーシックマスターMB-6880",
-        "label_en": "Hitachi Basic Master MB-6880",
         "startYear": 1978,
         "genre": [
           "COMPUTER"
         ],
         "imp": 3,
-        "url": "https://en.wikipedia.org/wiki/Hitachi_Basic_Master",
-        "url_en": "https://en.wikipedia.org/wiki/Hitachi_Basic_Master",
+        "url": "https://ja.wikipedia.org/wiki/%E3%83%99%E3%83%BC%E3%82%B7%E3%83%83%E3%82%AF%E3%83%9E%E3%82%B9%E3%82%BF%E3%83%BC",
         "note": "日立の8ビット一体型PCで、家庭学習や入門用途に用いられた。",
+        "label_en": "Hitachi Basic Master MB-6880",
         "note_en": "Hitachi’s 8‑bit all‑in‑one micro for home learning and entry‑level computing."
       },
       {
@@ -868,42 +869,42 @@
       },
       {
         "label": "MZ-80K",
-        "label_en": "Sharp MZ-80K",
         "startYear": 1978,
         "genre": [
           "COMPUTER"
         ],
         "imp": 3,
-        "url": "https://en.wikipedia.org/wiki/Sharp_MZ",
-        "url_en": "https://en.wikipedia.org/wiki/Sharp_MZ",
+        "url": "https://ja.wikipedia.org/wiki/MZ-80",
         "note": "シャープの一体型8ビットPCで、独自ローダと堅実な設計で知られる。",
+        "label_en": "Sharp MZ-80K",
+        "url_en": "https://en.wikipedia.org/wiki/Sharp_MZ",
         "note_en": "Sharp’s all‑in‑one 8‑bit micro noted for its monitor/loader architecture."
       },
       {
         "label": "スペースインベーダー",
-        "label_en": "Space Invaders",
         "startYear": 1978,
         "genre": [
           "COMPUTER"
         ],
         "imp": 3,
-        "url": "https://en.wikipedia.org/wiki/Space_Invaders",
-        "url_en": "https://en.wikipedia.org/wiki/Space_Invaders",
+        "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%9A%E3%83%BC%E3%82%B9%E3%82%A4%E3%83%B3%E3%83%99%E3%83%BC%E3%83%80%E3%83%BC",
         "note": "1978年に社会現象となったアーケードゲームで、業界を拡大させた。",
+        "label_en": "Space Invaders",
+        "url_en": "https://en.wikipedia.org/wiki/Space_Invaders",
         "note_en": "1978 arcade title that became a social phenomenon and expanded the industry."
       },
       {
         "label": "Speak&Spell",
-        "label_en": "Speak & Spell",
         "startYear": 1978,
         "genre": [
           "ROBOTOY",
           "MAKER"
         ],
         "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/Speak_%26_Spell",
-        "url_en": "https://en.wikipedia.org/wiki/Speak_%26_Spell_(toy)",
+        "url": "https://en.wikipedia.org/wiki/Speak_%26_Spell_(toy)",
         "note": "TIの教育玩具。音声合成で綴りを学べる携帯機。",
+        "label_en": "Speak & Spell",
+        "url_en": "https://en.wikipedia.org/wiki/Speak_%26_Spell_(toy)",
         "note_en": "https://ja.wikipedia.org/wiki/Speak_%26_Spell"
       }
     ],
@@ -923,20 +924,6 @@
         "note_en": "The portable cassette player that defined on-the-go music."
       },
       {
-        "label": "MZ-80K",
-        "label_en": "MZ-80K",
-        "startYear": 1979,
-        "genre": [
-          "COMPUTER",
-          "JAPAN"
-        ],
-        "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/MZ-80K",
-        "url_en": "https://en.wikipedia.org/wiki/Sharp_MZ",
-        "note": "シャープの一体型8ビットPC。",
-        "note_en": "Sharp’s all-in-one 8-bit PC."
-      },
-      {
         "label": "Game & Watch",
         "label_en": "Game & Watch",
         "startYear": 1979,
@@ -952,15 +939,15 @@
       },
       {
         "label": "BigTrak",
-        "label_en": "Big Trak",
         "startYear": 1979,
         "genre": [
           "ROBOTOY"
         ],
         "imp": 2,
-        "url": "https://ja.wikipedia.org/wiki/BigTrak",
-        "url_en": "https://en.wikipedia.org/wiki/Big_Trak",
+        "url": "https://en.wikipedia.org/wiki/Big_Trak",
         "note": "プログラム走行する玩具ビークル。",
+        "label_en": "Big Trak",
+        "url_en": "https://en.wikipedia.org/wiki/Big_Trak",
         "note_en": "Programmable toy vehicle."
       },
       {
@@ -978,30 +965,32 @@
         "note_en": "NEC’s 8‑bit micro that helped shape Japan’s PC market and hobbyist culture."
       },
       {
-        "label": "ラテカピュータ PC-2000",
-        "label_en": "Sharp PC-2000",
-        "startYear": 1979,
-        "genre": [
-          "COMPUTER"
-        ],
-        "imp": 3,
-        "url_en": "https://en.wikipedia.org/wiki/Sharp_Corporation",
-        "note": "シャープの多機能一体型端末で、AV機能と計算機能を統合した。",
-        "note_en": "A Sharp hybrid unit integrating AV functions with computing capabilities."
-      },
-      {
         "label": "SEIKO C359",
-        "label_en": "Seiko C359",
         "startYear": 1979,
         "genre": [
           "AUDIO_VIDEO",
           "JAPAN"
         ],
         "imp": 3,
-        "url": "https://www.digital-watch.com/DWL/1work/seiko-c359",
-        "url_en": "https://www.digital-watch.com/DWL/1work/seiko-c359",
+        "url": "https://by.seiko-design.com/140th/topic/48.html",
         "note": "多機能メモリ/カレンダー系の初期デジタル腕時計。",
+        "label_en": "Seiko C359",
+        "url_en": "https://www.digital-watch.com/DWL/1work/seiko-c359",
         "note_en": "https://www.digital-watch.com/DWL/1work/seiko-c359"
+      },
+      {
+        "label": "ラテカピュータ PC-2000",
+        "startYear": 1979,
+        "genre": [
+          "COMPUTER",
+          "JAPAN"
+        ],
+        "imp": 3,
+        "url": "https://design.sharp.co.jp/design_column/1979_pc2000",
+        "note": "シャープの多機能一体型端末で、AV機能と計算機能を統合した。",
+        "label_en": "Sharp PC-2000",
+        "url_en": "https://en.wikipedia.org/wiki/Sharp_Corporation",
+        "note_en": "A Sharp hybrid unit integrating AV functions with computing capabilities."
       }
     ],
     "1980": [
