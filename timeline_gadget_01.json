@@ -924,20 +924,6 @@
         "note_en": "The portable cassette player that defined on-the-go music."
       },
       {
-        "label": "Game & Watch",
-        "label_en": "Game & Watch",
-        "startYear": 1979,
-        "genre": [
-          "GAME",
-          "JAPAN"
-        ],
-        "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/ゲーム&ウオッチ",
-        "url_en": "https://en.wikipedia.org/wiki/Game_%26_Watch",
-        "note": "任天堂の携帯LCDゲームシリーズ。",
-        "note_en": "Nintendo’s line of handheld LCD games."
-      },
-      {
         "label": "BigTrak",
         "startYear": 1979,
         "genre": [
