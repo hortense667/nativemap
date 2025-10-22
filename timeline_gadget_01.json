@@ -723,16 +723,16 @@
         "note_en": "https://ja.wikipedia.org/wiki/Atari_2600"
       },
       {
-        "label": "Polaroid 1000",
-        "label_en": "Polaroid OneStep/1000",
+        "label": "Polaroid OneStep/1000",
         "startYear": 1977,
         "genre": [
           "CAMERA"
         ],
         "imp": 3,
-        "url": "https://ja.wikipedia.org/wiki/OneStep",
-        "url_en": "https://en.wikipedia.org/wiki/Polaroid_OneStep",
+        "url": "https://en.wikipedia.org/wiki/Polaroid_Land_Camera_1000",
         "note": "大衆向け即写カメラのヒット機。",
+        "label_en": "Polaroid OneStep/1000",
+        "url_en": "https://en.wikipedia.org/wiki/Polaroid_OneStep",
         "note_en": "A popular consumer instant camera by Polaroid."
       },
       {
@@ -747,30 +747,6 @@
         "url_en": "https://en.wikipedia.org/wiki/Commodore_PET",
         "note": "一体型デザインの初期8ビット機で、教育や業務に導入されApple IIと並ぶ先駆けとなった。",
         "note_en": "Early all‑in‑one 8‑bit microcomputer adopted in education and business alongside the Apple II."
-      },
-      {
-        "label": "TRS-80 Model I",
-        "label_en": "TRS-80 Model I",
-        "startYear": 1977,
-        "genre": [
-          "COMPUTER"
-        ],
-        "imp": 4,
-        "url": "https://en.wikipedia.org/wiki/TRS-80",
-        "url_en": "https://en.wikipedia.org/wiki/TRS-80",
-        "note": "ラジオシャックが量販した8ビット機で、米国における家庭用PC普及の牽引役となった。",
-        "note_en": "Mass‑marketed 8‑bit micro by Radio Shack that helped drive early home PC adoption in the U.S."
-      },
-      {
-        "label": "SM-B-80TE",
-        "label_en": "SM-B-80TE",
-        "startYear": 1977,
-        "genre": [
-          "COMPUTER"
-        ],
-        "imp": 3,
-        "note": "ザイログ社のZ80を搭載したワンボードマイコン。",
-        "note_en": "SM-B-80TE is a computer by シャープ, widely used in its era."
       },
       {
         "label": "『マイ・コンピュータ入門』",
@@ -810,6 +786,19 @@
         "url_en": "https://en.wikipedia.org/wiki/Dataman",
         "note": "電卓型の算数学習トイ。",
         "note_en": "https://ja.wikipedia.org/wiki/テキサス・インスツルメンツ"
+      },
+      {
+        "label": "SM-B-80TE",
+        "startYear": 1977,
+        "genre": [
+          "COMPUTER",
+          "JAPAN"
+        ],
+        "imp": 3,
+        "url": "http://retropc.net/ohishi/museum/80te.htm",
+        "note": "ザイログ社のZ80を搭載したワンボードマイコン。",
+        "label_en": "SM-B-80TE",
+        "note_en": "SM-B-80TE is a computer by シャープ, widely used in its era."
       }
     ],
     "1978": [
