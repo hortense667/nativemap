@@ -6890,30 +6890,30 @@
     "2022": [
       {
         "label": "Haxophone",
-        "label_en": "Haxophone",
         "startYear": 2022,
         "genre": [
-          "MAKER",
-          "AUDIO_VIDEO"
+          "AUDIO_VIDEO",
+          "MAKER"
         ],
         "imp": 2,
-        "url": "https://hackaday.io/project/186077-haxophone",
-        "url_en": "https://hackaday.io/project/186077-haxophone",
+        "url": "https://github.com/cardonabits/haxo-hw",
         "note": "https://hackaday.io/project/186077-haxophone",
+        "label_en": "Haxophone",
+        "url_en": "https://www.crowdsupply.com/cardona-bits/haxophone",
         "note_en": "https://hackaday.io/project/186077-haxophone"
       },
       {
         "label": "甘噛みハムハム",
-        "label_en": "Amagami Ham Ham",
         "startYear": 2022,
         "genre": [
           "ROBOTOY",
           "JAPAN"
         ],
         "imp": 2,
-        "url": "https://ja.wikipedia.org/wiki/ユカイ工学",
-        "url_en": "https://yukai.co.jp/hamham/",
+        "url": "https://hamham.ux-xu.com/jp",
         "note": "“甘噛み”で癒やすロボぬいぐるみ。",
+        "label_en": "Amagami Ham Ham",
+        "url_en": "https://hamham.ux-xu.com/jp",
         "note_en": "https://ja.wikipedia.org/wiki/ユカイ工学"
       },
       {
