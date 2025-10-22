@@ -445,19 +445,6 @@
         "note_en": "https://ja.wikipedia.org/wiki/小西六本店"
       },
       {
-        "label": "Kodak Disk Camera",
-        "label_en": "Kodak Disc camera",
-        "startYear": 1972,
-        "genre": [
-          "CAMERA"
-        ],
-        "imp": 3,
-        "url": "https://ja.wikipedia.org/wiki/コダック・ディスク",
-        "url_en": "https://en.wikipedia.org/wiki/Disc_film",
-        "note": "円盤フィルムを使う簡便カメラの規格。",
-        "note_en": "https://ja.wikipedia.org/wiki/コダック・ディスク"
-      },
-      {
         "label": "Pulsar Time Computer",
         "label_en": "Pulsar Time Computer",
         "startYear": 1972,
@@ -1566,6 +1553,19 @@
         "url_en": "https://en.wikipedia.org/wiki/Vectrex",
         "note": "ベクターディスプレイ内蔵の据置ゲーム機。",
         "note_en": "https://ja.wikipedia.org/wiki/光速船"
+      },
+      {
+        "label": "Kodak Disk Camera",
+        "startYear": 1982,
+        "genre": [
+          "CAMERA"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/コダック・ディスク",
+        "note": "円盤フィルムを使う簡便カメラの規格。",
+        "label_en": "Kodak Disc camera",
+        "url_en": "https://en.wikipedia.org/wiki/Disc_film",
+        "note_en": "https://ja.wikipedia.org/wiki/コダック・ディスク"
       }
     ],
     "1983": [
