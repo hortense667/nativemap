@@ -201,16 +201,15 @@
     "1965": [
       {
         "label": "PDP-8",
-        "label_en": "PDP-8",
         "startYear": 1965,
         "genre": [
-          "COMPUTER",
-          "JAPAN"
+          "COMPUTER"
         ],
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/PDP-8",
-        "url_en": "https://en.wikipedia.org/wiki/PDP-8",
         "note": "低価格で普及した12ビットミニコン。ミニコン時代を切り開く。",
+        "label_en": "PDP-8",
+        "url_en": "https://en.wikipedia.org/wiki/PDP-8",
         "note_en": "A widely used 12-bit minicomputer that defined the minicomputer era."
       }
     ],
@@ -291,16 +290,15 @@
     "1970": [
       {
         "label": "PDP-11",
-        "label_en": "PDP-11",
         "startYear": 1970,
         "genre": [
-          "COMPUTER",
-          "JAPAN"
+          "COMPUTER"
         ],
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/PDP-11",
-        "url_en": "https://en.wikipedia.org/wiki/PDP-11",
         "note": "UNIX誕生にも関わったDECの16ビットミニコン。",
+        "label_en": "PDP-11",
+        "url_en": "https://en.wikipedia.org/wiki/PDP-11",
         "note_en": "DEC’s 16-bit minicomputer influential in UNIX’s development."
       }
     ],
@@ -757,20 +755,6 @@
         "note_en": "Early all‑in‑one 8‑bit microcomputer adopted in education and business alongside the Apple II."
       },
       {
-        "label": "VAX-11/780",
-        "label_en": "VAX-11/780",
-        "startYear": 1977,
-        "genre": [
-          "COMPUTER",
-          "JAPAN"
-        ],
-        "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/VAX",
-        "url_en": "https://en.wikipedia.org/wiki/VAX-11/780",
-        "note": "DECの32ビット級ミニコンの代表機。仮想記憶で時代を画した。",
-        "note_en": "https://ja.wikipedia.org/wiki/VAX"
-      },
-      {
         "label": "TI Dataman",
         "startYear": 1977,
         "genre": [
@@ -811,6 +795,19 @@
         "label_en": "My Computer Primer (book)",
         "note_en": "An introductory book from Japan’s early PC era explaining fundamentals plainly.",
         "url_en": "https://www.amazon.co.jp/dp/4061179136"
+      },
+      {
+        "label": "VAX-11/780",
+        "startYear": 1977,
+        "genre": [
+          "COMPUTER"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/VAX",
+        "note": "DECの32ビット級ミニコンの代表機。仮想記憶で時代を画した。",
+        "label_en": "VAX-11/780",
+        "url_en": "https://en.wikipedia.org/wiki/VAX-11/780",
+        "note_en": "https://ja.wikipedia.org/wiki/VAX"
       }
     ],
     "1978": [
@@ -6881,16 +6878,15 @@
     "2023": [
       {
         "label": "HOVERAir X1",
-        "label_en": "HOVERAir X1",
         "startYear": 2023,
         "genre": [
-          "CAMERA",
-          "JAPAN"
+          "CAMERA"
         ],
         "imp": 3,
         "url": "https://www.hovercamera.com/pages/hoverair-x1",
-        "url_en": "https://www.hovercamera.com/pages/hoverair-x1",
         "note": "自撮り特化の自律フライングカメラ。",
+        "label_en": "HOVERAir X1",
+        "url_en": "https://www.hovercamera.com/pages/hoverair-x1",
         "note_en": "https://www.hovercamera.com/pages/hoverair-x1"
       }
     ],
