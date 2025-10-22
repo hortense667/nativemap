@@ -54,7 +54,8 @@
         "label": "タイガー計算器",
         "startYear": 1923,
         "genre": [
-          "COMPUTER"
+          "COMPUTER",
+          "JAPAN"
         ],
         "imp": 3,
         "url": "https://www.tiger-inc.co.jp/temawashi/temawashi.html",
@@ -101,7 +102,9 @@
         "label": "Etch A Sketch",
         "startYear": 1960,
         "genre": [
-          "ROBOTOY"
+          "MEDIA",
+          "MOBILE",
+          "PERIPHERAL"
         ],
         "imp": 2,
         "note": "ツマミで描くスクリーン玩具。世代を超えて親しまれた。",
@@ -201,15 +204,15 @@
     "1965": [
       {
         "label": "PDP-8",
+        "label_en": "PDP-8",
         "startYear": 1965,
         "genre": [
           "COMPUTER"
         ],
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/PDP-8",
-        "note": "低価格で普及した12ビットミニコン。ミニコン時代を切り開く。",
-        "label_en": "PDP-8",
         "url_en": "https://en.wikipedia.org/wiki/PDP-8",
+        "note": "低価格で普及した12ビットミニコン。ミニコン時代を切り開く。",
         "note_en": "A widely used 12-bit minicomputer that defined the minicomputer era."
       }
     ],
@@ -231,9 +234,8 @@
         "label": "ウルトラハンド",
         "startYear": 1967,
         "genre": [
-          "INPUT",
-          "ROBOTOY",
-          "JAPAN"
+          "JAPAN",
+          "ROBOTOY"
         ],
         "imp": 3,
         "url": "https://ja.wikipedia.org/wiki/%E3%82%A6%E3%83%AB%E3%83%88%E3%83%A9%E3%83%8F%E3%83%B3%E3%83%89",
@@ -290,15 +292,16 @@
     "1970": [
       {
         "label": "PDP-11",
+        "label_en": "PDP-11",
         "startYear": 1970,
         "genre": [
-          "COMPUTER"
+          "COMPUTER",
+          "JAPAN"
         ],
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/PDP-11",
-        "note": "UNIX誕生にも関わったDECの16ビットミニコン。",
-        "label_en": "PDP-11",
         "url_en": "https://en.wikipedia.org/wiki/PDP-11",
+        "note": "UNIX誕生にも関わったDECの16ビットミニコン。",
         "note_en": "DEC’s 16-bit minicomputer influential in UNIX’s development."
       }
     ],
@@ -452,6 +455,20 @@
     ],
     "1973": [
       {
+        "label": "Xerox Alto",
+        "label_en": "Xerox Alto",
+        "startYear": 1973,
+        "genre": [
+          "COMPUTER",
+          "JAPAN"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/Xerox_Alto",
+        "url_en": "https://en.wikipedia.org/wiki/Xerox_Alto",
+        "note": "GUI・マウス・WYSIWYGを実装した研究用コンピュータ。",
+        "note_en": "Research system pioneering GUI, mouse, and WYSIWYG."
+      },
+      {
         "label": "SEIKO LC V.F.A. 06LC",
         "label_en": "Seiko 06LC",
         "startYear": 1973,
@@ -463,19 +480,6 @@
         "url_en": "https://corporate.epson/en/about/history/milestone-products/1973-10-06lc.html",
         "note": "初期LCDデジタル表示の腕時計。",
         "note_en": "https://ja.wikipedia.org/wiki/セイコー"
-      },
-      {
-        "label": "Xerox Alto",
-        "startYear": 1973,
-        "genre": [
-          "COMPUTER"
-        ],
-        "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/Xerox_Alto",
-        "note": "GUI・マウス・WYSIWYGを実装した研究用コンピュータ。",
-        "label_en": "Xerox Alto",
-        "url_en": "https://en.wikipedia.org/wiki/Xerox_Alto",
-        "note_en": "Research system pioneering GUI, mouse, and WYSIWYG."
       }
     ],
     "1974": [
@@ -754,6 +758,20 @@
         "note_en": "Early all‑in‑one 8‑bit microcomputer adopted in education and business alongside the Apple II."
       },
       {
+        "label": "VAX-11/780",
+        "label_en": "VAX-11/780",
+        "startYear": 1977,
+        "genre": [
+          "COMPUTER",
+          "JAPAN"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/VAX",
+        "url_en": "https://en.wikipedia.org/wiki/VAX-11/780",
+        "note": "DECの32ビット級ミニコンの代表機。仮想記憶で時代を画した。",
+        "note_en": "https://ja.wikipedia.org/wiki/VAX"
+      },
+      {
         "label": "TI Dataman",
         "startYear": 1977,
         "genre": [
@@ -794,19 +812,6 @@
         "label_en": "My Computer Primer (book)",
         "note_en": "An introductory book from Japan’s early PC era explaining fundamentals plainly.",
         "url_en": "https://www.amazon.co.jp/dp/4061179136"
-      },
-      {
-        "label": "VAX-11/780",
-        "startYear": 1977,
-        "genre": [
-          "COMPUTER"
-        ],
-        "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/VAX",
-        "note": "DECの32ビット級ミニコンの代表機。仮想記憶で時代を画した。",
-        "label_en": "VAX-11/780",
-        "url_en": "https://en.wikipedia.org/wiki/VAX-11/780",
-        "note_en": "https://ja.wikipedia.org/wiki/VAX"
       }
     ],
     "1978": [
@@ -2085,6 +2090,20 @@
         "url_en": "https://en.wikipedia.org/wiki/OASYS_30AF"
       },
       {
+        "label": "OASYS 30AF",
+        "label_en": "OASYS 30AF",
+        "startYear": 1986,
+        "genre": [
+          "COMPUTER",
+          "INPUT"
+        ],
+        "imp": 4,
+        "url": "https://museum.ipsj.or.jp/computer/word/0009.html",
+        "url_en": "https://en.wikipedia.org/wiki/OASYS",
+        "note": "フル画面液晶や通信機能を備えたパーソナルワープロ上位機。",
+        "note_en": "https://museum.ipsj.or.jp/computer/word/0009.html"
+      },
+      {
         "label": "Laser 128",
         "label_en": "Laser 128",
         "startYear": 1986,
@@ -2161,16 +2180,15 @@
         "label": "X68000",
         "label_en": "Sharp X68000",
         "startYear": 1987,
-        "endYear": 1993,
         "genre": [
           "COMPUTER",
           "JAPAN"
         ],
         "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/X68000",
+        "url": "https://en.wikipedia.org/wiki/X68000",
         "url_en": "https://en.wikipedia.org/wiki/X68000",
-        "note": "高性能なホビーパソコン。縦型筐体と高精細表示で人気。",
-        "note_en": "https://ja.wikipedia.org/wiki/X68000"
+        "note": "高性能グラフィックと音源を備えた国産16ビット機で、移植度の高いゲームで人気を博した。",
+        "note_en": "A Japanese 16‑bit micro with advanced graphics/sound, famed for high‑quality arcade ports."
       },
       {
         "label": "PA-7000",
@@ -2213,6 +2231,21 @@
         "url_en": "https://en.wikipedia.org/wiki/Electronic_Wind_Instrument",
         "note": "アカイの初期電子管楽器。EWI-2000音源と組で使用。",
         "note_en": "https://ja.wikipedia.org/wiki/AKAI"
+      },
+      {
+        "label": "X68000",
+        "label_en": "Sharp X68000",
+        "startYear": 1987,
+        "endYear": 1993,
+        "genre": [
+          "COMPUTER",
+          "JAPAN"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/X68000",
+        "url_en": "https://en.wikipedia.org/wiki/X68000",
+        "note": "高性能なホビーパソコン。縦型筐体と高精細表示で人気。",
+        "note_en": "https://ja.wikipedia.org/wiki/X68000"
       }
     ],
     "1988": [
@@ -3556,7 +3589,7 @@
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/Dreamcast",
         "url_en": "https://en.wikipedia.org/wiki/Dreamcast",
-        "note": "液晶付きメモリーカードで単体ミニゲームも可能。",
+        "note": "液晶付きメモリーカード。単体ゲームも可能。",
         "note_en": "https://ja.wikipedia.org/wiki/Visual_Memory"
       },
       {
@@ -3612,6 +3645,20 @@
         "url_en": "https://en.wikipedia.org/wiki/Dance_Dance_Revolution",
         "note": "足踏み操作の家庭用ダンスマット。",
         "note_en": "https://ja.wikipedia.org/wiki/Dance_Dance_Revolution"
+      },
+      {
+        "label": "Dreamcast VMU",
+        "label_en": "Dreamcast VMU",
+        "startYear": 1998,
+        "genre": [
+          "GAME",
+          "PERIPHERAL"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/Dreamcast",
+        "url_en": "https://en.wikipedia.org/wiki/Dreamcast",
+        "note": "液晶付きメモリーカードで単体ミニゲームも可能。",
+        "note_en": "https://ja.wikipedia.org/wiki/Visual_Memory"
       },
       {
         "label": "ThinkPad 600",
@@ -6877,15 +6924,16 @@
     "2023": [
       {
         "label": "HOVERAir X1",
+        "label_en": "HOVERAir X1",
         "startYear": 2023,
         "genre": [
-          "CAMERA"
+          "CAMERA",
+          "JAPAN"
         ],
         "imp": 3,
         "url": "https://www.hovercamera.com/pages/hoverair-x1",
-        "note": "自撮り特化の自律フライングカメラ。",
-        "label_en": "HOVERAir X1",
         "url_en": "https://www.hovercamera.com/pages/hoverair-x1",
+        "note": "自撮り特化の自律フライングカメラ。",
         "note_en": "https://www.hovercamera.com/pages/hoverair-x1"
       }
     ],
