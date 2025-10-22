@@ -394,16 +394,15 @@
       },
       {
         "label": "CASIO mini",
-        "label_en": "CASIO mini",
         "startYear": 1972,
         "genre": [
           "AUDIO_VIDEO",
           "JAPAN"
         ],
         "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/CASIO_mini",
-        "url_en": "https://en.wikipedia.org/wiki/Casio_Mini",
+        "url": "https://ja.wikipedia.org/wiki/%E3%82%AB%E3%82%B7%E3%82%AA%E3%83%9F%E3%83%8B",
         "note": "低価格で電卓を大衆化したカシオのヒット機。",
+        "label_en": "CASIO mini",
         "note_en": "https://ja.wikipedia.org/wiki/CASIO_mini"
       },
       {
