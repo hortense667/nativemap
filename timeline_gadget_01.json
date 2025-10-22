@@ -420,17 +420,15 @@
       },
       {
         "label": "SAKURA PAK 100",
-        "label_en": "Konica Sakura Pak 100",
         "startYear": 1972,
         "genre": [
           "CAMERA",
           "JAPAN"
         ],
         "imp": 3,
-        "url": "https://ja.wikipedia.org/wiki/小西六本店",
-        "url_en": "https://fukucame.fan.coocan.jp/sakura.htm",
-        "note": "簡易フラッシュ内蔵の低価格35mmカメラ。",
-        "note_en": "https://ja.wikipedia.org/wiki/小西六本店"
+        "url": "https://ja.wikipedia.org/wiki/%E3%82%B3%E3%83%8B%E3%82%AB",
+        "note": "パックフィルムを使ったカメラ。",
+        "label_en": "Konica Sakura Pak 100"
       },
       {
         "label": "Pulsar Time Computer",
