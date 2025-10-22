@@ -6900,6 +6900,34 @@
         "url_en": "https://en.wikipedia.org/wiki/Nintendo_Switch",
         "note": "据置と携帯を兼ねるハイブリッド。",
         "note_en": "Hybrid console bridging handheld and home play."
+      },
+      {
+        "label": "Nintendo Switch",
+        "label_en": "Nintendo Switch",
+        "startYear": 2016,
+        "genre": [
+          "GAME",
+          "JAPAN"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/Nintendo_Switch",
+        "url_en": "https://en.wikipedia.org/wiki/Nintendo_Switch",
+        "note": "据置と携帯を兼ねるハイブリッド。",
+        "note_en": "Hybrid console bridging handheld and home play."
+      },
+      {
+        "label": "Nintendo Switch",
+        "label_en": "Nintendo Switch",
+        "startYear": 2016,
+        "genre": [
+          "GAME",
+          "JAPAN"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/Nintendo_Switch",
+        "url_en": "https://en.wikipedia.org/wiki/Nintendo_Switch",
+        "note": "据置と携帯を兼ねるハイブリッド。",
+        "note_en": "Hybrid console bridging handheld and home play."
       }
     ],
     "2017": [
