@@ -5996,20 +5996,6 @@
       },
       {
         "label": "DJI Phantom",
-        "label_en": "DJI Phantom (series)",
-        "startYear": 2013,
-        "genre": [
-          "CAMERA",
-          "AUDIO_VIDEO"
-        ],
-        "imp": 3,
-        "url": "https://ja.wikipedia.org/wiki/Phantom_(マルチコプター)",
-        "url_en": "https://en.wikipedia.org/wiki/DJI_Phantom",
-        "note": "民生ドローン普及の象徴シリーズ。",
-        "note_en": "Consumer drone series popularizing aerial imaging."
-      },
-      {
-        "label": "DJI Phantom",
         "label_en": "DJI Phantom",
         "startYear": 2013,
         "genre": [
