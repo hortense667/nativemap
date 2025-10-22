@@ -1,4 +1,10 @@
 {
+  "metadata": {
+    "title": {
+      "ja": "ガジェットの年表 0.1",
+      "en": "Gadget Timeline 0.1"
+    }
+  },
   "events": {
     "1910": [
       {
@@ -2074,20 +2080,6 @@
         "url_en": "https://en.wikipedia.org/wiki/TurboGrafx-16"
       },
       {
-        "label": "X68000",
-        "startYear": 1987,
-        "genre": [
-          "COMPUTER",
-          "JAPAN"
-        ],
-        "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/X68000",
-        "note": "高性能グラフィックと音源を備えた国産16ビット機で、移植度の高いゲームで人気を博した。",
-        "label_en": "Sharp X68000",
-        "note_en": "A Japanese 16‑bit micro with advanced graphics/sound, famed for high‑quality arcade ports.",
-        "url_en": "https://en.wikipedia.org/wiki/X68000"
-      },
-      {
         "label": "PA-7000",
         "startYear": 1987,
         "genre": [
@@ -2265,32 +2257,6 @@
         "label_en": "Logitech TrackMan",
         "note_en": "Logitech’s well-known trackball line.",
         "url_en": "https://en.wikipedia.org/wiki/Logitech"
-      },
-      {
-        "label": "Dynabook J-3100 SS001",
-        "startYear": 1989,
-        "genre": [
-          "COMPUTER",
-          "JAPAN",
-          "MOBILE"
-        ],
-        "imp": 3,
-        "url": "https://sts.kahaku.go.jp/sts/detail.php?no=906390770018&c=&y1=&y2=&dt1=&dt2=&id=&pref=&city=&org=&word=&p=1518",
-        "note": "東芝の初期A4ノートで、可搬性と実用性を高めた。",
-        "label_en": "Toshiba Dynabook J-3100 SS001",
-        "note_en": "An early A4‑sized Toshiba notebook that improved portability and practicality."
-      },
-      {
-        "label": "PoqetPC",
-        "startYear": 1989,
-        "genre": [
-          "COMPUTER",
-          "MOBILE"
-        ],
-        "imp": 3,
-        "url": "https://en.wikipedia.org/wiki/Poqet_PC",
-        "label_en": "PoqetPC",
-        "url_en": "https://en.wikipedia.org/wiki/Poqet_PC"
       },
       {
         "label": "PoqetPC",
@@ -3413,7 +3379,7 @@
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/Dreamcast",
-        "note": "液晶付きメモリーカード。単体ゲームも可能。",
+        "note": "液晶付きメモリーカードで単体ミニゲームも可能。",
         "label_en": "Dreamcast VMU",
         "note_en": "https://ja.wikipedia.org/wiki/Visual_Memory",
         "url_en": "https://en.wikipedia.org/wiki/Dreamcast"
@@ -3470,20 +3436,6 @@
         "label_en": "DDR Controller",
         "note_en": "https://ja.wikipedia.org/wiki/Dance_Dance_Revolution",
         "url_en": "https://en.wikipedia.org/wiki/Dance_Dance_Revolution"
-      },
-      {
-        "label": "Dreamcast VMU",
-        "startYear": 1998,
-        "genre": [
-          "GAME",
-          "PERIPHERAL"
-        ],
-        "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/Dreamcast",
-        "note": "液晶付きメモリーカードで単体ミニゲームも可能。",
-        "label_en": "Dreamcast VMU",
-        "note_en": "https://ja.wikipedia.org/wiki/Visual_Memory",
-        "url_en": "https://en.wikipedia.org/wiki/Dreamcast"
       },
       {
         "label": "ThinkPad 600",
@@ -6801,11 +6753,5 @@
       "label_en": "Scratch",
       "conjunction": true
     }
-  ],
-  "metadata": {
-    "title": {
-      "ja": "ガジェットの年表 0.1",
-      "en": "Gadget Timeline 0.1"
-    }
-  }
+  ]
 }
