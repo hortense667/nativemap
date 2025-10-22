@@ -5390,15 +5390,15 @@
       },
       {
         "label": "ダイソン・エアマルチプライアー",
-        "label_en": "Dyson Air Multiplier",
         "startYear": 2009,
         "genre": [
           "AUDIO_VIDEO"
         ],
         "imp": 3,
-        "url": "https://ja.wikipedia.org/wiki/ダイソン",
-        "url_en": "https://en.wikipedia.org/wiki/Dyson_Air_Multiplier",
+        "url": "https://ja.wikipedia.org/wiki/%E3%82%A8%E3%82%A2%E3%83%9E%E3%83%AB%E3%83%81%E3%83%97%E3%83%A9%E3%82%A4%E3%82%A2%E3%83%BC",
         "note": "羽根のない扇風機。環流で滑らかな気流と安全性を両立。",
+        "label_en": "Dyson Air Multiplier",
+        "url_en": "https://en.wikipedia.org/wiki/Dyson_Air_Multiplier",
         "note_en": "https://ja.wikipedia.org/wiki/ダイソン"
       },
       {
