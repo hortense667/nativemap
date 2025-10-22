@@ -52,13 +52,14 @@
     "1923": [
       {
         "label": "タイガー計算器",
-        "label_en": "Tiger calculator",
         "startYear": 1923,
         "genre": [
           "COMPUTER"
         ],
         "imp": 3,
+        "url": "https://www.tiger-inc.co.jp/temawashi/temawashi.html",
         "note": "日本で普及した機械式計算機で、加減乗除や連続計算に対応した。",
+        "label_en": "Tiger calculator",
         "note_en": "A Japanese mechanical calculator supporting the four operations and repeated calculations."
       }
     ],
@@ -76,21 +77,6 @@
         "url_en": "https://en.wikipedia.org/wiki/Curta",
         "note": "手回し式の携帯計算機。",
         "note_en": "A compact mechanical hand-cranked calculator."
-      }
-    ],
-    "1955": [
-      {
-        "label": "アニメーションフローティングペン",
-        "label_en": "Animation Floating Pen",
-        "startYear": 1955,
-        "genre": [
-          "INPUT"
-        ],
-        "imp": 2,
-        "url": "https://ja.wikipedia.org/wiki/ボールペン",
-        "url_en": "https://en.wikipedia.org/wiki/Floating_action_pen",
-        "note": "インク窓内の絵が動く遊び心あるボールペン。販促品として普及。",
-        "note_en": "https://ja.wikipedia.org/wiki/ボールペン"
       }
     ],
     "1958": [
@@ -5677,6 +5663,19 @@
         "url_en": "https://en.wikipedia.org/wiki/Qi_(standard)",
         "note": "WPCによる無線充電規格。スマホ等で普及。",
         "note_en": "https://ja.wikipedia.org/wiki/Qi"
+      },
+      {
+        "label": "アニメーションフローティングペン",
+        "startYear": 2010,
+        "genre": [
+          "ROBOTOY",
+          "JAPAN"
+        ],
+        "imp": 2,
+        "url": "https://medium.com/animation-floating-pen",
+        "note": "インク窓内の絵が動く遊び心あるボールペン。販促品として普及。",
+        "label_en": "Animation Floating Pen",
+        "note_en": "https://ja.wikipedia.org/wiki/ボールペン"
       }
     ],
     "2011": [
