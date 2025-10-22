@@ -169,13 +169,14 @@
       },
       {
         "label": "DIGI-COMP 1",
-        "label_en": "DIGI-COMP 1",
         "startYear": 1963,
         "genre": [
           "COMPUTER"
         ],
         "imp": 3,
+        "url": "https://en.wikipedia.org/wiki/Digi-Comp_I",
         "note": "DIGI-COMP 1はE.S.R.のコンピュータで、当時の利用に広く用いられた。",
+        "label_en": "DIGI-COMP 1",
         "note_en": "DIGI-COMP 1 is a computer by E.S.R., widely used in its era."
       },
       {
@@ -269,14 +270,15 @@
       },
       {
         "label": "HITAC 10",
-        "label_en": "HITAC 10 minicomputer",
         "startYear": 1969,
         "genre": [
           "COMPUTER"
         ],
         "imp": 3,
-        "url_en": "https://en.wikipedia.org/wiki/Hitachi",
+        "url": "https://museum.ipsj.or.jp/computer/mini/0001.html",
         "note": "日立製作所の研究・業務向けミニコンで、テレタイプ端末を主要I/Oとした。",
+        "label_en": "HITAC 10 minicomputer",
+        "url_en": "https://en.wikipedia.org/wiki/Hitachi",
         "note_en": "A Hitachi minicomputer for labs and offices that used a teletype as primary I/O."
       }
     ],
@@ -311,16 +313,16 @@
       },
       {
         "label": "Busicom 141-PF 電卓",
-        "label_en": "Busicom 141-PF",
         "startYear": 1971,
         "genre": [
           "COMPUTER",
           "JAPAN"
         ],
         "imp": 5,
-        "url": "https://en.wikipedia.org/wiki/Busicom",
-        "url_en": "https://en.wikipedia.org/wiki/Busicom",
+        "url": "https://museum.ipsj.or.jp/heritage/2011/Busicom_141-PF.html",
         "note": "インテル4004を採用した日本の卓上電卓で、汎用MPUの実用化を示した初期事例。",
+        "label_en": "Busicom 141-PF",
+        "url_en": "https://en.wikipedia.org/wiki/Busicom",
         "note_en": "Japanese desktop calculator using Intel’s 4004, demonstrating an early practical use of a general‑purpose MPU."
       },
       {
@@ -367,27 +369,28 @@
       },
       {
         "label": "Polaroid SX-70",
-        "label_en": "Polaroid SX-70",
         "startYear": 1972,
         "genre": [
           "CAMERA"
         ],
         "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/ポラロイド・SX-70",
-        "url_en": "https://en.wikipedia.org/wiki/Polaroid_SX-70",
+        "url": "https://en.wikipedia.org/wiki/Polaroid_SX-70",
         "note": "折りたたみ一眼レフのインスタントカメラ。",
+        "label_en": "Polaroid SX-70",
+        "url_en": "https://en.wikipedia.org/wiki/Polaroid_SX-70",
         "note_en": "A folding SLR instant camera that popularized instant photography."
       },
       {
         "label": "S-500",
-        "label_en": "S-500",
         "startYear": 1972,
         "genre": [
           "COMPUTER"
         ],
         "imp": 3,
-        "note": "S-500は服部時計店（現セイコー）のコンピュータで、当時の利用に広く用いられた。",
-        "note_en": "S-500 is a computer by 服部時計店（現セイコー）, widely used in its era."
+        "url": "https://www2u.biglobe.ne.jp/~n-fuji/seiko.pdf",
+        "note": "S-500は服部時計店（現セイコー）のプログラム電卓。https://diarywind.com/blog/e/first-japan-made-pc.html",
+        "label_en": "S-500",
+        "note_en": "The S-500 is a programmable calculator from Hattori Watch Co. (now Seiko)."
       },
       {
         "label": "CASIO mini",
