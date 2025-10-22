@@ -1074,20 +1074,33 @@
         "url_en": "https://en.wikipedia.org/wiki/Choro-Q",
         "note": "ゼンマイの“プルバック”で走る手のひらサイズの玩具車。",
         "note_en": "https://ja.wikipedia.org/wiki/チョロQ"
+      },
+      {
+        "label": "VIC-20",
+        "startYear": 1980,
+        "genre": [
+          "COMPUTER"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/Commodore_VIC-20",
+        "note": "家庭向けの安価な8ビットPC。",
+        "label_en": "VIC-20",
+        "url_en": "https://en.wikipedia.org/wiki/Commodore_VIC-20",
+        "note_en": "An affordable 8-bit home computer."
       }
     ],
     "1981": [
       {
         "label": "IBM 5150（IBM PC）",
-        "label_en": "IBM Personal Computer 5150",
         "startYear": 1981,
         "genre": [
           "COMPUTER"
         ],
         "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/IBM_Personal_Computer",
-        "url_en": "https://en.wikipedia.org/wiki/IBM_Personal_Computer",
+        "url": "https://ja.wikipedia.org/wiki/IBM_PC",
         "note": "PC互換機の原点となったIBMのPC。",
+        "label_en": "IBM Personal Computer 5150",
+        "url_en": "https://en.wikipedia.org/wiki/IBM_Personal_Computer",
         "note_en": "IBM’s PC that set the standard for compatibles."
       },
       {
@@ -1143,24 +1156,26 @@
       },
       {
         "label": "FM-8（FUJITSU MICRO 8）",
-        "label_en": "FUJITSU MICRO 8",
         "startYear": 1981,
         "genre": [
           "COMPUTER"
         ],
         "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/FM-8",
         "note": "FM-8（FUJITSU MICRO 8）は富士通のコンピュータで、当時の利用に広く用いられた。",
+        "label_en": "FUJITSU MICRO 8",
         "note_en": "FM-8（FUJITSU MICRO 8） is a computer by 富士通, widely used in its era."
       },
       {
         "label": "JR-100",
-        "label_en": "JR-100",
         "startYear": 1981,
         "genre": [
           "COMPUTER"
         ],
         "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/JR_(%E3%82%B3%E3%83%B3%E3%83%94%E3%83%A5%E3%83%BC%E3%82%BF)",
         "note": "JR-100は松下電器産業（現パナソニック）のコンピュータで、当時の利用に広く用いられた。",
+        "label_en": "JR-100",
         "note_en": "JR-100 is a computer by 松下電器産業（現パナソニック）, widely used in its era."
       },
       {
@@ -1201,6 +1216,19 @@
         "url_en": "https://en.wikipedia.org/wiki/MS-DOS",
         "note": "IBM PC系で普及したDOS系OSで、PCソフト市場の基盤となった。",
         "note_en": "The dominant DOS for IBM‑PC compatibles that underpinned the PC software market."
+      },
+      {
+        "label": "Hayes Smartmodem",
+        "startYear": 1981,
+        "genre": [
+          "COMM"
+        ],
+        "imp": 3,
+        "url": "https://en.wikipedia.org/wiki/Hayes_Microcomputer_Products",
+        "note": "ATコマンドでモデムを制御する事実上標準。",
+        "label_en": "Hayes Smartmodem",
+        "url_en": "https://en.wikipedia.org/wiki/Hayes_Microcomputer_Products",
+        "note_en": "De facto “AT” modem command language for modems."
       }
     ],
     "1982": [
@@ -1245,19 +1273,6 @@
         "note_en": "Low-cost 8-bit computer popular in the UK."
       },
       {
-        "label": "VIC-20",
-        "label_en": "VIC-20",
-        "startYear": 1982,
-        "genre": [
-          "COMPUTER"
-        ],
-        "imp": 3,
-        "url": "https://ja.wikipedia.org/wiki/Commodore_VIC-20",
-        "url_en": "https://en.wikipedia.org/wiki/Commodore_VIC-20",
-        "note": "家庭向けの安価な8ビットPC。",
-        "note_en": "An affordable 8-bit home computer."
-      },
-      {
         "label": "Kaypro II",
         "label_en": "Kaypro II",
         "startYear": 1982,
@@ -1269,19 +1284,6 @@
         "url_en": "https://en.wikipedia.org/wiki/Kaypro",
         "note": "CP/M搭載の“ラガブル”PC。Osborneのライバル。",
         "note_en": "A CP/M-based luggable rival to Osborne 1."
-      },
-      {
-        "label": "Hayesコマンドセット",
-        "label_en": "Hayes command set",
-        "startYear": 1982,
-        "genre": [
-          "COMM"
-        ],
-        "imp": 3,
-        "url": "https://ja.wikipedia.org/wiki/Hayesコマンドセット",
-        "url_en": "https://en.wikipedia.org/wiki/Hayes_command_set",
-        "note": "ATコマンドでモデムを制御する事実上標準。",
-        "note_en": "De facto “AT” modem command language for modems."
       },
       {
         "label": "トミー アームトロン",
