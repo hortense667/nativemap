@@ -4932,21 +4932,6 @@
         "note_en": "https://en.wikipedia.org/wiki/Fossil_Wrist_PDA"
       },
       {
-        "label": "INFOBAR / iida (2003〜)",
-        "label_en": "INFOBAR / iida",
-        "startYear": 2003,
-        "endYear": 2010,
-        "genre": [
-          "MOBILE",
-          "JAPAN"
-        ],
-        "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/INFOBAR",
-        "url_en": "https://en.wikipedia.org/wiki/Infobar",
-        "note": "造形美を追求したKDDIのデザイン携帯群。",
-        "note_en": "https://ja.wikipedia.org/wiki/INFOBAR"
-      },
-      {
         "label": "Tapwave Zodiac",
         "label_en": "Tapwave Zodiac",
         "startYear": 2003,
@@ -4973,51 +4958,6 @@
         "url": "https://ja.wikipedia.org/wiki/INFOBAR",
         "url_en": "https://en.wikipedia.org/wiki/Infobar",
         "note": "造形を前面に出したKDDIのデザイン携帯の系譜。",
-        "note_en": "https://ja.wikipedia.org/wiki/INFOBAR"
-      },
-      {
-        "label": "INFOBAR / iida (2003〜)",
-        "label_en": "INFOBAR / iida",
-        "startYear": 2003,
-        "endYear": 2010,
-        "genre": [
-          "MOBILE",
-          "JAPAN"
-        ],
-        "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/INFOBAR",
-        "url_en": "https://en.wikipedia.org/wiki/Infobar",
-        "note": "造形美を追求したKDDIのデザイン携帯群。",
-        "note_en": "https://ja.wikipedia.org/wiki/INFOBAR"
-      },
-      {
-        "label": "INFOBAR / iida (2003〜)",
-        "label_en": "INFOBAR / iida",
-        "startYear": 2003,
-        "endYear": 2010,
-        "genre": [
-          "MOBILE",
-          "JAPAN"
-        ],
-        "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/INFOBAR",
-        "url_en": "https://en.wikipedia.org/wiki/Infobar",
-        "note": "造形美を追求したKDDIのデザイン携帯群。",
-        "note_en": "https://ja.wikipedia.org/wiki/INFOBAR"
-      },
-      {
-        "label": "INFOBAR / iida (2003〜)",
-        "label_en": "INFOBAR / iida",
-        "startYear": 2003,
-        "endYear": 2010,
-        "genre": [
-          "MOBILE",
-          "JAPAN"
-        ],
-        "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/INFOBAR",
-        "url_en": "https://en.wikipedia.org/wiki/Infobar",
-        "note": "造形美を追求したKDDIのデザイン携帯群。",
         "note_en": "https://ja.wikipedia.org/wiki/INFOBAR"
       }
     ],
