@@ -452,20 +452,6 @@
     ],
     "1973": [
       {
-        "label": "Xerox Alto",
-        "label_en": "Xerox Alto",
-        "startYear": 1973,
-        "genre": [
-          "COMPUTER",
-          "JAPAN"
-        ],
-        "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/Xerox_Alto",
-        "url_en": "https://en.wikipedia.org/wiki/Xerox_Alto",
-        "note": "GUI・マウス・WYSIWYGを実装した研究用コンピュータ。",
-        "note_en": "Research system pioneering GUI, mouse, and WYSIWYG."
-      },
-      {
         "label": "SEIKO LC V.F.A. 06LC",
         "label_en": "Seiko 06LC",
         "startYear": 1973,
@@ -477,6 +463,19 @@
         "url_en": "https://corporate.epson/en/about/history/milestone-products/1973-10-06lc.html",
         "note": "初期LCDデジタル表示の腕時計。",
         "note_en": "https://ja.wikipedia.org/wiki/セイコー"
+      },
+      {
+        "label": "Xerox Alto",
+        "startYear": 1973,
+        "genre": [
+          "COMPUTER"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/Xerox_Alto",
+        "note": "GUI・マウス・WYSIWYGを実装した研究用コンピュータ。",
+        "label_en": "Xerox Alto",
+        "url_en": "https://en.wikipedia.org/wiki/Xerox_Alto",
+        "note_en": "Research system pioneering GUI, mouse, and WYSIWYG."
       }
     ],
     "1974": [
