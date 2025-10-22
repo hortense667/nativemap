@@ -515,13 +515,14 @@
       },
       {
         "label": "『Whole Earth Catalog』（『Whole Earth Epilog』）",
-        "label_en": "『Whole Earth Epilog』",
         "startYear": 1974,
         "genre": [
           "COMPUTER"
         ],
         "imp": 3,
+        "url": "https://en.wikipedia.org/wiki/Whole_Earth_Catalog",
         "note": "Point財団の出版物で、当時のコンピュータ文化や技術を紹介した。",
+        "label_en": "『Whole Earth Epilog』",
         "note_en": "A publication that introduced computing culture and technology of the time."
       },
       {
@@ -654,28 +655,16 @@
       },
       {
         "label": "ナショナル RF-2200（クーガー）",
-        "label_en": "National RF-2200",
         "startYear": 1976,
         "genre": [
           "AUDIO_VIDEO",
           "JAPAN"
         ],
         "imp": 3,
-        "url": "https://ja.wikipedia.org/wiki/クーガー_(ラジオ)",
-        "url_en": "https://en.wikipedia.org/wiki/Panasonic",
+        "url": "https://www.japanradiomuseum.com/bcl",
         "note": "BCL期を代表する短波ラジオ。",
+        "label_en": "National RF-2200",
         "note_en": "A popular shortwave radio of Japan’s BCL era."
-      },
-      {
-        "label": "TK-80",
-        "label_en": "TK-80",
-        "startYear": 1976,
-        "genre": [
-          "COMPUTER"
-        ],
-        "imp": 3,
-        "note": "日本最初期のマイコン学習キット。",
-        "note_en": "TK-80 is a computer by 日本電気（NEC）, widely used in its era."
       },
       {
         "label": "TK-80",
@@ -694,15 +683,15 @@
       },
       {
         "label": "Mattel Auto Race",
-        "label_en": "Mattel Auto Race",
         "startYear": 1976,
         "genre": [
           "GAME"
         ],
         "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/マテル",
-        "url_en": "https://en.wikipedia.org/wiki/Mattel_Auto_Race",
+        "url": "https://ja.wikipedia.org/wiki/Mattel_Auto_Race",
         "note": "LED表示の携帯型電子ゲーム草創期のヒット作の一つ。",
+        "label_en": "Mattel Auto Race",
+        "url_en": "https://en.wikipedia.org/wiki/Mattel_Auto_Race",
         "note_en": "https://ja.wikipedia.org/wiki/マテル"
       }
     ],
