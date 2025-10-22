@@ -426,20 +426,6 @@
     ],
     "1973": [
       {
-        "label": "Xerox Alto",
-        "startYear": 1973,
-        "genre": [
-          "COMPUTER",
-          "JAPAN"
-        ],
-        "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/Xerox_Alto",
-        "note": "GUI・マウス・WYSIWYGを実装した研究用コンピュータ。",
-        "label_en": "Xerox Alto",
-        "note_en": "Research system pioneering GUI, mouse, and WYSIWYG.",
-        "url_en": "https://en.wikipedia.org/wiki/Xerox_Alto"
-      },
-      {
         "label": "SEIKO LC V.F.A. 06LC",
         "startYear": 1973,
         "genre": [
@@ -451,6 +437,19 @@
         "label_en": "Seiko 06LC",
         "note_en": "https://ja.wikipedia.org/wiki/セイコー",
         "url_en": "https://corporate.epson/en/about/history/milestone-products/1973-10-06lc.html"
+      },
+      {
+        "label": "Xerox Alto",
+        "startYear": 1973,
+        "genre": [
+          "COMPUTER"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/Xerox_Alto",
+        "note": "GUI・マウス・WYSIWYGを実装した研究用コンピュータ。",
+        "label_en": "Xerox Alto",
+        "url_en": "https://en.wikipedia.org/wiki/Xerox_Alto",
+        "note_en": "Research system pioneering GUI, mouse, and WYSIWYG."
       }
     ],
     "1974": [
@@ -729,20 +728,6 @@
         "url_en": "https://en.wikipedia.org/wiki/Commodore_PET"
       },
       {
-        "label": "VAX-11/780",
-        "startYear": 1977,
-        "genre": [
-          "COMPUTER",
-          "JAPAN"
-        ],
-        "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/VAX",
-        "note": "DECの32ビット級ミニコンの代表機。仮想記憶で時代を画した。",
-        "label_en": "VAX-11/780",
-        "note_en": "https://ja.wikipedia.org/wiki/VAX",
-        "url_en": "https://en.wikipedia.org/wiki/VAX-11/780"
-      },
-      {
         "label": "TI Dataman",
         "startYear": 1977,
         "genre": [
@@ -781,6 +766,19 @@
         "label_en": "My Computer Primer (book)",
         "note_en": "An introductory book from Japan’s early PC era explaining fundamentals plainly.",
         "url_en": "https://www.amazon.co.jp/dp/4061179136"
+      },
+      {
+        "label": "VAX-11/780",
+        "startYear": 1977,
+        "genre": [
+          "COMPUTER"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/VAX",
+        "note": "DECの32ビット級ミニコンの代表機。仮想記憶で時代を画した。",
+        "label_en": "VAX-11/780",
+        "url_en": "https://en.wikipedia.org/wiki/VAX-11/780",
+        "note_en": "https://ja.wikipedia.org/wiki/VAX"
       }
     ],
     "1978": [
@@ -1714,9 +1712,8 @@
           "JAPAN"
         ],
         "imp": 3,
-        "note": "YK-01は日本楽器製造（ヤマハ）のコンピュータで、当時の利用に広く用いられた。",
-        "label_en": "YK-01",
-        "note_en": "YK-01 is a computer by 日本楽器製造（ヤマハ）, widely used in its era."
+        "note": "YK-01はヤマハのコンピュータ用のキーボード。",
+        "label_en": "YK-01"
       },
       {
         "label": "UC-2000",
@@ -6610,15 +6607,14 @@
         "label": "HOVERAir X1",
         "startYear": 2023,
         "genre": [
-          "CAMERA",
-          "JAPAN"
+          "CAMERA"
         ],
         "imp": 3,
         "url": "https://www.hovercamera.com/pages/hoverair-x1",
         "note": "自撮り特化の自律フライングカメラ。",
         "label_en": "HOVERAir X1",
-        "note_en": "https://www.hovercamera.com/pages/hoverair-x1",
-        "url_en": "https://www.hovercamera.com/pages/hoverair-x1"
+        "url_en": "https://www.hovercamera.com/pages/hoverair-x1",
+        "note_en": "https://www.hovercamera.com/pages/hoverair-x1"
       }
     ],
     "2024": [
