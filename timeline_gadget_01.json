@@ -70,7 +70,8 @@
         "startYear": 1948,
         "genre": [
           "COMPUTER",
-          "MOBILE"
+          "MOBILE",
+          "JAPAN"
         ],
         "imp": 2,
         "url": "https://ja.wikipedia.org/wiki/クルタ計算機",
@@ -144,7 +145,8 @@
         "startYear": 1961,
         "genre": [
           "COMPUTER",
-          "MAKER"
+          "MAKER",
+          "JAPAN"
         ],
         "imp": 4,
         "url": "https://en.wikipedia.org/wiki/Minivac_601",
@@ -159,7 +161,8 @@
         "label_en": "Compact cassette",
         "startYear": 1963,
         "genre": [
-          "MEDIA"
+          "MEDIA",
+          "JAPAN"
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/コンパクトカセット",
@@ -201,7 +204,8 @@
         "label_en": "PDP-8",
         "startYear": 1965,
         "genre": [
-          "COMPUTER"
+          "COMPUTER",
+          "JAPAN"
         ],
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/PDP-8",
@@ -229,7 +233,8 @@
         "startYear": 1967,
         "genre": [
           "INPUT",
-          "ROBOTOY"
+          "ROBOTOY",
+          "JAPAN"
         ],
         "imp": 3,
         "url": "https://ja.wikipedia.org/wiki/%E3%82%A6%E3%83%AB%E3%83%88%E3%83%A9%E3%83%8F%E3%83%B3%E3%83%89",
@@ -245,7 +250,8 @@
         "label_en": "Microcassette",
         "startYear": 1969,
         "genre": [
-          "MEDIA"
+          "MEDIA",
+          "JAPAN"
         ],
         "imp": 2,
         "url": "https://ja.wikipedia.org/wiki/マイクロカセット",
@@ -272,7 +278,8 @@
         "label": "HITAC 10",
         "startYear": 1969,
         "genre": [
-          "COMPUTER"
+          "COMPUTER",
+          "JAPAN"
         ],
         "imp": 3,
         "url": "https://museum.ipsj.or.jp/computer/mini/0001.html",
@@ -288,7 +295,8 @@
         "label_en": "PDP-11",
         "startYear": 1970,
         "genre": [
-          "COMPUTER"
+          "COMPUTER",
+          "JAPAN"
         ],
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/PDP-11",
@@ -346,7 +354,8 @@
         "label_en": "HP-35",
         "startYear": 1972,
         "genre": [
-          "AUDIO_VIDEO"
+          "AUDIO_VIDEO",
+          "JAPAN"
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/HP-35",
@@ -384,7 +393,8 @@
         "label": "S-500",
         "startYear": 1972,
         "genre": [
-          "COMPUTER"
+          "COMPUTER",
+          "JAPAN"
         ],
         "imp": 3,
         "url": "https://www2u.biglobe.ne.jp/~n-fuji/seiko.pdf",
@@ -414,7 +424,7 @@
           "GAME"
         ],
         "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/PONG",
+        "url": "https://ja.wikipedia.org/wiki/Pong",
         "url_en": "https://en.wikipedia.org/wiki/Pong",
         "note": "最初期のアーケードヒット。家庭用TVゲームの端緒となった。",
         "note_en": "https://ja.wikipedia.org/wiki/PONG"
@@ -451,7 +461,8 @@
         "label_en": "Xerox Alto",
         "startYear": 1973,
         "genre": [
-          "COMPUTER"
+          "COMPUTER",
+          "JAPAN"
         ],
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/Xerox_Alto",
@@ -483,7 +494,7 @@
           "COMPUTER"
         ],
         "imp": 5,
-        "url": "https://en.wikipedia.org/wiki/Altair_8800",
+        "url": "https://ja.wikipedia.org/wiki/Altair_8800",
         "url_en": "https://en.wikipedia.org/wiki/Altair_8800",
         "note": "Intel 8080搭載のキットPCで、ホビイスト向けマイクロコンピュータ時代を切り開いた。",
         "note_en": "Intel 8080‑based kit microcomputer that ignited the hobbyist personal computing era."
@@ -686,7 +697,8 @@
         "label": "Mattel Auto Race",
         "startYear": 1976,
         "genre": [
-          "GAME"
+          "GAME",
+          "JAPAN"
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/Mattel_Auto_Race",
@@ -754,7 +766,8 @@
         "label_en": "VAX-11/780",
         "startYear": 1977,
         "genre": [
-          "COMPUTER"
+          "COMPUTER",
+          "JAPAN"
         ],
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/VAX",
@@ -770,10 +783,10 @@
           "MAKER"
         ],
         "imp": 2,
-        "url": "https://en.wikipedia.org/wiki/Dataman",
+        "url": "https://ja.wikipedia.org/wiki/DAT",
         "note": "電卓型の算数学習トイ。",
         "label_en": "TI Dataman",
-        "url_en": "https://en.wikipedia.org/wiki/Dataman",
+        "url_en": "https://en.wikipedia.org/wiki/Digital_Audio_Tape",
         "note_en": "https://ja.wikipedia.org/wiki/テキサス・インスツルメンツ"
       },
       {
@@ -849,7 +862,8 @@
         "label": "ベーシックマスターMB-6880",
         "startYear": 1978,
         "genre": [
-          "COMPUTER"
+          "COMPUTER",
+          "JAPAN"
         ],
         "imp": 3,
         "url": "https://ja.wikipedia.org/wiki/%E3%83%99%E3%83%BC%E3%82%B7%E3%83%83%E3%82%AF%E3%83%9E%E3%82%B9%E3%82%BF%E3%83%BC",
@@ -872,7 +886,8 @@
         "label": "MZ-80K",
         "startYear": 1978,
         "genre": [
-          "COMPUTER"
+          "COMPUTER",
+          "JAPAN"
         ],
         "imp": 3,
         "url": "https://ja.wikipedia.org/wiki/MZ-80",
@@ -899,7 +914,8 @@
         "startYear": 1978,
         "genre": [
           "ROBOTOY",
-          "MAKER"
+          "MAKER",
+          "JAPAN"
         ],
         "imp": 4,
         "url": "https://en.wikipedia.org/wiki/Speak_%26_Spell_(toy)",
@@ -1098,7 +1114,7 @@
           "COMPUTER"
         ],
         "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/IBM_PC",
+        "url": "https://ja.wikipedia.org/wiki/IBM_Personal_Computer",
         "note": "PC互換機の原点となったIBMのPC。",
         "label_en": "IBM Personal Computer 5150",
         "url_en": "https://en.wikipedia.org/wiki/IBM_Personal_Computer",
@@ -1149,7 +1165,8 @@
         "label_en": "TK-Z80",
         "startYear": 1981,
         "genre": [
-          "COMPUTER"
+          "COMPUTER",
+          "JAPAN"
         ],
         "imp": 3,
         "note": "東芝TMPZ84C00AP-6(Z80互換）を搭載したワンボードマイコン。",
@@ -1159,7 +1176,8 @@
         "label": "FM-8（FUJITSU MICRO 8）",
         "startYear": 1981,
         "genre": [
-          "COMPUTER"
+          "COMPUTER",
+          "JAPAN"
         ],
         "imp": 3,
         "url": "https://ja.wikipedia.org/wiki/FM-8",
@@ -1171,7 +1189,8 @@
         "label": "JR-100",
         "startYear": 1981,
         "genre": [
-          "COMPUTER"
+          "COMPUTER",
+          "JAPAN"
         ],
         "imp": 3,
         "url": "https://ja.wikipedia.org/wiki/JR_(%E3%82%B3%E3%83%B3%E3%83%94%E3%83%A5%E3%83%BC%E3%82%BF)",
@@ -1197,7 +1216,8 @@
         "label_en": "NEC PC-8801",
         "startYear": 1981,
         "genre": [
-          "COMPUTER"
+          "COMPUTER",
+          "JAPAN"
         ],
         "imp": 3,
         "url": "https://en.wikipedia.org/wiki/PC-8800_series",
@@ -1356,7 +1376,8 @@
         "startYear": 1982,
         "genre": [
           "COMPUTER",
-          "GAME"
+          "GAME",
+          "JAPAN"
         ],
         "imp": 3,
         "url": "https://ja.wikipedia.org/wiki/X1_(%E3%82%B3%E3%83%B3%E3%83%94%E3%83%A5%E3%83%BC%E3%82%BF)",
@@ -1415,7 +1436,7 @@
           "GAME"
         ],
         "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/光速船",
+        "url": "https://ja.wikipedia.org/wiki/Vectrex",
         "url_en": "https://en.wikipedia.org/wiki/Vectrex",
         "note": "ベクターディスプレイ内蔵の据置ゲーム機。",
         "note_en": "https://ja.wikipedia.org/wiki/光速船"
@@ -1456,7 +1477,7 @@
           "COMPUTER"
         ],
         "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/コンパック・ポータブル",
+        "url": "https://ja.wikipedia.org/wiki/Compaq_Portable",
         "url_en": "https://en.wikipedia.org/wiki/Compaq_Portable",
         "note": "IBM互換の可搬型PC。互換機市場を切り開く。",
         "note_en": "IBM PC–compatible luggable that opened the clone market."
@@ -1466,10 +1487,11 @@
         "label_en": "Olivetti M10",
         "startYear": 1983,
         "genre": [
-          "COMPUTER"
+          "COMPUTER",
+          "JAPAN"
         ],
         "imp": 3,
-        "url": "https://ja.wikipedia.org/wiki/Olivetti_M10",
+        "url": "https://en.wikipedia.org/wiki/Olivetti_M10",
         "url_en": "https://en.wikipedia.org/wiki/Olivetti_M10",
         "note": "京セラ設計のポータブルPC系。",
         "note_en": "A Kyocera-designed portable computer."
@@ -1492,7 +1514,8 @@
         "label_en": "Motorola DynaTAC 8000X",
         "startYear": 1983,
         "genre": [
-          "MOBILE"
+          "MOBILE",
+          "JAPAN"
         ],
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/DynaTAC",
@@ -1509,7 +1532,7 @@
           "MOBILE"
         ],
         "imp": 4,
-        "url": "https://en.wikipedia.org/wiki/Compaq_Portable",
+        "url": "https://ja.wikipedia.org/wiki/Compaq_Portable",
         "url_en": "https://en.wikipedia.org/wiki/Compaq_Portable",
         "note": "IBM PC互換のラゲッジ型で、互換BIOSによりPC/AT互換機市場を切り開いた。",
         "note_en": "Luggable IBM‑PC‑compatible with a clean‑room BIOS that opened the clone market."
@@ -1548,7 +1571,8 @@
         "label_en": "Sony SMC-777",
         "startYear": 1983,
         "genre": [
-          "COMPUTER"
+          "COMPUTER",
+          "JAPAN"
         ],
         "imp": 3,
         "url": "https://ja.wikipedia.org/wiki/SMC-777",
@@ -1561,7 +1585,8 @@
         "label_en": "Panasonic CF-2000 (MSX)",
         "startYear": 1983,
         "genre": [
-          "COMPUTER"
+          "COMPUTER",
+          "JAPAN"
         ],
         "imp": 3,
         "url": "https://en.wikipedia.org/wiki/MSX",
@@ -1574,7 +1599,8 @@
         "label_en": "HB-10",
         "startYear": 1983,
         "genre": [
-          "COMPUTER"
+          "COMPUTER",
+          "JAPAN"
         ],
         "imp": 3,
         "note": "HB-10はソニーのコンピュータで、当時の利用に広く用いられた。",
@@ -1585,7 +1611,8 @@
         "label_en": "YIS503",
         "startYear": 1983,
         "genre": [
-          "COMPUTER"
+          "COMPUTER",
+          "JAPAN"
         ],
         "imp": 3,
         "note": "YISは、1983年末〜1984年初にかけて、ヤマハが展開した教育・音楽志向のパソコンブランド。",
@@ -1600,7 +1627,9 @@
         ],
         "imp": 3,
         "note": "当時の用途に用いられたコンピュータ本体で、世代の特徴を備える。",
-        "note_en": "A computer system used in its era, reflecting the characteristics of its generation."
+        "note_en": "A computer system used in its era, reflecting the characteristics of its generation.",
+        "url": "https://ja.wikipedia.org/wiki/IBM_Personal_Computer",
+        "url_en": "https://en.wikipedia.org/wiki/IBM_Personal_Computer"
       },
       {
         "label": "PC-100",
@@ -1640,7 +1669,8 @@
         "label": "PF-300（電子手帳）",
         "startYear": 1983,
         "genre": [
-          "MOBILE"
+          "MOBILE",
+          "JAPAN"
         ],
         "imp": 4,
         "note": "カシオの電子手帳",
@@ -1726,7 +1756,7 @@
           "COMPUTER"
         ],
         "imp": 5,
-        "url": "https://en.wikipedia.org/wiki/Macintosh_128K",
+        "url": "https://ja.wikipedia.org/wiki/Macintosh_128K",
         "url_en": "https://en.wikipedia.org/wiki/Macintosh_128K",
         "note": "GUIとマウスを標準化した一体型PCの初代機で、デスクトップGUI時代を一般化した。",
         "note_en": "First Macintosh all‑in‑one that mainstreamed the desktop GUI with mouse‑driven interaction."
@@ -1737,7 +1767,8 @@
         "startYear": 1984,
         "genre": [
           "COMPUTER",
-          "GAME"
+          "GAME",
+          "JAPAN"
         ],
         "imp": 3,
         "url": "https://en.wikipedia.org/wiki/Family_BASIC",
@@ -1750,7 +1781,8 @@
         "label_en": "YK-01",
         "startYear": 1984,
         "genre": [
-          "COMPUTER"
+          "COMPUTER",
+          "JAPAN"
         ],
         "imp": 3,
         "note": "YK-01は日本楽器製造（ヤマハ）のコンピュータで、当時の利用に広く用いられた。",
@@ -1763,7 +1795,8 @@
         "genre": [
           "COMPUTER",
           "MOBILE",
-          "WEARABLE"
+          "WEARABLE",
+          "JAPAN"
         ],
         "imp": 3,
         "note": "UC-2000は服部セイコー、セイコー電子工業の携帯型コンピュータで、当時の利用に広く用いられた。",
@@ -1834,8 +1867,8 @@
           "JAPAN"
         ],
         "imp": 3,
-        "url": "https://ja.wikipedia.org/wiki/データバンク_(腕時計)",
-        "url_en": "https://en.wikipedia.org/wiki/Casio_databank",
+        "url": "https://ja.wikipedia.org/wiki/DAT",
+        "url_en": "https://en.wikipedia.org/wiki/Digital_Audio_Tape",
         "note": "腕時計に電話帳/計算機などを搭載。",
         "note_en": "https://ja.wikipedia.org/wiki/データバンク_%28腕時計%29"
       }
@@ -1914,7 +1947,8 @@
         "label_en": "Fujitsu FM-77AV",
         "startYear": 1985,
         "genre": [
-          "COMPUTER"
+          "COMPUTER",
+          "JAPAN"
         ],
         "imp": 3,
         "url": "https://en.wikipedia.org/wiki/FM-7_series",
@@ -1999,7 +2033,8 @@
         "startYear": 1986,
         "genre": [
           "COMPUTER",
-          "GAME"
+          "GAME",
+          "JAPAN"
         ],
         "imp": 3,
         "url": "https://en.wikipedia.org/wiki/Sharp_X1",
@@ -2012,7 +2047,8 @@
         "label_en": "Sony HB-F900 / HBI-F900",
         "startYear": 1986,
         "genre": [
-          "COMPUTER"
+          "COMPUTER",
+          "JAPAN"
         ],
         "imp": 3,
         "url": "https://en.wikipedia.org/wiki/Sony_Hit_Bit",
@@ -2135,7 +2171,8 @@
         "label_en": "Sharp X68000",
         "startYear": 1987,
         "genre": [
-          "COMPUTER"
+          "COMPUTER",
+          "JAPAN"
         ],
         "imp": 5,
         "url": "https://en.wikipedia.org/wiki/X68000",
@@ -2358,7 +2395,8 @@
         "startYear": 1989,
         "genre": [
           "COMPUTER",
-          "MOBILE"
+          "MOBILE",
+          "JAPAN"
         ],
         "imp": 3,
         "url": "https://en.wikipedia.org/wiki/Dynabook",
@@ -2439,7 +2477,8 @@
         "label_en": "Atari Lynx",
         "startYear": 1989,
         "genre": [
-          "GAME"
+          "GAME",
+          "JAPAN"
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/Atari_Lynx",
@@ -2513,8 +2552,8 @@
           "INPUT"
         ],
         "imp": 3,
-        "url": "https://en.wikipedia.org/wiki/DataHand",
-        "url_en": "https://en.wikipedia.org/wiki/DataHand",
+        "url": "https://ja.wikipedia.org/wiki/DAT",
+        "url_en": "https://en.wikipedia.org/wiki/Digital_Audio_Tape",
         "note": "指先の微動で入力する独特のエルゴキーボード。",
         "note_en": "https://en.wikipedia.org/wiki/DataHand"
       },
@@ -2584,8 +2623,8 @@
           "JAPAN"
         ],
         "imp": 3,
-        "url": "https://ja.wikipedia.org/wiki/Data_Discman",
-        "url_en": "https://en.wikipedia.org/wiki/Data_Discman",
+        "url": "https://ja.wikipedia.org/wiki/DAT",
+        "url_en": "https://en.wikipedia.org/wiki/Digital_Audio_Tape",
         "note": "CD-ROM“電子ブック”専用端末。",
         "note_en": "https://ja.wikipedia.org/wiki/Data_Discman"
       },
@@ -2599,8 +2638,8 @@
           "JAPAN"
         ],
         "imp": 2,
-        "url": "https://ja.wikipedia.org/wiki/データバンク_(腕時計)",
-        "url_en": "https://en.wikipedia.org/wiki/Personal_digital_assistant",
+        "url": "https://ja.wikipedia.org/wiki/DAT",
+        "url_en": "https://en.wikipedia.org/wiki/Digital_Audio_Tape",
         "note": "名刺入れサイズのデータバンク系PDA。",
         "note_en": "https://ja.wikipedia.org/wiki/データバンク_%28腕時計%29"
       },
@@ -2787,7 +2826,8 @@
         "label_en": "Tandy/Casio Zoomer",
         "startYear": 1993,
         "genre": [
-          "MOBILE"
+          "MOBILE",
+          "JAPAN"
         ],
         "imp": 3,
         "url": "https://ja.wikipedia.org/wiki/Zoomer",
@@ -2842,7 +2882,8 @@
         "label_en": "Iomega Zip Drive",
         "startYear": 1994,
         "genre": [
-          "MEDIA"
+          "MEDIA",
+          "JAPAN"
         ],
         "imp": 3,
         "url": "https://ja.wikipedia.org/wiki/Zipドライブ",
@@ -2901,8 +2942,8 @@
           "COMM"
         ],
         "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/スマートウォッチ",
-        "url_en": "https://en.wikipedia.org/wiki/Timex_Datalink",
+        "url": "https://ja.wikipedia.org/wiki/DAT",
+        "url_en": "https://en.wikipedia.org/wiki/Digital_Audio_Tape",
         "note": "PC画面経由でデータ転送できる初期スマートウォッチ。",
         "note_en": "https://ja.wikipedia.org/wiki/スマートウォッチ"
       },
@@ -2911,7 +2952,8 @@
         "label_en": "IBM Simon Personal Communicator",
         "startYear": 1994,
         "genre": [
-          "MOBILE"
+          "MOBILE",
+          "JAPAN"
         ],
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/IBM・サイモン",
@@ -3127,7 +3169,8 @@
         "label_en": "Motorola StarTAC",
         "startYear": 1996,
         "genre": [
-          "MOBILE"
+          "MOBILE",
+          "JAPAN"
         ],
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/StarTAC",
@@ -3515,7 +3558,8 @@
         "label_en": "MPMan",
         "startYear": 1998,
         "genre": [
-          "MEDIA"
+          "MEDIA",
+          "JAPAN"
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/MPMan",
@@ -3528,7 +3572,8 @@
         "label_en": "Diamond Rio PMP300",
         "startYear": 1998,
         "genre": [
-          "MEDIA"
+          "MEDIA",
+          "JAPAN"
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/Rio_PMP300",
@@ -3742,7 +3787,8 @@
         "startYear": 1999,
         "genre": [
           "MEDIA",
-          "PERIPHERAL"
+          "PERIPHERAL",
+          "JAPAN"
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/USBメモリ",
@@ -4083,7 +4129,8 @@
         "label_en": "Nokia 3310",
         "startYear": 2000,
         "genre": [
-          "MOBILE"
+          "MOBILE",
+          "JAPAN"
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/Nokia_3310",
@@ -4111,7 +4158,8 @@
         "label_en": "Microvision",
         "startYear": 2000,
         "genre": [
-          "GAME"
+          "GAME",
+          "JAPAN"
         ],
         "imp": 2,
         "url": "https://ja.wikipedia.org/wiki/Microvision",
@@ -4154,7 +4202,8 @@
         "endYear": 2002,
         "genre": [
           "MOBILE",
-          "COMM"
+          "COMM",
+          "JAPAN"
         ],
         "imp": 3,
         "url": "https://ja.wikipedia.org/wiki/スマートウォッチ",
@@ -4167,7 +4216,8 @@
         "label_en": "VisorPhone",
         "startYear": 2000,
         "genre": [
-          "MOBILE"
+          "MOBILE",
+          "JAPAN"
         ],
         "imp": 3,
         "url": "https://ja.wikipedia.org/wiki/Handspring",
@@ -4180,7 +4230,8 @@
         "label_en": "Archos Jukebox 6000",
         "startYear": 2000,
         "genre": [
-          "MEDIA"
+          "MEDIA",
+          "JAPAN"
         ],
         "imp": 3,
         "url": "https://ja.wikipedia.org/wiki/アルコス",
@@ -4223,7 +4274,8 @@
         "startYear": 2000,
         "genre": [
           "MEDIA",
-          "PERIPHERAL"
+          "PERIPHERAL",
+          "JAPAN"
         ],
         "imp": 4,
         "url": "https://en.wikipedia.org/wiki/USB_flash_drive",
@@ -4280,7 +4332,8 @@
         "label_en": "Ericsson R310s",
         "startYear": 2000,
         "genre": [
-          "MOBILE"
+          "MOBILE",
+          "JAPAN"
         ],
         "imp": 3,
         "url": "https://en.wikipedia.org/wiki/Ericsson_R310s",
@@ -4321,7 +4374,8 @@
         "label_en": "iPod",
         "startYear": 2001,
         "genre": [
-          "AUDIO_VIDEO"
+          "AUDIO_VIDEO",
+          "JAPAN"
         ],
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/IPod",
@@ -4482,8 +4536,8 @@
           "JAPAN"
         ],
         "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/ウィルコム#AirH%22",
-        "url_en": "https://en.wikipedia.org/wiki/WILLCOM",
+        "url": "https://ja.wikipedia.org/wiki/DAT",
+        "url_en": "https://en.wikipedia.org/wiki/Digital_Audio_Tape",
         "note": "定額型常時接続の先駆け。屋内に強い細セル。",
         "note_en": "https://ja.wikipedia.org/wiki/ウィルコム#AirH%22"
       },
@@ -4537,7 +4591,8 @@
         "label_en": "Roomba",
         "startYear": 2002,
         "genre": [
-          "ROBOTOY"
+          "ROBOTOY",
+          "JAPAN"
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/Roomba",
@@ -4564,7 +4619,8 @@
         "label_en": "Danger Hiptop/Sidekick",
         "startYear": 2002,
         "genre": [
-          "MOBILE"
+          "MOBILE",
+          "JAPAN"
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/Sidekick_(携帯電話)",
@@ -4647,7 +4703,8 @@
         "startYear": 2003,
         "genre": [
           "MOBILE",
-          "GAME"
+          "GAME",
+          "JAPAN"
         ],
         "imp": 2,
         "url": "https://ja.wikipedia.org/wiki/N-Gage",
@@ -4761,7 +4818,8 @@
         "startYear": 2004,
         "genre": [
           "PERIPHERAL",
-          "CAMERA"
+          "CAMERA",
+          "JAPAN"
         ],
         "imp": 2,
         "url": "https://ja.wikipedia.org/wiki/Eye-Fi",
@@ -4903,7 +4961,8 @@
         "label_en": "Gizmondo",
         "startYear": 2005,
         "genre": [
-          "GAME"
+          "GAME",
+          "JAPAN"
         ],
         "imp": 2,
         "url": "https://ja.wikipedia.org/wiki/Gizmondo",
@@ -5089,7 +5148,8 @@
         "startYear": 2007,
         "genre": [
           "PERIPHERAL",
-          "INPUT"
+          "INPUT",
+          "JAPAN"
         ],
         "imp": 2,
         "url": "https://www.wired.com/2010/08/mouse-calculator",
@@ -5336,7 +5396,8 @@
         "label_en": "Modu",
         "startYear": 2008,
         "genre": [
-          "MOBILE"
+          "MOBILE",
+          "JAPAN"
         ],
         "imp": 2,
         "url": "https://en.wikipedia.org/wiki/Modu",
@@ -5366,7 +5427,8 @@
         "startYear": 2009,
         "genre": [
           "COMM",
-          "MOBILE"
+          "MOBILE",
+          "JAPAN"
         ],
         "imp": 2,
         "url": "https://ja.wikipedia.org/wiki/モバイルWi-Fiルーター",
@@ -5507,7 +5569,8 @@
         "startYear": 2010,
         "genre": [
           "INPUT",
-          "GAME"
+          "GAME",
+          "JAPAN"
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/Kinect",
@@ -5633,7 +5696,8 @@
         "startYear": 2011,
         "genre": [
           "AUDIO_VIDEO",
-          "PERIPHERAL"
+          "PERIPHERAL",
+          "JAPAN"
         ],
         "imp": 3,
         "url": "https://ja.wikipedia.org/wiki/Nest_Labs",
@@ -6837,7 +6901,8 @@
         "label_en": "Steam Deck",
         "startYear": 2021,
         "genre": [
-          "GAME"
+          "GAME",
+          "JAPAN"
         ],
         "imp": 3,
         "url": "https://ja.wikipedia.org/wiki/Steam_Deck",
