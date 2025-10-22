@@ -810,19 +810,6 @@
         "note_en": "An introductory book from Japan’s early PC era explaining fundamentals plainly."
       },
       {
-        "label": "TRS-80 Model I",
-        "label_en": "TRS-80 Model I",
-        "startYear": 1977,
-        "genre": [
-          "COMPUTER"
-        ],
-        "imp": 4,
-        "url": "https://en.wikipedia.org/wiki/TRS-80",
-        "url_en": "https://en.wikipedia.org/wiki/TRS-80",
-        "note": "ラジオシャックが量販した8ビット機で、米国における家庭用PC普及の牽引役となった。",
-        "note_en": "Mass‑marketed 8‑bit micro by Radio Shack that helped drive early home PC adoption in the U.S."
-      },
-      {
         "label": "VAX-11/780",
         "label_en": "VAX-11/780",
         "startYear": 1977,
@@ -1037,20 +1024,6 @@
         "url_en": "https://en.wikipedia.org/wiki/Sharp_Corporation",
         "note": "シャープの多機能一体型端末で、AV機能と計算機能を統合した。",
         "note_en": "A Sharp hybrid unit integrating AV functions with computing capabilities."
-      },
-      {
-        "label": "MZ-80K",
-        "label_en": "MZ-80K",
-        "startYear": 1979,
-        "genre": [
-          "COMPUTER",
-          "JAPAN"
-        ],
-        "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/MZ-80K",
-        "url_en": "https://en.wikipedia.org/wiki/Sharp_MZ",
-        "note": "シャープの一体型8ビットPC。",
-        "note_en": "Sharp’s all-in-one 8-bit PC."
       },
       {
         "label": "SEIKO C359",
@@ -1485,33 +1458,6 @@
         "note_en": "An early spreadsheet program available on CP/M and MS‑DOS."
       },
       {
-        "label": "VIC-20",
-        "label_en": "VIC-20",
-        "startYear": 1982,
-        "genre": [
-          "COMPUTER"
-        ],
-        "imp": 3,
-        "url": "https://ja.wikipedia.org/wiki/Commodore_VIC-20",
-        "url_en": "https://en.wikipedia.org/wiki/Commodore_VIC-20",
-        "note": "家庭向けの安価な8ビットPC。",
-        "note_en": "An affordable 8-bit home computer."
-      },
-      {
-        "label": "シャープ X1 シリーズ",
-        "label_en": "Sharp X1 series",
-        "startYear": 1982,
-        "genre": [
-          "COMPUTER",
-          "JAPAN"
-        ],
-        "imp": 4,
-        "url": "https://en.wikipedia.org/wiki/Sharp_X1",
-        "url_en": "https://en.wikipedia.org/wiki/Sharp_X1",
-        "note": "テレビチューナー統合モニタやPCGなどを備えたZ80系の国産ホームコンピュータ。",
-        "note_en": "Japanese Z80‑based home computer line with TV‑tuner monitors and programmable character graphics."
-      },
-      {
         "label": "MyOASYS2",
         "label_en": "My OASYS",
         "startYear": 1982,
@@ -1746,20 +1692,6 @@
         "note_en": "Lisa is a computer by アップルコンピュータ（現アップル）, widely used in its era."
       },
       {
-        "label": "Compaq Portable",
-        "label_en": "Compaq Portable",
-        "startYear": 1983,
-        "genre": [
-          "COMPUTER",
-          "MOBILE"
-        ],
-        "imp": 4,
-        "url": "https://en.wikipedia.org/wiki/Compaq_Portable",
-        "url_en": "https://en.wikipedia.org/wiki/Compaq_Portable",
-        "note": "IBM PC互換のラゲッジ型で、互換BIOSによりPC/AT互換機市場を切り開いた。",
-        "note_en": "Luggable IBM‑PC‑compatible with a clean‑room BIOS that opened the clone market."
-      },
-      {
         "label": "MyOASYS2",
         "startYear": 1983,
         "genre": [
@@ -1770,41 +1702,6 @@
         "url": "https://museum.ipsj.or.jp/computer/word/0003.html",
         "label_en": "MyOASYS2",
         "url_en": "https://museum.ipsj.or.jp/computer/word/0003.html"
-      },
-      {
-        "label": "Apple IIc",
-        "label_en": "Apple IIc",
-        "startYear": 1983,
-        "genre": [
-          "COMPUTER"
-        ],
-        "imp": 3,
-        "url": "https://ja.wikipedia.org/wiki/Apple_IIc",
-        "url_en": "https://en.wikipedia.org/wiki/Apple_IIc",
-        "note": "https://ja.wikipedia.org/wiki/Apple_IIc",
-        "note_en": "https://en.wikipedia.org/wiki/Apple_IIc"
-      },
-      {
-        "label": "HB-10",
-        "label_en": "HB-10",
-        "startYear": 1983,
-        "genre": [
-          "COMPUTER"
-        ],
-        "imp": 3,
-        "note": "HB-10はソニーのコンピュータで、当時の利用に広く用いられた。",
-        "note_en": "HB-10 is a computer by ソニー, widely used in its era."
-      },
-      {
-        "label": "YIS503",
-        "label_en": "YIS503",
-        "startYear": 1983,
-        "genre": [
-          "COMPUTER"
-        ],
-        "imp": 3,
-        "note": "YISは、1983年末〜1984年初にかけて、ヤマハが展開した教育・音楽志向のパソコンブランド。",
-        "note_en": "YIS503 is a computer by 日本楽器製造（ヤマハ）, widely used in its era."
       },
       {
         "label": "PF-300（電子手帳）",
@@ -1952,19 +1849,6 @@
         "url_en": "https://en.wikipedia.org/wiki/Apple_IIc",
         "note": "拡張スロットを省いた小型化モデルで、可搬性を高めた。",
         "note_en": "A compact Apple II model without slots that improved portability."
-      },
-      {
-        "label": "Macintosh",
-        "label_en": "Macintosh",
-        "startYear": 1984,
-        "genre": [
-          "COMPUTER"
-        ],
-        "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/Macintosh",
-        "url_en": "https://en.wikipedia.org/wiki/Macintosh",
-        "note": "GUIとマウス操作を一般層に普及。",
-        "note_en": "GUI-based PC that popularized the mouse for consumers."
       },
       {
         "label": "Psion Organiser",
@@ -3175,16 +3059,6 @@
         "note_en": "Japanese photo-sticker booths that became a social craze."
       },
       {
-        "label": "HP OmniGo 100",
-        "startYear": 1995,
-        "genre": [
-          "MOBILE"
-        ],
-        "imp": 3,
-        "url": "https://www.hpmuseum.net/display_item.php?hw=200",
-        "label_en": "HP OmniGo 100"
-      },
-      {
         "label": "OmniGo 100",
         "label_en": "HP OmniGo 100",
         "startYear": 1995,
@@ -3316,17 +3190,17 @@
         "note_en": "Popularized analog stick 3D control."
       },
       {
-        "label": "Motorola StarTAC",
+        "label": "StarTAC",
         "label_en": "Motorola StarTAC",
         "startYear": 1996,
         "genre": [
           "MOBILE"
         ],
-        "imp": 4,
+        "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/StarTAC",
         "url_en": "https://en.wikipedia.org/wiki/Motorola_StarTAC",
-        "note": "折りたたみ式携帯の象徴。",
-        "note_en": "An iconic flip mobile phone."
+        "note": "折りたたみ携帯の象徴。超小型で世界的ヒット。",
+        "note_en": "https://ja.wikipedia.org/wiki/StarTAC"
       },
       {
         "label": "たまごっち",
@@ -3434,19 +3308,6 @@
         "url_en": "https://en.wikipedia.org/wiki/Nokia_8110",
         "note": "カーブしたスライドカバーで“バナナフォン”と呼ばれた。",
         "note_en": "https://ja.wikipedia.org/wiki/Nokia_8110"
-      },
-      {
-        "label": "StarTAC",
-        "label_en": "Motorola StarTAC",
-        "startYear": 1996,
-        "genre": [
-          "MOBILE"
-        ],
-        "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/StarTAC",
-        "url_en": "https://en.wikipedia.org/wiki/Motorola_StarTAC",
-        "note": "折りたたみ携帯の象徴。超小型で世界的ヒット。",
-        "note_en": "https://ja.wikipedia.org/wiki/StarTAC"
       },
       {
         "label": "Nokia Communicator",
@@ -3757,7 +3618,7 @@
         "note_en": "https://ja.wikipedia.org/wiki/Visual_Memory"
       },
       {
-        "label": "Seiko Ruputer / onHand PC",
+        "label": "SEIKO Ruputer",
         "label_en": "Seiko Ruputer / onHand PC",
         "startYear": 1998,
         "genre": [
@@ -3827,20 +3688,6 @@
         "url_en": "https://en.wikipedia.org/wiki/Visual_Memory_Unit",
         "note": "液晶付きメモリーカードで単体ミニゲームも可能。",
         "note_en": "https://ja.wikipedia.org/wiki/Visual_Memory"
-      },
-      {
-        "label": "SEIKO Ruputer",
-        "label_en": "Seiko Ruputer / onHand PC",
-        "startYear": 1998,
-        "genre": [
-          "MOBILE",
-          "JAPAN"
-        ],
-        "imp": 3,
-        "url": "https://ja.wikipedia.org/wiki/Ruputer",
-        "url_en": "https://en.wikipedia.org/wiki/Ruputer",
-        "note": "腕時計型の手のひらPC。",
-        "note_en": "https://ja.wikipedia.org/wiki/Ruputer"
       },
       {
         "label": "ThinkPad 600",
@@ -4354,7 +4201,7 @@
         "note_en": "A quiet, compact cube desktop acclaimed for its industrial design."
       },
       {
-        "label": "SH-04",
+        "label": "J-SH04",
         "label_en": "J-SH04",
         "startYear": 2000,
         "genre": [
@@ -4364,7 +4211,7 @@
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/J-PHONE",
         "url_en": "https://en.wikipedia.org/wiki/J-SH04",
-        "note": "シャープのカメラ付携帯草創期モデル。モバイル撮影普及に貢献。",
+        "note": "シャープのカメラ付き携帯の初期代表。写メール普及に寄与。",
         "note_en": "https://ja.wikipedia.org/wiki/J-PHONE"
       },
       {
@@ -4407,20 +4254,6 @@
         "url_en": "https://en.wikipedia.org/wiki/Archos_Jukebox",
         "note": "HDD型携帯オーディオを普及させた初期モデルを展開。",
         "note_en": "https://ja.wikipedia.org/wiki/アルコス"
-      },
-      {
-        "label": "J-SH04",
-        "label_en": "J-SH04",
-        "startYear": 2000,
-        "genre": [
-          "MOBILE",
-          "JAPAN"
-        ],
-        "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/J-PHONE",
-        "url_en": "https://en.wikipedia.org/wiki/J-SH04",
-        "note": "シャープのカメラ付き携帯の初期代表。写メール普及に寄与。",
-        "note_en": "https://ja.wikipedia.org/wiki/J-PHONE"
       },
       {
         "label": "ASIMO",
@@ -5045,7 +4878,7 @@
         "note_en": "https://ja.wikipedia.org/wiki/GoPro"
       },
       {
-        "label": "AH-K3001V",
+        "label": "AH-K3001V (京ぽん)",
         "label_en": "AH-K3001V",
         "startYear": 2004,
         "genre": [
@@ -5056,7 +4889,7 @@
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/AH-K3001V",
         "url_en": "https://en.wikipedia.org/wiki/AH-K3001V",
-        "note": "ウィルコムのOpera搭載PHS端末。フルブラウズで話題に。",
+        "note": "Opera搭載でフルブラウズ可能なPHS端末。",
         "note_en": "https://ja.wikipedia.org/wiki/AH-K3001V"
       },
       {
@@ -5087,36 +4920,6 @@
         "url_en": "https://en.wikipedia.org/wiki/Smart_Personal_Objects_Technology",
         "note": "FM経由で情報配信する腕時計。",
         "note_en": "https://en.wikipedia.org/wiki/Smart_Personal_Objects_Technology"
-      },
-      {
-        "label": "おサイフケータイ (2004)",
-        "label_en": "Osaifu-Keitai (Mobile FeliCa)",
-        "startYear": 2004,
-        "genre": [
-          "MOBILE",
-          "COMM",
-          "JAPAN"
-        ],
-        "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/おサイフケータイ",
-        "url_en": "https://en.wikipedia.org/wiki/Mobile_FeliCa",
-        "note": "携帯に非接触決済/交通を統合。",
-        "note_en": "https://ja.wikipedia.org/wiki/おサイフケータイ"
-      },
-      {
-        "label": "AH-K3001V (京ぽん)",
-        "label_en": "AH-K3001V",
-        "startYear": 2004,
-        "genre": [
-          "MOBILE",
-          "COMM",
-          "JAPAN"
-        ],
-        "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/AH-K3001V",
-        "url_en": "https://en.wikipedia.org/wiki/AH-K3001V",
-        "note": "Opera搭載でフルブラウズ可能なPHS端末。",
-        "note_en": "https://ja.wikipedia.org/wiki/AH-K3001V"
       },
       {
         "label": "おサイフケータイ",
@@ -5723,7 +5526,7 @@
         "note_en": "https://ja.wikipedia.org/wiki/RICOH_GXR"
       },
       {
-        "label": "Novatel MiFi 2200 (2009)",
+        "label": "Novatel MiFi 2200",
         "label_en": "Novatel MiFi 2200",
         "startYear": 2009,
         "genre": [
@@ -5733,7 +5536,7 @@
         "imp": 4,
         "url": "https://en.wikipedia.org/wiki/MiFi",
         "url_en": "https://en.wikipedia.org/wiki/MiFi",
-        "note": "個人携行のモバイルWi-Fiルーターを一般化。",
+        "note": "“個人で持ち歩く基地局”を一般化したモバイルルーター。",
         "note_en": "https://en.wikipedia.org/wiki/MiFi"
       },
       {
@@ -5763,34 +5566,6 @@
         "url_en": "https://en.wikipedia.org/wiki/Fujifilm_FinePix_Real_3D_series",
         "note": "家庭用で“本格ステレオ写真＋裸眼3D表示”を実現したデジカメ。",
         "note_en": "https://ja.wikipedia.org/wiki/FinePix_REAL_3D"
-      },
-      {
-        "label": "Novatel MiFi 2200",
-        "label_en": "Novatel MiFi 2200",
-        "startYear": 2009,
-        "genre": [
-          "COMM",
-          "MOBILE"
-        ],
-        "imp": 4,
-        "url": "https://en.wikipedia.org/wiki/MiFi",
-        "url_en": "https://en.wikipedia.org/wiki/MiFi",
-        "note": "“個人で持ち歩く基地局”を一般化したモバイルルーター。",
-        "note_en": "https://en.wikipedia.org/wiki/MiFi"
-      },
-      {
-        "label": "Novatel MiFi 2200",
-        "label_en": "Novatel MiFi 2200",
-        "startYear": 2009,
-        "genre": [
-          "COMM",
-          "MOBILE"
-        ],
-        "imp": 4,
-        "url": "https://en.wikipedia.org/wiki/MiFi",
-        "url_en": "https://en.wikipedia.org/wiki/MiFi",
-        "note": "“個人で持ち歩く基地局”を一般化したモバイルルーター。",
-        "note_en": "https://en.wikipedia.org/wiki/MiFi"
       }
     ],
     "2010": [
@@ -6667,20 +6442,6 @@
     ],
     "2016": [
       {
-        "label": "Nintendo Switch",
-        "label_en": "Nintendo Switch",
-        "startYear": 2016,
-        "genre": [
-          "GAME",
-          "JAPAN"
-        ],
-        "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/Nintendo_Switch",
-        "url_en": "https://en.wikipedia.org/wiki/Nintendo_Switch",
-        "note": "据置と携帯を兼ねるハイブリッド。",
-        "note_en": "Hybrid console bridging handheld and home play."
-      },
-      {
         "label": "ESP32",
         "label_en": "ESP32",
         "startYear": 2016,
@@ -6847,7 +6608,7 @@
         "note_en": "https://ja.wikipedia.org/wiki/Google_Nest"
       },
       {
-        "label": "Lenovo Phab2 Pro(Project Tango)",
+        "label": "Lenovo Phab2 Pro (Project Tango)",
         "label_en": "Lenovo Phab 2 Pro",
         "startYear": 2016,
         "genre": [
@@ -6875,19 +6636,6 @@
         "note_en": "https://ja.wikipedia.org/wiki/Gatebox"
       },
       {
-        "label": "Lenovo Phab2 Pro (Project Tango)",
-        "label_en": "Lenovo Phab 2 Pro",
-        "startYear": 2016,
-        "genre": [
-          "MOBILE"
-        ],
-        "imp": 3,
-        "url": "https://ja.wikipedia.org/wiki/Project_Tango",
-        "url_en": "https://en.wikipedia.org/wiki/Lenovo_Phab_2_Pro",
-        "note": "https://ja.wikipedia.org/wiki/Project_Tango",
-        "note_en": "https://en.wikipedia.org/wiki/Lenovo_Phab_2_Pro"
-      },
-      {
         "label": "Ozobot Evo",
         "label_en": "Ozobot Evo",
         "startYear": 2016,
@@ -6900,48 +6648,6 @@
         "url_en": "https://ozobot.com/",
         "note": "線や色コードで動作を学べる小型ロボ。",
         "note_en": "https://ozobot.com/"
-      },
-      {
-        "label": "Nintendo Switch",
-        "label_en": "Nintendo Switch",
-        "startYear": 2016,
-        "genre": [
-          "GAME",
-          "JAPAN"
-        ],
-        "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/Nintendo_Switch",
-        "url_en": "https://en.wikipedia.org/wiki/Nintendo_Switch",
-        "note": "据置と携帯を兼ねるハイブリッド。",
-        "note_en": "Hybrid console bridging handheld and home play."
-      },
-      {
-        "label": "Nintendo Switch",
-        "label_en": "Nintendo Switch",
-        "startYear": 2016,
-        "genre": [
-          "GAME",
-          "JAPAN"
-        ],
-        "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/Nintendo_Switch",
-        "url_en": "https://en.wikipedia.org/wiki/Nintendo_Switch",
-        "note": "据置と携帯を兼ねるハイブリッド。",
-        "note_en": "Hybrid console bridging handheld and home play."
-      },
-      {
-        "label": "Nintendo Switch",
-        "label_en": "Nintendo Switch",
-        "startYear": 2016,
-        "genre": [
-          "GAME",
-          "JAPAN"
-        ],
-        "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/Nintendo_Switch",
-        "url_en": "https://en.wikipedia.org/wiki/Nintendo_Switch",
-        "note": "据置と携帯を兼ねるハイブリッド。",
-        "note_en": "Hybrid console bridging handheld and home play."
       }
     ],
     "2017": [
