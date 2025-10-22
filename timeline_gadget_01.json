@@ -43,8 +43,8 @@
           "COMPUTER"
         ],
         "imp": 3,
-        "url": "https://en.wikipedia.org/wiki/Monroe_calculating_machine",
-        "url_en": "https://en.wikipedia.org/wiki/Monroe_calculating_machine",
+        "url": "https://ja.wikipedia.org/wiki/%E3%83%A2%E3%83%B3%E3%83%AD%E3%83%BC%E8%A8%88%E7%AE%97%E6%A9%9F",
+        "url_en": "https://en.wikipedia.org/wiki/Monroe_Systems_for_Business",
         "note": "モンロー社の機械式卓上計算機で、商用計算に広く用いられた。",
         "note_en": "A mechanical desktop calculator by Monroe widely used in business."
       }
@@ -89,8 +89,8 @@
           "INPUT"
         ],
         "imp": 3,
-        "url": "https://ja.wikipedia.org/wiki/ラベルライター",
-        "url_en": "https://en.wikipedia.org/wiki/DYMO",
+        "url": "https://ja.wikipedia.org/wiki/%E3%83%80%E3%82%A4%E3%83%A2",
+        "url_en": "https://en.wikipedia.org/wiki/Dymo_Corporation",
         "note": "エンボス式を含むラベルメーカーの代名詞的ブランド。",
         "note_en": "https://ja.wikipedia.org/wiki/ラベルライター"
       }
@@ -650,7 +650,7 @@
         ],
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/VHS",
-        "url_en": "https://en.wikipedia.org/wiki/Video_Home_System",
+        "url_en": "https://en.wikipedia.org/wiki/VHS",
         "note": "家庭用ビデオの世界標準となった規格。",
         "note_en": "The videotape format that became the global home standard."
       },
@@ -920,7 +920,7 @@
         ],
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/ウォークマン",
-        "url_en": "https://en.wikipedia.org/wiki/Walkman",
+        "url_en": "https://en.wikipedia.org/wiki/Sony_Walkman_TPS-L2",
         "note": "携帯音楽プレーヤーの代名詞となった初代機。",
         "note_en": "The portable cassette player that defined on-the-go music."
       },
@@ -947,7 +947,7 @@
         ],
         "imp": 4,
         "url": "https://en.wikipedia.org/wiki/PC-8000_series",
-        "url_en": "https://en.wikipedia.org/wiki/PC-8000_series",
+        "url_en": "https://en.wikipedia.org/wiki/NEC_PC-8001",
         "note": "NECの8ビット機で、日本のパソコン市場形成とホビイスト文化の拡大に寄与した。",
         "note_en": "NEC’s 8‑bit micro that helped shape Japan’s PC market and hobbyist culture."
       },
@@ -1243,7 +1243,7 @@
         ],
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/PC-9801",
-        "url_en": "https://en.wikipedia.org/wiki/PC-9800_series",
+        "url_en": "https://en.wikipedia.org/wiki/NEC_PC-9801",
         "note": "日本市場で圧倒的シェアを誇ったPCシリーズ。",
         "note_en": "A dominant Japanese PC line of the 1980s–90s."
       },
@@ -2095,7 +2095,7 @@
         ],
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/ディスクシステム",
-        "url_en": "https://en.wikipedia.org/wiki/Famicom_Disk_System",
+        "url_en": "https://en.wikipedia.org/wiki/Family_Computer_Disk_System",
         "note": "書換式ディスクで家庭用に大容量導入。",
         "note_en": "https://ja.wikipedia.org/wiki/ディスクシステム"
       },
@@ -3955,7 +3955,7 @@
         ],
         "imp": 3,
         "url": "https://en.wikipedia.org/wiki/IZEK_sewing_machine",
-        "url_en": "https://en.wikipedia.org/wiki/IZEK_sewing_machine",
+        "url_en": "https://en.wikipedia.org/wiki/Game_Boy",
         "note": "GBで模様選択するミシン。",
         "note_en": "https://en.wikipedia.org/wiki/IZEK_sewing_machine"
       },
@@ -5231,7 +5231,7 @@
         ],
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/App_Store",
-        "url_en": "https://en.wikipedia.org/wiki/App_Store_(iOS)",
+        "url_en": "https://en.wikipedia.org/wiki/IPhone",
         "note": "モバイルアプリ配信のエコシステム確立。",
         "note_en": "Established the modern mobile app ecosystem."
       },
@@ -6580,7 +6580,7 @@
         ],
         "imp": 2,
         "url": "https://ja.wikipedia.org/wiki/Nintendo_Classic_Mini",
-        "url_en": "https://en.wikipedia.org/wiki/Nintendo_Classic_Mini",
+        "url_en": "https://en.wikipedia.org/wiki/Super_Nintendo_Entertainment_System",
         "note": "往年機のミニ復刻。レトロブーム加速。",
         "note_en": "Mini re-releases fueling retro nostalgia."
       },
