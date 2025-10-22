@@ -5526,20 +5526,6 @@
         "note_en": "https://ja.wikipedia.org/wiki/RICOH_GXR"
       },
       {
-        "label": "Novatel MiFi 2200",
-        "label_en": "Novatel MiFi 2200",
-        "startYear": 2009,
-        "genre": [
-          "COMM",
-          "MOBILE"
-        ],
-        "imp": 4,
-        "url": "https://en.wikipedia.org/wiki/MiFi",
-        "url_en": "https://en.wikipedia.org/wiki/MiFi",
-        "note": "“個人で持ち歩く基地局”を一般化したモバイルルーター。",
-        "note_en": "https://en.wikipedia.org/wiki/MiFi"
-      },
-      {
         "label": "FINEPIX REAL 3D W1",
         "label_en": "FINEPIX REAL 3D W1",
         "startYear": 2009,
