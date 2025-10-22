@@ -946,7 +946,7 @@
           "JAPAN"
         ],
         "imp": 4,
-        "url": "https://en.wikipedia.org/wiki/PC-8000_series",
+        "url": "https://ja.wikipedia.org/wiki/PC-8001",
         "url_en": "https://en.wikipedia.org/wiki/NEC_PC-8001",
         "note": "NECの8ビット機で、日本のパソコン市場形成とホビイスト文化の拡大に寄与した。",
         "note_en": "NEC’s 8‑bit micro that helped shape Japan’s PC market and hobbyist culture."
@@ -1043,7 +1043,7 @@
           "JAPAN"
         ],
         "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/Game_%26_Watch",
+        "url": "https://ja.wikipedia.org/wiki/ゲーム&ウオッチ",
         "url_en": "https://www.nintendo.com/en-gb/Hardware/Nintendo-History/Nintendo-History-625945.html",
         "note": "任天堂の携帯型LCDゲームシリーズ。携帯ゲームの基礎を築いた。",
         "note_en": "https://ja.wikipedia.org/wiki/Game_%26_Watch"
@@ -2094,7 +2094,7 @@
           "JAPAN"
         ],
         "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/ディスクシステム",
+        "url": "https://ja.wikipedia.org/wiki/ファミリーコンピュータ_ディスクシステム",
         "url_en": "https://en.wikipedia.org/wiki/Family_Computer_Disk_System",
         "note": "書換式ディスクで家庭用に大容量導入。",
         "note_en": "https://ja.wikipedia.org/wiki/ディスクシステム"
@@ -3545,7 +3545,7 @@
           "PERIPHERAL"
         ],
         "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/Visual_Memory",
+        "url": "https://ja.wikipedia.org/wiki/ビジュアルメモリ",
         "url_en": "https://en.wikipedia.org/wiki/Visual_Memory_Unit",
         "note": "液晶付きメモリーカード。単体ゲームも可能。",
         "note_en": "https://ja.wikipedia.org/wiki/Visual_Memory"
@@ -3617,7 +3617,7 @@
           "JAPAN"
         ],
         "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/Visual_Memory",
+        "url": "https://ja.wikipedia.org/wiki/ビジュアルメモリ",
         "url_en": "https://en.wikipedia.org/wiki/Visual_Memory_Unit",
         "note": "液晶付きメモリーカードで単体ミニゲームも可能。",
         "note_en": "https://ja.wikipedia.org/wiki/Visual_Memory"
@@ -4451,7 +4451,7 @@
           "JAPAN"
         ],
         "imp": 3,
-        "url": "https://ja.wikipedia.org/wiki/カードeリーダー",
+        "url": "https://ja.wikipedia.org/wiki/カードe",
         "url_en": "https://en.wikipedia.org/wiki/Nintendo_e-Reader",
         "note": "点コード付きカードをスキャンしてソフト等を展開。",
         "note_en": "https://ja.wikipedia.org/wiki/カードeリーダー"
