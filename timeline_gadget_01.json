@@ -540,30 +540,30 @@
       },
       {
         "label": "CRACKLEBOX",
-        "label_en": "Cracklebox",
         "startYear": 1974,
         "genre": [
-          "AUDIO_VIDEO",
-          "INPUT"
+          "INPUT",
+          "AUDIO_VIDEO"
         ],
         "imp": 3,
-        "url": "https://ja.wikipedia.org/wiki/シュテフィン・パイペル",
-        "url_en": "https://en.wikipedia.org/wiki/Cracklebox",
+        "url": "https://en.wikipedia.org/wiki/Cracklebox",
         "note": "触れることで音を出す実験的電子楽器。即興演奏で評価。",
+        "label_en": "Cracklebox",
+        "url_en": "https://en.wikipedia.org/wiki/Cracklebox",
         "note_en": "https://ja.wikipedia.org/wiki/シュテフィン・パイペル"
       },
       {
         "label": "CASIOTRON",
-        "label_en": "CASIOTRON",
         "startYear": 1974,
         "genre": [
           "AUDIO_VIDEO",
           "JAPAN"
         ],
         "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/CASIOTRON",
-        "url_en": "https://en.wikipedia.org/wiki/Casiotron",
+        "url": "https://shmj.or.jp/museum2010/exhibi231.html",
         "note": "カシオ初のデジタル腕時計シリーズ。",
+        "label_en": "CASIOTRON",
+        "url_en": "https://shmj.or.jp/museum2010/exhibi231.html",
         "note_en": "https://ja.wikipedia.org/wiki/CASIOTRON"
       }
     ],
