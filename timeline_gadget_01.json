@@ -116,8 +116,8 @@
           "WEARABLE"
         ],
         "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/ブローバ",
-        "url_en": "https://en.wikipedia.org/wiki/Accutron",
+        "url": "https://ja.wikipedia.org/wiki/%E3%83%96%E3%83%AD%E3%83%BC%E3%83%90",
+        "url_en": "https://au.bulova.com/pages/bulova-accutron-history",
         "note": "音叉式ムーブメント採用の高精度腕時計。電子時計時代の先駆け。",
         "note_en": "A tuning fork watch noted for accuracy, ushering electronic timepieces."
       },
@@ -278,7 +278,7 @@
         "url": "https://museum.ipsj.or.jp/computer/mini/0001.html",
         "note": "日立製作所の研究・業務向けミニコンで、テレタイプ端末を主要I/Oとした。",
         "label_en": "HITAC 10 minicomputer",
-        "url_en": "https://en.wikipedia.org/wiki/Hitachi",
+        "url_en": "https://museum.ipsj.or.jp/en/computer/mini/0001.html",
         "note_en": "A Hitachi minicomputer for labs and offices that used a teletype as primary I/O."
       }
     ],
@@ -334,7 +334,7 @@
           "MEDIA"
         ],
         "imp": 5,
-        "url": "https://en.wikipedia.org/wiki/Floppy_disk",
+        "url": "https://ja.wikipedia.org/wiki/%E3%83%95%E3%83%AD%E3%83%83%E3%83%94%E3%83%BC%E3%83%87%E3%82%A3%E3%82%B9%E3%82%AF",
         "url_en": "https://en.wikipedia.org/wiki/Floppy_disk",
         "note": "IBMが1971年に導入した柔軟な磁気ディスクで、可搬データ媒体の標準となった。",
         "note_en": "IBM’s 1971 removable magnetic disk medium that became the standard for portable data storage."
@@ -403,7 +403,8 @@
         "url": "https://ja.wikipedia.org/wiki/%E3%82%AB%E3%82%B7%E3%82%AA%E3%83%9F%E3%83%8B",
         "note": "低価格で電卓を大衆化したカシオのヒット機。",
         "label_en": "CASIO mini",
-        "note_en": "https://ja.wikipedia.org/wiki/CASIO_mini"
+        "note_en": "https://ja.wikipedia.org/wiki/CASIO_mini",
+        "url_en": "https://www.casio-calculator.com/Museum/ByCategory/ByCategoryMini.html"
       },
       {
         "label": "PONG",
@@ -439,7 +440,7 @@
         ],
         "imp": 4,
         "url": "https://en.wikipedia.org/wiki/Pulsar_(brand)",
-        "url_en": "https://en.wikipedia.org/wiki/Pulsar_(brand)",
+        "url_en": "https://www.hamiltonwatch.com/en-us/h52414130-american-classic-psr-digital-quartz.html",
         "note": "LED表示の初期デジタル腕時計。",
         "note_en": "https://en.wikipedia.org/wiki/Pulsar_%28brand%29"
       }
@@ -468,7 +469,7 @@
         ],
         "imp": 3,
         "url": "https://ja.wikipedia.org/wiki/セイコー",
-        "url_en": "https://en.wikipedia.org/wiki/Digital_watch",
+        "url_en": "https://corporate.epson/en/about/history/milestone-products/1973-10-06lc.html",
         "note": "初期LCDデジタル表示の腕時計。",
         "note_en": "https://ja.wikipedia.org/wiki/セイコー"
       }
@@ -563,7 +564,7 @@
           "INPUT"
         ],
         "imp": 3,
-        "url": "https://ja.wikipedia.org/wiki/ユタ・ティーポット",
+        "url": "https://ja.wikipedia.org/wiki/%E3%83%A6%E3%82%BF%E3%83%BB%E3%83%86%E3%82%A3%E3%83%BC%E3%83%9D%E3%83%83%E3%83%88",
         "url_en": "https://en.wikipedia.org/wiki/Utah_teapot",
         "note": "CG研究で標準的に使われた3Dモデル。",
         "note_en": "A standard 3D test model in computer graphics."
@@ -620,7 +621,7 @@
         ],
         "imp": 3,
         "url": "https://en.wikipedia.org/wiki/Digital_watch",
-        "url_en": "https://en.wikipedia.org/wiki/Digital_watch",
+        "url_en": "https://www.seiko-design.com/140th/en/topic/42.html",
         "note": "デジタル腕時計初期のクロノグラフ搭載機。",
         "note_en": "https://en.wikipedia.org/wiki/Digital_watch"
       }
@@ -961,7 +962,7 @@
         "url": "https://by.seiko-design.com/140th/topic/48.html",
         "note": "多機能メモリ/カレンダー系の初期デジタル腕時計。",
         "label_en": "Seiko C359",
-        "url_en": "https://www.digital-watch.com/DWL/1work/seiko-c359",
+        "url_en": "https://by.seiko-design.com/en/museum-en/vol2-en/",
         "note_en": "https://www.digital-watch.com/DWL/1work/seiko-c359"
       },
       {
@@ -1043,7 +1044,7 @@
         ],
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/Game_%26_Watch",
-        "url_en": "https://en.wikipedia.org/wiki/Game_%26_Watch",
+        "url_en": "https://www.nintendo.com/en-gb/Hardware/Nintendo-History/Nintendo-History-625945.html",
         "note": "任天堂の携帯型LCDゲームシリーズ。携帯ゲームの基礎を築いた。",
         "note_en": "https://ja.wikipedia.org/wiki/Game_%26_Watch"
       },
@@ -2541,7 +2542,7 @@
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/腕時計型PHS#歴史",
-        "url_en": "https://en.wikipedia.org/wiki/Wearable_computer",
+        "url_en": "https://by.seiko-design.com/en/museum-en/vol2-en/",
         "note": "FM電波を使う腕時計型ポケベル。",
         "note_en": "https://ja.wikipedia.org/wiki/腕時計型PHS#歴史"
       },
@@ -4849,7 +4850,7 @@
         ],
         "imp": 3,
         "url": "https://en.wikipedia.org/wiki/Smart_Personal_Objects_Technology",
-        "url_en": "https://en.wikipedia.org/wiki/Smart_Personal_Objects_Technology",
+        "url_en": "https://news.microsoft.com/source/2003/01/09/microsoft-presents-smart-personal-objects-technology-spot-based-wristwatches-at-ces/",
         "note": "FM経由で情報配信する腕時計。",
         "note_en": "https://en.wikipedia.org/wiki/Smart_Personal_Objects_Technology"
       },
@@ -5821,7 +5822,7 @@
         ],
         "imp": 3,
         "url": "https://ja.wikipedia.org/wiki/スマートウォッチ",
-        "url_en": "https://en.wikipedia.org/wiki/Sony_SmartWatch",
+        "url_en": "https://www.sony.com/electronics/support/other-products-xperia-smart-devices/sw2/software/00279756",
         "note": "Android連携の初期スマートウォッチ。",
         "note_en": "https://ja.wikipedia.org/wiki/スマートウォッチ"
       },
@@ -5891,7 +5892,7 @@
         ],
         "imp": 3,
         "url": "https://ja.wikipedia.org/wiki/G-SHOCK",
-        "url_en": "https://en.wikipedia.org/wiki/G-Shock",
+        "url_en": "https://gshock.casio.com/us/identity/",
         "note": "Bluetoothで通知/音楽操作を実装した初期連携モデル群。",
         "note_en": "https://ja.wikipedia.org/wiki/G-SHOCK"
       }
@@ -6216,7 +6217,7 @@
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/Apple_Watch",
-        "url_en": "https://en.wikipedia.org/wiki/Apple_Watch",
+        "url_en": "https://www.apple.com/watch/",
         "note": "Appleのスマートウォッチ。健康・通知機能。",
         "note_en": "Apple’s smartwatch with health and notifications."
       },
