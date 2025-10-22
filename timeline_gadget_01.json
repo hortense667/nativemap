@@ -1311,7 +1311,6 @@
       },
       {
         "label": "Epson HX-20（HC-20）",
-        "label_en": "Epson HX-20 / HC-20",
         "startYear": 1982,
         "genre": [
           "COMPUTER",
@@ -1319,83 +1318,62 @@
           "JAPAN"
         ],
         "imp": 4,
-        "url": "https://en.wikipedia.org/wiki/Epson_HX-20",
-        "url_en": "https://en.wikipedia.org/wiki/Epson_HX-20",
+        "url": "https://ja.wikipedia.org/wiki/HC-20",
         "note": "A4サイズの初期ノート型PCで、内蔵LCDとプリンタを備え携帯計算機の先駆けとなった。",
+        "label_en": "Epson HX-20 / HC-20",
+        "url_en": "https://en.wikipedia.org/wiki/Epson_HX-20",
         "note_en": "\"A4‑footprint early notebook with LCD and built‑in printer"
       },
       {
-        "label": "シャープ X1 シリーズ",
-        "label_en": "Sharp X1 series",
-        "startYear": 1982,
-        "genre": [
-          "COMPUTER",
-          "JAPAN"
-        ],
-        "imp": 4,
-        "url": "https://en.wikipedia.org/wiki/Sharp_X1",
-        "url_en": "https://en.wikipedia.org/wiki/Sharp_X1",
-        "note": "テレビチューナー統合モニタやPCGなどを備えたZ80系の国産ホームコンピュータ。",
-        "note_en": "Japanese Z80‑based home computer line with TV‑tuner monitors and programmable character graphics."
-      },
-      {
         "label": "ぴゅう太 TP1000",
-        "label_en": "ぴゅう太 TP1000",
         "startYear": 1982,
         "genre": [
           "COMPUTER"
         ],
         "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/%E3%81%B4%E3%82%85%E3%81%86%E5%A4%AA",
         "note": "ぴゅう太 TP1000はトミーのコンピュータで、当時の利用に広く用いられた。",
+        "label_en": "ぴゅう太 TP1000",
+        "url_en": "https://en.wikipedia.org/wiki/Tomy_Tutor",
         "note_en": "ぴゅう太 TP1000 is a computer by トミー, widely used in its era."
       },
       {
         "label": "M5",
-        "label_en": "Sord M5",
         "startYear": 1982,
         "genre": [
           "COMPUTER"
         ],
         "imp": 3,
-        "url": "https://en.wikipedia.org/wiki/Sord_M5",
-        "url_en": "https://en.wikipedia.org/wiki/Sord_M5",
+        "url": "https://ja.wikipedia.org/wiki/M5_(%E3%82%B3%E3%83%B3%E3%83%94%E3%83%A5%E3%83%BC%E3%82%BF)",
         "note": "ソードの8ビットホーム機で、玩具店ルートでも販売された。",
+        "label_en": "Sord M5",
+        "url_en": "https://en.wikipedia.org/wiki/Sord_M5",
         "note_en": "Sord’s 8‑bit home computer that was also sold through toy retailers."
       },
       {
-        "label": "『こんにちはマイコン』",
-        "label_en": "Hello Microcomputer (book)",
-        "startYear": 1982,
-        "genre": [
-          "COMPUTER"
-        ],
-        "imp": 3,
-        "note": "児童向けにマイコンの仕組みと楽しさを解説した入門書。",
-        "note_en": "An introductory children’s book explaining how microcomputers work and why they’re fun."
-      },
-      {
         "label": "X1（初代）",
-        "label_en": "X1（初代）",
         "startYear": 1982,
         "genre": [
           "COMPUTER",
           "GAME"
         ],
         "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/X1_(%E3%82%B3%E3%83%B3%E3%83%94%E3%83%A5%E3%83%BC%E3%82%BF)",
         "note": "X1（初代）はシャープのゲーム関連機器で、当時の利用に広く用いられた。",
+        "label_en": "X1（初代）",
         "note_en": "X1（初代） is a game hardware/content by シャープ, widely used in its era."
       },
       {
         "label": "Microsoft Multiplan",
-        "label_en": "Microsoft Multiplan",
         "startYear": 1982,
         "genre": [
           "COMPUTER"
         ],
         "imp": 3,
-        "url": "https://en.wikipedia.org/wiki/Multiplan",
-        "url_en": "https://en.wikipedia.org/wiki/Multiplan",
+        "url": "https://ja.wikipedia.org/wiki/Microsoft_Multiplan",
         "note": "初期の表計算ソフトで、CP/MやMS-DOS上で利用された。",
+        "label_en": "Microsoft Multiplan",
+        "url_en": "https://en.wikipedia.org/wiki/Multiplan",
         "note_en": "An early spreadsheet program available on CP/M and MS‑DOS."
       },
       {
@@ -1448,11 +1426,24 @@
           "CAMERA"
         ],
         "imp": 3,
-        "url": "https://ja.wikipedia.org/wiki/コダック・ディスク",
+        "url": "https://ja.wikipedia.org/wiki/%E3%83%87%E3%82%A3%E3%82%B9%E3%82%AF%E3%82%AB%E3%83%A1%E3%83%A9",
         "note": "円盤フィルムを使う簡便カメラの規格。",
         "label_en": "Kodak Disc camera",
         "url_en": "https://en.wikipedia.org/wiki/Disc_film",
         "note_en": "https://ja.wikipedia.org/wiki/コダック・ディスク"
+      },
+      {
+        "label": "『こんにちはマイコン』",
+        "startYear": 1982,
+        "genre": [
+          "MAKER",
+          "JAPAN"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/%E3%81%93%E3%82%93%E3%81%AB%E3%81%A1%E3%81%AF%E3%83%9E%E3%82%A4%E3%82%B3%E3%83%B3",
+        "note": "児童向けにマイコンの仕組みと楽しさを解説した入門書。",
+        "label_en": "Hello Microcomputer (book)",
+        "note_en": "An introductory children’s book explaining how microcomputers work and why they’re fun."
       }
     ],
     "1983": [
