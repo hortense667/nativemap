@@ -2089,20 +2089,6 @@
         "url_en": "https://en.wikipedia.org/wiki/OASYS_30AF"
       },
       {
-        "label": "OASYS 30AF",
-        "label_en": "OASYS 30AF",
-        "startYear": 1986,
-        "genre": [
-          "COMPUTER",
-          "INPUT"
-        ],
-        "imp": 4,
-        "url": "https://museum.ipsj.or.jp/computer/word/0009.html",
-        "url_en": "https://en.wikipedia.org/wiki/OASYS",
-        "note": "フル画面液晶や通信機能を備えたパーソナルワープロ上位機。",
-        "note_en": "https://museum.ipsj.or.jp/computer/word/0009.html"
-      },
-      {
         "label": "Laser 128",
         "label_en": "Laser 128",
         "startYear": 1986,
@@ -2179,15 +2165,16 @@
         "label": "X68000",
         "label_en": "Sharp X68000",
         "startYear": 1987,
+        "endYear": 1993,
         "genre": [
           "COMPUTER",
           "JAPAN"
         ],
         "imp": 5,
-        "url": "https://en.wikipedia.org/wiki/X68000",
+        "url": "https://ja.wikipedia.org/wiki/X68000",
         "url_en": "https://en.wikipedia.org/wiki/X68000",
-        "note": "高性能グラフィックと音源を備えた国産16ビット機で、移植度の高いゲームで人気を博した。",
-        "note_en": "A Japanese 16‑bit micro with advanced graphics/sound, famed for high‑quality arcade ports."
+        "note": "高性能なホビーパソコン。縦型筐体と高精細表示で人気。",
+        "note_en": "https://ja.wikipedia.org/wiki/X68000"
       },
       {
         "label": "PA-7000",
@@ -2230,21 +2217,6 @@
         "url_en": "https://en.wikipedia.org/wiki/Electronic_Wind_Instrument",
         "note": "アカイの初期電子管楽器。EWI-2000音源と組で使用。",
         "note_en": "https://ja.wikipedia.org/wiki/AKAI"
-      },
-      {
-        "label": "X68000",
-        "label_en": "Sharp X68000",
-        "startYear": 1987,
-        "endYear": 1993,
-        "genre": [
-          "COMPUTER",
-          "JAPAN"
-        ],
-        "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/X68000",
-        "url_en": "https://en.wikipedia.org/wiki/X68000",
-        "note": "高性能なホビーパソコン。縦型筐体と高精細表示で人気。",
-        "note_en": "https://ja.wikipedia.org/wiki/X68000"
       }
     ],
     "1988": [
@@ -3588,7 +3560,7 @@
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/Dreamcast",
         "url_en": "https://en.wikipedia.org/wiki/Dreamcast",
-        "note": "液晶付きメモリーカード。単体ゲームも可能。",
+        "note": "液晶付きメモリーカードで単体ミニゲームも可能。",
         "note_en": "https://ja.wikipedia.org/wiki/Visual_Memory"
       },
       {
@@ -3644,20 +3616,6 @@
         "url_en": "https://en.wikipedia.org/wiki/Dance_Dance_Revolution",
         "note": "足踏み操作の家庭用ダンスマット。",
         "note_en": "https://ja.wikipedia.org/wiki/Dance_Dance_Revolution"
-      },
-      {
-        "label": "Dreamcast VMU",
-        "label_en": "Dreamcast VMU",
-        "startYear": 1998,
-        "genre": [
-          "GAME",
-          "PERIPHERAL"
-        ],
-        "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/Dreamcast",
-        "url_en": "https://en.wikipedia.org/wiki/Dreamcast",
-        "note": "液晶付きメモリーカードで単体ミニゲームも可能。",
-        "note_en": "https://ja.wikipedia.org/wiki/Visual_Memory"
       },
       {
         "label": "ThinkPad 600",
