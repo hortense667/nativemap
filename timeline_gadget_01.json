@@ -386,7 +386,7 @@
           "GAME"
         ],
         "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/Pong",
+        "url": "https://ja.wikipedia.org/wiki/%E3%83%9D%E3%83%B3_(%E3%82%B2%E3%83%BC%E3%83%A0)",
         "note": "最初期のアーケードヒット。家庭用TVゲームの端緒となった。",
         "label_en": "PONG",
         "note_en": "https://ja.wikipedia.org/wiki/PONG",
@@ -1346,7 +1346,7 @@
         "note": "X1（初代）はシャープのゲーム関連機器で、当時の利用に広く用いられた。",
         "label_en": "X1（初代）",
         "note_en": "X1（初代） is a game hardware/content by シャープ, widely used in its era.",
-        "url_en": "https://en.wikipedia.org/wiki/X1%E5%88%9D%E4%BB%A3"
+        "url_en": "https://en.wikipedia.org/wiki/Sharp_X1"
       },
       {
         "label": "Microsoft Multiplan",
@@ -1542,20 +1542,6 @@
         "url_en": "https://ja.wikipedia.org/wiki/SMC-777"
       },
       {
-        "label": "CF-2000",
-        "startYear": 1983,
-        "genre": [
-          "COMPUTER",
-          "JAPAN"
-        ],
-        "imp": 3,
-        "url": "https://ja.wikipedia.org/wiki/MSX",
-        "note": "松下の初期MSX機で、国内MSX普及に寄与した。",
-        "label_en": "Panasonic CF-2000 (MSX)",
-        "note_en": "An early Panasonic MSX model that helped spread MSX in Japan.",
-        "url_en": "https://en.wikipedia.org/wiki/MSX"
-      },
-      {
         "label": "IBM PC XT (5160)",
         "startYear": 1983,
         "genre": [
@@ -1708,9 +1694,10 @@
           "JAPAN"
         ],
         "imp": 3,
-        "note": "YK-01は日本楽器製造（ヤマハ）のコンピュータで、当時の利用に広く用いられた。",
+        "note": "YK-01は日本楽器製造（ヤマハ）のコンピューター用キーボード。",
         "label_en": "YK-01",
-        "note_en": "YK-01 is a computer by 日本楽器製造（ヤマハ）, widely used in its era."
+        "note_en": "The YK-01 is a computer keyboard by Nippon Gakki (Yamaha).",
+        "url_en": "https://www.msx.org/wiki/Yamaha_YK-01"
       },
       {
         "label": "UC-2000",
@@ -1723,7 +1710,8 @@
         "imp": 3,
         "note": "UC-2000は服部セイコー、セイコー電子工業の携帯型コンピュータで、当時の利用に広く用いられた。",
         "label_en": "UC-2000",
-        "note_en": "UC-2000 is a portable computer by 服部セイコー、セイコー電子工業, widely used in its era."
+        "note_en": "UC-2000 is a portable computer by 服部セイコー、セイコー電子工業, widely used in its era.",
+        "url": "https://by.seiko-design.com/tag/uc-2000/"
       },
       {
         "label": "Apple IIc",
@@ -1870,11 +1858,10 @@
           "JAPAN"
         ],
         "imp": 3,
-        "url": "https://en.wikipedia.org/wiki/FM-7_series",
+        "url": "https://museum.ipsj.or.jp/computer/personal/0017.html",
         "note": "高機能AVを特徴としたFM-7系の上位モデル。",
         "label_en": "Fujitsu FM-77AV",
-        "note_en": "An advanced FM‑7 series model featuring strong audio‑visual capabilities.",
-        "url_en": "https://en.wikipedia.org/wiki/FM-7_series"
+        "note_en": "An advanced FM‑7 series model featuring strong audio‑visual capabilities."
       },
       {
         "label": "一太郎",
@@ -1923,28 +1910,13 @@
           "MOBILE"
         ],
         "imp": 3,
-        "url": "https://ja.wikipedia.org/wiki/スマートウォッチ",
+        "url": "https://ascii.jp/elem/000/004/087/4087841/",
         "note": "エプソンの腕コンピュータ。タッチ操作対応の先駆。",
         "label_en": "Epson RC-20 Wrist Computer",
-        "note_en": "https://ja.wikipedia.org/wiki/スマートウォッチ",
-        "url_en": "https://en.wikipedia.org/wiki/Wearable_computer"
+        "note_en": "https://ja.wikipedia.org/wiki/スマートウォッチ"
       }
     ],
     "1986": [
-      {
-        "label": "MSX HB-F1XD",
-        "startYear": 1986,
-        "genre": [
-          "COMPUTER",
-          "JAPAN"
-        ],
-        "imp": 3,
-        "url": "https://ja.wikipedia.org/wiki/MSX",
-        "note": "MSX2世代のソニー機。",
-        "label_en": "MSX HB-F1XD",
-        "note_en": "A Sony model of the MSX2 standard.",
-        "url_en": "https://en.wikipedia.org/wiki/MSX"
-      },
       {
         "label": "X1turboZ",
         "startYear": 1986,
@@ -1968,11 +1940,11 @@
           "JAPAN"
         ],
         "imp": 3,
-        "url": "https://ja.wikipedia.org/wiki/MSX",
+        "url": "https://bouya.officew.jp/hb-f900-hbi-f900/",
         "note": "プロ志向のMSX2本体と拡張ボックスの組み合わせ。",
         "label_en": "Sony HB-F900 / HBI-F900",
         "note_en": "A pro‑oriented MSX2 with an external expansion unit.",
-        "url_en": "https://en.wikipedia.org/wiki/Sony_Hit_Bit"
+        "url_en": "https://www.msx.org/wiki/Sony_HBI-F900"
       },
       {
         "label": "PV-A1200 MKⅢ",
@@ -2051,11 +2023,10 @@
           "PERIPHERAL"
         ],
         "imp": 3,
-        "url": "https://ja.wikipedia.org/wiki/ローランド",
+        "url": "https://monoist.itmedia.co.jp/mn/articles/1911/01/news012.html",
         "note": "卓上CNCカッター/ミリングの先駆。",
         "label_en": "Roland PNC-3000 (CAMM-3)",
-        "note_en": "https://ja.wikipedia.org/wiki/ローランド",
-        "url_en": "https://en.wikipedia.org/wiki/Roland_Corporation"
+        "note_en": "https://ja.wikipedia.org/wiki/ローランド"
       }
     ],
     "1987": [
@@ -2096,7 +2067,8 @@
         ],
         "imp": 4,
         "note": "シャープの電子手帳",
-        "label_en": "PA-7000"
+        "label_en": "PA-7000",
+        "url": "https://corporate.jp.sharp/corporate/info/history/only_one/item/t20.html"
       },
       {
         "label": "PXL2000/Pixelvision/Sanpix1000",
@@ -2107,7 +2079,6 @@
           "MEDIA"
         ],
         "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/ピクセルビジョン",
         "note": "カセットテープに白黒低解像度映像を記録するトイカメラ。",
         "label_en": "Fisher-Price PXL2000/PixelVision/Sanpix 1000",
         "note_en": "https://ja.wikipedia.org/wiki/ピクセルビジョン",
@@ -2194,7 +2165,8 @@
         "note": "カシオの家庭向けラベルプリンター。",
         "label_en": "CASIO NAME LAND",
         "note_en": "https://ja.wikipedia.org/wiki/ネームランド",
-        "url_en": "https://en.wikipedia.org/wiki/Label_printer"
+        "url_en": "https://en.wikipedia.org/wiki/Label_printer",
+        "url": "https://www.casio.com/jp/label-writer/nameland/"
       },
       {
         "label": "PRECOMPUTER 1000",
@@ -2267,20 +2239,6 @@
         "url_en": "https://en.wikipedia.org/wiki/Logitech"
       },
       {
-        "label": "Dynabook J-3100 SS001",
-        "startYear": 1989,
-        "genre": [
-          "COMPUTER",
-          "JAPAN",
-          "MOBILE"
-        ],
-        "imp": 3,
-        "url": "https://sts.kahaku.go.jp/sts/detail.php?no=906390770018&c=&y1=&y2=&dt1=&dt2=&id=&pref=&city=&org=&word=&p=1518",
-        "note": "東芝の初期A4ノートで、可搬性と実用性を高めた。",
-        "label_en": "Toshiba Dynabook J-3100 SS001",
-        "note_en": "An early A4‑sized Toshiba notebook that improved portability and practicality."
-      },
-      {
         "label": "PoqetPC",
         "startYear": 1989,
         "genre": [
@@ -2290,18 +2248,6 @@
         "imp": 3,
         "url": "https://en.wikipedia.org/wiki/Poqet_PC",
         "label_en": "PoqetPC",
-        "url_en": "https://en.wikipedia.org/wiki/Poqet_PC"
-      },
-      {
-        "label": "PoqetPC",
-        "startYear": 1989,
-        "genre": [
-          "MOBILE"
-        ],
-        "imp": 4,
-        "note": "乾電池駆動で長時間動く超小型DOS機。",
-        "label_en": "Poqet PC",
-        "note_en": "https://ja.wikipedia.org/wiki/Poqet_PC",
         "url_en": "https://en.wikipedia.org/wiki/Poqet_PC"
       },
       {
@@ -2427,7 +2373,8 @@
         "imp": 3,
         "note": "指先の微動で入力する独特のエルゴキーボード。",
         "label_en": "DataHand",
-        "note_en": "https://en.wikipedia.org/wiki/DataHand"
+        "note_en": "https://en.wikipedia.org/wiki/DataHand",
+        "url": "https://gigazine.net/news/20210503-datahand-keyboard/"
       },
       {
         "label": "NeXTcube",
@@ -2453,7 +2400,7 @@
         "note": "FM電波を使う腕時計型ポケベル。",
         "label_en": "Seiko Receptor MessageWatch",
         "note_en": "https://ja.wikipedia.org/wiki/腕時計型PHS#歴史",
-        "url_en": "https://by.seiko-design.com/en/museum-en/vol2-en/"
+        "url_en": "https://www.plus9time.com/blog/2021/3/23/seiko-receptor-message-watch"
       },
       {
         "label": "Jaminator",
@@ -2465,7 +2412,8 @@
         "note": "電子“エアギター”玩具。内蔵リフで演奏気分に。",
         "label_en": "Jaminator",
         "note_en": "https://ja.wikipedia.org/wiki/Worlds_of_Wonder",
-        "url_en": "https://en.wikipedia.org/wiki/Worlds_of_Wonder_(toy_company)#Products"
+        "url_en": "https://en.wikipedia.org/wiki/Worlds_of_Wonder_(toy_company)#Products",
+        "url": "https://weekly.ascii.jp/elem/000/004/073/4073842/"
       },
       {
         "label": "WACOM PLシリーズ (1990s)",
@@ -2485,27 +2433,30 @@
         "label": "Sony Data Discman (1990)",
         "startYear": 1990,
         "genre": [
-          "MEDIA",
           "AUDIO_VIDEO",
-          "JAPAN"
+          "JAPAN",
+          "MEDIA"
         ],
         "imp": 3,
         "note": "CD-ROM“電子ブック”専用端末。",
         "label_en": "Sony Data Discman",
-        "note_en": "https://ja.wikipedia.org/wiki/Data_Discman"
+        "note_en": "https://ja.wikipedia.org/wiki/Data_Discman",
+        "url": "https://ja.wikipedia.org/wiki/%E3%83%87%E3%83%BC%E3%82%BF%E3%83%87%E3%82%A3%E3%82%B9%E3%82%AF%E3%83%9E%E3%83%B3",
+        "url_en": "https://en.wikipedia.org/wiki/Data_Discman"
       },
       {
         "label": "DataSlim",
         "startYear": 1990,
         "genre": [
-          "MOBILE",
           "INPUT",
-          "JAPAN"
+          "JAPAN",
+          "MOBILE"
         ],
         "imp": 2,
         "note": "名刺入れサイズのデータバンク系PDA。",
-        "label_en": "Casio Data Slim",
-        "note_en": "https://ja.wikipedia.org/wiki/データバンク_%28腕時計%29"
+        "label_en": "Data Slim",
+        "note_en": "https://ja.wikipedia.org/wiki/データバンク_%28腕時計%29",
+        "url": "http://y-terada.com/Mobile/Dslim/Dslim.htm"
       },
       {
         "label": "Yamaha QY10",
@@ -2656,19 +2607,6 @@
         "label_en": "SpaceMouse",
         "note_en": "Input device specialized for 3D navigation.",
         "url_en": "https://en.wikipedia.org/wiki/3Dconnexion"
-      },
-      {
-        "label": "ザウルス",
-        "startYear": 1993,
-        "genre": [
-          "JAPAN",
-          "MOBILE"
-        ],
-        "imp": 3,
-        "url": "https://ja.wikipedia.org/wiki/%E3%82%B6%E3%82%A6%E3%83%AB%E3%82%B9",
-        "note": "一時代を築いた国産ペン型電子手帳。",
-        "label_en": "ザウルス",
-        "url_en": "https://en.wikipedia.org/wiki/Sharp_Zaurus"
       },
       {
         "label": "Zoomer",
