@@ -82,29 +82,29 @@
       },
       {
         "label": "ビキニ",
-        "label_en": "Bikini (swimwear)",
         "startYear": 1946,
         "genre": [
           "FAS"
         ],
         "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/ビキニ",
-        "url_en": "https://en.wikipedia.org/wiki/Bikini",
+        "url": "https://ja.wikipedia.org/wiki/%E3%83%93%E3%82%AD%E3%83%8B_(%E6%B0%B4%E7%9D%80)",
         "note": "大胆な2ピース水着が世界的流行に。",
+        "label_en": "Bikini (swimwear)",
+        "url_en": "https://en.wikipedia.org/wiki/Bikini",
         "note_en": "Two-piece swimwear that sparked global fashion trends."
       },
       {
         "label": "ENIAC",
-        "label_en": "ENIAC",
         "startYear": 1946,
         "genre": [
           "HAR",
           "SOF"
         ],
-        "imp": 5,
+        "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/ENIAC",
-        "url_en": "https://en.wikipedia.org/wiki/ENIAC",
         "note": "初期の電子式汎用コンピュータの画期的存在。",
+        "label_en": "ENIAC",
+        "url_en": "https://en.wikipedia.org/wiki/ENIAC",
         "note_en": "Pioneering general-purpose electronic computer."
       }
     ],
@@ -234,15 +234,15 @@
       },
       {
         "label": "自転車泥棒",
-        "label_en": "Bicycle Thieves",
         "startYear": 1948,
         "genre": [
           "MOV"
         ],
         "imp": 3,
-        "url": "https://ja.wikipedia.org/wiki/自転車泥棒",
-        "url_en": "https://en.wikipedia.org/wiki/Bicycle_Thieves",
+        "url": "https://ja.wikipedia.org/wiki/%E8%87%AA%E8%BB%A2%E8%BB%8A%E6%B3%A5%E6%A3%92_(%E6%98%A0%E7%94%BB)",
         "note": "ネオリアリズモの傑作として名高い映画。",
+        "label_en": "Bicycle Thieves",
+        "url_en": "https://en.wikipedia.org/wiki/Bicycle_Thieves",
         "note_en": "Landmark of Italian neorealism."
       }
     ],
@@ -265,16 +265,16 @@
     "1950": [
       {
         "label": "羅生門",
-        "label_en": "Rashomon",
         "startYear": 1950,
         "genre": [
-          "JAPAN",
-          "MOV"
+          "MOV",
+          "JAPAN"
         ],
         "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/羅生門_(映画)",
-        "url_en": "https://en.wikipedia.org/wiki/Rashomon",
+        "url": "https://ja.wikipedia.org/wiki/%E7%BE%85%E7%94%9F%E9%96%80_(1950%E5%B9%B4%E3%81%AE%E6%98%A0%E7%94%BB)",
         "note": "黒澤明監督。複数視点で真実を問う名作。",
+        "label_en": "Rashomon",
+        "url_en": "https://en.wikipedia.org/wiki/Rashomon",
         "note_en": "Kurosawa’s classic probing truth via multiple viewpoints."
       },
       {
