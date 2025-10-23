@@ -1,5 +1,4 @@
 {
-  "schemaVersion": 1,
   "metadata": {
     "title": {
       "ja": "ポップカルチャー年表 0.1",
@@ -306,19 +305,6 @@
         "url": "https://ja.wikipedia.org/wiki/%E3%83%9F%E3%83%A5%E3%83%BC%E3%82%B8%E3%83%83%E3%82%AF%E3%83%BB%E3%83%A9%E3%82%A4%E3%83%95",
         "note": "洋楽情報を届けた日本の音楽雑誌。",
         "note_en": "Japanese magazine that popularized Western music."
-      },
-      {
-        "label": "UNIVAC I",
-        "label_en": "UNIVAC I",
-        "startYear": 1951,
-        "genre": [
-          "HAR"
-        ],
-        "imp": 2,
-        "url": "https://ja.wikipedia.org/wiki/UNIVAC_I",
-        "url_en": "https://en.wikipedia.org/wiki/UNIVAC_I",
-        "note": "商用電子計算機の先駆け。",
-        "note_en": "Pioneering commercial electronic computer."
       }
     ],
     "1952": [
@@ -670,19 +656,6 @@
     ],
     "1957": [
       {
-        "label": "Fortran",
-        "label_en": "Fortran",
-        "startYear": 1957,
-        "genre": [
-          "SOF"
-        ],
-        "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/Fortran",
-        "url_en": "https://en.wikipedia.org/wiki/Fortran",
-        "note": "科学技術計算向け高級言語の草分け。",
-        "note_en": "Pioneering high-level language for scientific computing."
-      },
-      {
         "label": "十二人の怒れる男",
         "label_en": "12 Angry Men",
         "startYear": 1957,
@@ -934,19 +907,6 @@
         "url_en": "https://en.wikipedia.org/wiki/The_400_Blows",
         "note": "ヌーヴェルヴァーグを象徴する青春映画。",
         "note_en": "New Wave-defining coming-of-age film."
-      },
-      {
-        "label": "IBM 1401",
-        "label_en": "IBM 1401",
-        "startYear": 1959,
-        "genre": [
-          "HAR"
-        ],
-        "imp": 2,
-        "url": "https://ja.wikipedia.org/wiki/IBM_1401",
-        "url_en": "https://en.wikipedia.org/wiki/IBM_1401",
-        "note": "事務処理用コンピュータのベストセラー。",
-        "note_en": "Best-selling business computer."
       }
     ],
     "1960": [
