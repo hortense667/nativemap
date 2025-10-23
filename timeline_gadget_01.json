@@ -1,10 +1,4 @@
 {
-  "metadata": {
-    "title": {
-      "ja": "ガジェットの年表 0.1",
-      "en": "Gadget Timeline 0.1"
-    }
-  },
   "events": {
     "1910": [
       {
@@ -426,6 +420,20 @@
     ],
     "1973": [
       {
+        "label": "Xerox Alto",
+        "startYear": 1973,
+        "genre": [
+          "COMPUTER",
+          "JAPAN"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/Xerox_Alto",
+        "note": "GUI・マウス・WYSIWYGを実装した研究用コンピュータ。",
+        "label_en": "Xerox Alto",
+        "note_en": "Research system pioneering GUI, mouse, and WYSIWYG.",
+        "url_en": "https://en.wikipedia.org/wiki/Xerox_Alto"
+      },
+      {
         "label": "SEIKO LC V.F.A. 06LC",
         "startYear": 1973,
         "genre": [
@@ -437,19 +445,6 @@
         "label_en": "Seiko 06LC",
         "note_en": "https://ja.wikipedia.org/wiki/セイコー",
         "url_en": "https://corporate.epson/en/about/history/milestone-products/1973-10-06lc.html"
-      },
-      {
-        "label": "Xerox Alto",
-        "startYear": 1973,
-        "genre": [
-          "COMPUTER"
-        ],
-        "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/Xerox_Alto",
-        "note": "GUI・マウス・WYSIWYGを実装した研究用コンピュータ。",
-        "label_en": "Xerox Alto",
-        "url_en": "https://en.wikipedia.org/wiki/Xerox_Alto",
-        "note_en": "Research system pioneering GUI, mouse, and WYSIWYG."
       }
     ],
     "1974": [
@@ -728,6 +723,20 @@
         "url_en": "https://en.wikipedia.org/wiki/Commodore_PET"
       },
       {
+        "label": "VAX-11/780",
+        "startYear": 1977,
+        "genre": [
+          "COMPUTER",
+          "JAPAN"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/VAX",
+        "note": "DECの32ビット級ミニコンの代表機。仮想記憶で時代を画した。",
+        "label_en": "VAX-11/780",
+        "note_en": "https://ja.wikipedia.org/wiki/VAX",
+        "url_en": "https://en.wikipedia.org/wiki/VAX-11/780"
+      },
+      {
         "label": "TI Dataman",
         "startYear": 1977,
         "genre": [
@@ -766,19 +775,6 @@
         "label_en": "My Computer Primer (book)",
         "note_en": "An introductory book from Japan’s early PC era explaining fundamentals plainly.",
         "url_en": "https://www.amazon.co.jp/dp/4061179136"
-      },
-      {
-        "label": "VAX-11/780",
-        "startYear": 1977,
-        "genre": [
-          "COMPUTER"
-        ],
-        "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/VAX",
-        "note": "DECの32ビット級ミニコンの代表機。仮想記憶で時代を画した。",
-        "label_en": "VAX-11/780",
-        "url_en": "https://en.wikipedia.org/wiki/VAX-11/780",
-        "note_en": "https://ja.wikipedia.org/wiki/VAX"
       }
     ],
     "1978": [
@@ -1712,8 +1708,9 @@
           "JAPAN"
         ],
         "imp": 3,
-        "note": "YK-01はヤマハのコンピュータ用のキーボード。",
-        "label_en": "YK-01"
+        "note": "YK-01は日本楽器製造（ヤマハ）のコンピュータで、当時の利用に広く用いられた。",
+        "label_en": "YK-01",
+        "note_en": "YK-01 is a computer by 日本楽器製造（ヤマハ）, widely used in its era."
       },
       {
         "label": "UC-2000",
@@ -2077,6 +2074,20 @@
         "url_en": "https://en.wikipedia.org/wiki/TurboGrafx-16"
       },
       {
+        "label": "X68000",
+        "startYear": 1987,
+        "genre": [
+          "COMPUTER",
+          "JAPAN"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/X68000",
+        "note": "高性能グラフィックと音源を備えた国産16ビット機で、移植度の高いゲームで人気を博した。",
+        "label_en": "Sharp X68000",
+        "note_en": "A Japanese 16‑bit micro with advanced graphics/sound, famed for high‑quality arcade ports.",
+        "url_en": "https://en.wikipedia.org/wiki/X68000"
+      },
+      {
         "label": "PA-7000",
         "startYear": 1987,
         "genre": [
@@ -2254,6 +2265,32 @@
         "label_en": "Logitech TrackMan",
         "note_en": "Logitech’s well-known trackball line.",
         "url_en": "https://en.wikipedia.org/wiki/Logitech"
+      },
+      {
+        "label": "Dynabook J-3100 SS001",
+        "startYear": 1989,
+        "genre": [
+          "COMPUTER",
+          "JAPAN",
+          "MOBILE"
+        ],
+        "imp": 3,
+        "url": "https://sts.kahaku.go.jp/sts/detail.php?no=906390770018&c=&y1=&y2=&dt1=&dt2=&id=&pref=&city=&org=&word=&p=1518",
+        "note": "東芝の初期A4ノートで、可搬性と実用性を高めた。",
+        "label_en": "Toshiba Dynabook J-3100 SS001",
+        "note_en": "An early A4‑sized Toshiba notebook that improved portability and practicality."
+      },
+      {
+        "label": "PoqetPC",
+        "startYear": 1989,
+        "genre": [
+          "COMPUTER",
+          "MOBILE"
+        ],
+        "imp": 3,
+        "url": "https://en.wikipedia.org/wiki/Poqet_PC",
+        "label_en": "PoqetPC",
+        "url_en": "https://en.wikipedia.org/wiki/Poqet_PC"
       },
       {
         "label": "PoqetPC",
@@ -3376,7 +3413,7 @@
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/Dreamcast",
-        "note": "液晶付きメモリーカードで単体ミニゲームも可能。",
+        "note": "液晶付きメモリーカード。単体ゲームも可能。",
         "label_en": "Dreamcast VMU",
         "note_en": "https://ja.wikipedia.org/wiki/Visual_Memory",
         "url_en": "https://en.wikipedia.org/wiki/Dreamcast"
@@ -3433,6 +3470,20 @@
         "label_en": "DDR Controller",
         "note_en": "https://ja.wikipedia.org/wiki/Dance_Dance_Revolution",
         "url_en": "https://en.wikipedia.org/wiki/Dance_Dance_Revolution"
+      },
+      {
+        "label": "Dreamcast VMU",
+        "startYear": 1998,
+        "genre": [
+          "GAME",
+          "PERIPHERAL"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/Dreamcast",
+        "note": "液晶付きメモリーカードで単体ミニゲームも可能。",
+        "label_en": "Dreamcast VMU",
+        "note_en": "https://ja.wikipedia.org/wiki/Visual_Memory",
+        "url_en": "https://en.wikipedia.org/wiki/Dreamcast"
       },
       {
         "label": "ThinkPad 600",
@@ -5116,7 +5167,7 @@
           "MAKER"
         ],
         "imp": 3,
-        "url": "https://medium.com/%E6%9D%B1%E4%BA%AC%E3%82%AB%E3%83%AC%E3%83%BC%E6%97%A5%E8%A8%98%E3%81%B5%E3%81%9F%E3%81%9F%E3%81%B3/%EF%BC%94%E3%83%93%E3%83%83%E3%83%88%E4%BA%BA%E5%B7%A5%E7%9F%A5%E8%83%BD%E3%81%A8%EF%BC%94%E3%83%93%E3%83%83%E3%83%88%E4%BA%BA%E5%B7%A5%E7%94%9F%E5%91%BD-1eed7f5cb8ce",
+        "url": "https://otonanokagaku.net",
         "note": "学研の4ビット学習用マイコンキット。基礎からレトロ計算機を体験できる。",
         "label_en": "Gakken Otona no Kagaku 4-bit Microcomputer",
         "note_en": "https://otonanokagaku.net"
@@ -6607,14 +6658,15 @@
         "label": "HOVERAir X1",
         "startYear": 2023,
         "genre": [
-          "CAMERA"
+          "CAMERA",
+          "JAPAN"
         ],
         "imp": 3,
         "url": "https://www.hovercamera.com/pages/hoverair-x1",
         "note": "自撮り特化の自律フライングカメラ。",
         "label_en": "HOVERAir X1",
-        "url_en": "https://www.hovercamera.com/pages/hoverair-x1",
-        "note_en": "https://www.hovercamera.com/pages/hoverair-x1"
+        "note_en": "https://www.hovercamera.com/pages/hoverair-x1",
+        "url_en": "https://www.hovercamera.com/pages/hoverair-x1"
       }
     ],
     "2024": [
@@ -6749,5 +6801,11 @@
       "label_en": "Scratch",
       "conjunction": true
     }
-  ]
+  ],
+  "metadata": {
+    "title": {
+      "ja": "ガジェットの年表 0.1",
+      "en": "Gadget Timeline 0.1"
+    }
+  }
 }
