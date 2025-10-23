@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1, 
+  "schemaVersion": 1,
   "metadata": {
     "title": {
       "ja": "ポップカルチャー年表 0.1",
@@ -57,11 +57,11 @@
         "startYear": 1946,
         "endYear": 1974,
         "genre": [
-          "MAN",
           "ANI",
-          "JAPAN"
+          "JAPAN",
+          "MAN"
         ],
-        "imp": 5,
+        "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/サザエさん",
         "url_en": "https://en.wikipedia.org/wiki/Sazae-san",
         "note": "長谷川町子の国民的漫画。家庭の日常を温かく描く。",
@@ -71,13 +71,12 @@
         "label": "世界 (雑誌)",
         "label_en": "Sekai (magazine)",
         "startYear": 1946,
-        "endYear": "ongoing",
         "genre": [
-          "MAG",
           "BOO",
-          "JAPAN"
+          "JAPAN",
+          "MAG"
         ],
-        "imp": 3,
+        "imp": 2,
         "url": "https://ja.wikipedia.org/wiki/世界_(雑誌)",
         "note": "岩波書店の総合月刊誌。時事と思想を扱う。",
         "note_en": "Japanese monthly magazine on current affairs and ideas."
@@ -89,7 +88,7 @@
         "genre": [
           "FAS"
         ],
-        "imp": 3,
+        "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/ビキニ",
         "url_en": "https://en.wikipedia.org/wiki/Bikini",
         "note": "大胆な2ピース水着が世界的流行に。",
@@ -161,9 +160,7 @@
         "genre": [
           "FAS"
         ],
-        "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/ニュールック_(ファッション)",
-        "url_en": "https://en.wikipedia.org/wiki/New_Look_(fashion)",
+        "imp": 2,
         "note": "ディオールが女性らしいシルエットを復権。",
         "note_en": "Dior’s silhouette restored feminine fashion postwar."
       },
@@ -174,7 +171,7 @@
         "genre": [
           "FAS"
         ],
-        "imp": 3,
+        "imp": 1,
         "url": "https://ja.wikipedia.org/wiki/H%26M",
         "url_en": "https://en.wikipedia.org/wiki/H%26M",
         "note": "スウェーデン発ファストファッション大手。",
@@ -187,8 +184,8 @@
         "genre": [
           "BOO"
         ],
-        "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/夜と霧",
+        "imp": 2,
+        "url": "https://ja.wikipedia.org/wiki/%E5%A4%9C%E3%81%A8%E9%9C%A7_(%E6%96%87%E5%AD%A6)",
         "url_en": "https://en.wikipedia.org/wiki/Man%27s_Search_for_Meaning",
         "note": "フランクルの強制収容所体験と実存的考察。",
         "note_en": "Frankl’s camp memoir and existential insights."
@@ -199,12 +196,11 @@
         "label": "美術手帖",
         "label_en": "Bijutsu Techo",
         "startYear": 1948,
-        "endYear": "ongoing",
         "genre": [
-          "MAG",
-          "JAPAN"
+          "JAPAN",
+          "MAG"
         ],
-        "imp": 3,
+        "imp": 1,
         "url": "https://ja.wikipedia.org/wiki/美術手帖",
         "note": "現代美術を中心とする日本の美術雑誌。",
         "note_en": "Japanese art magazine focusing on contemporary art."
@@ -214,11 +210,11 @@
         "label_en": "No Longer Human",
         "startYear": 1948,
         "genre": [
-          "NOV",
           "BOO",
-          "JAPAN"
+          "JAPAN",
+          "NOV"
         ],
-        "imp": 5,
+        "imp": 2,
         "url": "https://ja.wikipedia.org/wiki/人間失格",
         "url_en": "https://en.wikipedia.org/wiki/No_Longer_Human",
         "note": "太宰治の自伝的要素を持つ代表的長編。",
@@ -228,7 +224,6 @@
         "label": "エド・サリヴァン・ショー",
         "label_en": "The Ed Sullivan Show",
         "startYear": 1948,
-        "endYear": "ongoing",
         "genre": [
           "TVP"
         ],
@@ -245,7 +240,7 @@
         "genre": [
           "MOV"
         ],
-        "imp": 5,
+        "imp": 3,
         "url": "https://ja.wikipedia.org/wiki/自転車泥棒",
         "url_en": "https://en.wikipedia.org/wiki/Bicycle_Thieves",
         "note": "ネオリアリズモの傑作として名高い映画。",
@@ -258,10 +253,10 @@
         "label_en": "Nineteen Eighty-Four",
         "startYear": 1949,
         "genre": [
-          "NOV",
-          "BOO"
+          "BOO",
+          "NOV"
         ],
-        "imp": 5,
+        "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/一九八四年",
         "url_en": "https://en.wikipedia.org/wiki/Nineteen_Eighty-Four",
         "note": "全体主義を描くオーウェルのディストピア小説。",
@@ -274,10 +269,10 @@
         "label_en": "Rashomon",
         "startYear": 1950,
         "genre": [
-          "MOV",
-          "JAPAN"
+          "JAPAN",
+          "MOV"
         ],
-        "imp": 5,
+        "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/羅生門_(映画)",
         "url_en": "https://en.wikipedia.org/wiki/Rashomon",
         "note": "黒澤明監督。複数視点で真実を問う名作。",
@@ -291,7 +286,6 @@
           "MUS"
         ],
         "imp": 3,
-        "url": "https://ja.wikipedia.org/wiki/ニューオーリンズR%26B",
         "url_en": "https://en.wikipedia.org/wiki/New_Orleans_rhythm_and_blues",
         "note": "ピアノ中心のグルーヴが後のロックへ影響。",
         "note_en": "Piano-driven grooves influencing rock."
@@ -304,12 +298,12 @@
         "startYear": 1951,
         "endYear": 1998,
         "genre": [
+          "JAPAN",
           "MAG",
-          "MUS",
-          "JAPAN"
+          "MUS"
         ],
-        "imp": 3,
-        "url": "https://ja.wikipedia.org/wiki/Music_Life",
+        "imp": 2,
+        "url": "https://ja.wikipedia.org/wiki/%E3%83%9F%E3%83%A5%E3%83%BC%E3%82%B8%E3%83%83%E3%82%AF%E3%83%BB%E3%83%A9%E3%82%A4%E3%83%95",
         "note": "洋楽情報を届けた日本の音楽雑誌。",
         "note_en": "Japanese magazine that popularized Western music."
       },
@@ -320,7 +314,7 @@
         "genre": [
           "HAR"
         ],
-        "imp": 4,
+        "imp": 2,
         "url": "https://ja.wikipedia.org/wiki/UNIVAC_I",
         "url_en": "https://en.wikipedia.org/wiki/UNIVAC_I",
         "note": "商用電子計算機の先駆け。",
@@ -334,9 +328,8 @@
         "startYear": 1952,
         "endYear": 1968,
         "genre": [
-          "MAN",
-          "ANI",
-          "JAPAN"
+          "JAPAN",
+          "MAN"
         ],
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/鉄腕アトム",
@@ -349,10 +342,10 @@
         "label_en": "The Old Man and the Sea",
         "startYear": 1952,
         "genre": [
-          "NOV",
-          "BOO"
+          "BOO",
+          "NOV"
         ],
-        "imp": 4,
+        "imp": 3,
         "url": "https://ja.wikipedia.org/wiki/老人と海",
         "url_en": "https://en.wikipedia.org/wiki/The_Old_Man_and_the_Sea",
         "note": "ヘミングウェイ晩年の名作中編。",
@@ -367,8 +360,8 @@
           "MAG",
           "MUS"
         ],
-        "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/NME",
+        "imp": 2,
+        "url": "https://ja.wikipedia.org/wiki/%E3%83%8B%E3%83%A5%E3%83%BC%E3%83%BB%E3%83%9F%E3%83%A5%E3%83%BC%E3%82%B8%E3%82%AB%E3%83%AB%E3%83%BB%E3%82%A8%E3%82%AF%E3%82%B9%E3%83%97%E3%83%AC%E3%82%B9",
         "url_en": "https://en.wikipedia.org/wiki/NME",
         "note": "英国の代表的音楽メディア。",
         "note_en": "Leading UK music magazine/media."
@@ -380,7 +373,7 @@
         "genre": [
           "MOV"
         ],
-        "imp": 4,
+        "imp": 3,
         "url": "https://ja.wikipedia.org/wiki/禁じられた遊び",
         "url_en": "https://en.wikipedia.org/wiki/Forbidden_Games",
         "note": "戦争下の幼い心を描く仏映画の傑作。",
@@ -393,7 +386,7 @@
         "genre": [
           "MOV"
         ],
-        "imp": 5,
+        "imp": 3,
         "url": "https://ja.wikipedia.org/wiki/雨に唄えば",
         "url_en": "https://en.wikipedia.org/wiki/Singin%27_in_the_Rain",
         "note": "映画黄金期のミュージカル代表作。",
@@ -405,11 +398,10 @@
         "label": "NHK紅白歌合戦",
         "label_en": "NHK Kōhaku Uta Gassen",
         "startYear": 1953,
-        "endYear": "ongoing",
         "genre": [
-          "TVP",
+          "JAPAN",
           "MUS",
-          "JAPAN"
+          "TVP"
         ],
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/NHK紅白歌合戦",
@@ -423,9 +415,8 @@
         "startYear": 1953,
         "endYear": 1956,
         "genre": [
-          "MAN",
-          "ANI",
-          "JAPAN"
+          "JAPAN",
+          "MAN"
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/リボンの騎士",
@@ -442,7 +433,7 @@
           "MAG"
         ],
         "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/プレイボーイ",
+        "url": "https://ja.wikipedia.org/wiki/%E3%83%97%E3%83%AC%E3%82%A4%E3%83%9C%E3%83%BC%E3%82%A4_(%E9%9B%91%E8%AA%8C)",
         "url_en": "https://en.wikipedia.org/wiki/Playboy",
         "note": "米ライフスタイル誌。性とカルチャーを横断。",
         "note_en": "U.S). lifestyle magazine spanning sex and culture."
@@ -452,8 +443,8 @@
         "label_en": "Fahrenheit 451",
         "startYear": 1953,
         "genre": [
-          "NOV",
-          "BOO"
+          "BOO",
+          "NOV"
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/華氏451度",
@@ -466,8 +457,8 @@
         "label_en": "Matchbox (toy cars)",
         "startYear": 1953,
         "genre": [
-          "TOY",
-          "FMT"
+          "FMT",
+          "TOY"
         ],
         "imp": 3,
         "url": "https://ja.wikipedia.org/wiki/マッチボックス_(ミニカー)",
@@ -480,10 +471,10 @@
         "label_en": "Tokyo Story",
         "startYear": 1953,
         "genre": [
-          "MOV",
-          "JAPAN"
+          "JAPAN",
+          "MOV"
         ],
-        "imp": 5,
+        "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/東京物語",
         "url_en": "https://en.wikipedia.org/wiki/Tokyo_Story",
         "note": "家族の絆と老いを静かに描いた小津の名作。",
@@ -495,11 +486,10 @@
         "label": "ザ・トゥナイト・ショー",
         "label_en": "The Tonight Show",
         "startYear": 1954,
-        "endYear": "ongoing",
         "genre": [
           "TVP"
         ],
-        "imp": 5,
+        "imp": 3,
         "url": "https://ja.wikipedia.org/wiki/ザ・トゥナイト・ショー",
         "url_en": "https://en.wikipedia.org/wiki/The_Tonight_Show",
         "note": "米深夜トーク番組の代名詞。",
@@ -509,12 +499,11 @@
         "label": "火の鳥",
         "label_en": "Phoenix (Hi no Tori)",
         "startYear": 1954,
-        "endYear": "ongoing",
         "genre": [
-          "MAN",
-          "JAPAN"
+          "JAPAN",
+          "MAN"
         ],
-        "imp": 5,
+        "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/火の鳥_(漫画)",
         "url_en": "https://en.wikipedia.org/wiki/Phoenix_(manga)",
         "note": "手塚治虫のライフワーク的SF大河。",
@@ -524,11 +513,10 @@
         "label": "なかよし",
         "label_en": "Nakayoshi",
         "startYear": 1954,
-        "endYear": "ongoing",
         "genre": [
+          "JAPAN",
           "MAG",
-          "MAN",
-          "JAPAN"
+          "MAN"
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/なかよし",
@@ -541,10 +529,10 @@
         "label_en": "The Lord of the Rings",
         "startYear": 1954,
         "genre": [
-          "NOV",
-          "BOO"
+          "BOO",
+          "NOV"
         ],
-        "imp": 5,
+        "imp": 3,
         "url": "https://ja.wikipedia.org/wiki/指輪物語",
         "url_en": "https://en.wikipedia.org/wiki/The_Lord_of_the_Rings",
         "note": "ファンタジー文学の金字塔。",
@@ -568,8 +556,8 @@
         "label_en": "Seven Samurai",
         "startYear": 1954,
         "genre": [
-          "MOV",
-          "JAPAN"
+          "JAPAN",
+          "MOV"
         ],
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/七人の侍",
@@ -582,8 +570,8 @@
         "label_en": "Godzilla (1954 film)",
         "startYear": 1954,
         "genre": [
-          "MOV",
-          "JAPAN"
+          "JAPAN",
+          "MOV"
         ],
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/ゴジラ",
@@ -597,13 +585,12 @@
         "label": "りぼん",
         "label_en": "Ribon",
         "startYear": 1955,
-        "endYear": "ongoing",
         "genre": [
+          "JAPAN",
           "MAG",
-          "MAN",
-          "JAPAN"
+          "MAN"
         ],
-        "imp": 4,
+        "imp": 3,
         "url": "https://ja.wikipedia.org/wiki/りぼん",
         "url_en": "https://en.wikipedia.org/wiki/Ribon_(magazine)",
         "note": "少女漫画誌の老舗。人気作を多数輩出。",
@@ -614,13 +601,13 @@
         "label_en": "Japanese postwar economic miracle",
         "startYear": 1955,
         "genre": [
-          "PHE",
-          "JAPAN"
+          "JAPAN",
+          "PHE"
         ],
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/高度経済成長",
         "url_en": "https://en.wikipedia.org/wiki/Japanese_economic_miracle",
-        "note": "戦後の急速な経済成長で生活様式が一変。",
+        "note": "戦後の急速な経済成長で生活様式が一変（年は便宜的）",
         "note_en": "Rapid postwar growth that reshaped daily life."
       }
     ],
@@ -629,12 +616,11 @@
         "label": "週刊新潮",
         "label_en": "Shukan Shincho",
         "startYear": 1956,
-        "endYear": "ongoing",
         "genre": [
-          "MAG",
-          "JAPAN"
+          "JAPAN",
+          "MAG"
         ],
-        "imp": 3,
+        "imp": 2,
         "url": "https://ja.wikipedia.org/wiki/週刊新潮",
         "url_en": "https://en.wikipedia.org/wiki/Sh%C5%ABkan_Shinch%C5%8D",
         "note": "保守系週刊誌。スクープで知られる。",
@@ -672,9 +658,8 @@
         "startYear": 1956,
         "endYear": 1966,
         "genre": [
-          "MAN",
-          "ANI",
-          "JAPAN"
+          "JAPAN",
+          "MAN"
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/鉄人28号",
@@ -691,7 +676,7 @@
         "genre": [
           "SOF"
         ],
-        "imp": 5,
+        "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/Fortran",
         "url_en": "https://en.wikipedia.org/wiki/Fortran",
         "note": "科学技術計算向け高級言語の草分け。",
@@ -704,7 +689,7 @@
         "genre": [
           "MOV"
         ],
-        "imp": 4,
+        "imp": 3,
         "url": "https://ja.wikipedia.org/wiki/十二人の怒れる男",
         "url_en": "https://en.wikipedia.org/wiki/12_Angry_Men",
         "note": "密室劇の名作。陪審の議論を描く。",
@@ -718,9 +703,9 @@
         "startYear": 1958,
         "endYear": 1958,
         "genre": [
-          "MOV",
           "ANI",
-          "JAPAN"
+          "JAPAN",
+          "MOV"
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/白蛇伝_(1958年の映画)",
@@ -734,8 +719,8 @@
         "startYear": 1958,
         "endYear": 1959,
         "genre": [
-          "TVP",
-          "JAPAN"
+          "JAPAN",
+          "TVP"
         ],
         "imp": 3,
         "url": "https://ja.wikipedia.org/wiki/月光仮面",
@@ -761,8 +746,8 @@
         "label_en": "Hula hoop",
         "startYear": 1958,
         "genre": [
-          "TOY",
-          "PHE"
+          "PHE",
+          "TOY"
         ],
         "imp": 3,
         "url": "https://ja.wikipedia.org/wiki/フラフープ",
@@ -777,7 +762,7 @@
         "genre": [
           "MOV"
         ],
-        "imp": 4,
+        "imp": 3,
         "url": "https://ja.wikipedia.org/wiki/めまい_(映画)",
         "url_en": "https://en.wikipedia.org/wiki/Vertigo",
         "note": "ヒッチコックのサスペンスの金字塔。",
@@ -789,10 +774,9 @@
         "label": "おかあさんといっしょ",
         "label_en": "Okaasan to Issho",
         "startYear": 1959,
-        "endYear": "ongoing",
         "genre": [
-          "TVP",
-          "JAPAN"
+          "JAPAN",
+          "TVP"
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/おかあさんといっしょ",
@@ -804,11 +788,9 @@
         "label": "S-Fマガジン",
         "label_en": "S-F Magazine",
         "startYear": 1959,
-        "endYear": "ongoing",
         "genre": [
-          "MAG",
-          "BOO",
-          "JAPAN"
+          "JAPAN",
+          "MAG"
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/S-Fマガジン",
@@ -820,12 +802,11 @@
         "label": "週刊文春",
         "label_en": "Shukan Bunshun",
         "startYear": 1959,
-        "endYear": "ongoing",
         "genre": [
-          "MAG",
-          "JAPAN"
+          "JAPAN",
+          "MAG"
         ],
-        "imp": 4,
+        "imp": 3,
         "url": "https://ja.wikipedia.org/wiki/週刊文春",
         "url_en": "https://en.wikipedia.org/wiki/Sh%C5%ABkan_Bunshun",
         "note": "硬軟取り混ぜた総合週刊誌。",
@@ -837,8 +818,8 @@
         "startYear": 1959,
         "endYear": 1992,
         "genre": [
-          "MAG",
-          "JAPAN"
+          "JAPAN",
+          "MAG"
         ],
         "imp": 3,
         "url": "https://ja.wikipedia.org/wiki/朝日ジャーナル",
@@ -849,11 +830,10 @@
         "label": "週刊少年マガジン",
         "label_en": "Weekly Shōnen Magazine",
         "startYear": 1959,
-        "endYear": "ongoing",
         "genre": [
+          "JAPAN",
           "MAG",
-          "MAN",
-          "JAPAN"
+          "MAN"
         ],
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/週刊少年マガジン",
@@ -865,11 +845,10 @@
         "label": "週刊少年サンデー",
         "label_en": "Weekly Shōnen Sunday",
         "startYear": 1959,
-        "endYear": "ongoing",
         "genre": [
+          "JAPAN",
           "MAG",
-          "MAN",
-          "JAPAN"
+          "MAN"
         ],
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/週刊少年サンデー",
@@ -884,7 +863,7 @@
         "genre": [
           "MUS"
         ],
-        "imp": 5,
+        "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/モータウン",
         "url_en": "https://en.wikipedia.org/wiki/Motown",
         "note": "黒人音楽を主流化した名門レーベル。",
@@ -897,7 +876,7 @@
         "genre": [
           "MUS"
         ],
-        "imp": 5,
+        "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/カインド・オブ・ブルー",
         "url_en": "https://en.wikipedia.org/wiki/Kind_of_Blue",
         "note": "モード・ジャズの金字塔。",
@@ -921,8 +900,8 @@
         "label_en": "Barbie",
         "startYear": 1959,
         "genre": [
-          "TOY",
-          "FAS"
+          "FAS",
+          "TOY"
         ],
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/バービー",
@@ -935,8 +914,8 @@
         "label_en": "Plarail",
         "startYear": 1959,
         "genre": [
-          "TOY",
-          "JAPAN"
+          "JAPAN",
+          "TOY"
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/プラレール",
@@ -950,7 +929,7 @@
         "genre": [
           "MOV"
         ],
-        "imp": 4,
+        "imp": 3,
         "url": "https://ja.wikipedia.org/wiki/大人は判ってくれない",
         "url_en": "https://en.wikipedia.org/wiki/The_400_Blows",
         "note": "ヌーヴェルヴァーグを象徴する青春映画。",
@@ -963,7 +942,7 @@
         "genre": [
           "HAR"
         ],
-        "imp": 4,
+        "imp": 2,
         "url": "https://ja.wikipedia.org/wiki/IBM_1401",
         "url_en": "https://en.wikipedia.org/wiki/IBM_1401",
         "note": "事務処理用コンピュータのベストセラー。",
@@ -977,29 +956,14 @@
         "startYear": 1960,
         "genre": [
           "EVT",
-          "PHE",
-          "JAPAN"
+          "JAPAN",
+          "PHE"
         ],
-        "imp": 4,
+        "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/安保闘争",
         "url_en": "https://en.wikipedia.org/wiki/Anpo_protests",
         "note": "日米安保改定に反対する大規模運動。",
         "note_en": "Mass protests against U.S.-Japan security treaty."
-      },
-      {
-        "label": "日本の学生運動",
-        "label_en": "Japanese student movement",
-        "startYear": 1960,
-        "genre": [
-          "EVT",
-          "PHE",
-          "JAPAN"
-        ],
-        "imp": 3,
-        "url": "https://ja.wikipedia.org/wiki/日本の学生運動",
-        "url_en": "https://en.wikipedia.org/wiki/Student_Movement_in_Japan",
-        "note": "大学を中心に広がった政治運動。",
-        "note_en": "Campus-centered political activism."
       },
       {
         "label": "レゲエ",
@@ -1046,7 +1010,7 @@
         "genre": [
           "FAS"
         ],
-        "imp": 3,
+        "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/アイビー・ルック",
         "url_en": "https://en.wikipedia.org/wiki/Ivy_League_(clothes)",
         "note": "米東部大学風プレッピーの源流。",
@@ -1059,7 +1023,7 @@
         "genre": [
           "SOF"
         ],
-        "imp": 4,
+        "imp": 2,
         "url": "https://ja.wikipedia.org/wiki/Lisp",
         "url_en": "https://en.wikipedia.org/wiki/Lisp_(programming_language)",
         "note": "AI研究を牽引した関数型言語。",
@@ -1070,11 +1034,11 @@
         "label_en": "Dakko-chan",
         "startYear": 1960,
         "genre": [
-          "TOY",
+          "JAPAN",
           "PHE",
-          "JAPAN"
+          "TOY"
         ],
-        "imp": 3,
+        "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/ダッコちゃん",
         "note": "抱きつき人形の一大ブーム。",
         "note_en": "Clingy inflatable doll craze in Japan."
@@ -1087,7 +1051,7 @@
           "MOV"
         ],
         "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/勝手にしやがれ",
+        "url": "https://ja.wikipedia.org/wiki/%E5%8B%9D%E6%89%8B%E3%81%AB%E3%81%97%E3%82%84%E3%81%8C%E3%82%8C_(%E6%98%A0%E7%94%BB)",
         "url_en": "https://en.wikipedia.org/wiki/Breathless_(1960_film)",
         "note": "仏ニューウェーブの象徴的作品。",
         "note_en": "Iconic French New Wave film."
@@ -1099,8 +1063,8 @@
         "genre": [
           "MOV"
         ],
-        "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/サイコ_(映画)",
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/%E3%82%B5%E3%82%A4%E3%82%B3_(1960%E5%B9%B4%E3%81%AE%E6%98%A0%E7%94%BB)",
         "url_en": "https://en.wikipedia.org/wiki/Psycho_(1960_film)",
         "note": "ホラー映画の金字塔。",
         "note_en": "Seminal horror-thriller."
@@ -1113,7 +1077,7 @@
           "MOV"
         ],
         "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/甘い生活",
+        "url": "https://ja.wikipedia.org/wiki/%E7%94%98%E3%81%84%E7%94%9F%E6%B4%BB_(%E6%98%A0%E7%94%BB)",
         "url_en": "https://en.wikipedia.org/wiki/La_Dolce_Vita",
         "note": "60年代文化を象徴する伊映画。",
         "note_en": "Italian film emblematic of the 1960s."
@@ -1124,10 +1088,9 @@
         "label": "連続テレビ小説",
         "label_en": "Asadora",
         "startYear": 1961,
-        "endYear": "ongoing",
         "genre": [
-          "TVP",
-          "JAPAN"
+          "JAPAN",
+          "TVP"
         ],
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/連続テレビ小説",
@@ -1140,10 +1103,10 @@
         "label_en": "Sukiyaki (Ue o Muite Arukō)",
         "startYear": 1961,
         "genre": [
-          "MUS",
-          "JAPAN"
+          "JAPAN",
+          "MUS"
         ],
-        "imp": 4,
+        "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/上を向いて歩こう",
         "url_en": "https://en.wikipedia.org/wiki/Sukiyaki_(song)",
         "note": "日本発で全米1位を獲得した名曲。",
@@ -1155,12 +1118,11 @@
         "label": "週刊現代",
         "label_en": "Shūkan Gendai",
         "startYear": 1962,
-        "endYear": "ongoing",
         "genre": [
-          "MAG",
-          "JAPAN"
+          "JAPAN",
+          "MAG"
         ],
-        "imp": 3,
+        "imp": 2,
         "url": "https://ja.wikipedia.org/wiki/週刊現代",
         "note": "講談社の総合週刊誌。",
         "note_en": "Kodansha’s general weekly magazine."
@@ -1185,7 +1147,7 @@
         "genre": [
           "MOV"
         ],
-        "imp": 5,
+        "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/アラビアのロレンス",
         "url_en": "https://en.wikipedia.org/wiki/Lawrence_of_Arabia",
         "note": "叙事詩的スケールの名作。",
@@ -1211,10 +1173,9 @@
         "label": "大河ドラマ",
         "label_en": "Taiga drama",
         "startYear": 1963,
-        "endYear": "ongoing",
         "genre": [
-          "TVP",
-          "JAPAN"
+          "JAPAN",
+          "TVP"
         ],
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/大河ドラマ",
@@ -1226,7 +1187,6 @@
         "label": "コンパクトカセット",
         "label_en": "Compact Cassette",
         "startYear": 1963,
-        "endYear": "ongoing",
         "genre": [
           "FMT",
           "HAR"
@@ -1244,8 +1204,8 @@
         "endYear": 1966,
         "genre": [
           "ANI",
-          "TVP",
-          "JAPAN"
+          "JAPAN",
+          "TVP"
         ],
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/鉄腕アトム_(アニメ)",
@@ -1260,13 +1220,14 @@
         "endYear": 1966,
         "genre": [
           "ANI",
-          "TVP",
-          "JAPAN"
+          "JAPAN",
+          "TVP"
         ],
-        "imp": 3,
-        "url": "https://ja.wikipedia.org/wiki/鉄人28号_(アニメ)",
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/%E9%89%84%E4%BA%BA28%E5%8F%B7",
         "note": "ロボットアニメ初期の代表作。",
-        "note_en": "Early representative robot anime."
+        "note_en": "Early representative robot anime.",
+        "url_en": "https://en.wikipedia.org/wiki/Tetsujin_28-go"
       },
       {
         "label": "ドクター・フー",
@@ -1286,10 +1247,9 @@
         "label": "プレジデント (雑誌)",
         "label_en": "PRESIDENT (magazine)",
         "startYear": 1963,
-        "endYear": "ongoing",
         "genre": [
-          "MAG",
-          "JAPAN"
+          "JAPAN",
+          "MAG"
         ],
         "imp": 3,
         "url": "https://ja.wikipedia.org/wiki/プレジデント_(雑誌)",
@@ -1304,7 +1264,7 @@
           "MUS"
         ],
         "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/風に吹かれて",
+        "url": "https://ja.wikipedia.org/wiki/%E9%A2%A8%E3%81%AB%E5%90%B9%E3%81%8B%E3%82%8C%E3%81%A6_(%E3%83%9C%E3%83%96%E3%83%BB%E3%83%87%E3%82%A3%E3%83%A9%E3%83%B3%E3%81%AE%E6%9B%B2)",
         "url_en": "https://en.wikipedia.org/wiki/Blowin%27_in_the_Wind",
         "note": "公民権運動の象徴的フォーク曲。",
         "note_en": "Anthemic folk song of civil rights era."
@@ -1315,11 +1275,10 @@
         "label": "題名のない音楽会",
         "label_en": "Untitled Concert",
         "startYear": 1964,
-        "endYear": "ongoing",
         "genre": [
-          "TVP",
+          "JAPAN",
           "MUS",
-          "JAPAN"
+          "TVP"
         ],
         "imp": 3,
         "url": "https://ja.wikipedia.org/wiki/題名のない音楽会",
@@ -1330,7 +1289,6 @@
         "label": "富士急ハイランド",
         "label_en": "Fuji-Q Highland",
         "startYear": 1964,
-        "endYear": "ongoing",
         "genre": [
           "EVT",
           "JAPAN"
@@ -1346,13 +1304,14 @@
         "startYear": 1964,
         "endYear": 1971,
         "genre": [
-          "MAN",
-          "JAPAN"
+          "JAPAN",
+          "MAN"
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/カムイ伝",
         "note": "社会性の強い劇画作品。",
-        "note_en": "Socially conscious gekiga manga."
+        "note_en": "Socially conscious gekiga manga.",
+        "url_en": "https://en.wikipedia.org/wiki/Kamui_(1964_manga)"
       },
       {
         "label": "ガロ",
@@ -1360,12 +1319,12 @@
         "startYear": 1964,
         "endYear": 2002,
         "genre": [
+          "JAPAN",
           "MAG",
-          "MAN",
-          "JAPAN"
+          "MAN"
         ],
-        "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/ガロ",
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/%E3%82%AC%E3%83%AD_(%E9%9B%91%E8%AA%8C)",
         "url_en": "https://en.wikipedia.org/wiki/Garo_(magazine)",
         "note": "前衛的漫画を掲載した伝説的誌。",
         "note_en": "Legendary avant-garde manga magazine."
@@ -1376,10 +1335,10 @@
         "startYear": 1964,
         "endYear": 1988,
         "genre": [
-          "MAG",
-          "JAPAN"
+          "JAPAN",
+          "MAG"
         ],
-        "imp": 3,
+        "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/平凡パンチ",
         "note": "若者のライフスタイル誌。",
         "note_en": "Lifestyle magazine for Japanese youth."
@@ -1390,8 +1349,8 @@
         "startYear": 1964,
         "genre": [
           "EVT",
-          "SPW",
-          "JAPAN"
+          "JAPAN",
+          "SPW"
         ],
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/1964年東京オリンピック",
@@ -1400,26 +1359,13 @@
         "note_en": "Symbol of growth and urban renewal."
       },
       {
-        "label": "OS/360",
-        "label_en": "OS/360",
-        "startYear": 1964,
-        "genre": [
-          "SOF"
-        ],
-        "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/OS/360",
-        "url_en": "https://en.wikipedia.org/wiki/OS/360",
-        "note": "大型汎用機の標準OS。",
-        "note_en": "Standard OS for mainframes."
-      },
-      {
         "label": "BASIC",
         "label_en": "BASIC",
         "startYear": 1964,
         "genre": [
           "SOF"
         ],
-        "imp": 5,
+        "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/BASIC",
         "url_en": "https://en.wikipedia.org/wiki/BASIC",
         "note": "初心者向け言語として普及。",
@@ -1430,8 +1376,8 @@
         "label_en": "G.I. Joe",
         "startYear": 1964,
         "genre": [
-          "TOY",
-          "IDL"
+          "IDL",
+          "TOY"
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/G.I.ジョー",
@@ -1446,7 +1392,7 @@
         "genre": [
           "MOV"
         ],
-        "imp": 5,
+        "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/博士の異常な愛情",
         "url_en": "https://en.wikipedia.org/wiki/Dr._Strangelove",
         "note": "核冷戦を風刺した傑作。",
@@ -1459,7 +1405,7 @@
         "genre": [
           "HAR"
         ],
-        "imp": 5,
+        "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/IBM_System/360",
         "url_en": "https://en.wikipedia.org/wiki/IBM_System/360",
         "note": "互換性を重視した画期的ファミリー。",
@@ -1475,7 +1421,7 @@
         "genre": [
           "PHE"
         ],
-        "imp": 3,
+        "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/ジェネレーションX",
         "url_en": "https://en.wikipedia.org/wiki/Generation_X",
         "note": "60〜70年代生まれの世代概念。",
@@ -1488,10 +1434,10 @@
         "endYear": 1966,
         "genre": [
           "ANI",
-          "TVP",
-          "JAPAN"
+          "JAPAN",
+          "TVP"
         ],
-        "imp": 4,
+        "imp": 3,
         "url": "https://ja.wikipedia.org/wiki/ジャングル大帝",
         "url_en": "https://en.wikipedia.org/wiki/Kimba_the_White_Lion",
         "note": "手塚治虫の動物アニメ。",
@@ -1503,10 +1449,10 @@
         "startYear": 1965,
         "endYear": 1990,
         "genre": [
-          "TVP",
-          "JAPAN"
+          "JAPAN",
+          "TVP"
         ],
-        "imp": 3,
+        "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/11PM",
         "note": "深夜ワイドの先駆け。",
         "note_en": "Pioneer of late-night variety in Japan."
@@ -1518,11 +1464,11 @@
         "endYear": 1969,
         "genre": [
           "ANI",
-          "TVP",
-          "JAPAN"
+          "JAPAN",
+          "TVP"
         ],
         "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/ゲゲゲの鬼太郎",
+        "url": "https://ja.wikipedia.org/wiki/%E3%82%B2%E3%82%B2%E3%82%B2%E3%81%AE%E9%AC%BC%E5%A4%AA%E9%83%8E",
         "url_en": "https://en.wikipedia.org/wiki/GeGeGe_no_Kitar%C5%8D",
         "note": "妖怪を題材にした国民的作品。",
         "note_en": "Beloved yokai-themed franchise."
@@ -1532,10 +1478,10 @@
         "label_en": "Izananagi boom",
         "startYear": 1965,
         "genre": [
-          "PHE",
-          "JAPAN"
+          "JAPAN",
+          "PHE"
         ],
-        "imp": 3,
+        "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/いざなぎ景気",
         "note": "長期好景気が続いた時期。",
         "note_en": "A prolonged Japanese economic boom."
@@ -1560,7 +1506,7 @@
         "genre": [
           "FAS"
         ],
-        "imp": 4,
+        "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/ミニスカート",
         "url_en": "https://en.wikipedia.org/wiki/Miniskirt",
         "note": "60年代の象徴的ファッション。",
@@ -1586,7 +1532,7 @@
         "genre": [
           "HAR"
         ],
-        "imp": 4,
+        "imp": 2,
         "url": "https://ja.wikipedia.org/wiki/PDP-8",
         "url_en": "https://en.wikipedia.org/wiki/PDP-8",
         "note": "ミニコンピュータの嚆矢。",
@@ -1598,12 +1544,11 @@
         "label": "ナガシマスパーランド",
         "label_en": "Nagashima Spa Land",
         "startYear": 1966,
-        "endYear": "ongoing",
         "genre": [
           "EVT",
           "JAPAN"
         ],
-        "imp": 3,
+        "imp": 2,
         "url": "https://ja.wikipedia.org/wiki/ナガシマスパーランド",
         "note": "三重の大型レジャー施設。",
         "note_en": "Major amusement park in Mie, Japan."
@@ -1614,9 +1559,8 @@
         "startYear": 1966,
         "endYear": 1967,
         "genre": [
-          "TVP",
-          "ANI",
-          "JAPAN"
+          "JAPAN",
+          "TVP"
         ],
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/ウルトラマン",
@@ -1628,12 +1572,11 @@
         "label": "笑点",
         "label_en": "Shōten",
         "startYear": 1966,
-        "endYear": "ongoing",
         "genre": [
-          "TVP",
-          "JAPAN"
+          "JAPAN",
+          "TVP"
         ],
-        "imp": 4,
+        "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/笑点",
         "note": "演芸大喜利の長寿番組。",
         "note_en": "Long-running rakugo-based comedy panel show."
@@ -1644,8 +1587,8 @@
         "startYear": 1966,
         "endYear": 1969,
         "genre": [
-          "TVP",
-          "SF"
+          "SF",
+          "TVP"
         ],
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/スタートレック",
@@ -1660,11 +1603,11 @@
         "endYear": 1971,
         "genre": [
           "ANI",
+          "JAPAN",
           "MAN",
-          "TVP",
-          "JAPAN"
+          "TVP"
         ],
-        "imp": 4,
+        "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/巨人の星",
         "url_en": "https://en.wikipedia.org/wiki/Star_of_the_Giants",
         "note": "スポ根ものの代表作。",
@@ -1674,12 +1617,11 @@
         "label": "週刊プレイボーイ",
         "label_en": "Weekly Playboy (Japan)",
         "startYear": 1966,
-        "endYear": "ongoing",
         "genre": [
-          "MAG",
-          "JAPAN"
+          "JAPAN",
+          "MAG"
         ],
-        "imp": 3,
+        "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/週刊プレイボーイ",
         "note": "若者向け総合週刊誌。",
         "note_en": "Japanese youth-oriented weekly."
@@ -1690,10 +1632,10 @@
         "startYear": 1966,
         "genre": [
           "EVT",
-          "PHE",
-          "JAPAN"
+          "JAPAN",
+          "PHE"
         ],
-        "imp": 3,
+        "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/成田空港問題",
         "note": "新空港建設に伴う反対運動。",
         "note_en": "Protests over Narita Airport construction."
@@ -1705,7 +1647,7 @@
         "genre": [
           "MUS"
         ],
-        "imp": 5,
+        "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/ペット・サウンズ",
         "url_en": "https://en.wikipedia.org/wiki/Pet_Sounds",
         "note": "ポップ史に残る名盤。",
@@ -1719,12 +1661,12 @@
         "startYear": 1967,
         "endYear": 1976,
         "genre": [
+          "JAPAN",
           "MAN",
-          "TVP",
-          "JAPAN"
+          "TVP"
         ],
-        "imp": 3,
-        "url": "https://ja.wikipedia.org/wiki/天才バカボン",
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/%E5%A4%A9%E6%89%8D%E3%83%90%E3%82%AB%E3%83%9C%E3%83%B3",
         "url_en": "https://en.wikipedia.org/wiki/Tensai_Bakabon",
         "note": "ナンセンスギャグの代表作。",
         "note_en": "Classic Japanese nonsense comedy manga."
@@ -1733,12 +1675,11 @@
         "label": "オールナイトニッポン",
         "label_en": "All Night Nippon",
         "startYear": 1967,
-        "endYear": "ongoing",
         "genre": [
-          "RDO",
-          "JAPAN"
+          "JAPAN",
+          "RDO"
         ],
-        "imp": 4,
+        "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/オールナイトニッポン",
         "note": "深夜ラジオの看板番組。",
         "note_en": "Flagship Japanese late-night radio show."
@@ -1747,14 +1688,12 @@
         "label": "CES",
         "label_en": "Consumer Electronics Show",
         "startYear": 1967,
-        "endYear": "ongoing",
         "genre": [
           "EVT",
           "HAR",
-          "SOF",
-          "NET"
+          "SOF"
         ],
-        "imp": 4,
+        "imp": 3,
         "url": "https://ja.wikipedia.org/wiki/Consumer_Electronics_Show",
         "url_en": "https://en.wikipedia.org/wiki/Consumer_Electronics_Show",
         "note": "家電・IT見本市の代表格。",
@@ -1766,9 +1705,9 @@
         "startYear": 1967,
         "endYear": 1972,
         "genre": [
+          "JAPAN",
           "MAG",
-          "MAN",
-          "JAPAN"
+          "MAN"
         ],
         "imp": 3,
         "url": "https://ja.wikipedia.org/wiki/COM_(雑誌)",
@@ -1779,7 +1718,6 @@
         "label": "ローリング・ストーン",
         "label_en": "Rolling Stone",
         "startYear": 1967,
-        "endYear": "ongoing",
         "genre": [
           "MAG",
           "MUS"
@@ -1795,10 +1733,10 @@
         "label_en": "One Hundred Years of Solitude",
         "startYear": 1967,
         "genre": [
-          "NOV",
-          "BOO"
+          "BOO",
+          "NOV"
         ],
-        "imp": 5,
+        "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/百年の孤独",
         "url_en": "https://en.wikipedia.org/wiki/One_Hundred_Years_of_Solitude",
         "note": "ラテンアメリカ文学の金字塔。",
@@ -1824,7 +1762,7 @@
         "genre": [
           "MUS"
         ],
-        "imp": 5,
+        "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/ヴェルヴェット・アンダーグラウンド・アンド・ニコ",
         "url_en": "https://en.wikipedia.org/wiki/The_Velvet_Underground_%26_Nico",
         "note": "オルタナの源流となる名盤。",
@@ -1835,11 +1773,11 @@
         "label_en": "Licca-chan",
         "startYear": 1967,
         "genre": [
-          "TOY",
           "IDL",
-          "JAPAN"
+          "JAPAN",
+          "TOY"
         ],
-        "imp": 4,
+        "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/リカちゃん",
         "note": "日本の国民的着せ替え人形。",
         "note_en": "Beloved Japanese fashion doll."
@@ -1850,14 +1788,13 @@
         "label": "ラブホテル文化",
         "label_en": "Love hotel culture",
         "startYear": 1968,
-        "endYear": "ongoing",
         "genre": [
-          "PHE",
-          "JAPAN"
+          "JAPAN",
+          "PHE"
         ],
-        "imp": 3,
+        "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/ラブホテル",
-        "note": "都市の独自な宿泊文化。",
+        "note": "都市の独自な宿泊文化（年代は便宜的）",
         "note_en": "Distinct urban lodging culture in Japan."
       },
       {
@@ -1866,11 +1803,11 @@
         "startYear": 1968,
         "endYear": 1972,
         "genre": [
+          "JAPAN",
           "MAN",
-          "TVP",
-          "JAPAN"
+          "TVP"
         ],
-        "imp": 3,
+        "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/ど根性ガエル",
         "note": "庶民的コメディ漫画。",
         "note_en": "Popular working-class comedy manga."
@@ -1881,11 +1818,11 @@
         "startYear": 1968,
         "endYear": 2021,
         "genre": [
-          "RDO",
+          "JAPAN",
           "MUS",
-          "JAPAN"
+          "RDO"
         ],
-        "imp": 3,
+        "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/走れ!歌謡曲",
         "note": "深夜の音楽ワイド番組。",
         "note_en": "Long-running late-night music radio show."
@@ -1894,11 +1831,10 @@
         "label": "60ミニッツ",
         "label_en": "60 Minutes",
         "startYear": 1968,
-        "endYear": "ongoing",
         "genre": [
           "TVP"
         ],
-        "imp": 4,
+        "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/60ミニッツ",
         "url_en": "https://en.wikipedia.org/wiki/60_Minutes",
         "note": "米国の看板ニュース雑誌番組。",
@@ -1910,10 +1846,10 @@
         "startYear": 1968,
         "endYear": 1968,
         "genre": [
-          "MAN",
-          "JAPAN"
+          "JAPAN",
+          "MAN"
         ],
-        "imp": 3,
+        "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/ねじ式",
         "note": "つげ義春のシュール短編。",
         "note_en": "Surreal short manga by Yoshiharu Tsuge."
@@ -1924,9 +1860,8 @@
         "startYear": 1968,
         "endYear": 1973,
         "genre": [
-          "MAN",
-          "TVP",
-          "JAPAN"
+          "JAPAN",
+          "MAN"
         ],
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/あしたのジョー",
@@ -1938,10 +1873,9 @@
         "label": "ゴルゴ13",
         "label_en": "Golgo 13",
         "startYear": 1968,
-        "endYear": "ongoing",
         "genre": [
-          "MAN",
-          "JAPAN"
+          "JAPAN",
+          "MAN"
         ],
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/ゴルゴ13",
@@ -1953,11 +1887,10 @@
         "label": "週刊少年ジャンプ",
         "label_en": "Weekly Shōnen Jump",
         "startYear": 1968,
-        "endYear": "ongoing",
         "genre": [
+          "JAPAN",
           "MAG",
-          "MAN",
-          "JAPAN"
+          "MAN"
         ],
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/週刊少年ジャンプ",
@@ -1969,11 +1902,10 @@
         "label": "ビッグコミック",
         "label_en": "Big Comic",
         "startYear": 1968,
-        "endYear": "ongoing",
         "genre": [
+          "JAPAN",
           "MAG",
-          "MAN",
-          "JAPAN"
+          "MAN"
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/ビッグコミック",
@@ -1985,11 +1917,10 @@
         "label_en": "Zenkyoto (All-Campus Joint Struggle)",
         "startYear": 1968,
         "genre": [
-          "EVT",
-          "PHE",
-          "JAPAN"
+          "JAPAN",
+          "PHE"
         ],
-        "imp": 3,
+        "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/全共闘",
         "note": "学生運動の主要セクト。",
         "note_en": "Major faction of Japanese student movement."
@@ -2002,23 +1933,10 @@
           "EVT",
           "JAPAN"
         ],
-        "imp": 3,
+        "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/三億円事件",
         "note": "未解決の大規模現金強奪事件。",
         "note_en": "Unsolved large-scale cash robbery."
-      },
-      {
-        "label": "SPSS",
-        "label_en": "SPSS",
-        "startYear": 1968,
-        "genre": [
-          "SOF"
-        ],
-        "imp": 3,
-        "url": "https://ja.wikipedia.org/wiki/SPSS",
-        "url_en": "https://en.wikipedia.org/wiki/SPSS",
-        "note": "統計解析ソフトの代表格。",
-        "note_en": "Leading statistical analysis software."
       },
       {
         "label": "二重らせん",
@@ -2027,25 +1945,11 @@
         "genre": [
           "BOO"
         ],
-        "imp": 4,
+        "imp": 3,
         "url": "https://ja.wikipedia.org/wiki/二重らせん",
         "url_en": "https://en.wikipedia.org/wiki/The_Double_Helix",
         "note": "DNA発見を描く回想記。",
         "note_en": "Memoir on the discovery of DNA."
-      },
-      {
-        "label": "The Art of Computer Programming",
-        "label_en": "The Art of Computer Programming",
-        "startYear": 1968,
-        "genre": [
-          "BOO",
-          "SOF"
-        ],
-        "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/The_Art_of_Computer_Programming",
-        "url_en": "https://en.wikipedia.org/wiki/The_Art_of_Computer_Programming",
-        "note": "計算機科学の古典的大全。",
-        "note_en": "Classic multi-volume work in CS."
       },
       {
         "label": "ホットウィール",
@@ -2054,7 +1958,7 @@
         "genre": [
           "TOY"
         ],
-        "imp": 4,
+        "imp": 3,
         "url": "https://ja.wikipedia.org/wiki/ホットウィール",
         "url_en": "https://en.wikipedia.org/wiki/Hot_Wheels",
         "note": "米マテルのダイキャスト玩具。",
@@ -2081,12 +1985,12 @@
         "startYear": 1969,
         "genre": [
           "HAR",
-          "SOF",
+          "MOV",
           "NET",
-          "MOV"
+          "SOF"
         ],
         "imp": 3,
-        "url": "https://en.wikipedia.org/wiki/Scanimate",
+        "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%82%AD%E3%83%A3%E3%83%8B%E3%83%A1%E3%82%A4%E3%83%88",
         "url_en": "https://en.wikipedia.org/wiki/Scanimate",
         "note": "アナログ映像合成機によるCG前史。",
         "note_en": "Analog video synthesizer for early motion graphics."
@@ -2097,8 +2001,8 @@
         "startYear": 1969,
         "endYear": 1986,
         "genre": [
-          "TVP",
-          "JAPAN"
+          "JAPAN",
+          "TVP"
         ],
         "imp": 3,
         "url": "https://ja.wikipedia.org/wiki/クイズタイムショック",
@@ -2109,11 +2013,10 @@
         "label": "サザエさん",
         "label_en": "Sazae-san (TV anime)",
         "startYear": 1969,
-        "endYear": "ongoing",
         "genre": [
           "ANI",
-          "TVP",
-          "JAPAN"
+          "JAPAN",
+          "TVP"
         ],
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/サザエさん",
@@ -2128,11 +2031,10 @@
         "endYear": 1971,
         "genre": [
           "ANI",
-          "MAN",
-          "TVP",
-          "JAPAN"
+          "JAPAN",
+          "TVP"
         ],
-        "imp": 4,
+        "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/アタックNo.1",
         "url_en": "https://en.wikipedia.org/wiki/Attack_No._1",
         "note": "女子スポ根の金字塔。",
@@ -2144,23 +2046,22 @@
         "startYear": 1969,
         "endYear": 1985,
         "genre": [
-          "TVP",
-          "JAPAN"
+          "JAPAN",
+          "TVP"
         ],
-        "imp": 4,
+        "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/8時だョ!全員集合",
         "note": "ザ・ドリフターズの国民的バラエティ。",
-        "note_en": "Legendary Japanese sketch/variety show."
+        "note_en": "Legendary Japanese sketch/variety show.",
+        "url_en": "https://en.wikipedia.org/wiki/Hachiji_da_yo!_Zen%27in_sh%C5%ABg%C5%8D"
       },
       {
         "label": "セサミストリート",
         "label_en": "Sesame Street",
         "startYear": 1969,
-        "endYear": "ongoing",
         "genre": [
-          "TVP",
-          "RDO",
-          "MUS"
+          "MUS",
+          "TVP"
         ],
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/セサミストリート",
@@ -2175,8 +2076,8 @@
         "endYear": 1996,
         "genre": [
           "ANI",
-          "TVP",
-          "JAPAN"
+          "JAPAN",
+          "TVP"
         ],
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/ドラえもん",
@@ -2188,14 +2089,12 @@
         "label": "ユリイカ",
         "label_en": "Eureka (poetry magazine)",
         "startYear": 1969,
-        "endYear": "ongoing",
         "genre": [
-          "MAG",
-          "BOO",
-          "JAPAN"
+          "JAPAN",
+          "MAG"
         ],
         "imp": 3,
-        "url": "https://ja.wikipedia.org/wiki/ユリイカ",
+        "url": "https://ja.wikipedia.org/wiki/%E3%83%A6%E3%83%AA%E3%82%A4%E3%82%AB_(%E9%9B%91%E8%AA%8C)",
         "note": "詩と批評の文芸誌。",
         "note_en": "Japanese literary magazine of poetry/criticism."
       },
@@ -2203,44 +2102,14 @@
         "label": "週刊ポスト",
         "label_en": "Shūkan Post",
         "startYear": 1969,
-        "endYear": "ongoing",
         "genre": [
-          "MAG",
-          "JAPAN"
+          "JAPAN",
+          "MAG"
         ],
-        "imp": 3,
+        "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/週刊ポスト",
         "note": "総合週刊誌。",
         "note_en": "Japanese general weekly magazine."
-      },
-      {
-        "label": "ARPANET",
-        "label_en": "ARPANET",
-        "startYear": 1969,
-        "genre": [
-          "NET",
-          "HAR",
-          "SOF"
-        ],
-        "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/ARPANET",
-        "url_en": "https://en.wikipedia.org/wiki/ARPANET",
-        "note": "インターネットの祖形。",
-        "note_en": "Precursor of the Internet."
-      },
-      {
-        "label": "CompuServe",
-        "label_en": "CompuServe",
-        "startYear": 1969,
-        "genre": [
-          "NET",
-          "SOF"
-        ],
-        "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/コンピュサーブ",
-        "url_en": "https://en.wikipedia.org/wiki/CompuServe",
-        "note": "商用オンラインサービスの先駆。",
-        "note_en": "Pioneer commercial online service."
       },
       {
         "label": "ウッドストック・フェスティバル",
@@ -2264,7 +2133,7 @@
           "FAS",
           "JAPAN"
         ],
-        "imp": 4,
+        "imp": 3,
         "url": "https://ja.wikipedia.org/wiki/コム・デ・ギャルソン",
         "url_en": "https://en.wikipedia.org/wiki/Comme_des_Gar%C3%A7ons",
         "note": "川久保玲の前衛的ファッション。",
@@ -2278,24 +2147,11 @@
           "FAS",
           "HAR"
         ],
-        "imp": 4,
+        "imp": 2,
         "url": "https://ja.wikipedia.org/wiki/ゴアテックス",
         "url_en": "https://en.wikipedia.org/wiki/Gore-Tex",
         "note": "防水透湿素材の革命。",
         "note_en": "Revolutionary waterproof breathable fabric."
-      },
-      {
-        "label": "Multics",
-        "label_en": "Multics",
-        "startYear": 1969,
-        "genre": [
-          "SOF"
-        ],
-        "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/Multics",
-        "url_en": "https://en.wikipedia.org/wiki/Multics",
-        "note": "分割・共有の概念を先導したOS。",
-        "note_en": "Influential time-sharing OS."
       }
     ],
     "1970": [
@@ -2317,12 +2173,11 @@
         "label": "San Diego Comic-Con",
         "label_en": "San Diego Comic-Con",
         "startYear": 1970,
-        "endYear": "ongoing",
         "genre": [
-          "EVT",
-          "MAN",
           "ANI",
-          "GAM"
+          "EVT",
+          "GAM",
+          "MAN"
         ],
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/サンディエゴ・コミックコン",
@@ -2334,10 +2189,9 @@
         "label": "NNNドキュメント",
         "label_en": "NNN Document",
         "startYear": 1970,
-        "endYear": "ongoing",
         "genre": [
-          "TVP",
-          "JAPAN"
+          "JAPAN",
+          "TVP"
         ],
         "imp": 3,
         "url": "https://ja.wikipedia.org/wiki/NNNドキュメント",
@@ -2364,8 +2218,8 @@
         "startYear": 1970,
         "genre": [
           "EVT",
-          "MUS",
-          "JAPAN"
+          "JAPAN",
+          "MUS"
         ],
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/カラオケ",
@@ -2381,50 +2235,24 @@
           "FAS",
           "JAPAN"
         ],
-        "imp": 4,
+        "imp": 2,
         "url": "https://ja.wikipedia.org/wiki/三宅一生",
         "url_en": "https://en.wikipedia.org/wiki/Issey_Miyake",
         "note": "前衛的な衣服デザインで世界的評価。",
         "note_en": "Globally acclaimed avant-garde fashion designer."
       },
       {
-        "label": "Pascal",
-        "label_en": "Pascal (language)",
-        "startYear": 1970,
-        "genre": [
-          "SOF"
-        ],
-        "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/Pascal",
-        "url_en": "https://en.wikipedia.org/wiki/Pascal_(programming_language)",
-        "note": "教育用に普及した構造化言語。",
-        "note_en": "Structured language popular in education."
-      },
-      {
         "label": "トミカ",
         "label_en": "Tomica",
         "startYear": 1970,
         "genre": [
-          "TOY",
-          "JAPAN"
+          "JAPAN",
+          "TOY"
         ],
-        "imp": 4,
+        "imp": 3,
         "url": "https://ja.wikipedia.org/wiki/トミカ",
         "note": "日本のダイキャストミニカー。",
         "note_en": "Japanese die-cast mini car brand."
-      },
-      {
-        "label": "PDP-11",
-        "label_en": "PDP-11",
-        "startYear": 1970,
-        "genre": [
-          "HAR"
-        ],
-        "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/PDP-11",
-        "url_en": "https://en.wikipedia.org/wiki/PDP-11",
-        "note": "ミニコンの代表的名機。",
-        "note_en": "Classic and influential minicomputer."
       }
     ],
     "1971": [
@@ -2434,10 +2262,10 @@
         "startYear": 1971,
         "endYear": 1974,
         "genre": [
-          "PHE",
-          "JAPAN"
+          "JAPAN",
+          "PHE"
         ],
-        "imp": 3,
+        "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/団塊ジュニア",
         "note": "第二次ベビーブーム世代。",
         "note_en": "Japan’s second baby boom cohort."
@@ -2448,10 +2276,10 @@
         "startYear": 1971,
         "endYear": 1988,
         "genre": [
-          "MOV",
-          "JAPAN"
+          "JAPAN",
+          "MOV"
         ],
-        "imp": 3,
+        "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/ロマンポルノ",
         "url_en": "https://en.wikipedia.org/wiki/Roman_Porno",
         "note": "成人映画レーベルとして一時代。",
@@ -2461,7 +2289,6 @@
         "label": "カップヌードル",
         "label_en": "Cup Noodles",
         "startYear": 1971,
-        "endYear": "ongoing",
         "genre": [
           "FOO",
           "JAPAN"
@@ -2476,12 +2303,11 @@
         "label": "日本マクドナルド",
         "label_en": "McDonald’s Japan",
         "startYear": 1971,
-        "endYear": "ongoing",
         "genre": [
           "FOO",
           "JAPAN"
         ],
-        "imp": 4,
+        "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/日本マクドナルド",
         "url_en": "https://en.wikipedia.org/wiki/McDonald%27s_Japan",
         "note": "外食チェーンの象徴的進出。",
@@ -2491,7 +2317,6 @@
         "label": "ミスタードーナツ（日本）",
         "label_en": "Mister Donut (Japan)",
         "startYear": 1971,
-        "endYear": "ongoing",
         "genre": [
           "FOO",
           "JAPAN"
@@ -2509,8 +2334,8 @@
         "endYear": 1972,
         "genre": [
           "ANI",
-          "TVP",
-          "JAPAN"
+          "JAPAN",
+          "TVP"
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/ルパン三世_(TV第1シリーズ)",
@@ -2524,13 +2349,13 @@
         "startYear": 1971,
         "endYear": 1973,
         "genre": [
-          "TVP",
           "ANI",
-          "JAPAN"
+          "JAPAN",
+          "TVP"
         ],
         "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/仮面ライダー_(1971年のテレビドラマ)",
-        "url_en": "https://en.wikipedia.org/wiki/Kamen_Rider_(TV_series)",
+        "url": "https://ja.wikipedia.org/wiki/%E4%BB%AE%E9%9D%A2%E3%83%A9%E3%82%A4%E3%83%80%E3%83%BC",
+        "url_en": "https://en.wikipedia.org/wiki/Kamen_Rider_(1971_TV_series)",
         "note": "変身ヒーローの礎を築く。",
         "note_en": "Foundation of the transforming hero genre."
       },
@@ -2538,10 +2363,9 @@
         "label": "新婚さんいらっしゃい!",
         "label_en": "Shinkon-san Irasshai!",
         "startYear": 1971,
-        "endYear": "ongoing",
         "genre": [
-          "TVP",
-          "JAPAN"
+          "JAPAN",
+          "TVP"
         ],
         "imp": 3,
         "url": "https://ja.wikipedia.org/wiki/新婚さんいらっしゃい!",
@@ -2554,11 +2378,11 @@
         "startYear": 1971,
         "endYear": 1973,
         "genre": [
-          "MAG",
-          "JAPAN"
+          "JAPAN",
+          "MAG"
         ],
         "imp": 2,
-        "url": "https://ja.wikipedia.org/wiki/面白半分_(雑誌)",
+        "url": "https://ja.wikipedia.org/wiki/%E9%9D%A2%E7%99%BD%E5%8D%8A%E5%88%86",
         "note": "前衛・サブカル誌。",
         "note_en": "Japanese avant-garde subculture magazine."
       },
@@ -2566,11 +2390,9 @@
         "label": "日経サイエンス",
         "label_en": "Nikkei Science",
         "startYear": 1971,
-        "endYear": "ongoing",
         "genre": [
-          "MAG",
-          "BOO",
-          "JAPAN"
+          "JAPAN",
+          "MAG"
         ],
         "imp": 3,
         "url": "https://ja.wikipedia.org/wiki/日経サイエンス",
@@ -2581,31 +2403,15 @@
         "label": "non-no",
         "label_en": "non-no",
         "startYear": 1971,
-        "endYear": "ongoing",
         "genre": [
-          "MAG",
           "FAS",
-          "JAPAN"
+          "JAPAN",
+          "MAG"
         ],
-        "imp": 3,
+        "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/Non-no",
         "note": "若年女性向けファッション誌。",
         "note_en": "Japanese young women’s fashion magazine."
-      },
-      {
-        "label": "ALOHAnet",
-        "label_en": "ALOHAnet",
-        "startYear": 1971,
-        "genre": [
-          "NET",
-          "SOF",
-          "HAR"
-        ],
-        "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/ALOHA_Net",
-        "url_en": "https://en.wikipedia.org/wiki/ALOHAnet",
-        "note": "無線パケット通信の先駆。",
-        "note_en": "Pioneer of wireless packet networking."
       },
       {
         "label": "UNIX",
@@ -2614,7 +2420,7 @@
         "genre": [
           "SOF"
         ],
-        "imp": 5,
+        "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/UNIX",
         "url_en": "https://en.wikipedia.org/wiki/Unix",
         "note": "現代OSの原点の一つ。",
@@ -2631,7 +2437,7 @@
           "MUS"
         ],
         "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/SL-1200",
+        "url": "https://ja.wikipedia.org/wiki/Technics_SL-1200",
         "url_en": "https://en.wikipedia.org/wiki/Technics_SL-1200",
         "note": "DJ文化を支えた名機ターンテーブル。",
         "note_en": "Legendary turntable central to DJ culture."
@@ -2641,11 +2447,10 @@
         "label_en": "Polaroid SX-70",
         "startYear": 1972,
         "genre": [
-          "HAR",
-          "FMT"
+          "FMT",
+          "HAR"
         ],
         "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/ポラロイド・カメラ",
         "url_en": "https://en.wikipedia.org/wiki/Polaroid_SX-70",
         "note": "折り畳み即写カメラの名機。",
         "note_en": "Iconic folding instant camera."
@@ -2656,8 +2461,8 @@
         "startYear": 1972,
         "endYear": 1976,
         "genre": [
-          "MAN",
-          "JAPAN"
+          "JAPAN",
+          "MAN"
         ],
         "imp": 3,
         "url": "https://ja.wikipedia.org/wiki/ポーの一族",
@@ -2668,11 +2473,10 @@
         "label": "新日本プロレス",
         "label_en": "New Japan Pro-Wrestling",
         "startYear": 1972,
-        "endYear": "ongoing",
         "genre": [
-          "SPW",
           "EVT",
-          "JAPAN"
+          "JAPAN",
+          "SPW"
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/新日本プロレス",
@@ -2684,11 +2488,10 @@
         "label": "全日本プロレス",
         "label_en": "All Japan Pro Wrestling",
         "startYear": 1972,
-        "endYear": "ongoing",
         "genre": [
-          "SPW",
           "EVT",
-          "JAPAN"
+          "JAPAN",
+          "SPW"
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/全日本プロレス",
@@ -2700,7 +2503,6 @@
         "label": "モスバーガー",
         "label_en": "MOS Burger",
         "startYear": 1972,
-        "endYear": "ongoing",
         "genre": [
           "FOO",
           "JAPAN"
@@ -2717,9 +2519,9 @@
         "endYear": 1974,
         "genre": [
           "ANI",
+          "JAPAN",
           "MAN",
-          "TVP",
-          "JAPAN"
+          "TVP"
         ],
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/マジンガーZ",
@@ -2734,11 +2536,11 @@
         "endYear": 1973,
         "genre": [
           "ANI",
+          "JAPAN",
           "MAN",
-          "TVP",
-          "JAPAN"
+          "TVP"
         ],
-        "imp": 4,
+        "imp": 3,
         "url": "https://ja.wikipedia.org/wiki/デビルマン",
         "url_en": "https://en.wikipedia.org/wiki/Devilman",
         "note": "ダークな世界観で影響大。",
@@ -2750,9 +2552,8 @@
         "startYear": 1972,
         "endYear": 1973,
         "genre": [
-          "MAN",
-          "ANI",
-          "JAPAN"
+          "JAPAN",
+          "MAN"
         ],
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/ベルサイユのばら",
@@ -2766,8 +2567,8 @@
         "startYear": 1972,
         "genre": [
           "EVT",
-          "SPW",
-          "JAPAN"
+          "JAPAN",
+          "SPW"
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/1972年札幌オリンピック",
@@ -2783,7 +2584,7 @@
           "EVT",
           "JAPAN"
         ],
-        "imp": 3,
+        "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/あさま山荘事件",
         "note": "連合赤軍立てこもり事件。",
         "note_en": "Infamous United Red Army siege."
@@ -2796,37 +2597,11 @@
           "FAS",
           "JAPAN"
         ],
-        "imp": 4,
+        "imp": 3,
         "url": "https://ja.wikipedia.org/wiki/山本耀司",
         "url_en": "https://en.wikipedia.org/wiki/Yohji_Yamamoto",
         "note": "黒を基調にした前衛デザイン。",
         "note_en": "Avant-garde designer famed for black."
-      },
-      {
-        "label": "C言語",
-        "label_en": "C programming language",
-        "startYear": 1972,
-        "genre": [
-          "SOF"
-        ],
-        "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/C言語",
-        "url_en": "https://en.wikipedia.org/wiki/C_(programming_language)",
-        "note": "近代ソフトウェアの基盤言語。",
-        "note_en": "Foundational language of modern software."
-      },
-      {
-        "label": "Smalltalk",
-        "label_en": "Smalltalk",
-        "startYear": 1972,
-        "genre": [
-          "SOF"
-        ],
-        "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/Smalltalk",
-        "url_en": "https://en.wikipedia.org/wiki/Smalltalk",
-        "note": "オブジェクト指向の源流。",
-        "note_en": "Root of object-oriented programming."
       },
       {
         "label": "成長の限界",
@@ -2864,7 +2639,7 @@
           "SOF"
         ],
         "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/Pong",
+        "url": "https://ja.wikipedia.org/wiki/%E3%83%9D%E3%83%B3_(%E3%82%B2%E3%83%BC%E3%83%A0)",
         "url_en": "https://en.wikipedia.org/wiki/Pong",
         "note": "アーケードゲーム普及の嚆矢。",
         "note_en": "Catalyst for arcade video games."
@@ -2890,7 +2665,7 @@
         "genre": [
           "HAR"
         ],
-        "imp": 4,
+        "imp": 3,
         "url": "https://ja.wikipedia.org/wiki/HP-35",
         "url_en": "https://en.wikipedia.org/wiki/HP-35",
         "note": "初の科学技術向けポケット電卓。",
@@ -2904,7 +2679,7 @@
           "HAR",
           "JAPAN"
         ],
-        "imp": 4,
+        "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/カシオミニ",
         "note": "個人向け電卓普及の原動力。",
         "note_en": "Drove mass adoption of personal calculators."
@@ -2917,9 +2692,9 @@
         "startYear": 1973,
         "endYear": 1980,
         "genre": [
-          "MAN",
           "ANI",
-          "JAPAN"
+          "JAPAN",
+          "MAN"
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/エースをねらえ!",
@@ -2933,8 +2708,8 @@
         "startYear": 1973,
         "endYear": 1974,
         "genre": [
-          "MAN",
-          "JAPAN"
+          "JAPAN",
+          "MAN"
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/はだしのゲン",
@@ -2948,8 +2723,8 @@
         "startYear": 1973,
         "endYear": 1983,
         "genre": [
-          "MAN",
-          "JAPAN"
+          "JAPAN",
+          "MAN"
         ],
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/ブラック・ジャック",
@@ -2961,12 +2736,11 @@
         "label": "宝島",
         "label_en": "Takarajima (magazine)",
         "startYear": 1973,
-        "endYear": "ongoing",
         "genre": [
-          "MAG",
-          "JAPAN"
+          "JAPAN",
+          "MAG"
         ],
-        "imp": 3,
+        "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/宝島_(雑誌)",
         "note": "サブカル系の情報誌。",
         "note_en": "Japanese subculture information magazine."
@@ -2990,28 +2764,13 @@
         "label_en": "Toilet paper panic (JP)",
         "startYear": 1973,
         "genre": [
-          "PHE",
-          "JAPAN"
+          "JAPAN",
+          "PHE"
         ],
-        "imp": 2,
+        "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/トイレットペーパー騒動",
         "note": "買い占め騒動の象徴例。",
         "note_en": "Symbolic Japanese panic buying incident."
-      },
-      {
-        "label": "イーサネット",
-        "label_en": "Ethernet",
-        "startYear": 1973,
-        "genre": [
-          "NET",
-          "SOF",
-          "HAR"
-        ],
-        "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/Ethernet",
-        "url_en": "https://en.wikipedia.org/wiki/Ethernet",
-        "note": "LAN技術の標準。",
-        "note_en": "Standard technology for LANs."
       },
       {
         "label": "ピンク・フロイド『狂気』",
