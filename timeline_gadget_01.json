@@ -1,4 +1,37 @@
 {
+  "metadata": {
+    "title": {
+      "ja": "ガジェットの年表 0.1",
+      "en": "Gadget Timeline 0.1"
+    },
+    "description": {
+      "ja": "この年表はガジェット分野の主な製品や出来事を示します。現状、試験公開中であり内容を精査している段階です。",
+      "en": "This timeline shows major products and events in the gadget sector. It is currently in a trial release and is being reviewed for accuracy."
+    },
+    "initialCreator": "Satoshi Endo",
+    "contributors": [
+      "Satoshi Endo",
+      "Hortense Endo"
+    ],
+    "contact": {
+      "administrator": {
+        "name": "Satoshi Endo",
+        "email": "zzz@65536.net",
+        "x": "https://x.com/hortense667",
+        "organization": "ZEN University"
+      }
+    },
+    "createdAt": "2025-10-01",
+    "version": "1.0",
+    "language": [
+      "ja",
+      "en"
+    ],
+    "copyright": "Â© 2025 Satoshi Endo",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "notes": "Updates from contributors are welcome. Please do not create separate versions. When reusing data, credit the original authors."
+  },
   "events": {
     "1910": [
       {
@@ -6739,11 +6772,5 @@
       "label_en": "Scratch",
       "conjunction": true
     }
-  ],
-  "metadata": {
-    "title": {
-      "ja": "ガジェットの年表 0.1",
-      "en": "Gadget Timeline 0.1"
-    }
-  }
+  ]
 }
