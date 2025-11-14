@@ -31,6 +31,21 @@
     "notes": "Updates from contributors are welcome. Please do not create separate versions. When reusing data, credit the original authors."
   },
   "events": {
+    "1920": [
+      {
+        "label": "R.U.R.",
+        "startYear": 1920,
+        "genre": [
+          "CONTENT"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/R.U.R.",
+        "note": "カレル・チャペックの戯曲。「ロボット」という言葉が登場。命名したのは兄のヨゼフ・チャペックらしい。",
+        "label_en": "R.U.R.",
+        "url_en": "https://en.wikipedia.org/wiki/R.U.R.",
+        "note_en": "Karel Čapek's play. The word \"robot\" appears.It seems that it was named by his brother, Josef Čapek."
+      }
+    ],
     "1942": [
       {
         "label": "ロボット工学三原則",
