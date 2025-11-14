@@ -30,118 +30,6 @@
     "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
     "notes": "Updates from contributors are welcome. Please do not create separate versions. When reusing data, credit the original authors."
   },
-  "schemaVersion": 1,
-  "genres": [
-    {
-      "code": "THEORY",
-      "label": "理論/モデル/アルゴリズム",
-      "label_en": "Theory/Models/Algorithms",
-      "conjunction": false
-    },
-    {
-      "code": "SOFTWARE",
-      "label": "ソフトウェア/開発基盤/サービス",
-      "label_en": "Software/Frameworks/Services",
-      "conjunction": false
-    },
-    {
-      "code": "HARDWARE",
-      "label": "ハードウェア/デバイス/計算基盤",
-      "label_en": "Hardware/Devices/Compute",
-      "conjunction": false
-    },
-    {
-      "code": "ROBOTICS",
-      "label": "ロボティクス/自律システム",
-      "label_en": "Robotics/Autonomous Systems",
-      "conjunction": false
-    },
-    {
-      "code": "DATA",
-      "label": "データセット/ベンチマーク",
-      "label_en": "Datasets/Benchmarks",
-      "conjunction": false
-    },
-    {
-      "code": "ORG",
-      "label": "人物/組織/プロジェクト",
-      "label_en": "People/Orgs/Projects",
-      "conjunction": false
-    },
-    {
-      "code": "APPLICATION",
-      "label": "応用/製品/サービス",
-      "label_en": "Applications/Products/Services",
-      "conjunction": false
-    },
-    {
-      "code": "CONTENT",
-      "label": "メディア/コンテンツ（小説/映画/アニメ/ゲーム/書籍）",
-      "label_en": "Media/Content (Fiction/Film/Anime/Game/Books)",
-      "conjunction": false
-    },
-    {
-      "code": "EVENT",
-      "label": "出来事/政策/競技/歴史的転換",
-      "label_en": "Events/Policy/Competitions/Turning points",
-      "conjunction": false
-    },
-    {
-      "code": "P_NEURAL",
-      "label": "ニューラルネット系",
-      "label_en": "Neural-network based",
-      "conjunction": true
-    },
-    {
-      "code": "P_SYMBOLIC",
-      "label": "記号処理/ルール系",
-      "label_en": "Symbolic/Rule-based",
-      "conjunction": true
-    },
-    {
-      "code": "P_GENERATIVE",
-      "label": "生成モデル系",
-      "label_en": "Generative models",
-      "conjunction": true
-    },
-    {
-      "code": "P_RL",
-      "label": "強化学習系",
-      "label_en": "Reinforcement learning",
-      "conjunction": true
-    },
-    {
-      "code": "P_PROB",
-      "label": "確率/ベイズ系",
-      "label_en": "Probabilistic/Bayesian",
-      "conjunction": true
-    },
-    {
-      "code": "P_EVOL",
-      "label": "進化/遺伝的計算系",
-      "label_en": "Evolutionary/Genetic",
-      "conjunction": true
-    },
-    {
-      "code": "JAPAN",
-      "label": "日本",
-      "label_en": "Japan",
-      "conjunction": true
-    },
-    {
-      "code": "CHINA",
-      "label": "中国",
-      "label_en": "CHINA",
-      "conjunction": true
-    },
-    {
-      "code": "BACKGROUND",
-      "label": "時代背景/一般技術",
-      "label_en": "Era background / General tech",
-      "conjunction": false
-    }
-  ],
-  "eraSettings": [],
   "events": {
     "1942": [
       {
@@ -1491,21 +1379,6 @@
       }
     ],
     "1998": [
-      {
-        "label": "AIBO（初代）",
-        "label_en": "Sony AIBO (1st gen)",
-        "startYear": 1998,
-        "genre": [
-          "ROBOTICS",
-          "APPLICATION",
-          "JAPAN"
-        ],
-        "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/AIBO",
-        "url_en": "https://en.wikipedia.org/wiki/AIBO",
-        "note": "家庭向けエンタメロボの象徴。",
-        "note_en": "Iconic consumer entertainment robot."
-      },
       {
         "label": "MNIST",
         "label_en": "MNIST",
@@ -5019,5 +4892,116 @@
         "note_en": "DeepSeek-R1 is a reasoning-focused model whose RL-only training framework incentivizes emergent reasoning patterns like self-verification and adaptive strategies."
       }
     ]
-  }
+  },
+  "eraSettings": [],
+  "genres": [
+    {
+      "code": "THEORY",
+      "label": "理論/モデル/アルゴリズム",
+      "label_en": "Theory/Models/Algorithms",
+      "conjunction": false
+    },
+    {
+      "code": "SOFTWARE",
+      "label": "ソフトウェア/開発基盤/サービス",
+      "label_en": "Software/Frameworks/Services",
+      "conjunction": false
+    },
+    {
+      "code": "HARDWARE",
+      "label": "ハードウェア/デバイス/計算基盤",
+      "label_en": "Hardware/Devices/Compute",
+      "conjunction": false
+    },
+    {
+      "code": "ROBOTICS",
+      "label": "ロボティクス/自律システム",
+      "label_en": "Robotics/Autonomous Systems",
+      "conjunction": false
+    },
+    {
+      "code": "DATA",
+      "label": "データセット/ベンチマーク",
+      "label_en": "Datasets/Benchmarks",
+      "conjunction": false
+    },
+    {
+      "code": "ORG",
+      "label": "人物/組織/プロジェクト",
+      "label_en": "People/Orgs/Projects",
+      "conjunction": false
+    },
+    {
+      "code": "APPLICATION",
+      "label": "応用/製品/サービス",
+      "label_en": "Applications/Products/Services",
+      "conjunction": false
+    },
+    {
+      "code": "CONTENT",
+      "label": "メディア/コンテンツ（小説/映画/アニメ/ゲーム/書籍）",
+      "label_en": "Media/Content (Fiction/Film/Anime/Game/Books)",
+      "conjunction": false
+    },
+    {
+      "code": "EVENT",
+      "label": "出来事/政策/競技/歴史的転換",
+      "label_en": "Events/Policy/Competitions/Turning points",
+      "conjunction": false
+    },
+    {
+      "code": "P_NEURAL",
+      "label": "ニューラルネット系",
+      "label_en": "Neural-network based",
+      "conjunction": true
+    },
+    {
+      "code": "P_SYMBOLIC",
+      "label": "記号処理/ルール系",
+      "label_en": "Symbolic/Rule-based",
+      "conjunction": true
+    },
+    {
+      "code": "P_GENERATIVE",
+      "label": "生成モデル系",
+      "label_en": "Generative models",
+      "conjunction": true
+    },
+    {
+      "code": "P_RL",
+      "label": "強化学習系",
+      "label_en": "Reinforcement learning",
+      "conjunction": true
+    },
+    {
+      "code": "P_PROB",
+      "label": "確率/ベイズ系",
+      "label_en": "Probabilistic/Bayesian",
+      "conjunction": true
+    },
+    {
+      "code": "P_EVOL",
+      "label": "進化/遺伝的計算系",
+      "label_en": "Evolutionary/Genetic",
+      "conjunction": true
+    },
+    {
+      "code": "JAPAN",
+      "label": "日本",
+      "label_en": "Japan",
+      "conjunction": true
+    },
+    {
+      "code": "CHINA",
+      "label": "中国",
+      "label_en": "CHINA",
+      "conjunction": true
+    },
+    {
+      "code": "BACKGROUND",
+      "label": "時代背景/一般技術",
+      "label_en": "Era background / General tech",
+      "conjunction": false
+    }
+  ]
 }
