@@ -31,6 +31,22 @@
     "notes": "Updates from contributors are welcome. Please do not create separate versions. When reusing data, credit the original authors."
   },
   "events": {
+    "1912": [
+      {
+        "label": "エル・アヘドレシスタ",
+        "startYear": 1912,
+        "genre": [
+          "HARDWARE",
+          "ROBOTICS"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/%E3%82%A8%E3%83%AB%E3%83%BB%E3%82%A2%E3%83%98%E3%83%89%E3%83%AC%E3%82%B7%E3%82%B9%E3%82%BF",
+        "note": "電気機械式のチェスマシンで最初のコンピューターゲームとする意見もある。",
+        "label_en": "El Ajedrecista",
+        "url_en": "https://en.wikipedia.org/wiki/El_Ajedrecista",
+        "note_en": "There is an opinion that the electromechanical chess machine could be considered the first computer game."
+      }
+    ],
     "1920": [
       {
         "label": "R.U.R.",
@@ -44,6 +60,21 @@
         "label_en": "R.U.R.",
         "url_en": "https://en.wikipedia.org/wiki/R.U.R.",
         "note_en": "Karel Čapek's play. The word \"robot\" appears.It seems that it was named by his brother, Josef Čapek."
+      }
+    ],
+    "1927": [
+      {
+        "label": "メトロポリス",
+        "startYear": 1927,
+        "genre": [
+          "CONTENT"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/%E3%83%A1%E3%83%88%E3%83%AD%E3%83%9D%E3%83%AA%E3%82%B9_(1927%E5%B9%B4%E3%81%AE%E6%98%A0%E7%94%BB)",
+        "note": "100年後のディストピア的な未来都市が描かれておりアンドロイドのマリアが登場。",
+        "label_en": "Metropolis",
+        "url_en": "https://en.wikipedia.org/wiki/Metropolis_(1927_film)",
+        "note_en": "In this film, which depicts a dystopian future city 100 years after its creation, the android Maria appears."
       }
     ],
     "1942": [
