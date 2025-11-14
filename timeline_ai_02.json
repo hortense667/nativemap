@@ -28,7 +28,7 @@
     "copyright": "© 2025 Satoshi Endo",
     "license": "CC BY 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
-    "notes": "This work is licensed under CC BY 4.0. You may reuse, modify, and redistribute this data in any media or format. When doing so, please credit the original author (Satoshi Endo), provide a link to the license, and indicate if any changes were made. Please do not create separate versions; keep the original author credit intact."
+    "notes": "Updates from contributors are welcome. Please do not create separate versions. When reusing data, credit the original authors."
   },
   "events": {
     "1912": [
@@ -3082,32 +3082,19 @@
     ],
     "2018": [
       {
-        "label": "AlphaFold 2（計画開始?発表は後年）",
-        "label_en": "AlphaFold 2",
+        "label": "AlphaFold 2",
         "startYear": 2018,
         "genre": [
-          "APPLICATION",
           "THEORY",
+          "APPLICATION",
           "P_NEURAL"
         ],
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/AlphaFold",
-        "url_en": "https://en.wikipedia.org/wiki/AlphaFold",
         "note": "タンパク質構造予測を飛躍。",
+        "label_en": "AlphaFold 2",
+        "url_en": "https://en.wikipedia.org/wiki/AlphaFold",
         "note_en": "Breakthrough in protein structure prediction."
-      },
-      {
-        "label": "ANYmal（脚ロボの進化）",
-        "label_en": "ANYmal (legged robot)",
-        "startYear": 2018,
-        "genre": [
-          "HARDWARE",
-          "ROBOTICS"
-        ],
-        "imp": 3,
-        "url_en": "https://www.anybotics.com/robotics/anymal/",
-        "note": "四脚ロボが自律性と実用性を向上。",
-        "note_en": "Quadruped robot improved autonomy and utility."
       },
       {
         "label": "Baidu ERNIE",
@@ -3279,6 +3266,19 @@
         "url": "https://www.amazon.co.jp/dp/B07BKS5ZMV/",
         "note": "独立行政法人情報処理推進機構 AI白書編集委員会編集",
         "label_en": "AI White paper"
+      },
+      {
+        "label": "ANYmal",
+        "startYear": 2018,
+        "genre": [
+          "HARDWARE",
+          "ROBOTICS"
+        ],
+        "imp": 3,
+        "note": "四脚ロボが自律性と実用性を向上。",
+        "label_en": "ANYmal",
+        "url_en": "https://www.anybotics.com/robotics/anymal/",
+        "note_en": "Quadruped robot improved autonomy and utility."
       }
     ],
     "2019": [
@@ -4732,20 +4732,6 @@
         "url_en": "https://www.microsoft.com/en-us/windows/business/devices/copilot-plus-pcs",
         "note": "NPUを活用するAI体験が2025年にかけて順次拡充。ライブ翻訳等を提供。",
         "note_en": "NPU-powered Windows AI features continue rolling out across Copilot+ PCs through 2025."
-      },
-      {
-        "label": "Cursorのエージェント/ブラウザ操作の拡張",
-        "label_en": "Cursor Agent upgrades (browser controls)",
-        "startYear": 2025,
-        "genre": [
-          "SOFTWARE",
-          "APPLICATION"
-        ],
-        "imp": 3,
-        "url": "https://cursor.com/changelog",
-        "url_en": "https://cursor.com/blog",
-        "note": "ブラウザ操作やCLI対応などエージェント機能を強化。開発ワークフロー自動化が進展。",
-        "note_en": "Agent gains browser controls/CLI, pushing workflow automation forward."
       },
       {
         "label": "DeepSeek R1",
