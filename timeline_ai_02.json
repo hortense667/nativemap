@@ -1,8 +1,8 @@
 {
   "metadata": {
     "title": {
-      "ja": "AIの年表 0.1",
-      "en": "Japan Digital Timeline 0.1"
+      "ja": "AIの年表 0.2",
+      "en": "Japan Digital Timeline 0.2"
     },
     "description": {
       "ja": "この年表はAI分野の主な製品や出来事を示します。現状、試験公開中であり内容を精査している段階です。",
@@ -20,7 +20,7 @@
       }
     },
     "createdAt": "2025-10-01",
-    "version": "1.0",
+    "version": "0.2",
     "language": [
       "ja",
       "en"
