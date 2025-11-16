@@ -32,93 +32,6 @@
     "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
     "notes_en": "This work is licensed under CC BY 4.0. When reusing, please credit the original author (Satoshi Endo), provide a link to the license, and indicate if any changes were made. Please do not create separate versions; keep the original author credit intact."
   },
-  "eraSettings": [],
-  "genres": [
-    {
-      "code": "COMPUTER",
-      "label": "コンピュータ",
-      "label_en": "Computer",
-      "conjunction": false
-    },
-    {
-      "code": "MOBILE",
-      "label": "モバイル・PDA・携帯",
-      "label_en": "Mobile/PDA/Phone",
-      "conjunction": false
-    },
-    {
-      "code": "WEARABLE",
-      "label": "ウェアラブル",
-      "label_en": "Wearable",
-      "conjunction": false
-    },
-    {
-      "code": "CAMERA",
-      "label": "カメラ・撮影",
-      "label_en": "Camera/Imaging",
-      "conjunction": false
-    },
-    {
-      "code": "MEDIA",
-      "label": "メディア・記録",
-      "label_en": "Media/Storage",
-      "conjunction": false
-    },
-    {
-      "code": "PERIPHERAL",
-      "label": "周辺機器・I/O",
-      "label_en": "Peripherals/I-O",
-      "conjunction": false
-    },
-    {
-      "code": "INPUT",
-      "label": "入力デバイス・UI",
-      "label_en": "Input/UI",
-      "conjunction": false
-    },
-    {
-      "code": "GAME",
-      "label": "ゲーム・アーケード",
-      "label_en": "Game/Arcade",
-      "conjunction": false
-    },
-    {
-      "code": "ROBOTOY",
-      "label": "ロボット・おもちゃ",
-      "label_en": "Robotics/Toys",
-      "conjunction": false
-    },
-    {
-      "code": "AUDIO_VIDEO",
-      "label": "オーディオ・ビデオ・家電",
-      "label_en": "Audio/Video/CE",
-      "conjunction": false
-    },
-    {
-      "code": "COMM",
-      "label": "通信・ネットワーク",
-      "label_en": "Communication/Network",
-      "conjunction": false
-    },
-    {
-      "code": "MAKER",
-      "label": "ボード・教育・メイカーズ",
-      "label_en": "Boards/Maker/Edu",
-      "conjunction": false
-    },
-    {
-      "code": "JAPAN",
-      "label": "日本",
-      "label_en": "JAPAN",
-      "conjunction": true
-    },
-    {
-      "code": "WORK",
-      "label": "作業用（仮）",
-      "label_en": "Scratch",
-      "conjunction": true
-    }
-  ],
   "events": {
     "1910": [
       {
@@ -2018,20 +1931,6 @@
         "note_en": "PV-A1200 MKⅢ is a computer by アイワ, widely used in its era."
       },
       {
-        "label": "OASYS 30AF",
-        "startYear": 1986,
-        "genre": [
-          "COMPUTER",
-          "INPUT"
-        ],
-        "imp": 4,
-        "url": "https://museum.ipsj.or.jp/computer/word/0009.html",
-        "note": "フル画面液晶や通信機能を備えたパーソナルワープロ上位機。",
-        "label_en": "OASYS 30AF",
-        "note_en": "https://museum.ipsj.or.jp/computer/word/0009.html",
-        "url_en": "https://en.wikipedia.org/wiki/OASYS"
-      },
-      {
         "label": "Laser 128",
         "startYear": 1986,
         "genre": [
@@ -3191,6 +3090,17 @@
         "label_en": "NEC MobilePro 400",
         "note_en": "https://en.wikipedia.org/wiki/NEC_MobilePro",
         "url_en": "https://en.wikipedia.org/wiki/NEC_MobilePro"
+      },
+      {
+        "label": "ピノキオ",
+        "startYear": 1997,
+        "genre": [
+          "MOBILE",
+          "JAPAN"
+        ],
+        "imp": 2,
+        "url": "https://pc.watch.impress.co.jp/docs/article/961219/pino.htm",
+        "label_en": "Pinocchio"
       }
     ],
     "1998": [
@@ -6454,5 +6364,92 @@
         "note_en": "ERIS6800 is a computer by 科学技術継承財団（マイコン博物館）, widely used in its era."
       }
     ]
-  }
+  },
+  "eraSettings": [],
+  "genres": [
+    {
+      "code": "COMPUTER",
+      "label": "コンピュータ",
+      "label_en": "Computer",
+      "conjunction": false
+    },
+    {
+      "code": "MOBILE",
+      "label": "モバイル・PDA・携帯",
+      "label_en": "Mobile/PDA/Phone",
+      "conjunction": false
+    },
+    {
+      "code": "WEARABLE",
+      "label": "ウェアラブル",
+      "label_en": "Wearable",
+      "conjunction": false
+    },
+    {
+      "code": "CAMERA",
+      "label": "カメラ・撮影",
+      "label_en": "Camera/Imaging",
+      "conjunction": false
+    },
+    {
+      "code": "MEDIA",
+      "label": "メディア・記録",
+      "label_en": "Media/Storage",
+      "conjunction": false
+    },
+    {
+      "code": "PERIPHERAL",
+      "label": "周辺機器・I/O",
+      "label_en": "Peripherals/I-O",
+      "conjunction": false
+    },
+    {
+      "code": "INPUT",
+      "label": "入力デバイス・UI",
+      "label_en": "Input/UI",
+      "conjunction": false
+    },
+    {
+      "code": "GAME",
+      "label": "ゲーム・アーケード",
+      "label_en": "Game/Arcade",
+      "conjunction": false
+    },
+    {
+      "code": "ROBOTOY",
+      "label": "ロボット・おもちゃ",
+      "label_en": "Robotics/Toys",
+      "conjunction": false
+    },
+    {
+      "code": "AUDIO_VIDEO",
+      "label": "オーディオ・ビデオ・家電",
+      "label_en": "Audio/Video/CE",
+      "conjunction": false
+    },
+    {
+      "code": "COMM",
+      "label": "通信・ネットワーク",
+      "label_en": "Communication/Network",
+      "conjunction": false
+    },
+    {
+      "code": "MAKER",
+      "label": "ボード・教育・メイカーズ",
+      "label_en": "Boards/Maker/Edu",
+      "conjunction": false
+    },
+    {
+      "code": "JAPAN",
+      "label": "日本",
+      "label_en": "JAPAN",
+      "conjunction": true
+    },
+    {
+      "code": "WORK",
+      "label": "作業用（仮）",
+      "label_en": "Scratch",
+      "conjunction": true
+    }
+  ]
 }
