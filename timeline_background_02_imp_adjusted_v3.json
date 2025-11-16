@@ -1,4 +1,120 @@
 {
+  "metadata": {
+    "title": {
+      "ja": "時代背景 0.1",
+      "en": "Historical background Timeline 0.1"
+    },
+    "description": {
+      "ja": "この年表は参照年表として時代背景が分かるように項目を選んだものです。現状、試験公開中であり内容を精査している段階です。",
+      "en": "This timeline is a reference timeline with items selected to provide historical context. Currently, it is in a trial phase and the content is being reviewed."
+    },
+    "initialCreator": "Satoshi Endo",
+    "contributors": [
+      "Satoshi Endo",
+      "Hortense Endo"
+    ],
+    "contact": {
+      "administrator": {
+        "name": "Satoshi Endo",
+        "x": "https://x.com/hortense667"
+      }
+    },
+    "createdAt": "2025-10-01",
+    "version": "1.0",
+    "language": [
+      "ja",
+      "en"
+    ],
+    "copyright": "© 2025 Satoshi Endo",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "notes": "Updates from contributors are welcome. Please do not create separate versions. When reusing data, credit the original authors."
+  },
+  "eraSettings": [
+    {
+      "name": "明治",
+      "startYear": 1868,
+      "endYear": 1912,
+      "color": "#00CED1",
+      "opacity": "0.3",
+      "enabled": true,
+      "fillEnabled": false
+    },
+    {
+      "name": "大正",
+      "startYear": 1912,
+      "endYear": 1926,
+      "color": "#4169E1",
+      "opacity": "0.3",
+      "enabled": true,
+      "fillEnabled": false
+    },
+    {
+      "name": "昭和",
+      "startYear": 1926,
+      "endYear": 1989,
+      "color": "#32CD32",
+      "opacity": "0.3",
+      "enabled": true,
+      "fillEnabled": false
+    },
+    {
+      "name": "平成",
+      "startYear": 1989,
+      "endYear": 2019,
+      "color": "#FF8C00",
+      "opacity": "0.3",
+      "enabled": true,
+      "fillEnabled": false
+    },
+    {
+      "name": "令和",
+      "startYear": 2019,
+      "endYear": "ongoing",
+      "color": "#4169E1",
+      "opacity": "0.3",
+      "enabled": true,
+      "fillEnabled": true
+    }
+  ],
+  "genres": [
+    {
+      "code": "EVENT",
+      "label": "出来事",
+      "label_en": "Events/Turning points",
+      "conjunction": false
+    },
+    {
+      "code": "CONTENT",
+      "label": "作品",
+      "label_en": "Content",
+      "conjunction": false
+    },
+    {
+      "code": "PRODUCT",
+      "label": "製品",
+      "label_en": "Product",
+      "conjunction": false
+    },
+    {
+      "code": "COMPANY",
+      "label": "企業",
+      "label_en": "Company",
+      "conjunction": false
+    },
+    {
+      "code": "JAPAN",
+      "label": "日本",
+      "label_en": "Japan",
+      "conjunction": true
+    },
+    {
+      "code": "WORLD",
+      "label": "世界",
+      "label_en": "world",
+      "conjunction": true
+    }
+  ],
   "events": {
     "1945": [
       {
