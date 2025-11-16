@@ -30,7 +30,6 @@
     "copyright": "© 2025 Satoshi Endo",
     "license": "CC BY 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
-    "notes": "This work is licensed under CC BY 4.0. When reusing, please credit the original author (Satoshi Endo), provide a link to the license, and indicate if any changes were made. Please do not create separate versions; keep the original author credit intact."
     "notes_en": "This work is licensed under CC BY 4.0. When reusing, please credit the original author (Satoshi Endo), provide a link to the license, and indicate if any changes were made. Please do not create separate versions; keep the original author credit intact."
   },
   "eraSettings": [],
@@ -127,7 +126,8 @@
         "startYear": 1910,
         "endYear": 1960,
         "genre": [
-          "COMPUTER"
+          "COMPUTER",
+          "WORK"
         ],
         "imp": 3,
         "url": "https://ja.wikipedia.org/wiki/%E3%83%A2%E3%83%B3%E3%83%AD%E3%83%BC%E8%A8%88%E7%AE%97%E6%A9%9F",
@@ -484,7 +484,8 @@
         "url": "https://www2u.biglobe.ne.jp/~n-fuji/seiko.pdf",
         "note": "S-500は服部時計店（現セイコー）のプログラム電卓。https://diarywind.com/blog/e/first-japan-made-pc.html",
         "label_en": "S-500",
-        "note_en": "The S-500 is a programmable calculator from Hattori Watch Co. (now Seiko)."
+        "note_en": "The S-500 is a programmable calculator from Hattori Watch Co. (now Seiko).",
+        "url_en": "https://diarywind.com/blog/e/first-japan-made-pc.html"
       },
       {
         "label": "CASIO mini",
@@ -868,7 +869,8 @@
         "note": "電卓型の算数学習トイ。",
         "label_en": "TI Dataman",
         "url_en": "https://en.wikipedia.org/wiki/Dataman",
-        "note_en": "https://ja.wikipedia.org/wiki/テキサス・インスツルメンツ"
+        "note_en": "https://ja.wikipedia.org/wiki/テキサス・インスツルメンツ",
+        "url": "https://ja.wikipedia.org/wiki/テキサス・インスツルメンツ"
       },
       {
         "label": "SM-B-80TE",
@@ -1551,7 +1553,8 @@
         "label": "Compaq Portable",
         "startYear": 1983,
         "genre": [
-          "COMPUTER"
+          "COMPUTER",
+          "MOBILE"
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/Compaq_Portable",
@@ -1599,20 +1602,6 @@
         "label_en": "Motorola DynaTAC 8000X",
         "note_en": "An iconic early “brick” mobile phone.",
         "url_en": "https://en.wikipedia.org/wiki/Motorola_DynaTAC"
-      },
-      {
-        "label": "Compaq Portable",
-        "startYear": 1983,
-        "genre": [
-          "COMPUTER",
-          "MOBILE"
-        ],
-        "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/Compaq_Portable",
-        "note": "IBM PC互換のラゲッジ型で、互換BIOSによりPC/AT互換機市場を切り開いた。",
-        "label_en": "Compaq Portable",
-        "note_en": "Luggable IBM‑PC‑compatible with a clean‑room BIOS that opened the clone market.",
-        "url_en": "https://en.wikipedia.org/wiki/Compaq_Portable"
       },
       {
         "label": "MSX 規格",
@@ -2016,7 +2005,8 @@
         "note": "お手頃価格のサンプリング鍵盤。家庭にサンプリングを普及。",
         "label_en": "Casio SK-1",
         "note_en": "https://ja.wikipedia.org/wiki/CASIO_SK-1",
-        "url_en": "https://en.wikipedia.org/wiki/Casio_SK-1"
+        "url_en": "https://en.wikipedia.org/wiki/Casio_SK-1",
+        "url": "https://ja.wikipedia.org/wiki/CASIO_SK-1"
       },
       {
         "label": "EPSON RC-20",
@@ -2198,7 +2188,8 @@
         "note": "カセットテープに白黒低解像度映像を記録するトイカメラ。",
         "label_en": "Fisher-Price PXL2000/PixelVision/Sanpix 1000",
         "note_en": "https://ja.wikipedia.org/wiki/ピクセルビジョン",
-        "url_en": "https://en.wikipedia.org/wiki/PXL2000"
+        "url_en": "https://en.wikipedia.org/wiki/PXL2000",
+        "url": "https://ja.wikipedia.org/wiki/ピクセルビジョン"
       },
       {
         "label": "AKAI EWI1000",
@@ -2490,7 +2481,8 @@
         "note": "指先の微動で入力する独特のエルゴキーボード。",
         "label_en": "DataHand",
         "note_en": "https://en.wikipedia.org/wiki/DataHand",
-        "url": "https://gigazine.net/news/20210503-datahand-keyboard/"
+        "url": "https://gigazine.net/news/20210503-datahand-keyboard/",
+        "url_en": "https://en.wikipedia.org/wiki/DataHand"
       },
       {
         "label": "NeXTcube",
@@ -2516,7 +2508,8 @@
         "note": "FM電波を使う腕時計型ポケベル。",
         "label_en": "Seiko Receptor MessageWatch",
         "note_en": "https://ja.wikipedia.org/wiki/腕時計型PHS#歴史",
-        "url_en": "https://www.plus9time.com/blog/2021/3/23/seiko-receptor-message-watch"
+        "url_en": "https://www.plus9time.com/blog/2021/3/23/seiko-receptor-message-watch",
+        "url": "https://ja.wikipedia.org/wiki/腕時計型PHS#歴史"
       },
       {
         "label": "Jaminator",
@@ -2585,7 +2578,8 @@
         "note": "ポケットサイズの作曲用ワークステーションの嚆矢。",
         "label_en": "Yamaha QY10",
         "note_en": "https://ja.wikipedia.org/wiki/QYシリーズ",
-        "url_en": "https://en.wikipedia.org/wiki/Yamaha_QY10"
+        "url_en": "https://en.wikipedia.org/wiki/Yamaha_QY10",
+        "url": "https://ja.wikipedia.org/wiki/QYシリーズ"
       }
     ],
     "1991": [
@@ -2695,7 +2689,8 @@
         "note": "A5サイズ相当の軽量サブノート。モバイルPCの先駆。",
         "label_en": "Olivetti Quaderno",
         "note_en": "https://ja.wikipedia.org/wiki/オリベッティ",
-        "url_en": "https://en.wikipedia.org/wiki/Olivetti_Quaderno"
+        "url_en": "https://en.wikipedia.org/wiki/Olivetti_Quaderno",
+        "url": "https://ja.wikipedia.org/wiki/オリベッティ"
       }
     ],
     "1993": [
@@ -2735,7 +2730,8 @@
         "note": "初期PDAプラットフォーム。Palmの前史を彩る。",
         "label_en": "Tandy/Casio Zoomer",
         "note_en": "https://ja.wikipedia.org/wiki/Zoomer",
-        "url_en": "https://www.computerhistory.org/revolution/mobile-computing/18/321/1709"
+        "url_en": "https://www.computerhistory.org/revolution/mobile-computing/18/321/1709",
+        "url": "https://ja.wikipedia.org/wiki/Zoomer"
       },
       {
         "label": "3DO Real",
@@ -2840,7 +2836,8 @@
         "imp": 4,
         "note": "PC画面経由でデータ転送できる初期スマートウォッチ。",
         "label_en": "Timex Datalink",
-        "note_en": "https://ja.wikipedia.org/wiki/スマートウォッチ"
+        "note_en": "https://ja.wikipedia.org/wiki/スマートウォッチ",
+        "url": "https://ja.wikipedia.org/wiki/スマートウォッチ"
       },
       {
         "label": "IBM Simon Personal Communicator",
@@ -2915,7 +2912,9 @@
         "startYear": 1995,
         "genre": [
           "AUDIO_VIDEO",
-          "GAME"
+          "GAME",
+          "CAMERA",
+          "MEDIA"
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/プリクラ",
@@ -2934,7 +2933,8 @@
         "note": "折りたたみ式の小型PDA。Graffiti入力対応。",
         "label_en": "HP OmniGo 100",
         "note_en": "https://ja.wikipedia.org/wiki/HP_OmniGo",
-        "url_en": "https://en.wikipedia.org/wiki/HP_OmniGo"
+        "url_en": "https://en.wikipedia.org/wiki/HP_OmniGo",
+        "url": "https://ja.wikipedia.org/wiki/HP_OmniGo"
       },
       {
         "label": "PRINCAM",
@@ -2978,20 +2978,6 @@
         "label_en": "Sega Nomad",
         "note_en": "https://ja.wikipedia.org/wiki/セガ・ノーマッド",
         "url_en": "https://en.wikipedia.org/wiki/Sega_Nomad"
-      },
-      {
-        "label": "プリクラ",
-        "startYear": 1995,
-        "genre": [
-          "CAMERA",
-          "MEDIA"
-        ],
-        "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/プリント倶楽部",
-        "note": "写真シール機ブームを生んだ筐体。日本のポップ文化を象徴。",
-        "label_en": "Print Club (Purikura)",
-        "note_en": "https://ja.wikipedia.org/wiki/プリント倶楽部",
-        "url_en": "https://en.wikipedia.org/wiki/Purikura"
       },
       {
         "label": "Nintendo Satellaview",
@@ -3062,7 +3048,8 @@
         "note": "折りたたみ携帯の象徴。超小型で世界的ヒット。",
         "label_en": "Motorola StarTAC",
         "note_en": "https://ja.wikipedia.org/wiki/StarTAC",
-        "url_en": "https://en.wikipedia.org/wiki/Motorola_StarTAC"
+        "url_en": "https://en.wikipedia.org/wiki/Motorola_StarTAC",
+        "url": "https://ja.wikipedia.org/wiki/StarTAC"
       },
       {
         "label": "たまごっち",
@@ -3165,7 +3152,8 @@
         "note": "カーブしたスライドカバーで“バナナフォン”と呼ばれた。",
         "label_en": "Nokia 8110",
         "note_en": "https://ja.wikipedia.org/wiki/Nokia_8110",
-        "url_en": "https://en.wikipedia.org/wiki/Nokia_8110"
+        "url_en": "https://en.wikipedia.org/wiki/Nokia_8110",
+        "url": "https://ja.wikipedia.org/wiki/Nokia_8110"
       },
       {
         "label": "Nokia Communicator",
@@ -3178,7 +3166,8 @@
         "note": "QWERTY搭載の折りたたみスマート端末シリーズ（9000→E90）。",
         "label_en": "Nokia Communicator",
         "note_en": "https://ja.wikipedia.org/wiki/Nokia_Communicator",
-        "url_en": "https://en.wikipedia.org/wiki/Nokia_Communicator"
+        "url_en": "https://en.wikipedia.org/wiki/Nokia_Communicator",
+        "url": "https://ja.wikipedia.org/wiki/Nokia_Communicator"
       }
     ],
     "1997": [
@@ -3312,7 +3301,8 @@
         "label": "iMac",
         "startYear": 1998,
         "genre": [
-          "COMPUTER"
+          "COMPUTER",
+          "AUDIO_VIDEO"
         ],
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/IMac",
@@ -3361,20 +3351,6 @@
         "label_en": "Dorae-hon (Paldio 316S)",
         "note_en": "A kid-focused PHS handset shaped like Doraemon.",
         "url_en": "https://ascii.jp/elem/000/000/301/301777/"
-      },
-      {
-        "label": "iMac",
-        "startYear": 1998,
-        "genre": [
-          "AUDIO_VIDEO",
-          "COMPUTER"
-        ],
-        "imp": 3,
-        "url": "https://ja.wikipedia.org/wiki/iMac",
-        "note": "当時の用途に用いられたコンピュータ本体で、世代の特徴を備える。",
-        "label_en": "iMac",
-        "note_en": "A computer system used in its era, reflecting the characteristics of its generation.",
-        "url_en": "https://en.wikipedia.org/wiki/IMac_G3"
       },
       {
         "label": "ドラえホン",
@@ -3455,7 +3431,8 @@
         "note": "携帯MP3プレーヤ普及の火付け役。",
         "label_en": "Diamond Rio PMP300",
         "note_en": "https://ja.wikipedia.org/wiki/Rio_PMP300",
-        "url_en": "https://en.wikipedia.org/wiki/Rio_PMP300"
+        "url_en": "https://en.wikipedia.org/wiki/Rio_PMP300",
+        "url": "https://ja.wikipedia.org/wiki/Rio_PMP300"
       },
       {
         "label": "Dreamcast VMU",
@@ -3481,7 +3458,8 @@
         "note": "腕時計型の手のひらPC。",
         "label_en": "Seiko Ruputer / onHand PC",
         "note_en": "https://ja.wikipedia.org/wiki/Ruputer",
-        "url_en": "https://en.wikipedia.org/wiki/Ruputer"
+        "url_en": "https://en.wikipedia.org/wiki/Ruputer",
+        "url": "https://ja.wikipedia.org/wiki/Ruputer"
       },
       {
         "label": "Barcode Battler",
@@ -3525,20 +3503,6 @@
         "url_en": "https://en.wikipedia.org/wiki/Dance_Dance_Revolution"
       },
       {
-        "label": "Dreamcast VMU",
-        "startYear": 1998,
-        "genre": [
-          "GAME",
-          "PERIPHERAL"
-        ],
-        "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/Dreamcast",
-        "note": "液晶付きメモリーカードで単体ミニゲームも可能。",
-        "label_en": "Dreamcast VMU",
-        "note_en": "https://ja.wikipedia.org/wiki/Visual_Memory",
-        "url_en": "https://en.wikipedia.org/wiki/Dreamcast"
-      },
-      {
         "label": "ThinkPad 600",
         "startYear": 1998,
         "genre": [
@@ -3561,7 +3525,8 @@
         "url": "https://sts.kahaku.go.jp/sts/detail.php?no=108810991085&c=&y1=&y2=&id=&pref=&city=&org=&word=&p=999",
         "note": "シチズン製の電卓時計",
         "label_en": "Cal.9090",
-        "note_en": "https://www.watch-wiki.net/index.php?title=Cal._9090"
+        "note_en": "https://www.watch-wiki.net/index.php?title=Cal._9090",
+        "url_en": "https://www.watch-wiki.net/index.php?title=Cal._9090"
       }
     ],
     "1999": [
@@ -3791,7 +3756,8 @@
         "note": "低価格のメール端末。若者のテキスト文化を支えた。",
         "label_en": "NTT DoCoMo PocketBoard",
         "note_en": "https://ja.wikipedia.org/wiki/ポケットボード",
-        "url_en": "https://en.wikipedia.org/wiki/NTT_Docomo"
+        "url_en": "https://en.wikipedia.org/wiki/NTT_Docomo",
+        "url": "https://ja.wikipedia.org/wiki/ポケットボード"
       },
       {
         "label": "PocketStation",
@@ -3816,7 +3782,8 @@
         "imp": 2,
         "note": "iButtonベースの指輪型IDデバイス。",
         "label_en": "Java Ring",
-        "note_en": "https://en.wikipedia.org/wiki/Java_Ring"
+        "note_en": "https://en.wikipedia.org/wiki/Java_Ring",
+        "url_en": "https://en.wikipedia.org/wiki/Java_Ring"
       },
       {
         "label": "HitClips",
@@ -3871,7 +3838,8 @@
         "note": "無料配布も行われたバーコードスキャナ。",
         "label_en": "CueCat",
         "note_en": "https://ja.wikipedia.org/wiki/CueCat",
-        "url_en": "https://en.wikipedia.org/wiki/CueCat"
+        "url_en": "https://en.wikipedia.org/wiki/CueCat",
+        "url": "https://ja.wikipedia.org/wiki/CueCat"
       },
       {
         "label": "Nintendo 64DD＋Randnet (1999)",
@@ -3941,7 +3909,8 @@
         "imp": 3,
         "note": "電子手帳系の上位モデル。日本語PIMと拡張カードに対応。",
         "label_en": "Sharp IQ-3000",
-        "note_en": "https://ja.wikipedia.org/wiki/シャープ#情報端末"
+        "note_en": "https://ja.wikipedia.org/wiki/シャープ#情報端末",
+        "url": "https://ja.wikipedia.org/wiki/シャープ#情報端末"
       },
       {
         "label": "サテライトナビ PRT-1GPJ",
@@ -4051,7 +4020,8 @@
         "note": "IBMとCITIZENの試作的Linux腕時計。",
         "label_en": "IBM WatchPad",
         "note_en": "https://ja.wikipedia.org/wiki/スマートウォッチ",
-        "url_en": "https://en.wikipedia.org/wiki/IBM_WatchPad"
+        "url_en": "https://en.wikipedia.org/wiki/IBM_WatchPad",
+        "url": "https://ja.wikipedia.org/wiki/スマートウォッチ"
       },
       {
         "label": "VISOR Phone",
@@ -4062,7 +4032,8 @@
         "imp": 3,
         "note": "Visorを携帯電話化するSpringboardモジュール。",
         "label_en": "VisorPhone",
-        "note_en": "https://ja.wikipedia.org/wiki/Handspring"
+        "note_en": "https://ja.wikipedia.org/wiki/Handspring",
+        "url": "https://ja.wikipedia.org/wiki/Handspring"
       },
       {
         "label": "ARCHOS",
@@ -4073,7 +4044,8 @@
         "imp": 3,
         "note": "HDD型携帯オーディオを普及させた初期モデルを展開。",
         "label_en": "Archos Jukebox 6000",
-        "note_en": "https://ja.wikipedia.org/wiki/アルコス"
+        "note_en": "https://ja.wikipedia.org/wiki/アルコス",
+        "url": "https://ja.wikipedia.org/wiki/アルコス"
       },
       {
         "label": "ASIMO",
@@ -4157,7 +4129,8 @@
         "imp": 3,
         "note": "腕時計に“デジカメ”を搭載した先駆的モデル。",
         "label_en": "Casio WQV-10",
-        "note_en": "https://ja.wikipedia.org/wiki/デジタルカメラ付き腕時計"
+        "note_en": "https://ja.wikipedia.org/wiki/デジタルカメラ付き腕時計",
+        "url": "https://ja.wikipedia.org/wiki/デジタルカメラ付き腕時計"
       },
       {
         "label": "Ericsson R310s",
@@ -4182,7 +4155,8 @@
         "note": "https://ja.wikipedia.org/wiki/HP_Jornada",
         "label_en": "HP Jornada 720",
         "note_en": "https://en.wikipedia.org/wiki/HP_Jornada",
-        "url_en": "https://en.wikipedia.org/wiki/HP_Jornada"
+        "url_en": "https://en.wikipedia.org/wiki/HP_Jornada",
+        "url": "https://ja.wikipedia.org/wiki/HP_Jornada"
       },
       {
         "label": "LTO (Linear Tape Open)",
@@ -4249,7 +4223,9 @@
         "imp": 4,
         "note": "https://ja.wikipedia.org/wiki/Sigmarion",
         "label_en": "NTT DoCoMo sigmarion",
-        "note_en": "https://en.wikipedia.org/wiki/Sigmarion"
+        "note_en": "https://en.wikipedia.org/wiki/Sigmarion",
+        "url": "https://ja.wikipedia.org/wiki/Sigmarion",
+        "url_en": "https://en.wikipedia.org/wiki/Sigmarion"
       },
       {
         "label": "eggy",
@@ -4288,7 +4264,8 @@
         "note": "電話機能統合のPalmスマートフォン系譜の幕開け。",
         "label_en": "Handspring Treo",
         "note_en": "https://ja.wikipedia.org/wiki/Handspring",
-        "url_en": "https://en.wikipedia.org/wiki/Treo"
+        "url_en": "https://en.wikipedia.org/wiki/Treo",
+        "url": "https://ja.wikipedia.org/wiki/Handspring"
       },
       {
         "label": "IBM ThinkPad TransNote",
@@ -4300,7 +4277,8 @@
         "imp": 3,
         "note": "紙ノートとPCを一体化したハイブリッド。デジタル化入力に対応。",
         "label_en": "IBM ThinkPad TransNote",
-        "note_en": "https://ja.wikipedia.org/wiki/ThinkPad"
+        "note_en": "https://ja.wikipedia.org/wiki/ThinkPad",
+        "url": "https://ja.wikipedia.org/wiki/ThinkPad"
       },
       {
         "label": "Anoto The Digital Pen",
@@ -4438,7 +4416,8 @@
         "note": "QWERTY＋常時接続で若者文化を席巻したスマホ前夜機。",
         "label_en": "Danger Hiptop/Sidekick",
         "note_en": "https://ja.wikipedia.org/wiki/Sidekick_%28携帯電話%29",
-        "url_en": "https://en.wikipedia.org/wiki/Danger_Hiptop"
+        "url_en": "https://en.wikipedia.org/wiki/Danger_Hiptop",
+        "url": "https://ja.wikipedia.org/wiki/Sidekick_%28携帯電話%29"
       },
       {
         "label": "Ambient Orb",
@@ -4463,7 +4442,8 @@
         "note": "カメラ付きSymbianスマートフォン初期機。",
         "label_en": "Nokia 7650",
         "note_en": "https://ja.wikipedia.org/wiki/Nokia_7650",
-        "url_en": "https://en.wikipedia.org/wiki/Nokia_7650"
+        "url_en": "https://en.wikipedia.org/wiki/Nokia_7650",
+        "url": "https://ja.wikipedia.org/wiki/Nokia_7650"
       },
       {
         "label": "dana",
@@ -4489,7 +4469,8 @@
         "imp": 2,
         "note": "Palm/Visor向け親指入力アドオンキーボード。",
         "label_en": "ThumbType",
-        "note_en": "https://en.wikipedia.org/wiki/Handspring"
+        "note_en": "https://en.wikipedia.org/wiki/Handspring",
+        "url_en": "https://en.wikipedia.org/wiki/Handspring"
       }
     ],
     "2003": [
@@ -4569,7 +4550,8 @@
         "note": "https://ja.wikipedia.org/wiki/Tapwave_Zodiac",
         "label_en": "Tapwave Zodiac",
         "note_en": "https://en.wikipedia.org/wiki/Tapwave_Zodiac",
-        "url_en": "https://en.wikipedia.org/wiki/Tapwave_Zodiac"
+        "url_en": "https://en.wikipedia.org/wiki/Tapwave_Zodiac",
+        "url": "https://ja.wikipedia.org/wiki/Tapwave_Zodiac"
       },
       {
         "label": "INFOBAR / iida",
@@ -4581,7 +4563,8 @@
         "imp": 4,
         "note": "造形を前面に出したKDDIのデザイン携帯の系譜。",
         "label_en": "INFOBAR / iida",
-        "note_en": "https://ja.wikipedia.org/wiki/INFOBAR"
+        "note_en": "https://ja.wikipedia.org/wiki/INFOBAR",
+        "url": "https://ja.wikipedia.org/wiki/INFOBAR"
       }
     ],
     "2004": [
@@ -4771,7 +4754,8 @@
         "url": "https://ja.wikipedia.org/wiki/W-ZERO3",
         "note": "https://ja.wikipedia.org/wiki/W-ZERO3",
         "label_en": "W-ZERO3 (WS003SH)",
-        "note_en": "https://en.wikipedia.org/wiki/W-ZERO3"
+        "note_en": "https://en.wikipedia.org/wiki/W-ZERO3",
+        "url_en": "https://en.wikipedia.org/wiki/W-ZERO3"
       },
       {
         "label": "Nabaztag（ナバズタグ）",
@@ -5004,7 +4988,8 @@
         "note": "LED格子で演奏・作曲する電子楽器。",
         "label_en": "Yamaha Tenori-on",
         "note_en": "https://ja.wikipedia.org/wiki/TENORI-ON",
-        "url_en": "https://en.wikipedia.org/wiki/Tenori-on"
+        "url_en": "https://en.wikipedia.org/wiki/Tenori-on",
+        "url": "https://ja.wikipedia.org/wiki/TENORI-ON"
       },
       {
         "label": "Optimus Maximus",
@@ -5221,7 +5206,8 @@
         "url": "https://otonanokagaku.net",
         "note": "学研の4ビット学習用マイコンキット。基礎からレトロ計算機を体験できる。",
         "label_en": "Gakken Otona no Kagaku 4-bit Microcomputer",
-        "note_en": "https://otonanokagaku.net"
+        "note_en": "https://otonanokagaku.net",
+        "url_en": "https://otonanokagaku.net"
       },
       {
         "label": "ダイソン・エアマルチプライアー",
@@ -5300,7 +5286,8 @@
         "note": "デュアルレンズで3D静止画/動画。家庭で立体視を実現。",
         "label_en": "FINEPIX REAL 3D W1",
         "note_en": "https://ja.wikipedia.org/wiki/FinePix_REAL_3D",
-        "url_en": "https://en.wikipedia.org/wiki/Fujifilm_FinePix_Real_3D_series"
+        "url_en": "https://en.wikipedia.org/wiki/Fujifilm_FinePix_Real_3D_series",
+        "url": "https://ja.wikipedia.org/wiki/FinePix_REAL_3D"
       },
       {
         "label": "Fujifilm FinePix REAL 3D W1",
@@ -5313,7 +5300,8 @@
         "note": "家庭用で“本格ステレオ写真＋裸眼3D表示”を実現したデジカメ。",
         "label_en": "Fujifilm FinePix REAL 3D W1",
         "note_en": "https://ja.wikipedia.org/wiki/FinePix_REAL_3D",
-        "url_en": "https://en.wikipedia.org/wiki/Fujifilm_FinePix_Real_3D_series"
+        "url_en": "https://en.wikipedia.org/wiki/Fujifilm_FinePix_Real_3D_series",
+        "url": "https://ja.wikipedia.org/wiki/FinePix_REAL_3D"
       }
     ],
     "2010": [
@@ -5356,7 +5344,8 @@
         "note": "スマホ操縦のトイドローン。空撮普及のきっかけに。",
         "label_en": "Parrot AR.Drone",
         "note_en": "https://ja.wikipedia.org/wiki/Parrot_AR.Drone",
-        "url_en": "https://en.wikipedia.org/wiki/Parrot_AR.Drone"
+        "url_en": "https://en.wikipedia.org/wiki/Parrot_AR.Drone",
+        "url": "https://ja.wikipedia.org/wiki/Parrot_AR.Drone"
       },
       {
         "label": "Looxcie",
@@ -5394,7 +5383,8 @@
         "imp": 2,
         "note": "ベルト駆動表示の機械式腕時計。近未来的外観。",
         "label_en": "Devon Works Tread 1",
-        "note_en": "https://en.wikipedia.org/wiki/Devon_Works"
+        "note_en": "https://en.wikipedia.org/wiki/Devon_Works",
+        "url_en": "https://en.wikipedia.org/wiki/Devon_Works"
       },
       {
         "label": "MakerBot Replicator (初代)",
@@ -5476,7 +5466,8 @@
         "note": "活動量計リストバンドの先駆け。",
         "label_en": "Jawbone UP",
         "note_en": "https://ja.wikipedia.org/wiki/ウェアラブルコンピュータ",
-        "url_en": "https://en.wikipedia.org/wiki/Jawbone_(company)#UP"
+        "url_en": "https://en.wikipedia.org/wiki/Jawbone_(company)#UP",
+        "url": "https://ja.wikipedia.org/wiki/ウェアラブルコンピュータ"
       },
       {
         "label": "PlayStation Vita",
@@ -5502,7 +5493,8 @@
         "note": "スマホで操縦する球体ロボトイ。教育用途にも展開。",
         "label_en": "Sphero",
         "note_en": "https://ja.wikipedia.org/wiki/Sphero",
-        "url_en": "https://en.wikipedia.org/wiki/Sphero"
+        "url_en": "https://en.wikipedia.org/wiki/Sphero",
+        "url": "https://ja.wikipedia.org/wiki/Sphero"
       },
       {
         "label": "京",
@@ -5666,7 +5658,8 @@
         "imp": 2,
         "note": "スマホ経由でニュースや予定を感熱紙に印刷。",
         "label_en": "Little Printer",
-        "note_en": "https://en.wikipedia.org/wiki/Little_Printer"
+        "note_en": "https://en.wikipedia.org/wiki/Little_Printer",
+        "url_en": "https://en.wikipedia.org/wiki/Little_Printer"
       },
       {
         "label": "Lapka",
@@ -5677,7 +5670,8 @@
         "imp": 2,
         "note": "スマホに接続する環境センサー群。",
         "label_en": "Lapka",
-        "note_en": "https://en.wikipedia.org/wiki/Lapka"
+        "note_en": "https://en.wikipedia.org/wiki/Lapka",
+        "url_en": "https://en.wikipedia.org/wiki/Lapka"
       },
       {
         "label": "Cocorobo",
@@ -5746,7 +5740,8 @@
         "startYear": 2013,
         "genre": [
           "MOBILE",
-          "WEARABLE"
+          "WEARABLE",
+          "CAMERA"
         ],
         "imp": 2,
         "url": "https://ja.wikipedia.org/wiki/Google_Glass",
@@ -5766,7 +5761,8 @@
         "note": "空撮用民生ドローンの代表格。",
         "label_en": "DJI Phantom",
         "note_en": "https://ja.wikipedia.org/wiki/DJI",
-        "url_en": "https://en.wikipedia.org/wiki/DJI_Phantom"
+        "url_en": "https://en.wikipedia.org/wiki/DJI_Phantom",
+        "url": "https://ja.wikipedia.org/wiki/DJI"
       },
       {
         "label": "Pebble",
@@ -5777,21 +5773,8 @@
         "imp": 4,
         "note": "eペーパー採用のスマートウォッチ草創期の人気機。",
         "label_en": "Pebble",
-        "note_en": "https://ja.wikipedia.org/wiki/スマートウォッチ"
-      },
-      {
-        "label": "Google Glass",
-        "startYear": 2013,
-        "genre": [
-          "CAMERA",
-          "MOBILE"
-        ],
-        "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/Google_Glass",
-        "note": "ヘッドマウント型AR端末。賛否を呼びつつ新境地を提示。",
-        "label_en": "Google Glass",
-        "note_en": "https://ja.wikipedia.org/wiki/Google_Glass",
-        "url_en": "https://en.wikipedia.org/wiki/Google_Glass"
+        "note_en": "https://ja.wikipedia.org/wiki/スマートウォッチ",
+        "url": "https://ja.wikipedia.org/wiki/スマートウォッチ"
       },
       {
         "label": "Makeblock",
@@ -5803,7 +5786,8 @@
         "note": "STEM向けロボット／メイカー用ハードのプラットフォーム。",
         "label_en": "Makeblock",
         "note_en": "https://ja.wikipedia.org/wiki/Makeblock",
-        "url_en": "https://en.wikipedia.org/wiki/Makeblock"
+        "url_en": "https://en.wikipedia.org/wiki/Makeblock",
+        "url": "https://ja.wikipedia.org/wiki/Makeblock"
       },
       {
         "label": "Narrative Clip",
@@ -5842,7 +5826,8 @@
         "note": "BTロケーションの紛失防止タグ。",
         "label_en": "Tile",
         "note_en": "https://ja.wikipedia.org/wiki/Tile_%28遺失防止タグ%29",
-        "url_en": "https://en.wikipedia.org/wiki/Tile_(company)"
+        "url_en": "https://en.wikipedia.org/wiki/Tile_(company)",
+        "url": "https://ja.wikipedia.org/wiki/Tile_%28遺失防止タグ%29"
       },
       {
         "label": "Oculus Rift DK1",
@@ -5894,7 +5879,8 @@
         "note": "裏面にEインクを備えた二面スマホ。",
         "label_en": "YotaPhone",
         "note_en": "https://ja.wikipedia.org/wiki/YotaPhone",
-        "url_en": "https://en.wikipedia.org/wiki/YotaPhone"
+        "url_en": "https://en.wikipedia.org/wiki/YotaPhone",
+        "url": "https://ja.wikipedia.org/wiki/YotaPhone"
       },
       {
         "label": "Scanadu Scout",
@@ -5906,7 +5892,8 @@
         "imp": 2,
         "note": "額で測るヘルススキャナ試作。",
         "label_en": "Scanadu Scout",
-        "note_en": "https://en.wikipedia.org/wiki/Scanadu"
+        "note_en": "https://en.wikipedia.org/wiki/Scanadu",
+        "url_en": "https://en.wikipedia.org/wiki/Scanadu"
       },
       {
         "label": "Form 1 (Formlabs)",
@@ -5919,7 +5906,8 @@
         "note": "SLA方式で高精細造形を個人にも。",
         "label_en": "Form 1",
         "note_en": "https://ja.wikipedia.org/wiki/3Dプリンタ",
-        "url_en": "https://en.wikipedia.org/wiki/Formlabs"
+        "url_en": "https://en.wikipedia.org/wiki/Formlabs",
+        "url": "https://ja.wikipedia.org/wiki/3Dプリンタ"
       },
       {
         "label": "Qi",
@@ -6058,7 +6046,8 @@
         "note": "3軸ジンバル一体の手持ち4Kビデオ撮影機。",
         "label_en": "DJI Osmo",
         "note_en": "https://ja.wikipedia.org/wiki/DJI",
-        "url_en": "https://en.wikipedia.org/wiki/DJI_Osmo"
+        "url_en": "https://en.wikipedia.org/wiki/DJI_Osmo",
+        "url": "https://ja.wikipedia.org/wiki/DJI"
       },
       {
         "label": "Podo Camera",
@@ -6069,7 +6058,8 @@
         "imp": 2,
         "note": "貼り付けて遠隔撮影できる自撮り向けカメラ。",
         "label_en": "Podo",
-        "note_en": "https://en.wikipedia.org/wiki/Podo_%28camera%29"
+        "note_en": "https://en.wikipedia.org/wiki/Podo_%28camera%29",
+        "url_en": "https://en.wikipedia.org/wiki/Podo_%28camera%29"
       },
       {
         "label": "Monohm Runcible",
@@ -6080,7 +6070,8 @@
         "imp": 2,
         "note": "丸形の“反スマホ”端末。",
         "label_en": "Monohm Runcible",
-        "note_en": "https://en.wikipedia.org/wiki/Runcible_%28phone%29"
+        "note_en": "https://en.wikipedia.org/wiki/Runcible_%28phone%29",
+        "url_en": "https://en.wikipedia.org/wiki/Runcible_%28phone%29"
       },
       {
         "label": "Boogie Board",
@@ -6204,7 +6195,8 @@
         "note": "AR連携のクモ型バトルロボ玩具。",
         "label_en": "MekaMon",
         "note_en": "https://ja.wikipedia.org/wiki/メカモン",
-        "url_en": "https://en.wikipedia.org/wiki/MekaMon"
+        "url_en": "https://en.wikipedia.org/wiki/MekaMon",
+        "url": "https://ja.wikipedia.org/wiki/メカモン"
       },
       {
         "label": "ROBOPHONE",
@@ -6244,7 +6236,8 @@
         "note": "Eインク表示で長寿命の活動量計。クリップ/リストで装着。",
         "label_en": "Withings Go",
         "note_en": "https://ja.wikipedia.org/wiki/ウェアラブルコンピュータ",
-        "url_en": "https://en.wikipedia.org/wiki/Withings"
+        "url_en": "https://en.wikipedia.org/wiki/Withings",
+        "url": "https://ja.wikipedia.org/wiki/ウェアラブルコンピュータ"
       },
       {
         "label": "Oculus Rift",
@@ -6297,7 +6290,8 @@
         "imp": 4,
         "note": "折りたたみ小型ドローンで空撮を一般化。",
         "label_en": "DJI Mavic Pro",
-        "note_en": "https://ja.wikipedia.org/wiki/DJI"
+        "note_en": "https://ja.wikipedia.org/wiki/DJI",
+        "url": "https://ja.wikipedia.org/wiki/DJI"
       },
       {
         "label": "Google Home",
@@ -6323,7 +6317,8 @@
         "note": "https://ja.wikipedia.org/wiki/Project_Tango",
         "label_en": "Lenovo Phab 2 Pro",
         "note_en": "https://en.wikipedia.org/wiki/Lenovo_Phab_2_Pro",
-        "url_en": "https://en.wikipedia.org/wiki/Lenovo_Phab_2_Pro"
+        "url_en": "https://en.wikipedia.org/wiki/Lenovo_Phab_2_Pro",
+        "url": "https://ja.wikipedia.org/wiki/Project_Tango"
       },
       {
         "label": "Gatebox",
@@ -6394,7 +6389,8 @@
         "url": "https://www.sonyged.com/",
         "note": "透明ブロック＋ビジュアルコードで造形と動作を学ぶ教材。",
         "label_en": "KOOV",
-        "note_en": "https://www.sonyged.com/koov/"
+        "note_en": "https://www.sonyged.com/koov/",
+        "url_en": "https://www.sonyged.com/koov/"
       },
       {
         "label": "Qoobo",
@@ -6518,7 +6514,8 @@
         "note": "子ども向け自作PCキットのWindows版。教育用途に最適化。",
         "label_en": "Kano PC",
         "note_en": "https://ja.wikipedia.org/wiki/Kano_%28企業%29",
-        "url_en": "https://en.wikipedia.org/wiki/Kano_Computing"
+        "url_en": "https://en.wikipedia.org/wiki/Kano_Computing",
+        "url": "https://ja.wikipedia.org/wiki/Kano_%28企業%29"
       },
       {
         "label": "Toio",
@@ -6558,7 +6555,8 @@
         "url": "https://ja.wikipedia.org/wiki/LOVOT",
         "note": "https://ja.wikipedia.org/wiki/LOVOT",
         "label_en": "LOVOT",
-        "note_en": "https://en.wikipedia.org/wiki/Lovot"
+        "note_en": "https://en.wikipedia.org/wiki/Lovot",
+        "url_en": "https://en.wikipedia.org/wiki/Lovot"
       }
     ],
     "2020": [
