@@ -32,197 +32,6 @@
     "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
     "notes": "This work is licensed under CC BY 4.0. You may reuse, modify, and redistribute this data in any media or format. When doing so, please credit the original author (Satoshi Endo), provide a link to the license, and indicate if any changes were made. Please do not create separate versions; keep the original author credit intact."
   },
-  "schemaVersion": 1,
-  "eraSettings": [
-    {
-      "name": "テレビ・マンガ・週刊誌の時代",
-      "startYear": 1959,
-      "endYear": 1999,
-      "color": "#FFD700",
-      "opacity": "0.3",
-      "enabled": true,
-      "fillEnabled": false
-    },
-    {
-      "name": "ビデオとゲームの時代",
-      "startYear": 1983,
-      "endYear": 2005,
-      "color": "#4169E1",
-      "opacity": "0.3",
-      "enabled": true,
-      "fillEnabled": false
-    },
-    {
-      "name": "モバイルとネットの時代",
-      "startYear": 1995,
-      "endYear": "ongoing",
-      "color": "#DC143C",
-      "opacity": "0.3",
-      "enabled": true,
-      "fillEnabled": false
-    },
-    {
-      "name": "AIの時代",
-      "startYear": 2022,
-      "endYear": "ongoing",
-      "color": "#4169E1",
-      "opacity": "0.3",
-      "enabled": true,
-      "fillEnabled": false
-    }
-  ],
-  "genres": [
-    {
-      "code": "ANI",
-      "label": "アニメ",
-      "label_en": "Animation",
-      "conjunction": false
-    },
-    {
-      "code": "MAN",
-      "label": "マンガ",
-      "label_en": "Manga",
-      "conjunction": false
-    },
-    {
-      "code": "GAM",
-      "label": "ゲーム",
-      "label_en": "Games",
-      "conjunction": false
-    },
-    {
-      "code": "TVP",
-      "label": "テレビ番組",
-      "label_en": "TV Shows",
-      "conjunction": false
-    },
-    {
-      "code": "MOV",
-      "label": "映画",
-      "label_en": "Film",
-      "conjunction": false
-    },
-    {
-      "code": "NET",
-      "label": "インターネット",
-      "label_en": "Internet",
-      "conjunction": false
-    },
-    {
-      "code": "HAR",
-      "label": "ハードウェア",
-      "label_en": "Hardware",
-      "conjunction": false
-    },
-    {
-      "code": "PHE",
-      "label": "現象・流行",
-      "label_en": "Phenomena & Trends",
-      "conjunction": false
-    },
-    {
-      "code": "SOF",
-      "label": "ソフトウェア",
-      "label_en": "Software",
-      "conjunction": false
-    },
-    {
-      "code": "TOY",
-      "label": "おもちゃ",
-      "label_en": "Toys",
-      "conjunction": false
-    },
-    {
-      "code": "FAS",
-      "label": "ファッション",
-      "label_en": "Fashion",
-      "conjunction": false
-    },
-    {
-      "code": "BOO",
-      "label": "書籍",
-      "label_en": "Books",
-      "conjunction": false
-    },
-    {
-      "code": "MAG",
-      "label": "雑誌",
-      "label_en": "Magazines",
-      "conjunction": false
-    },
-    {
-      "code": "NOV",
-      "label": "小説",
-      "label_en": "Novels",
-      "conjunction": false
-    },
-    {
-      "code": "MUS",
-      "label": "音楽",
-      "label_en": "Music",
-      "conjunction": false
-    },
-    {
-      "code": "IDL",
-      "label": "アイドル",
-      "label_en": "Idols",
-      "conjunction": false
-    },
-    {
-      "code": "RDO",
-      "label": "ラジオ",
-      "label_en": "Radio",
-      "conjunction": false
-    },
-    {
-      "code": "EVT",
-      "label": "イベント",
-      "label_en": "Events",
-      "conjunction": false
-    },
-    {
-      "code": "FMT",
-      "label": "フォーマット",
-      "label_en": "Formats",
-      "conjunction": false
-    },
-    {
-      "code": "SPW",
-      "label": "スポーツ",
-      "label_en": "Sports",
-      "conjunction": false
-    },
-    {
-      "code": "RDE",
-      "label": "乗り物",
-      "label_en": "Vehicles",
-      "conjunction": false
-    },
-    {
-      "code": "FOO",
-      "label": "食",
-      "label_en": "Food",
-      "conjunction": false
-    },
-    {
-      "code": "UNC",
-      "label": "その他",
-      "label_en": "Other",
-      "conjunction": false
-    },
-    {
-      "code": "JAPAN",
-      "label": "日本",
-      "label_en": "Japan",
-      "conjunction": true
-    },
-    {
-      "code": "WORK",
-      "label": "作業用（仮）",
-      "label_en": "For Work",
-      "conjunction": true
-    }
-  ],
   "events": {
     "1945": [
       {
@@ -575,20 +384,6 @@
         "url_en": "https://en.wikipedia.org/wiki/Princess_Knight",
         "note": "少女漫画の原点とされる冒険活劇。",
         "note_en": "Foundational shōjo adventure manga."
-      },
-      {
-        "label": "プレイボーイ",
-        "label_en": "Playboy",
-        "startYear": 1953,
-        "endYear": 2020,
-        "genre": [
-          "MAG"
-        ],
-        "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/%E3%83%97%E3%83%AC%E3%82%A4%E3%83%9C%E3%83%BC%E3%82%A4_(%E9%9B%91%E8%AA%8C)",
-        "url_en": "https://en.wikipedia.org/wiki/Playboy",
-        "note": "米ライフスタイル誌。性とカルチャーを横断。",
-        "note_en": "U.S). lifestyle magazine spanning sex and culture."
       },
       {
         "label": "華氏451度",
@@ -1296,22 +1091,6 @@
         "url_en": "https://en.wikipedia.org/wiki/Compact_Cassette",
         "note": "小型磁気テープ規格が普及。",
         "note_en": "Small magnetic tape format that spread worldwide."
-      },
-      {
-        "label": "鉄腕アトム",
-        "label_en": "Astro Boy (TV 1963)",
-        "startYear": 1963,
-        "endYear": 1966,
-        "genre": [
-          "ANI",
-          "JAPAN",
-          "TVP"
-        ],
-        "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/%E9%89%84%E8%85%95%E3%82%A2%E3%83%88%E3%83%A0_(%E3%82%A2%E3%83%8B%E3%83%A1%E7%AC%AC1%E4%BD%9C)",
-        "url_en": "https://en.wikipedia.org/wiki/Astro_Boy_(1963_TV_series)",
-        "note": "日本初の本格TVアニメシリーズ。",
-        "note_en": "Japan’s first major TV anime series."
       },
       {
         "label": "鉄人28号",
@@ -14777,7 +14556,6 @@
         "note_en": "Critically acclaimed, choice-rich CRPG."
       }
     ],
-    "2024": [],
     "2025": [
       {
         "label": "2025年日本国際博覧会（大阪・関西万博）",
@@ -14794,5 +14572,195 @@
         "note_en": "World Expo themed “Designing Future Society for Our Lives.”"
       }
     ]
-  }
+  },
+  "eraSettings": [
+    {
+      "name": "テレビ・マンガ・週刊誌の時代",
+      "startYear": 1959,
+      "endYear": 1999,
+      "color": "#FFD700",
+      "opacity": "0.3",
+      "enabled": true,
+      "fillEnabled": false
+    },
+    {
+      "name": "ビデオとゲームの時代",
+      "startYear": 1983,
+      "endYear": 2005,
+      "color": "#4169E1",
+      "opacity": "0.3",
+      "enabled": true,
+      "fillEnabled": false
+    },
+    {
+      "name": "モバイルとネットの時代",
+      "startYear": 1995,
+      "endYear": "ongoing",
+      "color": "#DC143C",
+      "opacity": "0.3",
+      "enabled": true,
+      "fillEnabled": false
+    },
+    {
+      "name": "AIの時代",
+      "startYear": 2022,
+      "endYear": "ongoing",
+      "color": "#4169E1",
+      "opacity": "0.3",
+      "enabled": true,
+      "fillEnabled": false
+    }
+  ],
+  "genres": [
+    {
+      "code": "ANI",
+      "label": "アニメ",
+      "label_en": "Animation",
+      "conjunction": false
+    },
+    {
+      "code": "MAN",
+      "label": "マンガ",
+      "label_en": "Manga",
+      "conjunction": false
+    },
+    {
+      "code": "GAM",
+      "label": "ゲーム",
+      "label_en": "Games",
+      "conjunction": false
+    },
+    {
+      "code": "TVP",
+      "label": "テレビ番組",
+      "label_en": "TV Shows",
+      "conjunction": false
+    },
+    {
+      "code": "MOV",
+      "label": "映画",
+      "label_en": "Film",
+      "conjunction": false
+    },
+    {
+      "code": "NET",
+      "label": "インターネット",
+      "label_en": "Internet",
+      "conjunction": false
+    },
+    {
+      "code": "HAR",
+      "label": "ハードウェア",
+      "label_en": "Hardware",
+      "conjunction": false
+    },
+    {
+      "code": "PHE",
+      "label": "現象・流行",
+      "label_en": "Phenomena & Trends",
+      "conjunction": false
+    },
+    {
+      "code": "SOF",
+      "label": "ソフトウェア",
+      "label_en": "Software",
+      "conjunction": false
+    },
+    {
+      "code": "TOY",
+      "label": "おもちゃ",
+      "label_en": "Toys",
+      "conjunction": false
+    },
+    {
+      "code": "FAS",
+      "label": "ファッション",
+      "label_en": "Fashion",
+      "conjunction": false
+    },
+    {
+      "code": "BOO",
+      "label": "書籍",
+      "label_en": "Books",
+      "conjunction": false
+    },
+    {
+      "code": "MAG",
+      "label": "雑誌",
+      "label_en": "Magazines",
+      "conjunction": false
+    },
+    {
+      "code": "NOV",
+      "label": "小説",
+      "label_en": "Novels",
+      "conjunction": false
+    },
+    {
+      "code": "MUS",
+      "label": "音楽",
+      "label_en": "Music",
+      "conjunction": false
+    },
+    {
+      "code": "IDL",
+      "label": "アイドル",
+      "label_en": "Idols",
+      "conjunction": false
+    },
+    {
+      "code": "RDO",
+      "label": "ラジオ",
+      "label_en": "Radio",
+      "conjunction": false
+    },
+    {
+      "code": "EVT",
+      "label": "イベント",
+      "label_en": "Events",
+      "conjunction": false
+    },
+    {
+      "code": "FMT",
+      "label": "フォーマット",
+      "label_en": "Formats",
+      "conjunction": false
+    },
+    {
+      "code": "SPW",
+      "label": "スポーツ",
+      "label_en": "Sports",
+      "conjunction": false
+    },
+    {
+      "code": "RDE",
+      "label": "乗り物",
+      "label_en": "Vehicles",
+      "conjunction": false
+    },
+    {
+      "code": "FOO",
+      "label": "食",
+      "label_en": "Food",
+      "conjunction": false
+    },
+    {
+      "code": "UNC",
+      "label": "その他",
+      "label_en": "Other",
+      "conjunction": false
+    },
+    {
+      "code": "JAPAN",
+      "label": "日本",
+      "label_en": "Japan",
+      "conjunction": true
+    },
+    {
+      "code": "WORK",
+      "label": "作業用（仮）",
+      "label_en": "For Work",
+      "conjunction": true
+    }
+  ]
 }
