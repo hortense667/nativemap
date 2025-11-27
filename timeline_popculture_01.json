@@ -2777,20 +2777,6 @@
     ],
     "1974": [
       {
-        "label": "氷河期世代",
-        "label_en": "“Ice Age” job-hunting cohort (JP 74–81)",
-        "startYear": 1974,
-        "endYear": 1981,
-        "genre": [
-          "PHE",
-          "JAPAN"
-        ],
-        "imp": 2,
-        "url": "https://ja.wikipedia.org/wiki/就職氷河期",
-        "note": "就職難の比喩的区分（便宜上）。",
-        "note_en": "Japanese term for tough job-hunting era."
-      },
-      {
         "label": "エマニエル夫人",
         "label_en": "Emmanuelle",
         "startYear": 1974,
@@ -2803,6 +2789,20 @@
         "url_en": "https://en.wikipedia.org/wiki/Emmanuelle_(film)",
         "note": "官能映画ブームの象徴。",
         "note_en": "Symbol of the 1970s erotic film boom."
+      },
+      {
+        "label": "氷河期世代",
+        "startYear": 1974,
+        "endYear": 1981,
+        "genre": [
+          "PHE",
+          "JAPAN"
+        ],
+        "imp": 2,
+        "url": "https://ja.wikipedia.org/wiki/就職氷河期",
+        "note": "就職難の比喩的区分（便宜上）。この映画、主婦層がドッと映画館に押し寄せたことで話題となりました。私はモギリをしていました（遠藤）。",
+        "label_en": "“Ice Age” job-hunting cohort (JP 74–81)",
+        "note_en": "Japanese term for tough job-hunting era."
       },
       {
         "label": "GORO",
