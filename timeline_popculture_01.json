@@ -1617,18 +1617,18 @@
     "1967": [
       {
         "label": "天才バカボン",
-        "label_en": "Tensai Bakabon",
         "startYear": 1967,
         "endYear": 1976,
         "genre": [
-          "JAPAN",
           "MAN",
-          "TVP"
+          "TVP",
+          "JAPAN"
         ],
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/%E5%A4%A9%E6%89%8D%E3%83%90%E3%82%AB%E3%83%9C%E3%83%B3",
+        "note": "ナンセンスギャグの代表作。本当に天才ですよ。",
+        "label_en": "Tensai Bakabon",
         "url_en": "https://en.wikipedia.org/wiki/Tensai_Bakabon",
-        "note": "ナンセンスギャグの代表作。",
         "note_en": "Classic Japanese nonsense comedy manga."
       },
       {
