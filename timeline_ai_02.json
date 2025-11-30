@@ -30,6 +30,117 @@
     "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
     "notes": "Updates from contributors are welcome. Please do not create separate versions. When reusing data, credit the original authors."
   },
+  "eraSettings": [],
+  "genres": [
+    {
+      "code": "THEORY",
+      "label": "理論/モデル/アルゴリズム",
+      "label_en": "Theory/Models/Algorithms",
+      "conjunction": false
+    },
+    {
+      "code": "SOFTWARE",
+      "label": "ソフトウェア/開発基盤/サービス",
+      "label_en": "Software/Frameworks/Services",
+      "conjunction": false
+    },
+    {
+      "code": "HARDWARE",
+      "label": "ハードウェア/デバイス/計算基盤",
+      "label_en": "Hardware/Devices/Compute",
+      "conjunction": false
+    },
+    {
+      "code": "ROBOTICS",
+      "label": "ロボティクス/自律システム",
+      "label_en": "Robotics/Autonomous Systems",
+      "conjunction": false
+    },
+    {
+      "code": "DATA",
+      "label": "データセット/ベンチマーク",
+      "label_en": "Datasets/Benchmarks",
+      "conjunction": false
+    },
+    {
+      "code": "ORG",
+      "label": "人物/組織/プロジェクト",
+      "label_en": "People/Orgs/Projects",
+      "conjunction": false
+    },
+    {
+      "code": "APPLICATION",
+      "label": "応用/製品/サービス",
+      "label_en": "Applications/Products/Services",
+      "conjunction": false
+    },
+    {
+      "code": "CONTENT",
+      "label": "メディア/コンテンツ（小説/映画/アニメ/ゲーム/書籍）",
+      "label_en": "Media/Content (Fiction/Film/Anime/Game/Books)",
+      "conjunction": false
+    },
+    {
+      "code": "EVENT",
+      "label": "出来事/政策/競技/歴史的転換",
+      "label_en": "Events/Policy/Competitions/Turning points",
+      "conjunction": false
+    },
+    {
+      "code": "P_NEURAL",
+      "label": "ニューラルネット系",
+      "label_en": "Neural-network based",
+      "conjunction": true
+    },
+    {
+      "code": "P_SYMBOLIC",
+      "label": "記号処理/ルール系",
+      "label_en": "Symbolic/Rule-based",
+      "conjunction": true
+    },
+    {
+      "code": "P_GENERATIVE",
+      "label": "生成モデル系",
+      "label_en": "Generative models",
+      "conjunction": true
+    },
+    {
+      "code": "P_RL",
+      "label": "強化学習系",
+      "label_en": "Reinforcement learning",
+      "conjunction": true
+    },
+    {
+      "code": "P_PROB",
+      "label": "確率/ベイズ系",
+      "label_en": "Probabilistic/Bayesian",
+      "conjunction": true
+    },
+    {
+      "code": "P_EVOL",
+      "label": "進化/遺伝的計算系",
+      "label_en": "Evolutionary/Genetic",
+      "conjunction": true
+    },
+    {
+      "code": "JAPAN",
+      "label": "日本",
+      "label_en": "Japan",
+      "conjunction": true
+    },
+    {
+      "code": "CHINA",
+      "label": "中国",
+      "label_en": "CHINA",
+      "conjunction": true
+    },
+    {
+      "code": "BACKGROUND",
+      "label": "時代背景/一般技術",
+      "label_en": "Era background / General tech",
+      "conjunction": false
+    }
+  ],
   "events": {
     "1875": [
       {
@@ -40,7 +151,6 @@
           "BACKGROUND"
         ],
         "imp": 3,
-        "url": "https://ja.wikipedia.org/wiki/機械式計算機",
         "url_en": "https://en.wikipedia.org/wiki/Pinwheel_calculator",
         "note": "ボルドウィンとオドナーによる、ライプニッツ計算機の改良型。歯車式計算機の普及に貢献。",
         "note_en": "Improved version of the Leibniz calculator by Baldwin and Odhner, contributing to the spread of mechanical calculators."
@@ -55,7 +165,6 @@
           "BACKGROUND"
         ],
         "imp": 2,
-        "url": "https://ja.wikipedia.org/wiki/テレクロスコープ",
         "url_en": "https://en.wikipedia.org/wiki/Telectroscope",
         "note": "コンスタンティン・サンレクが構想した、遠隔地に映像を伝える装置。テレビジョンの先駆的概念。",
         "note_en": "A conceptual device by Constantin Senlecq for transmitting vision to remote locations, a precursor to television."
@@ -70,8 +179,6 @@
           "HARDWARE"
         ],
         "imp": 3,
-        "url": "https://ja.wikipedia.org/wiki/論理機械",
-        "url_en": "https://en.wikipedia.org/wiki/Logic_machine",
         "note": "アラン・マーカンドが設計した電気式論理機械。論理的推論を機械化する初期の試み。",
         "note_en": "An electric logic machine designed by Allan Marquand, an early attempt to mechanize logical reasoning."
       }
@@ -197,21 +304,7 @@
         "note_en": "Karel Čapek's play. The word \"robot\" appears.It seems that it was named by his brother, Josef Čapek."
       }
     ],
-    "1921": [
-      {
-        "label": "R.U.R.",
-        "label_en": "R.U.R.",
-        "startYear": 1921,
-        "genre": [
-          "CONTENT"
-        ],
-        "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/ロボット_(戯曲)",
-        "url_en": "https://en.wikipedia.org/wiki/R.U.R.",
-        "note": "カレル・チャペックの戯曲。チェコ語で「労働」を意味する言葉から「ロボット」という言葉が初めて使われた。",
-        "note_en": "A play by Karel Čapek. The word \"robot\" was coined from the Czech word for \"labor\"."
-      }
-    ],
+    "1921": [],
     "1927": [
       {
         "label": "メトロポリス",
@@ -234,8 +327,6 @@
           "ROBOTICS"
         ],
         "imp": 3,
-        "url": "https://en.wikipedia.org/wiki/Televox",
-        "url_en": "https://en.wikipedia.org/wiki/Televox",
         "note": "ウェスティングハウス社が製作した初期のロボット。電話信号に応答してスイッチを操作することができた。",
         "note_en": "An early robot built by Westinghouse that could operate switches in response to telephone signals."
       }
@@ -335,7 +426,6 @@
           "P_NEURAL"
         ],
         "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/マカロック・ピッツ",
         "url_en": "https://en.wikipedia.org/wiki/Artificial_neuron",
         "note": "形式ニューロンモデルの提案。脳の論理的計算モデルであり、すべてのニューラルネットワーク研究の始祖。",
         "note_en": "Proposal of the formal neuron model. A logical computational model of the brain and the ancestor of all neural network research."
@@ -350,7 +440,6 @@
           "THEORY"
         ],
         "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/ゲーム理論と経済行動",
         "url_en": "https://en.wikipedia.org/wiki/Theory_of_Games_and_Economic_Behavior",
         "note": "フォン・ノイマンとモルゲンシュテルンによる著作。ゲーム理論を体系化し、意思決定の数学的分析を確立した。",
         "note_en": "Book by Von Neumann and Morgenstern. It systematized game theory and established the mathematical analysis of decision making."
@@ -398,19 +487,6 @@
         "note": "シャノンが通信における情報量と符号化を定式化。"
       },
       {
-        "label": "Cybernetics",
-        "label_en": "Cybernetics",
-        "startYear": 1948,
-        "genre": [
-          "THEORY"
-        ],
-        "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/サイバネティックス",
-        "url_en": "https://en.wikipedia.org/wiki/Cybernetics",
-        "note": "ノーバート・ウィーナーの著書。通信と制御の理論を生物と機械に統一的に適用する学問分野を創設。",
-        "note_en": "Norbert Wiener's book. Established a field applying communication and control theories uniformly to organisms and machines."
-      },
-      {
         "label": "Master-Slave Manipulator",
         "label_en": "Master-Slave Manipulator",
         "startYear": 1948,
@@ -446,7 +522,6 @@
           "P_NEURAL"
         ],
         "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/ヘブの法則",
         "url_en": "https://en.wikipedia.org/wiki/Hebbian_theory",
         "note": "ドナルド・ヘブが提唱した学習則。「共に発火するニューロンは結合が強まる」という原理は、NN学習の基礎。",
         "note_en": "Learning rule proposed by Donald Hebb. The principle that \"neurons that fire together wire together\" is the basis of NN learning."
@@ -493,19 +568,6 @@
         "note": "アシモフの短編集。三原則を軸に人間とロボットの関係を描く。"
       },
       {
-        "label": "Turing test",
-        "label_en": "Turing test",
-        "startYear": 1950,
-        "genre": [
-          "THEORY"
-        ],
-        "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/チューリング・テスト",
-        "url_en": "https://en.wikipedia.org/wiki/Turing_test",
-        "note": "機械が知的かどうかを判定するテスト。AI研究における知能の定義に関する重要な哲学的・実用的基準。",
-        "note_en": "A test to determine if a machine is intelligent. A key philosophical and practical standard for defining intelligence in AI research."
-      },
-      {
         "label": "Programming a Computer for Playing Chess",
         "label_en": "Programming a Computer for Playing Chess",
         "startYear": 1950,
@@ -513,8 +575,6 @@
           "THEORY"
         ],
         "imp": 4,
-        "url": "https://en.wikipedia.org/wiki/Programming_a_Computer_for_Playing_Chess",
-        "url_en": "https://en.wikipedia.org/wiki/Programming_a_Computer_for_Playing_Chess",
         "note": "シャノンによる論文。ミニマックス法など、後のゲームAIの基礎となるアルゴリズムを体系化した。",
         "note_en": "Paper by Shannon. Systematized algorithms like Minimax, which became the foundation of later game AI."
       }
@@ -530,19 +590,6 @@
         "imp": 3,
         "url_en": "https://en.wikipedia.org/wiki/SNARC",
         "note": "ミンスキーらの確率学習機構を持つ初期ニューロ機械。"
-      },
-      {
-        "label": "SNARC",
-        "label_en": "SNARC",
-        "startYear": 1951,
-        "genre": [
-          "P_NEURAL"
-        ],
-        "imp": 4,
-        "url": "https://en.wikipedia.org/wiki/SNARC",
-        "url_en": "https://en.wikipedia.org/wiki/SNARC",
-        "note": "マーヴィン・ミンスキーらが構築した初のニューラルネット学習機。真空管とモーターでヘブ学習を実装した。",
-        "note_en": "The first neural net learning machine built by Minsky et al. Implemented Hebbian learning using vacuum tubes and motors."
       }
     ],
     "1952": [
@@ -594,7 +641,6 @@
           "P_SYMBOLIC"
         ],
         "imp": 3,
-        "url": "https://ja.wikipedia.org/wiki/ジョージタウン・IBM実験",
         "url_en": "https://en.wikipedia.org/wiki/Georgetown%E2%80%93IBM_experiment",
         "note": "初期の機械翻訳の公開実験。ロシア語から英語への翻訳を行い、機械翻訳への期待を過剰に高めた。",
         "note_en": "Early public experiment in machine translation. Translated Russian to English, overly inflating expectations for machine translation."
@@ -627,19 +673,6 @@
         "url_en": "https://en.wikipedia.org/wiki/Logic_Theorist",
         "note": "ニューウェル、サイモンらが開発した、数学の定理を証明するプログラム。最初のAIプログラムとされる。",
         "note_en": "A program by Newell and Simon that proved mathematical theorems. Considered the first AI program."
-      },
-      {
-        "label": "Generative grammar",
-        "label_en": "Generative grammar",
-        "startYear": 1955,
-        "genre": [
-          "THEORY"
-        ],
-        "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/生成文法",
-        "url_en": "https://en.wikipedia.org/wiki/Generative_grammar",
-        "note": "チョムスキーによる言語理論。言語を生成するルール体系として捉え、自然言語処理とコンパイラ理論に革命をもたらした。",
-        "note_en": "Chomsky's linguistic theory. Viewed language as a system of rules, revolutionizing NLP and compiler theory."
       }
     ],
     "1956": [
@@ -703,7 +736,6 @@
           "THEORY"
         ],
         "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/マジックナンバー_(心理学)",
         "url_en": "https://en.wikipedia.org/wiki/The_Magical_Number_Seven,_Plus_or_Minus_Two",
         "note": "G.A.ミラーによる認知心理学の論文。人間の短期記憶容量に限界があることを示し、情報処理心理学に影響。",
         "note_en": "Paper by G.A. Miller. showed limits in human short-term memory capacity, influencing information processing psychology."
@@ -747,19 +779,6 @@
         "url": "https://ja.wikipedia.org/wiki/パーセプトロン",
         "url_en": "https://en.wikipedia.org/wiki/Perceptron",
         "note": "単純な神経回路網モデル。初期の機械学習研究を牽引し、後のニューラルネット基盤となった。"
-      },
-      {
-        "label": "Perceptron",
-        "label_en": "Perceptron",
-        "startYear": 1957,
-        "genre": [
-          "P_NEURAL"
-        ],
-        "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/パーセプトロン",
-        "url_en": "https://en.wikipedia.org/wiki/Perceptron",
-        "note": "ローゼンブラットが考案した学習可能なニューラルネット。視覚認識のモデルとして大きな注目を集めた。",
-        "note_en": "A learnable neural net devised by Rosenblatt. Attracted great attention as a model for visual recognition."
       }
     ],
     "1958": [
@@ -789,19 +808,6 @@
         "url_en": "https://en.wikipedia.org/wiki/Integrated_circuit",
         "note": "ジャック・キルビーが発明。複数の素子を一つにまとめる技術で、コンピュータの小型化・高性能化の決定打となった。",
         "note_en": "Invented by Jack Kilby. Technology integrating multiple elements, decisive for computer miniaturization and performance."
-      },
-      {
-        "label": "LISP",
-        "label_en": "LISP",
-        "startYear": 1958,
-        "genre": [
-          "SOFTWARE"
-        ],
-        "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/LISP",
-        "url_en": "https://en.wikipedia.org/wiki/Lisp_(programming_language)",
-        "note": "マッカーシーが開発したプログラミング言語。記号処理に優れ、長らくAI研究の標準言語として使われた。",
-        "note_en": "Language developed by McCarthy. Excelled in symbolic processing and was the standard language for AI research for decades."
       }
     ],
     "1959": [
@@ -1040,23 +1046,9 @@
           "THEORY"
         ],
         "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/メディア論_(マクルーハン)",
         "url_en": "https://en.wikipedia.org/wiki/Understanding_Media",
         "note": "マクルーハンの著作。「メディアはメッセージである」と説き、電子メディアが人間の知覚に与える影響を論じた。",
         "note_en": "McLuhan's book. Argued \"The medium is the message,\" discussing electronic media's impact on human perception."
-      },
-      {
-        "label": "ELIZA",
-        "label_en": "ELIZA",
-        "startYear": 1964,
-        "genre": [
-          "P_SYMBOLIC"
-        ],
-        "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/ELIZA",
-        "url_en": "https://en.wikipedia.org/wiki/ELIZA",
-        "note": "ワイゼンバウムが開発した対話システム。単純なパターンマッチで心理療法士を模倣し、人工無能の元祖となる。",
-        "note_en": "Dialogue system by Weizenbaum. Mimicked a therapist using simple pattern matching"
       }
     ],
     "1965": [
@@ -1244,7 +1236,6 @@
           "EVENT"
         ],
         "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/The_Mother_of_All_Demos",
         "url_en": "https://en.wikipedia.org/wiki/The_Mother_of_All_Demos",
         "note": "エンゲルバートによるデモ。マウス、ウィンドウ、ハイパーテキスト、ビデオ会議など現代のIT環境を全て実演した。",
         "note_en": "Demo by Engelbart. Demonstrated modern IT environment: mouse, windows, hypertext, video conferencing."
@@ -1261,19 +1252,6 @@
         "url_en": "https://en.wikipedia.org/wiki/Head-mounted_display",
         "note": "サザーランドが開発した「ダモクレスの剣」。VR/AR技術の先駆けとなる最初のHMD。",
         "note_en": "Sutherland's \"Sword of Damocles\". The first HMD, pioneering VR/AR technology."
-      },
-      {
-        "label": "2001: A Space Odyssey",
-        "label_en": "2001: A Space Odyssey",
-        "startYear": 1968,
-        "genre": [
-          "CONTENT"
-        ],
-        "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/2001年宇宙の旅",
-        "url_en": "https://en.wikipedia.org/wiki/2001:_A_Space_Odyssey",
-        "note": "キューブリック監督作品。AI「HAL9000」の反乱を描き、AIの可能性と脅威を視覚的に決定づけた。",
-        "note_en": "Kubrick film. Depicted AI \"HAL 9000\" rebellion, visually defining AI's potential and threat."
       }
     ],
     "1969": [
@@ -1446,19 +1424,6 @@
         "url_en": "https://en.wikipedia.org/wiki/Videoplace",
         "note": "クルーガーによるインタラクティブ・アート。カメラで捉えた人の動きに反応する、ARやジェスチャー操作の先駆け。",
         "note_en": "Interactive art by Krueger. Precursor to AR and gesture control, reacting to movements captured by camera."
-      },
-      {
-        "label": "Game of Life",
-        "label_en": "Game of Life",
-        "startYear": 1970,
-        "genre": [
-          "THEORY"
-        ],
-        "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/ライフゲーム",
-        "url_en": "https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life",
-        "note": "コンウェイが考案したセル・オートマトン。単純な規則から複雑な挙動が生まれることを示し、人工生命研究に影響。",
-        "note_en": "Cellular automaton by Conway. Showed complex behavior from simple rules, influencing Artificial Life."
       }
     ],
     "1971": [
@@ -1475,19 +1440,6 @@
         "url_en": "https://en.wikipedia.org/wiki/Unification_(computer_science)",
         "note": "Prolog等の基盤となる仕組み。",
         "note_en": "Mechanism underpinning Prolog and logic inference."
-      },
-      {
-        "label": "Intel 4004",
-        "label_en": "Intel 4004",
-        "startYear": 1971,
-        "genre": [
-          "HARDWARE"
-        ],
-        "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/Intel_4004",
-        "url_en": "https://en.wikipedia.org/wiki/Intel_4004",
-        "note": "世界初の商用マイクロプロセッサ。コンピュータのダウンサイジングとパーソナル化の決定的な技術基盤。",
-        "note_en": "World's first commercial microprocessor. Decisive tech basis for computer downsizing and personalization."
       },
       {
         "label": "SHRDLU",
@@ -1525,7 +1477,6 @@
           "THEORY"
         ],
         "imp": 3,
-        "url": "https://ja.wikipedia.org/wiki/計算機と脳",
         "url_en": "https://en.wikipedia.org/wiki/The_Computer_and_the_Brain",
         "note": "脳と計算機の比較を通じて計算原理を論じた著作。"
       },
@@ -1920,7 +1871,6 @@
           "THEORY"
         ],
         "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/マインドストーム",
         "url_en": "https://en.wikipedia.org/wiki/Mindstorms_(book)",
         "note": "シーモア・パパートの著書。プログラミング（LOGO）を通じた構築主義的学習を提唱。",
         "note_en": "Book by Seymour Papert. Advocated constructionist learning through programming (LOGO)."
@@ -2012,21 +1962,6 @@
         "note": "競合学習で高次元データを可視化・クラスタ化。"
       },
       {
-        "label": "第五世代コンピュータ・プロジェクト",
-        "label_en": "Fifth Generation Computer Systems",
-        "startYear": 1982,
-        "endYear": 1992,
-        "genre": [
-          "HARDWARE",
-          "JAPAN",
-          "P_SYMBOLIC"
-        ],
-        "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/第五世代コンピュータ",
-        "url_en": "https://en.wikipedia.org/wiki/Fifth_Generation_Computer_Systems",
-        "note": "並列推論機と論理型言語によるAI計算機を目指した国家プロジェクト。"
-      },
-      {
         "label": "Blade Runner",
         "label_en": "Blade Runner",
         "startYear": 1982,
@@ -2051,19 +1986,6 @@
         "url_en": "https://en.wikipedia.org/wiki/Fifth_generation_computer",
         "note": "日本の国家プロジェクト。並列推論マシンを目指したが商業的成功はならず。しかしAI人材育成に貢献。",
         "note_en": "Japan's national project. Aimed for parallel inference machines. Commercially failed but trained AI talent."
-      },
-      {
-        "label": "Hopfield network",
-        "label_en": "Hopfield network",
-        "startYear": 1982,
-        "genre": [
-          "P_NEURAL"
-        ],
-        "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/ホップフィールド・ネットワーク",
-        "url_en": "https://en.wikipedia.org/wiki/Hopfield_network",
-        "note": "ホップフィールドモデルの提案。ニューラルネットの物理学的解析を可能にし、第二次AIブームの火付け役となった。",
-        "note_en": "Proposal of Hopfield model. Enabled physical analysis of NNs, sparking the 2nd AI boom."
       }
     ],
     "1983": [
@@ -2237,7 +2159,7 @@
           "CONTENT"
         ],
         "imp": 3,
-        "url": "https://ja.wikipedia.org/wiki/ショート・サーキット",
+        "url": "https://ja.wikipedia.org/wiki/%E3%82%B7%E3%83%A7%E3%83%BC%E3%83%88%E3%83%BB%E3%82%B5%E3%83%BC%E3%82%AD%E3%83%83%E3%83%88_(%E6%98%A0%E7%94%BB)",
         "url_en": "https://en.wikipedia.org/wiki/Short_Circuit_(1986_film)",
         "note": "落雷で自我に目覚めたロボット「No.5」の騒動。"
       },
@@ -2262,8 +2184,6 @@
           "THEORY"
         ],
         "imp": 3,
-        "url": "https://en.wikipedia.org/wiki/Winograd_and_Flores",
-        "url_en": "https://en.wikipedia.org/wiki/Understanding_Computers_and_Cognition",
         "note": "ウィノグラードらの著書。従来の合理主義的AIアプローチを批判し、ハイデガー哲学に基づく設計を提唱。",
         "note_en": "Book by Winograd et al. Criticized rationalist AI approach, advocating design based on Heideggerian philosophy."
       },
@@ -2275,7 +2195,6 @@
           "THEORY"
         ],
         "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/心の社会",
         "url_en": "https://en.wikipedia.org/wiki/Society_of_Mind",
         "note": "ミンスキーの著書。知能は多数の単純なエージェントの集合から創発すると説いた。",
         "note_en": "Minsky's book. Argued that intelligence emerges from a collection of many simple agents."
@@ -2307,19 +2226,6 @@
         "note_en": "Massively parallel computer designed by Danny Hillis. Aimed for brain-like processing with 10,000+ processors."
       },
       {
-        "label": "PDP Model (Backpropagation)",
-        "label_en": "PDP Model (Backpropagation)",
-        "startYear": 1986,
-        "genre": [
-          "P_NEURAL"
-        ],
-        "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/バックプロパゲーション",
-        "url_en": "https://en.wikipedia.org/wiki/Backpropagation",
-        "note": "ラメルハートらによるPDPグループの研究。「誤差逆伝播法」を普及させ、ニューラルネット研究を劇的に復活させた。",
-        "note_en": "Research by Rumelhart/PDP group. Popularized \"Backpropagation,\" dramatically reviving NN research."
-      },
-      {
         "label": "Engines of Creation",
         "label_en": "Engines of Creation",
         "startYear": 1986,
@@ -2327,7 +2233,6 @@
           "THEORY"
         ],
         "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/エリック・ドレクスラー",
         "url_en": "https://en.wikipedia.org/wiki/Engines_of_Creation",
         "note": "ドレクスラーの著書。分子レベルで物質を操作する「ナノテクノロジー」の概念と可能性を提唱。",
         "note_en": "Drexler's book. Proposed concept/potential of \"Nanotechnology,\" manipulating matter at molecular level."
@@ -2493,7 +2398,7 @@
           "SOFTWARE"
         ],
         "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/モリス・ワーム",
+        "url": "https://ja.wikipedia.org/wiki/Morris_worm",
         "url_en": "https://en.wikipedia.org/wiki/Morris_worm",
         "note": "インターネット上で広まった初のワーム。ネットセキュリティの重要性を世界に認識させた。",
         "note_en": "First worm to spread on the Internet. Made the world recognize importance of net security."
@@ -2513,20 +2418,6 @@
       }
     ],
     "1989": [
-      {
-        "label": "LeNet（CNN）",
-        "label_en": "LeNet (CNN)",
-        "startYear": 1989,
-        "genre": [
-          "THEORY",
-          "P_NEURAL"
-        ],
-        "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/%E7%95%B3%E3%81%BF%E8%BE%BC%E3%81%BF%E3%83%8B%E3%83%A5%E3%83%BC%E3%83%A9%E3%83%AB%E3%83%8D%E3%83%83%E3%83%88%E3%83%AF%E3%83%BC%E3%82%AF",
-        "url_en": "https://en.wikipedia.org/wiki/Convolutional_neural_network",
-        "note": "手書き数字認識でCNNの有効性を示す。",
-        "note_en": "Demonstrated CNN effectiveness on digit recognition."
-      },
       {
         "label": "Q学習",
         "label_en": "Q-learning",
@@ -2571,7 +2462,7 @@
           "THEORY"
         ],
         "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/Tierra",
+        "url": "https://ja.wikipedia.org/wiki/Tierra_(%E3%82%B3%E3%83%B3%E3%83%94%E3%83%A5%E3%83%BC%E3%82%BF%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%A0)",
         "url_en": "https://en.wikipedia.org/wiki/Tierra_(computer_simulation)",
         "note": "トム・レイが開発した人工生命プログラム。コンピュータウィルスのようなデジタル生物が進化・寄生する様子を観察。",
         "note_en": "A-Life program by Tom Ray. Observed evolution/parasitism of digital organisms like viruses."
@@ -2610,8 +2501,6 @@
           "THEORY"
         ],
         "imp": 3,
-        "url": "https://en.wikipedia.org/wiki/PolyWorld",
-        "url_en": "https://en.wikipedia.org/wiki/PolyWorld",
         "note": "ラニー・イェーガーによる人工生命シミュレータ。3D環境でニューラルネットを持つ生物が進化する。",
         "note_en": "A-Life simulator by Larry Yaeger. Organisms with neural nets evolve in 3D environment."
       }
@@ -2665,8 +2554,6 @@
           "HARDWARE"
         ],
         "imp": 3,
-        "url": "https://ja.wikipedia.org/wiki/パームトップパソコン",
-        "url_en": "https://ja.wikipedia.org/wiki/Sony_PalmTop_PTC-500",
         "note": "ソニーのペン入力コンピュータ。PDA（携帯情報端末）の早期の試み。",
         "note_en": "Sony's pen computer. Early attempt at PDA (Personal Digital Assistant)."
       }
@@ -2864,7 +2751,7 @@
           "EVENT"
         ],
         "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/%E3%83%87%E3%82%A3%E3%83%BC%E3%83%97%E3%83%96%E3%83%AB%E3%83%BC",
+        "url": "https://ja.wikipedia.org/wiki/%E3%83%87%E3%82%A3%E3%83%BC%E3%83%97%E3%83%BB%E3%83%96%E3%83%AB%E3%83%BC_(%E3%82%B3%E3%83%B3%E3%83%94%E3%83%A5%E3%83%BC%E3%82%BF)",
         "url_en": "https://en.wikipedia.org/wiki/Deep_Blue_(chess_computer)",
         "note": "カスパロフに勝利し歴史的転換点。",
         "note_en": "Defeated Kasparov"
@@ -6441,116 +6328,5 @@
         "note_en": "DeepSeek-R1 is a reasoning-focused model whose RL-only training framework incentivizes emergent reasoning patterns like self-verification and adaptive strategies."
       }
     ]
-  },
-  "eraSettings": [],
-  "genres": [
-    {
-      "code": "THEORY",
-      "label": "理論/モデル/アルゴリズム",
-      "label_en": "Theory/Models/Algorithms",
-      "conjunction": false
-    },
-    {
-      "code": "SOFTWARE",
-      "label": "ソフトウェア/開発基盤/サービス",
-      "label_en": "Software/Frameworks/Services",
-      "conjunction": false
-    },
-    {
-      "code": "HARDWARE",
-      "label": "ハードウェア/デバイス/計算基盤",
-      "label_en": "Hardware/Devices/Compute",
-      "conjunction": false
-    },
-    {
-      "code": "ROBOTICS",
-      "label": "ロボティクス/自律システム",
-      "label_en": "Robotics/Autonomous Systems",
-      "conjunction": false
-    },
-    {
-      "code": "DATA",
-      "label": "データセット/ベンチマーク",
-      "label_en": "Datasets/Benchmarks",
-      "conjunction": false
-    },
-    {
-      "code": "ORG",
-      "label": "人物/組織/プロジェクト",
-      "label_en": "People/Orgs/Projects",
-      "conjunction": false
-    },
-    {
-      "code": "APPLICATION",
-      "label": "応用/製品/サービス",
-      "label_en": "Applications/Products/Services",
-      "conjunction": false
-    },
-    {
-      "code": "CONTENT",
-      "label": "メディア/コンテンツ（小説/映画/アニメ/ゲーム/書籍）",
-      "label_en": "Media/Content (Fiction/Film/Anime/Game/Books)",
-      "conjunction": false
-    },
-    {
-      "code": "EVENT",
-      "label": "出来事/政策/競技/歴史的転換",
-      "label_en": "Events/Policy/Competitions/Turning points",
-      "conjunction": false
-    },
-    {
-      "code": "P_NEURAL",
-      "label": "ニューラルネット系",
-      "label_en": "Neural-network based",
-      "conjunction": true
-    },
-    {
-      "code": "P_SYMBOLIC",
-      "label": "記号処理/ルール系",
-      "label_en": "Symbolic/Rule-based",
-      "conjunction": true
-    },
-    {
-      "code": "P_GENERATIVE",
-      "label": "生成モデル系",
-      "label_en": "Generative models",
-      "conjunction": true
-    },
-    {
-      "code": "P_RL",
-      "label": "強化学習系",
-      "label_en": "Reinforcement learning",
-      "conjunction": true
-    },
-    {
-      "code": "P_PROB",
-      "label": "確率/ベイズ系",
-      "label_en": "Probabilistic/Bayesian",
-      "conjunction": true
-    },
-    {
-      "code": "P_EVOL",
-      "label": "進化/遺伝的計算系",
-      "label_en": "Evolutionary/Genetic",
-      "conjunction": true
-    },
-    {
-      "code": "JAPAN",
-      "label": "日本",
-      "label_en": "Japan",
-      "conjunction": true
-    },
-    {
-      "code": "CHINA",
-      "label": "中国",
-      "label_en": "CHINA",
-      "conjunction": true
-    },
-    {
-      "code": "BACKGROUND",
-      "label": "時代背景/一般技術",
-      "label_en": "Era background / General tech",
-      "conjunction": false
-    }
-  ]
+  }
 }
