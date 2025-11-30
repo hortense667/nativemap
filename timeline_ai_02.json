@@ -31,6 +31,126 @@
     "notes": "Updates from contributors are welcome. Please do not create separate versions. When reusing data, credit the original authors."
   },
   "events": {
+    "1875": [
+      {
+        "label": "Pinwheel calculator",
+        "label_en": "Pinwheel calculator",
+        "startYear": 1875,
+        "genre": [
+          "BACKGROUND"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/機械式計算機",
+        "url_en": "https://en.wikipedia.org/wiki/Pinwheel_calculator",
+        "note": "ボルドウィンとオドナーによる、ライプニッツ計算機の改良型。歯車式計算機の普及に貢献。",
+        "note_en": "Improved version of the Leibniz calculator by Baldwin and Odhner, contributing to the spread of mechanical calculators."
+      }
+    ],
+    "1877": [
+      {
+        "label": "Telectroscope",
+        "label_en": "Telectroscope",
+        "startYear": 1877,
+        "genre": [
+          "BACKGROUND"
+        ],
+        "imp": 2,
+        "url": "https://ja.wikipedia.org/wiki/テレクロスコープ",
+        "url_en": "https://en.wikipedia.org/wiki/Telectroscope",
+        "note": "コンスタンティン・サンレクが構想した、遠隔地に映像を伝える装置。テレビジョンの先駆的概念。",
+        "note_en": "A conceptual device by Constantin Senlecq for transmitting vision to remote locations, a precursor to television."
+      }
+    ],
+    "1885": [
+      {
+        "label": "Logic machine",
+        "label_en": "Logic machine",
+        "startYear": 1885,
+        "genre": [
+          "HARDWARE"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/論理機械",
+        "url_en": "https://en.wikipedia.org/wiki/Logic_machine",
+        "note": "アラン・マーカンドが設計した電気式論理機械。論理的推論を機械化する初期の試み。",
+        "note_en": "An electric logic machine designed by Allan Marquand, an early attempt to mechanize logical reasoning."
+      }
+    ],
+    "1890": [
+      {
+        "label": "Tabulating machine",
+        "label_en": "Tabulating machine",
+        "startYear": 1890,
+        "genre": [
+          "HARDWARE"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/タビュレーティングマシン",
+        "url_en": "https://en.wikipedia.org/wiki/Tabulating_machine",
+        "note": "ハーマン・ホレリスが設計したパンチカード式集計機。国勢調査の集計を劇的に高速化し、後のIBMの礎となった。",
+        "note_en": "Herman Hollerith's punch card tabulator. It drastically speeded up census counting and laid the foundation for IBM."
+      }
+    ],
+    "1891": [
+      {
+        "label": "Neuron doctrine",
+        "label_en": "Neuron doctrine",
+        "startYear": 1891,
+        "genre": [
+          "THEORY"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/ニューロン説",
+        "url_en": "https://en.wikipedia.org/wiki/Neuron_doctrine",
+        "note": "カハールによる発見。神経系が連続した網ではなく、個々の神経細胞（ニューロン）からなるという説。",
+        "note_en": "Proposed by Cajal, stating that the nervous system is composed of discrete individual cells (neurons), not a continuous mesh."
+      }
+    ],
+    "1896": [
+      {
+        "label": "IBM (Tabulating Machine Company)",
+        "label_en": "IBM (Tabulating Machine Company)",
+        "startYear": 1896,
+        "genre": [
+          "ORG"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/IBM",
+        "url_en": "https://en.wikipedia.org/wiki/IBM",
+        "note": "ホレリスが設立したタビュレーティング・マシーンズ社。後にC-T-Rを経てIBMとなり、情報産業の巨人となる。",
+        "note_en": "Founded by Hollerith as the Tabulating Machine Company, later becoming IBM, the giant of the information industry."
+      }
+    ],
+    "1902": [
+      {
+        "label": "Crossbar switch",
+        "label_en": "Crossbar switch",
+        "startYear": 1902,
+        "genre": [
+          "HARDWARE"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/クロスバー交換機",
+        "url_en": "https://en.wikipedia.org/wiki/Crossbar_switch",
+        "note": "電話交換機のために考案されたスイッチング原理。後のコンピュータの記憶装置や通信制御にも影響を与えた。",
+        "note_en": "A switching principle invented for telephone exchanges, influencing later computer memory and communication control."
+      }
+    ],
+    "1904": [
+      {
+        "label": "Koch curve",
+        "label_en": "Koch curve",
+        "startYear": 1904,
+        "genre": [
+          "THEORY"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/コッホ曲線",
+        "url_en": "https://en.wikipedia.org/wiki/Koch_snowflake",
+        "note": "ヘルゲ・フォン・コッホが考案した図形。自己相似性を持ち、フラクタル幾何学の先駆的な例とされる。",
+        "note_en": "A figure devised by Helge von Koch. It has self-similarity and is considered a pioneering example of fractal geometry."
+      }
+    ],
     "1912": [
       {
         "label": "エル・アヘドレシスタ",
@@ -45,6 +165,21 @@
         "label_en": "El Ajedrecista",
         "url_en": "https://en.wikipedia.org/wiki/El_Ajedrecista",
         "note_en": "There is an opinion that the electromechanical chess machine could be considered the first computer game."
+      }
+    ],
+    "1919": [
+      {
+        "label": "Hausdorff dimension",
+        "label_en": "Hausdorff dimension",
+        "startYear": 1919,
+        "genre": [
+          "THEORY"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/ハウスドルフ次元",
+        "url_en": "https://en.wikipedia.org/wiki/Hausdorff_dimension",
+        "note": "複雑な図形の次元を非整数で定義する概念。後のフラクタル理論の数学的基礎となる。",
+        "note_en": "A concept defining dimensions of complex shapes with non-integers, serving as the mathematical basis for later fractal theory."
       }
     ],
     "1920": [
@@ -62,6 +197,21 @@
         "note_en": "Karel Čapek's play. The word \"robot\" appears.It seems that it was named by his brother, Josef Čapek."
       }
     ],
+    "1921": [
+      {
+        "label": "R.U.R.",
+        "label_en": "R.U.R.",
+        "startYear": 1921,
+        "genre": [
+          "CONTENT"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/ロボット_(戯曲)",
+        "url_en": "https://en.wikipedia.org/wiki/R.U.R.",
+        "note": "カレル・チャペックの戯曲。チェコ語で「労働」を意味する言葉から「ロボット」という言葉が初めて使われた。",
+        "note_en": "A play by Karel Čapek. The word \"robot\" was coined from the Czech word for \"labor\"."
+      }
+    ],
     "1927": [
       {
         "label": "メトロポリス",
@@ -75,6 +225,79 @@
         "label_en": "Metropolis",
         "url_en": "https://en.wikipedia.org/wiki/Metropolis_(1927_film)",
         "note_en": "In this film, which depicts a dystopian future city 100 years after its creation, the android Maria appears."
+      },
+      {
+        "label": "Televox",
+        "label_en": "Televox",
+        "startYear": 1927,
+        "genre": [
+          "ROBOTICS"
+        ],
+        "imp": 3,
+        "url": "https://en.wikipedia.org/wiki/Televox",
+        "url_en": "https://en.wikipedia.org/wiki/Televox",
+        "note": "ウェスティングハウス社が製作した初期のロボット。電話信号に応答してスイッチを操作することができた。",
+        "note_en": "An early robot built by Westinghouse that could operate switches in response to telephone signals."
+      }
+    ],
+    "1928": [
+      {
+        "label": "Gakutensoku",
+        "label_en": "Gakutensoku",
+        "startYear": 1928,
+        "genre": [
+          "ROBOTICS"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/學天則",
+        "url_en": "https://en.wikipedia.org/wiki/Gakutensoku",
+        "note": "西村真琴が製作した東洋初のロボット。圧縮空気で動作し、顔の表情を変えたり文字を書くことができた。",
+        "note_en": "The first robot in the East, built by Makoto Nishimura. Operated by compressed air, it could change expressions and write."
+      }
+    ],
+    "1930": [
+      {
+        "label": "Boolean algebra (Switching circuits)",
+        "label_en": "Boolean algebra (Switching circuits)",
+        "startYear": 1930,
+        "genre": [
+          "THEORY"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/クロード・シャノン",
+        "url_en": "https://en.wikipedia.org/wiki/Claude_Shannon",
+        "note": "クロード・シャノンの修士論文。電気回路で論理演算（ブール代数）が可能であることを示し、デジタル回路の基礎を築いた。",
+        "note_en": "Shannon's thesis proving that electric circuits can perform logical operations (Boolean algebra), founding digital circuit theory."
+      }
+    ],
+    "1936": [
+      {
+        "label": "Turing machine",
+        "label_en": "Turing machine",
+        "startYear": 1936,
+        "genre": [
+          "THEORY"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/チューリングマシン",
+        "url_en": "https://en.wikipedia.org/wiki/Turing_machine",
+        "note": "アラン・チューリングが提唱した計算モデル。アルゴリズムと計算可能性の定義を与え、現代コンピュータの理論的起源。",
+        "note_en": "A computational model proposed by Alan Turing. It defined algorithms and computability, serving as the theoretical origin of modern computers."
+      }
+    ],
+    "1939": [
+      {
+        "label": "Futurama",
+        "label_en": "Futurama",
+        "startYear": 1939,
+        "genre": [
+          "EVENT"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/フューチュラマ",
+        "url_en": "https://en.wikipedia.org/wiki/Futurama_(New_York_World%27s_Fair)",
+        "note": "ニューヨーク万博でのGMの展示。高速道路網が張り巡らされた未来の自動化都市社会をジオラマで提示した。",
+        "note_en": "GM's exhibit at the NY World's Fair, presenting a diorama of a future automated urban society connected by highways."
       }
     ],
     "1942": [
@@ -103,6 +326,49 @@
         "url": "https://ja.wikipedia.org/wiki/%E4%BA%BA%E5%B7%A5%E7%A5%9E%E7%B5%8C",
         "url_en": "https://en.wikipedia.org/wiki/Artificial_neuron",
         "note": "形式ニューロンで論理計算を示し神経計算の礎を築いた。"
+      },
+      {
+        "label": "McCulloch-Pitts Neuron",
+        "label_en": "McCulloch-Pitts Neuron",
+        "startYear": 1943,
+        "genre": [
+          "P_NEURAL"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/マカロック・ピッツ",
+        "url_en": "https://en.wikipedia.org/wiki/Artificial_neuron",
+        "note": "形式ニューロンモデルの提案。脳の論理的計算モデルであり、すべてのニューラルネットワーク研究の始祖。",
+        "note_en": "Proposal of the formal neuron model. A logical computational model of the brain and the ancestor of all neural network research."
+      }
+    ],
+    "1944": [
+      {
+        "label": "Theory of Games and Economic Behavior",
+        "label_en": "Theory of Games and Economic Behavior",
+        "startYear": 1944,
+        "genre": [
+          "THEORY"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/ゲーム理論と経済行動",
+        "url_en": "https://en.wikipedia.org/wiki/Theory_of_Games_and_Economic_Behavior",
+        "note": "フォン・ノイマンとモルゲンシュテルンによる著作。ゲーム理論を体系化し、意思決定の数学的分析を確立した。",
+        "note_en": "Book by Von Neumann and Morgenstern. It systematized game theory and established the mathematical analysis of decision making."
+      }
+    ],
+    "1945": [
+      {
+        "label": "Memex",
+        "label_en": "Memex",
+        "startYear": 1945,
+        "genre": [
+          "THEORY"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/Memex",
+        "url_en": "https://en.wikipedia.org/wiki/Memex",
+        "note": "ヴァネヴァー・ブッシュが提唱した情報検索システム。ハイパーテキストやWWWの概念的な先駆け。",
+        "note_en": "An information retrieval system proposed by Vannevar Bush. A conceptual precursor to hypertext and the WWW."
       }
     ],
     "1948": [
@@ -130,6 +396,73 @@
         "url": "https://ja.wikipedia.org/wiki/情報理論",
         "url_en": "https://en.wikipedia.org/wiki/Information_theory",
         "note": "シャノンが通信における情報量と符号化を定式化。"
+      },
+      {
+        "label": "Cybernetics",
+        "label_en": "Cybernetics",
+        "startYear": 1948,
+        "genre": [
+          "THEORY"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/サイバネティックス",
+        "url_en": "https://en.wikipedia.org/wiki/Cybernetics",
+        "note": "ノーバート・ウィーナーの著書。通信と制御の理論を生物と機械に統一的に適用する学問分野を創設。",
+        "note_en": "Norbert Wiener's book. Established a field applying communication and control theories uniformly to organisms and machines."
+      },
+      {
+        "label": "Master-Slave Manipulator",
+        "label_en": "Master-Slave Manipulator",
+        "startYear": 1948,
+        "genre": [
+          "ROBOTICS"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/マニピュレーター",
+        "url_en": "https://en.wikipedia.org/wiki/Remote_manipulator",
+        "note": "放射性物質取り扱い用に開発された遠隔操作アーム。人間の手の動きを機械に伝達する技術の基礎。",
+        "note_en": "Remote-controlled arm developed for handling radioactive materials. Foundation of technology transmitting human hand movements to machines."
+      },
+      {
+        "label": "Von Neumann Universal Constructor",
+        "label_en": "Von Neumann Universal Constructor",
+        "startYear": 1948,
+        "genre": [
+          "THEORY"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/自己複製機械",
+        "url_en": "https://en.wikipedia.org/wiki/Von_Neumann_universal_constructor",
+        "note": "フォン・ノイマンによる自己増殖オートマトンの理論。生命の自己複製プロセスを数学的・論理的にモデル化した。",
+        "note_en": "Von Neumann's theory of self-reproducing automata. Mathematically and logically modeled the biological self-replication process."
+      }
+    ],
+    "1949": [
+      {
+        "label": "Hebbian theory",
+        "label_en": "Hebbian theory",
+        "startYear": 1949,
+        "genre": [
+          "P_NEURAL"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/ヘブの法則",
+        "url_en": "https://en.wikipedia.org/wiki/Hebbian_theory",
+        "note": "ドナルド・ヘブが提唱した学習則。「共に発火するニューロンは結合が強まる」という原理は、NN学習の基礎。",
+        "note_en": "Learning rule proposed by Donald Hebb. The principle that \"neurons that fire together wire together\" is the basis of NN learning."
+      },
+      {
+        "label": "Nineteen Eighty-Four",
+        "label_en": "Nineteen Eighty-Four",
+        "startYear": 1949,
+        "genre": [
+          "CONTENT"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/1984年_(小説)",
+        "url_en": "https://en.wikipedia.org/wiki/Nineteen_Eighty-Four",
+        "note": "ジョージ・オーウェルの小説。監視社会を描き、テクノロジーによる統制への警鐘として引用されることが多い。",
+        "note_en": "A novel by George Orwell depicting a surveillance society, often cited as a warning against control by technology."
       }
     ],
     "1950": [
@@ -158,6 +491,32 @@
         "url": "https://ja.wikipedia.org/wiki/われはロボット",
         "url_en": "https://en.wikipedia.org/wiki/I,_Robot",
         "note": "アシモフの短編集。三原則を軸に人間とロボットの関係を描く。"
+      },
+      {
+        "label": "Turing test",
+        "label_en": "Turing test",
+        "startYear": 1950,
+        "genre": [
+          "THEORY"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/チューリング・テスト",
+        "url_en": "https://en.wikipedia.org/wiki/Turing_test",
+        "note": "機械が知的かどうかを判定するテスト。AI研究における知能の定義に関する重要な哲学的・実用的基準。",
+        "note_en": "A test to determine if a machine is intelligent. A key philosophical and practical standard for defining intelligence in AI research."
+      },
+      {
+        "label": "Programming a Computer for Playing Chess",
+        "label_en": "Programming a Computer for Playing Chess",
+        "startYear": 1950,
+        "genre": [
+          "THEORY"
+        ],
+        "imp": 4,
+        "url": "https://en.wikipedia.org/wiki/Programming_a_Computer_for_Playing_Chess",
+        "url_en": "https://en.wikipedia.org/wiki/Programming_a_Computer_for_Playing_Chess",
+        "note": "シャノンによる論文。ミニマックス法など、後のゲームAIの基礎となるアルゴリズムを体系化した。",
+        "note_en": "Paper by Shannon. Systematized algorithms like Minimax, which became the foundation of later game AI."
       }
     ],
     "1951": [
@@ -171,6 +530,19 @@
         "imp": 3,
         "url_en": "https://en.wikipedia.org/wiki/SNARC",
         "note": "ミンスキーらの確率学習機構を持つ初期ニューロ機械。"
+      },
+      {
+        "label": "SNARC",
+        "label_en": "SNARC",
+        "startYear": 1951,
+        "genre": [
+          "P_NEURAL"
+        ],
+        "imp": 4,
+        "url": "https://en.wikipedia.org/wiki/SNARC",
+        "url_en": "https://en.wikipedia.org/wiki/SNARC",
+        "note": "マーヴィン・ミンスキーらが構築した初のニューラルネット学習機。真空管とモーターでヘブ学習を実装した。",
+        "note_en": "The first neural net learning machine built by Minsky et al. Implemented Hebbian learning using vacuum tubes and motors."
       }
     ],
     "1952": [
@@ -200,6 +572,34 @@
         "note": "高性能な心を持つロボット少年の活躍を描く名作。"
       }
     ],
+    "1954": [
+      {
+        "label": "Unimate (Patent)",
+        "label_en": "Unimate (Patent)",
+        "startYear": 1954,
+        "genre": [
+          "ROBOTICS"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/ジョージ・デボル",
+        "url_en": "https://en.wikipedia.org/wiki/George_Devol",
+        "note": "ジョージ・デボルによる「プログラム可能な物品移動装置」の特許。後の産業用ロボット「ユニメート」の基礎。",
+        "note_en": "Patent for a \"Programmed Article Transfer\" by George Devol. Basis for the later industrial robot \"Unimate\"."
+      },
+      {
+        "label": "Georgetown-IBM experiment",
+        "label_en": "Georgetown-IBM experiment",
+        "startYear": 1954,
+        "genre": [
+          "P_SYMBOLIC"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/ジョージタウン・IBM実験",
+        "url_en": "https://en.wikipedia.org/wiki/Georgetown%E2%80%93IBM_experiment",
+        "note": "初期の機械翻訳の公開実験。ロシア語から英語への翻訳を行い、機械翻訳への期待を過剰に高めた。",
+        "note_en": "Early public experiment in machine translation. Translated Russian to English, overly inflating expectations for machine translation."
+      }
+    ],
     "1955": [
       {
         "label": "生成文法（チョムスキー）",
@@ -214,6 +614,32 @@
         "url_en": "https://en.wikipedia.org/wiki/Generative_grammar",
         "note": "自然言語の形式的記述の基礎を築いた理論。AI言語処理にも影響。",
         "note_en": "A foundational theory of formal language description influencing NLP."
+      },
+      {
+        "label": "Logic Theorist",
+        "label_en": "Logic Theorist",
+        "startYear": 1955,
+        "genre": [
+          "P_SYMBOLIC"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/Logic_Theorist",
+        "url_en": "https://en.wikipedia.org/wiki/Logic_Theorist",
+        "note": "ニューウェル、サイモンらが開発した、数学の定理を証明するプログラム。最初のAIプログラムとされる。",
+        "note_en": "A program by Newell and Simon that proved mathematical theorems. Considered the first AI program."
+      },
+      {
+        "label": "Generative grammar",
+        "label_en": "Generative grammar",
+        "startYear": 1955,
+        "genre": [
+          "THEORY"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/生成文法",
+        "url_en": "https://en.wikipedia.org/wiki/Generative_grammar",
+        "note": "チョムスキーによる言語理論。言語を生成するルール体系として捉え、自然言語処理とコンパイラ理論に革命をもたらした。",
+        "note_en": "Chomsky's linguistic theory. Viewed language as a system of rules, revolutionizing NLP and compiler theory."
       }
     ],
     "1956": [
@@ -255,6 +681,45 @@
         "url": "https://ja.wikipedia.org/wiki/オペラント条件づけ",
         "url_en": "https://en.wikipedia.org/wiki/Operant_conditioning",
         "note": "報酬と罰による行動形成。RLの心理学的基盤。"
+      },
+      {
+        "label": "Dartmouth Workshop",
+        "label_en": "Dartmouth Workshop",
+        "startYear": 1956,
+        "genre": [
+          "EVENT"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/ダートマス会議",
+        "url_en": "https://en.wikipedia.org/wiki/Dartmouth_workshop",
+        "note": "マッカーシーらが開催。「人工知能（AI）」という言葉が初めて公式に使われ、分野として確立した歴史的会議。",
+        "note_en": "Organized by McCarthy et al. The historic conference where the term \"Artificial Intelligence\" was coined and the field established."
+      },
+      {
+        "label": "The Magical Number Seven, Plus or Minus Two",
+        "label_en": "The Magical Number Seven, Plus or Minus Two",
+        "startYear": 1956,
+        "genre": [
+          "THEORY"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/マジックナンバー_(心理学)",
+        "url_en": "https://en.wikipedia.org/wiki/The_Magical_Number_Seven,_Plus_or_Minus_Two",
+        "note": "G.A.ミラーによる認知心理学の論文。人間の短期記憶容量に限界があることを示し、情報処理心理学に影響。",
+        "note_en": "Paper by G.A. Miller. showed limits in human short-term memory capacity, influencing information processing psychology."
+      },
+      {
+        "label": "Video Tape Recorder",
+        "label_en": "Video Tape Recorder",
+        "startYear": 1956,
+        "genre": [
+          "HARDWARE"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/アンペックス",
+        "url_en": "https://en.wikipedia.org/wiki/Ampex",
+        "note": "アンペックスが実用的なVTRを発売。映像情報の記録・保存が可能になり、メディア環境を一変させた。",
+        "note_en": "Ampex launched practical VTR. Enabled recording/storage of video, transforming the media landscape."
       }
     ],
     "1957": [
@@ -282,6 +747,19 @@
         "url": "https://ja.wikipedia.org/wiki/パーセプトロン",
         "url_en": "https://en.wikipedia.org/wiki/Perceptron",
         "note": "単純な神経回路網モデル。初期の機械学習研究を牽引し、後のニューラルネット基盤となった。"
+      },
+      {
+        "label": "Perceptron",
+        "label_en": "Perceptron",
+        "startYear": 1957,
+        "genre": [
+          "P_NEURAL"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/パーセプトロン",
+        "url_en": "https://en.wikipedia.org/wiki/Perceptron",
+        "note": "ローゼンブラットが考案した学習可能なニューラルネット。視覚認識のモデルとして大きな注目を集めた。",
+        "note_en": "A learnable neural net devised by Rosenblatt. Attracted great attention as a model for visual recognition."
       }
     ],
     "1958": [
@@ -298,6 +776,47 @@
         "url_en": "https://en.wikipedia.org/wiki/Lisp_(programming_language)",
         "note": "シンボリックAIの主要言語として普及。",
         "note_en": "The primary language of early symbolic AI."
+      },
+      {
+        "label": "Integrated Circuit",
+        "label_en": "Integrated Circuit",
+        "startYear": 1958,
+        "genre": [
+          "HARDWARE"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/集積回路",
+        "url_en": "https://en.wikipedia.org/wiki/Integrated_circuit",
+        "note": "ジャック・キルビーが発明。複数の素子を一つにまとめる技術で、コンピュータの小型化・高性能化の決定打となった。",
+        "note_en": "Invented by Jack Kilby. Technology integrating multiple elements, decisive for computer miniaturization and performance."
+      },
+      {
+        "label": "LISP",
+        "label_en": "LISP",
+        "startYear": 1958,
+        "genre": [
+          "SOFTWARE"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/LISP",
+        "url_en": "https://en.wikipedia.org/wiki/Lisp_(programming_language)",
+        "note": "マッカーシーが開発したプログラミング言語。記号処理に優れ、長らくAI研究の標準言語として使われた。",
+        "note_en": "Language developed by McCarthy. Excelled in symbolic processing and was the standard language for AI research for decades."
+      }
+    ],
+    "1959": [
+      {
+        "label": "PDP-1",
+        "label_en": "PDP-1",
+        "startYear": 1959,
+        "genre": [
+          "HARDWARE"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/PDP-1",
+        "url_en": "https://en.wikipedia.org/wiki/PDP-1",
+        "note": "DEC社の最初のコンピュータ。対話型利用を重視し、ハッカー文化やゲーム（スペースウォー！）を生んだ。",
+        "note_en": "DEC's first computer. Emphasized interactive use, spawning hacker culture and games (Spacewar!)."
       }
     ],
     "1960": [
@@ -326,6 +845,32 @@
         "url": "https://ja.wikipedia.org/wiki/マルコフ決定過程",
         "url_en": "https://en.wikipedia.org/wiki/Markov_decision_process",
         "note": "確率的環境での最適方策を扱う数理モデル。"
+      },
+      {
+        "label": "Man-Computer Symbiosis",
+        "label_en": "Man-Computer Symbiosis",
+        "startYear": 1960,
+        "genre": [
+          "THEORY"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/J・C・リックライダー",
+        "url_en": "https://en.wikipedia.org/wiki/J._C._R.u._Licklider",
+        "note": "リックライダーの論文。人間とコンピュータが協力して思考する未来を描き、対話型計算やネットの思想的源流。",
+        "note_en": "Paper by Licklider. Envisioned a future of human-computer cooperation, conceptual origin of interactive computing/internet."
+      },
+      {
+        "label": "Project Xanadu",
+        "label_en": "Project Xanadu",
+        "startYear": 1960,
+        "genre": [
+          "SOFTWARE"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/ザナドゥ計画",
+        "url_en": "https://en.wikipedia.org/wiki/Project_Xanadu",
+        "note": "テッド・ネルソンによるハイパーテキストシステム計画。双方向リンクなど、ウェブより高度な概念を含んでいた。",
+        "note_en": "Hypertext project by Ted Nelson. Included concepts more advanced than the Web, such as bidirectional links."
       }
     ],
     "1961": [
@@ -339,6 +884,32 @@
         "imp": 4,
         "url_en": "https://en.wikipedia.org/wiki/MENACE",
         "note": "マッチ箱とビーズで学習を示した三目並べ装置。"
+      },
+      {
+        "label": "Unimate",
+        "label_en": "Unimate",
+        "startYear": 1961,
+        "genre": [
+          "ROBOTICS"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/ユニメート",
+        "url_en": "https://en.wikipedia.org/wiki/Unimate",
+        "note": "GM工場で稼働した世界初の実用産業用ロボット。製造業の自動化（FA）の幕開け。",
+        "note_en": "World's first practical industrial robot operated at GM plant. The dawn of factory automation (FA)."
+      },
+      {
+        "label": "Steps Toward Artificial Intelligence",
+        "label_en": "Steps Toward Artificial Intelligence",
+        "startYear": 1961,
+        "genre": [
+          "THEORY"
+        ],
+        "imp": 3,
+        "url": "https://en.wikipedia.org/wiki/Marvin_Minsky",
+        "url_en": "https://en.wikipedia.org/wiki/Marvin_Minsky",
+        "note": "ミンスキーによる論文集。初期AI研究の成果と課題を体系化し、その後の研究指針を与えた。",
+        "note_en": "Collection of papers by Minsky. Systematized early AI achievements/issues, guiding subsequent research."
       }
     ],
     "1962": [
@@ -354,6 +925,86 @@
         "note": "デイビッド・ヒューベルとトルステン・ウィーセルによる視覚野に関する研究論文が発表される",
         "label_en": "Research on the primary visual cortex",
         "url_en": "https://en.wikipedia.org/wiki/Visual_cortex"
+      },
+      {
+        "label": "Spacewar!",
+        "label_en": "Spacewar!",
+        "startYear": 1962,
+        "genre": [
+          "SOFTWARE"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/スペースウォー!",
+        "url_en": "https://en.wikipedia.org/wiki/Spacewar!",
+        "note": "MITで開発された世界初のデジタルコンピュータゲームの一つ。PDP-1上で動作し、ゲーム文化の原点。",
+        "note_en": "One of the first digital computer games developed at MIT. Ran on PDP-1, origin of gaming culture."
+      },
+      {
+        "label": "Sketchpad",
+        "label_en": "Sketchpad",
+        "startYear": 1962,
+        "genre": [
+          "SOFTWARE"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/スケッチパッド",
+        "url_en": "https://en.wikipedia.org/wiki/Sketchpad",
+        "note": "サザーランドが開発した対話型図形処理システム。GUI、CAD、オブジェクト指向の先駆的システム。",
+        "note_en": "Interactive graphics system by Sutherland. Pioneer of GUI, CAD, and object-oriented concepts."
+      },
+      {
+        "label": "Augment (oN-Line System)",
+        "label_en": "Augment (oN-Line System)",
+        "startYear": 1962,
+        "genre": [
+          "SOFTWARE"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/ダグラス・エンゲルバート",
+        "url_en": "https://en.wikipedia.org/wiki/N%LS_(computer_system)",
+        "note": "エンゲルバートが提唱した人間の知能拡張システム。後のNLS開発につながる。",
+        "note_en": "System for augmenting human intelligence proposed by Engelbart. Led to the development of NLS."
+      }
+    ],
+    "1963": [
+      {
+        "label": "Lorenz attractor (Chaos theory)",
+        "label_en": "Lorenz attractor (Chaos theory)",
+        "startYear": 1963,
+        "genre": [
+          "THEORY"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/カオス理論",
+        "url_en": "https://en.wikipedia.org/wiki/Chaos_theory",
+        "note": "気象学者ローレンツが発見した「バタフライ効果」。決定論的システムでも予測不能な挙動（カオス）を示しうる発見。",
+        "note_en": "Lorenz discovered the \"Butterfly Effect\". Showed that deterministic systems can exhibit unpredictable behavior (Chaos)."
+      },
+      {
+        "label": "Mouse / Window UI",
+        "label_en": "Mouse / Window UI",
+        "startYear": 1963,
+        "genre": [
+          "HARDWARE"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/マウス_(コンピュータ)",
+        "url_en": "https://en.wikipedia.org/wiki/Computer_mouse",
+        "note": "エンゲルバートらが開発。画面上のポインタを操作するデバイス。現代のPC操作の基本形。",
+        "note_en": "Developed by Engelbart et al. Device to manipulate on-screen pointer. The basic form of modern PC operation."
+      },
+      {
+        "label": "Enchanted Tiki Room",
+        "label_en": "Enchanted Tiki Room",
+        "startYear": 1963,
+        "genre": [
+          "ROBOTICS"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/魅惑のチキルーム",
+        "url_en": "https://en.wikipedia.org/wiki/Walt_Disney%27s_Enchanted_Tiki_Room",
+        "note": "ディズニーによるオーディオ・アニマトロニクス（動く人形）の初導入。エンターテインメントロボットの元祖。",
+        "note_en": "Disney's first use of Audio-Animatronics. The ancestor of entertainment robots."
       }
     ],
     "1964": [
@@ -380,6 +1031,32 @@
         "url": "https://ja.wikipedia.org/wiki/セル・オートマトン",
         "url_en": "https://en.wikipedia.org/wiki/Cellular_automaton",
         "note": "局所規則から複雑性が生まれる計算モデル。"
+      },
+      {
+        "label": "Understanding Media",
+        "label_en": "Understanding Media",
+        "startYear": 1964,
+        "genre": [
+          "THEORY"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/メディア論_(マクルーハン)",
+        "url_en": "https://en.wikipedia.org/wiki/Understanding_Media",
+        "note": "マクルーハンの著作。「メディアはメッセージである」と説き、電子メディアが人間の知覚に与える影響を論じた。",
+        "note_en": "McLuhan's book. Argued \"The medium is the message,\" discussing electronic media's impact on human perception."
+      },
+      {
+        "label": "ELIZA",
+        "label_en": "ELIZA",
+        "startYear": 1964,
+        "genre": [
+          "P_SYMBOLIC"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/ELIZA",
+        "url_en": "https://en.wikipedia.org/wiki/ELIZA",
+        "note": "ワイゼンバウムが開発した対話システム。単純なパターンマッチで心理療法士を模倣し、人工無能の元祖となる。",
+        "note_en": "Dialogue system by Weizenbaum. Mimicked a therapist using simple pattern matching"
       }
     ],
     "1965": [
@@ -407,6 +1084,32 @@
         "url": "https://ja.wikipedia.org/wiki/技術的特異点",
         "url_en": "https://en.wikipedia.org/wiki/Intelligence_explosion",
         "note": "自己改良AIが急速に高度化するという概念の起源。"
+      },
+      {
+        "label": "Hypertext",
+        "label_en": "Hypertext",
+        "startYear": 1965,
+        "genre": [
+          "THEORY"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/ハイパーテキスト",
+        "url_en": "https://en.wikipedia.org/wiki/Hypertext",
+        "note": "テッド・ネルソンによる造語。非線形に連結されたテキストの概念で、後のWWWの基礎となる。",
+        "note_en": "Coined by Ted Nelson. Concept of non-linearly connected text, forming the basis of the WWW."
+      },
+      {
+        "label": "Fuzzy Logic",
+        "label_en": "Fuzzy Logic",
+        "startYear": 1965,
+        "genre": [
+          "THEORY"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/ファジィ論理",
+        "url_en": "https://en.wikipedia.org/wiki/Fuzzy_logic",
+        "note": "ザデーが提唱。「あいまいさ」を数学的に扱う理論。後に家電や制御工学で広く応用された。",
+        "note_en": "Proposed by Zadeh. Theory handling \"ambiguity\" mathematically. Later widely applied in appliances and control engineering."
       }
     ],
     "1966": [
@@ -423,6 +1126,32 @@
         "url": "https://ja.wikipedia.org/wiki/シェーキー",
         "url_en": "https://en.wikipedia.org/wiki/Shakey_the_robot",
         "note": "世界初期の自律移動ロボット。計画と知覚を統合しタスクを遂行。"
+      },
+      {
+        "label": "Fantastic Voyage",
+        "label_en": "Fantastic Voyage",
+        "startYear": 1966,
+        "genre": [
+          "CONTENT"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/ミクロの決死圏",
+        "url_en": "https://en.wikipedia.org/wiki/Fantastic_Voyage",
+        "note": "体内への縮小潜行を描いたSF映画。医療ナノボットなどの技術的想像力に影響を与えた。",
+        "note_en": "Sci-fi film about shrinking into a body. Influenced technical imagination like medical nanobots."
+      },
+      {
+        "label": "Star Trek",
+        "label_en": "Star Trek",
+        "startYear": 1966,
+        "genre": [
+          "CONTENT"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/宇宙大作戦",
+        "url_en": "https://en.wikipedia.org/wiki/Star_Trek:_The_Original_Series",
+        "note": "多様な種族の共存や高度なAI（コンピュータ）との対話を描き、多くの技術者のインスピレーション源となった。",
+        "note_en": "Depicted coexistence of diverse species and interaction with advanced AI, inspiring many engineers."
       }
     ],
     "1967": [
@@ -439,6 +1168,19 @@
         "url_en": "https://en.wikipedia.org/wiki/K-nearest_neighbors_algorithm",
         "note": "k近傍法がパターン認識の基礎に。",
         "note_en": "k-NN became a staple in pattern recognition."
+      },
+      {
+        "label": "Small-world experiment",
+        "label_en": "Small-world experiment",
+        "startYear": 1967,
+        "genre": [
+          "THEORY"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/スモール・ワールド現象",
+        "url_en": "https://en.wikipedia.org/wiki/Small-world_experiment",
+        "note": "ミルグラムの実験。「六次の隔たり」として知られ、SNSなどのネットワーク理論の基礎となった。",
+        "note_en": "Milgram's experiment. Known as \"Six Degrees of Separation,\" became basis for network theory like SNS."
       }
     ],
     "1968": [
@@ -480,6 +1222,58 @@
         "url": "https://ja.wikipedia.org/wiki/アンドロイドは電気羊の夢を見るか?",
         "url_en": "https://en.wikipedia.org/wiki/Do_Androids_Dream_of_Electric_Sheep%3F",
         "note": "逃亡アンドロイドと人間性を問うディックの代表作。"
+      },
+      {
+        "label": "Dynabook",
+        "label_en": "Dynabook",
+        "startYear": 1968,
+        "genre": [
+          "THEORY"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/ダイナブック",
+        "url_en": "https://en.wikipedia.org/wiki/Dynabook",
+        "note": "アラン・ケイが提唱した理想の個人用コンピュータ。ノートPCやタブレットの原型となるビジョン。",
+        "note_en": "Ideal personal computer proposed by Alan Kay. The vision that became the prototype for laptops and tablets."
+      },
+      {
+        "label": "The Mother of All Demos",
+        "label_en": "The Mother of All Demos",
+        "startYear": 1968,
+        "genre": [
+          "EVENT"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/The_Mother_of_All_Demos",
+        "url_en": "https://en.wikipedia.org/wiki/The_Mother_of_All_Demos",
+        "note": "エンゲルバートによるデモ。マウス、ウィンドウ、ハイパーテキスト、ビデオ会議など現代のIT環境を全て実演した。",
+        "note_en": "Demo by Engelbart. Demonstrated modern IT environment: mouse, windows, hypertext, video conferencing."
+      },
+      {
+        "label": "Head-mounted display",
+        "label_en": "Head-mounted display",
+        "startYear": 1968,
+        "genre": [
+          "HARDWARE"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/ヘッドマウントディスプレイ",
+        "url_en": "https://en.wikipedia.org/wiki/Head-mounted_display",
+        "note": "サザーランドが開発した「ダモクレスの剣」。VR/AR技術の先駆けとなる最初のHMD。",
+        "note_en": "Sutherland's \"Sword of Damocles\". The first HMD, pioneering VR/AR technology."
+      },
+      {
+        "label": "2001: A Space Odyssey",
+        "label_en": "2001: A Space Odyssey",
+        "startYear": 1968,
+        "genre": [
+          "CONTENT"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/2001年宇宙の旅",
+        "url_en": "https://en.wikipedia.org/wiki/2001:_A_Space_Odyssey",
+        "note": "キューブリック監督作品。AI「HAL9000」の反乱を描き、AIの可能性と脅威を視覚的に決定づけた。",
+        "note_en": "Kubrick film. Depicted AI \"HAL 9000\" rebellion, visually defining AI's potential and threat."
       }
     ],
     "1969": [
@@ -520,6 +1314,71 @@
         "url": "https://ja.wikipedia.org/wiki/パーセプトロン",
         "url_en": "https://en.wikipedia.org/wiki/Perceptrons_(book)",
         "note": "線形分離不能問題を指摘し研究潮流に影響。"
+      },
+      {
+        "label": "Perceptrons (Book)",
+        "label_en": "Perceptrons (Book)",
+        "startYear": 1969,
+        "genre": [
+          "THEORY"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/パーセプトロン",
+        "url_en": "https://en.wikipedia.org/wiki/Perceptrons_(book)",
+        "note": "ミンスキーとパパートの著書。単層パーセプトロンの限界（XOR問題）を指摘し、ニューラルネット研究の冬の時代を招いた。",
+        "note_en": "Book by Minsky and Papert. Pointed out limits of single-layer perceptrons, triggering the AI winter."
+      },
+      {
+        "label": "ARPANET",
+        "label_en": "ARPANET",
+        "startYear": 1969,
+        "genre": [
+          "SOFTWARE"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/ARPANET",
+        "url_en": "https://en.wikipedia.org/wiki/ARPANET",
+        "note": "米国防総省が構築したパケット通信ネットワーク。現在のインターネットの直接の起源。",
+        "note_en": "Packet switching network built by US DoD. Direct origin of the modern Internet."
+      },
+      {
+        "label": "Shakey",
+        "label_en": "Shakey",
+        "startYear": 1969,
+        "genre": [
+          "ROBOTICS"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/シェーキー",
+        "url_en": "https://en.wikipedia.org/wiki/Shakey_the_robot",
+        "note": "SRIが開発した自律移動ロボット。カメラで認識し、推論して行動計画を立てる初の統合AIロボット。",
+        "note_en": "Autonomous mobile robot by SRI. First integrated AI robot to perceive, reason, and plan actions."
+      },
+      {
+        "label": "Intel 4004 (Design)",
+        "label_en": "Intel 4004 (Design)",
+        "startYear": 1969,
+        "genre": [
+          "HARDWARE"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/Intel_4004",
+        "url_en": "https://en.wikipedia.org/wiki/Intel_4004",
+        "note": "電卓用チップとして設計開始。嶋正利らが関わり、CPUをワンチップ化するマイクロプロセッサへの道を開いた。",
+        "note_en": "Design started as calculator chip. Involved Masatoshi Shima et al., paving way for single-chip microprocessor."
+      },
+      {
+        "label": "IJCAI",
+        "label_en": "IJCAI",
+        "startYear": 1969,
+        "genre": [
+          "EVENT"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/国際人工知能会議",
+        "url_en": "https://en.wikipedia.org/wiki/International_Joint_Conference_on_Artificial_Intelligence",
+        "note": "第1回人工知能国際会議。AI研究者のコミュニティ形成における重要なマイルストーン。",
+        "note_en": "First International Joint Conference on AI. Important milestone in forming the AI researcher community."
       }
     ],
     "1970": [
@@ -574,6 +1433,32 @@
         "url": "https://ja.wikipedia.org/wiki/地球爆破作戦",
         "url_en": "https://en.wikipedia.org/wiki/Colossus:_The_Forbin_Project",
         "note": "軍事超コンピュータが人類を支配する危機を描く。"
+      },
+      {
+        "label": "Videoplace",
+        "label_en": "Videoplace",
+        "startYear": 1970,
+        "genre": [
+          "SOFTWARE"
+        ],
+        "imp": 3,
+        "url": "https://en.wikipedia.org/wiki/Myron_Krueger",
+        "url_en": "https://en.wikipedia.org/wiki/Videoplace",
+        "note": "クルーガーによるインタラクティブ・アート。カメラで捉えた人の動きに反応する、ARやジェスチャー操作の先駆け。",
+        "note_en": "Interactive art by Krueger. Precursor to AR and gesture control, reacting to movements captured by camera."
+      },
+      {
+        "label": "Game of Life",
+        "label_en": "Game of Life",
+        "startYear": 1970,
+        "genre": [
+          "THEORY"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/ライフゲーム",
+        "url_en": "https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life",
+        "note": "コンウェイが考案したセル・オートマトン。単純な規則から複雑な挙動が生まれることを示し、人工生命研究に影響。",
+        "note_en": "Cellular automaton by Conway. Showed complex behavior from simple rules, influencing Artificial Life."
       }
     ],
     "1971": [
@@ -590,6 +1475,32 @@
         "url_en": "https://en.wikipedia.org/wiki/Unification_(computer_science)",
         "note": "Prolog等の基盤となる仕組み。",
         "note_en": "Mechanism underpinning Prolog and logic inference."
+      },
+      {
+        "label": "Intel 4004",
+        "label_en": "Intel 4004",
+        "startYear": 1971,
+        "genre": [
+          "HARDWARE"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/Intel_4004",
+        "url_en": "https://en.wikipedia.org/wiki/Intel_4004",
+        "note": "世界初の商用マイクロプロセッサ。コンピュータのダウンサイジングとパーソナル化の決定的な技術基盤。",
+        "note_en": "World's first commercial microprocessor. Decisive tech basis for computer downsizing and personalization."
+      },
+      {
+        "label": "SHRDLU",
+        "label_en": "SHRDLU",
+        "startYear": 1971,
+        "genre": [
+          "P_SYMBOLIC"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/SHRDLU",
+        "url_en": "https://en.wikipedia.org/wiki/SHRDLU",
+        "note": "積み木の世界を自然言語で操作するシステム。限定領域ながら高度な言語理解を示し、AIの可能性を知らしめた。",
+        "note_en": "System manipulating blocks world via natural language. Showed advanced understanding in limited domain."
       }
     ],
     "1972": [
@@ -617,6 +1528,45 @@
         "url": "https://ja.wikipedia.org/wiki/計算機と脳",
         "url_en": "https://en.wikipedia.org/wiki/The_Computer_and_the_Brain",
         "note": "脳と計算機の比較を通じて計算原理を論じた著作。"
+      },
+      {
+        "label": "Pong",
+        "label_en": "Pong",
+        "startYear": 1972,
+        "genre": [
+          "SOFTWARE"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/ポン_(ゲーム)",
+        "url_en": "https://en.wikipedia.org/wiki/Pong",
+        "note": "アタリ社が発売したアーケードゲーム。ビデオゲーム産業を爆発的に普及させるきっかけとなった。",
+        "note_en": "Arcade game by Atari. Sparked the explosive popularity of the video game industry."
+      },
+      {
+        "label": "Smalltalk",
+        "label_en": "Smalltalk",
+        "startYear": 1972,
+        "genre": [
+          "SOFTWARE"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/Smalltalk",
+        "url_en": "https://en.wikipedia.org/wiki/Smalltalk",
+        "note": "アラン・ケイらが開発。オブジェクト指向プログラミング（OOP）とGUI環境を完全に統合した言語・環境。",
+        "note_en": "Developed by Alan Kay et al. Language/environment fully integrating Object-Oriented Programming (OOP) and GUI."
+      },
+      {
+        "label": "ZOG",
+        "label_en": "ZOG",
+        "startYear": 1972,
+        "genre": [
+          "SOFTWARE"
+        ],
+        "imp": 3,
+        "url": "https://en.wikipedia.org/wiki/ZOG_(hypertext)",
+        "url_en": "https://en.wikipedia.org/wiki/ZOG_(hypertext)",
+        "note": "CMUで開発されたハイパーテキストシステム。後に空母カール・ヴィンソンの情報管理にも採用された。",
+        "note_en": "Hypertext system developed at CMU. Later adopted for information management on USS Carl Vinson."
       }
     ],
     "1973": [
@@ -659,6 +1609,75 @@
         "url": "https://ja.wikipedia.org/wiki/ウエストワールド",
         "url_en": "https://en.wikipedia.org/wiki/Westworld_(film)",
         "note": "アンドロイドが暴走するテーマパークを描くSF映画。"
+      },
+      {
+        "label": "Xerox Alto",
+        "label_en": "Xerox Alto",
+        "startYear": 1973,
+        "genre": [
+          "HARDWARE"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/Xerox_Alto",
+        "url_en": "https://en.wikipedia.org/wiki/Xerox_Alto",
+        "note": "パロアルト研究所が開発。GUI、マウス、イーサネットを備えた、現代のPCの直接的な原型。",
+        "note_en": "Developed by PARC. Direct prototype of modern PC, featuring GUI, mouse, and Ethernet."
+      }
+    ],
+    "1974": [
+      {
+        "label": "Computer Lib",
+        "label_en": "Computer Lib",
+        "startYear": 1974,
+        "genre": [
+          "CONTENT"
+        ],
+        "imp": 4,
+        "url": "https://en.wikipedia.org/wiki/Computer_Lib/Dream_Machines",
+        "url_en": "https://en.wikipedia.org/wiki/Computer_Lib/Dream_Machines",
+        "note": "テッド・ネルソンの著書。「コンピュータを大衆へ」と訴え、PC革命やハッカー文化に思想的影響を与えた。",
+        "note_en": "Book by Ted Nelson. Called for \"Power to the People,\" influencing PC revolution and hacker culture."
+      },
+      {
+        "label": "Dungeons & Dragons",
+        "label_en": "Dungeons & Dragons",
+        "startYear": 1974,
+        "genre": [
+          "CONTENT"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/ダンジョンズ%26ドラゴンズ",
+        "url_en": "https://en.wikipedia.org/wiki/Dungeons_%26_Dragons",
+        "note": "最初のTRPG。パラメータによるキャラ定義や成長など、コンピュータRPG（CRPG）の基礎構造を作った。",
+        "note_en": "First TRPG. Created basic structures of Computer RPGs (CRPG) like parameter-based character definition."
+      }
+    ],
+    "1975": [
+      {
+        "label": "Altair 8800",
+        "label_en": "Altair 8800",
+        "startYear": 1975,
+        "genre": [
+          "HARDWARE"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/Altair_8800",
+        "url_en": "https://en.wikipedia.org/wiki/Altair_8800",
+        "note": "個人が所有できる最初のヒットしたマイクロコンピュータ。マイクロソフト創業のきっかけにもなった。",
+        "note_en": "First hit microcomputer ownable by individuals. Sparked the founding of Microsoft."
+      },
+      {
+        "label": "Fractal Geometry",
+        "label_en": "Fractal Geometry",
+        "startYear": 1975,
+        "genre": [
+          "THEORY"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/フラクタル",
+        "url_en": "https://en.wikipedia.org/wiki/Fractal",
+        "note": "マンデルブロが提唱。自然界の複雑な形状を自己相似性で説明する数学的概念。CG技術などに革命。",
+        "note_en": "Proposed by Mandelbrot. Math concept explaining complex natural shapes via self-similarity. Revolutionized CG."
       }
     ],
     "1976": [
@@ -674,6 +1693,19 @@
         "url": "https://ja.wikipedia.org/wiki/甘利俊一",
         "url_en": "https://en.wikipedia.org/wiki/Shun%27ichi_Amari",
         "note": "統計多様体で学習を幾何学化し神経計算に影響。"
+      },
+      {
+        "label": "The Selfish Gene (Meme)",
+        "label_en": "The Selfish Gene (Meme)",
+        "startYear": 1976,
+        "genre": [
+          "THEORY"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/利己的な遺伝子",
+        "url_en": "https://en.wikipedia.org/wiki/The_Selfish_Gene",
+        "note": "ドーキンスの著書。文化伝達の単位として「ミーム」を提唱し、情報の進化・拡散モデルを示唆した。",
+        "note_en": "Dawkins' book. Coined \"Meme\" as a unit of cultural transmission, suggesting models for information evolution."
       }
     ],
     "1977": [
@@ -688,6 +1720,60 @@
         "url": "https://ja.wikipedia.org/wiki/%E3%83%89%E3%83%AD%E3%82%A4%E3%83%89",
         "url_en": "https://en.wikipedia.org/wiki/Droid_(Star_Wars)",
         "note": "C-3POやR2-D2など意思疎通するロボット群。"
+      },
+      {
+        "label": "Trinity (Apple II, PET, TRS-80)",
+        "label_en": "Trinity (Apple II, PET, TRS-80)",
+        "startYear": 1977,
+        "genre": [
+          "HARDWARE"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/Apple_II",
+        "url_en": "https://en.wikipedia.org/wiki/Home_computer#1977_trinity",
+        "note": "1977年のパーソナルコンピュータ御三家。完成品として販売され、PCが大衆化・産業化する起点となった。",
+        "note_en": "The 1977 trinity of PCs. Sold as finished goods, marking the start of PC mass adoption and industrialization."
+      },
+      {
+        "label": "Personal Dynamic Media",
+        "label_en": "Personal Dynamic Media",
+        "startYear": 1977,
+        "genre": [
+          "THEORY"
+        ],
+        "imp": 4,
+        "url": "https://en.wikipedia.org/wiki/Alan_Kay",
+        "url_en": "https://en.wikipedia.org/wiki/Alan_Kay",
+        "note": "アラン・ケイの論文。コンピュータを単なる計算機ではなく、表現と創造のための動的なメディアと定義した。",
+        "note_en": "Paper by Alan Kay. Defined computer not just as calculator, but as dynamic media for expression/creation."
+      }
+    ],
+    "1978": [
+      {
+        "label": "Space Invaders",
+        "label_en": "Space Invaders",
+        "startYear": 1978,
+        "genre": [
+          "SOFTWARE"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/スペースインベーダー",
+        "url_en": "https://en.wikipedia.org/wiki/Space_Invaders",
+        "note": "タイトーのビデオゲーム。日本で爆発的ブームとなり、コンピュータエンターテインメント産業を確立した。",
+        "note_en": "Taito video game. Caused explosive boom in Japan, establishing the computer entertainment industry."
+      },
+      {
+        "label": "JW-10",
+        "label_en": "JW-10",
+        "startYear": 1978,
+        "genre": [
+          "HARDWARE"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/JW-10",
+        "url_en": "https://ja.wikipedia.org/wiki/JW-10",
+        "note": "東芝が開発した初の日本語ワープロ。漢字変換技術の実用化により、日本のオフィス環境を一変させた。",
+        "note_en": "First Japanese word processor by Toshiba. Revolutionized Japanese offices with Kanji conversion tech."
       }
     ],
     "1979": [
@@ -716,6 +1802,58 @@
         "imp": 3,
         "url_en": "https://news.stanford.edu/stories/2019/01/stanfords-robotics-legacy",
         "note": "視覚を用いた自律走行実験で先駆的成果を示したプラットフォーム。"
+      },
+      {
+        "label": "Walkman",
+        "label_en": "Walkman",
+        "startYear": 1979,
+        "genre": [
+          "HARDWARE"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/ウォークマン",
+        "url_en": "https://en.wikipedia.org/wiki/Walkman",
+        "note": "ソニーが発売。音楽を「持ち運ぶ」ライフスタイルを定着させ、モバイル機器の先駆けとなった。",
+        "note_en": "Sony launch. Established lifestyle of \"carrying\" music, pioneering mobile devices."
+      },
+      {
+        "label": "VisiCalc",
+        "label_en": "VisiCalc",
+        "startYear": 1979,
+        "genre": [
+          "SOFTWARE"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/VisiCalc",
+        "url_en": "https://en.wikipedia.org/wiki/VisiCalc",
+        "note": "世界初の表計算ソフト。PCをビジネスツールとして認知させ、PC普及の「キラーアプリ」となった。",
+        "note_en": "First spreadsheet software. Recognized PC as a business tool, becoming the \"killer app\" for PC adoption."
+      },
+      {
+        "label": "Mobile Suit Gundam",
+        "label_en": "Mobile Suit Gundam",
+        "startYear": 1979,
+        "genre": [
+          "CONTENT"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/機動戦士ガンダム",
+        "url_en": "https://en.wikipedia.org/wiki/Mobile_Suit_Gundam",
+        "note": "リアルな兵器としてのロボット描写を確立。日本のロボット工学志望者に多大な影響を与え続けている。",
+        "note_en": "Established robot depiction as realistic weapons. Continues to influence Japanese robotics aspirants."
+      },
+      {
+        "label": "MUD (Multi-User Dungeon)",
+        "label_en": "MUD (Multi-User Dungeon)",
+        "startYear": 1979,
+        "genre": [
+          "SOFTWARE"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/MUD",
+        "url_en": "https://en.wikipedia.org/wiki/MUD",
+        "note": "テキストベースの多人数参加型RPG。MMORPGやメタバースの源流。",
+        "note_en": "Text-based multiplayer RPG. Origin of MMORPGs and the Metaverse."
       }
     ],
     "1980": [
@@ -747,6 +1885,45 @@
         "url": "https://ja.wikipedia.org/wiki/ネオコグニトロン",
         "url_en": "https://en.wikipedia.org/wiki/Neocognitron",
         "note": "福島邦彦による階層型ネット。CNNの原型とされるモデル。"
+      },
+      {
+        "label": "Pac-Man",
+        "label_en": "Pac-Man",
+        "startYear": 1980,
+        "genre": [
+          "SOFTWARE"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/パックマン",
+        "url_en": "https://en.wikipedia.org/wiki/Pac-Man",
+        "note": "ナムコのゲーム。キャラクター性を取り入れ、女性層含む世界的な大ヒットを記録。AI（敵の行動）も特徴。",
+        "note_en": "Namco game. Introduced characters, global hit including women. Featured distinctive AI (enemy behavior)."
+      },
+      {
+        "label": "Chinese room",
+        "label_en": "Chinese room",
+        "startYear": 1980,
+        "genre": [
+          "THEORY"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/中国語の部屋",
+        "url_en": "https://en.wikipedia.org/wiki/Chinese_room",
+        "note": "サールによる思考実験。記号操作だけのコンピュータは「意味」を理解していないと主張し、強いAIを批判。",
+        "note_en": "Thought experiment by Searle. Argued symbol-processing computers don't understand \"meaning,\" criticizing Strong AI."
+      },
+      {
+        "label": "Mindstorms",
+        "label_en": "Mindstorms",
+        "startYear": 1980,
+        "genre": [
+          "THEORY"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/マインドストーム",
+        "url_en": "https://en.wikipedia.org/wiki/Mindstorms_(book)",
+        "note": "シーモア・パパートの著書。プログラミング（LOGO）を通じた構築主義的学習を提唱。",
+        "note_en": "Book by Seymour Papert. Advocated constructionist learning through programming (LOGO)."
       }
     ],
     "1981": [
@@ -764,6 +1941,19 @@
         "url": "https://ja.wikipedia.org/wiki/新世代コンピュータ技術開発機構",
         "url_en": "https://en.wikipedia.org/wiki/ICOT",
         "note": "第五世代計算機プロジェクト推進のための日本の研究機関。"
+      },
+      {
+        "label": "IBM PC (5150)",
+        "label_en": "IBM PC (5150)",
+        "startYear": 1981,
+        "genre": [
+          "HARDWARE"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/IBM_PC",
+        "url_en": "https://en.wikipedia.org/wiki/IBM_Personal_Computer",
+        "note": "IBMが発売したPC。オープンアーキテクチャ戦略により互換機市場を生み、事実上の標準（デファクト）となった。",
+        "note_en": "Launched by IBM. Open architecture strategy created clone market, becoming the de facto standard."
       }
     ],
     "1982": [
@@ -835,6 +2025,60 @@
         "url": "https://ja.wikipedia.org/wiki/第五世代コンピュータ",
         "url_en": "https://en.wikipedia.org/wiki/Fifth_Generation_Computer_Systems",
         "note": "並列推論機と論理型言語によるAI計算機を目指した国家プロジェクト。"
+      },
+      {
+        "label": "Blade Runner",
+        "label_en": "Blade Runner",
+        "startYear": 1982,
+        "genre": [
+          "CONTENT"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/ブレードランナー",
+        "url_en": "https://en.wikipedia.org/wiki/Blade_Runner",
+        "note": "リドリー・スコット監督。サイバーパンクの視覚的イメージを決定づけ、人間と人造人間（AI）の境界を問うた。",
+        "note_en": "Ridley Scott film. Defined visual cyberpunk image, questioning boundary between human and android (AI)."
+      },
+      {
+        "label": "Fifth Generation Computer Systems",
+        "label_en": "Fifth Generation Computer Systems",
+        "startYear": 1982,
+        "genre": [
+          "JAPAN"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/第五世代コンピュータ",
+        "url_en": "https://en.wikipedia.org/wiki/Fifth_generation_computer",
+        "note": "日本の国家プロジェクト。並列推論マシンを目指したが商業的成功はならず。しかしAI人材育成に貢献。",
+        "note_en": "Japan's national project. Aimed for parallel inference machines. Commercially failed but trained AI talent."
+      },
+      {
+        "label": "Hopfield network",
+        "label_en": "Hopfield network",
+        "startYear": 1982,
+        "genre": [
+          "P_NEURAL"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/ホップフィールド・ネットワーク",
+        "url_en": "https://en.wikipedia.org/wiki/Hopfield_network",
+        "note": "ホップフィールドモデルの提案。ニューラルネットの物理学的解析を可能にし、第二次AIブームの火付け役となった。",
+        "note_en": "Proposal of Hopfield model. Enabled physical analysis of NNs, sparking the 2nd AI boom."
+      }
+    ],
+    "1983": [
+      {
+        "label": "Strange attractor",
+        "label_en": "Strange attractor",
+        "startYear": 1983,
+        "genre": [
+          "THEORY"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/アトラクター",
+        "url_en": "https://en.wikipedia.org/wiki/Attractor",
+        "note": "カオス理論において、系が収束するフラクタル構造を持つ軌道。複雑系の理解を深めた。",
+        "note_en": "In chaos theory, an orbit with fractal structure where the system converges. Deepened understanding of complex systems."
       }
     ],
     "1984": [
@@ -886,6 +2130,32 @@
         "imp": 3,
         "url_en": "https://en.wikipedia.org/wiki/Braitenberg_vehicle",
         "note": "単純結線でも行動が生まれることを示す思考モデル。"
+      },
+      {
+        "label": "Neuromancer",
+        "label_en": "Neuromancer",
+        "startYear": 1984,
+        "genre": [
+          "CONTENT"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/ニューロマンサー",
+        "url_en": "https://en.wikipedia.org/wiki/Neuromancer",
+        "note": "ウィリアム・ギブスンのSF小説。「サイバースペース（電脳空間）」という言葉と概念を普及させた。",
+        "note_en": "Gibson's Sci-fi novel. Popularized the word and concept of \"Cyberspace\"."
+      },
+      {
+        "label": "TRON Project",
+        "label_en": "TRON Project",
+        "startYear": 1984,
+        "genre": [
+          "JAPAN"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/TRONプロジェクト",
+        "url_en": "https://en.wikipedia.org/wiki/TRON_project",
+        "note": "坂村健が提唱したOS仕様。「どこでもコンピュータ」というIoT的なビジョンを早期に掲げていた。",
+        "note_en": "OS spec proposed by Ken Sakamura. Early vision of \"computing everywhere\" akin to IoT."
       }
     ],
     "1985": [
@@ -983,6 +2253,97 @@
         "url": "https://ja.wikipedia.org/wiki/誤差逆伝播法",
         "url_en": "https://en.wikipedia.org/wiki/Backpropagation",
         "note": "多層ネット学習を実用化しDLの基盤に。"
+      },
+      {
+        "label": "Understanding Computers and Cognition",
+        "label_en": "Understanding Computers and Cognition",
+        "startYear": 1986,
+        "genre": [
+          "THEORY"
+        ],
+        "imp": 3,
+        "url": "https://en.wikipedia.org/wiki/Winograd_and_Flores",
+        "url_en": "https://en.wikipedia.org/wiki/Understanding_Computers_and_Cognition",
+        "note": "ウィノグラードらの著書。従来の合理主義的AIアプローチを批判し、ハイデガー哲学に基づく設計を提唱。",
+        "note_en": "Book by Winograd et al. Criticized rationalist AI approach, advocating design based on Heideggerian philosophy."
+      },
+      {
+        "label": "Society of Mind",
+        "label_en": "Society of Mind",
+        "startYear": 1986,
+        "genre": [
+          "THEORY"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/心の社会",
+        "url_en": "https://en.wikipedia.org/wiki/Society_of_Mind",
+        "note": "ミンスキーの著書。知能は多数の単純なエージェントの集合から創発すると説いた。",
+        "note_en": "Minsky's book. Argued that intelligence emerges from a collection of many simple agents."
+      },
+      {
+        "label": "Subsumption architecture",
+        "label_en": "Subsumption architecture",
+        "startYear": 1986,
+        "genre": [
+          "ROBOTICS"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/サブサンプション・アーキテクチャ",
+        "url_en": "https://en.wikipedia.org/wiki/Subsumption_architecture",
+        "note": "ロドニー・ブルックスが提唱。モデルを作らず、反射的な行動の層を積み重ねるロボット制御手法。",
+        "note_en": "Proposed by Brooks. Robot control method layering reflexive behaviors without building models."
+      },
+      {
+        "label": "Connection Machine",
+        "label_en": "Connection Machine",
+        "startYear": 1986,
+        "genre": [
+          "HARDWARE"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/コネクションマシン",
+        "url_en": "https://en.wikipedia.org/wiki/Connection_Machine",
+        "note": "ダニー・ヒリスが設計した超並列コンピュータ。数万個のプロセッサで脳のような並列処理を目指した。",
+        "note_en": "Massively parallel computer designed by Danny Hillis. Aimed for brain-like processing with 10,000+ processors."
+      },
+      {
+        "label": "PDP Model (Backpropagation)",
+        "label_en": "PDP Model (Backpropagation)",
+        "startYear": 1986,
+        "genre": [
+          "P_NEURAL"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/バックプロパゲーション",
+        "url_en": "https://en.wikipedia.org/wiki/Backpropagation",
+        "note": "ラメルハートらによるPDPグループの研究。「誤差逆伝播法」を普及させ、ニューラルネット研究を劇的に復活させた。",
+        "note_en": "Research by Rumelhart/PDP group. Popularized \"Backpropagation,\" dramatically reviving NN research."
+      },
+      {
+        "label": "Engines of Creation",
+        "label_en": "Engines of Creation",
+        "startYear": 1986,
+        "genre": [
+          "THEORY"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/エリック・ドレクスラー",
+        "url_en": "https://en.wikipedia.org/wiki/Engines_of_Creation",
+        "note": "ドレクスラーの著書。分子レベルで物質を操作する「ナノテクノロジー」の概念と可能性を提唱。",
+        "note_en": "Drexler's book. Proposed concept/potential of \"Nanotechnology,\" manipulating matter at molecular level."
+      },
+      {
+        "label": "Guide",
+        "label_en": "Guide",
+        "startYear": 1986,
+        "genre": [
+          "SOFTWARE"
+        ],
+        "imp": 3,
+        "url": "https://en.wikipedia.org/wiki/Guide_(hypertext)",
+        "url_en": "https://en.wikipedia.org/wiki/Guide_(hypertext)",
+        "note": "PC向けの最初の商用ハイパーテキストシステム。HyperCardなどに先駆けて発売された。",
+        "note_en": "First commercial hypertext system for PCs. Released prior to HyperCard."
       }
     ],
     "1987": [
@@ -1097,6 +2458,58 @@
         "url_en": "https://en.wikipedia.org/wiki/Case-based_reasoning",
         "note": "類似事例を参照する推論手法。",
         "note_en": "Reasoning method using similar past cases."
+      },
+      {
+        "label": "De Novo Protein Design",
+        "label_en": "De Novo Protein Design",
+        "startYear": 1988,
+        "genre": [
+          "THEORY"
+        ],
+        "imp": 3,
+        "url": "https://en.wikipedia.org/wiki/William_DeGrado",
+        "url_en": "https://en.wikipedia.org/wiki/Protein_design",
+        "note": "デグラードらが人工的なタンパク質設計に成功。自然界にない分子を作る人工生命・合成生物学的一歩。",
+        "note_en": "DeGrado et al. designed artificial protein. Step for A-Life/Synthetic Biology creating non-natural molecules."
+      },
+      {
+        "label": "MEMS (Micro-motor)",
+        "label_en": "MEMS (Micro-motor)",
+        "startYear": 1988,
+        "genre": [
+          "HARDWARE"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/MEMS",
+        "url_en": "https://en.wikipedia.org/wiki/MEMS",
+        "note": "UCバークレーでのマイクロモーター開発。機械要素を半導体技術で微細加工するMEMSの進展。",
+        "note_en": "Micro-motor developed at UC Berkeley. Progress in MEMS, fabricating mechanical parts via semiconductor tech."
+      },
+      {
+        "label": "Morris worm",
+        "label_en": "Morris worm",
+        "startYear": 1988,
+        "genre": [
+          "SOFTWARE"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/モリス・ワーム",
+        "url_en": "https://en.wikipedia.org/wiki/Morris_worm",
+        "note": "インターネット上で広まった初のワーム。ネットセキュリティの重要性を世界に認識させた。",
+        "note_en": "First worm to spread on the Internet. Made the world recognize importance of net security."
+      },
+      {
+        "label": "AKIRA",
+        "label_en": "AKIRA",
+        "startYear": 1988,
+        "genre": [
+          "CONTENT"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/AKIRA_(漫画)",
+        "url_en": "https://en.wikipedia.org/wiki/Akira_(1988_film)",
+        "note": "大友克洋の映画。サイバーパンク的な未来都市描写と超能力（力の制御）のテーマは海外にも衝撃を与えた。",
+        "note_en": "Film by Katsuhiro Otomo. Cyberpunk city depiction and theme of power control shocked overseas audiences."
       }
     ],
     "1989": [
@@ -1149,6 +2562,58 @@
         "imp": 4,
         "url_en": "https://en.wikipedia.org/wiki/Universal_approximation_theorem",
         "note": "有限ニューロンで連続関数を近似可能と示した。"
+      },
+      {
+        "label": "Tierra",
+        "label_en": "Tierra",
+        "startYear": 1989,
+        "genre": [
+          "THEORY"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/Tierra",
+        "url_en": "https://en.wikipedia.org/wiki/Tierra_(computer_simulation)",
+        "note": "トム・レイが開発した人工生命プログラム。コンピュータウィルスのようなデジタル生物が進化・寄生する様子を観察。",
+        "note_en": "A-Life program by Tom Ray. Observed evolution/parasitism of digital organisms like viruses."
+      },
+      {
+        "label": "SimCity",
+        "label_en": "SimCity",
+        "startYear": 1989,
+        "genre": [
+          "SOFTWARE"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/シムシティ",
+        "url_en": "https://en.wikipedia.org/wiki/SimCity",
+        "note": "都市経営シミュレーション。複雑系やセル・オートマトンのような「創発」をゲームとして楽しめるようにした。",
+        "note_en": "City-building simulation. Made \"emergence\" (like complex systems/cellular automata) enjoyable as a game."
+      },
+      {
+        "label": "Prediction Company",
+        "label_en": "Prediction Company",
+        "startYear": 1989,
+        "genre": [
+          "ORG"
+        ],
+        "imp": 3,
+        "url": "https://en.wikipedia.org/wiki/Prediction_Company",
+        "url_en": "https://en.wikipedia.org/wiki/Prediction_Company",
+        "note": "カオス理論を金融市場に応用するために設立された企業。アルゴリズム取引の先駆け。",
+        "note_en": "Company applying chaos theory to financial markets. Pioneer of algorithmic trading."
+      },
+      {
+        "label": "PolyWorld",
+        "label_en": "PolyWorld",
+        "startYear": 1989,
+        "genre": [
+          "THEORY"
+        ],
+        "imp": 3,
+        "url": "https://en.wikipedia.org/wiki/PolyWorld",
+        "url_en": "https://en.wikipedia.org/wiki/PolyWorld",
+        "note": "ラニー・イェーガーによる人工生命シミュレータ。3D環境でニューラルネットを持つ生物が進化する。",
+        "note_en": "A-Life simulator by Larry Yaeger. Organisms with neural nets evolve in 3D environment."
       }
     ],
     "1990": [
@@ -1178,6 +2643,32 @@
         "url_en": "https://en.wikipedia.org/wiki/Genetic_algorithm",
         "note": "進化計算が広範に適用。",
         "note_en": "Evolutionary computing applied widely."
+      },
+      {
+        "label": "World Wide Web",
+        "label_en": "World Wide Web",
+        "startYear": 1990,
+        "genre": [
+          "SOFTWARE"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/World_Wide_Web",
+        "url_en": "https://en.wikipedia.org/wiki/World_Wide_Web",
+        "note": "ティム・バーナーズ＝リーが開発。インターネット上でハイパーテキストを閲覧するシステム。情報革命の核。",
+        "note_en": "Developed by Tim Berners-Lee. System to view hypertext on Internet. Core of information revolution."
+      },
+      {
+        "label": "PalmTop PTC-500",
+        "label_en": "PalmTop PTC-500",
+        "startYear": 1990,
+        "genre": [
+          "HARDWARE"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/パームトップパソコン",
+        "url_en": "https://ja.wikipedia.org/wiki/Sony_PalmTop_PTC-500",
+        "note": "ソニーのペン入力コンピュータ。PDA（携帯情報端末）の早期の試み。",
+        "note_en": "Sony's pen computer. Early attempt at PDA (Personal Digital Assistant)."
       }
     ],
     "1991": [
@@ -1222,6 +2713,19 @@
         "url_en": "https://en.wikipedia.org/wiki/Multi-armed_bandit",
         "note": "探索と活用の枠組みが整備。",
         "note_en": "Exploration-exploitation formalism matured."
+      },
+      {
+        "label": "Ubiquitous computing",
+        "label_en": "Ubiquitous computing",
+        "startYear": 1991,
+        "genre": [
+          "THEORY"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/ユビキタスコンピューティング",
+        "url_en": "https://en.wikipedia.org/wiki/Ubiquitous_computing",
+        "note": "マーク・ワイザーが提唱。環境にコンピュータが溶け込み、意識せずに使える世界。IoTの源流。",
+        "note_en": "Proposed by Mark Weiser. World where computers blend into environment, used unconsciously. Origin of IoT."
       }
     ],
     "1992": [
@@ -1253,6 +2757,19 @@
         "url_en": "https://en.wikipedia.org/wiki/Dr._Sbaitso",
         "note": "Sound Blaster同梱の対話デモ。",
         "note_en": "PC speech chatbot bundled with Sound Blaster."
+      },
+      {
+        "label": "NCSA Mosaic",
+        "label_en": "NCSA Mosaic",
+        "startYear": 1993,
+        "genre": [
+          "SOFTWARE"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/NCSA_Mosaic",
+        "url_en": "https://en.wikipedia.org/wiki/Mosaic_(web_browser)",
+        "note": "画像を表示できる最初の普及型Webブラウザ。インターネットを一部の研究者のものから一般大衆へ開放した。",
+        "note_en": "First popular web browser capable of displaying images. Opened Internet from researchers to public."
       }
     ],
     "1994": [
