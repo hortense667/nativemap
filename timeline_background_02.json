@@ -30,91 +30,6 @@
     "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
     "notes": "Updates from contributors are welcome. Please do not create separate versions. When reusing data, credit the original authors."
   },
-  "eraSettings": [
-    {
-      "name": "明治",
-      "startYear": 1868,
-      "endYear": 1912,
-      "color": "#00CED1",
-      "opacity": "0.3",
-      "enabled": true,
-      "fillEnabled": false
-    },
-    {
-      "name": "大正",
-      "startYear": 1912,
-      "endYear": 1926,
-      "color": "#4169E1",
-      "opacity": "0.3",
-      "enabled": true,
-      "fillEnabled": false
-    },
-    {
-      "name": "昭和",
-      "startYear": 1926,
-      "endYear": 1989,
-      "color": "#32CD32",
-      "opacity": "0.3",
-      "enabled": true,
-      "fillEnabled": false
-    },
-    {
-      "name": "平成",
-      "startYear": 1989,
-      "endYear": 2019,
-      "color": "#FF8C00",
-      "opacity": "0.3",
-      "enabled": true,
-      "fillEnabled": false
-    },
-    {
-      "name": "令和",
-      "startYear": 2019,
-      "endYear": "ongoing",
-      "color": "#4169E1",
-      "opacity": "0.3",
-      "enabled": true,
-      "fillEnabled": true
-    }
-  ],
-  "genres": [
-    {
-      "code": "EVENT",
-      "label": "出来事",
-      "label_en": "Events/Turning points",
-      "conjunction": false
-    },
-    {
-      "code": "CONTENT",
-      "label": "作品",
-      "label_en": "Content",
-      "conjunction": false
-    },
-    {
-      "code": "PRODUCT",
-      "label": "製品",
-      "label_en": "Product",
-      "conjunction": false
-    },
-    {
-      "code": "COMPANY",
-      "label": "企業",
-      "label_en": "Company",
-      "conjunction": false
-    },
-    {
-      "code": "JAPAN",
-      "label": "日本",
-      "label_en": "Japan",
-      "conjunction": true
-    },
-    {
-      "code": "WORLD",
-      "label": "世界",
-      "label_en": "world",
-      "conjunction": true
-    }
-  ],
   "events": {
     "1945": [
       {
@@ -177,20 +92,6 @@
         "note_en": "The largest Pacific ground battle, causing massive military and civilian losses."
       },
       {
-        "label": "ドイツ無条件降伏（V-Eデー）",
-        "label_en": "German unconditional surrender (V-E Day)",
-        "startYear": 1945,
-        "genre": [
-          "EVENT",
-          "WORLD"
-        ],
-        "imp": 3,
-        "url": "https://ja.wikipedia.org/wiki/ドイツの降伏文書",
-        "url_en": "https://en.wikipedia.org/wiki/German_Instrument_of_Surrender",
-        "note": "欧州戦線が終結し連合国は対日戦に集中。",
-        "note_en": "\"Ended the European war: Allies turned focus to Japan.\""
-      },
-      {
         "label": "ポツダム会談・宣言",
         "label_en": "Potsdam Conference & Declaration",
         "startYear": 1945,
@@ -219,21 +120,6 @@
         "url_en": "https://en.wikipedia.org/wiki/Atomic_bombings_of_Hiroshima_and_Nagasaki",
         "note": "2発の原爆が投下され壊滅的被害。核時代の幕開け。",
         "note_en": "Two atomic bombs devastated the cities, ushering in the nuclear age."
-      },
-      {
-        "label": "日本の降伏（V-Jデー）",
-        "label_en": "Japan’s surrender (V-J Day)",
-        "startYear": 1945,
-        "genre": [
-          "EVENT",
-          "WORLD",
-          "JAPAN"
-        ],
-        "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/降伏文書",
-        "url_en": "https://en.wikipedia.org/wiki/Surrender_of_Japan",
-        "note": "連合国との降伏文書に調印し第二次世界大戦が終結。",
-        "note_en": "Japan signed the Instrument of Surrender, ending World War II."
       },
       {
         "label": "国際連合創設",
@@ -548,6 +434,35 @@
         "url_en": "https://en.wikipedia.org/wiki/Education_in_Japan#Postwar",
         "note": "占領政策の下で新学制への準備が始まる。",
         "note_en": "Preparations began for Japan’s new education system under occupation."
+      },
+      {
+        "label": "ドイツ無条件降伏",
+        "startYear": 1945,
+        "genre": [
+          "EVENT",
+          "WORLD"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/ドイツの降伏文書",
+        "note": "欧州戦線が終結し連合国は対日戦に集中。",
+        "label_en": "German unconditional surrender",
+        "url_en": "https://en.wikipedia.org/wiki/German_Instrument_of_Surrender",
+        "note_en": "\"Ended the European war: Allies turned focus to Japan.\""
+      },
+      {
+        "label": "日本の降伏",
+        "startYear": 1945,
+        "genre": [
+          "EVENT",
+          "JAPAN",
+          "WORLD"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/降伏文書",
+        "note": "連合国との降伏文書に調印し第二次世界大戦が終結。",
+        "label_en": "Japan’s surrender",
+        "url_en": "https://en.wikipedia.org/wiki/Surrender_of_Japan",
+        "note_en": "Japan signed the Instrument of Surrender, ending World War II."
       }
     ],
     "1946": [
@@ -7071,20 +6986,6 @@
         "url_en": "https://en.wikipedia.org/wiki/Japanese_economic_miracle",
         "note": "輸出拡大と設備投資で高成長が本格化。",
         "note_en": "Exports and capital investment fueled rapid growth."
-      },
-      {
-        "label": "小津『小早川家の秋』",
-        "startYear": 1961,
-        "genre": [
-          "CONTENT",
-          "JAPAN"
-        ],
-        "imp": 1,
-        "url": "https://ja.wikipedia.org/wiki/%E5%B0%8F%E6%97%A9%E5%B7%9D%E5%AE%B6%E3%81%AE%E7%A7%8B",
-        "note": "小津の後期代表作の一つ。",
-        "label_en": "Film: The End of Summer (Ozu)",
-        "url_en": "https://en.wikipedia.org/wiki/The_End_of_Summer",
-        "note_en": "One of Ozu’s late‑period masterpieces."
       },
       {
         "label": "映画『人間の証明』? → 小津『小早川家の秋』",
@@ -34720,5 +34621,90 @@
         "note_en": "Accelerated online services and data interoperability."
       }
     ]
-  }
+  },
+  "eraSettings": [
+    {
+      "name": "明治",
+      "startYear": 1868,
+      "endYear": 1912,
+      "color": "#00CED1",
+      "opacity": "0.3",
+      "enabled": true,
+      "fillEnabled": false
+    },
+    {
+      "name": "大正",
+      "startYear": 1912,
+      "endYear": 1926,
+      "color": "#4169E1",
+      "opacity": "0.3",
+      "enabled": true,
+      "fillEnabled": false
+    },
+    {
+      "name": "昭和",
+      "startYear": 1926,
+      "endYear": 1989,
+      "color": "#32CD32",
+      "opacity": "0.3",
+      "enabled": true,
+      "fillEnabled": false
+    },
+    {
+      "name": "平成",
+      "startYear": 1989,
+      "endYear": 2019,
+      "color": "#FF8C00",
+      "opacity": "0.3",
+      "enabled": true,
+      "fillEnabled": false
+    },
+    {
+      "name": "令和",
+      "startYear": 2019,
+      "endYear": "ongoing",
+      "color": "#4169E1",
+      "opacity": "0.3",
+      "enabled": true,
+      "fillEnabled": true
+    }
+  ],
+  "genres": [
+    {
+      "code": "EVENT",
+      "label": "出来事",
+      "label_en": "Events/Turning points",
+      "conjunction": false
+    },
+    {
+      "code": "CONTENT",
+      "label": "作品",
+      "label_en": "Content",
+      "conjunction": false
+    },
+    {
+      "code": "PRODUCT",
+      "label": "製品",
+      "label_en": "Product",
+      "conjunction": false
+    },
+    {
+      "code": "COMPANY",
+      "label": "企業",
+      "label_en": "Company",
+      "conjunction": false
+    },
+    {
+      "code": "JAPAN",
+      "label": "日本",
+      "label_en": "Japan",
+      "conjunction": true
+    },
+    {
+      "code": "WORLD",
+      "label": "世界",
+      "label_en": "world",
+      "conjunction": true
+    }
+  ]
 }
