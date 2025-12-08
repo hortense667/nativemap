@@ -1,11 +1,11 @@
 {
   "metadata": {
     "title": {
-      "ja": "〇〇の年表 0.0",
-      "en": "xx Timeline 0.0"
+      "ja": "サイバー本の年表 0.0",
+      "en": "Cyber Books Timeline 0.0"
     },
     "description": {
-      "ja": "この年表は〇〇分野の主な製品や出来事を示します。",
+      "ja": "この年表はサイバー本を示します。",
       "en": "This timeline shows the major products and events in the xx field. "
     },
     "initialCreator": "Satoshi Endo",
