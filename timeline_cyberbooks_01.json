@@ -1063,15 +1063,15 @@
     "1993": [
       {
         "label": "ハッカーを追え!（ブルース・スターリング著、今岡清訳）",
+        "label_en": "The Hacker Crackdown: Law and Disorder on the Electronic Frontier(Bruce Sterling)",
         "startYear": 1993,
         "genre": [
           "HACKER"
         ],
         "imp": 3,
-        "url": "https://www.amazon.co.jp/dp/4756105467&https://m.media-amazon.com/images/I/81SCMb6b6qL._SY425_.jpg",
-        "note": "アメリカ政府によるハッカー摘発「Operation Sundevil」や、Steve Jackson Games事件、Electronic Frontier Foundation誕生など、90年代初頭の「ハッカー・クラックダウン」を描いた名著。SF作家スターリングらしく、登場人物たちのキャラ立ちと時代背景の分析が鋭いです。/ハッカー vs. 捜査当局 vs. 電子フロンティア財団という三つ巴を描きつつ、「サイバー空間が法とどう出会ったか」という現代史のポイントを押さえた本です。ネット規制や表現の自由を考える上で、いま読んでも驚くほど示唆的。",
-        "label_en": "The Hacker Crackdown: Law and Disorder on the Electronic Frontier(Bruce Sterling)",
+        "url": "https://www.amazon.co.jp/dp/4756107384",
         "url_en": "https://en.wikipedia.org/wiki/The_Hacker_Crackdown",
+        "note": "アメリカ政府によるハッカー摘発「Operation Sundevil」や、Steve Jackson Games事件、Electronic Frontier Foundation誕生など、90年代初頭の「ハッカー・クラックダウン」を描いた名著。SF作家スターリングらしく、登場人物たちのキャラ立ちと時代背景の分析が鋭いです。/ハッカー vs. 捜査当局 vs. 電子フロンティア財団という三つ巴を描きつつ、「サイバー空間が法とどう出会ったか」という現代史のポイントを押さえた本です。ネット規制や表現の自由を考える上で、いま読んでも驚くほど示唆的。",
         "note_en": "A masterpiece depicting the \"hacker crackdown\" of the early 90s, including \"Operation Sundevil\" by the US government, the Steve Jackson Games incident, and the birth of the Electronic Frontier Foundation. As expected of SF writer Sterling, the characterization and analysis of the historical background are sharp./A book capturing the key moments of modern history where \"cyberspace met the law,\" depicting a three-way struggle between hackers, investigators, and the EFF. It remains surprisingly suggestive when thinking about net regulation and freedom of expression today."
       },
       {
@@ -1297,6 +1297,59 @@
         "url_en": "https://en.wikipedia.org/wiki/Dead_Girls_(novel)",
         "note": "サイボーグ化された少女たちが支配する退廃的な未来ロンドンを舞台に、「死」と「官能」と「機械」が入り混じるゴシック風サイバーパンクSF。フェティッシュで過激なイメージが続きますが、身体とアイデンティティの境界をめぐる物語でもあります。/かなりハードで好みは分かれますが、「電脳×身体変容×ゴシック」の極端なかけ合わせが90年代サイバーパンクの一つの到達点という感じの一冊です。サイボーグ少女もの・ダークSF方面の系譜をたどるなら、外せない問題作ですね。",
         "note_en": "A gothic cyberpunk SF where \"death,\" \"sensuality,\" and \"machine\" mix, set in a decadent future London dominated by cyborgized girls. Fetishistic and extreme images continue, but it is also a story about the boundaries of body and identity./Quite hard and divisive, but a book that feels like one culmination of 90s cyberpunk with the extreme combination of \"cyber x body modification x gothic.\" If tracing the genealogy of cyborg girl stories and dark SF, it is an indispensable controversial work."
+      },
+      {
+        "label": "シークレット・オブ・スーパーハッカー（ナイトメア著/松藤留美子訳）",
+        "label_en": "SECRETS OF A SUPER HACKER(Nightmare)",
+        "startYear": 1995,
+        "genre": [
+          "HACKER"
+        ],
+        "imp": 3,
+        "url": "https://www.amazon.co.jp/dp/4820711652",
+        "url_en": "https://www.amazon.com/dp/0345391913",
+        "note": "現役ハッカーによるハッキングの事例集というと大げさだが、かなりかなり危ない内容の本だ。もちろんハッカーといっても神様ではない。巧妙なハッキングの裏には種も仕掛けもある。そうしたことを知るだけでも、本書を読む価値はあり、ハッカー対策を考える際も大いに有効だ。/ハッカーの裏ワザを紹介した本は少なく、本書は貴重な1冊といえる。",
+        "note_en": "It may be an exaggeration to call this a collection of hacking case studies by an active hacker, but the content is quite dangerous. Of course, hackers are not gods. Behind skillful hacking, there are tricks and setups. Just knowing these things makes this book worthwhile and highly effective when considering countermeasures against hackers./Books introducing hacker tricks are rare, making this book a valuable resource."
+      },
+      {
+        "label": "サイベリア（ダグラス・ラシュコフ著/大森望訳）",
+        "label_en": "CIBERIA(Douglas Rushkoff)",
+        "startYear": 1995,
+        "genre": [
+          "HACKER",
+          "POPCULTURE"
+        ],
+        "imp": 3,
+        "url": "https://www.amazon.co.jp/dp/4756113826",
+        "url_en": "https://www.amazon.com/dp/0062512336",
+        "note": "サブタイトルは「デジタル・アンダーグラウンドの現在形」。ハッカー文化とドラッグカルチャー、カウンターカルチャー、神秘主義との接点に焦点を当てた本だ。文化的な側面から、ハッカー文化を検証するという点で、本書は他のハッカー本にはない魅力を備えている。/ハッカー文化とドラッグカルチャー、カウンターカルチャー、神秘主義との接点に焦点を当てた本だ。文化的な側面から、ハッカー文化を検証するという点で、本書は他のハッカー本にはない魅力を備えている。",
+        "note_en": "The subtitle is \"The Digital Underground, Present Tense.\" This book focuses on the intersection of hacker culture, drug culture, counterculture, and mysticism. By examining hacker culture from a cultural perspective, this book possesses a unique appeal that other hacker books lack./This book focuses on the intersection of hacker culture, drug culture, counterculture, and mysticism. By examining hacker culture from a cultural perspective, this book possesses a unique appeal that other hacker books lack."
+      },
+      {
+        "label": "マスターズ・オブ・ディセプション（ジョシュア・クウィットナー、ミシェール・スラターラ著/師岡雄二訳）",
+        "label_en": "MASTERS OF DECEPTION(Joshua Quittner, Michelle Slatalla)",
+        "startYear": 1995,
+        "genre": [
+          "HACKER"
+        ],
+        "imp": 3,
+        "url": "https://www.amazon.co.jp/dp/4047912387",
+        "url_en": "https://www.amazon.com/dp/0060926985",
+        "note": "ニューヨークの10代のハッカーがネットワーク空間でグループを結成し、テキサスの別のグループと抗争する一部始終をドラマ風に再現している。ファイバー・オプティック、スコーピオン、アシッド・フリークなど、新聞を賑わせたハッカーたちが主人公だ。/ニューヨークの10代のハッカーがネットワーク空間でグループを結成し、テキサスの別のグループと抗争する一部始終をドラマ風に再現している。ファイバー・オプティック、スコーピオン、アシッド・フリークなど、新聞を賑わせたハッカーたちが主人公だ。",
+        "note_en": "Dramatically recreates the entire sequence of events in which teenage hackers in New York formed a group in cyberspace and clashed with another group in Texas. The protagonists are hackers who dominated the headlines, including Fiber Optic, Scorpion, and Acid Phreak./Dramatically recreates the entire sequence of events in which teenage hackers in New York formed a group in cyberspace and clashed with another group in Texas. The protagonists are hackers who dominated the headlines, including Fiber Optic, Scorpion, and Acid Phreak."
+      },
+      {
+        "label": "サイバースペースの決闘（ジョシュア・クウィットナー、ミシェール・スラターラ著/師岡雄二訳）",
+        "label_en": "MASTERS OF DECEPTION(Joshua Quittner, Michelle Slatalla)",
+        "startYear": 1995,
+        "genre": [
+          "HACKER"
+        ],
+        "imp": 3,
+        "url": "https://www.amazon.co.jp/dp/4047912387",
+        "url_en": "https://www.amazon.com/dp/0060926985",
+        "note": "ニューヨークの10代のハッカーがネットワーク空間でグループを結成し、テキサスの別のグループと抗争する一部始終をドラマ風に再現している。ファイバー・オプティック、スコーピオン、アシッド・フリークなど、新聞を賑わせたハッカーたちが主人公だ。/ハッカー文化史における有名なグループ間の抗争を、臨場感あるドラマとして描いたノンフィクション。当時のハッカーコミュニティの緊迫感や若者のエネルギーが伝わる一冊です。",
+        "note_en": "Dramatically recreates the entire sequence of events in which teenage hackers in New York formed a group in cyberspace and clashed with another group in Texas. The protagonists are hackers who dominated the headlines, including Fiber Optic, Scorpion, and Acid Phreak./A non-fiction account depicting the famous rivalry between hacker groups in cultural history as a vivid drama. This book conveys the tension and youthful energy of the hacker community at the time."
       }
     ],
     "1996": [
@@ -1402,6 +1455,57 @@
         "url_en": "https://en.wikipedia.org/wiki/Richard_Calder",
         "note": "近未来の退廃的なロンドンを舞台に、人間と人造少女との倒錯した関係やフェティッシュな欲望を描き出す長編SF。〈デッドガールズ〉三部作の一作として位置づけられる。/かなり“毒の強い”作品で、と、サイバーパンクの「身体拡張」「アイデンティティの変容」を、エロティックかつグロテスクなイメージで極端に押し広げたような内容です。好き嫌いは激しく分かれますが、90年代英SFの「過剰なまでの倒錯趣味」を象徴する一冊でもあります。",
         "note_en": "A sci-fi novel set in a decadent near-future London, depicting perverse relationships and fetishistic desires between humans and artificial girls. Positioned as part of the \"Dead Girls\" trilogy. /A work with quite \"strong poison,\" expanding cyberpunk's \"body extension\" and \"identity transformation\" extremely with erotic and grotesque images. Loves and hates are sharply divided, but it is a book symbolizing the \"excessive perversion taste\" of 90s British SF. 2008"
+      },
+      {
+        "label": "FBIが恐れた伝説のハッカー(上)(下)（ジョナサン・リットマン著/東江一起訳）",
+        "label_en": "THE FUGITIVE GAME(Jonathan Littman)",
+        "startYear": 1996,
+        "genre": [
+          "HACKER"
+        ],
+        "imp": 3,
+        "url": "https://www.amazon.co.jp/dp/4794207219",
+        "url_en": "https://www.amazon.com/dp/0316528728",
+        "note": "1965年2月、史上最悪のハッカーと言われたケヴィン・ミトニックが逮捕された。この事件はよほど衝撃的だったらしく、何冊もの本が出版された。本書はミトニックの側に立ったドキュメントで、逮捕劇全体が一種の陰謀ではないかという視点が提示されており、ミトニックに対して同情的だ。/1965年2月、史上最悪のハッカーと言われたケヴィン・ミトニックが逮捕された。この事件はよほど衝撃的だったらしく、何冊もの本が出版された。本書はミトニックの側に立ったドキュメントで、逮捕劇全体が一種の陰謀ではないかという視点が提示されており、ミトニックに対して同情的だ。",
+        "note_en": "In February 1965, Kevin Mitnick, who was called the worst hacker in history, was arrested. This incident seems to have been quite shocking, and several books were published. This book is a document sympathetic to Mitnick, presenting the view that the entire arrest drama might have been a conspiracy./In February 1965, Kevin Mitnick, who was called the worst hacker in history, was arrested. This incident seems to have been quite shocking, and several books were published. This book is a document sympathetic to Mitnick, presenting the view that the entire arrest drama might have been a conspiracy."
+      },
+      {
+        "label": "テイクダウン(上)(下)（下村努、ジョン・マーコフ著/宮原純夫訳）",
+        "label_en": "TAKEDOWN(Tsutomu Shimomura, John Markoff)",
+        "startYear": 1996,
+        "genre": [
+          "HACKER"
+        ],
+        "imp": 3,
+        "url": "https://www.amazon.co.jp/dp/419860589X",
+        "url_en": "https://www.amazon.com/dp/0786014498",
+        "note": "ケヴィン・ミトニックの逮捕に重要な役割を果たした日本人ハッカー、コンピュータ・セキュリティの専門家下村努が、「ハッカーは笑う」の著者の一人と記したミトニック逮捕までのドキュメント・ノベル。/正義のハッカー(保安官)が悪)ハッカー (アウトロー)を退治する話に仕上がっており、すべてはメディアの中で予定調和的なドラマに仕上がっていくという点で、実に興味深い本た。",
+        "note_en": "A documentary novel chronicling Mitnick's arrest, written by Tsutomu Shimomura, a Japanese hacker and computer security expert who played a key role in the arrest, co-authored with one of the authors of \"Cyberpunk: Outlaws and Hackers on the Computer Frontier.\"/The narrative is crafted as a story where the vigilante hacker (the sheriff) defeats the evil hacker (the outlaw), making it a truly interesting book in the way everything turns into a predetermined drama within the media."
+      },
+      {
+        "label": "ハッカーを撃て!（ジェフ・グッデル著/杉浦茂樹訳）",
+        "label_en": "THE CYBERTHIEF AND THE SAMURAI(Jeff Goodell)",
+        "startYear": 1996,
+        "genre": [
+          "HACKER"
+        ],
+        "imp": 3,
+        "url": "https://www.amazon.co.jp/dp/4484962208",
+        "url_en": "https://www.amazon.com/dp/0440224184",
+        "note": "本書もケヴィン・ミトニック逮捕関連の1冊。「サイバー盗賊とサムライ」という難通り、ミトニック対下村の闘いをハリウッド映画風にリメイクしている。「FBIが恐れた~」「テイクダウン」とあわせて読めば、都市伝説がどのように形成されていくかを検証することができる。/20年後、ミトニック逮捕劇はどのように神話化されているのだろうか。",
+        "note_en": "This book is also related to Kevin Mitnick's arrest. True to its difficult title, \"The Cyberthief and the Samurai,\" it remakes the battle between Mitnick and Shimomura in a Hollywood movie style. Reading it alongside \"The Fugitive Game\" and \"Takedown\" allows one to examine how urban legends are formed./How will the drama of Mitnick's arrest be mythologized 20 years later?"
+      },
+      {
+        "label": "世界ハッカー犯罪白書（セルジュ・ル・ドラン、フィリップ・ロゼ著/桑原透訳）",
+        "label_en": "CYBER THRILLERS(Serge Le Doran, Philippe Rosé)",
+        "startYear": 1996,
+        "genre": [
+          "HACKER"
+        ],
+        "imp": 3,
+        "url": "https://www.amazon.co.jp/dp/4163520104",
+        "note": "アメリカ編、東欧・アジア編、西ヨーロッパ編に分かれ、30のハッカー犯罪が簡潔に(しかも再現ドラマ風に)紹介されている。文字どおりサイバースペースの事件簿と言える1冊だが、すでにトルー・ストーリーズ風の味わいがある。/文字どおりサイバースペースの事件簿と言える1冊だが、すでにトルー・ストーリーズ風の味わいがある。",
+        "note_en": "Divided into American, Eastern European/Asian, and Western European sections, 30 hacker crimes are concisely introduced (in a dramatic reenactment style). It is literally a case file of cyberspace, but it already has the flavor of true crime stories./It is literally a case file of cyberspace, but it already has the flavor of true crime stories."
       }
     ],
     "1997": [
