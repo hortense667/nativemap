@@ -1054,6 +1054,19 @@
         "url": "https://www.amazon.co.jp/dp/4150303932&https://m.media-amazon.com/images/I/5134NNSP1EL._SY425_.jpg",
         "note": "人間と機械／生物と人工物といった境界をテーマにした、日本オリジナルのサイバーパンク／ポストヒューマンSF。タイトル通り「ハイブリッド」をめぐる複数の物語・イメージが交錯する。/日本SFにおける「サイボーグ／ジェンダー／身体」の問題系を語るうえで外せない一冊です。海外サイバーパンクの輸入とは違い、日本語の感性と文体で「境界の揺らぎ」が語られていて、同時期の伊藤計劃以降の潮流とも響き合う部分があります。",
         "note_en": "A Japanese original cyberpunk/post-human SF themed on boundaries such as human/machine and living/artificial. As the title suggests, multiple stories and images revolving around \"hybrids\" intersect./An indispensable book for discussing the \"cyborg/gender/body\" issues in Japanese SF. Unlike imported overseas cyberpunk, \"fluctuation of boundaries\" is told with Japanese sensibility and style, resonating with the currents from Project Itoh onwards in the same period."
+      },
+      {
+        "label": "パサージュ論（ヴァルター・ベンヤミン著、今村仁司・三島憲一ほか訳）",
+        "startYear": 1993,
+        "genre": [
+          "THEORYMEDIA"
+        ],
+        "imp": 3,
+        "url": "https://www.amazon.co.jp/%E3%83%91%E3%82%B5%E3%83%BC%E3%82%B8%E3%83%A5%E8%AB%96-%E5%85%A85%E5%B7%BB%E6%8F%83-%E3%83%B4%E3%82%A1%E3%83%AB%E3%82%BF%E3%83%BC%E3%83%BB%E3%83%99%E3%83%B3%E3%83%A4%E3%83%9F%E3%83%B3-%E4%BB%8A%E6%9D%91%E4%BB%81%E5%8F%B8-%E5%B2%A9%E6%B3%A2%E7%8F%BE%E4%BB%A3%E6%96%87%E5%BA%AB/dp/B0C9GHFGNB&https://m.media-amazon.com/images/I/31H0E25d4oL.jpg",
+        "note": "19世紀パリの「パサージュ（アーケード街）」を百科事典的に蒐集し、近代都市と消費社会の成立をモンタージュ的に描き出そうとした巨大な断片群。未完のまま残されたベンヤミンの主著であり、近代批判・メディア論・都市論の源泉となっている。/近代都市や資本主義をテーマにした本は数あれど、「パサージュ論」は情報の“スクラップブック”的集積でそれをやろうとした点が異様です。断片の山を前に「検索もタグも無いZettelkastenで世界をハックしている人」という感じで読むと、現代のデータベース社会にもつながる“アナログRAG”のように見えてきます。",
+        "label_en": "Das Passagen-Werk(Walter Benjamin)",
+        "url_en": "https://en.wikipedia.org/wiki/Arcades_Project",
+        "note_en": "A massive collection of fragments that encyclopedically collected the \"passages\" (arcades) of 19th-century Paris, attempting to depict the formation of the modern city and consumer society in a montage style. Benjamin's magnum opus left unfinished, it is a source for modern critique, media theory, and urban theory./There are many books on modern cities and capitalism, but \"The Arcades Project\" is unique in attempting to do this through a \"scrapbook-like\" accumulation of information. Facing this mountain of fragments, if you read it as \"someone hacking the world with a Zettelkasten without search or tags,\" it starts to look like an \"analog RAG\" connected to modern database society."
       }
     ],
     "1994": [
@@ -1431,21 +1444,6 @@
         "url_en": "https://en.wikipedia.org/wiki/The_Andy_Warhol_Diaries",
         "note": "ウォーホルはポップカルチャーそのものだ。日記といっても、1976年から1987年までのウォーホルを取り巻く日常を、日記担当の秘書（編者）が電話で聞き書きしたもの。ウォーホルの目を通した同時代の報告書と言えるかもしれない。ここでのウォーホルは携帯ビデオカメラの役割を果たしている。/本書は、ウォーホル日記に関する重要な視点を提供しています。彼がただのアーティストではなく、時代を記録するメディアそのものであったことが、この膨大な聞き書きから伝わってきます。",
         "note_en": "Warhol is pop culture itself. Although called a diary, it is a dictation taken over the phone by his secretary (the editor) covering Warhol's daily life from 1976 to 1987. It can be said to be a report of the era through Warhol's eyes. Here, Warhol plays the role of a portable video camera./This book provides an important perspective on the Warhol Diaries. It conveys through this vast dictation that he was not just an artist, but the media itself recording the era."
-      }
-    ],
-    "2003": [
-      {
-        "label": "パサージュ論（ヴァルター・ベンヤミン著、今村仁司・三島憲一ほか訳）",
-        "label_en": "Das Passagen-Werk(Walter Benjamin)",
-        "startYear": 2003,
-        "genre": [
-          "THEORYMEDIA"
-        ],
-        "imp": 3,
-        "url": "https://www.amazon.co.jp/%E3%83%91%E3%82%B5%E3%83%BC%E3%82%B8%E3%83%A5%E8%AB%96-%E5%85%A85%E5%B7%BB%E6%8F%83-%E3%83%B4%E3%82%A1%E3%83%AB%E3%82%BF%E3%83%BC%E3%83%BB%E3%83%99%E3%83%B3%E3%83%A4%E3%83%9F%E3%83%B3-%E4%BB%8A%E6%9D%91%E4%BB%81%E5%8F%B8-%E5%B2%A9%E6%B3%A2%E7%8F%BE%E4%BB%A3%E6%96%87%E5%BA%AB/dp/B0C9GHFGNB&https://m.media-amazon.com/images/I/31H0E25d4oL.jpg",
-        "url_en": "https://en.wikipedia.org/wiki/Arcades_Project",
-        "note": "19世紀パリの「パサージュ（アーケード街）」を百科事典的に蒐集し、近代都市と消費社会の成立をモンタージュ的に描き出そうとした巨大な断片群。未完のまま残されたベンヤミンの主著であり、近代批判・メディア論・都市論の源泉となっている。/近代都市や資本主義をテーマにした本は数あれど、「パサージュ論」は情報の“スクラップブック”的集積でそれをやろうとした点が異様です。断片の山を前に「検索もタグも無いZettelkastenで世界をハックしている人」という感じで読むと、現代のデータベース社会にもつながる“アナログRAG”のように見えてきます。",
-        "note_en": "A massive collection of fragments that encyclopedically collected the \"passages\" (arcades) of 19th-century Paris, attempting to depict the formation of the modern city and consumer society in a montage style. Benjamin's magnum opus left unfinished, it is a source for modern critique, media theory, and urban theory./There are many books on modern cities and capitalism, but \"The Arcades Project\" is unique in attempting to do this through a \"scrapbook-like\" accumulation of information. Facing this mountain of fragments, if you read it as \"someone hacking the world with a Zettelkasten without search or tags,\" it starts to look like an \"analog RAG\" connected to modern database society."
       }
     ]
   },
