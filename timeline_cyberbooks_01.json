@@ -121,6 +121,19 @@
         "url_en": "https://en.wikipedia.org/wiki/The_Order_of_Things",
         "note": "ボルヘスの架空の百科事典の引用と、ベラスケス『侍女たち』の分析からはじまり、「人間」という概念自体が近代のある時期に現れ、また消えていくかもしれないという視点から人文科学を「考古学」的に掘り起こす書物です。/「人間」「主体」「知」といった概念も、一種の歴史的な「OS」のようなものにすぎない——という読み替えを迫ってくる本です。コンピュータやネットワークが知のインフラになった時代の「人文科学」を考えるとき、その地層を見せてくれる基礎資料のような位置づけになります。",
         "note_en": "Beginning with a quote from Borges' fictional encyclopedia and an analysis of Velázquez's \"Las Meninas,\" this book \"archaeologically\" unearths the human sciences from the perspective that the concept of \"man\" itself emerged at a certain time in the modern era and may disappear again./A book that forces a rereading that concepts like \"human,\" \"subject,\" and \"knowledge\" are nothing more than a kind of historical \"OS.\" When thinking about \"human sciences\" in an era where computers and networks have become the infrastructure of knowledge, it serves as basic material showing those geological layers."
+      },
+      {
+        "label": "言葉と物：人文科学の考古学（ミシェル・フーコー著、渡辺一民・佐々木明訳）",
+        "label_en": "Les Mots et les Choses(Michel Foucault)",
+        "startYear": 1974,
+        "genre": [
+          "THEORYMEDIA"
+        ],
+        "imp": 3,
+        "url": "https://www.amazon.co.jp/%E8%A8%80%E8%91%89%E3%81%A8%E7%89%A9%E3%80%88%E6%96%B0%E8%A3%85%E7%89%88%E3%80%89-%E4%BA%BA%E6%96%87%E7%A7%91%E5%AD%A6%E3%81%AE%E8%80%83%E5%8F%A4%E5%AD%A6-%E3%83%9F%E3%82%B7%E3%82%A7%E3%83%AB%E3%83%BB%E3%83%95%E3%83%BC%E3%82%B3%E3%83%BC/dp/4105067087&https://m.media-amazon.com/images/I/51G454VrkgL._SY425_.jpg",
+        "url_en": "https://en.wikipedia.org/wiki/The_Order_of_Things",
+        "note": "ベラスケス「侍女たち」の分析から始まり、16世紀以降のヨーロッパ文化における「知の枠組み（エピステーメー）」の変遷を考察。近代的な「人間」概念の終焉を示唆し、哲学・思想に新しい地平を開いた。/「人間は波打ち際の砂の顔のように消え去るだろう」という結びの言葉で知られる、構造主義の代表的著作。知の無意識的な構造を考古学的に発掘しました。",
+        "note_en": "Beginning with an analysis of Velázquez's \"Las Meninas,\" it examines the transition of the \"framework of knowledge (episteme)\" in European culture since the 16th century. Suggesting the end of the modern concept of \"Man,\" it opened a new horizon in philosophy and thought./A representative work of structuralism known for the concluding words, \"Man would be erased, like a face drawn in sand at the edge of the sea.\" It archaeologically excavated the unconscious structure of knowledge."
       }
     ],
     "1976": [
@@ -249,6 +262,20 @@
         "url_en": "https://www.amazon.com/La-societe-de-consommation/dp/B008FPOW8S&https://m.media-amazon.com/images/I/717ugkHWLLL._SY385_.jpg",
         "note": "欲望と商品が結びついた「消費社会」を、物の使用価値ではなく「記号価値」の体系として読み替えたポストモダン思想の代表的作品。ファッションやインテリア、車、メディア、レジャーから暴力まで、すべてが差異を表す記号として消費される過程を描き出します。/「モノを買う」というより「意味を買う」世界になっている、という視点は、そのままガジェットやSNSアカウント、サブスクも含めた現代のデジタル消費に直結します。ネット世代版『資本論』の一部として、今読んでも妙にリアルです。",
         "note_en": "A representative work of postmodern thought that reinterprets the \"consumer society,\" where desire and commodities are linked, not as a system of use-value but of \"sign-value.\" It depicts the process where everything from fashion, interior, cars, media, and leisure to violence is consumed as symbols representing difference./The perspective that we live in a world where we \"buy meaning\" rather than \"buy things\" connects directly to modern digital consumption, including gadgets, SNS accounts, and subscriptions. As part of a \"Das Kapital\" for the net generation, it feels strangely real even reading it now."
+      },
+      {
+        "label": "コンピュータ・パワーと人間の理性（ジョセフ・ワイゼンバウム著）",
+        "label_en": "Computer Power and Human Reason: From Judgment to Calculation(Joseph Weizenbaum)",
+        "startYear": 1979,
+        "genre": [
+          "COMPUTER",
+          "THEORYMEDIA"
+        ],
+        "imp": 3,
+        "url": "https://www.amazon.co.jp/%E3%82%B3%E3%83%B3%E3%83%94%E3%83%A5%E3%83%BC%E3%82%BF%E3%83%BB%E3%83%91%E3%83%AF%E3%83%BC-%E4%BA%BA%E5%B7%A5%E7%9F%A5%E8%83%BD%E3%81%A8%E4%BA%BA%E9%96%93%E3%81%AE%E7%90%86%E6%80%A7-%E3%82%B8%E3%83%A7%E3%82%BB%E3%83%95-%E3%83%AF%E3%82%A4%E3%82%BC%E3%83%B3%E3%83%90%E3%82%A6%E3%83%A0/dp/437710456X&https://m.media-amazon.com/images/I/71pqUTQSmGL._SY425_.jpg",
+        "url_en": "https://en.wikipedia.org/wiki/Computer_Power_and_Human_Reason",
+        "note": "対話プログラム ELIZA の作者であるワイゼンバウムが、「コンピュータには任せてはならないことがある」と倫理的観点から警鐘を鳴らした本。AIを単なる技術ではなく、社会と人間観の問題として扱う、いわば「AI倫理」本の古典。/ChatGPT時代に読むと、むしろタイムリーさが増している本です。「できるからやる」のではなく、「やるべきかどうか」を問う姿勢が一貫していて、エンジニアだけでなく政策・倫理側の人にも刺さる内容。",
+        "note_en": "A book by Weizenbaum, the creator of the dialogue program ELIZA, sounding an alarm from an ethical perspective that \"there are things that should not be entrusted to computers.\" It is a classic \"AI ethics\" book that treats AI not just as technology but as a matter of society and human view./Reading it in the ChatGPT era, its timeliness has rather increased. The attitude of asking \"should we do it?\" instead of \"doing it because we can\" is consistent, making the content resonant not only for engineers but also for people on the policy and ethics side."
       }
     ],
     "1980": [
