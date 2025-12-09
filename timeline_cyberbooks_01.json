@@ -40,8 +40,8 @@
           "CYBERPUNK"
         ],
         "imp": 3,
-        "url": "https://ja.wikipedia.org/wiki/ボルヘス・コレクション|https://www.amazon.co.jp/dp/4560070779&https://m.media-amazon.com/images/I/51rG7f14bGL.SY425.jpg",
-        "url_en": "https://en.wikipedia.org/wiki/The_Aleph_(short_story_collection|https://www.amazon.com/dp/0142437880&https://m.media-amazon.com/images/I/41Jk96bV+hL.jpg",
+        "url": "https://www.amazon.co.jp/dp/4560070779",
+        "url_en": "https://en.wikipedia.org/wiki/The_Aleph_(short_story_collection)",
         "note": "ボルヘスの代表的短編「不死の人」を含む短篇集。ホメロス叙事詩や『千夜一夜物語』など古典作品のモチーフを変奏しつつ、迷宮的構成と寓意に満ちた物語世界を構築しています。白水Uブックス版など、のちに改版・再刊もされています。/ボルヘス入門としては少しマニアック寄りですが、「時間」「永遠」「不死」といったテーマを、論文のような冷静さと寓話のような不気味さで描き切った一冊です。サイバースペースや情報空間を考えるときも、ボルヘス的な迷宮・無限のモチーフは頻繁に参照されるので、サイバーカルチャー好きにも相性が良い短編だと思います。",
         "note_en": "A short story collection including Borges' representative short story \"The Immortal.\" While varying motifs from classical works like Homeric epics and \"One Thousand and One Nights,\" it constructs a story world full of labyrinthine structures and allegory. It has been revised and reprinted later, such as in the Hakusuisha U Books edition./It's a bit niche for a Borges introduction, but it's a book that fully depicts themes like \"time,\" \"eternity,\" and \"immortality\" with the calmness of a thesis and the eeriness of a fable. Since Borges-esque motifs of labyrinths and infinity are frequently referenced when thinking about cyberspace and information spaces, I think this short story is compatible for cyberpunk culture lovers."
       }
@@ -49,16 +49,16 @@
     "1970": [
       {
         "label": "人工頭脳と自己増殖 ―― オートマトンの論理学概論（ジョン・フォン・ノイマン著、品川嘉也・品川泰子訳）",
+        "label_en": "The General and Logical Theory of Automata(John von Neumann)",
         "startYear": 1970,
         "genre": [
-          "SCIENCE",
-          "COMPUTER"
+          "COMPUTER",
+          "SCIENCE"
         ],
         "imp": 3,
         "url": "https://ja.wikipedia.org/wiki/ジョン・フォン・ノイマン",
+        "url_en": "https://en.wikipedia.org/wiki/John_von_Neumann",
         "note": "自己増殖オートマトンの可能性を論じた、オートマトン理論・人工生命の源流となる短いが重要な論文。神経回路網と計算可能性の関係についての記述は、その後のニューラルネット研究や「計算機と脳」論にも大きな影響を与えた。/「コンピュータの父」は、実はかなり早い段階で“自己増殖する機械”と“人工頭脳”にまで考えを伸ばしていました。この短い論文の中に、AI・人工生命・複雑系のタネがぎっしり詰まっている、歴史的にはかなり濃い一篇です。",
-        "label_en": "The General and Logical Theory of Automata(John von Neumann)",
-        "url_en": "https://www.vordenker.de/ggphilosophy/jvn_the-general-and-logical-theory-of-automata.pdf|https://en.wikipedia.org/wiki/John_von_Neumann",
         "note_en": "A short but important paper discussing the possibility of self-reproducing automata, serving as the source of automaton theory and artificial life. Descriptions regarding the relationship between neural networks and computability greatly influenced subsequent neural network research and discussions on \"computers and the brain.\"/The \"father of the computer\" had actually extended his thoughts to \"self-reproducing machines\" and \"artificial brains\" at a quite early stage. It is a historically dense piece packed with the seeds of AI, artificial life, and complex systems within this short paper."
       }
     ],
@@ -105,6 +105,19 @@
         "url_en": "https://en.wikipedia.org/wiki/The_Order_of_Things",
         "note": "ボルヘスの架空の百科事典の引用と、ベラスケス『侍女たち』の分析からはじまり、「人間」という概念自体が近代のある時期に現れ、また消えていくかもしれないという視点から人文科学を「考古学」的に掘り起こす書物です。/「人間」「主体」「知」といった概念も、一種の歴史的な「OS」のようなものにすぎない——という読み替えを迫ってくる本です。コンピュータやネットワークが知のインフラになった時代の「人文科学」を考えるとき、その地層を見せてくれる基礎資料のような位置づけになります。",
         "note_en": "Beginning with a quote from Borges' fictional encyclopedia and an analysis of Velázquez's \"Las Meninas,\" this book \"archaeologically\" unearths the human sciences from the perspective that the concept of \"man\" itself emerged at a certain time in the modern era and may disappear again./A book that forces a rereading that concepts like \"human,\" \"subject,\" and \"knowledge\" are nothing more than a kind of historical \"OS.\" When thinking about \"human sciences\" in an era where computers and networks have become the infrastructure of knowledge, it serves as basic material showing those geological layers."
+      },
+      {
+        "label": "言葉と物：人文科学の考古学（ミシェル・フーコー著、渡辺一民・佐々木明訳）",
+        "label_en": "Les Mots et les Choses(Michel Foucault)",
+        "startYear": 1974,
+        "genre": [
+          "THEORYMEDIA"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/言葉と物",
+        "url_en": "https://en.wikipedia.org/wiki/The_Order_of_Things",
+        "note": "ベラスケス「侍女たち」の分析から始まり、16世紀以降のヨーロッパ文化における「知の枠組み（エピステーメー）」の変遷を考察。近代的な「人間」概念の終焉を示唆し、哲学・思想に新しい地平を開いた。/「人間は波打ち際の砂の顔のように消え去るだろう」という結びの言葉で知られる、構造主義の代表的著作。知の無意識的な構造を考古学的に発掘しました。",
+        "note_en": "Beginning with an analysis of Velázquez's \"Las Meninas,\" it examines the transition of the \"framework of knowledge (episteme)\" in European culture since the 16th century. Suggesting the end of the modern concept of \"Man,\" it opened a new horizon in philosophy and thought./A representative work of structuralism known for the concluding words, \"Man would be erased, like a face drawn in sand at the edge of the sea.\" It archaeologically excavated the unconscious structure of knowledge."
       }
     ],
     "1976": [
@@ -145,8 +158,8 @@
           "CYBERPUNK"
         ],
         "imp": 3,
-        "url": "https://ja.wikipedia.org/wiki/タイタンの妖女|https://www.amazon.co.jp/dp/4150105022&https://m.media-amazon.com/images/I/51E4n-c-6sL.SY425.jpg",
-        "url_en": "https://en.wikipedia.org/wiki/The_Sirens_of_Titan|https://www.amazon.com/dp/0385311149&https://m.media-amazon.com/images/I/51rR0G28nUL.jpg",
+        "url": "https://ja.wikipedia.org/wiki/タイタンの妖女",
+        "url_en": "https://en.wikipedia.org/wiki/The_Sirens_of_Titan",
         "note": "全米一の大富豪マラカイ・コンスタントが、“神のような存在”ラムファードに翻弄されながら、地球・火星・水星・土星の衛星タイタンを旅する、シニカルで奇妙なスペースオペラ。人類史が実は別世界の小さな目的のための「副産物」にすぎなかった、という強烈なアイロニーで知られています。/ヴォネガット節全開の長編で、「人類史の意味」をこれほど容赦なく茶化したSFも珍しいです。話のスケールは太陽系レベルなのに、登場人物たちはどこか間の抜けた滑稽さをまとっていて、読後に残るのはニヒリズムよりも、妙な温かさだったりします。SFとユーモア小説の境界線をいい感じに壊してくれる一冊です。",
         "note_en": "A cynical and strange space opera where the richest man in America, Malachi Constant, travels to Earth, Mars, Mercury, and Saturn's moon Titan while being toyed with by the \"god-like existence\" Rumfoord. It is known for the intense irony that human history was actually nothing more than a \"byproduct\" for a small purpose of another world./A full-length novel with Vonnegut's style in full swing"
       },
@@ -158,8 +171,8 @@
           "CYBERPUNK"
         ],
         "imp": 3,
-        "url": "https://ja.wikipedia.org/wiki/砂漠の惑星_(スタニスワフ|https://www.amazon.co.jp/dp/482886005X&https://m.media-amazon.com/images/I/510R7J-oBXL.SY425.jpg",
-        "url_en": "https://en.wikipedia.org/wiki/The_Invincible|https://www.amazon.com/dp/0156029870&https://m.media-amazon.com/images/I/51Jq+8-X8TL.jpg",
+        "url": "https://ja.wikipedia.org/wiki/砂漠の惑星",
+        "url_en": "https://en.wikipedia.org/wiki/The_Invincible",
         "note": "強力な宇宙戦艦「インヴィンシブル」が、消息を絶った姉妹艦を捜索するため“砂漠の惑星”に降下し、そこで奇妙な自己進化型の機械群と遭遇する物語。レムらしいハードSFと哲学的考察が組み合わさり、「異質な知性」とどう向き合うかがテーマになります。/「人間よりもずっと異質で、でも“生物”とも言い切れない何か」とのファーストコンタクトものとして、いま読むと“AIや群知能SF”としても通用する内容です。派手な戦闘よりも、観察と推論が中心で、レムらしい“知性の限界テスト”のような読書体験になります。",
         "note_en": "A story where the powerful space battleship \"Invincible\" lands on a \"desert planet\" to search for a missing sister ship and encounters a strange self-evolving machine swarm there. Combining Lem-style hard SF and philosophical consideration, the theme is how to face \"alien intelligence.\"/As a first contact story with \"something far more alien than humans but not quite 'biological',\" reading it now works as \"AI or swarm intelligence SF.\" Focusing more on observation and deduction than flashy battles, it becomes a reading experience like a Lem-style \"intelligence limit test.\""
       },
@@ -226,8 +239,7 @@
           "OUTOFPRINT"
         ],
         "imp": 3,
-        "url": "https://ja.wikipedia.org/wiki/人工頭脳と自己増殖|https://www.amazon.co.jp/dp/412400196X&https://m.media-amazon.com/images/I/41-lSg-mYEL.SY425.jpg",
-        "url_en": "https://en.wikipedia.org/wiki/General_and_Logical_Theory_of_Automata|https://www.amazon.com/dp/025203301X&https://m.media-amazon.com/images/I/416WdK7M6UL.jpg",
+        "url_en": "https://www.vordenker.de/ggphilosophy/jvn_the-general-and-logical-theory-of-automata.pdf",
         "note": "フォン・ノイマンが、自己増殖オートマトンや計算機の一般理論について語った伝説的講演。脳のしくみと機械の自動機構を同じ“オートマトン”として扱う視点は、その後の人工生命・セルオートマトン研究の源流となりました。/“セル・オートマトン”や“自己複製ロボット”のアイディアの原型がここにあり、SFで見かけるモチーフの下敷きにもなっています。数式的には難しいですが、「複雑な知性がシンプルなルールの集合から生まれうる」という直感を歴史的に辿れるテキストです。",
         "note_en": "A legendary lecture where von Neumann discussed self-reproducing automata and the general theory of computers. The perspective of treating brain mechanisms and mechanical automatic mechanisms as the same \"automata\" became the source of subsequent artificial life and cellular automata research./The prototypes for ideas like \"cellular automata\" and \"self-replicating robots\" are here, serving as the foundation for motifs seen in SF. While mathematically difficult, it is a text where you can historically trace the intuition that \"complex intelligence can emerge from a set of simple rules.\""
       },
@@ -309,10 +321,10 @@
           "OUTOFPRINT"
         ],
         "imp": 3,
-        "url": "https://ja.wikipedia.org/wiki/コンピュータ・パワー_人工知能と人間の理性|https://www.amazon.co.jp/dp/437710456X&https://m.media-amazon.com/images/I/71pqUTQSmGL.SY425.jpg",
-        "url_en": "https://en.wikipedia.org/wiki/Computer_Power_and_Human_Reason|https://www.amazon.com/dp/0716704641&https://m.media-amazon.com/images/I/61QGqfsuKDL.SY342.jpg",
+        "url": "https://www.amazon.co.jp/dp/437710456X&https://m.media-amazon.com/images/I/71pqUTQSmGL._SY425_.jpg",
+        "url_en": "https://en.wikipedia.org/wiki/Computer_Power_and_Human_Reason|https://www.amazon.com/dp/0716704641&https://m.media-amazon.com/images/I/61QGqfsuKDL._SY342_.jpg",
         "note": "ELIZAの開発者ワイゼンバウムが、「AIに重要な決定を任せるべきではない」と警鐘を鳴らした倫理的・社会的考察の書。技術的な可能性よりも、コンピュータに判断を委ねたとき人間の責任感や compassion がどう失われるかを問題にしています。/ChatGPT 的なシステムを眺めながら読むと、「この本で言ってること、まさに今の話では…？」という箇所がゴロゴロ出てきます。AI倫理やガバナンスの議論の“始祖”の一つなので、生成AI時代のモヤモヤを整理したい人にとっては原点回帰になる本です。",
-        "note_en": "A book of ethical and social reflection by ELIZA developer Weizenbaum, warning that \"AI should not be entrusted with important decisions.\" It focuses not on technical possibilities, but on how human responsibility and compassion are lost when judgment is delegated to computers./Reading this while observing systems like ChatGPT, you will find numerous passages that make you think, \"Isn't this exactly what's happening now?\" As one of the \"progenitors\" of AI ethics and governance discussions, it is a book of \"return to basics\" for those wanting to sort out the unease of the generative AI era."
+        "note_en": "A book by Weizenbaum, the developer of ELIZA, that raises ethical and social considerations warning against entrusting important decisions to AI. It focuses on how human responsibility and compassion may diminish when judgment is delegated to computers, rather than on the technical possibilities./When reading a system like ChatGPT, there are numerous parts where you think, \"Isn't this exactly what's happening now?\" As one of the \"origins\" of discussions on AI ethics and governance, it serves as a return to basics for those who want to sort out the uncertainties of the generative AI era."
       }
     ],
     "1980": [
@@ -421,8 +433,8 @@
           "CYBERPUNK"
         ],
         "imp": 3,
-        "url": "https://ja.wikipedia.org/wiki/パーマー・エルドリッチの三つの聖痕|https://www.amazon.co.jp/dp/4150105464&https://m.media-amazon.com/images/I/5121S6N5LBL.SY425.jpg",
-        "url_en": "https://en.wikipedia.org/wiki/The_Three_Stigmata_of_Palmer_Eldritch|https://www.amazon.com/dp/0547524278&https://m.media-amazon.com/images/I/51oG+dI-WjL.jpg",
+        "url": "https://www.amazon.co.jp/dp/4150105464",
+        "url_en": "https://en.wikipedia.org/wiki/The_Three_Stigmata_of_Palmer_Eldritch",
         "note": "火星開発が進む未来で、ドラッグ体験と現実世界が侵蝕し合い、宗教的・悪魔的ともいえる存在パーマー・エルドリッチが人々の意識を支配していく。幻覚と現実の境界が崩壊する様を通じて、「現実とは何か」を極端な形で問いかける長編。/ドラッグによる仮想体験が、企業支配と宗教を巻き込みながら「代替現実」として世界を書き換えていく、前サイバーパンク的な作品です。VRやメタバースの議論でお馴染みの「シミュレーションと信仰」のテーマを、1960年代の時点でここまで突き詰めているのは本当に異常レベルだと思って読むと面白いです。",
         "note_en": "In a future where Mars development is progressing, drug experiences and the real world encroach on each other, and the religious and demonic existence Palmer Eldritch dominates people's consciousness. A full-length novel that questions \"what is reality\" in an extreme form through the collapse of the boundary between hallucination and reality./It is a pre-cyberpunk work where virtual experiences via drugs rewrite the world as an \"alternate reality\" while involving corporate dominance and religion. It is interesting to read thinking that it is truly abnormal to have pursued the theme of \"simulation and faith,\" familiar in VR and Metaverse discussions, to this extent in the 1960s."
       },
@@ -474,8 +486,8 @@
           "OUTOFPRINT"
         ],
         "imp": 3,
-        "url": "https://ja.wikipedia.org/wiki/マインズ・アイ|https://www.amazon.co.jp/dp/4403230190&https://m.media-amazon.com/images/I/51-mF9L003L.SY425.jpg",
-        "url_en": "https://en.wikipedia.org/wiki/The_Mind%27s_I|https://www.amazon.com/dp/0553143491&https://m.media-amazon.com/images/I/51w9Lw03f4L.SY385.jpg|https://archive.org/details/mindsifantasiesr00hofs",
+        "url": "https://www.amazon.co.jp/dp/448492126X&https://m.media-amazon.com/images/I/41VVDHKkKZL._SY425_.jpg",
+        "url_en": "https://en.wikipedia.org/wiki/The_Mind%27s_I|https://www.amazon.com/dp/0465030912&https://m.media-amazon.com/images/I/61+7rxnlvAL._SY466_.jpg",
         "note": "「心とは何か？」「自己とは何か？」という問いをめぐるSF短編・哲学エッセイ・科学論文などを集めたアンソロジーで、ホフスタッターとデネットがそれぞれにコメントを付けていく構成。『ゲーデル、エッシャー、バッハ』より軽めで、意識・自己・AIの問題に“つまみ食い的”に触れられます。/「哲学エッセイ集＋編集者のツッコミ」というスタイルなので、興味のある章だけ拾い読みしても成立します。AIや脳科学の本を読む前に、「そもそも“自己”って何だっけ？」という感覚を揺さぶっておきたいときにちょうどいい本です。",
         "note_en": "An anthology of SF short stories, philosophical essays, and scientific papers revolving around questions like \"What is the mind?\" and \"What is the self?\", with commentary added by Hofstadter and Dennett. Lighter than \"Gödel, Escher, Bach,\" it allows for \"cherry-picking\" topics on consciousness, self, and AI./Because of the \"philosophical essay collection + editor's witty commentary\" style, it works even if you just read the chapters that interest you. It is the perfect book to shake up your sense of \"What is the 'self' anyway?\" before reading books on AI or brain science."
       }
@@ -653,8 +665,8 @@
           "OUTOFPRINT"
         ],
         "imp": 3,
-        "url": "https://ja.wikipedia.org/wiki/思考のための道具|https://www.amazon.co.jp/dp/4893620355&https://m.media-amazon.com/images/I/41+9bYk0F1L.SY425.jpg",
-        "url_en": "https://en.wikipedia.org/wiki/Tools_for_Thought|https://www.amazon.com/dp/0262680456&https://m.media-amazon.com/images/I/41eC6p8gLFL.jpg",
+        "url": "https://www.amazon.co.jp/dp/4893620355&https://m.media-amazon.com/images/I/51DS9VXCXZL._SY425_.jpg",
+        "url_en": "https://en.wikipedia.org/wiki/Tools_for_Thought|https://www.amazon.com/dp/0262681153/&https://m.media-amazon.com/images/I/41wJLquHuiL._SY445_SX342_FMwebp_.jpg",
         "note": "チューリング、フォン・ノイマン、エンゲルバート、リックライダー、パロアルト研究所など、コンピュータ史のキーパーソンたちの仕事を「思考を拡張する道具」という観点から描いた歴史＋未来予測本。80年代初頭から90年代のネットワーク社会を予見しようとした“レトロフューチャー”な一冊です。/「コンピュータの歴史＝製品カタログ」ではなく、「どんな人たちが、どんな思想で“思考のための道具”を発明してきたか」を物語として追える本です。RAGやローカルLLM環境をいじっていると、「この本で描かれた系譜のだいぶ先端に自分がいるんだな」と妙にしみる系の読み物。",
         "note_en": "A history and future prediction book that depicts the work of key figures in computer history—such as Turing, von Neumann, Engelbart, Licklider, and Xerox PARC—from the perspective of \"tools for expanding thought.\" It is a \"retro-future\" book that attempted to foresee the network society of the 90s from the early 80s./It allows you to follow the story not as a \"computer history = product catalog,\" but as \"what kind of people invented 'tools for thought' with what kind of philosophies.\" When tinkering with RAG or local LLM environments, it is a reading experience that makes you feel, \"I am at the very tip of the lineage described in this book.\""
       }
@@ -711,6 +723,19 @@
         "note": "MITメディアラボ創設期の様子を、ホールアース・カタログで知られるスチュアート・ブランドがルポした本。ニコラス・ネグロポンテ、マーヴィン・ミンスキー、シーモア・パパート、アラン・ケイらが、マルチメディア、インタラクティブTV、ウェアラブル、VRのような“未来のメディア”を模索していた現場の空気が伝わります。/いま読むと「これって全部、現代の当たり前じゃん…」となるのですが、それを80年代に“研究室ツアー”のような臨場感で描いているのがポイントです。メディアラボの研究そのものより、「未来を試作する場所」をどう運営するか、どう人を集めるかがよく見える本で、メイカースペースやスタートアップ支援拠点を作りたい人にも参考になります。",
         "label_en": "The Media Lab: Inventing the Future at MIT(Stewart Brand)",
         "url_en": "https://en.wikipedia.org/wiki/The_Media_Lab:_Inventing_the_Future_at_MIT|https://www.amazon.com/dp/0670814423&https://m.media-amazon.com/images/I/41R01F1MJKL.jpg",
+        "note_en": "A reportage of the founding days of the MIT Media Lab by Stewart Brand, known for the Whole Earth Catalog. It conveys the atmosphere of the site where Nicholas Negroponte, Marvin Minsky, Seymour Papert, Alan Kay, and others were exploring \"future media\" like multimedia, interactive TV, wearables, and VR./Reading it now, you might think, \"Isn't this all just modern common sense?\", but the point is that it depicts this in the 80s with the realism of a \"lab tour.\" More than the research itself, it clearly shows how to operate a \"place to prototype the future\" and how to gather people, making it useful for those wanting to create maker spaces or startup support hubs."
+      },
+      {
+        "label": "メディアラボ――「メディアの未来」を創造する超・頭脳集団の挑戦（スチュアート・ブランド著/室謙二・麻生九美訳）",
+        "label_en": "The Media Lab: Inventing the Future at MIT(Stewart Brand)",
+        "startYear": 1988,
+        "genre": [
+          "COMPUTER"
+        ],
+        "imp": 3,
+        "url": "https://www.amazon.co.jp/dp/4828811761&https://m.media-amazon.com/images/I/711mEjajrtL._SY425_.jpg",
+        "url_en": "https://en.wikipedia.org/wiki/MIT_Media_Lab|https://www.amazon.com/dp/0670814423&https://m.media-amazon.com/images/I/31Diib2f6vL._SX342_SY445_FMwebp_.jpg",
+        "note": "MITメディアラボ創設期の様子を、ホールアース・カタログで知られるスチュアート・ブランドがルポした本。ニコラス・ネグロポンテ、マーヴィン・ミンスキー、シーモア・パパート、アラン・ケイらが、マルチメディア、インタラクティブTV、ウェアラブル、VRのような“未来のメディア”を模索していた現場の空気が伝わります。/いま読むと「これって全部、現代の当たり前じゃん…」となるのですが、それを80年代に“研究室ツアー”のような臨場感で描いているのがポイントです。メディアラボの研究そのものより、「未来を試作する場所」をどう運営するか、どう人を集めるかがよく見える本で、メイカースペースやスタートアップ支援拠点を作りたい人にも参考になります。",
         "note_en": "A reportage of the founding days of the MIT Media Lab by Stewart Brand, known for the Whole Earth Catalog. It conveys the atmosphere of the site where Nicholas Negroponte, Marvin Minsky, Seymour Papert, Alan Kay, and others were exploring \"future media\" like multimedia, interactive TV, wearables, and VR./Reading it now, you might think, \"Isn't this all just modern common sense?\", but the point is that it depicts this in the 80s with the realism of a \"lab tour.\" More than the research itself, it clearly shows how to operate a \"place to prototype the future\" and how to gather people, making it useful for those wanting to create maker spaces or startup support hubs."
       }
     ],
@@ -819,6 +844,20 @@
         "url_en": "https://www.amazon.com/dp/0745610815&https://m.media-amazon.com/images/I/51+uC+q53UL.jpg",
         "note": "人間の意識進化を「回路」「レベル」に分けて論じるリアリーの持論を、政治・テクノロジー・メディア環境と結びつけて展開する本。コンピュータやネットワークによる意識変容をかなり早い段階で語っており、今日の「テック×意識変容」ディスコースの原型の一つとも言えます。/「ドラッグ＋カウンターカルチャーの人」というイメージのリアリーですが、本書ではむしろ情報技術やメディア環境を含めた「意識のインフラ」の変化を語っています。SF的な誇大妄想も多いけれど、シリコンバレーの思想史的な背景として眺めると、妙な説得力が出てくる本です。",
         "note_en": "A book developing Leary's theory of dividing human consciousness evolution into \"circuits\" and \"levels,\" linking it with politics, technology, and media environments. It discusses consciousness transformation by computers and networks at a quite early stage, serving as one of the prototypes for today's \"Tech x Consciousness Transformation\" discourse./Leary is often imaged as a \"drug + counter-culture person,\" but in this book, he discusses changes in \"consciousness infrastructure\" including information technology and media environments. Although there are many SF-like delusions, when viewed as an intellectual history background of Silicon Valley, it becomes a book with a strange persuasiveness."
+      },
+      {
+        "label": "コンピュータと認知を理解する――人工知能の限界と新しい設計理念（テリー・ウィノグラード、フェルナンド・フローレス著/平賀譲訳）",
+        "label_en": "Understanding Computers and Cognition: A New Foundation for Design(Terry Winograd, Fernando Flores)",
+        "startYear": 1989,
+        "genre": [
+          "COMPUTER",
+          "OUTOFPRINT"
+        ],
+        "imp": 3,
+        "url": "https://www.amazon.co.jp/dp/4782800533&https://m.media-amazon.com/images/I/41nZF8lhNrL._SY425_.jpg",
+        "url_en": "https://www.amazon.com/dp/0201112973/&https://m.media-amazon.com/images/I/51-bfdclcLL._SY466_.jpg",
+        "note": "人工知能研究やヒューマンコンピュータインタラクションの世界で非常に影響力を持った本で、「人間の認知・行為」を、ヒューマンな日常言語と約束・コミットメントのネットワークとして捉え直し、コンピュータシステム設計の前提そのものを問い直します。後のワークフロー／グループウェアや「言語行為論に基づく設計」に大きな影響を与えました。/AIブームのたびに「本当に賢いとは何か？」が話題になりますが、この本はその問いに真正面から挑んだ古典です。プログラムの“頭の良さ”ではなく、人間が社会の中で約束し合いながら動いているという視点から、設計の前提をひっくり返します。機能表や要件定義書だけを見てシステムを作りがちな現場ほど、耳が痛く、かつ発想を広げてくれる一冊です。",
+        "note_en": "A highly influential book in AI research and HCI, it redefines \"human cognition and action\" as a network of human everyday language and commitments, questioning the very premises of computer system design. It significantly influenced later workflow/groupware and \"design based on speech act theory.\"/Every time there is an AI boom, \"what is truly smart?\" becomes a topic, and this book is a classic that tackles that question head-on. It flips design premises by looking not at program \"smarts,\" but at how humans move while making promises within society. For fields prone to building systems looking only at feature lists and requirements, it is a book that is painful to hear but expands your thinking."
       }
     ],
     "1990": [
@@ -830,8 +869,8 @@
           "COMPUTER"
         ],
         "imp": 3,
-        "url": "https://ja.wikipedia.org/wiki/心の社会|https://www.amazon.co.jp/dp/4782800541&https://m.media-amazon.com/images/I/41TlYVq1HJL.SY425.jpg",
-        "url_en": "https://en.wikipedia.org/wiki/Society_of_Mind|https://www.amazon.com/dp/0671657135&https://m.media-amazon.com/images/I/51LrKJGIfFL.SY385.jpg|https://archive.org/details/societyofmind00marv",
+        "url": "https://www.amazon.co.jp/dp/4782800541&https://m.media-amazon.com/images/I/41TlYVq1HJL._SY425_.jpg",
+        "url_en": "https://en.wikipedia.org/wiki/Society_of_Mind|https://archive.org/details/societyofmind00marv|https://www.amazon.com/dp/0671657135/&https://m.media-amazon.com/images/I/51LrKJGIfFL._SY385_.jpg",
         "note": "「心は多数の“エージェント”の社会である」というミンスキーの理論を、小さなエッセイを積み重ねるかたちで展開した本。知覚・記憶・感情などを、巨大なプログラムというより“雑多なモジュールの寄せ集め”として説明しようとする試みで、その後の認知科学やマルチエージェント研究にも影響を与えました。/いわゆる「統一的な意識」像とは逆に、「バラバラな小さな心的プロセスが協調しているだけ」という視点を徹底して押し出す本です。現在の深層学習やマルチモーダルモデルを見ると、この“寄せ集めの知能”という考えはむしろリアルさを増しているようにも感じます。",
         "note_en": "A book unfolding Minsky's theory that \"the mind is a society of numerous 'agents'\" through a stack of small essays. It attempts to explain perception, memory, emotion, etc., not as a huge program but as a \"collection of miscellaneous modules,\" influencing subsequent cognitive science and multi-agent research./Contrary to the image of a \"unified consciousness,\" this book thoroughly pushes the perspective that \"disparate small mental processes are merely coordinating.\" Looking at current deep learning and multimodal models, this idea of \"hodgepodge intelligence\" feels increasingly realistic."
       },
@@ -872,7 +911,7 @@
           "THEORYMEDIA"
         ],
         "imp": 3,
-        "url": "https://www.amazon.co.jp/dp/4006031769&https://m.media-amazon.com/images/I/51bE7x7X+HL.SY425.jpg",
+        "url": "https://www.amazon.co.jp/dp/4006031769",
         "note": "チューリング、ノイマン、ウィーナーなど情報科学の巨人たちを、「冷静な科学者」ではなく欲望とナルシシズムを持った人間として描き直し、情報技術の裏にある文化・思想的衝動を読み解く評論。技術史と思想史を交差させるスタイルで、日本の情報学・メディア論に大きな影響を与えました。/今なら「テック企業の創業者のマインドセット」を分析した本が山ほどありますが、それを90年代前半に、情報科学のパイオニアたちに対して行っているのがこの本です。合理性の背後にある宗教性や神話、自己愛をあぶり出していく視点は、AIブームの空気を一歩引いて眺めるのにとても役立ちます。",
         "note_en": "A critique that redraws information science giants like Turing, Neumann, and Wiener not as \"calm scientists\" but as humans with desires and narcissism, decoding the cultural and ideological impulses behind information technology. With a style crossing technical history and intellectual history, it greatly influenced Japanese informatics and media theory./Nowadays there are mountains of books analyzing the \"mindset of tech founders,\" but this book did that for the pioneers of information science in the early 90s. The perspective of exposing the religiosity, mythology, and narcissism behind rationality is very useful for taking a step back and observing the atmosphere of the AI boom."
       },
@@ -1146,6 +1185,45 @@
         "url_en": "https://en.wikipedia.org/wiki/Virtual_Reality_(Howard_Rheingold_book|https://www.amazon.com/Virtual-Reality-Revolutionary-Computer-Generated-Worlds/dp/0671778978&https://m.media-amazon.com/images/I/41+2XyW8+bL.jpg",
         "note": "90年代初頭の「第1次VRブーム」の空気を伝える代表的な一般書。ヘッドマウントディスプレイやデータグローブなど当時のVR技術を紹介しつつ、その社会的・文化的インパクト――テレプレゼンス、テレコミュニティ、サイバースペース――について語っています。/かなり“熱い”トーンの本で、技術解説というよりも「VRはこんな社会を連れてくる」というマニフェストに近いです。いまのVR/メタバースの現状と見比べると、当たった予言・外れた予言が両方あって、そのギャップ自体が楽しい読みどころになります。",
         "note_en": "A representative general book conveying the atmosphere of the \"First VR Boom\" in the early 90s. While introducing VR technologies of the time like HMDs and Data Gloves, it discusses their social and cultural impact—telepresence, telecommunity, and cyberspace./It's a book with a quite \"heated\" tone, closer to a manifesto that \"VR will bring this kind of society\" than a technical explanation. Comparing it with the current state of VR/Metaverse, there are both hits and misses in its predictions, and that gap itself becomes an enjoyable reading point."
+      },
+      {
+        "label": "コンピュータには何ができないか ― 哲学的人工知能批判（ヒューバート・L・ドレイファス著/黒崎政男・村若修訳）",
+        "label_en": "What Computers Can’t Do: The Limits of Artificial Intelligence(Hubert L. Dreyfus)",
+        "startYear": 1992,
+        "genre": [
+          "COMPUTER"
+        ],
+        "imp": 3,
+        "url": "https://www.amazon.co.jp/dp/478280069X",
+        "url_en": "https://www.amazon.com/dp/0262540673",
+        "note": "当時の強いAI楽観論に対して、「コンピュータは形式的記号操作しかできず、人間の身体性や状況依存性に根ざした理解には到達できない」と批判した古典的AI批判書。ハイデガーなど現象学の議論を下敷きに、AIの限界と人間の知性の特徴を対比して論じています。/「ニューラルネットすごい！」と言われている今読むと、むしろドレイファスの懐疑がどこまで当たっているかを検証する読み物として楽しめます。AIの技術書ではなく、哲学的な視点から「機械と人間の違い」を考えたいときの強力な材料になる一冊です。",
+        "note_en": "A classic critique of AI that countered the optimism of \"Strong AI\" at the time, arguing that computers can only perform formal symbol manipulation and cannot reach an understanding rooted in human embodiment and situational dependence. Based on phenomenological arguments like those of Heidegger, it discusses the limits of AI in contrast to the characteristics of human intelligence./Reading it now, amidst the \"Neural Nets are amazing!\" hype, it can be enjoyed as a way to verify how far Dreyfus's skepticism was on the mark. It serves not as a technical AI book, but as powerful material for thinking about the \"difference between machines and humans\" from a philosophical perspective."
+      },
+      {
+        "label": "バーチャル・リアリティ――幻想と現実の境界が消える日（ハワード・ラインゴールド著/沢田博監訳）",
+        "label_en": "Virtual Reality: The Revolutionary Technology of Computer-Generated Artificial Worlds – and How It Promises to Transform Society(Howard Rheingold)",
+        "startYear": 1992,
+        "genre": [
+          "COMPUTER"
+        ],
+        "imp": 3,
+        "url": "https://www.amazon.co.jp/dp/4890523784",
+        "url_en": "https://www.amazon.com/Virtual-Reality-Revolutionary-Computer-Generated-Worlds/dp/0671778978",
+        "note": "90年代初頭の「第1次VRブーム」の空気を伝える代表的な一般書。ヘッドマウントディスプレイやデータグローブなど当時のVR技術を紹介しつつ、その社会的・文化的インパクト――テレプレゼンス、テレコミュニティ、サイバースペース――について語っています。/かなり“熱い”トーンの本で、技術解説というよりも「VRはこんな社会を連れてくる」というマニフェストに近いです。いまのVR/メタバースの現状と見比べると、当たった予言・外れた予言が両方あって、そのギャップ自体が楽しい読みどころになります。",
+        "note_en": "A representative general book conveying the atmosphere of the \"First VR Boom\" in the early 90s. While introducing VR technologies of the time like HMDs and Data Gloves, it discusses their social and cultural impact—telepresence, telecommunity, and cyberspace./It's a book with a quite \"heated\" tone, closer to a manifesto that \"VR will bring this kind of society\" than a technical explanation. Comparing it with the current state of VR/Metaverse, there are both hits and misses in its predictions, and that gap itself becomes an enjoyable reading point."
+      },
+      {
+        "label": "バークレイ・ハッカーズ（Zachary Margulis、Carol Palecki著、広谷渉訳）",
+        "label_en": "Berkeley Hackers(Zachary Margulis, Carol Palecki)",
+        "startYear": 1992,
+        "genre": [
+          "HACKER"
+        ],
+        "imp": 3,
+        "url": "https://www.amazon.co.jp/dp/493870403X",
+        "url_en": "https://www.amazon.com/dp/0380777011",
+        "note": "カリフォルニア大学バークレー校を中心とするUNIXハッカーたちの文化とライフスタイルを描いたノンフィクション。BSD系UNIXの開発現場や大学・企業・カウンターカルチャーが混ざり合う現場がルポ的に綴られています。/バークレーUNIXの周辺で「実際にどんな人たちが、どんな空気の中でコードを書いていたのか」を知りたいときの貴重な資料です。『ハッカーズ』『ハッカーは笑う』に比べると地味ですが、日本語でここまでローカルなハッカー文化を追った翻訳は少なく、歴史資料としてもおいしい一冊。",
+        "note_en": "A nonfiction portraying the culture and lifestyle of UNIX hackers centered around UC Berkeley. It reports on the development sites of BSD UNIX and the scenes where university, corporate, and counter-culture mixed./A valuable resource for knowing \"what kind of people were actually writing code and in what kind of atmosphere\" around Berkeley UNIX. Compared to \"Hackers\" or \"The Cuckoo's Egg,\" it is more low-key, but Japanese translations covering such local hacker culture are rare, making it a delicious historical document."
       }
     ],
     "1993": [
@@ -1186,6 +1264,32 @@
         "url": "https://www.amazon.co.jp/dp/4150303932/",
         "note": "人間と機械／生物と人工物といった境界をテーマにした、日本オリジナルのサイバーパンク／ポストヒューマンSF。タイトル通り「ハイブリッド」をめぐる複数の物語・イメージが交錯する。/日本SFにおける「サイボーグ／ジェンダー／身体」の問題系を語るうえで外せない一冊です。海外サイバーパンクの輸入とは違い、日本語の感性と文体で「境界の揺らぎ」が語られていて、同時期の伊藤計劃以降の潮流とも響き合う部分があります。",
         "note_en": "A Japanese original cyberpunk/post-human SF themed on boundaries such as human/machine and living/artificial. As the title suggests, multiple stories and images revolving around \"hybrids\" intersect./An indispensable book for discussing the \"cyborg/gender/body\" issues in Japanese SF. Unlike imported overseas cyberpunk, \"fluctuation of boundaries\" is told with Japanese sensibility and style, resonating with the currents from Project Itoh onwards in the same period."
+      },
+      {
+        "label": "ハッカーを追え!（ブルース・スターリング著、今岡清訳）",
+        "label_en": "The Hacker Crackdown: Law and Disorder on the Electronic Frontier(Bruce Sterling)",
+        "startYear": 1993,
+        "genre": [
+          "HACKER"
+        ],
+        "imp": 3,
+        "url": "https://www.amazon.co.jp/dp/4756107384",
+        "url_en": "https://en.wikipedia.org/wiki/The_Hacker_Crackdown",
+        "note": "アメリカ政府によるハッカー摘発「Operation Sundevil」や、Steve Jackson Games事件、Electronic Frontier Foundation誕生など、90年代初頭の「ハッカー・クラックダウン」を描いた名著。SF作家スターリングらしく、登場人物たちのキャラ立ちと時代背景の分析が鋭いです。/ハッカー vs. 捜査当局 vs. 電子フロンティア財団という三つ巴を描きつつ、「サイバー空間が法とどう出会ったか」という現代史のポイントを押さえた本です。ネット規制や表現の自由を考える上で、いま読んでも驚くほど示唆的。",
+        "note_en": "A masterpiece depicting the \"hacker crackdown\" of the early 90s, including \"Operation Sundevil\" by the US government, the Steve Jackson Games incident, and the birth of the Electronic Frontier Foundation. As expected of SF writer Sterling, the characterization and analysis of the historical background are sharp./A book capturing the key moments of modern history where \"cyberspace met the law,\" depicting a three-way struggle between hackers, investigators, and the EFF. It remains surprisingly suggestive when thinking about net regulation and freedom of expression today."
+      },
+      {
+        "label": "バイオコンピュータとLSD（ジョン・C・リリィ著、菅靖彦訳）",
+        "label_en": "Programming and Metaprogramming in the Human Biocomputer: Theory and Experiments(John C. Lilly)",
+        "startYear": 1993,
+        "genre": [
+          "POPCULTURE"
+        ],
+        "imp": 3,
+        "url": "https://www.amazon.co.jp/dp/4845707705",
+        "url_en": "https://en.wikipedia.org/wiki/Programming_and_Metaprogramming_in_the_Human_Biocomputer",
+        "note": "脳と意識を「ヒューマン・バイオコンピュータ」と見なし、プログラム／メタプログラムの階層として扱うという、サイケデリックとサイバネティクスが直結したような理論書。アイソレーションタンクやLSD実験など、著者自身の体験にもとづく記述が多く、コンピュータ・メタファで意識を語る初期の試みとしても重要です。/「脳＝ハードウェア／心＝ソフトウェア」という、いまや定番の比喩をかなり早い時期に徹底的に押し広げた本です。科学として読むと突っ込みどころ満載ですが、サイバネティクス、ドラッグカルチャー、ニューエイジなどがごちゃっと混ざっていく70年代的混沌を知るには最高の資料でもあります。",
+        "note_en": "A theoretical book where psychedelics and cybernetics seem directly connected, treating the brain and consciousness as a \"Human Biocomputer\" with layers of programs/metaprograms. It contains many descriptions based on the author's own experiences, such as isolation tanks and LSD experiments, and is important as an early attempt to discuss consciousness using computer metaphors./A book that thoroughly expanded the now-classic metaphor of \"brain = hardware / mind = software\" at a quite early stage. While full of holes if read as science, it is the best material for understanding the 70s chaos where cybernetics, drug culture, and New Age blended together."
       }
     ],
     "1994": [
@@ -1197,8 +1301,8 @@
           "COMPUTER"
         ],
         "imp": 3,
-        "url": "https://ja.wikipedia.org/wiki/サイバースペース_(マイケル|https://www.amazon.co.jp/dp/4871882659&https://m.media-amazon.com/images/I/513yv0d829L.SY425.jpg",
-        "url_en": "https://en.wikipedia.org/wiki/Cyberspace:_First_Steps|https://www.amazon.com/Cyberspace-First-Steps-MIT-Press/dp/0262521776&https://m.media-amazon.com/images/I/41x0i-y2qGL.jpg",
+        "url": "https://www.amazon.co.jp/dp/4871882659",
+        "url_en": "https://www.amazon.com/Cyberspace-First-Steps-MIT-Press/dp/0262521776",
         "note": "建築、哲学、計算機科学、アートなど様々な分野の研究者が「サイバースペースとは何か」を論じた論文集。ギブソン的な電脳空間のイメージだけでなく、空間論・記号論・法律など、多様な観点から“仮想空間”概念を定式化しようとしています。/サイバー空間をテーマにした本はいろいろありますが、これはかなり“学際ゴリゴリ系”。VRやネットサービスの具体論というより、「そもそもサイバースペースはどんな空間概念なのか？」を真面目に考えたい人向けです。情報建築やメタバース設計の思想的バックボーンとして読むと面白いです。",
         "note_en": "A collection of papers where researchers from various fields like architecture, philosophy, computer science, and art discuss \"what is cyberspace.\" It attempts to formulate the concept of \"virtual space\" from diverse perspectives such as spatial theory, semiotics, and law, not just the Gibsonian image of cyberspace./There are many books on cyber space, but this one is quite \"hardcore interdisciplinary.\" It is for those who want to seriously think about \"what kind of spatial concept cyberspace is in the first place,\" rather than specific theories of VR or net services. It is interesting to read as an ideological backbone for information architecture and Metaverse design."
       },
@@ -1275,8 +1379,8 @@
           "OUTOFPRINT"
         ],
         "imp": 3,
-        "url": "https://ja.wikipedia.org/wiki/ENIAC神話の崩れた日|https://www.amazon.co.jp/dp/4871432485&https://m.media-amazon.com/images/I/51c4tM5-JTL.SY425.jpg",
-        "url_en": "https://en.wikipedia.org/wiki/Atanasoff:_Forgotten_Father_of_the_Computer|https://www.amazon.com/dp/0813800323&https://m.media-amazon.com/images/I/51e+Y48vIuL.jpg",
+        "url": "https://www.amazon.co.jp/dp/4769350880&https://m.media-amazon.com/images/I/51E3M7JCD9L._SY425_.jpg",
+        "url_en": "https://www.amazon.com/dp/0813800323&https://m.media-amazon.com/images/I/61BNI3D5dTS._SY425_.jpg",
         "note": "「世界初の電子計算機は誰が作ったのか？」という論争の中で、アイオワ州立大学のジョン・アタナソフとABC（Atanasoff–Berry Computer）に光を当てたドキュメント。ENIAC特許裁判での証言や資料を追いながら、「ENIAC神話」がどのように形成され、崩れていったかを描きます。/コンピュータ史の「勝者の物語」を書き換える本です。ENIACの影に隠れていたアタナソフの仕事が、法廷でどう評価されていったのかを追うことで、「誰の物語が歴史になるのか」という視点も得られます。技術史というより、知財と名誉、そして“語り”の問題として読むと面白いです。",
         "note_en": "A document shedding light on John Atanasoff of Iowa State University and the ABC (Atanasoff–Berry Computer) amidst the controversy of \"who built the world's first electronic computer?\" Following testimonies and materials from the ENIAC patent trial, it depicts how the \"ENIAC myth\" was formed and how it crumbled./A book that rewrites the \"winner's tale\" of computer history. By following how Atanasoff's work, hidden in ENIAC's shadow, came to be evaluated in court, you gain the perspective of \"whose story becomes history.\" It is interesting to read not just as technical history, but as a problem of IP, honor, and \"narrative.\""
       }
@@ -1400,6 +1504,33 @@
         "url_en": "https://www.amazon.com/dp/0060926985",
         "note": "ニューヨークの10代のハッカーがネットワーク空間でグループを結成し、テキサスの別のグループと抗争する一部始終をドラマ風に再現している。ファイバー・オプティック、スコーピオン、アシッド・フリークなど、新聞を賑わせたハッカーたちが主人公だ。/ハッカー文化史における有名なグループ間の抗争を、臨場感あるドラマとして描いたノンフィクション。当時のハッカーコミュニティの緊迫感や若者のエネルギーが伝わる一冊です。",
         "note_en": "Dramatically recreates the entire sequence of events in which teenage hackers in New York formed a group in cyberspace and clashed with another group in Texas. The protagonists are hackers who dominated the headlines, including Fiber Optic, Scorpion, and Acid Phreak./A non-fiction account depicting the famous rivalry between hacker groups in cultural history as a vivid drama. This book conveys the tension and youthful energy of the hacker community at the time."
+      },
+      {
+        "label": "ノイマンとコンピュータの起源（ウィリアム・アスプレイ著/杉山滋郎・吉田晴代訳）",
+        "label_en": "John von Neumann and the Origins of Modern Computing(William Aspray)",
+        "startYear": 1995,
+        "genre": [
+          "COMPUTER",
+          "OUTOFPRINT"
+        ],
+        "imp": 3,
+        "url": "https://www.amazon.co.jp/dp/4782800975&https://m.media-amazon.com/images/I/41XNDk4kNRL._SX445_.jpg",
+        "url_en": "https://www.amazon.com/dp/0262011212&https://m.media-amazon.com/images/I/4170MKYB53L._SY466_.jpg",
+        "note": "ジョン・フォン・ノイマンの生涯と、計算機アーキテクチャの成立過程をたどる本格的な歴史研究。ENIAC・EDVAC計画、ストアドプログラム方式のアイデア、MANIACなどのマシンの設計におけるノイマンの役割を、豊富な資料で検証しています。/「ノイマン型コンピュータ」という言葉はあまりにも有名ですが、実際のプロジェクトは複数の研究者と政治・軍事的要請の絡み合いでした。この本は“天才ノイマン一人のひらめき”ではなく、戦時下・冷戦期の研究体制の中でコンピュータが形作られていくプロセスを丁寧に描いてくれます。コンピュータ史を“一枚の図”ではなく、動的なネットワークとして捉え直すのに良い資料です。",
+        "note_en": "A full-scale historical study tracing the life of John von Neumann and the formation process of computer architecture. It verifies Neumann's role in the ENIAC/EDVAC projects, the stored-program concept, and the design of machines like MANIAC, using abundant materials./The term \"von Neumann architecture\" is incredibly famous, but the actual projects were an entanglement of multiple researchers and political/military demands. This book carefully depicts the process of the computer taking shape not through \"the flash of genius of Neumann alone,\" but within the research systems of wartime and the Cold War. It is good material for re-perceiving computer history not as a \"single diagram\" but as a dynamic network."
+      },
+      {
+        "label": "マスターズ・オブ・ディセプション（ジョシュア・クウィットナー、ミシェール・スラターラ著/師岡雄二訳）",
+        "label_en": "MASTERS OF DECEPTION(Joshua Quittner, Michelle Slatalla)",
+        "startYear": 1995,
+        "genre": [
+          "HACKER"
+        ],
+        "imp": 3,
+        "url": "https://www.amazon.co.jp/dp/4047912387",
+        "url_en": "https://www.amazon.com/dp/0060926985",
+        "note": "ニューヨークの10代のハッカーがネットワーク空間でグループを結成し、テキサスの別のグループと抗争する一部始終をドラマ風に再現している。ファイバー・オプティック、スコーピオン、アシッド・フリークなど、新聞を賑わせたハッカーたちが主人公だ。/ニューヨークの10代のハッカーがネットワーク空間でグループを結成し、テキサスの別のグループと抗争する一部始終をドラマ風に再現している。ファイバー・オプティック、スコーピオン、アシッド・フリークなど、新聞を賑わせたハッカーたちが主人公だ。",
+        "note_en": "Dramatically recreates the entire sequence of events in which teenage hackers in New York formed a group in cyberspace and clashed with another group in Texas. The protagonists are hackers who dominated the headlines, including Fiber Optic, Scorpion, and Acid Phreak./Dramatically recreates the entire sequence of events in which teenage hackers in New York formed a group in cyberspace and clashed with another group in Texas. The protagonists are hackers who dominated the headlines, including Fiber Optic, Scorpion, and Acid Phreak."
       }
     ],
     "1996": [
@@ -1541,10 +1672,22 @@
           "OUTOFPRINT"
         ],
         "imp": 3,
-        "url": "https://ja.wikipedia.org/wiki/ルーディ・ラッカーの人工生命研究室_on_Windows|https://www.amazon.co.jp/dp/4756116361&https://m.media-amazon.com/images/I/412SATK4JBL.SY425.jpg",
-        "url_en": "https://en.wikipedia.org/wiki/Artificial_Life_Lab|https://www.amazon.com/dp/1878739484&https://m.media-amazon.com/images/I/41g8C8hgl+L.jpg",
+        "url": "https://www.amazon.co.jp/dp/4756116361&https://m.media-amazon.com/images/I/412SATK4JBL._SY425_.jpg",
+        "url_en": "https://www.amazon.com/dp/1878739484/&https://m.media-amazon.com/images/I/41g8C8hgl+L.jpg",
         "note": "Windows 上で動く人工生命ソフトを題材に、細胞オートマトンや進化シミュレーションを「自分で動かしながら」理解できるように書かれた実験的な入門書。人工生命（Artificial Life）の考え方や歴史的背景も解説しつつ、ラッカーらしいサイコ・サイファイ寄りのノリも漂う一冊です。/90年代PCカルチャーと人工生命ブームがそのまま閉じ込められたような本で、「生命っぽさ」をプログラムでつくるとはどういうことかを、難しい数式より“遊び”を通して体感できます。今読むとソフトウェア自体は古いのに、自己組織化や複雑系の発想はぜんぜん古びていないのが面白いところです。",
-        "note_en": "An experimental introductory book designed to help readers understand cellular automata and evolutionary simulations by \"running them personally,\" using artificial life software on Windows. While explaining the concepts and historical background of Artificial Life, it also carries a psycho-sci-fi vibe characteristic of Rucker./A book that seems to encapsulate 90s PC culture and the artificial life boom, allowing you to experience what it means to create \"lifelikeness\" through programming via \"play\" rather than difficult equations. Reading it now, the software itself is dated, but it is interesting that the ideas of self-organization and complex systems have not aged at all."
+        "note_en": "An experimental introductory book that allows readers to understand cellular automata and evolutionary simulations by \"operating them themselves,\" using artificial life software running on Windows as the subject. It explains the concepts and historical background of Artificial Life, while also featuring a psycho-sci-fi vibe characteristic of Lacker./It's a book that seems to have trapped the 90s PC culture and the artificial life boom, allowing you to experience what it means to create \"lifelikeness\" through programming, more through \"play\" than difficult equations. Reading it now, it's interesting that while the software itself is outdated, the concepts of self-organization and complex systems remain fresh."
+      },
+      {
+        "label": "世界ハッカー犯罪白書（セルジュ・ル・ドラン、フィリップ・ロゼ著、桑原透訳）",
+        "label_en": "Cyber thrillers(Serge Le Doran, Philippe Rosé)",
+        "startYear": 1996,
+        "genre": [
+          "HACKER"
+        ],
+        "imp": 3,
+        "url": "https://www.amazon.co.jp/dp/4163520104",
+        "note": "世界各国で起きたコンピュータ犯罪・ハッキング事件をルポした本。フランス発のルポを翻訳したもので、欧米の事件だけでなく、国際的な犯罪ネットワークや法整備の遅れといった視点も含まれています。/ややマスメディア的な「犯罪事件簿」ノリではありますが、インターネット以前〜初期のコンピュータ犯罪がどのように認識されていたかを知る資料としては貴重です。技術そのものより「社会がどう見ていたか」に関心があるときに効きます。",
+        "note_en": "A book reporting on computer crimes and hacking incidents around the world. Translated from a French reportage, it includes perspectives on international crime networks and the lag in legal systems, not just Western incidents./Although it has a somewhat mass-media \"crime file\" vibe, it is valuable as a resource to know how computer crimes were perceived from the pre-internet era to the early days. It is effective when you are interested in \"how society viewed it\" rather than the technology itself."
       }
     ],
     "1997": [
