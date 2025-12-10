@@ -91,6 +91,21 @@
         "url_en": "https://en.wikipedia.org/wiki/Writing_Degree_Zero",
         "note": "構造主義記号論の先駆けとして知られる、バルト初期の代表作。文学における「書き方（エクリチュール）」を、作家の内面や社会的状況との関係から分析し、「文体」や「言語」の歴史性を明らかにした一冊です。/テクスト／記号としての「書き方」を徹底的にラディカル化した本で、後のポスト構造主義やポストモダン思想への入口としても読まれます。コンピュータ時代の「テキスト編集」「コードを書くこと」を考えるうえでも、「書く」という行為を客観視させてくれる、地味だけど効く一冊です。",
         "note_en": "An early representative work of Barthes, known as a pioneer of structuralist semiotics. It analyzes the \"mode of writing (écriture)\" in literature in relation to the author's inner self and social situation, revealing the historicity of \"style\" and \"language.\"/A book that thoroughly radicalized the \"mode of writing\" as text/symbols, read as an entrance to later post-structuralism and postmodern thought. Even when thinking about \"text editing\" and \"writing code\" in the computer age, it is a plain but effective book that allows you to view the act of \"writing\" objectively."
+      },
+      {
+        "label": "",
+        "label_en": "The Last Whole Earth Catalog: Access To Tools（Stewart Brand (Editor)）",
+        "startYear": 1971,
+        "genre": [
+          "THEORYMEDIA",
+          "POPCULTURE",
+          "OUTOFPRINT"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/%E5%85%A8%E5%9C%B0%E7%90%83%E3%82%AB%E3%82%BF%E3%83%AD%E3%82%B0",
+        "url_en": "https://en.wikipedia.org/wiki/Whole_Earth_Catalog|https://www.amazon.com/Last-Whole-Earth-Catalog-Access/dp/0394704592&https://m.media-amazon.com/images/I/71cKR+0iljL.SY342.jpg",
+        "note": "1960年代後半のアメリカのヒッピー・カウンターカルチャーを象徴する雑誌「ホール・アース・カタログ」の最終版。より良い生き方、持続可能な暮らしに必要な「ツール（道具）」としての情報や商品を掲載し、「アクセス・トゥ・ツールズ（道具へのアクセス）」を掲げました。ヒッピーコミューンの自給自足的な生活を支える役割を担い、後のパーソナルコンピュータやインターネットの思想にも影響を与えた、サブカルチャー史上の重要文献です。",
+        "note_en": "The final edition of the \"Whole Earth Catalog,\" a magazine that symbolized the American hippie counterculture of the late 1960s. It featured information and goods as \"tools\" necessary for a better, sustainable life, advocating \"Access to Tools.\" Playing a role in supporting the self-sufficient life of hippie communes, it is a significant document in subculture history that also influenced the ideas behind personal computers and the Internet."
       }
     ],
     "1972": [
@@ -121,6 +136,20 @@
         "url_en": "https://en.wikipedia.org/wiki/The_Order_of_Things",
         "note": "ボルヘスの架空の百科事典の引用と、ベラスケス『侍女たち』の分析からはじまり、「人間」という概念自体が近代のある時期に現れ、また消えていくかもしれないという視点から人文科学を「考古学」的に掘り起こす書物です。/「人間」「主体」「知」といった概念も、一種の歴史的な「OS」のようなものにすぎない——という読み替えを迫ってくる本です。コンピュータやネットワークが知のインフラになった時代の「人文科学」を考えるとき、その地層を見せてくれる基礎資料のような位置づけになります。",
         "note_en": "Beginning with a quote from Borges' fictional encyclopedia and an analysis of Velázquez's \"Las Meninas,\" this book \"archaeologically\" unearths the human sciences from the perspective that the concept of \"man\" itself emerged at a certain time in the modern era and may disappear again./A book that forces a rereading that concepts like \"human,\" \"subject,\" and \"knowledge\" are nothing more than a kind of historical \"OS.\" When thinking about \"human sciences\" in an era where computers and networks have become the infrastructure of knowledge, it serves as basic material showing those geological layers."
+      },
+      {
+        "label": "Computer Lib（Ted Nelson著）",
+        "label_en": "Computer Lib（Ted Nelson）",
+        "startYear": 1974,
+        "genre": [
+          "COMPUTER",
+          "THEORYMEDIA",
+          "OUTOFPRINT"
+        ],
+        "imp": 3,
+        "url_en": "https://en.wikipedia.org/wiki/Computer_Lib/Dream_Machines|https://www.amazon.com/dp/0893470023/&https://m.media-amazon.com/images/I/41Y4aPIhLFL.SY445_SX342_FMwebp.jpg",
+        "note": "ハイパーテキスト（Hypertext）という概念の提唱者であるテッド・ネルソンが、コンピュータへのアクセスを一般市民に解放しようという情熱のもと、自費出版で世に問うた著作。「コンピュータは単なる計算機ではなく、人々の創造性を高めるための道具である」というメッセージを、独特のレイアウトと奔放な文体で表現しています。「Computer Lib（コンピュータ解放）」と「Dream Machines（夢の機械）」の2部構成で、後のデジタル革命の思想的な基盤の一つとなりました。",
+        "note_en": "A self-published work by Ted Nelson, the proponent of the concept of Hypertext, driven by a passion to democratize access to computers. It conveys the message that \"the computer is not merely a calculator, but a tool to enhance human creativity,\" using a unique layout and unconstrained writing style. Consisting of two parts, \"Computer Lib\" and \"Dream Machines,\" it became one of the ideological foundations of the later digital revolution."
       }
     ],
     "1976": [
@@ -179,6 +208,18 @@
         "url_en": "https://en.wikipedia.org/wiki/Do_Androids_Dream_of_Electric_Sheep%3F",
         "note": "核戦争で荒廃した地球で、人間に混じって生きるアンドロイドを「処分」する賞金稼ぎデッカードの葛藤を描く。映画『ブレードランナー』の原作として有名だが、原作では「共感」をめぐる宗教や倫理の問題がより前面に出ている。/「どこまでが人間で、どこからが機械か？」という問いを、大企業や警察、宗教装置を巻き込みつつ真正面からぶつけてくる作品です。映画版のビジュアルイメージに引っ張られがちですが、原作はもっと静かで宗教的で、今のAI倫理を考えるうえでむしろこちらの方が“重い”テキストになっています。",
         "note_en": "Depicts the struggle of bounty hunter Deckard who \"retires\" androids living among humans on a post-nuclear war ravaged Earth. Famous as the source material for the movie \"Blade Runner,\" but the original novel focuses more on religious and ethical issues surrounding \"empathy.\" /A work that confronts the question \"Where does the human end and the machine begin?\" head-on, involving large corporations, police, and religious apparatuses. While often overshadowed by the movie's visual image, the original is quieter and more religious, making it a rather \"heavier\" text for considering current AI ethics."
+      },
+      {
+        "label": "マイコンピュータ入門（安田寿明著）",
+        "startYear": 1977,
+        "genre": [
+          "COMPUTER",
+          "OUTOFPRINT"
+        ],
+        "imp": 3,
+        "url": "https://www.amazon.co.jp/dp/B000J8WJJI&https://m.media-amazon.com/images/I/716Gb48tUvL.SY342.jpg",
+        "note": "1970年代後半のマイコン黎明期に、コンピュータの基礎知識から「マイコンの作り方」までを解説した、日本のコンピュータ文化史における重要な入門書。一般の人々に向けて、マイコンの仕組みや利用方法をわかりやすく伝え、後のパーソナルコンピュータ普及の土壌を耕しました。電子工作やプログラミングが趣味の時代、自作を通じてコンピュータを理解するという、当時の熱狂的な空気感を伝える一冊です。",
+        "note_en": "An important introductory book in the history of Japanese computer culture, published during the dawn of the microcomputer era in the late 1970s, explaining everything from basic computer knowledge to \"how to build a microcomputer.\" It made the mechanisms and usage of microcomputers accessible to the general public, laying the groundwork for the later spread of personal computers. The book conveys the enthusiastic atmosphere of the time when electronics and programming were hobbies, and understanding the computer came through self-building."
       }
     ],
     "1978": [
@@ -304,6 +345,19 @@
         "url_en": "https://www.amazon.com/Mind-Nature-Necessary-Gregory-Bateson/dp/0553137247&https://m.media-amazon.com/images/I/91uRNSIe8vL._SY466_.jpg",
         "note": "人類学、生物学、サイバネティクス、精神病理学などの成果を通して、「われわれは何者か」という問いに答えようとした書。「精神を定義する」「分類から過程へ」など、各章のタイトルだけでわくわくする。/二重拘束（ダブルバインド）説で知られるベイトソンの晩年の著作。生物の進化と精神のプロセスを「パターン」という共通項で結びつけようとした、システム思想の金字塔です。",
         "note_en": "A book attempting to answer the question \"who are we\" through results from anthropology, biology, cybernetics, and psychopathology. Just the chapter titles like \"Defining Mind\" and \"From Classification to Process\" are exciting./A late work by Bateson, known for the Double Bind theory. It is a monumental work of systems thought attempting to link biological evolution and mental processes through the common term of \"pattern.\""
+      },
+      {
+        "label": "第三の波（アルビン・トフラー著/徳岡孝夫訳）",
+        "label_en": "The Third Wave（Alvin Toffler）",
+        "startYear": 1982,
+        "genre": [
+          "THEORYMEDIA"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/%E7%AC%AC%E4%B8%89%E3%81%AE%E6%B3%A2_(%E3%83%88%E3%83%95%E3%83%A9%E3%83%BC|https://www.amazon.co.jp/dp/4122009537/&https://m.media-amazon.com/images/I/81DWuhMQ0mL.SY342.jpg",
+        "url_en": "https://en.wikipedia.org/wiki/The_Third_Wave_(Toffler_book|https://www.amazon.com/Third-Wave-Alvin-Toffler/dp/B0026QRZ8Q/&https://m.media-amazon.com/images/I/81IaC8Nwu2L.SY385.jpg",
+        "note": "未来学者アルビン・トフラーが提唱した、人類文明の発展を「第一の波（農業革命）」「第二の波（産業革命）」に続く「第三の波（情報革命）」として捉える文明論のベストセラー。情報化社会の到来を予見し、社会構造、経済、家族、政治などあらゆる側面での変革を論じています。特に、生産者と消費者が融合した「プロシューマー」の概念や、規格化、集中化からの脱却といった鋭い指摘は、現代社会においても示唆に富んでいます。",
+        "note_en": "A bestselling book on civilization theory by futurist Alvin Toffler, which conceptualizes the development of human civilization in three waves: the \"First Wave (Agricultural Revolution),\" the \"Second Wave (Industrial Revolution),\" and the \"Third Wave (Information Revolution).\" It foresees the advent of the information society and discusses transformations in all aspects, including social structure, economy, family, and politics. Particularly insightful are its sharp observations, such as the concept of the \"prosumer,\" where producers and consumers merge, and the move away from standardization and centralization, which remain relevant in contemporary society."
       }
     ],
     "1983": [
@@ -319,6 +373,33 @@
         "url": "https://www.amazon.co.jp/%E8%83%8E%E5%85%90%E3%81%AE%E4%B8%96%E7%95%8C-%E4%BA%BA%E9%A1%9E%E3%81%AE%E7%94%9F%E5%91%BD%E8%A8%98%E6%86%B6-%E4%B8%AD%E5%85%AC%E6%96%B0%E6%9B%B8-%E4%B8%89%E6%9C%A8%E6%88%90%E5%A4%AB-ebook/dp/B00G44VKSM&https://m.media-amazon.com/images/I/619tM+bWl-L._SY466_.jpg",
         "note": "胎児の発生過程を精密な解剖学・発生学の知見にもとづき描き出し、その形態変化に「生命の記憶」やリズムを読み取ろうとする古典的人気書。生物学・哲学・詩情がまじり合った独特の文体で、多くの読者を得てきた。/AIやサイボーグではなく「胎児」から世界を見る本なので、リストの中では異色ですが、生命を“プロセスとしての形の流れ”として見る発想はシステム論やオートポイエーシスにも通じます。人間理解をデータではなく「身体の時間」から捉え直す一冊です。",
         "note_en": "A classic popular book that depicts the developmental process of the fetus based on precise anatomical and embryological knowledge, attempting to read \"memories of life\" and rhythms in its morphological changes. With a unique style blending biology, philosophy, and poetic sentiment, it has gained many readers./Since it views the world from the \"fetus\" rather than AI or cyborgs, it is unique in this list, but the idea of viewing life as a \"flow of form as a process\" connects to systems theory and autopoiesis. It is a book that reconsiders human understanding not through data but through \"somatic time.\""
+      },
+      {
+        "label": "ガジェット・ブック（佐野山寛太）",
+        "startYear": 1983,
+        "genre": [
+          "POPCULTURE",
+          "NERD",
+          "OUTOFPRINT"
+        ],
+        "imp": 3,
+        "url": "https://www.amazon.co.jp/dp/4915376427/&https://m.media-amazon.com/images/I/511NeHydp-L.SY445_SX342_ControlCacheEqualizer.jpg",
+        "note": "80年代のサブカルチャーの空気感を色濃く反映したビジュアル文庫。「ガジェット」を「潜在的無用性と遊び的な組み合せによる価値を持つモノ」と定義し、当時の街中に溢れていた文房具、小物、お菓子、玩具、ファッションなど、「ガラクタ的な面白さ」を持った品々を、カラー・モノクロ図版で紹介。キッチュでチープな当時のグッズや文化に関心がある人にとっては、80年代日本の生々しい側面を凝縮した貴重な資料となります。",
+        "note_en": "A visual paperback strongly reflecting the atmosphere of 1980s Japanese subculture. Defining a \"gadget\" as \"an object possessing value through potential uselessness and playful combinations,\" the book introduces various items with a \"junk-like appeal\"—stationery, small items, snacks, toys, and fashion—that were prevalent in the streets at the time, using color and monochrome illustrations. For those interested in the kitsch and cheap goods and culture of that era, this is a valuable resource that encapsulates the vivid aspects of 1980s Japan."
+      },
+      {
+        "label": "テクノクラシー（ブルース ナスバーム著/田原総一朗訳）",
+        "label_en": "The World After Oil（Bruce Nussbaum）",
+        "startYear": 1983,
+        "genre": [
+          "THEORYMEDIA",
+          "OUTOFPRINT"
+        ],
+        "imp": 3,
+        "url": "https://www.amazon.co.jp/dp/4062006782&https://m.media-amazon.com/images/I/51Ybx2Kaz6L.SY385.jpg",
+        "url_en": "https://www.amazon.com/World-After-Shifting-Power-Wealth/dp/0671505971&https://m.media-amazon.com/images/I/61Su9uiL4jL.SY385.jpg",
+        "note": "石油後の世界における権力と富の移行を描き、特にロボット工学、遺伝子工学、テレコミュニケーションの「三大テクノロジー戦争」の最前線を活写した論考。ニューテクノロジー時代の勝者となるための条件を徹底的に追求し、企業や国家が技術競争に勝ち残れるかどうかが未来を左右すると警鐘を鳴らしています。当時の日本が直面していた国際競争と技術開発の熾烈さを背景に、テクノロジーが社会構造や経済に与える影響を論じた一冊です。",
+        "note_en": "An analysis depicting the shift of power and wealth in the post-oil world, vividly capturing the forefront of the \"three major technology wars\": robotics, genetic engineering, and telecommunications. It thoroughly explores the conditions for becoming a winner in the new technology era, warning that survival in the fierce technological competition determines the future of companies and nations. Against the backdrop of the intense international competition and technological development faced by Japan at the time, the book discusses the impact of technology on social structure and the economy."
       }
     ],
     "1984": [
@@ -1429,6 +1510,20 @@
         "url_en": "https://www.amazon.com/-/zh_TW/serge-doran-philippe-rose/dp/2226085300&https://m.media-amazon.com/images/I/51CFK7E2M0L._SY466_.jpg",
         "note": "アメリカ編、東欧・アジア編、西ヨーロッパ編に分かれ、30のハッカー犯罪が簡潔に(しかも再現ドラマ風に)紹介されている。文字どおりサイバースペースの事件簿と言える1冊だが、すでにトルー・ストーリーズ風の味わいがある。/文字どおりサイバースペースの事件簿と言える1冊だが、すでにトルー・ストーリーズ風の味わいがある。",
         "note_en": "Divided into American, Eastern European/Asian, and Western European sections, 30 hacker crimes are concisely introduced (in a dramatic reenactment style). It is literally a case file of cyberspace, but it already has the flavor of true crime stories./It is literally a case file of cyberspace, but it already has the flavor of true crime stories."
+      },
+      {
+        "label": "マイクロサーフス（ダグラス・キャンベル クープランド著/江口 研一訳）",
+        "label_en": "Microserfs（Douglas Coupland）",
+        "startYear": 1996,
+        "genre": [
+          "POPCULTURE",
+          "NERD"
+        ],
+        "imp": 3,
+        "url": "https://www.amazon.co.jp/dp/4047913030/&https://m.media-amazon.com/images/I/51-1pG0BHcL.SY342.jpg",
+        "url_en": "https://en.wikipedia.org/wiki/Microserfs|https://www.amazon.com/Microserfs-Douglas-Coupland/dp/0006548598&https://m.media-amazon.com/images/I/51Vy2XL3TmL.SY342.jpg",
+        "note": "マイクロソフトのプログラマーたち、すなわち「マイクロサーフス（マイクロソフトの小間使い）」の生活と、彼らがシリコンバレーで起業を目指す姿を描いた小説。90年代のPC文化の熱狂、オタク的なライフスタイル、そしてIT業界黎明期のセンチメンタルな側面を鮮やかに捉えています。技術的な詳細よりも、当時の若者たちのアイデンティティや夢、人間関係に焦点を当て、ジェネレーションX世代の電脳ポップ・ノベルとして高い評価を得ました。",
+        "note_en": "A novel depicting the lives of programmers at Microsoft, the \"Microserfs,\" and their journey to start a company in Silicon Valley. It vividly captures the enthusiasm of 90s PC culture, the nerdy lifestyle, and the sentimental aspects of the early IT industry. Focusing more on the identities, dreams, and relationships of the youth of the time rather than technical details, it was highly acclaimed as a cyber-pop novel of the Generation X era."
       }
     ],
     "1997": [
@@ -1444,6 +1539,67 @@
         "url_en": "https://en.wikipedia.org/wiki/The_Andy_Warhol_Diaries",
         "note": "ウォーホルはポップカルチャーそのものだ。日記といっても、1976年から1987年までのウォーホルを取り巻く日常を、日記担当の秘書（編者）が電話で聞き書きしたもの。ウォーホルの目を通した同時代の報告書と言えるかもしれない。ここでのウォーホルは携帯ビデオカメラの役割を果たしている。/本書は、ウォーホル日記に関する重要な視点を提供しています。彼がただのアーティストではなく、時代を記録するメディアそのものであったことが、この膨大な聞き書きから伝わってきます。",
         "note_en": "Warhol is pop culture itself. Although called a diary, it is a dictation taken over the phone by his secretary (the editor) covering Warhol's daily life from 1976 to 1987. It can be said to be a report of the era through Warhol's eyes. Here, Warhol plays the role of a portable video camera./This book provides an important perspective on the Warhol Diaries. It conveys through this vast dictation that he was not just an artist, but the media itself recording the era."
+      },
+      {
+        "label": "ディルバートの法則: パーティションの視点から見たボス、会議、流行の経営理論など職場の苦痛の数々（スコット・アダムス著）",
+        "label_en": "The Dilbert Principle: A Cubicle's-Eye View of Bosses, Meetings, Management Fads & Other Workplace Afflictions（Scott Adams）",
+        "startYear": 1997,
+        "genre": [
+          "POPCULTURE",
+          "NERD",
+          "OUTOFPRINT"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/%E3%83%87%E3%82%A3%E3%83%AB%E3%83%90%E3%83%BC%E3%83%88|https://www.amazon.co.jp/dp/4756110894&https://m.media-amazon.com/images/I/41CIHko6taL.SY342.jpg",
+        "url_en": "https://en.wikipedia.org/wiki/Dilbert|https://www.amazon.com/Dilbert-Principle-Cubicles-Eye-Management-Afflictions/dp/0887307876/&https://m.media-amazon.com/images/I/81pOS1GM5BL.SY342.jpg",
+        "note": "人気コミック「ディルバート」の作者が提唱した風刺的な法則、「組織の損害を最小限に抑えるため、あえて無能な人材を（中間管理職に）昇進させる」という「ディルバートの法則」を展開した書籍。IT企業でエンジニア経験を持つ著者が、オフィスでの無駄な会議、非合理的な上司、流行の経営理論など、サラリーマンの日常的な苦痛をブラックユーモアを交えて描きます。現代のオフィスカルチャーと「ピーターの法則」への痛烈な風刺として、広く読まれました。",
+        "note_en": "A book that elaborates on \"The Dilbert Principle,\" a satirical rule proposed by the creator of the popular comic \"Dilbert\": \"organizations systematically promote their least-competent employees to management (generally middle management) to limit the amount of damage they can do.\" The author, who has experience as an engineer in an IT company, uses dark humor to depict the daily agonies of office workers, such as pointless meetings, irrational bosses, and trendy management theories. It was widely read as a trenchant satire on modern office culture and \"The Peter Principle.\""
+      }
+    ],
+    "1998": [
+      {
+        "label": "チップに賭けた男たち（ボブ ジョンストン著/安原和見訳）",
+        "startYear": 1998,
+        "genre": [
+          "SCIENCE",
+          "COMPUTER",
+          "OUTOFPRINT"
+        ],
+        "imp": 3,
+        "url": "https://www.amazon.co.jp/dp/4062080214&https://m.media-amazon.com/images/I/51+FF2lNUJL.SY342.jpg",
+        "note": "現代文明を支える半導体技術の裏側で活躍する日本の地味だが偉大な技術者たちに光を当てたノンフィクション。電卓、時計、ビデオカメラ、CDプレイヤーなどの開発に携わった「チップ」に人生を賭けた男たちの情熱と苦闘を、彼らの業績だけでなく人となりも含めて描いています。世界に誇る日本のものづくり文化と、技術者の精神性、そしてイノベーションが生まれる現場の熱気を伝える貴重な記録です。",
+        "note_en": "A non-fiction book that highlights the modest yet great Japanese engineers working behind the scenes of the semiconductor technology that underpins modern civilization. It portrays the passion and struggles of the men who staked their lives on \"chips\" involved in the development of calculators, watches, video cameras, CD players, and more, focusing not just on their achievements but also their personalities. It's a valuable record conveying Japan's world-class manufacturing culture, the engineers' ethos, and the fervor of the innovation birthplace."
+      }
+    ],
+    "2005": [
+      {
+        "label": "ハッカーと画家 コンピュータ時代の創造者たち（Paul Graham著/川合史朗監訳）",
+        "label_en": "Hackers & Painters: Big Ideas from the Computer Age（Paul Graham）",
+        "startYear": 2005,
+        "genre": [
+          "HACKER",
+          "COMPUTER"
+        ],
+        "imp": 3,
+        "url": "https://www.amazon.co.jp/dp/4274065979&https://m.media-amazon.com/images/I/81hFpVptJpL.SY342.jpg",
+        "url_en": "https://en.wikipedia.org/wiki/Hackers_%26_Painters|https://www.amazon.com/Hackers-Painters-Big-Ideas-Computer/dp/B08Z4FHH3T&https://m.media-amazon.com/images/I/91ydydG-m+L.SX342.jpg",
+        "note": "天才LISPハッカーであり、大成功を収めたベンチャー企業の創業者であるポール・グレアムによるエッセイ集。ハッカーを「画家や建築家と同じ、ものを創る人々」と定義し、プログラミング、スタートアップ、富の創造、オタク文化など、コンピュータ時代の創造者に向けた深い洞察を提供します。特に、「富の創りかた」や「もうひとつの未来への道（Webベースソフトウェア）」といった章は、起業家精神やイノベーションの考え方を刺激します。",
+        "note_en": "A collection of essays by Paul Graham, a genius LISP hacker and the founder of a highly successful venture company. Defining hackers as \"people who create things, just like painters and architects,\" the book offers deep insights for creators in the computer age on topics such as programming, startups, wealth creation, and nerd culture. Chapters like \"How to Make Wealth\" and \"The Other Road Ahead (Web-based software)\" are particularly stimulating for entrepreneurial spirit and the mindset of innovation."
+      }
+    ],
+    "2025": [
+      {
+        "label": "Apple IIは何を変えたのか　パーソナル・ソフトウェア市場の誕生（レイン・ヌーニー著/山形浩生訳）",
+        "label_en": "The Apple II Age: How the Computer Became Personal（Laine Nooney）",
+        "startYear": 2025,
+        "genre": [
+          "COMPUTER"
+        ],
+        "imp": 3,
+        "url": "https://www.amazon.co.jp/dp/4571410808/&https://m.media-amazon.com/images/I/41IgG06WGEL.SY445_SX342_ControlCacheEqualizer.jpg",
+        "url_en": "https://www.amazon.com/dp/0226816524/&https://m.media-amazon.com/images/I/41ej3HdnjeL.SY445_SX342_FMwebp.jpg",
+        "note": "1970年代から80年代にかけて、個人向けコンピュータ黎明期を築いたApple IIが、家庭、ビジネス、教育など様々な分野でどのようにソフトウェア市場の成立をもたらしたかを多角的に描く歴史書。ビデオゲームおよびコンピュータ産業の歴史的・文化的・経済的分析を専門とする著者が、当時の文化や技術革新、そして市場のダイナミズムを詳細に解説します。パーソナルコンピュータの時代の幕開けを理解するための貴重な一冊です。",
+        "note_en": "A historical book that comprehensively describes how the Apple II, which pioneered the early days of personal computers in the 1970s and 80s, contributed to the establishment of the software market in various fields such as home, business, and education. The author, specializing in the historical, cultural, and economic analysis of the video game and computer industry, provides a detailed account of the culture, technological innovation, and market dynamics of the time. This is a valuable book for understanding the dawn of the personal computer era."
       }
     ]
   },
