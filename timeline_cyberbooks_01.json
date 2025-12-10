@@ -1906,41 +1906,5 @@
   },
   "eraSettings": [],
   "genres": [
-    {
-      "code": "SCIENCE",
-      "label": "科学",
-      "label_en": "Science",
-      "conjunction": false
-    },
-    {
-      "code": "COMPUTER",
-      "label": "コンピューター",
-      "label_en": "Computer",
-      "conjunction": false
-    },
-    {
-      "code": "CYBERPUNK",
-      "label": "サイバーパンク",
-      "label_en": "Cyberpunk",
-      "conjunction": false
-    },
-    {
-      "code": "HACKER",
-      "label": "ハッカー",
-      "label_en": "ハッカー",
-      "conjunction": false
-    },
-    {
-      "code": "POPCULTURE",
-      "label": "ポップカルチャー",
-      "label_en": "Pop culture",
-      "conjunction": false
-    },
-    {
-      "code": "THEORYMEDIA",
-      "label": "思想・メディア論",
-      "label_en": "Theory of Thought and Media",
-      "conjunction": false
-    }
   ]
 }
