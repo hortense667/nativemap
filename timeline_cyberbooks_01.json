@@ -1958,50 +1958,50 @@
     {
       "code": "SCIENCE",
       "label": "科学",
-      "conjunction": false,
-      "label_en": "Science"
+      "label_en": "Science",
+      "conjunction": false
     },
     {
       "code": "COMPUTER",
       "label": "コンピューター",
-      "conjunction": false,
-      "label_en": "Computer"
+      "label_en": "Computer",
+      "conjunction": false
     },
     {
       "code": "CYBERPUNK",
       "label": "サイバーパンク",
-      "conjunction": false,
-      "label_en": "Cyberpunk"
+      "label_en": "Cyberpunk",
+      "conjunction": false
     },
     {
       "code": "HACKER",
       "label": "ハッカー",
-      "conjunction": false,
-      "label_en": "ハッカー"
+      "label_en": "ハッカー",
+      "conjunction": false
     },
     {
       "code": "POPCULTURE",
       "label": "ポップカルチャー",
-      "conjunction": false,
-      "label_en": "Pop culture"
+      "label_en": "Pop culture",
+      "conjunction": false
     },
     {
       "code": "THEORYMEDIA",
       "label": "思想・メディア論",
-      "conjunction": false,
-      "label_en": "Theory of Thought and Media"
+      "label_en": "Theory of Thought and Media",
+      "conjunction": false
     },
     {
       "code": "NERD",
       "label": "ナード・おたく",
-      "conjunction": false,
-      "label_en": "Nerd/Otaku"
+      "label_en": "Nerd/Otaku",
+      "conjunction": false
     },
     {
       "code": "OUTOFPRINT",
       "label": "絶版",
-      "conjunction": true,
-      "label_en": "Out of print"
+      "label_en": "Out of print",
+      "conjunction": true
     }
   ]
 }
