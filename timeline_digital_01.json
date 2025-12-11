@@ -1,5 +1,4 @@
 {
-  "schemaVersion": 1,
   "metadata": {
     "title": {
       "ja": "日本のデジタル年表 0.1",
@@ -1885,17 +1884,17 @@
     ],
     "1974": [
       {
-        "label": "CP/M",
+        "label": "CP/M（オペレーティングシステム）",
         "label_en": "CP/M",
         "startYear": 1974,
         "genre": [
           "SOF-OS"
         ],
-        "imp": 4,
+        "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/CP/M",
         "url_en": "https://en.wikipedia.org/wiki/CP/M",
-        "note": "マイクロコン向け初期の標準的OS。",
-        "note_en": "Early standard OS for microcomputers."
+        "note": "8ビットPC向け標準OSに。",
+        "note_en": "Standard OS for early 8-bit micros."
       },
       {
         "label": "ジョセフソン計算機研究",
@@ -2006,19 +2005,6 @@
         "url_en": "https://en.wikipedia.org/wiki/Tektronix_4010_series",
         "note": "ベクトル表示端末の代表機。",
         "note_en": "Iconic vector graphics terminal."
-      },
-      {
-        "label": "CP/M（オペレーティングシステム）",
-        "label_en": "CP/M",
-        "startYear": 1974,
-        "genre": [
-          "SOF-OS"
-        ],
-        "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/CP/M",
-        "url_en": "https://en.wikipedia.org/wiki/CP/M",
-        "note": "8ビットPC向け標準OSに。",
-        "note_en": "Standard OS for early 8-bit micros."
       },
       {
         "label": "SIGGRAPH（研究コミュニティ/会議）",
@@ -2394,7 +2380,7 @@
         "note_en": "SF film about AI intrusion at home."
       },
       {
-        "label": "Commodore PET 2001",
+        "label": "PET 2001",
         "label_en": "Commodore PET 2001",
         "startYear": 1977,
         "genre": [
@@ -2403,8 +2389,8 @@
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/Commodore_PET",
         "url_en": "https://en.wikipedia.org/wiki/Commodore_PET",
-        "note": "トリニティの一角となる一体型PC。",
-        "note_en": "All-in-one PC, part of 1977 Trinity."
+        "note": "初期の一体型パソコン。",
+        "note_en": "Early all-in-one personal computer."
       },
       {
         "label": "Tandy TRS-80",
@@ -2502,19 +2488,6 @@
         "url_en": "https://en.wikipedia.org/wiki/FUJITSU_FACOM",
         "note": "日本初のベクトル計算機とされる装置。",
         "note_en": "Early Japanese vector processing add-on."
-      },
-      {
-        "label": "PET 2001",
-        "label_en": "Commodore PET 2001",
-        "startYear": 1977,
-        "genre": [
-          "HAR-PC"
-        ],
-        "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/Commodore_PET",
-        "url_en": "https://en.wikipedia.org/wiki/Commodore_PET",
-        "note": "初期の一体型パソコン。",
-        "note_en": "Early all-in-one personal computer."
       },
       {
         "label": "TRS-80",
@@ -2828,28 +2801,28 @@
       },
       {
         "label": "Motorola 68000",
-        "label_en": "Motorola 68000",
         "startYear": 1979,
         "genre": [
           "HAR-CPU"
         ],
         "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/モトローラ68000",
-        "url_en": "https://en.wikipedia.org/wiki/Motorola_68000",
+        "url": "https://ja.wikipedia.org/wiki/MC68000",
         "note": "16/32ビット級でGUI時代を牽引。",
+        "label_en": "Motorola 68000",
+        "url_en": "https://en.wikipedia.org/wiki/Motorola_68000",
         "note_en": "16/32-bit CPU powering GUI era."
       },
       {
         "label": "Motorola 6809",
-        "label_en": "Motorola 6809",
         "startYear": 1979,
         "genre": [
           "HAR-CPU"
         ],
         "imp": 3,
-        "url": "https://ja.wikipedia.org/wiki/モトローラ6809",
-        "url_en": "https://en.wikipedia.org/wiki/Motorola_6809",
+        "url": "https://ja.wikipedia.org/wiki/MC6809",
         "note": "8ビット上位互換で高機能。",
+        "label_en": "Motorola 6809",
+        "url_en": "https://en.wikipedia.org/wiki/Motorola_6809",
         "note_en": "Advanced 8-bit microprocessor design."
       },
       {
@@ -3237,14 +3210,14 @@
         "note_en": "Entry-level Japanese home computer."
       },
       {
-        "label": "FUJITSU FM-8",
+        "label": "FM-8",
         "label_en": "Fujitsu FM-8",
         "startYear": 1981,
         "genre": [
           "HAR-PC",
           "JAPAN"
         ],
-        "imp": 2,
+        "imp": 3,
         "url": "https://ja.wikipedia.org/wiki/FM-8",
         "url_en": "https://en.wikipedia.org/wiki/Fujitsu_FM-8",
         "note": "富士通の初期8ビットPC。",
@@ -3277,20 +3250,6 @@
         "url_en": "https://en.wikipedia.org/wiki/Computex",
         "note": "アジア最大級のIT展示会。",
         "note_en": "Major Asia IT/PC trade show."
-      },
-      {
-        "label": "FM-8",
-        "label_en": "Fujitsu FM-8",
-        "startYear": 1981,
-        "genre": [
-          "HAR-PC",
-          "JAPAN"
-        ],
-        "imp": 3,
-        "url": "https://ja.wikipedia.org/wiki/FM-8",
-        "url_en": "https://en.wikipedia.org/wiki/Fujitsu_FM-8",
-        "note": "富士通の初期8ビットPC。",
-        "note_en": "Early 8-bit PC by Fujitsu."
       },
       {
         "label": "IBM 5151（ディスプレイ）",
@@ -4235,18 +4194,18 @@
         "note_en": "Popularized GUI and mouse on personal computers."
       },
       {
-        "label": "BB84量子鍵配送",
+        "label": "BB84量子鍵配送プロトコル",
         "label_en": "BB84 quantum key distribution",
         "startYear": 1984,
         "genre": [
           "THE",
           "SOF-SEC"
         ],
-        "imp": 3,
-        "url": "https://ja.wikipedia.org/wiki/量子鍵配送",
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/量子暗号",
         "url_en": "https://en.wikipedia.org/wiki/BB84",
-        "note": "量子暗号の基本プロトコル提案。",
-        "note_en": "Foundational QKD protocol proposed."
+        "note": "初の量子鍵配送プロトコル提案。",
+        "note_en": "First practical quantum key distribution protocol."
       },
       {
         "label": "『ニューロマンサー』",
@@ -4439,20 +4398,6 @@
         "url_en": "https://en.wikipedia.org/wiki/MacPaint",
         "note": "初代Macの代表的ソフト群。",
         "note_en": "Flagship apps on original Macintosh."
-      },
-      {
-        "label": "BB84量子鍵配送プロトコル",
-        "label_en": "BB84 quantum key distribution",
-        "startYear": 1984,
-        "genre": [
-          "THE",
-          "SOF-SEC"
-        ],
-        "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/量子暗号",
-        "url_en": "https://en.wikipedia.org/wiki/BB84",
-        "note": "初の量子鍵配送プロトコル提案。",
-        "note_en": "First practical quantum key distribution protocol."
       },
       {
         "label": "EPSON RC-20 リストコンピュータ",
@@ -4738,19 +4683,19 @@
         "note_en": "Early VR input device."
       },
       {
-        "label": "The WELL",
+        "label": "The WELL（Whole Earth 'Lectronic Link）",
         "label_en": "The WELL",
         "startYear": 1985,
         "endYear": "ongoing",
         "genre": [
-          "SOF-SVC",
-          "NON-COM"
+          "NON-COM",
+          "SOF-SVC"
         ],
         "imp": 3,
         "url": "https://ja.wikipedia.org/wiki/The_WELL",
         "url_en": "https://en.wikipedia.org/wiki/The_WELL",
-        "note": "著名なオンラインコミュニティ。",
-        "note_en": "Influential early online community."
+        "note": "草創期のオンラインコミュニティ。",
+        "note_en": "Seminal online community service."
       },
       {
         "label": "Toshiba T1100",
@@ -4822,7 +4767,7 @@
         "note_en": "Famed buckling-spring keyboard."
       },
       {
-        "label": "Microsoft Excel",
+        "label": "Microsoft Excel（表計算）",
         "label_en": "Microsoft Excel",
         "startYear": 1985,
         "genre": [
@@ -4831,23 +4776,8 @@
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/Microsoft_Excel",
         "url_en": "https://en.wikipedia.org/wiki/Microsoft_Excel",
-        "note": "表計算の定番となる。",
-        "note_en": "Becomes the standard spreadsheet."
-      },
-      {
-        "label": "The WELL（Whole Earth 'Lectronic Link）",
-        "label_en": "The WELL",
-        "startYear": 1985,
-        "endYear": "ongoing",
-        "genre": [
-          "NON-COM",
-          "SOF-SVC"
-        ],
-        "imp": 3,
-        "url": "https://ja.wikipedia.org/wiki/The_WELL",
-        "url_en": "https://en.wikipedia.org/wiki/The_WELL",
-        "note": "草創期のオンラインコミュニティ。",
-        "note_en": "Seminal online community service."
+        "note": "表計算の事実上標準へ。",
+        "note_en": "Became the de facto spreadsheet."
       },
       {
         "label": "Toshiba T1100",
@@ -4888,19 +4818,6 @@
         "url_en": "https://en.wikipedia.org/wiki/Finale_(scorewriter)",
         "note": "定番の譜面作成ソフト。",
         "note_en": "Leading music notation software."
-      },
-      {
-        "label": "Microsoft Excel（表計算）",
-        "label_en": "Microsoft Excel",
-        "startYear": 1985,
-        "genre": [
-          "SOF-OFF"
-        ],
-        "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/Microsoft_Excel",
-        "url_en": "https://en.wikipedia.org/wiki/Microsoft_Excel",
-        "note": "表計算の事実上標準へ。",
-        "note_en": "Became the de facto spreadsheet."
       },
       {
         "label": "JustSystems 花子（ドロー/DTP寄り）",
@@ -5859,17 +5776,17 @@
     ],
     "1988": [
       {
-        "label": "Adobe Photoshop",
+        "label": "Adobe Photoshop（画像編集）",
         "label_en": "Adobe Photoshop",
         "startYear": 1988,
         "genre": [
           "SOF-CRE"
         ],
-        "imp": 4,
+        "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/Adobe_Photoshop",
         "url_en": "https://en.wikipedia.org/wiki/Adobe_Photoshop",
-        "note": "画像編集の事実上標準へ成長。",
-        "note_en": "Became de facto standard for image editing."
+        "note": "画像編集の事実上標準へ。",
+        "note_en": "Became the de facto image editor."
       },
       {
         "label": "NeXTSTEP",
@@ -5984,17 +5901,17 @@
         "note_en": "Pioneered CD-ROM on home consoles."
       },
       {
-        "label": "IRIX",
+        "label": "IRIX（オペレーティングシステム）",
         "label_en": "IRIX",
         "startYear": 1988,
         "genre": [
           "SOF-OS"
         ],
-        "imp": 3,
+        "imp": 2,
         "url": "https://ja.wikipedia.org/wiki/IRIX",
         "url_en": "https://en.wikipedia.org/wiki/IRIX",
-        "note": "SGIのMIPS/GL向けUNIX。",
-        "note_en": "SGI’s UNIX for MIPS/graphics."
+        "note": "SGIのUNIX系OS。",
+        "note_en": "SGI’s UNIX operating system."
       },
       {
         "label": "Adobe Photoshop（初期版）",
@@ -6025,17 +5942,17 @@
         "note_en": "Formation of Japan’s commercial ISP roots."
       },
       {
-        "label": "SC – Supercomputing Conference",
+        "label": "SC – Supercomputing Conference（会議/展示）",
         "label_en": "SC (Supercomputing Conference)",
         "startYear": 1988,
         "genre": [
           "NON-COM"
         ],
-        "imp": 3,
-        "url": "https://ja.wikipedia.org/wiki/SC_(学会)",
-        "url_en": "https://en.wikipedia.org/wiki/Supercomputing_(conference)",
-        "note": "HPC分野の主要会議。",
-        "note_en": "Premier conference for HPC."
+        "imp": 2,
+        "url": "https://ja.wikipedia.org/wiki/スーパーコンピューティング・カンファレンス",
+        "url_en": "https://en.wikipedia.org/wiki/Supercomputing_conference",
+        "note": "HPCの国際会議/展示会。",
+        "note_en": "Flagship international HPC conference."
       },
       {
         "label": "AmigaOS Deluxe Paint（ドット絵）",
@@ -6078,32 +5995,6 @@
         "note_en": "Major ISP brand by NTT."
       },
       {
-        "label": "Adobe Photoshop（画像編集）",
-        "label_en": "Adobe Photoshop",
-        "startYear": 1988,
-        "genre": [
-          "SOF-CRE"
-        ],
-        "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/Adobe_Photoshop",
-        "url_en": "https://en.wikipedia.org/wiki/Adobe_Photoshop",
-        "note": "画像編集の事実上標準へ。",
-        "note_en": "Became the de facto image editor."
-      },
-      {
-        "label": "IRIX（オペレーティングシステム）",
-        "label_en": "IRIX",
-        "startYear": 1988,
-        "genre": [
-          "SOF-OS"
-        ],
-        "imp": 2,
-        "url": "https://ja.wikipedia.org/wiki/IRIX",
-        "url_en": "https://en.wikipedia.org/wiki/IRIX",
-        "note": "SGIのUNIX系OS。",
-        "note_en": "SGI’s UNIX operating system."
-      },
-      {
         "label": "IIJ（ISP）",
         "label_en": "Internet Initiative Japan (IIJ)",
         "startYear": 1988,
@@ -6116,19 +6007,6 @@
         "url_en": "https://en.wikipedia.org/wiki/Internet_Initiative_Japan",
         "note": "日本初期の商用ISP。",
         "note_en": "Pioneer commercial ISP in Japan."
-      },
-      {
-        "label": "SC – Supercomputing Conference（会議/展示）",
-        "label_en": "SC (Supercomputing Conference)",
-        "startYear": 1988,
-        "genre": [
-          "NON-COM"
-        ],
-        "imp": 2,
-        "url": "https://ja.wikipedia.org/wiki/スーパーコンピューティング・カンファレンス",
-        "url_en": "https://en.wikipedia.org/wiki/Supercomputing_conference",
-        "note": "HPCの国際会議/展示会。",
-        "note_en": "Flagship international HPC conference."
       },
       {
         "label": "SAP R/3（ERP）",
@@ -6405,60 +6283,6 @@
         "note_en": "Digital audio editor."
       },
       {
-        "label": "Lotus Notes",
-        "label_en": "Lotus Notes",
-        "startYear": 1989,
-        "genre": [
-          "SOF-OFF",
-          "SOF-ENT"
-        ],
-        "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/IBM_Notes",
-        "url_en": "https://en.wikipedia.org/wiki/HCL_Domino",
-        "note": "グループウェアの先駆。",
-        "note_en": "Pioneer in groupware/collaboration."
-      },
-      {
-        "label": "Microsoft SQL Server",
-        "label_en": "Microsoft SQL Server",
-        "startYear": 1989,
-        "genre": [
-          "SOF-OFF",
-          "SOF-ENT"
-        ],
-        "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/Microsoft_SQL_Server",
-        "url_en": "https://en.wikipedia.org/wiki/Microsoft_SQL_Server",
-        "note": "企業向けRDBMSに参入。",
-        "note_en": "Microsoft’s enterprise RDBMS debut."
-      },
-      {
-        "label": "Steinberg Cubase（DAW）",
-        "label_en": "Steinberg Cubase (DAW)",
-        "startYear": 1989,
-        "genre": [
-          "SOF-CRE"
-        ],
-        "imp": 3,
-        "url": "https://ja.wikipedia.org/wiki/Cubase",
-        "url_en": "https://en.wikipedia.org/wiki/Cubase",
-        "note": "MIDI/オーディオ統合DAW。",
-        "note_en": "MIDI and audio integrated DAW."
-      },
-      {
-        "label": "Sound Forge（波形編集）",
-        "label_en": "Sound Forge (audio editor)",
-        "startYear": 1989,
-        "genre": [
-          "SOF-CRE"
-        ],
-        "imp": 2,
-        "url": "https://ja.wikipedia.org/wiki/Sound_Forge",
-        "url_en": "https://en.wikipedia.org/wiki/Sound_Forge",
-        "note": "波形編集ソフトの定番。",
-        "note_en": "Popular waveform audio editor."
-      },
-      {
         "label": "Lotus Notes（グループウェア）",
         "label_en": "Lotus Notes",
         "startYear": 1989,
@@ -6485,6 +6309,32 @@
         "url_en": "https://en.wikipedia.org/wiki/Microsoft_SQL_Server",
         "note": "企業向けRDBMS。",
         "note_en": "Enterprise relational database."
+      },
+      {
+        "label": "Steinberg Cubase（DAW）",
+        "label_en": "Steinberg Cubase (DAW)",
+        "startYear": 1989,
+        "genre": [
+          "SOF-CRE"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/Cubase",
+        "url_en": "https://en.wikipedia.org/wiki/Cubase",
+        "note": "MIDI/オーディオ統合DAW。",
+        "note_en": "MIDI and audio integrated DAW."
+      },
+      {
+        "label": "Sound Forge（波形編集）",
+        "label_en": "Sound Forge (audio editor)",
+        "startYear": 1989,
+        "genre": [
+          "SOF-CRE"
+        ],
+        "imp": 2,
+        "url": "https://ja.wikipedia.org/wiki/Sound_Forge",
+        "url_en": "https://en.wikipedia.org/wiki/Sound_Forge",
+        "note": "波形編集ソフトの定番。",
+        "note_en": "Popular waveform audio editor."
       }
     ],
     "1990": [
@@ -6572,17 +6422,17 @@
         "note_en": "Color handheld game console."
       },
       {
-        "label": "Windows 3.0",
+        "label": "Windows 3.0（オペレーティングシステム）",
         "label_en": "Windows 3.0",
         "startYear": 1990,
         "genre": [
           "SOF-OS"
         ],
-        "imp": 5,
+        "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/Windows_3.0",
         "url_en": "https://en.wikipedia.org/wiki/Windows_3.0",
-        "note": "GUIとアプリ基盤で普及加速。",
-        "note_en": "Boosted PC GUI adoption and apps."
+        "note": "GUI普及を加速させた版。",
+        "note_en": "Release that accelerated GUI adoption."
       },
       {
         "label": "3D Studio",
@@ -6598,7 +6448,7 @@
         "note_en": "Major 3D graphics tool on PCs."
       },
       {
-        "label": "LightWave 3D",
+        "label": "LightWave 3D（3DCG）",
         "label_en": "LightWave 3D",
         "startYear": 1990,
         "genre": [
@@ -6607,8 +6457,8 @@
         "imp": 3,
         "url": "https://ja.wikipedia.org/wiki/LightWave_3D",
         "url_en": "https://en.wikipedia.org/wiki/LightWave_3D",
-        "note": "TV/映像で活用された3DCG。",
-        "note_en": "Widely used 3D software for TV/VFX."
+        "note": "TV/VFXで広く使われた3DCG。",
+        "note_en": "Widely used 3D CG in TV/VFX."
       },
       {
         "label": "Archie（FTP検索）",
@@ -6625,19 +6475,6 @@
         "note_en": "One of the first Internet search tools."
       },
       {
-        "label": "HP OpenView",
-        "label_en": "HP OpenView",
-        "startYear": 1990,
-        "genre": [
-          "SOF-ENT"
-        ],
-        "imp": 3,
-        "url": "https://ja.wikipedia.org/wiki/HP_OpenView",
-        "url_en": "https://en.wikipedia.org/wiki/Micro_Focus_Operations_Manager",
-        "note": "統合運用管理の先駆。",
-        "note_en": "Pioneer in enterprise systems management."
-      },
-      {
         "label": "HP OpenView（統合運用管理）",
         "label_en": "HP OpenView",
         "startYear": 1990,
@@ -6649,32 +6486,6 @@
         "url_en": "https://en.wikipedia.org/wiki/HPE_Network_Node_Manager",
         "note": "ネットワーク/運用監視スイート。",
         "note_en": "Network and systems management suite."
-      },
-      {
-        "label": "LightWave 3D（3DCG）",
-        "label_en": "LightWave 3D",
-        "startYear": 1990,
-        "genre": [
-          "SOF-CRE"
-        ],
-        "imp": 3,
-        "url": "https://ja.wikipedia.org/wiki/LightWave_3D",
-        "url_en": "https://en.wikipedia.org/wiki/LightWave_3D",
-        "note": "TV/VFXで広く使われた3DCG。",
-        "note_en": "Widely used 3D CG in TV/VFX."
-      },
-      {
-        "label": "Windows 3.0（オペレーティングシステム）",
-        "label_en": "Windows 3.0",
-        "startYear": 1990,
-        "genre": [
-          "SOF-OS"
-        ],
-        "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/Windows_3.0",
-        "url_en": "https://en.wikipedia.org/wiki/Windows_3.0",
-        "note": "GUI普及を加速させた版。",
-        "note_en": "Release that accelerated GUI adoption."
       },
       {
         "label": "3D Studio（3DCG）",
@@ -7293,7 +7104,7 @@
         "note_en": "First gen of the AIM PowerPC line."
       },
       {
-        "label": "3DO",
+        "label": "3DO Interactive Multiplayer（家庭用ゲーム機）",
         "label_en": "3DO Interactive Multiplayer",
         "startYear": 1993,
         "genre": [
@@ -7302,8 +7113,8 @@
         "imp": 2,
         "url": "https://ja.wikipedia.org/wiki/3DO",
         "url_en": "https://en.wikipedia.org/wiki/3DO_Interactive_Multiplayer",
-        "note": "CD時代の家庭用ゲーム機。",
-        "note_en": "CD-based home game console."
+        "note": "3DO規格の第5世代ゲーム機。",
+        "note_en": "Fifth-gen console using the 3DO spec."
       },
       {
         "label": "FreeBSD 1.0",
@@ -7359,19 +7170,6 @@
         "url_en": "https://en.wikipedia.org/wiki/IBM_MQ",
         "note": "企業メッセージ基盤の代表格。",
         "note_en": "Flagship enterprise messaging middleware."
-      },
-      {
-        "label": "3DO Interactive Multiplayer（家庭用ゲーム機）",
-        "label_en": "3DO Interactive Multiplayer",
-        "startYear": 1993,
-        "genre": [
-          "HAR-GAM"
-        ],
-        "imp": 2,
-        "url": "https://ja.wikipedia.org/wiki/3DO",
-        "url_en": "https://en.wikipedia.org/wiki/3DO_Interactive_Multiplayer",
-        "note": "3DO規格の第5世代ゲーム機。",
-        "note_en": "Fifth-gen console using the 3DO spec."
       },
       {
         "label": "After Effects（コンポジット）",
@@ -8556,14 +8354,14 @@
         "note_en": "Security-focused UNIX-like OS."
       },
       {
-        "label": "Exchange Server 4.0",
+        "label": "Microsoft Exchange Server（メール/グループウェア）",
         "label_en": "Microsoft Exchange Server",
         "startYear": 1996,
         "genre": [
           "SOF-ENT",
           "SOF-OFF"
         ],
-        "imp": 3,
+        "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/Microsoft_Exchange_Server",
         "url_en": "https://en.wikipedia.org/wiki/Microsoft_Exchange_Server",
         "note": "企業メール/グループウェア基盤。",
@@ -8744,20 +8542,6 @@
         "url_en": "https://en.wikipedia.org/wiki/Lego_Mindstorms",
         "note": "教育用ロボ/プログラミング教材。",
         "note_en": "Educational robotics and coding kit."
-      },
-      {
-        "label": "Microsoft Exchange Server（メール/グループウェア）",
-        "label_en": "Microsoft Exchange Server",
-        "startYear": 1996,
-        "genre": [
-          "SOF-ENT",
-          "SOF-OFF"
-        ],
-        "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/Microsoft_Exchange_Server",
-        "url_en": "https://en.wikipedia.org/wiki/Microsoft_Exchange_Server",
-        "note": "企業メール/グループウェア基盤。",
-        "note_en": "Enterprise email/groupware platform."
       },
       {
         "label": "Nokia 8110/Communicator系の流れ（要約）",
@@ -9671,7 +9455,7 @@
         "note_en": "Professional-grade digital SLR."
       },
       {
-        "label": "ZBrush",
+        "label": "ZBrush（スカルプト）",
         "label_en": "ZBrush",
         "startYear": 1999,
         "genre": [
@@ -9680,8 +9464,8 @@
         "imp": 3,
         "url": "https://ja.wikipedia.org/wiki/ZBrush",
         "url_en": "https://en.wikipedia.org/wiki/ZBrush",
-        "note": "デジタルスカルプトの代表ツール。",
-        "note_en": "Flagship digital sculpting tool."
+        "note": "デジタルスカルプトの定番。",
+        "note_en": "Industry-standard digital sculpting tool."
       },
       {
         "label": "Final Cut Pro 1.0",
@@ -9990,19 +9774,6 @@
         "url_en": "https://en.wikipedia.org/wiki/VMware_ESXi",
         "note": "企業仮想化を標準化した基盤。",
         "note_en": "Platform that standardized enterprise virtualization."
-      },
-      {
-        "label": "ZBrush（スカルプト）",
-        "label_en": "ZBrush",
-        "startYear": 1999,
-        "genre": [
-          "SOF-CRE"
-        ],
-        "imp": 3,
-        "url": "https://ja.wikipedia.org/wiki/ZBrush",
-        "url_en": "https://en.wikipedia.org/wiki/ZBrush",
-        "note": "デジタルスカルプトの定番。",
-        "note_en": "Industry-standard digital sculpting tool."
       },
       {
         "label": "プリペイド携帯（買い切り）",
