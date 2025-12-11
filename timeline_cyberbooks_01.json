@@ -611,6 +611,19 @@
     ],
     "1987": [
       {
+        "label": "ハッカーズ―英雄たちのコンピュータ革命（スティーブン・レビー著、松田信子・古橋芳恵訳）",
+        "label_en": "Hackers: Heroes of the Computer Revolution(Steven Levy)",
+        "startYear": 1987,
+        "genre": [
+          "HACKER"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/ハッカーズ_(書籍)|https://www.amazon.co.jp/%E3%83%8F%E3%83%83%E3%82%AB%E3%83%BC%E3%82%BA-%E3%82%B9%E3%83%86%E3%82%A3%E3%83%BC%E3%83%96%E3%83%B3%E3%83%BB%E3%83%AC%E3%83%93%E3%83%BC/dp/487593100X&https://m.media-amazon.com/images/I/71crIIwASvL._SY425_.jpg",
+        "url_en": "https://en.wikipedia.org/wiki/Hackers:_Heroes_of_the_Computer_Revolution",
+        "note": "MITのハッカー、ホームブリュー・コンピュータ・クラブ、ゲーム会社シエラ・オンラインなど、60〜80年代初期の「ハッカーたち」の人物群像を描いたノンフィクション。ハッカー倫理（情報は自由であるべき等）を明確に言語化した本として有名です。/「ハッカーとは誰か？」を知るには、まずこれ。犯罪者としてのハッカーではなく、創造的な技術者コミュニティの文化史として読めるので、PC黎明期〜シリコンバレーの空気を掴むのにもぴったりです。",
+        "note_en": "A non-fiction depicting the group of \"hackers\" from the 60s to early 80s, such as MIT hackers, Homebrew Computer Club, and game company Sierra Online. Famous as a book that clearly verbalized hacker ethics (information should be free, etc.)./To know \"who are hackers?\", start here. Read not as hackers as criminals, but as a cultural history of creative engineer communities, it is perfect for grasping the atmosphere of the PC dawn to Silicon Valley."
+      },
+      {
         "label": "思考のための道具 ― 異端の天才たちはコンピュータに何を求めたか?（ハワード・ラインゴールド著/栗田昭平監訳・青木真美訳）",
         "label_en": "Tools for Thought: The History and Future of Mind-Expanding Technology(Howard Rheingold)",
         "startYear": 1987,
@@ -702,19 +715,6 @@
         "url_en": "https://en.wikipedia.org/wiki/Burning_Chrome_(short_story_collection)",
         "note": "初期ギブスンの重要短篇を集めた短編集で、表題作「クローム襲撃」や、「ニューロマンサー」と同じ世界のジョニーやモリイが登場する「記憶屋ジョニイ」などを収録したサイバーパンクの代表的短篇集。/短編ごとにテイストは違いますが、「電脳空間」「コンソール・カウボーイ」「メガコーポ」といったモチーフがいちばん“濃縮”されている時期のギブスンが味わえます。長編三部作を読む前のウォーミングアップとしても、読了後の「世界の補完」としても美味しい一冊です。",
         "note_en": "A representative cyberpunk short story collection containing early Gibson's important short stories, including the title story \"Burning Chrome\" and \"Johnny Mnemonic,\" featuring Johnny and Molly from the same world as \"Neuromancer.\"/Each story has a different taste, but you can taste Gibson at a time when motifs like \"cyberspace,\" \"console cowboys,\" and \"megacorps\" were most \"concentrated.\" A delicious book as a warm-up before reading the novel trilogy or as a \"world completion\" after reading."
-      },
-      {
-        "label": "ハッカーズ―英雄たちのコンピュータ革命（スティーブン・レビー著、松田信子・古橋芳恵訳）",
-        "label_en": "Hackers: Heroes of the Computer Revolution(Steven Levy)",
-        "startYear": 1987,
-        "genre": [
-          "HACKER"
-        ],
-        "imp": 3,
-        "url": "https://ja.wikipedia.org/wiki/ハッカーズ_(書籍)|https://www.amazon.co.jp/%E3%83%8F%E3%83%83%E3%82%AB%E3%83%BC%E3%82%BA-%E3%82%B9%E3%83%86%E3%82%A3%E3%83%BC%E3%83%96%E3%83%B3%E3%83%BB%E3%83%AC%E3%83%93%E3%83%BC/dp/487593100X&https://m.media-amazon.com/images/I/71crIIwASvL._SY425_.jpg",
-        "url_en": "https://en.wikipedia.org/wiki/Hackers:_Heroes_of_the_Computer_Revolution",
-        "note": "MITのハッカー、ホームブリュー・コンピュータ・クラブ、ゲーム会社シエラ・オンラインなど、60〜80年代初期の「ハッカーたち」の人物群像を描いたノンフィクション。ハッカー倫理（情報は自由であるべき等）を明確に言語化した本として有名です。/「ハッカーとは誰か？」を知るには、まずこれ。犯罪者としてのハッカーではなく、創造的な技術者コミュニティの文化史として読めるので、PC黎明期〜シリコンバレーの空気を掴むのにもぴったりです。",
-        "note_en": "A non-fiction depicting the group of \"hackers\" from the 60s to early 80s, such as MIT hackers, Homebrew Computer Club, and game company Sierra Online. Famous as a book that clearly verbalized hacker ethics (information should be free, etc.)./To know \"who are hackers?\", start here. Read not as hackers as criminals, but as a cultural history of creative engineer communities, it is perfect for grasping the atmosphere of the PC dawn to Silicon Valley."
       },
       {
         "label": "実録!天才プログラマー（スーザン・ラマース著/マイクロソフトプレス編/岡和夫訳）",
