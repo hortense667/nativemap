@@ -1997,12 +1997,6 @@
       "label_en": "Nerd/Otaku"
     },
     {
-      "code": "GAME",
-      "label": "ゲーム",
-      "conjunction": false,
-      "label_en": "Game"
-    },
-    {
       "code": "OUTOFPRINT",
       "label": "絶版",
       "conjunction": true,
