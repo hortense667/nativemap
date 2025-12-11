@@ -527,6 +527,18 @@
         "url_en": "https://en.wikipedia.org/wiki/G%C3%B6del,_Escher,_Bach",
         "note": "論理学者ゲーデル、画家エッシャー、作曲家バッハの作品をモチーフに、自己言及・再帰・形式システムと「心」の問題を縦横無尽に論じる超大作。人工知能と不完全性定理の関係をめぐる議論の原点の一つでもある。/分厚い・難しい・でも面白い、という三拍子そろった怪物本。AI・数学・音楽・アートがぐるぐると絡み合う構成自体が、一つの「自己言及システム」になっていて、読むこと自体が実験みたいな体験です。",
         "note_en": "A massive work that freely discusses problems of self-reference, recursion, formal systems, and the \"mind,\" using the works of logician Gödel, artist Escher, and composer Bach as motifs. It is also one of the origins of the discussion surrounding the relationship between artificial intelligence and the incompleteness theorems./A monster book that is thick, difficult, yet interesting. The structure where AI, mathematics, music, and art are intertwined is itself a \"self-referential system,\" making the act of reading it an experience like an experiment."
+      },
+      {
+        "label": "初期のおとなクラブ（東京おとなクラブ）",
+        "startYear": 1985,
+        "genre": [
+          "POPCULTURE",
+          "OUTOFPRINT"
+        ],
+        "imp": 3,
+        "url": "https://www.amazon.co.jp/dp/B0G3K2V8BB&https://m.media-amazon.com/images/I/4188xrT1NaL._AC_.jpg",
+        "note": "1980年代の日本のサブカルチャーシーンを象徴する伝説的なミニコミ誌『おとなクラブ』の初期の活動をまとめた貴重な資料。当時の若者文化、ストリートファッション、音楽、アングラな情報など、主流メディアが扱わなかった「新しい感性」を編集し、後のポップカルチャーに大きな影響を与えました。/消費文化とポストモダンが交錯する時代の中で、権威や既成概念にとらわれない自由な表現を追求した編集姿勢が特徴です。本書は、日本のミニコミ誌文化の源流を探る上でも重要であり、当時の時代精神とカウンターカルチャーの息吹を感じられる一冊となっています。",
+        "note_en": "A valuable document compiling the early activities of the legendary minicomic 'Otona Club' (Adult Club), which symbolized the Japanese subculture scene of the 1980s. It gathered \"new sensibilities\"—youth culture, street fashion, music, and underground information—that were ignored by the mainstream media, profoundly influencing subsequent pop culture./It is characterized by an editorial stance that pursued free expression, unconstrained by authority or established notions, during an era where consumer culture intersected with postmodernism. This book is significant for tracing the origins of Japanese minicomic culture and allows readers to feel the zeitgeist and countercultural spirit of that time."
       }
     ],
     "1986": [
@@ -1094,6 +1106,18 @@
         "url_en": "https://www.amazon.com/Becoming-Technical-Leader-Problem-Solving-Approach/dp/0932633021&https://m.media-amazon.com/images/I/714V7sujVZL._SY385_.jpg",
         "note": "ソフトウェア開発の人間的側面やチームマネジメントに関する著作で知られるジェラルド・M・ワインバーグが、技術リーダーシップの本質について論じた書籍。問題解決を「有機的なアプローチ」として捉え、人・組織・技術の関係性を深く考察しています。/単なる技術力だけでなく、コミュニケーション、モチベーション、組織内の対立解決など、リーダーとして必要な「人間力」の重要性を説いています。エンジニアがキャリアを深め、より大きな影響力を持つための指針となる、時代を超えた普遍的な教訓が詰まっています。(C)",
         "note_en": "A book by Gerald M. Weinberg, known for his works on the human side of software development and team management, discussing the essence of technical leadership. It views problem-solving as an \"organic approach\" and deeply examines the relationship between people, organization, and technology. /It emphasizes the importance of \"human skills\"—such as communication, motivation, and conflict resolution within an organization—needed by a leader, beyond mere technical expertise. It is filled with timeless, universal lessons to guide engineers in deepening their careers and gaining greater influence.(C)"
+      },
+      {
+        "label": "近代プログラマの夕（ホーテンス・S・エンドウ著）",
+        "startYear": 1991,
+        "genre": [
+          "COMPUTER",
+          "OUTOFPRINT"
+        ],
+        "imp": 3,
+        "url": "https://www.amazon.co.jp/dp/4756105289/&https://m.media-amazon.com/images/I/81Axl6S1HML._SX445_.jpg",
+        "note": "ホーテンス・S・エンドウというユニークなペンネームを持つ著者が、プログラマという職業の日常、喜び、そして葛藤を、独特のユーモアと洞察をもって描いたエッセイ集。1990年代初頭の日本のプログラミング業界の雰囲気や、技術者特有の思考回路、当時の開発環境の様子などが軽妙なタッチで綴られています。/技術的な話だけでなく、プログラマが直面する人間関係やプロジェクトの難しさ、そしてコードを書くことへの情熱など、時代を超えて共感できるテーマが多く含まれています。プログラマの「夕方」の姿を垣間見せる、どこか哀愁漂うタイトルが象徴的な一冊です。",
+        "note_en": "An essay collection by an author with the unique pen name Hortense S. Endo, depicting the daily life, joys, and struggles of the programming profession with unique humor and insight. It describes the atmosphere of the Japanese programming industry in the early 1990s, the peculiar thought processes of engineers, and the state of development environments at the time, all rendered with a light touch./Beyond technical discussions, the book covers many universally relatable themes, such as the human relations and project difficulties programmers face, and the passion for writing code. The title, \"The Evening of a Modern Programmer,\" is evocative, offering a glimpse into the programmer's life after hours."
       }
     ],
     "1992": [
@@ -1697,6 +1721,18 @@
         "url_en": "https://en.wikipedia.org/wiki/Microserfs|https://www.amazon.com/Microserfs-Douglas-Coupland/dp/0006548598&https://m.media-amazon.com/images/I/51Vy2XL3TmL.SY342.jpg",
         "note": "マイクロソフトのプログラマーたち、すなわち「マイクロサーフス（マイクロソフトの小間使い）」の生活と、彼らがシリコンバレーで起業を目指す姿を描いた小説。90年代のPC文化の熱狂、オタク的なライフスタイル、そしてIT業界黎明期のセンチメンタルな側面を鮮やかに捉えています。技術的な詳細よりも、当時の若者たちのアイデンティティや夢、人間関係に焦点を当て、ジェネレーションX世代の電脳ポップ・ノベルとして高い評価を得ました。(E)",
         "note_en": "A novel depicting the lives of programmers at Microsoft, the \"Microserfs,\" and their journey to start a company in Silicon Valley. It vividly captures the enthusiasm of 90s PC culture, the nerdy lifestyle, and the sentimental aspects of the early IT industry. Focusing more on the identities, dreams, and relationships of the youth of the time rather than technical details, it was highly acclaimed as a cyber-pop novel of the Generation X era.(E)"
+      },
+      {
+        "label": "計算機屋かく戦えり（遠藤諭著）",
+        "startYear": 1996,
+        "genre": [
+          "COMPUTER",
+          "OUTOFPRINT"
+        ],
+        "imp": 3,
+        "url": "https://www.amazon.co.jp/dp/4756106072&https://m.media-amazon.com/images/I/310xAehUm5L.jpg",
+        "note": "日本におけるコンピュータ黎明期の熱狂的な時代を、関係者への徹底した取材と豊富なエピソードで描き出したノンフィクション。当時のPC産業の光と影、技術者や経営者たちの人間模様、そして彼らがどのようにして現代のコンピューティング文化を築き上げたのかを活き活きと伝えます。/ASCII編集者である遠藤氏の視点から、日本のPC史における重要な出来事やキーパーソンたちの奮闘を知ることができ、当時の熱量が伝わってくる一冊です。ハードウェアとソフトウェア開発の現場のリアルな戦いを記録した貴重な資料でもあります。",
+        "note_en": "A non-fiction book depicting the fervent era of the computerfrom its dawn in Japan, based on extensive interviews with those involved and rich anecdotes. It vividly conveys the light and shadow of the PC industry at the time, the human drama of engineers and managers, and how they laid the foundation for modern computing culture./From the perspective of Endo, a editor of ASCII, readers can learn about crucial events and the struggles of key figures in Japanese PC history, feeling the intense passion of the era. It is also a valuable record documenting the real battles on the front lines of hardware and software development."
       }
     ],
     "1997": [
