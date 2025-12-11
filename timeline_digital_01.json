@@ -2141,7 +2141,6 @@
       },
       {
         "label": "NEC ACOS-4（汎用機OS系譜）",
-        "label_en": "NEC ACOS-4 mainframe OS",
         "startYear": 1975,
         "endYear": "ongoing",
         "genre": [
@@ -2150,9 +2149,10 @@
           "JAPAN"
         ],
         "imp": 3,
-        "url": "https://ja.wikipedia.org/wiki/ACOS",
-        "url_en": "https://en.wikipedia.org/wiki/NEC",
+        "url": "https://ja.wikipedia.org/wiki/Advanced_Comprehensive_Operating_System",
         "note": "国産汎用機OS系列が継続発展。",
+        "label_en": "NEC ACOS-4 mainframe OS",
+        "url_en": "https://en.wikipedia.org/wiki/NEC",
         "note_en": "Japanese mainframe OS family."
       },
       {
