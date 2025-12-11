@@ -60,6 +60,19 @@
         "url_en": "https://en.wikipedia.org/wiki/The_Aleph_(short_story)|https://www.amazon.com/dp/B017POHWVS&https://m.media-amazon.com/images/I/41oncMu3z4L.jpg",
         "note": "ボルヘスの代表的短編「不死の人」を含む短篇集。ホメロス叙事詩や『千夜一夜物語』など古典作品のモチーフを変奏しつつ、迷宮的構成と寓意に満ちた物語世界を構築しています。白水Uブックス版など、のちに改版・再刊もされています。/ボルヘス入門としては少しマニアック寄りですが、「時間」「永遠」「不死」といったテーマを、論文のような冷静さと寓話のような不気味さで描き切った一冊です。サイバースペースや情報空間を考えるときも、ボルヘス的な迷宮・無限のモチーフは頻繁に参照されるので、サイバーカルチャー好きにも相性が良い短編だと思います。",
         "note_en": "A short story collection including Borges' representative short story \"The Immortal.\" While varying motifs from classical works like Homeric epics and \"One Thousand and One Nights,\" it constructs a story world full of labyrinthine structures and allegory. It has been revised and reprinted later, such as in the Hakusuisha U Books edition./It's a bit niche for a Borges introduction, but it's a book that fully depicts themes like \"time,\" \"eternity,\" and \"immortality\" with the calmness of a thesis and the eeriness of a fable. Since Borges-esque motifs of labyrinths and infinity are frequently referenced when thinking about cyberspace and information spaces, I think this short story is compatible for cyberpunk culture lovers."
+      },
+      {
+        "label": "The Art of Computer Programming Volume 1 Fundamental Algorithms Third Edition 日本語版（ドナルド・E・クヌース著/有澤誠・和田英一監訳 他）",
+        "label_en": "The Art of Computer Programming, Volume 1: Fundamental Algorithms（Donald E. Knuth）",
+        "startYear": 1968,
+        "genre": [
+          "COMPUTER"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/The_Art_of_Computer_Programming|https://www.amazon.co.jp/dp/4048694022&https://m.media-amazon.com/images/I/4199IjRelcL._SY445_SX342_ControlCacheEqualizer_.jpg",
+        "url_en": "https://en.wikipedia.org/wiki/The_Art_of_Computer_Programming|https://www.amazon.com/dp/0201896834/&https://m.media-amazon.com/images/I/41aOfhwbT-L._SY445_SX342_FMwebp_.jpg",
+        "note": "世界中のコンピュータ科学者やプログラマから「アルゴリズムの聖書」と呼ばれる、ドナルド・クヌースのライフワークである全7巻からなる大著。アルゴリズム、データ構造、数値計算などの基礎概念を、厳密な数学的解析と詳細な例題をもって体系的に解説しています。/単なるプログラミング技法を超え、アルゴリズムを芸術（Art）として捉える思想が貫かれており、コンピュータの深い理解を目指す者にとっての必読書です。個々の練習問題には難易度ランクが付けられ、自習用テキストとしても活用されます。",
+        "note_en": "A monumental, multi-volume work by Donald Knuth, often referred to as the \"Bible of Algorithms\" by computer scientists and programmers worldwide. This comprehensive series, planned for seven volumes, systematically explains the fundamental concepts of algorithms, data structures, and seminumerical methods with rigorous mathematical analysis and detailed examples./It goes beyond mere programming techniques, embodying the philosophy of treating algorithms as an art form. It is essential reading for anyone seeking a deep understanding of computing. Each exercise is assigned a difficulty rating, making it an invaluable self-study text."
       }
     ],
     "1970": [
@@ -1945,50 +1958,50 @@
     {
       "code": "SCIENCE",
       "label": "科学",
-      "label_en": "Science",
-      "conjunction": false
+      "conjunction": false,
+      "label_en": "Science"
     },
     {
       "code": "COMPUTER",
       "label": "コンピューター",
-      "label_en": "Computer",
-      "conjunction": false
+      "conjunction": false,
+      "label_en": "Computer"
     },
     {
       "code": "CYBERPUNK",
       "label": "サイバーパンク",
-      "label_en": "Cyberpunk",
-      "conjunction": false
+      "conjunction": false,
+      "label_en": "Cyberpunk"
     },
     {
       "code": "HACKER",
       "label": "ハッカー",
-      "label_en": "ハッカー",
-      "conjunction": false
+      "conjunction": false,
+      "label_en": "ハッカー"
     },
     {
       "code": "POPCULTURE",
       "label": "ポップカルチャー",
-      "label_en": "Pop culture",
-      "conjunction": false
+      "conjunction": false,
+      "label_en": "Pop culture"
     },
     {
       "code": "THEORYMEDIA",
       "label": "思想・メディア論",
-      "label_en": "Theory of Thought and Media",
-      "conjunction": false
+      "conjunction": false,
+      "label_en": "Theory of Thought and Media"
     },
     {
       "code": "NERD",
       "label": "ナード・おたく",
-      "label_en": "Nerd/Otaku",
-      "conjunction": false
+      "conjunction": false,
+      "label_en": "Nerd/Otaku"
     },
     {
       "code": "OUTOFPRINT",
       "label": "絶版",
-      "label_en": "Out of print",
-      "conjunction": true
+      "conjunction": true,
+      "label_en": "Out of print"
     }
   ]
 }
