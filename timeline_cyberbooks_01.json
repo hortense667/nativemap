@@ -588,15 +588,16 @@
       },
       {
         "label": "メガトレンド（ジョン ネイスビッツ著/竹村 健一訳）",
-        "label_en": "Megatrends: Ten New Directions Transforming Our Lives（John Naisbitt）",
         "startYear": 1983,
         "genre": [
-          "THEORYMEDIA"
+          "THEORYMEDIA",
+          "WORK"
         ],
         "imp": 3,
-        "url": "https://ja.wikipedia.org/wiki/%E3%83%A1%E3%82%AC%E3%83%88%E3%83%AC%E3%83%B3%E3%83%89|https://www.amazon.co.jp/dp/453209232X&https://m.media-amazon.com/images/I/41vK22+J8EL.SY342.jpg",
-        "url_en": "https://en.wikipedia.org/wiki/Megatrends|https://www.amazon.com/dp/0446385202&https://m.media-amazon.com/images/I/71nIq37D+OL.SY342.jpg",
+        "url": "https://www.amazon.co.jp/dp/453209232X&https://m.media-amazon.com/images/I/51irQHFo3TL._SY445_SX342_ControlCacheEqualizer_.jpg",
         "note": "社会学者のジョン・ネイスビッツが1980年代初頭に発表し、世界的なベストセラーとなった未来予測の書。社会を根本から変える10の大きな流れ（メガトレンド）を提示し、情報社会への移行、中央集権から分散化へ、工業社会から情報社会へといった変化を予見しました。/特に「ハイテク/ハイタッチ」という概念は、技術の進歩が人間の繋がりや感情的な補償を必要とすることを指摘し、現代のデジタル社会においても重要な視点を提供しています。未来学の古典の一つであり、80年代の社会変化を理解する上で不可欠な一冊です。",
+        "label_en": "Megatrends: Ten New Directions Transforming Our Lives（John Naisbitt）",
+        "url_en": "https://en.wikipedia.org/wiki/Megatrends",
         "note_en": "A book of future prediction published by sociologist John Naisbitt in the early 1980s that became a worldwide bestseller. It presented ten major trends (megatrends) fundamentally transforming society, predicting shifts such as the transition to an information society, decentralization from centralization, and the move from an industrial society to an information society./The concept of \"High Tech/High Touch,\" in particular, points out that technological advancement requires human connection and emotional compensation, offering a crucial perspective even in today's digital society. It is a classic of futurism and essential for understanding the social changes of the 80s."
       }
     ],
