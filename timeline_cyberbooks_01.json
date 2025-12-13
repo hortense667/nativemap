@@ -171,7 +171,7 @@
           "THEORYMEDIA"
         ],
         "imp": 3,
-        "url": "https://en.wikipedia.org/wiki/Tools_for_Conviviality",
+        "url": "https://www.amazon.co.jp/dp/4480096884/&https://m.media-amazon.com/images/I/61bonOR-D3L._SY425_.jpg",
         "note": "技術を「人間の自律と共生を支える道具」として再定義し、巨大システムへの依存を批判する。テクノロジー思想の古典。",
         "label_en": "Tools for Conviviality (Ivan Illich)",
         "url_en": "https://en.wikipedia.org/wiki/Tools_for_Conviviality",
@@ -401,16 +401,16 @@
       },
       {
         "label": "Mindstorms―子供、コンピューター、そして強力なアイデア（シーモア・パパート著）",
-        "label_en": "Mindstorms: Children, Computers, and Powerful Ideas (Seymour Papert)",
         "startYear": 1980,
         "genre": [
-          "COMPUTER",
-          "SCIENCE"
+          "SCIENCE",
+          "COMPUTER"
         ],
         "imp": 3,
-        "url": "https://en.wikipedia.org/wiki/Mindstorms_(book)",
-        "url_en": "https://en.wikipedia.org/wiki/Mindstorms_(book)",
+        "url": "https://www.amazon.co.jp/dp/4624400437&https://m.media-amazon.com/images/I/51umB1Efm-L._SY425_.jpg",
         "note": "LOGO/タートルの思想を通じて「学び」と「計算文化」を接続した古典。後の“コンピュータ教育/メイカー文化”の源流。",
+        "label_en": "Mindstorms: Children, Computers, and Powerful Ideas (Seymour Papert)",
+        "url_en": "https://en.wikipedia.org/wiki/Mindstorms_(book)",
         "note_en": "Foundational bridge between learning theory and computing via LOGO/turtle"
       }
     ],
