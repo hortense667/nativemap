@@ -1275,20 +1275,6 @@
     ],
     "1992": [
       {
-        "label": "バーチャル・リアリティ――幻想と現実の境界が消える日（ハワード・ラインゴールド著/沢田博監訳）",
-        "label_en": "Virtual Reality: The Revolutionary Technology of Computer-Generated Artificial Worlds – and How It Promises to Transform Society(Howard Rheingold)",
-        "startYear": 1992,
-        "genre": [
-          "COMPUTER",
-          "OUTOFPRINT"
-        ],
-        "imp": 3,
-        "url": "https://www.amazon.co.jp/dp/4890523782&https://m.media-amazon.com/images/I/91Www12XwyL._SY522_.jpg",
-        "url_en": "&https://m.media-amazon.com/images/I/715RklY2z8S._SY522_.jpg",
-        "note": "90年代初頭の「第1次VRブーム」の空気を伝える代表的な一般書。ヘッドマウントディスプレイやデータグローブなど当時のVR技術を紹介しつつ、その社会的・文化的インパクト――テレプレゼンス、テレコミュニティ、サイバースペース――について語っています。/かなり“熱い”トーンの本で、技術解説というよりも「VRはこんな社会を連れてくる」というマニフェストに近いです。いまのVR/メタバースの現状と見比べると、当たった予言・外れた予言が両方あって、そのギャップ自体が楽しい読みどころになります。",
-        "note_en": "A representative general book conveying the atmosphere of the \"First VR Boom\" in the early 90s. While introducing VR technologies of the time like HMDs and Data Gloves, it discusses their social and cultural impact—telepresence, telecommunity, and cyberspace./It's a book with a quite \"heated\" tone, closer to a manifesto that \"VR will bring this kind of society\" than a technical explanation. Comparing it with the current state of VR/Metaverse, there are both hits and misses in its predictions, and that gap itself becomes an enjoyable reading point."
-      },
-      {
         "label": "アシッド・ドリームズ―CIA、LSD、ヒッピー革命（マーティン・A・リー、ブルース・シュレイン著、越智道雄訳）",
         "label_en": "Acid Dreams: The CIA, LSD, and the Sixties Rebellion(Martin A. Lee, Bruce Shlain)",
         "startYear": 1992,
@@ -1393,6 +1379,21 @@
         "url_en": "https://www.amazon.com/CYBERPUNK-Outlaws-Hackers-Computer-Frontier/dp/0684818620&https://m.media-amazon.com/images/I/71bbj5lFJ4S._SY466_.jpg",
         "note": "ベル電話システムの「フリーカー」、ケビン・ミトニックら、80〜90年代初期の著名ハッカーたちを、ルポルタージュとして描いたノンフィクション。マスメディアが「サイバーパンク」をどう消費し、ハッカー像を作り上げていったかがよく見えます。/『ハッカーズ』が「創造的ハッカー文化」の内部史だとすれば、こちらはその後の「アウトロー化したハッカーたち」を追った犯罪ノンフィクション寄り。メディアが好む劇画的なハッカー像が、どこまで事実でどこから演出か、読み比べると楽しいです。",
         "note_en": "A non-fiction reporting on famous hackers of the 80s and early 90s, such as Bell system \"phreakers\" and Kevin Mitnick. It clearly shows how mass media consumed \"cyberpunk\" and built up the hacker image./If \"Hackers\" is the internal history of \"creative hacker culture,\" this leans towards crime non-fiction following the subsequent \"outlawed hackers.\" It is fun to compare and read how much of the dramatic hacker image preferred by media is fact and how much is staged."
+      },
+      {
+        "label": "バーチャル・リアリティ――幻想と現実の境界が消える日（ハワード・ラインゴールド著/沢田博監訳）",
+        "startYear": 1992,
+        "genre": [
+          "COMPUTER",
+          "OUTOFPRINT",
+          "WORK"
+        ],
+        "imp": 3,
+        "url": "https://www.amazon.co.jp/dp/4890523782&https://m.media-amazon.com/images/I/91Www12XwyL._SY522_.jpg",
+        "note": "90年代初頭の「第1次VRブーム」の空気を伝える代表的な一般書。ヘッドマウントディスプレイやデータグローブなど当時のVR技術を紹介しつつ、その社会的・文化的インパクト――テレプレゼンス、テレコミュニティ、サイバースペース――について語っています。/かなり“熱い”トーンの本で、技術解説というよりも「VRはこんな社会を連れてくる」というマニフェストに近いです。いまのVR/メタバースの現状と見比べると、当たった予言・外れた予言が両方あって、そのギャップ自体が楽しい読みどころになります。",
+        "label_en": "Virtual Reality: The Revolutionary Technology of Computer-Generated Artificial Worlds – and How It Promises to Transform Society(Howard Rheingold)",
+        "url_en": "&https://m.media-amazon.com/images/I/715RklY2z8S._SY522_.jpg",
+        "note_en": "A representative general book conveying the atmosphere of the \"First VR Boom\" in the early 90s. While introducing VR technologies of the time like HMDs and Data Gloves, it discusses their social and cultural impact—telepresence, telecommunity, and cyberspace./It's a book with a quite \"heated\" tone, closer to a manifesto that \"VR will bring this kind of society\" than a technical explanation. Comparing it with the current state of VR/Metaverse, there are both hits and misses in its predictions, and that gap itself becomes an enjoyable reading point."
       }
     ],
     "1993": [
