@@ -45,6 +45,19 @@
         "url_en": "https://en.wikipedia.org/wiki/Cybernetics%3A_Or_Control_and_Communication_in_the_Animal_and_the_Machine",
         "note": "フィードバック制御、情報、ノイズ、確率過程などを統合する概念として「サイバネティックス」を提示した古典。動物と機械を同じ「制御と通信の系」として扱い、現代の制御工学、情報理論、AI、神経科学の基礎を築いた。/「コンピュータ以前のAI本」と言ってもいい一冊で、ニューロンから通信回線、産業機械まで同じ数学で語ってしまう豪腕ぶりが魅力です。いま読むと数式は古典ですが、「情報と制御」を横断する視点は、ネットワーク化したAIシステムを考えるときにまだまだ現役です。",
         "note_en": "A classic that presented \"cybernetics\" as a concept integrating feedback control, information, noise, and stochastic processes. Treating animals and machines as the same \"system of control and communication,\" it laid the foundation for modern control engineering, information theory, AI, and neuroscience./A book that could be called a \"pre-computer AI book,\" charming in its brute force of discussing neurons, communication lines, and industrial machines with the same mathematics. Reading it now, the formulas are classical, but the perspective crossing \"information and control\" is still active when thinking about networked AI systems."
+      },
+      {
+        "label": "サイバネティックス ― 動物と機械における制御と通信（ノーバート・ウィーナー著、戸田巌ほか訳）",
+        "label_en": "Cybernetics: Or Control and Communication in the Animal and the Machine(Norbert Wiener)",
+        "startYear": 1948,
+        "genre": [
+          "SCIENCE"
+        ],
+        "imp": 3,
+        "url": "https://www.amazon.co.jp/GENERIC-%E3%82%B5%E3%82%A4%E3%83%90%E3%83%8D%E3%83%86%E3%82%A3%E3%83%83%E3%82%AF%E3%82%B9-%E5%8B%95%E7%89%A9%E3%81%A8%E6%A9%9F%E6%A2%B0%E3%81%AB%E3%81%8A%E3%81%91%E3%82%8B%E5%88%B6%E5%BE%A1%E3%81%A8%E9%80%9A%E4%BF%A1/dp/B0G5637N99&https://m.media-amazon.com/images/I/71oGWVhIz2L._AC_SX679_.jpg",
+        "url_en": "https://en.wikipedia.org/wiki/Cybernetics%3A_Or_Control_and_Communication_in_the_Animal_and_the_Machine",
+        "note": "フィードバック制御、情報、ノイズ、確率過程などを統合する概念として「サイバネティックス」を提示した古典。動物と機械を同じ「制御と通信の系」として扱い、現代の制御工学、情報理論、AI、神経科学の基礎を築いた。/「コンピュータ以前のAI本」と言ってもいい一冊で、ニューロンから通信回線、産業機械まで同じ数学で語ってしまう豪腕ぶりが魅力です。いま読むと数式は古典ですが、「情報と制御」を横断する視点は、ネットワーク化したAIシステムを考えるときにまだまだ現役です。",
+        "note_en": "A classic that presented \"cybernetics\" as a concept integrating feedback control, information, noise, and stochastic processes. Treating animals and machines as the same \"system of control and communication,\" it laid the foundation for modern control engineering, information theory, AI, and neuroscience./A book that could be called a \"pre-computer AI book,\" charming in its brute force of discussing neurons, communication lines, and industrial machines with the same mathematics. Reading it now, the formulas are classical, but the perspective crossing \"information and control\" is still active when thinking about networked AI systems."
       }
     ],
     "1968": [
@@ -84,6 +97,20 @@
           "SCIENCE",
           "COMPUTER",
           "WORK"
+        ],
+        "imp": 3,
+        "url": "https://www.amazon.co.jp/dp/4124001460/&https://m.media-amazon.com/images/I/81z5gw3JUBL._SY425_.jpg",
+        "note": "自己増殖オートマトンの可能性を論じた、オートマトン理論・人工生命の源流となる短いが重要な論文。神経回路網と計算可能性の関係についての記述は、その後のニューラルネット研究や「計算機と脳」論にも大きな影響を与えた。/「コンピュータの父」は、実はかなり早い段階で“自己増殖する機械”と“人工頭脳”にまで考えを伸ばしていました。この短い論文の中に、AI・人工生命・複雑系のタネがぎっしり詰まっている、歴史的にはかなり濃い一篇です。",
+        "label_en": "The General and Logical Theory of Automata(John von Neumann)",
+        "url_en": "https://www.vordenker.de/ggphilosophy/jvn_the-general-and-logical-theory-of-automata.pdf",
+        "note_en": "A short but important paper discussing the possibility of self-reproducing automata, serving as the source of automaton theory and artificial life. Descriptions regarding the relationship between neural networks and computability greatly influenced subsequent neural network research and discussions on \"computers and the brain.\"/The \"father of the computer\" had actually extended his thoughts to \"self-reproducing machines\" and \"artificial brains\" at a quite early stage. It is a historically dense piece packed with the seeds of AI, artificial life, and complex systems within this short paper."
+      },
+      {
+        "label": "人工頭脳と自己増殖 ―― オートマトンの論理学概論（ジョン・フォン・ノイマン著、品川嘉也・品川泰子訳）",
+        "startYear": 1970,
+        "genre": [
+          "SCIENCE",
+          "COMPUTER"
         ],
         "imp": 3,
         "url": "https://www.amazon.co.jp/dp/4124001460/&https://m.media-amazon.com/images/I/81z5gw3JUBL._SY425_.jpg",
@@ -1401,6 +1428,72 @@
         "label_en": "Virtual Reality: The Revolutionary Technology of Computer-Generated Artificial Worlds – and How It Promises to Transform Society(Howard Rheingold)",
         "url_en": "&https://m.media-amazon.com/images/I/715RklY2z8S._SY522_.jpg",
         "note_en": "A representative general book conveying the atmosphere of the \"First VR Boom\" in the early 90s. While introducing VR technologies of the time like HMDs and Data Gloves, it discusses their social and cultural impact—telepresence, telecommunity, and cyberspace./It's a book with a quite \"heated\" tone, closer to a manifesto that \"VR will bring this kind of society\" than a technical explanation. Comparing it with the current state of VR/Metaverse, there are both hits and misses in its predictions, and that gap itself becomes an enjoyable reading point."
+      },
+      {
+        "label": "アシッド・ドリームズ―CIA、LSD、ヒッピー革命（マーティン・A・リー、ブルース・シュレイン著、越智道雄訳）",
+        "label_en": "Acid Dreams: The CIA, LSD, and the Sixties Rebellion(Martin A. Lee, Bruce Shlain)",
+        "startYear": 1992,
+        "genre": [
+          "POPCULTURE"
+        ],
+        "imp": 3,
+        "url": "https://www.amazon.co.jp/dp/4807492039&https://m.media-amazon.com/images/I/71cdxlRABtL._SY425_.jpg",
+        "url_en": "https://en.wikipedia.org/wiki/Acid_Dreams_(book)|https://www.amazon.com/Acid-Dreams-Complete-History-Sixties/dp/0802130623&https://m.media-amazon.com/images/I/91Nh3R1KdqL._SY425_.jpg",
+        "note": "CIAによるLSD使用の歴史と、サイケデリック文化が60年代カウンターカルチャーに与えた影響を追跡したルポルタージュ。MKウルトラなどの極秘プログラムや、ヒッピー文化・反戦運動との連関を大量の公文書から描き出す。/LSDとCIAという、サイバーカルチャー史でもよく語られる「陰の系譜」を正面から扱った本です。電脳世界やネット文化を描く作品の裏側には、しばしばこうしたドラッグと監視・制御の歴史が下敷きにあり、その文脈を理解するうえで欠かせない資料になっています。",
+        "note_en": "A reportage tracing the history of CIA LSD use and the influence of psychedelic culture on the 60s counter-culture. It draws out connections between top-secret programs like MKUltra and hippie culture/anti-war movements from a large volume of official documents./A book that frontally deals with the \"shadow lineage\" of LSD and the CIA, often discussed in cyber culture history. Behind works depicting cyber worlds and net culture, there is often this underlying history of drugs, surveillance, and control, making this an indispensable resource for understanding that context."
+      },
+      {
+        "label": "コンピュータには何ができないか（ヒューバート・L・ドレイファス著、黒崎政男・村若修訳）",
+        "label_en": "What Computers Can’t Do: The Limits of Artificial Intelligence(Hubert L. Dreyfus)",
+        "startYear": 1992,
+        "genre": [
+          "COMPUTER",
+          "THEORYMEDIA"
+        ],
+        "imp": 3,
+        "url": "https://www.amazon.co.jp/%E3%82%B3%E3%83%B3%E3%83%94%E3%83%A5%E3%83%BC%E3%82%BF%E3%81%AB%E3%81%AF%E4%BD%95%E3%81%8C%E3%81%A7%E3%81%8D%E3%81%AA%E3%81%84%E3%81%8B%E2%80%95%E5%93%B2%E5%AD%A6%E7%9A%84%E4%BA%BA%E5%B7%A5%E7%9F%A5%E8%83%BD%E6%89%B9%E5%88%A4-%E3%83%92%E3%83%A5%E3%83%BC%E3%83%90%E3%83%BC%E3%83%88%E3%83%BBL-%E3%83%89%E3%83%AC%E3%82%A4%E3%83%95%E3%82%A1%E3%82%B9/dp/478280069X&https://m.media-amazon.com/images/I/51lGmLiVTrL._SY425_.jpg",
+        "url_en": "https://www.amazon.com/What-computers-cant-artificial-intelligence/dp/0060906243&https://m.media-amazon.com/images/I/41B-C0Hql5L._SY466_.jpg",
+        "note": "当時のAI研究に対して「人間の知性は形式的ルール操作には還元できない」と徹底的に批判した、現象学寄りの立場からのクラシック。登場時には大きな反発を受けたが、のちにディープラーニング以降の議論でも再評価されることになる。/「AIに何が“できない”のか」を真正面から論じた本で、楽観的なAI本とは真逆のポジションにあります。読んでいて時々イラっとするくらい辛口ですが、「人間の身体性や状況依存性はどう扱うのか？」という問いは、今のLLM時代にもそのまま突き刺さります。",
+        "note_en": "A classic from a phenomenological standpoint that thoroughly criticized AI research of the time, arguing that \"human intelligence cannot be reduced to formal rule manipulation.\" Although it met with strong opposition upon release, it was later re-evaluated in discussions following deep learning./A book that squarely discusses \"what AI 'cannot' do,\" positioned exactly opposite to optimistic AI books. It is sharp enough to be irritating at times, but the question \"how to handle human embodiment and situational dependence?\" pierces through even in the current LLM era."
+      },
+      {
+        "label": "アラン・ケイ（アラン・ケイ著、鶴岡雄二・浜野保樹訳）",
+        "label_en": "Personal Dynamic Media and Others(Alan Kay)",
+        "startYear": 1992,
+        "genre": [
+          "COMPUTER"
+        ],
+        "imp": 3,
+        "url": "https://www.amazon.co.jp/%E3%82%A2%E3%83%A9%E3%83%B3%E3%83%BB%E3%82%B1%E3%82%A4-Ascii-books-%E3%82%A2%E3%83%A9%E3%83%B3%E3%83%BBC-%E3%82%B1%E3%82%A4/dp/4756101070&https://m.media-amazon.com/images/I/21UZSW50iaL.jpg",
+        "note": "誰でも使え、手軽に持ち運べて、電話やネットワークと結び付いて自由に情報のやりとりができる“ダイナミックな本 ダイナブック”。その提唱者こそアラン・ケイである。いまでこそあたりまえのようだが、20年以上前にダイナブック構想を発表し、実際に製作に着手したというのだから驚く。本書はそうした現代の予言者の代表的論文を収録した日本独自の論文集である。/本書は、アラン・ケイに関する重要な視点を提供しています。今日のタブレットやラップトップの原型となる思想が、技術的な仕様だけでなく「人間のための道具」という哲学として語られている点が重要です。",
+        "note_en": "The \"Dynamic Book (Dynabook)\" is a device that anyone can use, easily carry, and link with telephones and networks to freely exchange information. Its proponent is Alan Kay. It seems obvious now, but it is surprising that he announced the Dynabook concept and actually started production more than 20 years ago. This book is a unique Japanese collection of representative papers by such a modern prophet./This book provides an important perspective on Alan Kay. It is important that the ideas forming the prototype of today's tablets and laptops are discussed not only as technical specifications but as a philosophy of \"tools for humans.\""
+      },
+      {
+        "label": "劇場としてのコンピュータ（ブレンダ・ローレル著、遠山峻征訳）",
+        "label_en": "Computers as Theatre(Brenda Laurel)",
+        "startYear": 1992,
+        "genre": [
+          "THEORYMEDIA",
+          "COMPUTER"
+        ],
+        "imp": 3,
+        "url": "https://www.amazon.co.jp/%E5%8A%87%E5%A0%B4%E3%81%A8%E3%81%97%E3%81%A6%E3%81%AE%E3%82%B3%E3%83%B3%E3%83%94%E3%83%A5%E3%83%BC%E3%82%BF-%E3%82%A2%E3%82%B8%E3%82%BD%E3%83%B3-%E3%82%A6%E3%82%A7%E3%82%B9%E3%83%AC%E3%82%A4%E3%83%BB%E3%83%88%E3%83%83%E3%83%91%E3%83%B3%E6%83%85%E5%A0%B1%E7%A7%91%E5%AD%A6%E3%82%B7%E3%83%AA%E3%83%BC%E3%82%BA-%E3%83%96%E3%83%AC%E3%83%B3%E3%83%80-%E3%83%AD%E3%83%BC%E3%83%AC%E3%83%AB/dp/4810180441&https://m.media-amazon.com/images/I/71T5Cih+TLL._SY425_.jpg",
+        "url_en": "https://www.amazon.com/Computers-As-Theatre-Brenda-Laurel/dp/0201510480&https://m.media-amazon.com/images/I/41SBV9z0CbL.jpg",
+        "note": "情報ネットワークやVRが社会に与える影響を「デジタルシアター」という切り口から分析。コンピュータ空間における思考、コミュニケーション、創造的活動の可能性を探る。/アリストテレスの詩学（演劇論）をヒューマン・コンピュータ・インタラクション（HCI）に応用し、インターフェースを「体験の演劇」としてデザインすることを提唱した先駆的な書です。",
+        "note_en": "Analyzes the impact of information networks and VR on society from the perspective of \"digital theater.\" Explores the possibilities of thought, communication, and creative activities in computer space./A pioneering book that applied Aristotle's Poetics (dramatic theory) to Human-Computer Interaction (HCI) and advocated designing interfaces as \"theatre of experience.\""
+      },
+      {
+        "label": "ハッカーは笑う（ケイティ・ハフナー、ジョン・マルコフ著、服部桂訳）",
+        "label_en": "Cyberpunk: Outlaws and Hackers on the Computer Frontier(Katie Hafner, John Markoff)",
+        "startYear": 1992,
+        "genre": [
+          "HACKER"
+        ],
+        "imp": 3,
+        "url": "https://www.amazon.co.jp/%E3%83%8F%E3%83%83%E3%82%AB%E3%83%BC%E3%81%AF%E7%AC%91%E3%81%86-%E3%82%B1%E3%82%A4%E3%83%86%E3%82%A3-%E3%83%8F%E3%83%95%E3%83%8A%E3%83%BC/dp/4871883876&https://m.media-amazon.com/images/I/91ZJLJMHy+L._SY425_.jpg",
+        "url_en": "https://www.amazon.com/CYBERPUNK-Outlaws-Hackers-Computer-Frontier/dp/0684818620&https://m.media-amazon.com/images/I/71bbj5lFJ4S._SY466_.jpg",
+        "note": "ベル電話システムの「フリーカー」、ケビン・ミトニックら、80〜90年代初期の著名ハッカーたちを、ルポルタージュとして描いたノンフィクション。マスメディアが「サイバーパンク」をどう消費し、ハッカー像を作り上げていったかがよく見えます。/『ハッカーズ』が「創造的ハッカー文化」の内部史だとすれば、こちらはその後の「アウトロー化したハッカーたち」を追った犯罪ノンフィクション寄り。メディアが好む劇画的なハッカー像が、どこまで事実でどこから演出か、読み比べると楽しいです。",
+        "note_en": "A non-fiction reporting on famous hackers of the 80s and early 90s, such as Bell system \"phreakers\" and Kevin Mitnick. It clearly shows how mass media consumed \"cyberpunk\" and built up the hacker image./If \"Hackers\" is the internal history of \"creative hacker culture,\" this leans towards crime non-fiction following the subsequent \"outlawed hackers.\" It is fun to compare and read how much of the dramatic hacker image preferred by media is fact and how much is staged."
       }
     ],
     "1993": [
@@ -1455,6 +1548,19 @@
         "label_en": "Das Passagen-Werk(Walter Benjamin)",
         "url_en": "https://en.wikipedia.org/wiki/Arcades_Project",
         "note_en": "A massive collection of fragments that encyclopedically collected the \"passages\" (arcades) of 19th-century Paris, attempting to depict the formation of the modern city and consumer society in a montage style. Benjamin's magnum opus left unfinished, it is a source for modern critique, media theory, and urban theory./There are many books on modern cities and capitalism, but \"The Arcades Project\" is unique in attempting to do this through a \"scrapbook-like\" accumulation of information. Facing this mountain of fragments, if you read it as \"someone hacking the world with a Zettelkasten without search or tags,\" it starts to look like an \"analog RAG\" connected to modern database society."
+      },
+      {
+        "label": "バーチャルワールド（ベンジャミン・ウーリー著、福洋一訳）",
+        "label_en": "Virtual Worlds: A Journey in Hype and Hyperreality(Benjamin Woolley)",
+        "startYear": 1993,
+        "genre": [
+          "THEORYMEDIA"
+        ],
+        "imp": 3,
+        "url": "https://www.amazon.co.jp/%E3%83%90%E3%83%BC%E3%83%81%E3%83%A3%E3%83%AB%E3%83%AF%E3%83%BC%E3%83%AB%E3%83%89-%E3%83%99%E3%83%B3%E3%82%B8%E3%83%A3%E3%83%9F%E3%83%B3-%E3%82%A6%E3%83%BC%E3%83%AA%E3%83%BC/dp/484434630X",
+        "url_en": "https://www.amazon.com/Virtual-Worlds-Journey-Hype-Hyperreality/dp/0631182144&https://m.media-amazon.com/images/I/81GHbR1h7vL._SY466_.jpg",
+        "note": "バーチャルリアリティの文化的・思想的側面を、シミュレーション、カオス、量子力学、ポストモダニズムなど多様な事例と関連づけて論じている。風呂敷を広げすぎの感はあるが重要な議論を含む。/VR技術を単なるガジェットとしてではなく、ボードリヤールの「シミュラークル」などの現代思想と接続し、現実と虚構の関係性を問い直した著作です。",
+        "note_en": "Discusses the cultural and ideological aspects of virtual reality in relation to diverse examples such as simulation, chaos, quantum mechanics, and postmodernism. While it feels a bit overextended, it contains important discussions./A work that re-questions the relationship between reality and fiction by connecting VR technology not just as a gadget but with modern thought such as Baudrillard's \"simulacra.\""
       }
     ],
     "1994": [
@@ -1574,6 +1680,58 @@
           "COMPUTER",
           "OUTOFPRINT",
           "WORK"
+        ],
+        "imp": 3,
+        "url": "https://www.amazon.co.jp/dp/4484942291&https://m.media-amazon.com/images/I/51PG6-cQtmL._SY342_.jpg",
+        "note": "日本におけるパーソナルコンピュータ（パソコン）がどのように生まれ、普及していったかを丹念に取材し、綴った歴史ノンフィクション。黎明期のホビイスト文化から、NECのPC-9800シリーズの隆盛、そしてソフトウェア開発者たちの熱狂的なコミュニティの様子が克明に描かれています。/特に日本のPC文化が、アメリカとは異なる独自の進化を遂げていった過程や、技術者・起業家たちの情熱を深く知ることができます。日本のコンピュータ史における決定版的な著作の一つです。(C)",
+        "note_en": "A meticulously researched historical non-fiction book detailing how the personal computer (PC) was born and spread in Japan. It vividly portrays the early hobbyist culture, the rise of NEC's PC-9800 series, and the fervent community of software developers. /It offers deep insight into how Japan's PC culture evolved uniquely, distinct from the US, and the passion of the engineers and entrepreneurs involved. It is considered one of the definitive works on the history of computing in Japan.(C)"
+      },
+      {
+        "label": "サイバースペース（マイケル・ベネディクト編/NTTヒューマンインタフェース研究所・鈴木圭介・山田和子訳）",
+        "label_en": "Cyberspace: First Steps(Michael Benedikt)",
+        "startYear": 1994,
+        "genre": [
+          "COMPUTER",
+          "OUTOFPRINT"
+        ],
+        "imp": 3,
+        "url": "https://www.amazon.co.jp/dp/4871882659&https://m.media-amazon.com/images/I/51zVA4lTBJL._SY522_.jpg",
+        "url_en": "https://en.wikipedia.org/wiki/Cyberspace:_First_Steps|https://www.amazon.com/dp/0262521776&https://m.media-amazon.com/images/I/51DlVq43WSL.jpg",
+        "note": "建築、哲学、計算機科学、アートなど様々な分野の研究者が「サイバースペースとは何か」を論じた論文集。ギブソン的な電脳空間のイメージだけでなく、空間論・記号論・法律など、多様な観点から“仮想空間”概念を定式化しようとしています。/サイバー空間をテーマにした本はいろいろありますが、これはかなり“学際ゴリゴリ系”。VRやネットサービスの具体論というより、「そもそもサイバースペースはどんな空間概念なのか？」を真面目に考えたい人向けです。情報建築やメタバース設計の思想的バックボーンとして読むと面白いです。",
+        "note_en": "A collection of papers where researchers from various fields like architecture, philosophy, computer science, and art discuss \"what is cyberspace.\" It attempts to formulate the concept of \"virtual space\" from diverse perspectives such as spatial theory, semiotics, and law, not just the Gibsonian image of cyberspace./There are many books on cyber space, but this one is quite \"hardcore interdisciplinary.\" It is for those who want to seriously think about \"what kind of spatial concept cyberspace is in the first place,\" rather than specific theories of VR or net services. It is interesting to read as an ideological backbone for information architecture and Metaverse design."
+      },
+      {
+        "label": "ライティング・スペース：電子テキスト時代のエクリチュール（ジェイ・デイヴィッド・ボルター著、黒崎政男ほか訳）",
+        "label_en": "Writing Space: The Computer, Hypertext, and the History of Writing(Jay David Bolter)",
+        "startYear": 1994,
+        "genre": [
+          "THEORYMEDIA"
+        ],
+        "imp": 3,
+        "url": "https://www.amazon.co.jp/%E3%83%A9%E3%82%A4%E3%83%86%E3%82%A3%E3%83%B3%E3%82%B0-%E3%82%B9%E3%83%9A%E3%83%BC%E3%82%B9%E2%80%95%E9%9B%BB%E5%AD%90%E3%83%86%E3%82%AD%E3%82%B9%E3%83%88%E6%99%82%E4%BB%A3%E3%81%AE%E3%82%A8%E3%82%AF%E3%83%AA%E3%83%81%E3%83%A5%E3%83%BC%E3%83%AB-%E3%82%B8%E3%82%A7%E3%82%A4%E3%83%BB%E3%83%87%E3%82%A4%E3%83%B4%E3%82%A3%E3%83%83%E3%83%89-%E3%83%9C%E3%83%AB%E3%82%BF%E3%83%BC/dp/4782800878&https://m.media-amazon.com/images/I/71NtT+OT1rL._SY425_.jpg",
+        "url_en": "https://www.amazon.com/Writing-Space-Computer-Hypertext-History/dp/0805804277&https://m.media-amazon.com/images/I/81CYudRBOZL._SY385_.jpg",
+        "note": "ネットワーク時代のハイパーテキストの可能性を論じる。メディアテクノロジーの変遷が「書くこと」「読むこと」にどのような根本的変容をもたらすか、説得力のある議論が展開されている。/パピルスから印刷、そして電子テキストへの移行を歴史的に位置づけ、ハイパーテキストが人間の思考や表現（エクリチュール）をどう変えるかを論じたメディア論の良書です。",
+        "note_en": "Discusses the possibilities of hypertext in the network age. It unfolds a persuasive argument on what fundamental transformations the transition of media technology brings to \"writing\" and \"reading.\"/A good book on media theory that historically situates the transition from papyrus to print and then to electronic text, discussing how hypertext changes human thought and expression (écriture)."
+      },
+      {
+        "label": "UNIXの1/4世紀（ピーター・H・サルス著/QUIPU LLC訳）",
+        "label_en": "A Quarter Century of UNIX(Peter H. Salus)",
+        "startYear": 1994,
+        "genre": [
+          "COMPUTER"
+        ],
+        "imp": 3,
+        "url": "https://www.amazon.co.jp/dp/4756136591&https://m.media-amazon.com/images/I/515brQ1pBJL._SY342_.jpg",
+        "url_en": "https://www.amazon.com/dp/0201547775&https://m.media-amazon.com/images/I/21gkxRJn4zL.jpg",
+        "note": "オペレーティングシステムUNIXが誕生してから25年間の歴史を詳細に綴った一冊。ベル研究所での開発初期段階から、学術界への広がり、商用化、そしてフリーソフトウェア運動への影響まで、UNIXがコンピュータの世界に与えた計り知れない影響を包括的に解説しています。/UNIXのパイプやフィルタといった設計思想が、現代のソフトウェア開発やインターネット技術の基盤にどう組み込まれていったかを理解できます。技術的な側面だけでなく、開発者たちの人間ドラマや文化的な影響にも焦点を当てています。(C)",
+        "note_en": "A detailed history of the first 25 years of the UNIX operating system. It comprehensively explains the immense impact UNIX had on the computing world, from its early development at Bell Labs to its spread in academia, commercialization, and influence on the free software movement. /It helps readers understand how UNIX's design philosophy, such as pipes and filters, became integral to modern software development and internet technology. The book focuses not only on technical aspects but also on the human drama and cultural impact of the developers.(C)"
+      },
+      {
+        "label": "パソコン創世記（富田倫生著）",
+        "startYear": 1994,
+        "genre": [
+          "COMPUTER",
+          "OUTOFPRINT"
         ],
         "imp": 3,
         "url": "https://www.amazon.co.jp/dp/4484942291&https://m.media-amazon.com/images/I/51PG6-cQtmL._SY342_.jpg",
@@ -1731,6 +1889,114 @@
           "THEORYMEDIA",
           "POPCULTURE",
           "WORK"
+        ],
+        "imp": 3,
+        "url": "https://www.amazon.co.jp/dp/4756139655&https://m.media-amazon.com/images/I/81E6cfJCW3L._SX445_.jpg",
+        "url_en": "https://en.wikipedia.org/wiki/Being_Digital|https://www.amazon.com/Being-Digital-Nicholas-Negroponte/dp/0679439196&https://m.media-amazon.com/images/I/81E+AG6+QkL._SX445_.jpg",
+        "note": "MITメディアラボの創設者ニコラス・ネグロポンテが、デジタル技術が社会、経済、文化、そして生活のあらゆる側面に与える影響を予測した著作。「アトム（物質）の時代」から「ビット（情報）の時代」への移行を宣言し、インターネット時代のビジョンを広く世に示しました。/出版された1995年という時期は、一般へのインターネット普及が始まった直後であり、その未来を予言した内容は大きな話題を呼びました。現代社会がネグロポンテの描いた未来にどこまで近づいたかを確認できる一冊です。(C)",
+        "note_en": "A work by Nicholas Negroponte, founder of the MIT Media Lab, predicting the impact of digital technology on every aspect of society, economy, culture, and life. It declared the transition from the \"Age of Atoms (matter)\" to the \"Age of Bits (information),\" presenting a vision of the Internet era to the public. /Published in 1995, just as the Internet began to spread to the general public, its predictions about the future caused a sensation. It is a book that allows readers to assess how closely modern society has approached the future envisioned by Negroponte.(C)"
+      },
+      {
+        "label": "バーチャル・コミュニティ―コンピューター・ネットワークが創る新しい社会（ハワード・ラインゴールド著、石垣賀正訳）",
+        "label_en": "The Virtual Community: Homesteading on the Electronic Frontier(Howard Rheingold)",
+        "startYear": 1995,
+        "genre": [
+          "POPCULTURE",
+          "COMPUTER"
+        ],
+        "imp": 3,
+        "url": "https://www.amazon.co.jp/%E3%83%90%E3%83%BC%E3%83%81%E3%83%A3%E3%83%AB%E3%83%BB%E3%82%B3%E3%83%9F%E3%83%A5%E3%83%8B%E3%83%86%E3%82%A3%E2%80%95%E3%82%B3%E3%83%B3%E3%83%94%E3%83%A5%E3%83%BC%E3%82%BF%E3%83%BC%E3%83%BB%E3%83%8D%E3%83%83%E3%83%88%E3%83%AF%E3%83%BC%E3%82%AF%E3%81%8C%E5%89%B5%E3%82%8B%E6%96%B0%E3%81%97%E3%81%84%E7%A4%BE%E4%BC%9A-%E3%83%8F%E3%83%AF%E3%83%BC%E3%83%89-%E3%83%A9%E3%82%A4%E3%83%B3%E3%82%B4%E3%83%BC%E3%83%AB%E3%83%89/dp/4895831426&https://m.media-amazon.com/images/I/51uZHz7pANL._SY425_.jpg",
+        "url_en": "https://en.wikipedia.org/wiki/The_Virtual_Community|https://www.amazon.com/Virtual-Community-Homesteading-Electronic-Frontier/dp/0262681218&https://m.media-amazon.com/images/I/71feLtutkAL._SY425_.jpg",
+        "note": "インターネット草創期のBBSやネットワーク・コミュニティをルポし、「バーチャル・コミュニティ」という概念を世界に広めた名著。個人の経験談と社会学的考察を交え、オンライン空間が社会や民主主義をどう変えるかを早い段階で描き出した。/90年代以降のネット論・SNS論は、だいたいこの本の上に積み重なっていると言っていいくらい重要な一冊です。現代のSNS疲れやコミュニティの分断を考えるとき、黎明期の「理想」の描写として読み返すとギャップがとても示唆的です。",
+        "note_en": "A masterpiece that reported on BBSs and network communities in the early days of the internet and popularized the concept of \"virtual community\" to the world. Mixing personal experiences and sociological consideration, it depicted early on how online spaces would change society and democracy./An important book to the extent that it can be said that net theories and SNS theories since the 90s have been built on top of this. When thinking about modern SNS fatigue and community division, reading back the description of \"ideals\" in the dawn era reveals a very suggestive gap."
+      },
+      {
+        "label": "オートポイエーシス ― 第三世代システム（河本英夫著）",
+        "label_en": "オートポイエーシス ― 第三世代システム(Hideo Kawamoto)",
+        "startYear": 1995,
+        "genre": [
+          "THEORYMEDIA",
+          "SCIENCE"
+        ],
+        "imp": 3,
+        "url": "https://www.amazon.co.jp/%E3%82%AA%E3%83%BC%E3%83%88%E3%83%9D%E3%82%A4%E3%82%A8%E3%83%BC%E3%82%B7%E3%82%B9%E2%80%95%E7%AC%AC%E4%B8%89%E4%B8%96%E4%BB%A3%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0-%E6%B2%B3%E6%9C%AC-%E8%8B%B1%E5%A4%AB/dp/4791753879&https://m.media-amazon.com/images/I/41PEzYjNDhL._SY425_.jpg",
+        "note": "マトゥラーナとヴァレラが提唱した「オートポイエーシス（自己生成システム）」概念を踏まえ、人間・社会・認知などを「第三世代システム」として再構成しようとする体系的論考。日本のシステム論・現象学的科学論の拠点的著作。/「自己をつくり続ける仕組み」としてのシステム論。AIや自律ロボットに興味があると、「あ、これ実装したいけどかなり難しいやつだ…」と身にしみる本でもあります。ニューラルネットだけでは語りきれない“自己”のダイナミクスを、かなりラディカルに考えさせてくれます。",
+        "note_en": "A systematic discussion attempting to reconstruct humans, society, and cognition as a \"third-generation system,\" based on the concept of \"autopoiesis\" (self-generating system) proposed by Maturana and Varela. A foundational work of Japanese systems theory and phenomenological science studies./Systems theory as a mechanism of \"continuing to create oneself.\" If you are interested in AI or autonomous robots, this book will make you keenly feel, \"Ah, I want to implement this, but it's the really difficult one...\" It makes you think quite radically about the dynamics of \"self\" that cannot be fully explained by neural nets alone."
+      },
+      {
+        "label": "チューリング・マン：コンピュータ文化、その概念と歴史（J・デイヴィッド・ボルター著、土屋俊・山口昌男訳）",
+        "label_en": "Turing's Man: Western Culture in the Computer Age(J. David Bolter)",
+        "startYear": 1995,
+        "genre": [
+          "THEORYMEDIA",
+          "COMPUTER"
+        ],
+        "imp": 3,
+        "url": "https://www.amazon.co.jp/%E3%83%81%E3%83%A5%E3%83%BC%E3%83%AA%E3%83%B3%E3%82%B0%E3%83%BB%E3%83%9E%E3%83%B3-J-%E3%83%BB%E3%83%87%E3%82%A4%E3%83%B4%E3%82%A3%E3%83%83%E3%83%89-%E3%83%9C%E3%83%AB%E3%82%BF%E3%83%BC/dp/4622039540&https://m.media-amazon.com/images/I/41SqatJi+ML._SY425_.jpg",
+        "url_en": "https://www.amazon.com/Turings-Man-Western-Culture-Computer-ebook/dp/B00ZVF5G08&https://m.media-amazon.com/images/I/61hqI5sA+RL._SY466_.jpg",
+        "note": "デカルトの人間像からAI研究までを検証し、技術を基盤にした人間理解の変容を分析。「人間の心は情報処理装置なのか」という問いを通じ、デジタルテクノロジー時代の人間像を提示する。/コンピュータを現代を定義する「定義的技術」として捉え、古代の陶工や近代の時計職人と対比させつつ、情報処理としての人間観（チューリング・マン）の台頭を描いた文化史です。",
+        "note_en": "Verifying from the Cartesian image of man to AI research, it analyzes the transformation of human understanding based on technology. Through the question \"Is the human mind an information processing device?\", it presents the image of man in the digital technology era./A cultural history that perceives the computer as a \"defining technology\" of the modern era and depicts the rise of the view of humans as information processing (Turing's Man), contrasting with ancient potters and modern clockmakers."
+      },
+      {
+        "label": "シークレット・オブ・スーパーハッカー（ナイトメア著/松藤留美子訳）",
+        "label_en": "SECRETS OF A SUPER HACKER(Nightmare)",
+        "startYear": 1995,
+        "genre": [
+          "HACKER"
+        ],
+        "imp": 3,
+        "url": "https://www.amazon.co.jp/%E3%82%B7-%E3%82%AF%E3%83%AC%E3%83%83%E3%83%88%E3%83%BB%E3%82%AA%E3%83%96%E3%83%BB%E3%82%B9-%E3%83%91-%E3%83%8F%E3%83%83%E3%82%AB-%E3%81%82%E3%81%AA%E3%81%9F%E3%81%AE%E3%82%B3%E3%83%B3%E3%83%94%E3%83%A5-%E3%82%BF%E3%82%82%E7%8B%99%E3%82%8F%E3%82%8C%E3%81%A6%E3%81%84%E3%82%8B-%E3%83%8A%E3%82%A4%E3%83%88%E3%83%A1%E3%82%A2/dp/4820711334&https://m.media-amazon.com/images/I/A1QQI5IIZTL._SY425_.jpg",
+        "url_en": "https://archive.org/details/Secrets_of_a_Super_Hacker",
+        "note": "現役ハッカーによるハッキングの事例集というと大げさだが、かなりかなり危ない内容の本だ。もちろんハッカーといっても神様ではない。巧妙なハッキングの裏には種も仕掛けもある。そうしたことを知るだけでも、本書を読む価値はあり、ハッカー対策を考える際も大いに有効だ。/ハッカーの裏ワザを紹介した本は少なく、本書は貴重な1冊といえる。",
+        "note_en": "It may be an exaggeration to call this a collection of hacking case studies by an active hacker, but the content is quite dangerous. Of course, hackers are not gods. Behind skillful hacking, there are tricks and setups. Just knowing these things makes this book worthwhile and highly effective when considering countermeasures against hackers./Books introducing hacker tricks are rare, making this book a valuable resource."
+      },
+      {
+        "label": "サイベリア（ダグラス・ラシュコフ著/大森望訳）",
+        "label_en": "CIBERIA(Douglas Rushkoff)",
+        "startYear": 1995,
+        "genre": [
+          "HACKER",
+          "POPCULTURE"
+        ],
+        "imp": 3,
+        "url": "https://www.amazon.co.jp/%E3%82%B5%E3%82%A4%E3%83%99%E3%83%AA%E3%82%A2-%E3%83%87%E3%82%B8%E3%82%BF%E3%83%AB%E3%83%BB%E3%82%A2%E3%83%B3%E3%83%80%E3%83%BC%E3%82%B0%E3%83%A9%E3%82%A6%E3%83%B3%E3%83%89%E3%81%AE%E7%8F%BE%E5%9C%A8%E5%BD%A2-%E3%83%80%E3%82%B0%E3%83%A9%E3%82%B9-%E3%83%A9%E3%82%B7%E3%83%A5%E3%82%B3%E3%83%95/dp/4756104983",
+        "url_en": "https://en.wikipedia.org/wiki/Cyberia_(book)",
+        "note": "サブタイトルは「デジタル・アンダーグラウンドの現在形」。ハッカー文化とドラッグカルチャー、カウンターカルチャー、神秘主義との接点に焦点を当てた本だ。文化的な側面から、ハッカー文化を検証するという点で、本書は他のハッカー本にはない魅力を備えている。/ハッカー文化とドラッグカルチャー、カウンターカルチャー、神秘主義との接点に焦点を当てた本だ。文化的な側面から、ハッカー文化を検証するという点で、本書は他のハッカー本にはない魅力を備えている。",
+        "note_en": "The subtitle is \"The Digital Underground, Present Tense.\" This book focuses on the intersection of hacker culture, drug culture, counterculture, and mysticism. By examining hacker culture from a cultural perspective, this book possesses a unique appeal that other hacker books lack./This book focuses on the intersection of hacker culture, drug culture, counterculture, and mysticism. By examining hacker culture from a cultural perspective, this book possesses a unique appeal that other hacker books lack."
+      },
+      {
+        "label": "サイバースペースの決闘（ジョシュア・クウィットナー、ミシェール・スラターラ著/師岡雄二訳）",
+        "label_en": "MASTERS OF DECEPTION(Joshua Quittner, Michelle Slatalla)",
+        "startYear": 1995,
+        "genre": [
+          "HACKER"
+        ],
+        "imp": 3,
+        "url": "https://www.amazon.co.jp/%E3%82%B5%E3%82%A4%E3%83%90%E3%83%BC%E3%82%B9%E3%83%9A%E3%83%BC%E3%82%B9%E3%81%AE%E6%B1%BA%E9%97%98-%E3%82%B8%E3%83%A7%E3%82%B7%E3%83%A5%E3%82%A2-%E3%82%AF%E3%82%A6%E3%82%A3%E3%83%83%E3%83%88%E3%83%8A%E3%83%BC/dp/4047912379&https://m.media-amazon.com/images/I/51jxCuAYVYL._SY425_.jpg",
+        "url_en": "https://www.amazon.com/Masters-Deception-Gang-Ruled-Cyberspace/dp/0060926945&https://m.media-amazon.com/images/I/71nDcd6FnxL._SY466_.jpg",
+        "note": "ニューヨークの10代のハッカーがネットワーク空間でグループを結成し、テキサスの別のグループと抗争する一部始終をドラマ風に再現している。ファイバー・オプティック、スコーピオン、アシッド・フリークなど、新聞を賑わせたハッカーたちが主人公だ。/ハッカー文化史における有名なグループ間の抗争を、臨場感あるドラマとして描いたノンフィクション。当時のハッカーコミュニティの緊迫感や若者のエネルギーが伝わる一冊です。",
+        "note_en": "Dramatically recreates the entire sequence of events in which teenage hackers in New York formed a group in cyberspace and clashed with another group in Texas. The protagonists are hackers who dominated the headlines, including Fiber Optic, Scorpion, and Acid Phreak./A non-fiction account depicting the famous rivalry between hacker groups in cultural history as a vivid drama. This book conveys the tension and youthful energy of the hacker community at the time."
+      },
+      {
+        "label": "「Humour The Computer」",
+        "label_en": "Humour The Computer(The MIT Press)",
+        "startYear": 1995,
+        "genre": [
+          "POPCULTURE",
+          "NERD"
+        ],
+        "imp": 3,
+        "url_en": "https://www.amazon.com/Humour-Computer-Press-Andrew-Davison/dp/0262540754&https://m.media-amazon.com/images/I/618qs0XttpL._SY385_.jpg",
+        "note": "MIT出版から刊行された、コンピュータに関するユーモアの書籍。高度な技術コミュニティであるMITから生まれた、プログラマーや研究者特有の知的で乾いたユーモアを集めたものと推測されます。/コンピュータサイエンスの世界におけるジョークや風刺を通じて、研究者コミュニティの持つ独特な文化や、技術に対するシニカルな視点を垣間見ることができます。学術的な背景を持つ「ハッカー文化」のユーモアに触れることができるでしょう。(C)",
+        "note_en": "A book of computer-related humor published by The MIT Press. It is presumed to be a collection of the intellectual and dry humor specific to programmers and researchers, originating from the highly technical MIT community. /Through jokes and satire within the computer science world, readers can glimpse the unique culture of the research community and its cynical perspective on technology. It offers an insight into the humor of the \"hacker culture\" with an academic background.(C)"
+      },
+      {
+        "label": "ビーイング・デジタル ビットの時代（ニコラス・ネグロポンテ著/西和彦監訳・解説/福岡洋一訳）",
+        "label_en": "Being Digital(Nicholas Negroponte)",
+        "startYear": 1995,
+        "genre": [
+          "THEORYMEDIA",
+          "POPCULTURE"
         ],
         "imp": 3,
         "url": "https://www.amazon.co.jp/dp/4756139655&https://m.media-amazon.com/images/I/81E6cfJCW3L._SX445_.jpg",
@@ -1910,6 +2176,45 @@
         "url": "https://www.amazon.co.jp/dp/4756106072&https://m.media-amazon.com/images/I/310xAehUm5L.jpg",
         "note": "日本におけるコンピュータ黎明期の熱狂的な時代を、関係者への徹底した取材と豊富なエピソードで描き出したノンフィクション。当時のPC産業の光と影、技術者や経営者たちの人間模様、そして彼らがどのようにして現代のコンピューティング文化を築き上げたのかを活き活きと伝えます。/ASCII編集者である遠藤氏の視点から、日本のPC史における重要な出来事やキーパーソンたちの奮闘を知ることができ、当時の熱量が伝わってくる一冊です。ハードウェアとソフトウェア開発の現場のリアルな戦いを記録した貴重な資料でもあります。",
         "note_en": "A non-fiction book depicting the fervent era of the computerfrom its dawn in Japan, based on extensive interviews with those involved and rich anecdotes. It vividly conveys the light and shadow of the PC industry at the time, the human drama of engineers and managers, and how they laid the foundation for modern computing culture./From the perspective of Endo, a editor of ASCII, readers can learn about crucial events and the struggles of key figures in Japanese PC history, feeling the intense passion of the era. It is also a valuable record documenting the real battles on the front lines of hardware and software development."
+      },
+      {
+        "label": "インターネット中毒者の告白―あるネット・ヘッドの青春（J.C. ハーツ著、大森望・柳下毅一郎訳）",
+        "label_en": "Surfing on the Internet: A Nethead’s Tale(J. C. Herz)",
+        "startYear": 1996,
+        "genre": [
+          "POPCULTURE"
+        ],
+        "imp": 3,
+        "url": "https://www.amazon.co.jp/%E3%82%A4%E3%83%B3%E3%82%BF%E3%83%BC%E3%83%8D%E3%83%83%E3%83%88%E4%B8%AD%E6%AF%92%E8%80%85%E3%81%AE%E5%91%8A%E7%99%BD-J-C-Herz/dp/479420728X&https://m.media-amazon.com/images/I/41MRY3AP0NL._SY425_.jpg",
+        "note": "インターネットに夢中になった若者の視点から、90年代前半のオンライン文化を描いた回想的ノンフィクション。サイバースペースへの耽溺と、その明るさ・暗さの両面をユーモラスに綴る。/今で言う「ネット廃人」的な体験記ですが、ネットがまだ新しくワクワクしていた時代の空気が濃厚に残っています。現代の常時接続・スマホ依存の前史として読むと、「中毒」の意味がだいぶ変わってきたことも感じられます。",
+        "note_en": "A retrospective nonfiction depicting the online culture of the early 90s from the perspective of a young person obsessed with the internet. It humorously chronicles the indulgence in cyberspace and both its bright and dark sides./It is an experience record of what we would now call a \"net addict,\" but the atmosphere of the era when the net was still new and exciting remains thick. Reading it as a prehistory of modern constant connectivity and smartphone dependence, you can feel that the meaning of \"addiction\" has changed significantly."
+      },
+      {
+        "label": "人工生命（スティーブン・レビー著、服部桂訳）",
+        "label_en": "Artificial Life: The Quest for a New Creation(Steven Levy)",
+        "startYear": 1996,
+        "genre": [
+          "SCIENCE"
+        ],
+        "imp": 3,
+        "url": "https://www.amazon.co.jp/%E4%BA%BA%E5%B7%A5%E7%94%9F%E5%91%BD%E2%80%95%E3%83%87%E3%82%B8%E3%82%BF%E3%83%AB%E7%94%9F%E7%89%A9%E3%81%AE%E5%89%B5%E9%80%A0%E8%80%85%E3%81%9F%E3%81%A1-%E3%82%B9%E3%83%86%E3%82%A3%E3%83%BC%E3%83%96%E3%83%B3-%E3%83%AC%E3%83%93%E3%83%BC/dp/4022569573&https://m.media-amazon.com/images/I/51rUp7DaF9L._SY425_.jpg",
+        "url_en": "https://www.amazon.com/dp/0679743898&https://m.media-amazon.com/images/I/81VUavA+sdL._SY466_.jpg",
+        "note": "人工生命（ALife）研究の誕生と黎明期の研究者たちのドラマを、ルポルタージュ調で追ったノンフィクション。遺伝的アルゴリズム、セル・オートマトン、群ロボットなどが、どんな思想とノリで生まれてきたのかがよくわかる。/「生命っぽいふるまいをするコードやロボット」にワクワクしていた90年代の空気がそのまま詰まっている本です。純粋な技術解説というより「変わり者研究者たちの群像劇」という感じで、読み物としてもかなり楽しい。",
+        "note_en": "A nonfiction tracing the drama of the birth of Artificial Life (ALife) research and its early researchers in a reportage style. You can clearly understand the thoughts and vibes with which genetic algorithms, cellular automata, and swarm robots were born./A book packed with the atmosphere of the 90s, when people were excited about \"code and robots that behave like life.\" Rather than pure technical explanation, it reads like an \"ensemble drama of eccentric researchers,\" making it quite enjoyable as reading material."
+      },
+      {
+        "label": "マイクロサーフス（ダグラス・キャンベル クープランド著/江口 研一訳）",
+        "label_en": "Microserfs（Douglas Coupland）",
+        "startYear": 1996,
+        "genre": [
+          "POPCULTURE",
+          "NERD"
+        ],
+        "imp": 3,
+        "url": "https://www.amazon.co.jp/dp/4047913030/&https://m.media-amazon.com/images/I/51-1pG0BHcL.SY342.jpg",
+        "url_en": "https://en.wikipedia.org/wiki/Microserfs|https://www.amazon.com/Microserfs-Douglas-Coupland/dp/0006548598&https://m.media-amazon.com/images/I/51Vy2XL3TmL.SY342.jpg",
+        "note": "マイクロソフトのプログラマーたち、すなわち「マイクロサーフス（マイクロソフトの小間使い）」の生活と、彼らがシリコンバレーで起業を目指す姿を描いた小説。90年代のPC文化の熱狂、オタク的なライフスタイル、そしてIT業界黎明期のセンチメンタルな側面を鮮やかに捉えています。技術的な詳細よりも、当時の若者たちのアイデンティティや夢、人間関係に焦点を当て、ジェネレーションX世代の電脳ポップ・ノベルとして高い評価を得ました。(E)",
+        "note_en": "A novel depicting the lives of programmers at Microsoft, the \"Microserfs,\" and their journey to start a company in Silicon Valley. It vividly captures the enthusiasm of 90s PC culture, the nerdy lifestyle, and the sentimental aspects of the early IT industry. Focusing more on the identities, dreams, and relationships of the youth of the time rather than technical details, it was highly acclaimed as a cyber-pop novel of the Generation X era.(E)"
       }
     ],
     "1997": [
@@ -1999,6 +2304,46 @@
         "url_en": "https://www.amazon.com/Dave-Barry-Cyberspace-ebook/dp/B0043M4Z98&https://m.media-amazon.com/images/I/51za0YRNDWL._SY385_.jpg",
         "note": "著名なユーモア作家デイブ・バリーによる、コンピュータに関するコミカルなエッセイ集またはジョーク集。コンピュータ技術の進化と、それに伴う日常の混乱やフラストレーションを、皮肉とウィットに富んだ筆致で描いています。/コンピュータが一般家庭に普及し始めた時代背景を反映しており、技術に詳しくない一般の人々の視点から、コンピュータの持つ「おかしみ」や「面倒くささ」を笑いに変えています。当時のコンピュータを取り巻く大衆文化の雰囲気を伝える一冊です。(C)",
         "note_en": "A collection of comical essays or jokes about computers by the renowned humorist Dave Barry. It uses a satirical and witty style to describe the evolution of computer technology and the resulting everyday confusion and frustration. /Reflecting the era when computers were beginning to enter ordinary homes, it translates the \"absurdity\" and \"nuisance\" of computers into humor from the perspective of the general public less familiar with technology. It conveys the popular cultural atmosphere surrounding computers at the time.(C)"
+      },
+      {
+        "label": "チップに賭けた男たち（ボブ ジョンストン著/安原和見訳）",
+        "startYear": 1998,
+        "genre": [
+          "SCIENCE",
+          "COMPUTER",
+          "OUTOFPRINT"
+        ],
+        "imp": 3,
+        "url": "https://www.amazon.co.jp/dp/4062080214&https://m.media-amazon.com/images/I/51+FF2lNUJL.SY342.jpg",
+        "note": "現代文明を支える半導体技術の裏側で活躍する日本の地味だが偉大な技術者たちに光を当てたノンフィクション。電卓、時計、ビデオカメラ、CDプレイヤーなどの開発に携わった「チップ」に人生を賭けた男たちの情熱と苦闘を、彼らの業績だけでなく人となりも含めて描いています。世界に誇る日本のものづくり文化と、技術者の精神性、そしてイノベーションが生まれる現場の熱気を伝える貴重な記録です。(E)",
+        "note_en": "A non-fiction book that highlights the modest yet great Japanese engineers working behind the scenes of the semiconductor technology that underpins modern civilization. It portrays the passion and struggles of the men who staked their lives on \"chips\" involved in the development of calculators, watches, video cameras, CD players, and more, focusing not just on their achievements but also their personalities. It's a valuable record conveying Japan's world-class manufacturing culture, the engineers' ethos, and the fervor of the innovation birthplace.(E)"
+      },
+      {
+        "label": "インターネットの起源（ケイティ・ハフナー、マシュー・ライアン著/加地永都子、道田豪訳）",
+        "label_en": "Where Wizards Stay Up Late(Katie Hafner/Matthew Lyon)",
+        "startYear": 1998,
+        "genre": [
+          "COMPUTER"
+        ],
+        "imp": 3,
+        "url": "https://www.amazon.co.jp/dp/4756134793&https://m.media-amazon.com/images/I/51RGwRZWUCL._SY385_.jpg",
+        "url_en": "https://www.amazon.com/dp/0684832674&https://m.media-amazon.com/images/I/81dvEjqwMiL._SY385_.jpg",
+        "note": "世界初のパケット交換ネットワークであるARPANET（アーパネット）の誕生から、インターネットの基盤が築かれるまでの物語を描いたノンフィクション。当時の開発者たちの情熱と苦闘、そしてネットワーク技術の画期的なアイデアがいかにして生まれたかを生き生きと伝えています。/「インターネット」というものが、少数の熱心な研究者たちの夜を徹した努力によって、いかにして夢から現実へと変わっていったのかを知ることができます。Web以前の「ネットワークの歴史」を知る上で必読の書です。(C)",
+        "note_en": "A non-fiction account detailing the story from the birth of ARPANET, the world's first packet-switching network, to the laying of the foundation for the Internet. It vividly conveys the passion and struggles of the developers at the time, and how the groundbreaking ideas of network technology came to be. /Readers can learn how the \"Internet\" transformed from a dream into reality through the tireless efforts of a small group of dedicated researchers working late nights. It is an essential read for understanding the \"history of networking\" before the World Wide Web.(C)"
+      },
+      {
+        "label": "テイブ・バリーの笑えるコンピュータ（デイブ・バリー）",
+        "label_en": "Dave Barry in Cyberspace",
+        "startYear": 1998,
+        "genre": [
+          "POPCULTURE",
+          "OUTOFPRINT"
+        ],
+        "imp": 3,
+        "url": "https://www.amazon.co.jp/dp/4794208278&https://m.media-amazon.com/images/I/41D8G7EATGL._SY385_.jpg",
+        "url_en": "https://www.amazon.com/Dave-Barry-Cyberspace-ebook/dp/B0043M4Z98&https://m.media-amazon.com/images/I/51za0YRNDWL._SY385_.jpg",
+        "note": "著名なユーモア作家デイブ・バリーによる、コンピュータに関するコミカルなエッセイ集またはジョーク集。コンピュータ技術の進化と、それに伴う日常の混乱やフラストレーションを、皮肉とウィットに富んだ筆致で描いています。/コンピュータが一般家庭に普及し始めた時代背景を反映しており、技術に詳しくない一般の人々の視点から、コンピュータの持つ「おかしみ」や「面倒くささ」を笑いに変えています。当時のコンピュータを取り巻く大衆文化の雰囲気を伝える一冊です。(C)",
+        "note_en": "A collection of comical essays or jokes about computers by the renowned humorist Dave Barry. It uses a satirical and witty style to describe the evolution of computer technology and the resulting everyday confusion and frustration. /Reflecting the era when computers were beginning to enter ordinary homes, it translates the \"absurdity\" and \"nuisance\" of computers into humor from the perspective of the general public less familiar with technology. It conveys the popular cultural atmosphere surrounding computers at the time.(C)"
       }
     ],
     "2000": [
@@ -2024,6 +2369,33 @@
           "COMPUTER",
           "SCIENCE",
           "WORK"
+        ],
+        "imp": 3,
+        "url": "https://www.amazon.co.jp/dp/4794209924&https://m.media-amazon.com/images/I/51hYAKh-H+L._SY445_SX342_ControlCacheEqualizer_.jpg",
+        "url_en": "https://en.wikipedia.org/wiki/The_Pattern_on_the_Stone|https://www.amazon.com/Pattern-Stone-Computers-Science-Masters/dp/046502596X&https://m.media-amazon.com/images/I/61igb-3soGL._SY425_.jpg",
+        "note": "パラレルコンピューティングのパイオニアであるダニエル・ヒリスが、コンピュータの仕組みとその可能性を、一般の読者にも分かりやすく解説した入門書。計算とは何か、情報とは何かといった根源的な問いから、並列処理や量子コンピュータのアイデアまでをカバーしています。/コンピュータを「石の上に描かれたパターン」として捉える詩的な視点から、その本質を解き明かします。技術的な詳細に深入りすることなく、コンピュータサイエンスの核心的な概念と、未来へのビジョンを学ぶことができます。(C)",
+        "note_en": "An introductory book by Daniel Hillis, a pioneer of parallel computing, explaining the mechanisms and potential of computers in an accessible way for general readers. It covers fundamental questions like \"What is computation?\" and \"What is information?\" up to ideas of parallel processing and quantum computing. /It unravels the essence of the computer from the poetic perspective of seeing it as \"The Pattern on The Stone.\" Readers can learn core concepts of computer science and a vision for the future without delving deeply into technical specifics.(C)"
+      },
+      {
+        "label": "未来をつくった人々（マイケル・ヒルツィック著/エ・ビスコム・テック・ラボ監訳 鴨沢真夫訳）",
+        "label_en": "Dealers of Lightning(Michael Hiltzik)",
+        "startYear": 2000,
+        "genre": [
+          "COMPUTER"
+        ],
+        "imp": 3,
+        "url": "https://www.amazon.co.jp/dp/4839902259&https://m.media-amazon.com/images/I/51sRc3wHsdL._SY385_.jpg",
+        "url_en": "https://www.amazon.com/dp/0887309895&https://m.media-amazon.com/images/I/61pJVqUUoJL._SY385_.jpg",
+        "note": "ゼロックス・パロアルト研究所（PARC）という、現代のパーソナルコンピューティングのほぼ全ての要素（GUI、マウス、レーザープリンタ、イーサネットなど）が生まれた「未来の工場」の栄光と悲劇を描いたノンフィクション。/画期的な発明が次々と生まれた環境と、それが商業的な成功に結びつかなかった理由、そしてスティーブ・ジョブズやビル・ゲイツといった外部の人間がそれらの技術をどう活用していったかをドラマチックに描いています。現代ITのルーツを知る上で必読の一冊です。(C)",
+        "note_en": "A non-fiction book that recounts the glory and tragedy of Xerox PARC, the \"factory of the future\" where nearly every element of modern personal computing (GUI, mouse, laser printer, Ethernet, etc.) was born. /It dramatically describes the environment that fostered groundbreaking inventions, the reasons they didn't translate into commercial success for Xerox, and how outsiders like Steve Jobs and Bill Gates capitalized on these technologies. It is a must-read for understanding the roots of modern IT.(C)"
+      },
+      {
+        "label": "思考する機械 コンピュータ（ダニエル・ヒリス著/倉骨彰訳）",
+        "label_en": "The Pattern on The Stone(W. Daniel Hillis)",
+        "startYear": 2000,
+        "genre": [
+          "COMPUTER",
+          "SCIENCE"
         ],
         "imp": 3,
         "url": "https://www.amazon.co.jp/dp/4794209924&https://m.media-amazon.com/images/I/51hYAKh-H+L._SY445_SX342_ControlCacheEqualizer_.jpg",
@@ -2073,6 +2445,19 @@
         "url_en": "https://en.wikipedia.org/wiki/Weaving_the_Web|https://www.amazon.com/Weaving-Web-Original-Ultimate-Inventor/dp/3430114683&https://m.media-amazon.com/images/I/71XDDMTPV7L._SY425_.gif",
         "note": "World Wide Webの発明者ティム・バーナーズ＝リー自身が、Webがいかにして生まれたか、そして彼が思い描くWebの未来、特に「セマンティック・ウェブ」のビジョンについて語った書籍。/Webを単なる情報閲覧ツールとしてではなく、人類全体の知を結びつけるプラットフォームとして構想した彼の理念と、その技術的な背景が詳細に描かれています。Webのオープンで民主的な原則を維持することの重要性についても強く訴えかけています。(C)",
         "note_en": "A book by World Wide Web inventor Tim Berners-Lee himself, discussing how the Web came into existence and his vision for its future, particularly the \"Semantic Web.\" /It details his philosophy of conceiving the Web not just as an information viewing tool but as a platform to connect the entire knowledge of humanity, along with its technical background. It strongly advocates for the importance of maintaining the Web's open and democratic principles.(C)"
+      },
+      {
+        "label": "それがぼくには楽しかったから 全世界を巻き込んだリナックス革命の真実（リーナス・トーバルズ、デイビッド・ダイヤモンド著/風見潤訳/中島洋監修）",
+        "label_en": "Just for Fun: The Story of An Accidental Revolutionary(Linus Torvalds/David Diamond)",
+        "startYear": 2001,
+        "genre": [
+          "HACKER"
+        ],
+        "imp": 3,
+        "url": "https://www.amazon.co.jp/dp/4796880011&https://m.media-amazon.com/images/I/812VnYtI2LL._SY342_.jpg",
+        "url_en": "https://www.amazon.com/dp/0066620724&https://m.media-amazon.com/images/I/51fUsv9cEZL._SY445_SX342_FMwebp_.jpg",
+        "note": "Linuxオペレーティングシステムの生みの親、リーナス・トーバルズの自伝。彼がどのようにして個人的な興味からカーネル開発を始め、それが世界最大の協調開発プロジェクトの一つであるLinuxに発展していったのかを、ユーモアを交えながら語っています。/自身の動機は「楽しかったから」というシンプルなものでありながら、結果的に世界のITインフラを根底から変えてしまった「リナックス革命」の真実が、開発者自身の視点から描かれています。オープンソース文化を理解する上での重要な一冊です。(C)",
+        "note_en": "The autobiography of Linus Torvalds, the creator of the Linux operating system. He recounts, with humor, how he started kernel development out of personal interest and how it evolved into Linux, one of the world's largest collaborative development projects. /The \"Linux revolution,\" which fundamentally changed global IT infrastructure despite his stated simple motivation of \"just for fun,\" is described from the developer's own perspective. It is an important book for understanding open-source culture.(C)"
       }
     ],
     "2003": [
@@ -2084,6 +2469,20 @@
           "HACKER",
           "THEORYMEDIA",
           "WORK"
+        ],
+        "imp": 3,
+        "url": "https://www.amazon.co.jp/dp/4756142818&https://m.media-amazon.com/images/I/51qVC8ltYeL._SY385_.jpg",
+        "url_en": "https://en.wikipedia.org/wiki/Free_Software,_Free_Society",
+        "note": "フリーソフトウェア運動の創始者であるリチャード・ストールマンのエッセイ集。ソフトウェアの「自由」とは何か、コピーライト（著作権）の問題、そして技術が社会や倫理に与える影響について、彼自身の哲学と強い信念が表明されています。/ソフトウェアを単なる道具ではなく、ユーザーの自由と社会的な公正に関わる倫理的な問題として捉えるストールマンの思想は、現代のオープンソースやAI倫理の議論にも大きな影響を与え続けています。ハッカー文化の根幹にある考え方を知るための必読書です。(C)",
+        "note_en": "A collection of essays by Richard M. Stallman, the founder of the Free Software movement. It articulates his philosophy and strong convictions on what constitutes the \"freedom\" of software, issues of copyright, and technology's impact on society and ethics. /Stallman's view of software not merely as a tool but as an ethical concern related to user freedom and social justice continues to profoundly influence discussions on modern open source and AI ethics. It is an essential read for understanding the core ideas of hacker culture.(C)"
+      },
+      {
+        "label": "フリーソフトウェアと自由な社会 R-Chard M.Stallman エッセイ集（リチャード・M・ストールマン他著/株式会社ロングテール、長尾高弘訳）",
+        "label_en": "Free Software, Free Society Selected Essays of Richard M. Stallman(Richard M. Stallman/Joshua Gay/Lawrence Lassig)",
+        "startYear": 2003,
+        "genre": [
+          "HACKER",
+          "THEORYMEDIA"
         ],
         "imp": 3,
         "url": "https://www.amazon.co.jp/dp/4756142818&https://m.media-amazon.com/images/I/51qVC8ltYeL._SY385_.jpg",
@@ -2107,6 +2506,20 @@
         "url_en": "https://en.wikipedia.org/wiki/Hackers_%26_Painters|https://www.amazon.com/Hackers-Painters-Big-Ideas-Computer/dp/B08Z4FHH3T&https://m.media-amazon.com/images/I/91ydydG-m+L.SX342.jpg",
         "note": "天才LISPハッカーであり、大成功を収めたベンチャー企業の創業者であるポール・グレアムによるエッセイ集。ハッカーを「画家や建築家と同じ、ものを創る人々」と定義し、プログラミング、スタートアップ、富の創造、オタク文化など、コンピュータ時代の創造者に向けた深い洞察を提供します。特に、「富の創りかた」や「もうひとつの未来への道（Webベースソフトウェア）」といった章は、起業家精神やイノベーションの考え方を刺激します。(E)",
         "note_en": "A collection of essays by Paul Graham, a genius LISP hacker and the founder of a highly successful venture company. Defining hackers as \"people who create things, just like painters and architects,\" the book offers deep insights for creators in the computer age on topics such as programming, startups, wealth creation, and nerd culture. Chapters like \"How to Make Wealth\" and \"The Other Road Ahead (Web-based software)\" are particularly stimulating for entrepreneurial spirit and the mindset of innovation.(E)"
+      },
+      {
+        "label": "ハッカーと画家 コンピュータ時代の創造者たち（Paul Graham著/川合史朗監訳）",
+        "label_en": "Hackers & Painters: Big Ideas from the Computer Age（Paul Graham）",
+        "startYear": 2005,
+        "genre": [
+          "HACKER",
+          "COMPUTER"
+        ],
+        "imp": 3,
+        "url": "https://www.amazon.co.jp/dp/4274065979&https://m.media-amazon.com/images/I/81hFpVptJpL.SY342.jpg",
+        "url_en": "https://en.wikipedia.org/wiki/Hackers_%26_Painters|https://www.amazon.com/Hackers-Painters-Big-Ideas-Computer/dp/B08Z4FHH3T&https://m.media-amazon.com/images/I/91ydydG-m+L.SX342.jpg",
+        "note": "天才LISPハッカーであり、大成功を収めたベンチャー企業の創業者であるポール・グレアムによるエッセイ集。ハッカーを「画家や建築家と同じ、ものを創る人々」と定義し、プログラミング、スタートアップ、富の創造、オタク文化など、コンピュータ時代の創造者に向けた深い洞察を提供します。特に、「富の創りかた」や「もうひとつの未来への道（Webベースソフトウェア）」といった章は、起業家精神やイノベーションの考え方を刺激します。(E)",
+        "note_en": "A collection of essays by Paul Graham, a genius LISP hacker and the founder of a highly successful venture company. Defining hackers as \"people who create things, just like painters and architects,\" the book offers deep insights for creators in the computer age on topics such as programming, startups, wealth creation, and nerd culture. Chapters like \"How to Make Wealth\" and \"The Other Road Ahead (Web-based software)\" are particularly stimulating for entrepreneurial spirit and the mindset of innovation.(E)"
       }
     ],
     "2025": [
@@ -2117,6 +2530,19 @@
         "genre": [
           "COMPUTER",
           "WORK"
+        ],
+        "imp": 3,
+        "url": "https://www.amazon.co.jp/dp/4571410808/&https://m.media-amazon.com/images/I/41IgG06WGEL.SY445_SX342_ControlCacheEqualizer.jpg",
+        "url_en": "https://www.amazon.com/dp/0226816524/&https://m.media-amazon.com/images/I/41ej3HdnjeL.SY445_SX342_FMwebp.jpg",
+        "note": "1970年代から80年代にかけて、個人向けコンピュータ黎明期を築いたApple IIが、家庭、ビジネス、教育など様々な分野でどのようにソフトウェア市場の成立をもたらしたかを多角的に描く歴史書。ビデオゲームおよびコンピュータ産業の歴史的・文化的・経済的分析を専門とする著者が、当時の文化や技術革新、そして市場のダイナミズムを詳細に解説します。パーソナルコンピュータの時代の幕開けを理解するための貴重な一冊です。(E)",
+        "note_en": "A historical book that comprehensively describes how the Apple II, which pioneered the early days of personal computers in the 1970s and 80s, contributed to the establishment of the software market in various fields such as home, business, and education. The author, specializing in the historical, cultural, and economic analysis of the video game and computer industry, provides a detailed account of the culture, technological innovation, and market dynamics of the time. This is a valuable book for understanding the dawn of the personal computer era.(E)"
+      },
+      {
+        "label": "Apple IIは何を変えたのか　パーソナル・ソフトウェア市場の誕生（レイン・ヌーニー著/山形浩生訳）",
+        "label_en": "The Apple II Age: How the Computer Became Personal（Laine Nooney）",
+        "startYear": 2025,
+        "genre": [
+          "COMPUTER"
         ],
         "imp": 3,
         "url": "https://www.amazon.co.jp/dp/4571410808/&https://m.media-amazon.com/images/I/41IgG06WGEL.SY445_SX342_ControlCacheEqualizer.jpg",
