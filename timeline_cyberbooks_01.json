@@ -89,6 +89,23 @@
         "note_en": "A monumental, multi-volume work by Donald Knuth, often referred to as the \"Bible of Algorithms\" by computer scientists and programmers worldwide. This comprehensive series, planned for seven volumes, systematically explains the fundamental concepts of algorithms, data structures, and seminumerical methods with rigorous mathematical analysis and detailed examples./It goes beyond mere programming techniques, embodying the philosophy of treating algorithms as an art form. It is essential reading for anyone seeking a deep understanding of computing. Each exercise is assigned a difficulty rating, making it an invaluable self-study text."
       }
     ],
+    "1970": [
+      {
+        "label": "人工頭脳と自己増殖 ―― オートマトンの論理学概論（ジョン・フォン・ノイマン著、品川嘉也・品川泰子訳）",
+        "startYear": 1970,
+        "genre": [
+          "SCIENCE",
+          "COMPUTER",
+          "WORK"
+        ],
+        "imp": 3,
+        "url": "https://www.amazon.co.jp/dp/4124001460/&https://m.media-amazon.com/images/I/81z5gw3JUBL._SY425_.jpg",
+        "note": "自己増殖オートマトンの可能性を論じた、オートマトン理論・人工生命の源流となる短いが重要な論文。神経回路網と計算可能性の関係についての記述は、その後のニューラルネット研究や「計算機と脳」論にも大きな影響を与えた。/「コンピュータの父」は、実はかなり早い段階で“自己増殖する機械”と“人工頭脳”にまで考えを伸ばしていました。この短い論文の中に、AI・人工生命・複雑系のタネがぎっしり詰まっている、歴史的にはかなり濃い一篇です。",
+        "label_en": "The General and Logical Theory of Automata(John von Neumann)",
+        "url_en": "https://www.vordenker.de/ggphilosophy/jvn_the-general-and-logical-theory-of-automata.pdf",
+        "note_en": "A short but important paper discussing the possibility of self-reproducing automata, serving as the source of automaton theory and artificial life. Descriptions regarding the relationship between neural networks and computability greatly influenced subsequent neural network research and discussions on \"computers and the brain.\"/The \"father of the computer\" had actually extended his thoughts to \"self-reproducing machines\" and \"artificial brains\" at a quite early stage. It is a historically dense piece packed with the seeds of AI, artificial life, and complex systems within this short paper."
+      }
+    ],
     "1971": [
       {
         "label": "零度のエクリチュール（ロラン・バルト著、渡辺淳・沢村昂一訳）",
