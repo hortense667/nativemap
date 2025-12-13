@@ -37,7 +37,8 @@
         "label_en": "Cybernetics: Or Control and Communication in the Animal and the Machine(Norbert Wiener)",
         "startYear": 1948,
         "genre": [
-          "SCIENCE"
+          "SCIENCE",
+          "WORK"
         ],
         "imp": 3,
         "url": "https://www.amazon.co.jp/GENERIC-%E3%82%B5%E3%82%A4%E3%83%90%E3%83%8D%E3%83%86%E3%82%A3%E3%83%83%E3%82%AF%E3%82%B9-%E5%8B%95%E7%89%A9%E3%81%A8%E6%A9%9F%E6%A2%B0%E3%81%AB%E3%81%8A%E3%81%91%E3%82%8B%E5%88%B6%E5%BE%A1%E3%81%A8%E9%80%9A%E4%BF%A1/dp/B0G5637N99&https://m.media-amazon.com/images/I/71oGWVhIz2L._AC_SX679_.jpg",
@@ -81,7 +82,8 @@
         "startYear": 1970,
         "genre": [
           "SCIENCE",
-          "COMPUTER"
+          "COMPUTER",
+          "WORK"
         ],
         "imp": 3,
         "url": "https://www.amazon.co.jp/dp/4124001460/&https://m.media-amazon.com/images/I/81z5gw3JUBL._SY425_.jpg",
@@ -1279,7 +1281,8 @@
         "label_en": "Acid Dreams: The CIA, LSD, and the Sixties Rebellion(Martin A. Lee, Bruce Shlain)",
         "startYear": 1992,
         "genre": [
-          "POPCULTURE"
+          "POPCULTURE",
+          "WORK"
         ],
         "imp": 3,
         "url": "https://www.amazon.co.jp/dp/4807492039&https://m.media-amazon.com/images/I/71cdxlRABtL._SY425_.jpg",
@@ -1319,7 +1322,8 @@
         "startYear": 1992,
         "genre": [
           "COMPUTER",
-          "THEORYMEDIA"
+          "THEORYMEDIA",
+          "WORK"
         ],
         "imp": 3,
         "url": "https://www.amazon.co.jp/%E3%82%B3%E3%83%B3%E3%83%94%E3%83%A5%E3%83%BC%E3%82%BF%E3%81%AB%E3%81%AF%E4%BD%95%E3%81%8C%E3%81%A7%E3%81%8D%E3%81%AA%E3%81%84%E3%81%8B%E2%80%95%E5%93%B2%E5%AD%A6%E7%9A%84%E4%BA%BA%E5%B7%A5%E7%9F%A5%E8%83%BD%E6%89%B9%E5%88%A4-%E3%83%92%E3%83%A5%E3%83%BC%E3%83%90%E3%83%BC%E3%83%88%E3%83%BBL-%E3%83%89%E3%83%AC%E3%82%A4%E3%83%95%E3%82%A1%E3%82%B9/dp/478280069X&https://m.media-amazon.com/images/I/51lGmLiVTrL._SY425_.jpg",
@@ -1332,7 +1336,8 @@
         "label_en": "Personal Dynamic Media and Others(Alan Kay)",
         "startYear": 1992,
         "genre": [
-          "COMPUTER"
+          "COMPUTER",
+          "WORK"
         ],
         "imp": 3,
         "url": "https://www.amazon.co.jp/%E3%82%A2%E3%83%A9%E3%83%B3%E3%83%BB%E3%82%B1%E3%82%A4-Ascii-books-%E3%82%A2%E3%83%A9%E3%83%B3%E3%83%BBC-%E3%82%B1%E3%82%A4/dp/4756101070&https://m.media-amazon.com/images/I/21UZSW50iaL.jpg",
@@ -1345,7 +1350,8 @@
         "startYear": 1992,
         "genre": [
           "THEORYMEDIA",
-          "COMPUTER"
+          "COMPUTER",
+          "WORK"
         ],
         "imp": 3,
         "url": "https://www.amazon.co.jp/%E5%8A%87%E5%A0%B4%E3%81%A8%E3%81%97%E3%81%A6%E3%81%AE%E3%82%B3%E3%83%B3%E3%83%94%E3%83%A5%E3%83%BC%E3%82%BF-%E3%82%A2%E3%82%B8%E3%82%BD%E3%83%B3-%E3%82%A6%E3%82%A7%E3%82%B9%E3%83%AC%E3%82%A4%E3%83%BB%E3%83%88%E3%83%83%E3%83%91%E3%83%B3%E6%83%85%E5%A0%B1%E7%A7%91%E5%AD%A6%E3%82%B7%E3%83%AA%E3%83%BC%E3%82%BA-%E3%83%96%E3%83%AC%E3%83%B3%E3%83%80-%E3%83%AD%E3%83%BC%E3%83%AC%E3%83%AB/dp/4810180441&https://m.media-amazon.com/images/I/71T5Cih+TLL._SY425_.jpg",
@@ -1372,7 +1378,8 @@
         "label_en": "Cyberpunk: Outlaws and Hackers on the Computer Frontier(Katie Hafner, John Markoff)",
         "startYear": 1992,
         "genre": [
-          "HACKER"
+          "HACKER",
+          "WORK"
         ],
         "imp": 3,
         "url": "https://www.amazon.co.jp/%E3%83%8F%E3%83%83%E3%82%AB%E3%83%BC%E3%81%AF%E7%AC%91%E3%81%86-%E3%82%B1%E3%82%A4%E3%83%86%E3%82%A3-%E3%83%8F%E3%83%95%E3%83%8A%E3%83%BC/dp/4871883876&https://m.media-amazon.com/images/I/91ZJLJMHy+L._SY425_.jpg",
@@ -1415,7 +1422,8 @@
         "label_en": "Virtual Worlds: A Journey in Hype and Hyperreality(Benjamin Woolley)",
         "startYear": 1993,
         "genre": [
-          "THEORYMEDIA"
+          "THEORYMEDIA",
+          "WORK"
         ],
         "imp": 3,
         "url": "https://www.amazon.co.jp/%E3%83%90%E3%83%BC%E3%83%81%E3%83%A3%E3%83%AB%E3%83%AF%E3%83%BC%E3%83%AB%E3%83%89-%E3%83%99%E3%83%B3%E3%82%B8%E3%83%A3%E3%83%9F%E3%83%B3-%E3%82%A6%E3%83%BC%E3%83%AA%E3%83%BC/dp/484434630X",
@@ -1470,7 +1478,8 @@
         "startYear": 1994,
         "genre": [
           "COMPUTER",
-          "OUTOFPRINT"
+          "OUTOFPRINT",
+          "WORK"
         ],
         "imp": 3,
         "url": "https://www.amazon.co.jp/dp/4871882659&https://m.media-amazon.com/images/I/51zVA4lTBJL._SY522_.jpg",
@@ -1509,7 +1518,8 @@
         "label_en": "Writing Space: The Computer, Hypertext, and the History of Writing(Jay David Bolter)",
         "startYear": 1994,
         "genre": [
-          "THEORYMEDIA"
+          "THEORYMEDIA",
+          "WORK"
         ],
         "imp": 3,
         "url": "https://www.amazon.co.jp/%E3%83%A9%E3%82%A4%E3%83%86%E3%82%A3%E3%83%B3%E3%82%B0-%E3%82%B9%E3%83%9A%E3%83%BC%E3%82%B9%E2%80%95%E9%9B%BB%E5%AD%90%E3%83%86%E3%82%AD%E3%82%B9%E3%83%88%E6%99%82%E4%BB%A3%E3%81%AE%E3%82%A8%E3%82%AF%E3%83%AA%E3%83%81%E3%83%A5%E3%83%BC%E3%83%AB-%E3%82%B8%E3%82%A7%E3%82%A4%E3%83%BB%E3%83%87%E3%82%A4%E3%83%B4%E3%82%A3%E3%83%83%E3%83%89-%E3%83%9C%E3%83%AB%E3%82%BF%E3%83%BC/dp/4782800878&https://m.media-amazon.com/images/I/71NtT+OT1rL._SY425_.jpg",
@@ -1548,7 +1558,8 @@
         "label_en": "A Quarter Century of UNIX(Peter H. Salus)",
         "startYear": 1994,
         "genre": [
-          "COMPUTER"
+          "COMPUTER",
+          "WORK"
         ],
         "imp": 3,
         "url": "https://www.amazon.co.jp/dp/4756136591&https://m.media-amazon.com/images/I/515brQ1pBJL._SY342_.jpg",
@@ -1561,7 +1572,8 @@
         "startYear": 1994,
         "genre": [
           "COMPUTER",
-          "OUTOFPRINT"
+          "OUTOFPRINT",
+          "WORK"
         ],
         "imp": 3,
         "url": "https://www.amazon.co.jp/dp/4484942291&https://m.media-amazon.com/images/I/51PG6-cQtmL._SY342_.jpg",
@@ -1590,7 +1602,8 @@
         "startYear": 1995,
         "genre": [
           "POPCULTURE",
-          "COMPUTER"
+          "COMPUTER",
+          "WORK"
         ],
         "imp": 3,
         "url": "https://www.amazon.co.jp/%E3%83%90%E3%83%BC%E3%83%81%E3%83%A3%E3%83%AB%E3%83%BB%E3%82%B3%E3%83%9F%E3%83%A5%E3%83%8B%E3%83%86%E3%82%A3%E2%80%95%E3%82%B3%E3%83%B3%E3%83%94%E3%83%A5%E3%83%BC%E3%82%BF%E3%83%BC%E3%83%BB%E3%83%8D%E3%83%83%E3%83%88%E3%83%AF%E3%83%BC%E3%82%AF%E3%81%8C%E5%89%B5%E3%82%8B%E6%96%B0%E3%81%97%E3%81%84%E7%A4%BE%E4%BC%9A-%E3%83%8F%E3%83%AF%E3%83%BC%E3%83%89-%E3%83%A9%E3%82%A4%E3%83%B3%E3%82%B4%E3%83%BC%E3%83%AB%E3%83%89/dp/4895831426&https://m.media-amazon.com/images/I/51uZHz7pANL._SY425_.jpg",
@@ -1617,7 +1630,8 @@
         "startYear": 1995,
         "genre": [
           "THEORYMEDIA",
-          "SCIENCE"
+          "SCIENCE",
+          "WORK"
         ],
         "imp": 3,
         "url": "https://www.amazon.co.jp/%E3%82%AA%E3%83%BC%E3%83%88%E3%83%9D%E3%82%A4%E3%82%A8%E3%83%BC%E3%82%B7%E3%82%B9%E2%80%95%E7%AC%AC%E4%B8%89%E4%B8%96%E4%BB%A3%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0-%E6%B2%B3%E6%9C%AC-%E8%8B%B1%E5%A4%AB/dp/4791753879&https://m.media-amazon.com/images/I/41PEzYjNDhL._SY425_.jpg",
@@ -1630,7 +1644,8 @@
         "startYear": 1995,
         "genre": [
           "THEORYMEDIA",
-          "COMPUTER"
+          "COMPUTER",
+          "WORK"
         ],
         "imp": 3,
         "url": "https://www.amazon.co.jp/%E3%83%81%E3%83%A5%E3%83%BC%E3%83%AA%E3%83%B3%E3%82%B0%E3%83%BB%E3%83%9E%E3%83%B3-J-%E3%83%BB%E3%83%87%E3%82%A4%E3%83%B4%E3%82%A3%E3%83%83%E3%83%89-%E3%83%9C%E3%83%AB%E3%82%BF%E3%83%BC/dp/4622039540&https://m.media-amazon.com/images/I/41SqatJi+ML._SY425_.jpg",
@@ -1656,7 +1671,8 @@
         "label_en": "SECRETS OF A SUPER HACKER(Nightmare)",
         "startYear": 1995,
         "genre": [
-          "HACKER"
+          "HACKER",
+          "WORK"
         ],
         "imp": 3,
         "url": "https://www.amazon.co.jp/%E3%82%B7-%E3%82%AF%E3%83%AC%E3%83%83%E3%83%88%E3%83%BB%E3%82%AA%E3%83%96%E3%83%BB%E3%82%B9-%E3%83%91-%E3%83%8F%E3%83%83%E3%82%AB-%E3%81%82%E3%81%AA%E3%81%9F%E3%81%AE%E3%82%B3%E3%83%B3%E3%83%94%E3%83%A5-%E3%82%BF%E3%82%82%E7%8B%99%E3%82%8F%E3%82%8C%E3%81%A6%E3%81%84%E3%82%8B-%E3%83%8A%E3%82%A4%E3%83%88%E3%83%A1%E3%82%A2/dp/4820711334&https://m.media-amazon.com/images/I/A1QQI5IIZTL._SY425_.jpg",
@@ -1670,7 +1686,8 @@
         "startYear": 1995,
         "genre": [
           "HACKER",
-          "POPCULTURE"
+          "POPCULTURE",
+          "WORK"
         ],
         "imp": 3,
         "url": "https://www.amazon.co.jp/%E3%82%B5%E3%82%A4%E3%83%99%E3%83%AA%E3%82%A2-%E3%83%87%E3%82%B8%E3%82%BF%E3%83%AB%E3%83%BB%E3%82%A2%E3%83%B3%E3%83%80%E3%83%BC%E3%82%B0%E3%83%A9%E3%82%A6%E3%83%B3%E3%83%89%E3%81%AE%E7%8F%BE%E5%9C%A8%E5%BD%A2-%E3%83%80%E3%82%B0%E3%83%A9%E3%82%B9-%E3%83%A9%E3%82%B7%E3%83%A5%E3%82%B3%E3%83%95/dp/4756104983",
@@ -1683,7 +1700,8 @@
         "label_en": "MASTERS OF DECEPTION(Joshua Quittner, Michelle Slatalla)",
         "startYear": 1995,
         "genre": [
-          "HACKER"
+          "HACKER",
+          "WORK"
         ],
         "imp": 3,
         "url": "https://www.amazon.co.jp/%E3%82%B5%E3%82%A4%E3%83%90%E3%83%BC%E3%82%B9%E3%83%9A%E3%83%BC%E3%82%B9%E3%81%AE%E6%B1%BA%E9%97%98-%E3%82%B8%E3%83%A7%E3%82%B7%E3%83%A5%E3%82%A2-%E3%82%AF%E3%82%A6%E3%82%A3%E3%83%83%E3%83%88%E3%83%8A%E3%83%BC/dp/4047912379&https://m.media-amazon.com/images/I/51jxCuAYVYL._SY425_.jpg",
@@ -1697,7 +1715,8 @@
         "startYear": 1995,
         "genre": [
           "POPCULTURE",
-          "NERD"
+          "NERD",
+          "WORK"
         ],
         "imp": 3,
         "url_en": "https://www.amazon.com/Humour-Computer-Press-Andrew-Davison/dp/0262540754&https://m.media-amazon.com/images/I/618qs0XttpL._SY385_.jpg",
@@ -1710,7 +1729,8 @@
         "startYear": 1995,
         "genre": [
           "THEORYMEDIA",
-          "POPCULTURE"
+          "POPCULTURE",
+          "WORK"
         ],
         "imp": 3,
         "url": "https://www.amazon.co.jp/dp/4756139655&https://m.media-amazon.com/images/I/81E6cfJCW3L._SX445_.jpg",
@@ -1739,7 +1759,8 @@
         "label_en": "Surfing on the Internet: A Nethead’s Tale(J. C. Herz)",
         "startYear": 1996,
         "genre": [
-          "POPCULTURE"
+          "POPCULTURE",
+          "WORK"
         ],
         "imp": 3,
         "url": "https://www.amazon.co.jp/%E3%82%A4%E3%83%B3%E3%82%BF%E3%83%BC%E3%83%8D%E3%83%83%E3%83%88%E4%B8%AD%E6%AF%92%E8%80%85%E3%81%AE%E5%91%8A%E7%99%BD-J-C-Herz/dp/479420728X&https://m.media-amazon.com/images/I/41MRY3AP0NL._SY425_.jpg",
@@ -1764,7 +1785,8 @@
         "label_en": "Artificial Life: The Quest for a New Creation(Steven Levy)",
         "startYear": 1996,
         "genre": [
-          "SCIENCE"
+          "SCIENCE",
+          "WORK"
         ],
         "imp": 3,
         "url": "https://www.amazon.co.jp/%E4%BA%BA%E5%B7%A5%E7%94%9F%E5%91%BD%E2%80%95%E3%83%87%E3%82%B8%E3%82%BF%E3%83%AB%E7%94%9F%E7%89%A9%E3%81%AE%E5%89%B5%E9%80%A0%E8%80%85%E3%81%9F%E3%81%A1-%E3%82%B9%E3%83%86%E3%82%A3%E3%83%BC%E3%83%96%E3%83%B3-%E3%83%AC%E3%83%93%E3%83%BC/dp/4022569573&https://m.media-amazon.com/images/I/51rUp7DaF9L._SY425_.jpg",
@@ -1868,7 +1890,8 @@
         "startYear": 1996,
         "genre": [
           "POPCULTURE",
-          "NERD"
+          "NERD",
+          "WORK"
         ],
         "imp": 3,
         "url": "https://www.amazon.co.jp/dp/4047913030/&https://m.media-amazon.com/images/I/51-1pG0BHcL.SY342.jpg",
@@ -1926,7 +1949,8 @@
         "genre": [
           "SCIENCE",
           "COMPUTER",
-          "OUTOFPRINT"
+          "OUTOFPRINT",
+          "WORK"
         ],
         "imp": 3,
         "url": "https://www.amazon.co.jp/dp/4062080214&https://m.media-amazon.com/images/I/51+FF2lNUJL.SY342.jpg",
@@ -1938,7 +1962,8 @@
         "label_en": "Where Wizards Stay Up Late(Katie Hafner/Matthew Lyon)",
         "startYear": 1998,
         "genre": [
-          "COMPUTER"
+          "COMPUTER",
+          "WORK"
         ],
         "imp": 3,
         "url": "https://www.amazon.co.jp/dp/4756134793&https://m.media-amazon.com/images/I/51RGwRZWUCL._SY385_.jpg",
@@ -1966,7 +1991,8 @@
         "startYear": 1998,
         "genre": [
           "POPCULTURE",
-          "OUTOFPRINT"
+          "OUTOFPRINT",
+          "WORK"
         ],
         "imp": 3,
         "url": "https://www.amazon.co.jp/dp/4794208278&https://m.media-amazon.com/images/I/41D8G7EATGL._SY385_.jpg",
@@ -1981,7 +2007,8 @@
         "label_en": "Dealers of Lightning(Michael Hiltzik)",
         "startYear": 2000,
         "genre": [
-          "COMPUTER"
+          "COMPUTER",
+          "WORK"
         ],
         "imp": 3,
         "url": "https://www.amazon.co.jp/dp/4839902259&https://m.media-amazon.com/images/I/51sRc3wHsdL._SY385_.jpg",
@@ -1995,7 +2022,8 @@
         "startYear": 2000,
         "genre": [
           "COMPUTER",
-          "SCIENCE"
+          "SCIENCE",
+          "WORK"
         ],
         "imp": 3,
         "url": "https://www.amazon.co.jp/dp/4794209924&https://m.media-amazon.com/images/I/51hYAKh-H+L._SY445_SX342_ControlCacheEqualizer_.jpg",
@@ -2010,7 +2038,8 @@
         "label_en": "Just for Fun: The Story of An Accidental Revolutionary(Linus Torvalds/David Diamond)",
         "startYear": 2001,
         "genre": [
-          "HACKER"
+          "HACKER",
+          "WORK"
         ],
         "imp": 3,
         "url": "https://www.amazon.co.jp/dp/4796880011&https://m.media-amazon.com/images/I/812VnYtI2LL._SY342_.jpg",
@@ -2053,7 +2082,8 @@
         "startYear": 2003,
         "genre": [
           "HACKER",
-          "THEORYMEDIA"
+          "THEORYMEDIA",
+          "WORK"
         ],
         "imp": 3,
         "url": "https://www.amazon.co.jp/dp/4756142818&https://m.media-amazon.com/images/I/51qVC8ltYeL._SY385_.jpg",
@@ -2069,7 +2099,8 @@
         "startYear": 2005,
         "genre": [
           "HACKER",
-          "COMPUTER"
+          "COMPUTER",
+          "WORK"
         ],
         "imp": 3,
         "url": "https://www.amazon.co.jp/dp/4274065979&https://m.media-amazon.com/images/I/81hFpVptJpL.SY342.jpg",
@@ -2084,7 +2115,8 @@
         "label_en": "The Apple II Age: How the Computer Became Personal（Laine Nooney）",
         "startYear": 2025,
         "genre": [
-          "COMPUTER"
+          "COMPUTER",
+          "WORK"
         ],
         "imp": 3,
         "url": "https://www.amazon.co.jp/dp/4571410808/&https://m.media-amazon.com/images/I/41IgG06WGEL.SY445_SX342_ControlCacheEqualizer.jpg",
