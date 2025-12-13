@@ -416,14 +416,14 @@
     ],
     "1981": [
       {
-        "label": "The Soul of a New Machine（邦題：超マシン誕生）（トレイシー・キダー著）",
+        "label": "超マシン誕生（トレイシー・キダー著）",
         "startYear": 1981,
         "genre": [
           "COMPUTER",
           "POPCULTURE"
         ],
         "imp": 3,
-        "url": "https://ja.wikipedia.org/wiki/%E8%B6%85%E3%83%9E%E3%82%B7%E3%83%B3%E8%AA%95%E7%94%9F",
+        "url": "https://ja.wikipedia.org/wiki/%E8%B6%85%E3%83%9E%E3%82%B7%E3%83%B3%E8%AA%95%E7%94%9F|https://www.amazon.co.jp/dp/4822284328&https://m.media-amazon.com/images/I/51gEb6qQa6L._SY466_.jpg",
         "note": "コンピュータ開発チームの熱量・倫理・生活を追うノンフィクション。80年代エンジニアリング文化の“体温”が残る。",
         "label_en": "The Soul of a New Machine (Tracy Kidder)",
         "url_en": "https://en.wikipedia.org/wiki/The_Soul_of_a_New_Machine",
@@ -502,21 +502,19 @@
       },
       {
         "label": "Smalltalk-80: The Language and its Implementation（Adele Goldberg, David Robson著）",
-        "label_en": "Smalltalk-80: The Language and its Implementation (Adele Goldberg, David Robson)",
         "startYear": 1983,
         "genre": [
           "COMPUTER",
           "OUTOFPRINT"
         ],
         "imp": 3,
-        "url": "https://dblp.org/rec/books/aw/GoldbergR83.html",
-        "url_en": "https://dblp.org/rec/books/aw/GoldbergR83.html",
         "note": "Xerox PARC由来のSmalltalk-80を“システム文化ごと”外部へ持ち出した重要文献（オブジェクト指向の普及史でも鍵）。",
+        "label_en": "Smalltalk-80: The Language and its Implementation (Adele Goldberg, David Robson)",
+        "url_en": "https://dblp.org/rec/books/aw/GoldbergR83.html|https://archive.org/details/smalltalk80langu00gold",
         "note_en": "Key Smalltalk-80 reference exporting PARC ideas"
       },
       {
         "label": "The Hacker's Dictionary（Guy L. Steele Jr. 編）",
-        "label_en": "The Hacker's Dictionary (Guy L. Steele Jr., ed.)",
         "startYear": 1983,
         "genre": [
           "HACKER",
@@ -524,9 +522,10 @@
           "OUTOFPRINT"
         ],
         "imp": 3,
-        "url": "https://archive.org/details/hackersdictionar00stee",
-        "url_en": "https://archive.org/details/hackersdictionar00stee",
+        "url": "https://ja.wikipedia.org/wiki/%E3%82%B8%E3%83%A3%E3%83%BC%E3%82%B4%E3%83%B3%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB|https://www.amazon.co.jp/dp/4782570066|https://www.amazon.co.jp/dp/475614084X&https://m.media-amazon.com/images/I/41Y2ic0-r1L._SY425_.jpg",
         "note": "Jargon File系譜の初期スラング辞典。価値観・ユーモア・作法が語彙として保存されている。",
+        "label_en": "The Hacker's Dictionary (Guy L. Steele Jr., ed.)",
+        "url_en": "https://archive.org/details/hackersdictionar00stee",
         "note_en": "Early slang dictionary in the Jargon File lineage, preserving norms, humor, and values through vocabulary."
       }
     ],
@@ -599,16 +598,15 @@
       },
       {
         "label": "The Second Self: Computers and the Human Spirit（シェリー・タークル著）",
-        "label_en": "The Second Self: Computers and the Human Spirit (Sherry Turkle)",
         "startYear": 1984,
         "genre": [
-          "THEORYMEDIA",
-          "COMPUTER"
+          "COMPUTER",
+          "THEORYMEDIA"
         ],
         "imp": 3,
-        "url": "https://direct.mit.edu/books/monograph/2327/The-Second-SelfComputers-and-the-Human-Spirit",
-        "url_en": "https://direct.mit.edu/books/monograph/2327/The-Second-SelfComputers-and-the-Human-Spirit",
         "note": "コンピュータを“道具”ではなく自己形成の一部として捉えた初期の重要作（家庭・学校・サブカルの観察）。",
+        "label_en": "The Second Self: Computers and the Human Spirit (Sherry Turkle)",
+        "url_en": "https://www.amazon.co.jp/dp/0262701111&https://m.media-amazon.com/images/I/71gVJO6NfyL._SY466_.jpg",
         "note_en": "Influential early study of computers as part of identity and social life, grounded in observations of everyday computing culture."
       }
     ],
@@ -642,16 +640,16 @@
       },
       {
         "label": "愉しみながら死んでいく（ニール・ポストマン著）",
-        "label_en": "Amusing Ourselves to Death (Neil Postman)",
         "startYear": 1985,
         "genre": [
-          "THEORYMEDIA",
-          "POPCULTURE"
+          "POPCULTURE",
+          "THEORYMEDIA"
         ],
         "imp": 3,
-        "url": "https://en.wikipedia.org/wiki/Amusing_Ourselves_to_Death",
-        "url_en": "https://en.wikipedia.org/wiki/Amusing_Ourselves_to_Death",
+        "url": "https://www.amazon.co.jp/dp/4380140059&https://m.media-amazon.com/images/I/71DsBHyv7LL._SY466_.jpg",
         "note": "テレビが公共的言論を“ショー化”するという批判。デジタル時代にも参照されるメディア論の古典。",
+        "label_en": "Amusing Ourselves to Death (Neil Postman)",
+        "url_en": "https://en.wikipedia.org/wiki/Amusing_Ourselves_to_Death",
         "note_en": "Classic media-ecology critique of TV turning public discourse into entertainment"
       }
     ],
@@ -899,16 +897,16 @@
       },
       {
         "label": "誰のためのデザイン？（ドナルド・A・ノーマン著）",
-        "label_en": "The Design of Everyday Things (Donald Norman) [orig. The Psychology of Everyday Things]",
         "startYear": 1988,
         "genre": [
-          "THEORYMEDIA",
-          "SCIENCE"
+          "SCIENCE",
+          "THEORYMEDIA"
         ],
         "imp": 3,
-        "url": "https://en.wikipedia.org/wiki/The_Design_of_Everyday_Things",
-        "url_en": "https://en.wikipedia.org/wiki/The_Design_of_Everyday_Things",
+        "url": "https://www.amazon.co.jp/dp/4788514346&https://m.media-amazon.com/images/I/717j68MWouL._SY466_.jpg",
         "note": "「使いにくさは利用者のせいではなく設計の問題」という主張でHCI/UX文化を形作った古典。",
+        "label_en": "The Design of Everyday Things (Donald Norman) [orig. The Psychology of Everyday Things]",
+        "url_en": "https://en.wikipedia.org/wiki/The_Design_of_Everyday_Things",
         "note_en": "Landmark HCI/UX book arguing usability problems are design problems, not user failures"
       }
     ],
