@@ -106,18 +106,18 @@
         "note_en": "An early representative work of Barthes, known as a pioneer of structuralist semiotics. It analyzes the \"mode of writing (écriture)\" in literature in relation to the author's inner self and social situation, revealing the historicity of \"style\" and \"language.\"/A book that thoroughly radicalized the \"mode of writing\" as text/symbols, read as an entrance to later post-structuralism and postmodern thought. Even when thinking about \"text editing\" and \"writing code\" in the computer age, it is a plain but effective book that allows you to view the act of \"writing\" objectively."
       },
       {
-        "label": "",
-        "label_en": "The Last Whole Earth Catalog: Access To Tools（Stewart Brand (Editor)）",
+        "label": "The Last Whole Earth Catalog: Access To Tools（Stewart Brand (Editor)）",
         "startYear": 1971,
         "genre": [
-          "THEORYMEDIA",
           "POPCULTURE",
+          "THEORYMEDIA",
           "OUTOFPRINT"
         ],
         "imp": 3,
         "url": "https://ja.wikipedia.org/wiki/%E5%85%A8%E5%9C%B0%E7%90%83%E3%82%AB%E3%82%BF%E3%83%AD%E3%82%B0",
-        "url_en": "https://en.wikipedia.org/wiki/Whole_Earth_Catalog|https://www.amazon.com/Last-Whole-Earth-Catalog-Access/dp/0394704592&https://m.media-amazon.com/images/I/71cKR+0iljL.SY342.jpg",
         "note": "1960年代後半のアメリカのヒッピー・カウンターカルチャーを象徴する雑誌「ホール・アース・カタログ」の最終版。より良い生き方、持続可能な暮らしに必要な「ツール（道具）」としての情報や商品を掲載し、「アクセス・トゥ・ツールズ（道具へのアクセス）」を掲げました。ヒッピーコミューンの自給自足的な生活を支える役割を担い、後のパーソナルコンピュータやインターネットの思想にも影響を与えた、サブカルチャー史上の重要文献です。(E)",
+        "label_en": "The Last Whole Earth Catalog: Access To Tools（Stewart Brand (Editor)）",
+        "url_en": "https://en.wikipedia.org/wiki/Whole_Earth_Catalog|https://www.amazon.com/Last-Whole-Earth-Catalog-Access/dp/0394704592&https://m.media-amazon.com/images/I/71cKR+0iljL.SY342.jpg",
         "note_en": "The final edition of the \"Whole Earth Catalog,\" a magazine that symbolized the American hippie counterculture of the late 1960s. It featured information and goods as \"tools\" necessary for a better, sustainable life, advocating \"Access to Tools.\" Playing a role in supporting the self-sufficient life of hippie communes, it is a significant document in subculture history that also influenced the ideas behind personal computers and the Internet.(E)"
       }
     ],
