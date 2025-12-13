@@ -111,7 +111,8 @@
         "genre": [
           "POPCULTURE",
           "THEORYMEDIA",
-          "OUTOFPRINT"
+          "OUTOFPRINT",
+          "WORK"
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/%E5%85%A8%E5%9C%B0%E7%90%83%E3%82%AB%E3%82%BF%E3%83%AD%E3%82%B0",
@@ -156,7 +157,8 @@
         "startYear": 1973,
         "genre": [
           "SCIENCE",
-          "OUTOFPRINT"
+          "OUTOFPRINT",
+          "WORK"
         ],
         "imp": 4,
         "url": "https://www.amazon.co.jp/dp/416738003X&https://m.media-amazon.com/images/I/81Dtxfk8UwL._SY342_.jpg",
@@ -168,7 +170,8 @@
         "startYear": 1973,
         "genre": [
           "POPCULTURE",
-          "THEORYMEDIA"
+          "THEORYMEDIA",
+          "WORK"
         ],
         "imp": 4,
         "url": "https://www.amazon.co.jp/dp/4480096884/&https://m.media-amazon.com/images/I/61bonOR-D3L._SY425_.jpg",
@@ -198,7 +201,8 @@
         "genre": [
           "COMPUTER",
           "THEORYMEDIA",
-          "OUTOFPRINT"
+          "OUTOFPRINT",
+          "WORK"
         ],
         "imp": 4,
         "note": "ハイパーテキスト（Hypertext）という概念の提唱者であるテッド・ネルソンが、コンピュータへのアクセスを一般市民に解放しようという情熱のもと、自費出版で世に問うた著作。「コンピュータは単なる計算機ではなく、人々の創造性を高めるための道具である」というメッセージを、独特のレイアウトと奔放な文体で表現しています。「Computer Lib（コンピュータ解放）」と「Dream Machines（夢の機械）」の2部構成で、後のデジタル革命の思想的な基盤の一つとなりました。(E)",
@@ -269,7 +273,8 @@
         "startYear": 1977,
         "genre": [
           "COMPUTER",
-          "OUTOFPRINT"
+          "OUTOFPRINT",
+          "WORK"
         ],
         "imp": 3,
         "url": "https://www.amazon.co.jp/dp/B000J8WJJI&https://m.media-amazon.com/images/I/716Gb48tUvL.SY342.jpg",
@@ -320,20 +325,6 @@
     ],
     "1979": [
       {
-        "label": "コンピュータ・パワー 人工知能と人間の理性（ジョセフ・ワイゼンバウム著/秋葉忠利訳）",
-        "label_en": "Computer Power and Human Reason: From Judgment to Calculation(Joseph Weizenbaum)",
-        "startYear": 1979,
-        "genre": [
-          "COMPUTER",
-          "OUTOFPRINT"
-        ],
-        "imp": 3,
-        "url": "https://www.amazon.co.jp/dp/437710456X&https://m.media-amazon.com/images/I/71pqUTQSmGL._SY425_.jpg",
-        "url_en": "https://en.wikipedia.org/wiki/Computer_Power_and_Human_Reason|https://www.amazon.com/dp/0716704641&https://m.media-amazon.com/images/I/61QGqfsuKDL._SY342_.jpg",
-        "note": "ELIZAの開発者ワイゼンバウムが、「AIに重要な決定を任せるべきではない」と警鐘を鳴らした倫理的・社会的考察の書。技術的な可能性よりも、コンピュータに判断を委ねたとき人間の責任感や compassion がどう失われるかを問題にしています。/ChatGPT 的なシステムを眺めながら読むと、「この本で言ってること、まさに今の話では…？」という箇所がゴロゴロ出てきます。AI倫理やガバナンスの議論の“始祖”の一つなので、生成AI時代のモヤモヤを整理したい人にとっては原点回帰になる本です。",
-        "note_en": "A book by Weizenbaum, the developer of ELIZA, that raises ethical and social considerations warning against entrusting important decisions to AI. It focuses on how human responsibility and compassion may diminish when judgment is delegated to computers, rather than on the technical possibilities./When reading a system like ChatGPT, there are numerous parts where you think, \"Isn't this exactly what's happening now?\" As one of the \"origins\" of discussions on AI ethics and governance, it serves as a return to basics for those who want to sort out the uncertainties of the generative AI era."
-      },
-      {
         "label": "消費社会の神話と構造（ジャン・ボードリヤール著、今村仁司・塚原史訳）",
         "label_en": "La Société de consommation(Jean Baudrillard)",
         "startYear": 1979,
@@ -347,17 +338,33 @@
         "note_en": "A representative work of postmodern thought that reinterprets the \"consumer society,\" where desire and commodities are linked, not as a system of use-value but of \"sign-value.\" It depicts the process where everything from fashion, interior, cars, media, and leisure to violence is consumed as symbols representing difference./The perspective that we live in a world where we \"buy meaning\" rather than \"buy things\" connects directly to modern digital consumption, including gadgets, SNS accounts, and subscriptions. As part of a \"Das Kapital\" for the net generation, it feels strangely real even reading it now."
       },
       {
+        "label": "コンピュータ・パワー 人工知能と人間の理性（ジョセフ・ワイゼンバウム著/秋葉忠利訳）",
+        "startYear": 1979,
+        "genre": [
+          "COMPUTER",
+          "OUTOFPRINT",
+          "WORK"
+        ],
+        "imp": 3,
+        "url": "https://www.amazon.co.jp/dp/437710456X&https://m.media-amazon.com/images/I/71pqUTQSmGL._SY425_.jpg",
+        "note": "ELIZAの開発者ワイゼンバウムが、「AIに重要な決定を任せるべきではない」と警鐘を鳴らした倫理的・社会的考察の書。技術的な可能性よりも、コンピュータに判断を委ねたとき人間の責任感や compassion がどう失われるかを問題にしています。/ChatGPT 的なシステムを眺めながら読むと、「この本で言ってること、まさに今の話では…？」という箇所がゴロゴロ出てきます。AI倫理やガバナンスの議論の“始祖”の一つなので、生成AI時代のモヤモヤを整理したい人にとっては原点回帰になる本です。",
+        "label_en": "Computer Power and Human Reason: From Judgment to Calculation(Joseph Weizenbaum)",
+        "url_en": "https://en.wikipedia.org/wiki/Computer_Power_and_Human_Reason|https://www.amazon.com/dp/0716704641&https://m.media-amazon.com/images/I/61QGqfsuKDL._SY342_.jpg",
+        "note_en": "A book by Weizenbaum, the developer of ELIZA, that raises ethical and social considerations warning against entrusting important decisions to AI. It focuses on how human responsibility and compassion may diminish when judgment is delegated to computers, rather than on the technical possibilities./When reading a system like ChatGPT, there are numerous parts where you think, \"Isn't this exactly what's happening now?\" As one of the \"origins\" of discussions on AI ethics and governance, it serves as a return to basics for those who want to sort out the uncertainties of the generative AI era."
+      },
+      {
         "label": "コンピュータ犯罪（ドン・B・パーカー著/羽田三郎訳）",
-        "label_en": "Crime by Computer(Donn B. Parker)",
         "startYear": 1979,
         "genre": [
           "CYBERPUNK",
-          "OUTOFPRINT"
+          "OUTOFPRINT",
+          "WORK"
         ],
         "imp": 3,
         "url": "https://www.amazon.co.jp/dp/4879620505",
-        "url_en": "https://www.amazon.com/Crime-computer-Donn-B-Parker/dp/068414574X",
         "note": "コンピュータがまだ一般的でなかった1970年代に、早くもその悪用の可能性に警鐘を鳴らし、実際に発生した初期のコンピュータ犯罪の事例を収集・分析した本。/不正アクセス、データ盗難、システム破壊など、当時の具体的な犯罪手口が詳細に描かれており、現代のサイバーセキュリティの議論のルーツとも言える内容を含んでいます。初期のハッカー／クラッカー文化の負の側面を知る上でも貴重な資料です。(C)",
+        "label_en": "Crime by Computer(Donn B. Parker)",
+        "url_en": "https://www.amazon.com/Crime-computer-Donn-B-Parker/dp/068414574X",
         "note_en": "A book that, as early as the 1970s when computers were not yet common, warned of the potential for misuse and collected and analyzed case studies of early computer crimes. /It details specific criminal methods of the time, such as unauthorized access, data theft, and system destruction, containing content that can be considered a root of modern cybersecurity discussions. It is a valuable resource for understanding the negative side of early hacker/cracker culture.(C)"
       }
     ],
@@ -404,7 +411,8 @@
         "startYear": 1980,
         "genre": [
           "SCIENCE",
-          "COMPUTER"
+          "COMPUTER",
+          "WORK"
         ],
         "imp": 3,
         "url": "https://www.amazon.co.jp/dp/4624400437&https://m.media-amazon.com/images/I/51umB1Efm-L._SY425_.jpg",
@@ -420,7 +428,8 @@
         "startYear": 1981,
         "genre": [
           "COMPUTER",
-          "POPCULTURE"
+          "POPCULTURE",
+          "WORK"
         ],
         "imp": 3,
         "url": "https://ja.wikipedia.org/wiki/%E8%B6%85%E3%83%9E%E3%82%B7%E3%83%B3%E8%AA%95%E7%94%9F|https://www.amazon.co.jp/dp/4822284328&https://m.media-amazon.com/images/I/51gEb6qQa6L._SY466_.jpg",
@@ -447,15 +456,16 @@
       },
       {
         "label": "第三の波（アルビン・トフラー著/徳岡孝夫訳）",
-        "label_en": "The Third Wave（Alvin Toffler）",
         "startYear": 1982,
         "genre": [
-          "THEORYMEDIA"
+          "THEORYMEDIA",
+          "WORK"
         ],
         "imp": 3,
         "url": "https://ja.wikipedia.org/wiki/%E7%AC%AC%E4%B8%89%E3%81%AE%E6%B3%A2_(%E3%83%88%E3%83%95%E3%83%A9%E3%83%BC|https://www.amazon.co.jp/dp/4122009537/&https://m.media-amazon.com/images/I/81DWuhMQ0mL.SY342.jpg",
-        "url_en": "https://en.wikipedia.org/wiki/The_Third_Wave_(Toffler_book|https://www.amazon.com/Third-Wave-Alvin-Toffler/dp/B0026QRZ8Q/&https://m.media-amazon.com/images/I/81IaC8Nwu2L.SY385.jpg",
         "note": "未来学者アルビン・トフラーが提唱した、人類文明の発展を「第一の波（農業革命）」「第二の波（産業革命）」に続く「第三の波（情報革命）」として捉える文明論のベストセラー。情報化社会の到来を予見し、社会構造、経済、家族、政治などあらゆる側面での変革を論じています。特に、生産者と消費者が融合した「プロシューマー」の概念や、規格化、集中化からの脱却といった鋭い指摘は、現代社会においても示唆に富んでいます。(E)",
+        "label_en": "The Third Wave（Alvin Toffler）",
+        "url_en": "https://en.wikipedia.org/wiki/The_Third_Wave_(Toffler_book|https://www.amazon.com/Third-Wave-Alvin-Toffler/dp/B0026QRZ8Q/&https://m.media-amazon.com/images/I/81IaC8Nwu2L.SY385.jpg",
         "note_en": "A bestselling book on civilization theory by futurist Alvin Toffler, which conceptualizes the development of human civilization in three waves: the \"First Wave (Agricultural Revolution),\" the \"Second Wave (Industrial Revolution),\" and the \"Third Wave (Information Revolution).\" It foresees the advent of the information society and discusses transformations in all aspects, including social structure, economy, family, and politics. Particularly insightful are its sharp observations, such as the concept of the \"prosumer,\" where producers and consumers merge, and the move away from standardization and centralization, which remain relevant in contemporary society.(E)"
       }
     ],
@@ -479,7 +489,8 @@
         "genre": [
           "POPCULTURE",
           "NERD",
-          "OUTOFPRINT"
+          "OUTOFPRINT",
+          "WORK"
         ],
         "imp": 3,
         "url": "https://www.amazon.co.jp/dp/4915376427/&https://m.media-amazon.com/images/I/511NeHydp-L.SY445_SX342_ControlCacheEqualizer.jpg",
@@ -488,30 +499,18 @@
       },
       {
         "label": "テクノクラシー（ブルース ナスバーム著/田原総一朗訳）",
-        "label_en": "The World After Oil（Bruce Nussbaum）",
         "startYear": 1983,
         "genre": [
           "THEORYMEDIA",
-          "OUTOFPRINT"
+          "OUTOFPRINT",
+          "WORK"
         ],
         "imp": 3,
         "url": "https://www.amazon.co.jp/dp/4062006782&https://m.media-amazon.com/images/I/51Ybx2Kaz6L.SY385.jpg",
-        "url_en": "https://www.amazon.com/World-After-Shifting-Power-Wealth/dp/0671505971&https://m.media-amazon.com/images/I/61Su9uiL4jL.SY385.jpg",
         "note": "石油後の世界における権力と富の移行を描き、特にロボット工学、遺伝子工学、テレコミュニケーションの「三大テクノロジー戦争」の最前線を活写した論考。ニューテクノロジー時代の勝者となるための条件を徹底的に追求し、企業や国家が技術競争に勝ち残れるかどうかが未来を左右すると警鐘を鳴らしています。当時の日本が直面していた国際競争と技術開発の熾烈さを背景に、テクノロジーが社会構造や経済に与える影響を論じた一冊です。(E)",
+        "label_en": "The World After Oil（Bruce Nussbaum）",
+        "url_en": "https://www.amazon.com/World-After-Shifting-Power-Wealth/dp/0671505971&https://m.media-amazon.com/images/I/61Su9uiL4jL.SY385.jpg",
         "note_en": "An analysis depicting the shift of power and wealth in the post-oil world, vividly capturing the forefront of the \"three major technology wars\": robotics, genetic engineering, and telecommunications. It thoroughly explores the conditions for becoming a winner in the new technology era, warning that survival in the fierce technological competition determines the future of companies and nations. Against the backdrop of the intense international competition and technological development faced by Japan at the time, the book discusses the impact of technology on social structure and the economy.(E)"
-      },
-      {
-        "label": "Smalltalk-80: The Language and its Implementation（Adele Goldberg, David Robson著）",
-        "startYear": 1983,
-        "genre": [
-          "COMPUTER",
-          "OUTOFPRINT"
-        ],
-        "imp": 3,
-        "note": "Xerox PARC由来のSmalltalk-80を“システム文化ごと”外部へ持ち出した重要文献（オブジェクト指向の普及史でも鍵）。",
-        "label_en": "Smalltalk-80: The Language and its Implementation (Adele Goldberg, David Robson)",
-        "url_en": "https://dblp.org/rec/books/aw/GoldbergR83.html|https://archive.org/details/smalltalk80langu00gold",
-        "note_en": "Key Smalltalk-80 reference exporting PARC ideas"
       },
       {
         "label": "The Hacker's Dictionary（Guy L. Steele Jr. 編）",
@@ -519,7 +518,8 @@
         "genre": [
           "HACKER",
           "POPCULTURE",
-          "OUTOFPRINT"
+          "OUTOFPRINT",
+          "WORK"
         ],
         "imp": 3,
         "url": "https://ja.wikipedia.org/wiki/%E3%82%B8%E3%83%A3%E3%83%BC%E3%82%B4%E3%83%B3%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB|https://www.amazon.co.jp/dp/4782570066|https://www.amazon.co.jp/dp/475614084X&https://m.media-amazon.com/images/I/41Y2ic0-r1L._SY425_.jpg",
@@ -527,23 +527,23 @@
         "label_en": "The Hacker's Dictionary (Guy L. Steele Jr., ed.)",
         "url_en": "https://archive.org/details/hackersdictionar00stee",
         "note_en": "Early slang dictionary in the Jargon File lineage, preserving norms, humor, and values through vocabulary."
+      },
+      {
+        "label": "Smalltalk-80: The Language and its Implementation（Adele Goldberg, David Robson著）",
+        "startYear": 1983,
+        "genre": [
+          "COMPUTER",
+          "OUTOFPRINT",
+          "WORK"
+        ],
+        "imp": 3,
+        "note": "Xerox PARC由来のSmalltalk-80を“システム文化ごと”外部へ持ち出した重要文献（オブジェクト指向の普及史でも鍵）。",
+        "label_en": "Smalltalk-80: The Language and its Implementation (Adele Goldberg, David Robson)",
+        "url_en": "https://dblp.org/rec/books/aw/GoldbergR83.html|https://archive.org/details/smalltalk80langu00gold",
+        "note_en": "Key Smalltalk-80 reference exporting PARC ideas"
       }
     ],
     "1984": [
-      {
-        "label": "マインズ・アイ ― コンピュータ時代の「心」と「私」（ダグラス・R・ホフスタッター、ダニエル・C・デネット編/坂本百大監訳）",
-        "label_en": "The Mind’s I: Fantasies and Reflections on Self and Soul(Douglas R. Hofstadter, Daniel C. Dennett)",
-        "startYear": 1984,
-        "genre": [
-          "COMPUTER",
-          "OUTOFPRINT"
-        ],
-        "imp": 3,
-        "url": "https://www.amazon.co.jp/dp/448492126X&https://m.media-amazon.com/images/I/41VVDHKkKZL._SY425_.jpg",
-        "url_en": "https://en.wikipedia.org/wiki/The_Mind%27s_I|https://www.amazon.com/dp/0465030912&https://m.media-amazon.com/images/I/61+7rxnlvAL._SY466_.jpg",
-        "note": "「心とは何か？」「自己とは何か？」という問いをめぐるSF短編・哲学エッセイ・科学論文などを集めたアンソロジーで、ホフスタッターとデネットがそれぞれにコメントを付けていく構成。『ゲーデル、エッシャー、バッハ』より軽めで、意識・自己・AIの問題に“つまみ食い的”に触れられます。/「哲学エッセイ集＋編集者のツッコミ」というスタイルなので、興味のある章だけ拾い読みしても成立します。AIや脳科学の本を読む前に、「そもそも“自己”って何だっけ？」という感覚を揺さぶっておきたいときにちょうどいい本です。",
-        "note_en": "An anthology of SF short stories, philosophical essays, and scientific papers revolving around questions like \"What is the mind?\" and \"What is the self?\", with commentary added by Hofstadter and Dennett. Lighter than \"Gödel, Escher, Bach,\" it allows for \"cherry-picking\" topics on consciousness, self, and AI./Because of the \"philosophical essay collection + editor's witty commentary\" style, it works even if you just read the chapters that interest you. It is the perfect book to shake up your sense of \"What is the 'self' anyway?\" before reading books on AI or brain science."
-      },
       {
         "label": "パーマー・エルドリッチの三つの聖痕（フィリップ・K・ディック著/浅倉久志訳）",
         "label_en": "The Three Stigmata of Palmer Eldritch(Philip K. Dick)",
@@ -597,11 +597,27 @@
         "note_en": "Helva, a girl born with severe disabilities, becomes a \"brainship\" by connecting her brain to a spaceship system and travels the universe with her human partner. Motifs such as disability and technology, and the \"spaceship heroine\" as a profession, influenced many subsequent works. /The setting of a disembodied cyborg girl protagonist is almost the ancestor of the \"template\" for later Japanese SF, light novels, and anime. It can be read from a cyborg feminism perspective, packing disability, technology, professional ethics, and romance into one very modern classic."
       },
       {
+        "label": "マインズ・アイ ― コンピュータ時代の「心」と「私」（ダグラス・R・ホフスタッター、ダニエル・C・デネット編/坂本百大監訳）",
+        "startYear": 1984,
+        "genre": [
+          "COMPUTER",
+          "OUTOFPRINT",
+          "WORK"
+        ],
+        "imp": 3,
+        "url": "https://www.amazon.co.jp/dp/448492126X&https://m.media-amazon.com/images/I/41VVDHKkKZL._SY425_.jpg",
+        "note": "「心とは何か？」「自己とは何か？」という問いをめぐるSF短編・哲学エッセイ・科学論文などを集めたアンソロジーで、ホフスタッターとデネットがそれぞれにコメントを付けていく構成。『ゲーデル、エッシャー、バッハ』より軽めで、意識・自己・AIの問題に“つまみ食い的”に触れられます。/「哲学エッセイ集＋編集者のツッコミ」というスタイルなので、興味のある章だけ拾い読みしても成立します。AIや脳科学の本を読む前に、「そもそも“自己”って何だっけ？」という感覚を揺さぶっておきたいときにちょうどいい本です。",
+        "label_en": "The Mind’s I: Fantasies and Reflections on Self and Soul(Douglas R. Hofstadter, Daniel C. Dennett)",
+        "url_en": "https://en.wikipedia.org/wiki/The_Mind%27s_I|https://www.amazon.com/dp/0465030912&https://m.media-amazon.com/images/I/61+7rxnlvAL._SY466_.jpg",
+        "note_en": "An anthology of SF short stories, philosophical essays, and scientific papers revolving around questions like \"What is the mind?\" and \"What is the self?\", with commentary added by Hofstadter and Dennett. Lighter than \"Gödel, Escher, Bach,\" it allows for \"cherry-picking\" topics on consciousness, self, and AI./Because of the \"philosophical essay collection + editor's witty commentary\" style, it works even if you just read the chapters that interest you. It is the perfect book to shake up your sense of \"What is the 'self' anyway?\" before reading books on AI or brain science."
+      },
+      {
         "label": "The Second Self: Computers and the Human Spirit（シェリー・タークル著）",
         "startYear": 1984,
         "genre": [
           "COMPUTER",
-          "THEORYMEDIA"
+          "THEORYMEDIA",
+          "WORK"
         ],
         "imp": 3,
         "note": "コンピュータを“道具”ではなく自己形成の一部として捉えた初期の重要作（家庭・学校・サブカルの観察）。",
@@ -627,23 +643,12 @@
         "note_en": "A massive work that freely discusses problems of self-reference, recursion, formal systems, and the \"mind,\" using the works of logician Gödel, artist Escher, and composer Bach as motifs. It is also one of the origins of the discussion surrounding the relationship between artificial intelligence and the incompleteness theorems./A monster book that is thick, difficult, yet interesting. The structure where AI, mathematics, music, and art are intertwined is itself a \"self-referential system,\" making the act of reading it an experience like an experiment."
       },
       {
-        "label": "初期のおとなクラブ（東京おとなクラブ）",
-        "startYear": 1985,
-        "genre": [
-          "POPCULTURE",
-          "OUTOFPRINT"
-        ],
-        "imp": 3,
-        "url": "https://www.amazon.co.jp/dp/B0G3K2V8BB&https://m.media-amazon.com/images/I/4188xrT1NaL._AC_.jpg",
-        "note": "1980年代の日本のサブカルチャーシーンを象徴する伝説的なミニコミ誌『おとなクラブ』の初期の活動をまとめた貴重な資料。当時の若者文化、ストリートファッション、音楽、アングラな情報など、主流メディアが扱わなかった「新しい感性」を編集し、後のポップカルチャーに大きな影響を与えました。/消費文化とポストモダンが交錯する時代の中で、権威や既成概念にとらわれない自由な表現を追求した編集姿勢が特徴です。本書は、日本のミニコミ誌文化の源流を探る上でも重要であり、当時の時代精神とカウンターカルチャーの息吹を感じられる一冊となっています。",
-        "note_en": "A valuable document compiling the early activities of the legendary minicomic 'Otona Club' (Adult Club), which symbolized the Japanese subculture scene of the 1980s. It gathered \"new sensibilities\"—youth culture, street fashion, music, and underground information—that were ignored by the mainstream media, profoundly influencing subsequent pop culture./It is characterized by an editorial stance that pursued free expression, unconstrained by authority or established notions, during an era where consumer culture intersected with postmodernism. This book is significant for tracing the origins of Japanese minicomic culture and allows readers to feel the zeitgeist and countercultural spirit of that time."
-      },
-      {
         "label": "愉しみながら死んでいく（ニール・ポストマン著）",
         "startYear": 1985,
         "genre": [
           "POPCULTURE",
-          "THEORYMEDIA"
+          "THEORYMEDIA",
+          "WORK"
         ],
         "imp": 3,
         "url": "https://www.amazon.co.jp/dp/4380140059&https://m.media-amazon.com/images/I/71DsBHyv7LL._SY466_.jpg",
@@ -682,60 +687,35 @@
       },
       {
         "label": "グーテンベルクの銀河系：活字人間の形成（マーシャル・マクルーハン著、森常治訳）",
-        "label_en": "The Gutenberg Galaxy: The Making of Typographic Man(Marshall McLuhan)",
         "startYear": 1986,
         "genre": [
-          "THEORYMEDIA"
+          "THEORYMEDIA",
+          "WORK"
         ],
         "imp": 3,
         "url": "https://www.amazon.co.jp/%E3%82%B0%E3%83%BC%E3%83%86%E3%83%B3%E3%83%99%E3%83%AB%E3%82%AF%E3%81%AE%E9%8A%80%E6%B2%B3%E7%B3%BB%E2%80%95%E6%B4%BB%E5%AD%97%E4%BA%BA%E9%96%93%E3%81%AE%E5%BD%A2%E6%88%90-%E3%83%9E%E3%83%BC%E3%82%B7%E3%83%A3%E3%83%AB-%E3%83%9E%E3%82%AF%E3%83%AB%E3%83%BC%E3%83%8F%E3%83%B3/dp/4622018969&https://m.media-amazon.com/images/I/91OpDlYwBGL._SY385_.jpg",
-        "url_en": "https://en.wikipedia.org/wiki/The_Gutenberg_Galaxy",
         "note": "活版印刷技術がいかにして人間の思考様式を「線形・連続的」なものへと変容させ、個人主義やナショナリズムを生み出したかを論じたメディア論の古典です。電子メディア時代（再部族化）の到来を予見した書としても重要です。/メディアの変容が私たちの文化、社会、生活、そして感覚そのものにまで大きなインパクトを与えることを検証した著作。無数の事例を通して、世界が聴覚優位から視覚優位へ転換したことを論じています。",
+        "label_en": "The Gutenberg Galaxy: The Making of Typographic Man(Marshall McLuhan)",
+        "url_en": "https://en.wikipedia.org/wiki/The_Gutenberg_Galaxy",
         "note_en": "A classic of media theory arguing how letterpress printing technology transformed human thinking styles into \"linear and continuous\" ones, creating individualism and nationalism. It is also important as a book predicting the arrival of the electronic media age (retribalization)./A work verifying that the transformation of media has a huge impact on our culture, society, life, and even our senses. Through countless examples, it argues that the world has shifted from auditory dominance to visual dominance."
       },
       {
         "label": "UNIX原典（AT&Tベル研究所編/長谷部紀元、清水謙太郎他訳/石田晴久監修）",
-        "label_en": "The Bell System Technical Journal(AT&T Bell Laboratories)",
         "startYear": 1986,
         "genre": [
           "COMPUTER",
-          "OUTOFPRINT"
+          "OUTOFPRINT",
+          "WORK"
         ],
         "imp": 3,
         "url": "https://www.amazon.co.jp/dp/4893620142&https://m.media-amazon.com/images/I/414Po7lDbIL._SY445_SX342_ControlCacheEqualizer_.jpg",
-        "url_en": "https://www.amazon.com/System-October-Technical-Journal-Laboratories/dp/B0096BKHJI&https://m.media-amazon.com/images/I/91v1CVQ-VPL._SY385_.jpg",
         "note": "UNIXオペレーティングシステムに関する主要な論文や技術報告が掲載された「ベル・システム・テクニカル・ジャーナル」の特集号の日本語訳。UNIXのカーネル、シェル、ファイルシステムなど、システムの核心部分に関するオリジナルの技術文書を収録しています。/UNIXの初期設計思想と実装の詳細を、開発者自身の言葉で学べる極めて重要な技術資料です。現代のOSの多くがUNIXの思想を受け継いでいるため、コンピュータ科学を深く学ぶ上で欠かせない原典の一つと言えます。(C)",
+        "label_en": "The Bell System Technical Journal(AT&T Bell Laboratories)",
+        "url_en": "https://www.amazon.com/System-October-Technical-Journal-Laboratories/dp/B0096BKHJI&https://m.media-amazon.com/images/I/91v1CVQ-VPL._SY385_.jpg",
         "note_en": "A Japanese translation of a special issue of \"The Bell System Technical Journal\" featuring key papers and technical reports on the UNIX operating system. It contains original technical documents regarding the core components of the UNIX system, such as the kernel, shell, and file system. /This is an extremely important technical resource, allowing readers to learn the initial design philosophy and implementation details of UNIX in the developers' own words. Since many modern operating systems inherit the philosophy of UNIX, it is considered one of the essential primary sources for deep study in computer science.(C)"
       }
     ],
     "1987": [
-      {
-        "label": "ハッカーズ―英雄たちのコンピュータ革命（スティーブン・レビー著、松田信子・古橋芳恵訳）",
-        "label_en": "Hackers: Heroes of the Computer Revolution(Steven Levy)",
-        "startYear": 1987,
-        "genre": [
-          "HACKER"
-        ],
-        "imp": 3,
-        "url": "https://ja.wikipedia.org/wiki/ハッカーズ_(書籍)|https://www.amazon.co.jp/%E3%83%8F%E3%83%83%E3%82%AB%E3%83%BC%E3%82%BA-%E3%82%B9%E3%83%86%E3%82%A3%E3%83%BC%E3%83%96%E3%83%B3%E3%83%BB%E3%83%AC%E3%83%93%E3%83%BC/dp/487593100X&https://m.media-amazon.com/images/I/71crIIwASvL._SY425_.jpg",
-        "url_en": "https://en.wikipedia.org/wiki/Hackers:_Heroes_of_the_Computer_Revolution",
-        "note": "MITのハッカー、ホームブリュー・コンピュータ・クラブ、ゲーム会社シエラ・オンラインなど、60〜80年代初期の「ハッカーたち」の人物群像を描いたノンフィクション。ハッカー倫理（情報は自由であるべき等）を明確に言語化した本として有名です。/「ハッカーとは誰か？」を知るには、まずこれ。犯罪者としてのハッカーではなく、創造的な技術者コミュニティの文化史として読めるので、PC黎明期〜シリコンバレーの空気を掴むのにもぴったりです。",
-        "note_en": "A non-fiction depicting the group of \"hackers\" from the 60s to early 80s, such as MIT hackers, Homebrew Computer Club, and game company Sierra Online. Famous as a book that clearly verbalized hacker ethics (information should be free, etc.)./To know \"who are hackers?\", start here. Read not as hackers as criminals, but as a cultural history of creative engineer communities, it is perfect for grasping the atmosphere of the PC dawn to Silicon Valley."
-      },
-      {
-        "label": "思考のための道具 ― 異端の天才たちはコンピュータに何を求めたか?（ハワード・ラインゴールド著/栗田昭平監訳・青木真美訳）",
-        "label_en": "Tools for Thought: The History and Future of Mind-Expanding Technology(Howard Rheingold)",
-        "startYear": 1987,
-        "genre": [
-          "COMPUTER",
-          "OUTOFPRINT"
-        ],
-        "imp": 3,
-        "url": "https://www.amazon.co.jp/dp/4893620355&https://m.media-amazon.com/images/I/51DS9VXCXZL._SY425_.jpg",
-        "url_en": "https://en.wikipedia.org/wiki/Tools_for_Thought|https://www.amazon.com/dp/0262681153/&https://m.media-amazon.com/images/I/41wJLquHuiL._SY445_SX342_FMwebp_.jpg",
-        "note": "チューリング、フォン・ノイマン、エンゲルバート、リックライダー、パロアルト研究所など、コンピュータ史のキーパーソンたちの仕事を「思考を拡張する道具」という観点から描いた歴史＋未来予測本。80年代初頭から90年代のネットワーク社会を予見しようとした“レトロフューチャー”な一冊です。/「コンピュータの歴史＝製品カタログ」ではなく、「どんな人たちが、どんな思想で“思考のための道具”を発明してきたか」を物語として追える本です。RAGやローカルLLM環境をいじっていると、「この本で描かれた系譜のだいぶ先端に自分がいるんだな」と妙にしみる系の読み物。",
-        "note_en": "A history and future prediction book that depicts the work of key figures in computer history—such as Turing, von Neumann, Engelbart, Licklider, and Xerox PARC—from the perspective of \"tools for expanding thought.\" It is a \"retro-future\" book that attempted to foresee the network society of the 90s from the early 80s./It allows you to follow the story not as a \"computer history = product catalog,\" but as \"what kind of people invented 'tools for thought' with what kind of philosophies.\" When tinkering with RAG or local LLM environments, it is a reading experience that makes you feel, \"I am at the very tip of the lineage described in this book.\""
-      },
       {
         "label": "混沌からの秩序 ― 人間の新しい対話（イリヤ・プリゴジン、イザベル・スタンジェール著、伏見康治ほか訳）",
         "label_en": "Order Out of Chaos: Man’s New Dialogue with Nature(Ilya Prigogine, Isabelle Stengers)",
@@ -762,19 +742,6 @@
         "url_en": "https://direct.mit.edu/books/monograph/3299/VisionA-Computational-Investigation-into-the-Human",
         "note": "視覚を「計算理論」「表現とアルゴリズム」「実装」の3レベルで記述する枠組みを提示し、エッジ検出・立体視・運動視などを具体的にモデル化した計算論的神経科学の古典。コンピュータビジョンと認知神経科学の双方に大きな影響を与えた。/「視覚する」という行為を、情報処理のレイヤー構造として分解してみせた本で、いまのディープラーニング系CVとは発想が違いながらも、問題設定の仕方はかなり参考になります。LLMに対する「計算理論レベルの説明」が欲しいとき、マーの三層モデルはそのままメタな道具として使えます。",
         "note_en": "A classic of computational neuroscience that presented a framework for describing vision at three levels: \"computational theory,\" \"representation and algorithm,\" and \"implementation,\" and concretely modeled edge detection, stereopsis, and motion vision. It had a major impact on both computer vision and cognitive neuroscience./A book that decomposed the act of \"seeing\" into a layered structure of information processing. While the idea differs from current deep learning CV, the way of setting the problem is quite helpful. When you want a \"computational theory level explanation\" for LLMs, Marr's three-layer model can be used as a meta-tool as is."
-      },
-      {
-        "label": "メディア論：人間の拡張の諸相（マーシャル・マクルーハン著、栗原裕・河本仲聖訳）",
-        "label_en": "Understanding Media: The Extensions of Man(Marshall McLuhan)",
-        "startYear": 1987,
-        "genre": [
-          "THEORYMEDIA"
-        ],
-        "imp": 3,
-        "url": "https://www.amazon.co.jp/%E3%83%A1%E3%83%87%E3%82%A3%E3%82%A2%E8%AB%96%E2%80%95%E4%BA%BA%E9%96%93%E3%81%AE%E6%8B%A1%E5%BC%B5%E3%81%AE%E8%AB%B8%E7%9B%B8-%E3%83%9E%E3%83%BC%E3%82%B7%E3%83%A3%E3%83%AB-%E3%83%9E%E3%82%AF%E3%83%AB%E3%83%BC%E3%83%8F%E3%83%B3/dp/4622018977",
-        "url_en": "https://en.wikipedia.org/wiki/Understanding_Media",
-        "note": "20世紀後半のメディア環境と人間の行方を論じた「グーテンベルクの銀河系」の続編。メディアを情報の媒体としてだけでなく、存在や環境の根拠として捉える「メディア的人間」を見出す。/「メディアはメッセージである」「ホットなメディアとクールなメディア」などの有名な概念が登場する主著。テクノロジーを身体や中枢神経の拡張として捉える視点は、今日のデジタル環境を理解する上でも不可欠です。",
-        "note_en": "A sequel to \"The Gutenberg Galaxy\" discussing the media environment of the late 20th century and the future of humanity. It finds \"media man,\" perceiving media not only as a medium of information but as the basis of existence and environment. /The main work introducing famous concepts such as \"The medium is the message\" and \"Hot and Cool media.\" The perspective of viewing technology as an extension of the body and central nervous system is indispensable for understanding today's digital environment."
       },
       {
         "label": "ブラッド・ミュージック（グレッグ・ベア著、小川隆訳）",
@@ -816,20 +783,6 @@
         "note_en": "A representative cyberpunk short story collection containing early Gibson's important short stories, including the title story \"Burning Chrome\" and \"Johnny Mnemonic,\" featuring Johnny and Molly from the same world as \"Neuromancer.\"/Each story has a different taste, but you can taste Gibson at a time when motifs like \"cyberspace,\" \"console cowboys,\" and \"megacorps\" were most \"concentrated.\" A delicious book as a warm-up before reading the novel trilogy or as a \"world completion\" after reading."
       },
       {
-        "label": "実録!天才プログラマー（スーザン・ラマース著/マイクロソフトプレス編/岡和夫訳）",
-        "label_en": "Programmers at Work(Susan Lammers)",
-        "startYear": 1987,
-        "genre": [
-          "COMPUTER",
-          "OUTOFPRINT"
-        ],
-        "imp": 3,
-        "url": "https://www.amazon.co.jp/dp/4871483630&https://m.media-amazon.com/images/I/51MCPi-6VHL._SY445_SX342_ControlCacheEqualizer_.jpg",
-        "url_en": "https://www.amazon.com/Programmers-Work-Interviews-Computer-Industry/dp/1556152116&https://m.media-amazon.com/images/I/918NBq8isoL._SY385_.jpg",
-        "note": "初期のパーソナルコンピュータ時代における著名なプログラマーたちへのインタビュー集。ビル・ゲイツ、ジェームズ・ゴスリン、ジョン・ウォーノックなど、当時の最先端で活躍していた開発者たちが、どのようにプログラムを書き、何を考えていたのかを直接語っています。/プログラミングという行為がどのように行われ、どのような思想的背景があったのかを知る上で貴重な資料です。黎明期のコンピュータ文化と、天才たちの仕事への取り組み方を垣間見ることができます。(C)",
-        "note_en": "A collection of interviews with prominent programmers from the early personal computer era. Developers at the forefront of the time, including Bill Gates, James Gosling, and John Warnock, speak directly about how they coded and what they were thinking. /It is a valuable resource for understanding the act of programming and its underlying philosophical background. It offers a glimpse into the nascent computer culture and the work approaches of these brilliant minds.(C)"
-      },
-      {
         "label": "TRONを創る（坂村健著）",
         "startYear": 1987,
         "genre": [
@@ -839,35 +792,67 @@
         "url": "https://www.amazon.co.jp/dp/4320023668&https://m.media-amazon.com/images/I/41hyYf8cMbL._SY385_.jpg",
         "note": "日本で開発されたオープンアーキテクチャのリアルタイムOSプロジェクト「TRON（The Real-time Operating system Nucleus）」の提唱者、坂村健によるTRONの思想と技術的背景を解説した書籍。/あらゆるモノがコンピュータで制御される「ユビキタス」な社会を予見し、それを実現するためのOSの設計思想や、国際標準化への挑戦について詳細に論じています。当時の日本のコンピュータ技術者が世界に向けて発信した野心的なビジョンを知ることができます。(C)",
         "note_en": "A book by Ken Sakamura, the advocate of the TRON (The Real-time Operating system Nucleus) open-architecture real-time OS project developed in Japan, explaining the philosophy and technical background of TRON. /It details the OS design philosophy and the challenge of international standardization aimed at realizing a \"ubiquitous\" society, where everything is controlled by computers, a vision that predated its widespread adoption. It provides insight into the ambitious vision presented by Japanese computer engineers to the world at that time.(C)"
+      },
+      {
+        "label": "ハッカーズ―英雄たちのコンピュータ革命（スティーブン・レビー著、松田信子・古橋芳恵訳）",
+        "startYear": 1987,
+        "genre": [
+          "HACKER",
+          "WORK"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/ハッカーズ_(書籍)|https://www.amazon.co.jp/%E3%83%8F%E3%83%83%E3%82%AB%E3%83%BC%E3%82%BA-%E3%82%B9%E3%83%86%E3%82%A3%E3%83%BC%E3%83%96%E3%83%B3%E3%83%BB%E3%83%AC%E3%83%93%E3%83%BC/dp/487593100X&https://m.media-amazon.com/images/I/71crIIwASvL._SY425_.jpg",
+        "note": "MITのハッカー、ホームブリュー・コンピュータ・クラブ、ゲーム会社シエラ・オンラインなど、60〜80年代初期の「ハッカーたち」の人物群像を描いたノンフィクション。ハッカー倫理（情報は自由であるべき等）を明確に言語化した本として有名です。/「ハッカーとは誰か？」を知るには、まずこれ。犯罪者としてのハッカーではなく、創造的な技術者コミュニティの文化史として読めるので、PC黎明期〜シリコンバレーの空気を掴むのにもぴったりです。",
+        "label_en": "Hackers: Heroes of the Computer Revolution(Steven Levy)",
+        "url_en": "https://en.wikipedia.org/wiki/Hackers:_Heroes_of_the_Computer_Revolution",
+        "note_en": "A non-fiction depicting the group of \"hackers\" from the 60s to early 80s, such as MIT hackers, Homebrew Computer Club, and game company Sierra Online. Famous as a book that clearly verbalized hacker ethics (information should be free, etc.)./To know \"who are hackers?\", start here. Read not as hackers as criminals, but as a cultural history of creative engineer communities, it is perfect for grasping the atmosphere of the PC dawn to Silicon Valley."
+      },
+      {
+        "label": "思考のための道具 ― 異端の天才たちはコンピュータに何を求めたか?（ハワード・ラインゴールド著/栗田昭平監訳・青木真美訳）",
+        "startYear": 1987,
+        "genre": [
+          "COMPUTER",
+          "OUTOFPRINT",
+          "WORK"
+        ],
+        "imp": 3,
+        "url": "https://www.amazon.co.jp/dp/4893620355&https://m.media-amazon.com/images/I/51DS9VXCXZL._SY425_.jpg",
+        "note": "チューリング、フォン・ノイマン、エンゲルバート、リックライダー、パロアルト研究所など、コンピュータ史のキーパーソンたちの仕事を「思考を拡張する道具」という観点から描いた歴史＋未来予測本。80年代初頭から90年代のネットワーク社会を予見しようとした“レトロフューチャー”な一冊です。/「コンピュータの歴史＝製品カタログ」ではなく、「どんな人たちが、どんな思想で“思考のための道具”を発明してきたか」を物語として追える本です。RAGやローカルLLM環境をいじっていると、「この本で描かれた系譜のだいぶ先端に自分がいるんだな」と妙にしみる系の読み物。",
+        "label_en": "Tools for Thought: The History and Future of Mind-Expanding Technology(Howard Rheingold)",
+        "url_en": "https://en.wikipedia.org/wiki/Tools_for_Thought|https://www.amazon.com/dp/0262681153/&https://m.media-amazon.com/images/I/41wJLquHuiL._SY445_SX342_FMwebp_.jpg",
+        "note_en": "A history and future prediction book that depicts the work of key figures in computer history—such as Turing, von Neumann, Engelbart, Licklider, and Xerox PARC—from the perspective of \"tools for expanding thought.\" It is a \"retro-future\" book that attempted to foresee the network society of the 90s from the early 80s./It allows you to follow the story not as a \"computer history = product catalog,\" but as \"what kind of people invented 'tools for thought' with what kind of philosophies.\" When tinkering with RAG or local LLM environments, it is a reading experience that makes you feel, \"I am at the very tip of the lineage described in this book.\""
+      },
+      {
+        "label": "メディア論：人間の拡張の諸相（マーシャル・マクルーハン著、栗原裕・河本仲聖訳）",
+        "startYear": 1987,
+        "genre": [
+          "THEORYMEDIA",
+          "WORK"
+        ],
+        "imp": 3,
+        "url": "https://www.amazon.co.jp/%E3%83%A1%E3%83%87%E3%82%A3%E3%82%A2%E8%AB%96%E2%80%95%E4%BA%BA%E9%96%93%E3%81%AE%E6%8B%A1%E5%BC%B5%E3%81%AE%E8%AB%B8%E7%9B%B8-%E3%83%9E%E3%83%BC%E3%82%B7%E3%83%A3%E3%83%AB-%E3%83%9E%E3%82%AF%E3%83%AB%E3%83%BC%E3%83%8F%E3%83%B3/dp/4622018977",
+        "note": "20世紀後半のメディア環境と人間の行方を論じた「グーテンベルクの銀河系」の続編。メディアを情報の媒体としてだけでなく、存在や環境の根拠として捉える「メディア的人間」を見出す。/「メディアはメッセージである」「ホットなメディアとクールなメディア」などの有名な概念が登場する主著。テクノロジーを身体や中枢神経の拡張として捉える視点は、今日のデジタル環境を理解する上でも不可欠です。",
+        "label_en": "Understanding Media: The Extensions of Man(Marshall McLuhan)",
+        "url_en": "https://en.wikipedia.org/wiki/Understanding_Media",
+        "note_en": "A sequel to \"The Gutenberg Galaxy\" discussing the media environment of the late 20th century and the future of humanity. It finds \"media man,\" perceiving media not only as a medium of information but as the basis of existence and environment. /The main work introducing famous concepts such as \"The medium is the message\" and \"Hot and Cool media.\" The perspective of viewing technology as an extension of the body and central nervous system is indispensable for understanding today's digital environment."
+      },
+      {
+        "label": "実録!天才プログラマー（スーザン・ラマース著/マイクロソフトプレス編/岡和夫訳）",
+        "startYear": 1987,
+        "genre": [
+          "COMPUTER",
+          "OUTOFPRINT",
+          "WORK"
+        ],
+        "imp": 3,
+        "url": "https://www.amazon.co.jp/dp/4871483630&https://m.media-amazon.com/images/I/51MCPi-6VHL._SY445_SX342_ControlCacheEqualizer_.jpg",
+        "note": "初期のパーソナルコンピュータ時代における著名なプログラマーたちへのインタビュー集。ビル・ゲイツ、ジェームズ・ゴスリン、ジョン・ウォーノックなど、当時の最先端で活躍していた開発者たちが、どのようにプログラムを書き、何を考えていたのかを直接語っています。/プログラミングという行為がどのように行われ、どのような思想的背景があったのかを知る上で貴重な資料です。黎明期のコンピュータ文化と、天才たちの仕事への取り組み方を垣間見ることができます。(C)",
+        "label_en": "Programmers at Work(Susan Lammers)",
+        "url_en": "https://www.amazon.com/Programmers-Work-Interviews-Computer-Industry/dp/1556152116&https://m.media-amazon.com/images/I/918NBq8isoL._SY385_.jpg",
+        "note_en": "A collection of interviews with prominent programmers from the early personal computer era. Developers at the forefront of the time, including Bill Gates, James Gosling, and John Warnock, speak directly about how they coded and what they were thinking. /It is a valuable resource for understanding the act of programming and its underlying philosophical background. It offers a glimpse into the nascent computer culture and the work approaches of these brilliant minds.(C)"
       }
     ],
     "1988": [
-      {
-        "label": "テレビゲーム 電子遊戯大全!（テレビゲームミュージアムプロジェクト著）",
-        "label_en": "Television Game Denshi Yugi Taizen!(TV Game Museum Project)",
-        "startYear": 1988,
-        "genre": [
-          "POPCULTURE",
-          "COMPUTER"
-        ],
-        "imp": 3,
-        "url": "https://www.amazon.co.jp/dp/4946432310&https://m.media-amazon.com/images/I/51Ca3D4JLRL._SY425_.jpg",
-        "note": "アーケードゲームや家庭用ゲーム機のタイトル・ハードウェアを網羅的に紹介した初期の「ゲーム百科」。当時の画面写真やスペック、簡潔な紹介文が並び、80年代までのテレビゲーム史の概観ができるカタログ的資料。/ネット以前に「検索サイト」のような役割を果たしていた分厚いゲームカタログです。情報の粒度やレイアウトも含めて、のちのゲームデータベースサイトやWikiの原型のように読めます。",
-        "note_en": "An early \"game encyclopedia\" comprehensively introducing arcade games and home console titles/hardware. With screen photos, specs, and concise introductions of the time, it is a catalog-like resource that gives an overview of video game history up to the 80s./A thick game catalog that played a role like a \"search engine\" before the internet. Including the granularity of information and layout, it reads like the prototype of later game database sites and Wikis."
-      },
-      {
-        "label": "メディアはマッサージである（マーシャル・マクルーハン、クエンティン・フィオーレ著、南博訳）",
-        "label_en": "The Medium is the Massage(Marshall McLuhan, Quentin Fiore)",
-        "startYear": 1988,
-        "genre": [
-          "THEORYMEDIA"
-        ],
-        "imp": 3,
-        "url": "amazon.co.jp/メディアはマッサージである-影響の目録-河出文庫-マーシャル-マクルーハン/dp/4309464068&https://m.media-amazon.com/images/I/81x5Mh1oTZL._SY425_.jpg",
-        "url_en": "https://en.wikipedia.org/wiki/The_Medium_Is_the_Massage",
-        "note": "「メディアはメッセージである（The medium is the message）」を、タイポグラフィと図版を駆使して視覚的に展開した実験的な一冊。メディア環境そのものが人間の知覚や社会構造を「マッサージ（操作）」している、という直感的な理解を与えてくれます。/中身をパラパラめくるだけで「紙のインターフェイスのプロトタイプ」みたいな感じがしてきます。情報デザインやUI／UXの先祖の一人としてマクルーハン＋フィオーレを眺めると、ウェブやスマホ画面のレイアウトも別の目で見えてきます。",
-        "note_en": "An experimental book that visually unfolds \"The medium is the message\" using typography and illustrations. It provides an intuitive understanding that the media environment itself \"massages\" (manipulates) human perception and social structure./Just flipping through it gives the feeling of a \"prototype of paper interface.\" Viewing McLuhan + Fiore as ancestors of information design and UI/UX makes you see web and smartphone screen layouts with different eyes."
-      },
       {
         "label": "ミラーシェード ― サイバーパンク・アンソロジー（ブルース・スターリング編、小川隆ほか訳）",
         "label_en": "Mirrorshades: The Cyberpunk Anthology(Bruce Sterling)",
@@ -882,17 +867,47 @@
         "note_en": "A representative anthology collecting cyberpunk short stories by 80s American SF writers like Gibson and Sterling. The editor's preface is also known as the self-definition = manifesto of cyberpunk./A book like a declaration from the field stating \"this is what cyberpunk is.\" Elements familiar in later works—cyberspace, corporate cities, street kids, drugs, modified bodies—are packed together with the raw \"heat of the movement,\" making it enjoyable both as a document and a read."
       },
       {
-        "label": "ワークステーション原典（ACMプレス 編/浜田俊夫訳/村井純監訳）",
-        "label_en": "A History of Personal Workstations(Association for Computing Machinery / Adele Goldberg)",
+        "label": "テレビゲーム 電子遊戯大全!（テレビゲームミュージアムプロジェクト著）",
         "startYear": 1988,
         "genre": [
           "COMPUTER",
-          "OUTOFPRINT"
+          "POPCULTURE",
+          "OUTOFPRINT",
+          "WORK"
+        ],
+        "imp": 3,
+        "url": "https://www.amazon.co.jp/dp/4946432310&https://m.media-amazon.com/images/I/51Ca3D4JLRL._SY425_.jpg",
+        "note": "アーケードゲームや家庭用ゲーム機のタイトル・ハードウェアを網羅的に紹介した初期の「ゲーム百科」。当時の画面写真やスペック、簡潔な紹介文が並び、80年代までのテレビゲーム史の概観ができるカタログ的資料。/ネット以前に「検索サイト」のような役割を果たしていた分厚いゲームカタログです。情報の粒度やレイアウトも含めて、のちのゲームデータベースサイトやWikiの原型のように読めます。",
+        "label_en": "Television Game Denshi Yugi Taizen!(TV Game Museum Project)",
+        "note_en": "An early \"game encyclopedia\" comprehensively introducing arcade games and home console titles/hardware. With screen photos, specs, and concise introductions of the time, it is a catalog-like resource that gives an overview of video game history up to the 80s./A thick game catalog that played a role like a \"search engine\" before the internet. Including the granularity of information and layout, it reads like the prototype of later game database sites and Wikis."
+      },
+      {
+        "label": "メディアはマッサージである（マーシャル・マクルーハン、クエンティン・フィオーレ著、南博訳）",
+        "startYear": 1988,
+        "genre": [
+          "THEORYMEDIA",
+          "WORK"
+        ],
+        "imp": 3,
+        "url": "amazon.co.jp/メディアはマッサージである-影響の目録-河出文庫-マーシャル-マクルーハン/dp/4309464068&https://m.media-amazon.com/images/I/81x5Mh1oTZL._SY425_.jpg",
+        "note": "「メディアはメッセージである（The medium is the message）」を、タイポグラフィと図版を駆使して視覚的に展開した実験的な一冊。メディア環境そのものが人間の知覚や社会構造を「マッサージ（操作）」している、という直感的な理解を与えてくれます。/中身をパラパラめくるだけで「紙のインターフェイスのプロトタイプ」みたいな感じがしてきます。情報デザインやUI／UXの先祖の一人としてマクルーハン＋フィオーレを眺めると、ウェブやスマホ画面のレイアウトも別の目で見えてきます。",
+        "label_en": "The Medium is the Massage(Marshall McLuhan, Quentin Fiore)",
+        "url_en": "https://en.wikipedia.org/wiki/The_Medium_Is_the_Massage",
+        "note_en": "An experimental book that visually unfolds \"The medium is the message\" using typography and illustrations. It provides an intuitive understanding that the media environment itself \"massages\" (manipulates) human perception and social structure./Just flipping through it gives the feeling of a \"prototype of paper interface.\" Viewing McLuhan + Fiore as ancestors of information design and UI/UX makes you see web and smartphone screen layouts with different eyes."
+      },
+      {
+        "label": "ワークステーション原典（ACMプレス 編/浜田俊夫訳/村井純監訳）",
+        "startYear": 1988,
+        "genre": [
+          "COMPUTER",
+          "OUTOFPRINT",
+          "WORK"
         ],
         "imp": 3,
         "url": "https://www.amazon.co.jp/dp/4756100511",
-        "url_en": "https://archive.org/details/historyofpersona00gold|https://www.amazon.com/History-Personal-Workstations-Adele-Goldberg/dp/0201112590&https://m.media-amazon.com/images/I/81rUIu0FcHL._SY342_.jpg",
         "note": "パーソナルワークステーションの進化の歴史を、Association for Computing Machinery（ACM）がまとめた原典集。特にゼロックス・パロアルト研究所（PARC）の革新的な研究、GUI（グラフィカルユーザーインターフェース）やマウス、イーサネットなどの技術が、どのようにして現代のコンピュータの基礎を築いたのかを詳細に解説しています。/アデル・ゴールドバーグなど、当時の主要な研究者が寄稿しており、現代の「パーソナルコンピューティング」の原型がどのようにして生まれたのかを知る上で非常に重要な資料です。当時の先進的な思想と技術を知ることができます。(C)",
+        "label_en": "A History of Personal Workstations(Association for Computing Machinery / Adele Goldberg)",
+        "url_en": "https://archive.org/details/historyofpersona00gold|https://www.amazon.com/History-Personal-Workstations-Adele-Goldberg/dp/0201112590&https://m.media-amazon.com/images/I/81rUIu0FcHL._SY342_.jpg",
         "note_en": "A collection of original sources compiled by the Association for Computing Machinery (ACM) documenting the history of the personal workstation's evolution. It details how the groundbreaking research at Xerox PARC, including technologies like the GUI, mouse, and Ethernet, laid the foundation for modern computing. /With contributions from key researchers of the time, such as Adele Goldberg, this is an essential resource for understanding the genesis of modern \"personal computing.\" It provides insight into the advanced ideas and technologies of that era.(C)"
       },
       {
@@ -900,7 +915,8 @@
         "startYear": 1988,
         "genre": [
           "SCIENCE",
-          "THEORYMEDIA"
+          "THEORYMEDIA",
+          "WORK"
         ],
         "imp": 3,
         "url": "https://www.amazon.co.jp/dp/4788514346&https://m.media-amazon.com/images/I/717j68MWouL._SY466_.jpg",
@@ -964,20 +980,6 @@
         "note_en": "A specialist-oriented explanatory book discussing the relationship between primate/human brain evolution and intelligence, integrating findings from neuroscience and evolutionary biology. Delving into the relationship between higher functions like the prefrontal cortex and the \"mind,\" it makes one think about \"what is intelligence\" from a route different from AI./While overseas AI books talk about \"machine intelligence,\" this book firmly grasps \"intelligence as a biological entity.\" Since it's a pre-brain science boom book, it's a classic, but it's grateful to be able to follow the question \"How does intelligence reside in the material brain?\" firmly in Japanese."
       },
       {
-        "label": "スティーブ・ジョブズ（ジェフリー・ヤング著、日暮雅通訳）",
-        "label_en": "Steve Jobs: The Journey is the Reward(Jeffrey Young)",
-        "startYear": 1989,
-        "genre": [
-          "POPCULTURE",
-          "COMPUTER"
-        ],
-        "imp": 3,
-        "url": "https://www.amazon.co.jp/%E3%82%B9%E3%83%86%E3%82%A3%E3%83%BC%E3%83%96%E3%83%BB%E3%82%B8%E3%83%A7%E3%83%96%E3%82%BA%E2%80%95%E3%83%91%E3%83%BC%E3%82%BD%E3%83%8A%E3%83%AB%E3%83%BB%E3%82%B3%E3%83%B3%E3%83%94%E3%83%A5%E3%83%BC%E3%82%BF%E3%82%92%E5%89%B5%E3%81%A3%E3%81%9F%E7%94%B7%E3%80%88%E4%B8%8A%E3%80%89-%E3%82%B8%E3%82%A7%E3%83%95%E3%83%AA%E3%83%BC%E3%83%BBS-%E3%83%A4%E3%83%B3%E3%82%B0/dp/4880636002&https://m.media-amazon.com/images/I/51YuUVpJisL._SY425_.jpg",
-        "url_en": "https://www.amazon.com/Steve-Jobs-Journey-Jeffrey-Young-ebook/dp/B005ZXELHK&https://m.media-amazon.com/images/I/514KiyA7DxL._SY342_.jpg",
-        "note": "アップル・コンピュータ社の創業者の一人（もう一人はスティーブ・ウォズニアク）の半生。どうしてポップカルチャーの項目に入るのかというと、パソコンとドラッグ&カウンターカルチャーのつながりが実際どのようなものであったのか、本書を通して知ることができるからだ。/本書は、スティーブ・ジョブズに関する重要な視点を提供しています。時代はまだジョブズを必要としているらしく、歴史の表舞台から姿を消した彼が、のちに不死鳥のごとく甦る前の時期に書かれた貴重な記録です。",
-        "note_en": "The life of one of the founders of Apple Computer (the other being Steve Wozniak). The reason it falls under pop culture is that through this book, you can learn what the connection between personal computers, drugs, and counter-culture was actually like./This book provides an important perspective on Steve Jobs. It is a valuable record written during a time when Jobs had disappeared from the forefront of history, before his phoenix-like resurrection, suggesting the era still needed him."
-      },
-      {
         "label": "モナリザ・オーヴァドライヴ（ウィリアム・ギブスン著、黒丸尚訳）",
         "label_en": "Mona Lisa Overdrive(William Gibson)",
         "startYear": 1989,
@@ -1001,22 +1003,24 @@
         "url": "https://www.amazon.co.jp/%E8%9D%89%E3%81%AE%E5%A5%B3%E7%8E%8B-%E3%83%8F%E3%83%A4%E3%82%AB%E3%83%AF%E6%96%87%E5%BA%AB-SF-%E3%82%B9-5-2/dp/4150108226&https://m.media-amazon.com/images/I/511Vo61VtNL._SY425_.jpg",
         "note": "タイトルになっている「Cicada Queen」をはじめ、スターリングの代表的な短編を集めた日本独自編集の短編集。ニューウェーブ以降の文体と、政治・経済・テクノロジーをからめた冷徹な視線が特徴。/ギブスンと並んで「サイバーパンクの理論家」とも言われるスターリングの、政治色とアイロニーの効いた側面を強く感じられる本です。クールな未来像というより、「この先こう転んだら最悪だよね……」という悪夢を先取りして見せるタイプのSFで、90年代以降のネット社会批評のルーツを感じます。",
         "note_en": "A Japanese-exclusive short story collection gathering Sterling's representative short stories, including the title story \"Cicada Queen.\" Characterized by post-New Wave style and a cool-headed gaze intertwining politics, economics, and technology./A book where you can strongly feel the political color and irony of Sterling, known as a \"cyberpunk theorist\" alongside Gibson. Rather than a cool future image, it is the type of SF that anticipates and shows the nightmare of \"it would be the worst if things went this way...,\" making you feel the roots of post-90s net society criticism."
+      },
+      {
+        "label": "スティーブ・ジョブズ（ジェフリー・ヤング著、日暮雅通訳）",
+        "startYear": 1989,
+        "genre": [
+          "COMPUTER",
+          "POPCULTURE",
+          "WORK"
+        ],
+        "imp": 3,
+        "url": "https://www.amazon.co.jp/%E3%82%B9%E3%83%86%E3%82%A3%E3%83%BC%E3%83%96%E3%83%BB%E3%82%B8%E3%83%A7%E3%83%96%E3%82%BA%E2%80%95%E3%83%91%E3%83%BC%E3%82%BD%E3%83%8A%E3%83%AB%E3%83%BB%E3%82%B3%E3%83%B3%E3%83%94%E3%83%A5%E3%83%BC%E3%82%BF%E3%82%92%E5%89%B5%E3%81%A3%E3%81%9F%E7%94%B7%E3%80%88%E4%B8%8A%E3%80%89-%E3%82%B8%E3%82%A7%E3%83%95%E3%83%AA%E3%83%BC%E3%83%BBS-%E3%83%A4%E3%83%B3%E3%82%B0/dp/4880636002&https://m.media-amazon.com/images/I/51YuUVpJisL._SY425_.jpg",
+        "note": "アップル・コンピュータ社の創業者の一人（もう一人はスティーブ・ウォズニアク）の半生。どうしてポップカルチャーの項目に入るのかというと、パソコンとドラッグ&カウンターカルチャーのつながりが実際どのようなものであったのか、本書を通して知ることができるからだ。/本書は、スティーブ・ジョブズに関する重要な視点を提供しています。時代はまだジョブズを必要としているらしく、歴史の表舞台から姿を消した彼が、のちに不死鳥のごとく甦る前の時期に書かれた貴重な記録です。",
+        "label_en": "Steve Jobs: The Journey is the Reward(Jeffrey Young)",
+        "url_en": "https://www.amazon.com/Steve-Jobs-Journey-Jeffrey-Young-ebook/dp/B005ZXELHK&https://m.media-amazon.com/images/I/514KiyA7DxL._SY342_.jpg",
+        "note_en": "The life of one of the founders of Apple Computer (the other being Steve Wozniak). The reason it falls under pop culture is that through this book, you can learn what the connection between personal computers, drugs, and counter-culture was actually like./This book provides an important perspective on Steve Jobs. It is a valuable record written during a time when Jobs had disappeared from the forefront of history, before his phoenix-like resurrection, suggesting the era still needed him."
       }
     ],
     "1990": [
-      {
-        "label": "心の社会（マーヴィン・ミンスキー著/安西祐一郎訳）",
-        "label_en": "The Society of Mind(Marvin Minsky)",
-        "startYear": 1990,
-        "genre": [
-          "COMPUTER"
-        ],
-        "imp": 3,
-        "url": "https://www.amazon.co.jp/dp/4782800541&https://m.media-amazon.com/images/I/41TlYVq1HJL._SY425_.jpg",
-        "url_en": "https://en.wikipedia.org/wiki/Society_of_Mind|https://archive.org/details/societyofmind00marv|https://www.amazon.com/dp/0671657135/&https://m.media-amazon.com/images/I/51LrKJGIfFL._SY385_.jpg",
-        "note": "「心は多数の“エージェント”の社会である」というミンスキーの理論を、小さなエッセイを積み重ねるかたちで展開した本。知覚・記憶・感情などを、巨大なプログラムというより“雑多なモジュールの寄せ集め”として説明しようとする試みで、その後の認知科学やマルチエージェント研究にも影響を与えました。/いわゆる「統一的な意識」像とは逆に、「バラバラな小さな心的プロセスが協調しているだけ」という視点を徹底して押し出す本です。現在の深層学習やマルチモーダルモデルを見ると、この“寄せ集めの知能”という考えはむしろリアルさを増しているようにも感じます。",
-        "note_en": "A book unfolding Minsky's theory that \"the mind is a society of numerous 'agents'\" through a stack of small essays. It attempts to explain perception, memory, emotion, etc., not as a huge program but as a \"collection of miscellaneous modules,\" influencing subsequent cognitive science and multi-agent research./Contrary to the image of a \"unified consciousness,\" this book thoroughly pushes the perspective that \"disparate small mental processes are merely coordinating.\" Looking at current deep learning and multimodal models, this idea of \"hodgepodge intelligence\" feels increasingly realistic."
-      },
       {
         "label": "精神の生態学（グレゴリー・ベイトソン著、佐藤良明訳）",
         "label_en": "Steps to an Ecology of Mind(Gregory Bateson)",
@@ -1057,12 +1061,27 @@
         "note_en": "A history-altering SF set in 1990s Britain where Charles Babbage's Difference Engine was actually completed and popularized. Depicting the information society and political changes brought about by steam-powered computers, it is considered a masterpiece of steampunk./A \"history x information engineering\" novel that seriously executed the \"what if the computer revolution happened in the 19th century?\" scenario. Dense with names, events, and technology, it is twice as delicious if you are interested in computer history or Victorian culture. It is also symbolic that cyberpunk writers wrote a steampunk classic."
       },
       {
+        "label": "心の社会（マーヴィン・ミンスキー著/安西祐一郎訳）",
+        "startYear": 1990,
+        "genre": [
+          "COMPUTER",
+          "WORK"
+        ],
+        "imp": 3,
+        "url": "https://www.amazon.co.jp/dp/4782800541&https://m.media-amazon.com/images/I/41TlYVq1HJL._SY425_.jpg",
+        "note": "「心は多数の“エージェント”の社会である」というミンスキーの理論を、小さなエッセイを積み重ねるかたちで展開した本。知覚・記憶・感情などを、巨大なプログラムというより“雑多なモジュールの寄せ集め”として説明しようとする試みで、その後の認知科学やマルチエージェント研究にも影響を与えました。/いわゆる「統一的な意識」像とは逆に、「バラバラな小さな心的プロセスが協調しているだけ」という視点を徹底して押し出す本です。現在の深層学習やマルチモーダルモデルを見ると、この“寄せ集めの知能”という考えはむしろリアルさを増しているようにも感じます。",
+        "label_en": "The Society of Mind(Marvin Minsky)",
+        "url_en": "https://en.wikipedia.org/wiki/Society_of_Mind|https://archive.org/details/societyofmind00marv|https://www.amazon.com/dp/0671657135/&https://m.media-amazon.com/images/I/51LrKJGIfFL._SY385_.jpg",
+        "note_en": "A book unfolding Minsky's theory that \"the mind is a society of numerous 'agents'\" through a stack of small essays. It attempts to explain perception, memory, emotion, etc., not as a huge program but as a \"collection of miscellaneous modules,\" influencing subsequent cognitive science and multi-agent research./Contrary to the image of a \"unified consciousness,\" this book thoroughly pushes the perspective that \"disparate small mental processes are merely coordinating.\" Looking at current deep learning and multimodal models, this idea of \"hodgepodge intelligence\" feels increasingly realistic."
+      },
+      {
         "label": "公認コンピュータ・ジョーク集（スティーブ・ウォズニアックとラリー・ワイルドの共著）",
         "startYear": 1990,
         "genre": [
-          "NERD",
           "POPCULTURE",
-          "OUTOFPRINT"
+          "NERD",
+          "OUTOFPRINT",
+          "WORK"
         ],
         "imp": 3,
         "url": "https://www.amazon.co.jp/dp/4303717606&https://m.media-amazon.com/images/I/71qJ+uCwuPL._SY385_.jpg",
@@ -1071,46 +1090,6 @@
       }
     ],
     "1991": [
-      {
-        "label": "デジタル・ナルシス――情報科学パイオニアたちの欲望（西垣通著）",
-        "label_en": "デジタル・ナルシス――情報科学パイオニアたちの欲望(Nishigaki Tohru)",
-        "startYear": 1991,
-        "genre": [
-          "COMPUTER",
-          "THEORYMEDIA",
-          "OUTOFPRINT"
-        ],
-        "imp": 3,
-        "url": "https://www.amazon.co.jp/dp/4006031769&https://m.media-amazon.com/images/I/41SMiwA1mCL._ControlCacheEqualizer_.jpg",
-        "note": "チューリング、ノイマン、ウィーナーなど情報科学の巨人たちを、「冷静な科学者」ではなく欲望とナルシシズムを持った人間として描き直し、情報技術の裏にある文化・思想的衝動を読み解く評論。技術史と思想史を交差させるスタイルで、日本の情報学・メディア論に大きな影響を与えました。/今なら「テック企業の創業者のマインドセット」を分析した本が山ほどありますが、それを90年代前半に、情報科学のパイオニアたちに対して行っているのがこの本です。合理性の背後にある宗教性や神話、自己愛をあぶり出していく視点は、AIブームの空気を一歩引いて眺めるのにとても役立ちます。",
-        "note_en": "A critique that redraws information science giants like Turing, Neumann, and Wiener not as \"calm scientists\" but as humans with desires and narcissism, decoding the cultural and ideological impulses behind information technology. With a style crossing technical history and intellectual history, it greatly influenced Japanese informatics and media theory./Nowadays there are mountains of books analyzing the \"mindset of tech founders,\" but this book did that for the pioneers of information science in the early 90s. The perspective of exposing the religiosity, mythology, and narcissism behind rationality is very useful for taking a step back and observing the atmosphere of the AI boom."
-      },
-      {
-        "label": "サイケデリック・シンドローム―それはビートルズから始まった（デレク・テイラー著、水上はるこ訳）",
-        "label_en": "It Was Twenty Years Ago Today(Derek Taylor)",
-        "startYear": 1991,
-        "genre": [
-          "POPCULTURE"
-        ],
-        "imp": 3,
-        "url": "https://www.amazon.co.jp/dp/4401612566/",
-        "url_en": "https://www.amazon.com/Was-Twenty-Years-Ago-Today/dp/0671642014&https://m.media-amazon.com/images/I/91B7DGLpPgL._SY425_.jpg",
-        "note": "ビートルズ周辺にいた広報マン・評論家デレク・テイラーが、サイケデリック文化と60年代ポップカルチャーの熱気を内側から描いた回想録。『サージェント・ペパーズ』を中心に、ロック、ドラッグ、若者文化が絡み合う時代精神を伝える。/こちらはサイケデリック文化の「ロック側」からの証言集という位置づけで、アシッド・ドリームズが政治・諜報側から見た歴史だとすると良い対になっています。コンピュータ以前の「意識拡張メディア」としてのロックとドラッグを理解するのに役立つ本です。",
-        "note_en": "A memoir by Derek Taylor, a publicist and critic around the Beatles, depicting the heat of psychedelic culture and 60s pop culture from the inside. Centered on \"Sgt. Pepper's,\" it conveys the zeitgeist where rock, drugs, and youth culture intertwined./This is positioned as a collection of testimonies from the \"rock side\" of psychedelic culture, forming a good pair with \"Acid Dreams,\" which looks at history from the political/intelligence side. It is useful for understanding rock and drugs as \"consciousness-expanding media\" before computers."
-      },
-      {
-        "label": "機械の花嫁（マーシャル・マクルーハン著、井坂学訳）",
-        "label_en": "The Mechanical Bride: Folklore of Industrial Man(Marshall McLuhan)",
-        "startYear": 1991,
-        "genre": [
-          "THEORYMEDIA"
-        ],
-        "imp": 3,
-        "url": "https://www.amazon.co.jp/%E6%A9%9F%E6%A2%B0%E3%81%AE%E8%8A%B1%E5%AB%81%E2%80%95%E7%94%A3%E6%A5%AD%E7%A4%BE%E4%BC%9A%E3%81%AE%E3%83%95%E3%82%A9%E3%83%BC%E3%82%AF%E3%83%AD%E3%82%A2-%E3%83%9E%E3%83%BC%E3%82%B7%E3%83%A3%E3%83%AB-%E3%83%9E%E3%82%AF%E3%83%AB%E3%83%BC%E3%83%8F%E3%83%B3/dp/4803500401&https://m.media-amazon.com/images/I/41rRFOzLKeL._SY425_.jpg",
-        "url_en": "https://en.wikipedia.org/wiki/The_Mechanical_Bride",
-        "note": "新聞広告や雑誌広告をコラージュ的に読み解きながら、20世紀の産業社会とマスメディアがつくる「意味生成装置」を分析したメディア論の古典。バルト『神話作用』と並べて読むと、記号としての広告・大衆文化の読み方が立体的に見えてきます。/今日のSNSタイムラインやアルゴリズム広告を見るとき、「機械の花嫁」で提示された視点はそのまま流用できます。広告のレイアウトやキャッチコピーから、無意識に刷り込まれる価値観を読み解く練習としても最高のテキストです。",
-        "note_en": "A classic of media theory that analyzes the \"meaning-generating apparatus\" created by 20th-century industrial society and mass media, while reading newspaper and magazine advertisements in a collage-like manner. Reading it alongside Barthes' \"Mythologies\" gives a three-dimensional view of how to read advertisements and mass culture as symbols./When looking at today's SNS timelines and algorithmic ads, the perspectives presented in \"The Mechanical Bride\" can be applied directly. It is also the best text for practicing how to decode values unconsciously imprinted from ad layouts and catchphrases."
-      },
       {
         "label": "声の文化と文字の文化（ウォルター・J・オング著、桜井直文ほか訳）",
         "label_en": "Orality and Literacy: The Technologizing of the Word(Walter J. Ong)",
@@ -1123,20 +1102,6 @@
         "url_en": "https://www.amazon.com/Orality-Literacy-Technologizing-Walter-Ong/dp/0416713807&https://m.media-amazon.com/images/I/71qZ9wSA-SL._SX445_.jpg",
         "note": "口承文化から文字文化、そして印刷文化・電子メディア文化へという歴史的な転換が、人間の思考・記憶・社会構造に与えた影響を論じたメディア論／文化史の古典。マクルーハンの弟子筋にあたる立場から、より整理されたかたちで「メディアが思考をどう変えるか」を示します。/「二次的口頭性」という概念は、ネット配信・SNS・ボイスチャットが普及した現在の状況を説明するキーワードとして、そのまま再利用できます。テキスト文化にどっぷり浸かった世代が、再び「声」とリアルタイム性に揺り戻されている感じを、とてもきれいに言語化してくれる本です。",
         "note_en": "A classic of media theory/cultural history discussing the impact of historical shifts from oral culture to literate culture, and then to print and electronic media culture, on human thought, memory, and social structure. From a position as a disciple of McLuhan, it shows \"how media changes thought\" in a more organized form./The concept of \"secondary orality\" can be reused as a keyword to explain the current situation where net streaming, SNS, and voice chat have become widespread. It beautifully verbalizes the feeling of a generation steeped in text culture swinging back to \"voice\" and real-time interaction."
-      },
-      {
-        "label": "電脳生物たち ― 超AIによる文明の乗っ取り（ハンス・モラヴェック著、野崎昭弘訳）",
-        "label_en": "Mind Children: The Future of Robot and Human Intelligence(Hans Moravec)",
-        "startYear": 1991,
-        "genre": [
-          "SCIENCE",
-          "CYBERPUNK"
-        ],
-        "imp": 3,
-        "url": "https://www.amazon.co.jp/%E9%9B%BB%E8%84%B3%E7%94%9F%E7%89%A9%E3%81%9F%E3%81%A1-%E8%B6%85AI%E3%81%AB%E3%82%88%E3%82%8B%E6%96%87%E6%98%8E%E3%81%AE%E4%B9%97%E3%81%A3%E5%8F%96%E3%82%8A/dp/4000057006&https://m.media-amazon.com/images/I/41lYe0Wv4vL._SY425_.jpg",
-        "url_en": "https://www.amazon.com/dp/0674576187&https://m.media-amazon.com/images/I/81l0eX01cEL._SY466_.jpg",
-        "note": "人間の脳の情報パターンをコンピュータに移植し、ロボットの身体で「人類の文明を継承する」未来像を描くロボット学者の野心作。ポスト生物学的世界の倫理やアイデンティティも含め、今の「AIと人間」議論に直結する問題提起が多い。/「肉体から情報へ」という発想を、かなりラディカルなところまで押し進めた本です。今読むとSF寄りの大胆さもありますが、クラウド化・ロボット化・デジタル・イモータリティの議論を先取りしていて、当時としては相当にぶっ飛んだ未来像。サイバーパンク好きにもおすすめ。",
-        "note_en": "An ambitious work by a roboticist that depicts a future where human brain information patterns are transplanted into computers, and robot bodies \"inherit human civilization.\" Including the ethics and identity of a post-biological world, it raises many issues directly connected to the current \"AI and Human\" debate./A book that pushed the idea of \"from flesh to information\" to a quite radical point. Reading it now, it has the boldness of SF, but it anticipates discussions on cloudification, robotization, and digital immortality, presenting a future image that was quite wild for its time. Recommended for cyberpunk lovers."
       },
       {
         "label": "エッフェル塔（ロラン・バルト著、花輪光訳）",
@@ -1152,20 +1117,6 @@
         "note_en": "Contains Barthes' observations on the Eiffel Tower and Martin's photographic works. Standing between the 19th and 20th centuries, the tower gathers people's gaze as a symbol with countless signifying effects. Barthes' precise analysis stimulates the imagination./A beautiful fusion of photography and text, analyzing the Eiffel Tower structurally not just as a tourist spot, but as a \"symbol\" of the gaze looking down on Paris and the object being looked up at from Paris."
       },
       {
-        "label": "利己的な遺伝子（リチャード・ドーキンス著、日高敏隆ほか訳）",
-        "label_en": "The Selfish Gene(Richard Dawkins)",
-        "startYear": 1991,
-        "genre": [
-          "THEORYMEDIA",
-          "SCIENCE"
-        ],
-        "imp": 3,
-        "url": "https://ja.wikipedia.org/wiki/利己的な遺伝子|https://www.amazon.co.jp/%E5%88%A9%E5%B7%B1%E7%9A%84%E3%81%AA%E9%81%BA%E4%BC%9D%E5%AD%90-%E5%A2%97%E8%A3%9C%E6%96%B0%E8%A3%85%E7%89%88-%E3%83%AA%E3%83%81%E3%83%A3%E3%83%BC%E3%83%89%E3%83%BB%E3%83%89%E3%83%BC%E3%82%AD%E3%83%B3%E3%82%B9/dp/4314010037&https://m.media-amazon.com/images/I/51Q6M8KRGQL._SY425_.jpg",
-        "url_en": "https://en.wikipedia.org/wiki/The_Selfish_Gene",
-        "note": "「われわれは遺伝子という名の利己的な存在を生き残らせるべく盲目的にプログラムされたロボットなのだ」という衝撃的な主張を展開。従来の生物観・人間観とぶつかるが、根底には確率論的な発想がある。/進化の主体を個体や種ではなく「遺伝子」に置くことで生物学にパラダイムシフトを起こしました。文化の伝達単位「ミーム」の概念も本書で提唱されました。",
-        "note_en": "Developing the shocking argument that \"we are robots blindly programmed to preserve the selfish molecules known as genes.\" While it clashes with traditional views of biology and humanity, it is fundamentally based on probabilistic thinking./It caused a paradigm shift in biology by placing the subject of evolution not on the individual or species, but on the \"gene.\" The concept of \"meme\" as a unit of cultural transmission was also proposed in this book."
-      },
-      {
         "label": "オートポイエーシス：生命システムとは何か（H・R・マトゥラーナ、F・J・ヴァレラ著、河本英夫訳）",
         "label_en": "Autopoiesis and Cognition: The Realization of the Living(Humberto R. Maturana, Francisco J. Varela)",
         "startYear": 1991,
@@ -1178,47 +1129,6 @@
         "url_en": "https://en.wikipedia.org/wiki/Autopoiesis",
         "note": "「生きている世界はどのようにして生まれるか」という問いを軸に、生命とは何かに対して真正面から答えた数少ない書物。常識を打ち破る新しい生命観、認識論を展開している。/生命を「自らを自らで産出する閉鎖系システム」と定義した画期的な理論。サイバネティクスから出発し、認知科学や社会学（ルーマン）にも多大な影響を与えました。",
         "note_en": "One of the few books that answers \"what is life\" head-on, centering on the question \"how does the living world come into being?\" It unfolds a new view of life and epistemology that breaks through common sense./A groundbreaking theory defining life as a \"closed system that produces itself.\" Starting from cybernetics, it has had a huge influence on cognitive science and sociology (Luhmann)."
-      },
-      {
-        "label": "サイボーグ・フェミニズム（ダナ・ハラウェイほか著、小谷真理・巽孝之編）",
-        "label_en": "Simians, Cyborgs, and Women(Donna Haraway, et al.)",
-        "startYear": 1991,
-        "genre": [
-          "THEORYMEDIA",
-          "POPCULTURE"
-        ],
-        "imp": 3,
-        "url": "https://www.amazon.co.jp/%E3%82%B5%E3%82%A4%E3%83%9C%E3%83%BC%E3%82%B0%E3%83%BB%E3%83%95%E3%82%A7%E3%83%9F%E3%83%8B%E3%82%BA%E3%83%A0-%E3%83%80%E3%83%8A-%E3%83%8F%E3%83%A9%E3%82%A6%E3%82%A7%E3%82%A4/dp/484570515X&https://m.media-amazon.com/images/I/51iySpHoKGL._SY425_.jpg",
-        "url_en": "https://en.wikipedia.org/wiki/A_Cyborg_Manifesto",
-        "note": "デジタルテクノロジーの進展がフェミニズムに与える影響を論じる。生物学、サイバネティックス、AI、ロボティックスを視野に入れた「サイボーグフェミニズム」の論考を収録。/ハラウェイの「サイボーグ宣言」を中心に、ジェンダーや有機体/機械の境界を撹乱・横断する思想を紹介した、日本独自の重要なアンソロジーです。",
-        "note_en": "Discusses the impact of digital technology progress on feminism. Contains essays on \"Cyborg Feminism\" encompassing biology, cybernetics, AI, and robotics./An important anthology unique to Japan that introduces thoughts disturbing and crossing the boundaries of gender and organism/machine, centering on Haraway's \"A Cyborg Manifesto.\""
-      },
-      {
-        "label": "サイバネティック・フィクション ― 柔らかい機械としてのポストモダン文学（デヴィッド・ポラッシュ著、上岡伸雄訳）",
-        "label_en": "The Soft Machine: Cybernetic Fiction(David Porush)",
-        "startYear": 1991,
-        "genre": [
-          "CYBERPUNK",
-          "THEORYMEDIA"
-        ],
-        "imp": 3,
-        "url": "https://www.amazon.co.jp/%E3%82%B5%E3%82%A4%E3%83%90%E3%83%8D%E3%83%86%E3%82%A3%E3%83%83%E3%82%AF%E3%83%BB%E3%83%95%E3%82%A3%E3%82%AF%E3%82%B7%E3%83%A7%E3%83%B3-%E6%9F%94%E3%82%89%E3%81%8B%E3%81%84%E6%A9%9F%E6%A2%B0%E3%81%A8%E3%81%97%E3%81%A6%E3%81%AE%E3%83%9D%E3%82%B9%E3%83%88%E3%83%A2%E3%83%80%E3%83%B3%E6%96%87%E5%AD%A6-%E3%83%87%E3%83%B4%E3%82%A3%E3%83%83%E3%83%89-%E3%83%9D%E3%83%A9%E3%83%83%E3%82%B7%E3%83%A5/dp/4893421638&https://m.media-amazon.com/images/I/41tDz+i12gL._SY425_.jpg",
-        "url_en": "https://www.amazon.co.jp/Soft-Machine-Cybernetic-Artificial-Intelligence/dp/0815355130&https://m.media-amazon.com/images/I/41nVKFqnezL._SY522_.jpg",
-        "note": "R・ルーセル、K・ヴォネガット、W・バロウズ、T・ピンチョンらを取り上げ、「サイバネティックス」の観点からポストモダン文学を読み解いた批評書。タイトルにある「柔らかい機械」は、テキストや人間の意識そのものを、可塑性の高い情報機械としてとらえる概念。/SF小説というより、サイバネティクス的な視点でポストモダン文学を“ハッキング”する理論書です。情報・制御・フィードバックというキーワードで小説を読み直すスタイルは、そのまま現代のメディア論やネット文化批評にもつながっていて、SF読者が次のステップに行く時の良い「思考のブースター」になります。",
-        "note_en": "A critical book analyzing postmodern literature from the perspective of \"cybernetics,\" covering R. Roussel, K. Vonnegut, W. Burroughs, and T. Pynchon. The \"soft machine\" in the title is a concept viewing text and human consciousness itself as highly plastic information machines./Rather than an SF novel, it is a theoretical book that \"hacks\" postmodern literature from a cybernetic perspective. The style of rereading novels with keywords like information, control, and feedback connects directly to modern media theory and net culture criticism, serving as a good \"thought booster\" for SF readers moving to the next step."
-      },
-      {
-        "label": "カッコウはコンピュータに卵を産む（クリフォード・ストール著、池央耿訳）",
-        "label_en": "The Cuckoo’s Egg: Tracking a Spy Through the Maze of Computer Espionage(Clifford Stoll)",
-        "startYear": 1991,
-        "genre": [
-          "HACKER"
-        ],
-        "imp": 3,
-        "url": "https://www.amazon.co.jp/%E3%82%AB%E3%83%83%E3%82%B3%E3%82%A6%E3%81%AF%E3%82%B3%E3%83%B3%E3%83%94%E3%83%A5%E3%83%BC%E3%82%BF%E3%81%AB%E5%8D%B5%E3%82%92%E7%94%A3%E3%82%80-%E4%B8%8A-%E3%82%AF%E3%83%AA%E3%83%95%E3%82%A9%E3%83%BC%E3%83%89%E3%83%BB%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AB-ebook/dp/B079TMK3YQ&https://m.media-amazon.com/images/I/91TS21Sc47L._SY425_.jpg",
-        "url_en": "https://en.wikipedia.org/wiki/The_Cuckoo%27s_Egg",
-        "note": "カリフォルニア大学バークレー校の天文学研究者ストールが、数ドルの計算機利用料のズレを追っていくうちに、東独ハッカーによるスパイ事件を突き止めてしまう――という実話サスペンス。ログ解析・ネットワーク管理・組織内調整など、すべてが素人＋アナログな時代ならではの「追跡劇」です。/「ログを読む」ことがどれだけドラマチックになり得るかを教えてくれる一冊です。今読むと技術的にはレトロですが、監視・プライバシー・国家の情報戦といったテーマはむしろ現在のサイバーセキュリティとも直結していて、時代を越えて効いてきます。",
-        "note_en": "A true story suspense where Stoll, an astronomy researcher at UC Berkeley, tracks down a discrepancy of a few dollars in computer usage fees and uncovers a spy incident by an East German hacker. Log analysis, network management, internal coordination—all are a \"chase drama\" unique to an amateur + analog era./A book that teaches how dramatic \"reading logs\" can be. Reading it now, it is technically retro, but themes like surveillance, privacy, and national information warfare connect directly to current cybersecurity, remaining effective across eras."
       },
       {
         "label": "スーパーエンジニアへの道 技術リーダーシップの人間学（ジェラルド・M・ワインバーグ著/木村泉訳）",
@@ -1244,6 +1154,123 @@
         "url": "https://www.amazon.co.jp/dp/4756105289/&https://m.media-amazon.com/images/I/81Axl6S1HML._SX445_.jpg",
         "note": "ホーテンス・S・エンドウというユニークなペンネームを持つ著者が、プログラマという職業の日常、喜び、そして葛藤を、独特のユーモアと洞察をもって描いたエッセイ集。1990年代初頭の日本のプログラミング業界の雰囲気や、技術者特有の思考回路、当時の開発環境の様子などが軽妙なタッチで綴られています。/技術的な話だけでなく、プログラマが直面する人間関係やプロジェクトの難しさ、そしてコードを書くことへの情熱など、時代を超えて共感できるテーマが多く含まれています。プログラマの「夕方」の姿を垣間見せる、どこか哀愁漂うタイトルが象徴的な一冊です。",
         "note_en": "An essay collection by an author with the unique pen name Hortense S. Endo, depicting the daily life, joys, and struggles of the programming profession with unique humor and insight. It describes the atmosphere of the Japanese programming industry in the early 1990s, the peculiar thought processes of engineers, and the state of development environments at the time, all rendered with a light touch./Beyond technical discussions, the book covers many universally relatable themes, such as the human relations and project difficulties programmers face, and the passion for writing code. The title, \"The Evening of a Modern Programmer,\" is evocative, offering a glimpse into the programmer's life after hours."
+      },
+      {
+        "label": "デジタル・ナルシス――情報科学パイオニアたちの欲望（西垣通著）",
+        "startYear": 1991,
+        "genre": [
+          "COMPUTER",
+          "THEORYMEDIA",
+          "OUTOFPRINT",
+          "WORK"
+        ],
+        "imp": 3,
+        "url": "https://www.amazon.co.jp/dp/4006031769&https://m.media-amazon.com/images/I/41SMiwA1mCL._ControlCacheEqualizer_.jpg",
+        "note": "チューリング、ノイマン、ウィーナーなど情報科学の巨人たちを、「冷静な科学者」ではなく欲望とナルシシズムを持った人間として描き直し、情報技術の裏にある文化・思想的衝動を読み解く評論。技術史と思想史を交差させるスタイルで、日本の情報学・メディア論に大きな影響を与えました。/今なら「テック企業の創業者のマインドセット」を分析した本が山ほどありますが、それを90年代前半に、情報科学のパイオニアたちに対して行っているのがこの本です。合理性の背後にある宗教性や神話、自己愛をあぶり出していく視点は、AIブームの空気を一歩引いて眺めるのにとても役立ちます。",
+        "label_en": "デジタル・ナルシス――情報科学パイオニアたちの欲望(Nishigaki Tohru)",
+        "note_en": "A critique that redraws information science giants like Turing, Neumann, and Wiener not as \"calm scientists\" but as humans with desires and narcissism, decoding the cultural and ideological impulses behind information technology. With a style crossing technical history and intellectual history, it greatly influenced Japanese informatics and media theory./Nowadays there are mountains of books analyzing the \"mindset of tech founders,\" but this book did that for the pioneers of information science in the early 90s. The perspective of exposing the religiosity, mythology, and narcissism behind rationality is very useful for taking a step back and observing the atmosphere of the AI boom."
+      },
+      {
+        "label": "サイケデリック・シンドローム―それはビートルズから始まった（デレク・テイラー著、水上はるこ訳）",
+        "startYear": 1991,
+        "genre": [
+          "POPCULTURE",
+          "WORK"
+        ],
+        "imp": 3,
+        "url": "https://www.amazon.co.jp/dp/4401612566/",
+        "note": "ビートルズ周辺にいた広報マン・評論家デレク・テイラーが、サイケデリック文化と60年代ポップカルチャーの熱気を内側から描いた回想録。『サージェント・ペパーズ』を中心に、ロック、ドラッグ、若者文化が絡み合う時代精神を伝える。/こちらはサイケデリック文化の「ロック側」からの証言集という位置づけで、アシッド・ドリームズが政治・諜報側から見た歴史だとすると良い対になっています。コンピュータ以前の「意識拡張メディア」としてのロックとドラッグを理解するのに役立つ本です。",
+        "label_en": "It Was Twenty Years Ago Today(Derek Taylor)",
+        "url_en": "https://www.amazon.com/Was-Twenty-Years-Ago-Today/dp/0671642014&https://m.media-amazon.com/images/I/91B7DGLpPgL._SY425_.jpg",
+        "note_en": "A memoir by Derek Taylor, a publicist and critic around the Beatles, depicting the heat of psychedelic culture and 60s pop culture from the inside. Centered on \"Sgt. Pepper's,\" it conveys the zeitgeist where rock, drugs, and youth culture intertwined./This is positioned as a collection of testimonies from the \"rock side\" of psychedelic culture, forming a good pair with \"Acid Dreams,\" which looks at history from the political/intelligence side. It is useful for understanding rock and drugs as \"consciousness-expanding media\" before computers."
+      },
+      {
+        "label": "機械の花嫁（マーシャル・マクルーハン著、井坂学訳）",
+        "startYear": 1991,
+        "genre": [
+          "THEORYMEDIA",
+          "WORK"
+        ],
+        "imp": 3,
+        "url": "https://www.amazon.co.jp/%E6%A9%9F%E6%A2%B0%E3%81%AE%E8%8A%B1%E5%AB%81%E2%80%95%E7%94%A3%E6%A5%AD%E7%A4%BE%E4%BC%9A%E3%81%AE%E3%83%95%E3%82%A9%E3%83%BC%E3%82%AF%E3%83%AD%E3%82%A2-%E3%83%9E%E3%83%BC%E3%82%B7%E3%83%A3%E3%83%AB-%E3%83%9E%E3%82%AF%E3%83%AB%E3%83%BC%E3%83%8F%E3%83%B3/dp/4803500401&https://m.media-amazon.com/images/I/41rRFOzLKeL._SY425_.jpg",
+        "note": "新聞広告や雑誌広告をコラージュ的に読み解きながら、20世紀の産業社会とマスメディアがつくる「意味生成装置」を分析したメディア論の古典。バルト『神話作用』と並べて読むと、記号としての広告・大衆文化の読み方が立体的に見えてきます。/今日のSNSタイムラインやアルゴリズム広告を見るとき、「機械の花嫁」で提示された視点はそのまま流用できます。広告のレイアウトやキャッチコピーから、無意識に刷り込まれる価値観を読み解く練習としても最高のテキストです。",
+        "label_en": "The Mechanical Bride: Folklore of Industrial Man(Marshall McLuhan)",
+        "url_en": "https://en.wikipedia.org/wiki/The_Mechanical_Bride",
+        "note_en": "A classic of media theory that analyzes the \"meaning-generating apparatus\" created by 20th-century industrial society and mass media, while reading newspaper and magazine advertisements in a collage-like manner. Reading it alongside Barthes' \"Mythologies\" gives a three-dimensional view of how to read advertisements and mass culture as symbols./When looking at today's SNS timelines and algorithmic ads, the perspectives presented in \"The Mechanical Bride\" can be applied directly. It is also the best text for practicing how to decode values unconsciously imprinted from ad layouts and catchphrases."
+      },
+      {
+        "label": "電脳生物たち ― 超AIによる文明の乗っ取り（ハンス・モラヴェック著、野崎昭弘訳）",
+        "startYear": 1991,
+        "genre": [
+          "SCIENCE",
+          "CYBERPUNK",
+          "WORK"
+        ],
+        "imp": 3,
+        "url": "https://www.amazon.co.jp/%E9%9B%BB%E8%84%B3%E7%94%9F%E7%89%A9%E3%81%9F%E3%81%A1-%E8%B6%85AI%E3%81%AB%E3%82%88%E3%82%8B%E6%96%87%E6%98%8E%E3%81%AE%E4%B9%97%E3%81%A3%E5%8F%96%E3%82%8A/dp/4000057006&https://m.media-amazon.com/images/I/41lYe0Wv4vL._SY425_.jpg",
+        "note": "人間の脳の情報パターンをコンピュータに移植し、ロボットの身体で「人類の文明を継承する」未来像を描くロボット学者の野心作。ポスト生物学的世界の倫理やアイデンティティも含め、今の「AIと人間」議論に直結する問題提起が多い。/「肉体から情報へ」という発想を、かなりラディカルなところまで押し進めた本です。今読むとSF寄りの大胆さもありますが、クラウド化・ロボット化・デジタル・イモータリティの議論を先取りしていて、当時としては相当にぶっ飛んだ未来像。サイバーパンク好きにもおすすめ。",
+        "label_en": "Mind Children: The Future of Robot and Human Intelligence(Hans Moravec)",
+        "url_en": "https://www.amazon.com/dp/0674576187&https://m.media-amazon.com/images/I/81l0eX01cEL._SY466_.jpg",
+        "note_en": "An ambitious work by a roboticist that depicts a future where human brain information patterns are transplanted into computers, and robot bodies \"inherit human civilization.\" Including the ethics and identity of a post-biological world, it raises many issues directly connected to the current \"AI and Human\" debate./A book that pushed the idea of \"from flesh to information\" to a quite radical point. Reading it now, it has the boldness of SF, but it anticipates discussions on cloudification, robotization, and digital immortality, presenting a future image that was quite wild for its time. Recommended for cyberpunk lovers."
+      },
+      {
+        "label": "利己的な遺伝子（リチャード・ドーキンス著、日高敏隆ほか訳）",
+        "startYear": 1991,
+        "genre": [
+          "SCIENCE",
+          "THEORYMEDIA",
+          "WORK"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/利己的な遺伝子|https://www.amazon.co.jp/%E5%88%A9%E5%B7%B1%E7%9A%84%E3%81%AA%E9%81%BA%E4%BC%9D%E5%AD%90-%E5%A2%97%E8%A3%9C%E6%96%B0%E8%A3%85%E7%89%88-%E3%83%AA%E3%83%81%E3%83%A3%E3%83%BC%E3%83%89%E3%83%BB%E3%83%89%E3%83%BC%E3%82%AD%E3%83%B3%E3%82%B9/dp/4314010037&https://m.media-amazon.com/images/I/51Q6M8KRGQL._SY425_.jpg",
+        "note": "「われわれは遺伝子という名の利己的な存在を生き残らせるべく盲目的にプログラムされたロボットなのだ」という衝撃的な主張を展開。従来の生物観・人間観とぶつかるが、根底には確率論的な発想がある。/進化の主体を個体や種ではなく「遺伝子」に置くことで生物学にパラダイムシフトを起こしました。文化の伝達単位「ミーム」の概念も本書で提唱されました。",
+        "label_en": "The Selfish Gene(Richard Dawkins)",
+        "url_en": "https://en.wikipedia.org/wiki/The_Selfish_Gene",
+        "note_en": "Developing the shocking argument that \"we are robots blindly programmed to preserve the selfish molecules known as genes.\" While it clashes with traditional views of biology and humanity, it is fundamentally based on probabilistic thinking./It caused a paradigm shift in biology by placing the subject of evolution not on the individual or species, but on the \"gene.\" The concept of \"meme\" as a unit of cultural transmission was also proposed in this book."
+      },
+      {
+        "label": "サイボーグ・フェミニズム（ダナ・ハラウェイほか著、小谷真理・巽孝之編）",
+        "startYear": 1991,
+        "genre": [
+          "POPCULTURE",
+          "THEORYMEDIA",
+          "WORK"
+        ],
+        "imp": 3,
+        "url": "https://www.amazon.co.jp/%E3%82%B5%E3%82%A4%E3%83%9C%E3%83%BC%E3%82%B0%E3%83%BB%E3%83%95%E3%82%A7%E3%83%9F%E3%83%8B%E3%82%BA%E3%83%A0-%E3%83%80%E3%83%8A-%E3%83%8F%E3%83%A9%E3%82%A6%E3%82%A7%E3%82%A4/dp/484570515X&https://m.media-amazon.com/images/I/51iySpHoKGL._SY425_.jpg",
+        "note": "デジタルテクノロジーの進展がフェミニズムに与える影響を論じる。生物学、サイバネティックス、AI、ロボティックスを視野に入れた「サイボーグフェミニズム」の論考を収録。/ハラウェイの「サイボーグ宣言」を中心に、ジェンダーや有機体/機械の境界を撹乱・横断する思想を紹介した、日本独自の重要なアンソロジーです。",
+        "label_en": "Simians, Cyborgs, and Women(Donna Haraway, et al.)",
+        "url_en": "https://en.wikipedia.org/wiki/A_Cyborg_Manifesto",
+        "note_en": "Discusses the impact of digital technology progress on feminism. Contains essays on \"Cyborg Feminism\" encompassing biology, cybernetics, AI, and robotics./An important anthology unique to Japan that introduces thoughts disturbing and crossing the boundaries of gender and organism/machine, centering on Haraway's \"A Cyborg Manifesto.\""
+      },
+      {
+        "label": "サイバネティック・フィクション ― 柔らかい機械としてのポストモダン文学（デヴィッド・ポラッシュ著、上岡伸雄訳）",
+        "startYear": 1991,
+        "genre": [
+          "CYBERPUNK",
+          "THEORYMEDIA",
+          "WORK"
+        ],
+        "imp": 3,
+        "url": "https://www.amazon.co.jp/%E3%82%B5%E3%82%A4%E3%83%90%E3%83%8D%E3%83%86%E3%82%A3%E3%83%83%E3%82%AF%E3%83%BB%E3%83%95%E3%82%A3%E3%82%AF%E3%82%B7%E3%83%A7%E3%83%B3-%E6%9F%94%E3%82%89%E3%81%8B%E3%81%84%E6%A9%9F%E6%A2%B0%E3%81%A8%E3%81%97%E3%81%A6%E3%81%AE%E3%83%9D%E3%82%B9%E3%83%88%E3%83%A2%E3%83%80%E3%83%B3%E6%96%87%E5%AD%A6-%E3%83%87%E3%83%B4%E3%82%A3%E3%83%83%E3%83%89-%E3%83%9D%E3%83%A9%E3%83%83%E3%82%B7%E3%83%A5/dp/4893421638&https://m.media-amazon.com/images/I/41tDz+i12gL._SY425_.jpg",
+        "note": "R・ルーセル、K・ヴォネガット、W・バロウズ、T・ピンチョンらを取り上げ、「サイバネティックス」の観点からポストモダン文学を読み解いた批評書。タイトルにある「柔らかい機械」は、テキストや人間の意識そのものを、可塑性の高い情報機械としてとらえる概念。/SF小説というより、サイバネティクス的な視点でポストモダン文学を“ハッキング”する理論書です。情報・制御・フィードバックというキーワードで小説を読み直すスタイルは、そのまま現代のメディア論やネット文化批評にもつながっていて、SF読者が次のステップに行く時の良い「思考のブースター」になります。",
+        "label_en": "The Soft Machine: Cybernetic Fiction(David Porush)",
+        "url_en": "https://www.amazon.co.jp/Soft-Machine-Cybernetic-Artificial-Intelligence/dp/0815355130&https://m.media-amazon.com/images/I/41nVKFqnezL._SY522_.jpg",
+        "note_en": "A critical book analyzing postmodern literature from the perspective of \"cybernetics,\" covering R. Roussel, K. Vonnegut, W. Burroughs, and T. Pynchon. The \"soft machine\" in the title is a concept viewing text and human consciousness itself as highly plastic information machines./Rather than an SF novel, it is a theoretical book that \"hacks\" postmodern literature from a cybernetic perspective. The style of rereading novels with keywords like information, control, and feedback connects directly to modern media theory and net culture criticism, serving as a good \"thought booster\" for SF readers moving to the next step."
+      },
+      {
+        "label": "カッコウはコンピュータに卵を産む（クリフォード・ストール著、池央耿訳）",
+        "startYear": 1991,
+        "genre": [
+          "HACKER",
+          "WORK"
+        ],
+        "imp": 3,
+        "url": "https://www.amazon.co.jp/%E3%82%AB%E3%83%83%E3%82%B3%E3%82%A6%E3%81%AF%E3%82%B3%E3%83%B3%E3%83%94%E3%83%A5%E3%83%BC%E3%82%BF%E3%81%AB%E5%8D%B5%E3%82%92%E7%94%A3%E3%82%80-%E4%B8%8A-%E3%82%AF%E3%83%AA%E3%83%95%E3%82%A9%E3%83%BC%E3%83%89%E3%83%BB%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AB-ebook/dp/B079TMK3YQ&https://m.media-amazon.com/images/I/91TS21Sc47L._SY425_.jpg",
+        "note": "カリフォルニア大学バークレー校の天文学研究者ストールが、数ドルの計算機利用料のズレを追っていくうちに、東独ハッカーによるスパイ事件を突き止めてしまう――という実話サスペンス。ログ解析・ネットワーク管理・組織内調整など、すべてが素人＋アナログな時代ならではの「追跡劇」です。/「ログを読む」ことがどれだけドラマチックになり得るかを教えてくれる一冊です。今読むと技術的にはレトロですが、監視・プライバシー・国家の情報戦といったテーマはむしろ現在のサイバーセキュリティとも直結していて、時代を越えて効いてきます。",
+        "label_en": "The Cuckoo’s Egg: Tracking a Spy Through the Maze of Computer Espionage(Clifford Stoll)",
+        "url_en": "https://en.wikipedia.org/wiki/The_Cuckoo%27s_Egg",
+        "note_en": "A true story suspense where Stoll, an astronomy researcher at UC Berkeley, tracks down a discrepancy of a few dollars in computer usage fees and uncovers a spy incident by an East German hacker. Log analysis, network management, internal coordination—all are a \"chase drama\" unique to an amateur + analog era./A book that teaches how dramatic \"reading logs\" can be. Reading it now, it is technically retro, but themes like surveillance, privacy, and national information warfare connect directly to current cybersecurity, remaining effective across eras."
       }
     ],
     "1992": [
