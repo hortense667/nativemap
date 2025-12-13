@@ -164,17 +164,17 @@
         "note_en": "A science book in picture-book format by the world-renowned picture book author Mitsumasa Anno, which humorously and intellectually explains the mechanism of calculation and the principles of computers using familiar tools like stones and sticks (\"Stone-Head Calculator\"). /It allows readers of all ages to learn the fundamental idea of how computation can be achieved using \"things,\" without relying on complex formulas or electronic circuits, through beautiful illustrations and gentle prose. It is a unique book for exploring the philosophy of the calculator.(C)"
       },
       {
-        "label": "Tools for Conviviality（イヴァン・イリイチ著）",
-        "label_en": "Tools for Conviviality (Ivan Illich)",
+        "label": "コンヴィヴィアリティのための道具",
         "startYear": 1973,
         "genre": [
-          "THEORYMEDIA",
-          "POPCULTURE"
+          "POPCULTURE",
+          "THEORYMEDIA"
         ],
         "imp": 3,
         "url": "https://en.wikipedia.org/wiki/Tools_for_Conviviality",
-        "url_en": "https://en.wikipedia.org/wiki/Tools_for_Conviviality",
         "note": "技術を「人間の自律と共生を支える道具」として再定義し、巨大システムへの依存を批判する。テクノロジー思想の古典。",
+        "label_en": "Tools for Conviviality (Ivan Illich)",
+        "url_en": "https://en.wikipedia.org/wiki/Tools_for_Conviviality",
         "note_en": "Classic critique of industrial/large-scale systems, arguing for 'convivial tools' that support human autonomy and mutuality."
       }
     ],
@@ -417,16 +417,16 @@
     "1981": [
       {
         "label": "The Soul of a New Machine（邦題：超マシン誕生）（トレイシー・キダー著）",
-        "label_en": "The Soul of a New Machine (Tracy Kidder)",
         "startYear": 1981,
         "genre": [
           "COMPUTER",
           "POPCULTURE"
         ],
         "imp": 3,
-        "url": "https://en.wikipedia.org/wiki/The_Soul_of_a_New_Machine",
-        "url_en": "https://en.wikipedia.org/wiki/The_Soul_of_a_New_Machine",
+        "url": "https://ja.wikipedia.org/wiki/%E8%B6%85%E3%83%9E%E3%82%B7%E3%83%B3%E8%AA%95%E7%94%9F",
         "note": "コンピュータ開発チームの熱量・倫理・生活を追うノンフィクション。80年代エンジニアリング文化の“体温”が残る。",
+        "label_en": "The Soul of a New Machine (Tracy Kidder)",
+        "url_en": "https://en.wikipedia.org/wiki/The_Soul_of_a_New_Machine",
         "note_en": "Narrative nonfiction of an engineering team building a new computer"
       }
     ],
