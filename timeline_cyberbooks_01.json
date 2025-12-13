@@ -313,19 +313,6 @@
     ],
     "1978": [
       {
-        "label": "人工頭脳と自己増殖 ―― オートマトンの論理学概論（ジョン・フォン・ノイマン著/品川嘉也訳）",
-        "label_en": "The General and Logical Theory of Automata(John von Neumann)",
-        "startYear": 1978,
-        "genre": [
-          "COMPUTER",
-          "OUTOFPRINT"
-        ],
-        "imp": 3,
-        "url_en": "https://www.vordenker.de/ggphilosophy/jvn_the-general-and-logical-theory-of-automata.pdf",
-        "note": "フォン・ノイマンが、自己増殖オートマトンや計算機の一般理論について語った伝説的講演。脳のしくみと機械の自動機構を同じ“オートマトン”として扱う視点は、その後の人工生命・セルオートマトン研究の源流となりました。/“セル・オートマトン”や“自己複製ロボット”のアイディアの原型がここにあり、SFで見かけるモチーフの下敷きにもなっています。数式的には難しいですが、「複雑な知性がシンプルなルールの集合から生まれうる」という直感を歴史的に辿れるテキストです。",
-        "note_en": "A legendary lecture where von Neumann discussed self-reproducing automata and the general theory of computers. The perspective of treating brain mechanisms and mechanical automatic mechanisms as the same \"automata\" became the source of subsequent artificial life and cellular automata research./The prototypes for ideas like \"cellular automata\" and \"self-replicating robots\" are here, serving as the foundation for motifs seen in SF. While mathematically difficult, it is a text where you can historically trace the intuition that \"complex intelligence can emerge from a set of simple rules.\""
-      },
-      {
         "label": "ノヴァ急報（ウィリアム・S・バロウズ著/諏訪優訳）",
         "label_en": "Nova Express(William S. Burroughs)",
         "startYear": 1978,
