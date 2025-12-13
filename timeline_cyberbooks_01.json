@@ -382,6 +382,20 @@
         "label_en": "Crime by Computer(Donn B. Parker)",
         "url_en": "https://www.amazon.com/Crime-computer-Donn-B-Parker/dp/068414574X",
         "note_en": "A book that, as early as the 1970s when computers were not yet common, warned of the potential for misuse and collected and analyzed case studies of early computer crimes. /It details specific criminal methods of the time, such as unauthorized access, data theft, and system destruction, containing content that can be considered a root of modern cybersecurity discussions. It is a valuable resource for understanding the negative side of early hacker/cracker culture.(C)"
+      },
+      {
+        "label": "ジャパンアズナンバーワン（エズラ・F.ヴォーゲル著/広中 和歌子・木田 宏訳）",
+        "label_en": "Japan as Number One: Lessons for America（Ezra F. Vogel）",
+        "startYear": 1979,
+        "genre": [
+          "THEORYMEDIA",
+          "OUTOFPRINT"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/%E3%82%B8%E3%83%A3%E3%83%91%E3%83%B3%E3%82%A2%E3%82%BA%E3%83%8A%E3%83%B3%E3%83%90%E3%83%BC%E3%83%AF%E3%83%B3|https://www.amazon.co.jp/dp/453209148X&https://m.media-amazon.com/images/I/41t7+B84gQL.SY342.jpg",
+        "url_en": "https://en.wikipedia.org/wiki/Japan_as_Number_One|https://www.amazon.com/dp/0060907096&https://m.media-amazon.com/images/I/5152qQ52s4L.SY342.jpg",
+        "note": "ハーバード大学のエズラ・F.ヴォーゲル教授が、高度経済成長を遂げた1970年代後半の日本の成功要因を分析し、アメリカにその教訓を提言した社会学の古典。/日本の組織構造、教育システム、官僚制、集団主義といった文化的・社会的要因を詳細に解説し、これらの特徴がどのようにして経済的な優位性を生み出したのかを論じました。当時の日本の自信を高めるとともに、世界に「日本モデル」を知らしめた、日米関係論や経営論において非常に重要な文献です。",
+        "note_en": "A classic sociological work by Harvard Professor Ezra F. Vogel analyzing the success factors of Japan, which achieved rapid economic growth in the late 1970s, and offering those lessons to America./It details Japanese cultural and social factors such as organizational structure, education system, bureaucracy, and collectivism, discussing how these traits led to economic superiority. This book boosted Japan's confidence at the time and introduced the \"Japan Model\" to the world, making it a highly significant document in US-Japan relations and management theory."
       }
     ],
     "1980": [
@@ -483,6 +497,20 @@
         "label_en": "The Third Wave（Alvin Toffler）",
         "url_en": "https://en.wikipedia.org/wiki/The_Third_Wave_(Toffler_book|https://www.amazon.com/Third-Wave-Alvin-Toffler/dp/B0026QRZ8Q/&https://m.media-amazon.com/images/I/81IaC8Nwu2L.SY385.jpg",
         "note_en": "A bestselling book on civilization theory by futurist Alvin Toffler, which conceptualizes the development of human civilization in three waves: the \"First Wave (Agricultural Revolution),\" the \"Second Wave (Industrial Revolution),\" and the \"Third Wave (Information Revolution).\" It foresees the advent of the information society and discusses transformations in all aspects, including social structure, economy, family, and politics. Particularly insightful are its sharp observations, such as the concept of the \"prosumer,\" where producers and consumers merge, and the move away from standardization and centralization, which remain relevant in contemporary society.(E)"
+      },
+      {
+        "label": "通産省と日本の奇跡（チャルマーズ・ジョンソン著/木鐸社）",
+        "label_en": "MITI and the Japanese Miracle: The Growth of Industrial Policy, 1925-1975（Chalmers Johnson）",
+        "startYear": 1982,
+        "genre": [
+          "THEORYMEDIA",
+          "OUTOFPRINT"
+        ],
+        "imp": 3,
+        "url": "|https://www.amazon.co.jp/dp/B000J7H884&https://m.media-amazon.com/images/I/41-lS0r8nQL.SY342.jpg",
+        "url_en": "https://en.wikipedia.org/wiki/MITI_and_the_Japanese_Miracle|https://www.amazon.com/dp/0804712069&https://m.media-amazon.com/images/I/41sW9oJ6tqL.jpg",
+        "note": "アメリカの政治学者チャルマーズ・ジョンソンによる、日本の高度経済成長を「開発国家」モデルから分析した著作。特に戦前から戦後にかけての日本の通商産業省（MITI、現経済産業省）が果たした役割に焦点を当て、その強力な産業政策が「日本の奇跡」をどのように実現したかを詳細に論じました。/この本は、日本の経済発展の特殊性を明らかにし、西側諸国の市場経済モデルとは異なる、日本型の国家主導による経済運営の成功を国際的に知らしめた重要な一冊です。「ジャパン・アズ・ナンバーワン」議論の背景としても非常に重要です。",
+        "note_en": "A work by American political scientist Chalmers Johnson analyzing Japan's rapid economic growth from the perspective of the \"developmental state\" model. It focuses particularly on the role played by Japan's Ministry of International Trade and Industry (MITI) from pre-war to post-war times, detailing how its strong industrial policy achieved the \"Japanese Miracle.\"/This book revealed the distinctiveness of Japan's economic development and internationally publicized the success of a Japanese-style, state-led economic management model, differing from Western market economy models. It is highly significant as a backdrop to the \"Japan as Number One\" discourse."
       }
     ],
     "1983": [
@@ -557,6 +585,19 @@
         "label_en": "Smalltalk-80: The Language and its Implementation (Adele Goldberg, David Robson)",
         "url_en": "https://dblp.org/rec/books/aw/GoldbergR83.html|https://archive.org/details/smalltalk80langu00gold",
         "note_en": "Key Smalltalk-80 reference exporting PARC ideas"
+      },
+      {
+        "label": "メガトレンド（ジョン ネイスビッツ著/竹村 健一訳）",
+        "label_en": "Megatrends: Ten New Directions Transforming Our Lives（John Naisbitt）",
+        "startYear": 1983,
+        "genre": [
+          "THEORYMEDIA"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/%E3%83%A1%E3%82%AC%E3%83%88%E3%83%AC%E3%83%B3%E3%83%89|https://www.amazon.co.jp/dp/453209232X&https://m.media-amazon.com/images/I/41vK22+J8EL.SY342.jpg",
+        "url_en": "https://en.wikipedia.org/wiki/Megatrends|https://www.amazon.com/dp/0446385202&https://m.media-amazon.com/images/I/71nIq37D+OL.SY342.jpg",
+        "note": "社会学者のジョン・ネイスビッツが1980年代初頭に発表し、世界的なベストセラーとなった未来予測の書。社会を根本から変える10の大きな流れ（メガトレンド）を提示し、情報社会への移行、中央集権から分散化へ、工業社会から情報社会へといった変化を予見しました。/特に「ハイテク/ハイタッチ」という概念は、技術の進歩が人間の繋がりや感情的な補償を必要とすることを指摘し、現代のデジタル社会においても重要な視点を提供しています。未来学の古典の一つであり、80年代の社会変化を理解する上で不可欠な一冊です。",
+        "note_en": "A book of future prediction published by sociologist John Naisbitt in the early 1980s that became a worldwide bestseller. It presented ten major trends (megatrends) fundamentally transforming society, predicting shifts such as the transition to an information society, decentralization from centralization, and the move from an industrial society to an information society./The concept of \"High Tech/High Touch,\" in particular, points out that technological advancement requires human connection and emotional compensation, offering a crucial perspective even in today's digital society. It is a classic of futurism and essential for understanding the social changes of the 80s."
       }
     ],
     "1984": [
@@ -640,6 +681,19 @@
         "label_en": "The Second Self: Computers and the Human Spirit (Sherry Turkle)",
         "url_en": "https://www.amazon.co.jp/dp/0262701111&https://m.media-amazon.com/images/I/71gVJO6NfyL._SY466_.jpg",
         "note_en": "Influential early study of computers as part of identity and social life, grounded in observations of everyday computing culture."
+      },
+      {
+        "label": "ウォークマンかく戦えり（黒木 靖夫著）",
+        "label_en": "（不明）",
+        "startYear": 1984,
+        "genre": [
+          "POPCULTURE",
+          "OUTOFPRINT"
+        ],
+        "imp": 3,
+        "url": "https://www.amazon.co.jp/dp/4094002613&https://m.media-amazon.com/images/I/510R9F2K6L.SY342.jpg",
+        "note": "ソニーの「ウォークマン」開発プロジェクトに深く関わった黒木靖夫による著作。世界的なヒット商品となったウォークマンが、社内の反対や既成概念との戦いを経て、いかにして誕生し、市場を切り開いていったのかを、その企画・開発の舞台裏から詳細に描いています。/技術的な挑戦だけでなく、「ヘッドフォン文化」という新しいライフスタイルを創造し、世界中の人々の行動様式を変えたマーケティング戦略の成功の物語でもあります。日本のプロダクトデザインやマーケティングの歴史を考察する上で重要なドキュメントです。",
+        "note_en": "A work by Yasuo Kuroki, who was deeply involved in Sony's \"Walkman\" development project. It details the inside story of the planning and development of the globally successful Walkman, describing how it was born and carved out a market despite internal opposition and battles against conventional wisdom./It is not just about the technical challenges but also a success story of the marketing strategy that created a new \"headphone culture\" lifestyle, changing the behavior of people worldwide. This is an important document for considering the history of Japanese product design and marketing."
       }
     ],
     "1985": [
@@ -729,6 +783,19 @@
         "label_en": "The Bell System Technical Journal(AT&T Bell Laboratories)",
         "url_en": "https://www.amazon.com/System-October-Technical-Journal-Laboratories/dp/B0096BKHJI&https://m.media-amazon.com/images/I/91v1CVQ-VPL._SY385_.jpg",
         "note_en": "A Japanese translation of a special issue of \"The Bell System Technical Journal\" featuring key papers and technical reports on the UNIX operating system. It contains original technical documents regarding the core components of the UNIX system, such as the kernel, shell, and file system. /This is an extremely important technical resource, allowing readers to learn the initial design philosophy and implementation details of UNIX in the developers' own words. Since many modern operating systems inherit the philosophy of UNIX, it is considered one of the essential primary sources for deep study in computer science.(C)"
+      },
+      {
+        "label": "MADE IN JAPAN（盛田 昭夫著/村上 輝康訳）",
+        "label_en": "Made in Japan: Akio Morita and Sony（Akio Morita with Edwin M. Reingold and Mitsuko Shimomura）",
+        "startYear": 1986,
+        "genre": [
+          "THEORYMEDIA"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/%E7%9B%9B%E7%94%B0%E6%98%AD%E5%A4%AB|https://www.amazon.co.jp/dp/4022603816&https://m.media-amazon.com/images/I/61bVwIqT8cL.SY342.jpg",
+        "url_en": "https://en.wikipedia.org/wiki/Akio_Morita|https://www.amazon.com/dp/0452262174&https://m.media-amazon.com/images/I/517f-l6p8CL.SY342.jpg",
+        "note": "ソニーの創業者の一人、盛田昭夫の自伝。戦後の混乱期から「ウォークマン」などの革新的な製品を生み出し、ソニーを世界的な大企業へと成長させた経営哲学と道のりを描いています。/特に、日本と欧米の経営観の違いや、国際市場で成功を収めるための戦略、そして新しい技術や製品を生み出すための企業文化の重要性が語られています。日本企業の国際化の歴史を、当事者であるトップ経営者の視点から理解するための貴重な一次資料です。",
+        "note_en": "The autobiography of Akio Morita, co-founder of Sony. It recounts his management philosophy and the journey of growing Sony into a global giant, from the chaos of the post-war period to the creation of innovative products like the \"Walkman.\"/It particularly discusses the differences between Japanese and Western management views, strategies for succeeding in international markets, and the importance of corporate culture for generating new technologies and products. This is a valuable primary source for understanding the history of Japanese companies' globalization from the perspective of a key executive."
       }
     ],
     "1987": [
