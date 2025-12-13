@@ -2115,6 +2115,12 @@
       "label": "絶版",
       "label_en": "Out of print",
       "conjunction": true
+    },
+    {
+      "code": "WORK",
+      "label": "作業用",
+      "label_en": "for work",
+      "conjunction": true
     }
   ]
 }
