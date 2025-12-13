@@ -162,6 +162,20 @@
         "url": "https://www.amazon.co.jp/dp/416738003X&https://m.media-amazon.com/images/I/81Dtxfk8UwL._SY342_.jpg",
         "note": "世界的絵本作家・安野光雅による、計算の仕組みとコンピュータの原理を、石や棒などの身近な道具（石頭計算機）を使ってユーモラスかつ知的に解説した絵本形式の科学書。/複雑な数式や電子回路に頼らず、いかにして「もの」を使って計算が可能になるかという、コンピュータの根源的なアイデアを、美しいイラストと優しい文章で学ぶことができます。子どもから大人まで、計算機の哲学に触れることのできるユニークな一冊です。(C)",
         "note_en": "A science book in picture-book format by the world-renowned picture book author Mitsumasa Anno, which humorously and intellectually explains the mechanism of calculation and the principles of computers using familiar tools like stones and sticks (\"Stone-Head Calculator\"). /It allows readers of all ages to learn the fundamental idea of how computation can be achieved using \"things,\" without relying on complex formulas or electronic circuits, through beautiful illustrations and gentle prose. It is a unique book for exploring the philosophy of the calculator.(C)"
+      },
+      {
+        "label": "Tools for Conviviality（イヴァン・イリイチ著）",
+        "label_en": "Tools for Conviviality (Ivan Illich)",
+        "startYear": 1973,
+        "genre": [
+          "THEORYMEDIA",
+          "POPCULTURE"
+        ],
+        "imp": 3,
+        "url": "https://en.wikipedia.org/wiki/Tools_for_Conviviality",
+        "url_en": "https://en.wikipedia.org/wiki/Tools_for_Conviviality",
+        "note": "技術を「人間の自律と共生を支える道具」として再定義し、巨大システムへの依存を批判する。テクノロジー思想の古典。",
+        "note_en": "Classic critique of industrial/large-scale systems, arguing for 'convivial tools' that support human autonomy and mutuality."
       }
     ],
     "1974": [
@@ -384,6 +398,36 @@
         "url": "https://www.amazon.co.jp/%E6%9A%97%E9%BB%99%E7%9F%A5%E3%81%AE%E6%AC%A1%E5%85%83-%E8%A8%80%E8%AA%9E%E3%81%8B%E3%82%89%E9%9D%9E%E8%A8%80%E8%AA%9E%E3%81%B8-%E3%83%9E%E3%82%A4%E3%82%B1%E3%83%AB-%E3%83%9D%E3%83%A9%E3%83%8B%E3%83%BC/dp/4314003014&https://m.media-amazon.com/images/I/51USugW5U6L._SY425_.jpg",
         "note": "「私たちは、言葉にできるよりも多くのことを知っている」という有名なテーゼで知られる、暗黙知論の古典。知識が単なる明示的な情報ではなく、身体や実践に埋め込まれた「暗黙の了解」に支えられていることを論じます。/AI・機械学習が「データ化できるもの」ばかりを扱うことの限界を考えるとき、この本の暗黙知概念は今でもかなり刺さります。サイバースペース上で共有されるノウハウや「空気」にも、こうした暗黙の層がどっさりあるんだよね、と思わせてくれる一冊です。",
         "note_en": "A classic of tacit knowledge theory known for the famous thesis \"we know more than we can tell.\" It argues that knowledge is not just explicit information but is supported by \"tacit understanding\" embedded in the body and practice./When thinking about the limits of AI and machine learning dealing only with \"datafiable things,\" the concept of tacit knowledge in this book still hits hard. It makes you realize that there are heaps of such tacit layers in the know-how and \"atmosphere\" shared in cyberspace."
+      },
+      {
+        "label": "Mindstorms―子供、コンピューター、そして強力なアイデア（シーモア・パパート著）",
+        "label_en": "Mindstorms: Children, Computers, and Powerful Ideas (Seymour Papert)",
+        "startYear": 1980,
+        "genre": [
+          "COMPUTER",
+          "SCIENCE"
+        ],
+        "imp": 3,
+        "url": "https://en.wikipedia.org/wiki/Mindstorms_(book)",
+        "url_en": "https://en.wikipedia.org/wiki/Mindstorms_(book)",
+        "note": "LOGO/タートルの思想を通じて「学び」と「計算文化」を接続した古典。後の“コンピュータ教育/メイカー文化”の源流。",
+        "note_en": "Foundational bridge between learning theory and computing via LOGO/turtle"
+      }
+    ],
+    "1981": [
+      {
+        "label": "The Soul of a New Machine（邦題：超マシン誕生）（トレイシー・キダー著）",
+        "label_en": "The Soul of a New Machine (Tracy Kidder)",
+        "startYear": 1981,
+        "genre": [
+          "COMPUTER",
+          "POPCULTURE"
+        ],
+        "imp": 3,
+        "url": "https://en.wikipedia.org/wiki/The_Soul_of_a_New_Machine",
+        "url_en": "https://en.wikipedia.org/wiki/The_Soul_of_a_New_Machine",
+        "note": "コンピュータ開発チームの熱量・倫理・生活を追うノンフィクション。80年代エンジニアリング文化の“体温”が残る。",
+        "note_en": "Narrative nonfiction of an engineering team building a new computer"
       }
     ],
     "1982": [
@@ -455,6 +499,35 @@
         "url_en": "https://www.amazon.com/World-After-Shifting-Power-Wealth/dp/0671505971&https://m.media-amazon.com/images/I/61Su9uiL4jL.SY385.jpg",
         "note": "石油後の世界における権力と富の移行を描き、特にロボット工学、遺伝子工学、テレコミュニケーションの「三大テクノロジー戦争」の最前線を活写した論考。ニューテクノロジー時代の勝者となるための条件を徹底的に追求し、企業や国家が技術競争に勝ち残れるかどうかが未来を左右すると警鐘を鳴らしています。当時の日本が直面していた国際競争と技術開発の熾烈さを背景に、テクノロジーが社会構造や経済に与える影響を論じた一冊です。(E)",
         "note_en": "An analysis depicting the shift of power and wealth in the post-oil world, vividly capturing the forefront of the \"three major technology wars\": robotics, genetic engineering, and telecommunications. It thoroughly explores the conditions for becoming a winner in the new technology era, warning that survival in the fierce technological competition determines the future of companies and nations. Against the backdrop of the intense international competition and technological development faced by Japan at the time, the book discusses the impact of technology on social structure and the economy.(E)"
+      },
+      {
+        "label": "Smalltalk-80: The Language and its Implementation（Adele Goldberg, David Robson著）",
+        "label_en": "Smalltalk-80: The Language and its Implementation (Adele Goldberg, David Robson)",
+        "startYear": 1983,
+        "genre": [
+          "COMPUTER",
+          "OUTOFPRINT"
+        ],
+        "imp": 3,
+        "url": "https://dblp.org/rec/books/aw/GoldbergR83.html",
+        "url_en": "https://dblp.org/rec/books/aw/GoldbergR83.html",
+        "note": "Xerox PARC由来のSmalltalk-80を“システム文化ごと”外部へ持ち出した重要文献（オブジェクト指向の普及史でも鍵）。",
+        "note_en": "Key Smalltalk-80 reference exporting PARC ideas"
+      },
+      {
+        "label": "The Hacker's Dictionary（Guy L. Steele Jr. 編）",
+        "label_en": "The Hacker's Dictionary (Guy L. Steele Jr., ed.)",
+        "startYear": 1983,
+        "genre": [
+          "HACKER",
+          "POPCULTURE",
+          "OUTOFPRINT"
+        ],
+        "imp": 3,
+        "url": "https://archive.org/details/hackersdictionar00stee",
+        "url_en": "https://archive.org/details/hackersdictionar00stee",
+        "note": "Jargon File系譜の初期スラング辞典。価値観・ユーモア・作法が語彙として保存されている。",
+        "note_en": "Early slang dictionary in the Jargon File lineage, preserving norms, humor, and values through vocabulary."
       }
     ],
     "1984": [
@@ -523,6 +596,20 @@
         "url_en": "https://en.wikipedia.org/wiki/The_Ship_Who_Sang",
         "note": "重い障害を持って生まれた少女ヘルヴァは、脳を宇宙船システムに接続することで「頭脳船」となり、パートナーの人間と共に宇宙を航行する。身体障害とテクノロジー、職業としての「宇宙船のヒロイン」というモチーフが、多くの後続作品に影響を与えた。/身体を持たないサイボーグ少女が主人公という設定は、後の日本SF・ライトノベル・アニメにとってほぼ“テンプレ”の祖先です。サイボーグフェミニズム的な読み方もできて、障害とテクノロジー、職業倫理とロマンスが全部一冊に詰まった、とても現代的な古典だと思います。",
         "note_en": "Helva, a girl born with severe disabilities, becomes a \"brainship\" by connecting her brain to a spaceship system and travels the universe with her human partner. Motifs such as disability and technology, and the \"spaceship heroine\" as a profession, influenced many subsequent works. /The setting of a disembodied cyborg girl protagonist is almost the ancestor of the \"template\" for later Japanese SF, light novels, and anime. It can be read from a cyborg feminism perspective, packing disability, technology, professional ethics, and romance into one very modern classic."
+      },
+      {
+        "label": "The Second Self: Computers and the Human Spirit（シェリー・タークル著）",
+        "label_en": "The Second Self: Computers and the Human Spirit (Sherry Turkle)",
+        "startYear": 1984,
+        "genre": [
+          "THEORYMEDIA",
+          "COMPUTER"
+        ],
+        "imp": 3,
+        "url": "https://direct.mit.edu/books/monograph/2327/The-Second-SelfComputers-and-the-Human-Spirit",
+        "url_en": "https://direct.mit.edu/books/monograph/2327/The-Second-SelfComputers-and-the-Human-Spirit",
+        "note": "コンピュータを“道具”ではなく自己形成の一部として捉えた初期の重要作（家庭・学校・サブカルの観察）。",
+        "note_en": "Influential early study of computers as part of identity and social life, grounded in observations of everyday computing culture."
       }
     ],
     "1985": [
@@ -552,6 +639,20 @@
         "url": "https://www.amazon.co.jp/dp/B0G3K2V8BB&https://m.media-amazon.com/images/I/4188xrT1NaL._AC_.jpg",
         "note": "1980年代の日本のサブカルチャーシーンを象徴する伝説的なミニコミ誌『おとなクラブ』の初期の活動をまとめた貴重な資料。当時の若者文化、ストリートファッション、音楽、アングラな情報など、主流メディアが扱わなかった「新しい感性」を編集し、後のポップカルチャーに大きな影響を与えました。/消費文化とポストモダンが交錯する時代の中で、権威や既成概念にとらわれない自由な表現を追求した編集姿勢が特徴です。本書は、日本のミニコミ誌文化の源流を探る上でも重要であり、当時の時代精神とカウンターカルチャーの息吹を感じられる一冊となっています。",
         "note_en": "A valuable document compiling the early activities of the legendary minicomic 'Otona Club' (Adult Club), which symbolized the Japanese subculture scene of the 1980s. It gathered \"new sensibilities\"—youth culture, street fashion, music, and underground information—that were ignored by the mainstream media, profoundly influencing subsequent pop culture./It is characterized by an editorial stance that pursued free expression, unconstrained by authority or established notions, during an era where consumer culture intersected with postmodernism. This book is significant for tracing the origins of Japanese minicomic culture and allows readers to feel the zeitgeist and countercultural spirit of that time."
+      },
+      {
+        "label": "愉しみながら死んでいく（ニール・ポストマン著）",
+        "label_en": "Amusing Ourselves to Death (Neil Postman)",
+        "startYear": 1985,
+        "genre": [
+          "THEORYMEDIA",
+          "POPCULTURE"
+        ],
+        "imp": 3,
+        "url": "https://en.wikipedia.org/wiki/Amusing_Ourselves_to_Death",
+        "url_en": "https://en.wikipedia.org/wiki/Amusing_Ourselves_to_Death",
+        "note": "テレビが公共的言論を“ショー化”するという批判。デジタル時代にも参照されるメディア論の古典。",
+        "note_en": "Classic media-ecology critique of TV turning public discourse into entertainment"
       }
     ],
     "1986": [
@@ -795,6 +896,20 @@
         "url_en": "https://archive.org/details/historyofpersona00gold|https://www.amazon.com/History-Personal-Workstations-Adele-Goldberg/dp/0201112590&https://m.media-amazon.com/images/I/81rUIu0FcHL._SY342_.jpg",
         "note": "パーソナルワークステーションの進化の歴史を、Association for Computing Machinery（ACM）がまとめた原典集。特にゼロックス・パロアルト研究所（PARC）の革新的な研究、GUI（グラフィカルユーザーインターフェース）やマウス、イーサネットなどの技術が、どのようにして現代のコンピュータの基礎を築いたのかを詳細に解説しています。/アデル・ゴールドバーグなど、当時の主要な研究者が寄稿しており、現代の「パーソナルコンピューティング」の原型がどのようにして生まれたのかを知る上で非常に重要な資料です。当時の先進的な思想と技術を知ることができます。(C)",
         "note_en": "A collection of original sources compiled by the Association for Computing Machinery (ACM) documenting the history of the personal workstation's evolution. It details how the groundbreaking research at Xerox PARC, including technologies like the GUI, mouse, and Ethernet, laid the foundation for modern computing. /With contributions from key researchers of the time, such as Adele Goldberg, this is an essential resource for understanding the genesis of modern \"personal computing.\" It provides insight into the advanced ideas and technologies of that era.(C)"
+      },
+      {
+        "label": "誰のためのデザイン？（ドナルド・A・ノーマン著）",
+        "label_en": "The Design of Everyday Things (Donald Norman) [orig. The Psychology of Everyday Things]",
+        "startYear": 1988,
+        "genre": [
+          "THEORYMEDIA",
+          "SCIENCE"
+        ],
+        "imp": 3,
+        "url": "https://en.wikipedia.org/wiki/The_Design_of_Everyday_Things",
+        "url_en": "https://en.wikipedia.org/wiki/The_Design_of_Everyday_Things",
+        "note": "「使いにくさは利用者のせいではなく設計の問題」という主張でHCI/UX文化を形作った古典。",
+        "note_en": "Landmark HCI/UX book arguing usability problems are design problems, not user failures"
       }
     ],
     "1989": [
