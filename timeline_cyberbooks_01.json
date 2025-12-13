@@ -113,7 +113,7 @@
           "THEORYMEDIA",
           "OUTOFPRINT"
         ],
-        "imp": 3,
+        "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/%E5%85%A8%E5%9C%B0%E7%90%83%E3%82%AB%E3%82%BF%E3%83%AD%E3%82%B0",
         "note": "1960年代後半のアメリカのヒッピー・カウンターカルチャーを象徴する雑誌「ホール・アース・カタログ」の最終版。より良い生き方、持続可能な暮らしに必要な「ツール（道具）」としての情報や商品を掲載し、「アクセス・トゥ・ツールズ（道具へのアクセス）」を掲げました。ヒッピーコミューンの自給自足的な生活を支える役割を担い、後のパーソナルコンピュータやインターネットの思想にも影響を与えた、サブカルチャー史上の重要文献です。(E)",
         "label_en": "The Last Whole Earth Catalog: Access To Tools（Stewart Brand (Editor)）",
@@ -158,7 +158,7 @@
           "SCIENCE",
           "OUTOFPRINT"
         ],
-        "imp": 3,
+        "imp": 4,
         "url": "https://www.amazon.co.jp/dp/416738003X&https://m.media-amazon.com/images/I/81Dtxfk8UwL._SY342_.jpg",
         "note": "世界的絵本作家・安野光雅による、計算の仕組みとコンピュータの原理を、石や棒などの身近な道具（石頭計算機）を使ってユーモラスかつ知的に解説した絵本形式の科学書。/複雑な数式や電子回路に頼らず、いかにして「もの」を使って計算が可能になるかという、コンピュータの根源的なアイデアを、美しいイラストと優しい文章で学ぶことができます。子どもから大人まで、計算機の哲学に触れることのできるユニークな一冊です。(C)",
         "note_en": "A science book in picture-book format by the world-renowned picture book author Mitsumasa Anno, which humorously and intellectually explains the mechanism of calculation and the principles of computers using familiar tools like stones and sticks (\"Stone-Head Calculator\"). /It allows readers of all ages to learn the fundamental idea of how computation can be achieved using \"things,\" without relying on complex formulas or electronic circuits, through beautiful illustrations and gentle prose. It is a unique book for exploring the philosophy of the calculator.(C)"
@@ -170,7 +170,7 @@
           "POPCULTURE",
           "THEORYMEDIA"
         ],
-        "imp": 3,
+        "imp": 4,
         "url": "https://www.amazon.co.jp/dp/4480096884/&https://m.media-amazon.com/images/I/61bonOR-D3L._SY425_.jpg",
         "note": "技術を「人間の自律と共生を支える道具」として再定義し、巨大システムへの依存を批判する。テクノロジー思想の古典。",
         "label_en": "Tools for Conviviality (Ivan Illich)",
@@ -194,16 +194,16 @@
       },
       {
         "label": "Computer Lib（Ted Nelson著）",
-        "label_en": "Computer Lib（Ted Nelson）",
         "startYear": 1974,
         "genre": [
           "COMPUTER",
           "THEORYMEDIA",
           "OUTOFPRINT"
         ],
-        "imp": 3,
-        "url_en": "https://en.wikipedia.org/wiki/Computer_Lib/Dream_Machines|https://www.amazon.com/dp/0893470023/&https://m.media-amazon.com/images/I/41Y4aPIhLFL.SY445_SX342_FMwebp.jpg",
+        "imp": 4,
         "note": "ハイパーテキスト（Hypertext）という概念の提唱者であるテッド・ネルソンが、コンピュータへのアクセスを一般市民に解放しようという情熱のもと、自費出版で世に問うた著作。「コンピュータは単なる計算機ではなく、人々の創造性を高めるための道具である」というメッセージを、独特のレイアウトと奔放な文体で表現しています。「Computer Lib（コンピュータ解放）」と「Dream Machines（夢の機械）」の2部構成で、後のデジタル革命の思想的な基盤の一つとなりました。(E)",
+        "label_en": "Computer Lib（Ted Nelson）",
+        "url_en": "https://en.wikipedia.org/wiki/Computer_Lib/Dream_Machines|https://www.amazon.com/dp/0893470023/&https://m.media-amazon.com/images/I/41Y4aPIhLFL.SY445_SX342_FMwebp.jpg",
         "note_en": "A self-published work by Ted Nelson, the proponent of the concept of Hypertext, driven by a passion to democratize access to computers. It conveys the message that \"the computer is not merely a calculator, but a tool to enhance human creativity,\" using a unique layout and unconstrained writing style. Consisting of two parts, \"Computer Lib\" and \"Dream Machines,\" it became one of the ideological foundations of the later digital revolution.(E)"
       }
     ],
