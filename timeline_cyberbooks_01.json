@@ -2550,6 +2550,20 @@
         "note_en": "A collection of essays by Paul Graham, a genius LISP hacker and the founder of a highly successful venture company. Defining hackers as \"people who create things, just like painters and architects,\" the book offers deep insights for creators in the computer age on topics such as programming, startups, wealth creation, and nerd culture. Chapters like \"How to Make Wealth\" and \"The Other Road Ahead (Web-based software)\" are particularly stimulating for entrepreneurial spirit and the mindset of innovation.(E)"
       }
     ],
+    "2020": [
+      {
+        "label": "暗黒の啓蒙書（ニック ランド）",
+        "startYear": 2020,
+        "genre": [
+          "THEORYMEDIA"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/%E6%9A%97%E9%BB%92%E5%95%93%E8%92%99",
+        "note": "民主主義と平等主義の欺瞞を暴け。\n資本主義を加速せよ。",
+        "label_en": "The Dark Enlightenment",
+        "url_en": "https://en.wikipedia.org/wiki/Dark_Enlightenment"
+      }
+    ],
     "2025": [
       {
         "label": "Apple IIは何を変えたのか　パーソナル・ソフトウェア市場の誕生（レイン・ヌーニー著/山形浩生訳）",
