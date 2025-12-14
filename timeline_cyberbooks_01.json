@@ -2550,6 +2550,22 @@
         "note_en": "A collection of essays by Paul Graham, a genius LISP hacker and the founder of a highly successful venture company. Defining hackers as \"people who create things, just like painters and architects,\" the book offers deep insights for creators in the computer age on topics such as programming, startups, wealth creation, and nerd culture. Chapters like \"How to Make Wealth\" and \"The Other Road Ahead (Web-based software)\" are particularly stimulating for entrepreneurial spirit and the mindset of innovation.(E)"
       }
     ],
+    "2014": [
+      {
+        "label": "反逆の神話:カウンターカルチャーはいかにして消費文化になったか（ジョセフ・ヒース）",
+        "startYear": 2014,
+        "genre": [
+          "POPCULTURE",
+          "THEORYMEDIA",
+          "NERD"
+        ],
+        "imp": 3,
+        "url": "https://www.amazon.co.jp/dp/4757143206/&https://m.media-amazon.com/images/I/41tV7msRsuL._SY445_SX342_ControlCacheEqualizer_.jpg",
+        "note": "消費社会への批判と、その影響を受けた運動は、現実に問題を解決してきたか。資本主義に根ざす現代社会は様々な問題を抱えているとはいえ、それを根こそぎ否定してしまうことに問題解決の道はない。人びとの協力を引き出すために具体的な制度・ルールの設計こそが求められている。異色の哲学者ヒースとポッターのコンビが、カウンターカルチャーの矛盾を徹底的に暴く。",
+        "label_en": "THE REBEL SELL: Why the Culture Can't Be Jammed",
+        "url_en": "https://www.amazon.com/REBEL-SELL-Culture-Cant-Jammed/dp/0002007908"
+      }
+    ],
     "2020": [
       {
         "label": "暗黒の啓蒙書（ニック ランド）",
