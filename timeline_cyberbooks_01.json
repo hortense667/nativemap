@@ -45,19 +45,6 @@
         "url_en": "https://en.wikipedia.org/wiki/Cybernetics%3A_Or_Control_and_Communication_in_the_Animal_and_the_Machine",
         "note": "フィードバック制御、情報、ノイズ、確率過程などを統合する概念として「サイバネティックス」を提示した古典。動物と機械を同じ「制御と通信の系」として扱い、現代の制御工学、情報理論、AI、神経科学の基礎を築いた。/「コンピュータ以前のAI本」と言ってもいい一冊で、ニューロンから通信回線、産業機械まで同じ数学で語ってしまう豪腕ぶりが魅力です。いま読むと数式は古典ですが、「情報と制御」を横断する視点は、ネットワーク化したAIシステムを考えるときにまだまだ現役です。",
         "note_en": "A classic that presented \"cybernetics\" as a concept integrating feedback control, information, noise, and stochastic processes. Treating animals and machines as the same \"system of control and communication,\" it laid the foundation for modern control engineering, information theory, AI, and neuroscience./A book that could be called a \"pre-computer AI book,\" charming in its brute force of discussing neurons, communication lines, and industrial machines with the same mathematics. Reading it now, the formulas are classical, but the perspective crossing \"information and control\" is still active when thinking about networked AI systems."
-      },
-      {
-        "label": "サイバネティックス ― 動物と機械における制御と通信（ノーバート・ウィーナー著、戸田巌ほか訳）",
-        "label_en": "Cybernetics: Or Control and Communication in the Animal and the Machine(Norbert Wiener)",
-        "startYear": 1948,
-        "genre": [
-          "SCIENCE"
-        ],
-        "imp": 3,
-        "url": "https://www.amazon.co.jp/GENERIC-%E3%82%B5%E3%82%A4%E3%83%90%E3%83%8D%E3%83%86%E3%82%A3%E3%83%83%E3%82%AF%E3%82%B9-%E5%8B%95%E7%89%A9%E3%81%A8%E6%A9%9F%E6%A2%B0%E3%81%AB%E3%81%8A%E3%81%91%E3%82%8B%E5%88%B6%E5%BE%A1%E3%81%A8%E9%80%9A%E4%BF%A1/dp/B0G5637N99&https://m.media-amazon.com/images/I/71oGWVhIz2L._AC_SX679_.jpg",
-        "url_en": "https://en.wikipedia.org/wiki/Cybernetics%3A_Or_Control_and_Communication_in_the_Animal_and_the_Machine",
-        "note": "フィードバック制御、情報、ノイズ、確率過程などを統合する概念として「サイバネティックス」を提示した古典。動物と機械を同じ「制御と通信の系」として扱い、現代の制御工学、情報理論、AI、神経科学の基礎を築いた。/「コンピュータ以前のAI本」と言ってもいい一冊で、ニューロンから通信回線、産業機械まで同じ数学で語ってしまう豪腕ぶりが魅力です。いま読むと数式は古典ですが、「情報と制御」を横断する視点は、ネットワーク化したAIシステムを考えるときにまだまだ現役です。",
-        "note_en": "A classic that presented \"cybernetics\" as a concept integrating feedback control, information, noise, and stochastic processes. Treating animals and machines as the same \"system of control and communication,\" it laid the foundation for modern control engineering, information theory, AI, and neuroscience./A book that could be called a \"pre-computer AI book,\" charming in its brute force of discussing neurons, communication lines, and industrial machines with the same mathematics. Reading it now, the formulas are classical, but the perspective crossing \"information and control\" is still active when thinking about networked AI systems."
       }
     ],
     "1968": [
