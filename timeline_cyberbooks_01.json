@@ -2648,6 +2648,18 @@
       "label": "作業用",
       "label_en": "for work",
       "conjunction": true
+    },
+    {
+      "code": "WORK2",
+      "label": "作業用2",
+      "label_en": "for work 2",
+      "conjunction": true
+    },
+    {
+      "code": "WORK3",
+      "label": "作業用3",
+      "label_en": "for work 3",
+      "conjunction": true
     }
   ]
 }
