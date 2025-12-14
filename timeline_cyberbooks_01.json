@@ -140,19 +140,6 @@
     ],
     "1973": [
       {
-        "label": "わが友 石頭計算機（安野光雅著/犬伏茂之監修）",
-        "startYear": 1973,
-        "genre": [
-          "SCIENCE",
-          "OUTOFPRINT",
-          "WORK"
-        ],
-        "imp": 4,
-        "url": "https://www.amazon.co.jp/dp/416738003X&https://m.media-amazon.com/images/I/81Dtxfk8UwL._SY342_.jpg",
-        "note": "世界的絵本作家・安野光雅による、計算の仕組みとコンピュータの原理を、石や棒などの身近な道具（石頭計算機）を使ってユーモラスかつ知的に解説した絵本形式の科学書。/複雑な数式や電子回路に頼らず、いかにして「もの」を使って計算が可能になるかという、コンピュータの根源的なアイデアを、美しいイラストと優しい文章で学ぶことができます。子どもから大人まで、計算機の哲学に触れることのできるユニークな一冊です。(C)",
-        "note_en": "A science book in picture-book format by the world-renowned picture book author Mitsumasa Anno, which humorously and intellectually explains the mechanism of calculation and the principles of computers using familiar tools like stones and sticks (\"Stone-Head Calculator\"). /It allows readers of all ages to learn the fundamental idea of how computation can be achieved using \"things,\" without relying on complex formulas or electronic circuits, through beautiful illustrations and gentle prose. It is a unique book for exploring the philosophy of the calculator.(C)"
-      },
-      {
         "label": "コンヴィヴィアリティのための道具",
         "startYear": 1973,
         "genre": [
@@ -167,6 +154,20 @@
         "label_en": "Tools for Conviviality (Ivan Illich)",
         "url_en": "https://en.wikipedia.org/wiki/Tools_for_Conviviality",
         "note_en": "Classic critique of industrial/large-scale systems, arguing for 'convivial tools' that support human autonomy and mutuality."
+      },
+      {
+        "label": "わが友 石頭計算機（安野光雅著/犬伏茂之監修）",
+        "startYear": 1973,
+        "genre": [
+          "SCIENCE",
+          "OUTOFPRINT",
+          "WORK",
+          "WORK2"
+        ],
+        "imp": 4,
+        "url": "https://www.amazon.co.jp/dp/416738003X&https://m.media-amazon.com/images/I/81Dtxfk8UwL._SY342_.jpg",
+        "note": "★貴重内容だが記録ではない / 世界的絵本作家・安野光雅による、計算の仕組みとコンピュータの原理を、石や棒などの身近な道具（石頭計算機）を使ってユーモラスかつ知的に解説した絵本形式の科学書。/複雑な数式や電子回路に頼らず、いかにして「もの」を使って計算が可能になるかという、コンピュータの根源的なアイデアを、美しいイラストと優しい文章で学ぶことができます。子どもから大人まで、計算機の哲学に触れることのできるユニークな一冊です。(C)",
+        "note_en": "A science book in picture-book format by the world-renowned picture book author Mitsumasa Anno, which humorously and intellectually explains the mechanism of calculation and the principles of computers using familiar tools like stones and sticks (\"Stone-Head Calculator\"). /It allows readers of all ages to learn the fundamental idea of how computation can be achieved using \"things,\" without relying on complex formulas or electronic circuits, through beautiful illustrations and gentle prose. It is a unique book for exploring the philosophy of the calculator.(C)"
       }
     ],
     "1974": [
@@ -323,25 +324,10 @@
         ],
         "imp": 3,
         "url": "https://www.amazon.co.jp/dp/437710456X&https://m.media-amazon.com/images/I/71pqUTQSmGL._SY425_.jpg",
-        "note": "ELIZAの開発者ワイゼンバウムが、「AIに重要な決定を任せるべきではない」と警鐘を鳴らした倫理的・社会的考察の書。技術的な可能性よりも、コンピュータに判断を委ねたとき人間の責任感や compassion がどう失われるかを問題にしています。/ChatGPT 的なシステムを眺めながら読むと、「この本で言ってること、まさに今の話では…？」という箇所がゴロゴロ出てきます。AI倫理やガバナンスの議論の“始祖”の一つなので、生成AI時代のモヤモヤを整理したい人にとっては原点回帰になる本です。",
+        "note": "★AI時代のいま求められる？　/ ELIZAの開発者ワイゼンバウムが、「AIに重要な決定を任せるべきではない」と警鐘を鳴らした倫理的・社会的考察の書。技術的な可能性よりも、コンピュータに判断を委ねたとき人間の責任感や compassion がどう失われるかを問題にしています。/ChatGPT 的なシステムを眺めながら読むと、「この本で言ってること、まさに今の話では…？」という箇所がゴロゴロ出てきます。AI倫理やガバナンスの議論の“始祖”の一つなので、生成AI時代のモヤモヤを整理したい人にとっては原点回帰になる本です。",
         "label_en": "Computer Power and Human Reason: From Judgment to Calculation(Joseph Weizenbaum)",
         "url_en": "https://en.wikipedia.org/wiki/Computer_Power_and_Human_Reason|https://www.amazon.com/dp/0716704641&https://m.media-amazon.com/images/I/61QGqfsuKDL._SY342_.jpg",
         "note_en": "A book by Weizenbaum, the developer of ELIZA, that raises ethical and social considerations warning against entrusting important decisions to AI. It focuses on how human responsibility and compassion may diminish when judgment is delegated to computers, rather than on the technical possibilities./When reading a system like ChatGPT, there are numerous parts where you think, \"Isn't this exactly what's happening now?\" As one of the \"origins\" of discussions on AI ethics and governance, it serves as a return to basics for those who want to sort out the uncertainties of the generative AI era."
-      },
-      {
-        "label": "コンピュータ犯罪（ドン・B・パーカー著/羽田三郎訳）",
-        "startYear": 1979,
-        "genre": [
-          "CYBERPUNK",
-          "OUTOFPRINT",
-          "WORK"
-        ],
-        "imp": 3,
-        "url": "https://www.amazon.co.jp/dp/B000J8XMHQ&https://m.media-amazon.com/images/I/71YTfHg+7ML._SY425_.jpg",
-        "note": "コンピュータがまだ一般的でなかった1970年代に、早くもその悪用の可能性に警鐘を鳴らし、実際に発生した初期のコンピュータ犯罪の事例を収集・分析した本。/不正アクセス、データ盗難、システム破壊など、当時の具体的な犯罪手口が詳細に描かれており、現代のサイバーセキュリティの議論のルーツとも言える内容を含んでいます。初期のハッカー／クラッカー文化の負の側面を知る上でも貴重な資料です。(C)",
-        "label_en": "Crime by Computer(Donn B. Parker)",
-        "url_en": "https://www.amazon.com/Crime-computer-Donn-B-Parker/dp/068414574X",
-        "note_en": "A book that, as early as the 1970s when computers were not yet common, warned of the potential for misuse and collected and analyzed case studies of early computer crimes. /It details specific criminal methods of the time, such as unauthorized access, data theft, and system destruction, containing content that can be considered a root of modern cybersecurity discussions. It is a valuable resource for understanding the negative side of early hacker/cracker culture.(C)"
       },
       {
         "label": "ジャパンアズナンバーワン（エズラ・F.ヴォーゲル著/広中 和歌子・木田 宏訳）",
@@ -356,6 +342,22 @@
         "url_en": "https://en.wikipedia.org/wiki/Japan_as_Number_One|https://www.amazon.com/dp/0060907096&https://m.media-amazon.com/images/I/5152qQ52s4L.SY342.jpg",
         "note": "ハーバード大学のエズラ・F.ヴォーゲル教授が、高度経済成長を遂げた1970年代後半の日本の成功要因を分析し、アメリカにその教訓を提言した社会学の古典。/日本の組織構造、教育システム、官僚制、集団主義といった文化的・社会的要因を詳細に解説し、これらの特徴がどのようにして経済的な優位性を生み出したのかを論じました。当時の日本の自信を高めるとともに、世界に「日本モデル」を知らしめた、日米関係論や経営論において非常に重要な文献です。",
         "note_en": "A classic sociological work by Harvard Professor Ezra F. Vogel analyzing the success factors of Japan, which achieved rapid economic growth in the late 1970s, and offering those lessons to America./It details Japanese cultural and social factors such as organizational structure, education system, bureaucracy, and collectivism, discussing how these traits led to economic superiority. This book boosted Japan's confidence at the time and introduced the \"Japan Model\" to the world, making it a highly significant document in US-Japan relations and management theory."
+      },
+      {
+        "label": "コンピュータ犯罪（ドン・B・パーカー著/羽田三郎訳）",
+        "startYear": 1979,
+        "genre": [
+          "CYBERPUNK",
+          "OUTOFPRINT",
+          "WORK",
+          "WORK2"
+        ],
+        "imp": 3,
+        "url": "https://www.amazon.co.jp/dp/B000J8XMHQ&https://m.media-amazon.com/images/I/71YTfHg+7ML._SY425_.jpg",
+        "note": "★貴重だがここまで求めるなら図書館でか？ / コンピュータがまだ一般的でなかった1970年代に、早くもその悪用の可能性に警鐘を鳴らし、実際に発生した初期のコンピュータ犯罪の事例を収集・分析した本。/不正アクセス、データ盗難、システム破壊など、当時の具体的な犯罪手口が詳細に描かれており、現代のサイバーセキュリティの議論のルーツとも言える内容を含んでいます。初期のハッカー／クラッカー文化の負の側面を知る上でも貴重な資料です。(C)",
+        "label_en": "Crime by Computer(Donn B. Parker)",
+        "url_en": "https://www.amazon.com/Crime-computer-Donn-B-Parker/dp/068414574X",
+        "note_en": "A book that, as early as the 1970s when computers were not yet common, warned of the potential for misuse and collected and analyzed case studies of early computer crimes. /It details specific criminal methods of the time, such as unauthorized access, data theft, and system destruction, containing content that can be considered a root of modern cybersecurity discussions. It is a valuable resource for understanding the negative side of early hacker/cracker culture.(C)"
       }
     ],
     "1980": [
@@ -425,7 +427,7 @@
         ],
         "imp": 3,
         "url": "https://ja.wikipedia.org/wiki/%E8%B6%85%E3%83%9E%E3%82%B7%E3%83%B3%E8%AA%95%E7%94%9F|https://www.amazon.co.jp/dp/4822284328&https://m.media-amazon.com/images/I/51gEb6qQa6L._SY466_.jpg",
-        "note": "コンピュータ開発チームの熱量・倫理・生活を追うノンフィクション。80年代エンジニアリング文化の“体温”が残る。★2010年に新版がでているがそれも絶版",
+        "note": "★2010年に新版がでているがそれも絶版/コンピュータ開発チームの熱量・倫理・生活を追うノンフィクション。80年代エンジニアリング文化の“体温”が残る。",
         "label_en": "The Soul of a New Machine (Tracy Kidder)",
         "url_en": "https://en.wikipedia.org/wiki/The_Soul_of_a_New_Machine",
         "note_en": "Narrative nonfiction of an engineering team building a new computer"
@@ -455,7 +457,7 @@
         ],
         "imp": 3,
         "url": "https://ja.wikipedia.org/wiki/%E7%AC%AC%E4%B8%89%E3%81%AE%E6%B3%A2_(%E3%83%88%E3%83%95%E3%83%A9%E3%83%BC|https://www.amazon.co.jp/dp/4122009537/&https://m.media-amazon.com/images/I/81DWuhMQ0mL.SY342.jpg",
-        "note": "未来学者アルビン・トフラーが提唱した、人類文明の発展を「第一の波（農業革命）」「第二の波（産業革命）」に続く「第三の波（情報革命）」として捉える文明論のベストセラー。情報化社会の到来を予見し、社会構造、経済、家族、政治などあらゆる側面での変革を論じています。特に、生産者と消費者が融合した「プロシューマー」の概念や、規格化、集中化からの脱却といった鋭い指摘は、現代社会においても示唆に富んでいます。(E)★なんと絶版なのか？？",
+        "note": "★なんと絶版なのか？？ / 未来学者アルビン・トフラーが提唱した、人類文明の発展を「第一の波（農業革命）」「第二の波（産業革命）」に続く「第三の波（情報革命）」として捉える文明論のベストセラー。情報化社会の到来を予見し、社会構造、経済、家族、政治などあらゆる側面での変革を論じています。特に、生産者と消費者が融合した「プロシューマー」の概念や、規格化、集中化からの脱却といった鋭い指摘は、現代社会においても示唆に富んでいます。(E)",
         "label_en": "The Third Wave（Alvin Toffler）",
         "url_en": "https://en.wikipedia.org/wiki/The_Third_Wave_(Toffler_book|https://www.amazon.com/Third-Wave-Alvin-Toffler/dp/B0026QRZ8Q/&https://m.media-amazon.com/images/I/81IaC8Nwu2L.SY385.jpg",
         "note_en": "A bestselling book on civilization theory by futurist Alvin Toffler, which conceptualizes the development of human civilization in three waves: the \"First Wave (Agricultural Revolution),\" the \"Second Wave (Industrial Revolution),\" and the \"Third Wave (Information Revolution).\" It foresees the advent of the information society and discusses transformations in all aspects, including social structure, economy, family, and politics. Particularly insightful are its sharp observations, such as the concept of the \"prosumer,\" where producers and consumers merge, and the move away from standardization and centralization, which remain relevant in contemporary society.(E)"
@@ -488,36 +490,6 @@
         "url": "https://www.amazon.co.jp/%E8%83%8E%E5%85%90%E3%81%AE%E4%B8%96%E7%95%8C-%E4%BA%BA%E9%A1%9E%E3%81%AE%E7%94%9F%E5%91%BD%E8%A8%98%E6%86%B6-%E4%B8%AD%E5%85%AC%E6%96%B0%E6%9B%B8-%E4%B8%89%E6%9C%A8%E6%88%90%E5%A4%AB-ebook/dp/B00G44VKSM&https://m.media-amazon.com/images/I/619tM+bWl-L._SY466_.jpg",
         "note": "胎児の発生過程を精密な解剖学・発生学の知見にもとづき描き出し、その形態変化に「生命の記憶」やリズムを読み取ろうとする古典的人気書。生物学・哲学・詩情がまじり合った独特の文体で、多くの読者を得てきた。/AIやサイボーグではなく「胎児」から世界を見る本なので、リストの中では異色ですが、生命を“プロセスとしての形の流れ”として見る発想はシステム論やオートポイエーシスにも通じます。人間理解をデータではなく「身体の時間」から捉え直す一冊です。",
         "note_en": "A classic popular book that depicts the developmental process of the fetus based on precise anatomical and embryological knowledge, attempting to read \"memories of life\" and rhythms in its morphological changes. With a unique style blending biology, philosophy, and poetic sentiment, it has gained many readers./Since it views the world from the \"fetus\" rather than AI or cyborgs, it is unique in this list, but the idea of viewing life as a \"flow of form as a process\" connects to systems theory and autopoiesis. It is a book that reconsiders human understanding not through data but through \"somatic time.\""
-      },
-      {
-        "label": "The Hacker's Dictionary（Guy L. Steele Jr. 編）",
-        "startYear": 1983,
-        "genre": [
-          "HACKER",
-          "POPCULTURE",
-          "OUTOFPRINT",
-          "WORK"
-        ],
-        "imp": 3,
-        "url": "https://ja.wikipedia.org/wiki/%E3%82%B8%E3%83%A3%E3%83%BC%E3%82%B4%E3%83%B3%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB|https://www.amazon.co.jp/dp/4782570066|https://www.amazon.co.jp/dp/475614084X&https://m.media-amazon.com/images/I/41Y2ic0-r1L._SY425_.jpg",
-        "note": "Jargon File系譜の初期スラング辞典。価値観・ユーモア・作法が語彙として保存されている。",
-        "label_en": "The Hacker's Dictionary (Guy L. Steele Jr., ed.)",
-        "url_en": "https://archive.org/details/hackersdictionar00stee",
-        "note_en": "Early slang dictionary in the Jargon File lineage, preserving norms, humor, and values through vocabulary."
-      },
-      {
-        "label": "メガトレンド（ジョン ネイスビッツ著/竹村 健一訳）",
-        "startYear": 1983,
-        "genre": [
-          "THEORYMEDIA",
-          "WORK"
-        ],
-        "imp": 3,
-        "url": "https://www.amazon.co.jp/dp/4837953670/&https://m.media-amazon.com/images/I/51irQHFo3TL._SY445_SX342_ControlCacheEqualizer_.jpg",
-        "note": "社会学者のジョン・ネイスビッツが1980年代初頭に発表し、世界的なベストセラーとなった未来予測の書。社会を根本から変える10の大きな流れ（メガトレンド）を提示し、情報社会への移行、中央集権から分散化へ、工業社会から情報社会へといった変化を予見しました。/特に「ハイテク/ハイタッチ」という概念は、技術の進歩が人間の繋がりや感情的な補償を必要とすることを指摘し、現代のデジタル社会においても重要な視点を提供しています。未来学の古典の一つであり、80年代の社会変化を理解する上で不可欠な一冊です。",
-        "label_en": "Megatrends: Ten New Directions Transforming Our Lives（John Naisbitt）",
-        "url_en": "https://en.wikipedia.org/wiki/Megatrends",
-        "note_en": "A book of future prediction published by sociologist John Naisbitt in the early 1980s that became a worldwide bestseller. It presented ten major trends (megatrends) fundamentally transforming society, predicting shifts such as the transition to an information society, decentralization from centralization, and the move from an industrial society to an information society./The concept of \"High Tech/High Touch,\" in particular, points out that technological advancement requires human connection and emotional compensation, offering a crucial perspective even in today's digital society. It is a classic of futurism and essential for understanding the social changes of the 80s."
       },
       {
         "label": "ガジェット・ブック（佐野山寛太）",
@@ -562,6 +534,38 @@
         "label_en": "Smalltalk-80: The Language and its Implementation (Adele Goldberg, David Robson)",
         "url_en": "https://dblp.org/rec/books/aw/GoldbergR83.html|https://archive.org/details/smalltalk80langu00gold",
         "note_en": "Key Smalltalk-80 reference exporting PARC ideas"
+      },
+      {
+        "label": "The Hacker's Dictionary（Guy L. Steele Jr. 編）",
+        "startYear": 1983,
+        "genre": [
+          "HACKER",
+          "POPCULTURE",
+          "OUTOFPRINT",
+          "WORK",
+          "WORK2"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/%E3%82%B8%E3%83%A3%E3%83%BC%E3%82%B4%E3%83%B3%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB|https://www.amazon.co.jp/dp/4782570066|https://www.amazon.co.jp/dp/475614084X&https://m.media-amazon.com/images/I/41Y2ic0-r1L._SY425_.jpg",
+        "note": "★Internet Archiveで英語版は読める。/ Jargon File系譜の初期スラング辞典。価値観・ユーモア・作法が語彙として保存されている。",
+        "label_en": "The Hacker's Dictionary (Guy L. Steele Jr., ed.)",
+        "url_en": "https://archive.org/details/hackersdictionar00stee",
+        "note_en": "Early slang dictionary in the Jargon File lineage, preserving norms, humor, and values through vocabulary."
+      },
+      {
+        "label": "メガトレンド（ジョン ネイスビッツ著/竹村 健一訳）",
+        "startYear": 1983,
+        "genre": [
+          "THEORYMEDIA",
+          "OUTOFPRINT",
+          "WORK"
+        ],
+        "imp": 3,
+        "url": "https://www.amazon.co.jp/dp/4837953670/&https://m.media-amazon.com/images/I/51irQHFo3TL._SY445_SX342_ControlCacheEqualizer_.jpg",
+        "note": "★きわめてその後のコンピュヒター社会を言い当てている。/社会学者のジョン・ネイスビッツが1980年代初頭に発表し、世界的なベストセラーとなった未来予測の書。社会を根本から変える10の大きな流れ（メガトレンド）を提示し、情報社会への移行、中央集権から分散化へ、工業社会から情報社会へといった変化を予見しました。/特に「ハイテク/ハイタッチ」という概念は、技術の進歩が人間の繋がりや感情的な補償を必要とすることを指摘し、現代のデジタル社会においても重要な視点を提供しています。未来学の古典の一つであり、80年代の社会変化を理解する上で不可欠な一冊です。",
+        "label_en": "Megatrends: Ten New Directions Transforming Our Lives（John Naisbitt）",
+        "url_en": "https://en.wikipedia.org/wiki/Megatrends",
+        "note_en": "A book of future prediction published by sociologist John Naisbitt in the early 1980s that became a worldwide bestseller. It presented ten major trends (megatrends) fundamentally transforming society, predicting shifts such as the transition to an information society, decentralization from centralization, and the move from an industrial society to an information society./The concept of \"High Tech/High Touch,\" in particular, points out that technological advancement requires human connection and emotional compensation, offering a crucial perspective even in today's digital society. It is a classic of futurism and essential for understanding the social changes of the 80s."
       }
     ],
     "1984": [
@@ -683,7 +687,8 @@
         "genre": [
           "POPCULTURE",
           "THEORYMEDIA",
-          "WORK"
+          "WORK",
+          "WORK2"
         ],
         "imp": 3,
         "url": "https://www.amazon.co.jp/dp/4380140059&https://m.media-amazon.com/images/I/71DsBHyv7LL._SY466_.jpg",
@@ -721,20 +726,6 @@
         "note_en": "A masterpiece that discusses the concept of \"infinity\" cross-sectionally with mathematics, philosophy, and SF imagination, ranging from Cantor's set theory to Gödel's incompleteness theorems, multiverse, and time travel. With Rucker's characteristic witty style, advanced mathematics is introduced in a pop manner./A book with a post-reading sensation like \"mathematics x psychedelic experience without drugs.\" Since it covers infinite sets, transfinite numbers, Gödel's universe, and the many-worlds interpretation, reading it in contrast to the \"huge but finite calculations\" handled by modern AI reveals the limits of AI in reverse."
       },
       {
-        "label": "グーテンベルクの銀河系：活字人間の形成（マーシャル・マクルーハン著、森常治訳）",
-        "startYear": 1986,
-        "genre": [
-          "THEORYMEDIA",
-          "WORK"
-        ],
-        "imp": 3,
-        "url": "https://www.amazon.co.jp/%E3%82%B0%E3%83%BC%E3%83%86%E3%83%B3%E3%83%99%E3%83%AB%E3%82%AF%E3%81%AE%E9%8A%80%E6%B2%B3%E7%B3%BB%E2%80%95%E6%B4%BB%E5%AD%97%E4%BA%BA%E9%96%93%E3%81%AE%E5%BD%A2%E6%88%90-%E3%83%9E%E3%83%BC%E3%82%B7%E3%83%A3%E3%83%AB-%E3%83%9E%E3%82%AF%E3%83%AB%E3%83%BC%E3%83%8F%E3%83%B3/dp/4622018969&https://m.media-amazon.com/images/I/91OpDlYwBGL._SY385_.jpg",
-        "note": "活版印刷技術がいかにして人間の思考様式を「線形・連続的」なものへと変容させ、個人主義やナショナリズムを生み出したかを論じたメディア論の古典です。電子メディア時代（再部族化）の到来を予見した書としても重要です。/メディアの変容が私たちの文化、社会、生活、そして感覚そのものにまで大きなインパクトを与えることを検証した著作。無数の事例を通して、世界が聴覚優位から視覚優位へ転換したことを論じています。",
-        "label_en": "The Gutenberg Galaxy: The Making of Typographic Man(Marshall McLuhan)",
-        "url_en": "https://en.wikipedia.org/wiki/The_Gutenberg_Galaxy",
-        "note_en": "A classic of media theory arguing how letterpress printing technology transformed human thinking styles into \"linear and continuous\" ones, creating individualism and nationalism. It is also important as a book predicting the arrival of the electronic media age (retribalization)./A work verifying that the transformation of media has a huge impact on our culture, society, life, and even our senses. Through countless examples, it argues that the world has shifted from auditory dominance to visual dominance."
-      },
-      {
         "label": "UNIX原典（AT&Tベル研究所編/長谷部紀元、清水謙太郎他訳/石田晴久監修）",
         "startYear": 1986,
         "genre": [
@@ -744,7 +735,7 @@
         ],
         "imp": 3,
         "url": "https://www.amazon.co.jp/dp/4893620142&https://m.media-amazon.com/images/I/414Po7lDbIL._SY445_SX342_ControlCacheEqualizer_.jpg",
-        "note": "UNIXオペレーティングシステムに関する主要な論文や技術報告が掲載された「ベル・システム・テクニカル・ジャーナル」の特集号の日本語訳。UNIXのカーネル、シェル、ファイルシステムなど、システムの核心部分に関するオリジナルの技術文書を収録しています。/UNIXの初期設計思想と実装の詳細を、開発者自身の言葉で学べる極めて重要な技術資料です。現代のOSの多くがUNIXの思想を受け継いでいるため、コンピュータ科学を深く学ぶ上で欠かせない原典の一つと言えます。(C)",
+        "note": "UNIXオペレーティングシステムに関する主要な論文や技術報告が掲載された「ベル・システム・テクニカル・ジャーナル」の特集号の日本語訳。UNIXのカーネル、シェル、ファイルシステムなど、システムの核心部分に関するオリジナルの技術文書を収録しています。/UNIXの初期設計思想と実装の詳細を、開発者自身の言葉で学べる極めて重要な技術資料です。現代のOSの多くがUNIXの思想を受け継いでいるため、コンピュータ科学を深く学ぶ上で欠かせない原典の一つと言えます。(C)★英語版も絶版。テクノロジー寄り過ぎるか？",
         "label_en": "The Bell System Technical Journal(AT&T Bell Laboratories)",
         "url_en": "https://www.amazon.com/System-October-Technical-Journal-Laboratories/dp/B0096BKHJI&https://m.media-amazon.com/images/I/91v1CVQ-VPL._SY385_.jpg",
         "note_en": "A Japanese translation of a special issue of \"The Bell System Technical Journal\" featuring key papers and technical reports on the UNIX operating system. It contains original technical documents regarding the core components of the UNIX system, such as the kernel, shell, and file system. /This is an extremely important technical resource, allowing readers to learn the initial design philosophy and implementation details of UNIX in the developers' own words. Since many modern operating systems inherit the philosophy of UNIX, it is considered one of the essential primary sources for deep study in computer science.(C)"
@@ -761,6 +752,21 @@
         "url_en": "https://en.wikipedia.org/wiki/Akio_Morita|https://www.amazon.com/dp/0452262174&https://m.media-amazon.com/images/I/517f-l6p8CL.SY342.jpg",
         "note": "ソニーの創業者の一人、盛田昭夫の自伝。戦後の混乱期から「ウォークマン」などの革新的な製品を生み出し、ソニーを世界的な大企業へと成長させた経営哲学と道のりを描いています。/特に、日本と欧米の経営観の違いや、国際市場で成功を収めるための戦略、そして新しい技術や製品を生み出すための企業文化の重要性が語られています。日本企業の国際化の歴史を、当事者であるトップ経営者の視点から理解するための貴重な一次資料です。",
         "note_en": "The autobiography of Akio Morita, co-founder of Sony. It recounts his management philosophy and the journey of growing Sony into a global giant, from the chaos of the post-war period to the creation of innovative products like the \"Walkman.\"/It particularly discusses the differences between Japanese and Western management views, strategies for succeeding in international markets, and the importance of corporate culture for generating new technologies and products. This is a valuable primary source for understanding the history of Japanese companies' globalization from the perspective of a key executive."
+      },
+      {
+        "label": "グーテンベルクの銀河系：活字人間の形成（マーシャル・マクルーハン著、森常治訳）",
+        "startYear": 1986,
+        "genre": [
+          "THEORYMEDIA",
+          "WORK",
+          "WORK2"
+        ],
+        "imp": 3,
+        "url": "https://www.amazon.co.jp/%E3%82%B0%E3%83%BC%E3%83%86%E3%83%B3%E3%83%99%E3%83%AB%E3%82%AF%E3%81%AE%E9%8A%80%E6%B2%B3%E7%B3%BB%E2%80%95%E6%B4%BB%E5%AD%97%E4%BA%BA%E9%96%93%E3%81%AE%E5%BD%A2%E6%88%90-%E3%83%9E%E3%83%BC%E3%82%B7%E3%83%A3%E3%83%AB-%E3%83%9E%E3%82%AF%E3%83%AB%E3%83%BC%E3%83%8F%E3%83%B3/dp/4622018969&https://m.media-amazon.com/images/I/91OpDlYwBGL._SY385_.jpg",
+        "note": "活版印刷技術がいかにして人間の思考様式を「線形・連続的」なものへと変容させ、個人主義やナショナリズムを生み出したかを論じたメディア論の古典です。電子メディア時代（再部族化）の到来を予見した書としても重要です。/メディアの変容が私たちの文化、社会、生活、そして感覚そのものにまで大きなインパクトを与えることを検証した著作。無数の事例を通して、世界が聴覚優位から視覚優位へ転換したことを論じています。",
+        "label_en": "The Gutenberg Galaxy: The Making of Typographic Man(Marshall McLuhan)",
+        "url_en": "https://en.wikipedia.org/wiki/The_Gutenberg_Galaxy",
+        "note_en": "A classic of media theory arguing how letterpress printing technology transformed human thinking styles into \"linear and continuous\" ones, creating individualism and nationalism. It is also important as a book predicting the arrival of the electronic media age (retribalization)./A work verifying that the transformation of media has a huge impact on our culture, society, life, and even our senses. Through countless examples, it argues that the world has shifted from auditory dominance to visual dominance."
       }
     ],
     "1987": [
@@ -842,15 +848,30 @@
         "note_en": "A book by Ken Sakamura, the advocate of the TRON (The Real-time Operating system Nucleus) open-architecture real-time OS project developed in Japan, explaining the philosophy and technical background of TRON. /It details the OS design philosophy and the challenge of international standardization aimed at realizing a \"ubiquitous\" society, where everything is controlled by computers, a vision that predated its widespread adoption. It provides insight into the ambitious vision presented by Japanese computer engineers to the world at that time.(C)"
       },
       {
+        "label": "メディア論：人間の拡張の諸相（マーシャル・マクルーハン著、栗原裕・河本仲聖訳）",
+        "startYear": 1987,
+        "genre": [
+          "THEORYMEDIA",
+          "WORK"
+        ],
+        "imp": 3,
+        "url": "https://www.amazon.co.jp/%E3%83%A1%E3%83%87%E3%82%A3%E3%82%A2%E8%AB%96%E2%80%95%E4%BA%BA%E9%96%93%E3%81%AE%E6%8B%A1%E5%BC%B5%E3%81%AE%E8%AB%B8%E7%9B%B8-%E3%83%9E%E3%83%BC%E3%82%B7%E3%83%A3%E3%83%AB-%E3%83%9E%E3%82%AF%E3%83%AB%E3%83%BC%E3%83%8F%E3%83%B3/dp/4622018977&https://m.media-amazon.com/images/I/51T62KnzDjL._SY466_.jpg",
+        "note": "20世紀後半のメディア環境と人間の行方を論じた「グーテンベルクの銀河系」の続編。メディアを情報の媒体としてだけでなく、存在や環境の根拠として捉える「メディア的人間」を見出す。/「メディアはメッセージである」「ホットなメディアとクールなメディア」などの有名な概念が登場する主著。テクノロジーを身体や中枢神経の拡張として捉える視点は、今日のデジタル環境を理解する上でも不可欠です。",
+        "label_en": "Understanding Media: The Extensions of Man(Marshall McLuhan)",
+        "url_en": "https://en.wikipedia.org/wiki/Understanding_Media",
+        "note_en": "A sequel to \"The Gutenberg Galaxy\" discussing the media environment of the late 20th century and the future of humanity. It finds \"media man,\" perceiving media not only as a medium of information but as the basis of existence and environment. /The main work introducing famous concepts such as \"The medium is the message\" and \"Hot and Cool media.\" The perspective of viewing technology as an extension of the body and central nervous system is indispensable for understanding today's digital environment."
+      },
+      {
         "label": "ハッカーズ―英雄たちのコンピュータ革命（スティーブン・レビー著、松田信子・古橋芳恵訳）",
         "startYear": 1987,
         "genre": [
           "HACKER",
+          "OUTOFPRINT",
           "WORK"
         ],
         "imp": 3,
         "url": "https://ja.wikipedia.org/wiki/ハッカーズ_(書籍)|https://www.amazon.co.jp/%E3%83%8F%E3%83%83%E3%82%AB%E3%83%BC%E3%82%BA-%E3%82%B9%E3%83%86%E3%82%A3%E3%83%BC%E3%83%96%E3%83%B3%E3%83%BB%E3%83%AC%E3%83%93%E3%83%BC/dp/487593100X&https://m.media-amazon.com/images/I/71crIIwASvL._SY425_.jpg",
-        "note": "MITのハッカー、ホームブリュー・コンピュータ・クラブ、ゲーム会社シエラ・オンラインなど、60〜80年代初期の「ハッカーたち」の人物群像を描いたノンフィクション。ハッカー倫理（情報は自由であるべき等）を明確に言語化した本として有名です。/「ハッカーとは誰か？」を知るには、まずこれ。犯罪者としてのハッカーではなく、創造的な技術者コミュニティの文化史として読めるので、PC黎明期〜シリコンバレーの空気を掴むのにもぴったりです。",
+        "note": "★これが本当に絶版だとしたらまずいだろう！！　/ MITのハッカー、ホームブリュー・コンピュータ・クラブ、ゲーム会社シエラ・オンラインなど、60〜80年代初期の「ハッカーたち」の人物群像を描いたノンフィクション。ハッカー倫理（情報は自由であるべき等）を明確に言語化した本として有名です。/「ハッカーとは誰か？」を知るには、まずこれ。犯罪者としてのハッカーではなく、創造的な技術者コミュニティの文化史として読めるので、PC黎明期〜シリコンバレーの空気を掴むのにもぴったりです。",
         "label_en": "Hackers: Heroes of the Computer Revolution(Steven Levy)",
         "url_en": "https://en.wikipedia.org/wiki/Hackers:_Heroes_of_the_Computer_Revolution",
         "note_en": "A non-fiction depicting the group of \"hackers\" from the 60s to early 80s, such as MIT hackers, Homebrew Computer Club, and game company Sierra Online. Famous as a book that clearly verbalized hacker ethics (information should be free, etc.)./To know \"who are hackers?\", start here. Read not as hackers as criminals, but as a cultural history of creative engineer communities, it is perfect for grasping the atmosphere of the PC dawn to Silicon Valley."
@@ -861,28 +882,15 @@
         "genre": [
           "COMPUTER",
           "OUTOFPRINT",
-          "WORK"
+          "WORK",
+          "WORK2"
         ],
         "imp": 3,
         "url": "https://www.amazon.co.jp/dp/4893620355&https://m.media-amazon.com/images/I/51DS9VXCXZL._SY425_.jpg",
-        "note": "チューリング、フォン・ノイマン、エンゲルバート、リックライダー、パロアルト研究所など、コンピュータ史のキーパーソンたちの仕事を「思考を拡張する道具」という観点から描いた歴史＋未来予測本。80年代初頭から90年代のネットワーク社会を予見しようとした“レトロフューチャー”な一冊です。/「コンピュータの歴史＝製品カタログ」ではなく、「どんな人たちが、どんな思想で“思考のための道具”を発明してきたか」を物語として追える本です。RAGやローカルLLM環境をいじっていると、「この本で描かれた系譜のだいぶ先端に自分がいるんだな」と妙にしみる系の読み物。",
+        "note": "★新版は絶版ではない / チューリング、フォン・ノイマン、エンゲルバート、リックライダー、パロアルト研究所など、コンピュータ史のキーパーソンたちの仕事を「思考を拡張する道具」という観点から描いた歴史＋未来予測本。80年代初頭から90年代のネットワーク社会を予見しようとした“レトロフューチャー”な一冊です。/「コンピュータの歴史＝製品カタログ」ではなく、「どんな人たちが、どんな思想で“思考のための道具”を発明してきたか」を物語として追える本です。RAGやローカルLLM環境をいじっていると、「この本で描かれた系譜のだいぶ先端に自分がいるんだな」と妙にしみる系の読み物。",
         "label_en": "Tools for Thought: The History and Future of Mind-Expanding Technology(Howard Rheingold)",
         "url_en": "https://en.wikipedia.org/wiki/Tools_for_Thought|https://www.amazon.com/dp/0262681153/&https://m.media-amazon.com/images/I/41wJLquHuiL._SY445_SX342_FMwebp_.jpg",
         "note_en": "A history and future prediction book that depicts the work of key figures in computer history—such as Turing, von Neumann, Engelbart, Licklider, and Xerox PARC—from the perspective of \"tools for expanding thought.\" It is a \"retro-future\" book that attempted to foresee the network society of the 90s from the early 80s./It allows you to follow the story not as a \"computer history = product catalog,\" but as \"what kind of people invented 'tools for thought' with what kind of philosophies.\" When tinkering with RAG or local LLM environments, it is a reading experience that makes you feel, \"I am at the very tip of the lineage described in this book.\""
-      },
-      {
-        "label": "メディア論：人間の拡張の諸相（マーシャル・マクルーハン著、栗原裕・河本仲聖訳）",
-        "startYear": 1987,
-        "genre": [
-          "THEORYMEDIA",
-          "WORK"
-        ],
-        "imp": 3,
-        "url": "https://www.amazon.co.jp/%E3%83%A1%E3%83%87%E3%82%A3%E3%82%A2%E8%AB%96%E2%80%95%E4%BA%BA%E9%96%93%E3%81%AE%E6%8B%A1%E5%BC%B5%E3%81%AE%E8%AB%B8%E7%9B%B8-%E3%83%9E%E3%83%BC%E3%82%B7%E3%83%A3%E3%83%AB-%E3%83%9E%E3%82%AF%E3%83%AB%E3%83%BC%E3%83%8F%E3%83%B3/dp/4622018977",
-        "note": "20世紀後半のメディア環境と人間の行方を論じた「グーテンベルクの銀河系」の続編。メディアを情報の媒体としてだけでなく、存在や環境の根拠として捉える「メディア的人間」を見出す。/「メディアはメッセージである」「ホットなメディアとクールなメディア」などの有名な概念が登場する主著。テクノロジーを身体や中枢神経の拡張として捉える視点は、今日のデジタル環境を理解する上でも不可欠です。",
-        "label_en": "Understanding Media: The Extensions of Man(Marshall McLuhan)",
-        "url_en": "https://en.wikipedia.org/wiki/Understanding_Media",
-        "note_en": "A sequel to \"The Gutenberg Galaxy\" discussing the media environment of the late 20th century and the future of humanity. It finds \"media man,\" perceiving media not only as a medium of information but as the basis of existence and environment. /The main work introducing famous concepts such as \"The medium is the message\" and \"Hot and Cool media.\" The perspective of viewing technology as an extension of the body and central nervous system is indispensable for understanding today's digital environment."
       },
       {
         "label": "実録!天才プログラマー（スーザン・ラマース著/マイクロソフトプレス編/岡和夫訳）",
@@ -890,11 +898,12 @@
         "genre": [
           "COMPUTER",
           "OUTOFPRINT",
-          "WORK"
+          "WORK",
+          "WORK2"
         ],
         "imp": 3,
         "url": "https://www.amazon.co.jp/dp/4871483630&https://m.media-amazon.com/images/I/51MCPi-6VHL._SY445_SX342_ControlCacheEqualizer_.jpg",
-        "note": "初期のパーソナルコンピュータ時代における著名なプログラマーたちへのインタビュー集。ビル・ゲイツ、ジェームズ・ゴスリン、ジョン・ウォーノックなど、当時の最先端で活躍していた開発者たちが、どのようにプログラムを書き、何を考えていたのかを直接語っています。/プログラミングという行為がどのように行われ、どのような思想的背景があったのかを知る上で貴重な資料です。黎明期のコンピュータ文化と、天才たちの仕事への取り組み方を垣間見ることができます。(C)",
+        "note": "★貴重な記録だが需要がややナゾ。/ 　初期のパーソナルコンピュータ時代における著名なプログラマーたちへのインタビュー集。ビル・ゲイツ、ジェームズ・ゴスリン、ジョン・ウォーノックなど、当時の最先端で活躍していた開発者たちが、どのようにプログラムを書き、何を考えていたのかを直接語っています。/プログラミングという行為がどのように行われ、どのような思想的背景があったのかを知る上で貴重な資料です。黎明期のコンピュータ文化と、天才たちの仕事への取り組み方を垣間見ることができます。(C)",
         "label_en": "Programmers at Work(Susan Lammers)",
         "url_en": "https://www.amazon.com/Programmers-Work-Interviews-Computer-Industry/dp/1556152116&https://m.media-amazon.com/images/I/918NBq8isoL._SY385_.jpg",
         "note_en": "A collection of interviews with prominent programmers from the early personal computer era. Developers at the forefront of the time, including Bill Gates, James Gosling, and John Warnock, speak directly about how they coded and what they were thinking. /It is a valuable resource for understanding the act of programming and its underlying philosophical background. It offers a glimpse into the nascent computer culture and the work approaches of these brilliant minds.(C)"
