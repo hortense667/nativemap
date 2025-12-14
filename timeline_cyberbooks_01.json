@@ -34,16 +34,17 @@
     "1948": [
       {
         "label": "サイバネティックス ― 動物と機械における制御と通信（ノーバート・ウィーナー著、戸田巌ほか訳）",
-        "label_en": "Cybernetics: Or Control and Communication in the Animal and the Machine(Norbert Wiener)",
         "startYear": 1948,
         "genre": [
           "SCIENCE",
-          "WORK"
+          "WORK",
+          "WORK2"
         ],
         "imp": 3,
         "url": "https://www.amazon.co.jp/GENERIC-%E3%82%B5%E3%82%A4%E3%83%90%E3%83%8D%E3%83%86%E3%82%A3%E3%83%83%E3%82%AF%E3%82%B9-%E5%8B%95%E7%89%A9%E3%81%A8%E6%A9%9F%E6%A2%B0%E3%81%AB%E3%81%8A%E3%81%91%E3%82%8B%E5%88%B6%E5%BE%A1%E3%81%A8%E9%80%9A%E4%BF%A1/dp/B0G5637N99&https://m.media-amazon.com/images/I/71oGWVhIz2L._AC_SX679_.jpg",
-        "url_en": "https://en.wikipedia.org/wiki/Cybernetics%3A_Or_Control_and_Communication_in_the_Animal_and_the_Machine",
         "note": "フィードバック制御、情報、ノイズ、確率過程などを統合する概念として「サイバネティックス」を提示した古典。動物と機械を同じ「制御と通信の系」として扱い、現代の制御工学、情報理論、AI、神経科学の基礎を築いた。/「コンピュータ以前のAI本」と言ってもいい一冊で、ニューロンから通信回線、産業機械まで同じ数学で語ってしまう豪腕ぶりが魅力です。いま読むと数式は古典ですが、「情報と制御」を横断する視点は、ネットワーク化したAIシステムを考えるときにまだまだ現役です。",
+        "label_en": "Cybernetics: Or Control and Communication in the Animal and the Machine(Norbert Wiener)",
+        "url_en": "https://en.wikipedia.org/wiki/Cybernetics%3A_Or_Control_and_Communication_in_the_Animal_and_the_Machine",
         "note_en": "A classic that presented \"cybernetics\" as a concept integrating feedback control, information, noise, and stochastic processes. Treating animals and machines as the same \"system of control and communication,\" it laid the foundation for modern control engineering, information theory, AI, and neuroscience./A book that could be called a \"pre-computer AI book,\" charming in its brute force of discussing neurons, communication lines, and industrial machines with the same mathematics. Reading it now, the formulas are classical, but the perspective crossing \"information and control\" is still active when thinking about networked AI systems."
       }
     ],
@@ -97,7 +98,8 @@
           "POPCULTURE",
           "THEORYMEDIA",
           "OUTOFPRINT",
-          "WORK"
+          "WORK",
+          "WORK3"
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/%E5%85%A8%E5%9C%B0%E7%90%83%E3%82%AB%E3%82%BF%E3%83%AD%E3%82%B0",
@@ -156,7 +158,8 @@
         "genre": [
           "POPCULTURE",
           "THEORYMEDIA",
-          "WORK"
+          "WORK",
+          "WORK2"
         ],
         "imp": 4,
         "url": "https://www.amazon.co.jp/dp/4480096884/&https://m.media-amazon.com/images/I/61bonOR-D3L._SY425_.jpg",
@@ -187,7 +190,8 @@
           "COMPUTER",
           "THEORYMEDIA",
           "OUTOFPRINT",
-          "WORK"
+          "WORK",
+          "WORK3"
         ],
         "imp": 4,
         "note": "ハイパーテキスト（Hypertext）という概念の提唱者であるテッド・ネルソンが、コンピュータへのアクセスを一般市民に解放しようという情熱のもと、自費出版で世に問うた著作。「コンピュータは単なる計算機ではなく、人々の創造性を高めるための道具である」というメッセージを、独特のレイアウトと奔放な文体で表現しています。「Computer Lib（コンピュータ解放）」と「Dream Machines（夢の機械）」の2部構成で、後のデジタル革命の思想的な基盤の一つとなりました。(E)",
@@ -259,7 +263,7 @@
         "genre": [
           "COMPUTER",
           "OUTOFPRINT",
-          "WORK"
+          "WORK2"
         ],
         "imp": 3,
         "url": "https://www.amazon.co.jp/dp/B000J8WJJI&https://m.media-amazon.com/images/I/716Gb48tUvL.SY342.jpg",
@@ -333,7 +337,7 @@
           "WORK"
         ],
         "imp": 3,
-        "url": "https://www.amazon.co.jp/dp/4879620505",
+        "url": "https://www.amazon.co.jp/dp/B000J8XMHQ&https://m.media-amazon.com/images/I/71YTfHg+7ML._SY425_.jpg",
         "note": "コンピュータがまだ一般的でなかった1970年代に、早くもその悪用の可能性に警鐘を鳴らし、実際に発生した初期のコンピュータ犯罪の事例を収集・分析した本。/不正アクセス、データ盗難、システム破壊など、当時の具体的な犯罪手口が詳細に描かれており、現代のサイバーセキュリティの議論のルーツとも言える内容を含んでいます。初期のハッカー／クラッカー文化の負の側面を知る上でも貴重な資料です。(C)",
         "label_en": "Crime by Computer(Donn B. Parker)",
         "url_en": "https://www.amazon.com/Crime-computer-Donn-B-Parker/dp/068414574X",
@@ -398,7 +402,8 @@
         "genre": [
           "SCIENCE",
           "COMPUTER",
-          "WORK"
+          "WORK",
+          "WORK2"
         ],
         "imp": 3,
         "url": "https://www.amazon.co.jp/dp/4624400437&https://m.media-amazon.com/images/I/51umB1Efm-L._SY425_.jpg",
@@ -415,11 +420,12 @@
         "genre": [
           "COMPUTER",
           "POPCULTURE",
+          "OUTOFPRINT",
           "WORK"
         ],
         "imp": 3,
         "url": "https://ja.wikipedia.org/wiki/%E8%B6%85%E3%83%9E%E3%82%B7%E3%83%B3%E8%AA%95%E7%94%9F|https://www.amazon.co.jp/dp/4822284328&https://m.media-amazon.com/images/I/51gEb6qQa6L._SY466_.jpg",
-        "note": "コンピュータ開発チームの熱量・倫理・生活を追うノンフィクション。80年代エンジニアリング文化の“体温”が残る。",
+        "note": "コンピュータ開発チームの熱量・倫理・生活を追うノンフィクション。80年代エンジニアリング文化の“体温”が残る。★2010年に新版がでているがそれも絶版",
         "label_en": "The Soul of a New Machine (Tracy Kidder)",
         "url_en": "https://en.wikipedia.org/wiki/The_Soul_of_a_New_Machine",
         "note_en": "Narrative nonfiction of an engineering team building a new computer"
@@ -449,7 +455,7 @@
         ],
         "imp": 3,
         "url": "https://ja.wikipedia.org/wiki/%E7%AC%AC%E4%B8%89%E3%81%AE%E6%B3%A2_(%E3%83%88%E3%83%95%E3%83%A9%E3%83%BC|https://www.amazon.co.jp/dp/4122009537/&https://m.media-amazon.com/images/I/81DWuhMQ0mL.SY342.jpg",
-        "note": "未来学者アルビン・トフラーが提唱した、人類文明の発展を「第一の波（農業革命）」「第二の波（産業革命）」に続く「第三の波（情報革命）」として捉える文明論のベストセラー。情報化社会の到来を予見し、社会構造、経済、家族、政治などあらゆる側面での変革を論じています。特に、生産者と消費者が融合した「プロシューマー」の概念や、規格化、集中化からの脱却といった鋭い指摘は、現代社会においても示唆に富んでいます。(E)",
+        "note": "未来学者アルビン・トフラーが提唱した、人類文明の発展を「第一の波（農業革命）」「第二の波（産業革命）」に続く「第三の波（情報革命）」として捉える文明論のベストセラー。情報化社会の到来を予見し、社会構造、経済、家族、政治などあらゆる側面での変革を論じています。特に、生産者と消費者が融合した「プロシューマー」の概念や、規格化、集中化からの脱却といった鋭い指摘は、現代社会においても示唆に富んでいます。(E)★なんと絶版なのか？？",
         "label_en": "The Third Wave（Alvin Toffler）",
         "url_en": "https://en.wikipedia.org/wiki/The_Third_Wave_(Toffler_book|https://www.amazon.com/Third-Wave-Alvin-Toffler/dp/B0026QRZ8Q/&https://m.media-amazon.com/images/I/81IaC8Nwu2L.SY385.jpg",
         "note_en": "A bestselling book on civilization theory by futurist Alvin Toffler, which conceptualizes the development of human civilization in three waves: the \"First Wave (Agricultural Revolution),\" the \"Second Wave (Industrial Revolution),\" and the \"Third Wave (Information Revolution).\" It foresees the advent of the information society and discusses transformations in all aspects, including social structure, economy, family, and politics. Particularly insightful are its sharp observations, such as the concept of the \"prosumer,\" where producers and consumers merge, and the move away from standardization and centralization, which remain relevant in contemporary society.(E)"
@@ -484,35 +490,6 @@
         "note_en": "A classic popular book that depicts the developmental process of the fetus based on precise anatomical and embryological knowledge, attempting to read \"memories of life\" and rhythms in its morphological changes. With a unique style blending biology, philosophy, and poetic sentiment, it has gained many readers./Since it views the world from the \"fetus\" rather than AI or cyborgs, it is unique in this list, but the idea of viewing life as a \"flow of form as a process\" connects to systems theory and autopoiesis. It is a book that reconsiders human understanding not through data but through \"somatic time.\""
       },
       {
-        "label": "ガジェット・ブック（佐野山寛太）",
-        "startYear": 1983,
-        "genre": [
-          "POPCULTURE",
-          "NERD",
-          "OUTOFPRINT",
-          "WORK"
-        ],
-        "imp": 3,
-        "url": "https://www.amazon.co.jp/dp/4915376427/&https://m.media-amazon.com/images/I/511NeHydp-L.SY445_SX342_ControlCacheEqualizer.jpg",
-        "note": "80年代のサブカルチャーの空気感を色濃く反映したビジュアル文庫。「ガジェット」を「潜在的無用性と遊び的な組み合せによる価値を持つモノ」と定義し、当時の街中に溢れていた文房具、小物、お菓子、玩具、ファッションなど、「ガラクタ的な面白さ」を持った品々を、カラー・モノクロ図版で紹介。キッチュでチープな当時のグッズや文化に関心がある人にとっては、80年代日本の生々しい側面を凝縮した貴重な資料となります。(E)",
-        "note_en": "A visual paperback strongly reflecting the atmosphere of 1980s Japanese subculture. Defining a \"gadget\" as \"an object possessing value through potential uselessness and playful combinations,\" the book introduces various items with a \"junk-like appeal\"—stationery, small items, snacks, toys, and fashion—that were prevalent in the streets at the time, using color and monochrome illustrations. For those interested in the kitsch and cheap goods and culture of that era, this is a valuable resource that encapsulates the vivid aspects of 1980s Japan.(E)"
-      },
-      {
-        "label": "テクノクラシー（ブルース ナスバーム著/田原総一朗訳）",
-        "startYear": 1983,
-        "genre": [
-          "THEORYMEDIA",
-          "OUTOFPRINT",
-          "WORK"
-        ],
-        "imp": 3,
-        "url": "https://www.amazon.co.jp/dp/4062006782&https://m.media-amazon.com/images/I/51Ybx2Kaz6L.SY385.jpg",
-        "note": "石油後の世界における権力と富の移行を描き、特にロボット工学、遺伝子工学、テレコミュニケーションの「三大テクノロジー戦争」の最前線を活写した論考。ニューテクノロジー時代の勝者となるための条件を徹底的に追求し、企業や国家が技術競争に勝ち残れるかどうかが未来を左右すると警鐘を鳴らしています。当時の日本が直面していた国際競争と技術開発の熾烈さを背景に、テクノロジーが社会構造や経済に与える影響を論じた一冊です。(E)",
-        "label_en": "The World After Oil（Bruce Nussbaum）",
-        "url_en": "https://www.amazon.com/World-After-Shifting-Power-Wealth/dp/0671505971&https://m.media-amazon.com/images/I/61Su9uiL4jL.SY385.jpg",
-        "note_en": "An analysis depicting the shift of power and wealth in the post-oil world, vividly capturing the forefront of the \"three major technology wars\": robotics, genetic engineering, and telecommunications. It thoroughly explores the conditions for becoming a winner in the new technology era, warning that survival in the fierce technological competition determines the future of companies and nations. Against the backdrop of the intense international competition and technological development faced by Japan at the time, the book discusses the impact of technology on social structure and the economy.(E)"
-      },
-      {
         "label": "The Hacker's Dictionary（Guy L. Steele Jr. 編）",
         "startYear": 1983,
         "genre": [
@@ -529,20 +506,6 @@
         "note_en": "Early slang dictionary in the Jargon File lineage, preserving norms, humor, and values through vocabulary."
       },
       {
-        "label": "Smalltalk-80: The Language and its Implementation（Adele Goldberg, David Robson著）",
-        "startYear": 1983,
-        "genre": [
-          "COMPUTER",
-          "OUTOFPRINT",
-          "WORK"
-        ],
-        "imp": 3,
-        "note": "Xerox PARC由来のSmalltalk-80を“システム文化ごと”外部へ持ち出した重要文献（オブジェクト指向の普及史でも鍵）。",
-        "label_en": "Smalltalk-80: The Language and its Implementation (Adele Goldberg, David Robson)",
-        "url_en": "https://dblp.org/rec/books/aw/GoldbergR83.html|https://archive.org/details/smalltalk80langu00gold",
-        "note_en": "Key Smalltalk-80 reference exporting PARC ideas"
-      },
-      {
         "label": "メガトレンド（ジョン ネイスビッツ著/竹村 健一訳）",
         "startYear": 1983,
         "genre": [
@@ -550,11 +513,55 @@
           "WORK"
         ],
         "imp": 3,
-        "url": "https://www.amazon.co.jp/dp/453209232X&https://m.media-amazon.com/images/I/51irQHFo3TL._SY445_SX342_ControlCacheEqualizer_.jpg",
+        "url": "https://www.amazon.co.jp/dp/4837953670/&https://m.media-amazon.com/images/I/51irQHFo3TL._SY445_SX342_ControlCacheEqualizer_.jpg",
         "note": "社会学者のジョン・ネイスビッツが1980年代初頭に発表し、世界的なベストセラーとなった未来予測の書。社会を根本から変える10の大きな流れ（メガトレンド）を提示し、情報社会への移行、中央集権から分散化へ、工業社会から情報社会へといった変化を予見しました。/特に「ハイテク/ハイタッチ」という概念は、技術の進歩が人間の繋がりや感情的な補償を必要とすることを指摘し、現代のデジタル社会においても重要な視点を提供しています。未来学の古典の一つであり、80年代の社会変化を理解する上で不可欠な一冊です。",
         "label_en": "Megatrends: Ten New Directions Transforming Our Lives（John Naisbitt）",
         "url_en": "https://en.wikipedia.org/wiki/Megatrends",
         "note_en": "A book of future prediction published by sociologist John Naisbitt in the early 1980s that became a worldwide bestseller. It presented ten major trends (megatrends) fundamentally transforming society, predicting shifts such as the transition to an information society, decentralization from centralization, and the move from an industrial society to an information society./The concept of \"High Tech/High Touch,\" in particular, points out that technological advancement requires human connection and emotional compensation, offering a crucial perspective even in today's digital society. It is a classic of futurism and essential for understanding the social changes of the 80s."
+      },
+      {
+        "label": "ガジェット・ブック（佐野山寛太）",
+        "startYear": 1983,
+        "genre": [
+          "POPCULTURE",
+          "NERD",
+          "OUTOFPRINT",
+          "WORK",
+          "WORK2"
+        ],
+        "imp": 3,
+        "url": "https://www.amazon.co.jp/dp/4915376427/&https://m.media-amazon.com/images/I/511NeHydp-L.SY445_SX342_ControlCacheEqualizer.jpg",
+        "note": "80年代のサブカルチャーの空気感を色濃く反映したビジュアル文庫。「ガジェット」を「潜在的無用性と遊び的な組み合せによる価値を持つモノ」と定義し、当時の街中に溢れていた文房具、小物、お菓子、玩具、ファッションなど、「ガラクタ的な面白さ」を持った品々を、カラー・モノクロ図版で紹介。キッチュでチープな当時のグッズや文化に関心がある人にとっては、80年代日本の生々しい側面を凝縮した貴重な資料となります。(E)",
+        "note_en": "A visual paperback strongly reflecting the atmosphere of 1980s Japanese subculture. Defining a \"gadget\" as \"an object possessing value through potential uselessness and playful combinations,\" the book introduces various items with a \"junk-like appeal\"—stationery, small items, snacks, toys, and fashion—that were prevalent in the streets at the time, using color and monochrome illustrations. For those interested in the kitsch and cheap goods and culture of that era, this is a valuable resource that encapsulates the vivid aspects of 1980s Japan.(E)"
+      },
+      {
+        "label": "テクノクラシー（ブルース ナスバーム著/田原総一朗訳）",
+        "startYear": 1983,
+        "genre": [
+          "THEORYMEDIA",
+          "WORK"
+        ],
+        "imp": 3,
+        "url": "https://www.amazon.co.jp/dp/4062006782&https://m.media-amazon.com/images/I/51Ybx2Kaz6L.SY385.jpg",
+        "note": "石油後の世界における権力と富の移行を描き、特にロボット工学、遺伝子工学、テレコミュニケーションの「三大テクノロジー戦争」の最前線を活写した論考。ニューテクノロジー時代の勝者となるための条件を徹底的に追求し、企業や国家が技術競争に勝ち残れるかどうかが未来を左右すると警鐘を鳴らしています。当時の日本が直面していた国際競争と技術開発の熾烈さを背景に、テクノロジーが社会構造や経済に与える影響を論じた一冊です。(E)",
+        "label_en": "The World After Oil（Bruce Nussbaum）",
+        "url_en": "https://www.amazon.com/World-After-Shifting-Power-Wealth/dp/0671505971&https://m.media-amazon.com/images/I/61Su9uiL4jL.SY385.jpg",
+        "note_en": "An analysis depicting the shift of power and wealth in the post-oil world, vividly capturing the forefront of the \"three major technology wars\": robotics, genetic engineering, and telecommunications. It thoroughly explores the conditions for becoming a winner in the new technology era, warning that survival in the fierce technological competition determines the future of companies and nations. Against the backdrop of the intense international competition and technological development faced by Japan at the time, the book discusses the impact of technology on social structure and the economy.(E)"
+      },
+      {
+        "label": "Smalltalk-80: The Language and its Implementation（Adele Goldberg, David Robson著）",
+        "startYear": 1983,
+        "genre": [
+          "COMPUTER",
+          "OUTOFPRINT",
+          "WORK",
+          "WORK3"
+        ],
+        "imp": 3,
+        "note": "Xerox PARC由来のSmalltalk-80を“システム文化ごと”外部へ持ち出した重要文献（オブジェクト指向の普及史でも鍵）。",
+        "label_en": "Smalltalk-80: The Language and its Implementation (Adele Goldberg, David Robson)",
+        "url_en": "https://dblp.org/rec/books/aw/GoldbergR83.html|https://archive.org/details/smalltalk80langu00gold",
+        "note_en": "Key Smalltalk-80 reference exporting PARC ideas"
       }
     ],
     "1984": [
@@ -626,20 +633,6 @@
         "note_en": "An anthology of SF short stories, philosophical essays, and scientific papers revolving around questions like \"What is the mind?\" and \"What is the self?\", with commentary added by Hofstadter and Dennett. Lighter than \"Gödel, Escher, Bach,\" it allows for \"cherry-picking\" topics on consciousness, self, and AI./Because of the \"philosophical essay collection + editor's witty commentary\" style, it works even if you just read the chapters that interest you. It is the perfect book to shake up your sense of \"What is the 'self' anyway?\" before reading books on AI or brain science."
       },
       {
-        "label": "The Second Self: Computers and the Human Spirit（シェリー・タークル著）",
-        "startYear": 1984,
-        "genre": [
-          "COMPUTER",
-          "THEORYMEDIA",
-          "WORK"
-        ],
-        "imp": 3,
-        "note": "コンピュータを“道具”ではなく自己形成の一部として捉えた初期の重要作（家庭・学校・サブカルの観察）。",
-        "label_en": "The Second Self: Computers and the Human Spirit (Sherry Turkle)",
-        "url_en": "https://www.amazon.co.jp/dp/0262701111&https://m.media-amazon.com/images/I/71gVJO6NfyL._SY466_.jpg",
-        "note_en": "Influential early study of computers as part of identity and social life, grounded in observations of everyday computing culture."
-      },
-      {
         "label": "ウォークマンかく戦えり（黒木 靖夫著）",
         "label_en": "（不明）",
         "startYear": 1984,
@@ -651,6 +644,21 @@
         "url": "https://www.amazon.co.jp/dp/4094002613&https://m.media-amazon.com/images/I/510R9F2K6L.SY342.jpg",
         "note": "ソニーの「ウォークマン」開発プロジェクトに深く関わった黒木靖夫による著作。世界的なヒット商品となったウォークマンが、社内の反対や既成概念との戦いを経て、いかにして誕生し、市場を切り開いていったのかを、その企画・開発の舞台裏から詳細に描いています。/技術的な挑戦だけでなく、「ヘッドフォン文化」という新しいライフスタイルを創造し、世界中の人々の行動様式を変えたマーケティング戦略の成功の物語でもあります。日本のプロダクトデザインやマーケティングの歴史を考察する上で重要なドキュメントです。",
         "note_en": "A work by Yasuo Kuroki, who was deeply involved in Sony's \"Walkman\" development project. It details the inside story of the planning and development of the globally successful Walkman, describing how it was born and carved out a market despite internal opposition and battles against conventional wisdom./It is not just about the technical challenges but also a success story of the marketing strategy that created a new \"headphone culture\" lifestyle, changing the behavior of people worldwide. This is an important document for considering the history of Japanese product design and marketing."
+      },
+      {
+        "label": "The Second Self: Computers and the Human Spirit（シェリー・タークル著）",
+        "startYear": 1984,
+        "genre": [
+          "COMPUTER",
+          "THEORYMEDIA",
+          "WORK",
+          "WORK3"
+        ],
+        "imp": 3,
+        "note": "コンピュータを“道具”ではなく自己形成の一部として捉えた初期の重要作（家庭・学校・サブカルの観察）。",
+        "label_en": "The Second Self: Computers and the Human Spirit (Sherry Turkle)",
+        "url_en": "https://www.amazon.co.jp/dp/0262701111&https://m.media-amazon.com/images/I/71gVJO6NfyL._SY466_.jpg",
+        "note_en": "Influential early study of computers as part of identity and social life, grounded in observations of everyday computing culture."
       }
     ],
     "1985": [
