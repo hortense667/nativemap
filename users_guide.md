@@ -1,4 +1,4 @@
-# ネイティブマップ ユーザーガイド / NativeMap User Guide
+# Xnative/Timeline ユーザーガイド / Xnative/Timeline User Guide
 
 **このドキュメントには日本語版と英語版が含まれています。英語版は後半にあります。This document includes both a Japanese version and an English version. The English version is in the latter part.**
 
@@ -8,7 +8,7 @@
 
 ### はじめに
 
-ネイティブマップは、年表データを視覚的に表示・編集できるWebアプリケーションです。ポップカルチャーやデジタル技術の歴史を年表形式で管理し、個人の体験と照らし合わせることができます。
+ネイティブタイムラインは、年表データを視覚的に表示・編集できるWebアプリケーションです。ポップカルチャーやデジタル技術の歴史を年表形式で管理し、個人の体験と照らし合わせることができます。
 
 **GitHubユーザーなら誰でも管理者になれる分散型システム**として設計されており、自分のリポジトリで独自の年表データを管理できます。
 
@@ -38,6 +38,7 @@
 #### スナップショット
 - スナップショット保存/復元に対応（位置・テキスト・スタイル・先端座標）
 - 復元後、GitHubが新しければ同期をブロックする仕組みに準拠
+- 開いているウェブ画面パネルも保存・復元されます（位置、表示中のURL、言語設定など）
 
 #### 画像表示機能
 - テキストに「#https://example.com/image.png」の形式で画像URLを記述すると画像を表示
@@ -63,7 +64,7 @@
    - URLに `refTimelines`（JSON配列）を追加（重要度も含めて指定可能）
    - 例：
      ```
-     nativemap201.html?owner=hortense667&repo=nativemap&filePath=timeline_digital_japan_01.json&refTimelines=%5B%7B%22owner%22%3A%22hortense667%22%2C%22repo%22%3A%22nativemap%22%2C%22filePath%22%3A%22timeline_backglound_01.json%22%2C%22minImportance%22%3A2%7D%5D
+     nativetimeline201.html?owner=hortense667&repo=nativetimeline&filePath=timeline_digital_japan_01.json&refTimelines=%5B%7B%22owner%22%3A%22hortense667%22%2C%22repo%22%3A%22nativetimeline%22%2C%22filePath%22%3A%22timeline_backglound_01.json%22%2C%22minImportance%22%3A2%7D%5D
      ```
 
 #### 参照年表の特徴
@@ -95,6 +96,10 @@
 - 「ロード」機能でCSVファイルからデータを読み込み
 - 編集・追加・削除は可能だが、保存はローカルのみ
 - ページをリロードすると元の状態に戻る
+
+**ウェブ画面の表示**:
+- 詳細一覧の「地球」マークや検索結果の青い項目にマウスオーバーすると、その項目のURLが設定されている場合、ウェブ画面が開きます
+- AmazonのURLの場合、URLの後に「&」を付けて画像URLを追加することで、表紙画像が表示されます
 
 #### 2. いまある年表の編集に参加する人（コラボレーター）
 
@@ -155,7 +160,7 @@
 2. **初期ファイルの配置**
    - リポジトリに`timeline.json`ファイルを作成
    - 空のファイルでも構いません
-   - または、[nativemapのリポジトリ](https://github.com/hortense667/nativemap)からサンプルデータを参照
+   - または、[nativetimelineのリポジトリ](https://github.com/hortense667/nativetimeline)からサンプルデータを参照
 
 #### ステップ2: Personal Access Tokenの取得
 
@@ -178,10 +183,10 @@
    - 生成されたトークンをコピーして安全な場所に保存
    - **重要**: このトークンは再表示されません
 
-#### ステップ3: ネイティブマップでの設定
+#### ステップ3: ネイティブタイムラインでの設定
 
 1. **設定画面を開く**
-   - ネイティブマップの「設定」ボタンをクリック
+   - ネイティブタイムラインの「設定」ボタンをクリック
 
 2. **GitHub情報を入力**
    - Personal Access Token: ステップ2で取得したトークン
@@ -411,6 +416,15 @@ genre;JAPAN;日本;Japan;true
 - 「詳細」チェックボックスをオンにして検索
 - 注釈（日本語/英語）も検索対象に含めて検索可能
 
+**検索結果の操作**:
+- 検索結果として表示される青い項目にマウスオーバーすると、その項目のURLが設定されている場合、詳細一覧の「地球」マークと同じようにウェブ画面が開きます
+- 検索結果の青い項目をクリックすると、その項目の注釈がポップアップ表示されます（英語モードのときは英語の注釈、日本語モードのときは日本語の注釈を表示）
+- 再度クリックするか、マウスが項目から外れると注釈ポップアップが閉じます
+
+**ワイルドカード検索**:
+- 検索ボックスに「*」を入力して検索すると、現在選択されている分野（ジャンル）のすべての項目が検索結果として表示されます
+- 重要度フィルターが設定されている場合は、その条件も適用されます
+
 #### ジャンルフィルター
 
 **ジャンル選択**:
@@ -453,6 +467,12 @@ genre;JAPAN;日本;Japan;true
 - ドラッグ&ドロップで順序変更
 - 「ドラッグで一覧の順序を変更できます」の表示
 
+**ウェブ画面の表示**:
+- 各項目の「地球」マークにマウスオーバーすると、その項目のURLが設定されている場合、ウェブ画面が開きます
+- AmazonのURLの場合、URLの後に「&」を付けて画像URLを追加することで、表紙画像が表示されます
+  - 例：`https://www.amazon.co.jp/dp/XXXXXXXXXX&https://example.com/image.jpg`
+- 検索結果の青い項目にマウスオーバーした場合も同様にウェブ画面が開きます
+
 #### 年表の活用例
 
 **使い方の例（任天堂ファミコン）**:
@@ -476,7 +496,7 @@ genre;JAPAN;日本;Japan;true
 
 #### サービス障害への対応
 
-ネイティブマップは、CloudflareやGitHub（データを保管・公開している）、DNSなどの外部サービスに依存しています。これらのサービスに障害が発生した場合の対策について説明します。
+ネイティブタイムラインは、CloudflareやGitHub（データを保管・公開している）、DNSなどの外部サービスに依存しています。これらのサービスに障害が発生した場合の対策について説明します。
 
 #### 事前準備：HTMLファイルの保存
 
@@ -485,7 +505,7 @@ genre;JAPAN;日本;Japan;true
 1. **HTMLファイルの保存**
    - 通常のアクセスが可能な状態で、ページ上で右クリック
    - 「名前を付けて保存」を選択
-   - HTMLファイルとして保存（例：`nativemap_backup.html`）
+   - HTMLファイルとして保存（例：`nativetimeline_backup.html`）
 
 2. **保存のタイミング**
    - 重要なプレゼンテーションやデモの前
@@ -551,7 +571,7 @@ genre;JAPAN;日本;Japan;true
 - Issues 作成時はテンプレートから該当（内容訂正 / 機能提案 / 不具合報告）を選び、  
   **再現手順・スクリーンショット・参照URL** を添付いただけると助かります。
 - フィードバック導線：
-  - 一般: https://github.com/hortense667/nativemap/issues
+  - 一般: https://github.com/hortense667/nativetimeline/issues
   - セキュリティ: `SECURITY.md` の手順に従ってください。
 
 ---
@@ -562,7 +582,7 @@ This repository is for data (JSON) only. The application is provided in a separa
 
 ### Introduction
 
-NativeMap is a web application that allows you to visually display and edit timeline data. You can manage the history of pop culture and digital technology in a timeline format and compare it with personal experiences.
+NativeTimeline is a web application that allows you to visually display and edit timeline data. You can manage the history of pop culture and digital technology in a timeline format and compare it with personal experiences.
 
 Designed as a **distributed system where any GitHub user can become an administrator**, you can manage your own timeline data in your repository.
 
@@ -616,7 +636,7 @@ The reference timeline feature allows you to display and compare multiple timeli
    - Add `refTimelines` (JSON array) to URL (can specify importance level)
    - Example:
      ```
-     nativemap201.html?owner=hortense667&repo=nativemap&filePath=timeline_digital_japan_01.json&refTimelines=%5B%7B%22owner%22%3A%22hortense667%22%2C%22repo%22%3A%22nativemap%22%2C%22filePath%22%3A%22timeline_backglound_01.json%22%2C%22minImportance%22%3A2%7D%5D
+     nativetimeline201.html?owner=hortense667&repo=nativetimeline&filePath=timeline_digital_japan_01.json&refTimelines=%5B%7B%22owner%22%3A%22hortense667%22%2C%22repo%22%3A%22nativetimeline%22%2C%22filePath%22%3A%22timeline_backglound_01.json%22%2C%22minImportance%22%3A2%7D%5D
      ```
 
 #### Reference Timeline Features
@@ -643,6 +663,20 @@ Example:
 - Use search function
 - Genre and importance filters
 - Timeline utilization (aligning event years and birth years)
+
+**Search Result Operations**:
+- Hovering over the blue search result items opens a web preview panel (same behavior as the globe icon in the detail list) if the item has a URL
+- Clicking a blue search result item displays a popup with the item's note (English note in English mode, Japanese note in Japanese mode)
+- Click again or move the mouse away to close the note popup
+
+**Wildcard Search**:
+- Entering "*" in the search box displays all items in the currently selected genres as search results
+- Importance filter settings are also applied if configured
+
+**Web Preview Panel**:
+- Hovering over the globe icon in the detail list or blue search result items opens a web preview panel if the item has a URL
+- For Amazon URLs, adding an image URL after "&" displays the cover image
+  - Example: `https://www.amazon.co.jp/dp/XXXXXXXXXX&https://example.com/image.jpg`
 
 **Temporary Data Addition**:
 - Load data from CSV file using "Load" function
@@ -708,7 +742,7 @@ Example:
 2. **Place Initial Files**
    - Create `timeline.json` file in repository
    - Can be empty file
-   - Or reference sample data from [nativemap repository](https://github.com/hortense667/nativemap)
+   - Or reference sample data from [nativetimeline repository](https://github.com/hortense667/nativetimeline)
 
 #### Step 2: Obtain Personal Access Token
 
@@ -731,10 +765,10 @@ Example:
    - Copy generated token and save in safe place
    - **Important**: This token will not be displayed again
 
-#### Step 3: NativeMap Settings
+#### Step 3: NativeTimeline Settings
 
 1. **Open Settings**
-   - Click "Settings" button in NativeMap
+   - Click "Settings" button in NativeTimeline
 
 2. **Enter GitHub Information**
    - Personal Access Token: Token obtained in Step 2
