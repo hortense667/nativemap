@@ -2302,9 +2302,9 @@
           "OUTOFPRINT",
           "WORK"
         ],
-        "imp": 3,
+        "imp": 5,
         "url": "https://www.amazon.co.jp/dp/4062080214&https://m.media-amazon.com/images/I/51+FF2lNUJL.SY342.jpg",
-        "note": "現代文明を支える半導体技術の裏側で活躍する日本の地味だが偉大な技術者たちに光を当てたノンフィクション。電卓、時計、ビデオカメラ、CDプレイヤーなどの開発に携わった「チップ」に人生を賭けた男たちの情熱と苦闘を、彼らの業績だけでなく人となりも含めて描いています。世界に誇る日本のものづくり文化と、技術者の精神性、そしてイノベーションが生まれる現場の熱気を伝える貴重な記録です。(E)",
+        "note": "★日本の開発者たちの実像が分かる貴重な本。/ 現代文明を支える半導体技術の裏側で活躍する日本の地味だが偉大な技術者たちに光を当てたノンフィクション。電卓、時計、ビデオカメラ、CDプレイヤーなどの開発に携わった「チップ」に人生を賭けた男たちの情熱と苦闘を、彼らの業績だけでなく人となりも含めて描いています。世界に誇る日本のものづくり文化と、技術者の精神性、そしてイノベーションが生まれる現場の熱気を伝える貴重な記録です。(E)",
         "note_en": "A non-fiction book that highlights the modest yet great Japanese engineers working behind the scenes of the semiconductor technology that underpins modern civilization. It portrays the passion and struggles of the men who staked their lives on \"chips\" involved in the development of calculators, watches, video cameras, CD players, and more, focusing not just on their achievements but also their personalities. It's a valuable record conveying Japan's world-class manufacturing culture, the engineers' ethos, and the fervor of the innovation birthplace.(E)"
       },
       {
@@ -2394,31 +2394,31 @@
     "2000": [
       {
         "label": "未来をつくった人々（マイケル・ヒルツィック著/エ・ビスコム・テック・ラボ監訳 鴨沢真夫訳）",
-        "label_en": "Dealers of Lightning(Michael Hiltzik)",
         "startYear": 2000,
         "genre": [
           "COMPUTER",
           "WORK"
         ],
-        "imp": 3,
+        "imp": 5,
         "url": "https://www.amazon.co.jp/dp/4839902259&https://m.media-amazon.com/images/I/51sRc3wHsdL._SY385_.jpg",
-        "url_en": "https://www.amazon.com/dp/0887309895&https://m.media-amazon.com/images/I/61pJVqUUoJL._SY385_.jpg",
         "note": "ゼロックス・パロアルト研究所（PARC）という、現代のパーソナルコンピューティングのほぼ全ての要素（GUI、マウス、レーザープリンタ、イーサネットなど）が生まれた「未来の工場」の栄光と悲劇を描いたノンフィクション。/画期的な発明が次々と生まれた環境と、それが商業的な成功に結びつかなかった理由、そしてスティーブ・ジョブズやビル・ゲイツといった外部の人間がそれらの技術をどう活用していったかをドラマチックに描いています。現代ITのルーツを知る上で必読の一冊です。(C)",
+        "label_en": "Dealers of Lightning(Michael Hiltzik)",
+        "url_en": "https://www.amazon.com/dp/0887309895&https://m.media-amazon.com/images/I/61pJVqUUoJL._SY385_.jpg",
         "note_en": "A non-fiction book that recounts the glory and tragedy of Xerox PARC, the \"factory of the future\" where nearly every element of modern personal computing (GUI, mouse, laser printer, Ethernet, etc.) was born. /It dramatically describes the environment that fostered groundbreaking inventions, the reasons they didn't translate into commercial success for Xerox, and how outsiders like Steve Jobs and Bill Gates capitalized on these technologies. It is a must-read for understanding the roots of modern IT.(C)"
       },
       {
         "label": "思考する機械 コンピュータ（ダニエル・ヒリス著/倉骨彰訳）",
-        "label_en": "The Pattern on The Stone(W. Daniel Hillis)",
         "startYear": 2000,
         "genre": [
-          "COMPUTER",
           "SCIENCE",
+          "COMPUTER",
           "WORK"
         ],
-        "imp": 3,
+        "imp": 4,
         "url": "https://www.amazon.co.jp/dp/4794209924&https://m.media-amazon.com/images/I/51hYAKh-H+L._SY445_SX342_ControlCacheEqualizer_.jpg",
-        "url_en": "https://en.wikipedia.org/wiki/The_Pattern_on_the_Stone|https://www.amazon.com/Pattern-Stone-Computers-Science-Masters/dp/046502596X&https://m.media-amazon.com/images/I/61igb-3soGL._SY425_.jpg",
         "note": "パラレルコンピューティングのパイオニアであるダニエル・ヒリスが、コンピュータの仕組みとその可能性を、一般の読者にも分かりやすく解説した入門書。計算とは何か、情報とは何かといった根源的な問いから、並列処理や量子コンピュータのアイデアまでをカバーしています。/コンピュータを「石の上に描かれたパターン」として捉える詩的な視点から、その本質を解き明かします。技術的な詳細に深入りすることなく、コンピュータサイエンスの核心的な概念と、未来へのビジョンを学ぶことができます。(C)",
+        "label_en": "The Pattern on The Stone(W. Daniel Hillis)",
+        "url_en": "https://en.wikipedia.org/wiki/The_Pattern_on_the_Stone|https://www.amazon.com/Pattern-Stone-Computers-Science-Masters/dp/046502596X&https://m.media-amazon.com/images/I/61igb-3soGL._SY425_.jpg",
         "note_en": "An introductory book by Daniel Hillis, a pioneer of parallel computing, explaining the mechanisms and potential of computers in an accessible way for general readers. It covers fundamental questions like \"What is computation?\" and \"What is information?\" up to ideas of parallel processing and quantum computing. /It unravels the essence of the computer from the poetic perspective of seeing it as \"The Pattern on The Stone.\" Readers can learn core concepts of computer science and a vision for the future without delving deeply into technical specifics.(C)"
       },
       {
@@ -2512,8 +2512,7 @@
         "startYear": 2003,
         "genre": [
           "HACKER",
-          "THEORYMEDIA",
-          "WORK"
+          "THEORYMEDIA"
         ],
         "imp": 3,
         "url": "https://www.amazon.co.jp/dp/4756142818&https://m.media-amazon.com/images/I/51qVC8ltYeL._SY385_.jpg",
@@ -2523,16 +2522,18 @@
       },
       {
         "label": "フリーソフトウェアと自由な社会 R-Chard M.Stallman エッセイ集（リチャード・M・ストールマン他著/株式会社ロングテール、長尾高弘訳）",
-        "label_en": "Free Software, Free Society Selected Essays of Richard M. Stallman(Richard M. Stallman/Joshua Gay/Lawrence Lassig)",
         "startYear": 2003,
         "genre": [
           "HACKER",
-          "THEORYMEDIA"
+          "THEORYMEDIA",
+          "OUTOFPRINT",
+          "WORK"
         ],
-        "imp": 3,
+        "imp": 5,
         "url": "https://www.amazon.co.jp/dp/4756142818&https://m.media-amazon.com/images/I/51qVC8ltYeL._SY385_.jpg",
-        "url_en": "https://en.wikipedia.org/wiki/Free_Software,_Free_Society",
         "note": "フリーソフトウェア運動の創始者であるリチャード・ストールマンのエッセイ集。ソフトウェアの「自由」とは何か、コピーライト（著作権）の問題、そして技術が社会や倫理に与える影響について、彼自身の哲学と強い信念が表明されています。/ソフトウェアを単なる道具ではなく、ユーザーの自由と社会的な公正に関わる倫理的な問題として捉えるストールマンの思想は、現代のオープンソースやAI倫理の議論にも大きな影響を与え続けています。ハッカー文化の根幹にある考え方を知るための必読書です。(C)",
+        "label_en": "Free Software, Free Society Selected Essays of Richard M. Stallman(Richard M. Stallman/Joshua Gay/Lawrence Lassig)",
+        "url_en": "https://en.wikipedia.org/wiki/Free_Software,_Free_Society",
         "note_en": "A collection of essays by Richard M. Stallman, the founder of the Free Software movement. It articulates his philosophy and strong convictions on what constitutes the \"freedom\" of software, issues of copyright, and technology's impact on society and ethics. /Stallman's view of software not merely as a tool but as an ethical concern related to user freedom and social justice continues to profoundly influence discussions on modern open source and AI ethics. It is an essential read for understanding the core ideas of hacker culture.(C)"
       }
     ],
@@ -2595,6 +2596,17 @@
         "note": "民主主義と平等主義の欺瞞を暴け。\n資本主義を加速せよ。",
         "label_en": "The Dark Enlightenment",
         "url_en": "https://en.wikipedia.org/wiki/Dark_Enlightenment"
+      },
+      {
+        "label": "暗黒の啓蒙書（ニック・ランド）",
+        "startYear": 2020,
+        "genre": [
+          "POPCULTURE",
+          "THEORYMEDIA"
+        ],
+        "imp": 3,
+        "url": "https://www.amazon.co.jp/%E6%9A%97%E9%BB%92%E3%81%AE%E5%95%93%E8%92%99%E6%9B%B8-%E3%83%8B%E3%83%83%E3%82%AF-%E3%83%A9%E3%83%B3%E3%83%89/dp/4065197031/&https://m.media-amazon.com/images/I/71IfgES9IUL._SY466_.jpg",
+        "url_en": "https://www.amazon.com/Dark-Enlightenment-Imperium-Press/dp/192260268X&https://m.media-amazon.com/images/I/51835z1iSdL._SY522_.jpg"
       }
     ],
     "2025": [
