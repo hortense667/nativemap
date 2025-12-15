@@ -2585,6 +2585,22 @@
         "url_en": "https://www.amazon.com/REBEL-SELL-Culture-Cant-Jammed/dp/0002007908"
       }
     ],
+    "2018": [
+      {
+        "label": "トランスヒューマニズム: 人間強化の欲望から不死の夢まで",
+        "startYear": 2018,
+        "genre": [
+          "COMPUTER",
+          "CYBERPUNK",
+          "THEORYMEDIA",
+          "WORK"
+        ],
+        "imp": 3,
+        "url": "https://www.amazon.co.jp/dp/4861827213&https://m.media-amazon.com/images/I/71l6Us9W1mL._SY466_.jpg",
+        "label_en": "To Be a Machine: Adventures Among Cyborgs, Utopians, Hackers, and the Futurists Solving the Modest Problem of Death",
+        "url_en": "https://www.amazon.com/dp/0385540418&https://m.media-amazon.com/images/I/71CW11-2m3L._SY466_.jpg"
+      }
+    ],
     "2020": [
       {
         "label": "暗黒の啓蒙書（ニック ランド）",
