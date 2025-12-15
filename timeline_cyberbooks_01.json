@@ -101,7 +101,7 @@
           "WORK",
           "WORK3"
         ],
-        "imp": 4,
+        "imp": 3,
         "url": "https://ja.wikipedia.org/wiki/%E5%85%A8%E5%9C%B0%E7%90%83%E3%82%AB%E3%82%BF%E3%83%AD%E3%82%B0",
         "note": "1960年代後半のアメリカのヒッピー・カウンターカルチャーを象徴する雑誌「ホール・アース・カタログ」の最終版。より良い生き方、持続可能な暮らしに必要な「ツール（道具）」としての情報や商品を掲載し、「アクセス・トゥ・ツールズ（道具へのアクセス）」を掲げました。ヒッピーコミューンの自給自足的な生活を支える役割を担い、後のパーソナルコンピュータやインターネットの思想にも影響を与えた、サブカルチャー史上の重要文献です。(E)",
         "label_en": "The Last Whole Earth Catalog: Access To Tools（Stewart Brand (Editor)）",
@@ -148,7 +148,7 @@
           "WORK",
           "WORK2"
         ],
-        "imp": 4,
+        "imp": 3,
         "url": "https://www.amazon.co.jp/dp/4480096884/&https://m.media-amazon.com/images/I/61bonOR-D3L._SY425_.jpg",
         "note": "技術を「人間の自律と共生を支える道具」として再定義し、巨大システムへの依存を批判する。テクノロジー思想の古典。",
         "label_en": "Tools for Conviviality (Ivan Illich)",
@@ -194,7 +194,7 @@
           "WORK",
           "WORK3"
         ],
-        "imp": 4,
+        "imp": 3,
         "note": "ハイパーテキスト（Hypertext）という概念の提唱者であるテッド・ネルソンが、コンピュータへのアクセスを一般市民に解放しようという情熱のもと、自費出版で世に問うた著作。「コンピュータは単なる計算機ではなく、人々の創造性を高めるための道具である」というメッセージを、独特のレイアウトと奔放な文体で表現しています。「Computer Lib（コンピュータ解放）」と「Dream Machines（夢の機械）」の2部構成で、後のデジタル革命の思想的な基盤の一つとなりました。(E)",
         "label_en": "Computer Lib（Ted Nelson）",
         "url_en": "https://en.wikipedia.org/wiki/Computer_Lib/Dream_Machines|https://www.amazon.com/dp/0893470023/&https://m.media-amazon.com/images/I/41Y4aPIhLFL.SY445_SX342_FMwebp.jpg",
@@ -322,7 +322,7 @@
           "OUTOFPRINT",
           "WORK"
         ],
-        "imp": 3,
+        "imp": 5,
         "url": "https://www.amazon.co.jp/dp/437710456X&https://m.media-amazon.com/images/I/71pqUTQSmGL._SY425_.jpg",
         "note": "★AI時代のいま求められる？　/ ELIZAの開発者ワイゼンバウムが、「AIに重要な決定を任せるべきではない」と警鐘を鳴らした倫理的・社会的考察の書。技術的な可能性よりも、コンピュータに判断を委ねたとき人間の責任感や compassion がどう失われるかを問題にしています。/ChatGPT 的なシステムを眺めながら読むと、「この本で言ってること、まさに今の話では…？」という箇所がゴロゴロ出てきます。AI倫理やガバナンスの議論の“始祖”の一つなので、生成AI時代のモヤモヤを整理したい人にとっては原点回帰になる本です。",
         "label_en": "Computer Power and Human Reason: From Judgment to Calculation(Joseph Weizenbaum)",
@@ -352,7 +352,7 @@
           "WORK",
           "WORK2"
         ],
-        "imp": 3,
+        "imp": 4,
         "url": "https://www.amazon.co.jp/dp/B000J8XMHQ&https://m.media-amazon.com/images/I/71YTfHg+7ML._SY425_.jpg",
         "note": "★貴重だがここまで求めるなら図書館でか？ / コンピュータがまだ一般的でなかった1970年代に、早くもその悪用の可能性に警鐘を鳴らし、実際に発生した初期のコンピュータ犯罪の事例を収集・分析した本。/不正アクセス、データ盗難、システム破壊など、当時の具体的な犯罪手口が詳細に描かれており、現代のサイバーセキュリティの議論のルーツとも言える内容を含んでいます。初期のハッカー／クラッカー文化の負の側面を知る上でも貴重な資料です。(C)",
         "label_en": "Crime by Computer(Donn B. Parker)",
@@ -455,7 +455,7 @@
           "THEORYMEDIA",
           "WORK"
         ],
-        "imp": 3,
+        "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/%E7%AC%AC%E4%B8%89%E3%81%AE%E6%B3%A2_(%E3%83%88%E3%83%95%E3%83%A9%E3%83%BC|https://www.amazon.co.jp/dp/4122009537/&https://m.media-amazon.com/images/I/81DWuhMQ0mL.SY342.jpg",
         "note": "★なんと絶版なのか？？ / 未来学者アルビン・トフラーが提唱した、人類文明の発展を「第一の波（農業革命）」「第二の波（産業革命）」に続く「第三の波（情報革命）」として捉える文明論のベストセラー。情報化社会の到来を予見し、社会構造、経済、家族、政治などあらゆる側面での変革を論じています。特に、生産者と消費者が融合した「プロシューマー」の概念や、規格化、集中化からの脱却といった鋭い指摘は、現代社会においても示唆に富んでいます。(E)",
         "label_en": "The Third Wave（Alvin Toffler）",
@@ -545,7 +545,7 @@
           "WORK",
           "WORK2"
         ],
-        "imp": 3,
+        "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/%E3%82%B8%E3%83%A3%E3%83%BC%E3%82%B4%E3%83%B3%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB|https://www.amazon.co.jp/dp/4782570066|https://www.amazon.co.jp/dp/475614084X&https://m.media-amazon.com/images/I/41Y2ic0-r1L._SY425_.jpg",
         "note": "★Internet Archiveで英語版は読める。/ Jargon File系譜の初期スラング辞典。価値観・ユーモア・作法が語彙として保存されている。",
         "label_en": "The Hacker's Dictionary (Guy L. Steele Jr., ed.)",
@@ -560,7 +560,7 @@
           "OUTOFPRINT",
           "WORK"
         ],
-        "imp": 3,
+        "imp": 4,
         "url": "https://www.amazon.co.jp/dp/4837953670/&https://m.media-amazon.com/images/I/51irQHFo3TL._SY445_SX342_ControlCacheEqualizer_.jpg",
         "note": "★きわめてその後のコンピュヒター社会を言い当てている。/社会学者のジョン・ネイスビッツが1980年代初頭に発表し、世界的なベストセラーとなった未来予測の書。社会を根本から変える10の大きな流れ（メガトレンド）を提示し、情報社会への移行、中央集権から分散化へ、工業社会から情報社会へといった変化を予見しました。/特に「ハイテク/ハイタッチ」という概念は、技術の進歩が人間の繋がりや感情的な補償を必要とすることを指摘し、現代のデジタル社会においても重要な視点を提供しています。未来学の古典の一つであり、80年代の社会変化を理解する上で不可欠な一冊です。",
         "label_en": "Megatrends: Ten New Directions Transforming Our Lives（John Naisbitt）",
@@ -629,7 +629,7 @@
           "OUTOFPRINT",
           "WORK"
         ],
-        "imp": 3,
+        "imp": 5,
         "url": "https://www.amazon.co.jp/dp/448492126X&https://m.media-amazon.com/images/I/41VVDHKkKZL._SY425_.jpg",
         "note": "「心とは何か？」「自己とは何か？」という問いをめぐるSF短編・哲学エッセイ・科学論文などを集めたアンソロジーで、ホフスタッターとデネットがそれぞれにコメントを付けていく構成。『ゲーデル、エッシャー、バッハ』より軽めで、意識・自己・AIの問題に“つまみ食い的”に触れられます。/「哲学エッセイ集＋編集者のツッコミ」というスタイルなので、興味のある章だけ拾い読みしても成立します。AIや脳科学の本を読む前に、「そもそも“自己”って何だっけ？」という感覚を揺さぶっておきたいときにちょうどいい本です。",
         "label_en": "The Mind’s I: Fantasies and Reflections on Self and Soul(Douglas R. Hofstadter, Daniel C. Dennett)",
@@ -735,7 +735,7 @@
         ],
         "imp": 3,
         "url": "https://www.amazon.co.jp/dp/4893620142&https://m.media-amazon.com/images/I/414Po7lDbIL._SY445_SX342_ControlCacheEqualizer_.jpg",
-        "note": "UNIXオペレーティングシステムに関する主要な論文や技術報告が掲載された「ベル・システム・テクニカル・ジャーナル」の特集号の日本語訳。UNIXのカーネル、シェル、ファイルシステムなど、システムの核心部分に関するオリジナルの技術文書を収録しています。/UNIXの初期設計思想と実装の詳細を、開発者自身の言葉で学べる極めて重要な技術資料です。現代のOSの多くがUNIXの思想を受け継いでいるため、コンピュータ科学を深く学ぶ上で欠かせない原典の一つと言えます。(C)★英語版も絶版。テクノロジー寄り過ぎるか？",
+        "note": "★英語版も絶版。テクノロジー寄り過ぎるか？ / UNIXオペレーティングシステムに関する主要な論文や技術報告が掲載された「ベル・システム・テクニカル・ジャーナル」の特集号の日本語訳。UNIXのカーネル、シェル、ファイルシステムなど、システムの核心部分に関するオリジナルの技術文書を収録しています。/UNIXの初期設計思想と実装の詳細を、開発者自身の言葉で学べる極めて重要な技術資料です。現代のOSの多くがUNIXの思想を受け継いでいるため、コンピュータ科学を深く学ぶ上で欠かせない原典の一つと言えます。(C)",
         "label_en": "The Bell System Technical Journal(AT&T Bell Laboratories)",
         "url_en": "https://www.amazon.com/System-October-Technical-Journal-Laboratories/dp/B0096BKHJI&https://m.media-amazon.com/images/I/91v1CVQ-VPL._SY385_.jpg",
         "note_en": "A Japanese translation of a special issue of \"The Bell System Technical Journal\" featuring key papers and technical reports on the UNIX operating system. It contains original technical documents regarding the core components of the UNIX system, such as the kernel, shell, and file system. /This is an extremely important technical resource, allowing readers to learn the initial design philosophy and implementation details of UNIX in the developers' own words. Since many modern operating systems inherit the philosophy of UNIX, it is considered one of the essential primary sources for deep study in computer science.(C)"
@@ -869,7 +869,7 @@
           "OUTOFPRINT",
           "WORK"
         ],
-        "imp": 3,
+        "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/ハッカーズ_(書籍)|https://www.amazon.co.jp/%E3%83%8F%E3%83%83%E3%82%AB%E3%83%BC%E3%82%BA-%E3%82%B9%E3%83%86%E3%82%A3%E3%83%BC%E3%83%96%E3%83%B3%E3%83%BB%E3%83%AC%E3%83%93%E3%83%BC/dp/487593100X&https://m.media-amazon.com/images/I/71crIIwASvL._SY425_.jpg",
         "note": "★これが本当に絶版だとしたらまずいだろう！！　/ MITのハッカー、ホームブリュー・コンピュータ・クラブ、ゲーム会社シエラ・オンラインなど、60〜80年代初期の「ハッカーたち」の人物群像を描いたノンフィクション。ハッカー倫理（情報は自由であるべき等）を明確に言語化した本として有名です。/「ハッカーとは誰か？」を知るには、まずこれ。犯罪者としてのハッカーではなく、創造的な技術者コミュニティの文化史として読めるので、PC黎明期〜シリコンバレーの空気を掴むのにもぴったりです。",
         "label_en": "Hackers: Heroes of the Computer Revolution(Steven Levy)",
@@ -901,9 +901,9 @@
           "WORK",
           "WORK2"
         ],
-        "imp": 3,
+        "imp": 4,
         "url": "https://www.amazon.co.jp/dp/4871483630&https://m.media-amazon.com/images/I/51MCPi-6VHL._SY445_SX342_ControlCacheEqualizer_.jpg",
-        "note": "★貴重な記録だが需要がややナゾ。/ 　初期のパーソナルコンピュータ時代における著名なプログラマーたちへのインタビュー集。ビル・ゲイツ、ジェームズ・ゴスリン、ジョン・ウォーノックなど、当時の最先端で活躍していた開発者たちが、どのようにプログラムを書き、何を考えていたのかを直接語っています。/プログラミングという行為がどのように行われ、どのような思想的背景があったのかを知る上で貴重な資料です。黎明期のコンピュータ文化と、天才たちの仕事への取り組み方を垣間見ることができます。(C)",
+        "note": "★貴重な記録だが。/ 　初期のパーソナルコンピュータ時代における著名なプログラマーたちへのインタビュー集。ビル・ゲイツ、ジェームズ・ゴスリン、ジョン・ウォーノックなど、当時の最先端で活躍していた開発者たちが、どのようにプログラムを書き、何を考えていたのかを直接語っています。/プログラミングという行為がどのように行われ、どのような思想的背景があったのかを知る上で貴重な資料です。黎明期のコンピュータ文化と、天才たちの仕事への取り組み方を垣間見ることができます。(C)",
         "label_en": "Programmers at Work(Susan Lammers)",
         "url_en": "https://www.amazon.com/Programmers-Work-Interviews-Computer-Industry/dp/1556152116&https://m.media-amazon.com/images/I/918NBq8isoL._SY385_.jpg",
         "note_en": "A collection of interviews with prominent programmers from the early personal computer era. Developers at the forefront of the time, including Bill Gates, James Gosling, and John Warnock, speak directly about how they coded and what they were thinking. /It is a valuable resource for understanding the act of programming and its underlying philosophical background. It offers a glimpse into the nascent computer culture and the work approaches of these brilliant minds.(C)"
@@ -932,9 +932,9 @@
           "OUTOFPRINT",
           "WORK"
         ],
-        "imp": 3,
+        "imp": 4,
         "url": "https://www.amazon.co.jp/dp/4946432310&https://m.media-amazon.com/images/I/51Ca3D4JLRL._SY425_.jpg",
-        "note": "アーケードゲームや家庭用ゲーム機のタイトル・ハードウェアを網羅的に紹介した初期の「ゲーム百科」。当時の画面写真やスペック、簡潔な紹介文が並び、80年代までのテレビゲーム史の概観ができるカタログ的資料。/ネット以前に「検索サイト」のような役割を果たしていた分厚いゲームカタログです。情報の粒度やレイアウトも含めて、のちのゲームデータベースサイトやWikiの原型のように読めます。",
+        "note": "★貴重な本だがカタログ的ではある / アーケードゲームや家庭用ゲーム機のタイトル・ハードウェアを網羅的に紹介した初期の「ゲーム百科」。当時の画面写真やスペック、簡潔な紹介文が並び、80年代までのテレビゲーム史の概観ができるカタログ的資料。/ネット以前に「検索サイト」のような役割を果たしていた分厚いゲームカタログです。情報の粒度やレイアウトも含めて、のちのゲームデータベースサイトやWikiの原型のように読めます。",
         "label_en": "Television Game Denshi Yugi Taizen!(TV Game Museum Project)",
         "note_en": "An early \"game encyclopedia\" comprehensively introducing arcade games and home console titles/hardware. With screen photos, specs, and concise introductions of the time, it is a catalog-like resource that gives an overview of video game history up to the 80s./A thick game catalog that played a role like a \"search engine\" before the internet. Including the granularity of information and layout, it reads like the prototype of later game database sites and Wikis."
       },
@@ -946,7 +946,7 @@
           "WORK"
         ],
         "imp": 3,
-        "url": "amazon.co.jp/メディアはマッサージである-影響の目録-河出文庫-マーシャル-マクルーハン/dp/4309464068&https://m.media-amazon.com/images/I/81x5Mh1oTZL._SY425_.jpg",
+        "url": "http://amazon.co.jp/メディアはマッサージである-影響の目録-河出文庫-マーシャル-マクルーハン/dp/4309464068&https://m.media-amazon.com/images/I/81x5Mh1oTZL._SY425_.jpg",
         "note": "「メディアはメッセージである（The medium is the message）」を、タイポグラフィと図版を駆使して視覚的に展開した実験的な一冊。メディア環境そのものが人間の知覚や社会構造を「マッサージ（操作）」している、という直感的な理解を与えてくれます。/中身をパラパラめくるだけで「紙のインターフェイスのプロトタイプ」みたいな感じがしてきます。情報デザインやUI／UXの先祖の一人としてマクルーハン＋フィオーレを眺めると、ウェブやスマホ画面のレイアウトも別の目で見えてきます。",
         "label_en": "The Medium is the Massage(Marshall McLuhan, Quentin Fiore)",
         "url_en": "https://en.wikipedia.org/wiki/The_Medium_Is_the_Massage",
@@ -960,9 +960,9 @@
           "OUTOFPRINT",
           "WORK"
         ],
-        "imp": 3,
+        "imp": 5,
         "url": "https://www.amazon.co.jp/dp/4756100511",
-        "note": "パーソナルワークステーションの進化の歴史を、Association for Computing Machinery（ACM）がまとめた原典集。特にゼロックス・パロアルト研究所（PARC）の革新的な研究、GUI（グラフィカルユーザーインターフェース）やマウス、イーサネットなどの技術が、どのようにして現代のコンピュータの基礎を築いたのかを詳細に解説しています。/アデル・ゴールドバーグなど、当時の主要な研究者が寄稿しており、現代の「パーソナルコンピューティング」の原型がどのようにして生まれたのかを知る上で非常に重要な資料です。当時の先進的な思想と技術を知ることができます。(C)",
+        "note": "★以前、復刻してほしいいう話がありました。/ パーソナルワークステーションの進化の歴史を、Association for Computing Machinery（ACM）がまとめた原典集。特にゼロックス・パロアルト研究所（PARC）の革新的な研究、GUI（グラフィカルユーザーインターフェース）やマウス、イーサネットなどの技術が、どのようにして現代のコンピュータの基礎を築いたのかを詳細に解説しています。/アデル・ゴールドバーグなど、当時の主要な研究者が寄稿しており、現代の「パーソナルコンピューティング」の原型がどのようにして生まれたのかを知る上で非常に重要な資料です。当時の先進的な思想と技術を知ることができます。(C)",
         "label_en": "A History of Personal Workstations(Association for Computing Machinery / Adele Goldberg)",
         "url_en": "https://archive.org/details/historyofpersona00gold|https://www.amazon.com/History-Personal-Workstations-Adele-Goldberg/dp/0201112590&https://m.media-amazon.com/images/I/81rUIu0FcHL._SY342_.jpg",
         "note_en": "A collection of original sources compiled by the Association for Computing Machinery (ACM) documenting the history of the personal workstation's evolution. It details how the groundbreaking research at Xerox PARC, including technologies like the GUI, mouse, and Ethernet, laid the foundation for modern computing. /With contributions from key researchers of the time, such as Adele Goldberg, this is an essential resource for understanding the genesis of modern \"personal computing.\" It provides insight into the advanced ideas and technologies of that era.(C)"
