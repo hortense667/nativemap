@@ -30,117 +30,6 @@
     "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
     "notes": "Updates from contributors are welcome. Please do not create separate versions. When reusing data, credit the original authors."
   },
-  "eraSettings": [],
-  "genres": [
-    {
-      "code": "THEORY",
-      "label": "理論/モデル/アルゴリズム",
-      "label_en": "Theory/Models/Algorithms",
-      "conjunction": false
-    },
-    {
-      "code": "SOFTWARE",
-      "label": "ソフトウェア/開発基盤/サービス",
-      "label_en": "Software/Frameworks/Services",
-      "conjunction": false
-    },
-    {
-      "code": "HARDWARE",
-      "label": "ハードウェア/デバイス/計算基盤",
-      "label_en": "Hardware/Devices/Compute",
-      "conjunction": false
-    },
-    {
-      "code": "ROBOTICS",
-      "label": "ロボティクス/自律システム",
-      "label_en": "Robotics/Autonomous Systems",
-      "conjunction": false
-    },
-    {
-      "code": "DATA",
-      "label": "データセット/ベンチマーク",
-      "label_en": "Datasets/Benchmarks",
-      "conjunction": false
-    },
-    {
-      "code": "ORG",
-      "label": "人物/組織/プロジェクト",
-      "label_en": "People/Orgs/Projects",
-      "conjunction": false
-    },
-    {
-      "code": "APPLICATION",
-      "label": "応用/製品/サービス",
-      "label_en": "Applications/Products/Services",
-      "conjunction": false
-    },
-    {
-      "code": "CONTENT",
-      "label": "メディア/コンテンツ（小説/映画/アニメ/ゲーム/書籍）",
-      "label_en": "Media/Content (Fiction/Film/Anime/Game/Books)",
-      "conjunction": false
-    },
-    {
-      "code": "EVENT",
-      "label": "出来事/政策/競技/歴史的転換",
-      "label_en": "Events/Policy/Competitions/Turning points",
-      "conjunction": false
-    },
-    {
-      "code": "P_NEURAL",
-      "label": "ニューラルネット系",
-      "label_en": "Neural-network based",
-      "conjunction": true
-    },
-    {
-      "code": "P_SYMBOLIC",
-      "label": "記号処理/ルール系",
-      "label_en": "Symbolic/Rule-based",
-      "conjunction": true
-    },
-    {
-      "code": "P_GENERATIVE",
-      "label": "生成モデル系",
-      "label_en": "Generative models",
-      "conjunction": true
-    },
-    {
-      "code": "P_RL",
-      "label": "強化学習系",
-      "label_en": "Reinforcement learning",
-      "conjunction": true
-    },
-    {
-      "code": "P_PROB",
-      "label": "確率/ベイズ系",
-      "label_en": "Probabilistic/Bayesian",
-      "conjunction": true
-    },
-    {
-      "code": "P_EVOL",
-      "label": "進化/遺伝的計算系",
-      "label_en": "Evolutionary/Genetic",
-      "conjunction": true
-    },
-    {
-      "code": "JAPAN",
-      "label": "日本",
-      "label_en": "Japan",
-      "conjunction": true
-    },
-    {
-      "code": "CHINA",
-      "label": "中国",
-      "label_en": "CHINA",
-      "conjunction": true
-    },
-    {
-      "code": "BACKGROUND",
-      "label": "時代背景/一般技術",
-      "label_en": "Era background / General tech",
-      "conjunction": false
-    }
-  ],
   "events": {
     "1875": [
       {
@@ -304,7 +193,6 @@
         "note_en": "Karel Čapek's play. The word \"robot\" appears.It seems that it was named by his brother, Josef Čapek."
       }
     ],
-    "1921": [],
     "1927": [
       {
         "label": "メトロポリス",
@@ -1923,16 +1811,17 @@
         "note_en": "Early lineage of commercial shogi AI."
       },
       {
-        "label": "ブレードランナー",
+        "label": "Blade Runner",
         "label_en": "Blade Runner",
         "startYear": 1982,
         "genre": [
           "CONTENT"
         ],
-        "imp": 5,
+        "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/ブレードランナー",
         "url_en": "https://en.wikipedia.org/wiki/Blade_Runner",
-        "note": "人造人間レプリカントと人間性を描くSF映画の金字塔。"
+        "note": "リドリー・スコット監督。サイバーパンクの視覚的イメージを決定づけ、人間と人造人間（AI）の境界を問うた。",
+        "note_en": "Ridley Scott film. Defined visual cyberpunk image, questioning boundary between human and android (AI)."
       },
       {
         "label": "ホップフィールド・ネット",
@@ -1960,19 +1849,6 @@
         "url": "https://ja.wikipedia.org/wiki/自己組織化マップ",
         "url_en": "https://en.wikipedia.org/wiki/Self-organizing_map",
         "note": "競合学習で高次元データを可視化・クラスタ化。"
-      },
-      {
-        "label": "Blade Runner",
-        "label_en": "Blade Runner",
-        "startYear": 1982,
-        "genre": [
-          "CONTENT"
-        ],
-        "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/ブレードランナー",
-        "url_en": "https://en.wikipedia.org/wiki/Blade_Runner",
-        "note": "リドリー・スコット監督。サイバーパンクの視覚的イメージを決定づけ、人間と人造人間（AI）の境界を問うた。",
-        "note_en": "Ridley Scott film. Defined visual cyberpunk image, questioning boundary between human and android (AI)."
       },
       {
         "label": "Fifth Generation Computer Systems",
@@ -6328,5 +6204,116 @@
         "note_en": "DeepSeek-R1 is a reasoning-focused model whose RL-only training framework incentivizes emergent reasoning patterns like self-verification and adaptive strategies."
       }
     ]
-  }
+  },
+  "eraSettings": [],
+  "genres": [
+    {
+      "code": "THEORY",
+      "label": "理論/モデル/アルゴリズム",
+      "label_en": "Theory/Models/Algorithms",
+      "conjunction": false
+    },
+    {
+      "code": "SOFTWARE",
+      "label": "ソフトウェア/開発基盤/サービス",
+      "label_en": "Software/Frameworks/Services",
+      "conjunction": false
+    },
+    {
+      "code": "HARDWARE",
+      "label": "ハードウェア/デバイス/計算基盤",
+      "label_en": "Hardware/Devices/Compute",
+      "conjunction": false
+    },
+    {
+      "code": "ROBOTICS",
+      "label": "ロボティクス/自律システム",
+      "label_en": "Robotics/Autonomous Systems",
+      "conjunction": false
+    },
+    {
+      "code": "DATA",
+      "label": "データセット/ベンチマーク",
+      "label_en": "Datasets/Benchmarks",
+      "conjunction": false
+    },
+    {
+      "code": "ORG",
+      "label": "人物/組織/プロジェクト",
+      "label_en": "People/Orgs/Projects",
+      "conjunction": false
+    },
+    {
+      "code": "APPLICATION",
+      "label": "応用/製品/サービス",
+      "label_en": "Applications/Products/Services",
+      "conjunction": false
+    },
+    {
+      "code": "CONTENT",
+      "label": "メディア/コンテンツ（小説/映画/アニメ/ゲーム/書籍）",
+      "label_en": "Media/Content (Fiction/Film/Anime/Game/Books)",
+      "conjunction": false
+    },
+    {
+      "code": "EVENT",
+      "label": "出来事/政策/競技/歴史的転換",
+      "label_en": "Events/Policy/Competitions/Turning points",
+      "conjunction": false
+    },
+    {
+      "code": "P_NEURAL",
+      "label": "ニューラルネット系",
+      "label_en": "Neural-network based",
+      "conjunction": true
+    },
+    {
+      "code": "P_SYMBOLIC",
+      "label": "記号処理/ルール系",
+      "label_en": "Symbolic/Rule-based",
+      "conjunction": true
+    },
+    {
+      "code": "P_GENERATIVE",
+      "label": "生成モデル系",
+      "label_en": "Generative models",
+      "conjunction": true
+    },
+    {
+      "code": "P_RL",
+      "label": "強化学習系",
+      "label_en": "Reinforcement learning",
+      "conjunction": true
+    },
+    {
+      "code": "P_PROB",
+      "label": "確率/ベイズ系",
+      "label_en": "Probabilistic/Bayesian",
+      "conjunction": true
+    },
+    {
+      "code": "P_EVOL",
+      "label": "進化/遺伝的計算系",
+      "label_en": "Evolutionary/Genetic",
+      "conjunction": true
+    },
+    {
+      "code": "JAPAN",
+      "label": "日本",
+      "label_en": "Japan",
+      "conjunction": true
+    },
+    {
+      "code": "CHINA",
+      "label": "中国",
+      "label_en": "CHINA",
+      "conjunction": true
+    },
+    {
+      "code": "BACKGROUND",
+      "label": "時代背景/一般技術",
+      "label_en": "Era background / General tech",
+      "conjunction": false
+    }
+  ]
 }
