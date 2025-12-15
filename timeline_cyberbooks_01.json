@@ -1069,7 +1069,7 @@
           "POPCULTURE",
           "WORK"
         ],
-        "imp": 3,
+        "imp": 5,
         "url": "https://www.amazon.co.jp/%E3%82%B9%E3%83%86%E3%82%A3%E3%83%BC%E3%83%96%E3%83%BB%E3%82%B8%E3%83%A7%E3%83%96%E3%82%BA%E2%80%95%E3%83%91%E3%83%BC%E3%82%BD%E3%83%8A%E3%83%AB%E3%83%BB%E3%82%B3%E3%83%B3%E3%83%94%E3%83%A5%E3%83%BC%E3%82%BF%E3%82%92%E5%89%B5%E3%81%A3%E3%81%9F%E7%94%B7%E3%80%88%E4%B8%8A%E3%80%89-%E3%82%B8%E3%82%A7%E3%83%95%E3%83%AA%E3%83%BC%E3%83%BBS-%E3%83%A4%E3%83%B3%E3%82%B0/dp/4880636002&https://m.media-amazon.com/images/I/51YuUVpJisL._SY425_.jpg",
         "note": "アップル・コンピュータ社の創業者の一人（もう一人はスティーブ・ウォズニアク）の半生。どうしてポップカルチャーの項目に入るのかというと、パソコンとドラッグ&カウンターカルチャーのつながりが実際どのようなものであったのか、本書を通して知ることができるからだ。/本書は、スティーブ・ジョブズに関する重要な視点を提供しています。時代はまだジョブズを必要としているらしく、歴史の表舞台から姿を消した彼が、のちに不死鳥のごとく甦る前の時期に書かれた貴重な記録です。",
         "label_en": "Steve Jobs: The Journey is the Reward(Jeffrey Young)",
@@ -1221,54 +1221,11 @@
           "OUTOFPRINT",
           "WORK"
         ],
-        "imp": 3,
+        "imp": 4,
         "url": "https://www.amazon.co.jp/dp/4006031769&https://m.media-amazon.com/images/I/41SMiwA1mCL._ControlCacheEqualizer_.jpg",
         "note": "チューリング、ノイマン、ウィーナーなど情報科学の巨人たちを、「冷静な科学者」ではなく欲望とナルシシズムを持った人間として描き直し、情報技術の裏にある文化・思想的衝動を読み解く評論。技術史と思想史を交差させるスタイルで、日本の情報学・メディア論に大きな影響を与えました。/今なら「テック企業の創業者のマインドセット」を分析した本が山ほどありますが、それを90年代前半に、情報科学のパイオニアたちに対して行っているのがこの本です。合理性の背後にある宗教性や神話、自己愛をあぶり出していく視点は、AIブームの空気を一歩引いて眺めるのにとても役立ちます。",
         "label_en": "デジタル・ナルシス――情報科学パイオニアたちの欲望(Nishigaki Tohru)",
         "note_en": "A critique that redraws information science giants like Turing, Neumann, and Wiener not as \"calm scientists\" but as humans with desires and narcissism, decoding the cultural and ideological impulses behind information technology. With a style crossing technical history and intellectual history, it greatly influenced Japanese informatics and media theory./Nowadays there are mountains of books analyzing the \"mindset of tech founders,\" but this book did that for the pioneers of information science in the early 90s. The perspective of exposing the religiosity, mythology, and narcissism behind rationality is very useful for taking a step back and observing the atmosphere of the AI boom."
-      },
-      {
-        "label": "サイケデリック・シンドローム―それはビートルズから始まった（デレク・テイラー著、水上はるこ訳）",
-        "startYear": 1991,
-        "genre": [
-          "POPCULTURE",
-          "WORK"
-        ],
-        "imp": 3,
-        "url": "https://www.amazon.co.jp/dp/4401612566/",
-        "note": "ビートルズ周辺にいた広報マン・評論家デレク・テイラーが、サイケデリック文化と60年代ポップカルチャーの熱気を内側から描いた回想録。『サージェント・ペパーズ』を中心に、ロック、ドラッグ、若者文化が絡み合う時代精神を伝える。/こちらはサイケデリック文化の「ロック側」からの証言集という位置づけで、アシッド・ドリームズが政治・諜報側から見た歴史だとすると良い対になっています。コンピュータ以前の「意識拡張メディア」としてのロックとドラッグを理解するのに役立つ本です。",
-        "label_en": "It Was Twenty Years Ago Today(Derek Taylor)",
-        "url_en": "https://www.amazon.com/Was-Twenty-Years-Ago-Today/dp/0671642014&https://m.media-amazon.com/images/I/91B7DGLpPgL._SY425_.jpg",
-        "note_en": "A memoir by Derek Taylor, a publicist and critic around the Beatles, depicting the heat of psychedelic culture and 60s pop culture from the inside. Centered on \"Sgt. Pepper's,\" it conveys the zeitgeist where rock, drugs, and youth culture intertwined./This is positioned as a collection of testimonies from the \"rock side\" of psychedelic culture, forming a good pair with \"Acid Dreams,\" which looks at history from the political/intelligence side. It is useful for understanding rock and drugs as \"consciousness-expanding media\" before computers."
-      },
-      {
-        "label": "機械の花嫁（マーシャル・マクルーハン著、井坂学訳）",
-        "startYear": 1991,
-        "genre": [
-          "THEORYMEDIA",
-          "WORK"
-        ],
-        "imp": 3,
-        "url": "https://www.amazon.co.jp/%E6%A9%9F%E6%A2%B0%E3%81%AE%E8%8A%B1%E5%AB%81%E2%80%95%E7%94%A3%E6%A5%AD%E7%A4%BE%E4%BC%9A%E3%81%AE%E3%83%95%E3%82%A9%E3%83%BC%E3%82%AF%E3%83%AD%E3%82%A2-%E3%83%9E%E3%83%BC%E3%82%B7%E3%83%A3%E3%83%AB-%E3%83%9E%E3%82%AF%E3%83%AB%E3%83%BC%E3%83%8F%E3%83%B3/dp/4803500401&https://m.media-amazon.com/images/I/41rRFOzLKeL._SY425_.jpg",
-        "note": "新聞広告や雑誌広告をコラージュ的に読み解きながら、20世紀の産業社会とマスメディアがつくる「意味生成装置」を分析したメディア論の古典。バルト『神話作用』と並べて読むと、記号としての広告・大衆文化の読み方が立体的に見えてきます。/今日のSNSタイムラインやアルゴリズム広告を見るとき、「機械の花嫁」で提示された視点はそのまま流用できます。広告のレイアウトやキャッチコピーから、無意識に刷り込まれる価値観を読み解く練習としても最高のテキストです。",
-        "label_en": "The Mechanical Bride: Folklore of Industrial Man(Marshall McLuhan)",
-        "url_en": "https://en.wikipedia.org/wiki/The_Mechanical_Bride",
-        "note_en": "A classic of media theory that analyzes the \"meaning-generating apparatus\" created by 20th-century industrial society and mass media, while reading newspaper and magazine advertisements in a collage-like manner. Reading it alongside Barthes' \"Mythologies\" gives a three-dimensional view of how to read advertisements and mass culture as symbols./When looking at today's SNS timelines and algorithmic ads, the perspectives presented in \"The Mechanical Bride\" can be applied directly. It is also the best text for practicing how to decode values unconsciously imprinted from ad layouts and catchphrases."
-      },
-      {
-        "label": "電脳生物たち ― 超AIによる文明の乗っ取り（ハンス・モラヴェック著、野崎昭弘訳）",
-        "startYear": 1991,
-        "genre": [
-          "SCIENCE",
-          "CYBERPUNK",
-          "WORK"
-        ],
-        "imp": 3,
-        "url": "https://www.amazon.co.jp/%E9%9B%BB%E8%84%B3%E7%94%9F%E7%89%A9%E3%81%9F%E3%81%A1-%E8%B6%85AI%E3%81%AB%E3%82%88%E3%82%8B%E6%96%87%E6%98%8E%E3%81%AE%E4%B9%97%E3%81%A3%E5%8F%96%E3%82%8A/dp/4000057006&https://m.media-amazon.com/images/I/41lYe0Wv4vL._SY425_.jpg",
-        "note": "人間の脳の情報パターンをコンピュータに移植し、ロボットの身体で「人類の文明を継承する」未来像を描くロボット学者の野心作。ポスト生物学的世界の倫理やアイデンティティも含め、今の「AIと人間」議論に直結する問題提起が多い。/「肉体から情報へ」という発想を、かなりラディカルなところまで押し進めた本です。今読むとSF寄りの大胆さもありますが、クラウド化・ロボット化・デジタル・イモータリティの議論を先取りしていて、当時としては相当にぶっ飛んだ未来像。サイバーパンク好きにもおすすめ。",
-        "label_en": "Mind Children: The Future of Robot and Human Intelligence(Hans Moravec)",
-        "url_en": "https://www.amazon.com/dp/0674576187&https://m.media-amazon.com/images/I/81l0eX01cEL._SY466_.jpg",
-        "note_en": "An ambitious work by a roboticist that depicts a future where human brain information patterns are transplanted into computers, and robot bodies \"inherit human civilization.\" Including the ethics and identity of a post-biological world, it raises many issues directly connected to the current \"AI and Human\" debate./A book that pushed the idea of \"from flesh to information\" to a quite radical point. Reading it now, it has the boldness of SF, but it anticipates discussions on cloudification, robotization, and digital immortality, presenting a future image that was quite wild for its time. Recommended for cyberpunk lovers."
       },
       {
         "label": "利己的な遺伝子（リチャード・ドーキンス著、日高敏隆ほか訳）",
@@ -1284,21 +1241,6 @@
         "label_en": "The Selfish Gene(Richard Dawkins)",
         "url_en": "https://en.wikipedia.org/wiki/The_Selfish_Gene",
         "note_en": "Developing the shocking argument that \"we are robots blindly programmed to preserve the selfish molecules known as genes.\" While it clashes with traditional views of biology and humanity, it is fundamentally based on probabilistic thinking./It caused a paradigm shift in biology by placing the subject of evolution not on the individual or species, but on the \"gene.\" The concept of \"meme\" as a unit of cultural transmission was also proposed in this book."
-      },
-      {
-        "label": "サイボーグ・フェミニズム（ダナ・ハラウェイほか著、小谷真理・巽孝之編）",
-        "startYear": 1991,
-        "genre": [
-          "POPCULTURE",
-          "THEORYMEDIA",
-          "WORK"
-        ],
-        "imp": 3,
-        "url": "https://www.amazon.co.jp/%E3%82%B5%E3%82%A4%E3%83%9C%E3%83%BC%E3%82%B0%E3%83%BB%E3%83%95%E3%82%A7%E3%83%9F%E3%83%8B%E3%82%BA%E3%83%A0-%E3%83%80%E3%83%8A-%E3%83%8F%E3%83%A9%E3%82%A6%E3%82%A7%E3%82%A4/dp/484570515X&https://m.media-amazon.com/images/I/51iySpHoKGL._SY425_.jpg",
-        "note": "デジタルテクノロジーの進展がフェミニズムに与える影響を論じる。生物学、サイバネティックス、AI、ロボティックスを視野に入れた「サイボーグフェミニズム」の論考を収録。/ハラウェイの「サイボーグ宣言」を中心に、ジェンダーや有機体/機械の境界を撹乱・横断する思想を紹介した、日本独自の重要なアンソロジーです。",
-        "label_en": "Simians, Cyborgs, and Women(Donna Haraway, et al.)",
-        "url_en": "https://en.wikipedia.org/wiki/A_Cyborg_Manifesto",
-        "note_en": "Discusses the impact of digital technology progress on feminism. Contains essays on \"Cyborg Feminism\" encompassing biology, cybernetics, AI, and robotics./An important anthology unique to Japan that introduces thoughts disturbing and crossing the boundaries of gender and organism/machine, centering on Haraway's \"A Cyborg Manifesto.\""
       },
       {
         "label": "サイバネティック・フィクション ― 柔らかい機械としてのポストモダン文学（デヴィッド・ポラッシュ著、上岡伸雄訳）",
@@ -1328,6 +1270,68 @@
         "label_en": "The Cuckoo’s Egg: Tracking a Spy Through the Maze of Computer Espionage(Clifford Stoll)",
         "url_en": "https://en.wikipedia.org/wiki/The_Cuckoo%27s_Egg",
         "note_en": "A true story suspense where Stoll, an astronomy researcher at UC Berkeley, tracks down a discrepancy of a few dollars in computer usage fees and uncovers a spy incident by an East German hacker. Log analysis, network management, internal coordination—all are a \"chase drama\" unique to an amateur + analog era./A book that teaches how dramatic \"reading logs\" can be. Reading it now, it is technically retro, but themes like surveillance, privacy, and national information warfare connect directly to current cybersecurity, remaining effective across eras."
+      },
+      {
+        "label": "サイケデリック・シンドローム―それはビートルズから始まった（デレク・テイラー著、水上はるこ訳）",
+        "startYear": 1991,
+        "genre": [
+          "POPCULTURE",
+          "OUTOFPRINT",
+          "WORK"
+        ],
+        "imp": 5,
+        "url": "https://www.amazon.co.jp/dp/4401612566/",
+        "note": "ビートルズ周辺にいた広報マン・評論家デレク・テイラーが、サイケデリック文化と60年代ポップカルチャーの熱気を内側から描いた回想録。『サージェント・ペパーズ』を中心に、ロック、ドラッグ、若者文化が絡み合う時代精神を伝える。/こちらはサイケデリック文化の「ロック側」からの証言集という位置づけで、アシッド・ドリームズが政治・諜報側から見た歴史だとすると良い対になっています。コンピュータ以前の「意識拡張メディア」としてのロックとドラッグを理解するのに役立つ本です。",
+        "label_en": "It Was Twenty Years Ago Today(Derek Taylor)",
+        "url_en": "https://www.amazon.com/Was-Twenty-Years-Ago-Today/dp/0671642014&https://m.media-amazon.com/images/I/91B7DGLpPgL._SY425_.jpg",
+        "note_en": "A memoir by Derek Taylor, a publicist and critic around the Beatles, depicting the heat of psychedelic culture and 60s pop culture from the inside. Centered on \"Sgt. Pepper's,\" it conveys the zeitgeist where rock, drugs, and youth culture intertwined./This is positioned as a collection of testimonies from the \"rock side\" of psychedelic culture, forming a good pair with \"Acid Dreams,\" which looks at history from the political/intelligence side. It is useful for understanding rock and drugs as \"consciousness-expanding media\" before computers."
+      },
+      {
+        "label": "機械の花嫁（マーシャル・マクルーハン著、井坂学訳）",
+        "startYear": 1991,
+        "genre": [
+          "THEORYMEDIA",
+          "OUTOFPRINT",
+          "WORK"
+        ],
+        "imp": 5,
+        "url": "https://www.amazon.co.jp/%E6%A9%9F%E6%A2%B0%E3%81%AE%E8%8A%B1%E5%AB%81%E2%80%95%E7%94%A3%E6%A5%AD%E7%A4%BE%E4%BC%9A%E3%81%AE%E3%83%95%E3%82%A9%E3%83%BC%E3%82%AF%E3%83%AD%E3%82%A2-%E3%83%9E%E3%83%BC%E3%82%B7%E3%83%A3%E3%83%AB-%E3%83%9E%E3%82%AF%E3%83%AB%E3%83%BC%E3%83%8F%E3%83%B3/dp/4803500401&https://m.media-amazon.com/images/I/41rRFOzLKeL._SY425_.jpg",
+        "note": "新聞広告や雑誌広告をコラージュ的に読み解きながら、20世紀の産業社会とマスメディアがつくる「意味生成装置」を分析したメディア論の古典。バルト『神話作用』と並べて読むと、記号としての広告・大衆文化の読み方が立体的に見えてきます。/今日のSNSタイムラインやアルゴリズム広告を見るとき、「機械の花嫁」で提示された視点はそのまま流用できます。広告のレイアウトやキャッチコピーから、無意識に刷り込まれる価値観を読み解く練習としても最高のテキストです。",
+        "label_en": "The Mechanical Bride: Folklore of Industrial Man(Marshall McLuhan)",
+        "url_en": "https://en.wikipedia.org/wiki/The_Mechanical_Bride",
+        "note_en": "A classic of media theory that analyzes the \"meaning-generating apparatus\" created by 20th-century industrial society and mass media, while reading newspaper and magazine advertisements in a collage-like manner. Reading it alongside Barthes' \"Mythologies\" gives a three-dimensional view of how to read advertisements and mass culture as symbols./When looking at today's SNS timelines and algorithmic ads, the perspectives presented in \"The Mechanical Bride\" can be applied directly. It is also the best text for practicing how to decode values unconsciously imprinted from ad layouts and catchphrases."
+      },
+      {
+        "label": "電脳生物たち ― 超AIによる文明の乗っ取り（ハンス・モラヴェック著、野崎昭弘訳）",
+        "startYear": 1991,
+        "genre": [
+          "SCIENCE",
+          "CYBERPUNK",
+          "OUTOFPRINT",
+          "WORK"
+        ],
+        "imp": 5,
+        "url": "https://www.amazon.co.jp/%E9%9B%BB%E8%84%B3%E7%94%9F%E7%89%A9%E3%81%9F%E3%81%A1-%E8%B6%85AI%E3%81%AB%E3%82%88%E3%82%8B%E6%96%87%E6%98%8E%E3%81%AE%E4%B9%97%E3%81%A3%E5%8F%96%E3%82%8A/dp/4000057006&https://m.media-amazon.com/images/I/41lYe0Wv4vL._SY425_.jpg",
+        "note": "人間の脳の情報パターンをコンピュータに移植し、ロボットの身体で「人類の文明を継承する」未来像を描くロボット学者の野心作。ポスト生物学的世界の倫理やアイデンティティも含め、今の「AIと人間」議論に直結する問題提起が多い。/「肉体から情報へ」という発想を、かなりラディカルなところまで押し進めた本です。今読むとSF寄りの大胆さもありますが、クラウド化・ロボット化・デジタル・イモータリティの議論を先取りしていて、当時としては相当にぶっ飛んだ未来像。サイバーパンク好きにもおすすめ。",
+        "label_en": "Mind Children: The Future of Robot and Human Intelligence(Hans Moravec)",
+        "url_en": "https://www.amazon.com/dp/0674576187&https://m.media-amazon.com/images/I/81l0eX01cEL._SY466_.jpg",
+        "note_en": "An ambitious work by a roboticist that depicts a future where human brain information patterns are transplanted into computers, and robot bodies \"inherit human civilization.\" Including the ethics and identity of a post-biological world, it raises many issues directly connected to the current \"AI and Human\" debate./A book that pushed the idea of \"from flesh to information\" to a quite radical point. Reading it now, it has the boldness of SF, but it anticipates discussions on cloudification, robotization, and digital immortality, presenting a future image that was quite wild for its time. Recommended for cyberpunk lovers."
+      },
+      {
+        "label": "サイボーグ・フェミニズム（ダナ・ハラウェイほか著、小谷真理・巽孝之編）",
+        "startYear": 1991,
+        "genre": [
+          "POPCULTURE",
+          "THEORYMEDIA",
+          "OUTOFPRINT",
+          "WORK"
+        ],
+        "imp": 5,
+        "url": "https://www.amazon.co.jp/%E3%82%B5%E3%82%A4%E3%83%9C%E3%83%BC%E3%82%B0%E3%83%BB%E3%83%95%E3%82%A7%E3%83%9F%E3%83%8B%E3%82%BA%E3%83%A0-%E3%83%80%E3%83%8A-%E3%83%8F%E3%83%A9%E3%82%A6%E3%82%A7%E3%82%A4/dp/484570515X&https://m.media-amazon.com/images/I/51iySpHoKGL._SY425_.jpg",
+        "note": "デジタルテクノロジーの進展がフェミニズムに与える影響を論じる。生物学、サイバネティックス、AI、ロボティックスを視野に入れた「サイボーグフェミニズム」の論考を収録。/ハラウェイの「サイボーグ宣言」を中心に、ジェンダーや有機体/機械の境界を撹乱・横断する思想を紹介した、日本独自の重要なアンソロジーです。",
+        "label_en": "Simians, Cyborgs, and Women(Donna Haraway, et al.)",
+        "url_en": "https://en.wikipedia.org/wiki/A_Cyborg_Manifesto",
+        "note_en": "Discusses the impact of digital technology progress on feminism. Contains essays on \"Cyborg Feminism\" encompassing biology, cybernetics, AI, and robotics./An important anthology unique to Japan that introduces thoughts disturbing and crossing the boundaries of gender and organism/machine, centering on Haraway's \"A Cyborg Manifesto.\""
       }
     ],
     "1992": [
