@@ -450,14 +450,14 @@
         "note_en": "\"Ended the European war: Allies turned focus to Japan.\""
       },
       {
-        "label": "日本の降伏",
+        "label": "終戦",
         "startYear": 1945,
         "genre": [
           "EVENT",
           "JAPAN",
           "WORLD"
         ],
-        "imp": 4,
+        "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/降伏文書",
         "note": "連合国との降伏文書に調印し第二次世界大戦が終結。",
         "label_en": "Japan’s surrender",
