@@ -1027,17 +1027,17 @@
       },
       {
         "label": "ベル研究所でトランジスタ発明",
-        "label_en": "Transistor invented at Bell Labs",
         "startYear": 1947,
         "genre": [
-          "COMPANY",
           "PRODUCT",
+          "COMPANY",
           "WORLD"
         ],
-        "imp": 4,
+        "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/%E3%83%88%E3%83%A9%E3%83%B3%E3%82%B8%E3%82%B9%E3%82%BF",
-        "url_en": "https://en.wikipedia.org/wiki/Transistor",
         "note": "バーディーン、ブラッテン、ショックレーが点接触型を実証。",
+        "label_en": "Transistor invented at Bell Labs",
+        "url_en": "https://en.wikipedia.org/wiki/Transistor",
         "note_en": "Bardeen, Brattain and Shockley demonstrated the point‑contact transistor."
       },
       {
