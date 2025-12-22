@@ -1547,17 +1547,17 @@
       },
       {
         "label": "ベル研究所 情報理論論文",
-        "label_en": "Shannon’s Information Theory paper",
         "startYear": 1948,
         "genre": [
           "CONTENT",
           "PRODUCT",
           "WORLD"
         ],
-        "imp": 4,
+        "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/%E9%80%9A%E4%BF%A1%E3%81%AE%E6%95%B0%E5%AD%A6%E7%9A%84%E7%90%86%E8%AB%96",
-        "url_en": "https://en.wikipedia.org/wiki/A_Mathematical_Theory_of_Communication",
         "note": "クロード・シャノンが通信の基礎理論を確立。",
+        "label_en": "Shannon’s Information Theory paper",
+        "url_en": "https://en.wikipedia.org/wiki/A_Mathematical_Theory_of_Communication",
         "note_en": "Claude Shannon established the mathematical foundations of communication."
       },
       {
