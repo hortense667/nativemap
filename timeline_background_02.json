@@ -1491,17 +1491,17 @@
       },
       {
         "label": "LPレコード（33⅓rpm）発売",
-        "label_en": "LP record (33⅓ rpm) launched",
         "startYear": 1948,
         "genre": [
-          "COMPANY",
           "PRODUCT",
+          "COMPANY",
           "WORLD"
         ],
-        "imp": 4,
+        "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/LP%E7%9B%A4",
-        "url_en": "https://en.wikipedia.org/wiki/LP_record",
         "note": "コロムビアがLPを発売し音楽再生の標準を刷新。",
+        "label_en": "LP record (33⅓ rpm) launched",
+        "url_en": "https://en.wikipedia.org/wiki/LP_record",
         "note_en": "Columbia introduced the LP, redefining recorded music playback."
       },
       {
@@ -1852,17 +1852,17 @@
       },
       {
         "label": "湯川秀樹 ノーベル物理学賞",
-        "label_en": "Hideki Yukawa wins Nobel Prize",
         "startYear": 1949,
         "genre": [
           "EVENT",
           "JAPAN",
           "WORLD"
         ],
-        "imp": 4,
+        "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/%E6%B9%AF%E5%B7%9D%E7%A7%80%E6%A8%B9",
-        "url_en": "https://en.wikipedia.org/wiki/Hideki_Yukawa",
         "note": "日本人初のノーベル賞受賞（中間子理論）。",
+        "label_en": "Hideki Yukawa wins Nobel Prize",
+        "url_en": "https://en.wikipedia.org/wiki/Hideki_Yukawa",
         "note_en": "First Japanese Nobel laureate for meson theory."
       },
       {
