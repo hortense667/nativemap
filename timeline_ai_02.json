@@ -4152,6 +4152,19 @@
         "url_en": "https://github.com/PaddlePaddle/Paddle",
         "note": "Baiduが開発するオープンソース深層学習フレームワーク。中国圏で産業適用が進む。",
         "note_en": "PaddlePaddle is Baidu’s open-source deep learning framework widely used in CHINA for industrial AI workloads and research."
+      },
+      {
+        "label": "DonkeyCar",
+        "startYear": 2016,
+        "genre": [
+          "HARDWARE",
+          "ROBOTICS"
+        ],
+        "imp": 3,
+        "url": "https://robotstart.info/article/2019/08/29/166201.html",
+        "note": "R/Cカー改造の自動運転学習用OSSプラットフォーム。",
+        "label_en": "DonkeyCar",
+        "url_en": "https://docs.donkeycar.com/"
       }
     ],
     "2017": [
