@@ -6205,30 +6205,40 @@
         "note_en": "DeepSeek-R1 is a reasoning-focused model whose RL-only training framework incentivizes emergent reasoning patterns like self-verification and adaptive strategies."
       },
       {
-      "label": "Grok 3",
-      "label_en": "Grok 3",
-      "startYear": 2025,
-      "genre": ["SOFTWARE", "P_NEURAL", "APPLICATION"],
-      "imp": 4,
-      "url_en": "https://x.ai/blog/grok-3",
-      "note": "xAIが2025年2月に公開。前世代の10倍の計算資源で訓練され、強力な推論（Thinkモード）とマルチモーダル機能を備える。",
-      "note_en": "xAI's flagship model released in Feb 2025, featuring advanced reasoning and 10x compute scaling over Grok-2."
+        "label": "Grok 3 (xAI)",
+        "label_en": "Grok 3",
+        "startYear": 2025,
+        "genre": [
+          "SOFTWARE",
+          "P_NEURAL",
+          "APPLICATION"
+        ],
+        "imp": 4,
+        "url_en": "https://x.ai/blog/grok-3",
+        "note": "2月にリリース。前世代の10倍の計算資源で訓練され、複雑な問題を解くための「Think（思考）」モードを搭載。"
       },
       {
-        "label": "Llama 4",
+        "label": "Llama 4 (Meta)",
         "label_en": "Llama 4",
         "startYear": 2025,
-        "genre": ["SOFTWARE", "THEORY", "P_GENERATIVE"],
+        "genre": [
+          "THEORY",
+          "SOFTWARE",
+          "P_GENERATIVE"
+        ],
         "imp": 5,
-         "url_en": "https://en.wikipedia.org/wiki/Llama_(language_model)",
-        "note": "Metaが4月に公開した最新オープンウェイトLLM。Scout、Maverick、Behemothの3構成で提供され、オープンソース界を牽引。",
-        "note_en": "Meta's latest open-weight LLM family released in April 2025, continuing its leadership in the open AI ecosystem."
+        "url_en": "https://en.wikipedia.org/wiki/Llama_(language_model)",
+        "note": "4月に公開。Scout、Maverick、Behemothの3モデル構成で、オープンウェイトLLMの基準を刷新。"
       },
       {
         "label": "Claude 4 / 4.5",
         "label_en": "Claude 4 / 4.5",
         "startYear": 2025,
-        "genre": ["APPLICATION", "P_GENERATIVE", "SOFTWARE"],
+        "genre": [
+          "APPLICATION",
+          "P_GENERATIVE",
+          "SOFTWARE"
+        ],
         "imp": 5,
         "url_en": "https://en.wikipedia.org/wiki/Claude_(language_model)",
         "note": "Anthropicが5月に4、11月に4.5を公開。推論深度が向上し、AIエージェント機能（Claude Code）が開発者に広く普及。",
@@ -6238,7 +6248,12 @@
         "label": "Gemini 3",
         "label_en": "Gemini 3",
         "startYear": 2025,
-        "genre": ["SOFTWARE", "THEORY", "P_NEURAL", "P_GENERATIVE"],
+        "genre": [
+          "SOFTWARE",
+          "THEORY",
+          "P_NEURAL",
+          "P_GENERATIVE"
+        ],
         "imp": 5,
         "url_en": "https://blog.google/technology/google-deepmind/",
         "note": "11月に発表。AIが単なる情報処理を超え、ユーザーに代わって複雑なタスクを実行する「エージェント機能」が中核となった。",
@@ -6248,7 +6263,10 @@
         "label": "Anthropic著作権訴訟和解",
         "label_en": "Anthropic Copyright Settlement",
         "startYear": 2025,
-        "genre": ["EVENT", "BACKGROUND"],
+        "genre": [
+          "EVENT",
+          "BACKGROUND"
+        ],
         "imp": 4,
         "note": "9月、学習データ利用を巡る作家らとの訴訟で15億ドル規模の和解が成立。AI開発と権利者の新たな契約モデルの先例となった。",
         "note_en": "A historic $1.5B settlement between Anthropic and creators, establishing a new legal framework for training data usage."
@@ -6257,7 +6275,11 @@
         "label": "Quark AI Glasses",
         "label_en": "Quark AI Glasses",
         "startYear": 2025,
-        "genre": ["HARDWARE", "CHINA", "APPLICATION"],
+        "genre": [
+          "HARDWARE",
+          "CHINA",
+          "APPLICATION"
+        ],
         "imp": 4,
         "note": "アリババが発売した初のAIスマートグラス。自社LLM「Qwen」を搭載し、日常的な音声操作や視覚支援を統合。",
         "note_en": "Alibaba's first AI smart glasses featuring 'Qwen' LLM for seamless daily interaction."
@@ -6266,43 +6288,37 @@
         "label": "Turing：完全自動運転「Tokyo30」",
         "label_en": "Turing Tokyo30",
         "startYear": 2025,
-        "genre": ["ROBOTICS", "JAPAN", "APPLICATION"],
+        "genre": [
+          "ROBOTICS",
+          "JAPAN",
+          "APPLICATION"
+        ],
         "imp": 4,
         "note": "日本発のチューリング社が、都内30分間の完全自動運転に成功。国内独自の計算基盤による成果として注目。",
         "note_en": "Japan's Turing achieved a 30-minute fully autonomous driving demo in Tokyo using domestic compute."
       },
       {
-        "label": "Grok 3 (xAI)",
-        "label_en": "Grok 3",
-        "startYear": 2025,
-        "genre": ["SOFTWARE", "P_NEURAL", "APPLICATION"],
-        "imp": 4,
-        "url_en": "https://x.ai/blog/grok-3",
-        "note": "2月にリリース。前世代の10倍の計算資源で訓練され、複雑な問題を解くための「Think（思考）」モードを搭載。"
-      },
-      {
         "label": "OpenAI o3 / o4-mini",
         "label_en": "OpenAI o3 / o4-mini",
         "startYear": 2025,
-        "genre": ["SOFTWARE", "THEORY", "P_NEURAL"],
+        "genre": [
+          "SOFTWARE",
+          "THEORY",
+          "P_NEURAL"
+        ],
         "imp": 5,
         "url_en": "https://openai.com/news/",
         "note": "4月にリリース。深い論理思考とツール統合を特徴とする推論モデル群。"
       },
       {
-        "label": "Llama 4 (Meta)",
-        "label_en": "Llama 4",
-        "startYear": 2025,
-        "genre": ["THEORY", "SOFTWARE", "P_GENERATIVE"],
-        "imp": 5,
-        "url_en": "https://en.wikipedia.org/wiki/Llama_(language_model)",
-        "note": "4月に公開。Scout、Maverick、Behemothの3モデル構成で、オープンウェイトLLMの基準を刷新。"
-      },
-      {
         "label": "Claude 4 シリーズ / Claude Code",
         "label_en": "Claude 4 / Claude Code",
         "startYear": 2025,
-        "genre": ["APPLICATION", "SOFTWARE", "P_GENERATIVE"],
+        "genre": [
+          "APPLICATION",
+          "SOFTWARE",
+          "P_GENERATIVE"
+        ],
         "imp": 5,
         "url_en": "https://www.anthropic.com/news/claude-4",
         "note": "5月に公開。長時間タスクの安定性が向上し、AIエージェント「Claude Code」も同時提供。"
@@ -6311,7 +6327,11 @@
         "label": "Nano Banana (Gemini 2.5 Flash Image)",
         "label_en": "Nano Banana",
         "startYear": 2025,
-        "genre": ["APPLICATION", "SOFTWARE", "P_GENERATIVE"],
+        "genre": [
+          "APPLICATION",
+          "SOFTWARE",
+          "P_GENERATIVE"
+        ],
         "imp": 5,
         "url_en": "https://blog.google/technology/ai/nano-banana/",
         "note": "8月にGoogleがリリース。たった1枚の参照画像から被写体の一貫性を保ち、LoRAなしでポーズや服装を自在に変えられる画像生成・編集モデル。"
@@ -6320,11 +6340,16 @@
         "label": "Nano Banana Pro (Gemini 3 Pro Image)",
         "label_en": "Nano Banana Pro",
         "startYear": 2025,
-        "genre": ["APPLICATION", "SOFTWARE", "P_GENERATIVE", "P_NEURAL"],
+        "genre": [
+          "APPLICATION",
+          "SOFTWARE",
+          "P_GENERATIVE",
+          "P_NEURAL"
+        ],
         "imp": 5,
         "url_en": "https://blog.google/company-news/technology/nano-banana-pro/",
         "note": "11月発表。Google検索とリアルタイム連携し、事実に基づいた図解や4K高精細画像を生成可能なプロ仕様モデル。"
-      }     
+      }
     ]
   },
   "eraSettings": [],
