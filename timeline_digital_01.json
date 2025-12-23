@@ -68,8 +68,7 @@
         "label": "ENIAC",
         "startYear": 1946,
         "genre": [
-          "HAR-PC",
-          "WORK"
+          "HAR-PC"
         ],
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/ENIAC",
