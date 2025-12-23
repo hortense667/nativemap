@@ -1412,7 +1412,6 @@
     "1973": [
       {
         "label": "AIの冬（第一次）",
-        "label_en": "AI winter (1st)",
         "startYear": 1973,
         "genre": [
           "EVENT",
@@ -1420,8 +1419,9 @@
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/AI%E3%81%AE%E5%86%AC",
+        "note": "期待過剰と成果不足で縮小期に。\n#ks",
+        "label_en": "AI winter (1st)",
         "url_en": "https://en.wikipedia.org/wiki/AI_winter",
-        "note": "期待過剰と成果不足で縮小期に。",
         "note_en": "Funding/interest downturn due to unmet expectations."
       },
       {
@@ -2198,7 +2198,6 @@
       },
       {
         "label": "AIの冬（第二次）",
-        "label_en": "AI winter (2nd)",
         "startYear": 1987,
         "endYear": 1993,
         "genre": [
@@ -2207,8 +2206,9 @@
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/AI%E3%81%AE%E5%86%AC",
+        "note": "エキスパートシステム後の停滞期。\n#ks",
+        "label_en": "AI winter (2nd)",
         "url_en": "https://en.wikipedia.org/wiki/AI_winter",
-        "note": "エキスパートシステム後の停滞期。",
         "note_en": "Post-expert-systems stagnation period."
       }
     ],
@@ -4162,7 +4162,7 @@
         ],
         "imp": 3,
         "url": "https://robotstart.info/article/2019/08/29/166201.html",
-        "note": "R/Cカー改造の自動運転学習用OSSプラットフォーム。",
+        "note": "R/Cカー改造の自動運転学習用OSSプラットフォーム。#ks",
         "label_en": "DonkeyCar",
         "url_en": "https://docs.donkeycar.com/"
       }
