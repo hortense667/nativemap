@@ -31,17 +31,6 @@
     "notes": "Updates from contributors are welcome. Please do not create separate versions. When reusing data, credit the original authors."
   },
   "events": {
-    "1868": [
-      {
-        "label": "AIの歴史",
-        "startYear": 1868,
-        "genre": [
-          "BACKGROUND"
-        ],
-        "imp": 5,
-        "url": "https://github.com/hortense667/nativemap/tree/main/aidata/2.png"
-      }
-    ],
     "1875": [
       {
         "label": "Pinwheel calculator",
