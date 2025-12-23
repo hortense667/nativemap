@@ -5917,7 +5917,6 @@
       },
       {
         "label": "Sora（テキスト→動画）",
-        "label_en": "Sora (text-to-video)",
         "startYear": 2024,
         "genre": [
           "APPLICATION",
@@ -5925,8 +5924,9 @@
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/Sora_(%E4%BA%BA%E5%B7%A5%E7%9F%A5%E8%83%BD%E3%83%A2%E3%83%87%E3%83%AB)",
+        "note": "テキストから動画生成を実現。#ks",
+        "label_en": "Sora (text-to-video)",
         "url_en": "https://en.wikipedia.org/wiki/Sora_(text-to-video_model)",
-        "note": "テキストから動画生成を実現。",
         "note_en": "Text-to-video generation model."
       },
       {
@@ -6159,17 +6159,17 @@
       },
       {
         "label": "Sora 2（OpenAIの動画生成）",
-        "label_en": "Sora 2",
         "startYear": 2025,
         "genre": [
+          "SOFTWARE",
           "APPLICATION",
-          "P_GENERATIVE",
-          "SOFTWARE"
+          "P_GENERATIVE"
         ],
         "imp": 4,
         "url": "https://openai.com/ja-JP/index/sora-2/",
+        "note": "テキストから短編動画を生成するSoraの第2世代。物理一貫性や制御性を強化し、アプリ提供も開始。#ks",
+        "label_en": "Sora 2",
         "url_en": "https://en.wikipedia.org/wiki/Sora_(text-to-video_model)",
-        "note": "テキストから短編動画を生成するSoraの第2世代。物理一貫性や制御性を強化し、アプリ提供も開始。",
         "note_en": "Second-gen text-to-video model with improved physics/controllability"
       },
       {
