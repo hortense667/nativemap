@@ -158,7 +158,7 @@
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/%E3%82%A8%E3%83%AB%E3%83%BB%E3%82%A2%E3%83%98%E3%83%89%E3%83%AC%E3%82%B7%E3%82%B9%E3%82%BF",
-        "note": "電気機械式のチェスマシンで最初のコンピューターゲームとする意見もある。",
+        "note": "電気機械式のチェスマシンで最初のコンピューターゲームとする意見もある。#ks",
         "label_en": "El Ajedrecista",
         "url_en": "https://en.wikipedia.org/wiki/El_Ajedrecista",
         "note_en": "There is an opinion that the electromechanical chess machine could be considered the first computer game."
@@ -188,7 +188,7 @@
         ],
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/R.U.R.",
-        "note": "カレル・チャペックの戯曲。「ロボット」という言葉が登場。命名したのは兄のヨゼフ・チャペックらしい。",
+        "note": "カレル・チャペックの戯曲。「ロボット」という言葉が登場。命名したのは兄のヨゼフ・チャペックらしい。#ks",
         "label_en": "R.U.R.",
         "url_en": "https://en.wikipedia.org/wiki/R.U.R.",
         "note_en": "Karel Čapek's play. The word \"robot\" appears.It seems that it was named by his brother, Josef Čapek."
@@ -297,15 +297,15 @@
     "1943": [
       {
         "label": "マッカロック＝ピッツ・ニューロン",
-        "label_en": "McCulloch?Pitts neuron",
         "startYear": 1943,
         "genre": [
           "THEORY"
         ],
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/%E4%BA%BA%E5%B7%A5%E7%A5%9E%E7%B5%8C",
-        "url_en": "https://en.wikipedia.org/wiki/Artificial_neuron",
-        "note": "形式ニューロンで論理計算を示し神経計算の礎を築いた。"
+        "note": "形式ニューロンで論理計算を示し神経計算の礎を築いた。#ks",
+        "label_en": "McCulloch?Pitts neuron",
+        "url_en": "https://en.wikipedia.org/wiki/Artificial_neuron"
       },
       {
         "label": "McCulloch-Pitts Neuron",
@@ -352,15 +352,15 @@
     "1948": [
       {
         "label": "サイバネティックス",
-        "label_en": "Cybernetics",
         "startYear": 1948,
         "genre": [
           "THEORY"
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/サイバネティックス",
-        "url_en": "https://en.wikipedia.org/wiki/Cybernetics",
-        "note": "制御・通信の一般理論。フィードバック概念でAIとロボに影響。"
+        "note": "制御・通信の一般理論。フィードバック概念でAIとロボに影響。#ks",
+        "label_en": "Cybernetics",
+        "url_en": "https://en.wikipedia.org/wiki/Cybernetics"
       },
       {
         "label": "情報理論",
@@ -427,20 +427,32 @@
         "url_en": "https://en.wikipedia.org/wiki/Nineteen_Eighty-Four",
         "note": "ジョージ・オーウェルの小説。監視社会を描き、テクノロジーによる統制への警鐘として引用されることが多い。",
         "note_en": "A novel by George Orwell depicting a surveillance society, often cited as a warning against control by technology."
+      },
+      {
+        "label": "ヘッブの法則",
+        "startYear": 1949,
+        "genre": [
+          "THEORY"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/%E3%83%98%E3%83%83%E3%83%96%E3%81%AE%E6%B3%95%E5%89%87",
+        "note": "脳のシナプス可塑性についての法則で。#ks",
+        "label_en": "Hebbian theory",
+        "url_en": "https://en.wikipedia.org/wiki/Hebbian_theory"
       }
     ],
     "1950": [
       {
         "label": "チューリング・テスト",
-        "label_en": "Turing test",
         "startYear": 1950,
         "genre": [
           "THEORY"
         ],
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/チューリング・テスト",
-        "url_en": "https://en.wikipedia.org/wiki/Turing_test",
-        "note": "機械の知能を人と区別できるかを問う思考実験。AI評価基準として広く知られる概念。"
+        "note": "機械の知能を人と区別できるかを問う思考実験。AI評価基準として広く知られる概念。#ks",
+        "label_en": "Turing test",
+        "url_en": "https://en.wikipedia.org/wiki/Turing_test"
       },
       {
         "label": "われはロボット",
@@ -484,28 +496,28 @@
     "1952": [
       {
         "label": "チューリングパターン（反応拡散）",
-        "label_en": "Turing patterns (reaction?diffusion)",
         "startYear": 1952,
         "genre": [
-          "P_GENERATIVE",
-          "THEORY"
+          "THEORY",
+          "P_GENERATIVE"
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/反応拡散系",
-        "url_en": "https://en.wikipedia.org/wiki/Turing_pattern",
-        "note": "形態形成の数理。自己組織化・パターン生成の理論的根拠。"
+        "note": "形態形成の数理。自己組織化・パターン生成の理論的根拠。#ks",
+        "label_en": "Turing patterns (reaction?diffusion)",
+        "url_en": "https://en.wikipedia.org/wiki/Turing_pattern"
       },
       {
         "label": "鉄腕アトム",
-        "label_en": "Astro Boy",
         "startYear": 1952,
         "genre": [
           "CONTENT"
         ],
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/鉄腕アトム",
-        "url_en": "https://en.wikipedia.org/wiki/Astro_Boy",
-        "note": "高性能な心を持つロボット少年の活躍を描く名作。"
+        "note": "高性能な心を持つロボット少年の活躍を描く名作。#ks",
+        "label_en": "Astro Boy",
+        "url_en": "https://en.wikipedia.org/wiki/Astro_Boy"
       }
     ],
     "1954": [
@@ -538,7 +550,6 @@
     "1955": [
       {
         "label": "生成文法（チョムスキー）",
-        "label_en": "Generative grammar",
         "startYear": 1955,
         "genre": [
           "THEORY",
@@ -546,8 +557,9 @@
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/生成文法",
+        "note": "自然言語の形式的記述の基礎を築いた理論。AI言語処理にも影響。#ks",
+        "label_en": "Generative grammar",
         "url_en": "https://en.wikipedia.org/wiki/Generative_grammar",
-        "note": "自然言語の形式的記述の基礎を築いた理論。AI言語処理にも影響。",
         "note_en": "A foundational theory of formal language description influencing NLP."
       },
       {
@@ -567,16 +579,16 @@
     "1956": [
       {
         "label": "ダートマス会議",
-        "label_en": "Dartmouth workshop",
         "startYear": 1956,
         "genre": [
-          "EVENT",
-          "THEORY"
+          "THEORY",
+          "EVENT"
         ],
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/%E3%83%80%E3%83%BC%E3%83%88%E3%83%9E%E3%82%B9%E4%BC%9A%E8%AD%B0",
-        "url_en": "https://en.wikipedia.org/wiki/Dartmouth_workshop",
-        "note": "「人工知能」という研究分野名が提案された創始的会議。以後のAI研究の起点とされる。"
+        "note": "「人工知能」という研究分野名が提案された創始的会議。以後のAI研究の起点とされる。#ks",
+        "label_en": "Dartmouth workshop",
+        "url_en": "https://en.wikipedia.org/wiki/Dartmouth_workshop"
       },
       {
         "label": "ロジック・セオリスト",
@@ -658,22 +670,21 @@
       },
       {
         "label": "パーセプトロン",
-        "label_en": "Perceptron",
         "startYear": 1957,
         "genre": [
-          "P_NEURAL",
-          "THEORY"
+          "THEORY",
+          "P_NEURAL"
         ],
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/パーセプトロン",
-        "url_en": "https://en.wikipedia.org/wiki/Perceptron",
-        "note": "単純な神経回路網モデル。初期の機械学習研究を牽引し、後のニューラルネット基盤となった。"
+        "note": "単純な神経回路網モデル。初期の機械学習研究を牽引し、後のニューラルネット基盤となった。#ks",
+        "label_en": "Perceptron",
+        "url_en": "https://en.wikipedia.org/wiki/Perceptron"
       }
     ],
     "1958": [
       {
         "label": "Lisp",
-        "label_en": "Lisp",
         "startYear": 1958,
         "genre": [
           "SOFTWARE",
@@ -681,8 +692,9 @@
         ],
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/LISP",
+        "note": "シンボリックAIの主要言語として普及。#ks",
+        "label_en": "Lisp",
         "url_en": "https://en.wikipedia.org/wiki/Lisp_(programming_language)",
-        "note": "シンボリックAIの主要言語として普及。",
         "note_en": "The primary language of early symbolic AI."
       },
       {
@@ -771,14 +783,14 @@
     "1961": [
       {
         "label": "MENACE（マッチ箱コンピューター）",
-        "label_en": "MENACE (matchbox computer)",
         "startYear": 1961,
         "genre": [
           "THEORY"
         ],
         "imp": 4,
-        "url_en": "https://en.wikipedia.org/wiki/MENACE",
-        "note": "マッチ箱とビーズで学習を示した三目並べ装置。"
+        "note": "マッチ箱とビーズで学習を示した三目並べ装置。#ks",
+        "label_en": "MENACE (matchbox computer)",
+        "url_en": "https://en.wikipedia.org/wiki/MENACE"
       },
       {
         "label": "Unimate",
@@ -905,15 +917,15 @@
     "1964": [
       {
         "label": "ELIZA",
-        "label_en": "ELIZA",
         "startYear": 1964,
         "genre": [
           "THEORY"
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/ELIZA",
-        "url_en": "https://en.wikipedia.org/wiki/ELIZA",
-        "note": "初期の対話型プログラム。パターン照合で人間らしい応答を模倣した。"
+        "note": "初期の対話型プログラム。パターン照合で人間らしい応答を模倣した。#ks",
+        "label_en": "ELIZA",
+        "url_en": "https://en.wikipedia.org/wiki/ELIZA"
       },
       {
         "label": "セル・オートマトン（理論の普及）",
@@ -1067,15 +1079,15 @@
     "1968": [
       {
         "label": "2001年宇宙の旅",
-        "label_en": "2001: A Space Odyssey",
         "startYear": 1968,
         "genre": [
           "CONTENT"
         ],
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/2001年宇宙の旅",
-        "url_en": "https://en.wikipedia.org/wiki/2001:_A_Space_Odyssey",
-        "note": "知的コンピュータHALが登場"
+        "note": "知的コンピュータHALが登場。#ks",
+        "label_en": "2001: A Space Odyssey",
+        "url_en": "https://en.wikipedia.org/wiki/2001:_A_Space_Odyssey"
       },
       {
         "label": "DENDRAL",
@@ -1094,15 +1106,15 @@
       },
       {
         "label": "アンドロイドは電気羊の夢を見るか?",
-        "label_en": "Do Androids Dream of Electric Sheep?",
         "startYear": 1968,
         "genre": [
           "CONTENT"
         ],
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/アンドロイドは電気羊の夢を見るか?",
-        "url_en": "https://en.wikipedia.org/wiki/Do_Androids_Dream_of_Electric_Sheep%3F",
-        "note": "逃亡アンドロイドと人間性を問うディックの代表作。"
+        "note": "逃亡アンドロイドと人間性を問うディックの代表作。#ks",
+        "label_en": "Do Androids Dream of Electric Sheep?",
+        "url_en": "https://en.wikipedia.org/wiki/Do_Androids_Dream_of_Electric_Sheep%3F"
       },
       {
         "label": "Dynabook",
@@ -1251,17 +1263,17 @@
     "1970": [
       {
         "label": "MYCIN",
-        "label_en": "MYCIN",
         "startYear": 1970,
         "genre": [
+          "SOFTWARE",
           "APPLICATION",
-          "P_SYMBOLIC",
-          "SOFTWARE"
+          "P_SYMBOLIC"
         ],
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/Mycin",
+        "note": "感染症診断の代表的エキスパートシステム。#ks",
+        "label_en": "MYCIN",
         "url_en": "https://en.wikipedia.org/wiki/Mycin",
-        "note": "感染症診断の代表的エキスパートシステム。",
         "note_en": "Seminal expert system for infectious disease diagnosis."
       },
       {
@@ -1279,15 +1291,15 @@
       },
       {
         "label": "ライフゲーム",
-        "label_en": "Conway’s Game of Life",
         "startYear": 1970,
         "genre": [
           "THEORY"
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/ライフゲーム",
-        "url_en": "https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life",
-        "note": "セル・オートマトンの代表例。単純規則から多様な挙動。"
+        "note": "セル・オートマトンの代表例。単純規則から多様な挙動。#ks",
+        "label_en": "Conway’s Game of Life",
+        "url_en": "https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life"
       },
       {
         "label": "地球爆破作戦",
@@ -1347,27 +1359,27 @@
     "1972": [
       {
         "label": "Prolog",
-        "label_en": "Prolog",
         "startYear": 1972,
         "genre": [
-          "P_SYMBOLIC",
-          "SOFTWARE"
+          "SOFTWARE",
+          "P_SYMBOLIC"
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/Prolog",
-        "url_en": "https://en.wikipedia.org/wiki/Prolog",
-        "note": "論理プログラミング言語。知識表現や推論でAIに広く用いられた。"
+        "note": "論理プログラミング言語。知識表現や推論でAIに広く用いられた。#ks",
+        "label_en": "Prolog",
+        "url_en": "https://en.wikipedia.org/wiki/Prolog"
       },
       {
         "label": "ノイマン『計算機と脳』",
-        "label_en": "The Computer and the Brain",
         "startYear": 1972,
         "genre": [
           "THEORY"
         ],
         "imp": 3,
-        "url_en": "https://en.wikipedia.org/wiki/The_Computer_and_the_Brain",
-        "note": "脳と計算機の比較を通じて計算原理を論じた著作。"
+        "note": "脳と計算機の比較を通じて計算原理を論じた著作。#ks",
+        "label_en": "The Computer and the Brain",
+        "url_en": "https://en.wikipedia.org/wiki/The_Computer_and_the_Brain"
       },
       {
         "label": "Pong",
@@ -1523,16 +1535,16 @@
     "1976": [
       {
         "label": "甘利俊一：情報幾何学の基礎",
-        "label_en": "Shun’ichi Amari ? Information geometry",
         "startYear": 1976,
         "genre": [
-          "JAPAN",
-          "THEORY"
+          "THEORY",
+          "JAPAN"
         ],
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/甘利俊一",
-        "url_en": "https://en.wikipedia.org/wiki/Shun%27ichi_Amari",
-        "note": "統計多様体で学習を幾何学化し神経計算に影響。"
+        "note": "統計多様体で学習を幾何学化し神経計算に影響。#ks",
+        "label_en": "Shun’ichi Amari ? Information geometry",
+        "url_en": "https://en.wikipedia.org/wiki/Shun%27ichi_Amari"
       },
       {
         "label": "The Selfish Gene (Meme)",
@@ -1699,32 +1711,32 @@
     "1980": [
       {
         "label": "エキスパートシステム・ブーム",
-        "label_en": "Expert systems boom",
         "startYear": 1980,
         "genre": [
+          "APPLICATION",
           "EVENT",
-          "BACKGROUND",
-          "APPLICATION"
+          "BACKGROUND"
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/%E3%82%A8%E3%82%AD%E3%82%B9%E3%83%91%E3%83%BC%E3%83%88%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0",
+        "note": "商用知識ベースが普及し第1次産業化へ。#ks",
+        "label_en": "Expert systems boom",
         "url_en": "https://en.wikipedia.org/wiki/Expert_system",
-        "note": "商用知識ベースが普及し第1次産業化へ。",
         "note_en": "Commercial knowledge-based systems became widespread."
       },
       {
         "label": "ネオコグニトロン",
-        "label_en": "Neocognitron",
         "startYear": 1980,
         "genre": [
-          "JAPAN",
+          "THEORY",
           "P_NEURAL",
-          "THEORY"
+          "JAPAN"
         ],
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/ネオコグニトロン",
-        "url_en": "https://en.wikipedia.org/wiki/Neocognitron",
-        "note": "福島邦彦による階層型ネット。CNNの原型とされるモデル。"
+        "note": "福島邦彦による階層型ネット。CNNの原型とされるモデル。#ks",
+        "label_en": "Neocognitron",
+        "url_en": "https://en.wikipedia.org/wiki/Neocognitron"
       },
       {
         "label": "Pac-Man",
@@ -1768,18 +1780,18 @@
     "1981": [
       {
         "label": "ICOT（新世代計算機機構）",
-        "label_en": "ICOT",
         "startYear": 1981,
         "endYear": 1992,
         "genre": [
+          "ORG",
           "EVENT",
-          "JAPAN",
-          "ORG"
+          "JAPAN"
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/新世代コンピュータ技術開発機構",
-        "url_en": "https://en.wikipedia.org/wiki/ICOT",
-        "note": "第五世代計算機プロジェクト推進のための日本の研究機関。"
+        "note": "第五世代計算機プロジェクト推進のための日本の研究機関。#ks",
+        "label_en": "ICOT",
+        "url_en": "https://en.wikipedia.org/wiki/ICOT"
       },
       {
         "label": "IBM PC (5150)",
@@ -1826,16 +1838,16 @@
       },
       {
         "label": "ホップフィールド・ネット",
-        "label_en": "Hopfield network",
         "startYear": 1982,
         "genre": [
-          "P_NEURAL",
-          "THEORY"
+          "THEORY",
+          "P_NEURAL"
         ],
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/ホップフィールドネットワーク",
-        "url_en": "https://en.wikipedia.org/wiki/Hopfield_network",
-        "note": "エネルギーモデルで連想記憶を実現。"
+        "note": "エネルギーモデルで連想記憶を実現。#ks",
+        "label_en": "Hopfield network",
+        "url_en": "https://en.wikipedia.org/wiki/Hopfield_network"
       },
       {
         "label": "自己組織化マップ（SOM）",
@@ -1883,16 +1895,16 @@
     "1984": [
       {
         "label": "Cycプロジェクト",
-        "label_en": "Cyc",
         "startYear": 1984,
         "genre": [
-          "P_SYMBOLIC",
-          "THEORY"
+          "THEORY",
+          "P_SYMBOLIC"
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/Cyc%E3%83%97%E3%83%AD%E3%82%B8%E3%82%A7%E3%82%AF%E3%83%88",
-        "url_en": "https://en.wikipedia.org/wiki/Cyc",
-        "note": "常識知識の大規模構築を目指す知識ベースAIプロジェクト。"
+        "note": "常識知識の大規模構築を目指す知識ベースAIプロジェクト。#ks",
+        "label_en": "Cyc",
+        "url_en": "https://en.wikipedia.org/wiki/Cyc"
       },
       {
         "label": "Racter",
@@ -2016,7 +2028,6 @@
     "1986": [
       {
         "label": "Turbo Prolog（PC向けAI言語）",
-        "label_en": "Turbo Prolog (PC AI language)",
         "startYear": 1986,
         "genre": [
           "SOFTWARE",
@@ -2024,8 +2035,9 @@
         ],
         "imp": 4,
         "url": "https://en.wikipedia.org/wiki/Visual_Prolog",
+        "note": "BorlandのPC向けProlog。#ks",
+        "label_en": "Turbo Prolog (PC AI language)",
         "url_en": "https://en.wikipedia.org/wiki/Visual_Prolog",
-        "note": "BorlandのPC向けProlog。",
         "note_en": "Borland’s Prolog for PCs."
       },
       {
@@ -2042,16 +2054,16 @@
       },
       {
         "label": "バックプロパゲーション再発見",
-        "label_en": "Backpropagation (revival)",
         "startYear": 1986,
         "genre": [
-          "P_NEURAL",
-          "THEORY"
+          "THEORY",
+          "P_NEURAL"
         ],
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/誤差逆伝播法",
-        "url_en": "https://en.wikipedia.org/wiki/Backpropagation",
-        "note": "多層ネット学習を実用化しDLの基盤に。"
+        "note": "多層ネット学習を実用化しDLの基盤に。#ks",
+        "label_en": "Backpropagation (revival)",
+        "url_en": "https://en.wikipedia.org/wiki/Backpropagation"
       },
       {
         "label": "Understanding Computers and Cognition",
@@ -2398,16 +2410,16 @@
       },
       {
         "label": "遺伝的アルゴリズムの普及",
-        "label_en": "Genetic algorithms (rise)",
         "startYear": 1990,
         "genre": [
-          "P_EVOL",
-          "THEORY"
+          "THEORY",
+          "P_EVOL"
         ],
         "imp": 3,
         "url": "https://ja.wikipedia.org/wiki/%E9%81%BA%E4%BC%9D%E7%9A%84%E3%82%A2%E3%83%AB%E3%82%B4%E3%83%AA%E3%82%BA%E3%83%A0",
+        "note": "進化計算が広範に適用。#ks",
+        "label_en": "Genetic algorithms (rise)",
         "url_en": "https://en.wikipedia.org/wiki/Genetic_algorithm",
-        "note": "進化計算が広範に適用。",
         "note_en": "Evolutionary computing applied widely."
       },
       {
@@ -2579,15 +2591,15 @@
       },
       {
         "label": "行動ベースロボット/サブサンプション",
-        "label_en": "Subsumption architecture",
         "startYear": 1995,
         "genre": [
           "THEORY"
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/サブサンプション・アーキテクチャ",
-        "url_en": "https://en.wikipedia.org/wiki/Subsumption_architecture",
-        "note": "階層抑制で自律行動を実現する設計。"
+        "note": "階層抑制で自律行動を実現する設計。#ks",
+        "label_en": "Subsumption architecture",
+        "url_en": "https://en.wikipedia.org/wiki/Subsumption_architecture"
       },
       {
         "label": "新世紀エヴァンゲリオン",
@@ -2733,32 +2745,32 @@
       },
       {
         "label": "自然勾配法（甘利）",
-        "label_en": "Natural gradient (Amari)",
         "startYear": 1998,
         "genre": [
-          "JAPAN",
-          "THEORY"
+          "THEORY",
+          "JAPAN"
         ],
         "imp": 5,
         "url": "https://www.jstage.jst.go.jp/article/sicejl1962/40/10/40_10_735/_article/-char/ja/",
-        "note": "情報幾何に基づく勾配で学習を効率化。"
+        "note": "情報幾何に基づく勾配で学習を効率化。#ks",
+        "label_en": "Natural gradient (Amari)"
       }
     ],
     "1999": [
       {
         "label": "AIBO",
-        "label_en": "AIBO",
         "startYear": 1999,
         "genre": [
-          "APPLICATION",
           "HARDWARE",
-          "JAPAN",
-          "ROBOTICS"
+          "ROBOTICS",
+          "APPLICATION",
+          "JAPAN"
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/AIBO",
-        "url_en": "https://en.wikipedia.org/wiki/AIBO",
-        "note": "ソニーの自律型犬型ロボット。家庭用ロボットの先駆け。"
+        "note": "ソニーの自律型犬型ロボット。家庭用ロボットの先駆け。#ks",
+        "label_en": "AIBO",
+        "url_en": "https://en.wikipedia.org/wiki/AIBO"
       },
       {
         "label": "シーマン",
@@ -2806,18 +2818,18 @@
     "2000": [
       {
         "label": "ASIMO",
-        "label_en": "ASIMO",
         "startYear": 2000,
         "genre": [
-          "APPLICATION",
           "HARDWARE",
-          "JAPAN",
-          "ROBOTICS"
+          "ROBOTICS",
+          "APPLICATION",
+          "JAPAN"
         ],
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/ASIMO",
-        "url_en": "https://en.wikipedia.org/wiki/ASIMO",
-        "note": "本田技研の人型ロボット。歩行や操作で高い技術を示した。"
+        "note": "本田技研の人型ロボット。歩行や操作で高い技術を示した。#ks",
+        "label_en": "ASIMO",
+        "url_en": "https://en.wikipedia.org/wiki/ASIMO"
       },
       {
         "label": "OpenCV",
@@ -3001,18 +3013,18 @@
       },
       {
         "label": "DARPAグランドチャレンジ",
-        "label_en": "DARPA Grand Challenge",
         "startYear": 2004,
         "endYear": 2007,
         "genre": [
-          "EVENT",
           "HARDWARE",
+          "EVENT",
           "P_RL"
         ],
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/DARPAグランド・チャレンジ",
-        "url_en": "https://en.wikipedia.org/wiki/DARPA_Grand_Challenge",
-        "note": "自動運転技術の実証競技。後の自動運転研究を飛躍させた。"
+        "note": "自動運転技術の実証競技。後の自動運転研究を飛躍させた。#ks",
+        "label_en": "DARPA Grand Challenge",
+        "url_en": "https://en.wikipedia.org/wiki/DARPA_Grand_Challenge"
       }
     ],
     "2005": [
@@ -3356,16 +3368,16 @@
       },
       {
         "label": "Siri",
-        "label_en": "Siri",
         "startYear": 2011,
         "genre": [
-          "APPLICATION",
-          "SOFTWARE"
+          "SOFTWARE",
+          "APPLICATION"
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/Siri",
-        "url_en": "https://en.wikipedia.org/wiki/Siri",
-        "note": "音声アシスタントを一般化し、音声認識と対話の普及に寄与。"
+        "note": "音声アシスタントを一般化し、音声認識と対話の普及に寄与。#ks",
+        "label_en": "Siri",
+        "url_en": "https://en.wikipedia.org/wiki/Siri"
       },
       {
         "label": "リアル・スティール",
@@ -3400,17 +3412,17 @@
     "2012": [
       {
         "label": "AlexNet",
-        "label_en": "AlexNet",
         "startYear": 2012,
         "genre": [
           "THEORY",
-          "P_NEURAL",
-          "DATA"
+          "DATA",
+          "P_NEURAL"
         ],
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/AlexNet",
+        "note": "GPU×深層CNNで画像認識を飛躍。#ks",
+        "label_en": "AlexNet",
         "url_en": "https://en.wikipedia.org/wiki/AlexNet",
-        "note": "GPU×深層CNNで画像認識を飛躍。",
         "note_en": "Deep CNN on GPUs revolutionized vision."
       },
       {
@@ -3562,16 +3574,16 @@
       },
       {
         "label": "Amazon Echo",
-        "label_en": "Amazon Echo",
         "startYear": 2014,
         "genre": [
-          "APPLICATION",
-          "HARDWARE"
+          "HARDWARE",
+          "APPLICATION"
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/Amazon_Echo",
-        "url_en": "https://en.wikipedia.org/wiki/Amazon_Echo",
-        "note": "Alexa音声アシスタント搭載のスマートスピーカー。"
+        "note": "Alexa音声アシスタント搭載のスマートスピーカー。#ks",
+        "label_en": "Amazon Echo",
+        "url_en": "https://en.wikipedia.org/wiki/Amazon_Echo"
       },
       {
         "label": "Chainer",
@@ -3787,15 +3799,15 @@
       },
       {
         "label": "TensorFlow",
-        "label_en": "TensorFlow",
         "startYear": 2015,
         "genre": [
           "SOFTWARE"
         ],
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/TensorFlow",
-        "url_en": "https://en.wikipedia.org/wiki/TensorFlow",
-        "note": "Google発の機械学習フレームワーク。研究と実務で広く採用。"
+        "note": "Google発の機械学習フレームワーク。研究と実務で広く採用。#ks",
+        "label_en": "TensorFlow",
+        "url_en": "https://en.wikipedia.org/wiki/TensorFlow"
       },
       {
         "label": "チャッピー",
@@ -3897,33 +3909,33 @@
       },
       {
         "label": "AlphaGo Zero/AlphaZero",
-        "label_en": "AlphaGo Zero/AlphaZero",
         "startYear": 2016,
         "genre": [
+          "THEORY",
           "P_NEURAL",
-          "P_RL",
-          "THEORY"
+          "P_RL"
         ],
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/AlphaZero",
+        "note": "自己対戦のみで超人性能。#ks",
+        "label_en": "AlphaGo Zero/AlphaZero",
         "url_en": "https://en.wikipedia.org/wiki/AlphaZero",
-        "note": "自己対戦のみで超人性能。",
         "note_en": "Superhuman play via self-play only."
       },
       {
         "label": "AlphaGo",
-        "label_en": "AlphaGo",
         "startYear": 2016,
         "genre": [
-          "APPLICATION",
           "THEORY",
-          "P_RL",
-          "P_NEURAL"
+          "APPLICATION",
+          "P_NEURAL",
+          "P_RL"
         ],
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/AlphaGo",
+        "note": "囲碁トップ棋士に勝利し大転換点。#ks",
+        "label_en": "AlphaGo",
         "url_en": "https://en.wikipedia.org/wiki/AlphaGo",
-        "note": "囲碁トップ棋士に勝利し大転換点。",
         "note_en": "Beat top Go players"
       },
       {
@@ -4052,15 +4064,15 @@
       },
       {
         "label": "TPU（Tensor Processing Unit）",
-        "label_en": "TPU",
         "startYear": 2016,
         "genre": [
           "HARDWARE"
         ],
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/%E3%83%86%E3%83%B3%E3%82%BD%E3%83%AB%E3%83%BB%E3%83%97%E3%83%AD%E3%82%BB%E3%83%83%E3%82%B7%E3%83%B3%E3%82%B0%E3%83%BB%E3%83%A6%E3%83%8B%E3%83%83%E3%83%88",
-        "url_en": "https://en.wikipedia.org/wiki/Tensor_Processing_Unit",
-        "note": "GoogleのAI専用アクセラレータで学習・推論を高速化。"
+        "note": "GoogleのAI専用アクセラレータで学習・推論を高速化。#ks",
+        "label_en": "TPU",
+        "url_en": "https://en.wikipedia.org/wiki/Tensor_Processing_Unit"
       },
       {
         "label": "WaveNet",
@@ -4181,17 +4193,17 @@
       },
       {
         "label": "Apple Neural Engine",
-        "label_en": "Apple Neural Engine",
         "startYear": 2017,
         "genre": [
+          "THEORY",
           "HARDWARE",
-          "P_NEURAL",
-          "THEORY"
+          "P_NEURAL"
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/Apple_A11",
-        "url_en": "https://en.wikipedia.org/wiki/Apple_A11",
-        "note": ""
+        "note": "#ks",
+        "label_en": "Apple Neural Engine",
+        "url_en": "https://en.wikipedia.org/wiki/Apple_A11"
       },
       {
         "label": "Baidu Apollo",
@@ -4276,16 +4288,16 @@
       },
       {
         "label": "Transformer",
-        "label_en": "Transformer",
         "startYear": 2017,
         "genre": [
-          "P_NEURAL",
-          "THEORY"
+          "THEORY",
+          "P_NEURAL"
         ],
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/Transformer_(%E6%A9%9F%E6%A2%B0%E5%AD%A6%E7%BF%92%E3%83%A2%E3%83%87%E3%83%AB)",
-        "url_en": "https://en.wikipedia.org/wiki/Transformer_(machine_learning_model)",
-        "note": "自己注意機構に基づくモデル。NLPの主流アーキテクチャへ。"
+        "note": "自己注意機構に基づくモデル。NLPの主流アーキテクチャへ。#ks",
+        "label_en": "Transformer",
+        "url_en": "https://en.wikipedia.org/wiki/Transformer_(machine_learning_model)"
       },
       {
         "label": "XGBoost",
@@ -4940,16 +4952,16 @@
     "2021": [
       {
         "label": "A Thousand Brains（著作）",
-        "label_en": "A Thousand Brains (book)",
         "startYear": 2021,
         "genre": [
-          "BACKGROUND",
-          "CONTENT"
+          "CONTENT",
+          "BACKGROUND"
         ],
         "imp": 3,
         "url": "https://www.hayakawa-online.co.jp/shop/g/g0005210127/",
+        "note": "大脳新皮質の新理論を提唱。#ks",
+        "label_en": "A Thousand Brains (book)",
         "url_en": "https://www.amazon.co.jp/Thousand-Brains-New-Theory-Intelligence/dp/1541675819",
-        "note": "大脳新皮質の新理論を提唱。",
         "note_en": "Proposes a new theory of the neocortex."
       },
       {
@@ -4991,7 +5003,6 @@
       },
       {
         "label": "DALL・E",
-        "label_en": "DALL・E",
         "startYear": 2021,
         "genre": [
           "APPLICATION",
@@ -4999,8 +5010,9 @@
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/DALL-E",
+        "note": "画像生成の消費者普及の端緒。#ks",
+        "label_en": "DALL・E",
         "url_en": "https://en.wikipedia.org/wiki/DALL-E",
-        "note": "画像生成の消費者普及の端緒。",
         "note_en": "Catalyzed consumer text-to-image."
       },
       {
@@ -5031,15 +5043,15 @@
       },
       {
         "label": "M1（Apple Silicon）",
-        "label_en": "Apple M1",
         "startYear": 2021,
         "genre": [
           "HARDWARE"
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/Apple_M1",
-        "url_en": "https://en.wikipedia.org/wiki/Apple_M1",
-        "note": "統合GPU/NEでオンデバイスAIの効率を向上。"
+        "note": "統合GPU/NEでオンデバイスAIの効率を向上。#ks",
+        "label_en": "Apple M1",
+        "url_en": "https://en.wikipedia.org/wiki/Apple_M1"
       },
       {
         "label": "MegerFace/Face recognition発展",
