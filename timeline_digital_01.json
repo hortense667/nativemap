@@ -50,19 +50,6 @@
     ],
     "1946": [
       {
-        "label": "ENIAC",
-        "label_en": "ENIAC",
-        "startYear": 1946,
-        "genre": [
-          "HAR-PC"
-        ],
-        "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/ENIAC",
-        "url_en": "https://en.wikipedia.org/wiki/ENIAC",
-        "note": "初期の実用的な汎用電子計算機。",
-        "note_en": "Early general-purpose electronic computer."
-      },
-      {
         "label": "MIT Tech Model Railroad Club（TMRC）",
         "label_en": "MIT Tech Model Railroad Club (TMRC)",
         "startYear": 1946,
@@ -76,6 +63,20 @@
         "url_en": "https://en.wikipedia.org/wiki/Tech_Model_Railroad_Club",
         "note": "ハッカー文化の源流として知られる学生団体。",
         "note_en": "Student club noted as a root of hacker culture."
+      },
+      {
+        "label": "ENIAC",
+        "startYear": 1946,
+        "genre": [
+          "HAR-PC",
+          "WORK"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/ENIAC",
+        "note": "初期の実用的な汎用電子計算機。",
+        "label_en": "ENIAC",
+        "url_en": "https://en.wikipedia.org/wiki/ENIAC",
+        "note_en": "Early general-purpose electronic computer."
       }
     ],
     "1947": [
