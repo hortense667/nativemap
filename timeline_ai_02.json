@@ -34,14 +34,15 @@
     "1875": [
       {
         "label": "Pinwheel calculator",
-        "label_en": "Pinwheel calculator",
         "startYear": 1875,
         "genre": [
+          "HARDWARE",
           "BACKGROUND"
         ],
         "imp": 3,
-        "url_en": "https://en.wikipedia.org/wiki/Pinwheel_calculator",
         "note": "ボルドウィンとオドナーによる、ライプニッツ計算機の改良型。歯車式計算機の普及に貢献。",
+        "label_en": "Pinwheel calculator",
+        "url_en": "https://en.wikipedia.org/wiki/Pinwheel_calculator",
         "note_en": "Improved version of the Leibniz calculator by Baldwin and Odhner, contributing to the spread of mechanical calculators."
       }
     ],
