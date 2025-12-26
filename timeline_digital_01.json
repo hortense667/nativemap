@@ -3419,16 +3419,16 @@
       },
       {
         "label": "HITAC S-810",
-        "label_en": "HITAC S-810",
         "startYear": 1982,
         "genre": [
           "HAR-PC",
           "JAPAN"
         ],
         "imp": 3,
-        "url": "https://ja.wikipedia.org/wiki/HITAC_S-810",
-        "url_en": "https://en.wikipedia.org/wiki/Hitachi",
+        "url": "https://museum.ipsj.or.jp/computer/super/images/0007_01_l.jpg",
         "note": "日立の国産ベクトル型スーパー。",
+        "label_en": "HITAC S-810",
+        "url_en": "https://en.wikipedia.org/wiki/Hitachi",
         "note_en": "Hitachi’s Japanese vector supercomputer."
       },
       {
