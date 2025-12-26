@@ -1856,16 +1856,15 @@
       },
       {
         "label": "WABOT-1",
-        "label_en": "WABOT-1",
         "startYear": 1973,
         "genre": [
           "HAR-ROB",
           "JAPAN"
         ],
         "imp": 3,
-        "url": "https://ja.wikipedia.org/wiki/WABOT",
-        "url_en": "https://en.wikipedia.org/wiki/WABOT",
+        "url": "https://www.humanoid.waseda.ac.jp/booklet/photo/WABOT-1-1973.jpg",
         "note": "早稲田の人型ロボット研究。",
+        "label_en": "WABOT-1",
         "note_en": "Early humanoid robot at Waseda University."
       },
       {
@@ -1954,16 +1953,16 @@
       },
       {
         "label": "SORD SMP80/X",
-        "label_en": "SORD SMP80/X",
         "startYear": 1974,
         "genre": [
           "HAR-PC",
           "JAPAN"
         ],
         "imp": 2,
-        "url": "https://ja.wikipedia.org/wiki/ソード_(企業)",
-        "url_en": "https://en.wikipedia.org/wiki/Sord_Computer_Corporation",
+        "url": "https://museum.ipsj.or.jp/computer/personal/images/0086_01_l.jpg|https://ja.wikipedia.org/wiki/ソード_(企業)|https://ascii.jp/elem/000/004/257/4257639/5/",
         "note": "国産8ビット開発向けシステム。",
+        "label_en": "SORD SMP80/X",
+        "url_en": "https://en.wikipedia.org/wiki/Sord_Computer_Corporation",
         "note_en": "Japanese 8-bit development system."
       },
       {
@@ -2149,7 +2148,7 @@
           "JAPAN"
         ],
         "imp": 3,
-        "url": "https://ja.wikipedia.org/wiki/Advanced_Comprehensive_Operating_System",
+        "url": "https://jpn.nec.com/soft/acos4/whats/gif/ipx9800_a200.png|https://ja.wikipedia.org/wiki/Advanced_Comprehensive_Operating_System",
         "note": "国産汎用機OS系列が継続発展。",
         "label_en": "NEC ACOS-4 mainframe OS",
         "url_en": "https://en.wikipedia.org/wiki/NEC",
@@ -2257,16 +2256,16 @@
       },
       {
         "label": "NEC Bit-INN（秋葉原）",
-        "label_en": "NEC Bit-INN (Akihabara)",
         "startYear": 1976,
         "genre": [
           "NON-COM",
           "JAPAN"
         ],
         "imp": 2,
-        "url": "https://ja.wikipedia.org/wiki/ラジオ会館",
-        "url_en": "https://en.wikipedia.org/wiki/Akihabara",
+        "url": "https://ascii.jp/img/2019/08/07/1534520/l/98a174e83a35b9c8.jpg|https://ja.wikipedia.org/wiki/ラジオ会館",
         "note": "愛好家向け情報/展示拠点。",
+        "label_en": "NEC Bit-INN (Akihabara)",
+        "url_en": "https://en.wikipedia.org/wiki/Akihabara",
         "note_en": "NEC’s hobbyist hub/showroom in Akihabara."
       },
       {
@@ -2477,16 +2476,16 @@
       },
       {
         "label": "FACOM 230-75 APU（ベクトル）",
-        "label_en": "FACOM 230-75 APU (vector)",
         "startYear": 1977,
         "genre": [
           "HAR-PC",
           "JAPAN"
         ],
         "imp": 2,
-        "url": "https://ja.wikipedia.org/wiki/FACOM_230",
-        "url_en": "https://en.wikipedia.org/wiki/FUJITSU_FACOM",
+        "url": "https://museum.ipsj.or.jp/computer/super/images/0003_01_l.jpg|https://museum.ipsj.or.jp/computer/super/0003.html",
         "note": "日本初のベクトル計算機とされる装置。",
+        "label_en": "FACOM 230-75 APU (vector)",
+        "url_en": "https://en.wikipedia.org/wiki/FUJITSU_FACOM",
         "note_en": "Early Japanese vector processing add-on."
       },
       {
@@ -2562,16 +2561,16 @@
       },
       {
         "label": "SHARP MZ-80K",
-        "label_en": "SHARP MZ-80K",
         "startYear": 1978,
         "genre": [
           "HAR-PC",
           "JAPAN"
         ],
         "imp": 3,
-        "url": "https://ja.wikipedia.org/wiki/MZ-80K",
-        "url_en": "https://en.wikipedia.org/wiki/Sharp_MZ",
+        "url": "https://museum.ipsj.or.jp/heritage/img/MZ-80K.jpg|https://ja.wikipedia.org/wiki/MZ-80K",
         "note": "国産ホビーPCの代表的初期機。",
+        "label_en": "SHARP MZ-80K",
+        "url_en": "https://en.wikipedia.org/wiki/Sharp_MZ",
         "note_en": "Representative early Japanese hobby PC."
       },
       {
@@ -2606,16 +2605,16 @@
       },
       {
         "label": "日立 ベーシックマスターMB-6880",
-        "label_en": "Hitachi Basic Master MB-6880",
         "startYear": 1978,
         "genre": [
           "HAR-PC",
           "JAPAN"
         ],
         "imp": 2,
-        "url": "https://ja.wikipedia.org/wiki/日立ベーシックマスター",
-        "url_en": "https://en.wikipedia.org/wiki/Hitachi_Basic_Master",
+        "url": "https://museum.ipsj.or.jp/computer/personal/images/0003_01_l.jpg",
         "note": "国産8ビット教育/入門PC。",
+        "label_en": "Hitachi Basic Master MB-6880",
+        "url_en": "https://en.wikipedia.org/wiki/Hitachi_Basic_Master",
         "note_en": "Japanese 8-bit introductory PC."
       },
       {
@@ -2700,16 +2699,15 @@
       },
       {
         "label": "日本UNIXユーザ会 jus",
-        "label_en": "Japan Unix Society (jus)",
         "startYear": 1978,
         "genre": [
           "NON-COM",
           "JAPAN"
         ],
         "imp": 2,
-        "url": "https://ja.wikipedia.org/wiki/Japan_Unix_Society",
-        "url_en": "https://en.wikipedia.org/wiki/User_group",
+        "url": "https://www.jus.or.jp/",
         "note": "日本のUNIXユーザーコミュニティ。",
+        "label_en": "Japan Unix Society (jus)",
         "note_en": "Japanese UNIX user community."
       }
     ],
@@ -2771,7 +2769,6 @@
       },
       {
         "label": "シャープ 書院 初号機",
-        "label_en": "Sharp Shoin (early model)",
         "startYear": 1979,
         "genre": [
           "HAR-PC",
@@ -2779,9 +2776,10 @@
           "JAPAN"
         ],
         "imp": 2,
-        "url": "https://ja.wikipedia.org/wiki/書院",
-        "url_en": "https://en.wikipedia.org/wiki/Word_processor",
+        "url": "https://corporate.jp.sharp/info/history/only_one/jouhou_t/images/jouhou_t_w17_m.jpg",
         "note": "ワープロ専用機シリーズの初期。",
+        "label_en": "Sharp Shoin (early model)",
+        "url_en": "https://en.wikipedia.org/wiki/Word_processor",
         "note_en": "Early model in Sharp’s word processor line."
       },
       {
@@ -2867,28 +2865,17 @@
         "note_en": "Flagship commercial relational database."
       },
       {
-        "label": "シャープ 書院 WD-3000（初号機）；Sharp Shoin WD-3000 (first model)",
-        "startYear": 1979,
-        "genre": [
-          "HAR-PC",
-          "JAPAN"
-        ],
-        "imp": 2,
-        "url": "https://ja.wikipedia.org/wiki/書院_(ワープロ)",
-        "note": "https://en.wikipedia.org/wiki/Word_processor"
-      },
-      {
         "label": "ラテカピュータ PC-2001/PC-2000（SHARP）",
-        "label_en": "Sharp “Ratecomputer” PC-2001/2000",
         "startYear": 1979,
         "genre": [
           "HAR-PC",
           "JAPAN"
         ],
         "imp": 1,
-        "url": "https://ja.wikipedia.org/wiki/シャープ_(企業)",
-        "url_en": "https://en.wikipedia.org/wiki/Sharp_Corporation",
+        "url": "https://lh6.googleusercontent.com/proxy/-c6ECdiJUbXu5G-5LsZZq1CXgZ5GZRhpEnucl313CFavurFKu7gHIY_QEd5gYJI_w7NhgSXzE8MWI9MansAHYrj5LHAc",
         "note": "教育/実習向け小型計算機系。",
+        "label_en": "Sharp “Ratecomputer” PC-2001/2000",
+        "url_en": "https://en.wikipedia.org/wiki/Sharp_Corporation",
         "note_en": "Small training/educational computers."
       },
       {
@@ -3003,7 +2990,6 @@
       },
       {
         "label": "キヤノン キヤノワード55",
-        "label_en": "Canon Canoword 55",
         "startYear": 1980,
         "genre": [
           "HAR-PC",
@@ -3011,9 +2997,10 @@
           "JAPAN"
         ],
         "imp": 2,
-        "url": "https://ja.wikipedia.org/wiki/ワードプロセッサ",
-        "url_en": "https://en.wikipedia.org/wiki/Word_processor",
+        "url": "https://global.canon/ja/corporate/history/img/03_03.png",
         "note": "国産ワープロ専用機の初期例。",
+        "label_en": "Canon Canoword 55",
+        "url_en": "https://en.wikipedia.org/wiki/Word_processor",
         "note_en": "Early dedicated word processor in Japan."
       },
       {
@@ -3225,7 +3212,6 @@
       },
       {
         "label": "NEC 文豪 NWP-20N",
-        "label_en": "NEC Bungō NWP-20N",
         "startYear": 1981,
         "genre": [
           "HAR-PC",
@@ -3233,9 +3219,10 @@
           "JAPAN"
         ],
         "imp": 2,
-        "url": "https://ja.wikipedia.org/wiki/文豪_(ワープロ)",
-        "url_en": "https://en.wikipedia.org/wiki/Word_processor",
+        "url": "https://museum.ipsj.or.jp/computer/word/images/0028_01_l.jpg",
         "note": "国産ワープロ専用機シリーズ。",
+        "label_en": "NEC Bungō NWP-20N",
+        "url_en": "https://en.wikipedia.org/wiki/Word_processor",
         "note_en": "Japanese dedicated word processor line."
       },
       {
@@ -3309,17 +3296,17 @@
     "1982": [
       {
         "label": "Sony CDP-101（CDプレイヤー）",
-        "label_en": "Sony CDP-101 (CD player)",
         "startYear": 1982,
         "genre": [
-          "HAR-IMG",
           "HAR-MED",
+          "HAR-IMG",
           "JAPAN"
         ],
         "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/コンパクトディスク",
-        "url_en": "https://en.wikipedia.org/wiki/Compact_disc",
+        "url": "https://ja.wikipedia.org/wiki/CDP-101",
         "note": "光ディスクオーディオの普及を牽引。",
+        "label_en": "Sony CDP-101 (CD player)",
+        "url_en": "https://en.wikipedia.org/wiki/Compact_disc",
         "note_en": "Pioneered consumer optical audio format."
       },
       {
@@ -3390,30 +3377,30 @@
       },
       {
         "label": "SORD M5",
-        "label_en": "Sord M5",
         "startYear": 1982,
         "genre": [
           "HAR-PC",
           "JAPAN"
         ],
         "imp": 2,
-        "url": "https://ja.wikipedia.org/wiki/Sord_M5",
-        "url_en": "https://en.wikipedia.org/wiki/Sord_M5",
+        "url": "https://ja.wikipedia.org/wiki/M5_%28%E3%82%B3%E3%83%B3%E3%83%94%E3%83%A5%E3%83%BC%E3%82%BF%29",
         "note": "国産8ビット教育/ゲーム機。",
+        "label_en": "Sord M5",
+        "url_en": "https://en.wikipedia.org/wiki/Sord_M5",
         "note_en": "Japanese 8-bit educational/game PC."
       },
       {
         "label": "SHARP X1",
-        "label_en": "Sharp X1",
         "startYear": 1982,
         "genre": [
           "HAR-PC",
           "JAPAN"
         ],
         "imp": 3,
-        "url": "https://ja.wikipedia.org/wiki/X1",
-        "url_en": "https://en.wikipedia.org/wiki/Sharp_X1",
+        "url": "https://ja.wikipedia.org/wiki/X1_(%E3%82%B3%E3%83%B3%E3%83%94%E3%83%A5%E3%83%BC%E3%82%BF)",
         "note": "国産カラーPCの人気機。",
+        "label_en": "Sharp X1",
+        "url_en": "https://en.wikipedia.org/wiki/Sharp_X1",
         "note_en": "Popular Japanese 8-bit color PC."
       },
       {
