@@ -2624,33 +2624,6 @@
     ],
     "2025": [
       {
-        "label": "Apple IIは何を変えたのか　パーソナル・ソフトウェア市場の誕生（レイン・ヌーニー著/山形浩生訳）",
-        "label_en": "The Apple II Age: How the Computer Became Personal（Laine Nooney）",
-        "startYear": 2025,
-        "genre": [
-          "COMPUTER",
-          "WORK"
-        ],
-        "imp": 3,
-        "url": "https://www.amazon.co.jp/dp/4571410808/&https://m.media-amazon.com/images/I/41IgG06WGEL.SY445_SX342_ControlCacheEqualizer.jpg",
-        "url_en": "https://www.amazon.com/dp/0226816524/&https://m.media-amazon.com/images/I/41ej3HdnjeL.SY445_SX342_FMwebp.jpg",
-        "note": "1970年代から80年代にかけて、個人向けコンピュータ黎明期を築いたApple IIが、家庭、ビジネス、教育など様々な分野でどのようにソフトウェア市場の成立をもたらしたかを多角的に描く歴史書。ビデオゲームおよびコンピュータ産業の歴史的・文化的・経済的分析を専門とする著者が、当時の文化や技術革新、そして市場のダイナミズムを詳細に解説します。パーソナルコンピュータの時代の幕開けを理解するための貴重な一冊です。(E)",
-        "note_en": "A historical book that comprehensively describes how the Apple II, which pioneered the early days of personal computers in the 1970s and 80s, contributed to the establishment of the software market in various fields such as home, business, and education. The author, specializing in the historical, cultural, and economic analysis of the video game and computer industry, provides a detailed account of the culture, technological innovation, and market dynamics of the time. This is a valuable book for understanding the dawn of the personal computer era.(E)"
-      },
-      {
-        "label": "Apple IIは何を変えたのか　パーソナル・ソフトウェア市場の誕生（レイン・ヌーニー著/山形浩生訳）",
-        "label_en": "The Apple II Age: How the Computer Became Personal（Laine Nooney）",
-        "startYear": 2025,
-        "genre": [
-          "COMPUTER"
-        ],
-        "imp": 3,
-        "url": "https://www.amazon.co.jp/dp/4571410808/&https://m.media-amazon.com/images/I/41IgG06WGEL.SY445_SX342_ControlCacheEqualizer.jpg",
-        "url_en": "https://www.amazon.com/dp/0226816524/&https://m.media-amazon.com/images/I/41ej3HdnjeL.SY445_SX342_FMwebp.jpg",
-        "note": "1970年代から80年代にかけて、個人向けコンピュータ黎明期を築いたApple IIが、家庭、ビジネス、教育など様々な分野でどのようにソフトウェア市場の成立をもたらしたかを多角的に描く歴史書。ビデオゲームおよびコンピュータ産業の歴史的・文化的・経済的分析を専門とする著者が、当時の文化や技術革新、そして市場のダイナミズムを詳細に解説します。パーソナルコンピュータの時代の幕開けを理解するための貴重な一冊です。(E)",
-        "note_en": "A historical book that comprehensively describes how the Apple II, which pioneered the early days of personal computers in the 1970s and 80s, contributed to the establishment of the software market in various fields such as home, business, and education. The author, specializing in the historical, cultural, and economic analysis of the video game and computer industry, provides a detailed account of the culture, technological innovation, and market dynamics of the time. This is a valuable book for understanding the dawn of the personal computer era.(E)"
-      },
-      {
         "label": "Gray Mirror: Fascicle I: Disturbance（カーティス・ヤーヴィン）",
         "startYear": 2025,
         "genre": [
@@ -2660,6 +2633,20 @@
         "imp": 3,
         "label_en": "Gray Mirror: Fascicle I: Disturbance",
         "url_en": "https://www.amazon.co.jp/dp/B0DV36SK5P/"
+      },
+      {
+        "label": "Apple IIは何を変えたのか　パーソナル・ソフトウェア市場の誕生（レイン・ヌーニー著/山形浩生訳）",
+        "startYear": 2025,
+        "genre": [
+          "COMPUTER",
+          "POPCULTURE"
+        ],
+        "imp": 3,
+        "url": "https://www.amazon.co.jp/dp/4571410808/&https://m.media-amazon.com/images/I/41IgG06WGEL.SY445_SX342_ControlCacheEqualizer.jpg",
+        "note": "1970年代から80年代にかけて、個人向けコンピュータ黎明期を築いたApple IIが、家庭、ビジネス、教育など様々な分野でどのようにソフトウェア市場の成立をもたらしたかを多角的に描く歴史書。ビデオゲームおよびコンピュータ産業の歴史的・文化的・経済的分析を専門とする著者が、当時の文化や技術革新、そして市場のダイナミズムを詳細に解説します。パーソナルコンピュータの時代の幕開けを理解するための貴重な一冊です。(E)",
+        "label_en": "The Apple II Age: How the Computer Became Personal（Laine Nooney）",
+        "url_en": "https://www.amazon.com/dp/0226816524/&https://m.media-amazon.com/images/I/41ej3HdnjeL.SY445_SX342_FMwebp.jpg",
+        "note_en": "A historical book that comprehensively describes how the Apple II, which pioneered the early days of personal computers in the 1970s and 80s, contributed to the establishment of the software market in various fields such as home, business, and education. The author, specializing in the historical, cultural, and economic analysis of the video game and computer industry, provides a detailed account of the culture, technological innovation, and market dynamics of the time. This is a valuable book for understanding the dawn of the personal computer era.(E)"
       }
     ]
   },
