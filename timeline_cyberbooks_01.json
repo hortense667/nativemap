@@ -2391,6 +2391,24 @@
         "note_en": "A collection of comical essays or jokes about computers by the renowned humorist Dave Barry. It uses a satirical and witty style to describe the evolution of computer technology and the resulting everyday confusion and frustration. /Reflecting the era when computers were beginning to enter ordinary homes, it translates the \"absurdity\" and \"nuisance\" of computers into humor from the perspective of the general public less familiar with technology. It conveys the popular cultural atmosphere surrounding computers at the time.(C)"
       }
     ],
+    "1999": [
+      {
+        "label": "伽藍とバザール: オープンソース・ソフトLinuxマニフェスト",
+        "startYear": 1999,
+        "genre": [
+          "COMPUTER",
+          "HACKER",
+          "THEORYMEDIA",
+          "OUTOFPRINT"
+        ],
+        "imp": 5,
+        "url": "https://www.amazon.co.jp/dp/4895421686&https://m.media-amazon.com/images/I/41PPY36ZAYL._SY425_.jpg!https://ja.wikipedia.org/wiki/%E4%BC%BD%E8%97%8D%E3%81%A8%E3%83%90%E3%82%B6%E3%83%BC%E3%83%AB",
+        "note": "エリック・スティーブン レイモンド著, 山形浩生訳\n『伽藍とバザール』（がらんとバザール、英: The Cathedral and the Bazaar、カテドラルとバザール）は、エリック・レイモンドによって書かれたオープンソースソフトウェア（OSS）のソフトウェア開発方式に関するエッセイおよび書籍である[1]。",
+        "label_en": "The Cathedral and the Bazaar",
+        "url_en": "https://en.wikipedia.org/wiki/The_Cathedral_and_the_Bazaar",
+        "note_en": "The Cathedral and the Bazaar: Musings on Linux and Open Source by an Accidental Revolutionary (abbreviated CatB) is an essay, and later a book, by Eric S. Raymond on software engineering methods, based on his observations of the Linux kernel development process and his experiences managing an open source project, fetchmail. It examines the struggle between top-down and bottom-up design. The essay was first presented by Raymond at the Linux Kongress on May 27, 1997, in Würzburg, Germany, and was published as the second chapter of the same‑titled book in 1999."
+      }
+    ],
     "2000": [
       {
         "label": "思考する機械 コンピュータ（ダニエル・ヒリス著/倉骨彰訳）",
