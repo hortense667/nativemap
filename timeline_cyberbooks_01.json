@@ -2409,33 +2409,6 @@
       },
       {
         "label": "未来をつくった人々（マイケル・ヒルツィック著/エ・ビスコム・テック・ラボ監訳 鴨沢真夫訳）",
-        "label_en": "Dealers of Lightning(Michael Hiltzik)",
-        "startYear": 2000,
-        "genre": [
-          "COMPUTER"
-        ],
-        "imp": 3,
-        "url": "https://www.amazon.co.jp/dp/4839902259&https://m.media-amazon.com/images/I/51sRc3wHsdL._SY385_.jpg",
-        "url_en": "https://www.amazon.com/dp/0887309895&https://m.media-amazon.com/images/I/61pJVqUUoJL._SY385_.jpg",
-        "note": "ゼロックス・パロアルト研究所（PARC）という、現代のパーソナルコンピューティングのほぼ全ての要素（GUI、マウス、レーザープリンタ、イーサネットなど）が生まれた「未来の工場」の栄光と悲劇を描いたノンフィクション。/画期的な発明が次々と生まれた環境と、それが商業的な成功に結びつかなかった理由、そしてスティーブ・ジョブズやビル・ゲイツといった外部の人間がそれらの技術をどう活用していったかをドラマチックに描いています。現代ITのルーツを知る上で必読の一冊です。(C)",
-        "note_en": "A non-fiction book that recounts the glory and tragedy of Xerox PARC, the \"factory of the future\" where nearly every element of modern personal computing (GUI, mouse, laser printer, Ethernet, etc.) was born. /It dramatically describes the environment that fostered groundbreaking inventions, the reasons they didn't translate into commercial success for Xerox, and how outsiders like Steve Jobs and Bill Gates capitalized on these technologies. It is a must-read for understanding the roots of modern IT.(C)"
-      },
-      {
-        "label": "思考する機械 コンピュータ（ダニエル・ヒリス著/倉骨彰訳）",
-        "label_en": "The Pattern on The Stone(W. Daniel Hillis)",
-        "startYear": 2000,
-        "genre": [
-          "COMPUTER",
-          "SCIENCE"
-        ],
-        "imp": 3,
-        "url": "https://www.amazon.co.jp/dp/4794209924&https://m.media-amazon.com/images/I/51hYAKh-H+L._SY445_SX342_ControlCacheEqualizer_.jpg",
-        "url_en": "https://en.wikipedia.org/wiki/The_Pattern_on_the_Stone|https://www.amazon.com/Pattern-Stone-Computers-Science-Masters/dp/046502596X&https://m.media-amazon.com/images/I/61igb-3soGL._SY425_.jpg",
-        "note": "パラレルコンピューティングのパイオニアであるダニエル・ヒリスが、コンピュータの仕組みとその可能性を、一般の読者にも分かりやすく解説した入門書。計算とは何か、情報とは何かといった根源的な問いから、並列処理や量子コンピュータのアイデアまでをカバーしています。/コンピュータを「石の上に描かれたパターン」として捉える詩的な視点から、その本質を解き明かします。技術的な詳細に深入りすることなく、コンピュータサイエンスの核心的な概念と、未来へのビジョンを学ぶことができます。(C)",
-        "note_en": "An introductory book by Daniel Hillis, a pioneer of parallel computing, explaining the mechanisms and potential of computers in an accessible way for general readers. It covers fundamental questions like \"What is computation?\" and \"What is information?\" up to ideas of parallel processing and quantum computing. /It unravels the essence of the computer from the poetic perspective of seeing it as \"The Pattern on The Stone.\" Readers can learn core concepts of computer science and a vision for the future without delving deeply into technical specifics.(C)"
-      },
-      {
-        "label": "未来をつくった人々（マイケル・ヒルツィック著/エ・ビスコム・テック・ラボ監訳 鴨沢真夫訳）",
         "startYear": 2000,
         "genre": [
           "SCIENCE",
@@ -2443,6 +2416,20 @@
           "WORK"
         ],
         "imp": 5,
+        "url": "https://www.amazon.co.jp/dp/4839902259&https://m.media-amazon.com/images/I/51sRc3wHsdL._SY385_.jpg",
+        "note": "ゼロックス・パロアルト研究所（PARC）という、現代のパーソナルコンピューティングのほぼ全ての要素（GUI、マウス、レーザープリンタ、イーサネットなど）が生まれた「未来の工場」の栄光と悲劇を描いたノンフィクション。/画期的な発明が次々と生まれた環境と、それが商業的な成功に結びつかなかった理由、そしてスティーブ・ジョブズやビル・ゲイツといった外部の人間がそれらの技術をどう活用していったかをドラマチックに描いています。現代ITのルーツを知る上で必読の一冊です。(C)",
+        "label_en": "Dealers of Lightning(Michael Hiltzik)",
+        "url_en": "https://www.amazon.com/dp/0887309895&https://m.media-amazon.com/images/I/61pJVqUUoJL._SY385_.jpg",
+        "note_en": "A non-fiction book that recounts the glory and tragedy of Xerox PARC, the \"factory of the future\" where nearly every element of modern personal computing (GUI, mouse, laser printer, Ethernet, etc.) was born. /It dramatically describes the environment that fostered groundbreaking inventions, the reasons they didn't translate into commercial success for Xerox, and how outsiders like Steve Jobs and Bill Gates capitalized on these technologies. It is a must-read for understanding the roots of modern IT.(C)"
+      },
+      {
+        "label": "未来をつくった人々（マイケル・ヒルツィック著/エ・ビスコム・テック・ラボ監訳 鴨沢真夫訳）",
+        "startYear": 2000,
+        "genre": [
+          "SCIENCE",
+          "COMPUTER"
+        ],
+        "imp": 3,
         "url": "https://www.amazon.co.jp/dp/4839902259&https://m.media-amazon.com/images/I/51sRc3wHsdL._SY385_.jpg",
         "note": "ゼロックス・パロアルト研究所（PARC）という、現代のパーソナルコンピューティングのほぼ全ての要素（GUI、マウス、レーザープリンタ、イーサネットなど）が生まれた「未来の工場」の栄光と悲劇を描いたノンフィクション。/画期的な発明が次々と生まれた環境と、それが商業的な成功に結びつかなかった理由、そしてスティーブ・ジョブズやビル・ゲイツといった外部の人間がそれらの技術をどう活用していったかをドラマチックに描いています。現代ITのルーツを知る上で必読の一冊です。(C)",
         "label_en": "Dealers of Lightning(Michael Hiltzik)",
