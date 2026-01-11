@@ -2525,22 +2525,6 @@
         "url_en": "https://en.wikipedia.org/wiki/Free_Software,_Free_Society",
         "note": "フリーソフトウェア運動の創始者であるリチャード・ストールマンのエッセイ集。ソフトウェアの「自由」とは何か、コピーライト（著作権）の問題、そして技術が社会や倫理に与える影響について、彼自身の哲学と強い信念が表明されています。/ソフトウェアを単なる道具ではなく、ユーザーの自由と社会的な公正に関わる倫理的な問題として捉えるストールマンの思想は、現代のオープンソースやAI倫理の議論にも大きな影響を与え続けています。ハッカー文化の根幹にある考え方を知るための必読書です。(C)",
         "note_en": "A collection of essays by Richard M. Stallman, the founder of the Free Software movement. It articulates his philosophy and strong convictions on what constitutes the \"freedom\" of software, issues of copyright, and technology's impact on society and ethics. /Stallman's view of software not merely as a tool but as an ethical concern related to user freedom and social justice continues to profoundly influence discussions on modern open source and AI ethics. It is an essential read for understanding the core ideas of hacker culture.(C)"
-      },
-      {
-        "label": "フリーソフトウェアと自由な社会 R-Chard M.Stallman エッセイ集（リチャード・M・ストールマン他著/株式会社ロングテール、長尾高弘訳）",
-        "startYear": 2003,
-        "genre": [
-          "HACKER",
-          "THEORYMEDIA",
-          "OUTOFPRINT",
-          "WORK"
-        ],
-        "imp": 5,
-        "url": "https://www.amazon.co.jp/dp/4756142818&https://m.media-amazon.com/images/I/51qVC8ltYeL._SY385_.jpg",
-        "note": "フリーソフトウェア運動の創始者であるリチャード・ストールマンのエッセイ集。ソフトウェアの「自由」とは何か、コピーライト（著作権）の問題、そして技術が社会や倫理に与える影響について、彼自身の哲学と強い信念が表明されています。/ソフトウェアを単なる道具ではなく、ユーザーの自由と社会的な公正に関わる倫理的な問題として捉えるストールマンの思想は、現代のオープンソースやAI倫理の議論にも大きな影響を与え続けています。ハッカー文化の根幹にある考え方を知るための必読書です。(C)",
-        "label_en": "Free Software, Free Society Selected Essays of Richard M. Stallman(Richard M. Stallman/Joshua Gay/Lawrence Lassig)",
-        "url_en": "https://en.wikipedia.org/wiki/Free_Software,_Free_Society",
-        "note_en": "A collection of essays by Richard M. Stallman, the founder of the Free Software movement. It articulates his philosophy and strong convictions on what constitutes the \"freedom\" of software, issues of copyright, and technology's impact on society and ethics. /Stallman's view of software not merely as a tool but as an ethical concern related to user freedom and social justice continues to profoundly influence discussions on modern open source and AI ethics. It is an essential read for understanding the core ideas of hacker culture.(C)"
       }
     ],
     "2005": [
