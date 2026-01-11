@@ -11059,7 +11059,6 @@
     "1972": [
       {
         "label": "日中国交正常化（田中角栄訪中）",
-        "label_en": "Japan–PRC normalization",
         "startYear": 1972,
         "genre": [
           "EVENT",
@@ -11068,7 +11067,8 @@
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/日中国交正常化",
-        "note": "共同声明で国交を樹立。東アジア外交の転機。",
+        "note": "共同声明で国交を樹立。東アジア外交の転機です。",
+        "label_en": "Japan–PRC normalization",
         "note_en": "Joint communiqué established relations, a turning point in East Asia."
       },
       {
