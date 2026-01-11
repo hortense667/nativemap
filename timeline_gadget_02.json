@@ -455,6 +455,19 @@
     ],
     "1973": [
       {
+        "label": "SEIKO LC V.F.A. 06LC",
+        "startYear": 1973,
+        "genre": [
+          "AUDIO_VIDEO"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/セイコー",
+        "note": "初期LCDデジタル表示の腕時計。",
+        "label_en": "Seiko 06LC",
+        "note_en": "https://ja.wikipedia.org/wiki/セイコー",
+        "url_en": "https://corporate.epson/en/about/history/milestone-products/1973-10-06lc.html"
+      },
+      {
         "label": "Xerox Alto",
         "startYear": 1973,
         "genre": [
@@ -467,19 +480,6 @@
         "label_en": "Xerox Alto",
         "note_en": "Research system pioneering GUI, mouse, and WYSIWYG.",
         "url_en": "https://en.wikipedia.org/wiki/Xerox_Alto"
-      },
-      {
-        "label": "SEIKO LC V.F.A. 06LC",
-        "startYear": 1973,
-        "genre": [
-          "AUDIO_VIDEO"
-        ],
-        "imp": 3,
-        "url": "https://ja.wikipedia.org/wiki/セイコー",
-        "note": "初期LCDデジタル表示の腕時計。",
-        "label_en": "Seiko 06LC",
-        "note_en": "https://ja.wikipedia.org/wiki/セイコー",
-        "url_en": "https://corporate.epson/en/about/history/milestone-products/1973-10-06lc.html"
       }
     ],
     "1974": [
