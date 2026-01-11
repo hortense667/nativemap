@@ -2457,6 +2457,20 @@
     ],
     "2001": [
       {
+        "label": "それがぼくには楽しかったから 全世界を巻き込んだリナックス革命の真実（リーナス・トーバルズ、デイビッド・ダイヤモンド著/風見潤訳/中島洋監修）",
+        "startYear": 2001,
+        "genre": [
+          "COMPUTER",
+          "HACKER"
+        ],
+        "imp": 3,
+        "url": "https://www.amazon.co.jp/dp/4796880011&https://m.media-amazon.com/images/I/812VnYtI2LL._SY342_.jpg",
+        "note": "Linuxオペレーティングシステムの生みの親、リーナス・トーバルズの自伝。彼がどのようにして個人的な興味からカーネル開発を始め、それが世界最大の協調開発プロジェクトの一つであるLinuxに発展していったのかを、ユーモアを交えながら語っています。/自身の動機は「楽しかったから」というシンプルなものでありながら、結果的に世界のITインフラを根底から変えてしまった「リナックス革命」の真実が、開発者自身の視点から描かれています。オープンソース文化を理解する上での重要な一冊です。(C)",
+        "label_en": "Just for Fun: The Story of An Accidental Revolutionary(Linus Torvalds/David Diamond)",
+        "url_en": "https://www.amazon.com/dp/0066620724&https://m.media-amazon.com/images/I/51fUsv9cEZL._SY445_SX342_FMwebp_.jpg",
+        "note_en": "The autobiography of Linus Torvalds, the creator of the Linux operating system. He recounts, with humor, how he started kernel development out of personal interest and how it evolved into Linux, one of the world's largest collaborative development projects. /The \"Linux revolution,\" which fundamentally changed global IT infrastructure despite his stated simple motivation of \"just for fun,\" is described from the developer's own perspective. It is an important book for understanding open-source culture.(C)"
+      },
+      {
         "label": "ピープルウエア ヤル気こそフロジェクト成功の鍵 第2版（トム・デマルコ、ティモシー・リスター著/松原友夫、山浦恒央訳）",
         "label_en": "Peopleware: Productive Projects and Teams(Tom DeMarco/Timoty Lister)",
         "startYear": 2001,
@@ -2482,20 +2496,6 @@
         "url_en": "https://en.wikipedia.org/wiki/Weaving_the_Web|https://www.amazon.com/Weaving-Web-Original-Ultimate-Inventor/dp/3430114683&https://m.media-amazon.com/images/I/71XDDMTPV7L._SY425_.gif",
         "note": "World Wide Webの発明者ティム・バーナーズ＝リー自身が、Webがいかにして生まれたか、そして彼が思い描くWebの未来、特に「セマンティック・ウェブ」のビジョンについて語った書籍。/Webを単なる情報閲覧ツールとしてではなく、人類全体の知を結びつけるプラットフォームとして構想した彼の理念と、その技術的な背景が詳細に描かれています。Webのオープンで民主的な原則を維持することの重要性についても強く訴えかけています。(C)",
         "note_en": "A book by World Wide Web inventor Tim Berners-Lee himself, discussing how the Web came into existence and his vision for its future, particularly the \"Semantic Web.\" /It details his philosophy of conceiving the Web not just as an information viewing tool but as a platform to connect the entire knowledge of humanity, along with its technical background. It strongly advocates for the importance of maintaining the Web's open and democratic principles.(C)"
-      },
-      {
-        "label": "それがぼくには楽しかったから 全世界を巻き込んだリナックス革命の真実（リーナス・トーバルズ、デイビッド・ダイヤモンド著/風見潤訳/中島洋監修）",
-        "startYear": 2001,
-        "genre": [
-          "COMPUTER",
-          "HACKER"
-        ],
-        "imp": 3,
-        "url": "https://www.amazon.co.jp/dp/4796880011&https://m.media-amazon.com/images/I/812VnYtI2LL._SY342_.jpg",
-        "note": "Linuxオペレーティングシステムの生みの親、リーナス・トーバルズの自伝。彼がどのようにして個人的な興味からカーネル開発を始め、それが世界最大の協調開発プロジェクトの一つであるLinuxに発展していったのかを、ユーモアを交えながら語っています。/自身の動機は「楽しかったから」というシンプルなものでありながら、結果的に世界のITインフラを根底から変えてしまった「リナックス革命」の真実が、開発者自身の視点から描かれています。オープンソース文化を理解する上での重要な一冊です。(C)",
-        "label_en": "Just for Fun: The Story of An Accidental Revolutionary(Linus Torvalds/David Diamond)",
-        "url_en": "https://www.amazon.com/dp/0066620724&https://m.media-amazon.com/images/I/51fUsv9cEZL._SY445_SX342_FMwebp_.jpg",
-        "note_en": "The autobiography of Linus Torvalds, the creator of the Linux operating system. He recounts, with humor, how he started kernel development out of personal interest and how it evolved into Linux, one of the world's largest collaborative development projects. /The \"Linux revolution,\" which fundamentally changed global IT infrastructure despite his stated simple motivation of \"just for fun,\" is described from the developer's own perspective. It is an important book for understanding open-source culture.(C)"
       }
     ],
     "2003": [
