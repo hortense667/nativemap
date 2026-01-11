@@ -1668,15 +1668,15 @@
         "label": "Roland MPU-401",
         "startYear": 1984,
         "genre": [
+          "PERIPHERAL",
           "AUDIO_VIDEO",
-          "JAPAN",
-          "PERIPHERAL"
+          "JAPAN"
         ],
         "imp": 3,
         "note": "PCにMIDIをもたらしたIF規格/製品。",
         "label_en": "Roland MPU-401",
-        "note_en": "An interface bringing MIDI connectivity to PCs.",
-        "url_en": "https://en.wikipedia.org/wiki/MPU-401"
+        "url_en": "https://en.wikipedia.org/wiki/MPU-401",
+        "note_en": "An interface bringing MIDI connectivity to PCs."
       },
       {
         "label": "Macintosh 128K",
