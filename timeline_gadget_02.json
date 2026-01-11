@@ -2358,6 +2358,19 @@
     ],
     "1990": [
       {
+        "label": "DataHand",
+        "startYear": 1990,
+        "genre": [
+          "INPUT"
+        ],
+        "imp": 3,
+        "note": "指先の微動で入力する独特のエルゴキーボード。",
+        "label_en": "DataHand",
+        "note_en": "https://en.wikipedia.org/wiki/DataHand",
+        "url": "https://gigazine.net/news/20210503-datahand-keyboard/",
+        "url_en": "https://en.wikipedia.org/wiki/DataHand"
+      },
+      {
         "label": "Handycam TR55",
         "startYear": 1990,
         "genre": [
@@ -2370,19 +2383,6 @@
         "label_en": "Handycam TR55",
         "note_en": "A compact “passport-size” camcorder from Sony.",
         "url_en": "https://en.wikipedia.org/wiki/Sony_Handycam"
-      },
-      {
-        "label": "DataHand",
-        "startYear": 1990,
-        "genre": [
-          "INPUT"
-        ],
-        "imp": 3,
-        "note": "指先の微動で入力する独特のエルゴキーボード。",
-        "label_en": "DataHand",
-        "note_en": "https://en.wikipedia.org/wiki/DataHand",
-        "url": "https://gigazine.net/news/20210503-datahand-keyboard/",
-        "url_en": "https://en.wikipedia.org/wiki/DataHand"
       },
       {
         "label": "NeXTcube",
