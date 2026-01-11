@@ -455,19 +455,6 @@
     ],
     "1973": [
       {
-        "label": "SEIKO LC V.F.A. 06LC",
-        "startYear": 1973,
-        "genre": [
-          "AUDIO_VIDEO"
-        ],
-        "imp": 3,
-        "url": "https://ja.wikipedia.org/wiki/セイコー",
-        "note": "初期LCDデジタル表示の腕時計。",
-        "label_en": "Seiko 06LC",
-        "note_en": "https://ja.wikipedia.org/wiki/セイコー",
-        "url_en": "https://corporate.epson/en/about/history/milestone-products/1973-10-06lc.html"
-      },
-      {
         "label": "Xerox Alto",
         "startYear": 1973,
         "genre": [
@@ -480,6 +467,19 @@
         "label_en": "Xerox Alto",
         "note_en": "Research system pioneering GUI, mouse, and WYSIWYG.",
         "url_en": "https://en.wikipedia.org/wiki/Xerox_Alto"
+      },
+      {
+        "label": "SEIKO LC V.F.A. 06LC",
+        "startYear": 1973,
+        "genre": [
+          "AUDIO_VIDEO"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/セイコー",
+        "note": "初期LCDデジタル表示の腕時計。",
+        "label_en": "Seiko 06LC",
+        "note_en": "https://ja.wikipedia.org/wiki/セイコー",
+        "url_en": "https://corporate.epson/en/about/history/milestone-products/1973-10-06lc.html"
       }
     ],
     "1974": [
@@ -1261,6 +1261,19 @@
         "url_en": "https://en.wikipedia.org/wiki/ZX_Spectrum"
       },
       {
+        "label": "Commodore 64",
+        "startYear": 1982,
+        "genre": [
+          "COMPUTER"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/Commodore_64",
+        "note": "世界的に大ヒットした8ビットPC。",
+        "label_en": "Commodore 64",
+        "note_en": "One of the best-selling home computers worldwide.",
+        "url_en": "https://en.wikipedia.org/wiki/Commodore_64"
+      },
+      {
         "label": "NEC PC-9801",
         "startYear": 1982,
         "genre": [
@@ -1273,19 +1286,6 @@
         "label_en": "NEC PC-9801",
         "note_en": "A dominant Japanese PC line of the 1980s–90s.",
         "url_en": "https://en.wikipedia.org/wiki/NEC_PC-9801"
-      },
-      {
-        "label": "Commodore 64",
-        "startYear": 1982,
-        "genre": [
-          "COMPUTER"
-        ],
-        "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/Commodore_64",
-        "note": "世界的に大ヒットした8ビットPC。",
-        "label_en": "Commodore 64",
-        "note_en": "One of the best-selling home computers worldwide.",
-        "url_en": "https://en.wikipedia.org/wiki/Commodore_64"
       },
       {
         "label": "Kaypro II",
@@ -2358,17 +2358,18 @@
     ],
     "1990": [
       {
-        "label": "DataHand",
+        "label": "セガ R360",
         "startYear": 1990,
         "genre": [
-          "INPUT"
+          "GAME",
+          "JAPAN"
         ],
-        "imp": 3,
-        "note": "指先の微動で入力する独特のエルゴキーボード。",
-        "label_en": "DataHand",
-        "note_en": "https://en.wikipedia.org/wiki/DataHand",
-        "url": "https://gigazine.net/news/20210503-datahand-keyboard/",
-        "url_en": "https://en.wikipedia.org/wiki/DataHand"
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/SEGA_R360",
+        "note": "全方位回転が可能な大型体感筐体。",
+        "label_en": "Sega R360",
+        "note_en": "A full-rotation arcade cabinet enabling 360-degree motion.",
+        "url_en": "https://en.wikipedia.org/wiki/R360"
       },
       {
         "label": "Handycam TR55",
@@ -2383,6 +2384,19 @@
         "label_en": "Handycam TR55",
         "note_en": "A compact “passport-size” camcorder from Sony.",
         "url_en": "https://en.wikipedia.org/wiki/Sony_Handycam"
+      },
+      {
+        "label": "DataHand",
+        "startYear": 1990,
+        "genre": [
+          "INPUT"
+        ],
+        "imp": 3,
+        "note": "指先の微動で入力する独特のエルゴキーボード。",
+        "label_en": "DataHand",
+        "note_en": "https://en.wikipedia.org/wiki/DataHand",
+        "url": "https://gigazine.net/news/20210503-datahand-keyboard/",
+        "url_en": "https://en.wikipedia.org/wiki/DataHand"
       },
       {
         "label": "NeXTcube",
@@ -2480,21 +2494,6 @@
         "note_en": "https://ja.wikipedia.org/wiki/QYシリーズ",
         "url_en": "https://en.wikipedia.org/wiki/Yamaha_QY10",
         "url": "https://ja.wikipedia.org/wiki/QYシリーズ"
-      },
-      {
-        "label": "セガ R360",
-        "startYear": 1990,
-        "genre": [
-          "GAME",
-          "ROBOTOY",
-          "JAPAN"
-        ],
-        "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/SEGA_R360",
-        "note": "全方位回転が可能な大型体感筐体。",
-        "label_en": "Sega R360",
-        "url_en": "https://en.wikipedia.org/wiki/R360",
-        "note_en": "A full-rotation arcade cabinet enabling 360-degree motion."
       }
     ],
     "1991": [
