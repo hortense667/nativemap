@@ -935,19 +935,6 @@
         "note_en": "The portable cassette player that defined on-the-go music."
       },
       {
-        "label": "BigTrak",
-        "startYear": 1979,
-        "genre": [
-          "ROBOTOY"
-        ],
-        "imp": 2,
-        "url": "https://en.wikipedia.org/wiki/Big_Trak",
-        "note": "プログラム走行する玩具ビークル。",
-        "label_en": "Big Trak",
-        "note_en": "Programmable toy vehicle.",
-        "url_en": "https://en.wikipedia.org/wiki/Big_Trak"
-      },
-      {
         "label": "NEC PC-8001",
         "startYear": 1979,
         "genre": [
@@ -987,6 +974,20 @@
         "label_en": "Sharp PC-2000",
         "note_en": "A Sharp hybrid unit integrating AV functions with computing capabilities.",
         "url_en": "https://en.wikipedia.org/wiki/Sharp_Corporation"
+      },
+      {
+        "label": "BigTrak",
+        "startYear": 1979,
+        "genre": [
+          "GAME",
+          "ROBOTOY"
+        ],
+        "imp": 2,
+        "url": "https://en.wikipedia.org/wiki/Big_Trak",
+        "note": "プログラム走行する玩具ビークル。",
+        "label_en": "Big Trak",
+        "url_en": "https://en.wikipedia.org/wiki/Big_Trak",
+        "note_en": "Programmable toy vehicle."
       }
     ],
     "1980": [
