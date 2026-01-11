@@ -2358,20 +2358,6 @@
     ],
     "1990": [
       {
-        "label": "セガ R360",
-        "startYear": 1990,
-        "genre": [
-          "GAME",
-          "JAPAN"
-        ],
-        "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/SEGA_R360",
-        "note": "全方位回転が可能な大型体感筐体。",
-        "label_en": "Sega R360",
-        "note_en": "A full-rotation arcade cabinet enabling 360-degree motion.",
-        "url_en": "https://en.wikipedia.org/wiki/R360"
-      },
-      {
         "label": "Handycam TR55",
         "startYear": 1990,
         "genre": [
@@ -2494,6 +2480,21 @@
         "note_en": "https://ja.wikipedia.org/wiki/QYシリーズ",
         "url_en": "https://en.wikipedia.org/wiki/Yamaha_QY10",
         "url": "https://ja.wikipedia.org/wiki/QYシリーズ"
+      },
+      {
+        "label": "セガ R360",
+        "startYear": 1990,
+        "genre": [
+          "GAME",
+          "ROBOTOY",
+          "JAPAN"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/SEGA_R360",
+        "note": "全方位回転が可能な大型体感筐体。",
+        "label_en": "Sega R360",
+        "url_en": "https://en.wikipedia.org/wiki/R360",
+        "note_en": "A full-rotation arcade cabinet enabling 360-degree motion."
       }
     ],
     "1991": [
