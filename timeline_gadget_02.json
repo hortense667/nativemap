@@ -247,6 +247,19 @@
     ],
     "1969": [
       {
+        "label": "マイクロカセット",
+        "startYear": 1969,
+        "genre": [
+          "MEDIA"
+        ],
+        "imp": 2,
+        "url": "https://ja.wikipedia.org/wiki/マイクロカセット",
+        "note": "小型音声録音用カセット。取材やボイスレコーダーで普及。",
+        "label_en": "Microcassette",
+        "note_en": "Small audio cassette widely used in dictation and recorders.",
+        "url_en": "https://en.wikipedia.org/wiki/Microcassette"
+      },
+      {
         "label": "HITAC 10",
         "startYear": 1969,
         "genre": [
@@ -259,19 +272,6 @@
         "label_en": "HITAC 10 minicomputer",
         "note_en": "A Hitachi minicomputer for labs and offices that used a teletype as primary I/O.",
         "url_en": "https://museum.ipsj.or.jp/en/computer/mini/0001.html"
-      },
-      {
-        "label": "マイクロカセット",
-        "startYear": 1969,
-        "genre": [
-          "MEDIA"
-        ],
-        "imp": 2,
-        "url": "https://ja.wikipedia.org/wiki/マイクロカセット",
-        "note": "小型音声録音用カセット。取材やボイスレコーダーで普及。",
-        "label_en": "Microcassette",
-        "note_en": "Small audio cassette widely used in dictation and recorders.",
-        "url_en": "https://en.wikipedia.org/wiki/Microcassette"
       },
       {
         "label": "ラブテスター（任天堂）",
@@ -455,6 +455,19 @@
     ],
     "1973": [
       {
+        "label": "SEIKO LC V.F.A. 06LC",
+        "startYear": 1973,
+        "genre": [
+          "AUDIO_VIDEO"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/セイコー",
+        "note": "初期LCDデジタル表示の腕時計。",
+        "label_en": "Seiko 06LC",
+        "note_en": "https://ja.wikipedia.org/wiki/セイコー",
+        "url_en": "https://corporate.epson/en/about/history/milestone-products/1973-10-06lc.html"
+      },
+      {
         "label": "Xerox Alto",
         "startYear": 1973,
         "genre": [
@@ -467,19 +480,6 @@
         "label_en": "Xerox Alto",
         "note_en": "Research system pioneering GUI, mouse, and WYSIWYG.",
         "url_en": "https://en.wikipedia.org/wiki/Xerox_Alto"
-      },
-      {
-        "label": "SEIKO LC V.F.A. 06LC",
-        "startYear": 1973,
-        "genre": [
-          "AUDIO_VIDEO"
-        ],
-        "imp": 3,
-        "url": "https://ja.wikipedia.org/wiki/セイコー",
-        "note": "初期LCDデジタル表示の腕時計。",
-        "label_en": "Seiko 06LC",
-        "note_en": "https://ja.wikipedia.org/wiki/セイコー",
-        "url_en": "https://corporate.epson/en/about/history/milestone-products/1973-10-06lc.html"
       }
     ],
     "1974": [
@@ -649,6 +649,19 @@
         "url_en": "https://en.wikipedia.org/wiki/National_RF-2200"
       },
       {
+        "label": "Apple I",
+        "startYear": 1976,
+        "genre": [
+          "COMPUTER"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/Apple_I",
+        "note": "1976年発売の基板単体キットで、後のApple IIへつながる初期パーソナルコンピュータ。",
+        "label_en": "Apple I",
+        "note_en": "1976 single‑board kit computer that led directly to the Apple II and the Apple personal computer line.",
+        "url_en": "https://en.wikipedia.org/wiki/Apple_I"
+      },
+      {
         "label": "VHS",
         "startYear": 1976,
         "genre": [
@@ -661,19 +674,6 @@
         "label_en": "VHS",
         "note_en": "The videotape format that became the global home standard.",
         "url_en": "https://en.wikipedia.org/wiki/VHS"
-      },
-      {
-        "label": "Apple I",
-        "startYear": 1976,
-        "genre": [
-          "COMPUTER"
-        ],
-        "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/Apple_I",
-        "note": "1976年発売の基板単体キットで、後のApple IIへつながる初期パーソナルコンピュータ。",
-        "label_en": "Apple I",
-        "note_en": "1976 single‑board kit computer that led directly to the Apple II and the Apple personal computer line.",
-        "url_en": "https://en.wikipedia.org/wiki/Apple_I"
       },
       {
         "label": "TK-80",
