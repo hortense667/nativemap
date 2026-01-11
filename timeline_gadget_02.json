@@ -1248,6 +1248,19 @@
     ],
     "1982": [
       {
+        "label": "ZX Spectrum",
+        "startYear": 1982,
+        "genre": [
+          "COMPUTER"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/ZX_Spectrum",
+        "note": "英国で普及した低価格8ビット機。",
+        "label_en": "ZX Spectrum",
+        "note_en": "Low-cost 8-bit computer popular in the UK.",
+        "url_en": "https://en.wikipedia.org/wiki/ZX_Spectrum"
+      },
+      {
         "label": "NEC PC-9801",
         "startYear": 1982,
         "genre": [
@@ -1273,19 +1286,6 @@
         "label_en": "Commodore 64",
         "note_en": "One of the best-selling home computers worldwide.",
         "url_en": "https://en.wikipedia.org/wiki/Commodore_64"
-      },
-      {
-        "label": "ZX Spectrum",
-        "startYear": 1982,
-        "genre": [
-          "COMPUTER"
-        ],
-        "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/ZX_Spectrum",
-        "note": "英国で普及した低価格8ビット機。",
-        "label_en": "ZX Spectrum",
-        "note_en": "Low-cost 8-bit computer popular in the UK.",
-        "url_en": "https://en.wikipedia.org/wiki/ZX_Spectrum"
       },
       {
         "label": "Kaypro II",
