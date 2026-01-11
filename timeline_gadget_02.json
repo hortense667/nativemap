@@ -260,6 +260,20 @@
         "url_en": "https://en.wikipedia.org/wiki/Microcassette"
       },
       {
+        "label": "HITAC 10",
+        "startYear": 1969,
+        "genre": [
+          "COMPUTER",
+          "JAPAN"
+        ],
+        "imp": 3,
+        "url": "https://museum.ipsj.or.jp/computer/mini/0001.html",
+        "note": "日立製作所の研究・業務向けミニコンで、テレタイプ端末を主要I/Oとした。",
+        "label_en": "HITAC 10 minicomputer",
+        "note_en": "A Hitachi minicomputer for labs and offices that used a teletype as primary I/O.",
+        "url_en": "https://museum.ipsj.or.jp/en/computer/mini/0001.html"
+      },
+      {
         "label": "ラブテスター（任天堂）",
         "startYear": 1969,
         "genre": [
@@ -273,20 +287,6 @@
         "label_en": "Love Tester (Nintendo)",
         "note_en": "A novelty device that “measures” compatibility by holding hands.",
         "url_en": "https://en.wikipedia.org/wiki/Love_Tester"
-      },
-      {
-        "label": "HITAC 10",
-        "startYear": 1969,
-        "genre": [
-          "COMPUTER",
-          "JAPAN"
-        ],
-        "imp": 3,
-        "url": "https://museum.ipsj.or.jp/computer/mini/0001.html",
-        "note": "日立製作所の研究・業務向けミニコンで、テレタイプ端末を主要I/Oとした。",
-        "label_en": "HITAC 10 minicomputer",
-        "note_en": "A Hitachi minicomputer for labs and offices that used a teletype as primary I/O.",
-        "url_en": "https://museum.ipsj.or.jp/en/computer/mini/0001.html"
       }
     ],
     "1970": [
