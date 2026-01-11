@@ -247,19 +247,6 @@
     ],
     "1969": [
       {
-        "label": "マイクロカセット",
-        "startYear": 1969,
-        "genre": [
-          "MEDIA"
-        ],
-        "imp": 2,
-        "url": "https://ja.wikipedia.org/wiki/マイクロカセット",
-        "note": "小型音声録音用カセット。取材やボイスレコーダーで普及。",
-        "label_en": "Microcassette",
-        "note_en": "Small audio cassette widely used in dictation and recorders.",
-        "url_en": "https://en.wikipedia.org/wiki/Microcassette"
-      },
-      {
         "label": "HITAC 10",
         "startYear": 1969,
         "genre": [
@@ -272,6 +259,19 @@
         "label_en": "HITAC 10 minicomputer",
         "note_en": "A Hitachi minicomputer for labs and offices that used a teletype as primary I/O.",
         "url_en": "https://museum.ipsj.or.jp/en/computer/mini/0001.html"
+      },
+      {
+        "label": "マイクロカセット",
+        "startYear": 1969,
+        "genre": [
+          "MEDIA"
+        ],
+        "imp": 2,
+        "url": "https://ja.wikipedia.org/wiki/マイクロカセット",
+        "note": "小型音声録音用カセット。取材やボイスレコーダーで普及。",
+        "label_en": "Microcassette",
+        "note_en": "Small audio cassette widely used in dictation and recorders.",
+        "url_en": "https://en.wikipedia.org/wiki/Microcassette"
       },
       {
         "label": "ラブテスター（任天堂）",
