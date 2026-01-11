@@ -306,19 +306,6 @@
     ],
     "1971": [
       {
-        "label": "Intel 4004 マイクロプロセッサ",
-        "startYear": 1971,
-        "genre": [
-          "COMPUTER"
-        ],
-        "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/Intel_4004",
-        "note": "1971年登場の世界初の商用マイクロプロセッサで、ビジコンの電卓開発から生まれた。",
-        "label_en": "Intel 4004",
-        "note_en": "Released in 1971, the first commercial microprocessor, originating from Busicom’s calculator project.",
-        "url_en": "https://en.wikipedia.org/wiki/Intel_4004"
-      },
-      {
         "label": "Busicom 141-PF 電卓",
         "startYear": 1971,
         "genre": [
@@ -331,6 +318,19 @@
         "label_en": "Busicom 141-PF",
         "note_en": "Japanese desktop calculator using Intel’s 4004, demonstrating an early practical use of a general‑purpose MPU.",
         "url_en": "https://en.wikipedia.org/wiki/Busicom"
+      },
+      {
+        "label": "Intel 4004 マイクロプロセッサ",
+        "startYear": 1971,
+        "genre": [
+          "COMPUTER"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/Intel_4004",
+        "note": "1971年登場の世界初の商用マイクロプロセッサで、ビジコンの電卓開発から生まれた。",
+        "label_en": "Intel 4004",
+        "note_en": "Released in 1971, the first commercial microprocessor, originating from Busicom’s calculator project.",
+        "url_en": "https://en.wikipedia.org/wiki/Intel_4004"
       },
       {
         "label": "8インチフロッピーディスク",
@@ -362,17 +362,17 @@
         "url_en": "https://en.wikipedia.org/wiki/HP-35"
       },
       {
-        "label": "Magnavox Odyssey",
+        "label": "S-500",
         "startYear": 1972,
         "genre": [
-          "GAME"
+          "COMPUTER"
         ],
-        "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/Magnavox_Odyssey",
-        "note": "初の家庭用テレビゲーム機とされる。",
-        "label_en": "Magnavox Odyssey",
-        "note_en": "Often cited as the first home video game console.",
-        "url_en": "https://en.wikipedia.org/wiki/Magnavox_Odyssey"
+        "imp": 3,
+        "url": "https://www2u.biglobe.ne.jp/~n-fuji/seiko.pdf",
+        "note": "S-500は服部時計店（現セイコー）のプログラム電卓。https://diarywind.com/blog/e/first-japan-made-pc.html",
+        "label_en": "S-500",
+        "note_en": "The S-500 is a programmable calculator from Hattori Watch Co. (now Seiko).",
+        "url_en": "https://diarywind.com/blog/e/first-japan-made-pc.html"
       },
       {
         "label": "Polaroid SX-70",
@@ -388,17 +388,17 @@
         "url_en": "https://en.wikipedia.org/wiki/Polaroid_SX-70"
       },
       {
-        "label": "S-500",
+        "label": "Magnavox Odyssey",
         "startYear": 1972,
         "genre": [
-          "COMPUTER"
+          "GAME"
         ],
-        "imp": 3,
-        "url": "https://www2u.biglobe.ne.jp/~n-fuji/seiko.pdf",
-        "note": "S-500は服部時計店（現セイコー）のプログラム電卓。https://diarywind.com/blog/e/first-japan-made-pc.html",
-        "label_en": "S-500",
-        "note_en": "The S-500 is a programmable calculator from Hattori Watch Co. (now Seiko).",
-        "url_en": "https://diarywind.com/blog/e/first-japan-made-pc.html"
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/Magnavox_Odyssey",
+        "note": "初の家庭用テレビゲーム機とされる。",
+        "label_en": "Magnavox Odyssey",
+        "note_en": "Often cited as the first home video game console.",
+        "url_en": "https://en.wikipedia.org/wiki/Magnavox_Odyssey"
       },
       {
         "label": "CASIO mini",
