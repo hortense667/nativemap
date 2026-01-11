@@ -32,93 +32,6 @@
     "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
     "notes_en": "This work is licensed under CC BY 4.0. When reusing, please credit the original author (Satoshi Endo), provide a link to the license, and indicate if any changes were made. Please do not create separate versions; keep the original author credit intact."
   },
-  "eraSettings": [],
-  "genres": [
-    {
-      "code": "COMPUTER",
-      "label": "コンピュータ",
-      "label_en": "Computer",
-      "conjunction": false
-    },
-    {
-      "code": "MOBILE",
-      "label": "モバイル・PDA・携帯",
-      "label_en": "Mobile/PDA/Phone",
-      "conjunction": false
-    },
-    {
-      "code": "WEARABLE",
-      "label": "ウェアラブル",
-      "label_en": "Wearable",
-      "conjunction": false
-    },
-    {
-      "code": "CAMERA",
-      "label": "カメラ・撮影",
-      "label_en": "Camera/Imaging",
-      "conjunction": false
-    },
-    {
-      "code": "MEDIA",
-      "label": "メディア・記録",
-      "label_en": "Media/Storage",
-      "conjunction": false
-    },
-    {
-      "code": "PERIPHERAL",
-      "label": "周辺機器・I/O",
-      "label_en": "Peripherals/I-O",
-      "conjunction": false
-    },
-    {
-      "code": "INPUT",
-      "label": "入力デバイス・UI",
-      "label_en": "Input/UI",
-      "conjunction": false
-    },
-    {
-      "code": "GAME",
-      "label": "ゲーム・アーケード",
-      "label_en": "Game/Arcade",
-      "conjunction": false
-    },
-    {
-      "code": "ROBOTOY",
-      "label": "ロボット・おもちゃ",
-      "label_en": "Robotics/Toys",
-      "conjunction": false
-    },
-    {
-      "code": "AUDIO_VIDEO",
-      "label": "オーディオ・ビデオ・家電",
-      "label_en": "Audio/Video/CE",
-      "conjunction": false
-    },
-    {
-      "code": "COMM",
-      "label": "通信・ネットワーク",
-      "label_en": "Communication/Network",
-      "conjunction": false
-    },
-    {
-      "code": "MAKER",
-      "label": "ボード・教育・メイカーズ",
-      "label_en": "Boards/Maker/Edu",
-      "conjunction": false
-    },
-    {
-      "code": "JAPAN",
-      "label": "日本",
-      "label_en": "JAPAN",
-      "conjunction": true
-    },
-    {
-      "code": "WORK",
-      "label": "作業用（仮）",
-      "label_en": "Scratch",
-      "conjunction": true
-    }
-  ],
   "events": {
     "1910": [
       {
@@ -5277,19 +5190,6 @@
         "url_en": "https://en.wikipedia.org/wiki/Ricoh_GXR"
       },
       {
-        "label": "FINEPIX REAL 3D W1",
-        "startYear": 2009,
-        "genre": [
-          "CAMERA"
-        ],
-        "imp": 4,
-        "note": "デュアルレンズで3D静止画/動画。家庭で立体視を実現。",
-        "label_en": "FINEPIX REAL 3D W1",
-        "note_en": "https://ja.wikipedia.org/wiki/FinePix_REAL_3D",
-        "url_en": "https://en.wikipedia.org/wiki/Fujifilm_FinePix_Real_3D_series",
-        "url": "https://ja.wikipedia.org/wiki/FinePix_REAL_3D"
-      },
-      {
         "label": "Fujifilm FinePix REAL 3D W1",
         "startYear": 2009,
         "genre": [
@@ -6759,5 +6659,92 @@
         "note_en": "ERIS6800 is a computer by 科学技術継承財団（マイコン博物館）, widely used in its era."
       }
     ]
-  }
+  },
+  "eraSettings": [],
+  "genres": [
+    {
+      "code": "COMPUTER",
+      "label": "コンピュータ",
+      "label_en": "Computer",
+      "conjunction": false
+    },
+    {
+      "code": "MOBILE",
+      "label": "モバイル・PDA・携帯",
+      "label_en": "Mobile/PDA/Phone",
+      "conjunction": false
+    },
+    {
+      "code": "WEARABLE",
+      "label": "ウェアラブル",
+      "label_en": "Wearable",
+      "conjunction": false
+    },
+    {
+      "code": "CAMERA",
+      "label": "カメラ・撮影",
+      "label_en": "Camera/Imaging",
+      "conjunction": false
+    },
+    {
+      "code": "MEDIA",
+      "label": "メディア・記録",
+      "label_en": "Media/Storage",
+      "conjunction": false
+    },
+    {
+      "code": "PERIPHERAL",
+      "label": "周辺機器・I/O",
+      "label_en": "Peripherals/I-O",
+      "conjunction": false
+    },
+    {
+      "code": "INPUT",
+      "label": "入力デバイス・UI",
+      "label_en": "Input/UI",
+      "conjunction": false
+    },
+    {
+      "code": "GAME",
+      "label": "ゲーム・アーケード",
+      "label_en": "Game/Arcade",
+      "conjunction": false
+    },
+    {
+      "code": "ROBOTOY",
+      "label": "ロボット・おもちゃ",
+      "label_en": "Robotics/Toys",
+      "conjunction": false
+    },
+    {
+      "code": "AUDIO_VIDEO",
+      "label": "オーディオ・ビデオ・家電",
+      "label_en": "Audio/Video/CE",
+      "conjunction": false
+    },
+    {
+      "code": "COMM",
+      "label": "通信・ネットワーク",
+      "label_en": "Communication/Network",
+      "conjunction": false
+    },
+    {
+      "code": "MAKER",
+      "label": "ボード・教育・メイカーズ",
+      "label_en": "Boards/Maker/Edu",
+      "conjunction": false
+    },
+    {
+      "code": "JAPAN",
+      "label": "日本",
+      "label_en": "JAPAN",
+      "conjunction": true
+    },
+    {
+      "code": "WORK",
+      "label": "作業用（仮）",
+      "label_en": "Scratch",
+      "conjunction": true
+    }
+  ]
 }
