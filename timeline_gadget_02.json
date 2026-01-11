@@ -706,19 +706,6 @@
     ],
     "1977": [
       {
-        "label": "TRS-80",
-        "startYear": 1977,
-        "genre": [
-          "COMPUTER"
-        ],
-        "imp": 3,
-        "url": "https://ja.wikipedia.org/wiki/TRS-80",
-        "note": "Tandyの8ビットPC。",
-        "label_en": "TRS-80",
-        "note_en": "An 8-bit microcomputer sold by RadioShack.",
-        "url_en": "https://en.wikipedia.org/wiki/TRS-80"
-      },
-      {
         "label": "Atari 2600",
         "startYear": 1977,
         "genre": [
@@ -811,6 +798,20 @@
         "label_en": "My Computer Primer (book)",
         "note_en": "An introductory book from Japan’s early PC era explaining fundamentals plainly.",
         "url_en": "https://www.amazon.co.jp/dp/4061179136"
+      },
+      {
+        "label": "TRS-80",
+        "startYear": 1977,
+        "genre": [
+          "COMPUTER",
+          "MAKER"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/TRS-80",
+        "note": "Tandyの8ビットPC。",
+        "label_en": "TRS-80",
+        "url_en": "https://en.wikipedia.org/wiki/TRS-80",
+        "note_en": "An 8-bit microcomputer sold by RadioShack."
       }
     ],
     "1978": [
