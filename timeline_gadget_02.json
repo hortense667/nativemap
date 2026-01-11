@@ -649,19 +649,6 @@
         "url_en": "https://en.wikipedia.org/wiki/National_RF-2200"
       },
       {
-        "label": "Apple I",
-        "startYear": 1976,
-        "genre": [
-          "COMPUTER"
-        ],
-        "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/Apple_I",
-        "note": "1976年発売の基板単体キットで、後のApple IIへつながる初期パーソナルコンピュータ。",
-        "label_en": "Apple I",
-        "note_en": "1976 single‑board kit computer that led directly to the Apple II and the Apple personal computer line.",
-        "url_en": "https://en.wikipedia.org/wiki/Apple_I"
-      },
-      {
         "label": "VHS",
         "startYear": 1976,
         "genre": [
@@ -674,6 +661,19 @@
         "label_en": "VHS",
         "note_en": "The videotape format that became the global home standard.",
         "url_en": "https://en.wikipedia.org/wiki/VHS"
+      },
+      {
+        "label": "Apple I",
+        "startYear": 1976,
+        "genre": [
+          "COMPUTER"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/Apple_I",
+        "note": "1976年発売の基板単体キットで、後のApple IIへつながる初期パーソナルコンピュータ。",
+        "label_en": "Apple I",
+        "note_en": "1976 single‑board kit computer that led directly to the Apple II and the Apple personal computer line.",
+        "url_en": "https://en.wikipedia.org/wiki/Apple_I"
       },
       {
         "label": "TK-80",
