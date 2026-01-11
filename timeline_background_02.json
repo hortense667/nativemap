@@ -12765,21 +12765,6 @@
         "note_en": "Landers imaged Mars and conducted experiments on the surface."
       },
       {
-        "label": "アップルコンピュータ創業",
-        "label_en": "Apple Computer founded",
-        "startYear": 1976,
-        "genre": [
-          "COMPANY",
-          "PRODUCT",
-          "WORLD"
-        ],
-        "imp": 3,
-        "url": "https://ja.wikipedia.org/wiki/Apple",
-        "url_en": "https://en.wikipedia.org/wiki/Apple_Inc.",
-        "note": "ジョブズとウォズニアックが創業。個人向けPC時代の旗手へ。",
-        "note_en": "\"Founded by Jobs and Wozniak: became a leader in personal computing.\""
-      },
-      {
         "label": "Apple I 発売（キット）",
         "label_en": "Apple I released (kit)",
         "startYear": 1976,
@@ -13132,6 +13117,20 @@
         "url_en": "https://en.wikipedia.org/wiki/Airline_deregulation",
         "note": "大型機と規制緩和の前段で価格競争が芽生える。",
         "note_en": "Large jets and pre‑deregulation pressures spurred fare competition."
+      },
+      {
+        "label": "アップルコンピュータ創業",
+        "startYear": 1976,
+        "genre": [
+          "COMPANY",
+          "WORLD"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/Apple",
+        "note": "ジョブズとウォズニアックが創業。個人向けPC時代の旗手へ。",
+        "label_en": "Apple Computer founded",
+        "url_en": "https://en.wikipedia.org/wiki/Apple_Inc.",
+        "note_en": "\"Founded by Jobs and Wozniak: became a leader in personal computing.\""
       }
     ],
     "1977": [
