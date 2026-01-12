@@ -6658,6 +6658,19 @@
         "note": "1970年代のマイコンを体験できるMC6802（6800の改良品）を搭載したワンボードマイコン。",
         "label_en": "ERIS6800",
         "note_en": "ERIS6800 is a computer by 科学技術継承財団（マイコン博物館）, widely used in its era."
+      },
+      {
+        "label": "NVIDIA DGX Spark",
+        "startYear": 2025,
+        "genre": [
+          "COMPUTER"
+        ],
+        "imp": 4,
+        "url": "https://www.nvidia.com/ja-jp/products/workstations/dgx-spark/|https://ascii.jp/elem/000/004/363/4363744/",
+        "note": "NVIDIA GB10 Grace Blackwell Superchipを搭載した NVIDIA DGX Spark™ は、電力効率に優れたコンパクトなフォーム ファクターで、petaFLOP1 の AI パフォーマンスを実現します。 NVIDIA AI ソフトウェア スタックと 128 GB のメモリがプリインストールされているため、開発者は最大 2,000 億パラメータをローカルで利用でき、DeepSeek、Meta、NVIDIA、Google、Qwen などが提供する最新世代のリーズニング AI モデルのプロトタイプ作成、ファインチューニング、推論が可能です。（NVIDIAの公式サイトより）",
+        "label_en": "NVIDIA DGX Spark",
+        "url_en": "https://www.nvidia.com/en-us/products/workstations/dgx-spark/?nvid=nv-int-solr-895316-vt34",
+        "note_en": "Powered by the NVIDIA GB10 Grace Blackwell Superchip, NVIDIA DGX Spark™ delivers up to one petaFLOP1 of FP4 AI performance in a power-efficient, compact form factor. With the NVIDIA AI software stack preinstalled and 128 GB of memory, developers can prototype, fine-tune, and inference the latest generation of reasoning AI models from DeepSeek, Meta, NVIDIA, Google, Qwen, and others with up to 200 billion parameters locally."
       }
     ]
   },
