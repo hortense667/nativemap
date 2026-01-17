@@ -4181,6 +4181,22 @@
     ],
     "2017": [
       {
+        "label": "The Bitter Lesson（リチャード・サットン）",
+        "label_en": "The Bitter Lesson(Richard S. Sutton)",
+        "startYear": 2017,
+        "genre": [
+          "THEORY",
+          "ORG",
+          "P_NEURAL",
+          "P_RL"
+        ],
+        "imp": 4,
+        "url": "https://recipe.kc-cloud.jp/archives/16195/",
+        "url_en": "https://en.wikipedia.org/wiki/Bitter_lesson",
+        "note": "強化学習の父と言われるリチャード・サットンによる。計算能力を活用するアプローチが、人間の知識や専門知識をエンコードしようとする試みを常に上回ってきたと主張。知性を再現するためにそれを理解する必要はない、単により大きなコンピュータが必要なだけだということを示唆。",
+        "note_en": "Richard Sutton, often called the father of reinforcement learning, argues that approaches leveraging computational power have consistently outperformed attempts to encode human knowledge and expertise. He suggests that there is no need to understand intelligence to reproduce it"
+      },
+      {
         "label": "Amazon SageMaker",
         "label_en": "Amazon SageMaker",
         "startYear": 2017,
@@ -4384,22 +4400,6 @@
         "url_en": "https://xiaoai.mi.com/",
         "note": "Xiaomiの音声アシスタント。スマートフォンやMiスマートデバイスに標準搭載され、音声で操作やサービス呼び出しが可能。",
         "note_en": "Xiaomi’s voice assistant integrated across Mi phones and devices, enabling hands-free control and service access in Mandarin Chinese."
-      },
-      {
-        "label": "The Bitter Lesson（リチャード・サットン）",
-        "label_en": "The Bitter Lesson(Richard S. Sutton)",
-        "startYear": 2017,
-        "genre": [
-          "THEORY",
-          "ORG",
-          "P_NEURAL",
-          "P_RL"
-        ],
-        "imp": 4,
-        "url": "https://recipe.kc-cloud.jp/archives/16195/",
-        "url_en": "https://en.wikipedia.org/wiki/Bitter_lesson",
-        "note": "強化学習の父と言われるリチャード・サットンによる。計算能力を活用するアプローチが、人間の知識や専門知識をエンコードしようとする試みを常に上回ってきたと主張。知性を再現するためにそれを理解する必要はない、単により大きなコンピュータが必要なだけだということを示唆。",
-        "note_en": "Richard Sutton, often called the father of reinforcement learning, argues that approaches leveraging computational power have consistently outperformed attempts to encode human knowledge and expertise. He suggests that there is no need to understand intelligence to reproduce it"
       }
     ],
     "2018": [
