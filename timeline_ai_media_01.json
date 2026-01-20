@@ -32,211 +32,6 @@
     "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
     "notes": "Updates from contributors are welcome. Please do not create separate versions. When reusing data, credit the original authors."
   },
-  "genres": [
-    {
-      "code": "MEDIATEC",
-      "label": "メディア技術",
-      "label_en": "FALSE",
-      "conjunction": false,
-      "genre_era": false
-    },
-    {
-      "code": "JOURNALISM",
-      "label": "ジャーナリズム",
-      "label_en": "FALSE",
-      "conjunction": false,
-      "genre_era": false
-    },
-    {
-      "code": "KNOWLEDGE",
-      "label": "知識流通",
-      "label_en": "FALSE",
-      "conjunction": false,
-      "genre_era": false
-    },
-    {
-      "code": "MUSIC",
-      "label": "音楽",
-      "label_en": "FALSE",
-      "conjunction": false,
-      "genre_era": false
-    },
-    {
-      "code": "EXPRESSIONTEC",
-      "label": "表現技術",
-      "label_en": "FALSE",
-      "conjunction": false,
-      "genre_era": false
-    },
-    {
-      "code": "DESIGN",
-      "label": "デザイン",
-      "label_en": "FALSE",
-      "conjunction": false,
-      "genre_era": false
-    },
-    {
-      "code": "IMAGING",
-      "label": "映像技術",
-      "label_en": "FALSE",
-      "conjunction": false,
-      "genre_era": false
-    },
-    {
-      "code": "AI",
-      "label": "AI",
-      "label_en": "FALSE",
-      "conjunction": false,
-      "genre_era": false
-    },
-    {
-      "code": "ETHICS",
-      "label": "倫理",
-      "label_en": "FALSE",
-      "conjunction": false,
-      "genre_era": false
-    },
-    {
-      "code": "MEDIA",
-      "label": "メディア",
-      "label_en": "FALSE",
-      "conjunction": false,
-      "genre_era": false
-    },
-    {
-      "code": "EXPRESSION",
-      "label": "表現",
-      "label_en": "FALSE",
-      "conjunction": false,
-      "genre_era": false
-    },
-    {
-      "code": "NET",
-      "label": "インターネット",
-      "label_en": "FALSE",
-      "conjunction": false,
-      "genre_era": false
-    },
-    {
-      "code": "ART",
-      "label": "アート",
-      "label_en": "FALSE",
-      "conjunction": false,
-      "genre_era": false
-    },
-    {
-      "code": "TRUST",
-      "label": "信頼",
-      "label_en": "FALSE",
-      "conjunction": false,
-      "genre_era": false
-    },
-    {
-      "code": "COMMUNITY",
-      "label": "コミュニティ",
-      "label_en": "FALSE",
-      "conjunction": false,
-      "genre_era": false
-    },
-    {
-      "code": "MISICTEC",
-      "label": "音楽技術",
-      "label_en": "FALSE",
-      "conjunction": false,
-      "genre_era": false
-    },
-    {
-      "code": "STANDARD",
-      "label": "標準化",
-      "label_en": "FALSE",
-      "conjunction": false,
-      "genre_era": false
-    },
-    {
-      "code": "MAGAZINE",
-      "label": "雑誌",
-      "label_en": "FALSE",
-      "conjunction": false,
-      "genre_era": false
-    },
-    {
-      "code": "RIGHTS",
-      "label": "権利",
-      "label_en": "FALSE",
-      "conjunction": false,
-      "genre_era": false
-    },
-    {
-      "code": "PLATFORM",
-      "label": "プラットフォーム",
-      "label_en": "FALSE",
-      "conjunction": false,
-      "genre_era": false
-    },
-    {
-      "code": "VIDEO",
-      "label": "映像",
-      "label_en": "FALSE",
-      "conjunction": false,
-      "genre_era": false
-    },
-    {
-      "code": "MOBILE",
-      "label": "モバイル",
-      "label_en": "FALSE",
-      "conjunction": false,
-      "genre_era": false
-    },
-    {
-      "code": "PRODUCTION",
-      "label": "制作",
-      "label_en": "FALSE",
-      "conjunction": false,
-      "genre_era": false
-    },
-    {
-      "code": "LANGUAGE",
-      "label": "言語",
-      "label_en": "FALSE",
-      "conjunction": false,
-      "genre_era": false
-    },
-    {
-      "code": "SAERCH",
-      "label": "検索",
-      "label_en": "FALSE",
-      "conjunction": false,
-      "genre_era": false
-    },
-    {
-      "code": "GENERATIVE",
-      "label": "生成",
-      "label_en": "FALSE",
-      "conjunction": false,
-      "genre_era": false
-    },
-    {
-      "code": "CONTENT",
-      "label": "コンテンツ",
-      "label_en": "FALSE",
-      "conjunction": false,
-      "genre_era": false
-    },
-    {
-      "code": "ROBOT",
-      "label": "ロボット",
-      "label_en": "FALSE",
-      "conjunction": false,
-      "genre_era": false
-    },
-    {
-      "code": "INFORMATION",
-      "label": "情報",
-      "label_en": "FALSE",
-      "conjunction": false,
-      "genre_era": false
-    }
-  ],
   "events": {
     "1884": [
       {
@@ -755,7 +550,6 @@
       },
       {
         "label": "展覧会「Cybernetic Serendipity」",
-        "label_en": "Exhibition “Cybernetic Serendipity”",
         "startYear": 1968,
         "genre": [
           "EXPRESSIONTEC",
@@ -763,12 +557,10 @@
           "ART"
         ],
         "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/サイバネティック・セレンディピティ",
-        "url_en": "https://en.wikipedia.org/wiki/Cybernetic_Serendipity",
         "note": "コンピューターを“創作の道具”として公的に提示した象徴的イベント。AIと表現の議論を、技術史と美術史の両方に接続できる。 #表現技術 #AI #アート",
-        "note_en": "A landmark public framing of computers as creative tools, bridging tech history and art history for today’s AI-expression debates. #表現技術 #AI #アート",
-        "_sheetRow": 33,
-        "_sheetTab": "events"
+        "label_en": "Exhibition “Cybernetic Serendipity”",
+        "url_en": "https://en.wikipedia.org/wiki/Cybernetic_Serendipity",
+        "note_en": "A landmark public framing of computers as creative tools, bridging tech history and art history for today’s AI-expression debates. #表現技術 #AI #アート"
       }
     ],
     "1969": [
@@ -1695,762 +1487,181 @@
       }
     ]
   },
-  "eraSettings": [
+  "eraSettings": [],
+  "genres": [
     {
-      "name": "",
-      "startYear": 1884,
-      "endYear": null,
-      "color": "#cccccc",
-      "opacity": 0.1,
-      "enabled": false,
-      "fillEnabled": false
+      "code": "MEDIATEC",
+      "label": "メディア技術",
+      "label_en": "FALSE",
+      "conjunction": false
     },
     {
-      "name": "",
-      "startYear": 1895,
-      "endYear": null,
-      "color": "#cccccc",
-      "opacity": 0.1,
-      "enabled": false,
-      "fillEnabled": false
+      "code": "JOURNALISM",
+      "label": "ジャーナリズム",
+      "label_en": "FALSE",
+      "conjunction": false
     },
     {
-      "name": "",
-      "startYear": 1895,
-      "endYear": null,
-      "color": "#cccccc",
-      "opacity": 0.1,
-      "enabled": false,
-      "fillEnabled": false
+      "code": "KNOWLEDGE",
+      "label": "知識流通",
+      "label_en": "FALSE",
+      "conjunction": false
     },
     {
-      "name": "",
-      "startYear": 1888,
-      "endYear": null,
-      "color": "#cccccc",
-      "opacity": 0.1,
-      "enabled": false,
-      "fillEnabled": false
+      "code": "MUSIC",
+      "label": "音楽",
+      "label_en": "FALSE",
+      "conjunction": false
     },
     {
-      "name": "",
-      "startYear": 1919,
-      "endYear": 1933,
-      "color": "#cccccc",
-      "opacity": 0.1,
-      "enabled": false,
-      "fillEnabled": false
+      "code": "EXPRESSIONTEC",
+      "label": "表現技術",
+      "label_en": "FALSE",
+      "conjunction": false
     },
     {
-      "name": "",
-      "startYear": 1920,
-      "endYear": null,
-      "color": "#cccccc",
-      "opacity": 0.1,
-      "enabled": false,
-      "fillEnabled": false
+      "code": "DESIGN",
+      "label": "デザイン",
+      "label_en": "FALSE",
+      "conjunction": false
     },
     {
-      "name": "",
-      "startYear": 1927,
-      "endYear": null,
-      "color": "#cccccc",
-      "opacity": 0.1,
-      "enabled": false,
-      "fillEnabled": false
+      "code": "IMAGING",
+      "label": "映像技術",
+      "label_en": "FALSE",
+      "conjunction": false
     },
     {
-      "name": "",
-      "startYear": 1927,
-      "endYear": null,
-      "color": "#cccccc",
-      "opacity": 0.1,
-      "enabled": false,
-      "fillEnabled": false
+      "code": "AI",
+      "label": "AI",
+      "label_en": "FALSE",
+      "conjunction": false
     },
     {
-      "name": "",
-      "startYear": 1927,
-      "endYear": null,
-      "color": "#cccccc",
-      "opacity": 0.1,
-      "enabled": false,
-      "fillEnabled": false
+      "code": "ETHICS",
+      "label": "倫理",
+      "label_en": "FALSE",
+      "conjunction": false
     },
     {
-      "name": "",
-      "startYear": 1935,
-      "endYear": null,
-      "color": "#cccccc",
-      "opacity": 0.1,
-      "enabled": false,
-      "fillEnabled": false
+      "code": "MEDIA",
+      "label": "メディア",
+      "label_en": "FALSE",
+      "conjunction": false
     },
     {
-      "name": "",
-      "startYear": 1936,
-      "endYear": null,
-      "color": "#cccccc",
-      "opacity": 0.1,
-      "enabled": false,
-      "fillEnabled": false
+      "code": "EXPRESSION",
+      "label": "表現",
+      "label_en": "FALSE",
+      "conjunction": false
     },
     {
-      "name": "",
-      "startYear": 1936,
-      "endYear": null,
-      "color": "#cccccc",
-      "opacity": 0.1,
-      "enabled": false,
-      "fillEnabled": false
+      "code": "NET",
+      "label": "インターネット",
+      "label_en": "FALSE",
+      "conjunction": false
     },
     {
-      "name": "",
-      "startYear": 1942,
-      "endYear": null,
-      "color": "#cccccc",
-      "opacity": 0.1,
-      "enabled": false,
-      "fillEnabled": false
+      "code": "ART",
+      "label": "アート",
+      "label_en": "FALSE",
+      "conjunction": false
     },
     {
-      "name": "",
-      "startYear": 1945,
-      "endYear": null,
-      "color": "#cccccc",
-      "opacity": 0.1,
-      "enabled": false,
-      "fillEnabled": false
+      "code": "TRUST",
+      "label": "信頼",
+      "label_en": "FALSE",
+      "conjunction": false
     },
     {
-      "name": "",
-      "startYear": 1948,
-      "endYear": null,
-      "color": "#cccccc",
-      "opacity": 0.1,
-      "enabled": false,
-      "fillEnabled": false
+      "code": "COMMUNITY",
+      "label": "コミュニティ",
+      "label_en": "FALSE",
+      "conjunction": false
     },
     {
-      "name": "",
-      "startYear": 1948,
-      "endYear": null,
-      "color": "#cccccc",
-      "opacity": 0.1,
-      "enabled": false,
-      "fillEnabled": false
+      "code": "MISICTEC",
+      "label": "音楽技術",
+      "label_en": "FALSE",
+      "conjunction": false
     },
     {
-      "name": "",
-      "startYear": 1948,
-      "endYear": null,
-      "color": "#cccccc",
-      "opacity": 0.1,
-      "enabled": false,
-      "fillEnabled": false
+      "code": "STANDARD",
+      "label": "標準化",
+      "label_en": "FALSE",
+      "conjunction": false
     },
     {
-      "name": "",
-      "startYear": 1948,
-      "endYear": null,
-      "color": "#cccccc",
-      "opacity": 0.1,
-      "enabled": false,
-      "fillEnabled": false
+      "code": "MAGAZINE",
+      "label": "雑誌",
+      "label_en": "FALSE",
+      "conjunction": false
     },
     {
-      "name": "",
-      "startYear": 1950,
-      "endYear": null,
-      "color": "#cccccc",
-      "opacity": 0.1,
-      "enabled": false,
-      "fillEnabled": false
+      "code": "RIGHTS",
+      "label": "権利",
+      "label_en": "FALSE",
+      "conjunction": false
     },
     {
-      "name": "",
-      "startYear": 1950,
-      "endYear": null,
-      "color": "#cccccc",
-      "opacity": 0.1,
-      "enabled": false,
-      "fillEnabled": false
+      "code": "PLATFORM",
+      "label": "プラットフォーム",
+      "label_en": "FALSE",
+      "conjunction": false
     },
     {
-      "name": "",
-      "startYear": 1952,
-      "endYear": null,
-      "color": "#cccccc",
-      "opacity": 0.1,
-      "enabled": false,
-      "fillEnabled": false
+      "code": "VIDEO",
+      "label": "映像",
+      "label_en": "FALSE",
+      "conjunction": false
     },
     {
-      "name": "",
-      "startYear": 1955,
-      "endYear": null,
-      "color": "#cccccc",
-      "opacity": 0.1,
-      "enabled": false,
-      "fillEnabled": false
+      "code": "MOBILE",
+      "label": "モバイル",
+      "label_en": "FALSE",
+      "conjunction": false
     },
     {
-      "name": "",
-      "startYear": 1956,
-      "endYear": null,
-      "color": "#cccccc",
-      "opacity": 0.1,
-      "enabled": false,
-      "fillEnabled": false
+      "code": "PRODUCTION",
+      "label": "制作",
+      "label_en": "FALSE",
+      "conjunction": false
     },
     {
-      "name": "",
-      "startYear": 1957,
-      "endYear": null,
-      "color": "#cccccc",
-      "opacity": 0.1,
-      "enabled": false,
-      "fillEnabled": false
+      "code": "LANGUAGE",
+      "label": "言語",
+      "label_en": "FALSE",
+      "conjunction": false
     },
     {
-      "name": "",
-      "startYear": 1963,
-      "endYear": null,
-      "color": "#cccccc",
-      "opacity": 0.1,
-      "enabled": false,
-      "fillEnabled": false
+      "code": "SAERCH",
+      "label": "検索",
+      "label_en": "FALSE",
+      "conjunction": false
     },
     {
-      "name": "",
-      "startYear": 1964,
-      "endYear": null,
-      "color": "#cccccc",
-      "opacity": 0.1,
-      "enabled": false,
-      "fillEnabled": false
+      "code": "GENERATIVE",
+      "label": "生成",
+      "label_en": "FALSE",
+      "conjunction": false
     },
     {
-      "name": "",
-      "startYear": 1964,
-      "endYear": null,
-      "color": "#cccccc",
-      "opacity": 0.1,
-      "enabled": false,
-      "fillEnabled": false
+      "code": "CONTENT",
+      "label": "コンテンツ",
+      "label_en": "FALSE",
+      "conjunction": false
     },
     {
-      "name": "",
-      "startYear": 1964,
-      "endYear": null,
-      "color": "#cccccc",
-      "opacity": 0.1,
-      "enabled": false,
-      "fillEnabled": false
+      "code": "ROBOT",
+      "label": "ロボット",
+      "label_en": "FALSE",
+      "conjunction": false
     },
     {
-      "name": "",
-      "startYear": 1965,
-      "endYear": null,
-      "color": "#cccccc",
-      "opacity": 0.1,
-      "enabled": false,
-      "fillEnabled": false
-    },
-    {
-      "name": "",
-      "startYear": 1968,
-      "endYear": null,
-      "color": "#cccccc",
-      "opacity": 0.1,
-      "enabled": false,
-      "fillEnabled": false
-    },
-    {
-      "name": "",
-      "startYear": 1968,
-      "endYear": null,
-      "color": "#cccccc",
-      "opacity": 0.1,
-      "enabled": false,
-      "fillEnabled": false
-    },
-    {
-      "name": "",
-      "startYear": 1968,
-      "endYear": null,
-      "color": "#cccccc",
-      "opacity": 0.1,
-      "enabled": false,
-      "fillEnabled": false
-    },
-    {
-      "name": "",
-      "startYear": 1969,
-      "endYear": null,
-      "color": "#cccccc",
-      "opacity": 0.1,
-      "enabled": false,
-      "fillEnabled": false
-    },
-    {
-      "name": "",
-      "startYear": 1969,
-      "endYear": null,
-      "color": "#cccccc",
-      "opacity": 0.1,
-      "enabled": false,
-      "fillEnabled": false
-    },
-    {
-      "name": "",
-      "startYear": 1970,
-      "endYear": null,
-      "color": "#cccccc",
-      "opacity": 0.1,
-      "enabled": false,
-      "fillEnabled": false
-    },
-    {
-      "name": "",
-      "startYear": 1971,
-      "endYear": null,
-      "color": "#cccccc",
-      "opacity": 0.1,
-      "enabled": false,
-      "fillEnabled": false
-    },
-    {
-      "name": "",
-      "startYear": 1973,
-      "endYear": null,
-      "color": "#cccccc",
-      "opacity": 0.1,
-      "enabled": false,
-      "fillEnabled": false
-    },
-    {
-      "name": "",
-      "startYear": 1973,
-      "endYear": null,
-      "color": "#cccccc",
-      "opacity": 0.1,
-      "enabled": false,
-      "fillEnabled": false
-    },
-    {
-      "name": "",
-      "startYear": 1976,
-      "endYear": null,
-      "color": "#cccccc",
-      "opacity": 0.1,
-      "enabled": false,
-      "fillEnabled": false
-    },
-    {
-      "name": "",
-      "startYear": 1977,
-      "endYear": null,
-      "color": "#cccccc",
-      "opacity": 0.1,
-      "enabled": false,
-      "fillEnabled": false
-    },
-    {
-      "name": "",
-      "startYear": 1977,
-      "endYear": null,
-      "color": "#cccccc",
-      "opacity": 0.1,
-      "enabled": false,
-      "fillEnabled": false
-    },
-    {
-      "name": "",
-      "startYear": 1978,
-      "endYear": null,
-      "color": "#cccccc",
-      "opacity": 0.1,
-      "enabled": false,
-      "fillEnabled": false
-    },
-    {
-      "name": "",
-      "startYear": 1979,
-      "endYear": 1980,
-      "color": "#cccccc",
-      "opacity": 0.1,
-      "enabled": false,
-      "fillEnabled": false
-    },
-    {
-      "name": "",
-      "startYear": 1980,
-      "endYear": null,
-      "color": "#cccccc",
-      "opacity": 0.1,
-      "enabled": false,
-      "fillEnabled": false
-    },
-    {
-      "name": "",
-      "startYear": 1983,
-      "endYear": null,
-      "color": "#cccccc",
-      "opacity": 0.1,
-      "enabled": false,
-      "fillEnabled": false
-    },
-    {
-      "name": "",
-      "startYear": 1984,
-      "endYear": null,
-      "color": "#cccccc",
-      "opacity": 0.1,
-      "enabled": false,
-      "fillEnabled": false
-    },
-    {
-      "name": "",
-      "startYear": 1984,
-      "endYear": null,
-      "color": "#cccccc",
-      "opacity": 0.1,
-      "enabled": false,
-      "fillEnabled": false
-    },
-    {
-      "name": "",
-      "startYear": 1984,
-      "endYear": null,
-      "color": "#cccccc",
-      "opacity": 0.1,
-      "enabled": false,
-      "fillEnabled": false
-    },
-    {
-      "name": "",
-      "startYear": 1985,
-      "endYear": null,
-      "color": "#cccccc",
-      "opacity": 0.1,
-      "enabled": false,
-      "fillEnabled": false
-    },
-    {
-      "name": "",
-      "startYear": 1985,
-      "endYear": null,
-      "color": "#cccccc",
-      "opacity": 0.1,
-      "enabled": false,
-      "fillEnabled": false
-    },
-    {
-      "name": "",
-      "startYear": 1988,
-      "endYear": null,
-      "color": "#cccccc",
-      "opacity": 0.1,
-      "enabled": false,
-      "fillEnabled": false
-    },
-    {
-      "name": "",
-      "startYear": 1990,
-      "endYear": null,
-      "color": "#cccccc",
-      "opacity": 0.1,
-      "enabled": false,
-      "fillEnabled": false
-    },
-    {
-      "name": "",
-      "startYear": 1991,
-      "endYear": null,
-      "color": "#cccccc",
-      "opacity": 0.1,
-      "enabled": false,
-      "fillEnabled": false
-    },
-    {
-      "name": "",
-      "startYear": 1993,
-      "endYear": null,
-      "color": "#cccccc",
-      "opacity": 0.1,
-      "enabled": false,
-      "fillEnabled": false
-    },
-    {
-      "name": "",
-      "startYear": 1995,
-      "endYear": null,
-      "color": "#cccccc",
-      "opacity": 0.1,
-      "enabled": false,
-      "fillEnabled": false
-    },
-    {
-      "name": "",
-      "startYear": 1997,
-      "endYear": null,
-      "color": "#cccccc",
-      "opacity": 0.1,
-      "enabled": false,
-      "fillEnabled": false
-    },
-    {
-      "name": "",
-      "startYear": 1997,
-      "endYear": null,
-      "color": "#cccccc",
-      "opacity": 0.1,
-      "enabled": false,
-      "fillEnabled": false
-    },
-    {
-      "name": "",
-      "startYear": 1998,
-      "endYear": null,
-      "color": "#cccccc",
-      "opacity": 0.1,
-      "enabled": false,
-      "fillEnabled": false
-    },
-    {
-      "name": "",
-      "startYear": 1999,
-      "endYear": null,
-      "color": "#cccccc",
-      "opacity": 0.1,
-      "enabled": false,
-      "fillEnabled": false
-    },
-    {
-      "name": "",
-      "startYear": 1999,
-      "endYear": null,
-      "color": "#cccccc",
-      "opacity": 0.1,
-      "enabled": false,
-      "fillEnabled": false
-    },
-    {
-      "name": "",
-      "startYear": 1999,
-      "endYear": null,
-      "color": "#cccccc",
-      "opacity": 0.1,
-      "enabled": false,
-      "fillEnabled": false
-    },
-    {
-      "name": "",
-      "startYear": 1999,
-      "endYear": null,
-      "color": "#cccccc",
-      "opacity": 0.1,
-      "enabled": false,
-      "fillEnabled": false
-    },
-    {
-      "name": "",
-      "startYear": 2001,
-      "endYear": null,
-      "color": "#cccccc",
-      "opacity": 0.1,
-      "enabled": false,
-      "fillEnabled": false
-    },
-    {
-      "name": "",
-      "startYear": 2001,
-      "endYear": null,
-      "color": "#cccccc",
-      "opacity": 0.1,
-      "enabled": false,
-      "fillEnabled": false
-    },
-    {
-      "name": "",
-      "startYear": 2005,
-      "endYear": null,
-      "color": "#cccccc",
-      "opacity": 0.1,
-      "enabled": false,
-      "fillEnabled": false
-    },
-    {
-      "name": "",
-      "startYear": 2006,
-      "endYear": null,
-      "color": "#cccccc",
-      "opacity": 0.1,
-      "enabled": false,
-      "fillEnabled": false
-    },
-    {
-      "name": "",
-      "startYear": 2007,
-      "endYear": null,
-      "color": "#cccccc",
-      "opacity": 0.1,
-      "enabled": false,
-      "fillEnabled": false
-    },
-    {
-      "name": "",
-      "startYear": 2007,
-      "endYear": null,
-      "color": "#cccccc",
-      "opacity": 0.1,
-      "enabled": false,
-      "fillEnabled": false
-    },
-    {
-      "name": "",
-      "startYear": 2012,
-      "endYear": null,
-      "color": "#cccccc",
-      "opacity": 0.1,
-      "enabled": false,
-      "fillEnabled": false
-    },
-    {
-      "name": "",
-      "startYear": 2013,
-      "endYear": null,
-      "color": "#cccccc",
-      "opacity": 0.1,
-      "enabled": false,
-      "fillEnabled": false
-    },
-    {
-      "name": "",
-      "startYear": 2014,
-      "endYear": null,
-      "color": "#cccccc",
-      "opacity": 0.1,
-      "enabled": false,
-      "fillEnabled": false
-    },
-    {
-      "name": "",
-      "startYear": 2017,
-      "endYear": null,
-      "color": "#cccccc",
-      "opacity": 0.1,
-      "enabled": false,
-      "fillEnabled": false
-    },
-    {
-      "name": "",
-      "startYear": 2017,
-      "endYear": null,
-      "color": "#cccccc",
-      "opacity": 0.1,
-      "enabled": false,
-      "fillEnabled": false
-    },
-    {
-      "name": "",
-      "startYear": 2019,
-      "endYear": null,
-      "color": "#cccccc",
-      "opacity": 0.1,
-      "enabled": false,
-      "fillEnabled": false
-    },
-    {
-      "name": "",
-      "startYear": 2020,
-      "endYear": null,
-      "color": "#cccccc",
-      "opacity": 0.1,
-      "enabled": false,
-      "fillEnabled": false
-    },
-    {
-      "name": "",
-      "startYear": 2020,
-      "endYear": null,
-      "color": "#cccccc",
-      "opacity": 0.1,
-      "enabled": false,
-      "fillEnabled": false
-    },
-    {
-      "name": "",
-      "startYear": 2021,
-      "endYear": null,
-      "color": "#cccccc",
-      "opacity": 0.1,
-      "enabled": false,
-      "fillEnabled": false
-    },
-    {
-      "name": "",
-      "startYear": 2021,
-      "endYear": null,
-      "color": "#cccccc",
-      "opacity": 0.1,
-      "enabled": false,
-      "fillEnabled": false
-    },
-    {
-      "name": "",
-      "startYear": 2022,
-      "endYear": null,
-      "color": "#cccccc",
-      "opacity": 0.1,
-      "enabled": false,
-      "fillEnabled": false
-    },
-    {
-      "name": "",
-      "startYear": 2022,
-      "endYear": null,
-      "color": "#cccccc",
-      "opacity": 0.1,
-      "enabled": false,
-      "fillEnabled": false
-    },
-    {
-      "name": "",
-      "startYear": 2023,
-      "endYear": null,
-      "color": "#cccccc",
-      "opacity": 0.1,
-      "enabled": false,
-      "fillEnabled": false
-    },
-    {
-      "name": "",
-      "startYear": 2024,
-      "endYear": null,
-      "color": "#cccccc",
-      "opacity": 0.1,
-      "enabled": false,
-      "fillEnabled": false
-    },
-    {
-      "name": "",
-      "startYear": 2024,
-      "endYear": null,
-      "color": "#cccccc",
-      "opacity": 0.1,
-      "enabled": false,
-      "fillEnabled": false
-    },
-    {
-      "name": "",
-      "startYear": 2025,
-      "endYear": null,
-      "color": "#cccccc",
-      "opacity": 0.1,
-      "enabled": false,
-      "fillEnabled": false
+      "code": "INFORMATION",
+      "label": "情報",
+      "label_en": "FALSE",
+      "conjunction": false
     }
   ]
 }
