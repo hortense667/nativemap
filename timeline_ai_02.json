@@ -1585,19 +1585,6 @@
         "url_en": "https://en.wikipedia.org/wiki/Home_computer#1977_trinity",
         "note": "1977年のパーソナルコンピュータ御三家。完成品として販売され、PCが大衆化・産業化する起点となった。",
         "note_en": "The 1977 trinity of PCs. Sold as finished goods, marking the start of PC mass adoption and industrialization."
-      },
-      {
-        "label": "Personal Dynamic Media",
-        "label_en": "Personal Dynamic Media",
-        "startYear": 1977,
-        "genre": [
-          "THEORY"
-        ],
-        "imp": 4,
-        "url": "https://en.wikipedia.org/wiki/Alan_Kay",
-        "url_en": "https://en.wikipedia.org/wiki/Alan_Kay",
-        "note": "アラン・ケイの論文。コンピュータを単なる計算機ではなく、表現と創造のための動的なメディアと定義した。",
-        "note_en": "Paper by Alan Kay. Defined computer not just as calculator, but as dynamic media for expression/creation."
       }
     ],
     "1978": [
