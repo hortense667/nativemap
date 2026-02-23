@@ -2793,16 +2793,15 @@
       },
       {
         "label": "サプレマシー（AI覇権）",
-        "label_en": "Supremacy: AI, ChatGPT and the Race That Will Change the World",
         "startYear": "2024",
         "genre": [
           "COMPUTER",
           "THEORYMEDIA"
         ],
         "imp": 4,
-        "url": "https://ja.wikipedia.org/w/index.php?search=Supremacy%20Parmy%20Olson",
-        "url_en": "https://en.wikipedia.org/wiki/Supremacy_(book)",
         "note": "OpenAIとDeepMind/Googleの競争を軸にAI覇権レースを描く。権力化するAI産業の俯瞰。",
+        "label_en": "Supremacy: AI, ChatGPT and the Race That Will Change the World",
+        "url_en": "https://en.wikipedia.org/wiki/Supremacy_(book)",
         "note_en": "Explains the AI race via OpenAI vs DeepMind/Google"
       }
     ],
