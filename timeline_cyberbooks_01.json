@@ -2834,15 +2834,14 @@
       },
       {
         "label": "グレイ・ミラー（書籍版）第1冊",
-        "label_en": "Gray Mirror: Fascicle I: Disturbance",
         "startYear": "2025",
         "genre": [
           "THEORYMEDIA"
         ],
         "imp": 4,
-        "url": "https://ja.wikipedia.org/w/index.php?search=Gray%20Mirror%20Curtis%20Yarvin",
-        "url_en": "https://www.amazon.com/Gray-Mirror-Fascicle-I-Disturbance-ebook/dp/B0FZ6QKY36",
         "note": "ヤーヴィンの新シリーズを書籍化。反民主主義の制度設計案を“本”として提示する動き。",
+        "label_en": "Gray Mirror: Fascicle I: Disturbance",
+        "url_en": "https://www.amazon.com/Gray-Mirror-Fascicle-I-Disturbance-ebook/dp/B0FZ6QKY36",
         "note_en": "Yarvin’s new print series"
       },
       {
