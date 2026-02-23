@@ -2618,16 +2618,15 @@
       },
       {
         "label": "スーパーインテリジェンス",
-        "label_en": "Superintelligence: Paths, Dangers, Strategies",
         "startYear": "2014",
         "genre": [
           "COMPUTER",
           "THEORYMEDIA"
         ],
         "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/スーパーインテリジェンス",
-        "url_en": "https://en.wikipedia.org/wiki/Superintelligence:_Paths,_Dangers,_Strategies",
         "note": "超知能の出現と制御困難を体系化。AI安全・長期主義・加速論争の基礎本。",
+        "label_en": "Superintelligence: Paths, Dangers, Strategies",
+        "url_en": "https://en.wikipedia.org/wiki/Superintelligence:_Paths,_Dangers,_Strategies",
         "note_en": "Systematizes superintelligence and control difficulty"
       }
     ],
