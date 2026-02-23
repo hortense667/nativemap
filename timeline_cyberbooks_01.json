@@ -2574,16 +2574,15 @@
     "2013": [
       {
         "label": "トランスヒューマニスト・リーダー",
-        "label_en": "The Transhumanist Reader",
         "startYear": "2013",
         "genre": [
           "SCIENCE",
           "THEORYMEDIA"
         ],
         "imp": 4,
-        "url": "https://ja.wikipedia.org/w/index.php?search=The%20Transhumanist%20Reader",
-        "url_en": "https://en.wikipedia.org/w/index.php?search=The%20Transhumanist%20Reader",
         "note": "トランスヒューマニズムの重要文献を集成。強化・長寿・未来主義の基礎教科書。",
+        "label_en": "The Transhumanist Reader",
+        "url_en": "https://www.amazon.co.jp/dp/B00BQZK6MU/",
         "note_en": "A canonical anthology of transhumanist texts"
       }
     ],
