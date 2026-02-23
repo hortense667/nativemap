@@ -2559,15 +2559,14 @@
     "2011": [
       {
         "label": "牙のあるヌーメナ（論集）",
-        "label_en": "Fanged Noumena: Collected Writings 1987–2007",
         "startYear": "2011",
         "genre": [
           "THEORYMEDIA"
         ],
         "imp": 4,
-        "url": "https://ja.wikipedia.org/w/index.php?search=Fanged%20Noumena",
-        "url_en": "https://en.wikipedia.org/wiki/Fanged_Noumena",
         "note": "ニック・ランドの主要論考集。加速主義〜暗黒啓蒙の思想的源泉として参照される。",
+        "label_en": "Fanged Noumena: Collected Writings 1987–2007",
+        "url_en": "https://en.wikipedia.org/wiki/Fanged_Noumena",
         "note_en": "Nick Land’s key essays"
       }
     ],
