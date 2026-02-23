@@ -2859,15 +2859,14 @@
       },
       {
         "label": "ナード・ライヒ",
-        "label_en": "The Nerd Reich: Silicon Valley Fascism and the War on Democracy",
         "startYear": "2025",
         "genre": [
           "THEORYMEDIA"
         ],
         "imp": 4,
-        "url": "https://ja.wikipedia.org/w/index.php?search=The%20Nerd%20Reich%20Gil%20Duran",
-        "url_en": "https://www.simonandschuster.com/books/The-Nerd-Reich/Gil-Duran/9781668221402",
         "note": "テック権力が反民主主義運動へ接続する流れを通史的に描く。用語は強いが全体像に便利。",
+        "label_en": "The Nerd Reich: Silicon Valley Fascism and the War on Democracy",
+        "url_en": "https://www.simonandschuster.com/books/The-Nerd-Reich/Gil-Duran/9781668221402",
         "note_en": "Chronicle of tech-authoritarian movement"
       }
     ]
