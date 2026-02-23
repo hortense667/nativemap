@@ -2847,15 +2847,14 @@
       },
       {
         "label": "ギルデッド・レイジ",
-        "label_en": "Gilded Rage: Elon Musk and the Radicalization of Silicon Valley",
         "startYear": "2025",
         "genre": [
           "THEORYMEDIA"
         ],
         "imp": 5,
-        "url": "https://ja.wikipedia.org/w/index.php?search=Gilded%20Rage%20Jacob%20Silverman",
-        "url_en": "https://www.bloomsbury.com/us/gilded-rage-9781399419987/",
         "note": "マスクを軸にシリコンバレーが民主主義へ敵対的に“急進化”する過程を30年スパンで解説。",
+        "label_en": "Gilded Rage: Elon Musk and the Radicalization of Silicon Valley",
+        "url_en": "https://www.bloomsbury.com/us/gilded-rage-9781399419987/",
         "note_en": "A clear map of Silicon Valley’s radicalization against democracy over ~30 years, via Musk."
       },
       {
