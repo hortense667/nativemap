@@ -2291,15 +2291,14 @@
       },
       {
         "label": "主権的個人",
-        "label_en": "The Sovereign Individual",
         "startYear": "1997",
         "genre": [
           "THEORYMEDIA"
         ],
         "imp": 5,
-        "url": "https://ja.wikipedia.org/w/index.php?search=主権的個人%20The%20Sovereign%20Individual",
-        "url_en": "https://en.wikipedia.org/wiki/The_Sovereign_Individual",
         "note": "暗号と情報化が国家の課税能力を削り「主権的個人」が台頭するというExit系の古典。",
+        "label_en": "The Sovereign Individual",
+        "url_en": "https://en.wikipedia.org/wiki/The_Sovereign_Individual",
         "note_en": "Exit-classic arguing crypto/information erodes state power, enabling “sovereign individuals.”"
       }
     ],
