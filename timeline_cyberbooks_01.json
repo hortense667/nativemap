@@ -2030,6 +2030,19 @@
         "label_en": "Being Digital(Nicholas Negroponte)",
         "url_en": "https://en.wikipedia.org/wiki/Being_Digital|https://www.amazon.com/Being-Digital-Nicholas-Negroponte/dp/0679439196&https://m.media-amazon.com/images/I/81E+AG6+QkL._SX445_.jpg",
         "note_en": "A work by Nicholas Negroponte, founder of the MIT Media Lab, predicting the impact of digital technology on every aspect of society, economy, culture, and life. It declared the transition from the \"Age of Atoms (matter)\" to the \"Age of Bits (information),\" presenting a vision of the Internet era to the public. /Published in 1995, just as the Internet began to spread to the general public, its predictions about the future caused a sensation. It is a book that allows readers to assess how closely modern society has approached the future envisioned by Negroponte.(C)"
+      },
+      {
+        "label": "多様性神話",
+        "label_en": "The Diversity Myth: Multiculturalism and Political Intolerance on Campus",
+        "startYear": "1995",
+        "genre": [
+          "THEORYMEDIA"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/w/index.php?search=多様性神話%20ピーター・ティール%20デヴィッド・サックス",
+        "url_en": "https://en.wikipedia.org/w/index.php?search=The%20Diversity%20Myth%20Thiel%20Sacks",
+        "note": "キャンパス文化戦争を「反PC」側から描いた初期テキスト。後のテック右派的言説の雛形。",
+        "note_en": "An early anti-PC/culture-war text from Thiel/Sacks"
       }
     ],
     "1996": [
@@ -2275,6 +2288,19 @@
         "url_en": "https://en.wikipedia.org/wiki/Dilbert|https://www.amazon.com/Dilbert-Principle-Cubicles-Eye-Management-Afflictions/dp/0887307876/&https://m.media-amazon.com/images/I/81pOS1GM5BL.SY342.jpg",
         "note": "人気コミック「ディルバート」の作者が提唱した風刺的な法則、「組織の損害を最小限に抑えるため、あえて無能な人材を（中間管理職に）昇進させる」という「ディルバートの法則」を展開した書籍。IT企業でエンジニア経験を持つ著者が、オフィスでの無駄な会議、非合理的な上司、流行の経営理論など、サラリーマンの日常的な苦痛をブラックユーモアを交えて描きます。現代のオフィスカルチャーと「ピーターの法則」への痛烈な風刺として、広く読まれました。(E)",
         "note_en": "A book that elaborates on \"The Dilbert Principle,\" a satirical rule proposed by the creator of the popular comic \"Dilbert\": \"organizations systematically promote their least-competent employees to management (generally middle management) to limit the amount of damage they can do.\" The author, who has experience as an engineer in an IT company, uses dark humor to depict the daily agonies of office workers, such as pointless meetings, irrational bosses, and trendy management theories. It was widely read as a trenchant satire on modern office culture and \"The Peter Principle.\"(E)"
+      },
+      {
+        "label": "主権的個人",
+        "label_en": "The Sovereign Individual",
+        "startYear": "1997",
+        "genre": [
+          "THEORYMEDIA"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/w/index.php?search=主権的個人%20The%20Sovereign%20Individual",
+        "url_en": "https://en.wikipedia.org/wiki/The_Sovereign_Individual",
+        "note": "暗号と情報化が国家の課税能力を削り「主権的個人」が台頭するというExit系の古典。",
+        "note_en": "Exit-classic arguing crypto/information erodes state power, enabling “sovereign individuals.”"
       }
     ],
     "1998": [
@@ -2514,6 +2540,51 @@
         "url_en": "https://en.wikipedia.org/wiki/Hackers_%26_Painters|https://www.amazon.com/Hackers-Painters-Big-Ideas-Computer/dp/B08Z4FHH3T&https://m.media-amazon.com/images/I/91ydydG-m+L.SX342.jpg",
         "note": "天才LISPハッカーであり、大成功を収めたベンチャー企業の創業者であるポール・グレアムによるエッセイ集。ハッカーを「画家や建築家と同じ、ものを創る人々」と定義し、プログラミング、スタートアップ、富の創造、オタク文化など、コンピュータ時代の創造者に向けた深い洞察を提供します。特に、「富の創りかた」や「もうひとつの未来への道（Webベースソフトウェア）」といった章は、起業家精神やイノベーションの考え方を刺激します。(E)",
         "note_en": "A collection of essays by Paul Graham, a genius LISP hacker and the founder of a highly successful venture company. Defining hackers as \"people who create things, just like painters and architects,\" the book offers deep insights for creators in the computer age on topics such as programming, startups, wealth creation, and nerd culture. Chapters like \"How to Make Wealth\" and \"The Other Road Ahead (Web-based software)\" are particularly stimulating for entrepreneurial spirit and the mindset of innovation.(E)"
+      },
+      {
+        "label": "シンギュラリティは近い",
+        "label_en": "The Singularity Is Near",
+        "startYear": "2005",
+        "genre": [
+          "COMPUTER",
+          "THEORYMEDIA"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/w/index.php?search=シンギュラリティは近い",
+        "url_en": "https://en.wikipedia.org/wiki/The_Singularity_Is_Near",
+        "note": "特異点論を大衆化した代表作。加速主義・超知能観の“確信”を支える定番。",
+        "note_en": "The book that popularized the Singularity"
+      }
+    ],
+    "2011": [
+      {
+        "label": "牙のあるヌーメナ（論集）",
+        "label_en": "Fanged Noumena: Collected Writings 1987–2007",
+        "startYear": "2011",
+        "genre": [
+          "THEORYMEDIA"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/w/index.php?search=Fanged%20Noumena",
+        "url_en": "https://en.wikipedia.org/wiki/Fanged_Noumena",
+        "note": "ニック・ランドの主要論考集。加速主義〜暗黒啓蒙の思想的源泉として参照される。",
+        "note_en": "Nick Land’s key essays"
+      }
+    ],
+    "2013": [
+      {
+        "label": "トランスヒューマニスト・リーダー",
+        "label_en": "The Transhumanist Reader",
+        "startYear": "2013",
+        "genre": [
+          "SCIENCE",
+          "THEORYMEDIA"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/w/index.php?search=The%20Transhumanist%20Reader",
+        "url_en": "https://en.wikipedia.org/w/index.php?search=The%20Transhumanist%20Reader",
+        "note": "トランスヒューマニズムの重要文献を集成。強化・長寿・未来主義の基礎教科書。",
+        "note_en": "A canonical anthology of transhumanist texts"
       }
     ],
     "2014": [
@@ -2531,6 +2602,48 @@
         "note": "消費社会への批判と、その影響を受けた運動は、現実に問題を解決してきたか。資本主義に根ざす現代社会は様々な問題を抱えているとはいえ、それを根こそぎ否定してしまうことに問題解決の道はない。人びとの協力を引き出すために具体的な制度・ルールの設計こそが求められている。異色の哲学者ヒースとポッターのコンビが、カウンターカルチャーの矛盾を徹底的に暴く。",
         "label_en": "THE REBEL SELL: Why the Culture Can't Be Jammed",
         "url_en": "https://www.amazon.com/REBEL-SELL-Culture-Cant-Jammed/dp/0002007908"
+      },
+      {
+        "label": "ゼロ・トゥ・ワン",
+        "label_en": "Zero to One: Notes on Startups, or How to Build the Future",
+        "startYear": "2014",
+        "genre": [
+          "THEORYMEDIA"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/ゼロ・トゥ・ワン_君はゼロから何を生み出せるか",
+        "url_en": "https://en.wikipedia.org/wiki/Zero_to_One",
+        "note": "ティール思想の入口。競争否定・独占肯定・未来構築論が政治観とも地続き。",
+        "note_en": "Thiel’s gateway text"
+      },
+      {
+        "label": "スーパーインテリジェンス",
+        "label_en": "Superintelligence: Paths, Dangers, Strategies",
+        "startYear": "2014",
+        "genre": [
+          "COMPUTER",
+          "THEORYMEDIA"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/スーパーインテリジェンス",
+        "url_en": "https://en.wikipedia.org/wiki/Superintelligence:_Paths,_Dangers,_Strategies",
+        "note": "超知能の出現と制御困難を体系化。AI安全・長期主義・加速論争の基礎本。",
+        "note_en": "Systematizes superintelligence and control difficulty"
+      }
+    ],
+    "2015": [
+      {
+        "label": "イーロン・マスク 未来を創る男",
+        "label_en": "Elon Musk: Tesla, SpaceX, and the Quest for a Fantastic Future",
+        "startYear": "2015",
+        "genre": [
+          "THEORYMEDIA"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/イーロン・マスク_未来を創る男",
+        "url_en": "https://en.wikipedia.org/wiki/Elon_Musk:_Tesla,_SpaceX,_and_the_Quest_for_a_Fantastic_Future",
+        "note": "マスク前半生の定番伝記。PayPal以後のテック神話形成と企業統治の実像が掴める。",
+        "note_en": "Classic early biography"
       }
     ],
     "2018": [
@@ -2549,6 +2662,21 @@
         "url_en": "https://www.amazon.com/dp/0385540418&https://m.media-amazon.com/images/I/71CW11-2m3L._SY466_.jpg"
       }
     ],
+    "2019": [
+      {
+        "label": "監視資本主義",
+        "label_en": "The Age of Surveillance Capitalism",
+        "startYear": "2019",
+        "genre": [
+          "THEORYMEDIA"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/監視資本主義",
+        "url_en": "https://en.wikipedia.org/wiki/The_Age_of_Surveillance_Capitalism",
+        "note": "データ収奪と行動予測が権力になる構造を提示。反規制・プラットフォーム権力理解に必須。",
+        "note_en": "Defines surveillance capitalism—data extraction + behavior control"
+      }
+    ],
     "2020": [
       {
         "label": "暗黒の啓蒙書（ニック ランド）",
@@ -2562,6 +2690,120 @@
         "note": "民主主義と平等主義の欺瞞を暴け。\n資本主義を加速せよ。",
         "label_en": "The Dark Enlightenment",
         "url_en": "https://en.wikipedia.org/wiki/Dark_Enlightenment"
+      }
+    ],
+    "2021": [
+      {
+        "label": "ネットワーク・ステート",
+        "label_en": "The Network State: How to Start a New Country",
+        "startYear": "2021",
+        "genre": [
+          "THEORYMEDIA"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/w/index.php?search=ネットワーク国家%20The%20Network%20State",
+        "url_en": "https://en.wikipedia.org/wiki/The_Network_State",
+        "note": "オンライン共同体から国家を“起業”する構想。Exit/国家再設計の現代テキスト。",
+        "note_en": "Blueprint for “starting a country” from online communities"
+      },
+      {
+        "label": "異端者（ティール伝）",
+        "label_en": "The Contrarian: Peter Thiel and Silicon Valley’s Pursuit of Power",
+        "startYear": "2021",
+        "genre": [
+          "THEORYMEDIA"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/w/index.php?search=The%20Contrarian%20Peter%20Thiel",
+        "url_en": "https://en.wikipedia.org/w/index.php?search=The%20Contrarian%20Peter%20Thiel",
+        "note": "ティールを軸にシリコンバレーの「権力志向」を描く決定版ルポ。政治化の理解に最適。",
+        "note_en": "Definitive Thiel power-biography"
+      }
+    ],
+    "2022": [
+      {
+        "label": "Unqualified Reservations（再編集版）第1巻",
+        "label_en": "Unqualified Reservations: Volume 1",
+        "startYear": "2022",
+        "genre": [
+          "THEORYMEDIA"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/w/index.php?search=Unqualified%20Reservations%20Mencius%20Moldbug",
+        "url_en": "https://en.wikipedia.org/wiki/Curtis_Yarvin",
+        "note": "ヤーヴィン（モールドバグ）の反民主主義ブログを書籍化。NRx語彙の源泉。",
+        "note_en": "Print edition of Yarvin’s anti-democracy blog"
+      }
+    ],
+    "2023": [
+      {
+        "label": "テクノ楽観主義マニフェスト",
+        "label_en": "The Techno-Optimist Manifesto",
+        "startYear": "2023",
+        "genre": [
+          "THEORYMEDIA"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/w/index.php?search=テクノオプティミスト・マニフェスト",
+        "url_en": "https://a16z.com/the-techno-optimist-manifesto/",
+        "note": "規制より加速を掲げる象徴文書。e/acc的言説の旗印として頻繁に参照される。",
+        "note_en": "Iconic pro-acceleration text"
+      },
+      {
+        "label": "イーロン・マスク（アイザックソン）",
+        "label_en": "Elon Musk",
+        "startYear": "2023",
+        "genre": [
+          "THEORYMEDIA"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/w/index.php?search=イーロン・マスク%20アイザックソン",
+        "url_en": "https://en.wikipedia.org/w/index.php?search=Elon%20Musk%20Isaacson%20book",
+        "note": "公認伝記。意思決定の癖とX買収前後の政治化の地続きを追える。",
+        "note_en": "Authorized biography"
+      }
+    ],
+    "2024": [
+      {
+        "label": "シンギュラリティはより近く",
+        "label_en": "The Singularity Is Nearer: When We Merge with AI",
+        "startYear": "2024",
+        "genre": [
+          "COMPUTER",
+          "THEORYMEDIA"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/w/index.php?search=The%20Singularity%20Is%20Nearer",
+        "url_en": "https://en.wikipedia.org/wiki/The_Singularity_Is_Nearer",
+        "note": "『近い』の続編。AIと人間の融合を前提に未来予測を更新し、加速観を補強。",
+        "note_en": "Sequel updating the merger-with-AI thesis"
+      },
+      {
+        "label": "キャラクター・リミット（X買収）",
+        "label_en": "Character Limit: How Elon Musk Destroyed Twitter",
+        "startYear": "2024",
+        "genre": [
+          "THEORYMEDIA"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/w/index.php?search=Character%20Limit%20Musk%20Twitter",
+        "url_en": "https://en.wikipedia.org/wiki/Character_Limit:_How_Elon_Musk_Destroyed_Twitter",
+        "note": "X買収を「言論インフラ＝政治権力」の事件として追う決定本。マスク右傾化の転換点。",
+        "note_en": "Definitive account of X/Twitter takeover as political power infrastructure"
+      },
+      {
+        "label": "サプレマシー（AI覇権）",
+        "label_en": "Supremacy: AI, ChatGPT and the Race That Will Change the World",
+        "startYear": "2024",
+        "genre": [
+          "COMPUTER",
+          "THEORYMEDIA"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/w/index.php?search=Supremacy%20Parmy%20Olson",
+        "url_en": "https://en.wikipedia.org/wiki/Supremacy_(book)",
+        "note": "OpenAIとDeepMind/Googleの競争を軸にAI覇権レースを描く。権力化するAI産業の俯瞰。",
+        "note_en": "Explains the AI race via OpenAI vs DeepMind/Google"
       }
     ],
     "2025": [
@@ -2589,6 +2831,45 @@
         "label_en": "The Apple II Age: How the Computer Became Personal（Laine Nooney）",
         "url_en": "https://www.amazon.com/dp/0226816524/&https://m.media-amazon.com/images/I/41ej3HdnjeL.SY445_SX342_FMwebp.jpg",
         "note_en": "A historical book that comprehensively describes how the Apple II, which pioneered the early days of personal computers in the 1970s and 80s, contributed to the establishment of the software market in various fields such as home, business, and education. The author, specializing in the historical, cultural, and economic analysis of the video game and computer industry, provides a detailed account of the culture, technological innovation, and market dynamics of the time. This is a valuable book for understanding the dawn of the personal computer era.(E)"
+      },
+      {
+        "label": "グレイ・ミラー（書籍版）第1冊",
+        "label_en": "Gray Mirror: Fascicle I: Disturbance",
+        "startYear": "2025",
+        "genre": [
+          "THEORYMEDIA"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/w/index.php?search=Gray%20Mirror%20Curtis%20Yarvin",
+        "url_en": "https://www.amazon.com/Gray-Mirror-Fascicle-I-Disturbance-ebook/dp/B0FZ6QKY36",
+        "note": "ヤーヴィンの新シリーズを書籍化。反民主主義の制度設計案を“本”として提示する動き。",
+        "note_en": "Yarvin’s new print series"
+      },
+      {
+        "label": "ギルデッド・レイジ",
+        "label_en": "Gilded Rage: Elon Musk and the Radicalization of Silicon Valley",
+        "startYear": "2025",
+        "genre": [
+          "THEORYMEDIA"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/w/index.php?search=Gilded%20Rage%20Jacob%20Silverman",
+        "url_en": "https://www.bloomsbury.com/us/gilded-rage-9781399419987/",
+        "note": "マスクを軸にシリコンバレーが民主主義へ敵対的に“急進化”する過程を30年スパンで解説。",
+        "note_en": "A clear map of Silicon Valley’s radicalization against democracy over ~30 years, via Musk."
+      },
+      {
+        "label": "ナード・ライヒ",
+        "label_en": "The Nerd Reich: Silicon Valley Fascism and the War on Democracy",
+        "startYear": "2025",
+        "genre": [
+          "THEORYMEDIA"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/w/index.php?search=The%20Nerd%20Reich%20Gil%20Duran",
+        "url_en": "https://www.simonandschuster.com/books/The-Nerd-Reich/Gil-Duran/9781668221402",
+        "note": "テック権力が反民主主義運動へ接続する流れを通史的に描く。用語は強いが全体像に便利。",
+        "note_en": "Chronicle of tech-authoritarian movement"
       }
     ]
   },
