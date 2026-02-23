@@ -714,15 +714,14 @@
       },
       {
         "label": "無限と心（ルーディ・ラッカー著、和田純夫ほか訳）",
-        "label_en": "Infinity and the Mind: The Science and Philosophy of the Infinite(Rudy Rucker)",
-        "startYear": 1986,
+        "startYear": "1986",
         "genre": [
           "SCIENCE"
         ],
         "imp": 3,
-        "url": "https://www.amazon.co.jp/%E7%84%A1%E9%99%90%E3%81%A8%E5%BF%83%E2%80%95%E7%84%A1%E9%99%90%E3%81%AE%E7%A7%91%E5%AD%A6%E3%81%A8%E5%93%B2%E5%AD%A6-%E5%A5%BD%E7%94%B0-%E9%A0%86%E6%B2%BB/dp/4768700934",
-        "url_en": "https://en.wikipedia.org/wiki/Infinity_and_the_Mind",
         "note": "カントールの集合論からゲーデルの不完全性定理、多重宇宙や時間旅行まで、「無限」という概念を数学・哲学・SF的想像力で横断的に語った名著。ラッカーらしい軽妙な文体で、高度な数理もポップに紹介される。/「数学×ドラッグなしサイケデリック体験」みたいな読後感の本です。無限集合や超限数はもちろん、ゲーデル宇宙や多世界解釈まで出てくるので、現代のAIが扱う“巨大だけど有限な計算”との対比で読むと、逆にAIの限界も見えてきます。",
+        "label_en": "Infinity and the Mind: The Science and Philosophy of the Infinite(Rudy Rucker)",
+        "url_en": "https://en.wikipedia.org/wiki/Infinity_and_the_Mind",
         "note_en": "A masterpiece that discusses the concept of \"infinity\" cross-sectionally with mathematics, philosophy, and SF imagination, ranging from Cantor's set theory to Gödel's incompleteness theorems, multiverse, and time travel. With Rucker's characteristic witty style, advanced mathematics is introduced in a pop manner./A book with a post-reading sensation like \"mathematics x psychedelic experience without drugs.\" Since it covers infinite sets, transfinite numbers, Gödel's universe, and the many-worlds interpretation, reading it in contrast to the \"huge but finite calculations\" handled by modern AI reveals the limits of AI in reverse."
       },
       {
