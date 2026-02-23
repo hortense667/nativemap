@@ -2707,15 +2707,14 @@
       },
       {
         "label": "異端者（ティール伝）",
-        "label_en": "The Contrarian: Peter Thiel and Silicon Valley’s Pursuit of Power",
         "startYear": "2021",
         "genre": [
           "THEORYMEDIA"
         ],
         "imp": 5,
-        "url": "https://ja.wikipedia.org/w/index.php?search=The%20Contrarian%20Peter%20Thiel",
-        "url_en": "https://en.wikipedia.org/w/index.php?search=The%20Contrarian%20Peter%20Thiel",
         "note": "ティールを軸にシリコンバレーの「権力志向」を描く決定版ルポ。政治化の理解に最適。",
+        "label_en": "The Contrarian: Peter Thiel and Silicon Valley’s Pursuit of Power",
+        "url_en": "https://www.amazon.co.jp/Contrarian-Peter-Silicon-Valleys-Pursuit/dp/1526619555&https://m.media-amazon.com/images/I/81xqJ+Wo0NL._SY466_.jpg",
         "note_en": "Definitive Thiel power-biography"
       }
     ],
