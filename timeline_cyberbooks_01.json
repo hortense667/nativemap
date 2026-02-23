@@ -2750,15 +2750,15 @@
       },
       {
         "label": "イーロン・マスク（アイザックソン）",
-        "label_en": "Elon Musk",
         "startYear": "2023",
         "genre": [
           "THEORYMEDIA"
         ],
         "imp": 4,
-        "url": "https://ja.wikipedia.org/w/index.php?search=イーロン・マスク%20アイザックソン",
-        "url_en": "https://en.wikipedia.org/w/index.php?search=Elon%20Musk%20Isaacson%20book",
+        "url": "https://www.amazon.co.jp/dp/B0C5QMW1JY/",
         "note": "公認伝記。意思決定の癖とX買収前後の政治化の地続きを追える。",
+        "label_en": "Elon Musk",
+        "url_en": "https://en.wikipedia.org/w/index.php?search=Elon%20Musk%20Isaacson%20book",
         "note_en": "Authorized biography"
       }
     ],
