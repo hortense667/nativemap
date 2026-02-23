@@ -2695,15 +2695,14 @@
     "2021": [
       {
         "label": "ネットワーク・ステート",
-        "label_en": "The Network State: How to Start a New Country",
         "startYear": "2021",
         "genre": [
           "THEORYMEDIA"
         ],
         "imp": 5,
-        "url": "https://ja.wikipedia.org/w/index.php?search=ネットワーク国家%20The%20Network%20State",
-        "url_en": "https://en.wikipedia.org/wiki/The_Network_State",
         "note": "オンライン共同体から国家を“起業”する構想。Exit/国家再設計の現代テキスト。",
+        "label_en": "The Network State: How to Start a New Country",
+        "url_en": "https://en.wikipedia.org/wiki/The_Network_State",
         "note_en": "Blueprint for “starting a country” from online communities"
       },
       {
