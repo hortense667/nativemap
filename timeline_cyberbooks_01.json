@@ -2723,15 +2723,15 @@
     "2022": [
       {
         "label": "Unqualified Reservations（再編集版）第1巻",
-        "label_en": "Unqualified Reservations: Volume 1",
         "startYear": "2022",
         "genre": [
           "THEORYMEDIA"
         ],
         "imp": 4,
-        "url": "https://ja.wikipedia.org/w/index.php?search=Unqualified%20Reservations%20Mencius%20Moldbug",
-        "url_en": "https://en.wikipedia.org/wiki/Curtis_Yarvin",
+        "url": "https://ja.wikipedia.org/wiki/%E3%82%AB%E3%83%BC%E3%83%86%E3%82%A3%E3%82%B9%E3%83%BB%E3%83%A4%E3%83%BC%E3%83%B4%E3%82%A3%E3%83%B3",
         "note": "ヤーヴィン（モールドバグ）の反民主主義ブログを書籍化。NRx語彙の源泉。",
+        "label_en": "Unqualified Reservations: Volume 1",
+        "url_en": "https://en.wikipedia.org/wiki/Curtis_Yarvin",
         "note_en": "Print edition of Yarvin’s anti-democracy blog"
       }
     ],
