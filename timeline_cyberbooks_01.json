@@ -2766,16 +2766,16 @@
     "2024": [
       {
         "label": "シンギュラリティはより近く",
-        "label_en": "The Singularity Is Nearer: When We Merge with AI",
         "startYear": "2024",
         "genre": [
           "COMPUTER",
           "THEORYMEDIA"
         ],
         "imp": 4,
-        "url": "https://ja.wikipedia.org/w/index.php?search=The%20Singularity%20Is%20Nearer",
-        "url_en": "https://en.wikipedia.org/wiki/The_Singularity_Is_Nearer",
+        "url": "https://ja.wikipedia.org/wiki/%E3%82%B7%E3%83%B3%E3%82%AE%E3%83%A5%E3%83%A9%E3%83%AA%E3%83%86%E3%82%A3%E3%81%AF%E3%82%88%E3%82%8A%E8%BF%91%E3%81%8F",
         "note": "『近い』の続編。AIと人間の融合を前提に未来予測を更新し、加速観を補強。",
+        "label_en": "The Singularity Is Nearer: When We Merge with AI",
+        "url_en": "https://en.wikipedia.org/wiki/The_Singularity_Is_Nearer",
         "note_en": "Sequel updating the merger-with-AI thesis"
       },
       {
