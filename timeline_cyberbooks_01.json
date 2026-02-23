@@ -2738,15 +2738,14 @@
     "2023": [
       {
         "label": "テクノ楽観主義マニフェスト",
-        "label_en": "The Techno-Optimist Manifesto",
         "startYear": "2023",
         "genre": [
           "THEORYMEDIA"
         ],
         "imp": 4,
-        "url": "https://ja.wikipedia.org/w/index.php?search=テクノオプティミスト・マニフェスト",
-        "url_en": "https://a16z.com/the-techno-optimist-manifesto/",
         "note": "規制より加速を掲げる象徴文書。e/acc的言説の旗印として頻繁に参照される。",
+        "label_en": "The Techno-Optimist Manifesto",
+        "url_en": "https://a16z.com/the-techno-optimist-manifesto/",
         "note_en": "Iconic pro-acceleration text"
       },
       {
