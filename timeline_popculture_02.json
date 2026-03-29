@@ -1065,20 +1065,6 @@
     ],
     "1963": [
       {
-        "label": "大河ドラマ",
-        "label_en": "Taiga drama",
-        "startYear": 1963,
-        "genre": [
-          "JAPAN",
-          "TVP"
-        ],
-        "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/大河ドラマ",
-        "url_en": "https://en.wikipedia.org/wiki/Taiga_drama",
-        "note": "NHKの大型歴史ドラマ枠。",
-        "note_en": "NHK’s annual historical drama series."
-      },
-      {
         "label": "コンパクトカセット",
         "label_en": "Compact Cassette",
         "startYear": 1963,
@@ -1147,6 +1133,21 @@
         "url_en": "https://en.wikipedia.org/wiki/Blowin%27_in_the_Wind",
         "note": "公民権運動の象徴的フォーク曲。",
         "note_en": "Anthemic folk song of civil rights era."
+      },
+      {
+        "label": "大河ドラマ",
+        "startYear": "1963",
+        "genre": [
+          "TVP",
+          "JAPAN"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/大河ドラマ",
+        "note": "NHKの大型歴史ドラマ枠",
+        "label_en": "Taiga drama",
+        "url_en": "https://en.wikipedia.org/wiki/Taiga_drama",
+        "note_en": "NHK’s annual historical drama series.",
+        "_rev": "1774806139107-y6e9tlla"
       }
     ],
     "1964": [
