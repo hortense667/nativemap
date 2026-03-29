@@ -1395,19 +1395,6 @@
     ],
     "1966": [
       {
-        "label": "ナガシマスパーランド",
-        "label_en": "Nagashima Spa Land",
-        "startYear": 1966,
-        "genre": [
-          "EVT",
-          "JAPAN"
-        ],
-        "imp": 2,
-        "url": "https://ja.wikipedia.org/wiki/ナガシマスパーランド",
-        "note": "三重の大型レジャー施設。",
-        "note_en": "Major amusement park in Mie, Japan."
-      },
-      {
         "label": "ウルトラマン",
         "label_en": "Ultraman",
         "startYear": 1966,
@@ -1506,6 +1493,20 @@
         "url_en": "https://en.wikipedia.org/wiki/Pet_Sounds",
         "note": "ポップ史に残る名盤。",
         "note_en": "One of pop’s most acclaimed albums."
+      },
+      {
+        "label": "ナガシマスパーランド",
+        "startYear": "1966",
+        "genre": [
+          "EVT",
+          "JAPAN"
+        ],
+        "imp": 2,
+        "url": "https://ja.wikipedia.org/wiki/ナガシマスパーランド",
+        "note": "三重の大型レジャー施設",
+        "label_en": "Nagashima Spa Land",
+        "note_en": "Major amusement park in Mie, Japan.",
+        "_rev": "1774806176417-luibo0t2"
       }
     ],
     "1967": [
