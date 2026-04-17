@@ -5359,6 +5359,20 @@
         "note_en": "De facto vector graphics tool."
       },
       {
+        "label": "NTT 携帯電話（TZ-802型）",
+        "label_en": "NTT mobile phone (TZ-802)",
+        "startYear": 1987,
+        "genre": [
+          "HAR-MOB",
+          "JAPAN"
+        ],
+        "imp": 2,
+        "url": "https://ja.wikipedia.org/wiki/携帯電話",
+        "url_en": "https://en.wikipedia.org/wiki/Nippon_Telegraph_and_Telephone",
+        "note": "初期携帯の大型端末。",
+        "note_en": "Early large-format mobile handset in Japan."
+      },
+      {
         "label": "MINIX",
         "label_en": "MINIX",
         "startYear": 1987,
@@ -5619,20 +5633,6 @@
         "url_en": "https://en.wikipedia.org/wiki/PC-9800_series",
         "note": "国内PC市場を席巻した国産シリーズ。",
         "note_en": "Dominant Japanese PC lineup of the era."
-      },
-      {
-        "label": "NTT 携帯電話（TZ-802型）",
-        "label_en": "NTT mobile phone (TZ-802)",
-        "startYear": 1987,
-        "genre": [
-          "HAR-MOB",
-          "JAPAN"
-        ],
-        "imp": 2,
-        "url": "https://ja.wikipedia.org/wiki/携帯電話",
-        "url_en": "https://en.wikipedia.org/wiki/Nippon_Telegraph_and_Telephone",
-        "note": "初期携帯の大型端末。",
-        "note_en": "Early large-format mobile handset in Japan."
       },
       {
         "label": "NTT携帯電話サービス開始",
