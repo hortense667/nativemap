@@ -63,14 +63,15 @@
     "1885": [
       {
         "label": "Logic machine",
-        "label_en": "Logic machine",
-        "startYear": 1885,
+        "startYear": "1885",
         "genre": [
           "HARDWARE"
         ],
         "imp": 3,
-        "note": "アラン・マーカンドが設計した電気式論理機械。論理的推論を機械化する初期の試み。",
-        "note_en": "An electric logic machine designed by Allan Marquand, an early attempt to mechanize logical reasoning."
+        "note": "アラン・マーカンドが設計した電気式論理機械。論理的推論を機械化する初期の試み",
+        "label_en": "Logic machine",
+        "note_en": "An electric logic machine designed by Allan Marquand, an early attempt to mechanize logical reasoning.",
+        "_rev": "1777393636400-m9wnwvna"
       }
     ],
     "1890": [
