@@ -239,18 +239,6 @@
     ],
     "1950": [
       {
-        "label": "ニュー・オーリンズR&B",
-        "label_en": "New Orleans R&B",
-        "startYear": 1950,
-        "genre": [
-          "MUS"
-        ],
-        "imp": 3,
-        "url_en": "https://en.wikipedia.org/wiki/New_Orleans_rhythm_and_blues",
-        "note": "ピアノ中心のグルーヴが後のロックへ影響。",
-        "note_en": "Piano-driven grooves influencing rock."
-      },
-      {
         "label": "羅生門",
         "startYear": "1950",
         "genre": [
@@ -264,6 +252,19 @@
         "url_en": "https://en.wikipedia.org/wiki/Rashomon",
         "note_en": "Kurosawa’s classic probing truth via multiple viewpoints.",
         "_rev": "1786773222530-n3zd6hja"
+      },
+      {
+        "label": "ニュー・オーリンズR&B",
+        "startYear": "1950",
+        "genre": [
+          "MUS"
+        ],
+        "imp": 3,
+        "note": "ピアノ中心のグルーヴが後のロックへ影響。",
+        "label_en": "New Orleans R&B",
+        "url_en": "https://en.wikipedia.org/wiki/New_Orleans_rhythm_and_blues",
+        "note_en": "Piano-driven grooves influencing rock",
+        "_rev": "1786773255911-zeuz4s0k"
       }
     ],
     "1951": [
